@@ -38,7 +38,7 @@ This skill must not:
 - `manifest_path` for a local `target: youtube_shorts` publish package
 - validated keeper final metadata: `source_final.disposition: keep`, `source_final.reel_class: keeper short`, and `source_final.may_publish: true`
 - upload MP4, title, description, tags, SRT, cover frame, review, final manifest, and declared SHA-256 values
-- title, description, hashtags, and tags drafted or QA'd through [/Users/mike/Agents_CascadeEffects/references/skills/youtube_metadata_copywriting_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_metadata_copywriting_v1/SKILL.md), with public tags limited to viewer-facing search intent and episode-central entities
+- title, description, hashtags, and tags drafted or QA'd through [/Users/mike/CascadeEffects/ops/agents/skills/youtube_metadata_copywriting_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_metadata_copywriting_v1/SKILL.md), with public tags limited to viewer-facing search intent and episode-central entities
 - YouTube OAuth credentials outside the repo, loaded from environment variables first or `/Users/mike/.config/cascade-effects/youtube/`
 - explicit user confirmation at action time before upload
 - exact `confirm_video_id` before delete
@@ -50,7 +50,7 @@ Upload/status credentials require `youtube.upload` plus `youtube.readonly`. API 
 1. Validate the package.
 
 ```bash
-/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-check /absolute/path/to/youtube_upload_manifest.json
+/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-check /absolute/path/to/youtube_upload_manifest.json
 ```
 
 Block on validation issues. Treat rights, Paper Architecture music, source footage, and Content ID notes as warnings that must be reviewed before public release.
@@ -60,7 +60,7 @@ Block on validation issues. Treat rights, Paper Architecture music, source foota
 Before running upload, get explicit user confirmation for the specific manifest path and `--privacy unlisted`.
 
 ```bash
-/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-upload /absolute/path/to/youtube_upload_manifest.json --privacy unlisted
+/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-upload /absolute/path/to/youtube_upload_manifest.json --privacy unlisted
 ```
 
 The command writes a review upload receipt beside the package with video ID, URL, authenticated channel, privacy, processing status, thumbnail result, validation warnings, and post-upload blockers.
@@ -68,7 +68,7 @@ The command writes a review upload receipt beside the package with video ID, URL
 3. Check status.
 
 ```bash
-/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-status /absolute/path/to/youtube_review_upload_receipt.json
+/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-status /absolute/path/to/youtube_review_upload_receipt.json
 ```
 
 Confirm the upload belongs to the expected channel, remains unlisted, and reaches a stable processing state before Studio review.
@@ -88,7 +88,7 @@ Before public release, a human must verify:
 If a review draft is wrong, ask for exact confirmation in the form `Delete <video_id>` or an equivalent explicit instruction that includes the same video ID.
 
 ```bash
-/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-delete /absolute/path/to/youtube_review_upload_receipt.json --confirm-video-id VIDEO_ID
+/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-delete /absolute/path/to/youtube_review_upload_receipt.json --confirm-video-id VIDEO_ID
 ```
 
 The delete receipt must retain the deleted video ID, confirmation text, verification result, and note that local package paths are retained.

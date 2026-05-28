@@ -19,8 +19,8 @@
 - `caption_timing_source_path`:
 - `audio_package_sha256`:
 - `transcript_sha256`:
-- `style_skill_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/SKILL.md`
-- `subject_render_matrix_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/judgment/subject_render_matrix.md`
+- `style_skill_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/SKILL.md`
+- `subject_render_matrix_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/judgment/subject_render_matrix.md`
 - `exact_dp_imports_used`:
 - `disposition`: `keep|tighten|diagnostic only|reject`
 - `blockers`:

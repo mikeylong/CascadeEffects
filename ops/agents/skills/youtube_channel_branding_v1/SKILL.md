@@ -18,8 +18,8 @@ Paper Architecture is allowed here only because this skill owns YouTube channel-
 ## Required References
 
 - Official guidance snapshot: [references/official_youtube_channel_branding_guidance_2026-05-17.md](references/official_youtube_channel_branding_guidance_2026-05-17.md)
-- Cascade Effects visual source of truth: [/Users/mike/Web_CascadeEffects/brand](/Users/mike/Web_CascadeEffects/brand)
-- Channel/profile icon keep package: [/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z](/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z)
+- Cascade Effects visual source of truth: [/Users/mike/CascadeEffects/apps/web/brand](/Users/mike/CascadeEffects/apps/web/brand)
+- Channel/profile icon keep package: [/Users/mike/CascadeEffects/archive/season-01-reference/channel/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z](/Users/mike/CascadeEffects/archive/season-01-reference/channel/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z)
 - Paper Architectures visual guidance: [/Users/mike/.codex/skills/cascade-paper-architectures/SKILL.md](/Users/mike/.codex/skills/cascade-paper-architectures/SKILL.md)
 
 Refresh the official guidance before implementation when the snapshot is more than 90 days old, when YouTube UI/requirements appear to have changed, or when the user asks for current/latest requirements.

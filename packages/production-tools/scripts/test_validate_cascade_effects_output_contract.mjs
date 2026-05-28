@@ -6,13 +6,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = path.resolve(__dirname, "..");
-const VALIDATOR = path.join(REPO_ROOT, "scripts/validate_cascade_effects_output_contract.mjs");
-const FIXTURES = path.join(REPO_ROOT, "tests/fixtures/cascade_effects_output_contract");
+const PRODUCTION_TOOLS_ROOT = path.resolve(__dirname, "..");
+const VALIDATOR = path.join(PRODUCTION_TOOLS_ROOT, "scripts/validate_cascade_effects_output_contract.mjs");
+const FIXTURES = path.join(PRODUCTION_TOOLS_ROOT, "tests/fixtures/cascade_effects_output_contract");
 
 function runValidator(args) {
   const result = spawnSync("node", [VALIDATOR, ...args, "--json"], {
-    cwd: REPO_ROOT,
+    cwd: PRODUCTION_TOOLS_ROOT,
     encoding: "utf8",
     maxBuffer: 1024 * 1024 * 16,
   });

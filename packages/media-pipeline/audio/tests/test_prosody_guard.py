@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 
-REPO_ROOT = Path("/Users/mike/Audio_CascadeEffects")
+REPO_ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/audio")
 PROSODY_GUARD_PATH = REPO_ROOT / "scripts" / "prosody_guard.py"
 
 

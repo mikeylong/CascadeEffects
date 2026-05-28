@@ -1,13 +1,13 @@
 # Episode Production Pilot Template
 
-Deprecated: this long-form draft template is inactive and must not be used for current YouTube Shorts production. Use `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/templates/short_production_pilot_template.md` instead.
+Deprecated: this long-form draft template is inactive and must not be used for current YouTube Shorts production. Use `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/templates/short_production_pilot_template.md` instead.
 
 ## Episode
 
 - `episode_id`:
 - `script_path`:
 - `manifest_path`:
-- `governing_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/episode_production_v1/SKILL.md`
+- `governing_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/episode_production_v1/SKILL.md`
 - `style_skill_path`:
 - `promotion_workflow_path`:
 - `keeper_registry_path`:

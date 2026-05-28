@@ -22,7 +22,7 @@ Use this reference with `youtube_shorts_production_v1/SKILL.md` when routing `vi
 ## Motif Outro Mix Policy
 
 - Final music beds, loops, and theme outros are final-export finishing layers, not ElevenLabs audio-stage renders.
-- Active Shorts default to `music_policy: canonical_default` and `music_track_id: paper_architecture_theme_v1` from `/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`, unless the coordinator records a waiver or registry-backed alternate.
+- Active Shorts default to `music_policy: canonical_default` and `music_track_id: paper_architecture_theme_v1` from `/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json`, unless the coordinator records a waiver or registry-backed alternate.
 - The Signature Consequence Motif remains the semantic close. Music should make the ending feel inevitable, not compete with the words.
 - The body loop should sit under narration. The outro may enter quietly before the motif ends, then ramp after the final motif word resolves.
 - If the outro feels cut off, start with a short final-frame hold of about `0.5-0.75` seconds rather than compressing the music ramp into the existing picture duration. When the registered track's `outro_completion_policy` requires completion, extend the visual duration long enough for the outro to finish; if that creates a visible freeze, use approved no-audio continuation footage as `source_motion_tail` when available.
@@ -31,7 +31,7 @@ Use this reference with `youtube_shorts_production_v1/SKILL.md` when routing `vi
 
 ## Final-Export Handoff
 
-Route final assembly to [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/SKILL.md) only after an approved `motion video proof`.
+Route final assembly to [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md) only after an approved `motion video proof`.
 
 The final-export request must include:
 

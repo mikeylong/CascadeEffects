@@ -17,18 +17,18 @@ The long-form video is the canonical episode. Existing Shorts are bridge assets 
 
 ## Required References
 
-- Series strategy and mechanism alignment: [/Users/mike/Agents_CascadeEffects/references/skills/cascade_effects_series_bible_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/cascade_effects_series_bible_v1/SKILL.md)
-- Brand visual source of truth: [/Users/mike/Web_CascadeEffects/brand](/Users/mike/Web_CascadeEffects/brand)
-- Design-system contract: [/Users/mike/Web_CascadeEffects/brand/contracts/design-system.contract.md](/Users/mike/Web_CascadeEffects/brand/contracts/design-system.contract.md)
-- Illustration contract: [/Users/mike/Web_CascadeEffects/brand/contracts/illustration.contract.md](/Users/mike/Web_CascadeEffects/brand/contracts/illustration.contract.md)
-- YouTube channel asset package: [/Users/mike/Web_CascadeEffects/brand/packages/youtube-channel.package.json](/Users/mike/Web_CascadeEffects/brand/packages/youtube-channel.package.json)
-- Living Cover system spec: [/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md](/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md)
-- Episode visual-system baselines: [/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json](/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json)
-- Production output contract registry: [/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json](/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json)
-- Publish-readiness backfill prompt: [/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/publish_readiness_backfill_prompt.md](/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/publish_readiness_backfill_prompt.md)
-- VO/outro blend backfill prompt: [/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/vo_outro_blend_backfill_prompt.md](/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/vo_outro_blend_backfill_prompt.md)
-- YouTube metadata copywriting: [/Users/mike/Agents_CascadeEffects/references/skills/youtube_metadata_copywriting_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_metadata_copywriting_v1/SKILL.md)
-- Shorts production, only for new or revised Shorts: [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md)
+- Series strategy and mechanism alignment: [/Users/mike/CascadeEffects/ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md)
+- Brand visual source of truth: [/Users/mike/CascadeEffects/apps/web/brand](/Users/mike/CascadeEffects/apps/web/brand)
+- Design-system contract: [/Users/mike/CascadeEffects/apps/web/brand/contracts/design-system.contract.md](/Users/mike/CascadeEffects/apps/web/brand/contracts/design-system.contract.md)
+- Illustration contract: [/Users/mike/CascadeEffects/apps/web/brand/contracts/illustration.contract.md](/Users/mike/CascadeEffects/apps/web/brand/contracts/illustration.contract.md)
+- YouTube channel asset package: [/Users/mike/CascadeEffects/apps/web/brand/packages/youtube-channel.package.json](/Users/mike/CascadeEffects/apps/web/brand/packages/youtube-channel.package.json)
+- Living Cover system spec: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md)
+- Episode visual-system baselines: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json)
+- Production output contract registry: [/Users/mike/CascadeEffects/packages/contracts/cascade_effects_output_contracts.v1.json](/Users/mike/CascadeEffects/packages/contracts/cascade_effects_output_contracts.v1.json)
+- Publish-readiness backfill prompt: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/publish_readiness_backfill_prompt.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/publish_readiness_backfill_prompt.md)
+- VO/outro blend backfill prompt: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/vo_outro_blend_backfill_prompt.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/vo_outro_blend_backfill_prompt.md)
+- YouTube metadata copywriting: [/Users/mike/CascadeEffects/ops/agents/skills/youtube_metadata_copywriting_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_metadata_copywriting_v1/SKILL.md)
+- Shorts production, only for new or revised Shorts: [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md)
 
 ## Scope
 
@@ -65,7 +65,7 @@ This skill must not:
 ## Core Rules
 
 - Long-form videos are watchable audio essays: audio-first, video-aware, easy to produce, and still worth looking at.
-- Local HTML media reviews must be served through the repo range server, never `python -m http.server`, plain `file://`, or another server that has not passed a `Range: bytes=0-1023` probe. Before giving a local review URL for any long-form proof, final, publish-readiness package, or other page with audio/video scrubbing, start or verify `node scripts/range_static_server.mjs 8766 /Users/mike/Episodes_CascadeEffects`, then run `node scripts/probe_review_range_server.mjs REVIEW_URL`. The probe must return `206 Partial Content` plus `Accept-Ranges: bytes` and `Content-Range`; record/pass `html_range_server_read` or the packet-specific equivalent. If the probe fails, stop and fix the server before asking for human review.
+- Local HTML media reviews must be served through the repo range server, never `python -m http.server`, plain `file://`, or another server that has not passed a `Range: bytes=0-1023` probe. Before giving a local review URL for any long-form proof, final, publish-readiness package, or other page with audio/video scrubbing, start or verify `node scripts/range_static_server.mjs 8766 /Users/mike/CascadeEffects/archive/season-01-reference/original-episodes`, then run `node scripts/probe_review_range_server.mjs REVIEW_URL`. The probe must return `206 Partial Content` plus `Accept-Ranges: bytes` and `Content-Range`; record/pass `html_range_server_read` or the packet-specific equivalent. If the probe fails, stop and fix the server before asking for human review.
 - Long-form audio render authorization is a hard pre-audio gate. Before sending any long-form script to ElevenLabs, OpenAI, or another TTS provider, the exact script revision must have: `frontier_model_script_critique_read: pass`, `critique_integration_read: pass`, and `human_script_approval_for_audio_read: pass`.
 - Claude is the default frontier-model script critic unless unavailable or explicitly replaced by a human-approved equivalent frontier model. Record the critic model/tool, critique prompt or transcript path/hash, script path/hash reviewed, critique summary, required changes, integration/defer rationale, post-integration script path/hash, and final human approval artifact.
 - A TOML `script.status = "locked"` value is not enough to authorize long-form audio rendering. It only identifies the candidate source text; it does not satisfy frontier critique, integration, or human approval.
@@ -88,9 +88,9 @@ This skill must not:
 - Music-only intros must start in a readable settled rail state. When `storyTimeAt(audioTime)` clamps to `0` before voice start, do not let the first chapter stay at transition phase `0`; the first active title, summary, active panel, and relevant context rows must be visible at `t=0`, mid-intro, and voice start unless a human-approved cold-open override scopes a different treatment. Rough proofs must record `intro_rail_readiness_read`, `intro_active_title_read`, `intro_summary_legibility_read`, `intro_context_readability_read`, and `intro_transition_completion_read`.
 - Therac/Challenger regression rule: do not use an under-opening-voice bed plus a short 15-second tail when the user request or series precedent says to match Challenger. Use music-only intro, voice offset, fade tail, and full outro; if an episode intentionally differs, record the alternate contract and human rationale.
 - A `no_music_or_temp_music_waiver_read` can pass only when a human-approved waiver names the episode/output, gives the rationale, states the affected proof/final/publish gates, and records the next required music action. Missing music is otherwise a blocker, not an implicit temporary state.
-- Use [/Users/mike/Web_CascadeEffects/brand](/Users/mike/Web_CascadeEffects/brand) as the visual source of truth before making new visual choices.
+- Use [/Users/mike/CascadeEffects/apps/web/brand](/Users/mike/CascadeEffects/apps/web/brand) as the visual source of truth before making new visual choices.
 - Before changing or generating a long-form Living Cover backplate for an episode with an existing baseline, load the episode visual-system baseline index and the episode baseline doc. Treat the baseline as the active episode visual truth unless a human explicitly approves a deviation. Record the baseline path, baseline status, active source-art path/hash, source manifest path/hash, inherited required reads, and any deliberate deviation in the visual-system plan or source-art manifest. Do not import known superseded artifacts as active source art.
-- For Living Cover visual-system and rough-assembly work, use `living_cover_system_v1` from [/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md](/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md). Default to `fixed_16x9_right_rail_v1` with human-reviewed overrides only.
+- For Living Cover visual-system and rough-assembly work, use `living_cover_system_v1` from [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md). Default to `fixed_16x9_right_rail_v1` with human-reviewed overrides only.
 - For first-eight long-form episodes, the active right-rail content model is `rolling_caption_anchor_v1` and the active caption display model is `rolling_rail_caption_window_v1`. Preserve the fixed rail geometry (`760px` width, `52px` right/top/bottom inset), remove the old previous/upcoming context list, suppress top title/chapter copy for caption-only review unless a minimal anchor is explicitly enabled, and place the rolling caption window in the middle/right of the rail. Use `script_locked_chunk_split_v1`, `hidden_in_render_mode`, and `reviewed_cue_map_spans_only`.
 - For Living Cover captioning, use `living_cover_captioning_process_v1` from the Living Cover system spec. Captions are required by default: every Living Cover visual-system, rough-proof, final-assembly, and publish-readiness packet must record caption provenance, caption QA, and `caption_output_model: dual_visible_rail_and_youtube_vtt_sidecar` unless a human-approved waiver is recorded.
 - Living Cover caption text must be script-locked: the locked narration script is the only allowed source of visible caption words. ASR, WhisperX, VTT, and SRT artifacts may supply timing only. Rough-proof, final-assembly, and publish-readiness advancement is blocked unless `caption_text_matches_script_read`, `caption_alignment_coverage_read`, and `caption_asr_text_not_used_read` are present and passing.
@@ -169,7 +169,7 @@ Take stock episode by episode:
 - long-form audio status
 - existing Short status and whether it can serve as a Related Video bridge
 - outro/music status, including Paper Architecture motif availability and rights notes
-- brand illustration, design-system, and package assets available from `/Users/mike/Web_CascadeEffects/brand`
+- brand illustration, design-system, and package assets available from `/Users/mike/CascadeEffects/apps/web/brand`
 - captions, chapters, titles, thumbnails, descriptions, and end-screen status
 - rights, Content ID, source, or approval blockers
 - next action for each episode
@@ -203,7 +203,7 @@ Block if the mechanism is vague or if the episode package cannot support a chapt
 
 ### 3. Visual System Gate
 
-Approve the episode's living-cover direction against the brand contracts in `/Users/mike/Web_CascadeEffects/brand`.
+Approve the episode's living-cover direction against the brand contracts in `/Users/mike/CascadeEffects/apps/web/brand`.
 
 The plan must include:
 

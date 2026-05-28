@@ -9,13 +9,13 @@ Use this skill when a Cascade Effects YouTube Short needs cinematography plannin
 
 This skill is a specialist called by the Shorts coordinator:
 
-- [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md)
+- [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md)
 
 It designs the shot sequence and controls which visual constraints may become active. It does not render stills, render motion, promote visual assets, revise audio, revise scripts, or export finals.
 
 ## Long-Form Boundary And Visual Lesson Imports
 
-Long-form Living Cover, backplate, source-art, fixed right-rail, visual-system baseline, and publish-readiness visual requests route to [/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/SKILL.md), not to DP shot planning. The long-form skill owns the episode visual-system baseline index and the active backplate rules learned from Challenger, Therac-25, Hyatt Regency, Tacoma Narrows, and successors.
+Long-form Living Cover, backplate, source-art, fixed right-rail, visual-system baseline, and publish-readiness visual requests route to [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/SKILL.md), not to DP shot planning. The long-form skill owns the episode visual-system baseline index and the active backplate rules learned from Challenger, Therac-25, Hyatt Regency, Tacoma Narrows, and successors.
 
 DP may use those long-form outcomes as taste references only. They do not become active Shorts constraints unless the current workflow scope manifest imports the exact artifact or rule and the active episode constraint ledger approves it.
 

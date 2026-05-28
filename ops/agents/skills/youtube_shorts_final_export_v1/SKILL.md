@@ -9,7 +9,7 @@ Use this skill only for the `video final` stage of Cascade Effects YouTube Short
 
 This skill is a specialist reference called by the active coordinator:
 
-- [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md)
+- [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md)
 
 It does not own script, audio, visual research packet, stills contact sheet, stills video proof, motion contact sheet, motion video proof, or local first-second hook review sets. It starts only after the coordinator has approved the `motion video proof` gate and, when a first-second hook retrofit is in scope, after the local hook review has a human `keep`.
 
@@ -82,7 +82,7 @@ If any check fails, return `tighten`, `diagnostic only`, or `reject`; do not cre
 ## Motif Outro Mix Rules
 
 - Treat the spoken Signature Consequence Motif as the semantic ending. The music is a handoff and emotional resolution layer, not a replacement close.
-- Active Shorts default to `music_policy: canonical_default`, `music_track_registry_path: /Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`, and `music_track_id: paper_architecture_theme_v1`.
+- Active Shorts default to `music_policy: canonical_default`, `music_track_registry_path: /Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json`, and `music_track_id: paper_architecture_theme_v1`.
 - Apply music only after approved voice/caption timing is locked. Do not reopen ElevenLabs audio for a bed/outro-only change.
 - If music is waived, record `music_policy: waived`, `motif_outro_mix_used: false`, and a non-empty `music_waiver_reason`; if an alternate is approved, record `music_policy: alternate_approved`, a registry-backed `music_track_id`, and source hashes.
 - The body loop should sit under narration and fade into the outro handoff.
@@ -128,7 +128,7 @@ When the coordinator supplies approved hook context, prepend the `0.75s` cold-fl
 Before captions, rebuild the approved no-caption motion proof into a no-audio picture bed using the global `house_crt_luma_neutral_chroma_signal_interruption_v1` contract with selected visible CRT scanlines (`max_visible_bars_y24_p8`) and Challenger-style randomized signal interruption at eligible story-clip cuts. The source-lineage gate must first reject pre-textured proofs or segment sources and record `source_lineage_read.clean_source_confirmed: true`. The interruption mutates the outgoing footage's final `0.25s` with horizontal analog signal breaks; it is not a full-frame static card. Captions, logos, lower-thirds, and audio must not be present in this motion-only intermediate. The first-eight batch command is:
 
 ```bash
-python3 /Users/mike/Viz_CascadeEffects/scripts/house_crt_static_final_pass.py --visible-scanline-first-eight-final-set
+python3 /Users/mike/CascadeEffects/packages/media-pipeline/viz/scripts/house_crt_static_final_pass.py --visible-scanline-first-eight-final-set
 ```
 
 For later Shorts that have current final/proof provenance in episode TOML, use `--visible-scanline-final-gate --current-final-set`; for a custom final source, use `--visible-scanline-final-gate --final-manifest <final-export-manifest>`. The resulting final-gate manifest is then supplied to final export with `--house-crt-final-gate-manifest` or the backward-compatible `--house-crt-static-manifest`.
@@ -142,7 +142,7 @@ If the coordinator supplied `motif_outro_mix` instructions, mix the approved voi
 For already-approved keeper proofs, prefer the shorter wrapper:
 
 ```bash
-/Users/mike/Viz_CascadeEffects/bin/ce short final-approved <proof-manifest-or-build-dir> \
+/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce short final-approved <proof-manifest-or-build-dir> \
   --proof-review-note <approved-motion-proof-review-note> \
   --caption-style minimal_surreal_editorial_v1
 ```
@@ -156,7 +156,7 @@ Check vertical aspect, audio sync, first-second hook timing when used, caption l
 Record the house CRT/signal-interruption manifest, caption timing path, caption overlay manifest, captioned final MP4, final export manifest, and final review note.
 
 8. Hand off to the coordinator.
-Return a stage packet with `stage: video final`, final paths, disposition, blockers, and `may_advance: false` for any remaining issue. When the final is `keep` and a publish package exists, set the next action to route the package to [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md) for `publish-package-check`, `publish-package-upload --privacy unlisted`, status receipts, and Studio-check guidance. Do not upload from this final-export skill.
+Return a stage packet with `stage: video final`, final paths, disposition, blockers, and `may_advance: false` for any remaining issue. When the final is `keep` and a publish package exists, set the next action to route the package to [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_publish_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_publish_v1/SKILL.md) for `publish-package-check`, `publish-package-upload --privacy unlisted`, status receipts, and Studio-check guidance. Do not upload from this final-export skill.
 
 ## Output Format
 

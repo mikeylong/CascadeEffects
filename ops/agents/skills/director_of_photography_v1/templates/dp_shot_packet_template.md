@@ -6,8 +6,8 @@
 - `episode_id`:
 - `short_id`:
 - `shot_plan_id`: `shot_plan_v2`
-- `coordinator_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md`
-- `dp_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/SKILL.md`
+- `coordinator_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md`
+- `dp_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/SKILL.md`
 - `workflow_scope_manifest_path`:
 - `dp_research_brief_path`:
 - `narration_map_path`:
@@ -42,7 +42,7 @@
 - `archival_hygiene_rule`: `none|strict clean`
 - `archival_source_breadth`: `none|1-3 primary archival videos plus up to 2 backups`
 - `historical_signal_texture_policy`: `none|house_crt_default`
-- `historical_signal_texture_registry_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
+- `historical_signal_texture_registry_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
 - `default_historical_signal_profile_id`: `none|era_1980s_broadcast_crt_v1`
 - `inter_clip_static_policy`: `none|randomized_tv_static_between_story_clips`
 - `source_derived_reanimation_allowed`: `true|false`

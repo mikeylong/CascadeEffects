@@ -64,7 +64,7 @@
 - `youtube_survival_read`: `pass|tighten|reject|not_applicable`
 - `compression_artifact_read`: `pass|tighten|reject|not_applicable`
 - `detail_survival_read`: `pass|tighten|reject|not_applicable`
-- `music_track_registry_path`: `/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`
+- `music_track_registry_path`: `/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json`
 - `music_track_id`:
 - `music_policy`: `canonical_default|waived|alternate_approved`
 - `music_waiver_reason`:

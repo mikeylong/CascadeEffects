@@ -10,10 +10,11 @@ import {
 } from "./living_cover_end_screen_palette_contract.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const REPO_ROOT = path.resolve(__dirname, "..");
+const PRODUCTION_TOOLS_ROOT = path.resolve(__dirname, "..");
+const MONOREPO_ROOT = path.resolve(PRODUCTION_TOOLS_ROOT, "../..");
 const DEFAULT_REGISTRY_PATH = path.join(
-  REPO_ROOT,
-  "references/production_contracts/cascade_effects_output_contracts.v1.json",
+  MONOREPO_ROOT,
+  "packages/contracts/cascade_effects_output_contracts.v1.json",
 );
 const VALID_INTENTS = new Set(["repair", "successor", "experiment"]);
 const PASS_RE = /^(pass|approved|kept|not_applicable)/i;

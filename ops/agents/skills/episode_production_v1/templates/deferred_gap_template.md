@@ -1,6 +1,6 @@
 # Deferred Gap Template
 
-Deprecated: this long-form draft template is inactive and must not be used for current YouTube Shorts production. Use `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/templates/deferred_gap_template.md` instead.
+Deprecated: this long-form draft template is inactive and must not be used for current YouTube Shorts production. Use `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/templates/deferred_gap_template.md` instead.
 
 ## Deferred Gap
 

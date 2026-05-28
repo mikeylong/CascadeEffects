@@ -1,14 +1,14 @@
 version = 1
 
 [paths]
-agents_root = "/Users/mike/CascadeEffects/agents"
-episodes_root = "/Users/mike/CascadeEffects/episodes/season-01"
-audio_root = "/Users/mike/CascadeEffects/audio"
-viz_root = "/Users/mike/CascadeEffects/viz"
+agents_root = "/Users/mike/CascadeEffects/packages/production-tools"
+episodes_root = "/Users/mike/CascadeEffects/episodes/season-02"
+audio_root = "/Users/mike/CascadeEffects/packages/media-pipeline/audio"
+viz_root = "/Users/mike/CascadeEffects/packages/media-pipeline/viz"
 ai_root = "/Users/mike/AI"
 web_root = "/Users/mike/CascadeEffects/apps/web"
-viz_ce_path = "/Users/mike/CascadeEffects/viz/bin/ce"
-orchestrate_helper = "/Users/mike/CascadeEffects/agents/bin/ce-orchestrate"
+viz_ce_path = "/Users/mike/CascadeEffects/packages/media-pipeline/viz/scripts/short.sh"
+orchestrate_helper = "/Users/mike/CascadeEffects/packages/production-tools/bin/ce-orchestrate"
 
 [defaults]
 slate_target_episode_count = 186

@@ -8,7 +8,7 @@ import unittest
 from pathlib import Path
 
 
-ROOT = Path("/Users/mike/Viz_CascadeEffects")
+ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/viz")
 SCRIPT = ROOT / "scripts" / "validate_motion_contact_sheet_contract.py"
 
 

@@ -7,7 +7,7 @@ description: "Plan, evaluate, package, or revise Cascade Effects episode strateg
 
 Use this skill when planning, evaluating, packaging, or revising Cascade Effects episode strategy, season order, title/thumbnail direction, research greenlights, or long-form editorial briefs against the canonical full episode table and first-eight series bible.
 
-Do not use this skill for active Shorts production, audio generation, still or motion judgment, production manifest approval, or fact-check signoff. Route active Shorts production to [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md).
+Do not use this skill for active Shorts production, audio generation, still or motion judgment, production manifest approval, or fact-check signoff. Route active Shorts production to [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md).
 
 ## Outcome Contract
 

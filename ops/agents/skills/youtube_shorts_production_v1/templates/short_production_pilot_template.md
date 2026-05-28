@@ -5,14 +5,14 @@
 - `episode_id`:
 - `short_id`:
 - `canonical_flow`: `fact-checked long-form script -> derived 60-second Short script -> audio -> narration map -> DP scope/research brief -> visual research packet -> production model decision -> visual beatmap -> shot_plan_v2 -> episode constraint ledger -> render authorization check -> stills/keyframe contact sheet -> stills video proof when needed -> motion contact sheet -> shot_timing_edl -> motion video proof -> video final -> publish package -> unlisted review upload -> platform checks -> public release decision -> keeper lesson capsule`
-- `governing_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md`
-- `dp_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/SKILL.md`
-- `final_export_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/SKILL.md`
-- `audio_skill_path`: `/Users/mike/Audio_CascadeEffects/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md`
-- `style_skill_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/SKILL.md`
-- `promotion_workflow_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/judgment/promotion_workflow.md`
+- `governing_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md`
+- `dp_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/SKILL.md`
+- `final_export_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md`
+- `audio_skill_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md`
+- `style_skill_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/SKILL.md`
+- `promotion_workflow_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/judgment/promotion_workflow.md`
 - `keeper_registry_path`:
-- `proof_review_template_path`: `/Users/mike/FluxLab_CascadeEffects/proofs/suites/_proof_review_template.md`
+- `proof_review_template_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-fluxlab/proofs/suites/_proof_review_template.md`
 - `restart_scope`: `challenger_first`
 - `legacy_constraints_inactive_by_default`: `true`
 
@@ -64,8 +64,8 @@
 - `motif_waiver_reason`:
 - `ending_cadence_read`: `pass|tighten|reject`
 - `ending_cadence_reference_package`:
-- `audio_lane_registry_path`: `/Users/mike/Agents_CascadeEffects/references/shorts/audio_lane_registry.json`
-- `voice_profile_registry_path`: `/Users/mike/Audio_CascadeEffects/references/voice_profiles/youtube_shorts_voice_profiles.json`
+- `audio_lane_registry_path`: `/Users/mike/CascadeEffects/packages/production-registry/shorts/audio_lane_registry.json`
+- `voice_profile_registry_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/voice_profiles/youtube_shorts_voice_profiles.json`
 - `audio_blockers`:
 
 ## DP Scope And Constraint Stages
@@ -226,7 +226,7 @@
 - `motif_family`:
 - `closing_motif_caption_preserved`: `true|false`
 - `ending_cadence_read`: `pass|tighten|reject`
-- `music_track_registry_path`: `/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`
+- `music_track_registry_path`: `/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json`
 - `music_track_id`:
 - `music_policy`: `canonical_default|waived|alternate_approved`
 - `music_waiver_reason`:
@@ -250,10 +250,10 @@
 
 ## Publish Package Stage
 
-- `publish_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md`
+- `publish_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_publish_v1/SKILL.md`
 - `publish_package_manifest_path`:
-- `publish_package_check_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-check <manifest_path>`
-- `review_upload_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-upload <manifest_path> --privacy unlisted`
+- `publish_package_check_command`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-check <manifest_path>`
+- `review_upload_command`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-upload <manifest_path> --privacy unlisted`
 - `publish_package_check_status`: `not_run|pass|fail|pass_with_warnings`
 - `review_upload_receipt_path`:
 - `youtube_video_id`:

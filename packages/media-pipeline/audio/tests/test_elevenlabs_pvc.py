@@ -9,7 +9,7 @@ from pathlib import Path
 from unittest import mock
 
 
-REPO_ROOT = Path("/Users/mike/Audio_CascadeEffects")
+REPO_ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/audio")
 SCRIPT_PATH = REPO_ROOT / "scripts" / "elevenlabs_pvc.py"
 CONFIG_PATH = REPO_ROOT / "config" / "voice_profiles.toml"
 

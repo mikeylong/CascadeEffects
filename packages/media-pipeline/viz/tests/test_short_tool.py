@@ -13,7 +13,7 @@ from unittest import mock
 from PIL import Image
 
 
-ROOT = Path("/Users/mike/Viz_CascadeEffects")
+ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/viz")
 SCRIPTS_DIR = ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
@@ -2496,7 +2496,7 @@ class ShortToolTests(unittest.TestCase):
                 source_spec = ROOT / "workflows" / "specs" / family / f"{preset}__{stage}.json"
                 shutil.copy2(source_spec, repo_root / "workflows" / "specs" / family / source_spec.name)
 
-        inventory_source = Path("/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/source_inventory.json")
+        inventory_source = Path("/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/visual_research/source_inventory.json")
         inventory_payload = json.loads(inventory_source.read_text(encoding="utf-8"))
         selected_source_ids = {
             "opening_02",

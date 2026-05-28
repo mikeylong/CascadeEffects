@@ -29,9 +29,9 @@ bin/ce workflow sync all
 bin/ce workflow compare all
 bin/ce video backend status
 bin/ce video backend prepare
-bin/ce workbench init --project /Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_commit_dolly/workbench/project.json --source-image /absolute/path/to/approved.png --episode-id challenger --motion-item-id launch_commit_dolly --behavior "Other period objects clear from frame as Challenger takes focus and blasts off."
-bin/ce workbench serve --project /Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_commit_dolly/workbench/project.json
-bin/ce workbench export-shot --project /Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_commit_dolly/workbench/project.json
+bin/ce workbench init --project /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/launch_commit_dolly/workbench/project.json --source-image /absolute/path/to/approved.png --episode-id challenger --motion-item-id launch_commit_dolly --behavior "Other period objects clear from frame as Challenger takes focus and blasts off."
+bin/ce workbench serve --project /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/launch_commit_dolly/workbench/project.json
+bin/ce workbench export-shot --project /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/launch_commit_dolly/workbench/project.json
 bin/ce render server start
 bin/ce render stage shorts_scene_plate challenger_field_joint_closeup draft_txt2img --set variant_count=8
 bin/ce render stage thumbnail_plate one_red_flag draft_txt2img --set variant_count=8
@@ -48,7 +48,7 @@ bin/ce handoff-stage /absolute/path/to/file.png --from comfy --typography-intent
 bin/ce handoff-i2v /absolute/path/to/staged-file.png --typography auto
 ```
 
-`bin/ce orchestrate ...` delegates to the Agents orchestration helper in `/Users/mike/Agents_CascadeEffects` while keeping one user-facing `ce` surface.
+`bin/ce orchestrate ...` delegates to the Agents orchestration helper in `/Users/mike/CascadeEffects/packages/production-tools` while keeping one user-facing `ce` surface.
 
 ## Particle Workbench
 
@@ -105,8 +105,8 @@ from the template in this repo, pointing ComfyUI at `/Users/mike/AI/models`.
 
 The prompt fixtures live in:
 
-- `/Users/mike/Viz_CascadeEffects/config/prompts/smoke-image.txt`
-- `/Users/mike/Viz_CascadeEffects/config/prompts/smoke-video.txt`
+- `/Users/mike/CascadeEffects/packages/media-pipeline/viz/config/prompts/smoke-image.txt`
+- `/Users/mike/CascadeEffects/packages/media-pipeline/viz/config/prompts/smoke-video.txt`
 
 Outputs land in:
 
@@ -116,7 +116,7 @@ Outputs land in:
 
 Cross-asset text certification is matrix-driven:
 
-- The matrix lives at `/Users/mike/Viz_CascadeEffects/config/text_governance_matrix.json`
+- The matrix lives at `/Users/mike/CascadeEffects/packages/media-pipeline/viz/config/text_governance_matrix.json`
 - `bin/ce smoke-text` runs the full certification set
 - `bin/ce smoke-text --only family/preset` runs one preset
 - `bin/ce smoke-text --skip-handoff` keeps the run on still certification only
@@ -126,12 +126,12 @@ Cross-asset text certification is matrix-driven:
 
 Comfy workflows are now treated as repo-managed assets.
 
-- Canonical fragments live in `/Users/mike/Viz_CascadeEffects/workflows/fragments`
-- Canonical workflow specs live in `/Users/mike/Viz_CascadeEffects/workflows/specs`
-- Shared art-direction profiles live in `/Users/mike/Viz_CascadeEffects/workflows/style_profiles`
-- Generated native Comfy workflow JSON lives in `/Users/mike/Viz_CascadeEffects/workflows/generated`
+- Canonical fragments live in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/fragments`
+- Canonical workflow specs live in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/specs`
+- Shared art-direction profiles live in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/style_profiles`
+- Generated native Comfy workflow JSON lives in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/generated`
 - Generated API prompt JSON lives alongside the workflow artifacts as `*.prompt.json`
-- Reference boards live in `/Users/mike/Viz_CascadeEffects/references`
+- Reference boards live in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references`
 
 The live Comfy sync target is:
 
@@ -181,7 +181,7 @@ Comfy rendering no longer requires manual UI interaction.
 
 Run manifests land under:
 
-- `/Users/mike/Viz_CascadeEffects/workflows/generated/runs`
+- `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/generated/runs`
 
 Each run manifest records the prompt id, selected seed, source image, artifact paths, and output files for reproducibility.
 
@@ -190,8 +190,8 @@ Each run manifest records the prompt id, selected seed, source image, artifact p
 Readable type in active imagery now stays outside the generative prompts by default.
 
 - Zero-letter prompt validation still applies to the draft, refine, and final image-generation stages
-- Controlled readable text is declared in preset sidecars under `/Users/mike/Viz_CascadeEffects/workflows/typography`
-- Producer-agnostic shared intent fixtures live under `/Users/mike/Viz_CascadeEffects/workflows/typography/shared`
+- Controlled readable text is declared in preset sidecars under `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/typography`
+- Producer-agnostic shared intent fixtures live under `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/typography/shared`
 - `bin/ce typography apply --target still|handoff_asset|image_sequence|video --artifact <abs-path> --intent <abs-path>` applies the shared contract directly
 - `bin/ce typography validate --target ...` validates an existing artifact against the same intent
 - `bin/ce smoke-typography` is the required fixture smoke path for shared still intents, shared handoff intents, and the current explicit stubs
@@ -202,8 +202,8 @@ Readable type in active imagery now stays outside the generative prompts by defa
 - v1 ships `still` and `handoff_asset` adapters today; `image_sequence` and `video` currently return explicit not-yet-implemented errors
 - `render pipeline` remains the only automatic production path today
 - `handoff-stage` can attach `--typography-intent`, and `handoff-i2v` defaults to `--typography auto`, which means it only applies typography when the staged manifest already carries an enabled intent
-- Shared source-text governance classes are certified through the matrix in `/Users/mike/Viz_CascadeEffects/config/text_governance_matrix.json`
-- Motion proof certification lives beside it in `/Users/mike/Viz_CascadeEffects/config/motion_certification_matrix.json`
+- Shared source-text governance classes are certified through the matrix in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/config/text_governance_matrix.json`
+- Motion proof certification lives beside it in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/config/motion_certification_matrix.json`
 - Shared intents under `workflows/typography/shared` are checked-in reference fixtures, not auto-enabled rollout assets
 - Current video scope is input-still robustness only. The handoff lane certifies staged stills and typography metadata, but there is no temporal OCR or frame-level cleanup yet.
 
@@ -245,7 +245,7 @@ The production workflow is now staged:
 - `refine_img2img` for full-FLUX detail passes
 - `final_upscale` for canonical deliverables
 
-`bin/ce workflow compare` writes a report under `/Users/mike/Viz_CascadeEffects/workflows/generated/reports` with workflow params, dependency status, and matching Comfy outputs.
+`bin/ce workflow compare` writes a report under `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/generated/reports` with workflow params, dependency status, and matching Comfy outputs.
 
 ## Custom Nodes
 
@@ -253,7 +253,7 @@ v1 policy is intentionally conservative:
 
 - Prefer ComfyUI Manager
 - Install only trusted nodes
-- Keep trusted repos documented in `/Users/mike/Viz_CascadeEffects/config/policies/trusted-custom-nodes.txt`
+- Keep trusted repos documented in `/Users/mike/CascadeEffects/packages/media-pipeline/viz/config/policies/trusted-custom-nodes.txt`
 - If manual install is required, do it inside ComfyUI's managed environment, not your global shell environment
 
 ## Handoff Workflow

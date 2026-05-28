@@ -18,7 +18,7 @@
 - `model`:
 - `voice_id`:
 - `voice_profile_id`:
-- `voice_profile_registry_path`: `/Users/mike/Audio_CascadeEffects/references/voice_profiles/youtube_shorts_voice_profiles.json`
+- `voice_profile_registry_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/voice_profiles/youtube_shorts_voice_profiles.json`
 - `voice_profile_expected_for_lane`:
 - `voice_profile_settings_recorded`: `true|false`
 - `voice_profile_settings_match`: `true|false`

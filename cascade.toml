@@ -9,22 +9,23 @@ production_runtime_target = "season_2_plus_compact_longform"
 ce = "bin/ce"
 doctor = "bin/ce doctor"
 status = "bin/ce status"
+review_server = "bin/ce review-server"
+review_list = "bin/ce review-list"
 
 [paths]
-agents = "agents"
-audio = "audio"
-viz = "viz"
-inbox = "inbox"
+agent_skills = "ops/agents/skills"
+audio_tools = "packages/media-pipeline/audio"
+viz_tools = "packages/media-pipeline/viz"
+review_app = "apps/review"
 web = "apps/web"
-stylelab = "labs/stylelab"
-fluxlab = "labs/fluxlab"
-season_01 = "episodes/season-01"
 season_02 = "episodes/season-02"
-channel_season_01 = "channel/season-01"
+season_01_reference = "archive/season-01-reference"
 tasks = "ops/tasks"
 locks = "ops/locks"
 contracts = "packages/contracts"
 production_registry = "packages/production-registry"
+production_tools = "packages/production-tools"
+media_pipeline = "packages/media-pipeline"
 
 [deploy.web]
 provider = "vercel"
@@ -45,62 +46,14 @@ expanded_episode_requires_human_approval = true
 paper_architecture_video_assets_allowed = false
 manual_public_release_only = true
 
-[[legacy_roots]]
-name = "Agents_CascadeEffects"
-old_path = "/Users/mike/Agents_CascadeEffects"
-new_path = "agents"
-type = "git"
-
-[[legacy_roots]]
-name = "Audio_CascadeEffects"
-old_path = "/Users/mike/Audio_CascadeEffects"
-new_path = "audio"
-type = "git"
-
-[[legacy_roots]]
-name = "Episodes_CascadeEffects"
-old_path = "/Users/mike/Episodes_CascadeEffects"
-new_path = "episodes/season-01"
-type = "git"
-
-[[legacy_roots]]
-name = "Inbox_CascadeEffects"
-old_path = "/Users/mike/Inbox_CascadeEffects"
-new_path = "inbox"
-type = "git"
-
-[[legacy_roots]]
-name = "StyleLab_CascadeEffects"
-old_path = "/Users/mike/StyleLab_CascadeEffects"
-new_path = "labs/stylelab"
-type = "git"
-
-[[legacy_roots]]
-name = "Viz_CascadeEffects"
-old_path = "/Users/mike/Viz_CascadeEffects"
-new_path = "viz"
-type = "git"
-
-[[legacy_roots]]
-name = "Web_CascadeEffects"
-old_path = "/Users/mike/Web_CascadeEffects"
-new_path = "apps/web"
-type = "git"
-
-[[legacy_roots]]
-name = "FluxLab_CascadeEffects"
-old_path = "/Users/mike/FluxLab_CascadeEffects"
-new_path = "labs/fluxlab"
-type = "not_git"
-
 [[seasons]]
 id = "season-01"
-path = "episodes/season-01"
-status = "migrated"
-source = "first eight production migration"
+path = "archive/season-01-reference"
+status = "reference_only"
+source = "compact audit manifests, receipts, and summary; old roots stay external migration sources"
 
 [[seasons]]
 id = "season-02"
 path = "episodes/season-02"
-status = "ready_for_scaffolded_production"
+status = "active"
 source = "canonical table rows 9-16 reconstructed starter backlog"

@@ -18,7 +18,7 @@
 - `archival_hygiene_rule`: `none|strict clean`
 - `archival_analog_look`: `none|selective`
 - `archival_source_breadth`: `none|1-3 primary archival videos plus up to 2 backups`
-- `historical_signal_texture_registry_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
+- `historical_signal_texture_registry_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
 - `historical_signal_texture_policy`: `none|house_crt_default`
 - `historical_context_year_or_range`:
 - `default_historical_signal_profile_id`: `none|era_1980s_broadcast_crt_v1`

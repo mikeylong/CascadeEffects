@@ -57,7 +57,7 @@ Do not use AI upscaling, face restoration, synthetic detail invention, or a glob
 
 The house CRT/signal-interruption treatment is the standard final-gate finishing substep for active Cascade Effects Shorts motion. It happens at `video final` entry after a motion proof is approved and before captions or final audio are applied. It is not a replacement for motion review and cannot rescue malformed motion, weak source selection, failed hygiene, or failed frame QA.
 
-Use the shared signal profile registry at `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`.
+Use the shared signal profile registry at `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`.
 
 Default recipe policy:
 

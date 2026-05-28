@@ -4,13 +4,16 @@ Cascade Effects is now structured as a thin production monorepo. The root repo o
 
 ## Layout
 
-- `agents/`: production skills, orchestration scripts, validators, and episode configs imported from `Agents_CascadeEffects`.
-- `episodes/`: canonical episode production records. Season 1 is migrated from prior roots; Season 2 starts from `_template`.
-- `audio/`, `viz/`, `inbox/`: specialized production tooling now under one root.
 - `apps/web/`: CascadeEffects.tv Next.js app. Vercel should use this as the project root.
-- `channel/`: channel-level production packages and artifact locks.
+- `apps/review/`: human approval UI, exposed through `bin/ce review-*`.
+- `episodes/season-02/`: the only active episode production workspace.
+- `ops/agents/skills/`: active agent-readable production workflows.
 - `ops/`: migration records, task queues, locks, and runbooks.
 - `packages/contracts/`: shared schemas and production contracts.
+- `packages/production-registry/`: active registry/config data.
+- `packages/production-tools/`: reusable orchestration validators, adapters, and builders.
+- `packages/media-pipeline/`: reusable audio/video utilities only.
+- `archive/season-01-reference/`: compact Season 1 audit/reference material, not active production structure.
 - `.artifacts/`: local generated/final media store; intentionally ignored by Git.
 
 ## Core Commands
@@ -18,7 +21,10 @@ Cascade Effects is now structured as a thin production monorepo. The root repo o
 ```bash
 bin/ce status
 bin/ce doctor
+bin/ce review-list
+bin/ce review-server
 bin/ce new-episode season-02 ep09-apollo-13 --title "Apollo 13 Oxygen Tank Crisis"
+bin/ce new-episode season-02 ep10-citicorp-center --dry-run
 bin/ce validate
 npm --prefix apps/web run lint
 npm --prefix apps/web run build
@@ -29,3 +35,6 @@ npm --prefix apps/web run build
 Git tracks source, specs, scripts, manifests, receipts, validation results, and artifact checksums. Git does not track full video renders, raw generated image batches, audio masters, failed candidates, or scratch outputs.
 
 Season 2 production defaults to compact long-form episodes: 12 to 18 minutes, with up to about 20 minutes only when the evidence genuinely requires it.
+
+The old top-level departments are deliberately absent. Do not add `agents/`, `audio/`,
+`viz/`, `inbox/`, `labs/`, `channel/`, or `episodes/season-01/` back to the active root.

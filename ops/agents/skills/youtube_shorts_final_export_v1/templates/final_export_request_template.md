@@ -4,8 +4,8 @@
 
 - `episode_id`:
 - `short_id`:
-- `coordinator_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md`
-- `final_export_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/SKILL.md`
+- `coordinator_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md`
+- `final_export_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md`
 - `canonical_flow`: `script -> audio -> visual research packet -> stills contact sheet -> stills video proof -> motion contact sheet -> motion video proof -> video final -> publish package -> unlisted review upload -> platform checks -> public release decision`
 
 ## Approved Inputs
@@ -40,7 +40,7 @@
 - `final_picture_source_path`:
 - `historical_signal_texture_used`: `true|false`
 - `historical_signal_texture_review_note_path`:
-- `music_track_registry_path`: `/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`
+- `music_track_registry_path`: `/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json`
 - `music_track_id`:
 - `music_policy`: `canonical_default|waived|alternate_approved`
 - `music_waiver_reason`:
@@ -128,10 +128,10 @@
 - `first_second_hook_notes`:
 - `duration_trim_notes`:
 - `house_crt_signal_interruption_notes`:
-- `publish_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md`
+- `publish_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_publish_v1/SKILL.md`
 - `publish_handoff_required_when_keep`: `true|false`
 - `publish_package_manifest_path`:
-- `publish_package_check_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-check <manifest_path>`
-- `review_upload_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-upload <manifest_path> --privacy unlisted`
+- `publish_package_check_command`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-check <manifest_path>`
+- `review_upload_command`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-upload <manifest_path> --privacy unlisted`
 - `public_release_boundary`: `manual_youtube_studio_only`
 - `next_action_if_blocked`:

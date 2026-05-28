@@ -9,10 +9,10 @@ from pathlib import Path
 from unittest import mock
 
 
-REPO_ROOT = Path("/Users/mike/Audio_CascadeEffects")
+REPO_ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/audio")
 HELPER_PATH = REPO_ROOT / "scripts" / "elevenlabs_provider.py"
 PROSODY_GUARD_PATH = REPO_ROOT / "scripts" / "prosody_guard.py"
-CHALLENGER_SCRIPT = Path("/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/Ep1_Challenger.txt")
+CHALLENGER_SCRIPT = Path("/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/Ep1_Challenger.txt")
 CHALLENGER_MANIFEST = REPO_ROOT / "tmp" / "ep1_challenger_production" / "final_jobs.jsonl"
 CONFIGURED_V2_MODEL = "test_model_v2_hq"
 

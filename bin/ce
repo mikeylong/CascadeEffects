@@ -8,6 +8,7 @@ import os
 import shutil
 import subprocess
 import sys
+import tempfile
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -26,9 +27,20 @@ APPROVED_MEDIA_FILES = {
     ROOT / "apps" / "web" / "app" / "icon.png",
 }
 LEGACY_REFERENCE_EXCLUDES = [
-    ROOT / "episodes" / "season-01",
-    ROOT / "channel" / "season-01",
+    ROOT / "archive",
     ROOT / "ops" / "migration",
+]
+LEGACY_TOP_LEVEL_DIRS = {"agents", "audio", "viz", "inbox", "labs", "channel"}
+LEGACY_EPISODE_DIR = ROOT / "episodes" / "season-01"
+OLD_ROOT_STEMS = [
+    "Agents",
+    "Audio",
+    "Episodes",
+    "Inbox",
+    "StyleLab",
+    "Viz",
+    "Web",
+    "FluxLab",
 ]
 
 
@@ -108,28 +120,31 @@ def find_nested_git() -> list[Path]:
     return nested
 
 
-def find_unapproved_media() -> list[Path]:
+def find_tracked_unapproved_media() -> list[Path]:
     bad = []
-    for current, dirs, files in os.walk(ROOT):
-        current_path = Path(current)
-        if current_path.name in {".git", ".artifacts", "node_modules", ".next", "output"}:
-            dirs[:] = []
+    tracked = run(["git", "ls-files", "-z"], check=False)
+    for raw in tracked.stdout.split("\0"):
+        if not raw:
             continue
-        for name in files:
-            path = current_path / name
-            if path.suffix.lower() not in MEDIA_EXTENSIONS:
-                continue
-            if path in APPROVED_MEDIA_FILES:
-                continue
-            if any(is_under(path, prefix) for prefix in APPROVED_MEDIA_PREFIXES):
-                continue
-            bad.append(path)
+        path = ROOT / raw
+        if path.suffix.lower() not in MEDIA_EXTENSIONS:
+            continue
+        if path in APPROVED_MEDIA_FILES:
+            continue
+        if any(is_under(path, prefix) for prefix in APPROVED_MEDIA_PREFIXES):
+            continue
+        bad.append(path)
     return bad
 
 
 def find_active_legacy_references() -> list[Path]:
     hits = []
-    needles = ["/Users/mike/Agents_CascadeEffects", "/Users/mike/Episodes_CascadeEffects", "/Users/mike/Audio_CascadeEffects", "/Users/mike/Viz_CascadeEffects", "/Users/mike/Web_CascadeEffects", "/Users/mike/Inbox_CascadeEffects", "/Users/mike/StyleLab_CascadeEffects", "/Users/mike/FluxLab_CascadeEffects"]
+    home_prefix = "/Users" + "/mike/"
+    legacy_suffix = "_" + "CascadeEffects"
+    old_root_needles = [f"{home_prefix}{stem}{legacy_suffix}" for stem in OLD_ROOT_STEMS]
+    obsolete_active_needles = [str(ROOT / name) for name in sorted(LEGACY_TOP_LEVEL_DIRS)]
+    obsolete_active_needles.append(str(LEGACY_EPISODE_DIR))
+    needles = old_root_needles + obsolete_active_needles
     for current, dirs, files in os.walk(ROOT):
         current_path = Path(current)
         if current_path.name in {".git", ".artifacts", "node_modules", ".next", "__pycache__"}:
@@ -151,6 +166,31 @@ def find_active_legacy_references() -> list[Path]:
     return hits
 
 
+def find_legacy_active_dirs() -> list[Path]:
+    hits = [ROOT / name for name in sorted(LEGACY_TOP_LEVEL_DIRS) if (ROOT / name).exists()]
+    if LEGACY_EPISODE_DIR.exists():
+        hits.append(LEGACY_EPISODE_DIR)
+    return hits
+
+
+def find_expired_locks() -> list[Path]:
+    expired = []
+    now = datetime.now(timezone.utc)
+    for lock_path in (ROOT / "ops" / "locks").glob("*.lock.json"):
+        data = load_json(lock_path, {})
+        raw = str(data.get("lease_expires_at", "")).strip()
+        if not raw:
+            continue
+        try:
+            expires_at = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            expired.append(lock_path)
+            continue
+        if expires_at < now:
+            expired.append(lock_path)
+    return expired
+
+
 def verify_artifacts() -> list[str]:
     errors = []
     for lock_path in ROOT.glob("**/artifacts.lock.json"):
@@ -168,21 +208,29 @@ def verify_artifacts() -> list[str]:
 
 def doctor(_: argparse.Namespace) -> int:
     errors: list[str] = []
-    warnings: list[str] = []
 
     nested = find_nested_git()
     errors.extend(f"nested git repo: {rel(path)}" for path in nested)
 
-    media = find_unapproved_media()
-    errors.extend(f"unapproved media outside .artifacts or web public assets: {rel(path)}" for path in media[:50])
+    legacy_dirs = find_legacy_active_dirs()
+    errors.extend(f"legacy active top-level path remains: {rel(path)}" for path in legacy_dirs)
+
+    media = find_tracked_unapproved_media()
+    errors.extend(f"tracked media outside .artifacts or web public assets: {rel(path)}" for path in media[:50])
     if len(media) > 50:
-        errors.append(f"unapproved media count exceeded display limit: {len(media)}")
+        errors.append(f"tracked media count exceeded display limit: {len(media)}")
 
     errors.extend(verify_artifacts())
+    errors.extend(f"expired or invalid lock: {rel(path)}" for path in find_expired_locks())
 
     for required in [
         ROOT / "cascade.toml",
+        ROOT / "apps/review",
+        ROOT / "packages/production-tools",
+        ROOT / "packages/media-pipeline",
         ROOT / "episodes/season-02/_template/episode.toml",
+        ROOT / "episodes/season-02/_template/tasks.jsonl",
+        ROOT / "episodes/season-02/_template/artifacts.lock.json",
         ROOT / "episodes/season-02/backlog.md",
         ROOT / "ops/migration/source-repos.json",
     ]:
@@ -191,19 +239,17 @@ def doctor(_: argparse.Namespace) -> int:
 
     legacy_hits = find_active_legacy_references()
     if legacy_hits:
-        warnings.append(f"legacy absolute references remain in active imported source: {len(legacy_hits)} files")
+        errors.extend(f"legacy reference outside archive/migration: {rel(path)}" for path in legacy_hits[:50])
+        if len(legacy_hits) > 50:
+            errors.append(f"legacy reference count exceeded display limit: {len(legacy_hits)}")
 
     if errors:
         print("doctor: FAIL")
         for item in errors:
             print(f"error: {item}")
-        for item in warnings:
-            print(f"warning: {item}")
         return 1
 
     print("doctor: PASS")
-    for item in warnings:
-        print(f"warning: {item}")
     return 0
 
 
@@ -223,7 +269,27 @@ def new_episode(args: argparse.Namespace) -> int:
     if target.exists() and not args.force:
         print(f"episode already exists: {rel(target)}", file=sys.stderr)
         return 1
-    shutil.copytree(template, target, dirs_exist_ok=args.force)
+    if args.dry_run:
+        with tempfile.TemporaryDirectory(prefix="ce-new-episode-") as tmp:
+            dry_target = Path(tmp) / episode_id
+            materialize_episode(template, dry_target, season, episode_id, title)
+        print(f"dry-run ok: would create {rel(target)}")
+        return 0
+    materialize_episode(template, target, season, episode_id, title, dirs_exist_ok=args.force)
+    print(f"created {rel(target)}")
+    return 0
+
+
+def materialize_episode(
+    template: Path,
+    target: Path,
+    season: str,
+    episode_id: str,
+    title: str,
+    *,
+    dirs_exist_ok: bool = False,
+) -> None:
+    shutil.copytree(template, target, dirs_exist_ok=dirs_exist_ok)
     replacements = {
         "__EPISODE_ID__": episode_id,
         "__EPISODE_TITLE__": title,
@@ -237,8 +303,6 @@ def new_episode(args: argparse.Namespace) -> int:
         for key, value in replacements.items():
             text = text.replace(key, value)
         path.write_text(text)
-    print(f"created {rel(target)}")
-    return 0
 
 
 def claim_task(args: argparse.Namespace) -> int:
@@ -303,6 +367,56 @@ def promote_keep(args: argparse.Namespace) -> int:
     return 0
 
 
+def run_review_command(mapped_args: list[str]) -> int:
+    env = os.environ.copy()
+    python_paths = [str(ROOT / "apps" / "review"), str(ROOT / "packages" / "production-tools")]
+    existing = env.get("PYTHONPATH")
+    if existing:
+        python_paths.append(existing)
+    env["PYTHONPATH"] = os.pathsep.join(python_paths)
+    return subprocess.run(
+        [sys.executable, "-m", "inbox_app.cli", *mapped_args],
+        cwd=ROOT / "apps" / "review",
+        env=env,
+    ).returncode
+
+
+def review_server(args: argparse.Namespace) -> int:
+    mapped = ["review-server", "--host", args.host, "--port", str(args.port)]
+    if args.reload:
+        mapped.append("--reload")
+    return run_review_command(mapped)
+
+
+def review_list(args: argparse.Namespace) -> int:
+    mapped = ["review-inbox"]
+    if args.json:
+        mapped.append("--json")
+    return run_review_command(mapped)
+
+
+def review_decision(args: argparse.Namespace, decision: str) -> int:
+    mapped = ["review-action", args.episode_id, args.gate_type]
+    if args.item_id:
+        mapped.append(args.item_id)
+    mapped.extend(["--decision", decision])
+    if args.reviewer:
+        mapped.extend(["--reviewer", args.reviewer])
+    if args.notes:
+        mapped.extend(["--notes", args.notes])
+    for tag in args.tag or []:
+        mapped.extend(["--tag", tag])
+    return run_review_command(mapped)
+
+
+def review_approve(args: argparse.Namespace) -> int:
+    return review_decision(args, "approve")
+
+
+def review_reject(args: argparse.Namespace) -> int:
+    return review_decision(args, "reject")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(prog="ce")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -314,6 +428,7 @@ def main() -> int:
     new.add_argument("episode_id")
     new.add_argument("--title")
     new.add_argument("--force", action="store_true")
+    new.add_argument("--dry-run", action="store_true")
     new.set_defaults(func=new_episode)
     claim = sub.add_parser("claim-task")
     claim.add_argument("task_id")
@@ -331,6 +446,23 @@ def main() -> int:
     keep.add_argument("artifact_id")
     keep.add_argument("--note", default="")
     keep.set_defaults(func=promote_keep)
+    review_server_parser = sub.add_parser("review-server")
+    review_server_parser.add_argument("--host", default="127.0.0.1")
+    review_server_parser.add_argument("--port", type=int, default=8765)
+    review_server_parser.add_argument("--reload", action="store_true")
+    review_server_parser.set_defaults(func=review_server)
+    review_list_parser = sub.add_parser("review-list")
+    review_list_parser.add_argument("--json", action="store_true")
+    review_list_parser.set_defaults(func=review_list)
+    for command, handler in [("review-approve", review_approve), ("review-reject", review_reject)]:
+        review_action = sub.add_parser(command)
+        review_action.add_argument("episode_id")
+        review_action.add_argument("gate_type")
+        review_action.add_argument("item_id", nargs="?")
+        review_action.add_argument("--reviewer")
+        review_action.add_argument("--notes")
+        review_action.add_argument("--tag", action="append", default=[])
+        review_action.set_defaults(func=handler)
     args = parser.parse_args()
     return args.func(args)
 

@@ -17,8 +17,8 @@
         "titanic"
       ],
       "allowed_intents": ["repair", "successor", "experiment"],
-      "baseline_index_path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json",
-      "rollout_manifest_path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/rolling_caption_rail_rollout_20260520.json",
+      "baseline_index_path": "/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json",
+      "rollout_manifest_path": "/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/episode_visual_system_baselines/rolling_caption_rail_rollout_20260520.json",
       "required_template_ids": {
         "rail_preset_id": "fixed_16x9_right_rail_v1",
         "rail_content_model_id": "rolling_caption_anchor_v1",
@@ -58,7 +58,7 @@
       "family": "channel_trailer",
       "description": "Channel trailer local review contract. Repairs preserve the actual trailer treatment unless a successor is explicitly scoped.",
       "allowed_intents": ["repair", "successor", "experiment"],
-      "current_reference_manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_latest.json",
+      "current_reference_manifest_path": "/Users/mike/CascadeEffects/archive/season-01-reference/channel/channel_trailer_end_screen_titleless_only_repair_latest.json",
       "required_template_ids": {
         "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
         "end_screen_palette_treatment_model": "local_backplate_perceptual_target_palette_v3"

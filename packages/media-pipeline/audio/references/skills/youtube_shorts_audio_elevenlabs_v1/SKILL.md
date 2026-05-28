@@ -11,7 +11,7 @@ This is the active short-form audio workflow. It is not the long-form podcast wo
 
 Related coordinator skill:
 
-- [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md)
+- [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md)
 
 Canonical coordinator flow:
 
@@ -61,7 +61,7 @@ This skill does not produce stills, motion, contact sheets, video proofs, captio
 - The short package must not replace the long-form episode package unless explicitly requested.
 - If the short is experimental, alternate, or comparison-only, keep it isolated and unpromoted.
 - If the short script changes, rerun the short package instead of reusing stale QA output.
-- The named Shorts voice profile registry is [/Users/mike/Audio_CascadeEffects/references/voice_profiles/youtube_shorts_voice_profiles.json](/Users/mike/Audio_CascadeEffects/references/voice_profiles/youtube_shorts_voice_profiles.json).
+- The named Shorts voice profile registry is [/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/voice_profiles/youtube_shorts_voice_profiles.json](/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/voice_profiles/youtube_shorts_voice_profiles.json).
 - The default active Shorts profile is `youtube_shorts_mike_challenger_match_v1`; `youtube_shorts_mike_eleven_v3_experiment` is comparison/diagnostic only, even when it uses the same ElevenLabs voice ID.
 - `audio_package.json` must include or support validation of `voice_profile_id`, provider, voice ID, model, effective manifest, packaged WAV hash, transcript hash, and render settings such as speed when available.
 - Long-form audio packages are cataloged separately and must never be silently reused as short audio.
@@ -138,8 +138,8 @@ The coordinator decides whether the visual stages may advance.
 
 Use Challenger as the primary worked example:
 
-- short script: [/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/challenger_short_v3_trimmed.txt](/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/challenger_short_v3_trimmed.txt)
-- packaged short WAV: [/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/final/challenger_short_v3_trimmed.wav](/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/final/challenger_short_v3_trimmed.wav)
+- short script: [/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_v3_trimmed/challenger_short_v3_trimmed.txt](/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_v3_trimmed/challenger_short_v3_trimmed.txt)
+- packaged short WAV: [/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_v3_trimmed/final/challenger_short_v3_trimmed.wav](/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_v3_trimmed/final/challenger_short_v3_trimmed.wav)
 
 Expected output is a `keep` audio handoff packet with WAV, QA transcript, `audio_package.json`, and `transcript_or_caption_source`.
 

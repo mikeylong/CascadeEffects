@@ -22,7 +22,7 @@ except ModuleNotFoundError:  # pragma: no cover - environment-specific skip
     ImageStat = None  # type: ignore[assignment]
 
 
-ROOT = Path("/Users/mike/Viz_CascadeEffects")
+ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/viz")
 SCRIPTS_DIR = ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))

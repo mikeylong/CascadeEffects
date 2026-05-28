@@ -45,7 +45,7 @@ List only the questions needed to constrain this episode and short. Avoid inheri
 - `literal_vs_representational_evidence_needed`:
 - `clip_scoring_needed`: `visual_strength_score, mechanism_relevance_score, motion_reference_score`
 - `texture_influence_policy`: `selective archival only`
-- `historical_signal_texture_registry_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
+- `historical_signal_texture_registry_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
 - `historical_context_year_or_range`:
 - `source_media_era`:
 - `candidate_historical_signal_profile_ids`:

@@ -42,7 +42,7 @@
     "storage_policy": "normalized_manifest_and_small_evidence_assets_only",
     "large_video_upload_allowed": false,
     "video_host": "youtube_unlisted",
-    "publish_command": "cd /Users/mike/Web_CascadeEffects && npm run reviews:publish -- --packet ABSOLUTE_PACKET_PATH --mode publish-readiness --review-id EPISODE_ID --receipt ABSOLUTE_UNLISTED_YOUTUBE_RECEIPT_PATH"
+    "publish_command": "cd /Users/mike/CascadeEffects/apps/web && npm run reviews:publish -- --packet ABSOLUTE_PACKET_PATH --mode publish-readiness --review-id EPISODE_ID --receipt ABSOLUTE_UNLISTED_YOUTUBE_RECEIPT_PATH"
   },
   "current_review_artifact": {
     "role": "current_review_artifact_not_upload_candidate_until_publish_readiness_keep",

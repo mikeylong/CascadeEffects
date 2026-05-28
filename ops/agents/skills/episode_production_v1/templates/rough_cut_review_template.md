@@ -1,6 +1,6 @@
 # Rough Cut Review Template
 
-Deprecated: this long-form draft template is inactive and must not be used for current YouTube Shorts production. Use `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/templates/short_video_stage_review_template.md` instead.
+Deprecated: this long-form draft template is inactive and must not be used for current YouTube Shorts production. Use `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/templates/short_video_stage_review_template.md` instead.
 
 ## Rough Cut Review
 

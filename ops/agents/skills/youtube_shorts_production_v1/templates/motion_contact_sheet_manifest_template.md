@@ -17,7 +17,7 @@
 - `archival_footage_review_path`:
 - `shot_timing_edl_path`:
 - `shot_timing_edl_disposition`: `keep|tighten|diagnostic only|reject`
-- `historical_signal_texture_registry_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
+- `historical_signal_texture_registry_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json`
 - `contact_sheet_path`:
 - `preview_reel_path`:
 - `disposition`: `keep|tighten|diagnostic only|reject`

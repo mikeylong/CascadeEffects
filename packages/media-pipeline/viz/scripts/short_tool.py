@@ -103,14 +103,14 @@ OVERLAY_PRESET_DEFAULT_STRENGTHS = {
 DEFAULT_CAPTION_STYLE_PRESET = "minimal_surreal_editorial_v1"
 ACTIVE_SHORT_PROFILE_ID = "youtube_shorts_mike_challenger_match_v1"
 DEFAULT_MUSIC_TRACK_REGISTRY_PATH = Path(
-    "/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json"
+    "/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json"
 )
 DEFAULT_MUSIC_TRACK_ID = "paper_architecture_theme_v1"
 MUSIC_POLICIES = ("canonical_default", "waived", "alternate_approved")
 DEFAULT_MUSIC_RIGHTS_CHECK_STATUS = "pending_youtube_upload_check"
 MOTIF_OUTRO_DEFAULT_TEXT = "Small causes, massive consequences."
 HISTORICAL_SIGNAL_TEXTURE_REGISTRY_PATH = Path(
-    "/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json"
+    "/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json"
 )
 HISTORICAL_SIGNAL_PROFILE_IDS = (
     "era_1940s_archival_film_v1",

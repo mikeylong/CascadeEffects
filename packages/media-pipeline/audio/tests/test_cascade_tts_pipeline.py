@@ -11,7 +11,7 @@ import wave
 from pathlib import Path
 
 
-REPO_ROOT = Path("/Users/mike/Audio_CascadeEffects")
+REPO_ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/audio")
 PIPELINE_SCRIPT = REPO_ROOT / "scripts" / "cascade_tts_pipeline.sh"
 TEST_ELEVENLABS_DEFAULT_MODEL = "test_model_v2_hq"
 

@@ -25,9 +25,9 @@ This policy implements the Challenger-first production restart. Visual productio
 
 Agents may hydrate active context only from:
 
-- `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/<new_challenger_short_id>/`
-- `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/<new_challenger_short_id>/production/`
-- `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/<new_challenger_short_id>/`
+- `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/<new_challenger_short_id>/`
+- `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/<new_challenger_short_id>/production/`
+- `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/shorts/<new_challenger_short_id>/`
 - exact whitelisted source/audio files listed in the manifest
 - exact DP-imported prior artifacts listed in the manifest
 

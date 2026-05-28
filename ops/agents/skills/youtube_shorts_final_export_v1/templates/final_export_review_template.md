@@ -34,7 +34,7 @@
 - `caption_placement`: `lower-center|lower-left`
 - `caption_timing_path`:
 - `caption_overlay_manifest_path`:
-- `music_track_registry_path`: `/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`
+- `music_track_registry_path`: `/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json`
 - `music_track_id`:
 - `music_policy`: `canonical_default|waived|alternate_approved`
 - `music_waiver_reason`:
@@ -66,10 +66,10 @@
 - `gate_level`: `video final`
 - `disposition`: `keep|tighten|diagnostic only|reject`
 - `reel_class`: `keeper short|mixed review short`
-- `publish_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md`
+- `publish_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_publish_v1/SKILL.md`
 - `publish_package_manifest_path`:
-- `publish_package_check_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-check <manifest_path>`
-- `review_upload_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-upload <manifest_path> --privacy unlisted`
+- `publish_package_check_command`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-check <manifest_path>`
+- `review_upload_command`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/bin/ce orchestrate publish-package-upload <manifest_path> --privacy unlisted`
 - `public_release_boundary`: `manual_youtube_studio_only`
 - `public_release_note`: `public release remains manual in YouTube Studio`
 - `failure_reason`:

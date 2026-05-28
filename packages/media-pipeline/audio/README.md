@@ -4,11 +4,11 @@ This workspace contains the current production-ready text-to-speech pipeline for
 
 Active reusable workflow skill:
 
-- [/Users/mike/Audio_CascadeEffects/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md](/Users/mike/Audio_CascadeEffects/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md)
+- [/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md](/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md)
 
 That skill is the audio-side dependency of the current active production workflow in:
 
-- [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md)
+- [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md)
 
 Long-form audio podcast remains future work and is not part of the active routing in this README.
 
@@ -67,7 +67,7 @@ For the active manifests in this workspace, run `./scripts/cascade_tts_pipeline.
 Use the checked-in orchestration script:
 
 ```bash
-EPISODE_DIR=/Users/mike/Episodes_CascadeEffects/Ep4_New-Episode \
+EPISODE_DIR=/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep4_New-Episode \
 ./scripts/cascade_tts_pipeline.sh all
 ```
 
@@ -86,16 +86,16 @@ That command runs:
 
 The script defaults to the current working EP3 layout:
 
-- `PIPELINE_DIR=/Users/mike/Audio_CascadeEffects/tmp/speech_emotive`
-- `AUDITION_JOBS=/Users/mike/Audio_CascadeEffects/tmp/speech_emotive/audition_jobs.jsonl`
-- `FINAL_JOBS=/Users/mike/Audio_CascadeEffects/tmp/speech_emotive/final_jobs.jsonl`
-- `AUDITION_OUT_DIR=/Users/mike/Audio_CascadeEffects/output/speech/auditions`
-- `RENDER_OUT_DIR=/Users/mike/Audio_CascadeEffects/tmp/speech_emotive/rendered`
-- `PROSODY_GUARD_DIR=/Users/mike/Audio_CascadeEffects/tmp/speech_emotive/prosody_guard`
-- `MASTER_OUT=/Users/mike/Audio_CascadeEffects/output/speech/ep3_narration_emotive_v2.wav`
-- `PREMASTER_OUT=/Users/mike/Audio_CascadeEffects/tmp/speech_emotive/premaster.wav`
-- `MASTERING_DIR=/Users/mike/Audio_CascadeEffects/tmp/speech_emotive/mastering`
-- `TRANSCRIPT_OUT_DIR=/Users/mike/Audio_CascadeEffects/tmp/transcripts_final`
+- `PIPELINE_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/speech_emotive`
+- `AUDITION_JOBS=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/speech_emotive/audition_jobs.jsonl`
+- `FINAL_JOBS=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/speech_emotive/final_jobs.jsonl`
+- `AUDITION_OUT_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/output/speech/auditions`
+- `RENDER_OUT_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/speech_emotive/rendered`
+- `PROSODY_GUARD_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/speech_emotive/prosody_guard`
+- `MASTER_OUT=/Users/mike/CascadeEffects/packages/media-pipeline/audio/output/speech/ep3_narration_emotive_v2.wav`
+- `PREMASTER_OUT=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/speech_emotive/premaster.wav`
+- `MASTERING_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/speech_emotive/mastering`
+- `TRANSCRIPT_OUT_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/transcripts_final`
 - `VOICE=cedar`
 - `TTS_PROVIDER=elevenlabs`
 - `MODEL` defaults to `gpt-4o-mini-tts-2025-12-15` for OpenAI and to the configured `ELEVENLABS_DEFAULT_MODEL` for ElevenLabs
@@ -143,7 +143,7 @@ Run the pre-merge guard against existing rendered chunks:
 Merge existing rendered chunks:
 
 ```bash
-EPISODE_DIR=/Users/mike/Episodes_CascadeEffects/Ep4_New-Episode \
+EPISODE_DIR=/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep4_New-Episode \
 ./scripts/cascade_tts_pipeline.sh merge
 ```
 
@@ -154,7 +154,7 @@ By default, `merge` now writes a raw `PREMASTER_OUT`, scans it with `ffmpeg loud
 Run QA on the current master:
 
 ```bash
-EPISODE_DIR=/Users/mike/Episodes_CascadeEffects/Ep4_New-Episode \
+EPISODE_DIR=/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep4_New-Episode \
 ./scripts/cascade_tts_pipeline.sh qa
 ```
 
@@ -165,16 +165,16 @@ After `qa`, the same `audio_package.json` sidecar is updated with the QA transcr
 Analyze a packaged master for likely sibilance hotspots:
 
 ```bash
-EPISODE_DIR=/Users/mike/Episodes_CascadeEffects/Ep1_Challenger \
-PIPELINE_DIR=/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_production \
+EPISODE_DIR=/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger \
+PIPELINE_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep1_challenger_production \
 ./scripts/cascade_tts_pipeline.sh sibilance-analyze
 ```
 
 Build and render hotspot comparison clips:
 
 ```bash
-EPISODE_DIR=/Users/mike/Episodes_CascadeEffects/Ep1_Challenger \
-PIPELINE_DIR=/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_production \
+EPISODE_DIR=/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger \
+PIPELINE_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep1_challenger_production \
 SIBILANCE_SEED_TIMES="00:31.147,00:34.773,02:26.773,03:32.779,06:46.059,08:59.861,10:09.323,11:01.888,12:45.995" \
 ./scripts/cascade_tts_pipeline.sh sibilance-audition
 ```
@@ -205,8 +205,8 @@ Example:
 
 ```bash
 ENV_FILE=/absolute/path/to/.env.local \
-PIPELINE_DIR=/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_production \
-EPISODE_DIR=/Users/mike/Episodes_CascadeEffects/Ep1_Challenger \
+PIPELINE_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep1_challenger_production \
+EPISODE_DIR=/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger \
 ./scripts/cascade_tts_pipeline.sh render
 ```
 
@@ -287,18 +287,18 @@ For a new episode, copy the manifest layout under a new temp folder and override
 Default WAV example:
 
 ```bash
-PIPELINE_DIR=/Users/mike/Audio_CascadeEffects/tmp/ep4 \
-MASTER_OUT=/Users/mike/Audio_CascadeEffects/output/speech/ep4_master.wav \
-EPISODE_DIR=/Users/mike/Episodes_CascadeEffects/Ep4_New-Episode \
+PIPELINE_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep4 \
+MASTER_OUT=/Users/mike/CascadeEffects/packages/media-pipeline/audio/output/speech/ep4_master.wav \
+EPISODE_DIR=/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep4_New-Episode \
 ./scripts/cascade_tts_pipeline.sh all
 ```
 
 Optional FLAC override:
 
 ```bash
-PIPELINE_DIR=/Users/mike/Audio_CascadeEffects/tmp/ep4 \
-MASTER_OUT=/Users/mike/Audio_CascadeEffects/output/speech/ep4_master.flac \
-PREMASTER_OUT=/Users/mike/Audio_CascadeEffects/tmp/ep4/premaster.flac \
+PIPELINE_DIR=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep4 \
+MASTER_OUT=/Users/mike/CascadeEffects/packages/media-pipeline/audio/output/speech/ep4_master.flac \
+PREMASTER_OUT=/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep4/premaster.flac \
 RESPONSE_FORMAT=flac \
 ./scripts/cascade_tts_pipeline.sh render
 ./scripts/cascade_tts_pipeline.sh merge

@@ -57,9 +57,20 @@ def load_toml(path: Path) -> dict[str, Any]:
         return tomllib.load(handle)
 
 
+def config_root_for(root: Path = ROOT_DIR) -> Path:
+    local_config = root / "config"
+    if (local_config / "channel.toml").exists():
+        return local_config
+    monorepo_config = root.parent / "production-registry" / "config"
+    if (monorepo_config / "channel.toml").exists():
+        return monorepo_config
+    return local_config
+
+
 def build_context(root: Path = ROOT_DIR) -> Context:
-    channel = load_toml(root / "config" / "channel.toml")
-    asset_archetypes = load_toml(root / "config" / "asset_archetypes.toml")
+    config_root = config_root_for(root)
+    channel = load_toml(config_root / "channel.toml")
+    asset_archetypes = load_toml(config_root / "asset_archetypes.toml")
     episodes_repo = EpisodesRepo(Path(channel["paths"]["episodes_root"]))
     audio_repo = AudioRepo(Path(channel["paths"]["audio_root"]))
     viz_repo = VizRepo(Path(channel["paths"]["viz_root"]))

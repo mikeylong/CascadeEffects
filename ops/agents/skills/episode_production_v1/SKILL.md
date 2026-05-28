@@ -11,11 +11,11 @@ Do not route current production work through this file.
 
 Use the active Shorts production skill for active YouTube Shorts production:
 
-- [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md)
+- [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md)
 
 Use the series bible skill for episode strategy and slate decisions:
 
-- [/Users/mike/Agents_CascadeEffects/references/skills/cascade_effects_series_bible_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/cascade_effects_series_bible_v1/SKILL.md)
+- [/Users/mike/CascadeEffects/ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md)
 
 ## Contract
 
@@ -53,5 +53,5 @@ Request:
 
 Expected response:
 
-- route to `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md`
+- route to `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md`
 - do not use the inactive rough-cut templates in this package

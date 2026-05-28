@@ -1,20 +1,23 @@
-# Inbox Cascade Effects
+# Cascade Effects Review App
 
-Standalone reviewer app for Cascade Effects orchestration.
+Human gate review surface for the Cascade Effects production monorepo.
 
 ## Launch
 
-- `./bin/ce-inbox review-server`
-- `./bin/ce-inbox review-server --reload`
-- `./bin/ce-inbox review-inbox --json`
-- `./bin/ce-inbox review-action <episode_id> <gate_type> [item_id] --decision approve|reject|unapprove`
+- `/Users/mike/CascadeEffects/bin/ce review-server`
+- `/Users/mike/CascadeEffects/bin/ce review-server --reload`
+- `/Users/mike/CascadeEffects/bin/ce review-list --json`
+- `/Users/mike/CascadeEffects/bin/ce review-approve <episode_id> <gate_type> [item_id]`
+- `/Users/mike/CascadeEffects/bin/ce review-reject <episode_id> <gate_type> [item_id]`
 
 ## Config
 
-`config/inbox.toml` points at the local Agents checkout:
+`config/inbox.toml` points at the active production tooling and registry packages:
 
 ```toml
-agents_root = "/Users/mike/Agents_CascadeEffects"
+production_tools_root = "/Users/mike/CascadeEffects/packages/production-tools"
+production_registry_root = "/Users/mike/CascadeEffects/packages/production-registry"
 ```
 
-Inbox reads and writes orchestration state directly from that Agents repo.
+Review commands read and write production state through the monorepo packages. The `inbox_app`
+module name is retained only as implementation detail from the migration.

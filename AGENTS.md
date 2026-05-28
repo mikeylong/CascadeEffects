@@ -17,17 +17,18 @@ Use the `agent-memory` MCP server tools on every conversation turn.
 - Use `cascade.toml` and `bin/ce` before inventing paths or workflow state.
 - Keep this as a true monorepo: do not create nested `.git` repos or submodules.
 - Do not write generated media into Git-tracked paths. Use `.artifacts/` and update the relevant `artifacts.lock.json`.
-- Preserve old `/Users/mike/*_CascadeEffects` roots as read-only sources until the staged symlink cutover is explicitly performed.
+- Treat old Cascade Effects roots as external reference archives only. Current production must not read them directly; migration provenance belongs in `ops/migration/` and Season 1 audit material belongs in `archive/season-01-reference/`.
+- Keep active episode work inside `episodes/season-02/`. Season 1 is reference-only inside this repo.
 
 ## Production Gates
 
-- Route long-form episode strategy through `agents/references/skills/cascade_effects_series_bible_v1/SKILL.md`.
-- Route long-form audio/script production through `agents/references/skills/episode_production_v1/SKILL.md`.
-- Route long-form YouTube video production through `agents/references/skills/long_form_video_production_v1/SKILL.md`.
-- Route Shorts production through `agents/references/skills/youtube_shorts_production_v1/SKILL.md`.
-- Route Shorts final export through `agents/references/skills/youtube_shorts_final_export_v1/SKILL.md`.
-- Route publish readiness and review upload through `agents/references/skills/youtube_shorts_publish_v1/SKILL.md` or the long-form publish workflow. Public release stays manual.
-- Use `inbox/` as the mandatory human approval surface for Season 2 gate decisions.
+- Route long-form episode strategy through `ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md`.
+- Route long-form audio/script production through `ops/agents/skills/episode_production_v1/SKILL.md`.
+- Route long-form YouTube video production through `ops/agents/skills/long_form_video_production_v1/SKILL.md`.
+- Route Shorts production through `ops/agents/skills/youtube_shorts_production_v1/SKILL.md`.
+- Route Shorts final export through `ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md`.
+- Route publish readiness and review upload through `ops/agents/skills/youtube_shorts_publish_v1/SKILL.md` or the long-form publish workflow. Public release stays manual.
+- Use `apps/review/` only through `bin/ce review-server`, `bin/ce review-list`, `bin/ce review-approve`, and `bin/ce review-reject`.
 
 ## Visual Rules
 
@@ -41,3 +42,4 @@ Use the `agent-memory` MCP server tools on every conversation turn.
 - Release work with `bin/ce release-task` when done or blocked.
 - Keep task outputs inside the episode folder, `ops/`, or `.artifacts/` as specified by the task.
 - Run `bin/ce doctor` before committing production workflow changes.
+- Do not recreate top-level `agents/`, `audio/`, `viz/`, `inbox/`, `labs/`, `channel/`, or `episodes/season-01/`.

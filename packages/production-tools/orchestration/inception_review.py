@@ -131,7 +131,7 @@ def write_inception_review_packet(context: Context, manifest: dict[str, Any]) ->
             "large_video_upload_allowed": False,
             "video_host": "youtube_unlisted_when_review_video_exists",
             "publish_command": (
-                "cd /Users/mike/Web_CascadeEffects && "
+                "cd /Users/mike/CascadeEffects/apps/web && "
                 f"npm run reviews:publish -- --packet {packet_root} --mode inception --review-id {episode_id}"
             ),
         },

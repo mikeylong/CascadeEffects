@@ -14,20 +14,20 @@
 - `archival_hygiene_rule`: `none|strict clean`
 - `archival_analog_look`: `none|selective`
 - `archival_source_breadth`: `none|1-3 primary archival videos plus small backup set`
-- `coordinator_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md`
-- `dp_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/SKILL.md`
+- `coordinator_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md`
+- `dp_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/SKILL.md`
 - `disposition`: `keep|tighten|diagnostic only|reject`
 - `dp_approved`: `true|false`
 
 ## Active Roots
 
-- `episode_short_root`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/<new_challenger_short_id>/`
-- `episode_production_root`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/<new_challenger_short_id>/production/`
-- `viz_short_root`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/<new_challenger_short_id>/`
+- `episode_short_root`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/<new_challenger_short_id>/`
+- `episode_production_root`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/<new_challenger_short_id>/production/`
+- `viz_short_root`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/shorts/<new_challenger_short_id>/`
 
 ## Whitelisted Source And Audio Inputs
 
-- `source_writer_packet_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/writer_packet.md`
+- `source_writer_packet_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/writer_packet.md`
 - `source_longform_script_path`:
 - `longform_fact_check_report_path`:
 - `short_script_source_path`:

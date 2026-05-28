@@ -6,15 +6,15 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 
 - `episode_id`: `challenger`
 - `short_id`: `challenger_short_minimal_surreal_v3_trimmed`
-- `short_script_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/challenger_short_v3_trimmed.txt`
-- `narration_map_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/production/narration_map.md`
-- `visual_beatmap_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/production/short_beat_shot_plan.md`
-- `cue_ranges_path`: `/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_short_v3_trimmed/transcripts_mastered/challenger_short_v3_trimmed.diarized.txt`
-- `caption_source_path`: `/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_short_v3_trimmed/transcripts_mastered/challenger_short_v3_trimmed.diarized.txt`
+- `short_script_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_v3_trimmed/challenger_short_v3_trimmed.txt`
+- `narration_map_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_v3_trimmed/production/narration_map.md`
+- `visual_beatmap_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_v3_trimmed/production/short_beat_shot_plan.md`
+- `cue_ranges_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep1_challenger_short_v3_trimmed/transcripts_mastered/challenger_short_v3_trimmed.diarized.txt`
+- `caption_source_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep1_challenger_short_v3_trimmed/transcripts_mastered/challenger_short_v3_trimmed.diarized.txt`
 - `audio_package_sha256`: `1e191295642fd5dc2bb3d98c306da7cf09962b2e1d654933d9f9fc9a97160c36`
 - `transcript_sha256`: `4c849f6aa47bd00ec64d6bf020d3b9253994484385d04367bfa12de0fd9dbf7c`
-- `style_skill_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/SKILL.md`
-- `subject_render_matrix_path`: `/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/judgment/subject_render_matrix.md`
+- `style_skill_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/SKILL.md`
+- `subject_render_matrix_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/judgment/subject_render_matrix.md`
 - `disposition`: `keep`
 - `blockers`: `none`
 
@@ -28,9 +28,9 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 
 ## Source Set
 
-- `source_inventory_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/source_inventory.json`
-- `research_notes_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/sources.md`
-- `active_short_manifest_path`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed.json`
+- `source_inventory_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/visual_research/source_inventory.json`
+- `research_notes_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/visual_research/sources.md`
+- `active_short_manifest_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed.json`
 - `primary_style_package`: `source_preserving_documentary_v1`
 - `reference_use_policy`: `Use source paths and IDs to constrain subject geometry, materials, era, and camera logic. Do not copy captions, labels, NASA marks, UI overlays, or archival text into generated visuals.`
 
@@ -44,7 +44,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `engineer proxy at an upper-tower side terminal with the orange external tank filling the exterior background`
 - `canonical_subject_constraints`: `One human figure, upright or leaning into a terminal, must remain secondary to the shuttle-tower context. The exterior must read as external tank/launch structure, not a generic spacecraft or office window.`
 - `historical_or_domain_reference_notes`: `Use Challenger pad/tower and tank references from the existing visual research lane; this beat should feel like a warning inside launch infrastructure, not a generic NASA control room.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/ice_on_pad_gantry/selects/ice_on_pad_gantry.png; source IDs act3_06, act3_07, act3_08`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/ice_on_pad_gantry/selects/ice_on_pad_gantry.png; source IDs act3_06, act3_07, act3_08`
 - `palette_material_constraints`: `Cold blue-gray gantry steel, muted orange external tank, off-white terminal glow, low-saturation documentary light.`
 - `camera_logic`: `Medium vertical tower-side frame; figure and terminal foreground, tank-dominant exterior background, no wide launch spectacle.`
 - `allowed_anomaly_carriers`: `human warning posture, terminal attention, isolated upper-tower placement`
@@ -64,7 +64,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `cold Challenger launch site in blue haze`
 - `canonical_subject_constraints`: `Challenger must remain fixed on the pad with recognizable shuttle/tower silhouette and cold prelaunch atmosphere.`
 - `historical_or_domain_reference_notes`: `Use pad, gantry, frost, and blue-haze references; this is the active Apple-native LTX exception beat only after reviewed keep proof.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/ice_on_pad_gantry/selects/ice_on_pad_gantry.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png; source IDs act3_06, act3_07, act3_08, act3_01`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/ice_on_pad_gantry/selects/ice_on_pad_gantry.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png; source IDs act3_06, act3_07, act3_08, act3_01`
 - `palette_material_constraints`: `Frosted blue haze, cool gray tower, quiet tank orange, no fiery launch palette.`
 - `camera_logic`: `Locked wide or medium-wide pad view; shuttle/tower silhouette fixed, no ascent or smoke plume.`
 - `allowed_anomaly_carriers`: `temperature, haze density, subtle tower/service light cadence`
@@ -84,7 +84,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `field-joint ring and O-ring seat in close documentary crop`
 - `canonical_subject_constraints`: `The joint must read as cylindrical booster hardware with a ring interface, gasket seat, seam, and residue line.`
 - `historical_or_domain_reference_notes`: `Use booster-joint evidence and recovered-debris references as mechanical constraints; this is an evidence insert, not a symbolic diagram.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/booster_joint_evidence/selects/booster_joint_evidence.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/recovered_booster_debris/selects/recovered_booster_debris.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/subject_reference_plates/generated/challenger_seal_joint.png`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/booster_joint_evidence/selects/booster_joint_evidence.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/recovered_booster_debris/selects/recovered_booster_debris.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/subject_reference_plates/generated/challenger_seal_joint.png`
 - `palette_material_constraints`: `Off-white insulation, dark rubber seam, scorched gray residue, restrained archival lighting.`
 - `camera_logic`: `Tight macro/documentary crop at the joint interface so the seam and blow-by evidence stay legible at Shorts scale.`
 - `allowed_anomaly_carriers`: `localized dark seam, faint residue line, slight material mismatch at the interface`
@@ -104,7 +104,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `calm mid-stack Challenger launch-pad context frame`
 - `canonical_subject_constraints`: `Shuttle stack/tank context must remain recognizable, centered enough for continuity after the O-ring insert, and free of visible disaster cues.`
 - `historical_or_domain_reference_notes`: `Use shuttle stack and systems-overview references as continuity context after the hardware close-up.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/shuttle_systems_overview/selects/shuttle_systems_overview.png; source IDs act2_01, act2_05, act2_06, act2_02`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/shuttle_systems_overview/selects/shuttle_systems_overview.png; source IDs act2_01, act2_05, act2_06, act2_02`
 - `palette_material_constraints`: `Muted tank orange, white shuttle surfaces, gray pad structure, low-contrast institutional calm.`
 - `camera_logic`: `Medium stack context frame after close-up; calm continuation rather than new anomaly.`
 - `allowed_anomaly_carriers`: `none; this is a continuity beat where calmness is the wrong state`
@@ -124,7 +124,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `launch-decision table with authority imbalance, no table phone, and only faint whiteboard residue kept secondary`
 - `canonical_subject_constraints`: `Room must read as a late-1980s engineering/management meeting space with table, folders, muted technical wall residue, and unequal posture across the table.`
 - `historical_or_domain_reference_notes`: `Use Rogers Commission and control-room/interior references for institutional texture; do not render a generic courtroom or modern conference room.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/rogers_commission_room/selects/rogers_commission_room.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/monitoring_labor_bank/selects/monitoring_labor_bank.png; source IDs act3_01, act3_02, act3_03, act3_04`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/rogers_commission_room/selects/rogers_commission_room.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/monitoring_labor_bank/selects/monitoring_labor_bank.png; source IDs act3_01, act3_02, act3_03, act3_04`
 - `palette_material_constraints`: `Fluorescent beige-gray room, dark table, paper off-whites, restrained institutional color; avoid warm courtroom drama.`
 - `camera_logic`: `Locked room/tableau view across the table; posture and spacing carry the proof-burden reversal.`
 - `allowed_anomaly_carriers`: `authority imbalance, empty chair pressure, one side physically compressed by table geometry`
@@ -144,7 +144,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `accepted Challenger field-joint close-up family reused as the beat_04a still`
 - `canonical_subject_constraints`: `Same joint family as beat_02a, now with a thin pale smoke/seep cue emerging from the interface.`
 - `historical_or_domain_reference_notes`: `Constrain to booster-joint and smoke evidence; do not widen to the full launch stack.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/booster_joint_evidence/selects/booster_joint_evidence.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/breach_plume_tracking/selects/breach_plume_tracking.png`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/booster_joint_evidence/selects/booster_joint_evidence.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/breach_plume_tracking/selects/breach_plume_tracking.png`
 - `palette_material_constraints`: `Cold off-white hardware, thin pale smoke, dark seam, no orange flame.`
 - `camera_logic`: `Locked close crop at the joint interface; smoke/seep must be visible without becoming a plume.`
 - `allowed_anomaly_carriers`: `one thin pale seam seep, localized smoke from the joint interface`
@@ -164,7 +164,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `Space Shuttle Challenger airborne high above Earth in a restrained exterior documentary frame`
 - `canonical_subject_constraints`: `The orbiter, external tank, and boosters must remain recognizable as Challenger in flight; Earth/sky context is secondary.`
 - `historical_or_domain_reference_notes`: `Use shuttle flight and breach-plume tracking references; the frame must stay before breakup.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/breach_plume_tracking/selects/breach_plume_tracking.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/breach_plume_tracking/selects/breach_plume_tracking.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png`
 - `palette_material_constraints`: `High-altitude blue/black, white shuttle/tank read, small orange-white flame cue restrained to right booster joint path.`
 - `camera_logic`: `Exterior telephoto-like vertical frame; vehicle remains intact, flame is visible but not dominant.`
 - `allowed_anomaly_carriers`: `small flame along right booster joint path, restrained breach cue`
@@ -184,7 +184,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `actual exterior Challenger breakup event in open sky above Earth`
 - `canonical_subject_constraints`: `Use historically recognizable breakup geometry and breach plume branching from the NASA 86-HC-220 crop.`
 - `historical_or_domain_reference_notes`: `This beat is evidence-led. Generated breakup attempts stay diagnostic-only unless they preserve the historical geometry.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed/still_overrides/beat_04c__nasa_86HC220_crop.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/breach_plume_tracking/selects/breach_plume_tracking.png`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed/still_overrides/beat_04c__nasa_86HC220_crop.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/breach_plume_tracking/selects/breach_plume_tracking.png`
 - `palette_material_constraints`: `Archival sky blue, white smoke/plume branching, no stylized fireball palette.`
 - `camera_logic`: `Portrait crop of the actual exterior breakup; preserve readable plume geometry and open sky scale.`
 - `allowed_anomaly_carriers`: `historical breakup geometry, breach plume branching`
@@ -204,7 +204,7 @@ Restart note: this is a legacy example. It must not be used as active Challenger
 - `primary_subject`: `control-room thesis frame with indicator-block status wall`
 - `canonical_subject_constraints`: `Control-room or status-wall environment must read as institutional monitoring logic, not a generic office or cockpit.`
 - `historical_or_domain_reference_notes`: `Use routine console and monitoring-labor references; the status wall is abstracted but must remain wordless.`
-- `reference_source_paths_or_urls`: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/routine_console_wide/selects/routine_console_wide.png; /Users/mike/Viz_CascadeEffects/references/episodes/challenger/monitoring_labor_bank/selects/monitoring_labor_bank.png; source IDs act2_03, act2_08, act3_01, act4_02`
+- `reference_source_paths_or_urls`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/routine_console_wide/selects/routine_console_wide.png; /Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/monitoring_labor_bank/selects/monitoring_labor_bank.png; source IDs act2_03, act2_08, act3_01, act4_02`
 - `palette_material_constraints`: `Dim gray-green control-room glow, off-white indicator blocks, subdued blue/gray institutional palette.`
 - `camera_logic`: `Locked interior thesis frame; status wall dominates as a normalizing machine while people remain absent or incidental.`
 - `allowed_anomaly_carriers`: `indicator blocks absorbing warning state into routine pattern, calm control-room symmetry`

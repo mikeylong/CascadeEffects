@@ -9,9 +9,9 @@ from pathlib import Path
 from typing import Any
 
 
-STYLE_SKILL_PATH = "/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/SKILL.md"
+STYLE_SKILL_PATH = "/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/SKILL.md"
 SUBJECT_RENDER_MATRIX_PATH = (
-    "/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/"
+    "/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/"
     "judgment/subject_render_matrix.md"
 )
 HEADING_RE = re.compile(r"^(?P<level>#{3,4})\s+`?(?P<beat_id>[^`\n]+)`?\s*$")

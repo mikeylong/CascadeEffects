@@ -12,7 +12,7 @@ This skill owns the copy layer only. It does not upload, publish, schedule, chan
 ## Required References
 
 - Official guidance snapshot: [references/official_youtube_metadata_guidance_2026-05-15.md](references/official_youtube_metadata_guidance_2026-05-15.md)
-- Series strategy and voice: [/Users/mike/Agents_CascadeEffects/references/skills/cascade_effects_series_bible_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/cascade_effects_series_bible_v1/SKILL.md)
+- Series strategy and voice: [/Users/mike/CascadeEffects/ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md)
 - Packet template: [templates/youtube_metadata_copy_packet_template.md](templates/youtube_metadata_copy_packet_template.md)
 
 Refresh the official guidance before changing this skill if the source snapshot is more than 90 days old, if YouTube metadata rules appear to have changed, or if the user asks for current best practices.

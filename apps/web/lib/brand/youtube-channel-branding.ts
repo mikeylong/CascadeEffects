@@ -127,7 +127,7 @@ export const youtubeChannelBrandingPackage = {
   youtubeStudioUpdated: false,
   createdUtc: '2026-05-20T21:02:13Z',
   localPackagePath:
-    '/Users/mike/CascadeEffects/channel/season-01/youtube_channel_brand_assets_advanced_features_corrected_banner_20260520T210213Z',
+    '/Users/mike/CascadeEffects/archive/season-01-reference/channel/season-01/youtube_channel_brand_assets_advanced_features_corrected_banner_20260520T210213Z',
   summary:
     'The current YouTube channel banner, profile image, and video watermark package, gathered here for visual review and manual upload.',
   heroImage: `${assetRoot}/channel-banner-strip-2048x340.png`,

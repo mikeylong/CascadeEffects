@@ -8,21 +8,21 @@ Restart note: this is a legacy DP example from `challenger_short_restart_v1`. It
 - `episode_id`: `challenger`
 - `short_id`: `challenger_short_restart_v1`
 - `shot_plan_id`: `shot_plan_v2`
-- `coordinator_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_production_v1/SKILL.md`
-- `dp_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/SKILL.md`
+- `coordinator_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_production_v1/SKILL.md`
+- `dp_skill_path`: `/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/SKILL.md`
 - `canonical_flow`: `fact-checked long-form script -> derived 60-second Short script -> audio -> narration map -> DP scope/research brief -> visual research packet -> visual beatmap -> shot_plan_v2 -> episode constraint ledger -> stills contact sheet -> stills video proof -> motion contact sheet -> motion video proof -> video final`
-- `source_writer_packet_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/writer_packet.md`
-- `source_longform_script_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/Ep1_Challenger.txt`
-- `longform_fact_check_report_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/fact_check.md`
-- `short_script_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_restart_v1/challenger_short_restart_v1.txt`
-- `short_audio_wav_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_restart_v1/final/challenger_short_restart_v1.wav`
-- `caption_source_path`: `/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_short_restart_v1/transcripts_mastered/challenger_short_restart_v1.diarized.txt`
-- `caption_timing_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_restart_v1/production/caption_timing_clean_20260420T064100Z.json`
+- `source_writer_packet_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/writer_packet.md`
+- `source_longform_script_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/Ep1_Challenger.txt`
+- `longform_fact_check_report_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/fact_check.md`
+- `short_script_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_restart_v1/challenger_short_restart_v1.txt`
+- `short_audio_wav_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_restart_v1/final/challenger_short_restart_v1.wav`
+- `caption_source_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/audio/tmp/ep1_challenger_short_restart_v1/transcripts_mastered/challenger_short_restart_v1.diarized.txt`
+- `caption_timing_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_restart_v1/production/caption_timing_clean_20260420T064100Z.json`
 - `approved_audio_duration_seconds`: `55.727891`
-- `current_visual_research_packet_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_restart_v1/production/visual_research_packet.md`
-- `existing_approved_stills_source_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_restart_v1/production/stills_contact_sheet_handoff_20260420T044605Z.yml`
-- `existing_approved_motion_source_path`: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_restart_v1/production/motion_video_proof_redo_handoff_20260420T081540Z.yml`
-- `diagnostic_final_reference_path`: `/Users/mike/Viz_CascadeEffects/workflows/generated/shorts/challenger_short_restart_v1_motion_video_proof_redo_visible_motion/20260420T081540Z/final_exports/challenger_restart_final_visible_motion_v1/20260420T082722Z__captioned_final.mp4`
+- `current_visual_research_packet_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_restart_v1/production/visual_research_packet.md`
+- `existing_approved_stills_source_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_restart_v1/production/stills_contact_sheet_handoff_20260420T044605Z.yml`
+- `existing_approved_motion_source_path`: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_restart_v1/production/motion_video_proof_redo_handoff_20260420T081540Z.yml`
+- `diagnostic_final_reference_path`: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/workflows/generated/shorts/challenger_short_restart_v1_motion_video_proof_redo_visible_motion/20260420T081540Z/final_exports/challenger_restart_final_visible_motion_v1/20260420T082722Z__captioned_final.mp4`
 - `reason_for_dp_pass`: `current final proves visual direction but has slow/jittery motion from stretching short motion handles across long beats`
 - `total_shot_count`: `15`
 - `longest_shot_duration_seconds`: `4.727`

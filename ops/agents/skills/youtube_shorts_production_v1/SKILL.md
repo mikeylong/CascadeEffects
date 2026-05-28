@@ -19,21 +19,21 @@ This skill owns sequence, stage ledger, routing, handoff packets, gate decisions
 
 ## Specialist References
 
-- Audio stage: [/Users/mike/Audio_CascadeEffects/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md](/Users/mike/Audio_CascadeEffects/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md)
-- Long-form audio script source: [/Users/mike/Agents_CascadeEffects/references/skills/episode_production_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/episode_production_v1/SKILL.md)
-- DP scope, research, constraints, and shot planning: [/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/SKILL.md)
-- DP research and constraint policy: [/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/references/dp_research_constraint_policy.md](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/references/dp_research_constraint_policy.md)
-- Motion readiness gate for Shorts and long-form: [/Users/mike/Agents_CascadeEffects/references/skills/motion_readiness_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/motion_readiness_v1/SKILL.md)
-- Visual style and still/motion judgment: [/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/SKILL.md](/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/SKILL.md)
-- House CRT signal texture registry: [/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json](/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json)
-- Visual promotion workflow: [/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/judgment/promotion_workflow.md](/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/judgment/promotion_workflow.md)
-- Keeper registry, scoped reference only unless DP-imported: [/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/judgment/keeper_registry.md](/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/judgment/keeper_registry.md)
-- Final export stage: [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/SKILL.md)
-- Publish stage: [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md)
-- Cross-episode Shorts audio lane registry: [/Users/mike/Agents_CascadeEffects/references/shorts/audio_lane_registry.json](/Users/mike/Agents_CascadeEffects/references/shorts/audio_lane_registry.json)
-- Canonical Shorts music track registry: [/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json](/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json)
-- Shorts voice profile registry: [/Users/mike/Audio_CascadeEffects/references/voice_profiles/youtube_shorts_voice_profiles.json](/Users/mike/Audio_CascadeEffects/references/voice_profiles/youtube_shorts_voice_profiles.json)
-- Proof review template: [/Users/mike/FluxLab_CascadeEffects/proofs/suites/_proof_review_template.md](/Users/mike/FluxLab_CascadeEffects/proofs/suites/_proof_review_template.md)
+- Audio stage: [/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md](/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/skills/youtube_shorts_audio_elevenlabs_v1/SKILL.md)
+- Long-form audio script source: [/Users/mike/CascadeEffects/ops/agents/skills/episode_production_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/episode_production_v1/SKILL.md)
+- DP scope, research, constraints, and shot planning: [/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/SKILL.md)
+- DP research and constraint policy: [/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/references/dp_research_constraint_policy.md](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/references/dp_research_constraint_policy.md)
+- Motion readiness gate for Shorts and long-form: [/Users/mike/CascadeEffects/ops/agents/skills/motion_readiness_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/motion_readiness_v1/SKILL.md)
+- Visual style and still/motion judgment: [/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/SKILL.md](/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/SKILL.md)
+- House CRT signal texture registry: [/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json](/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json)
+- Visual promotion workflow: [/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/judgment/promotion_workflow.md](/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/judgment/promotion_workflow.md)
+- Keeper registry, scoped reference only unless DP-imported: [/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/judgment/keeper_registry.md](/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/judgment/keeper_registry.md)
+- Final export stage: [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md)
+- Publish stage: [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_publish_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_publish_v1/SKILL.md)
+- Cross-episode Shorts audio lane registry: [/Users/mike/CascadeEffects/packages/production-registry/shorts/audio_lane_registry.json](/Users/mike/CascadeEffects/packages/production-registry/shorts/audio_lane_registry.json)
+- Canonical Shorts music track registry: [/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json](/Users/mike/CascadeEffects/packages/production-registry/shorts/music_track_registry.json)
+- Shorts voice profile registry: [/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/voice_profiles/youtube_shorts_voice_profiles.json](/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/voice_profiles/youtube_shorts_voice_profiles.json)
+- Proof review template: [/Users/mike/CascadeEffects/archive/season-01-reference/legacy-fluxlab/proofs/suites/_proof_review_template.md](/Users/mike/CascadeEffects/archive/season-01-reference/legacy-fluxlab/proofs/suites/_proof_review_template.md)
 
 ## Policy References
 
@@ -238,35 +238,35 @@ Output should be a stage-aware production packet, not a generic status note. Nam
 - short production pilot using [templates/short_production_pilot_template.md](templates/short_production_pilot_template.md)
 - narration map using [templates/narration_map_template.md](templates/narration_map_template.md)
 - visual beatmap using [templates/short_beat_shot_plan_template.md](templates/short_beat_shot_plan_template.md)
-- workflow scope manifest using [/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/workflow_scope_manifest_template.md](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/workflow_scope_manifest_template.md)
-- DP research brief using [/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/dp_research_brief_template.md](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/dp_research_brief_template.md)
-- DP shot packet using [/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/dp_shot_packet_template.md](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/dp_shot_packet_template.md)
-- episode constraint ledger using [/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/episode_constraint_ledger_template.md](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/episode_constraint_ledger_template.md)
+- workflow scope manifest using [/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/workflow_scope_manifest_template.md](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/workflow_scope_manifest_template.md)
+- DP research brief using [/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/dp_research_brief_template.md](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/dp_research_brief_template.md)
+- DP shot packet using [/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/dp_shot_packet_template.md](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/dp_shot_packet_template.md)
+- episode constraint ledger using [/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/episode_constraint_ledger_template.md](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/episode_constraint_ledger_template.md)
 - visual research packet using [templates/visual_research_packet_template.md](templates/visual_research_packet_template.md)
 - production model decision using [templates/production_model_decision_template.md](templates/production_model_decision_template.md)
 - render authorization check using [templates/render_authorization_check_template.md](templates/render_authorization_check_template.md)
-- motion readiness review using [/Users/mike/Agents_CascadeEffects/references/skills/motion_readiness_v1/templates/motion_readiness_review_template.md](/Users/mike/Agents_CascadeEffects/references/skills/motion_readiness_v1/templates/motion_readiness_review_template.md)
+- motion readiness review using [/Users/mike/CascadeEffects/ops/agents/skills/motion_readiness_v1/templates/motion_readiness_review_template.md](/Users/mike/CascadeEffects/ops/agents/skills/motion_readiness_v1/templates/motion_readiness_review_template.md)
 - shot timing EDL using [templates/shot_timing_edl_template.md](templates/shot_timing_edl_template.md)
-- archival footage review using [/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/archival_footage_review_template.md](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/templates/archival_footage_review_template.md) when archival motion is in scope
+- archival footage review using [/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/archival_footage_review_template.md](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/templates/archival_footage_review_template.md) when archival motion is in scope
 - keeper lesson capsule using [templates/keeper_lesson_capsule_template.md](templates/keeper_lesson_capsule_template.md) after a publishable keeper short
 - optional packet skeleton generator: [scripts/visual_research_packet_skeleton.py](scripts/visual_research_packet_skeleton.py)
 - deferred-gap list using [templates/deferred_gap_template.md](templates/deferred_gap_template.md)
 - proof and final review note using [templates/short_video_stage_review_template.md](templates/short_video_stage_review_template.md)
 - first-second hook local review note using [templates/first_second_hook_review_template.md](templates/first_second_hook_review_template.md)
 - motion contact sheet manifest using [templates/motion_contact_sheet_manifest_template.md](templates/motion_contact_sheet_manifest_template.md)
-- final-export request using [/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/templates/final_export_request_template.md](/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_final_export_v1/templates/final_export_request_template.md)
-- proof reviews using [/Users/mike/FluxLab_CascadeEffects/proofs/suites/_proof_review_template.md](/Users/mike/FluxLab_CascadeEffects/proofs/suites/_proof_review_template.md)
+- final-export request using [/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/templates/final_export_request_template.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_shorts_final_export_v1/templates/final_export_request_template.md)
+- proof reviews using [/Users/mike/CascadeEffects/archive/season-01-reference/legacy-fluxlab/proofs/suites/_proof_review_template.md](/Users/mike/CascadeEffects/archive/season-01-reference/legacy-fluxlab/proofs/suites/_proof_review_template.md)
 
 ## Worked Example
 
 Use Challenger restart as the primary worked example for this skill. Old v1/v2/v3/restart visual folders are legacy reference unless exact files are DP-imported.
 
-- new scoped short root: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/<new_challenger_short_id>/`
-- new scoped visual root: `/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/<new_challenger_short_id>/`
-- source writer packet: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/writer_packet.md`
-- source long-form script: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/Ep1_Challenger.txt`
-- long-form fact-check report: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/fact_check.md`
-- accepted prior audio source, usable only as exact whitelisted audio provenance: `/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_restart_v1/final/challenger_short_restart_v1.wav`
+- new scoped short root: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/<new_challenger_short_id>/`
+- new scoped visual root: `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references/episodes/challenger/shorts/<new_challenger_short_id>/`
+- source writer packet: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/writer_packet.md`
+- source long-form script: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/Ep1_Challenger.txt`
+- long-form fact-check report: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/fact_check.md`
+- accepted prior audio source, usable only as exact whitelisted audio provenance: `/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/shorts/challenger_short_restart_v1/final/challenger_short_restart_v1.wav`
 
 ## Edge Cases
 

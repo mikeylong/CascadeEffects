@@ -31,7 +31,7 @@ Each asset family now ships in three stages:
 - `refine_img2img`
 - `final_upscale`
 
-Reference boards live outside this directory under `/Users/mike/Viz_CascadeEffects/references`.
+Reference boards live outside this directory under `/Users/mike/CascadeEffects/packages/media-pipeline/viz/references`.
 
 ## Build Flow
 

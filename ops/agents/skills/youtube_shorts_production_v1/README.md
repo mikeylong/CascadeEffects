@@ -5,9 +5,9 @@
 - [Stage gate, promotion, and reset policy](references/stage_gate_policy.md)
 - [Motion backend and dual-model matrix policy](references/motion_backend_policy.md)
 - [Source-derived archival reanimation policy](references/source_derived_archival_reanimation_policy.md)
-- [Historical signal texture profile registry](/Users/mike/Viz_CascadeEffects/references/style_packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json)
+- [Historical signal texture profile registry](/Users/mike/CascadeEffects/archive/season-01-reference/legacy-style-packages/style-packages/source_preserving_documentary_v1/archival_signal_texture_recipes.json)
 - [Caption, text, and final-export handoff policy](references/caption_and_final_export_policy.md)
-- [DP research and constraint policy](/Users/mike/Agents_CascadeEffects/references/skills/director_of_photography_v1/references/dp_research_constraint_policy.md)
+- [DP research and constraint policy](/Users/mike/CascadeEffects/ops/agents/skills/director_of_photography_v1/references/dp_research_constraint_policy.md)
 
 ## Source-First Motion Lane
 

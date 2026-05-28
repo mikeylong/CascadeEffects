@@ -8,7 +8,7 @@ import unittest
 from pathlib import Path
 
 
-REPO_ROOT = Path("/Users/mike/Audio_CascadeEffects")
+REPO_ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/audio")
 HELPER_PATH = REPO_ROOT / "scripts" / "pronunciation_preflight.py"
 
 

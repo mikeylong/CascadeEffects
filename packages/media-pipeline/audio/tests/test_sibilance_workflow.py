@@ -8,10 +8,10 @@ from collections import defaultdict
 from pathlib import Path
 
 
-REPO_ROOT = Path("/Users/mike/Audio_CascadeEffects")
+REPO_ROOT = Path("/Users/mike/CascadeEffects/packages/media-pipeline/audio")
 SCRIPT_PATH = REPO_ROOT / "scripts" / "sibilance_workflow.py"
 TTS_SCRIPT_PATH = Path("/Users/mike/.codex/skills/speech/scripts/text_to_speech.py")
-CHALLENGER_MASTER = Path("/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/final/Ep1_Challenger.wav")
+CHALLENGER_MASTER = Path("/Users/mike/CascadeEffects/archive/season-01-reference/original-episodes/Ep1_Challenger/final/Ep1_Challenger.wav")
 CHALLENGER_MANIFEST = REPO_ROOT / "tmp/ep1_challenger_production/final_jobs.jsonl"
 CHALLENGER_RENDER_DIR = REPO_ROOT / "tmp/ep1_challenger_production/rendered"
 SEEDED_TIMES = [

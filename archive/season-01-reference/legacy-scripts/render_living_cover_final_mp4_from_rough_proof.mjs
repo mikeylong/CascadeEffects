@@ -1335,7 +1335,7 @@ function finalize(inputs, paths, config, browserQaResult, captureResult, log) {
       intent: inputs.productionContractPreflightReceipt?.intent || "successor",
       contract_registry_path:
         inputs.productionContractPreflightReceipt?.contract_registry_path ||
-        path.join(REPO_ROOT, "references/production_contracts/cascade_effects_output_contracts.v1.json"),
+        path.resolve(REPO_ROOT, "../contracts/cascade_effects_output_contracts.v1.json"),
       youtube_action_approval_read: "blocked_final_assembly_review_only",
     },
     review_only: true,

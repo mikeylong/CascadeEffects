@@ -1,85 +1,14 @@
 {
-  "schema_version": "1.0",
-  "default_active_shorts_music_track_id": "paper_architecture_theme_v1",
+  "schema_version": "2.0",
+  "default_active_shorts_music_track_id": "",
   "rules": {
-    "active_shorts_default_music_policy": "canonical_default",
+    "active_shorts_default_music_policy": "explicit_track_required",
     "music_stage": "video final",
     "apply_after_voice_and_caption_timing_locked": true,
     "waiver_requires_music_waiver_reason": true,
     "alternate_tracks_must_be_registered": true,
     "rights_and_claims_are_publish_warnings": true
   },
-  "tracks": {
-    "paper_architecture_theme_v1": {
-      "status": "active_default",
-      "name": "Paper Architecture",
-      "usage": "canonical_default_for_active_youtube_shorts",
-      "body_loop": {
-        "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
-        "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
-        "role": "body_loop",
-        "default_volume_linear": 0.2,
-        "default_start_seconds": 0.0,
-        "default_fade_out_duration_seconds": 0.5
-      },
-      "opening_impact_assets": {
-        "opening_impact_theme_hit_v1": {
-          "status": "active_for_local_first_second_hook_review",
-          "path": "/Users/mike/Agents_CascadeEffects/references/shorts/audio/opening_impact_theme_hit_v1.wav",
-          "sha256": "35f64b0b151bf85450ed3e142bb02002da080d7ee9efb8b0cbdcb2d004e7669b",
-          "source_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
-          "source_sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
-          "role": "first_second_opening_impact",
-          "source_trim_start_seconds": 0.0,
-          "duration_seconds": 0.75,
-          "processing": "volume=0.70, afade=t=out:st=0.620:d=0.130, alimiter=limit=0.89:level=false, pcm_s16le 48000 Hz stereo",
-          "target_peak_dbfs_max": -1.0,
-          "measured_true_peak_dbfs": -4.9,
-          "target_integrated_lufs_min": -22.0,
-          "target_integrated_lufs_max": -12.0,
-          "measured_integrated_lufs": -19.1,
-          "rights_and_claims": {
-            "derived_from_registered_track_id": "paper_architecture_theme_v1",
-            "rights_check_required_before_public_release": true,
-            "claim_risk": "check_upload_processing_before_public_release",
-            "claim_handling": "warning_not_hard_failure",
-            "notes": "Registered for local first-second hook review proofs and later human-kept final rebuilds only; public release still requires YouTube Studio rights and claim checks."
-          }
-        }
-      },
-      "outro": {
-        "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture outro.m4a",
-        "sha256": "03734595354c2ca8e2b513dd00ef181b002e8e8009844d499682383422eb9860",
-        "role": "theme_outro",
-        "default_initial_volume_linear": 0.1,
-        "default_ramp_end_volume_linear": 0.82,
-        "default_ramp_policy": "begin audible ramp after the spoken motif resolves",
-        "default_fade_in_duration_seconds": 0.2
-      },
-      "mix_profile": {
-        "profile_id": "paper_architecture_motif_outro_mix_v1",
-        "source_reference": "challenger_motif_outro_mix_pass06",
-        "body_loop_volume_linear": 0.2,
-        "outro_initial_volume_linear": 0.1,
-        "outro_ramp_end_volume_linear": 0.82,
-        "final_frame_hold_seconds_min": 0.5,
-        "final_frame_hold_seconds_max": 0.75,
-        "outro_pre_motif_lead_seconds": 0.25,
-        "outro_completion_policy": "extend_final_to_complete_outro",
-        "max_extended_final_frame_hold_seconds": 4.0,
-        "limiter": "alimiter limit=0.89 level=false",
-        "qa_required": [
-          "motif_music_bed_read",
-          "outro_completion_read",
-          "final_mix_no_clipping"
-        ]
-      },
-      "rights_and_claims": {
-        "rights_check_required_before_public_release": true,
-        "claim_risk": "check_upload_processing_before_public_release",
-        "claim_handling": "warning_not_hard_failure",
-        "notes": "Confirm channel rights and YouTube upload checks before public release, especially for Shorts longer than 60 seconds."
-      }
-    }
-  }
+  "tracks": {},
+  "notes": "Season 2 starts without a inherited default music bed. Register a track with local artifact checksums before video-final use."
 }

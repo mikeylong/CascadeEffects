@@ -24,22 +24,23 @@ def load_inbox_config(inbox_root: Path = ROOT_DIR) -> dict[str, Any]:
     return loaded
 
 
-def resolve_agents_root(inbox_root: Path = ROOT_DIR) -> Path:
+def resolve_production_tools_root(inbox_root: Path = ROOT_DIR) -> Path:
     config = load_inbox_config(inbox_root)
-    raw = str(config.get("agents_root", "")).strip()
+    raw = str(config.get("production_tools_root") or config.get("agents_root", "")).strip()
     if not raw:
-        raise SystemExit(f"{inbox_config_path(inbox_root)} is missing `agents_root`.")
-    agents_root = Path(raw).expanduser().resolve()
-    if not agents_root.exists():
-        raise SystemExit(f"Configured agents_root does not exist: {agents_root}")
-    channel_path = agents_root / "config" / "channel.toml"
-    if not channel_path.exists():
-        raise SystemExit(f"Configured agents_root is missing config/channel.toml: {agents_root}")
-    return agents_root
+        raise SystemExit(f"{inbox_config_path(inbox_root)} is missing `production_tools_root`.")
+    tools_root = Path(raw).expanduser().resolve()
+    if not tools_root.exists():
+        raise SystemExit(f"Configured production_tools_root does not exist: {tools_root}")
+    return tools_root
+
+
+def resolve_agents_root(inbox_root: Path = ROOT_DIR) -> Path:
+    return resolve_production_tools_root(inbox_root)
 
 
 def ensure_agents_on_path(inbox_root: Path = ROOT_DIR) -> Path:
-    agents_root = resolve_agents_root(inbox_root)
+    agents_root = resolve_production_tools_root(inbox_root)
     rendered = str(agents_root)
     if rendered not in sys.path:
         sys.path.insert(0, rendered)
@@ -80,8 +81,6 @@ from orchestration.stills import (  # noqa: E402
 
 def build_agents_context(agents_root: Path | None = None) -> Context:
     root = Path(agents_root).expanduser().resolve() if agents_root else AGENTS_ROOT
-    if not (root / "config" / "channel.toml").exists():
-        raise SystemExit(f"Agents root is missing config/channel.toml: {root}")
     return _build_context(root=root)
 
 
@@ -111,6 +110,7 @@ __all__ = [
     "promote_packaging_still",
     "promote_scene_still",
     "resolve_agents_root",
+    "resolve_production_tools_root",
     "resolve_packaging_item",
     "resolve_scene_item",
     "scene_items",
