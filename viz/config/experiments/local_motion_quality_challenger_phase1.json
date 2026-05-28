@@ -1,0 +1,47 @@
+{
+  "experiment_id": "local_motion_quality_challenger_phase1",
+  "title": "Local MLX Motion Quality Experiment",
+  "short_manifest_path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed.json",
+  "output_root": "/Users/mike/Viz_CascadeEffects/workflows/generated/experiments/local_motion_quality",
+  "review_note_path": "/Users/mike/FluxLab_CascadeEffects/proofs/suites/challenger_local_motion_quality_experiment_pass_01.md",
+  "width": 576,
+  "height": 1024,
+  "first_pass_seed": 42,
+  "second_pass_seed": 314159,
+  "max_wall_clock_multiplier": 3.0,
+  "beats": [
+    {
+      "id": "beat_02a",
+      "role": "control",
+      "archetype": "field_joint_motion"
+    },
+    {
+      "id": "beat_01b",
+      "role": "stress",
+      "archetype": "cold_launch_site_motion"
+    }
+  ],
+  "variants": [
+    {
+      "id": "baseline",
+      "label": "distilled baseline",
+      "pipeline": "distilled",
+      "model_repo": "mlx-community/LTX-2-distilled-bf16",
+      "backend_variant": "distilled"
+    },
+    {
+      "id": "candidate_dev",
+      "label": "dev",
+      "pipeline": "dev",
+      "model_repo": "mlx-community/LTX-2-dev-bf16",
+      "backend_variant": "dev"
+    },
+    {
+      "id": "candidate_dev_two_stage_hq",
+      "label": "dev-two-stage-hq",
+      "pipeline": "dev-two-stage-hq",
+      "model_repo": "mlx-community/LTX-2-dev-bf16",
+      "backend_variant": "dev"
+    }
+  ]
+}

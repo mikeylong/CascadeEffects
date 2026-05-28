@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "stage": "first-second hook review",
+  "prototype_id": "therac_theme_intro_hook_20260519T165215Z",
+  "local_only_no_youtube_action": true,
+  "episode_id": "therac-25",
+  "short_id": "therac_short_scoped_v1",
+  "current_latest_publish_mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/publish/youtube_20260429T002638Z_pass02_1980s_texture/therac25_software_safety_youtube_short.mp4",
+  "current_latest_publish_mp4_sha256": "0fa29b630f06c39fe192341abf981004f47fc87e7aae4724cc65a6924f5ecfe4",
+  "proof_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/therac_theme_intro_hook_review_proof.mp4",
+  "proof_sha256": "d418184d70d7bbbb88e1d10f5ade0f49768c125bdbb2b07cd51054c4acc76831",
+  "comparison_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/side_by_side_current_vs_therac_theme_hook_first_10s.mp4",
+  "comparison_sha256": "ccaea8465eefe7853fdcf258cb268d69e4b41e4cc3e09c4e3580216c7183b6b1",
+  "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/opening_frame_strip.jpg",
+  "frame_strip_sha256": "315236e21ae0ca0af05bfe936e5b5104e0f132569578b3fe5c8da9b6e7f5c809",
+  "outro_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/outro_frame_strip.jpg",
+  "outro_frame_strip_sha256": "8816f5f8f823e1f09672429df34ffabc91f303b6b828847a4abd74c8b05363ce",
+  "waveform_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/first_10s_waveform.png",
+  "waveform_sha256": "d27bf02f64ab444a3128144524eafdff2ba36f35b00e829506953ea549aa2e39",
+  "visual_extension_mode": "source_motion_tail",
+  "cloned_frame_padding_used": false,
+  "source_motion_tail": {
+    "source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/shorts/therac_short_scoped_v1/motion_video_proof/pass_28_final_tail_repair/source_tail_scout/wijp4p9b1ow_176_193_tail_scout_no_audio.mp4",
+    "source_sha256": "64ced9d4bfbe75dbcba8f2113bb178aa0c2fe82aea28a5e05fd1e4a22aa5a936",
+    "source_start_seconds": 0.0,
+    "duration_seconds": 3.66,
+    "description": "moving no-audio Therac-25 patient/machine tail scout source"
+  },
+  "tail_gap_seconds": 3.66,
+  "freeze_tail_read": "pass",
+  "freeze_tail_evidence": {
+    "window_start_seconds": 58.46,
+    "window_duration_seconds": 8.0,
+    "threshold_db": -60,
+    "min_freeze_duration_seconds": 0.5,
+    "freeze_events": [],
+    "freeze_tail_read": "pass"
+  },
+  "visual_strategy": {
+    "hook_visual": "no-caption Therac-25 clinical patient/machine scene moved to the front",
+    "hook_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/shorts/therac_short_scoped_v1/motion_video_proof/pass_29_1980s_crt_visible_but_premium/therac25_motion_video_proof_pass_29_1980s_crt_visible_but_premium_motion_only_no_audio.mp4",
+    "hook_source_start_seconds": 39.0,
+    "hook_duration_seconds": 3.0,
+    "body_after_hook": "existing Therac-25 captioned current Short body starts at original t=0 after hook",
+    "visual_extension_mode": "source_motion_tail",
+    "cloned_frame_padding_used": false,
+    "source_motion_tail": {
+      "source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/shorts/therac_short_scoped_v1/motion_video_proof/pass_28_final_tail_repair/source_tail_scout/wijp4p9b1ow_176_193_tail_scout_no_audio.mp4",
+      "source_sha256": "64ced9d4bfbe75dbcba8f2113bb178aa0c2fe82aea28a5e05fd1e4a22aa5a936",
+      "source_start_seconds": 0.0,
+      "duration_seconds": 3.66,
+      "description": "moving no-audio Therac-25 patient/machine tail scout source"
+    }
+  },
+  "music_strategy": {
+    "full_theme_intro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_theme_intro_sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "theme_intro_start_seconds": 0.0,
+    "theme_intro_duration_seconds": 3.0,
+    "theme_intro_volume": 0.78,
+    "loop_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop_60s.wav",
+    "loop_sha256": "3f8751c4ad66d51c6dd1b483c51cc394f63925cb97d54e526dfda8469c7e038e",
+    "loop_start_seconds": 2.25,
+    "loop_crossfade_seconds": 0.75,
+    "loop_volume_under_voice": 0.14,
+    "outro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture outro.m4a",
+    "outro_sha256": "03734595354c2ca8e2b513dd00ef181b002e8e8009844d499682383422eb9860",
+    "outro_start_seconds": 59.48,
+    "outro_volume": 0.76,
+    "limiter": "post-mix volume=0.62, alimiter=limit=0.62:level=false"
+  },
+  "voice_strategy": {
+    "voice_wav_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/final/therac_short_scoped_v1.wav",
+    "voice_wav_sha256": "aa651ab188360fd4d431c1912827e39211fc963a54b28b43d7778ba1a9936028",
+    "voice_delay_seconds": 3.0,
+    "voice_volume": 1.0,
+    "voice_last_audible_seconds_source": 56.38
+  },
+  "media_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/therac_theme_intro_hook_review_proof.mp4",
+    "sha256": "d418184d70d7bbbb88e1d10f5ade0f49768c125bdbb2b07cd51054c4acc76831",
+    "duration_seconds": 66.466016,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "frame_rate": "30/1",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "audio_evidence": {
+    "first_3s": {
+      "window_seconds": 3.0,
+      "peak_dbfs": -3.692,
+      "rms_dbfs": -15.903,
+      "sample_count": 144000
+    },
+    "first_10s": {
+      "window_seconds": 10.0,
+      "peak_dbfs": -1.608,
+      "rms_dbfs": -15.793,
+      "sample_count": 480000
+    },
+    "full_proof": {
+      "window_seconds": 66.46000000000001,
+      "peak_dbfs": -1.539,
+      "rms_dbfs": -16.39,
+      "sample_count": 3189760
+    }
+  },
+  "frame_samples": {
+    "opening": [
+      {
+        "seconds": 0.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_000.000.jpg",
+        "sha256": "6f6c52647495c23a38091963e0e09902e5f416a33a5bbc71d9740a611741abb2"
+      },
+      {
+        "seconds": 0.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_000.500.jpg",
+        "sha256": "8778d72fed8a2ae338cc38e5da746fbd42648aa36adeb570e466576c6f849b50"
+      },
+      {
+        "seconds": 1.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_001.000.jpg",
+        "sha256": "986202a38fb8b856dcfd2afd51b05518ce6bb7b101e29f8236a5a172ee95472a"
+      },
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_002.000.jpg",
+        "sha256": "6516f8ee83fa4510e5debd57a25540826aba1b07122c801f33aa813ce4bbbff0"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_003.000.jpg",
+        "sha256": "d8a0d3be185d131ecf06a4c8d06ba1d78a3ee6a2a10e3501628fafbf55fef98d"
+      },
+      {
+        "seconds": 4.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_004.000.jpg",
+        "sha256": "7e0c1137003d575946601ba0d335b7327bf5e46f051d606b43a45febcc4812e4"
+      },
+      {
+        "seconds": 6.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_006.000.jpg",
+        "sha256": "1289c398387a39e9bdd2983d130e8fb455b172e3314b09bd23de0d8bc354e59e"
+      },
+      {
+        "seconds": 10.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_010.000.jpg",
+        "sha256": "aa7a20ebdae9b23ec81e9985c83cab216ee4b25a56193a5dee5c14341a5ef7d6"
+      }
+    ],
+    "outro": [
+      {
+        "seconds": 58.980000000000004,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_058.980.jpg",
+        "sha256": "d36c50379d5745e0a52931dae710795de2b799a02b7d3f1a2f7c9f9cccc80df8"
+      },
+      {
+        "seconds": 59.480000000000004,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_059.480.jpg",
+        "sha256": "dc55f46a9e72d2cc0dfc04059ff3a99b91dc2517d413371d4409ce934ea75934"
+      },
+      {
+        "seconds": 60.980000000000004,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_060.980.jpg",
+        "sha256": "8fdce17b6a3cfb6f0240e4bd1437f09aae04ae31b3a5f209cb8c2b1e833db21a"
+      },
+      {
+        "seconds": 65.96000000000001,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/therac_theme_intro_hook_20260519T165215Z/evidence/frame_065.960.jpg",
+        "sha256": "a0fdb7803e85a68a587604b99c371ea082ed18e40d5493d33d18a71572c4b674"
+      }
+    ]
+  },
+  "review_request": "Judge whether the Therac-25 clinical scene plus full theme intro punch works better than the current opening, and whether the transition into the loop feels natural before voice starts.",
+  "human_review_disposition": "keep|tighten|reject"
+}

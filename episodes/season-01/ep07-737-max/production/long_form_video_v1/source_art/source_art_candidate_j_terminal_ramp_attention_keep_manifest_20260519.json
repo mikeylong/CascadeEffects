@@ -1,0 +1,75 @@
+{
+  "episode_id": "737-max",
+  "workflow": "long_form_video_production_v1",
+  "gate": "source_art_keep",
+  "candidate_id": "candidate_j_terminal_ramp_attention",
+  "candidate_set_id": "candidate_set_g_to_j_action_ambient",
+  "created_at_local": "2026-05-19",
+  "created_at_utc": "2026-05-19T07:07:27Z",
+  "status": "keep",
+  "disposition": "keep",
+  "may_advance": true,
+  "human_source_art_keep": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/review/human_source_art_keep_candidate_j_terminal_ramp_attention_20260519.md",
+    "sha256": "aac25605e0aeba53df646c17a02800e4bf593e2e0a38833060397cc2cbcc26bc"
+  },
+  "source_candidate_manifest": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/source_art_candidate_j_terminal_ramp_attention_manifest_20260519.json",
+    "sha256": "efe39d09bce05f6d2d30d61fd9394a8bba9bcac61ea389d67ec6e9d2e55c7f6c"
+  },
+  "source_candidate_set_manifest": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/source_art_generation_manifest_non_paper_action_ambient_20260519.json",
+    "sha256": "c833d93446ef448d24ad9ee8b8c05113e7ee91f101465bef4e71305f96847ee0"
+  },
+  "source_candidate_set_review_packet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/review/source_art_candidates_g_to_j_action_ambient_review_20260519.md",
+    "sha256": "e9d1ee68fd9abfbc92eed9cbcde4dda15bb52a4db097d82286d615940c52d336"
+  },
+  "selected_source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/candidates/737_max_living_cover_source_art_candidate_j_terminal_ramp_attention_1920x1080_20260519.png",
+    "sha256": "b8c181845825e38133bc80b2e518be5b11603de3289fa22307cc1268859df1b0",
+    "width": 1920,
+    "height": 1080,
+    "role": "kept_living_cover_source_art_backplate"
+  },
+  "source_art_reads": {
+    "foreground_admin_prop_read": "pass_no_dominant_foreground_admin_props",
+    "implied_action_anticipation_read": "pass_public_attention_at_gate_before_departure",
+    "ambient_affordance_read": "pass_terminal_glass_reflections_rain_surface_ramp_lights_public_motion",
+    "historical_accuracy_read": "pass_preliminary_unbranded_737_family_source_art",
+    "source_reference_alignment_read": "pass_visual_research_ramp_departure_alignment",
+    "public_anchor_geometry_read": "pass_front_quarter_nose_wing_engine_profile",
+    "737_max_aircraft_profile_read": "pass_unbranded_737_max_family_read",
+    "leap_engine_placement_read": "pass_forward_high_engine_relationship_visible",
+    "angle_of_attack_sensor_cue_read": "pass_visible_nose_vane_cue",
+    "mcas_stabilizer_mechanism_read": "pass_subtle_tail_trim_path_implied_not_diagnostic",
+    "single_sensor_assumption_read": "pass_visual_cue_available_for_single_sensor_story",
+    "training_commonality_document_cue_read": "pass_commonality_carried_by_airline_operations_context_not_admin_foreground",
+    "human_presence_read": "pass_anonymous_public_scene_presence_visible",
+    "no_recognizable_faces_read": "pass_no_face_forward_or_identifiable_subject",
+    "generated_text_logo_read": "pass_visual_review_no_readable_text_or_logo_ocr_shape_noise_logged",
+    "no_crash_spectacle_read": "pass_no_crash_wreckage_fire_or_victims",
+    "right_rail_safe_space_read": "pass_right_side_low_detail_space",
+    "texture_noise_read": "pass_no_speckle_grit_or_sandy_surface",
+    "waterfall_read": "pass_no_water_liquid_channel_or_waterfall"
+  },
+  "style_reads": {
+    "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper",
+    "paper_architecture_visual_style_read": "pass_no_resemblance",
+    "long_form_source_art_lane_read": "pass_source_preserving_photoreal",
+    "paper_architecture_resemblance_read": "pass_absent"
+  },
+  "gate_effect": {
+    "current_gate_after_keep": "living_cover_cue_map",
+    "next_required_gate": "living_cover_cue_map_plan",
+    "may_create_cue_map": true,
+    "may_create_ambient_effects_layer": false,
+    "may_create_music_integration_contract": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "may_public_release": false
+  },
+  "next_action": "Create a Living Cover cue map for candidate_j_terminal_ramp_attention. Ambient/effects layer, music integration contract, motion readiness, rough assembly, final render, YouTube action, and public release remain blocked until their later gates."
+}

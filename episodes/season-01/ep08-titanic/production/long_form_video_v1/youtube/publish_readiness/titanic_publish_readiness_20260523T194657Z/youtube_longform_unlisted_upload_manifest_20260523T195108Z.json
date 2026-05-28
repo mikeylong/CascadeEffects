@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-05-23T19:54:19Z",
+  "episode_id": "titanic",
+  "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "human_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "known_post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "notify_subscribers": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/publish_readiness_manifest.json",
+  "source_publish_readiness_manifest_sha256": "10b4b12bf31dc411c1fde999c71441efd3afc6d65958dfff7b273ef9ff2d48d3",
+  "target": "youtube_longform_unlisted_review",
+  "upload_assets": {
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_srt_sha256": "f5f6e13618d01af76437e943ae016d0316b892cf05802f6b2bf1990d13152f40",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+    "caption_vtt_sha256": "54e673db1fa4834e004c2b441f0b063cf8ad6338f0c01c61dc2e0382f7cf312c",
+    "probe": {
+      "format": {
+        "bit_rate": "1649134",
+        "duration": "773.607007",
+        "size": "159472731"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "avg_frame_rate": "24/1",
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "773.458333",
+          "height": 1080,
+          "index": 0,
+          "side_data_list": [
+            {}
+          ],
+          "width": 1920
+        },
+        {
+          "avg_frame_rate": "0/0",
+          "channels": 2,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "773.607007",
+          "index": 1,
+          "sample_rate": "44100"
+        }
+      ]
+    },
+    "thumbnail_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/thumbnail/titanic_thumbnail_candidate.jpg",
+    "thumbnail_sha256": "9b8da395dd902fba28ecdd45faf372df7b74a95aa01b5b6c6c66fe6b0380743b",
+    "thumbnail_source_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/thumbnail/titanic_thumbnail_candidate.jpg",
+    "thumbnail_source_sha256": "9b8da395dd902fba28ecdd45faf372df7b74a95aa01b5b6c6c66fe6b0380743b",
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/media/titanic_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "d08c1ffb8556973de05208a7afb441805cfc60316db167ceae10b5aaee76c586"
+  },
+  "youtube_metadata": {
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description": "Titanic and the Lifeboat Regulation Gap is a Cascade Effects episode about how small signals become system consequences.\n\nTitanic carried enough lifeboats to satisfy the law, but the law was measuring an older class of risk.\n\nRuntime: about 13 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Opening\n0:04 Main episode\n11:54 Closing\n\n#CascadeEffects",
+    "self_declared_made_for_kids": false,
+    "tags": [
+      "Cascade Effects",
+      "Titanic",
+      "documentary",
+      "lifeboats",
+      "maritime safety",
+      "regulation",
+      "systems failure"
+    ],
+    "title": "Titanic and the Lifeboat Regulation Gap"
+  }
+}

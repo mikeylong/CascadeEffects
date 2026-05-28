@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-05-23T19:53:36Z",
+  "episode_id": "737-max",
+  "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "human_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "known_post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "notify_subscribers": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T194657Z/publish_readiness_manifest.json",
+  "source_publish_readiness_manifest_sha256": "7d3df0df90be5bceddb82fb89eab6cca27e1ccee740d05026dfd3a8fdd407a3d",
+  "target": "youtube_longform_unlisted_review",
+  "upload_assets": {
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T194657Z/captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_srt_sha256": "fe5a0d42e3841b5885f86f3bc915f6173888e5a4669ba1fd9317b281c3d4a654",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T194657Z/captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+    "caption_vtt_sha256": "27dd3545a4a66ca06602ec657fb0ee82d312882edc0b90230f84e2e225a834dc",
+    "probe": {
+      "format": {
+        "bit_rate": "2106461",
+        "duration": "975.760000",
+        "size": "256925119"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "avg_frame_rate": "24/1",
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "975.666667",
+          "height": 1080,
+          "index": 0,
+          "side_data_list": [
+            {}
+          ],
+          "width": 1920
+        },
+        {
+          "avg_frame_rate": "0/0",
+          "channels": 2,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "975.760000",
+          "index": 1,
+          "sample_rate": "44100"
+        }
+      ]
+    },
+    "thumbnail_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T194657Z/thumbnail/737-max_thumbnail_candidate.jpg",
+    "thumbnail_sha256": "e4562250a16352ea4756127c4eba306bf7c652622d3bddddbdc57e26dc1d0e99",
+    "thumbnail_source_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T194657Z/thumbnail/737-max_thumbnail_candidate.jpg",
+    "thumbnail_source_sha256": "e4562250a16352ea4756127c4eba306bf7c652622d3bddddbdc57e26dc1d0e99",
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T194657Z/media/737-max_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "a6a81d8621a89b29abe222d040e5c46bf1925990106b9325544b6519fcca09ce"
+  },
+  "youtube_metadata": {
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description": "737 MAX is a Cascade Effects episode about how small signals become system consequences.\n\nA familiar aircraft promise hid a new control problem inside software pilots were not prepared to see.\n\nRuntime: about 16 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Opening\n0:04 Two departures, one system\n3:17 Commonality as product\n6:32 MCAS grows in the dark\n9:47 Lion Air to Ethiopian\n13:02 Hearing, grounding, redesign\n15:16 Closing\n\n#CascadeEffects",
+    "self_declared_made_for_kids": false,
+    "tags": [
+      "737 MAX",
+      "Boeing",
+      "Cascade Effects",
+      "MCAS",
+      "aviation safety",
+      "documentary",
+      "systems failure"
+    ],
+    "title": "737 MAX"
+  }
+}

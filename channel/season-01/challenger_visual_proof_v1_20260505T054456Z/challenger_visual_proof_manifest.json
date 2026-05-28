@@ -1,0 +1,176 @@
+{
+  "artifact_id": "challenger_visual_proof_v1",
+  "created_at": "20260505T054456Z",
+  "status": "tighten",
+  "human_disposition": "tighten",
+  "tighten_reason": "Composition does not feel premium or geometrically unified; right-side video plate needs a single vanishing point shared with the left rendering, and skewed-frame edges need antialias repair.",
+  "supersedes": "challenger_visual_proof_v1_20260505T052701Z",
+  "revision_reason": "outer_frame_angle_repair",
+  "scope": "challenger_only_visual_alignment_proof",
+  "not_publishable_reason": "Uses deterministic composition over active website thumbnail reference; fresh generated source-art/outpaint should replace this if direction is approved.",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration_seconds": 10.0
+  },
+  "inputs": {
+    "reference_plate": {
+      "path": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/challenger-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "sha256": "954a38aba816accb98232a38cd3725d3c977ce1d1bc0ef0835c5df3f2ce02a17"
+    },
+    "short_video": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/final/challenger_short_scoped_v1_video_final_house_crt_visible_scanline_final_gate_pass01_20260501T022219Z.mp4",
+      "sha256": "f4be9e1d4981dfe642263495161dac10286c5bdf464d6e91430e80cb2d234817",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1"
+          },
+          {
+            "codec_name": "aac",
+            "sample_rate": "44100",
+            "channels": 1,
+            "r_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "62.833008",
+          "size": "45624855"
+        }
+      }
+    },
+    "v1_audio_mix": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v1_20260505T044755Z/audio/channel_trailer_final_mix.wav",
+      "sha256": "0354af1bf0e41d903db1c8040bbd03d1403170fe225f841b1fd3e4b80b7f9b96",
+      "referenced_only": true,
+      "rendered_or_remixed": false
+    },
+    "visual_reference": {
+      "source_path": "/Users/mike/Downloads/IMG_3221.HEIC",
+      "source_sha256": "605884d4a0256c067a40b733972b88503ed6ec82adaa80b3219e9130e4d9ba89",
+      "converted_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/references/IMG_3221_visual_reference.png",
+      "converted_sha256": "82bef179a4d1f7777429560abd6c2a70c525f9ccf4e7ff7776c36dc7fb958fda",
+      "reference_read": "hand sketch used as right-side composition reference: tall freestanding frame, slight perspective/tilt, loose paper/vellum border, open space retained around card"
+    }
+  },
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/source_art/challenger_open_right_plate_alignment_source.png",
+    "sha256": "d8c4cbfd4dcd0f5a8c6d75d197811ce509c6b416ea4dfc67c2269f1f930169d6",
+    "open_space_start_x": 1113,
+    "carrier": "deterministic_composition_over_active_proof_v6_raster_reference_for_alignment_proof",
+    "visual_direction": "cascade-paper-architectures-ink-lit-v1",
+    "texture_noise_read": "pass_inherited_from_active_proof_v6_reference_for_alignment_comp",
+    "texture_detail_creep_read": "pass_inherited_from_active_proof_v6_reference_for_alignment_comp",
+    "waterfall_read": "pass_no_water_added",
+    "generated_text_logo_label_read": "pass_none_added",
+    "brand_signal_artifact_read": "pass_no_cyan_or_coral_hardware_artifacts_added",
+    "pad_hardware_authenticity_read": "reference_based_review",
+    "open_space_report": {
+      "right_open_space_start_x": 1113,
+      "right_open_space_luma_mean": 10.777,
+      "right_open_space_edge_mean": 0.985,
+      "right_open_space_read": "pass"
+    }
+  },
+  "composition": {
+    "short_card_role": "muted angled right-side YouTube Short footage card",
+    "angle_target": "outer_right_vertical_rectangle_from_IMG_3221",
+    "short_card_transform": "perspective_warp_not_flat_rotate",
+    "short_card_layout_reference": "IMG_3221 hand sketch: outer vertical rectangle defines the right-side perspective plane",
+    "angle_reference_report": {
+      "angle_target": "outer_right_vertical_rectangle_from_IMG_3221",
+      "outer_frame_quad_xy": [
+        [
+          1274.0,
+          52
+        ],
+        [
+          1884.0,
+          78.0
+        ],
+        [
+          1846.0,
+          1036
+        ],
+        [
+          1288.0,
+          1006.0
+        ]
+      ],
+      "top_edge_slope": 0.0426,
+      "bottom_edge_slope": 0.0538,
+      "left_edge_bottom_minus_top_x": 14.0,
+      "right_edge_bottom_minus_top_x": -38.0,
+      "short_card_transform": "perspective_warp_not_flat_rotate",
+      "angle_reference_read": "pass"
+    },
+    "short_card_audio_used": false,
+    "short_frames_extracted": 240,
+    "visual_motion_report": {
+      "card_sample_indices": [
+        12,
+        48,
+        96,
+        144,
+        192,
+        228
+      ],
+      "card_luma_deltas": [
+        44.615,
+        9.78,
+        5.491,
+        10.509,
+        33.383
+      ],
+      "card_luma_variance": [
+        63.939,
+        63.751,
+        63.839,
+        63.44,
+        63.64,
+        60.673
+      ],
+      "card_nonblank_read": "pass",
+      "card_motion_read": "pass"
+    }
+  },
+  "artifacts": {
+    "output_root": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z",
+    "source_plate": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/source_art/challenger_open_right_plate_alignment_source.png",
+    "still_proof": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/still/challenger_visual_proof_v1_still.png",
+    "motion_proof_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/video/challenger_visual_proof_v1_motion.mp4",
+    "motion_proof_sha256": "dd749330808027d47103ded30a87b2ad5d0060da0ab61e0a06b05cb09c45ee0b",
+    "contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/qa/challenger_visual_proof_v1_contact_sheet.jpg",
+    "visual_reference_png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/references/IMG_3221_visual_reference.png",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T054456Z/challenger_visual_proof_manifest.json"
+  },
+  "qa": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "10.000000",
+        "size": "4546827"
+      }
+    },
+    "decode_read": "pass",
+    "right_side_open_space_read": "pass",
+    "card_nonblank_read": "pass",
+    "card_motion_read": "pass",
+    "angle_reference_read": "pass"
+  }
+}

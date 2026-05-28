@@ -1,0 +1,89 @@
+{
+  "accent_strategy": {
+    "description": "One small vermilion signal that should stand apart but is being visually swallowed by the system.",
+    "kind": "warning_light",
+    "placement": [
+      0.77,
+      0.36
+    ],
+    "size": 0.008
+  },
+  "aspect_mode": "vertical_9x16",
+  "beat_id": "beat_06",
+  "caption_safe_zone": {
+    "subtitles": [
+      0.08,
+      0.74,
+      0.92,
+      0.96
+    ],
+    "top_ui": [
+      0.0,
+      0.0,
+      1.0,
+      0.12
+    ]
+  },
+  "dominant_mass_strategy": {
+    "description": "A disciplined structural slab on the right behaving like routine itself.",
+    "width_ratio": 0.34
+  },
+  "final_size": {
+    "height": 1920,
+    "width": 1080
+  },
+  "historical_anchor": {
+    "description": "A console object standing in for a system that learned to read damage as background noise.",
+    "episode": "Challenger",
+    "topic": "Systemic failure"
+  },
+  "id": "scene_challenger_beat_06_system_absorbs_warning",
+  "motion_preset": "vertical_glide",
+  "outputs": {
+    "final": {
+      "generated_at": "20260404T191415Z",
+      "image_path": "/Users/mike/StyleLab_CascadeEffects/renders/scene_challenger_beat_06_system_absorbs_warning/20260404T191415Z__final.png",
+      "manifest_path": "/Users/mike/StyleLab_CascadeEffects/renders/scene_challenger_beat_06_system_absorbs_warning/20260404T191415Z__final.json",
+      "model_family": "flux2_dev_reference_contract",
+      "negative_prompt": "high detail, texture, noise, photoreal clutter, multiple subjects, complex background, dramatic lighting, motion blur, busy composition, ornate realism, dense foliage detail, complex sky, center-weighted composition, symmetrical layout, multiple bright accents, text, watermark, logo, ui overlay",
+      "prompt": "Minimal surreal editorial composition. Quiet, reduced, asymmetrical image with one subtle breach in reality and high thumbnail clarity. The frame should feel paused, suspended, and slightly unresolved. The historical subject must remain legible but reduced to an emblematic silhouette. Strip forms to simple silhouettes and essential geometry only. Use one dominant environmental color field and keep every secondary tone muted or neutral. One side must carry the visual weight while the opposite side stays mostly empty. Reserve one saturated accent as a semantic signal rather than decoration. Keep surfaces quiet with only slight painterly bleed at edges. Hold the image in stillness so it feels like a paused system state with implied consequence. Maintain at least 60% negative space with an asymmetrical focal mass. Use no more than 4 colors and only 1 saturated accent. Allow exactly 1 surreal breach and keep everything else coherent. Lighting must remain soft diffuse. Do not include text, logo, ui_artifacts, motion_blur, photoreal_clutter. Editorial finish pass. Keep the scene calm, legible, and emotionally compressed without adding detail. Historical anchor: A console object standing in for a system that learned to read damage as background noise.. Historical topic: Systemic failure. Single surreal breach: The warning signal is visibly absorbed into the surrounding logic instead of remaining distinct.. Caption safety: keep the top UI band clear at x=0.00-1.00, y=0.00-0.12 and keep critical subject matter out of the subtitle band at x=0.08-0.92, y=0.74-0.96. Hero subject: A lone switch plate standing in for the system's repeated accommodation of warning signs.. Subject archetype: switch_plate. Dominant mass: A disciplined structural slab on the right behaving like routine itself.. Accent: One small vermilion signal that should stand apart but is being visually swallowed by the system.. Reflection: A subdued reflective band that keeps the object and the system in one quiet plane.. Single subject in mind only; no source references are used. Scene intent: Keep the object crisp and isolated while the muted echoes imply warning signals becoming routine.."
+    },
+    "motion": {
+      "vertical_glide": {
+        "duration_seconds": 8.958333333333334,
+        "fps": 24,
+        "generated_at": "20260404T191415Z",
+        "manifest_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_06_system_absorbs_warning/20260404T191415Z__vertical_glide.json",
+        "output_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_06_system_absorbs_warning/20260404T191415Z__vertical_glide.mp4",
+        "poster_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_06_system_absorbs_warning/20260404T191415Z__vertical_glide.poster.png",
+        "still_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_06_system_absorbs_warning/20260404T191415Z__vertical_glide.still.png",
+        "target_duration_seconds": 8.969
+      }
+    }
+  },
+  "prompt_overrides": {
+    "scene_intent": "Keep the object crisp and isolated while the muted echoes imply warning signals becoming routine."
+  },
+  "reflection_strategy": {
+    "description": "A subdued reflective band that keeps the object and the system in one quiet plane.",
+    "horizon_y": 0.67,
+    "literal_water": false
+  },
+  "selected_seed": 4106,
+  "source_refs": [],
+  "style_profile": "minimal_surreal_editorial_v1",
+  "subject_anchor": {
+    "archetype": "switch_plate",
+    "description": "A lone switch plate standing in for the system's repeated accommodation of warning signs.",
+    "placement": [
+      0.3,
+      0.54
+    ],
+    "scale": 0.34
+  },
+  "surreal_breach": {
+    "description": "The warning signal is visibly absorbed into the surrounding logic instead of remaining distinct.",
+    "kind": "absorbed_signal"
+  },
+  "target_duration_seconds": 8.969
+}

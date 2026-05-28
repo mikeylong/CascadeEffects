@@ -1,0 +1,16 @@
+Midjourney reference upload order:
+1. beats/beat_05/references/01__radiotherapie_device.jpg
+2. beats/beat_05/references/02__therac_varian_precision_linac.jpg
+3. beats/beat_05/references/03__therac_elekta_versa_hd_room.jpg
+
+Text prompt:
+Six people were catastrophically overdosed because no one designed for the possibility that the software was wrong. single trusted radiotherapy machine is isolated as a final thesis object, with severe negative space making the system's confidence feel larger than the room around it. composition pushes the device to one side and leaves the rest of the frame almost empty, turning scale and silence into the consequence, vertical 9:16. Palette reduces to off-white, pale cyan, charcoal, and one minute red breach. a hairline fault seam and faint red bleed are the only visible signs of the error that produced massive consequences. Low-contrast light, motionless air, and a final image that feels conclusive rather than dramatic.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

@@ -1,0 +1,17 @@
+### Result
+{
+  "time": 0,
+  "storyTime": 0,
+  "activeTitle": "The Bridge Was Already Moving",
+  "caption": "",
+  "captionEmpty": true,
+  "railOpacity": 1,
+  "endOpacity": 0,
+  "visualRoll": "-0.1000deg",
+  "visualScale": "1.022",
+  "duration": 883.321905
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (window.__setRenderTime(0))');
+```

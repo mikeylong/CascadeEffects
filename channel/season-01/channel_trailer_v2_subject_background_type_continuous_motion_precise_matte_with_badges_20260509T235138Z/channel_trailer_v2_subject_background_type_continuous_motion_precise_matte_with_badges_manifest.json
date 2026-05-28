@@ -1,0 +1,1132 @@
+{
+  "artifact_id": "cascade_of_effects_channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges",
+  "created_at": "20260509T235138Z",
+  "status": "local_review_experiment",
+  "experiment_type": "subject_background_type_continuous_motion_precise_matte_with_badges",
+  "variant_of": "channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z",
+  "publishable": false,
+  "youtube_rollout": "none_local_motion_proof_only",
+  "summary": "Six silent motion proofs testing continuous left-to-right background subject type motion behind Paper Architecture scenes with precise mattes and gallery badges preserved.",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "media_type": "silent_motion_proof_mp4",
+    "clip_count": 6
+  },
+  "typography": {
+    "font_family": "Inter",
+    "font_weight": 900,
+    "font_size_px": 188,
+    "font_size_strategy": "fixed_global_size_all_subjects",
+    "font_source_path": "/Users/mike/Library/Fonts/Inter-VariableFont_opsz,wght.ttf",
+    "font_source_sha256": "0be2399ea925f1f83ff974764761da9860ec50742ed29a5d4c1ffd0c5c7ac3a8",
+    "orientation": "screen_parallel_no_rotation",
+    "tracking_px": 0,
+    "blend_mode": "lighten_white_low_opacity",
+    "blend_color_rgb": [
+      255,
+      255,
+      255
+    ],
+    "blend_opacity": 0.16,
+    "blend_alpha": 41,
+    "text_anchor_y": 206
+  },
+  "motion": {
+    "title_motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+    "title_motion_applies_to": "subject_background_type",
+    "start_x_formula": "-text_width - 180",
+    "exit_x": 2100,
+    "y": 206,
+    "previous_motion_issue": "stopped_or_near_stopped_between_phases",
+    "velocity_profile": {
+      "fast_in_zone": [
+        0.0,
+        0.32
+      ],
+      "slow_middle_zone": [
+        0.32,
+        0.76
+      ],
+      "fast_out_zone": [
+        0.76,
+        1.0
+      ],
+      "middle_speed_target_ratio": 0.45,
+      "transition_curve": [
+        0.33,
+        0.0,
+        0.67,
+        1.0
+      ],
+      "integrated_velocity_profile": true,
+      "nonzero_velocity_after_frame_zero": true
+    },
+    "settle_x": null,
+    "slow_glide_end_x": null,
+    "enter_duration_formula": "segment_duration * 0.32",
+    "exit_duration_formula": "segment_duration * 0.24",
+    "middle_duration_formula": "segment_duration * 0.44",
+    "enter_curve": null,
+    "slow_glide_curve": null,
+    "exit_curve": null
+  },
+  "labels": {
+    "rendered_labels_by_slug": {
+      "challenger": "CHALLENGER",
+      "semmelweis": "SEMMELWEIS",
+      "titanic": "TITANIC",
+      "737-max": "737 MAX",
+      "tacoma-narrows": "TACOMA NARROWS BRIDGE",
+      "hyatt-regency": "HYATT REGENCY"
+    },
+    "rendered_order": [
+      "challenger",
+      "semmelweis",
+      "titanic",
+      "737-max",
+      "tacoma-narrows",
+      "hyatt-regency"
+    ],
+    "badge_labels_by_slug": {
+      "challenger": "Challenger",
+      "hyatt-regency": "Hyatt Regency",
+      "semmelweis": "Semmelweis",
+      "tacoma-narrows": "Tacoma Narrows",
+      "737-max": "737 MAX",
+      "titanic": "Titanic"
+    }
+  },
+  "subject_badges": {
+    "subject_badges_preserved": true,
+    "strategy": "cascadeeffects_tv_gallery_pill_overlay",
+    "font_size_px": 42,
+    "anchor_xy": [
+      96,
+      860
+    ]
+  },
+  "mask_strategy": {
+    "precise_foreground_matte_preserved": true,
+    "foreground_occlusion": "precise_luma_color_distance_edge_strength_gap_aware_subject_matte",
+    "composite_order": [
+      "base_plate",
+      "moving_large_low_opacity_lighten_text",
+      "restore_original_foreground_with_precise_gap_aware_matte",
+      "right_short_card",
+      "section_grade",
+      "gallery_subject_badge"
+    ],
+    "hidden_text_is_not_failure": true
+  },
+  "source_carrier_policy": "approved_source_art_base_plates_plus_deterministic_local_typography_motion_and_masks",
+  "paper_architecture_policy": {
+    "carrier": "deterministic_composition_over_approved_raster_source_art",
+    "texture_noise_read": "not_applicable_no_new_paper_material_generated",
+    "waterfall_read": "not_applicable_no_new_scene_generation"
+  },
+  "inputs": {
+    "previous_experiment_package": {
+      "package_id": "channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z",
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_manifest.json",
+      "manifest_sha256": "47d1db9cbdd62ed893690eba31f7239c9abfa59049ecbdbda174096d930a7af1"
+    },
+    "superseded_manifest_update": {
+      "status": "tighten",
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_manifest.json",
+      "tighten_reason": "subject_type_motion_stops_between_phases",
+      "superseded_by": "channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z"
+    },
+    "visual_proofs": {
+      "challenger": {
+        "display_name": "Challenger",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/video/challenger_visual_proof_v1_motion.mp4",
+        "video_sha256": "9aa1edeab456d3c40cbd3df5e9da7592cc1117e9d90d0220dfa9e2c9bcc6ee2a",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/challenger_visual_proof_manifest.json",
+        "manifest_sha256": "4b5b63a55da191683f6d5c28c35cc3b6685af422ad62d6e49dc64f687fad3c3d",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_scoped_v1/motion_contact_sheet/pass_11/final_exports/challenger_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260430T_challenger_house_crt_visible_scanline_final_gate_pass01/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "2a8dda604e5d4b88de01048a74063752110f3dcb0998ecf8c5e254f8d5c89f54",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/source_art/challenger_selected_variant_01_base_plate.png",
+        "base_plate_sha256": "f24e7365f0c690c92b89128de19536db457cc82911ffae5a01b77cfe9d863b34"
+      },
+      "semmelweis": {
+        "display_name": "Semmelweis",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/semmelweis_visual_proof_v1_20260506T170958Z/video/semmelweis_visual_proof_v1_motion.mp4",
+        "video_sha256": "fc5bb36425e6cb7be69012011228f9bbc70e96cb29194e5000f61aa878173e27",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/semmelweis_visual_proof_v1_20260506T170958Z/semmelweis_visual_proof_manifest.json",
+        "manifest_sha256": "777912da4d9fef2db6af7899fcbba6ac4125cbbc1023978101b3eb3b162bffe5",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/semmelweis/shorts/semmelweis_short_scoped_v1/motion_video_proof/pass_01d_head_in_hands_ending/semmelweis_motion_video_proof_pass_01d_visual_bed_no_audio.mp4",
+        "short_video_pre_caption_sha256": "81213fcda8aae84f187d3431df11c76fa6fa09a6101d1472495726040a917bab",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/semmelweis_visual_proof_v1_20260506T170958Z/source_art/semmelweis_visual_proof_base_plate.png",
+        "base_plate_sha256": "3475d0e6086b7b5b69b277bb410d724c2d52c48c97375e116911fdc9e6d3e916"
+      },
+      "titanic": {
+        "display_name": "Titanic",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/titanic_visual_proof_v1_20260506T170958Z/video/titanic_visual_proof_v1_motion.mp4",
+        "video_sha256": "c787d7df4a41df4a088c0fa35fef5ff2a3a17effe68e94818607868769c243ed",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/titanic_visual_proof_v1_20260506T170958Z/titanic_visual_proof_manifest.json",
+        "manifest_sha256": "1a44cf6c9d37265700b7159a00b27035f96161dc31ee476ea2067be4b4a1578b",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/titanic/shorts/titanic_short_scoped_v1/motion_video_proof/pass_14_loc_archival_timed_proof/final_exports/pass_18_loc_archival_source_motion_tail_repair/20260430T201719Z__titanic_pass18_loc_archival_source_motion_tail_repair_source_motion_tail_no_caption.mp4",
+        "short_video_pre_caption_sha256": "018fb4d1ee0e1cdedf7ae4fe30dbe25a92f02255b06da5fe4a333802eb3fdcdd",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/titanic_visual_proof_v1_20260506T170958Z/source_art/titanic_visual_proof_base_plate.png",
+        "base_plate_sha256": "bc0c87e6a8c83c8d3f88b0e5fef98a3403f7fe5d6767230e6560963a1e6ea31a"
+      },
+      "737-max": {
+        "display_name": "737 MAX",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T170958Z/video/737-max_visual_proof_v1_motion.mp4",
+        "video_sha256": "3880140b6873d3b0aa5704bfe61e21e23d975a677811a1bb5ccef62b482fdf1a",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T170958Z/737-max_visual_proof_manifest.json",
+        "manifest_sha256": "acdb2ace86a28f4baad84ae017a243d0e7ff010d1108eb7d81a331dfba278bd2",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "721620ec94c2200e66b84aa14bba7a1960a006d2f91bf3b6a608ad4a00929db0",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T170958Z/source_art/737-max_visual_proof_base_plate.png",
+        "base_plate_sha256": "f9b96dd5e76dff15af5aa5204e6dfcfb3e442b50a08c5037c667224153c5cc19"
+      },
+      "tacoma-narrows": {
+        "display_name": "Tacoma Narrows",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/tacoma-narrows_visual_proof_v1_20260506T170958Z/video/tacoma-narrows_visual_proof_v1_motion.mp4",
+        "video_sha256": "466f643c446208ed2b4d13ad17045af480844f48885eef9ed4906a88c816948f",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/tacoma-narrows_visual_proof_v1_20260506T170958Z/tacoma-narrows_visual_proof_manifest.json",
+        "manifest_sha256": "cbe6ad176e0900197ac66c20dfcccdeb7364bf3d368628468aa0f9a7f58dbfd4",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/motion_video_proof/pass_01_source_led/final_exports/tacoma-narrows_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "ea115263908b64a09c81973bb3e45707d18ba17c558d7b162c51784a9730a25d",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/tacoma-narrows_visual_proof_v1_20260506T170958Z/source_art/tacoma-narrows_visual_proof_base_plate.png",
+        "base_plate_sha256": "904c4f4954141a3175d0f7009f0078b7739f96d6abfec9356816c04601eeaa4d"
+      },
+      "hyatt-regency": {
+        "display_name": "Hyatt Regency",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/hyatt-regency_visual_proof_v1_20260506T170958Z/video/hyatt-regency_visual_proof_v1_motion.mp4",
+        "video_sha256": "f7beeadcc88473b65db876957eea60ccd0f0540d147b38445e700b27d7b1ab32",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/hyatt-regency_visual_proof_v1_20260506T170958Z/hyatt-regency_visual_proof_manifest.json",
+        "manifest_sha256": "6744e8c494b443c2df9e3a6f7e3919334202ad465ce8be055c76267a2db9cef0",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/motion_video_proof/pass_11_scene_led_no_freeze_44s/final_exports/hyatt-regency_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "bfe70498b6c79ab10a0e570752e0f95ddfeeeebf505fbeefcd6cda95535c9564",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/hyatt-regency_visual_proof_v1_20260506T170958Z/source_art/hyatt-regency_visual_proof_base_plate.png",
+        "base_plate_sha256": "8710ed140edd45d0e75e147390ed60c02937cc3b30e1a23d4547e022947dc6e4"
+      }
+    },
+    "timeline_segments": [
+      {
+        "start": 0.0,
+        "end": 6.0,
+        "slug": "youtube-shorts-card",
+        "role": "youtube_shorts_cold_open",
+        "playback": "cold_open",
+        "source_seconds": [
+          0.0,
+          6.0
+        ]
+      },
+      {
+        "start": 6.0,
+        "end": 9.2,
+        "slug": "challenger",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_no_hold_landed",
+        "source_seconds": [
+          8.0,
+          11.2
+        ]
+      },
+      {
+        "start": 9.2,
+        "end": 12.9,
+        "slug": "hyatt-regency",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 12.9,
+        "end": 16.6,
+        "slug": "semmelweis",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 16.6,
+        "end": 20.3,
+        "slug": "tacoma-narrows",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 20.3,
+        "end": 24.0,
+        "slug": "737-max",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 24.0,
+        "end": 30.2,
+        "slug": "titanic",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          6.2
+        ]
+      },
+      {
+        "start": 30.2,
+        "end": 37.172,
+        "slug": "titanic",
+        "role": "outro_music_resolve",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      },
+      {
+        "start": 37.172,
+        "end": 42.0,
+        "slug": "paper-architecture-title",
+        "role": "paper_architecture_title_end_screen",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      },
+      {
+        "start": 42.0,
+        "end": 48.0,
+        "slug": "paper-architecture-title",
+        "role": "paper_architecture_title_end_screen_hold",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      }
+    ]
+  },
+  "samples": [
+    {
+      "slug": "challenger",
+      "label": "CHALLENGER",
+      "proof_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/challenger_subject_background_type_continuous_motion_proof.mp4",
+      "proof_video_sha256": "ad240c046cd060c3b6e343ef3ca4ddb28b7d14d2ac20e222a59e55bd56f9af11",
+      "target_duration_seconds": 3.2,
+      "actual_duration_seconds": 3.208,
+      "frame_count": 77,
+      "trajectory_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/motion/challenger_continuous_motion_trajectory.json",
+      "trajectory_sha256": "cc37b4115bd08165984b2f4373d3757349f14a8ec4bd9d939ec292ce5e4456a8",
+      "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/challenger_continuous_motion_frame_strip.jpg",
+      "frame_strip_sha256": "c813bbf7b9e667476ab723152f7efccc9d68abe521f8cbd35192eab44a5ec966",
+      "audio_stream_count": 0,
+      "ffprobe": {
+        "video_stream": {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1"
+        },
+        "stream_count": 1
+      },
+      "motion_context": {
+        "motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+        "title_motion_applies_to": "subject_background_type",
+        "x_start_actual": -1454.0,
+        "x_end_actual": 2100.0,
+        "monotonic_x_position_read": "pass",
+        "average_px_per_second": 1110.625,
+        "min_adjacent_px_per_second_after_first": 827.436,
+        "enter_avg_px_per_second": 1319.363,
+        "slow_glide_avg_px_per_second": 827.454,
+        "exit_avg_px_per_second": 1339.857,
+        "slow_glide_read": "tighten",
+        "nonzero_velocity_read": "pass",
+        "continuous_motion_read": "pass",
+        "slow_middle_not_stop_read": "tighten",
+        "fast_in_fast_out_read": "pass",
+        "motion_model": {
+          "start_x": -1454,
+          "settle_x": null,
+          "slow_glide_end_x": null,
+          "exit_x": 2100,
+          "y": 206,
+          "enter_duration_seconds": 1.0239999999999998,
+          "slow_glide_duration_seconds": 1.4079999999999997,
+          "exit_duration_seconds": 0.7679999999999998,
+          "enter_curve": null,
+          "slow_glide_curve": null,
+          "exit_curve": null,
+          "fast_in_zone": [
+            0.0,
+            0.32
+          ],
+          "slow_middle_zone": [
+            0.32,
+            0.76
+          ],
+          "fast_out_zone": [
+            0.76,
+            1.0
+          ],
+          "middle_speed_ratio": 0.45
+        }
+      },
+      "matte_context": {
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/challenger_precise_foreground_matte.png",
+        "foreground_mask_sha256": "216e0deb5fd0913decab4d3a3fa247b8221547276d2cd0d033ab7a7dbe2a6eeb",
+        "hole_negative_space_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/challenger_negative_space_hole_mask.png",
+        "hole_negative_space_mask_sha256": "8c044127a066845694da92ad2f240d8e34262f55abf919d53d70719a140d3a49",
+        "inner_edge_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/challenger_inner_edge_mask.png",
+        "inner_edge_mask_sha256": "6ac0fdf527baca25d6673c1356fd8dd61a33ed772b5191b5ce813b583cd1d83e",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/challenger_precise_matte_overlay.png",
+        "foreground_mask_overlay_sha256": "24f814155e8ef2d741daa410fa14d0c4581e57e4ce839ce25d6a4664b2d81a36",
+        "hole_inner_edge_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/challenger_hole_inner_edge_diagnostic_overlay.png",
+        "hole_inner_edge_overlay_sha256": "e2446df5d80512b6e84e5c675b93e830f43a9df099dcc4a6ad5aaea59a39999f",
+        "matte_diagnostics": {
+          "luma_threshold": 82,
+          "ink_distance_threshold": 30,
+          "strong_seed_luma_threshold": 116,
+          "strong_seed_color_distance_threshold": 48,
+          "edge_strength_threshold": 15,
+          "hole_luma_threshold": 38,
+          "hole_ink_distance_threshold": 28,
+          "support_dilation_px": 71,
+          "hole_support_dilation_px": 27,
+          "matte_pixel_count": 373544,
+          "hole_pixel_count": 162585,
+          "inner_edge_pixel_count": 14203
+        },
+        "precise_foreground_matte_read": "pass",
+        "interior_gap_preservation_read": "pass",
+        "inner_edge_preservation_read": "pass"
+      },
+      "badge_context": {
+        "label": "Challenger",
+        "bbox_xy": [
+          96,
+          860,
+          404,
+          930
+        ],
+        "opacity": 1.0,
+        "badge_visible_read": "pass"
+      },
+      "full_decode_read": "pass"
+    },
+    {
+      "slug": "semmelweis",
+      "label": "SEMMELWEIS",
+      "proof_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/semmelweis_subject_background_type_continuous_motion_proof.mp4",
+      "proof_video_sha256": "b9dc845496594998433a98e7a722b7c8c4a3face03edf14d69665b0653f7b88c",
+      "target_duration_seconds": 3.7,
+      "actual_duration_seconds": 3.708,
+      "frame_count": 89,
+      "trajectory_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/motion/semmelweis_continuous_motion_trajectory.json",
+      "trajectory_sha256": "37f9e5659ff405e6f0e6eb9ecff4c80cba84c45e54df822bb7b85fdd7de99412",
+      "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/semmelweis_continuous_motion_frame_strip.jpg",
+      "frame_strip_sha256": "d580d63471a5cc5f7d0351db133e596ff3dbc2b524f7933aad21612bc3248534",
+      "audio_stream_count": 0,
+      "ffprobe": {
+        "video_stream": {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1"
+        },
+        "stream_count": 1
+      },
+      "motion_context": {
+        "motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+        "title_motion_applies_to": "subject_background_type",
+        "x_start_actual": -1485.0,
+        "x_end_actual": 2100.0,
+        "monotonic_x_position_read": "pass",
+        "average_px_per_second": 968.919,
+        "min_adjacent_px_per_second_after_first": 721.865,
+        "enter_avg_px_per_second": 1150.246,
+        "slow_glide_avg_px_per_second": 721.877,
+        "exit_avg_px_per_second": 1165.543,
+        "slow_glide_read": "tighten",
+        "nonzero_velocity_read": "pass",
+        "continuous_motion_read": "pass",
+        "slow_middle_not_stop_read": "tighten",
+        "fast_in_fast_out_read": "pass",
+        "motion_model": {
+          "start_x": -1485,
+          "settle_x": null,
+          "slow_glide_end_x": null,
+          "exit_x": 2100,
+          "y": 206,
+          "enter_duration_seconds": 1.1840000000000004,
+          "slow_glide_duration_seconds": 1.6280000000000006,
+          "exit_duration_seconds": 0.8880000000000002,
+          "enter_curve": null,
+          "slow_glide_curve": null,
+          "exit_curve": null,
+          "fast_in_zone": [
+            0.0,
+            0.32
+          ],
+          "slow_middle_zone": [
+            0.32,
+            0.76
+          ],
+          "fast_out_zone": [
+            0.76,
+            1.0
+          ],
+          "middle_speed_ratio": 0.45
+        }
+      },
+      "matte_context": {
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/semmelweis_precise_foreground_matte.png",
+        "foreground_mask_sha256": "46398fbe655ce041b3f56247cde58422c5df5a820b24ed547dcc7550d8060930",
+        "hole_negative_space_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/semmelweis_negative_space_hole_mask.png",
+        "hole_negative_space_mask_sha256": "75ce899b2826b9877a069440dc6da9bf836185ce86dee3c8d6ef0b52ac462143",
+        "inner_edge_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/semmelweis_inner_edge_mask.png",
+        "inner_edge_mask_sha256": "f2781e8189c1c8b9aa648c76eba62ca72b2732a1c05dd15dfa7c31db88d12589",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/semmelweis_precise_matte_overlay.png",
+        "foreground_mask_overlay_sha256": "b030dee9c1c9287720a4527bc1ea67e6b4762ff9547cb40c8a50f0d6c5f834dd",
+        "hole_inner_edge_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/semmelweis_hole_inner_edge_diagnostic_overlay.png",
+        "hole_inner_edge_overlay_sha256": "ecd08c564cf548b739a2d440dececf6574549434c8db8209bed59a8b0fcaed6f",
+        "matte_diagnostics": {
+          "luma_threshold": 82,
+          "ink_distance_threshold": 30,
+          "strong_seed_luma_threshold": 116,
+          "strong_seed_color_distance_threshold": 48,
+          "edge_strength_threshold": 15,
+          "hole_luma_threshold": 38,
+          "hole_ink_distance_threshold": 28,
+          "support_dilation_px": 71,
+          "hole_support_dilation_px": 27,
+          "matte_pixel_count": 631937,
+          "hole_pixel_count": 133680,
+          "inner_edge_pixel_count": 7526
+        },
+        "precise_foreground_matte_read": "pass",
+        "interior_gap_preservation_read": "pass",
+        "inner_edge_preservation_read": "pass"
+      },
+      "badge_context": {
+        "label": "Semmelweis",
+        "bbox_xy": [
+          96,
+          860,
+          404,
+          925
+        ],
+        "opacity": 1.0,
+        "badge_visible_read": "pass"
+      },
+      "full_decode_read": "pass"
+    },
+    {
+      "slug": "titanic",
+      "label": "TITANIC",
+      "proof_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/titanic_subject_background_type_continuous_motion_proof.mp4",
+      "proof_video_sha256": "ecc7016614ee7ec06fa5e16c560738505a1d25afcc8ea5f3ebadb5bfb49ce04d",
+      "target_duration_seconds": 6.2,
+      "actual_duration_seconds": 6.208,
+      "frame_count": 149,
+      "trajectory_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/motion/titanic_continuous_motion_trajectory.json",
+      "trajectory_sha256": "ef4cdb72fa7096ce052f53f72f7671569fe9c37bdd0f4246022fbdd8bbad777f",
+      "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/titanic_continuous_motion_frame_strip.jpg",
+      "frame_strip_sha256": "cb60677107a689ba3bbc83b14b7434f0a3300e1e97eae6c5665c7cf3c25ee6a7",
+      "audio_stream_count": 0,
+      "ffprobe": {
+        "video_stream": {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1"
+        },
+        "stream_count": 1
+      },
+      "motion_context": {
+        "motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+        "title_motion_applies_to": "subject_background_type",
+        "x_start_actual": -934.0,
+        "x_end_actual": 2100.0,
+        "monotonic_x_position_read": "pass",
+        "average_px_per_second": 489.355,
+        "min_adjacent_px_per_second_after_first": 364.583,
+        "enter_avg_px_per_second": 584.417,
+        "slow_glide_avg_px_per_second": 364.587,
+        "exit_avg_px_per_second": 590.696,
+        "slow_glide_read": "tighten",
+        "nonzero_velocity_read": "pass",
+        "continuous_motion_read": "pass",
+        "slow_middle_not_stop_read": "tighten",
+        "fast_in_fast_out_read": "pass",
+        "motion_model": {
+          "start_x": -934,
+          "settle_x": null,
+          "slow_glide_end_x": null,
+          "exit_x": 2100,
+          "y": 206,
+          "enter_duration_seconds": 1.9839999999999998,
+          "slow_glide_duration_seconds": 2.7279999999999998,
+          "exit_duration_seconds": 1.4879999999999998,
+          "enter_curve": null,
+          "slow_glide_curve": null,
+          "exit_curve": null,
+          "fast_in_zone": [
+            0.0,
+            0.32
+          ],
+          "slow_middle_zone": [
+            0.32,
+            0.76
+          ],
+          "fast_out_zone": [
+            0.76,
+            1.0
+          ],
+          "middle_speed_ratio": 0.45
+        }
+      },
+      "matte_context": {
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/titanic_precise_foreground_matte.png",
+        "foreground_mask_sha256": "6c59fa3dbe2f2b0a7368a13252c80d6c3416d7804d61492af3d18cde4b74376c",
+        "hole_negative_space_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/titanic_negative_space_hole_mask.png",
+        "hole_negative_space_mask_sha256": "589ecf3633a2d2e37666d5e5653e007f74b7d0a78d58157c17e2c9f900f6e2c3",
+        "inner_edge_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/titanic_inner_edge_mask.png",
+        "inner_edge_mask_sha256": "ce59117884e0130868c17c2cda44422b18227a932684125b158270361afe0fc2",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/titanic_precise_matte_overlay.png",
+        "foreground_mask_overlay_sha256": "ad9a06587250fde792d8867bcc47fcddf59e55e8213e6ed47b0dd96c310bf2bf",
+        "hole_inner_edge_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/titanic_hole_inner_edge_diagnostic_overlay.png",
+        "hole_inner_edge_overlay_sha256": "04532688930261d6b36d9673ce4b78b75858642db0ff5982d9e8a8a26767e92e",
+        "matte_diagnostics": {
+          "luma_threshold": 82,
+          "ink_distance_threshold": 30,
+          "strong_seed_luma_threshold": 116,
+          "strong_seed_color_distance_threshold": 48,
+          "edge_strength_threshold": 15,
+          "hole_luma_threshold": 38,
+          "hole_ink_distance_threshold": 28,
+          "support_dilation_px": 71,
+          "hole_support_dilation_px": 27,
+          "matte_pixel_count": 476868,
+          "hole_pixel_count": 226528,
+          "inner_edge_pixel_count": 20436
+        },
+        "precise_foreground_matte_read": "pass",
+        "interior_gap_preservation_read": "pass",
+        "inner_edge_preservation_read": "pass"
+      },
+      "badge_context": {
+        "label": "Titanic",
+        "bbox_xy": [
+          96,
+          860,
+          326,
+          924
+        ],
+        "opacity": 1.0,
+        "badge_visible_read": "pass"
+      },
+      "full_decode_read": "pass"
+    },
+    {
+      "slug": "737-max",
+      "label": "737 MAX",
+      "proof_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/737-max_subject_background_type_continuous_motion_proof.mp4",
+      "proof_video_sha256": "3beefc0981b1f080a06c99c8c8f8e8cdb71dcb7d23a9a78166ce8f16992088eb",
+      "target_duration_seconds": 3.7,
+      "actual_duration_seconds": 3.708,
+      "frame_count": 89,
+      "trajectory_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/motion/737-max_continuous_motion_trajectory.json",
+      "trajectory_sha256": "7fd16450469befbaaa39b15fe5bfadbff65515aa5db645c62b4f2e404ba751f7",
+      "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/737-max_continuous_motion_frame_strip.jpg",
+      "frame_strip_sha256": "56e2c1aa3091f95dfbd7ef12db9c87ebc8cb674502cdcc63823798fb402bddd9",
+      "audio_stream_count": 0,
+      "ffprobe": {
+        "video_stream": {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1"
+        },
+        "stream_count": 1
+      },
+      "motion_context": {
+        "motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+        "title_motion_applies_to": "subject_background_type",
+        "x_start_actual": -1007.0,
+        "x_end_actual": 2100.0,
+        "monotonic_x_position_read": "pass",
+        "average_px_per_second": 839.73,
+        "min_adjacent_px_per_second_after_first": 625.617,
+        "enter_avg_px_per_second": 996.88,
+        "slow_glide_avg_px_per_second": 625.627,
+        "exit_avg_px_per_second": 1010.138,
+        "slow_glide_read": "tighten",
+        "nonzero_velocity_read": "pass",
+        "continuous_motion_read": "pass",
+        "slow_middle_not_stop_read": "tighten",
+        "fast_in_fast_out_read": "pass",
+        "motion_model": {
+          "start_x": -1007,
+          "settle_x": null,
+          "slow_glide_end_x": null,
+          "exit_x": 2100,
+          "y": 206,
+          "enter_duration_seconds": 1.1839999999999997,
+          "slow_glide_duration_seconds": 1.6279999999999997,
+          "exit_duration_seconds": 0.8879999999999998,
+          "enter_curve": null,
+          "slow_glide_curve": null,
+          "exit_curve": null,
+          "fast_in_zone": [
+            0.0,
+            0.32
+          ],
+          "slow_middle_zone": [
+            0.32,
+            0.76
+          ],
+          "fast_out_zone": [
+            0.76,
+            1.0
+          ],
+          "middle_speed_ratio": 0.45
+        }
+      },
+      "matte_context": {
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/737-max_precise_foreground_matte.png",
+        "foreground_mask_sha256": "7bf665ba52e518a2795da9593db1ec5c189cceccd3c91588f2a4f2a9fc801f9a",
+        "hole_negative_space_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/737-max_negative_space_hole_mask.png",
+        "hole_negative_space_mask_sha256": "b8e040989ad3c229d83de55225ce394dc1632c9933ae7798631abfafaff9318c",
+        "inner_edge_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/737-max_inner_edge_mask.png",
+        "inner_edge_mask_sha256": "c9c4d223ec31ce3c7279d2500eba49db6b726b6d17322244d2fca12ca192c984",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/737-max_precise_matte_overlay.png",
+        "foreground_mask_overlay_sha256": "ff9e1a37ed15a523f5eb59afc9a73f4676053a2e9030d8c96dc21ff49f15ba07",
+        "hole_inner_edge_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/737-max_hole_inner_edge_diagnostic_overlay.png",
+        "hole_inner_edge_overlay_sha256": "074614f4e25c9de47da067420193784d5e5380ab488bf3c31d56f0db7ea1e935",
+        "matte_diagnostics": {
+          "luma_threshold": 82,
+          "ink_distance_threshold": 30,
+          "strong_seed_luma_threshold": 116,
+          "strong_seed_color_distance_threshold": 48,
+          "edge_strength_threshold": 15,
+          "hole_luma_threshold": 38,
+          "hole_ink_distance_threshold": 28,
+          "support_dilation_px": 71,
+          "hole_support_dilation_px": 27,
+          "matte_pixel_count": 360661,
+          "hole_pixel_count": 200821,
+          "inner_edge_pixel_count": 10901
+        },
+        "precise_foreground_matte_read": "pass",
+        "interior_gap_preservation_read": "pass",
+        "inner_edge_preservation_read": "pass"
+      },
+      "badge_context": {
+        "label": "737 MAX",
+        "bbox_xy": [
+          96,
+          860,
+          326,
+          922
+        ],
+        "opacity": 1.0,
+        "badge_visible_read": "pass"
+      },
+      "full_decode_read": "pass"
+    },
+    {
+      "slug": "tacoma-narrows",
+      "label": "TACOMA NARROWS BRIDGE",
+      "proof_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/tacoma-narrows_subject_background_type_continuous_motion_proof.mp4",
+      "proof_video_sha256": "a269ad560d0c276325935bc43e5336469216c6e2d01eae64ffcd1e7a9af0cc9d",
+      "target_duration_seconds": 3.7,
+      "actual_duration_seconds": 3.708,
+      "frame_count": 89,
+      "trajectory_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/motion/tacoma-narrows_continuous_motion_trajectory.json",
+      "trajectory_sha256": "460ab6bd8e353b25cf792c8c85c7e18344cdca2eb622875c9945c26c0eb748d6",
+      "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/tacoma-narrows_continuous_motion_frame_strip.jpg",
+      "frame_strip_sha256": "c7aebc7b8c42ced6cd205c7b565e01349124c33b39457eedb3da759b94e0c143",
+      "audio_stream_count": 0,
+      "ffprobe": {
+        "video_stream": {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1"
+        },
+        "stream_count": 1
+      },
+      "motion_context": {
+        "motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+        "title_motion_applies_to": "subject_background_type",
+        "x_start_actual": -2762.0,
+        "x_end_actual": 2100.0,
+        "monotonic_x_position_read": "pass",
+        "average_px_per_second": 1314.054,
+        "min_adjacent_px_per_second_after_first": 978.998,
+        "enter_avg_px_per_second": 1559.97,
+        "slow_glide_avg_px_per_second": 979.014,
+        "exit_avg_px_per_second": 1580.718,
+        "slow_glide_read": "tighten",
+        "nonzero_velocity_read": "pass",
+        "continuous_motion_read": "pass",
+        "slow_middle_not_stop_read": "tighten",
+        "fast_in_fast_out_read": "pass",
+        "motion_model": {
+          "start_x": -2762,
+          "settle_x": null,
+          "slow_glide_end_x": null,
+          "exit_x": 2100,
+          "y": 206,
+          "enter_duration_seconds": 1.1839999999999997,
+          "slow_glide_duration_seconds": 1.6279999999999997,
+          "exit_duration_seconds": 0.8879999999999998,
+          "enter_curve": null,
+          "slow_glide_curve": null,
+          "exit_curve": null,
+          "fast_in_zone": [
+            0.0,
+            0.32
+          ],
+          "slow_middle_zone": [
+            0.32,
+            0.76
+          ],
+          "fast_out_zone": [
+            0.76,
+            1.0
+          ],
+          "middle_speed_ratio": 0.45
+        }
+      },
+      "matte_context": {
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/tacoma-narrows_precise_foreground_matte.png",
+        "foreground_mask_sha256": "55eba58202e1843ad1d866d8a9088f679c90040d40b414df09fa3e14790c7f2b",
+        "hole_negative_space_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/tacoma-narrows_negative_space_hole_mask.png",
+        "hole_negative_space_mask_sha256": "99a1d786b2bb4af1d1230f1dfa84bc0d0b999b784070fdfb82fc49f4fdd1f383",
+        "inner_edge_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/tacoma-narrows_inner_edge_mask.png",
+        "inner_edge_mask_sha256": "db3bcc9b6c9ac6da3477813f5c0cb73fe8a24304221e557e7957fbf5eec10e9c",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/tacoma-narrows_precise_matte_overlay.png",
+        "foreground_mask_overlay_sha256": "98d18329b4c4d35f14ec6ed89226a67b52d252f276cee42fa7fc6e3a13c2499d",
+        "hole_inner_edge_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/tacoma-narrows_hole_inner_edge_diagnostic_overlay.png",
+        "hole_inner_edge_overlay_sha256": "e6725f1e092308dbff0a7b21fcb8ecfd153557f20e12f25515ecca42b17761e1",
+        "matte_diagnostics": {
+          "luma_threshold": 82,
+          "ink_distance_threshold": 30,
+          "strong_seed_luma_threshold": 116,
+          "strong_seed_color_distance_threshold": 48,
+          "edge_strength_threshold": 15,
+          "hole_luma_threshold": 38,
+          "hole_ink_distance_threshold": 28,
+          "support_dilation_px": 71,
+          "hole_support_dilation_px": 27,
+          "matte_pixel_count": 360073,
+          "hole_pixel_count": 301335,
+          "inner_edge_pixel_count": 23437
+        },
+        "precise_foreground_matte_read": "pass",
+        "interior_gap_preservation_read": "pass",
+        "inner_edge_preservation_read": "pass"
+      },
+      "badge_context": {
+        "label": "Tacoma Narrows",
+        "bbox_xy": [
+          96,
+          860,
+          508,
+          920
+        ],
+        "opacity": 1.0,
+        "badge_visible_read": "pass"
+      },
+      "full_decode_read": "pass"
+    },
+    {
+      "slug": "hyatt-regency",
+      "label": "HYATT REGENCY",
+      "proof_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/hyatt-regency_subject_background_type_continuous_motion_proof.mp4",
+      "proof_video_sha256": "71b4fdab6becd4f071d2cde9c9600c2af9f08509f3a790ca2121fb17be9d20ac",
+      "target_duration_seconds": 3.7,
+      "actual_duration_seconds": 3.708,
+      "frame_count": 89,
+      "trajectory_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/motion/hyatt-regency_continuous_motion_trajectory.json",
+      "trajectory_sha256": "ecbe57e37fe09ee4c89d7ea4f059649a946a12796f289bd412aeb6867a95f281",
+      "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/hyatt-regency_continuous_motion_frame_strip.jpg",
+      "frame_strip_sha256": "d8f8c46633e700f0f8b409155107b2e26645bd3856ef3f906a7535e4738d783e",
+      "audio_stream_count": 0,
+      "ffprobe": {
+        "video_stream": {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "r_frame_rate": "24/1"
+        },
+        "stream_count": 1
+      },
+      "motion_context": {
+        "motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+        "title_motion_applies_to": "subject_background_type",
+        "x_start_actual": -1756.0,
+        "x_end_actual": 2100.0,
+        "monotonic_x_position_read": "pass",
+        "average_px_per_second": 1042.162,
+        "min_adjacent_px_per_second_after_first": 776.433,
+        "enter_avg_px_per_second": 1237.196,
+        "slow_glide_avg_px_per_second": 776.446,
+        "exit_avg_px_per_second": 1253.65,
+        "slow_glide_read": "tighten",
+        "nonzero_velocity_read": "pass",
+        "continuous_motion_read": "pass",
+        "slow_middle_not_stop_read": "tighten",
+        "fast_in_fast_out_read": "pass",
+        "motion_model": {
+          "start_x": -1756,
+          "settle_x": null,
+          "slow_glide_end_x": null,
+          "exit_x": 2100,
+          "y": 206,
+          "enter_duration_seconds": 1.1840000000000004,
+          "slow_glide_duration_seconds": 1.6280000000000006,
+          "exit_duration_seconds": 0.8880000000000002,
+          "enter_curve": null,
+          "slow_glide_curve": null,
+          "exit_curve": null,
+          "fast_in_zone": [
+            0.0,
+            0.32
+          ],
+          "slow_middle_zone": [
+            0.32,
+            0.76
+          ],
+          "fast_out_zone": [
+            0.76,
+            1.0
+          ],
+          "middle_speed_ratio": 0.45
+        }
+      },
+      "matte_context": {
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/hyatt-regency_precise_foreground_matte.png",
+        "foreground_mask_sha256": "79c9ae42d041b5b3cd718e8e5352b40566910abd8480bbfc0d9a664306cd7af3",
+        "hole_negative_space_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/hyatt-regency_negative_space_hole_mask.png",
+        "hole_negative_space_mask_sha256": "dffcd78ef8dd5f5fe6dbdfa471f21fdbff807622a1f375f552a8a2b89cd2fda2",
+        "inner_edge_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/hyatt-regency_inner_edge_mask.png",
+        "inner_edge_mask_sha256": "03afda7e4042650f00dee90f0472c69bc4609bd8c93aafa5fc3fd0a8457d3eb1",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/hyatt-regency_precise_matte_overlay.png",
+        "foreground_mask_overlay_sha256": "f7c0db086e83a39c2a46f5e30e409e547b9ea3d100a1df06e56dac2f4e79d818",
+        "hole_inner_edge_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/hyatt-regency_hole_inner_edge_diagnostic_overlay.png",
+        "hole_inner_edge_overlay_sha256": "e2c837efef21034947d6778ea863776138a573b190b408bf7096804784b49027",
+        "matte_diagnostics": {
+          "luma_threshold": 82,
+          "ink_distance_threshold": 30,
+          "strong_seed_luma_threshold": 116,
+          "strong_seed_color_distance_threshold": 48,
+          "edge_strength_threshold": 15,
+          "hole_luma_threshold": 38,
+          "hole_ink_distance_threshold": 28,
+          "support_dilation_px": 71,
+          "hole_support_dilation_px": 27,
+          "matte_pixel_count": 525476,
+          "hole_pixel_count": 211104,
+          "inner_edge_pixel_count": 21599
+        },
+        "precise_foreground_matte_read": "pass",
+        "interior_gap_preservation_read": "pass",
+        "inner_edge_preservation_read": "pass"
+      },
+      "badge_context": {
+        "label": "Hyatt Regency",
+        "bbox_xy": [
+          96,
+          860,
+          482,
+          928
+        ],
+        "opacity": 1.0,
+        "badge_visible_read": "pass"
+      },
+      "full_decode_read": "pass"
+    }
+  ],
+  "artifacts": {
+    "output_root": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z",
+    "video_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video",
+    "masks_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks",
+    "trajectory_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/motion",
+    "motion_overview_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/subject_background_type_continuous_motion_320x180_contact_sheet.jpg",
+    "motion_overview_contact_sheet_sha256": "00aeb8789b473048f3c08957e01bf4d7c20a79aad02fceebfe20e88d5037c1e7",
+    "motion_frame_strips_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/subject_background_type_continuous_motion_frame_strips_contact_sheet.jpg",
+    "motion_frame_strips_contact_sheet_sha256": "65936cc3699d699b19fc1a71cc73352295e4a1334fc383823d6bcc66587293b4",
+    "precise_matte_overlay_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/subject_background_type_continuous_motion_precise_matte_overlay_contact_sheet.jpg",
+    "precise_matte_overlay_contact_sheet_sha256": "014b27ca572e8948bc4ddca898c2a5243b9cede2d3cc5a931a8617e7ac9e9b56",
+    "review_reel": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/subject_background_type_continuous_motion_review_reel.mp4",
+    "review_reel_sha256": "108c475bb833794f3c0028871c29f1929d70174396b9117f02010fd2e8734d6c",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_manifest.json"
+  },
+  "qa": {
+    "clip_count": 6,
+    "expected_clip_count": 6,
+    "single_clip_per_subject_read": "pass",
+    "video_dimension_read": "pass",
+    "fps_read": "pass",
+    "silent_video_read": "pass",
+    "full_decode_read": "pass",
+    "monotonic_x_position_read": "pass",
+    "slow_glide_read": "tighten",
+    "nonzero_velocity_read": "pass",
+    "continuous_motion_read": "pass",
+    "slow_middle_not_stop_read": "tighten",
+    "fast_in_fast_out_read": "pass",
+    "phase_boundary_snap_read": "review_ready_frame_strips",
+    "subject_badges_preserved_read": "pass",
+    "precise_foreground_matte_preserved_read": "pass",
+    "right_short_card_above_type_read": "pass_by_composite_order",
+    "trailer_video_rendered": false,
+    "audio_rendered": false,
+    "youtube_updated": false,
+    "no_video_audio_youtube_change_read": "pass",
+    "review_reel_decode_read": "pass",
+    "contact_sheets": {
+      "motion_overview_320x180": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/subject_background_type_continuous_motion_320x180_contact_sheet.jpg",
+        "sha256": "00aeb8789b473048f3c08957e01bf4d7c20a79aad02fceebfe20e88d5037c1e7",
+        "sample_fractions": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          0.96
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER",
+            "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/challenger_subject_background_type_continuous_motion_proof.mp4",
+            "duration_seconds": 3.208
+          },
+          {
+            "label": "SEMMELWEIS",
+            "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/semmelweis_subject_background_type_continuous_motion_proof.mp4",
+            "duration_seconds": 3.708
+          },
+          {
+            "label": "TITANIC",
+            "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/titanic_subject_background_type_continuous_motion_proof.mp4",
+            "duration_seconds": 6.208
+          },
+          {
+            "label": "737 MAX",
+            "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/737-max_subject_background_type_continuous_motion_proof.mp4",
+            "duration_seconds": 3.708
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE",
+            "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/tacoma-narrows_subject_background_type_continuous_motion_proof.mp4",
+            "duration_seconds": 3.708
+          },
+          {
+            "label": "HYATT REGENCY",
+            "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/video/hyatt-regency_subject_background_type_continuous_motion_proof.mp4",
+            "duration_seconds": 3.708
+          }
+        ]
+      },
+      "motion_frame_strips": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/subject_background_type_continuous_motion_frame_strips_contact_sheet.jpg",
+        "sha256": "65936cc3699d699b19fc1a71cc73352295e4a1334fc383823d6bcc66587293b4",
+        "crop_xy": null,
+        "thumb_size": [
+          960,
+          128
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/challenger_continuous_motion_frame_strip.jpg"
+          },
+          {
+            "label": "SEMMELWEIS",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/semmelweis_continuous_motion_frame_strip.jpg"
+          },
+          {
+            "label": "TITANIC",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/titanic_continuous_motion_frame_strip.jpg"
+          },
+          {
+            "label": "737 MAX",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/737-max_continuous_motion_frame_strip.jpg"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/tacoma-narrows_continuous_motion_frame_strip.jpg"
+          },
+          {
+            "label": "HYATT REGENCY",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/hyatt-regency_continuous_motion_frame_strip.jpg"
+          }
+        ]
+      },
+      "precise_matte_overlay": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/qa/subject_background_type_continuous_motion_precise_matte_overlay_contact_sheet.jpg",
+        "sha256": "014b27ca572e8948bc4ddca898c2a5243b9cede2d3cc5a931a8617e7ac9e9b56",
+        "crop_xy": [
+          0,
+          0,
+          1138,
+          920
+        ],
+        "thumb_size": [
+          548,
+          443
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/challenger_precise_matte_overlay.png"
+          },
+          {
+            "label": "SEMMELWEIS",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/semmelweis_precise_matte_overlay.png"
+          },
+          {
+            "label": "TITANIC",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/titanic_precise_matte_overlay.png"
+          },
+          {
+            "label": "737 MAX",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/737-max_precise_matte_overlay.png"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/tacoma-narrows_precise_matte_overlay.png"
+          },
+          {
+            "label": "HYATT REGENCY",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_continuous_motion_precise_matte_with_badges_20260509T235138Z/masks/hyatt-regency_precise_matte_overlay.png"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+  "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+  "caption_timing_source_policy": "asr_whisperx_timing_only",
+  "created_at": "2026-05-21T08:27:24.498747Z",
+  "no_youtube_action": true,
+  "package_type": "shorts_script_locked_caption_sources",
+  "public_release_boundary": "manual_youtube_studio_only",
+  "source_count": 8,
+  "sources": {
+    "737max": {
+      "approved_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/shorts/737_max_short_scoped_v1/final/737_max_short_scoped_v1.wav",
+      "approved_audio_sha256": "8002698b6397b6ce497f8fb5e3199081dd773b42ac4b127864f283035a23afbc",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep7_737max_short_scoped_v1/audio_package.json",
+      "audio_package_sha256": "1299b3b3492b7b8ff1b19888b9bf80603a708a92eba94beb8e8d43bae826e6ee",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep7_737max_short_scoped_v1/transcripts_mastered/737_max_short_scoped_v1.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep7_737max_short_scoped_v1/effective_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "ee6e2121488963fe67fcae222cbc6ceed11981bfab6ddc0024465a56d21e7379",
+      "extraction_evidence": [
+        {
+          "elevenlabs_model_id": "eleven_multilingual_v2",
+          "elevenlabs_seed": 440846530,
+          "out": "737_max_short_scoped_v1_chunk_01.wav",
+          "record_index": 1,
+          "text_field_used": "spoken_input",
+          "voice": "cedar"
+        }
+      ],
+      "human_script_lock_approval_required": false,
+      "label": "737 MAX",
+      "locked_caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/737max_locked_caption_text_from_tts_manifest.txt",
+      "locked_caption_text_source_sha256": "5728491346b3e85d4ffdb94db0e69ea7346036c858754354f4bcbb62d43110c8",
+      "status": "recovered_from_approved_tts_generation_manifest",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 126
+    },
+    "challenger": {
+      "approved_audio_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.wav",
+      "approved_audio_sha256": "1d512cb3ce4ad0665c6ed699e5aaa4cea7b74d3db240c069b3ab3e17e24a92d7",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/audio_package.json",
+      "audio_package_sha256": "bb27f2fd3fed053a085ff3ee4f40540a408fa519abaf1f3b91e5cdbad4c8480a",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/ending_cadence_pass_01_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "0714b1da5534b7a503000ec8324f325255c886bd5ed9052fb349da32843c3133",
+      "extraction_evidence": [],
+      "human_script_lock_approval_required": false,
+      "label": "Challenger",
+      "locked_caption_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/challenger_short_restart_v1_ending_cadence_script.txt",
+      "locked_caption_text_source_sha256": "af5de8b3748b953e49bc110c4feb0e69ca02c5135cc8f20d09c4d551965f6c2f",
+      "status": "existing_canonical_locked_script",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 124
+    },
+    "hyatt": {
+      "approved_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/hyatt_short_scoped_v1/final/hyatt_short_scoped_v1.wav",
+      "approved_audio_sha256": "876aaa45c49f5c7298f94fbaf60f7e608eda93a23b26e020486aef7b41d8ae27",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyatt_regency_short_scoped_v1/audio_package.json",
+      "audio_package_sha256": "ecc20efbb8dda1046befbc962cda34f3028760fa5f84dfdba483ac2b8906b42b",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyatt_regency_short_scoped_v1/transcripts_mastered/hyatt_short_scoped_v1.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyatt_regency_short_scoped_v1/effective_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "c1d66c7fa9df5be356c15a9586742df45ac480a3c0d8a4798ea6ad5475be34e5",
+      "extraction_evidence": [
+        {
+          "elevenlabs_model_id": "eleven_multilingual_v2",
+          "elevenlabs_seed": 2354905199,
+          "out": "hyatt_short_scoped_v1_chunk_01.wav",
+          "record_index": 1,
+          "text_field_used": "spoken_input",
+          "voice": "cedar"
+        }
+      ],
+      "human_script_lock_approval_required": false,
+      "label": "Hyatt Regency",
+      "locked_caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/hyatt_locked_caption_text_from_tts_manifest.txt",
+      "locked_caption_text_source_sha256": "ce3d8ba7077e219cc146dea35df2f72fb4f4ad0b0f410db7054d155643bf3f4d",
+      "status": "recovered_from_approved_tts_generation_manifest",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 116
+    },
+    "piltdown": {
+      "approved_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/shorts/piltdown_man_short_scoped_v1/final/piltdown_man_short_scoped_v1.wav",
+      "approved_audio_sha256": "b43e3c2221bf04e92bdb89fe80910005fcfca56b772c75e5f2146c405a8c75fb",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdown_man_short_scoped_v1/audio_package.json",
+      "audio_package_sha256": "896be004dbe3a7f1799dfe23182116a5e24826d450f79ba33e8f4f2907d0dca6",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdown_man_short_scoped_v1/transcripts_mastered/piltdown_man_short_scoped_v1.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdown_man_short_scoped_v1/effective_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "3cba62d7e13b9191419f873304920447fe8cdea05f117053a346644faae21fd1",
+      "extraction_evidence": [
+        {
+          "elevenlabs_model_id": "eleven_multilingual_v2",
+          "elevenlabs_seed": 1753053704,
+          "out": "piltdown_man_short_scoped_v1_chunk_01.wav",
+          "record_index": 1,
+          "text_field_used": "spoken_input",
+          "voice": "cedar"
+        }
+      ],
+      "human_script_lock_approval_required": false,
+      "label": "Piltdown Man",
+      "locked_caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/piltdown_locked_caption_text_from_tts_manifest.txt",
+      "locked_caption_text_source_sha256": "bb9e28e50ec6b59a1f05c6d0276b4d83f5db51ab996860ab984566d78c167067",
+      "status": "recovered_from_approved_tts_generation_manifest",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 128
+    },
+    "semmelweis": {
+      "approved_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/shorts/semmelweis_short_scoped_v1/final/semmelweis_short_scoped_v1.wav",
+      "approved_audio_sha256": "ee624f08cc7eb9e4df39563ceeb3d8de648d11cbb6a00dd9b86d1179b87c93ae",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_short_scoped_v1/audio_package.json",
+      "audio_package_sha256": "b4c73b466ef3e1dece12ca8004c1ac4d90a4dc873ecbd9f209a6d4ed58e1038a",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_short_scoped_v1/transcripts_mastered/semmelweis_short_scoped_v1.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_short_scoped_v1/effective_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "bd40f1f507fc3c45a5bc6a86052186450776132ea81ce84b4d1fed3628d6d40d",
+      "extraction_evidence": [
+        {
+          "elevenlabs_model_id": "eleven_multilingual_v2",
+          "elevenlabs_seed": 2184193493,
+          "out": "semmelweis_short_scoped_v1_chunk_01.wav",
+          "record_index": 1,
+          "text_field_used": "spoken_input",
+          "voice": "cedar"
+        }
+      ],
+      "human_script_lock_approval_required": false,
+      "label": "Semmelweis",
+      "locked_caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/semmelweis_locked_caption_text_from_tts_manifest.txt",
+      "locked_caption_text_source_sha256": "0ace824d99726b1d08528c1e2c26044037ebde2308b86bc1fbfa4e41b74ec17a",
+      "status": "recovered_from_approved_tts_generation_manifest",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 126
+    },
+    "tacoma": {
+      "approved_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/shorts/tacoma_short_scoped_v1/final/tacoma_short_scoped_v1.wav",
+      "approved_audio_sha256": "b623773e1e3d752c29659668492309996da1f48145a4f8ac8ef1d3a18991bcbb",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_short_scoped_v1/audio_package.json",
+      "audio_package_sha256": "a461e60f9218453ae23bac697000450b470307ecc1ef47887c5cdb9606d214ff",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_short_scoped_v1/transcripts_mastered/tacoma_short_scoped_v1.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_short_scoped_v1/effective_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "806b411422c6802e4fb028fd7fe04adbf756053d3dfa7ffaf1e252a38ffbaded",
+      "extraction_evidence": [
+        {
+          "elevenlabs_model_id": "eleven_multilingual_v2",
+          "elevenlabs_seed": 77867822,
+          "out": "tacoma_short_scoped_v1_chunk_01.wav",
+          "record_index": 1,
+          "text_field_used": "spoken_input",
+          "voice": "cedar"
+        }
+      ],
+      "human_script_lock_approval_required": false,
+      "label": "Tacoma Narrows",
+      "locked_caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/tacoma_locked_caption_text_from_tts_manifest.txt",
+      "locked_caption_text_source_sha256": "80f64f36f7fe1396078a95498287242211024c2838980483f6bac92de255b80b",
+      "status": "recovered_from_approved_tts_generation_manifest",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 136
+    },
+    "therac": {
+      "approved_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/final/therac_short_scoped_v1.wav",
+      "approved_audio_sha256": "aa651ab188360fd4d431c1912827e39211fc963a54b28b43d7778ba1a9936028",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/audio_package.json",
+      "audio_package_sha256": "aa4cd4bea039df4a7032b8a7248a9ba79b2276cdde342fca717097e5b8a07473",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/transcripts_mastered/therac_short_scoped_v1.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/effective_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "9cdf9cba18900010ad69c3db2f29fc91438bda56287a0fa88d1482f1707eb978",
+      "extraction_evidence": [
+        {
+          "elevenlabs_model_id": "eleven_multilingual_v2",
+          "elevenlabs_seed": 4206579899,
+          "out": "therac_short_scoped_v1_chunk_01.wav",
+          "record_index": 1,
+          "text_field_used": "spoken_input",
+          "voice": "cedar"
+        }
+      ],
+      "human_script_lock_approval_required": false,
+      "label": "Therac-25",
+      "locked_caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/therac_locked_caption_text_from_tts_manifest.txt",
+      "locked_caption_text_source_sha256": "ce4d9321d1d95aedf6d288c949053cfd094ef46f62829725effa3ab96af69aba",
+      "status": "recovered_from_approved_tts_generation_manifest",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 136
+    },
+    "titanic": {
+      "approved_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/shorts/titanic_short_scoped_v1/final/titanic_short_scoped_v1.wav",
+      "approved_audio_sha256": "59e577dab63723427bfc7bb342346563d90d88fccacb932f1c45db92a0cb8eec",
+      "asr_or_diarized_text_used_as_caption_words": false,
+      "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/audio_package.json",
+      "audio_package_sha256": "160a81b985680bd85d17410fa0261d6800398912dc7acfa98db7b547ff64d0ab",
+      "audio_package_transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/transcripts_mastered/titanic_short_scoped_v1.diarized.txt",
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "caption_text_source_policy": "script_locked_text_recovered_from_approved_tts_generation_manifest_v1",
+      "effective_tts_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/effective_final_jobs.elevenlabs.jsonl",
+      "effective_tts_manifest_sha256": "6d188c7e027a81ea7dc494c2c2e4cd5d442b06a74756d1a12bcd25a6fc8b35e3",
+      "extraction_evidence": [
+        {
+          "elevenlabs_model_id": "eleven_multilingual_v2",
+          "elevenlabs_seed": 3351600382,
+          "out": "titanic_short_scoped_v1_chunk_01.wav",
+          "record_index": 1,
+          "text_field_used": "spoken_input",
+          "voice": "cedar"
+        }
+      ],
+      "human_script_lock_approval_required": false,
+      "label": "Titanic",
+      "locked_caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/titanic_locked_caption_text_from_tts_manifest.txt",
+      "locked_caption_text_source_sha256": "4955cca5ed792bef98e03ea4622357c282b32b83fe598196b49403b8ff77a95a",
+      "status": "recovered_from_approved_tts_generation_manifest",
+      "timing_source_policy": "asr_whisperx_timing_only",
+      "word_count": 111
+    }
+  },
+  "stamp": "20260521T083000Z"
+}

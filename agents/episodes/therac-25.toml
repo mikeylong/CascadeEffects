@@ -1,0 +1,471 @@
+id = "therac-25"
+title = "Therac-25"
+pillar = "design-failures"
+priority = 2
+label = "Design Failures · Launch Episode 02"
+summary = "Software assumptions, missing hardware interlocks, and institutional disbelief let lethal overdoses repeat."
+release_window = "launch-episode-02"
+
+[aliases]
+episode_folder = "Ep2_Therac-25"
+audio_pipeline = "ep2_therac25_production"
+scene_preset = "therac25_console_alarm"
+thumbnail_preset = "one_red_flag"
+shorts_preset = "signal_object_portrait"
+web_entry_id = "therac-25"
+
+[tracking]
+bootstrapped_at = "2026-03-29T16:38:33Z"
+
+[script]
+path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/Ep2_Therac-25.txt"
+status = "locked"
+
+[visual_research]
+status = "review"
+script_source_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/Ep2_Therac-25.txt"
+script_sha256 = "03ef5e6fb1219757fdf2bf73873781102397acfc7682b0616c5c17460cf91e69"
+estimated_runtime_seconds = 987
+act_count = 5
+beat_count_total = 1
+required_motion_total = 10
+planned_motion_total = 1
+contact_sheet_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/contact_sheet.pdf"
+source_inventory_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/source_inventory.json"
+act_breakdown_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/act_breakdown.md"
+reference_notes_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/reference_notes.md"
+sources_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/sources.md"
+assembly_notes_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/assembly_notes.md"
+
+[visual_research.approval]
+status = "rejected"
+reviewer = "mike"
+reviewed_at = "2026-03-29T22:42:16Z"
+notes = "Rebuilt against the broader visual-research contract, but approval remains rejected until the new concrete option board is reviewed."
+tags = ["insufficient_option_range", "too_abstract"]
+
+[visual_research.guardrails]
+signal_object = "Therac-25 treatment machine"
+banned_motifs = ["printouts or maintenance paperwork", "gore or victim framing", "clean hospital-overview beauty shots", "readable interface glyphs"]
+latest_reject_tags = ["insufficient_option_range", "too_abstract", "overscaled_ripped_paper", "scanline_banding", "motion_too_short"]
+opening_candidate_min = 6
+opening_candidate_target = 8
+subject_candidate_min = 2
+act_candidate_min = 8
+source_total = 46
+approved_source_total = 0
+clear_source_total = 0
+cleaned_source_total = 0
+ready_source_total = 0
+opening_candidate_total = 6
+opening_subject_candidate_total = 2
+opening_supporting_candidate_total = 4
+act_candidate_totals = { act1 = 8, act2 = 8, act3 = 8, act4 = 8, act5 = 8 }
+underfilled_coverage_ids = []
+ready_for_generation = true
+unresolved_source_ids = []
+blocked_source_ids = []
+missing_downstream_source_ids = []
+
+[visual_research.opening_sequence]
+time_period_label = "Mid-1980s oncology clinics"
+supporting_objects = ["Green-phosphor terminal", "dot-matrix intake printout", "sterile treatment-room fixtures"]
+subject_object = "Therac-25 treatment machine"
+focus_transition = "The surrounding clinic objects fall away as the Therac-25 cabinet and console lock into focus."
+subject_action = "The Therac-25 powers on and its console activates."
+act_id = "act1"
+planned_scene_id = "opening_culture_cluster"
+planned_motion_id = "opening_subject_pull_in"
+audio_end_cue_text = "This is a story about what happens when a system earns trust it was never tested enough to deserve and what it costs when that trust finally breaks."
+min_duration_seconds = 5.0
+
+[[visual_research.acts]]
+id = "act1"
+title = "Patient report versus machine report"
+estimated_seconds = 198
+beat_count = 0
+visual_thesis = "stage the split between lived pain and a console that insists everything is normal."
+dominant_signal = "treatment room isolation and the machine-verified readout."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/boards/act1"
+required_motion_sequences = 2
+planned_scene_ids = []
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while act 1 coverage stays reference-led."
+
+[[visual_research.acts]]
+id = "act2"
+title = "Safety architecture removed"
+estimated_seconds = 198
+beat_count = 0
+visual_thesis = "show how software inherited trust after hardware interlocks disappeared."
+dominant_signal = "beam-path hardware and the missing physical safety layer."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/boards/act2"
+required_motion_sequences = 2
+planned_scene_ids = []
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while act 2 remains diagram-heavy."
+
+[[visual_research.acts]]
+id = "act3"
+title = "The hidden state mismatch"
+estimated_seconds = 197
+beat_count = 1
+visual_thesis = "make the operator-input sequence and mode mismatch feel procedural, not cinematic."
+dominant_signal = "blank phosphor display, interlock indicator, sealed housing, cable runs."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/boards/act3"
+required_motion_sequences = 2
+planned_scene_ids = ["console_alarm_hero"]
+planned_motion_ids = ["console_alarm_push"]
+exception_reason = "Approved partial-motion exception until a second approved still exists for this act."
+
+[[visual_research.acts]]
+id = "act4"
+title = "Repeated incidents and disbelief"
+estimated_seconds = 197
+beat_count = 0
+visual_thesis = "emphasize institutional repetition, operator override behavior, and fragmented incident visibility."
+dominant_signal = "recurring malfunction language and consoles treated as routine."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/boards/act4"
+required_motion_sequences = 2
+planned_scene_ids = []
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while act 4 remains evidence-board driven."
+
+[[visual_research.acts]]
+id = "act5"
+title = "Exposure and present-tense warning"
+estimated_seconds = 197
+beat_count = 0
+visual_thesis = "move from reproduced bug to broader system lesson about software trust and safety layers."
+dominant_signal = "the mismatch between reported safety and actual beam state."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/boards/act5"
+required_motion_sequences = 2
+planned_scene_ids = []
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while the act remains narration-supported."
+
+[audio]
+status = "todo"
+pipeline_dir = "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_production"
+master_path = "/Users/mike/Audio_CascadeEffects/output/speech/ep2_therac25_master.wav"
+transcript_path = "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_production/transcripts_mastered/ep2_therac25_master.diarized.txt"
+
+[audio.review]
+status = "pending"
+reviewer = ""
+reviewed_at = ""
+notes = ""
+
+[scene_stills]
+status = "review"
+
+[[scene_stills.items]]
+id = "console_alarm_hero"
+act = "act3"
+purpose = "Hero still for the console-mode mismatch and alarm language."
+preset = "therac25_console_alarm"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/console_alarm_hero"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/console_alarm_hero/selects/hero_still.png"
+latest_render_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/console_alarm_hero/selects/hero_still.png"
+latest_render_manifest_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/console_alarm_hero/selects/hero_still.png.json"
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "rejected"
+motion_review_status = "pending"
+reviewer = "mike"
+reviewed_at = "2026-03-30T00:02:25Z"
+review_notes = "the ripped paper effect is too tall and wide - think of the ripped paper as layers upon layers, not a single large strip like this image suggests."
+review_tags = ["overscaled_ripped_paper"]
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "therac25_console_alarm"
+
+[packaging_stills]
+status = "review"
+
+[[packaging_stills.items]]
+id = "therac_thumbnail"
+kind = "thumbnail"
+purpose = "Primary thumbnail once scene still direction settles."
+preset = "one_red_flag"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_thumbnail"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_thumbnail/selects/hero_plate.png"
+latest_render_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_thumbnail/selects/hero_plate.png"
+latest_render_manifest_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_thumbnail/selects/hero_plate.png.json"
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "rejected"
+reviewer = "mike"
+reviewed_at = "2026-03-30T00:02:42Z"
+review_notes = "scanlines"
+review_tags = ["scanline_banding"]
+motion_review_status = "pending"
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+
+[[packaging_stills.items]]
+id = "therac_shorts_cover"
+kind = "shorts_cover"
+purpose = "Primary shorts cover once scene still direction settles."
+preset = "signal_object_portrait"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_shorts_cover"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_shorts_cover/selects/hero_plate.png"
+latest_render_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_shorts_cover/selects/hero_plate.png"
+latest_render_manifest_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/therac_shorts_cover/selects/hero_plate.png.json"
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "rejected"
+reviewer = "mike"
+reviewed_at = "2026-03-30T00:02:37Z"
+review_notes = "scanlines"
+review_tags = ["scanline_banding"]
+motion_review_status = "pending"
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+
+[motion_assets]
+status = "todo"
+
+[[motion_assets.items]]
+id = "console_alarm_push"
+source_still_id = "console_alarm_hero"
+archetype_id = "therac_console_push"
+prompt = "Slow documentary push toward the console, restrained phosphor flicker, quiet room tone."
+behavior = "The surrounding clinic objects fall away as the Therac-25 locks into focus and the console powers on."
+frames = 9
+width = 640
+height = 384
+pipeline = "distilled"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/console_alarm_hero/selects/hero_video.mp4"
+latest_render_path = "/Users/mike/AI/outputs/mlx-video/20260329T064056Z-a5d44ec0-comfy-hero_still-i2v-20260329T064056Z.mp4"
+latest_render_manifest_path = "/Users/mike/AI/outputs/mlx-video/20260329T064056Z-a5d44ec0-comfy-hero_still-i2v-20260329T064056Z.mp4.json"
+status = "todo"
+review_outcome = "rejected"
+reviewer = "mike"
+reviewed_at = "2026-03-29T22:41:32Z"
+review_notes = "We need a longer motion sample - at least 5-8 seconds"
+review_tags = ["motion_too_short"]
+min_duration_seconds = 5.0
+
+[production_pilot]
+status = "in_progress"
+mode = "minimal_surreal_v3_longform"
+plan_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/visual_research/v3_production_pilot.md"
+promotion_workflow_path = "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/judgment/promotion_workflow.md"
+keeper_registry_path = "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/judgment/keeper_registry.md"
+proof_review_template_path = "/Users/mike/FluxLab_CascadeEffects/proofs/suites/_proof_review_template.md"
+primary_lane = "fluxlab_v3_still_to_motion"
+reference_only_short_package_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/shorts/midjourney/therac_short_minimal_surreal_v1"
+current_keeper_motion_path = "/Users/mike/AI/outputs/mlx-video/20260410T230813Z-765bd40b-comfy-therac_25__operator_white_coat_cleanup__minimal_surreal_editorial_v3_00001_-i2v-20260410T230828Z.mp4"
+current_secondary_keeper_motion_path = "/Users/mike/AI/outputs/mlx-video/20260411T054350Z-7d886bea-comfy-therac_25__software_trusted_itself_pass_02__minimal_surreal_editorial_v3_00001_-i2v-20260411T054350Z.mp4"
+keeper_still_total = 5
+keeper_motion_total = 2
+current_rough_cut_path = "/Users/mike/AI/outputs/mlx-video/20260411T061436Z-therac_v3_pilot_rough_cut_01.mp4"
+current_rough_cut_note_path = "/Users/mike/FluxLab_CascadeEffects/proofs/suites/minimal_surreal_v3_therac_pilot_rough_cut_01.md"
+assembly_target = "10-beat Therac rough-cut pilot with no diagnostic placeholders"
+transcript_timing_status = "missing_master_transcript"
+
+[shorts_clean_restart]
+status = "initialized"
+episode_id = "therac-25"
+short_id = "therac_short_scoped_v1"
+created_at = "2026-04-25"
+mode = "source_preserving_documentary_v1_scoped_short"
+episode_short_root = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1"
+episode_production_root = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production"
+viz_short_root = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/shorts/therac_short_scoped_v1"
+short_script_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/therac_short_scoped_v1.txt"
+short_production_pilot_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/short_production_pilot.md"
+stage_ledger_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/stage_ledger.md"
+workflow_scope_manifest_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/workflow_scope_manifest.md"
+dp_research_brief_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/dp_research_brief.md"
+visual_research_packet_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/visual_research_packet.md"
+production_model_decision_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/production_model_decision.md"
+visual_beatmap_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/visual_beatmap.md"
+shot_plan_v2_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/shot_plan_v2.md"
+episode_constraint_ledger_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/episode_constraint_ledger.md"
+render_authorization_check_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/production/render_authorization_check.md"
+short_audio_package_path = "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/audio_package.json"
+short_audio_wav_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/final/therac_short_scoped_v1.wav"
+short_audio_transcript_path = "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/transcripts_mastered/therac_short_scoped_v1.diarized.txt"
+short_audio_caption_source_path = "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/transcripts_mastered/therac_short_scoped_v1.diarized.srt"
+audio_package_sha256 = "aa4cd4bea039df4a7032b8a7248a9ba79b2276cdde342fca717097e5b8a07473"
+packaged_audio_sha256 = "aa651ab188360fd4d431c1912827e39211fc963a54b28b43d7778ba1a9936028"
+transcript_sha256 = "b30582bdfcfc9d34de44e1661427d1afb2f032172d181831030291b23998a922"
+audio_duration_seconds = 56.378050
+audio_disposition = "keep"
+brand_motif_status = "present"
+motif_text = "Small causes, massive consequences."
+ending_cadence_read = "pass"
+current_stage = "stills/keyframe scout gate"
+last_completed_stage = "render authorization check"
+may_advance = false
+next_required_gate = "limited stills/keyframe scout gate"
+discovered_review_candidate_id = "house_crt_visible_scanline_pass_07"
+discovered_review_candidate_disposition = "review_ready"
+discovered_review_candidate_reel_class = "keeper short candidate"
+discovered_review_candidate_human_keep_status = "pending"
+discovered_review_candidate_sidecar_status = "no_final_export_json_md_or_srt_found_in_pass07_folder"
+discovered_review_candidate_registry_status = "discovered_only_upstream_registry_reconciliation_required"
+discovered_review_candidate_captioned_final_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/shorts/therac_short_scoped_v1/motion_video_proof/pass_28_final_tail_repair/final_exports/therac-25_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/final/therac-25__house_crt_visible_scanline_signal_interruption_captioned_final.mp4"
+discovered_review_candidate_captioned_final_sha256 = "9d067d0cc36024c12db55f8104f5fddfa495703a229ac97d5520acade717dd14"
+discovered_review_candidate_captioned_final_dimensions = "1080x1920"
+discovered_review_candidate_captioned_final_frame_rate = "30/1"
+discovered_review_candidate_captioned_final_duration_seconds = 59.800000
+discovered_review_candidate_no_audio_final_path = "/Users/mike/Viz_CascadeEffects/references/episodes/therac-25/shorts/therac_short_scoped_v1/motion_video_proof/pass_28_final_tail_repair/final_exports/therac-25_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/final/therac-25__house_crt_visible_scanline_signal_interruption_captioned_no_audio.mp4"
+discovered_review_candidate_no_audio_final_sha256 = "a0f4fcb44244ef78fbc2fdc2d6a555c85cd1715bcc78d6653bd8f5e27dc6cc41"
+discovered_review_candidate_no_audio_final_duration_seconds = 59.800000
+legacy_visual_imports_approved = []
+legacy_policy = "Old Therac proof assets, Midjourney folders, mixed-review proof, prior rendered keepers, and minimal_surreal_editorial_v3 constraints are inactive unless exact DP imports are added to the scoped workflow manifest."
+
+[assembly]
+status = "in_progress"
+owner = "agent"
+renderer = "ffmpeg"
+strategy = "act_spine"
+notes = "First keeper-only Therac pilot rough cut exists; remaining blockers are Beat 04 hero coverage plus alternative carriers for Beat 03 and Beat 05."
+master_video_path = "/Users/mike/AI/outputs/mlx-video/20260411T061436Z-therac_v3_pilot_rough_cut_01.mp4"
+completed_at = ""
+
+[web]
+status = "done"
+entry_id = "therac-25"
+notes = "Launch entry exists in site-facts.ts."
+
+[release]
+status = "todo"
+scheduled_for = ""
+published_at = ""
+notes = "Publish timing has not been set."
+notes_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/publish_notes.md"
+
+[release.youtube]
+status = "todo"
+title = "Therac-25"
+description_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/publish_notes.md"
+tags = []
+privacy = "public"
+thumbnail_item_id = "therac_thumbnail"
+video_id = ""
+video_url = ""
+scheduled_for = ""
+published_at = ""
+error = ""
+
+[release.podcast]
+status = "todo"
+title = "Therac-25"
+description_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/publish_notes.md"
+audio_path = "/Users/mike/Audio_CascadeEffects/output/speech/ep2_therac25_master.wav"
+external_id = ""
+episode_url = ""
+scheduled_for = ""
+published_at = ""
+error = ""
+
+[analytics]
+status = "todo"
+notes = "Open after publish date exists."
+
+[long_form_video]
+visual_system_baseline_path = "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/therac-25.md"
+visual_system_baseline_status = "rolling_caption_rail_rough_assembly_review_ready_pending_human_keep"
+visual_system_baseline_updated_at = "2026-05-19"
+
+# rolling-caption-rail-redesign:start
+[long_form_video.rolling_caption_rail_redesign_20260520]
+status = "rolling_caption_rail_rough_assembly_review_ready_pending_human_keep"
+action = "supersede_publish_final_surfaces_create_successor_rough_proof"
+source_art_override_path = "not_applicable"
+source_art_override_status = "not_applicable"
+source_art_highlight_merge_model = "not_applicable"
+source_art_highlight_merge_predecessor_proof_path = "not_applicable"
+intro_trim_model = "first_eight_intro_trim_6s_v1"
+intro_trim_seconds = "6.000"
+previous_voice_start_offset_seconds = "9.601451"
+voice_start_offset_seconds = "3.601451"
+rail_preset_id = "fixed_16x9_right_rail_v1"
+rail_content_model_id = "rolling_caption_anchor_v1"
+caption_display_model = "rolling_rail_caption_window_v1"
+caption_display_chunking = "script_locked_chunk_split_v1"
+review_chrome_policy = "hidden_in_render_mode"
+review_control_model = "single_foreground_review_transport_v1"
+review_transport_scrub_model = "foreground_transport_scrub_lock_v1"
+legacy_review_chrome_suppression_model = "predecessor_review_chrome_hidden_in_review_mode_v1"
+highlight_render_policy = "reviewed_cue_map_spans_only"
+caption_motion_model = "constant_speed_audio_time_aligned_scroll_v2"
+caption_timeline_layout_model = "audio_time_positioned_stack_v1"
+caption_sync_target = "pre_vo_reading_lead_active_band_v1"
+caption_reading_lead_seconds = "0.65"
+caption_intro_visibility_gate_model = "first_vo_intro_hold_fade_v1"
+caption_intro_gate_start_seconds = "2.532"
+caption_intro_gate_full_opacity_seconds = "2.982"
+caption_intro_premature_text_read = "pass"
+caption_constant_speed_scope = "per_episode_constant_px_per_second"
+caption_playback_clock_model = "media_time_smoothed_raf_clock_v3"
+caption_stack_render_model = "compositor_linear_transform_driver_v1"
+caption_scroll_smoothness_model = "compositor_linear_transform_driver_v1"
+caption_runtime_coverage_model = "full_vo_runtime_visible_caption_coverage_v1"
+caption_end_screen_handoff_model = "review_approved_end_screen_entry_v1"
+review_approved_youtube_placeholder_fade_start_seconds = "1086"
+caption_full_vo_runtime_coverage_read = "pending_browser_runtime_qa"
+caption_runtime_cutoff_read = "pending_browser_runtime_qa"
+caption_scrub_transport_sync_read = "pending_browser_runtime_qa"
+review_transport_playing_scrub_read = "pending_browser_runtime_qa"
+caption_line_clip_read = "pending_browser_runtime_qa"
+caption_audio_time_transform_sync_read = "pending_browser_runtime_qa"
+caption_active_text_matches_audio_time_read = "pending_browser_runtime_qa"
+right_rail_caption_paint_visibility_read = "pending_browser_runtime_qa"
+caption_density_resolution_model = "merge_dense_chunks_no_speed_ramp_v1"
+caption_line_opacity_model = "viewport_distance_smoothstep_v1"
+caption_window_treatment_model = "transparent_caption_mask_only_v1"
+caption_constant_scroll_speed_px_per_second = "54.000"
+caption_stack_height_px = "59892"
+caption_stack_paint_containment_read = "pass_no_caption_stack_paint_clip"
+caption_dense_chunk_merge_count = "228"
+caption_unresolved_dense_pair_count = "0"
+caption_layout_collision_guard = "fixed_line_box_visual_gap_guard_v1"
+caption_min_rendered_line_gap_px = "40.0"
+caption_forced_takeaway_merge_count = "23"
+caption_max_active_chunk_center_delta_at_cue_start_px = "48.112"
+ambient_right_rail_motion_policy = "not_applicable_no_aircraft_right_rail_motion_layer"
+foreground_matte_policy = "not_applicable"
+aircraft_right_rail_route_count = "0"
+aircraft_right_rail_cutoff_removed = true
+right_rail_alignment_review_only = false
+ambient_effects_acceptance_status = "not_applicable"
+ambient_effects_deferral_note_path = "not_applicable"
+active_ambient_effects_for_right_rail_alignment = "not_applicable"
+deferred_ambient_effects_review_root = "not_applicable"
+music_integration_contract_revalidation_scope = "not_applicable"
+highlight_phrase_scope = "exact_authored_span_only"
+caption_highlight_model_id = "lesson_takeaway_highlight_v1"
+highlight_semantic_role = "story_lesson_takeaway"
+highlight_density_model = "memorable_takeaway_cadence_v1"
+highlight_color_model = "source_sampled_backplate_contrast_takeaway_accent_v3"
+highlight_visual_timing_model = "active_band_presence_aligned_v1"
+caption_window_role = "middle_two_thirds_right_rail"
+caption_blur_scope = "none"
+caption_highlight_source = "living_cover_cue_map_key_phrases"
+caption_palette_source = "sampled_episode_backplate"
+rough_assembly_manifest_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json"
+rough_assembly_player_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/player.html"
+review_packet_path = "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/review/rolling_caption_rail_review_packet.md"
+source_art_reopened_by_default = false
+right_rail_safe_space_revalidation_required = true
+may_render_final_mp4 = false
+may_advance_to_final_assembly = false
+may_advance_to_publish_readiness = false
+may_youtube_action = false
+# rolling-caption-rail-redesign:end

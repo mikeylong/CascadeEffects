@@ -1,0 +1,38 @@
+{
+  "receipt_type": "cascade_effects_output_contract_validation",
+  "schema_version": "cascade_effects_output_contract_receipt_v1",
+  "created_at": "2026-05-26T08:24:50.805Z",
+  "ok": true,
+  "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T080000Z/publish_readiness_manifest.json",
+  "artifact_manifest_sha256": "35cd3cef9cc64ff336f6ba6fb5fcf1f1c65179a8fae77fae00bfae918210cd96",
+  "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+  "contract_id": "first-eight-longform-v1",
+  "family": "longform",
+  "intent": "successor",
+  "source_hashes": {
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T080000Z/publish_readiness_manifest.json",
+    "artifact_manifest_sha256": "35cd3cef9cc64ff336f6ba6fb5fcf1f1c65179a8fae77fae00bfae918210cd96",
+    "source_final_render.manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T071639Z/render_manifest.json",
+      "declared_sha256": "f45011568d45dd29b1aaf0f23fc049e37b6984e8f0b7e455642bf2e5a6dd32e2",
+      "actual_sha256": "f45011568d45dd29b1aaf0f23fc049e37b6984e8f0b7e455642bf2e5a6dd32e2"
+    },
+    "source_final_render.mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T071639Z/piltdown-man_living_cover_final_review_1080p24.mp4",
+      "declared_sha256": "c4b00eaff14520a7326d82b0a58cd8f47f0bd653583b783d8badcc229deb3a5f",
+      "actual_sha256": "c4b00eaff14520a7326d82b0a58cd8f47f0bd653583b783d8badcc229deb3a5f"
+    }
+  },
+  "allowed_delta": null,
+  "reads": {
+    "contract_read": "pass_contract_loaded_and_required_reads_passed",
+    "delta_read": "pass_no_repair_delta_required_for_intent",
+    "style_read": "pass_style_contract_reads_passed",
+    "media_read": "pass_source_hashes_and_media_reads_valid",
+    "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+  },
+  "existing_validators": [],
+  "failures": [],
+  "youtube_action_requested": "unlisted_review_upload",
+  "youtube_action_allowed": true
+}

@@ -1,0 +1,35 @@
+{
+  "enabled": true,
+  "application_stage": "post_refine",
+  "surface_scope": "environmental_only",
+  "llm_backend": "ollama",
+  "llm_model": "llava:7b",
+  "allow_repaired_text_outside_typography_zones": false,
+  "ambiguous_environmental_fallback_action": "erase",
+  "max_regions": 12,
+  "ocr_confidence_floor": 60.0,
+  "rewrite_confidence_floor": 0.72,
+  "erase_confidence_floor": 0.58,
+  "context_terms": [
+    "documentary research source",
+    "captionless visual reference",
+    "subject fidelity over typography",
+    "remove readable or composition-dominant text",
+    "preserve the primary subject and surrounding structure"
+  ],
+  "forbidden_surface_types": [
+    "badge",
+    "paperwork",
+    "tiny_label",
+    "dense_ui",
+    "instrument_readout",
+    "serial_plate",
+    "keycap"
+  ],
+  "post_final_cleanup": {
+    "enabled": true,
+    "mode": "erase_only",
+    "max_regions": 16,
+    "max_rounds": 2
+  }
+}

@@ -1,0 +1,968 @@
+{
+  "kind": "local_review_asset_package",
+  "id": "season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z",
+  "status": "keep",
+  "may_advance": true,
+  "created_utc": "2026-05-25T19:50:52Z",
+  "asset_role": "youtube_playlist_thumbnail_channel_branding_surface",
+  "youtube_studio_updated": false,
+  "playlist": {
+    "name": "Season 1",
+    "channel_trailer_included": false,
+    "canonical_episode_order": [
+      "Challenger",
+      "Therac-25",
+      "Hyatt Regency Walkway Collapse",
+      "Semmelweis and the Rejection of Handwashing",
+      "Tacoma Narrows Bridge",
+      "Piltdown Man",
+      "Boeing 737 MAX / MCAS",
+      "Titanic and the Lifeboat Regulation Gap"
+    ]
+  },
+  "composition_policy": {
+    "format": "16:9 YouTube playlist thumbnail candidates at 1280x720",
+    "requested_direction": "only two production elements: large Season 1 title and Paper Architecture backplate with object aligned right",
+    "carrier": "deterministic local title over approved title-free raster Paper Architecture source art",
+    "allowed_generated_text_in_candidate_assets": [
+      "Season 1"
+    ],
+    "disallowed_local_elements": [
+      "logo",
+      "subtitle",
+      "progress_bar",
+      "accent_rule",
+      "divider_line",
+      "frame",
+      "card",
+      "episode_list",
+      "episode_numbers"
+    ],
+    "youtube_overlay_zone_xyxy": [
+      1010,
+      588,
+      1244,
+      676
+    ],
+    "overlay_zone_policy": "title never enters lower-right YouTube playlist overlay zone; object detail is de-emphasized there where possible"
+  },
+  "source_lineage": {
+    "kept_balanced": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_evidence_desk_balanced_precision_tighten_20260518T224129Z/source/evidence_desk_balanced_imagegen_source.png",
+      "status": "keep",
+      "sha256": "180affd24072928a7fcf5fafff9d5f18eeacec832284ab4c0aee97882491e0da",
+      "notes": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_evidence_desk_balanced_precision_tighten_20260518T224129Z/source/source_notes.md",
+      "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_evidence_desk_balanced_precision_tighten_20260518T224129Z/manifest.json"
+    },
+    "clean": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_density02_evidence_desk_low_shuttle_repair_20260518T220830Z/source/evidence_desk_clean_imagegen_source.png",
+      "status": "review_required",
+      "sha256": "cc9aed8a5ee16d2b1a5cd3955997c97b9cc6c72fd28299ea2c94d663ad4a87dd",
+      "notes": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_density02_evidence_desk_low_shuttle_repair_20260518T220830Z/source/source_notes.md",
+      "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_density02_evidence_desk_low_shuttle_repair_20260518T220830Z/manifest.json"
+    },
+    "richer": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_density02_evidence_desk_low_shuttle_repair_20260518T220830Z/source/evidence_desk_richer_imagegen_source.png",
+      "status": "review_required",
+      "sha256": "21eafebf2d0644354328ad748b8d55d7253f1e8f3e0af98c81f585d28f18ef4a",
+      "notes": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_density02_evidence_desk_low_shuttle_repair_20260518T220830Z/source/source_notes.md",
+      "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_density02_evidence_desk_low_shuttle_repair_20260518T220830Z/manifest.json"
+    },
+    "systems_tableau": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_content_imagegen_20260518T014942Z/source/candidate_a_content_systems_tableau_imagegen_source.png",
+      "status": "review_required",
+      "sha256": "4d2193e49d846499fc0d664cb52256e54edf07398f38188b42d85f124be3e434",
+      "notes": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_content_imagegen_20260518T014942Z/source/source_notes.md",
+      "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_content_imagegen_20260518T014942Z/manifest.json"
+    },
+    "first_eight_wall": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_content_imagegen_20260518T014942Z/source/candidate_b_first_eight_evidence_wall_imagegen_source.png",
+      "status": "review_required",
+      "sha256": "8bdc93240e64e3838f5d443ecc66fcfbbab70baa71e3863bbd2cd4a80f9d7fc1",
+      "notes": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_content_imagegen_20260518T014942Z/source/source_notes.md",
+      "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_content_imagegen_20260518T014942Z/manifest.json"
+    }
+  },
+  "candidates": [
+    {
+      "id": "N_minimal_right_anchor",
+      "label": "N - Minimal Right Anchor",
+      "summary": "Large left Season 1 title over a darkened full-bleed kept backplate; shuttle/ship object held on the right.",
+      "source": "kept_balanced",
+      "focus_x": 0.74,
+      "focus_y": 0.5,
+      "title_mode": "single",
+      "title_box": [
+        68,
+        234,
+        548,
+        380
+      ],
+      "title_size": 118,
+      "left_alpha": 205,
+      "bottom_alpha": 58,
+      "color": 0.92,
+      "contrast": 1.04,
+      "status": "not_selected",
+      "may_advance": false,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/N_minimal_right_anchor-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/N_minimal_right_anchor-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/N_minimal_right_anchor-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 832583,
+          "sha256": "7f124f093a4ca02a1db929c19b30df7e72357187f3f171c7f3a04bfb4d977bc6"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/N_minimal_right_anchor-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 107390,
+          "sha256": "c1429e8d94da12b5eb87fda1b88401618f6c8acdacd79a952ca15793dfe21257"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 59678,
+          "sha256": "7f38f53edf07842c2b9628f04933ca33cf1928bda81be4f86b380a6b7bb53c81"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 17833,
+          "sha256": "125d9349304e292de994d8a6d27baa91352f6c921b5c86ce1c91592e2f175ae9"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 804101,
+          "sha256": "b1cff97bf259fcc36b936401892ae2b1aa8d09ca0b4a60a45280bc6da4082eea"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 106250,
+          "sha256": "272b8d75ac4043a26dc3f7593383530d76d3de1c83dea673ba0d195d8a0ecd53"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/N_minimal_right_anchor-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 128737,
+          "sha256": "f19d4acc15d1062ecd7d767bbdcd1e4a8ed1cdad428fcbc4582af5c7754e99cf"
+        }
+      }
+    },
+    {
+      "id": "O_large_stacked",
+      "label": "O - Large Stacked",
+      "summary": "Stacked Season/1 treatment for maximum small-size read; object remains on the right edge of the Paper Architecture backplate.",
+      "source": "kept_balanced",
+      "focus_x": 0.82,
+      "focus_y": 0.5,
+      "title_mode": "stacked",
+      "title_box": [
+        70,
+        150,
+        486,
+        590
+      ],
+      "title_size": 108,
+      "left_alpha": 210,
+      "bottom_alpha": 62,
+      "color": 0.88,
+      "contrast": 1.08,
+      "status": "keep",
+      "may_advance": true,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/O_large_stacked-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/O_large_stacked-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/O_large_stacked-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 832683,
+          "sha256": "e7fa5ce14ac14f6a0522e371b10f32a59064bbe406b60eccb2f8c17f67f7a170"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/O_large_stacked-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 109120,
+          "sha256": "73c2610687177620708400224ffc54ed88f3481d6e63c897ddbfebf7a2a23c91"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 59279,
+          "sha256": "088657190ce5f840352725b2ac4f80d1e46bdce0c5bdea81a95b1adeb6b17c0c"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 17842,
+          "sha256": "b0349ec4e533ea64d4fb1759e51531af3fd3baef5e6dfb6506a41502299c9da7"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 802927,
+          "sha256": "fd6733c3ffc91c162a4af517c0ae437510236603ea4e2ac62a21c4142fad67a9"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 105806,
+          "sha256": "8e3fb4382c1575617c4d14317bcc43dee36f484eb503dcb62f2afff41dd0d0df"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/O_large_stacked-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 128393,
+          "sha256": "a25e3280273582477fadefb45a793d1bf977e7d5019ad7c24b2fffa08973b8cc"
+        }
+      },
+      "approved_at_utc": "2026-05-25T19:54:15Z",
+      "approval_note": "Selected by Mike in chat."
+    },
+    {
+      "id": "P_wide_quiet_field",
+      "label": "P - Wide Quiet Field",
+      "summary": "Wider negative-space crop with Season 1 large on the left and the primary paper object held right of center.",
+      "source": "clean",
+      "focus_x": 0.84,
+      "focus_y": 0.5,
+      "title_mode": "single",
+      "title_box": [
+        72,
+        280,
+        560,
+        416
+      ],
+      "title_size": 112,
+      "left_alpha": 215,
+      "bottom_alpha": 72,
+      "color": 0.9,
+      "contrast": 1.05,
+      "status": "not_selected",
+      "may_advance": false,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/P_wide_quiet_field-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/P_wide_quiet_field-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/P_wide_quiet_field-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 793125,
+          "sha256": "a17f1a86045f0a8af1a7ca16c91a7a3061628f24ca17e25b4ebf59b1753d8db0"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/P_wide_quiet_field-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 87379,
+          "sha256": "37e151ab748bb29120e7701c7067ef1d265893a4bbfa5fcb02fca290bff21f66"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 53104,
+          "sha256": "bd8b974057c022a663c3b2fd1b0250612c2be3aaba6b358d364da33fe64dfef7"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 16322,
+          "sha256": "b575968c9166abd06d49ca3f5ceb203c5b2a642cb845d10d1cfb79e23a2a02ee"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 762554,
+          "sha256": "45b93dff5da360d71603a0f7ac8eb6010644e49fb25e3b2195f94acfaa7dd206"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 94073,
+          "sha256": "c3f17ba03e7dc71a0519866f4c8b5581a571cd4c40e6668beff2823a904afbdc"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/P_wide_quiet_field-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 118032,
+          "sha256": "892972a5eac082a2e0776a082851cef37f14166a230dae54625857b88ab89c18"
+        }
+      }
+    },
+    {
+      "id": "Q_high_object",
+      "label": "Q - High Object",
+      "summary": "Object sits high and right so the lower-right playlist overlay covers low-value backplate rather than the title.",
+      "source": "richer",
+      "focus_x": 0.78,
+      "focus_y": 0.42,
+      "title_mode": "single",
+      "title_box": [
+        70,
+        248,
+        554,
+        388
+      ],
+      "title_size": 114,
+      "left_alpha": 210,
+      "bottom_alpha": 86,
+      "color": 0.86,
+      "contrast": 1.1,
+      "status": "not_selected",
+      "may_advance": false,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/Q_high_object-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/Q_high_object-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/Q_high_object-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 955345,
+          "sha256": "ffae0fb058bd866e88f608055e1441a4c718644a0f84be0d3af44572fc301627"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/Q_high_object-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 126182,
+          "sha256": "169b791913b414e379b96f025bb919643564307f928a99b3f75ad6ce0253cfd1"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 65478,
+          "sha256": "ef27110aafbf86bb695557635d37e073381be598adc61e037cb03d24529392a0"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 20705,
+          "sha256": "0c6c72226e7f681ae7132dbdcaa50e10ad369fe47405e423261f37a42ef79ca8"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 920767,
+          "sha256": "c5fe3c647eff4c41f767f5ca76c5f01c270034266dd0acd61abe76aec30cfb41"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 112742,
+          "sha256": "4ea27bdc0767f122a7a4332bab0f59ef3a81b4745354ff90dde1d56d249e90be"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/Q_high_object-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 137828,
+          "sha256": "763d8c255e7cc4bb0ca6b37ceec96dd6b541022208876553326e966fb79a5da3"
+        }
+      }
+    },
+    {
+      "id": "R_systems_backplate",
+      "label": "R - Systems Backplate",
+      "summary": "Broader channel-systems backplate with the main physical object pushed to the right and only Season 1 on the left.",
+      "source": "systems_tableau",
+      "focus_x": 0.72,
+      "focus_y": 0.5,
+      "title_mode": "single",
+      "title_box": [
+        70,
+        246,
+        566,
+        388
+      ],
+      "title_size": 112,
+      "left_alpha": 218,
+      "bottom_alpha": 68,
+      "color": 0.9,
+      "contrast": 1.04,
+      "status": "not_selected",
+      "may_advance": false,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/R_systems_backplate-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/R_systems_backplate-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/R_systems_backplate-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 919525,
+          "sha256": "e3c42120d9c6aa1396548b2347ee5a4d1be98197af9442b3080dc30451c74d05"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/R_systems_backplate-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 126828,
+          "sha256": "e5dbc0d1c731e4eaab96bf13ed2b7c89907d86af94a9d56ed4ee0303970c1ff1"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 66907,
+          "sha256": "4d0df0e8436d58d2fb9d105049173605c1624903e17d23daa3b2c9ba0616acd6"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 20712,
+          "sha256": "490b54e79697a49df4ec1f168233be28e2aa269a182ca90d5b91c61ae98be5ec"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 890436,
+          "sha256": "801a30547a25313e05bc0cf4871def3aa3c83124b3488cd1bd196f37572d274e"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 115735,
+          "sha256": "8ba300e5ed3cb8030598bf86ff254f62b6bc19d7147e9ea216d8b5762f132046"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/R_systems_backplate-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 140999,
+          "sha256": "436db82b67174ff023caf366d84fd3d27f227ce4c957c0296a74678585a5a527"
+        }
+      }
+    },
+    {
+      "id": "S_first_eight_backplate",
+      "label": "S - First-Eight Backplate",
+      "summary": "First-eight evidence-wall source used only as a text-free backplate, with the title occupying a clean left field.",
+      "source": "first_eight_wall",
+      "focus_x": 0.68,
+      "focus_y": 0.52,
+      "title_mode": "single",
+      "title_box": [
+        70,
+        252,
+        574,
+        394
+      ],
+      "title_size": 110,
+      "left_alpha": 224,
+      "bottom_alpha": 72,
+      "color": 0.88,
+      "contrast": 1.05,
+      "status": "not_selected",
+      "may_advance": false,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/S_first_eight_backplate-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/S_first_eight_backplate-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/S_first_eight_backplate-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 825414,
+          "sha256": "d513d126f4c5f7b961af2107df9dec40084897d3dbbabbc45de326130b4f77ab"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/S_first_eight_backplate-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 105916,
+          "sha256": "f92c4390c014f76decb31254194366e1ae8befbcc99f44eeba1f8d562a3cc612"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 57869,
+          "sha256": "df679b9dabcbb35208deb1bdaa199a7b182f1da8899bb5c9f4722a884cfc703b"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 17966,
+          "sha256": "2585f9228db098f6ff5332b770fbdf20d3e3b408fc8344de7a5c65f56e4be9e7"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 804009,
+          "sha256": "10bd17b323e6a620d6e61653c7239e00c81a811d79efda32e3844095e5f7c5ed"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 102121,
+          "sha256": "a808c8aa8ca18c10d6abd58df4e332e3c78868668d6961de2bbe78fd64607ec7"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/S_first_eight_backplate-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 124275,
+          "sha256": "9102f974f3578d3df2aebd2b9c94cad06e83a6c73b1e9f8b88bf31e448528930"
+        }
+      }
+    },
+    {
+      "id": "T_low_title_right_object",
+      "label": "T - Low Title",
+      "summary": "Lower-left title placement for a quieter cover-card read; right object remains above the YouTube overlay zone.",
+      "source": "kept_balanced",
+      "focus_x": 0.88,
+      "focus_y": 0.47,
+      "title_mode": "single",
+      "title_box": [
+        72,
+        378,
+        568,
+        514
+      ],
+      "title_size": 108,
+      "left_alpha": 220,
+      "bottom_alpha": 95,
+      "color": 0.86,
+      "contrast": 1.08,
+      "status": "not_selected",
+      "may_advance": false,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/T_low_title_right_object-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/T_low_title_right_object-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/T_low_title_right_object-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 758576,
+          "sha256": "ee66c949060fdddc4c73d0e0c30bbd95b22478f56f929cc27af3e4bf0c262086"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/T_low_title_right_object-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 97992,
+          "sha256": "310b0d172dbec44e9662655c03979d18c69c257646d2b9caf30b84c8a9b88a84"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 55171,
+          "sha256": "3cb889088980b9638d8d36e08957db387ae3a0e80bd7bdbaeada93f49e1002bc"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 16733,
+          "sha256": "db18f5b5d55adeacd82ca3f2a9014639e2e4558d257165c5b73dd9a7b0c21ce3"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 731158,
+          "sha256": "18158394f1feb16a74c88eab962e842260104beaa066abe8122b155042fc10f3"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 97847,
+          "sha256": "0fbcf433cf01564db7bd3c3b49897e78842a89e0dbf00aab0dd14cc70e387de6"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/T_low_title_right_object-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 120008,
+          "sha256": "d743fb59ef2b09ecee0081c404ef1a3ac68f9c7e3b6fe6c7fa36527fde0136b7"
+        }
+      }
+    },
+    {
+      "id": "U_rtl_mirror_ready",
+      "label": "U - RTL Mirror Ready",
+      "summary": "RTL-ready LTR master: title zone and object zone are cleanly separable so the layout can be mirrored for Arabic/Hebrew localization.",
+      "source": "richer",
+      "focus_x": 0.86,
+      "focus_y": 0.5,
+      "title_mode": "stacked",
+      "title_box": [
+        72,
+        150,
+        500,
+        596
+      ],
+      "title_size": 104,
+      "left_alpha": 218,
+      "bottom_alpha": 82,
+      "color": 0.84,
+      "contrast": 1.08,
+      "status": "not_selected",
+      "may_advance": false,
+      "production_elements": [
+        "local_deterministic_title_Season_1",
+        "paper_architecture_backplate"
+      ],
+      "outputs": {
+        "png": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/U_rtl_mirror_ready-season-1-playlist-thumbnail-1280x720.png",
+        "upload_jpg": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/U_rtl_mirror_ready-season-1-playlist-thumbnail-upload-1280x720.jpg",
+        "preview_320": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-preview-320x180.png",
+        "preview_168": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-preview-168x94.png",
+        "overlay_zone": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-youtube-overlay-zone-preview-1280x720.png",
+        "playlist_tab_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-playlist-tab-card-simulation.png",
+        "playlist_detail_simulation": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-playlist-detail-hero-simulation.png"
+      },
+      "output_records": {
+        "png": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/U_rtl_mirror_ready-season-1-playlist-thumbnail-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 944629,
+          "sha256": "c412bc342aa03215aae68395f893aa3c8d290655005ec692f44d515ac1d6211b"
+        },
+        "upload_jpg": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/assets/U_rtl_mirror_ready-season-1-playlist-thumbnail-upload-1280x720.jpg",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 124282,
+          "sha256": "c938ae4a49f5f808720b9946bd717f63ba890df6a6750a8ba61ff25e042d5e0d"
+        },
+        "preview_320": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-preview-320x180.png",
+          "width": 320,
+          "height": 180,
+          "mode": "RGB",
+          "bytes": 64811,
+          "sha256": "c833364185afc0afec1e88b29998e45a8a861b9dc2d78a9a6ba746d5242715b5"
+        },
+        "preview_168": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-preview-168x94.png",
+          "width": 168,
+          "height": 94,
+          "mode": "RGB",
+          "bytes": 20548,
+          "sha256": "6817d6abbef3027a0944d4559f49b6b325289ef0ac4914a875951474abab4650"
+        },
+        "overlay_zone": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-youtube-overlay-zone-preview-1280x720.png",
+          "width": 1280,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 909975,
+          "sha256": "6a10c650c46ef862e5fc10e24259303d1b58b7f88397f72619518b8e00f236fd"
+        },
+        "playlist_tab_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-playlist-tab-card-simulation.png",
+          "width": 560,
+          "height": 400,
+          "mode": "RGB",
+          "bytes": 111987,
+          "sha256": "0e1e9c792f8d41c931dbdcd9100acefd24f05c13be775da3676e067a1527c481"
+        },
+        "playlist_detail_simulation": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/previews/U_rtl_mirror_ready-playlist-detail-hero-simulation.png",
+          "width": 720,
+          "height": 720,
+          "mode": "RGB",
+          "bytes": 136966,
+          "sha256": "2ca54c32379f1b9709ba1f92d067d3bbc9843ee24b5ab1d92d43e6e83728c8de"
+        }
+      }
+    }
+  ],
+  "contact_sheets": {
+    "full_size": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/qa/season-1-minimal-paper-backplate-options-full-size.png",
+      "width": 860,
+      "height": 1224,
+      "mode": "RGB",
+      "bytes": 724523,
+      "sha256": "ee118ec752713db97840522e736a2be51b5aa08b538e15369d6b2e800e32db0e"
+    },
+    "playlist_tab_simulations": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/qa/season-1-minimal-paper-backplate-options-playlist-tab-simulations.png",
+      "width": 932,
+      "height": 1560,
+      "mode": "RGB",
+      "bytes": 559893,
+      "sha256": "64d4fa10f1834babd3c1626afe288c440eed16e6b675a30248482156c67ea244"
+    },
+    "playlist_detail_simulations": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/qa/season-1-minimal-paper-backplate-options-detail-hero-simulations.png",
+      "width": 1020,
+      "height": 1190,
+      "mode": "RGB",
+      "bytes": 255521,
+      "sha256": "c9e9f5be287d657f6a6c5127b606d1cf9ce638a83b8921c7902afd1debbd8561"
+    },
+    "small_previews": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/qa/season-1-minimal-paper-backplate-options-small-previews.png",
+      "width": 1120,
+      "height": 1756,
+      "mode": "RGB",
+      "bytes": 832833,
+      "sha256": "ad880218e50dd519d49636c41941ef9fc6987c2259b4cbb66e88ad83dbc1923b"
+    },
+    "overlay_zone_previews": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/qa/season-1-minimal-paper-backplate-options-overlay-zone-previews.png",
+      "width": 860,
+      "height": 1224,
+      "mode": "RGB",
+      "bytes": 702928,
+      "sha256": "eb74fd45461afd2b7f9e6e52d7cd729d9d40b184ce16080cc0ddb4bbf7ebe833"
+    }
+  },
+  "source_contact_sheet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/source/source-backplates-contact-sheet.png",
+    "width": 860,
+    "height": 938,
+    "mode": "RGB",
+    "bytes": 623269,
+    "sha256": "94ea3c6113eba9752e35d68173e4db0c3677a6b06af6534f7e21ba19af15bd77"
+  },
+  "rtl_scaling_recommendations": [
+    "Use logical zones, not fixed left/right rules: text-start zone plus object-end zone.",
+    "For RTL localizations, create a mirrored sibling: localized title on the right/top-right, object/backplate anchor on the left, while keeping YouTube's lower-right overlay area text-free.",
+    "Keep source art text-free and line-free at the composition layer so Arabic/Hebrew title rendering can be swapped without regenerating the backplate.",
+    "Avoid arrows, progress bars, numbered episode strips, cause-chain rails, and left-to-right motion cues in season covers.",
+    "Use a generous title box because Arabic/Hebrew season phrasing can be wider/taller than English; validate at 320x180 and 168x94.",
+    "Prefer mirrored pairs over a single universal crop when the title is the primary read; prefer a centered object with upper-corner title only when one asset must serve every locale."
+  ],
+  "qa_reads": {
+    "official_requirements_read": "pass_channel_branding_snapshot_current_within_90_days",
+    "skill_workflow_read": "pass_channel_branding_and_paper_architecture_channel_surface",
+    "dimensions_read": "pass_all_candidates_1280x720_16x9",
+    "file_size_read": "pass_all_upload_jpgs_under_2mb",
+    "large_title_only_read": "pass_candidate_assets_only_draw_Season_1",
+    "no_progress_bars_or_local_lines_read": "pass_no_local_bars_rules_dividers_frames_cards_or_logo",
+    "right_object_backplate_read": "review_required_object_aligned_right_by_crop",
+    "source_lineage_read": "pass_approved_channel_branding_paper_sources_only",
+    "generated_text_read": "pass_no_generated_text_source_art_and_only_local_Season_1_title",
+    "season_order_read": "pass_canonical_first_eight_order_recorded",
+    "channel_trailer_excluded_read": "pass",
+    "youtube_overlay_simulation_read": "pass_playlist_tab_and_detail_simulations_generated",
+    "texture_noise_read": "pass_inherited_from_channel_branding_sources",
+    "waterfall_read": "pass_inherited_from_channel_branding_sources",
+    "small_preview_320_read": "review_required",
+    "small_preview_168_read": "review_required",
+    "youtube_studio_updated": false
+  },
+  "builder_script": "/Users/mike/Agents_CascadeEffects/scripts/build_season1_playlist_thumbnail_minimal_paper_backplate_options.py",
+  "approved_candidate_id": "O_large_stacked",
+  "approved_candidate_label": "O - Large Stacked",
+  "approved_by": "Mike",
+  "approved_at_utc": "2026-05-25T19:54:15Z",
+  "approval_note": "Mike selected O in chat.",
+  "selected_outputs": {
+    "png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/selected/season-1-playlist-thumbnail-selected-O-large-stacked-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 832683,
+      "sha256": "e7fa5ce14ac14f6a0522e371b10f32a59064bbe406b60eccb2f8c17f67f7a170"
+    },
+    "upload_jpg": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/selected/season-1-playlist-thumbnail-selected-O-large-stacked-upload-1280x720.jpg",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 109120,
+      "sha256": "73c2610687177620708400224ffc54ed88f3481d6e63c897ddbfebf7a2a23c91"
+    },
+    "preview_320": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/selected/season-1-playlist-thumbnail-selected-O-large-stacked-preview-320x180.png",
+      "width": 320,
+      "height": 180,
+      "mode": "RGB",
+      "bytes": 59279,
+      "sha256": "088657190ce5f840352725b2ac4f80d1e46bdce0c5bdea81a95b1adeb6b17c0c"
+    },
+    "preview_168": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/selected/season-1-playlist-thumbnail-selected-O-large-stacked-preview-168x94.png",
+      "width": 168,
+      "height": 94,
+      "mode": "RGB",
+      "bytes": 17842,
+      "sha256": "b0349ec4e533ea64d4fb1759e51531af3fd3baef5e6dfb6506a41502299c9da7"
+    },
+    "playlist_tab_simulation": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/selected/season-1-playlist-thumbnail-selected-O-large-stacked-playlist-tab-simulation.png",
+      "width": 560,
+      "height": 400,
+      "mode": "RGB",
+      "bytes": 105806,
+      "sha256": "8e3fb4382c1575617c4d14317bcc43dee36f484eb503dcb62f2afff41dd0d0df"
+    },
+    "playlist_detail_simulation": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/selected/season-1-playlist-thumbnail-selected-O-large-stacked-playlist-detail-simulation.png",
+      "width": 720,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 128393,
+      "sha256": "a25e3280273582477fadefb45a793d1bf977e7d5019ad7c24b2fffa08973b8cc"
+    }
+  },
+  "keep_receipt": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/season1_playlist_thumbnail_minimal_paper_backplate_options_20260525T195042Z/qa/keep_receipt_O_large_stacked_20260525T195042Z.json"
+}

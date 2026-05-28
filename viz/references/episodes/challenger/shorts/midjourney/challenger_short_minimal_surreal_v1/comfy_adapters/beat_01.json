@@ -1,0 +1,52 @@
+{
+  "shot_id": "beat_01",
+  "included_reference_indices": [1, 0, 2],
+  "reference_crops": {
+    "0": [0.02, 0.0, 0.62, 0.24],
+    "1": [0.0, 0.0, 0.25, 0.55],
+    "2": [0.0, 0.0, 0.38, 0.42]
+  },
+  "grid_layout_template": "detail_left_bias_triptych",
+  "prompt_adapter_append": [
+    "favor icicle-heavy pipe detail, winter haze, and cold-risk infrastructure signal over a full tower or roadway scene",
+    "tower only as incidental background support, not a scenic exterior, not a launch-poster vista, no road horizon, no people"
+  ],
+  "negative_adapter_terms": [
+    "tower hero",
+    "roadway",
+    "road horizon",
+    "vanishing-point snow lane",
+    "person",
+    "trucks",
+    "vehicle",
+    "full shuttle silhouette",
+    "laptop",
+    "console",
+    "scenic launch exterior"
+  ],
+  "steer_target": "cold_pipe_winter_signal",
+  "steer_keep_traits": [
+    "icicle-heavy pipe detail",
+    "winter haze",
+    "cold-risk industrial field"
+  ],
+  "steer_avoid_traits": [
+    "tower hero framing",
+    "road horizon",
+    "scenic exterior vista",
+    "human presence"
+  ],
+  "ranking_bias_tags": [
+    "cold_pipe_detail",
+    "winter_haze",
+    "industrial_frost_signal"
+  ],
+  "draft_visual_softpass": {
+    "enabled": true,
+    "allowed_visual_failures": [
+      "asymmetry_ratio_below_threshold",
+      "palette_discipline_below_threshold",
+      "focal_clarity_below_threshold"
+    ]
+  }
+}

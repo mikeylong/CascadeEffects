@@ -1,0 +1,329 @@
+{
+  "packet_id": "living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z",
+  "gate": "source_art_exploration",
+  "status": "tighten_requires_crew_count_repair",
+  "created_utc": "20260507T222922Z",
+  "review_only": true,
+  "stills_only": true,
+  "side_exploration_only": true,
+  "imagegen_mode": "built_in_image_gen",
+  "human_disposition": "tighten",
+  "selected_variant": null,
+  "concept": {
+    "name": "materially_different_80s_challenger_living_cover",
+    "description": "Corrected built-in image_gen side exploration that uses the current Challenger plate only as a subject checklist, not a layout reference.",
+    "does_not_replace_current_source_carrier": true,
+    "frozen_baseline_preserved": true
+  },
+  "created_from_tightened_packet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_early_80s_film_camera_imagegen_scene_exploration_20260507T204502Z",
+    "tighten_reason": "Prior image_gen packet copied the current plate composition too closely; material_difference_read tightened."
+  },
+  "created_from_frozen_html_baseline": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_fixed_16x9_larger_native_rail_captions_html_rough_proof_20260507T150724Z/player.html",
+    "human_disposition": "keep",
+    "role": "baseline reference only; not modified"
+  },
+  "current_source_carrier_reference": {
+    "variant": "variant_c",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png",
+    "sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+    "profileId": "cascade-ink-lit-photoreal-v1",
+    "used_as_subject_checklist_only": true,
+    "not_used_as_layout_reference": true,
+    "not_replaced_by_this_packet": true
+  },
+  "prompt_contract": {
+    "tool_required": "built_in_image_gen",
+    "material_difference_requirement": "do not copy current camera position, crew spacing, shuttle scale, foreground hardstand layout, or same left-pad/right-sky composition",
+    "subject_checklist": "Challenger shuttle, LC-39-style pad, exactly seven back-view crew, open right rail-safe space",
+    "crew_count_requirement": "exactly seven full visible back-view astronauts; no extra humans, partial edge figures, or background silhouettes anywhere",
+    "negative_constraints": [
+      "no launch",
+      "no ignition",
+      "no smoke/fire/plume",
+      "no VHS overlays",
+      "no scanlines",
+      "no fake date stamps",
+      "no generated text",
+      "no watermark",
+      "no readable patches/logos",
+      "no sci-fi spacecraft"
+    ]
+  },
+  "variants": {
+    "variant_a": {
+      "variant_id": "variant_a",
+      "label": "A",
+      "direction": "Crawlerway/perimeter press-photo angle; shuttle farther away, crew smaller, archival NASA documentary feel.",
+      "human_disposition": "defer",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_0b0d0602fb0c7de40169fd10745b9c81918600dcad9af184f0.png",
+      "source_generation_sha256": "202783a2044414254c7fc2ef71241b763c8d26b448c1907ef3d1fe5b2e730352",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_generations/materially_different_80s_variant_a_imagegen_source.png",
+      "copied_source_generation_sha256": "202783a2044414254c7fc2ef71241b763c8d26b448c1907ef3d1fe5b2e730352",
+      "source_generation_dimensions": {
+        "width": 1672,
+        "height": 941,
+        "aspect_ratio": "1672:941"
+      },
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_art/materially_different_80s_variant_a.png",
+      "source_art_sha256": "9d044c93cd44ef0fd3fc770b8599a35576ca8898557a8758e60f56bc4c1143d0",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/prompts/materially_different_80s_variant_a_prompt.txt",
+      "prompt_sha256": "4b028d9e0884bd41c45468964100183f461905bf0eb621a2fc65a718eb5dd20c",
+      "preview_320x180_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/previews/materially_different_80s_variant_a_320x180.png",
+      "preview_320x180_sha256": "00cc3d6c3c48e073a54ca081148c3b2ae125458bf80848ee625c05c6b5afd7e0",
+      "preview_168x94_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/previews/materially_different_80s_variant_a_168x94.png",
+      "preview_168x94_sha256": "0dfaceb78b1174aba50c3e1e3214ada4f441ca5e8991a61e5b21dad20a7ed0de",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_path",
+        "mode": "text_to_image_with_reference_context",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_0b0d0602fb0c7de40169fd10745b9c81918600dcad9af184f0.png",
+        "source_generation_sha256": "202783a2044414254c7fc2ef71241b763c8d26b448c1907ef3d1fe5b2e730352",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_art/materially_different_80s_variant_a.png",
+        "final_asset_sha256": "9d044c93cd44ef0fd3fc770b8599a35576ca8898557a8758e60f56bc4c1143d0",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/prompts/materially_different_80s_variant_a_prompt.txt",
+        "prompt_sha256": "4b028d9e0884bd41c45468964100183f461905bf0eb621a2fc65a718eb5dd20c",
+        "init_image_path": "not_applicable",
+        "init_image_sha256": "not_applicable",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png"
+        ],
+        "reference_image_sha256s": [
+          "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a"
+        ],
+        "provenance_notes": "Built-in image_gen output under /Users/mike/.codex/generated_images; exact backend model is not recorded. Kept Challenger Variant C was visible in context as a subject checklist only, not a layout reference."
+      },
+      "local_precheck": {
+        "crew_count_read": "appears_pass_countable_seven",
+        "extra_partial_people_read": "appears_pass_no_extra_partial_people",
+        "material_difference_read": "appears_pass_different_camera_position_and_foreground_context",
+        "right_rail_safe_space_read": "appears_pass",
+        "note": "Local precheck is not a human keep; final reads remain pending human review."
+      },
+      "required_human_reads": {
+        "crew_count_read": "pending_human_review",
+        "historical_accuracy_read": "pending_human_review",
+        "early_80s_film_camera_read": "pending_human_review",
+        "material_difference_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review",
+        "generated_text_logo_watermark_read": "pending_human_review"
+      },
+      "may_replace_source_art_carrier": false,
+      "may_create_motion_readiness_packet": false,
+      "may_create_rough_assembly_proof": false,
+      "may_create_full_runtime_mp4_render": false,
+      "may_advance_to_final_assembly": false,
+      "may_advance_to_shorts_work": false,
+      "may_advance_to_publish_readiness": false,
+      "may_youtube_action": false
+    },
+    "variant_b": {
+      "variant_id": "variant_b",
+      "label": "B",
+      "direction": "Pad-operations access-road documentary frame; candid road/fence foreground, practical early-80s film exposure.",
+      "human_disposition": "defer",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_0b0d0602fb0c7de40169fd0ec989208191a6923aa6ba806114.png",
+      "source_generation_sha256": "8af294e818e10b27b87d30da462a2c5a012ea2d2f8d250970a02e1a2286c329c",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_generations/materially_different_80s_variant_b_imagegen_source.png",
+      "copied_source_generation_sha256": "8af294e818e10b27b87d30da462a2c5a012ea2d2f8d250970a02e1a2286c329c",
+      "source_generation_dimensions": {
+        "width": 1672,
+        "height": 941,
+        "aspect_ratio": "1672:941"
+      },
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_art/materially_different_80s_variant_b.png",
+      "source_art_sha256": "aca89cd086362c8210d5a03c536aefa99c3e9b98442a1d738af5ecb74eb0c1ee",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/prompts/materially_different_80s_variant_b_prompt.txt",
+      "prompt_sha256": "e1d63bc309d5fd3542297be793a95ce05b903c825b7056e3ee07874d09e2b8a6",
+      "preview_320x180_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/previews/materially_different_80s_variant_b_320x180.png",
+      "preview_320x180_sha256": "7738a14803912536402e5880f051be2fcb62b6b89b7c178d2411f4ac75279054",
+      "preview_168x94_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/previews/materially_different_80s_variant_b_168x94.png",
+      "preview_168x94_sha256": "2efdce9874409c8d9545d3500468988ad4d2e853abddfd199e0e470b628fc470",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_path",
+        "mode": "text_to_image_with_reference_context",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_0b0d0602fb0c7de40169fd0ec989208191a6923aa6ba806114.png",
+        "source_generation_sha256": "8af294e818e10b27b87d30da462a2c5a012ea2d2f8d250970a02e1a2286c329c",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_art/materially_different_80s_variant_b.png",
+        "final_asset_sha256": "aca89cd086362c8210d5a03c536aefa99c3e9b98442a1d738af5ecb74eb0c1ee",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/prompts/materially_different_80s_variant_b_prompt.txt",
+        "prompt_sha256": "e1d63bc309d5fd3542297be793a95ce05b903c825b7056e3ee07874d09e2b8a6",
+        "init_image_path": "not_applicable",
+        "init_image_sha256": "not_applicable",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png"
+        ],
+        "reference_image_sha256s": [
+          "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a"
+        ],
+        "provenance_notes": "Built-in image_gen output under /Users/mike/.codex/generated_images; exact backend model is not recorded. Kept Challenger Variant C was visible in context as a subject checklist only, not a layout reference."
+      },
+      "local_precheck": {
+        "crew_count_read": "appears_pass_countable_seven",
+        "extra_partial_people_read": "appears_pass_no_extra_partial_people",
+        "material_difference_read": "appears_pass_different_camera_position_and_foreground_context",
+        "right_rail_safe_space_read": "appears_pass",
+        "note": "Local precheck is not a human keep; final reads remain pending human review."
+      },
+      "required_human_reads": {
+        "crew_count_read": "pending_human_review",
+        "historical_accuracy_read": "pending_human_review",
+        "early_80s_film_camera_read": "pending_human_review",
+        "material_difference_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review",
+        "generated_text_logo_watermark_read": "pending_human_review"
+      },
+      "may_replace_source_art_carrier": false,
+      "may_create_motion_readiness_packet": false,
+      "may_create_rough_assembly_proof": false,
+      "may_create_full_runtime_mp4_render": false,
+      "may_advance_to_final_assembly": false,
+      "may_advance_to_shorts_work": false,
+      "may_advance_to_publish_readiness": false,
+      "may_youtube_action": false
+    },
+    "variant_c": {
+      "variant_id": "variant_c",
+      "label": "C",
+      "direction": "Telephoto aerospace-magazine hero plate; compressed shuttle/tower mass, distant press-site view, large rail field.",
+      "human_disposition": "defer",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_0b0d0602fb0c7de40169fd0f3b02d4819191e1e9ba950f33d5.png",
+      "source_generation_sha256": "d7c112b10ac017bce47152d4aef2a8618fc535143b6149d8d7fecb5d165ee46b",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_generations/materially_different_80s_variant_c_imagegen_source.png",
+      "copied_source_generation_sha256": "d7c112b10ac017bce47152d4aef2a8618fc535143b6149d8d7fecb5d165ee46b",
+      "source_generation_dimensions": {
+        "width": 1672,
+        "height": 941,
+        "aspect_ratio": "1672:941"
+      },
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_art/materially_different_80s_variant_c.png",
+      "source_art_sha256": "d0c2028ca579e46b06d6598a7de64a0e732b24c49540f1eb8ac49126bae87d69",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/prompts/materially_different_80s_variant_c_prompt.txt",
+      "prompt_sha256": "89b1e35da0c114e946c39e95b34782b75d9452e45da92f5cbe2349d2d6413f14",
+      "preview_320x180_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/previews/materially_different_80s_variant_c_320x180.png",
+      "preview_320x180_sha256": "6194d6544dd4749e0c461d30205c1dfd90628988f9164478692d673609c3a1f7",
+      "preview_168x94_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/previews/materially_different_80s_variant_c_168x94.png",
+      "preview_168x94_sha256": "41193ca45c79d8afbf8a6b25aa7f1ba5d8cb43d67b9fb86788c1c5413d27f8fc",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_path",
+        "mode": "text_to_image_with_reference_context",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_0b0d0602fb0c7de40169fd0f3b02d4819191e1e9ba950f33d5.png",
+        "source_generation_sha256": "d7c112b10ac017bce47152d4aef2a8618fc535143b6149d8d7fecb5d165ee46b",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/source_art/materially_different_80s_variant_c.png",
+        "final_asset_sha256": "d0c2028ca579e46b06d6598a7de64a0e732b24c49540f1eb8ac49126bae87d69",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/assets/prompts/materially_different_80s_variant_c_prompt.txt",
+        "prompt_sha256": "89b1e35da0c114e946c39e95b34782b75d9452e45da92f5cbe2349d2d6413f14",
+        "init_image_path": "not_applicable",
+        "init_image_sha256": "not_applicable",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png"
+        ],
+        "reference_image_sha256s": [
+          "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a"
+        ],
+        "provenance_notes": "Built-in image_gen output under /Users/mike/.codex/generated_images; exact backend model is not recorded. Kept Challenger Variant C was visible in context as a subject checklist only, not a layout reference."
+      },
+      "local_precheck": {
+        "crew_count_read": "appears_pass_countable_seven",
+        "extra_partial_people_read": "appears_pass_no_extra_partial_people",
+        "material_difference_read": "appears_pass_different_camera_position_and_foreground_context",
+        "right_rail_safe_space_read": "appears_pass",
+        "note": "Local precheck is not a human keep; final reads remain pending human review."
+      },
+      "required_human_reads": {
+        "crew_count_read": "pending_human_review",
+        "historical_accuracy_read": "pending_human_review",
+        "early_80s_film_camera_read": "pending_human_review",
+        "material_difference_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review",
+        "generated_text_logo_watermark_read": "pending_human_review"
+      },
+      "may_replace_source_art_carrier": false,
+      "may_create_motion_readiness_packet": false,
+      "may_create_rough_assembly_proof": false,
+      "may_create_full_runtime_mp4_render": false,
+      "may_advance_to_final_assembly": false,
+      "may_advance_to_shorts_work": false,
+      "may_advance_to_publish_readiness": false,
+      "may_youtube_action": false
+    }
+  },
+  "contact_sheets": {
+    "desktop": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/contact_sheets/materially_different_80s_contact_sheet_desktop.png",
+      "sha256": "957c4da4c4a4532da614476a4c715dfaf74024d872b2bda3aae93804fe4d9b43"
+    },
+    "320x180": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/contact_sheets/materially_different_80s_contact_sheet_320x180.png",
+      "sha256": "9f8116d9ae932128040a2abd3fe30f2d127f98e2d3e7d83ce7b5c7067f5d09fa"
+    },
+    "168x94": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/contact_sheets/materially_different_80s_contact_sheet_168x94.png",
+      "sha256": "843c0ddab7c7a8035d3a907beee3cb544a71da62f2cf1c826219e16820fcaf4d"
+    }
+  },
+  "qa_metadata_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/qa/qa_metadata.json",
+  "qa_metadata_sha256": "b810e23338c27609a1a45c2583593e9cebc77bf7619526e31dc0a8229c1114ee",
+  "reads": {
+    "crew_count_read": "tighten",
+    "historical_accuracy_read": "pending_human_review",
+    "early_80s_film_camera_read": "pending_human_review",
+    "material_difference_read": "pending_human_review",
+    "challenger_launch_pad_scene_read": "pending_human_review",
+    "right_rail_safe_space_read": "pending_human_review",
+    "flight_suit_period_read": "pending_human_review",
+    "generated_text_logo_watermark_read": "pending_human_review",
+    "launch_chronology_read": "pending_human_review",
+    "source_art_continuity_read": "pending_human_review",
+    "generation_tool_provenance_read": "pass_inferred_from_existing_manifest_paths",
+    "stills_dimension_read": "pass",
+    "contact_sheet_read": "pass",
+    "no_video_or_audio_media_created_read": "pass",
+    "extra_partial_people_read": "tighten"
+  },
+  "advancement_flags": {
+    "may_replace_source_art_carrier": false,
+    "may_create_motion_readiness_packet": false,
+    "may_create_rough_assembly_proof": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_shorts_work": false,
+    "may_advance_to_publish_readiness": false,
+    "may_youtube_action": false
+  },
+  "artifacts": {
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/source_art_exploration_manifest.json",
+    "readme_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/README.md",
+    "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_materially_different_80s_imagegen_scene_exploration_20260507T222922Z/review/source_art_exploration_review_packet.md"
+  },
+  "next_review_question": "Reply with exactly one response: keep A, keep B, keep C, tighten, or reject.",
+  "review_records": [
+    {
+      "timestamp_utc": "20260507T231826Z",
+      "human_disposition": "tighten",
+      "reviewer_note": "Generated image 1 / Variant A is the most compelling, but it has an 8-astronaut / extra-human count failure. Preserve the direction and repair the hard seven-person gate.",
+      "successor_packet": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_image1_crew_count_repair_imagegen_scene_exploration_20260507T231826Z"
+    }
+  ]
+}

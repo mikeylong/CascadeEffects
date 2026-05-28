@@ -1,0 +1,30 @@
+schema_version = 1
+season = "__SEASON__"
+episode_id = "__EPISODE_ID__"
+title = "__EPISODE_TITLE__"
+created_at = "__CREATED_AT__"
+status = "scaffolded"
+
+[runtime]
+target_minutes = "12-18"
+exception_minutes = "up to about 20 when evidence genuinely requires it"
+expanded_episode_requires_human_approval = true
+
+[gates]
+source_audit = "pending"
+writer_packet = "pending"
+longform_script = "pending"
+frontier_model_critique = "pending"
+human_script_approval_for_audio = "pending"
+audio_keep = "pending"
+visual_system_plan = "pending"
+source_art_keep = "pending"
+living_cover_keep = "pending"
+publish_readiness = "pending"
+human_upload_authorization = "pending"
+public_release = "manual_youtube_studio_only"
+
+[policy]
+paper_architecture_video_assets_allowed = false
+imagegen_source_art_default = "non_paper_only"
+inbox_human_approval_required = true

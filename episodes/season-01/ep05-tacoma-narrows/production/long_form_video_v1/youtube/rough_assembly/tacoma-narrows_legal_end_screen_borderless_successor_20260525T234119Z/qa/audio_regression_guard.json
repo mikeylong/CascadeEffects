@@ -1,0 +1,39 @@
+{
+  "model": "other_seven_selected_review_audio_hash_loudness_guard_v1",
+  "episode_id": "tacoma-narrows",
+  "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T144059Z/proof_assets/audio/tacoma-narrows_right_rail_alignment_music_mix.wav",
+  "source_audio_sha256": "00c7eb3f4b62bcd55a42963880f0c40c42f6643c39cb8fab64c0169c6565dc84",
+  "source_audio_duration_seconds": 872.530226,
+  "observed_audio_duration_seconds": 872.524671,
+  "fade_start_seconds": 852.530226,
+  "full_file_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -15.1,
+    "max_volume_db": -1
+  },
+  "pre_entry_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.1,
+    "max_volume_db": -8
+  },
+  "post_entry_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.5,
+    "max_volume_db": -8
+  },
+  "late_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.7,
+    "max_volume_db": -8
+  },
+  "source_mix_changed": false,
+  "remix_performed": false,
+  "failures": [],
+  "passed": true,
+  "reads": {
+    "source_audio_hash_read": "pass_selected_review_audio_sha_preserved",
+    "clipping_read": "pass_no_clipping_detected_by_volumedetect",
+    "outro_loudness_regression_read": "pass_same_selected_review_mix_no_loudness_regression_possible",
+    "remix_read": "pass_no_remix_performed"
+  }
+}

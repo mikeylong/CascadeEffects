@@ -1,0 +1,216 @@
+{
+  "model": "challenger_outro_level_audio_qa_v1",
+  "created_utc": "2026-05-25T20:37:10.321Z",
+  "source_audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z/proof_assets/audio/challenger_right_rail_alignment_music_mix.wav",
+    "sha256": "9f771c0e45e8e965c30640c5eba50a9126126c5d39160b19639c45b6a86d5e82",
+    "expected_sha256": "9f771c0e45e8e965c30640c5eba50a9126126c5d39160b19639c45b6a86d5e82",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z/proof_assets/audio/challenger_right_rail_alignment_music_mix_manifest.json",
+    "manifest_sha256": "3b0059bb4fdc96289f99da4ca8d24933cc8a6c0698d78ca45cb77022c1dd900d"
+  },
+  "successor_audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_outro_level_successor_20260525T203318Z/audio_successor/challenger_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+    "sha256": "81174cc27fcbfc67f006dda89c9cf0c467103203a88f6faab2ba97e6209eebca",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bits_per_sample": 16,
+          "duration": "1211.675329"
+        }
+      ],
+      "format": {
+        "format_name": "wav",
+        "duration": "1211.675329",
+        "size": "213739606",
+        "bit_rate": "1411200"
+      }
+    }
+  },
+  "gain": {
+    "db": 5,
+    "linear": 1.778279,
+    "ramp_start_seconds": 1182.385669,
+    "full_gain_seconds": 1185.385669
+  },
+  "measurements": {
+    "source": {
+      "intro_music_only": {
+        "start_seconds": 0.3,
+        "duration_seconds": 3,
+        "input_i_lufs": -16.46,
+        "input_tp_dbtp": -1.81,
+        "input_lra": 0.1,
+        "input_thresh": -26.62,
+        "mean_volume_db": -16.4,
+        "max_volume_db": -1.8
+      },
+      "opening_vo_after_intro_tail": {
+        "start_seconds": 6,
+        "duration_seconds": 12,
+        "input_i_lufs": -11.52,
+        "input_tp_dbtp": -0.99,
+        "input_lra": 1.1,
+        "input_thresh": -21.89,
+        "mean_volume_db": -15.2,
+        "max_volume_db": -1
+      },
+      "mid_vo": {
+        "start_seconds": 600,
+        "duration_seconds": 12,
+        "input_i_lufs": -11.22,
+        "input_tp_dbtp": -1,
+        "input_lra": 2,
+        "input_thresh": -21.73,
+        "mean_volume_db": -14.5,
+        "max_volume_db": -1
+      },
+      "final_vo_prelap": {
+        "start_seconds": 1179.5,
+        "duration_seconds": 2.886,
+        "input_i_lufs": -10.56,
+        "input_tp_dbtp": -0.99,
+        "input_lra": 0,
+        "input_thresh": -20.56,
+        "mean_volume_db": -13.4,
+        "max_volume_db": -1
+      },
+      "post_vo_outro_ramp": {
+        "start_seconds": 1182.385669,
+        "duration_seconds": 3,
+        "input_i_lufs": -22.2,
+        "input_tp_dbtp": -7.91,
+        "input_lra": 0.3,
+        "input_thresh": -32.2,
+        "mean_volume_db": -23.3,
+        "max_volume_db": -8
+      },
+      "target_outro_pre_legal": {
+        "start_seconds": 1185.385669,
+        "duration_seconds": 6.295215,
+        "input_i_lufs": -21.43,
+        "input_tp_dbtp": -8.03,
+        "input_lra": 1.1,
+        "input_thresh": -31.43,
+        "mean_volume_db": -22.3,
+        "max_volume_db": -8
+      },
+      "legal_window_outro": {
+        "start_seconds": 1191.680884,
+        "duration_seconds": 10,
+        "input_i_lufs": -21.21,
+        "input_tp_dbtp": -7.94,
+        "input_lra": 2.3,
+        "input_thresh": -31.21,
+        "mean_volume_db": -22.1,
+        "max_volume_db": -8
+      },
+      "final_outro_tail": {
+        "start_seconds": 1203,
+        "duration_seconds": 8,
+        "input_i_lufs": -20.61,
+        "input_tp_dbtp": -7.99,
+        "input_lra": 1,
+        "input_thresh": -30.93,
+        "mean_volume_db": -23,
+        "max_volume_db": -8
+      }
+    },
+    "successor": {
+      "intro_music_only": {
+        "start_seconds": 0.3,
+        "duration_seconds": 3,
+        "input_i_lufs": -16.46,
+        "input_tp_dbtp": -1.81,
+        "input_lra": 0.1,
+        "input_thresh": -26.62,
+        "mean_volume_db": -16.4,
+        "max_volume_db": -1.8
+      },
+      "opening_vo_after_intro_tail": {
+        "start_seconds": 6,
+        "duration_seconds": 12,
+        "input_i_lufs": -11.52,
+        "input_tp_dbtp": -0.99,
+        "input_lra": 1.1,
+        "input_thresh": -21.89,
+        "mean_volume_db": -15.2,
+        "max_volume_db": -1
+      },
+      "mid_vo": {
+        "start_seconds": 600,
+        "duration_seconds": 12,
+        "input_i_lufs": -11.22,
+        "input_tp_dbtp": -1,
+        "input_lra": 2,
+        "input_thresh": -21.73,
+        "mean_volume_db": -14.5,
+        "max_volume_db": -1
+      },
+      "final_vo_prelap": {
+        "start_seconds": 1179.5,
+        "duration_seconds": 2.886,
+        "input_i_lufs": -10.56,
+        "input_tp_dbtp": -0.99,
+        "input_lra": 0,
+        "input_thresh": -20.56,
+        "mean_volume_db": -13.4,
+        "max_volume_db": -1
+      },
+      "post_vo_outro_ramp": {
+        "start_seconds": 1182.385669,
+        "duration_seconds": 3,
+        "input_i_lufs": -18.48,
+        "input_tp_dbtp": -3.09,
+        "input_lra": 0.2,
+        "input_thresh": -28.7,
+        "mean_volume_db": -19.5,
+        "max_volume_db": -3.2
+      },
+      "target_outro_pre_legal": {
+        "start_seconds": 1185.385669,
+        "duration_seconds": 6.295215,
+        "input_i_lufs": -16.43,
+        "input_tp_dbtp": -3.03,
+        "input_lra": 1.1,
+        "input_thresh": -26.43,
+        "mean_volume_db": -17.3,
+        "max_volume_db": -3
+      },
+      "legal_window_outro": {
+        "start_seconds": 1191.680884,
+        "duration_seconds": 10,
+        "input_i_lufs": -16.21,
+        "input_tp_dbtp": -2.94,
+        "input_lra": 2.3,
+        "input_thresh": -26.21,
+        "mean_volume_db": -17.1,
+        "max_volume_db": -3
+      },
+      "final_outro_tail": {
+        "start_seconds": 1203,
+        "duration_seconds": 8,
+        "input_i_lufs": -15.61,
+        "input_tp_dbtp": -2.99,
+        "input_lra": 1,
+        "input_thresh": -25.93,
+        "mean_volume_db": -18,
+        "max_volume_db": -3
+      }
+    }
+  },
+  "reads": {
+    "source_mix_hash_read": "pass_expected_predecessor_mix_hash",
+    "under_vo_overlap_read": "pass_final_vo_overlap_loudness_unchanged",
+    "legal_window_level_match_read": "pass_successor_legal_window_outro_matches_intro_music_loudness_window",
+    "no_clipping_read": "pass_no_window_peak_above_minus_1db",
+    "youtube_action_read": "blocked_no_upload_or_visibility_change_performed"
+  },
+  "passed": true
+}

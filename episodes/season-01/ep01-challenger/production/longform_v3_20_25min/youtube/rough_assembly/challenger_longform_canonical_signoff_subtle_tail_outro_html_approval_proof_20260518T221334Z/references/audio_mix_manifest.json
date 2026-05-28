@@ -1,0 +1,156 @@
+{
+  "packet_id": "challenger_canonical_signoff_subtle_tail_outro_audio_mix_20260518T221334Z",
+  "status": "review_ready_pending_human_listen_and_final_assembly_keep",
+  "created_utc": "2026-05-18T22:13:43.589118Z",
+  "mix_profile_id": "subtle_tail_outro_v1",
+  "voice_start_seconds": 9.601451,
+  "voice_duration_seconds": 1178.784218,
+  "voice_end_seconds": 1188.385669,
+  "total_duration_seconds": 1217.675329,
+  "expected_total_duration_seconds": 1217.680884,
+  "intro_music_start_seconds": 0,
+  "intro_music_only_end_seconds": 9.601451,
+  "intro_music_fade_end_seconds": 11.601451,
+  "full_outro_source_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+  "full_outro_start_seconds": 1186.885669,
+  "full_outro_fade_in_seconds": 4.5,
+  "outro_prelap_seconds": 1.5,
+  "outro_under_vo_gain_linear": 0.1,
+  "outro_target_gain_linear": 0.42,
+  "outro_target_ramp_seconds": 3.0,
+  "outro_reaches_target_at_seconds": 1191.385669,
+  "under_vo_music_margin_db": 12.1,
+  "outro_no_restart_at_voice_end": true,
+  "outro_source_continuity": true,
+  "voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_canonical_signoff_subtle_tail_outro_html_approval_proof_20260518T221334Z/audio_repairs/canonical_signoff_actual_outro_prelap_20260518T175232Z/masters/challenger_longform_canonical_signoff_20260518T175232Z_voice_master.wav",
+    "sha256": "f78ba0a9f42c817ea301b6ada51e790b6b951266a3fdfc7627c84e1c7a317807",
+    "bytes": 103968846
+  },
+  "intro_music_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+    "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+    "bytes": 1693774
+  },
+  "outro_full_track_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "bytes": 773136
+  },
+  "output_wav": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_canonical_signoff_subtle_tail_outro_html_approval_proof_20260518T221334Z/assets/audio/challenger_longform_canonical_signoff_subtle_tail_outro_review_mix_20260518T221334Z.wav",
+    "sha256": "282d06095e94e91c8d08d03708e5385bacb38586c0609b87bd12d26eb197f290",
+    "bytes": 214798006
+  },
+  "browser_mp3": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_canonical_signoff_subtle_tail_outro_html_approval_proof_20260518T221334Z/assets/audio/challenger_longform_canonical_signoff_subtle_tail_outro_web_review_20260518T221334Z.mp3",
+    "sha256": "9698243caae2aca3cdb1bb70ee4541a84ccbe533d418778963cd7f67b9e7808d",
+    "bytes": 29226048
+  },
+  "output_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "1217.675329"
+      }
+    ],
+    "format": {
+      "format_name": "wav",
+      "duration": "1217.675329",
+      "size": "214798006",
+      "bit_rate": "1411200"
+    }
+  },
+  "vo_outro_blend_plan": {
+    "policy": "subtle_tail_outro_v1",
+    "full_outro_source_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_outro_start_seconds": 1186.885669,
+    "outro_under_vo_gain_linear": 0.1,
+    "outro_target_gain_linear": 0.42,
+    "outro_target_ramp_seconds": 3.0,
+    "full_outro_fade_in_seconds": 4.5,
+    "voice_end_seconds": 1188.385669,
+    "outro_prelap_seconds": 1.5,
+    "outro_reaches_target_at_seconds": 1191.385669,
+    "under_vo_music_margin_db": 12.1,
+    "outro_no_restart_at_voice_end": true,
+    "outro_source_continuity": true,
+    "bridge_policy": "no_bridge_used_for_final_vo_handoff_full_outro_track_is_the_subtle_tail_source"
+  },
+  "outro_transition_review_sample": {
+    "wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_canonical_signoff_subtle_tail_outro_html_approval_proof_20260518T221334Z/qa/audio/vo_outro_subtle_tail_transition_review_20260518T221334Z.wav",
+      "sha256": "82ab67a725374c8f0789a24166b739f504d702299ade9dcc19fe8213b8fa8bc7",
+      "bytes": 2469678
+    },
+    "mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_canonical_signoff_subtle_tail_outro_html_approval_proof_20260518T221334Z/qa/audio/vo_outro_subtle_tail_transition_review_20260518T221334Z.mp3",
+      "sha256": "3fc9aa55dfa5286822e84ddbc657b32947a3917bdc80e44a29ee6fc2a1e32231",
+      "bytes": 337336
+    },
+    "start_seconds": 1181.385669,
+    "end_seconds": 1195.385669,
+    "window_seconds": 14
+  },
+  "level_reads": {
+    "full_mix": {
+      "mean_volume_db": -23.5,
+      "max_volume_db": -1.1
+    },
+    "final_4s_before_voice_end": {
+      "mean_volume_db": -22.5,
+      "max_volume_db": -6.7
+    },
+    "first_4s_after_voice_end": {
+      "mean_volume_db": -22.7,
+      "max_volume_db": -8.0
+    },
+    "transition_14s": {
+      "mean_volume_db": -22.8,
+      "max_volume_db": -6.5
+    },
+    "final_voice_phrase_window_seconds": 2.0,
+    "final_voice_phrase": {
+      "mean_volume_db": -23.0,
+      "max_volume_db": -8.0
+    },
+    "under_vo_music_stem": {
+      "mean_volume_db": -35.1,
+      "max_volume_db": -20.6
+    },
+    "under_vo_music_margin_db": 12.1,
+    "post_minus_pre_mean_delta_db": -0.2
+  },
+  "reads": {
+    "approved_music_source_read": "pass_registered_paper_architecture_theme_assets_recorded",
+    "series_music_contract_read": "pass_challenger_style_default",
+    "intro_music_contract_read": "pass_music_only_intro_then_2s_fade_tail_under_voice",
+    "voice_start_offset_read": "pass_voice_starts_after_9s601_music_only_intro",
+    "caption_timing_shift_read": "pass_offset_vtt_srt_shifted_by_9s601451",
+    "full_outro_music_read": "pass_full_paper_architecture_outro_track_used_as_subtle_tail_source",
+    "end_screen_music_handoff_read": "pass_end_screen_carried_by_full_outro_after_subtle_tail_handoff",
+    "vo_outro_blend_plan_read": "pass_subtle_tail_outro_v1",
+    "vo_outro_music_blend_read": "pass_subtle_tail_outro_enters_late_low_and_continues_without_restart",
+    "vo_outro_perceptual_review_read": "pass_transition_sample_exported_for_human_listen_no_whole_mix_delta_only",
+    "outro_transition_review_sample_read": "pass_transition_sample_exported_7s_before_to_7s_after_final_vo",
+    "outro_under_vo_masking_read": "pass_under_vo_music_margin_12.1dB",
+    "outro_target_after_voice_read": "pass_target_gain_reached_3s_after_voice_end",
+    "outro_entry_level_match_read": "pass_pre_post_entry_mean_delta_-0.2dB",
+    "outro_prelap_source_read": "pass_full_outro_track_used_as_subtle_tail_source_not_bridge_proxy",
+    "outro_prelap_start_read": "pass_full_outro_starts_1p5s_before_voice_end",
+    "outro_no_restart_at_voice_end_read": "pass",
+    "outro_source_continuity_read": "pass_full_outro_source_continues_across_voice_end_without_restart",
+    "audio_level_mix_read": "pass_max_volume_-1.1dB",
+    "music_rights_read": "review_warning_paper_architecture_theme_requires_youtube_claim_check_before_public_release",
+    "music_contract_regression_read": "pass_old_voice_end_join_and_5s_loud_prelap_models_rejected_subtle_tail_used",
+    "canonical_signoff_read": "pass_generic_selected_signoff_replaces_next_specific_episode_copy",
+    "downstream_gate_read": "pass_review_only_upload_publish_visibility_flags_false"
+  }
+}

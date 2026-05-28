@@ -1,0 +1,80 @@
+{
+  "artifact_type": "vehicle_rear_origin_map",
+  "version": "vehicle_rear_origin_map_v1",
+  "episode_id": "tacoma-narrows",
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_audited_rear_brake_lamp_alignment_20260520T015120Z",
+  "created_utc": "2026-05-20T01:51:20Z",
+  "source_plate": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_audited_rear_brake_lamp_alignment_20260520T015120Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080.png",
+    "coordinate_space": "1920x1080_player_canvas_pixels",
+    "role": "flipped_k3_backplate_active_source_plate"
+  },
+  "origin_policy": "pixel_tight_visible_rear_surface_masks_only",
+  "hard_rejects": [
+    "free_floating_glow",
+    "road_surface_origin",
+    "guardrail_origin",
+    "broad_near_vehicle_containment",
+    "foreground_right_rail_side_car_origin",
+    "calibration_overlay_in_viewer_player"
+  ],
+  "vehicles": [
+    {
+      "id": "far_uphill_sedan_rear",
+      "display_name": "far uphill sedan",
+      "vehicle_type": "period_sedan",
+      "rear_surface_mask_polygon": [[642, 421], [674, 422], [678, 440], [639, 442]],
+      "lamp_core_points": [[650, 438], [671, 438]],
+      "lamp_radius_px": 2.8,
+      "reflection_bounds": [636, 444, 48, 44],
+      "phase": 0.15,
+      "gain": 1.12,
+      "read": "audited_lower_rear_corners_on_far_uphill_sedan"
+    },
+    {
+      "id": "mid_lane_sedan_rear",
+      "display_name": "mid-lane sedan",
+      "vehicle_type": "period_sedan",
+      "rear_surface_mask_polygon": [[743, 443], [785, 444], [787, 466], [741, 466]],
+      "lamp_core_points": [[749, 461], [781, 461]],
+      "lamp_radius_px": 2.9,
+      "reflection_bounds": [736, 468, 58, 48],
+      "phase": 1.8,
+      "gain": 1.18,
+      "read": "audited_lower_rear_corners_on_mid_lane_sedan"
+    },
+    {
+      "id": "near_dark_truck_rear",
+      "display_name": "near dark truck / third visible distant vehicle",
+      "vehicle_type": "period_truck",
+      "rear_surface_mask_polygon": [[790, 435], [845, 438], [846, 492], [786, 492]],
+      "lamp_core_points": [[789, 486], [841, 486]],
+      "lamp_radius_px": 3.6,
+      "reflection_bounds": [780, 496, 78, 58],
+      "phase": 3.25,
+      "gain": 1.0,
+      "read": "audited_lower_outer_rear_corners_on_near_dark_truck_third_vehicle"
+    }
+  ],
+  "excluded_regions": [
+    {
+      "id": "foreground_right_rail_side_car",
+      "bbox_xywh": [1180, 570, 590, 390],
+      "reason": "foreground car sits under/near right rail and is not part of the distant vehicle brake-lamp lane"
+    },
+    {
+      "id": "fixed_right_rail_text_region",
+      "bbox_xywh": [1108, 52, 760, 976],
+      "reason": "no practical-light origin behind fixed right rail text"
+    }
+  ],
+  "qa_requirements": [
+    "vehicle_rear_origin_map_read",
+    "all_three_visible_distant_vehicle_lamps_read",
+    "lamp_core_inside_rear_mask_read",
+    "no_free_floating_brake_lamp_read",
+    "third_vehicle_rear_lamp_read",
+    "rear_lamp_alignment_contact_sheet_read",
+    "brake_lamp_alignment_overlay_absence_read"
+  ]
+}

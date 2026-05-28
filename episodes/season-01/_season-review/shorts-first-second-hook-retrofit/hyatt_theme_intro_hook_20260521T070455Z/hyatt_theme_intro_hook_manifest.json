@@ -1,0 +1,363 @@
+{
+  "schema_version": "1.0",
+  "stage": "first-second hook review",
+  "prototype_id": "hyatt_theme_intro_hook_20260521T070455Z",
+  "local_only_no_youtube_action": true,
+  "episode_id": "hyatt-regency",
+  "short_id": "hyatt_short_scoped_v1",
+  "current_latest_publish_mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/hyatt_short_scoped_v1/publish/youtube_20260429T002052Z/hyatt_regency_tea_dance_pass13_outro_tail_youtube_short.mp4",
+  "current_latest_publish_mp4_sha256": "06e4d180b6798fc5c69d25a647dafa0cc7d6968dff0950b9e9eb142e16425900",
+  "proof_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/hyatt_theme_intro_hook_review_proof.mp4",
+  "proof_sha256": "344bfa872151d077fa8692f19b55af5b287d9b248974e98a938d983bdbf404b2",
+  "comparison_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/side_by_side_current_vs_hyatt_theme_hook_first_10s.mp4",
+  "comparison_sha256": "428163842b9d2e610ed212ee45d08d3ab11abae9a5ef8abc9f52a4e39bece2bc",
+  "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/opening_frame_strip.jpg",
+  "frame_strip_sha256": "22a460601d42837deb6fa9612f1fd1cfcb1d995e791ff362bcfdcd666a351f10",
+  "outro_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/outro_frame_strip.jpg",
+  "outro_frame_strip_sha256": "48c1b93c9dc1712d6368d37b8bbfb4d9c80f31e11f3dac74a90a63c200460b9a",
+  "tail_signal_interruption_transition_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/tail_signal_interruption_transition_strip.jpg",
+  "tail_signal_interruption_transition_strip_sha256": "9c4748106ebddec4b252f5acce88ed9bbbb2b9c890ec60aa1330b727c963e8bf",
+  "tail_balloon_after_trim_crt_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/tail_balloon_after_trim_crt_strip.jpg",
+  "tail_balloon_after_trim_crt_strip_sha256": "53279c32a854772e28165f57d6013e03a691703ca180a1be055ae6820a1f136d",
+  "waveform_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/first_10s_waveform.png",
+  "waveform_sha256": "4b888884d9909cc864dff77e9e7ef197848b1062f39594518b477a8aed4da341",
+  "visual_extension_mode": "source_motion_tail",
+  "cloned_frame_padding_used": false,
+  "motion_source_contains_captions": false,
+  "clean_body_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/motion_video_proof/pass_11_scene_led_no_freeze_44s/final_exports/hyatt-regency_house_crt_clean_source_lineage_first8_pass_06/20260429T_house_crt_clean_source_lineage_pass06/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+  "caption_duplicate_repair_read": "pass",
+  "hook_crt_texture": {
+    "profile_id": "era_1980s_broadcast_crt_v1",
+    "intensity": "visible_but_premium",
+    "texture_application_scope": "opening_hook",
+    "duration_seconds": 3.0,
+    "calibration_recipe_id": "premium_broadcast_crt_luma_neutral_chroma_visible_scanline_v1",
+    "scanline_policy_id": "luma_neutral_visible_scanline_modulation_v1",
+    "caption_burn_is_last_visual_operation": false
+  },
+  "hook_crt_overlay_read": "pass_review_required",
+  "opening_texture_match_read": "pass_review_required",
+  "source_motion_tail": {
+    "source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/visual_research/repetition_repair_pass_03/archival_review_candidates/HYA-YT-01E_gKojuChxNt8_0322_0326_balloon_event_atrium_noaudio.mp4",
+    "source_sha256": "b6c6855de9c16fa4ebd22844eaca7e12920c9df5ed82c9ac2550fcedadf588f7",
+    "source_start_seconds": 0.65,
+    "duration_seconds": 3.187733,
+    "description": "moving no-audio Hyatt Regency balloon/atrium source tail with the source-internal stretch/grow transition from black trimmed off",
+    "source_transition_trimmed_seconds": 0.65,
+    "house_crt_tail_texture": {
+      "profile_id": "hyatt_house_crt_tail_match_v1",
+      "purpose": "match the existing Hyatt Short CRT/analog texture on the inserted balloon tail",
+      "filters": [
+        "contrast lift",
+        "saturation lift",
+        "temporal noise",
+        "horizontal scanline grid"
+      ]
+    },
+    "signal_interruption": {
+      "used": true,
+      "duration_seconds": 0.25,
+      "profile_id": "hyatt_signal_interruption_tail_handoff_v1",
+      "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+      "full_frame_static_replacement_used": false
+    }
+  },
+  "signal_interruption_used": true,
+  "signal_interruption_duration_seconds": 0.25,
+  "signal_interruption": {
+    "used": true,
+    "duration_seconds": 0.25,
+    "profile_id": "hyatt_signal_interruption_tail_handoff_v1",
+    "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+    "full_frame_static_replacement_used": false
+  },
+  "tail_source_trim_start_seconds": 0.65,
+  "source_transition_trimmed_seconds": 0.65,
+  "house_crt_tail_match_read": "pass_review_required",
+  "unwanted_source_transition_read": "pass",
+  "body_source_duration_seconds": 59.585011,
+  "body_used_duration_seconds": 59.335011,
+  "body_trimmed_for_tail_motion_seconds": 0.25,
+  "tail_gap_seconds": 3.187733,
+  "tail_repetition_read": "pass",
+  "freeze_tail_read": "pass",
+  "freeze_tail_evidence": {
+    "window_start_seconds": 57.772744,
+    "window_duration_seconds": 8.0,
+    "threshold_db": -60,
+    "min_freeze_duration_seconds": 0.5,
+    "freeze_events": [],
+    "freeze_tail_read": "pass"
+  },
+  "visual_strategy": {
+    "hook_visual": "no-caption Hyatt Regency tea-dance floor source motion moved to the front",
+    "hook_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/visual_research/repetition_repair_pass_03/archival_review_candidates/HYA-YT-01G_gKojuChxNt8_0330_0345_close_crowd_dance_noaudio.mp4",
+    "hook_source_start_seconds": 1.5,
+    "hook_duration_seconds": 3.0,
+    "hook_crt_texture": {
+      "profile_id": "era_1980s_broadcast_crt_v1",
+      "intensity": "visible_but_premium",
+      "texture_application_scope": "opening_hook",
+      "duration_seconds": 3.0,
+      "calibration_recipe_id": "premium_broadcast_crt_luma_neutral_chroma_visible_scanline_v1",
+      "scanline_policy_id": "luma_neutral_visible_scanline_modulation_v1",
+      "caption_burn_is_last_visual_operation": false
+    },
+    "hook_crt_overlay_read": "pass_review_required",
+    "opening_texture_match_read": "pass_review_required",
+    "body_after_hook": "existing Hyatt Regency clean no-caption house-CRT body starts at original t=0 after hook",
+    "clean_body_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/motion_video_proof/pass_11_scene_led_no_freeze_44s/final_exports/hyatt-regency_house_crt_clean_source_lineage_first8_pass_06/20260429T_house_crt_clean_source_lineage_pass06/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+    "motion_source_contains_captions": false,
+    "caption_duplicate_repair_read": "pass",
+    "visual_extension_mode": "source_motion_tail",
+    "cloned_frame_padding_used": false,
+    "source_motion_tail": {
+      "source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/visual_research/repetition_repair_pass_03/archival_review_candidates/HYA-YT-01E_gKojuChxNt8_0322_0326_balloon_event_atrium_noaudio.mp4",
+      "source_sha256": "b6c6855de9c16fa4ebd22844eaca7e12920c9df5ed82c9ac2550fcedadf588f7",
+      "source_start_seconds": 0.65,
+      "duration_seconds": 3.187733,
+      "description": "moving no-audio Hyatt Regency balloon/atrium source tail with the source-internal stretch/grow transition from black trimmed off",
+      "source_transition_trimmed_seconds": 0.65,
+      "house_crt_tail_texture": {
+        "profile_id": "hyatt_house_crt_tail_match_v1",
+        "purpose": "match the existing Hyatt Short CRT/analog texture on the inserted balloon tail",
+        "filters": [
+          "contrast lift",
+          "saturation lift",
+          "temporal noise",
+          "horizontal scanline grid"
+        ]
+      },
+      "signal_interruption": {
+        "used": true,
+        "duration_seconds": 0.25,
+        "profile_id": "hyatt_signal_interruption_tail_handoff_v1",
+        "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+        "full_frame_static_replacement_used": false
+      }
+    },
+    "signal_interruption": {
+      "used": true,
+      "duration_seconds": 0.25,
+      "profile_id": "hyatt_signal_interruption_tail_handoff_v1",
+      "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+      "full_frame_static_replacement_used": false
+    },
+    "house_crt_tail_match_read": "pass_review_required",
+    "unwanted_source_transition_read": "pass"
+  },
+  "music_strategy": {
+    "full_theme_intro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_theme_intro_sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "theme_intro_start_seconds": 0.0,
+    "theme_intro_duration_seconds": 3.0,
+    "theme_intro_volume": 0.78,
+    "loop_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop_60s.wav",
+    "loop_sha256": "3f8751c4ad66d51c6dd1b483c51cc394f63925cb97d54e526dfda8469c7e038e",
+    "loop_start_seconds": 2.25,
+    "loop_crossfade_seconds": 0.75,
+    "loop_volume_under_voice": 0.14,
+    "outro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture outro.m4a",
+    "outro_sha256": "03734595354c2ca8e2b513dd00ef181b002e8e8009844d499682383422eb9860",
+    "outro_start_seconds": 58.793,
+    "outro_volume": 0.76,
+    "limiter": "post-mix volume=0.62, alimiter=limit=0.62:level=false"
+  },
+  "voice_strategy": {
+    "voice_wav_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/hyatt_short_scoped_v1/final/hyatt_short_scoped_v1.wav",
+    "voice_wav_sha256": "876aaa45c49f5c7298f94fbaf60f7e608eda93a23b26e020486aef7b41d8ae27",
+    "voice_delay_seconds": 3.0,
+    "voice_volume": 1.0,
+    "voice_last_audible_seconds_source": 55.692744
+  },
+  "media_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/hyatt_theme_intro_hook_review_proof.mp4",
+    "sha256": "344bfa872151d077fa8692f19b55af5b287d9b248974e98a938d983bdbf404b2",
+    "duration_seconds": 65.8,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "frame_rate": "30/1",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "audio_evidence": {
+    "first_3s": {
+      "window_seconds": 3.0,
+      "peak_dbfs": -3.692,
+      "rms_dbfs": -15.903,
+      "sample_count": 144000
+    },
+    "first_10s": {
+      "window_seconds": 10.0,
+      "peak_dbfs": -1.399,
+      "rms_dbfs": -15.475,
+      "sample_count": 480000
+    },
+    "full_proof": {
+      "window_seconds": 65.772744,
+      "peak_dbfs": -1.399,
+      "rms_dbfs": -16.482,
+      "sample_count": 3155968
+    }
+  },
+  "frame_samples": {
+    "opening": [
+      {
+        "seconds": 0.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_000.000.jpg",
+        "sha256": "cc24c75b7de1cc56f25709c32920a02d015ed5ecd2cefec8177dda6c260d324c"
+      },
+      {
+        "seconds": 0.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_000.500.jpg",
+        "sha256": "6b61fb2241cc9dfd546c6a4bb88484259df6a9e81cd3f12616cbd85f716b22b4"
+      },
+      {
+        "seconds": 1.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_001.000.jpg",
+        "sha256": "d96a5aef27acc7fb1f7e4a0b6841654fc34d8bbdaed9552ba59b132834ef08ac"
+      },
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_002.000.jpg",
+        "sha256": "c12e2d4612064cf0dc489c83ee5739aae1b45ba8a6c50ed8dd80a0206c601c38"
+      },
+      {
+        "seconds": 2.9,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_002.900.jpg",
+        "sha256": "76bf5cca14c4b1ecebb5bdb56424102d4007672c42361f157b9f8d8306f83276"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_003.000.jpg",
+        "sha256": "5b14d361989fb2d5c34844909e3a138c104b6a26bcb0982297bcc0af4b10ac8d"
+      },
+      {
+        "seconds": 3.1,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_003.100.jpg",
+        "sha256": "2eb342067dff56b006e36ecdfba331aac2416857ba35b45308f3002f3a096266"
+      },
+      {
+        "seconds": 4.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_004.000.jpg",
+        "sha256": "62b0c1d3067713f79ac468b866f42bf970b55624aa5bb6cb7bbf09629e9619d7"
+      },
+      {
+        "seconds": 6.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_006.000.jpg",
+        "sha256": "717a9b243c6fddf623de2b0c264785e0e0405d24c28c22e11b9997c209965f01"
+      },
+      {
+        "seconds": 10.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_010.000.jpg",
+        "sha256": "c58d26afbaf9c2d226a64a5e5cacaaba9c526d7542f000fc8bd4df6c8d2c14e3"
+      }
+    ],
+    "outro": [
+      {
+        "seconds": 58.292744,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_058.293.jpg",
+        "sha256": "0219efbe8f0eb9447596fb95992b9b66d7918bb0665804b0bd881391ae2bfe5d"
+      },
+      {
+        "seconds": 58.792744,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_058.793.jpg",
+        "sha256": "353dc8e8c0944bacf4d1209d54f30d31fa2cd316781ecd3971d73d07a62c4c69"
+      },
+      {
+        "seconds": 60.292744,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_060.293.jpg",
+        "sha256": "28185c6fed3e1c273fed1ba39bab9314bf7f50e62871405b80c4a31a00740180"
+      },
+      {
+        "seconds": 65.272744,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_065.273.jpg",
+        "sha256": "651a5087433fbf29ca9e0576965c32650bb817c7062617b3f15aaca55433faef"
+      }
+    ],
+    "tail_signal_interruption_transition": [
+      {
+        "seconds": 62.185011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.185.jpg",
+        "sha256": "231ac6f4ddb7554d34b71d295f7d8eb954e2d5ca6d1f14c281ea2be83567e166"
+      },
+      {
+        "seconds": 62.335011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.335.jpg",
+        "sha256": "9f5f387a0f032c612d209bfa53fecac4b6bfb6977af6cbb672532e57673e18bc"
+      },
+      {
+        "seconds": 62.415011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.415.jpg",
+        "sha256": "77a86d6c8ece703a0cc5ab645affea9bc72ac7125aa832bdf344f6c9088a30f6"
+      },
+      {
+        "seconds": 62.495011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.495.jpg",
+        "sha256": "75d6401ea247fce12fd1b733ab9683c64d444494eaf928540c6c6adc9e919d73"
+      },
+      {
+        "seconds": 62.585011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.585.jpg",
+        "sha256": "61a6e5362cd32510129381443a169ee0e89de1aca0ce90c37a40a3bfc39ea7ac"
+      },
+      {
+        "seconds": 62.785011000000004,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.785.jpg",
+        "sha256": "8959c44c0546129d1af4687a95d7691611774a593568e68151a21cae2844eaf6"
+      },
+      {
+        "seconds": 63.135011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_063.135.jpg",
+        "sha256": "5ca4d6a772bb6de6968061aa95bb78939c67eaf2231c12fce71f4e0a80afcd86"
+      },
+      {
+        "seconds": 63.585011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_063.585.jpg",
+        "sha256": "73759a7d133d33b25dc7c7916f567392dd6222a3fc6626329b839a78dc6f387b"
+      }
+    ],
+    "tail_balloon_after_trim_crt": [
+      {
+        "seconds": 62.585011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.585.jpg",
+        "sha256": "61a6e5362cd32510129381443a169ee0e89de1aca0ce90c37a40a3bfc39ea7ac"
+      },
+      {
+        "seconds": 62.985011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_062.985.jpg",
+        "sha256": "9511b59de0231b22f8c16420e21395e13beaff88e80d252659c885dbc7ebcfd3"
+      },
+      {
+        "seconds": 63.385011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_063.385.jpg",
+        "sha256": "89c7564f779b2a73d653bb071f92e4d4998067ecad083c691b7f0d874eb80cde"
+      },
+      {
+        "seconds": 63.785011000000004,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_063.785.jpg",
+        "sha256": "910c2d6238286f8d4030c48b4717b948ff60dd7a0f43b6e1a26a65d0761362b1"
+      },
+      {
+        "seconds": 64.385011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_064.385.jpg",
+        "sha256": "6a4d52b3ee5719f94797308dbda35b1215badcc3d231c742fae7e4cd5a4a9952"
+      },
+      {
+        "seconds": 64.985011,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_064.985.jpg",
+        "sha256": "efd7443a230379473f5d94abe948e713149832171ccfeb1e7abd3078e274e29c"
+      },
+      {
+        "seconds": 65.272744,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/hyatt_theme_intro_hook_20260521T070455Z/evidence/frame_065.273.jpg",
+        "sha256": "651a5087433fbf29ca9e0576965c32650bb817c7062617b3f15aaca55433faef"
+      }
+    ]
+  },
+  "review_request": "Judge whether the Hyatt tea-dance motion plus full theme intro punch improves scroll-stop, and whether the transition into the loop feels natural before voice starts.",
+  "tail_repair_note": "The outro extension uses a different balloon/atrium source segment so the final dance-floor couple clip does not repeat around 1:02.",
+  "human_review_disposition": "keep"
+}

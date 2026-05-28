@@ -1,0 +1,36 @@
+{
+  "family": "shorts_cover_plate",
+  "preset": "signal_object_portrait",
+  "enabled": false,
+  "application_stage": "post_refine",
+  "surface_scope": "environmental_only",
+  "llm_backend": "ollama",
+  "llm_model": "llava:7b",
+  "allow_repaired_text_outside_typography_zones": false,
+  "ambiguous_environmental_fallback_action": "erase",
+  "post_final_cleanup": {
+    "enabled": true,
+    "mode": "erase_only",
+    "max_regions": 12
+  },
+  "max_regions": 8,
+  "ocr_confidence_floor": 60.0,
+  "rewrite_confidence_floor": 0.72,
+  "erase_confidence_floor": 0.58,
+  "context_terms": [
+    "shorts cover portrait",
+    "jammed switch lever",
+    "steel bracket",
+    "poster collage textures",
+    "no readable packaging text"
+  ],
+  "forbidden_surface_types": [
+    "badge",
+    "paperwork",
+    "tiny_label",
+    "dense_ui",
+    "instrument_readout",
+    "serial_plate",
+    "keycap"
+  ]
+}

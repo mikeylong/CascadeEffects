@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{EPISODE_TITLE}} Publish Readiness Review</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080b10;
+      --panel: #111827;
+      --panel-2: #182033;
+      --ink: #f6efe2;
+      --muted: #aab2c5;
+      --line: rgba(246, 239, 226, 0.16);
+      --ok: #7fd4b6;
+      --warn: #f3b66b;
+      --accent: #85d8ea;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); }
+    main { width: min(1480px, calc(100vw - 48px)); margin: 0 auto; padding: 32px 0 56px; }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: clamp(34px, 4vw, 56px); line-height: 1.02; letter-spacing: 0; }
+    h2 { font-size: 22px; margin-bottom: 14px; }
+    h3 { font-size: 16px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+    .top { margin-bottom: 24px; }
+    .deck { margin-top: 8px; max-width: 760px; color: var(--muted); font-size: 16px; line-height: 1.45; }
+    .grid { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(340px, 0.85fr); gap: 20px; align-items: start; }
+    section { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 18px; }
+    video, img { width: 100%; max-width: 100%; border-radius: 6px; background: #030507; display: block; }
+    .jump-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+    button { appearance: none; border: 1px solid rgba(133, 216, 234, 0.42); color: var(--ink); background: rgba(133, 216, 234, 0.12); border-radius: 6px; padding: 9px 12px; font: inherit; cursor: pointer; }
+    button:disabled { cursor: not-allowed; opacity: 0.45; }
+    button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 14px; }
+    .card { background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 14px; overflow-wrap: anywhere; }
+    .card strong { display: block; margin-bottom: 8px; }
+    .muted { color: var(--muted); }
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .media-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+    .media-grid figure { margin: 0; }
+    figcaption { color: var(--muted); font-size: 13px; margin-top: 8px; }
+    ol, ul { margin: 0; padding-left: 22px; }
+    li + li { margin-top: 6px; }
+    code { color: var(--accent); overflow-wrap: anywhere; }
+    pre { white-space: pre-wrap; color: var(--ink); font: inherit; line-height: 1.45; }
+    details { margin-top: 14px; }
+    summary { cursor: pointer; color: var(--accent); }
+    @media (max-width: 980px) {
+      main { width: min(100vw - 28px, 760px); padding-top: 20px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="top">
+      <h1>{{EPISODE_TITLE}}</h1>
+      <p class="deck">{{PACKAGE_STATUS_SUMMARY}}</p>
+    </div>
+
+    <div class="grid">
+      <section aria-labelledby="video-heading">
+        <h2 id="video-heading">Final MP4 Review</h2>
+        <p class="muted">Canonical served review URL: <code>{{CANONICAL_REVIEW_URL}}</code></p>
+        <video controls preload="metadata" poster="{{POSTER_RELATIVE_PATH}}">
+          <source src="{{MP4_RELATIVE_PATH}}" type="video/mp4">
+          <track src="{{UPLOAD_VTT_RELATIVE_PATH}}" kind="captions" srclang="en" label="English" default>
+        </video>
+        <p class="muted" id="mediaStatus" role="status" style="margin-top:10px;">Loading final MP4 metadata...</p>
+        <div class="jump-row" data-jump-controls>
+          {{JUMP_BUTTONS}}
+        </div>
+      </section>
+
+      <section aria-labelledby="decision-heading">
+        <h2 id="decision-heading">Review Decision</h2>
+        <div class="cards">
+          <div class="card"><strong>Package Status</strong><span class="warn">{{HUMAN_DISPOSITION}}</span></div>
+          <div class="card"><strong>Upload Action</strong><span class="warn">Not authorized</span></div>
+          <div class="card"><strong>Caption Gate</strong><span class="ok">{{CAPTION_GATE}}</span></div>
+          <div class="card"><strong>Music Gate</strong><span class="ok">{{MUSIC_GATE}}</span></div>
+          <div class="card"><strong>VO/Outro Blend</strong><span class="ok">{{VO_OUTRO_BLEND_GATE}}</span></div>
+          <div class="card"><strong>Final Render</strong><span class="ok">{{FINAL_RENDER_READ}}</span></div>
+          <div class="card"><strong>Range Server</strong><span class="ok">{{HTML_RANGE_SERVER_READ}}</span></div>
+          <div class="card"><strong>Remote Review</strong><span class="warn">{{REMOTE_REVIEW_STATUS}}</span></div>
+          <div class="card"><strong>Unlisted YouTube</strong><span class="warn">{{YOUTUBE_REVIEW_STATUS}}</span></div>
+          <div class="card"><strong>Vercel Video Upload</strong><span class="warn">Blocked</span></div>
+          <div class="card"><strong>Local Asset Copy</strong><span class="ok">{{LOCAL_ASSET_COPY_READ}}</span></div>
+        </div>
+        <p class="muted" style="margin-top:12px;">{{UPLOAD_LOCK_SUMMARY}}</p>
+        <h3 style="margin-top:18px;">Remaining Blockers</h3>
+        <ul>
+          {{BLOCKERS}}
+        </ul>
+        <p class="muted" data-empty-blockers hidden>No blockers remain after package keep.</p>
+      </section>
+    </div>
+
+    <section style="margin-top:20px;" aria-labelledby="metadata-heading">
+      <h2 id="metadata-heading">YouTube Metadata Preview</h2>
+      <div class="cards">
+        <div class="card"><strong>Title</strong>{{YOUTUBE_TITLE}}</div>
+        <div class="card"><strong>Category</strong>{{YOUTUBE_CATEGORY}}</div>
+        <div class="card"><strong>Audience</strong>{{YOUTUBE_AUDIENCE}}</div>
+        <div class="card"><strong>Visibility</strong>{{YOUTUBE_VISIBILITY}}</div>
+      </div>
+      <details open>
+        <summary>Description and Chapters</summary>
+        <pre>{{YOUTUBE_DESCRIPTION}}</pre>
+      </details>
+    </section>
+
+    <section style="margin-top:20px;" aria-labelledby="media-heading">
+      <h2 id="media-heading">Media Checks</h2>
+      <div class="media-grid">
+        {{MEDIA_FIGURES}}
+      </div>
+      <details open>
+        <summary>Required VO/outro transition sample</summary>
+        {{TRANSITION_SAMPLE_MEDIA}}
+      </details>
+    </section>
+
+    <section style="margin-top:20px;" aria-labelledby="evidence-heading">
+      <h2 id="evidence-heading">Evidence and Paths</h2>
+      <div class="cards">
+        {{EVIDENCE_CARDS}}
+      </div>
+    </section>
+  </main>
+  <script>
+    const video = document.querySelector("video");
+    const mediaStatus = document.querySelector("#mediaStatus");
+    const jumpButtons = [...document.querySelectorAll("[data-time]")];
+    const durationLabel = (seconds) => {
+      if (!Number.isFinite(seconds)) return "--:--";
+      const whole = Math.max(0, Math.round(seconds));
+      const hours = Math.floor(whole / 3600);
+      const minutes = Math.floor((whole % 3600) / 60);
+      const secs = String(whole % 60).padStart(2, "0");
+      return hours > 0 ? `${hours}:${String(minutes).padStart(2, "0")}:${secs}` : `${minutes}:${secs}`;
+    };
+    const clampTime = (seconds) => Math.min(Math.max(seconds, 0), Number.isFinite(video.duration) ? video.duration : seconds);
+    const seekTo = (seconds, label = durationLabel(seconds)) => {
+      const target = clampTime(seconds);
+      mediaStatus.textContent = `Seeking to ${label}...`;
+      video.currentTime = target;
+      try {
+        video.focus({ preventScroll: true });
+      } catch {
+        video.focus();
+      }
+    };
+    for (const button of jumpButtons) {
+      button.disabled = true;
+      button.addEventListener("click", () => {
+        const time = Number(button.dataset.time);
+        if (Number.isFinite(time)) {
+          seekTo(time, button.textContent.trim());
+        }
+      });
+    }
+    const markReady = () => {
+      for (const button of jumpButtons) button.disabled = false;
+      mediaStatus.textContent = `Final MP4 metadata loaded. Duration ${durationLabel(video.duration)}.`;
+    };
+    video.addEventListener("loadedmetadata", markReady);
+    video.addEventListener("error", () => {
+      mediaStatus.textContent = "Final MP4 could not load. Check the local media reference before review.";
+    });
+    video.addEventListener("seeked", () => {
+      mediaStatus.textContent = `Review sample loaded at ${durationLabel(video.currentTime)}.`;
+    });
+    if (video.readyState > 0) markReady();
+  </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+{
+  "cases": [
+    {
+      "archetype": "room_or_interior",
+      "base_seed": 71301,
+      "id": "challenger_short__beat_04b_mission_screen_smoke_echo",
+      "prompt_body": "Mission command room with one large front screen showing a diffuse smoke-plume pattern echoing the Challenger failure, seated operator silhouettes below it, status consoles subdued and text-clean, the room remains calm and procedural, pale green monitor glow, smoke-gray bloom confined to the screen, no readable digits, no cracked-glass texture, no exterior launch view"
+    },
+    {
+      "archetype": "room_or_interior",
+      "base_seed": 71321,
+      "id": "challenger_short__beat_04b_control_room_plume_monitor",
+      "prompt_body": "Three-quarter mission control interior, one overhead projection carries a soft smoke field shaped like the failure plume while the operators remain secondary, consoles and annunciators stay technical but unreadable, no graph lines, no text, no cracked display, procedural calm under tense room light"
+    },
+    {
+      "archetype": "room_or_interior",
+      "base_seed": 71341,
+      "id": "challenger_short__beat_04b_failure_channel_room",
+      "prompt_body": "Institutional command room with a large mission screen dominating the frame, the screen holds a diffuse smoke-pattern event instead of a line graph, seated staff remain nearly still below it, technical room stays specific and text-clean, no exterior stack, no fireball, no broken-screen metaphor, restrained failure awareness"
+    }
+  ],
+  "filters": {
+    "case_id": null
+  },
+  "jobs": [
+    {
+      "api_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_mission_screen_smoke_echo/minimal_surreal_editorial_v3/challenger_short__beat_04b_mission_screen_smoke_echo__minimal_surreal_editorial_v3__proof.api.json",
+      "archetype": "room_or_interior",
+      "base_seed": 71301,
+      "batch_size": 1,
+      "candidate_seeds": [
+        71301
+      ],
+      "case_id": "challenger_short__beat_04b_mission_screen_smoke_echo",
+      "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_mission_screen_smoke_echo/minimal_surreal_editorial_v3/challenger_short__beat_04b_mission_screen_smoke_echo__minimal_surreal_editorial_v3",
+      "height": 1024,
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, graph dashboard, line chart, cracked screen, shattered glass, exterior shuttle view, launch pad exterior, fireball, disaster montage, hearing-room drama",
+      "positive_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, Mission command room with one large front screen showing a diffuse smoke-plume pattern echoing the Challenger failure, seated operator silhouettes below it, status consoles subdued and text-clean, the room remains calm and procedural, pale green monitor glow, smoke-gray bloom confined to the screen, no readable digits, no cracked-glass texture, no exterior launch view",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "prompt_body": "Mission command room with one large front screen showing a diffuse smoke-plume pattern echoing the Challenger failure, seated operator silhouettes below it, status consoles subdued and text-clean, the room remains calm and procedural, pale green monitor glow, smoke-gray bloom confined to the screen, no readable digits, no cracked-glass texture, no exterior launch view",
+      "queue": {
+        "attempted": true,
+        "queued": true,
+        "response": {
+          "node_errors": {},
+          "number": 3,
+          "prompt_id": "0f03dbd7-d95a-420a-a6d3-6a9ca5825aa4"
+        }
+      },
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "steps": 12,
+      "style_id": "minimal_surreal_editorial_v3",
+      "suite_id": "minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01",
+      "ui_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_mission_screen_smoke_echo/minimal_surreal_editorial_v3/challenger_short__beat_04b_mission_screen_smoke_echo__minimal_surreal_editorial_v3__proof.ui.json",
+      "width": 576
+    },
+    {
+      "api_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_control_room_plume_monitor/minimal_surreal_editorial_v3/challenger_short__beat_04b_control_room_plume_monitor__minimal_surreal_editorial_v3__proof.api.json",
+      "archetype": "room_or_interior",
+      "base_seed": 71321,
+      "batch_size": 1,
+      "candidate_seeds": [
+        71321
+      ],
+      "case_id": "challenger_short__beat_04b_control_room_plume_monitor",
+      "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_control_room_plume_monitor/minimal_surreal_editorial_v3/challenger_short__beat_04b_control_room_plume_monitor__minimal_surreal_editorial_v3",
+      "height": 1024,
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, graph dashboard, line chart, cracked screen, shattered glass, exterior shuttle view, launch pad exterior, fireball, disaster montage, hearing-room drama",
+      "positive_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, Three-quarter mission control interior, one overhead projection carries a soft smoke field shaped like the failure plume while the operators remain secondary, consoles and annunciators stay technical but unreadable, no graph lines, no text, no cracked display, procedural calm under tense room light",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "prompt_body": "Three-quarter mission control interior, one overhead projection carries a soft smoke field shaped like the failure plume while the operators remain secondary, consoles and annunciators stay technical but unreadable, no graph lines, no text, no cracked display, procedural calm under tense room light",
+      "queue": {
+        "attempted": true,
+        "queued": true,
+        "response": {
+          "node_errors": {},
+          "number": 5,
+          "prompt_id": "13c2e8ab-053d-4c88-abe5-329f484d7fd5"
+        }
+      },
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "steps": 12,
+      "style_id": "minimal_surreal_editorial_v3",
+      "suite_id": "minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01",
+      "ui_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_control_room_plume_monitor/minimal_surreal_editorial_v3/challenger_short__beat_04b_control_room_plume_monitor__minimal_surreal_editorial_v3__proof.ui.json",
+      "width": 576
+    },
+    {
+      "api_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_failure_channel_room/minimal_surreal_editorial_v3/challenger_short__beat_04b_failure_channel_room__minimal_surreal_editorial_v3__proof.api.json",
+      "archetype": "room_or_interior",
+      "base_seed": 71341,
+      "batch_size": 1,
+      "candidate_seeds": [
+        71341
+      ],
+      "case_id": "challenger_short__beat_04b_failure_channel_room",
+      "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_failure_channel_room/minimal_surreal_editorial_v3/challenger_short__beat_04b_failure_channel_room__minimal_surreal_editorial_v3",
+      "height": 1024,
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, graph dashboard, line chart, cracked screen, shattered glass, exterior shuttle view, launch pad exterior, fireball, disaster montage, hearing-room drama",
+      "positive_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, Institutional command room with a large mission screen dominating the frame, the screen holds a diffuse smoke-pattern event instead of a line graph, seated staff remain nearly still below it, technical room stays specific and text-clean, no exterior stack, no fireball, no broken-screen metaphor, restrained failure awareness",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "prompt_body": "Institutional command room with a large mission screen dominating the frame, the screen holds a diffuse smoke-pattern event instead of a line graph, seated staff remain nearly still below it, technical room stays specific and text-clean, no exterior stack, no fireball, no broken-screen metaphor, restrained failure awareness",
+      "queue": {
+        "attempted": true,
+        "queued": true,
+        "response": {
+          "node_errors": {},
+          "number": 7,
+          "prompt_id": "9c51f509-35f8-4f04-b4a9-a0f5f868bcd2"
+        }
+      },
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "steps": 12,
+      "style_id": "minimal_surreal_editorial_v3",
+      "suite_id": "minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01",
+      "ui_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z/challenger_short__beat_04b_failure_channel_room/minimal_surreal_editorial_v3/challenger_short__beat_04b_failure_channel_room__minimal_surreal_editorial_v3__proof.ui.json",
+      "width": 576
+    }
+  ],
+  "render_overrides": {
+    "batch_size": 1,
+    "height": 1024,
+    "steps": 12,
+    "width": 576
+  },
+  "run_id": "20260412T191453Z",
+  "run_manifest_path": "/Users/mike/FluxLab_CascadeEffects/runs/proofs/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01/20260412T191453Z.json",
+  "stage": "proof",
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, graph dashboard, line chart, cracked screen, shattered glass, exterior shuttle view, launch pad exterior, fireball, disaster montage, hearing-room drama",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt"
+    }
+  ],
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01",
+  "suite_manifest_path": "/Users/mike/FluxLab_CascadeEffects/proofs/suites/minimal_surreal_v3_challenger_short_beat_04b_mission_command_insert_pass_01.json"
+}

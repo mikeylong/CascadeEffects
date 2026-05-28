@@ -1,0 +1,206 @@
+{
+  "packet_id": "hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z",
+  "episode_id": "hyatt-regency",
+  "phase_gate": "source_art_gate",
+  "status": "reference_only_tightened_by_uniform_large_bouquets",
+  "human_disposition": "tighten",
+  "selected_direction_id": "variant_n_north_wall_rail_safe_stacked_walkways",
+  "selected_variant_id": null,
+  "may_advance_to_motion_readiness": false,
+  "may_advance_to_visual_system": false,
+  "created_utc": "2026-05-17T02:27:30Z",
+  "profile_id": "cascade-ink-lit-photoreal-v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "carrier_type": "generated_raster_source_art_edit_candidate",
+  "package_root": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z",
+  "human_tighten_instruction": "The balloon bouquets are too small and should be modeled after the tables with the tall bouquets.",
+  "successor_source_art_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_uniform_large_table_bouquets_20260517T025815Z/source_art_manifest.json",
+  "prior_source_art_candidates": [
+    {
+      "status": "reference_only_tightened_by_tall_table_bouquets",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_table_balloons_20260517T012235Z/source_art_manifest.json",
+      "note_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_table_balloons_20260517T012235Z/REFERENCE_ONLY_TIGHTENED_BY_TALL_TABLE_BOUQUETS.md",
+      "selected_direction_id": "variant_n_north_wall_rail_safe_stacked_walkways",
+      "variant_id": "variant_n2_table_balloon_bouquets"
+    },
+    {
+      "status": "reference_only_tightened_by_variant_n_table_balloons",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_architecture_tight_tea_dance_candidates_20260516T231232Z/source_art_manifest.json",
+      "note_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_architecture_tight_tea_dance_candidates_20260516T231232Z/REFERENCE_ONLY_TIGHTENED_BY_VARIANT_N_TABLE_BALLOONS.md",
+      "selected_direction_id": "variant_n_north_wall_rail_safe_stacked_walkways"
+    }
+  ],
+  "imagegen_policy": {
+    "imagegen_skill_path": "/Users/mike/.codex/skills/.system/imagegen/SKILL.md",
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen_edit_mode",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "allowed_local_operations_read": "pass_copy_resize_preview_contact_sheet_manifest_only",
+    "anonymous_human_presence_policy_read": "pass"
+  },
+  "base_source_art": {
+    "id": "variant_n2_table_balloon_bouquets",
+    "role": "immediate_tighten_reference",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/assets/reference_source_art/variant_n2_base_reference_1920x1080.png",
+    "sha256": "1e29dea0fc25a873cf09c9272077656f53beec228f006a38e28e05ffb9e53041",
+    "source_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_table_balloons_20260517T012235Z/source_art_manifest.json"
+  },
+  "historical_accuracy_context": {
+    "measurement_target": "Variant N/N2 architecture-preserving edit with taller table balloon bouquet centerpieces",
+    "canonical_visual_facts": [
+      "preserve directly stacked second/fourth floor suspended walkways",
+      "preserve offset third-floor suspended walkway",
+      "preserve visible hanger rods and roof framing",
+      "preserve right-side dark rail-safe glass area",
+      "model balloons after tall table bouquet centerpieces, not small table dots",
+      "keep every visible table with a comparable tall bouquet read where table geometry is visible",
+      "keep balloons subordinate to architecture, load path, and crowd",
+      "keep anonymous people and pre-collapse condition only"
+    ],
+    "required_reads": [
+      "historical_accuracy_read",
+      "source_reference_alignment_read",
+      "public_anchor_geometry_read",
+      "hyatt_atrium_architecture_read",
+      "stacked_second_fourth_walkway_read",
+      "offset_third_walkway_read",
+      "hanger_rod_attachment_read",
+      "tall_table_bouquet_reference_read",
+      "table_balloon_bouquet_read",
+      "balloons_not_focus_read",
+      "tea_dance_event_specificity_read",
+      "human_presence_read",
+      "no_recognizable_faces_read"
+    ]
+  },
+  "variants": [
+    {
+      "id": "variant_n3_tall_table_balloon_bouquets",
+      "label": "N3",
+      "status": "reference_only_tightened_by_uniform_large_bouquets",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e31a9-462c-7b02-b5ac-72a70c18b20f/ig_0040792a60751c3a016a0927180bdc81958d503fa9c09d9d43.png",
+      "source_generation_sha256": "075ef3da9e54c17c953dbf6a3b6b2b7ca20ebc97513c7f8975cbc309dbc54267",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/assets/source_generations/variant_n3_tall_table_balloon_bouquets_builtin_imagegen_original.png",
+      "copied_source_generation_sha256": "075ef3da9e54c17c953dbf6a3b6b2b7ca20ebc97513c7f8975cbc309dbc54267",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/assets/source_art/variant_n3_tall_table_balloon_bouquets_1920x1080.png",
+      "final_asset_sha256": "d5a7341b7f8e6835ee6ae3a3e0f13c881ef263203700266ad4011705d50fde41",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/assets/previews/variant_n3_tall_table_balloon_bouquets_640x360.png",
+      "preview_sha256": "1f49c8cab1778be28128df859b3c5877cce720cb6bed707815aa89f54479930e",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/assets/prompts/variant_n3_tall_table_balloon_bouquets_prompt.txt",
+      "prompt_sha256": "e13b2e3a37f1abc7666b6f94c7f00795d3e9642e0f4059bac6e42ad22f7dedbe",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_tool",
+        "mode": "image_edit_over_visible_variant_n2_source_context",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "reference_images": [
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/assets/reference_source_art/variant_n2_base_reference_1920x1080.png",
+          "visible_context:variant_n2_table_balloon_bouquets"
+        ],
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only",
+          "contact_sheet_compare_to_n2"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "hyatt_precheck": {
+        "historical_accuracy_read": "pass_preserves_variant_n_architecture",
+        "source_reference_alignment_read": "pass_successor_to_variant_n2",
+        "public_anchor_geometry_read": "pass",
+        "hyatt_atrium_architecture_read": "pass_preserved",
+        "stacked_second_fourth_walkway_read": "pass_preserved",
+        "offset_third_walkway_read": "pass_preserved",
+        "hanger_rod_attachment_read": "pass_preserved",
+        "tall_table_bouquet_reference_read": "pass_scaled_like_tall_table_centerpieces",
+        "table_balloon_bouquet_read": "pass_tall_table_bouquets_visible_across_tables",
+        "balloons_not_focus_read": "pass_balloons_secondary_to_architecture_and_crowd",
+        "tea_dance_event_specificity_read": "pass",
+        "balloons_read": "pass",
+        "dancing_read": "pass",
+        "walkway_occupancy_read": "pass",
+        "human_presence_read": "pass",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass_preserved",
+        "collapse_recreation_read": "pass",
+        "bodies_gore_read": "pass",
+        "fake_readable_text_read": "pass",
+        "procedural_signal_overlay_read": "pass",
+        "texture_noise_read": "pass"
+      },
+      "review_notes": "Reference-only after user tighten: N3 still mixed small and large table bouquets; successor N4 uses one uniform large-bouquet rule."
+    }
+  ],
+  "source_art_reads": {
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen_edit_mode",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "short_reference_import_read": "pass_not_active_source_truth; prior short material informs tea_dance_texture_only",
+    "historical_accuracy_read": "pass_preserves_variant_n_architecture",
+    "source_reference_alignment_read": "pass_successor_to_variant_n2",
+    "public_anchor_geometry_read": "pass",
+    "hyatt_atrium_architecture_read": "pass",
+    "stacked_second_fourth_walkway_read": "pass",
+    "offset_third_walkway_read": "pass",
+    "hanger_rod_attachment_read": "pass",
+    "tall_table_bouquet_reference_read": "pass",
+    "table_balloon_bouquet_read": "pass",
+    "balloons_not_focus_read": "pass",
+    "tea_dance_event_specificity_read": "pass",
+    "balloons_read": "pass",
+    "dancing_read": "pass",
+    "walkway_occupancy_read": "pass",
+    "human_presence_read": "pass",
+    "no_recognizable_faces_read": "pass",
+    "right_rail_safe_space_read": "pass_preserved",
+    "collapse_recreation_read": "pass",
+    "bodies_gore_read": "pass",
+    "fake_readable_text_read": "pass",
+    "generic_paper_architecture_hero_read": "pass",
+    "full_frame_dark_overlay_read": "pass",
+    "procedural_signal_overlay_read": "pass",
+    "ambient_line_artifact_read": "pass",
+    "texture_noise_read": "pass"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "mp4_render_created": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "artifacts": {
+    "candidate_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/review/hyatt_variant_n_tall_table_bouquet_tighten_contact_sheet.jpg",
+      "sha256": "41683373f87136392e583d8e2d9592452b936651ee3705c8f7b013ce2511b1b4"
+    },
+    "review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/review/source_art_candidate_review_packet.md",
+      "sha256": "276d08ae881ddb6e0303af0032cd5aa8dc56abf3d201b3de7a34695a8a957045"
+    },
+    "historical_accuracy_review": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/review/historical_accuracy_review.md",
+      "sha256": "598669d1e5d56134fc1e9dc63fe3a82ba8131fff01715adcff5b3b141861be3a"
+    },
+    "source_reference_notes": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_tall_table_bouquets_20260517T022730Z/references/source_reference_notes.md",
+      "sha256": "e193e77482ed3ea9b81a7e6b9e41f39908e43cdca35f340e432261eb731f8653"
+    }
+  },
+  "review_question": "This N3 packet is reference-only. Review the successor N4 uniform-large-table-bouquet packet instead."
+}

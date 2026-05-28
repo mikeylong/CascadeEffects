@@ -1,0 +1,117 @@
+{
+  "alignment": {
+    "alignment_coverage": 0.9823008849557522,
+    "interpolated_script_token_count": 2,
+    "matched_script_token_count": 111,
+    "max_unmatched_script_span": 1,
+    "max_unmatched_script_span_allowed": 8,
+    "min_alignment_coverage": 0.98,
+    "script_token_count": 113,
+    "status": "pass",
+    "timing_token_count": 115,
+    "unmatched_script_span_count": 2,
+    "unmatched_script_spans": [
+      {
+        "end_index_exclusive": 45,
+        "start_index": 44,
+        "text": "fourth-floor",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 72,
+        "start_index": 71,
+        "text": "code-expected",
+        "token_count": 1
+      }
+    ]
+  },
+  "caption_alignment_coverage_read": "pass",
+  "caption_asr_text_not_used_read": "pass",
+  "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+  "caption_text_matches_script_read": "pass",
+  "caption_text_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/hyatt_locked_caption_text_from_tts_manifest.txt",
+    "sha256": "ce3d8ba7077e219cc146dea35df2f72fb4f4ad0b0f410db7054d155643bf3f4d"
+  },
+  "caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/hyatt_locked_caption_text_from_tts_manifest.txt",
+  "caption_text_source_policy": "script_locked_canonical_text_only",
+  "caption_text_source_sha256": "ce3d8ba7077e219cc146dea35df2f72fb4f4ad0b0f410db7054d155643bf3f4d",
+  "caption_timing_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/hyatt_short_scoped_v1.diarized.srt",
+    "sha256": "2d69b38ed37f9044d90661e8ae9b18e09eaf1abca29b5449911b2a9d4145e2b4"
+  },
+  "caption_timing_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/hyatt_short_scoped_v1.diarized.srt",
+  "caption_timing_source_policy": "asr_whisperx_timing_only",
+  "caption_timing_source_sha256": "2d69b38ed37f9044d90661e8ae9b18e09eaf1abca29b5449911b2a9d4145e2b4",
+  "cue_count": {
+    "offset": 20,
+    "story": 20
+  },
+  "outputs": {
+    "offset_srt": {
+      "bytes": 1377,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/hyatt_publish_ready_20260521T084500Z/script_locked_captions/hyatt_shorts.script_locked_rail_safe.offset_intro_3s000.srt",
+      "sha256": "a9d42c43acde2797b46f092b0c8c6928cc5e90a825bc11eda061a236dc3fa89d"
+    },
+    "offset_vtt": {
+      "bytes": 1334,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/hyatt_publish_ready_20260521T084500Z/script_locked_captions/hyatt_shorts.script_locked_rail_safe.offset_intro_3s000.vtt",
+      "sha256": "66402eec72bc6ccffaf92d7cf618e6631ce64d2afc91894731f2e5a094a4faf1"
+    },
+    "qa_json": {
+      "bytes": 3616,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/hyatt_publish_ready_20260521T084500Z/script_locked_captions/hyatt_shorts.script_locked_caption_qa.json",
+      "sha256": "1291d6e617b6968e1b504bfefcab9f3e6c7a6a37f91512d6388f9d070b661c71"
+    },
+    "story_srt": {
+      "bytes": 1377,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/hyatt_publish_ready_20260521T084500Z/script_locked_captions/hyatt_shorts.script_locked_rail_safe.srt",
+      "sha256": "692afd2d1b49e6e523021ffe8a5d6e15ea4b41a0feb7a46570aa588996e19c7b"
+    },
+    "story_vtt": {
+      "bytes": 1334,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/hyatt_publish_ready_20260521T084500Z/script_locked_captions/hyatt_shorts.script_locked_rail_safe.vtt",
+      "sha256": "e2dd0ffd448e8c62832d6bec5bd1e978220b6d7aa945b389ae717a1e2a1cd8a5"
+    }
+  },
+  "outro_cutoff_seconds": null,
+  "publish_ready_blocked_if_caption_text_not_script_locked": true,
+  "rail_safe_chunking": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7
+  },
+  "rail_validation": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "reads": {
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_no_caption_after_outro_start_read": "pass",
+    "caption_no_speaker_labels_read": "pass",
+    "caption_rail_safe_chunk_read": "pass",
+    "caption_text_matches_script_read": "pass"
+  },
+  "script_text_source": {
+    "bytes": 714,
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/hyatt_locked_caption_text_from_tts_manifest.txt",
+    "sha256": "ce3d8ba7077e219cc146dea35df2f72fb4f4ad0b0f410db7054d155643bf3f4d"
+  },
+  "status": "pass",
+  "story_cutoff_seconds": null,
+  "text_validation": {
+    "normalized_caption_token_count": 113,
+    "normalized_script_token_count": 113,
+    "status": "pass"
+  },
+  "timing_validation": {
+    "outro_cutoff_seconds": null,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "voice_offset_seconds": 3.0
+}

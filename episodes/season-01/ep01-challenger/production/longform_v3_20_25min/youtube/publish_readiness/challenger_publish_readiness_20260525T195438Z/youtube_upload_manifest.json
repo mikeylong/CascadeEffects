@@ -1,0 +1,116 @@
+{
+  "episode_id": "challenger",
+  "status": "blocked_pending_publish_readiness_keep_and_explicit_upload_authorization",
+  "privacy_after_explicit_approval": "unlisted",
+  "video": {
+    "path": "media/challenger_living_cover_final_review_1080p24.mp4",
+    "sha256": "b93375802c3d2c920ef39ca136290e7ac096fdc74d32ac9f61136288fa024a0e",
+    "bytes": 211399102
+  },
+  "captions": {
+    "vtt": {
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "48733ec1b48ac86b4040dccccdaee76ad21e76093230d737f3f2ac0a3a181ddd",
+      "bytes": 28319
+    },
+    "srt": {
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "5224e6e43dab6e96f69fda20ad7b3d787abc57698eecc1103d3cfd96c707ee50",
+      "bytes": 29663
+    }
+  },
+  "thumbnail": {
+    "path": "thumbnail/challenger_thumbnail_candidate.jpg",
+    "sha256": "4c0c99c42e8995e1ce0fb4df6d8bdcecbe077d70ff09c9c369b1bb1f54ad9947",
+    "bytes": 271980
+  },
+  "metadata": {
+    "title": "The Challenger Warning That Stopped Working",
+    "description": "The Challenger Warning That Stopped Working is a Cascade Effects episode about how small signals become system consequences.\n\nA chain of engineering warnings, schedule pressure, and normalized cold-weather risk turned one launch decision into catastrophe.\n\nRuntime: about 20 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.",
+    "chapters": [
+      {
+        "time": "0:00",
+        "seconds": 0,
+        "label": "Opening"
+      },
+      {
+        "time": "0:04",
+        "seconds": 4.0,
+        "label": "Promise of routine"
+      },
+      {
+        "time": "4:02",
+        "seconds": 242.335,
+        "label": "Pressure and normalization"
+      },
+      {
+        "time": "8:05",
+        "seconds": 484.67,
+        "label": "The Jan. 27 reversal"
+      },
+      {
+        "time": "12:07",
+        "seconds": 727.005,
+        "label": "Launch and visible failure"
+      },
+      {
+        "time": "16:09",
+        "seconds": 969.34,
+        "label": "Commission and pattern"
+      },
+      {
+        "time": "19:12",
+        "seconds": 1151.675,
+        "label": "Closing"
+      }
+    ],
+    "tags": [
+      "Cascade Effects",
+      "Challenger",
+      "NASA",
+      "documentary",
+      "engineering failure",
+      "space shuttle",
+      "systems failure"
+    ],
+    "hashtags": [
+      "#CascadeEffects"
+    ],
+    "category": "Education",
+    "language": "en",
+    "made_for_kids": false,
+    "paid_promotion": false,
+    "privacy_after_explicit_approval": "unlisted",
+    "public_release_policy": "manual_youtube_studio_only",
+    "metadata_path": "metadata/youtube_metadata.json",
+    "metadata_sha256": "d2280a3a46696c86cfbb2263c8005b711e66ad8d7f042274a42d1a399be696d4"
+  },
+  "locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "may_youtube_action": false,
+  "upload_allowed": false,
+  "upload_performed": false,
+  "production_contract_receipt": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T195438Z/production_contract_receipts/contract_receipt_20260525T195438Z.json",
+    "ok": true,
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "youtube_action_allowed": false,
+    "reads": {
+      "contract_read": "pass_contract_loaded_and_required_reads_passed",
+      "delta_read": "pass_no_repair_delta_required_for_intent",
+      "style_read": "pass_style_contract_reads_passed",
+      "media_read": "pass_source_hashes_and_media_reads_valid",
+      "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+    }
+  }
+}

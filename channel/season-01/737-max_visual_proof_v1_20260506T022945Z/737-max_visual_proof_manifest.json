@@ -1,0 +1,326 @@
+{
+  "artifact_id": "737-max_visual_proof_v1",
+  "episode_slug": "737-max",
+  "episode_display_name": "737 MAX",
+  "created_at": "20260506T022945Z",
+  "status": "tighten",
+  "supersedes": "multi_episode_intro_visual_proofs_initial_batch",
+  "revision_reason": "web_thumbnail_based_keeper_episode_visual_proof_build",
+  "scope": "multi_episode_intro_visual_alignment_proof",
+  "not_publishable_reason": "Alignment proof using thumbnail-based source plate and deterministic media compositing.",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration_seconds": 10.0
+  },
+  "inputs": {
+    "cascade_effects_web_thumbnail_source_render": {
+      "path": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/737-max-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "sha256": "88a1dd2e550e8ff15d272a7dceee347ac3eeabc5b923cbf9e67977b544e4c70f",
+      "role": "composition_and_style_basis_matching_challenger_workflow",
+      "used_as_composited_background": false
+    },
+    "thumbnail_based_generated_source_plate": {
+      "original_generated_path": "/Users/mike/.codex/generated_images/019df66b-733b-7ee2-8c7d-23922f4a11f4/ig_05978a768e2f45e20169faa381bd508193bd8ba261efc39356.png",
+      "original_generated_sha256": "be08bc7e68fae6af45515d4bda0d47338d036cb4ca6cdcbe972cc91397b5665e",
+      "package_raw_copy": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_thumbnail_based_source_plate_raw.png",
+      "package_raw_copy_sha256": "be08bc7e68fae6af45515d4bda0d47338d036cb4ca6cdcbe972cc91397b5665e",
+      "selected_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_thumbnail_based_source_plate.png",
+      "selected_source_sha256": "81aa14c336544a97890b6ea1029b1a0b29d6444fdbf2203c205897ca4e8e9e13",
+      "source_generation_method": "fresh_imagegen_plate_based_on_proof_v6_web_thumbnail_direction_not_thumbnail_background",
+      "source_variant": "proof_v6_web_thumbnail_based_left_anchor_right_negative_space_regen",
+      "prompt_basis": "Regenerate a clean ink-lit Paper Architecture trailer plate from the proof-v6 737 MAX web thumbnail composition and subject language; keep the aircraft anchor left with right negative space."
+    },
+    "short_video_pre_caption": {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+      "sha256": "721620ec94c2200e66b84aa14bba7a1960a006d2f91bf3b6a608ad4a00929db0",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "4495360/149837"
+          }
+        ],
+        "format": {
+          "duration": "58.530013",
+          "size": "36936256"
+        }
+      }
+    },
+    "v1_audio_mix": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v1_20260505T044755Z/audio/channel_trailer_final_mix.wav",
+      "sha256": "0354af1bf0e41d903db1c8040bbd03d1403170fe225f841b1fd3e4b80b7f9b96",
+      "referenced_only": true,
+      "rendered_or_remixed": false
+    }
+  },
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_thumbnail_based_source_plate.png",
+    "sha256": "81aa14c336544a97890b6ea1029b1a0b29d6444fdbf2203c205897ca4e8e9e13",
+    "base_plate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_visual_proof_base_plate.png",
+      "sha256": "f9b96dd5e76dff15af5aa5204e6dfcfb3e442b50a08c5037c667224153c5cc19"
+    },
+    "base_plate_source": "proof_v6_web_thumbnail_based_left_anchor_right_negative_space",
+    "public_anchor": "Boeing 737 MAX aircraft paper architecture",
+    "evidence_role": "right media plate carries Short evidence footage",
+    "visual_direction": "cascade-paper-architectures-ink-lit-v1",
+    "carrier": "fresh_thumbnail_based_paper_architecture_source_plate_with_clean_right_negative_space",
+    "web_thumbnail_reference_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_proof_v6_web_thumbnail_reference.png",
+    "web_thumbnail_reference_sha256": "88a1dd2e550e8ff15d272a7dceee347ac3eeabc5b923cbf9e67977b544e4c70f",
+    "selected_source_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_thumbnail_based_source_plate.png",
+    "selected_source_plate_sha256": "81aa14c336544a97890b6ea1029b1a0b29d6444fdbf2203c205897ca4e8e9e13",
+    "source_right_negative_space_crop_xy": [
+      1120,
+      70,
+      1760,
+      990
+    ],
+    "source_right_negative_space_luma_variance": 24.576,
+    "base_right_negative_space_luma_variance": 3.079,
+    "right_negative_space_read": "pass",
+    "source_plate_reference_alignment_read": "pass_thumbnail_based",
+    "texture_noise_read": "pass_candidate_subtle_paper_fiber_only",
+    "texture_detail_creep_read": "pass",
+    "waterfall_read": "pass_no_water_added",
+    "generated_text_logo_label_read": "pass_none_observed",
+    "smoke_water_explosion_read": "pass_none_observed",
+    "brand_signal_artifact_read": "pass_no_cyan_or_coral_hardware_artifacts_observed",
+    "full_size_read": "pass_candidate",
+    "preview_320x180_read": "pass_candidate",
+    "source_preview_320x180": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/qa/737-max_source_preview_320x180.png",
+      "sha256": "e3a07680288d5cfd97b81e91f274434a0a307fdce729f9912a03d2c1edaa2996"
+    }
+  },
+  "composition": {
+    "left_anchor_transform": "thumbnail_based_source_plate_scaled_0_88_offset_minus20_55",
+    "right_plate_transform": "center_origin_push_in_title_safe_right_media_plate_shallow_perspective_brighter_evidence_treatment",
+    "left_anchor_scale": 0.88,
+    "left_anchor_offset_xy": [
+      -20,
+      55
+    ],
+    "title_safe_margin_xy": [
+      96,
+      54
+    ],
+    "title_safe_bounds_xy": [
+      96,
+      54,
+      1824,
+      1026
+    ],
+    "video_plate_animation": "center_origin_push_in_from_right_rail",
+    "animation_origin_xy": [
+      1484.0,
+      539.0
+    ],
+    "animation_duration_seconds": 8.0,
+    "hold_duration_seconds": 2.0,
+    "start_short_plate_quad_xy": [
+      [
+        1292.2,
+        243.2
+      ],
+      [
+        1671.7,
+        216.0
+      ],
+      [
+        1671.7,
+        864.7
+      ],
+      [
+        1300.4,
+        832.1
+      ]
+    ],
+    "end_short_plate_quad_xy": [
+      [
+        1202.0,
+        104.0
+      ],
+      [
+        1760.0,
+        64.0
+      ],
+      [
+        1760.0,
+        1018.0
+      ],
+      [
+        1214.0,
+        970.0
+      ]
+    ],
+    "start_short_plate_center_xy": [
+      1484.0,
+      539.0
+    ],
+    "end_short_plate_center_xy": [
+      1484.0,
+      539.0
+    ],
+    "start_short_plate_bbox_wh": [
+      379.5,
+      648.7
+    ],
+    "end_short_plate_bbox_wh": [
+      558.0,
+      954.0
+    ],
+    "start_short_plate_area_px": 232286,
+    "end_short_plate_area_px": 502296,
+    "title_safe_read": "pass",
+    "center_origin_read": "pass",
+    "no_lateral_slide_read": "pass",
+    "short_video_color_factor": 0.62,
+    "short_video_contrast_factor": 0.98,
+    "short_video_brightness_factor": 1.08,
+    "short_video_ink_blend": 0.12,
+    "right_media_brightness_read": "pass_candidate_brightness_1_08_matches_latest_challenger",
+    "right_media_brightness_note": "Matches the latest brighter Challenger evidence-card treatment.",
+    "short_plate_quad_xy": [
+      [
+        1202.0,
+        104.0
+      ],
+      [
+        1760.0,
+        64.0
+      ],
+      [
+        1760.0,
+        1018.0
+      ],
+      [
+        1214.0,
+        970.0
+      ]
+    ],
+    "left_anchor_region_xy": [
+      0,
+      40,
+      1080,
+      1040
+    ],
+    "edge_alias_read": "pass",
+    "edge_alias_method": "4x supersampled rounded media card, projective warp, soft alpha, LANCZOS downsample",
+    "short_card_audio_used": false,
+    "short_frames_extracted": 240,
+    "visual_motion_report": {
+      "card_crop_xy": [
+        1160,
+        40,
+        1840,
+        1040
+      ],
+      "card_sample_indices": [
+        12,
+        48,
+        96,
+        144,
+        192,
+        228
+      ],
+      "card_luma_values": [
+        44.73,
+        56.74,
+        68.588,
+        73.743,
+        33.772,
+        33.587
+      ],
+      "card_luma_deltas": [
+        26.588,
+        27.447,
+        13.161,
+        53.635,
+        7.695
+      ],
+      "card_luma_variance": [
+        50.852,
+        57.373,
+        61.951,
+        65.109,
+        24.724,
+        24.482
+      ],
+      "card_nonblank_read": "pass",
+      "card_motion_read": "pass",
+      "push_in_motion_read": "pass",
+      "right_media_brightness_read": "pass_candidate_brightness_1_08_matches_latest_challenger"
+    },
+    "still_frame_index": 192,
+    "still_sample_seconds": 8.0
+  },
+  "artifacts": {
+    "output_root": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z",
+    "web_reference_copy": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_proof_v6_web_thumbnail_reference.png",
+    "source_raw_copy": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_thumbnail_based_source_plate_raw.png",
+    "selected_source_plate": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_thumbnail_based_source_plate.png",
+    "source_background": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/source_art/737-max_visual_proof_base_plate.png",
+    "still_proof": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/still/737-max_visual_proof_v1_still.png",
+    "motion_proof_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/video/737-max_visual_proof_v1_motion.mp4",
+    "motion_proof_sha256": "d92eec32b57c5b002d4bb63a73100d148518c21c940ed9a5036d619772b54b82",
+    "contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/qa/737-max_visual_proof_v1_contact_sheet.jpg",
+    "source_reference_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/qa/737-max_source_reference_contact_sheet.jpg",
+    "geometry_overlay": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/qa/sketch_geometry_overlay.png",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/737-max_visual_proof_manifest.json",
+    "source_preview_320x180": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/qa/737-max_source_preview_320x180.png",
+    "still_preview_320x180": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T022945Z/qa/737-max_still_preview_320x180.png",
+    "source_preview_320x180_sha256": "e3a07680288d5cfd97b81e91f274434a0a307fdce729f9912a03d2c1edaa2996",
+    "still_preview_320x180_sha256": "16cdf45adef906b0602d8f5160ae6f17259daae20169764a9cca1c7130941b7b"
+  },
+  "qa": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "10.000000",
+        "size": "2536629"
+      }
+    },
+    "decode_read": "pass",
+    "center_origin_read": "pass",
+    "no_lateral_slide_read": "pass",
+    "title_safe_read": "pass",
+    "card_nonblank_read": "pass",
+    "card_motion_read": "pass",
+    "push_in_motion_read": "pass",
+    "right_media_brightness_read": "pass_candidate_brightness_1_08_matches_latest_challenger",
+    "edge_alias_read": "pass",
+    "right_negative_space_read": "pass",
+    "source_plate_reference_alignment_read": "pass_thumbnail_based",
+    "texture_noise_read": "pass_candidate_subtle_paper_fiber_only",
+    "texture_detail_creep_read": "pass",
+    "waterfall_read": "pass_no_water_added",
+    "generated_text_logo_label_read": "pass_none_observed",
+    "smoke_water_explosion_read": "pass_none_observed",
+    "brand_signal_artifact_read": "pass_no_cyan_or_coral_hardware_artifacts_observed",
+    "preview_320x180_read": "pass_candidate",
+    "top_sheen_artifact_read": "tighten"
+  },
+  "tighten_reason": "unmasked_video_plate_top_sheen_artifact",
+  "superseded_by_pending_revision_reason": "remove_unmasked_video_plate_top_sheen_artifact"
+}

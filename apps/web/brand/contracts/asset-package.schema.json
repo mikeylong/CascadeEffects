@@ -1,0 +1,718 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cascadeeffects.tv/schemas/asset-package.schema.json",
+  "title": "Cascade Effects Asset Rule Documents",
+  "description": "Validates active illustration contracts, design-system contracts, and platform package manifests for Cascade Effects asset production.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/illustrationContract"
+    },
+    {
+      "$ref": "#/$defs/designSystemContract"
+    },
+    {
+      "$ref": "#/$defs/assetPackage"
+    }
+  ],
+  "$defs": {
+    "profileId": {
+      "const": "cascade-paper-architectures-ink-lit-v1"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "active",
+        "draft",
+        "legacy-reference"
+      ]
+    },
+    "ruleList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      }
+    },
+    "referenceRender": {
+      "type": "object",
+      "required": [
+        "evidenceSetId",
+        "evidenceItemId",
+        "path"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "evidenceSetId": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "evidenceItemId": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "path": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      }
+    },
+    "sourceEvidence": {
+      "type": "object",
+      "required": [
+        "sets",
+        "policy"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "sets": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "description",
+              "storage",
+              "items"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/nonEmptyString"
+              },
+              "description": {
+                "$ref": "#/$defs/nonEmptyString"
+              },
+              "storage": {
+                "type": "object",
+                "required": [
+                  "mode",
+                  "root",
+                  "trackedInGit",
+                  "lfsRequired"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "mode": {
+                    "const": "git-lfs"
+                  },
+                  "root": {
+                    "$ref": "#/$defs/nonEmptyString"
+                  },
+                  "trackedInGit": {
+                    "const": true
+                  },
+                  "lfsRequired": {
+                    "const": true
+                  }
+                }
+              },
+              "items": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "path",
+                    "dimensions",
+                    "roleHints",
+                    "notes"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "$ref": "#/$defs/nonEmptyString"
+                    },
+                    "path": {
+                      "$ref": "#/$defs/nonEmptyString"
+                    },
+                    "dimensions": {
+                      "$ref": "#/$defs/dimension"
+                    },
+                    "roleHints": {
+                      "$ref": "#/$defs/ruleList"
+                    },
+                    "notes": {
+                      "$ref": "#/$defs/ruleList"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "policy": {
+          "$ref": "#/$defs/ruleList"
+        }
+      }
+    },
+    "sourceAuthority": {
+      "type": "object",
+      "required": [
+        "canonicalProfile",
+        "styleSystem",
+        "notes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "canonicalProfile": {
+          "$ref": "#/$defs/profileId"
+        },
+        "styleSystem": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "notes": {
+          "$ref": "#/$defs/ruleList"
+        }
+      }
+    },
+    "legacyPolicy": {
+      "type": "object",
+      "required": [
+        "priorProfile",
+        "status",
+        "rules"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "priorProfile": {
+          "enum": [
+            "cascade-paper-architectures-v1",
+            "cascade-lowpoly-pastel-v1",
+            "legacy-dark-evidence-v1"
+          ]
+        },
+        "status": {
+          "const": "inactive-reference-only"
+        },
+        "rules": {
+          "$ref": "#/$defs/ruleList"
+        }
+      }
+    },
+    "qaCheck": {
+      "type": "object",
+      "required": [
+        "id",
+        "method",
+        "description",
+        "required"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "method": {
+          "enum": [
+            "script",
+            "visual",
+            "manual",
+            "dimension",
+            "crop",
+            "legibility",
+            "alpha"
+          ]
+        },
+        "description": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "required": {
+          "type": "boolean"
+        }
+      }
+    },
+    "qaList": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/qaCheck"
+      }
+    },
+    "dimension": {
+      "type": "object",
+      "required": [
+        "width",
+        "height",
+        "unit"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "unit": {
+          "const": "px"
+        }
+      }
+    },
+    "safeZone": {
+      "type": "object",
+      "required": [
+        "name",
+        "x",
+        "y",
+        "width",
+        "height",
+        "unit",
+        "purpose"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "x": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "y": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "unit": {
+          "const": "px"
+        },
+        "purpose": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      }
+    },
+    "copyPolicy": {
+      "type": "object",
+      "required": [
+        "mode",
+        "allowGeneratedTextInSourceArtwork",
+        "allowExtraCopy"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "mode": {
+          "enum": [
+            "title-only",
+            "mark-only",
+            "none",
+            "web-metadata",
+            "episode-template"
+          ]
+        },
+        "exactTitle": {
+          "const": "Cascade of Effects"
+        },
+        "allowGeneratedTextInSourceArtwork": {
+          "type": "boolean"
+        },
+        "allowExtraCopy": {
+          "type": "boolean"
+        },
+        "allowChannelTitle": {
+          "type": "boolean"
+        },
+        "allowChannelLogo": {
+          "type": "boolean"
+        },
+        "allowEpisodeSpecificTitleOrHook": {
+          "type": "boolean"
+        },
+        "notes": {
+          "$ref": "#/$defs/ruleList"
+        }
+      }
+    },
+    "assetSource": {
+      "type": "object",
+      "required": [
+        "assetRootEnv",
+        "sourceRender",
+        "composedAsset",
+        "trackedInGit",
+        "compositionMethod"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "assetRootEnv": {
+          "const": "CASCADE_ASSET_ROOT"
+        },
+        "sourceRender": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "composedAsset": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "trackedInGit": {
+          "const": false
+        },
+        "compositionMethod": {
+          "enum": [
+            "generated-source-plus-local-title",
+            "generated-source-no-title",
+            "deterministic-code-render",
+            "web-runtime-generated",
+            "approved-title-bearing-source",
+            "episode-specific-source-art-plus-template-guides"
+          ]
+        },
+        "referenceRenders": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/referenceRender"
+          }
+        }
+      }
+    },
+    "deliverable": {
+      "type": "object",
+      "required": [
+        "role",
+        "name",
+        "dimensions",
+        "format",
+        "safeZones",
+        "copyPolicy",
+        "source",
+        "texture_noise_read",
+        "qa",
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "dimensions": {
+          "$ref": "#/$defs/dimension"
+        },
+        "format": {
+          "enum": [
+            "png",
+            "jpg",
+            "jpeg",
+            "webp",
+            "svg",
+            "ico",
+            "next-image-route"
+          ]
+        },
+        "safeZones": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/safeZone"
+          }
+        },
+        "copyPolicy": {
+          "$ref": "#/$defs/copyPolicy"
+        },
+        "source": {
+          "$ref": "#/$defs/assetSource"
+        },
+        "texture_noise_read": {
+          "enum": [
+            "pass",
+            "tighten",
+            "reject"
+          ]
+        },
+        "qa": {
+          "$ref": "#/$defs/qaList"
+        },
+        "status": {
+          "$ref": "#/$defs/status"
+        }
+      }
+    },
+    "largeAssetPolicy": {
+      "type": "object",
+      "required": [
+        "sourceControl",
+        "forbiddenTrackedExtensions",
+        "assetRootEnv"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "sourceControl": {
+          "const": "contracts-manifests-provenance-only"
+        },
+        "forbiddenTrackedExtensions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              ".png",
+              ".jpg",
+              ".jpeg",
+              ".webp",
+              ".mov",
+              ".mp4",
+              ".wav",
+              ".mp3",
+              ".m4a",
+              ".aiff",
+              ".flac",
+              ".safetensors",
+              ".ckpt",
+              ".pt",
+              ".pth",
+              ".onnx"
+            ]
+          }
+        },
+        "assetRootEnv": {
+          "const": "CASCADE_ASSET_ROOT"
+        }
+      }
+    },
+    "sourceContracts": {
+      "type": "object",
+      "required": [
+        "illustration",
+        "designSystem"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "illustration": {
+          "const": "brand/contracts/illustration.contract.json"
+        },
+        "designSystem": {
+          "const": "brand/contracts/design-system.contract.json"
+        }
+      }
+    },
+    "illustrationContract": {
+      "type": "object",
+      "required": [
+        "kind",
+        "id",
+        "version",
+        "profileId",
+        "status",
+        "summary",
+        "sourceAuthority",
+        "sourceEvidence",
+        "style",
+        "composition",
+        "subjects",
+        "generationRules",
+        "prohibitions",
+        "textPolicy",
+        "legacyPolicy",
+        "qa"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "illustration-contract"
+        },
+        "id": {
+          "const": "cascade-effects-illustration-contract"
+        },
+        "version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "profileId": {
+          "$ref": "#/$defs/profileId"
+        },
+        "status": {
+          "const": "active"
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "sourceAuthority": {
+          "$ref": "#/$defs/sourceAuthority"
+        },
+        "sourceEvidence": {
+          "$ref": "#/$defs/sourceEvidence"
+        },
+        "style": {
+          "type": "object"
+        },
+        "composition": {
+          "type": "object"
+        },
+        "subjects": {
+          "type": "object"
+        },
+        "generationRules": {
+          "$ref": "#/$defs/ruleList"
+        },
+        "prohibitions": {
+          "$ref": "#/$defs/ruleList"
+        },
+        "textPolicy": {
+          "$ref": "#/$defs/copyPolicy"
+        },
+        "legacyPolicy": {
+          "$ref": "#/$defs/legacyPolicy"
+        },
+        "qa": {
+          "$ref": "#/$defs/qaList"
+        }
+      }
+    },
+    "designSystemContract": {
+      "type": "object",
+      "required": [
+        "kind",
+        "id",
+        "version",
+        "profileId",
+        "status",
+        "summary",
+        "sourceAuthority",
+        "sourceEvidence",
+        "tokens",
+        "typography",
+        "titleTreatment",
+        "layout",
+        "colorPolicy",
+        "compositionPolicy",
+        "legacyPolicy",
+        "qa"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "design-system-contract"
+        },
+        "id": {
+          "const": "cascade-effects-design-system-contract"
+        },
+        "version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "profileId": {
+          "$ref": "#/$defs/profileId"
+        },
+        "status": {
+          "const": "active"
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "sourceAuthority": {
+          "$ref": "#/$defs/sourceAuthority"
+        },
+        "sourceEvidence": {
+          "$ref": "#/$defs/sourceEvidence"
+        },
+        "tokens": {
+          "type": "object"
+        },
+        "typography": {
+          "type": "object"
+        },
+        "titleTreatment": {
+          "type": "object"
+        },
+        "layout": {
+          "type": "object"
+        },
+        "colorPolicy": {
+          "type": "object"
+        },
+        "compositionPolicy": {
+          "type": "object"
+        },
+        "legacyPolicy": {
+          "$ref": "#/$defs/legacyPolicy"
+        },
+        "qa": {
+          "$ref": "#/$defs/qaList"
+        }
+      }
+    },
+    "assetPackage": {
+      "type": "object",
+      "required": [
+        "kind",
+        "id",
+        "version",
+        "profileId",
+        "platform",
+        "status",
+        "summary",
+        "sourceContracts",
+        "largeAssetPolicy",
+        "platformSources",
+        "deliverables"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "const": "asset-package"
+        },
+        "id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "profileId": {
+          "$ref": "#/$defs/profileId"
+        },
+        "platform": {
+          "enum": [
+            "youtube-channel",
+            "podcast-channel",
+            "web-cascadeeffects"
+          ]
+        },
+        "status": {
+          "const": "active"
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "sourceContracts": {
+          "$ref": "#/$defs/sourceContracts"
+        },
+        "largeAssetPolicy": {
+          "$ref": "#/$defs/largeAssetPolicy"
+        },
+        "platformSources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "url"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "$ref": "#/$defs/nonEmptyString"
+              },
+              "url": {
+                "$ref": "#/$defs/nonEmptyString"
+              }
+            }
+          }
+        },
+        "deliverables": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/deliverable"
+          }
+        }
+      }
+    }
+  }
+}

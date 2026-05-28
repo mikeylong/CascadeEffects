@@ -1,0 +1,415 @@
+{
+  "package_id": "youtube_channel_banner_content_imagegen_20260518T014942Z",
+  "status": "review_required",
+  "may_advance": false,
+  "created_at_utc": "2026-05-18T02:15:51+00:00",
+  "youtube_studio_updated": false,
+  "source_generation": "Codex ImageGen source art plus deterministic local title/wrapper composition",
+  "platform_sources": [
+    {
+      "label": "YouTube Help - Manage your channel branding",
+      "url": "https://support.google.com/youtube/answer/10456525?co=GENIE.Platform%3DDesktop&hl=en"
+    },
+    {
+      "label": "YouTube Help - Channel banner & profile picture tips",
+      "url": "https://support.google.com/youtube/answer/12950272?hl=en"
+    }
+  ],
+  "official_requirements": {
+    "primary_visible_strip_px": [
+      2048,
+      340
+    ],
+    "minimum_upload_canvas_px": [
+      2048,
+      1152
+    ],
+    "minimum_safe_area_px": [
+      1235,
+      338
+    ],
+    "file_size_limit_bytes": 6291456
+  },
+  "content_basis": {
+    "series_scope": "general Cascade Effects channel identity",
+    "first_eight_anchors": [
+      "Challenger",
+      "Therac-25",
+      "Hyatt Regency",
+      "Semmelweis",
+      "Tacoma Narrows",
+      "Piltdown Man",
+      "Boeing 737 MAX / MCAS",
+      "Titanic"
+    ],
+    "composition_rule": "integrated Paper Architecture channel world, not a thumbnail montage or abstract wallpaper"
+  },
+  "supersedes": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_title_paper_architecture_20260518T005536Z",
+    "reason": "previous package had title treatment but was too abstract and did not reflect channel content"
+  },
+  "reads": {
+    "official_requirements_read": "pass",
+    "skill_workflow_read": "pass",
+    "display_strip_target_read": "pass",
+    "content_reflection_read": "review_required",
+    "imagegen_source_read": "pass",
+    "dimensions_read": "pass",
+    "upload_canvas_read": "pass",
+    "file_size_read": "pass",
+    "safe_area_read": "pass",
+    "crop_resilience_read": "review_required",
+    "profile_icon_alignment_read": "pass",
+    "final_embellishment_read": "pass",
+    "generated_text_read": "pass",
+    "title_in_banner_read": "pass",
+    "paper_title_style_read": "review_required",
+    "waterfall_read": "pass",
+    "texture_noise_read": "pass for review"
+  },
+  "candidates": [
+    {
+      "id": "candidate_a_content_systems_tableau",
+      "label": "A - Content Systems Tableau",
+      "status": "review_required",
+      "may_advance": false,
+      "source_generation": "Codex ImageGen",
+      "imagegen_source": {
+        "path": "source/candidate_a_content_systems_tableau_imagegen_source.png",
+        "width": 1942,
+        "height": 809,
+        "bytes": 2258644,
+        "sha256": "4d2193e49d846499fc0d664cb52256e54edf07398f38188b42d85f124be3e434",
+        "under_6mb": true
+      },
+      "crop_y_after_width_fit": 160,
+      "title_policy": "exact_local_deterministic_paper_architecture_title",
+      "exact_title": "Cascade of Effects",
+      "content_anchors": [
+        "Challenger launch/O-ring decision chain",
+        "Therac-25 software/medical trust",
+        "737 MAX cockpit automation",
+        "Titanic maritime regulation",
+        "document evidence trails"
+      ],
+      "notes": "Most content-dense candidate: aerospace decision system, O-ring evidence, medical/software trust, cockpit automation, lifeboat regulation, and paper evidence trails.",
+      "strip": {
+        "path": "assets/candidate_a_content_systems_tableau_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 971403,
+        "sha256": "dd1c2a71e6b63cfe9fc256e0f2bb5bc002dcfe7f82840c398588078fc87e69aa",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_a_content_systems_tableau_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1221945,
+        "sha256": "b73a26f54670209b971012a2182bd368b883c9657f9330f663c2180cb884511e",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_a_content_systems_tableau_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 971403,
+          "sha256": "dd1c2a71e6b63cfe9fc256e0f2bb5bc002dcfe7f82840c398588078fc87e69aa",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_a_content_systems_tableau_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1221945,
+          "sha256": "b73a26f54670209b971012a2182bd368b883c9657f9330f663c2180cb884511e",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_a_content_systems_tableau_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 957864,
+          "sha256": "9ad7894530fdd26f2a3b563fb9ec852251e841595e38db7187a8a4067c1af5da",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_a_content_systems_tableau_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1198157,
+          "sha256": "e082077d9ebac978d7c11de281be89391884094c236119f12a39759cfdabb217",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_a_content_systems_tableau_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 483759,
+          "sha256": "8c41fb4a3accf61275fce0f6f9690dc007d3c2f9efabba7594173e7d54af34b4",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_a_content_systems_tableau_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1689689,
+          "sha256": "d7ab02b2b5e6f681c970bdff7ead4598f1167379a890bdd8bc76b1dc425dfa14",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "content_reflection_read": "review_required",
+        "imagegen_source_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass for review"
+      }
+    },
+    {
+      "id": "candidate_b_first_eight_evidence_wall",
+      "label": "B - First-Eight Evidence Wall",
+      "status": "review_required",
+      "may_advance": false,
+      "source_generation": "Codex ImageGen",
+      "imagegen_source": {
+        "path": "source/candidate_b_first_eight_evidence_wall_imagegen_source.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2067134,
+        "sha256": "8bdc93240e64e3838f5d443ecc66fcfbbab70baa71e3863bbd2cd4a80f9d7fc1",
+        "under_6mb": true
+      },
+      "crop_y_after_width_fit": 460,
+      "title_policy": "exact_local_deterministic_paper_architecture_title",
+      "exact_title": "Cascade of Effects",
+      "content_anchors": [
+        "Challenger launch/O-ring decision chain",
+        "Therac-25 radiation-therapy console",
+        "Hyatt load-path revision",
+        "Tacoma Narrows bridge dynamics",
+        "Piltdown evidence artifact",
+        "737 MAX cockpit automation",
+        "Titanic lifeboat/compliance gap"
+      ],
+      "notes": "Broadest first-eight signal: shuttle bay, radiation-therapy console, bridge/load-path forms, fossil/evidence tray, cockpit instrumentation, and Titanic/lifeboat material.",
+      "strip": {
+        "path": "assets/candidate_b_first_eight_evidence_wall_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 1041825,
+        "sha256": "075f42387688598282b68f536da6957b1ae7e50585b0b980f971171c33469171",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_b_first_eight_evidence_wall_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1385940,
+        "sha256": "d68b371986986eccada265ddaf305852ce8c99571634b4a163b05c058961195d",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_b_first_eight_evidence_wall_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1041825,
+          "sha256": "075f42387688598282b68f536da6957b1ae7e50585b0b980f971171c33469171",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_b_first_eight_evidence_wall_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1385940,
+          "sha256": "d68b371986986eccada265ddaf305852ce8c99571634b4a163b05c058961195d",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_b_first_eight_evidence_wall_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1027175,
+          "sha256": "da0323efee50b07fd7840a30e509c2accbb670ac1fefe9485948404ccf2df53d",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_b_first_eight_evidence_wall_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1360204,
+          "sha256": "2d43312bbf0b6d68399ab3a4bb62c991b15e49b1706924d444f471217a47a9dd",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_b_first_eight_evidence_wall_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 582136,
+          "sha256": "a949ef9e988dff53c6a55c9b9598e03303aa99a90360c1b4701b4c87e4e61ca4",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_b_first_eight_evidence_wall_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1902225,
+          "sha256": "0633231927e2cfda118d2ab4a0f89b824a2d7359c640c866eb3f99ad1e4b56d6",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "content_reflection_read": "review_required",
+        "imagegen_source_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass for review"
+      }
+    },
+    {
+      "id": "candidate_c_clean_mechanism_world",
+      "label": "C - Clean Mechanism World",
+      "status": "review_required",
+      "may_advance": false,
+      "source_generation": "Codex ImageGen",
+      "imagegen_source": {
+        "path": "source/candidate_c_clean_mechanism_world_imagegen_source.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2082929,
+        "sha256": "7e50013d4d8d810e8bb16465e7c96299dc74fc13647e947157e4eddcc2cb7eb1",
+        "under_6mb": true
+      },
+      "crop_y_after_width_fit": 360,
+      "title_policy": "exact_local_deterministic_paper_architecture_title",
+      "exact_title": "Cascade of Effects",
+      "content_anchors": [
+        "Challenger launch/O-ring decision chain",
+        "Hyatt structural/load-path revision",
+        "737 MAX cockpit automation",
+        "Titanic maritime regulation",
+        "document evidence trails"
+      ],
+      "notes": "Cleanest channel-world composition: shuttle systems, structural/load-path material, cockpit/software console evidence, lifeboat forms, and document trails.",
+      "strip": {
+        "path": "assets/candidate_c_clean_mechanism_world_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 922764,
+        "sha256": "7b17f0d03b447f9e5eff0e49fc6e4424ff2c0d541adf146269bfdf67b0e0f9b6",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_c_clean_mechanism_world_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1206120,
+        "sha256": "37693f3c77ac578aaacc1e77cc43ab3783088e4e5980f4c6113531afe9aba496",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_c_clean_mechanism_world_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 922764,
+          "sha256": "7b17f0d03b447f9e5eff0e49fc6e4424ff2c0d541adf146269bfdf67b0e0f9b6",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_c_clean_mechanism_world_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1206120,
+          "sha256": "37693f3c77ac578aaacc1e77cc43ab3783088e4e5980f4c6113531afe9aba496",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_c_clean_mechanism_world_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 911687,
+          "sha256": "5763a082cda9991224a102ba846ade7036b9596ab204a3a217895fa406a36029",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_c_clean_mechanism_world_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1184230,
+          "sha256": "4fe69ff38ea93819eb19618143a964db58e7bf05084319aa7b4616bb284179c3",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_c_clean_mechanism_world_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 468571,
+          "sha256": "2639e542f96eaa1fb26335fd0b672a56c6c44dc235bcddd274f5ca3185110be6",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_c_clean_mechanism_world_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1656034,
+          "sha256": "29fc12231ade2d6a453b0ae3cdb1067b747bdc9320daa60ca438dd7a4aa2508f",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "content_reflection_read": "review_required",
+        "imagegen_source_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass for review"
+      }
+    }
+  ],
+  "review_artifacts": {
+    "contact_sheet": {
+      "path": "qa/youtube-channel-banner-content-imagegen-contact-sheet.png",
+      "width": 1240,
+      "height": 2006,
+      "bytes": 1546479,
+      "sha256": "6d9743a0589e1a7a2f11cc4095af47cfe539ae4666dbf117e7877a15109c6441",
+      "under_6mb": true
+    },
+    "qa_notes": "qa/qa_notes.md",
+    "source_notes": "source/source_notes.md",
+    "official_requirements_snapshot": "source/official_youtube_channel_branding_guidance_2026-05-17.md",
+    "skill_snapshot": "source/youtube_channel_branding_v1_SKILL_snapshot.md"
+  }
+}

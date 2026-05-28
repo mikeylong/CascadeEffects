@@ -1,0 +1,201 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_visible_failure_optical_glass_pilot__draft_txt2img",
+  "base_fragment": "minimal_surreal_flux_midjourney_grid_draft_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no generic rocket, no capsule rocket, no missile, no conical nose rocket, no off-frame smoke source, no side exhaust, no nose exhaust, no plume from the nose, no plume from the side, no mid-body exhaust, no explosion spectacle, no blockbuster blast bloom, no literal stained-glass window, no kaleidoscope, no rainbow fog, no smeared shuttle silhouette, no glossy sci-fi launch poster",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131914,
+    "selected_seed": 972054013131914,
+    "seed_mode": "search",
+    "variant_count": 4,
+    "steps": 30,
+    "guidance": 5.2,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_visible_failure_optical_glass_pilot/draft/challenger_visible_failure_optical_glass_pilot_draft",
+    "note_text": "Optical-glass pilot for Challenger beat 04. Keep faithful Shuttle anatomy dominant while smoke and plume read through a premium refractive atmosphere.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "draft_txt2img",
+    "reference_board_dir": "references/episodes/challenger/launch_stack_exterior/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "tense",
+    "palette_policy": "contract-limited",
+    "accent_palette": "ash white, smoked-glass blue, oxidized steel, prism ember",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the Shuttle stack and booster-joint failure above the subtitle band and preserve the top UI band as open high sky",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "faithful Space Shuttle Challenger stack with right-booster-joint smoke and plume escalation seen through restrained optical refraction in open sky",
+    "beat_id": "beat_04",
+    "historical_anchor": "the Space Shuttle Challenger visible failure sequence with correct orbiter wings, rust-orange external tank, and twin white solid rocket boosters",
+    "surreal_breach": "thin refractive planes split the smoke and flame around the right booster joint while all exhaust remains confined to aft propulsion geometry, never the nose, side, or an off-frame source",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed/still_overrides/beat_04__visible_failure_from_mj_video.png"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "accurate Shuttle stack held legibly in a restrained high-sky failure frame with refractive optical-glass atmosphere",
+    "support_fragments": [
+      "one right-booster-joint smoke-to-flame path while aft exhaust remains physically correct and shuttle geometry stays dominant",
+      "open sky and smoke column split by premium glass refraction without smearing the orbiter, tank, or boosters"
+    ],
+    "directives": [
+      "the orbiter, external tank, and twin boosters must read immediately and accurately",
+      "no generic rocket body, no side exhaust, no nose plume, no off-frame smoke source",
+      "make the optical-glass refraction intrinsic and elegant, never kaleidoscopic or blockbuster"
+    ],
+    "draft_directives": [
+      "preserve shuttle silhouette first, effect second",
+      "keep the right-booster-joint anomaly legible at thumbnail size",
+      "no sci-fi lens flare treatment"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "negative_prompt",
+      "widgets": {
+        "text": "{{ params.negative_prompt }}"
+      }
+    },
+    {
+      "key": "latent",
+      "widgets": {
+        "width": "{{ params.width }}",
+        "height": "{{ params.height }}",
+        "batch_size": "{{ params.batch_size }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.denoise }}"
+      }
+    },
+    {
+      "key": "flux_guidance",
+      "widgets": {
+        "guidance": "{{ params.guidance }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    },
+    {
+      "key": "load_subject_reference",
+      "widgets": {
+        "image": "{{ params.subject_reference_runtime_image }}"
+      }
+    },
+    {
+      "key": "clip_vision_loader",
+      "widgets": {
+        "clip_name": "{{ params.subject_reference_clip_vision_model }}"
+      }
+    },
+    {
+      "key": "clip_vision_encode",
+      "widgets": {
+        "crop": "{{ params.subject_reference_crop }}"
+      }
+    },
+    {
+      "key": "subject_reference_conditioning",
+      "widgets": {
+        "strength": "{{ params.subject_reference_strength }}",
+        "noise_augmentation": "{{ params.subject_reference_noise_augmentation }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_visible_failure_optical_glass_pilot__draft_txt2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_visible_failure_optical_glass_pilot__draft_txt2img.json"
+  }
+}

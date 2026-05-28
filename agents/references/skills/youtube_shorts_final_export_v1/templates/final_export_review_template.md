@@ -1,0 +1,125 @@
+# Final Export Review Template
+
+## Final Export Review
+
+- `episode_id`:
+- `short_id`:
+- `stage`: `video final`
+- `captioned_final_path`:
+- `final_export_manifest_path`:
+- `approved_short_audio_wav_path`:
+- `short_audio_package_path`:
+- `expected_voice_profile_id`:
+- `audio_package_sha256`:
+- `packaged_audio_sha256`:
+- `audio_disposition`: `keep`
+- `brand_motif_status`: `present|variant|waived|missing`
+- `motif_family`:
+- `motif_text`:
+- `motif_waiver_reason`:
+- `ending_cadence_read`: `pass|tighten|reject`
+- `caption_model`: `script_locked_canonical_text_timing_from_asr_v1`
+- `caption_text_source_path`:
+- `caption_text_source_policy`: `script_locked_canonical_text_only`
+- `caption_timing_source_path`:
+- `caption_timing_source_policy`: `asr_whisperx_timing_only`
+- `caption_text_matches_script_read`: `pass|tighten|reject`
+- `caption_asr_text_not_used_read`: `pass|tighten|reject`
+- `transcript_sha256`: # audio package transcript provenance only
+- `house_crt_static_manifest_path`:
+- `house_crt_static_status`: `applied|waived|blocked`
+- `house_crt_static_waiver_reason`:
+- `final_picture_source_path`:
+- `caption_style_preset`: `minimal_surreal_editorial_v1`
+- `caption_placement`: `lower-center|lower-left`
+- `caption_timing_path`:
+- `caption_overlay_manifest_path`:
+- `music_track_registry_path`: `/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`
+- `music_track_id`:
+- `music_policy`: `canonical_default|waived|alternate_approved`
+- `music_waiver_reason`:
+- `music_rights_check_status`: `pending_youtube_upload_check|cleared|claim_warning|waived|not_applicable`
+- `motif_outro_mix_used`: `true|false`
+- `body_loop_path`:
+- `body_loop_sha256`:
+- `outro_path`:
+- `outro_sha256`:
+- `visual_extension_mode`: `cloned_final_frame|source_motion_tail|none`
+- `final_frame_hold_seconds`:
+- `source_motion_tail_path`:
+- `source_motion_tail_source_clip_id`:
+- `source_motion_tail_source_span_in`:
+- `source_motion_tail_source_span_out`:
+- `source_motion_tail_residual_hold_seconds`:
+- `first_second_hook_manifest_path`:
+- `first_second_hook_read`: `pass|tighten|reject|not_applicable`
+- `first_second_hook_human_review_disposition`: `keep|tighten|reject|not_applicable`
+- `first_second_hook_applied`: `true|false`
+- `caption_offset_seconds`:
+- `duration_trim_decision`:
+- `opening_impact_audio_asset_id`:
+- `opening_impact_audio_sha256`:
+- `motif_music_bed_read`: `pass|tighten|reject|not_applicable`
+- `outro_completion_read`: `pass|tighten|reject|not_applicable`
+- `final_mix_peak_db`:
+- `review_type`: `final`
+- `gate_level`: `video final`
+- `disposition`: `keep|tighten|diagnostic only|reject`
+- `reel_class`: `keeper short|mixed review short`
+- `publish_skill_path`: `/Users/mike/Agents_CascadeEffects/references/skills/youtube_shorts_publish_v1/SKILL.md`
+- `publish_package_manifest_path`:
+- `publish_package_check_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-check <manifest_path>`
+- `review_upload_command`: `/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-upload <manifest_path> --privacy unlisted`
+- `public_release_boundary`: `manual_youtube_studio_only`
+- `public_release_note`: `public release remains manual in YouTube Studio`
+- `failure_reason`:
+- `next_action`:
+
+## QA Checks
+
+- `vertical_aspect_ratio_checked`: `true|false`
+- `audio_sync_checked`: `true|false`
+- `audio_package_provenance_checked`: `true|false`
+- `voice_profile_final_export_eligible`: `true|false`
+- `brand_motif_status_valid`: `true|false`
+- `ending_cadence_read_pass`: `true|false`
+- `closing_motif_caption_preserved`: `true|false`
+- `house_crt_static_final_gate_checked`: `true|false`
+- `house_crt_texture_profile_is_house_default`: `true|false|not_applicable`
+- `signal_interruption_checked`: `true|false|not_applicable`
+- `captions_applied_after_house_crt_signal_interruption`: `true|false|not_applicable`
+- `audio_muxed_after_house_crt_signal_interruption`: `true|false|not_applicable`
+- `music_policy_valid`: `true|false`
+- `music_track_registered_when_used`: `true|false|not_applicable`
+- `music_source_hashes_verified`: `true|false|not_applicable`
+- `music_waiver_reason_present_when_waived`: `true|false|not_applicable`
+- `music_rights_check_recorded`: `true|false|not_applicable`
+- `motif_music_bed_supports_voiceover`: `true|false|not_applicable`
+- `outro_ramp_after_motif_resolution`: `true|false|not_applicable`
+- `outro_not_cut_off`: `true|false|not_applicable`
+- `source_motion_tail_no_audio_when_used`: `true|false|not_applicable`
+- `source_motion_tail_no_freeze_when_used`: `true|false|not_applicable`
+- `final_mix_no_clipping`: `true|false|not_applicable`
+- `first_second_hook_keep_when_in_scope`: `true|false|not_applicable`
+- `impact_hit_starts_at_t0_when_in_scope`: `true|false|not_applicable`
+- `cold_flash_prebeat_scene_or_event_led`: `true|false|not_applicable`
+- `first_second_audio_no_clipping`: `true|false|not_applicable`
+- `caption_offset_after_hook_checked`: `true|false|not_applicable`
+- `duration_repair_does_not_trim_motif_voice_or_required_captions`: `true|false|not_applicable`
+- `caption_legibility_checked`: `true|false`
+- `caption_safe_zone_checked`: `true|false`
+- `mechanism_not_occluded`: `true|false`
+- `faces_not_occluded`: `true|false`
+- `key_anomaly_not_occluded`: `true|false`
+- `no_diagnostic_placeholders`: `true|false`
+- `all_motion_clips_are_keep`: `true|false`
+- `duration_checked`: `true|false`
+
+## Handoff To Coordinator
+
+- `blockers`:
+- `deferred_gaps`:
+- `publish_handoff_required`: `true|false`
+- `publish_next_action`: `validate_package|unlisted_review_upload|platform_checks|manual_public_release_decision|none`
+- `may_advance`: `true|false`
+- `notes`:

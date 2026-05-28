@@ -1,0 +1,33 @@
+{
+  "receipt_type": "cascade_effects_output_contract_validation",
+  "schema_version": "cascade_effects_output_contract_receipt_v1",
+  "created_at": "2026-05-28T05:54:12.130Z",
+  "ok": true,
+  "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_tacoma_piltdown_swap_20260528T053749Z/channel_intro_pressure_bends_original_format_tacoma_piltdown_swap_manifest.json",
+  "artifact_manifest_sha256": "527b34fe8dd133dd7db1cbdd428fa4b28c9bfa53f401f81f42d563b8dcf148f9",
+  "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+  "contract_id": "channel-trailer-v1",
+  "family": "channel_trailer",
+  "intent": "successor",
+  "source_hashes": {
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_tacoma_piltdown_swap_20260528T053749Z/channel_intro_pressure_bends_original_format_tacoma_piltdown_swap_manifest.json",
+    "artifact_manifest_sha256": "527b34fe8dd133dd7db1cbdd428fa4b28c9bfa53f401f81f42d563b8dcf148f9",
+    "source_audio.file": {
+      "path": "/Users/mike/Downloads/The_Pressure_Bends.mp3",
+      "declared_sha256": "5f85a73411de44d64633602f38524e948205c76d3de11cba231d3f1db9ea184f",
+      "actual_sha256": "5f85a73411de44d64633602f38524e948205c76d3de11cba231d3f1db9ea184f"
+    }
+  },
+  "allowed_delta": null,
+  "reads": {
+    "contract_read": "pass_contract_loaded_and_required_reads_passed",
+    "delta_read": "pass_no_repair_delta_required_for_intent",
+    "style_read": "pass_style_contract_reads_passed",
+    "media_read": "pass_source_hashes_and_media_reads_valid",
+    "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+  },
+  "existing_validators": [],
+  "failures": [],
+  "youtube_action_requested": "none",
+  "youtube_action_allowed": false
+}

@@ -1,0 +1,90 @@
+{
+  "catalog_id": "other_seven_source_credit_gap_catalog_v1",
+  "display_model": "center_source_credit_gap_v1",
+  "screen_text_policy": "three_named_sources_no_urls",
+  "episodes": {
+    "therac-25": {
+      "source_selection_basis": "narrow_therac_source_backfill_from_vetted_case_materials_and_public_regulatory_records",
+      "provenance_paths": [
+        "/Users/mike/Viz_CascadeEffects/references/therac25_console_alarm/docs/sources.md"
+      ],
+      "external_provenance_urls": [
+        "https://sunnyday.mit.edu/papers/therac.pdf",
+        "https://www.sei.cmu.edu/documents/3097/2010_017_001_23269.pdf",
+        "https://www.fda.gov/medical-devices/medical-device-reporting-mdr/mdr-data-files"
+      ],
+      "source_labels": [
+        "Leveson and Turner, Therac-25 accident investigation",
+        "SEI CERT, Learning from Accidents",
+        "FDA Medical Device Reporting records"
+      ]
+    },
+    "hyatt-regency": {
+      "source_selection_basis": "verified_hyatt_source_factcheck_packet",
+      "provenance_paths": [
+        "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/source_factcheck_review_packet.md",
+        "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/source_factcheck_manifest.json"
+      ],
+      "source_labels": [
+        "NBS Building Science Series 143",
+        "NIST Walkway Collapse archive",
+        "ASCE Civil Engineering Source"
+      ]
+    },
+    "semmelweis": {
+      "source_selection_basis": "active_long_form_fact_check_source_set",
+      "provenance_paths": [
+        "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/fact_check.md"
+      ],
+      "source_labels": [
+        "Ignaz Semmelweis, Die Aetiologie",
+        "Irvine Loudon, Semmelweis studies",
+        "Best, Neuhauser, and Slavin"
+      ]
+    },
+    "tacoma-narrows": {
+      "source_selection_basis": "active_long_form_fact_check_source_set",
+      "provenance_paths": [
+        "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/fact_check.md"
+      ],
+      "source_labels": [
+        "Ammann, von Karman, and Woodruff",
+        "Washington State DOT Tacoma Narrows history",
+        "ASCE Tacoma Narrows Bridges"
+      ]
+    },
+    "piltdown-man": {
+      "source_selection_basis": "active_long_form_fact_check_source_set",
+      "provenance_paths": [
+        "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/fact_check.md"
+      ],
+      "source_labels": [
+        "Natural History Museum Piltdown archive",
+        "Weiner, Oakley, and Le Gros Clark",
+        "De Groote et al., Royal Society Open Science"
+      ]
+    },
+    "737-max": {
+      "source_selection_basis": "active_long_form_fact_check_source_set",
+      "provenance_paths": [
+        "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/fact_check.md"
+      ],
+      "source_labels": [
+        "U.S. House Transportation Committee report",
+        "FAA 737 MAX return-to-service review",
+        "Joint Authorities Technical Review"
+      ]
+    },
+    "titanic": {
+      "source_selection_basis": "active_long_form_fact_check_source_notes",
+      "provenance_paths": [
+        "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/fact_check.md"
+      ],
+      "source_labels": [
+        "Library of Congress legal history",
+        "Hansard Board of Trade debate",
+        "IMO Titanic and SOLAS explainer"
+      ]
+    }
+  }
+}

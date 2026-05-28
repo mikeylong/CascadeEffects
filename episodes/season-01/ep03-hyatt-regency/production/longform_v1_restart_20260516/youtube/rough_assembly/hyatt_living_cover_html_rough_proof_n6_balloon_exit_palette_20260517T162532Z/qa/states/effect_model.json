@@ -1,0 +1,88 @@
+{
+  "ambientAt3s": {
+    "audioTime": 3.33,
+    "activeFlashes": [
+      {
+        "id": "flash_intro_left_walkway",
+        "time_seconds": 3.2,
+        "x": 486,
+        "y": 392,
+        "radius_px": 48,
+        "strength": 0.38,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway",
+        "intensity": 0.7647
+      }
+    ],
+    "activeBalloonRises": [],
+    "visibleAmbientEffect": true,
+    "maxFlashIntensity": 0.7647,
+    "maxSimultaneousFlashes": 1,
+    "maxSimultaneousBalloonRises": 0
+  },
+  "ambientAtBalloonMid": {
+    "audioTime": 93.7,
+    "activeFlashes": [],
+    "activeBalloonRises": [
+      {
+        "id": "balloon_rise_main_floor_01",
+        "start_seconds": 54.5,
+        "duration_seconds": 112,
+        "x": 774.69,
+        "y": 631.17,
+        "exit_y": -122,
+        "drift_px": 58,
+        "radius_px": 10,
+        "color": "#c79a66",
+        "palette_key": "champagne_gold",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade",
+        "progress": 0.35,
+        "eased": 0.273,
+        "alpha": 0.62,
+        "stringLength": 56,
+        "paletteKey": "champagne_gold",
+        "approvedPaletteColor": true,
+        "outOfFrame": false
+      }
+    ],
+    "visibleAmbientEffect": true,
+    "maxFlashIntensity": 0,
+    "maxSimultaneousFlashes": 0,
+    "maxSimultaneousBalloonRises": 1
+  },
+  "ambientAtBalloonExit": {
+    "audioTime": 166.3,
+    "activeFlashes": [],
+    "activeBalloonRises": [
+      {
+        "id": "balloon_rise_main_floor_01",
+        "start_seconds": 54.5,
+        "duration_seconds": 112,
+        "x": 816.29,
+        "y": -121.99,
+        "exit_y": -122,
+        "drift_px": 58,
+        "radius_px": 10,
+        "color": "#c79a66",
+        "palette_key": "champagne_gold",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade",
+        "progress": 0.9982,
+        "eased": 1,
+        "alpha": 0.62,
+        "stringLength": 56,
+        "paletteKey": "champagne_gold",
+        "approvedPaletteColor": true,
+        "outOfFrame": true
+      }
+    ],
+    "visibleAmbientEffect": true,
+    "maxFlashIntensity": 0,
+    "maxSimultaneousFlashes": 0,
+    "maxSimultaneousBalloonRises": 1
+  }
+}

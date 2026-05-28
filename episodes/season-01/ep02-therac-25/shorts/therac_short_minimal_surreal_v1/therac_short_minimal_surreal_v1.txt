@@ -1,0 +1,9 @@
+A radiation machine overdosed a patient by a hundred times. The manufacturer said it was impossible. Then it happened again.
+
+The Therac-25 replaced physical safety interlocks with software checks. During fast data entry, a race condition could leave the machine in the wrong state and fire a full-power beam with no filter. Nobody caught it because the code had been reused from older machines, and reused code felt like tested code.
+
+Operators reported errors. The manufacturer insisted the machine was safe. More patients were burned before the pattern was treated as real.
+
+The disaster was not just bad code. It was a system with no independent safety layer, no quick way to believe field reports, and no design for software being wrong.
+
+That is how small causes become massive consequences.

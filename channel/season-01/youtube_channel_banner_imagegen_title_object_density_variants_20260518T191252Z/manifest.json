@@ -1,0 +1,516 @@
+{
+  "package_id": "youtube_channel_banner_imagegen_title_object_density_variants_20260518T191252Z",
+  "status": "review_required",
+  "may_advance": false,
+  "created_at_utc": "2026-05-18T19:24:55+00:00",
+  "youtube_studio_updated": false,
+  "candidate_lane": "imagegen_title_lockup_experiment",
+  "variant_axis": "surrounding_object_subject_density",
+  "generated_title_exception": true,
+  "title_lockup_source_package": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_imagegen_title_lockup_20260518T181310Z",
+  "exact_title": "Cascade of Effects",
+  "official_requirements": {
+    "primary_visible_strip_px": [
+      2048,
+      340
+    ],
+    "minimum_upload_canvas_px": [
+      2048,
+      1152
+    ],
+    "minimum_safe_area_px": [
+      1235,
+      338
+    ],
+    "file_size_limit_bytes": 6291456
+  },
+  "outputs": {
+    "contact_sheet": {
+      "path": "qa/object-density-variants-contact-sheet.png",
+      "width": 1240,
+      "height": 3572,
+      "bytes": 3162983,
+      "sha256": "391b8bcd4506dc9ce078da5110aa98ee7dae660082f9d06fb4dbc451ef0b50a5",
+      "under_6mb": true
+    },
+    "strip_comparison": {
+      "path": "qa/object-density-visible-strip-comparison.png",
+      "width": 1092,
+      "height": 1060,
+      "bytes": 1159199,
+      "sha256": "e2354e851c81f5b2e7755b43b5b6f1a151b2f45b9a523fd3e87a73ea68686d12",
+      "under_6mb": true
+    },
+    "records": [
+      {
+        "id": "density_01_sparse_edge_anchors",
+        "label": "Density 01 - Sparse Edge Anchors",
+        "status": "review_required",
+        "may_advance": false,
+        "candidate_lane": "imagegen_title_lockup_experiment",
+        "object_density_lane": "sparse",
+        "density": "sparse",
+        "notes": "Fewest surrounding objects: bridge left, Titanic/shuttle right, large clean field around the title.",
+        "source": {
+          "path": "source/density_01_sparse_edge_anchors_source.png",
+          "width": 2172,
+          "height": 724,
+          "bytes": 1947949,
+          "sha256": "57b4c75c26da7a7d8673a3663219565bc4005740f91fc9cbc7da8fddbea333ca",
+          "under_6mb": true
+        },
+        "accepted_title_source": "source/accepted_imagegen_title_lockup_alpha.png",
+        "title_text": "Cascade of Effects",
+        "title_placement": {
+          "x": 608,
+          "y": 19,
+          "width": 830,
+          "height": 297,
+          "safe_rect": {
+            "x": 406,
+            "y": 1,
+            "width": 1235,
+            "height": 338
+          },
+          "inside_safe_rect": true
+        },
+        "strip": {
+          "path": "visible_strips_2048x340/density_01_sparse_edge_anchors_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 985300,
+          "sha256": "91cd62c1402255d010ee2b55c2e7376cc991d63f5d327b1e421f2982b579e848",
+          "under_6mb": true
+        },
+        "upload_wrapper": {
+          "path": "upload_candidates_2048x1152/density_01_sparse_edge_anchors_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1329621,
+          "sha256": "91455730aee9d62f52f5408780387c3f93ec88adad58d006e3314c8cb9d5cc1e",
+          "under_6mb": true
+        },
+        "asset_strip": {
+          "path": "assets/density_01_sparse_edge_anchors_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 985300,
+          "sha256": "91cd62c1402255d010ee2b55c2e7376cc991d63f5d327b1e421f2982b579e848",
+          "under_6mb": true
+        },
+        "asset_upload_wrapper": {
+          "path": "assets/density_01_sparse_edge_anchors_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1329621,
+          "sha256": "91455730aee9d62f52f5408780387c3f93ec88adad58d006e3314c8cb9d5cc1e",
+          "under_6mb": true
+        },
+        "previews": {
+          "strip_safe_overlay": {
+            "path": "previews/density_01_sparse_edge_anchors_strip_safe_overlay_2048x340.png",
+            "width": 2048,
+            "height": 340,
+            "bytes": 973354,
+            "sha256": "fd80c8fe9e388dcfed812217625fca8f6b2860feaef86c9b9f7cf5f7ca4fd08b",
+            "under_6mb": true
+          },
+          "upload_safe_overlay": {
+            "path": "previews/density_01_sparse_edge_anchors_upload_safe_overlay_2048x1152.png",
+            "width": 2048,
+            "height": 1152,
+            "bytes": 1310602,
+            "sha256": "a4418570da17966597ed7b832dcb7375b3984105abb5ec8921ef023e19aad91d",
+            "under_6mb": true
+          },
+          "center_safe_crop": {
+            "path": "previews/density_01_sparse_edge_anchors_center_safe_crop_1235x338.png",
+            "width": 1235,
+            "height": 338,
+            "bytes": 585775,
+            "sha256": "29620f5803ffeeb9a681e4638a0bd14a98e1fe7255d073b62be359ca4ad90f85",
+            "under_6mb": true
+          },
+          "tv_preview_wrapper": {
+            "path": "previews/density_01_sparse_edge_anchors_tv_preview_wrapper_2560x1440.png",
+            "width": 2560,
+            "height": 1440,
+            "bytes": 1809071,
+            "sha256": "33af3b202f0eee9c1ce038cf7f4c11689122004379fbc636dd5f56e71f7cb6aa",
+            "under_6mb": true
+          }
+        },
+        "qa_reads": {
+          "dimensions_read": "pass",
+          "upload_canvas_read": "pass",
+          "file_size_read": "pass",
+          "safe_area_read": "pass",
+          "object_density_read": "review_required",
+          "exact_title_spelling_read": "pass",
+          "generated_text_read": "controlled_exception_pass",
+          "paper_title_style_read": "review_required",
+          "website_hero_alignment_read": "review_required",
+          "waterfall_read": "pass",
+          "texture_noise_read": "pass for review"
+        }
+      },
+      {
+        "id": "density_02_balanced_subject_framing",
+        "label": "Density 02 - Balanced Subject Framing",
+        "status": "review_required",
+        "may_advance": false,
+        "candidate_lane": "imagegen_title_lockup_experiment",
+        "object_density_lane": "balanced",
+        "density": "balanced",
+        "notes": "Moderate subject count: bridge and broken span left, shuttle/Titanic right, signal pins and terrain held low.",
+        "source": {
+          "path": "source/density_02_balanced_subject_framing_source.png",
+          "width": 2172,
+          "height": 724,
+          "bytes": 1987954,
+          "sha256": "454dc926be50430cab26fb716a4bd088de81b0d2a1ed0b39cacd8092cfa0cd8d",
+          "under_6mb": true
+        },
+        "accepted_title_source": "source/accepted_imagegen_title_lockup_alpha.png",
+        "title_text": "Cascade of Effects",
+        "title_placement": {
+          "x": 628,
+          "y": 27,
+          "width": 790,
+          "height": 282,
+          "safe_rect": {
+            "x": 406,
+            "y": 1,
+            "width": 1235,
+            "height": 338
+          },
+          "inside_safe_rect": true
+        },
+        "strip": {
+          "path": "visible_strips_2048x340/density_02_balanced_subject_framing_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1006519,
+          "sha256": "c4e232bede269da0002ad336fc052cf19c56dcdfa118ba3f686adac8aa65b955",
+          "under_6mb": true
+        },
+        "upload_wrapper": {
+          "path": "upload_candidates_2048x1152/density_02_balanced_subject_framing_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1372122,
+          "sha256": "c225f412616392bf54ea142e56655a80e232d4c7e21a38394019b1f22ec1fefb",
+          "under_6mb": true
+        },
+        "asset_strip": {
+          "path": "assets/density_02_balanced_subject_framing_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1006519,
+          "sha256": "c4e232bede269da0002ad336fc052cf19c56dcdfa118ba3f686adac8aa65b955",
+          "under_6mb": true
+        },
+        "asset_upload_wrapper": {
+          "path": "assets/density_02_balanced_subject_framing_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1372122,
+          "sha256": "c225f412616392bf54ea142e56655a80e232d4c7e21a38394019b1f22ec1fefb",
+          "under_6mb": true
+        },
+        "previews": {
+          "strip_safe_overlay": {
+            "path": "previews/density_02_balanced_subject_framing_strip_safe_overlay_2048x340.png",
+            "width": 2048,
+            "height": 340,
+            "bytes": 994430,
+            "sha256": "32ecee61a5ca78d07711ecf48ac52bc045dc3bef1edb6c19695fc675b552c89e",
+            "under_6mb": true
+          },
+          "upload_safe_overlay": {
+            "path": "previews/density_02_balanced_subject_framing_upload_safe_overlay_2048x1152.png",
+            "width": 2048,
+            "height": 1152,
+            "bytes": 1350306,
+            "sha256": "7df563abd620a1baaef67296d2a1bc342c40d563eda2e573dd67c7e2aea8fdc3",
+            "under_6mb": true
+          },
+          "center_safe_crop": {
+            "path": "previews/density_02_balanced_subject_framing_center_safe_crop_1235x338.png",
+            "width": 1235,
+            "height": 338,
+            "bytes": 574799,
+            "sha256": "03434d438671ed16a95d127c430c9c6a52c6bc67c08fb4cc461f597f82b5354e",
+            "under_6mb": true
+          },
+          "tv_preview_wrapper": {
+            "path": "previews/density_02_balanced_subject_framing_tv_preview_wrapper_2560x1440.png",
+            "width": 2560,
+            "height": 1440,
+            "bytes": 1872165,
+            "sha256": "bd29cd0f07f8dad44263bad6e221f43adf3e617d170e4dfb16c8900ca2159ae4",
+            "under_6mb": true
+          }
+        },
+        "qa_reads": {
+          "dimensions_read": "pass",
+          "upload_canvas_read": "pass",
+          "file_size_read": "pass",
+          "safe_area_read": "pass",
+          "object_density_read": "review_required",
+          "exact_title_spelling_read": "pass",
+          "generated_text_read": "controlled_exception_pass",
+          "paper_title_style_read": "review_required",
+          "website_hero_alignment_read": "review_required",
+          "waterfall_read": "pass",
+          "texture_noise_read": "pass for review"
+        }
+      },
+      {
+        "id": "density_03_object_rich_foreground",
+        "label": "Density 03 - Object-Rich Foreground",
+        "status": "review_required",
+        "may_advance": false,
+        "candidate_lane": "imagegen_title_lockup_experiment",
+        "object_density_lane": "object_rich",
+        "density": "object_rich",
+        "notes": "More evidence objects around the title: bridge, paper documents, ring/arc forms, instrument block, shuttle, and ship.",
+        "source": {
+          "path": "source/density_03_object_rich_foreground_source.png",
+          "width": 2172,
+          "height": 724,
+          "bytes": 1986995,
+          "sha256": "c7926271d08d8c4c1120419b8d15716eef917ebf277d96415e3531bd759203b8",
+          "under_6mb": true
+        },
+        "accepted_title_source": "source/accepted_imagegen_title_lockup_alpha.png",
+        "title_text": "Cascade of Effects",
+        "title_placement": {
+          "x": 648,
+          "y": 32,
+          "width": 750,
+          "height": 268,
+          "safe_rect": {
+            "x": 406,
+            "y": 1,
+            "width": 1235,
+            "height": 338
+          },
+          "inside_safe_rect": true
+        },
+        "strip": {
+          "path": "visible_strips_2048x340/density_03_object_rich_foreground_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1037033,
+          "sha256": "4b032596d347b25368b2ffdba1a1697b78689b3c33864193cc389898fb5f9581",
+          "under_6mb": true
+        },
+        "upload_wrapper": {
+          "path": "upload_candidates_2048x1152/density_03_object_rich_foreground_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1409657,
+          "sha256": "2cb81f492c811d1b781616b2fa5cd8c78c615a6cfa865cc2aef057c9eaa98bad",
+          "under_6mb": true
+        },
+        "asset_strip": {
+          "path": "assets/density_03_object_rich_foreground_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1037033,
+          "sha256": "4b032596d347b25368b2ffdba1a1697b78689b3c33864193cc389898fb5f9581",
+          "under_6mb": true
+        },
+        "asset_upload_wrapper": {
+          "path": "assets/density_03_object_rich_foreground_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1409657,
+          "sha256": "2cb81f492c811d1b781616b2fa5cd8c78c615a6cfa865cc2aef057c9eaa98bad",
+          "under_6mb": true
+        },
+        "previews": {
+          "strip_safe_overlay": {
+            "path": "previews/density_03_object_rich_foreground_strip_safe_overlay_2048x340.png",
+            "width": 2048,
+            "height": 340,
+            "bytes": 1024592,
+            "sha256": "3369c6a0de4007480642b498470c1dd7d8b37a5d6be474c3b83fe4bd186ad1ea",
+            "under_6mb": true
+          },
+          "upload_safe_overlay": {
+            "path": "previews/density_03_object_rich_foreground_upload_safe_overlay_2048x1152.png",
+            "width": 2048,
+            "height": 1152,
+            "bytes": 1388830,
+            "sha256": "26ab5c1bd32d98b6020bf03da457f051db8a011ed731d6041abba18543bd60a4",
+            "under_6mb": true
+          },
+          "center_safe_crop": {
+            "path": "previews/density_03_object_rich_foreground_center_safe_crop_1235x338.png",
+            "width": 1235,
+            "height": 338,
+            "bytes": 603313,
+            "sha256": "7b99c2ce7aba084be03cb2c2bf2072cb092b3c09e9549c955c86c234a9f8cbcb",
+            "under_6mb": true
+          },
+          "tv_preview_wrapper": {
+            "path": "previews/density_03_object_rich_foreground_tv_preview_wrapper_2560x1440.png",
+            "width": 2560,
+            "height": 1440,
+            "bytes": 1920595,
+            "sha256": "00b094c702f255cb8967ed05d97b1a612a6e8ebe13662776d4fd41bb717db4da",
+            "under_6mb": true
+          }
+        },
+        "qa_reads": {
+          "dimensions_read": "pass",
+          "upload_canvas_read": "pass",
+          "file_size_read": "pass",
+          "safe_area_read": "pass",
+          "object_density_read": "review_required",
+          "exact_title_spelling_read": "pass",
+          "generated_text_read": "controlled_exception_pass",
+          "paper_title_style_read": "review_required",
+          "website_hero_alignment_read": "review_required",
+          "waterfall_read": "pass",
+          "texture_noise_read": "pass for review"
+        }
+      },
+      {
+        "id": "density_04_dense_content_band",
+        "label": "Density 04 - Dense Content Band",
+        "status": "review_required",
+        "may_advance": false,
+        "candidate_lane": "imagegen_title_lockup_experiment",
+        "object_density_lane": "dense",
+        "density": "dense",
+        "notes": "Highest-density version: foreground objects and signal network push closer to the title while keeping the title readable.",
+        "source": {
+          "path": "source/density_04_dense_content_band_source.png",
+          "width": 2172,
+          "height": 724,
+          "bytes": 1986995,
+          "sha256": "c7926271d08d8c4c1120419b8d15716eef917ebf277d96415e3531bd759203b8",
+          "under_6mb": true
+        },
+        "accepted_title_source": "source/accepted_imagegen_title_lockup_alpha.png",
+        "title_text": "Cascade of Effects",
+        "title_placement": {
+          "x": 668,
+          "y": 35,
+          "width": 710,
+          "height": 254,
+          "safe_rect": {
+            "x": 406,
+            "y": 1,
+            "width": 1235,
+            "height": 338
+          },
+          "inside_safe_rect": true
+        },
+        "strip": {
+          "path": "visible_strips_2048x340/density_04_dense_content_band_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1063057,
+          "sha256": "e8a2f3768d02e2cd4890218a899ed52d5e280b51d388df6b46a515950ae7b6b3",
+          "under_6mb": true
+        },
+        "upload_wrapper": {
+          "path": "upload_candidates_2048x1152/density_04_dense_content_band_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1443725,
+          "sha256": "edd57f0cdca2eae852f6dcda34ac21fdcbf42517de165bf3707f41846db37313",
+          "under_6mb": true
+        },
+        "asset_strip": {
+          "path": "assets/density_04_dense_content_band_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 1063057,
+          "sha256": "e8a2f3768d02e2cd4890218a899ed52d5e280b51d388df6b46a515950ae7b6b3",
+          "under_6mb": true
+        },
+        "asset_upload_wrapper": {
+          "path": "assets/density_04_dense_content_band_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1443725,
+          "sha256": "edd57f0cdca2eae852f6dcda34ac21fdcbf42517de165bf3707f41846db37313",
+          "under_6mb": true
+        },
+        "previews": {
+          "strip_safe_overlay": {
+            "path": "previews/density_04_dense_content_band_strip_safe_overlay_2048x340.png",
+            "width": 2048,
+            "height": 340,
+            "bytes": 1050905,
+            "sha256": "b06f2b01a3794bfe672b6a33a03f85b6f94b232b9ecc82adef3467fa83b33bf7",
+            "under_6mb": true
+          },
+          "upload_safe_overlay": {
+            "path": "previews/density_04_dense_content_band_upload_safe_overlay_2048x1152.png",
+            "width": 2048,
+            "height": 1152,
+            "bytes": 1422033,
+            "sha256": "6ffd18d2d43ee448d4c1e1fc479539d9e798debdc83f79b8c5d0230a6c5f3da0",
+            "under_6mb": true
+          },
+          "center_safe_crop": {
+            "path": "previews/density_04_dense_content_band_center_safe_crop_1235x338.png",
+            "width": 1235,
+            "height": 338,
+            "bytes": 617667,
+            "sha256": "14ab40ed3cb0a8864166780978854942961f94de3ae8f2e4e481cc1e59a9c67c",
+            "under_6mb": true
+          },
+          "tv_preview_wrapper": {
+            "path": "previews/density_04_dense_content_band_tv_preview_wrapper_2560x1440.png",
+            "width": 2560,
+            "height": 1440,
+            "bytes": 1964079,
+            "sha256": "5213620698e217c219507e0e2f1b9d7a27c71fe22f61982aac1b427c697eb524",
+            "under_6mb": true
+          }
+        },
+        "qa_reads": {
+          "dimensions_read": "pass",
+          "upload_canvas_read": "pass",
+          "file_size_read": "pass",
+          "safe_area_read": "pass",
+          "object_density_read": "review_required",
+          "exact_title_spelling_read": "pass",
+          "generated_text_read": "controlled_exception_pass",
+          "paper_title_style_read": "review_required",
+          "website_hero_alignment_read": "review_required",
+          "waterfall_read": "pass",
+          "texture_noise_read": "pass for review"
+        }
+      }
+    ]
+  },
+  "reads": {
+    "official_requirements_read": "pass",
+    "skill_workflow_read": "pass",
+    "display_strip_target_read": "pass",
+    "imagegen_title_lockup_read": "review_required",
+    "exact_title_spelling_read": "pass",
+    "generated_text_read": "controlled_exception_pass",
+    "dimensions_read": "pass",
+    "upload_canvas_read": "pass",
+    "file_size_read": "pass",
+    "safe_area_read": "pass",
+    "object_density_read": "review_required",
+    "crop_resilience_read": "review_required",
+    "profile_icon_alignment_read": "pass",
+    "title_in_banner_read": "pass",
+    "paper_title_style_read": "review_required",
+    "website_hero_alignment_read": "review_required",
+    "waterfall_read": "pass",
+    "texture_noise_read": "pass for review"
+  },
+  "no_keep_without_mike_approval": true
+}

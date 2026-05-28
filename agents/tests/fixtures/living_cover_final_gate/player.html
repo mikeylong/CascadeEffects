@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .end-screen {
+        --ce-end-screen-target-fill: rgba(28, 24, 25, 0.42);
+        --ce-end-screen-video-border: rgba(188, 151, 111, 0.76);
+        --ce-end-screen-video-border-secondary: rgba(172, 146, 119, 0.70);
+        --ce-end-screen-subscribe-ring: rgba(223, 187, 135, 0.88);
+        --ce-end-screen-muted-text: #d8c19b;
+        --ce-end-screen-small-accent: #f6d37d;
+      }
+      .youtube-target {
+        background: var(--ce-end-screen-target-fill);
+        border-color: var(--ce-end-screen-video-border);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="end-screen" id="endScreen" aria-label="Titleless YouTube end screen target geometry">
+      <div class="youtube-target left-video" aria-hidden="true"></div>
+      <div class="youtube-target right-video" aria-hidden="true"></div>
+      <div class="youtube-target subscribe-target" aria-hidden="true"></div>
+    </section>
+    <script>
+      const CE_END_SCREEN_PALETTE = {
+        contract_id: "living_cover_end_screen_palette_contract_v1",
+        palette_source: "sampled_episode_backplate"
+      };
+    </script>
+  </body>
+</html>

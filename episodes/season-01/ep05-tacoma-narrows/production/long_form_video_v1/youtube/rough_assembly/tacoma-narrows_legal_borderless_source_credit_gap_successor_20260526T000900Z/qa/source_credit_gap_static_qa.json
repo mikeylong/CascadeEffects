@@ -1,0 +1,61 @@
+{
+  "model": "other_seven_source_credit_gap_static_qa_v1",
+  "created_utc": "2026-05-26T02:37:08.755Z",
+  "episode_id": "tacoma-narrows",
+  "status": "pass",
+  "passed": true,
+  "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_successor_20260526T000900Z/rough_assembly_manifest.json",
+  "player_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_successor_20260526T000900Z/player.html",
+  "source_credit_model": "center_source_credit_gap_v1",
+  "source_labels": [
+    "Ammann, von Karman, and Woodruff",
+    "Washington State DOT Tacoma Narrows history",
+    "ASCE Tacoma Narrows Bridges"
+  ],
+  "source_selection_basis": "active_long_form_fact_check_source_set",
+  "provenance_paths": [
+    "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/fact_check.md"
+  ],
+  "external_provenance_urls": [],
+  "source_credit_timing": {
+    "fade_start_seconds": 845.649342,
+    "full_opacity_seconds": 846.399342,
+    "fade_out_start_seconds": 851.599342,
+    "fade_out_end_seconds": 852.530226
+  },
+  "source_credit_review_start_model": "challenger_contextual_source_credit_review_start_v1",
+  "source_credit_review_start_seconds": 840.349,
+  "player_default_review_start_seconds": 840.349,
+  "review_player_default_review_start_seconds": 840.349,
+  "player_proof_build_config": {
+    "proofBuildId": "tacoma-narrows-source-credit-gap_20260526000900Z",
+    "proofGeneratedAtUtc": "2026-05-26T02:37:08.107Z",
+    "proofBuildJsonPath": "proof_build.json"
+  },
+  "review_player_proof_build_config": {
+    "proofBuildId": "tacoma-narrows-source-credit-gap_20260526000900Z_html_review",
+    "proofGeneratedAtUtc": "2026-05-26T02:37:08.107Z",
+    "proofBuildJsonPath": "proof_build.json"
+  },
+  "expected_proof_build_id": "tacoma-narrows-source-credit-gap_20260526000900Z",
+  "expected_review_proof_build_id": "tacoma-narrows-source-credit-gap_20260526000900Z_html_review",
+  "legal_end_screen_fade_start_seconds": 852.530226,
+  "legal_end_screen_full_opacity_seconds": 852.830226,
+  "selected_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T144059Z/proof_assets/audio/tacoma-narrows_right_rail_alignment_music_mix.wav",
+  "selected_audio_sha256": "00c7eb3f4b62bcd55a42963880f0c40c42f6643c39cb8fab64c0169c6565dc84",
+  "inherited_audio_guard_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_end_screen_borderless_successor_20260525T234119Z/qa/audio_regression_guard.json",
+  "inherited_audio_guard_sha256": "22ba9931be25590fbd9bd8c13ccf7a58fcbd10b74f8f313a652bed0456350e47",
+  "failures": [],
+  "reads": {
+    "source_credit_gap_static_read": "pass_source_credit_gap_static_qa",
+    "source_credit_names_read": "pass_three_named_sources_present_no_urls_on_screen",
+    "source_credit_timing_read": "pass_source_credits_clear_at_legal_end_screen_entry",
+    "end_screen_legal_timing_preservation_read": "pass_youtube_legal_window_end_screen_entry_v1_unchanged",
+    "borderless_placeholder_preservation_read": "pass_youtube_placeholder_borderless_underlay_v1_unchanged",
+    "audio_regression_guard_read": "pass_selected_review_audio_sha_preserved_no_remix",
+    "proof_build_freshness_config_read": "pass_player_proof_build_config_matches_proof_build_json",
+    "source_credit_review_start_read": "pass_source_credit_review_starts_before_fade_like_challenger",
+    "youtube_action_read": "blocked_other_seven_no_upload_authorized"
+  },
+  "manifest_sha256_after_write": "2ac59f8a14f2a60969415647d5edc3739ca8b8a0b7a0854e8618a18b52dce64c"
+}

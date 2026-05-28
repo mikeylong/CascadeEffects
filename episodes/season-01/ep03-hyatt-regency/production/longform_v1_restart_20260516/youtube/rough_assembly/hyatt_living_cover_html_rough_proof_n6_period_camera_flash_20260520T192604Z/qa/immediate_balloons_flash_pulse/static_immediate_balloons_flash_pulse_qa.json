@@ -1,0 +1,26 @@
+{
+  "profile_id": "hyatt_audited_flash_fullscreen_pulse_balloon_immediate_v1",
+  "predecessor_profile_id": "hyatt_audited_person_pixel_flash_origins_v1",
+  "camera_flash_count": 180,
+  "balloon_rise_count": 28,
+  "first_frame_active_balloon_count": 3,
+  "prewarmed_balloon_ids": [
+    "marked_balloon_rise_01_front_left_table_cluster_prewarmed_opening",
+    "marked_balloon_rise_02_middle_table_cluster_prewarmed_opening",
+    "marked_balloon_rise_03_upper_table_cluster_prewarmed_opening"
+  ],
+  "changed_flash_origins": [],
+  "max_full_frame_pulse_alpha": 0.07,
+  "end_screen_pulse_cap_alpha": 0.012,
+  "qa_reads": {
+    "balloon_effect_initial_frame_read": "pass_3_balloons_visible_at_t0",
+    "balloon_prewarm_origin_read": "pass_first_three_balloons_prewarmed_from_existing_table_bouquet_clusters",
+    "balloon_count_preservation_read": "pass_28_balloons",
+    "fullscreen_flash_pulse_read": "pass_subtle_full_frame_exposure_pulse_present",
+    "flash_pulse_subtlety_read": "pass_max_alpha_0.0700_under_0.070",
+    "flash_core_origin_preservation_read": "pass_all_flash_cores_preserved_on_audited_person_pixels",
+    "audited_flash_origin_preservation_read": "pass_180_audited_flash_events_preserved_unchanged",
+    "end_screen_flash_pulse_suppression_read": "pass_end_screen_pulse_capped",
+    "debug_overlay_absence_read": "pass_debug_artifacts_separate_from_viewer_player_html"
+  }
+}

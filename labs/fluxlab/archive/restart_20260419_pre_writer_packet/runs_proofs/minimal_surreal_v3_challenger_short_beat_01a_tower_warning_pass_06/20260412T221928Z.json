@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "archetype": "single_human_figure",
+      "base_seed": 72101,
+      "id": "challenger_short__beat_01a_mid_tank_wall",
+      "prompt_body": "Upper launch-tower service level before dawn, one engineer proxy in a weather jacket stands at a side-mounted terminal inside the tower, natural human body proportions, medium full-body side profile, the entire exterior opening behind him is filled by the middle section of the orange external tank like a vertical wall, no visible booster, no visible sky, no visible bottom of the tank, no lower tank curve, no outside catwalk view beyond him, only dark interior tower framing at the edges, terminal screen unreadable and dim, cold damp air, sodium work light, restrained documentary tension"
+    }
+  ],
+  "filters": {
+    "case_id": "challenger_short__beat_01a_mid_tank_wall"
+  },
+  "jobs": [
+    {
+      "api_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_06/20260412T221928Z/challenger_short__beat_01a_mid_tank_wall/minimal_surreal_editorial_v3/challenger_short__beat_01a_mid_tank_wall__minimal_surreal_editorial_v3__proof.api.json",
+      "archetype": "single_human_figure",
+      "base_seed": 72101,
+      "batch_size": 1,
+      "candidate_seeds": [
+        72101
+      ],
+      "case_id": "challenger_short__beat_01a_mid_tank_wall",
+      "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_06/20260412T221928Z/challenger_short__beat_01a_mid_tank_wall/minimal_surreal_editorial_v3/challenger_short__beat_01a_mid_tank_wall__minimal_surreal_editorial_v3",
+      "height": 1024,
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, second worker, crowd, meeting room, enclosed office bay, full shuttle hero, full stack portrait, giant monitor hero, close face portrait, snow, icicles, launch already in progress, explosion imagery, white booster slice, visible booster, booster, full shuttle body, exterior scaffolding behind subject, tower outside subject, horizon, blue sky background, open sky wedge, visible sky, stretched figure, compressed figure, squashed body, short legs, distorted anatomy, tank bottom, lower tank edge, tank base, lower tank curve, catwalk outside subject, exterior rails behind subject, ground plane, launch pad floor, outside platform",
+      "positive_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism, Upper launch-tower service level before dawn, one engineer proxy in a weather jacket stands at a side-mounted terminal inside the tower, natural human body proportions, medium full-body side profile, the entire exterior opening behind him is filled by the middle section of the orange external tank like a vertical wall, no visible booster, no visible sky, no visible bottom of the tank, no lower tank curve, no outside catwalk view beyond him, only dark interior tower framing at the edges, terminal screen unreadable and dim, cold damp air, sodium work light, restrained documentary tension",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism",
+      "prompt_body": "Upper launch-tower service level before dawn, one engineer proxy in a weather jacket stands at a side-mounted terminal inside the tower, natural human body proportions, medium full-body side profile, the entire exterior opening behind him is filled by the middle section of the orange external tank like a vertical wall, no visible booster, no visible sky, no visible bottom of the tank, no lower tank curve, no outside catwalk view beyond him, only dark interior tower framing at the edges, terminal screen unreadable and dim, cold damp air, sodium work light, restrained documentary tension",
+      "queue": {
+        "attempted": true,
+        "queued": true,
+        "response": {
+          "node_errors": {},
+          "number": 0,
+          "prompt_id": "59c37a54-0e0b-42a9-bf15-a7a5e6eb573a"
+        }
+      },
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "steps": 12,
+      "style_id": "minimal_surreal_editorial_v3",
+      "suite_id": "minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_06",
+      "ui_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_06/20260412T221928Z/challenger_short__beat_01a_mid_tank_wall/minimal_surreal_editorial_v3/challenger_short__beat_01a_mid_tank_wall__minimal_surreal_editorial_v3__proof.ui.json",
+      "width": 576
+    }
+  ],
+  "render_overrides": {
+    "batch_size": 1,
+    "height": 1024,
+    "steps": 12,
+    "width": 576
+  },
+  "run_id": "20260412T221928Z",
+  "run_manifest_path": "/Users/mike/FluxLab_CascadeEffects/runs/proofs/minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_06/20260412T221928Z.json",
+  "stage": "proof",
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, second worker, crowd, meeting room, enclosed office bay, full shuttle hero, full stack portrait, giant monitor hero, close face portrait, snow, icicles, launch already in progress, explosion imagery, white booster slice, visible booster, booster, full shuttle body, exterior scaffolding behind subject, tower outside subject, horizon, blue sky background, open sky wedge, visible sky, stretched figure, compressed figure, squashed body, short legs, distorted anatomy, tank bottom, lower tank edge, tank base, lower tank curve, catwalk outside subject, exterior rails behind subject, ground plane, launch pad floor, outside platform",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt"
+    }
+  ],
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_06",
+  "suite_manifest_path": "/Users/mike/FluxLab_CascadeEffects/proofs/suites/minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_06.json"
+}

@@ -1,0 +1,109 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_formal_break__final_upscale",
+  "base_fragment": "image_resize_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131805,
+    "selected_seed": 972054013131805,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 8,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_formal_break/final/challenger_formal_break_final",
+    "note_text": "Final beat 05 deliverable. Preserve the distant formal split and keep the frame quiet enough for mobile reading.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "final_upscale",
+    "reference_board_dir": "references/episodes/challenger/breach_plume_tracking/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "tense",
+    "palette_policy": "contract-limited",
+    "accent_palette": "ash gray, smoke white, charcoal, signal ember",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the fracture line above the subtitle band and preserve an empty top field for UI",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "distant launch stack fracture held inside a quiet smoke field",
+    "beat_id": "beat_05",
+    "historical_anchor": "Challenger breakup and breach plume seen as a distant stack failure rather than a disaster tableau",
+    "surreal_breach": "the stack separates into one severe formal split while the field stays eerily calm",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_scene_plate/challenger_formal_break/refine/challenger_formal_break_refine_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "Challenger stack and plume reduced to a distant vertical rupture in open air",
+    "support_fragments": [
+      "one smoke field and debris split kept subordinate to the single formal break",
+      "a tiny ember accent held inside a mostly gray atmosphere"
+    ],
+    "directives": [
+      "avoid disaster-poster blast spectacle",
+      "keep the breakup distant, severe, and quiet"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "widgets": {
+        "upscale_method": "{{ params.upscale_method }}",
+        "scale_by": "{{ params.upscale_factor }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_formal_break__final_upscale.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_formal_break__final_upscale.json"
+  }
+}

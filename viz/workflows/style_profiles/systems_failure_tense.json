@@ -1,0 +1,19 @@
+{
+  "name": "systems_failure_tense",
+  "defaults": {
+    "style_profile": "systems_failure_tense",
+    "temperature": "tense",
+    "palette_policy": "episode-specific",
+    "human_presence": "traces-only",
+    "post_work": "almost-none"
+  },
+  "prompts": {
+    "global_base": "systems-failure key art, symbolic and object-led, mechanism-first storytelling, investigative editorial tone, non-typographic image logic, one dominant clue, at most two supporting elements, industrial textures, blank display glass, unmarked surfaces, alarm-color accents, serious and restrained, no clear human figures, no scenic room overview, no cyberpunk, no glossy sci-fi, no horror poster, no conspiracy-board clutter",
+    "scene_base": "calmer pressure than packaging, close or medium crop, traces of human presence only, subtle display bloom used only as a blank or unresolved surface cue, institutional materials, investigative rather than sensational",
+    "packaging_base": "hotter than scene stills, nearly finished plate, safe zone preserved inside the composition, stronger anomaly emphasis, high thumbnail legibility, still serious and non-lurid, build around raw mechanical hardware, blank cast housings, unmarked surfaces, no panel faces, no screens, no paper-carried clues",
+    "thumbnail_base": "landscape packaging plate, dominant anomaly on the right or center-right, cleaner title band, brutal crop, bold negative space, strong silhouette, broad anomaly object, blank service hatch or cast housing, at most one small support fragment",
+    "shorts_base": "portrait packaging plate, single emblematic isolated mechanism, strongest crop, mobile-legible silhouette, intense but controlled, stripped field, blank hardware surfaces, no display faces or marked controls",
+    "refine_base": "preserve the single dominant clue, preserve non-typographic storytelling, preserve the safe zone and accent palette, preserve blank or unmarked surfaces, add material stress, glow, and edge clarity without becoming literal",
+    "final_base": "canonical final deliverable, preserve the single dominant clue, preserve safe zone and episode accent palette, preserve blank or unmarked surfaces, preserve symbolic systems-failure language"
+  }
+}

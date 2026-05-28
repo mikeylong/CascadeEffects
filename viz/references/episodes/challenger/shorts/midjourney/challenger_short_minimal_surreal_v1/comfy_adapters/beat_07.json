@@ -1,0 +1,65 @@
+{
+  "shot_id": "beat_07",
+  "included_reference_indices": [2, 0, 1],
+  "reference_crops": {
+    "0": [0.1, 0.08, 0.9, 0.92],
+    "1": [0.08, 0.04, 0.92, 0.96],
+    "2": [0.08, 0.08, 0.92, 0.92]
+  },
+  "grid_layout_template": "cover_weighted_triptych",
+  "prompt_adapter_append": [
+    "if shuttle launch hardware appears, keep Challenger as a faithful NASA Space Shuttle stack with correct orbiter, external tank, and twin solid rocket boosters",
+    "if the shuttle appears it must read as a winged shuttle orbiter attached to a rust-orange external tank flanked by two white solid rocket boosters, not a single cylindrical rocket",
+    "favor real launch-site and institutional context over abstract monolith collapse or generic rocket simplification",
+    "preserve the orbiter nose, delta-wing body, and booster relationship as recognizable shuttle geometry rather than simplifying them away",
+    "if any exhaust or flame appears, it must originate only from aft booster nozzles or orbiter main engines at the rear, never from the nose, sidewalls, mid-body, or forward joints"
+  ],
+  "negative_adapter_terms": [
+    "generic rocket",
+    "abstract monolith",
+    "single-stick rocket",
+    "single cylindrical rocket",
+    "capsule rocket",
+    "missile",
+    "needle rocket",
+    "conical nose rocket",
+    "front exhaust",
+    "forward exhaust",
+    "nose exhaust",
+    "mid-body exhaust",
+    "side exhaust",
+    "plume from fuselage",
+    "plume from nose",
+    "missing external tank",
+    "missing booster",
+    "distorted orbiter",
+    "incorrect shuttle anatomy"
+  ],
+  "steer_target": "accurate_shuttle_documentary",
+  "steer_keep_traits": [
+    "accurate shuttle stack silhouette",
+    "winged orbiter plus external tank plus twin boosters",
+    "real launch-site context",
+    "warning seam inside real hardware"
+  ],
+  "steer_avoid_traits": [
+    "generic rocket body",
+    "abstract monolith collapse",
+    "side exhaust",
+    "malformed shuttle"
+  ],
+  "ranking_bias_tags": [
+    "accurate_shuttle_stack",
+    "single_object_severity",
+    "one_accent_only",
+    "compressed_monolith"
+  ],
+  "draft_visual_softpass": {
+    "enabled": true,
+    "allowed_visual_failures": [
+      "asymmetry_ratio_below_threshold",
+      "palette_discipline_below_threshold",
+      "focal_clarity_below_threshold"
+    ]
+  }
+}

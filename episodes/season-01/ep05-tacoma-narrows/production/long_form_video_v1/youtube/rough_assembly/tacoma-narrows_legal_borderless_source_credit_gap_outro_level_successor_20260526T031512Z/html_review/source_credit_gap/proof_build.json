@@ -1,0 +1,103 @@
+{
+  "episode_id": "tacoma-narrows",
+  "title": "Tacoma Narrows",
+  "proof_build_id": "tacoma-narrows-source-credit-gap-outro-level_20260526T031512Z_html_review",
+  "proof_generated_at_utc": "2026-05-26T03:15:12.345Z",
+  "packet_stamp": "source_credit_gap",
+  "player_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html",
+  "player_url": "http://127.0.0.1:8766/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T144059Z/player.html?v=tacoma-narrows_rolling_caption_rail_20260523145627933Z",
+  "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/rough_assembly_manifest.json",
+  "intro_trim_model": "first_eight_intro_trim_6s_v1",
+  "intro_trim_seconds": 6,
+  "previous_voice_start_offset_seconds": 9.601451,
+  "voice_start_offset_seconds": 3.601451,
+  "caption_motion_model": "constant_speed_audio_time_aligned_scroll_v2",
+  "review_transport_scrub_model": "foreground_transport_scrub_lock_v1",
+  "caption_playback_clock_model": "media_time_smoothed_raf_clock_v3",
+  "caption_stack_render_model": "compositor_linear_transform_driver_v1",
+  "caption_scroll_smoothness_model": "compositor_linear_transform_driver_v1",
+  "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+  "caption_end_screen_handoff_model": "review_approved_end_screen_entry_v1",
+  "review_approved_end_screen_entry_model": "review_approved_end_screen_entry_v1",
+  "review_approved_youtube_placeholder_fade_start_seconds": 844,
+  "end_screen_fade_timing_model": "caption_exit_aligned_end_screen_fade_v1",
+  "last_caption_visible_exit_start_seconds": 844,
+  "last_caption_fully_suppressed_seconds": 844.3,
+  "youtube_placeholder_fade_start_seconds": 844,
+  "youtube_placeholder_full_opacity_seconds": 844.3,
+  "youtube_placeholder_transition_duration_seconds": 0.3,
+  "caption_end_screen_gap_seconds": 0,
+  "end_screen_palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+  "end_screen_adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+  "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+  "legal_end_screen_timing_successor": {
+    "model": "youtube_legal_window_end_screen_entry_v1",
+    "fade_start_seconds": 852.530226,
+    "full_opacity_seconds": 852.830226,
+    "transition_duration_seconds": 0.3
+  },
+  "end_screen_placeholder_style_successor": {
+    "model": "youtube_placeholder_borderless_underlay_v1",
+    "removed": [
+      "css_border",
+      "outer_glow_ring",
+      "inset_glow_ring",
+      "subscribe_inner_ring"
+    ],
+    "fill_preserved": true,
+    "audio_changed": false,
+    "upload_performed": false
+  },
+  "source_credit_gap_successor": {
+    "model": "center_source_credit_gap_v1",
+    "source_labels": [
+      "Ammann, von Karman, and Woodruff",
+      "Washington State DOT Tacoma Narrows history",
+      "ASCE Tacoma Narrows Bridges"
+    ],
+    "source_selection_basis": "active_long_form_fact_check_source_set",
+    "provenance_paths": [
+      "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/fact_check.md"
+    ],
+    "external_provenance_urls": [],
+    "timing": {
+      "fade_start_seconds": 845.649342,
+      "full_opacity_seconds": 846.399342,
+      "fade_out_start_seconds": 851.599342,
+      "fade_out_end_seconds": 852.530226
+    },
+    "review_start_model": "challenger_contextual_source_credit_review_start_v1",
+    "review_start_seconds": 840.349,
+    "review_context_before_source_credit_seconds": 5.3,
+    "legal_end_screen_fade_start_seconds": 852.530226,
+    "legal_end_screen_full_opacity_seconds": 852.830226,
+    "audio_changed": false,
+    "end_screen_timing_changed": false,
+    "placeholder_style_changed": false,
+    "mp4_render_created": false,
+    "upload_performed": false
+  },
+  "html_review_only": true,
+  "mp4_render_created": false,
+  "upload_performed": false,
+  "outro_level_successor": {
+    "model": "episode_post_vo_outro_level_successor_v1",
+    "created_utc": "2026-05-26T03:15:12.345Z",
+    "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T144059Z/proof_assets/audio/tacoma-narrows_right_rail_alignment_music_mix.wav",
+    "source_audio_sha256": "00c7eb3f4b62bcd55a42963880f0c40c42f6643c39cb8fab64c0169c6565dc84",
+    "output_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/tacoma-narrows_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+    "output_audio_sha256": "ca011c47e0e8f8d3fdaed7061d08bb93946de47367fc2158157f0ccb7d3eb428",
+    "gain_db_after_voice": 5,
+    "gain_ramp_start_seconds": 843.235011,
+    "gain_ramp_full_seconds": 846.235011,
+    "audio_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/qa/outro_level_successor_audio_qa.json",
+    "audio_qa_sha256": "0f57eccb9a4f21621a66781673f543f48be217ea99cd773ef98a983fc65abc88",
+    "visual_timing_changed": false,
+    "source_credit_timing_changed": false,
+    "end_screen_timing_changed": false,
+    "placeholder_style_changed": false,
+    "mp4_render_created": false,
+    "upload_performed": false,
+    "youtube_upload_or_visibility_changed": false
+  }
+}

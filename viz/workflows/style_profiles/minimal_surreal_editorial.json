@@ -1,0 +1,99 @@
+{
+  "name": "minimal_surreal_editorial",
+  "defaults": {
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "human_presence": "traces-only",
+    "post_work": "typography-later"
+  },
+  "negative_prompt_defaults": [
+    "high detail",
+    "texture",
+    "noisy surface",
+    "photoreal clutter",
+    "many objects",
+    "crowded scene",
+    "dramatic cinematic lighting",
+    "motion blur",
+    "action pose",
+    "ornate realism",
+    "excessive foliage detail",
+    "complex sky",
+    "center-weighted composition",
+    "symmetrical layout",
+    "multiple bright accents",
+    "text",
+    "watermark",
+    "logo",
+    "ui overlay"
+  ],
+  "contract_metrics": {
+    "evaluation_version": "1.0.0",
+    "style_id": "minimal_surreal_editorial",
+    "metrics": [
+      {
+        "id": "asymmetry_ratio",
+        "weight": 0.35,
+        "pass_threshold": 0.7
+      },
+      {
+        "id": "palette_discipline",
+        "weight": 0.2,
+        "pass_threshold": 0.8
+      },
+      {
+        "id": "focal_clarity",
+        "weight": 0.3,
+        "pass_threshold": 0.8
+      },
+      {
+        "id": "visual_noise",
+        "weight": 0.15,
+        "pass_threshold": 0.8
+      }
+    ],
+    "overall_pass_threshold": 0.78,
+    "hard_fail_checks": [
+      "detected_text",
+      "control_asset_leakage",
+      "more_than_one_saturated_accent",
+      "center_weighted_primary_subject",
+      "subject_count_exceeds_limit",
+      "symmetry_too_high",
+      "subtitle_band_intrusion"
+    ]
+  },
+  "caption_safe_defaults": {
+    "top_ui": [0.0, 0.0, 1.0, 0.12],
+    "subtitles": [0.08, 0.74, 0.92, 0.96]
+  },
+  "subject_reference_defaults": {
+    "enabled": true,
+    "clip_vision_model_env": "CE_COMFY_CLIP_VISION_MODEL",
+    "draft_strength": 0.7,
+    "refine_strength": 0.45,
+    "noise_augmentation": 0.0,
+    "crop": "none"
+  },
+  "plate_seed_defaults": {
+    "enabled": true,
+    "draft_denoise": 0.5
+  },
+  "source_package": {
+    "root": "references/style_packages/minimal_surreal_editorial",
+    "visual_contract": "references/style_packages/minimal_surreal_editorial/visual.contract.json",
+    "evaluator_spec": "references/style_packages/minimal_surreal_editorial/eval/evaluator-spec.json",
+    "workflow_spec": "references/style_packages/minimal_surreal_editorial/comfyui/workflow-spec.md"
+  },
+  "prompts": {
+    "global_base": "minimal surreal editorial composition, reduced geometric forms, vast negative space across most of the image, one dominant environmental field, one saturated accent element used as a semantic signal, exactly one subtle violation of reality, stillness, soft diffuse lighting, clean edges, low detail, high thumbnail readability, asymmetrical balance, contemplative atmosphere",
+    "scene_base": "quiet reduced editorial still, historical anchor remains legible through symbolic simplification, one side visually dominant and one side mostly empty, keep the image suspended rather than dramatic",
+    "shorts_scene_base": "portrait beat plate for vertical shorts, mobile-legible silhouette, primary subject kept outside the subtitle and top-ui keep-out bands, historical legibility without literal reconstruction, stillness over action",
+    "packaging_base": "minimal-surreal packaging plate, high small-size clarity, one dominant anchor object, quiet field preserved for title-safe space, severe reduction instead of collage density",
+    "thumbnail_base": "landscape packaging plate, broad silhouette, one dominant anchor object, quiet field preserved for lockup, avoid centered composition",
+    "shorts_base": "portrait packaging plate, strong header-safe negative space, dominant anchor object placed off-center, keep the frame quiet and legible at mobile size",
+    "refine_base": "preserve reduction, preserve asymmetry, preserve the single surreal breach, add edge fidelity without adding texture clutter or realism drift",
+    "final_base": "canonical final deliverable, preserve the dominant field, preserve the single saturated accent, preserve exactly one surreal breach, preserve caption-safe negative space, preserve high thumbnail clarity"
+  }
+}

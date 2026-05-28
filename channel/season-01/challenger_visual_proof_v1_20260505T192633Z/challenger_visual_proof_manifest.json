@@ -1,0 +1,222 @@
+{
+  "artifact_id": "challenger_visual_proof_v1",
+  "created_at": "20260505T192633Z",
+  "status": "tighten",
+  "human_disposition": "tighten",
+  "tighten_reason": "Superseded by balance repair: Paper Architecture Challenger render was too large and right Short media plate was too small.",
+  "supersedes": "challenger_visual_proof_v1_20260505T181530Z",
+  "revision_reason": "selected_variant_01_source_plate_motion_proof_rebuild",
+  "scope": "challenger_only_visual_alignment_proof",
+  "not_publishable_reason": "Alignment proof using the user-selected regenerated Challenger source plate and deterministic media compositing; requires human review before trailer promotion.",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration_seconds": 10.0
+  },
+  "inputs": {
+    "website_challenger_thumbnail_style_reference_only": {
+      "path": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/challenger-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "sha256": "954a38aba816accb98232a38cd3725d3c977ce1d1bc0ef0835c5df3f2ce02a17",
+      "used_as_composited_background": false
+    },
+    "fresh_3_4_front_left_source_plate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_source_plate_regen_v1_20260505T184110Z/source_art/challenger_true_left_side_3_4_source_plate.png",
+      "sha256": "71bbf486f8d481bc489426627211c016cb6c84034c9bcc3204cd8876e35dcf5c",
+      "role": "selected regenerated Paper Architecture Challenger source plate for this motion proof",
+      "source_plate_regen_package": "challenger_source_plate_regen_v1_20260505T184110Z",
+      "selected_source_variant": "variant_01_broad_left_side_prompt",
+      "mirrored": false,
+      "literal_side_elevation": false
+    },
+    "source_plate_regen_package": "challenger_source_plate_regen_v1_20260505T184110Z",
+    "selected_source_variant": "variant_01_broad_left_side_prompt",
+    "short_video_pre_caption": {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_scoped_v1/motion_contact_sheet/pass_11/final_exports/challenger_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260430T_challenger_house_crt_visible_scanline_final_gate_pass01/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+      "sha256": "2a8dda604e5d4b88de01048a74063752110f3dcb0998ecf8c5e254f8d5c89f54",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "9533440/317761"
+          }
+        ],
+        "format": {
+          "duration": "62.062695",
+          "size": "21717055"
+        }
+      }
+    },
+    "v1_audio_mix": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v1_20260505T044755Z/audio/channel_trailer_final_mix.wav",
+      "sha256": "0354af1bf0e41d903db1c8040bbd03d1403170fe225f841b1fd3e4b80b7f9b96",
+      "referenced_only": true,
+      "rendered_or_remixed": false
+    },
+    "visual_reference": "Selected variant_01 regenerated Challenger source plate on the left side of the composition with restrained right Short media plate"
+  },
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z/source_art/challenger_selected_variant_01_base_plate.png",
+    "sha256": "2f1e36b53ec47ef4e39120904e9836eb31b653368a04092d7f79f1975af42aa6",
+    "base_plate_source": "selected_variant_01_challenger_anchor_right_negative_space",
+    "source_plate_regen_package": "challenger_source_plate_regen_v1_20260505T184110Z",
+    "selected_source_variant": "variant_01_broad_left_side_prompt",
+    "visual_direction": "cascade-paper-architectures-ink-lit-v1",
+    "carrier": "selected_regenerated_paper_architecture_source_plate_with_clean_right_negative_space",
+    "texture_noise_read": "pass",
+    "texture_detail_creep_read": "pass",
+    "waterfall_read": "pass_no_water_added",
+    "generated_text_logo_label_read": "pass_none_added",
+    "brand_signal_artifact_read": "pass_no_cyan_or_coral_hardware_artifacts_added",
+    "pad_hardware_authenticity_read": "reference_based_review_required_for_publishable_art",
+    "right_negative_space_crop_xy": [
+      1180,
+      90,
+      1840,
+      990
+    ],
+    "right_negative_space_luma_variance": 2.202,
+    "right_negative_space_read": "pass",
+    "right_negative_space_note": "Allows the clean paper floor plane; blocks subject/detail clutter in the media-plate field.",
+    "left_anchor_camera": "selected_regenerated_3_4_left_side_view",
+    "left_anchor_orientation": "inward_toward_right_media_plate",
+    "left_anchor_orientation_read": "pass",
+    "three_quarter_left_side_read": "pass",
+    "literal_side_elevation_read": "pass_no_literal_side_elevation",
+    "rear_facing_thumbnail_read": "pass_no_rear_facing_thumbnail_carrier",
+    "mirrored_source_read": "pass_no_mirror_transform_used",
+    "left_anchor_orientation_method": "user-selected regenerated Paper Architecture source plate placed left/center-left; source plate package selected variant_01_broad_left_side_prompt"
+  },
+  "composition": {
+    "geometry_source": "selected_variant_01_base_plate_right_negative_space",
+    "source_plate_regen_package": "challenger_source_plate_regen_v1_20260505T184110Z",
+    "selected_source_variant": "variant_01_broad_left_side_prompt",
+    "left_anchor_transform": "selected_variant_01_source_plate_no_mirror_no_cached_background",
+    "right_plate_transform": "restrained_right_media_plate_shallow_perspective",
+    "short_plate_quad_xy": [
+      [
+        1225.0,
+        210.0
+      ],
+      [
+        1585.0,
+        155.0
+      ],
+      [
+        1585.0,
+        875.0
+      ],
+      [
+        1230.0,
+        810.0
+      ]
+    ],
+    "left_anchor_region_xy": [
+      0,
+      0,
+      1115,
+      1080
+    ],
+    "left_anchor_camera": "selected_regenerated_3_4_left_side_view",
+    "left_anchor_orientation": "inward_toward_right_media_plate",
+    "left_anchor_orientation_read": "pass",
+    "three_quarter_left_side_read": "pass",
+    "literal_side_elevation_read": "pass_no_literal_side_elevation",
+    "rear_facing_thumbnail_read": "pass_no_rear_facing_thumbnail_carrier",
+    "mirrored_source_read": "pass_no_mirror_transform_used",
+    "left_anchor_orientation_method": "user-selected regenerated Paper Architecture source plate placed left/center-left; source plate package selected variant_01_broad_left_side_prompt",
+    "left_anchor_right_plate_read": "pass",
+    "right_negative_space_read": "pass",
+    "edge_alias_read": "pass",
+    "edge_alias_method": "4x supersampled rounded media card, projective warp, soft alpha, LANCZOS downsample",
+    "short_card_audio_used": false,
+    "short_frames_extracted": 240,
+    "visual_motion_report": {
+      "card_crop_xy": [
+        1190,
+        130,
+        1620,
+        920
+      ],
+      "card_sample_indices": [
+        12,
+        48,
+        96,
+        144,
+        192,
+        228
+      ],
+      "card_luma_deltas": [
+        26.162,
+        3.519,
+        3.023,
+        3.947,
+        18.138
+      ],
+      "card_luma_variance": [
+        34.643,
+        38.442,
+        38.256,
+        38.008,
+        38.452,
+        33.428
+      ],
+      "card_nonblank_read": "pass",
+      "card_motion_read": "pass"
+    }
+  },
+  "artifacts": {
+    "output_root": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z",
+    "source_background": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z/source_art/challenger_selected_variant_01_base_plate.png",
+    "still_proof": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z/still/challenger_visual_proof_v1_still.png",
+    "motion_proof_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z/video/challenger_visual_proof_v1_motion.mp4",
+    "motion_proof_sha256": "4c2c9d3c67930eba04d31b3bdca2e46fa42e5ba7ef637f7a2c6eff95fca59a99",
+    "contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z/qa/challenger_visual_proof_v1_contact_sheet.jpg",
+    "geometry_overlay": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z/qa/sketch_geometry_overlay.png",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260505T192633Z/challenger_visual_proof_manifest.json"
+  },
+  "qa": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "10.000000",
+        "size": "1211023"
+      }
+    },
+    "decode_read": "pass",
+    "card_nonblank_read": "pass",
+    "card_motion_read": "pass",
+    "right_negative_space_read": "pass",
+    "left_anchor_orientation_read": "pass",
+    "three_quarter_left_side_read": "pass",
+    "literal_side_elevation_read": "pass_no_literal_side_elevation",
+    "rear_facing_thumbnail_read": "pass_no_rear_facing_thumbnail_carrier",
+    "mirrored_source_read": "pass_no_mirror_transform_used",
+    "texture_noise_read": "pass",
+    "texture_detail_creep_read": "pass",
+    "waterfall_read": "pass_no_water_added",
+    "generated_text_logo_label_read": "pass_none_added",
+    "brand_signal_artifact_read": "pass_no_cyan_or_coral_hardware_artifacts_added",
+    "edge_alias_read": "pass",
+    "left_anchor_right_plate_read": "pass"
+  }
+}

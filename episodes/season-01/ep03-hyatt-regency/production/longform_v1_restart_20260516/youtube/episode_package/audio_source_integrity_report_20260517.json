@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "episode_id": "hyatt-regency",
+  "created_utc": "2026-05-17T07:20:00Z",
+  "script_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/Ep3_Hyatt-Regency.txt",
+  "script_sha256": "f9cf8878eaad94e3d5eac528aa9bedbfc25ce2d2fcecc61e383b8cb1d70547be",
+  "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyattregency_production/audio_package.json",
+  "audio_package_sha256": "e0f2d89c5b28d0e5e531951fe7391af7cf3e06aacf94b4e0ca7416f72b70d7d2",
+  "effective_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyattregency_production/effective_final_jobs.elevenlabs.jsonl",
+  "packaged_wav_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/final/Ep3_Hyatt-Regency.wav",
+  "packaged_wav_sha256": "4987c649a19cccc36f3b1c0f0cddddba535e4a877be69c562f0e91302b550929",
+  "transcript_path": "/Users/mike/Audio_CascadeEffects/tmp/transcripts_final/Ep3_Hyatt-Regency.diarized.txt",
+  "transcript_sha256": "874c56bd2a101b09c4a6769968cbe3cadf2f20a8683353f85bdb28efbdf94f66",
+  "audio_duration_seconds": 833.642812,
+  "audio_codec": "pcm_s16le",
+  "sample_rate": 44100,
+  "channels": 1,
+  "effective_job_count": 5,
+  "script_stripped_prosody_equals_effective_manifest_input": true,
+  "script_stripped_character_count": 12308,
+  "effective_manifest_input_character_count": 12308,
+  "prosody_tags_in_effective_manifest_input": false,
+  "prosody_tags_in_transcript": false,
+  "transcript_time_phrase_sample": "[00:00:27.365-00:00:33.274] SPEAKER_00: At 7.05 pm, the fourth floor walkway collapsed onto the second floor walkway directly below it.",
+  "reads": {
+    "audio_source_integrity_read": "pass_existing_audio_rendered_from_locked_script_with_prosody_tags_stripped",
+    "tts_prosody_tag_not_spoken_read": "pass",
+    "tts_time_phrase_spot_check_read": "pass_transcript_reads_7_05_pm",
+    "audio_package_hash_read": "pass",
+    "audio_transcript_hash_read": "pass",
+    "audio_duration_read": "pass"
+  }
+}

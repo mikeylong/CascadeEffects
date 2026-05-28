@@ -1,0 +1,56 @@
+{
+  "url": "http://127.0.0.1:8818/player.html?debug=1",
+  "title": "Challenger Living Cover Precise Matte Visibility Repair HTML Approval Proof",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "sample_times_seconds": [
+    12,
+    18,
+    252,
+    444,
+    632,
+    810,
+    1012,
+    1192,
+    1214.7,
+    1215.5
+  ],
+  "reads": {
+    "matte_loaded_read": "pass",
+    "foreground_probe_read": "pass",
+    "open_sky_probe_read": "pass",
+    "aircraft_visibility_read": "pass",
+    "dust_visibility_read": "pass",
+    "outro_caption_suppression_read": "pass"
+  },
+  "observed_ranges": {
+    "aircraft_visible_count_range": [
+      1,
+      1
+    ],
+    "dust_visible_count_range": [
+      59,
+      66
+    ],
+    "foreground_probe_alpha": {
+      "tower": 0,
+      "shuttle": 0,
+      "pad": 0
+    },
+    "open_sky_probe_alpha": {
+      "leftSky": 1,
+      "rightSky": 1,
+      "towerGap": 1
+    }
+  },
+  "screenshots": [
+    "qa/browser/precise_matte_visibility_repair_12s.png",
+    "qa/browser/precise_matte_visibility_repair_632s.png",
+    "qa/browser/precise_matte_visibility_repair_810s.png",
+    "qa/browser/precise_matte_visibility_repair_1215p5s.png",
+    "qa/browser/precise_matte_visibility_repair_normal_632s.png"
+  ],
+  "notes": "Runtime QA over local HTTP. Debug mode confirms matte loaded, foreground probes blocked, open-sky probes allowed, one active aircraft visible at sampled event times, and 59-66 dust motes visible in open sky."
+}

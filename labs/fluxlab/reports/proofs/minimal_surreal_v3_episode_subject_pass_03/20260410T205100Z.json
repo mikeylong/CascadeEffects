@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 65001,
+      "case_id": "737_max__tailplane_trim_contradiction",
+      "prompt_body": "Boeing 737 MAX 8 in a three-quarter rear climb view, enlarged engines mounted forward and high, silver fuselage and blue tail clearly readable, the horizontal stabilizer visibly set nose-down at a wrong angle while the aircraft still holds a normal climb, flat gray sky, one unmistakable trim contradiction inside a familiar airliner",
+      "styles": [
+        {
+          "api_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_episode_subject_pass_03/20260410T205100Z/737_max__tailplane_trim_contradiction/minimal_surreal_editorial_v3/737_max__tailplane_trim_contradiction__minimal_surreal_editorial_v3__proof.api.json",
+          "batch_size": 1,
+          "candidate_seeds": [
+            65001
+          ],
+          "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_episode_subject_pass_03/20260410T205100Z/737_max__tailplane_trim_contradiction/minimal_surreal_editorial_v3/737_max__tailplane_trim_contradiction__minimal_surreal_editorial_v3",
+          "height": 1024,
+          "image_paths": [
+            "/Users/mike/AI/comfy/output/cascadeeffects_fluxlab/proofs/minimal_surreal_v3_episode_subject_pass_03/20260410T205100Z/737_max__tailplane_trim_contradiction/minimal_surreal_editorial_v3/737_max__tailplane_trim_contradiction__minimal_surreal_editorial_v3_00001_.png"
+          ],
+          "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents",
+          "positive_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, Boeing 737 MAX 8 in a three-quarter rear climb view, enlarged engines mounted forward and high, silver fuselage and blue tail clearly readable, the horizontal stabilizer visibly set nose-down at a wrong angle while the aircraft still holds a normal climb, flat gray sky, one unmistakable trim contradiction inside a familiar airliner",
+          "queue": {
+            "attempted": true,
+            "queued": true,
+            "response": {
+              "node_errors": {},
+              "number": 11,
+              "prompt_id": "ad716cf7-f641-49bb-930e-237ac209a970"
+            }
+          },
+          "review": {
+            "notes": ""
+          },
+          "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+          "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+          "steps": 12,
+          "style_id": "minimal_surreal_editorial_v3",
+          "ui_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_episode_subject_pass_03/20260410T205100Z/737_max__tailplane_trim_contradiction/minimal_surreal_editorial_v3/737_max__tailplane_trim_contradiction__minimal_surreal_editorial_v3__proof.ui.json",
+          "width": 576
+        }
+      ]
+    }
+  ],
+  "run_id": "20260410T205100Z",
+  "run_manifest_path": "/Users/mike/FluxLab_CascadeEffects/runs/proofs/minimal_surreal_v3_episode_subject_pass_03/20260410T205100Z.json",
+  "stage": "proof",
+  "suite_id": "minimal_surreal_v3_episode_subject_pass_03",
+  "suite_manifest_path": "/Users/mike/FluxLab_CascadeEffects/proofs/suites/minimal_surreal_v3_episode_subject_pass_03.json"
+}

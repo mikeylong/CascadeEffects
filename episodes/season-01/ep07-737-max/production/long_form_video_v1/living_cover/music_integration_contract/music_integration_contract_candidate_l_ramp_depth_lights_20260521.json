@@ -1,0 +1,200 @@
+{
+  "packet_id": "737_max_music_integration_contract_candidate_l_ramp_depth_lights_20260521",
+  "episode_id": "737-max",
+  "episode_title": "737 MAX",
+  "workflow": "long_form_video_production_v1",
+  "schema_version": "living_cover_music_integration_contract_v1",
+  "created_at": "2026-05-21",
+  "status": "review_ready_pending_human_keep",
+  "human_disposition": "pending",
+  "may_advance": false,
+  "intro_trim_model": "first_eight_intro_trim_6s_v1",
+  "intro_trim_seconds": 6,
+  "previous_voice_start_offset_seconds": 9.601451,
+  "current_gate": "music_integration_contract_created_for_right_rail_review",
+  "next_required_gate": "human_keep_on_refreshed_rolling_caption_rail_rough_proof",
+  "contract_md_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/music_integration_contract/music_integration_contract_candidate_l_ramp_depth_lights_20260521.md",
+  "contract_md_sha256": "18cf342c33e84ed6360cb0b10fe3600fd30567fa5a61c0178ca3804bef7cba94",
+  "source_art": {
+    "candidate_id": "candidate_l_ramp_depth_lights",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/candidates/737_max_living_cover_source_art_candidate_l_ramp_depth_lights_1920x1080_20260519.png",
+    "sha256": "05519145f11d4ceb49d38d6684fcb029877fca0bcec2329165eb81ff317a28b4",
+    "keep_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/source_art_candidate_l_ramp_depth_lights_keep_manifest_20260519.json",
+    "keep_manifest_sha256": "4f7349ec5914ae138e54d1a2925bfae27dc8b9b05c0a316504fc7e8b559a83f8"
+  },
+  "cue_map_keep": {
+    "disposition": "keep",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/cue_map/human_living_cover_cue_map_keep_candidate_l_20260520.md",
+    "sha256": "523a642061bb270e82a8a3961b777255f2904979c2dd1a62ac4b660419199a99",
+    "cue_map_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/cue_map/living_cover_cue_map_candidate_l_ramp_depth_lights_20260519.md",
+    "cue_map_sha256": "ba574646a29f68de063b1732712a67ac61e51bdd82769c96f7dacd8056d03fb5"
+  },
+  "ambient_effects_layer_keep": {
+    "disposition": "keep",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/ambient_effects/human_living_cover_ambient_effects_layer_keep_candidate_l_20260520.md",
+    "sha256": "f8913090600e4e4e991ab26f858d12e4aab44aeec7e8102c280940649856a5a8",
+    "ambient_effects_layer_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/ambient_effects/living_cover_ambient_effects_layer_candidate_l_ramp_depth_lights_20260520.md",
+    "ambient_effects_layer_sha256": "108d2337f84cdbb2e90a485a878baa13147ea5ce1076402ce5f196ca9bbdae17"
+  },
+  "locked_script": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/Ep7_737-MAX.txt",
+    "sha256": "3f95aaf72b3144f0c33ee85e77d18140a888ba97c46eb89b0cfaad5c61a7c718",
+    "word_count": 2166
+  },
+  "voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/final/Ep7_737-MAX.wav",
+    "sha256": "adaf19d653f7d673d601ba0f273ef822dbce375dee25ec5c3554f687b839db71",
+    "duration_seconds": 942.869478,
+    "size_bytes": 83161166,
+    "codec_name": "pcm_s16le",
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "bits_per_sample": 0,
+    "bit_rate": 705600,
+    "profile_id": "longform_mike_v1"
+  },
+  "timing_source": {
+    "path": "/Users/mike/Audio_CascadeEffects/tmp/transcripts_final/Ep7_737-MAX.whisperx.json",
+    "sha256": "6b2cd28bd172c0fff59c113b1b465fc0853cf57a7af0a529590d80ea5747ae8f",
+    "role": "timing_only_not_caption_text"
+  },
+  "music_sources": {
+    "registry": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json",
+      "sha256": "63ccbbe7db489ff01c2619bde1d481df86a96bb3292a9f95c7b0127e35da6d0d",
+      "track_id": "paper_architecture_theme_v1"
+    },
+    "intro_loop": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "duration_seconds": 9.601451,
+      "size_bytes": 1693774,
+      "codec_name": "pcm_s16le",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bits_per_sample": 0,
+      "bit_rate": 1411265
+    },
+    "full_outro": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+      "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+      "duration_seconds": 30.795215,
+      "size_bytes": 773136,
+      "codec_name": "aac",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bits_per_sample": 0,
+      "bit_rate": 200845,
+      "source_precedent": "challenger_long_form_subtle_tail_outro_v1_full_outro_source"
+    }
+  },
+  "timing_contract": {
+    "series_precedent": "challenger_style_music_only_intro_full_outro_subtle_tail_outro_v1",
+    "intro_trim_model": "first_eight_intro_trim_6s_v1",
+    "intro_trim_seconds": 6,
+    "previous_voice_start_offset_seconds": 9.601451,
+    "voice_start_offset_seconds": 3.601451,
+    "voice_duration_seconds": 942.869478,
+    "voice_end_seconds": 946.470929,
+    "intro_music_only_start_seconds": 0,
+    "intro_music_only_end_seconds": 3.601451,
+    "intro_fade_tail_duration_seconds": 2,
+    "intro_fade_tail_start_seconds": 3.601451,
+    "intro_fade_tail_end_seconds": 5.601451,
+    "story_time_model": "storyTimeAt(audioTime)=max(0,audioTime-3.601451)",
+    "outro_policy": "subtle_tail_outro_v1",
+    "full_outro_source_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_outro_start_seconds": 944.970929,
+    "outro_prelap_seconds": 1.5,
+    "outro_under_vo_gain_linear": 0.1,
+    "outro_target_gain_linear": 0.42,
+    "outro_reaches_target_at_seconds": 949.470929,
+    "outro_no_restart_at_voice_end": true,
+    "planned_total_duration_seconds": 975.766144,
+    "end_screen_start_seconds": 955.766144,
+    "end_screen_end_seconds": 975.766144,
+    "end_screen_duration_seconds": 20
+  },
+  "caption_retime": {
+    "process": "living_cover_captioning_process_v1_script_locked_canonical_text_timing_from_asr_v1",
+    "status": "pass",
+    "voice_offset_seconds": 3.601451,
+    "story_cutoff_seconds": 942.869478,
+    "outro_cutoff_seconds": 946.470929,
+    "alignment_coverage": 0.987093690248566,
+    "cue_count": {
+      "story": 304,
+      "offset": 304
+    },
+    "reads": {
+      "caption_text_matches_script_read": "pass",
+      "caption_alignment_coverage_read": "pass",
+      "caption_asr_text_not_used_read": "pass",
+      "caption_no_speaker_labels_read": "pass",
+      "caption_no_caption_after_outro_start_read": "pass",
+      "caption_rail_safe_chunk_read": "pass"
+    },
+    "outputs": {
+      "story_vtt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/music_integration_contract/assets/captions/737_max_longform.script_locked_rail_safe.vtt",
+        "sha256": "44e1355574b7f7b9fcb6e2fe2a0308cb48b54908b60f2a950d10a82c754e8851"
+      },
+      "story_srt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/music_integration_contract/assets/captions/737_max_longform.script_locked_rail_safe.srt",
+        "sha256": "3deaf0cbec8a770c52d5bb6ed7b14886415c4f817a3cc94ab2215685b19b0352"
+      },
+      "offset_vtt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/music_integration_contract/assets/captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+        "sha256": "27dd3545a4a66ca06602ec657fb0ee82d312882edc0b90230f84e2e225a834dc"
+      },
+      "offset_srt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/music_integration_contract/assets/captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+        "sha256": "fe5a0d42e3841b5885f86f3bc915f6173888e5a4669ba1fd9317b281c3d4a654"
+      },
+      "qa_json": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/music_integration_contract/assets/captions/737_max_longform.script_locked_caption_qa.json",
+        "sha256": "680bfc9a96a79ee09611e19c89272d87469e78c676a263509b01e5ffb3eb02d9"
+      }
+    }
+  },
+  "reads": {
+    "music_integration_plan_read": "pass_packet_local_contract_created",
+    "series_music_contract_read": "pass_challenger_style_intro_outro_default",
+    "approved_music_source_read": "pass_registered_intro_and_challenger_precedent_full_outro_recorded",
+    "intro_music_contract_read": "pass_music_only_intro_plus_2s_fade_tail_under_opening_voice",
+    "voice_start_offset_read": "pass_3.601451s",
+    "intro_trim_read": "pass_first_eight_intro_trim_6s_v1",
+    "caption_timing_shift_read": "pass_offset_sidecars_generated_from_locked_script",
+    "full_outro_music_read": "pass_full_paper_architecture_track_planned_as_actual_prelap_source",
+    "end_screen_music_handoff_read": "pass_full_outro_carries_20s_static_target_window",
+    "vo_outro_blend_plan_read": "pass_subtle_tail_outro_v1_contract",
+    "outro_prelap_source_read": "pass_full_outro_track_used_not_proxy",
+    "outro_prelap_start_read": "pass_1p5s_before_voice_end",
+    "outro_no_restart_at_voice_end_read": "pass_planned_no_restart",
+    "audio_level_mix_read": "planned_required_before_rough_keep",
+    "music_rights_read": "review_warning_registered_theme_assets_content_id_check_before_public_release",
+    "no_music_or_temp_music_waiver_read": "not_applicable_no_waiver_requested"
+  },
+  "advance_flags": {
+    "may_start_motion_readiness_after_human_keep": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "gate_locks": {
+    "may_mark_music_integration_contract_keep": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_prepare_upload": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "required_human_decision_options": [
+    "keep",
+    "tighten",
+    "reject"
+  ],
+  "next_action": "Review the refreshed rolling-caption rail rough proof; this contract is not a final mix approval."
+}

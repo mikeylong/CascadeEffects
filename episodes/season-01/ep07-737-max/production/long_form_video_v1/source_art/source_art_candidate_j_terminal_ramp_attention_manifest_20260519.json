@@ -1,0 +1,107 @@
+{
+  "episode_id": "737-max",
+  "workflow": "long_form_video_production_v1",
+  "gate": "source_art_candidate_review",
+  "candidate_id": "candidate_j_terminal_ramp_attention",
+  "candidate_set_id": "candidate_set_g_to_j_action_ambient",
+  "created_at_local": "2026-05-19",
+  "created_at_utc": "2026-05-19T06:32:12Z",
+  "status": "review_ready_pending_human_keep",
+  "disposition": "review_ready_pending_human_keep",
+  "may_advance": false,
+  "prompt": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/prompts/737_max_source_art_imagegen_non_paper_action_ambient_prompt_20260519.md",
+    "sha256": "e9ab27f5abd65a596ddcfcd897a80199018f5905ed7e05cb21a5f15765219fea"
+  },
+  "human_tighten": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/review/human_source_art_tighten_candidates_c_to_f_admin_prop_reopen_20260519.md",
+    "sha256": "5ac19ac1ff11481632144ee1b693871c7436bc7fc47abb49ca766e19b7f17b93"
+  },
+  "generation_provenance": {
+    "tool": "codex_builtin_image_gen",
+    "model": "unknown_builtin_image_gen_model",
+    "model_confidence": "inferred_from_path",
+    "mode": "text_to_image",
+    "built_in_output_path": "/Users/mike/.codex/generated_images/019e3c1f-3ca7-77f3-a787-0c7350471d63/ig_05b29dbbea336887016a0c03a162508194b74266a90f9295dd.png",
+    "built_in_output_sha256": "c21ff2888a3fc7b4d9da222b9df6326f4f7f2579e8ee0dfba35e0c58c962bc34",
+    "generation_tool_provenance_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen"
+  },
+  "assets": {
+    "workspace_raw": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/candidates/raw/737_max_living_cover_source_art_candidate_j_terminal_ramp_attention_raw_imagegen_20260519.png",
+      "sha256": "c21ff2888a3fc7b4d9da222b9df6326f4f7f2579e8ee0dfba35e0c58c962bc34",
+      "width": 1672,
+      "height": 941
+    },
+    "normalized_plate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/candidates/737_max_living_cover_source_art_candidate_j_terminal_ramp_attention_1920x1080_20260519.png",
+      "sha256": "b8c181845825e38133bc80b2e518be5b11603de3289fa22307cc1268859df1b0",
+      "width": 1920,
+      "height": 1080
+    },
+    "previews": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/review/737_max_candidate_j_terminal_ramp_attention_preview_960x540.png",
+        "sha256": "adf5a1e053446a617001b047451c53fefa26dbee73eb89ccf7b9f1a33f193935",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/review/737_max_candidate_j_terminal_ramp_attention_preview_320x180.png",
+        "sha256": "d0788f6ca3b7befbaca42ddd98070ee63d9ec76e76e1493fac63a1c69fea7d96",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/review/737_max_candidate_j_terminal_ramp_attention_preview_168x94.png",
+        "sha256": "823247c2097c5324599e4f9ac49468e419041474d2abac35a354243f914adb71",
+        "width": 168,
+        "height": 94
+      }
+    ],
+    "ocr_log": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/qa/737_max_candidate_j_terminal_ramp_attention_ocr_psm11_20260519.log",
+      "sha256": "ab4768c7f13352141194e4346cbaea7c812ba65472953efe39310b5ed6e48ead",
+      "read": "pass_visual_review_no_readable_text_or_logo_ocr_shape_noise_logged"
+    }
+  },
+  "source_art_reads": {
+    "foreground_admin_prop_read": "pass_no_dominant_foreground_admin_props",
+    "implied_action_anticipation_read": "pass_public_attention_at_gate_before_departure",
+    "ambient_affordance_read": "pass_terminal_glass_reflections_rain_surface_ramp_lights_public_motion",
+    "historical_accuracy_read": "pass_preliminary_unbranded_737_family_source_art",
+    "source_reference_alignment_read": "pass_visual_research_ramp_departure_alignment",
+    "public_anchor_geometry_read": "pass_front_quarter_nose_wing_engine_profile",
+    "737_max_aircraft_profile_read": "pass_unbranded_737_max_family_read",
+    "leap_engine_placement_read": "pass_forward_high_engine_relationship_visible",
+    "angle_of_attack_sensor_cue_read": "pass_visible_nose_vane_cue",
+    "mcas_stabilizer_mechanism_read": "pass_subtle_tail_trim_path_implied_not_diagnostic",
+    "single_sensor_assumption_read": "pass_visual_cue_available_for_single_sensor_story",
+    "training_commonality_document_cue_read": "pass_commonality_carried_by_airline_operations_context_not_admin_foreground",
+    "human_presence_read": "pass_anonymous_public_scene_presence_visible",
+    "no_recognizable_faces_read": "pass_no_face_forward_or_identifiable_subject",
+    "generated_text_logo_read": "pass_visual_review_no_readable_text_or_logo_ocr_shape_noise_logged",
+    "no_crash_spectacle_read": "pass_no_crash_wreckage_fire_or_victims",
+    "right_rail_safe_space_read": "pass_right_side_low_detail_space",
+    "texture_noise_read": "pass_no_speckle_grit_or_sandy_surface",
+    "waterfall_read": "pass_no_water_liquid_channel_or_waterfall"
+  },
+  "style_reads": {
+    "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper",
+    "paper_architecture_visual_style_read": "pass_no_resemblance",
+    "long_form_source_art_lane_read": "pass_source_preserving_photoreal",
+    "paper_architecture_resemblance_read": "pass_absent"
+  },
+  "gate_effect": {
+    "may_mark_source_art_keep": false,
+    "may_create_cue_map": false,
+    "may_create_ambient_effects_layer": false,
+    "may_create_music_integration_contract": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "may_public_release": false
+  }
+}

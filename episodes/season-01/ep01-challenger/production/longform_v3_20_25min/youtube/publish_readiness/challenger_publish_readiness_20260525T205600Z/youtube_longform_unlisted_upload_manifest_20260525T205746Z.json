@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-05-25T20:57:47Z",
+  "episode_id": "challenger",
+  "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "human_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "known_post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "notify_subscribers": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/publish_readiness_manifest.json",
+  "source_publish_readiness_manifest_sha256": "63daa374edc68108d95df1ae9f49017892cb79a7ed6b96efd2234b7db6db6077",
+  "target": "youtube_longform_unlisted_review",
+  "upload_assets": {
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_srt_sha256": "5224e6e43dab6e96f69fda20ad7b3d787abc57698eecc1103d3cfd96c707ee50",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.vtt",
+    "caption_vtt_sha256": "48733ec1b48ac86b4040dccccdaee76ad21e76093230d737f3f2ac0a3a181ddd",
+    "probe": {
+      "format": {
+        "bit_rate": "1395660",
+        "duration": "1211.675011",
+        "size": "211385796"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "avg_frame_rate": "14888960/620373",
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "1211.666016",
+          "height": 1080,
+          "index": 0,
+          "side_data_list": [
+            {}
+          ],
+          "width": 1920
+        },
+        {
+          "avg_frame_rate": "0/0",
+          "channels": 2,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "1211.675011",
+          "index": 1,
+          "sample_rate": "44100"
+        }
+      ]
+    },
+    "thumbnail_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/thumbnail/challenger_thumbnail_candidate.jpg",
+    "thumbnail_sha256": "4c0c99c42e8995e1ce0fb4df6d8bdcecbe077d70ff09c9c369b1bb1f54ad9947",
+    "thumbnail_source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/thumbnail/challenger_thumbnail_candidate.jpg",
+    "thumbnail_source_sha256": "4c0c99c42e8995e1ce0fb4df6d8bdcecbe077d70ff09c9c369b1bb1f54ad9947",
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/media/challenger_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "6bf54255723e043024a81a4671a21c7e274a8f303e86621237135efdc9c1c880"
+  },
+  "youtube_metadata": {
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description": "The Challenger Warning That Stopped Working is a Cascade Effects episode about how small signals become system consequences.\n\nA chain of engineering warnings, schedule pressure, and normalized cold-weather risk turned one launch decision into catastrophe.\n\nRuntime: about 20 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Opening\n0:04 Promise of routine\n4:02 Pressure and normalization\n8:05 The Jan. 27 reversal\n12:07 Launch and visible failure\n16:09 Commission and pattern\n19:12 Closing\n\n#CascadeEffects",
+    "self_declared_made_for_kids": false,
+    "tags": [
+      "Cascade Effects",
+      "Challenger",
+      "NASA",
+      "documentary",
+      "engineering failure",
+      "space shuttle",
+      "systems failure"
+    ],
+    "title": "The Challenger Warning That Stopped Working"
+  }
+}

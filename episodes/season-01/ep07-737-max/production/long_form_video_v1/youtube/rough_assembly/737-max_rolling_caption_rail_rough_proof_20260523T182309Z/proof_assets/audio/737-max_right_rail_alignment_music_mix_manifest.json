@@ -1,0 +1,165 @@
+{
+  "packet_id": "737-max_right_rail_alignment_contract_music_mix_20260523T182309Z",
+  "model": "contract_timed_intro_voice_outro_mix_v1",
+  "status": "contract_timed_review_mix_pending_human_keep_not_final_mix_keep",
+  "created_utc": "2026-05-20T23:30:00Z",
+  "intro_trim_model": "first_eight_intro_trim_6s_v1",
+  "intro_trim_seconds": 6,
+  "previous_voice_start_offset_seconds": 9.601451,
+  "voice_audio_defect_repair_model": "not_applicable",
+  "voice_audio_defect_repair_read": "not_applicable",
+  "audio_defect_repair": null,
+  "contract_json_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/music_integration_contract/music_integration_contract_candidate_l_ramp_depth_lights_20260521.json",
+  "contract_json_sha256": "fe9317cc2fd855a2daed219db00131a39d3f7d65a6cf09b1bc31f14f63a7df29",
+  "source_voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/final/Ep7_737-MAX.wav",
+    "sha256": "adaf19d653f7d673d601ba0f273ef822dbce375dee25ec5c3554f687b839db71",
+    "duration_seconds": 942.869478
+  },
+  "voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/final/Ep7_737-MAX.wav",
+    "sha256": "adaf19d653f7d673d601ba0f273ef822dbce375dee25ec5c3554f687b839db71",
+    "duration_seconds": 942.869478
+  },
+  "voice_loudness_alignment": {
+    "model": "voice_loudness_alignment_v1",
+    "status": "not_needed_source_within_tolerance",
+    "source_voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/final/Ep7_737-MAX.wav",
+      "sha256": "adaf19d653f7d673d601ba0f273ef822dbce375dee25ec5c3554f687b839db71",
+      "duration_seconds": 942.869478,
+      "size_bytes": 83161166,
+      "codec_name": "pcm_s16le",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bits_per_sample": 0,
+      "bit_rate": 705600
+    },
+    "mix_voice_master_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/final/Ep7_737-MAX.wav",
+    "mix_voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/final/Ep7_737-MAX.wav",
+      "sha256": "adaf19d653f7d673d601ba0f273ef822dbce375dee25ec5c3554f687b839db71",
+      "duration_seconds": 942.869478,
+      "size_bytes": 83161166,
+      "codec_name": "pcm_s16le",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bits_per_sample": 0,
+      "bit_rate": 705600
+    },
+    "target": {
+      "integrated_lufs": -14,
+      "true_peak_dbtp": -1,
+      "loudness_range_lra": 11,
+      "tolerance_db": 1.5
+    },
+    "source_loudnorm_scan": {
+      "input_i": "-14.23",
+      "input_tp": "-0.95",
+      "input_lra": "3.40",
+      "input_thresh": "-24.75",
+      "output_i": "-14.06",
+      "output_tp": "-1.00",
+      "output_lra": "3.40",
+      "output_thresh": "-24.57",
+      "normalization_type": "dynamic",
+      "target_offset": "0.06"
+    },
+    "source_window_volumedetect": {
+      "mean_volume_db": -14.8,
+      "max_volume_db": -1
+    },
+    "output_loudnorm_scan": {
+      "input_i": "-14.23",
+      "input_tp": "-0.95",
+      "input_lra": "3.40",
+      "input_thresh": "-24.75",
+      "output_i": "-14.06",
+      "output_tp": "-1.00",
+      "output_lra": "3.40",
+      "output_thresh": "-24.57",
+      "normalization_type": "dynamic",
+      "target_offset": "0.06"
+    },
+    "output_window_volumedetect": {
+      "mean_volume_db": -14.8,
+      "max_volume_db": -1
+    },
+    "voice_master_used_for_mix_read": "pass_source_voice_master_within_series_loudness_tolerance"
+  },
+  "intro_music_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+    "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818"
+  },
+  "full_outro_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "duration_seconds": 30.795215
+  },
+  "output_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T182309Z/proof_assets/audio/737-max_right_rail_alignment_music_mix.wav",
+  "output_sha256": "20daf1eac41a26105efbb54dc822b3d4f598adf18a8061e0c659084930a29399",
+  "output_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "975.760590"
+      }
+    ],
+    "format": {
+      "format_name": "wav",
+      "duration": "975.760590",
+      "size": "172124246",
+      "bit_rate": "1411200"
+    }
+  },
+  "output_duration_seconds": 975.76059,
+  "expected_total_duration_seconds": 975.766144,
+  "duration_delta_seconds": -0.005554,
+  "timing": {
+    "intro_trim_model": "first_eight_intro_trim_6s_v1",
+    "intro_trim_seconds": 6,
+    "previous_voice_start_offset_seconds": 9.601451,
+    "voice_start_seconds": 3.601451,
+    "voice_duration_seconds": 942.869478,
+    "voice_end_seconds": 946.470929,
+    "intro_music_only_start_seconds": 0,
+    "intro_music_only_end_seconds": 3.601451,
+    "intro_fade_tail_duration_seconds": 2,
+    "intro_fade_tail_end_seconds": 5.601451,
+    "full_outro_start_seconds": 944.970929,
+    "outro_prelap_seconds": 1.5,
+    "outro_under_vo_gain_linear": 0.1,
+    "outro_target_gain_linear": 0.42,
+    "outro_reaches_target_at_seconds": 949.470929,
+    "outro_policy": "subtle_tail_outro_v1",
+    "outro_target_after_voice_seconds": 3,
+    "outro_target_margin_db": 12,
+    "end_screen_start_seconds": 955.766144,
+    "end_screen_end_seconds": 975.766144
+  },
+  "reads": {
+    "review_audio_mix_model_read": "pass_contract_timed_intro_voice_outro_mix_v1",
+    "intro_trim_read": "pass_first_eight_intro_trim_6s_v1",
+    "intro_music_applied_read": "pass_music_only_intro_applied_from_registered_intro_loop",
+    "intro_fade_tail_under_opening_voice_read": "pass_2s_intro_fade_tail_under_opening_voice",
+    "voice_start_offset_read": "pass_3.601451s",
+    "full_outro_music_applied_read": "pass_full_outro_source_applied",
+    "outro_prelap_start_read": "pass_full_outro_starts_1p5s_before_voice_end",
+    "outro_no_restart_at_voice_end_read": "pass_full_outro_continues_without_restart",
+    "outro_target_after_voice_read": "pass_target_gain_after_voice_end",
+    "outro_under_vo_masking_read": "pass_target_margin_at_least_12db",
+    "vo_outro_blend_read": "pass_subtle_tail_outro_v1_timing_contract",
+    "end_screen_music_handoff_read": "pass_full_outro_carries_youtube_end_screen_window",
+    "review_mix_duration_read": "pass_duration_delta_-0.006s",
+    "final_mix_approval_read": "blocked_pending_human_rough_proof_keep_and_later_final_mix_review",
+    "voice_loudness_alignment_read": "pass_source_voice_master_within_series_loudness_tolerance",
+    "voice_master_used_for_mix_read": "pass_source_voice_master_within_series_loudness_tolerance",
+    "voice_audio_defect_repair_read": "not_applicable"
+  }
+}

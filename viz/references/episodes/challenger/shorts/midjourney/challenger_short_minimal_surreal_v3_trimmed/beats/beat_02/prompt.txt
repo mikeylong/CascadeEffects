@@ -1,0 +1,17 @@
+Midjourney reference upload order:
+1. beats/beat_02/references/01__act2_01.jpg
+2. beats/beat_02/references/02__act2_05.jpg
+3. beats/beat_02/references/03__act2_06.jpg
+4. beats/beat_02/references/04__act2_02.jpg
+
+Text prompt:
+repeated O-ring erosion and blow-by normalized into acceptable Challenger risk. field-joint recovery hardware and handling context reduced to one dominant evidence frame. off-center composition, one dominant subject, large empty field, vertical 9:16 frame. Palette limited to parchment beige, muted blue, charcoal, warning red. the warning seam stays visibly and repeatedly legible inside otherwise routine handling. Stillness, soft diffuse light, quiet suspended atmosphere.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

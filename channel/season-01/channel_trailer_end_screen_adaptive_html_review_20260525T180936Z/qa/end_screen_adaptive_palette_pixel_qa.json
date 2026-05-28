@@ -1,0 +1,178 @@
+{
+  "model_id": "channel_trailer_adaptive_end_screen_pixel_qa_v1",
+  "target_count": 3,
+  "sample_count": 6,
+  "samples": [
+    {
+      "target_key": "left_video",
+      "sample_role": "fill_center",
+      "point_xy": [
+        418,
+        573
+      ],
+      "manifest_color_key": "fill_rgba",
+      "manifest_color": "rgba(59, 43, 41, 0.360)",
+      "source_backplate_rgb": [
+        59,
+        49,
+        54
+      ],
+      "expected_composited_rgb": [
+        59,
+        47,
+        49
+      ],
+      "actual_rgb": [
+        47,
+        38,
+        42
+      ],
+      "max_channel_delta": 12,
+      "tolerance": 4,
+      "sample_read": "tighten"
+    },
+    {
+      "target_key": "left_video",
+      "sample_role": "border_top",
+      "point_xy": [
+        418,
+        384
+      ],
+      "manifest_color_key": "border_rgba",
+      "manifest_color": "rgba(184, 131, 122, 0.740)",
+      "source_backplate_rgb": [
+        161,
+        141,
+        134
+      ],
+      "expected_composited_rgb": [
+        178,
+        134,
+        125
+      ],
+      "actual_rgb": [
+        176,
+        132,
+        123
+      ],
+      "max_channel_delta": 2,
+      "tolerance": 6,
+      "sample_read": "pass"
+    },
+    {
+      "target_key": "right_video",
+      "sample_role": "fill_center",
+      "point_xy": [
+        1502,
+        573
+      ],
+      "manifest_color_key": "fill_rgba",
+      "manifest_color": "rgba(26, 33, 56, 0.360)",
+      "source_backplate_rgb": [
+        1,
+        5,
+        22
+      ],
+      "expected_composited_rgb": [
+        10,
+        15,
+        34
+      ],
+      "actual_rgb": [
+        11,
+        16,
+        34
+      ],
+      "max_channel_delta": 1,
+      "tolerance": 4,
+      "sample_read": "pass"
+    },
+    {
+      "target_key": "right_video",
+      "sample_role": "border_top",
+      "point_xy": [
+        1502,
+        384
+      ],
+      "manifest_color_key": "border_rgba",
+      "manifest_color": "rgba(105, 128, 201, 0.740)",
+      "source_backplate_rgb": [
+        2,
+        5,
+        21
+      ],
+      "expected_composited_rgb": [
+        78,
+        96,
+        154
+      ],
+      "actual_rgb": [
+        78,
+        96,
+        154
+      ],
+      "max_channel_delta": 0,
+      "tolerance": 6,
+      "sample_read": "pass"
+    },
+    {
+      "target_key": "center_subscribe",
+      "sample_role": "fill_center",
+      "point_xy": [
+        960,
+        575
+      ],
+      "manifest_color_key": "fill_rgba",
+      "manifest_color": "rgba(46, 42, 62, 0.340)",
+      "source_backplate_rgb": [
+        50,
+        44,
+        48
+      ],
+      "expected_composited_rgb": [
+        49,
+        43,
+        53
+      ],
+      "actual_rgb": [
+        40,
+        36,
+        48
+      ],
+      "max_channel_delta": 9,
+      "tolerance": 4,
+      "sample_read": "tighten"
+    },
+    {
+      "target_key": "center_subscribe",
+      "sample_role": "border_top",
+      "point_xy": [
+        960,
+        432
+      ],
+      "manifest_color_key": "border_rgba",
+      "manifest_color": "rgba(154, 144, 198, 0.840)",
+      "source_backplate_rgb": [
+        3,
+        11,
+        35
+      ],
+      "expected_composited_rgb": [
+        130,
+        123,
+        172
+      ],
+      "actual_rgb": [
+        130,
+        123,
+        172
+      ],
+      "max_channel_delta": 0,
+      "tolerance": 6,
+      "sample_read": "pass"
+    }
+  ],
+  "reads": {
+    "end_screen_adaptive_pixel_sample_read": "tighten_adaptive_placeholder_pixels_mismatch_manifest_palette"
+  }
+}

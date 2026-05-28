@@ -1,0 +1,799 @@
+id = "challenger"
+title = "Challenger"
+pillar = "design-failures"
+priority = 1
+label = "Design Failures · Launch Episode 01"
+summary = "A chain of engineering warnings, schedule pressure, and normalized cold-weather risk turned one launch decision into catastrophe."
+release_window = "launch-episode-01"
+
+[aliases]
+episode_folder = "Ep1_Challenger"
+audio_pipeline = "ep1_challenger_production"
+scene_preset = "challenger_mission_control"
+thumbnail_preset = "one_red_flag"
+shorts_preset = "signal_object_portrait"
+web_entry_id = "challenger"
+
+[tracking]
+bootstrapped_at = "2026-03-29T16:43:16Z"
+
+[script]
+path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/Ep1_Challenger.txt"
+status = "locked"
+
+[visual_research]
+status = "done"
+script_source_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/Ep1_Challenger.txt"
+script_sha256 = "3143e883efda6533d97940a26b69c1a37d82cda88e981a02dea9969a04fc3c8d"
+estimated_runtime_seconds = 1014
+act_count = 5
+beat_count_total = 1
+required_motion_total = 10
+planned_motion_total = 1
+contact_sheet_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/contact_sheet.pdf"
+source_inventory_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/source_inventory.json"
+source_origin_policy = "fresh_web_only"
+act_breakdown_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/act_breakdown.md"
+reference_notes_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/reference_notes.md"
+sources_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/sources.md"
+assembly_notes_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/assembly_notes.md"
+
+[visual_research.approval]
+status = "approved"
+reviewer = "mike"
+reviewed_at = "2026-04-01T02:50:46Z"
+notes = "Approved. There is a variety of items from around 1986."
+tags = []
+
+[visual_research.guardrails]
+signal_object = "Space Shuttle Challenger"
+banned_motifs = ["heroic astronaut portraiture", "launch-poster triumph", "paper close-ups that depend on readable text", "courtroom shorthand", "explosion spectacle as the main emotional register", "duplicated or mirrored control-room faces"]
+latest_reject_tags = []
+opening_candidate_min = 6
+opening_candidate_target = 8
+subject_candidate_min = 2
+act_candidate_min = 8
+source_total = 48
+approved_source_total = 0
+clear_source_total = 0
+cleaned_source_total = 0
+ready_source_total = 0
+opening_candidate_total = 8
+opening_subject_candidate_total = 2
+opening_supporting_candidate_total = 6
+opening_subject_slot_id = "space_shuttle_challenger"
+opening_slot_candidate_totals = { space_shuttle_challenger = 2, vhs_cassette = 1, boombox_radio = 1, high_top_sneaker = 1, aluminum_soda_can = 1, cube_puzzle = 1, beige_home_computer_crt = 1 }
+missing_opening_slot_ids = []
+act_candidate_totals = { act1 = 8, act2 = 8, act3 = 8, act4 = 8, act5 = 8 }
+underfilled_coverage_ids = []
+ready_for_generation = true
+unresolved_source_ids = []
+blocked_source_ids = []
+missing_downstream_source_ids = []
+opening_object_strategy = "generic_era_cluster"
+generic_mass_market_slot_ids = ["vhs_cassette", "boombox_radio", "high_top_sneaker", "aluminum_soda_can", "cube_puzzle", "beige_home_computer_crt"]
+
+[visual_research.opening_sequence]
+object_strategy = "generic_era_cluster"
+time_period_label = "January 1986"
+supporting_objects = ["VHS cassette", "cassette boombox radio", "white leather high-top sneaker", "aluminum soda can", "cube puzzle", "beige home computer CRT"]
+subject_object = "Space Shuttle Challenger"
+focus_transition = "The period objects drift away as Challenger takes the center of frame."
+subject_action = "Challenger becomes the focal point and commits to liftoff."
+act_id = "act1"
+planned_scene_id = "opening_culture_cluster"
+planned_motion_id = "opening_subject_pull_in"
+audio_end_cue_text = "And it starts with a promise."
+min_duration_seconds = 5.0
+block_downstream_until_approved = false
+
+[[visual_research.opening_sequence.slots]]
+slot_id = "vhs_cassette"
+display_label = "VHS cassette"
+role = "supporting_object"
+object_scope = "generic_mass_market"
+renderability = "common_iconic"
+visual_descriptor = "generic black VHS cassette"
+
+[[visual_research.opening_sequence.slots]]
+slot_id = "boombox_radio"
+display_label = "Cassette boombox radio"
+role = "supporting_object"
+object_scope = "generic_mass_market"
+renderability = "common_iconic"
+visual_descriptor = "generic silver or black cassette boombox"
+
+[[visual_research.opening_sequence.slots]]
+slot_id = "high_top_sneaker"
+display_label = "White leather high-top sneaker"
+role = "supporting_object"
+object_scope = "generic_mass_market"
+renderability = "common_iconic"
+visual_descriptor = "generic white leather high-top sneaker"
+
+[[visual_research.opening_sequence.slots]]
+slot_id = "aluminum_soda_can"
+display_label = "Aluminum soda can"
+role = "supporting_object"
+object_scope = "generic_mass_market"
+renderability = "common_iconic"
+visual_descriptor = "generic red-and-silver aluminum soda can with unreadable branding"
+
+[[visual_research.opening_sequence.slots]]
+slot_id = "cube_puzzle"
+display_label = "Cube puzzle"
+role = "supporting_object"
+object_scope = "generic_mass_market"
+renderability = "common_iconic"
+visual_descriptor = "generic multicolor cube puzzle"
+
+[[visual_research.opening_sequence.slots]]
+slot_id = "beige_home_computer_crt"
+display_label = "Beige home computer CRT"
+role = "supporting_object"
+object_scope = "generic_mass_market"
+renderability = "common_iconic"
+visual_descriptor = "generic beige home or office computer with blank or unreadable CRT"
+
+[[visual_research.opening_sequence.slots]]
+slot_id = "space_shuttle_challenger"
+display_label = "Space Shuttle Challenger"
+role = "subject_object"
+object_scope = "episode_specific"
+renderability = "common_iconic"
+visual_descriptor = "space shuttle stack on pad prepared for isolation and liftoff"
+
+[[visual_research.acts]]
+id = "act1"
+title = "Promise of routine"
+estimated_seconds = 200
+beat_count = 0
+visual_thesis = "show Challenger as an operational system that has been made to look normal, scheduled, and repeatable."
+dominant_signal = "mission-control process and the reassuring surface of routine."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/boards/act1"
+required_motion_sequences = 2
+planned_scene_ids = ["routine_console_wide", "shuttle_systems_overview"]
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while act 1 option coverage remains reference-first."
+
+[[visual_research.acts]]
+id = "act2"
+title = "Pressure and normalization"
+estimated_seconds = 200
+beat_count = 0
+visual_thesis = "turn repeated technical concern into a hidden mechanical signal that keeps getting absorbed."
+dominant_signal = "booster joint hardware, cold-weather evidence, and the engineering process around absorbed warnings."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/boards/act2"
+required_motion_sequences = 2
+planned_scene_ids = ["booster_joint_evidence", "monitoring_labor_bank"]
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while act 2 option coverage remains reference-first and broader hardware/process evidence is still being narrowed."
+
+[[visual_research.acts]]
+id = "act3"
+title = "The Jan. 27 reversal"
+estimated_seconds = 200
+beat_count = 1
+visual_thesis = "move from engineering objection into institutional decision-space under cold-weather conditions."
+dominant_signal = "ice on the pad and the console environment where burden-of-proof flips."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/boards/act3"
+required_motion_sequences = 2
+planned_scene_ids = ["launch_commit_console", "ice_on_pad_gantry"]
+planned_motion_ids = ["launch_commit_dolly"]
+exception_reason = "Approved partial-motion exception until a second approved still exists for this act."
+
+[[visual_research.acts]]
+id = "act4"
+title = "Launch and visible failure"
+estimated_seconds = 200
+beat_count = 0
+visual_thesis = "hold the story at launch scale, then make the breach legible without sliding into spectacle."
+dominant_signal = "the first visible breach plume."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/boards/act4"
+required_motion_sequences = 2
+planned_scene_ids = ["launch_stack_exterior", "breach_plume_tracking"]
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while act 4 launch-sequence option coverage is still being narrowed."
+
+[[visual_research.acts]]
+id = "act5"
+title = "Commission and pattern"
+estimated_seconds = 200
+beat_count = 0
+visual_thesis = "shift from event to proof, recovered hardware, and system-level interpretation."
+dominant_signal = "recovered hardware in context, commission-room process, and system-level proof."
+reference_board_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/boards/act5"
+required_motion_sequences = 2
+planned_scene_ids = ["rogers_commission_room", "recovered_booster_debris"]
+planned_motion_ids = []
+exception_reason = "Approved archival/static exception while act 5 option coverage remains reference-first and broader inquiry/process evidence is still being narrowed."
+
+[audio]
+status = "done"
+pipeline_dir = "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_production"
+master_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/final/Ep1_Challenger.wav"
+transcript_path = "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_production/transcripts_mastered/Ep1_Challenger.diarized.txt"
+
+[audio.review]
+status = "approved"
+reviewer = ""
+reviewed_at = ""
+notes = ""
+freshness_override = "waived"
+
+[scene_stills]
+status = "review"
+
+[[scene_stills.items]]
+id = "opening_culture_cluster"
+act = "opening"
+purpose = "Pre-act opening tableau of time-period culture objects hovering together while the focal subject is prepared for isolation before act 1 begins."
+preset = "opening_culture_cluster"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/opening_culture_cluster"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/opening_culture_cluster/selects/hero_still.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "rejected"
+motion_review_status = "pending"
+reviewer = "mike"
+reviewed_at = "2026-04-01T19:09:38Z"
+review_notes = "This looks like the reference images were just inserted verbatim and the rendering isn't getting the style that all of their other renderings have, so I'm guessing there's a lot of missing context in the workflow that constructed this opening tableau image."
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "opening_culture_cluster"
+notes = "Seeded from visual_research opening_sequence as the shared pre-act opener."
+
+[[scene_stills.items]]
+id = "routine_console_wide"
+act = "act1"
+purpose = "Opening mission-control wide that frames routine, repetition, and institutional calm."
+preset = "challenger_mission_control"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/routine_console_wide"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/routine_console_wide/selects/routine_console_wide.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_mission_control"
+notes = "Seeded from visual_research act `act1`."
+
+[[scene_stills.items]]
+id = "shuttle_systems_overview"
+act = "act1"
+purpose = "Systems-evidence still for shuttle architecture, operational process, and normalized routine."
+preset = "challenger_engineering_evidence"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shuttle_systems_overview"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shuttle_systems_overview/selects/shuttle_systems_overview.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_engineering_evidence"
+notes = "Seeded from visual_research act `act1`."
+
+[[scene_stills.items]]
+id = "booster_joint_evidence"
+act = "act2"
+purpose = "Engineering evidence still for booster field-joint geometry and absorbed warning signals."
+preset = "challenger_engineering_evidence"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/booster_joint_evidence"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/booster_joint_evidence/selects/booster_joint_evidence.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "rejected"
+motion_review_status = "not_planned"
+reviewer = "mike"
+reviewed_at = "2026-04-01T18:27:40Z"
+review_notes = "the style is great, but i think we can do a better job of making the shuttle in this image look more like the space shuttle - it doesn't have to be super precise, but this version just isn't quite right."
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_engineering_evidence"
+notes = "Seeded from visual_research act `act2`."
+
+[[scene_stills.items]]
+id = "monitoring_labor_bank"
+act = "act2"
+purpose = "Mission-control labor still showing repeated monitoring work and normalized process."
+preset = "challenger_mission_control"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/monitoring_labor_bank"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/monitoring_labor_bank/selects/monitoring_labor_bank.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_mission_control"
+notes = "Seeded from visual_research act `act2`."
+
+[[scene_stills.items]]
+id = "launch_commit_console"
+act = "act3"
+purpose = "Hero still for the launch-commit decision space and motion handoff."
+preset = "challenger_mission_control"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_commit_console"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_commit_console/selects/launch_commit_console.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "pending"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_mission_control"
+notes = "Seeded from visual_research act `act3`."
+
+[[scene_stills.items]]
+id = "ice_on_pad_gantry"
+act = "act3"
+purpose = "Exterior pad still that makes launch-day cold and ice accumulation legible without spectacle."
+preset = "challenger_launch_exterior"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/ice_on_pad_gantry"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/ice_on_pad_gantry/selects/ice_on_pad_gantry.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_launch_exterior"
+notes = "Seeded from visual_research act `act3`."
+
+[[scene_stills.items]]
+id = "launch_stack_exterior"
+act = "act4"
+purpose = "Launch-stack exterior still that holds the sequence at system scale instead of heroic spectacle."
+preset = "challenger_launch_exterior"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_stack_exterior"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_stack_exterior/selects/launch_stack_exterior.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_launch_exterior"
+notes = "Seeded from visual_research act `act4`."
+
+[[scene_stills.items]]
+id = "breach_plume_tracking"
+act = "act4"
+purpose = "Restrained breach-cue still that reads as evidence rather than trailer spectacle."
+preset = "challenger_launch_exterior"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/breach_plume_tracking"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/breach_plume_tracking/selects/breach_plume_tracking.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_launch_exterior"
+notes = "Seeded from visual_research act `act4`."
+
+[[scene_stills.items]]
+id = "rogers_commission_room"
+act = "act5"
+purpose = "Commission-room still that shifts the episode from event to institutional interpretation."
+preset = "challenger_commission_evidence"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/rogers_commission_room"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/rogers_commission_room/selects/rogers_commission_room.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_commission_evidence"
+notes = "Seeded from visual_research act `act5`."
+
+[[scene_stills.items]]
+id = "recovered_booster_debris"
+act = "act5"
+purpose = "Recovered-hardware still for SRB evidence in context and the post-failure feedback loop."
+preset = "challenger_commission_evidence"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/recovered_booster_debris"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/recovered_booster_debris/selects/recovered_booster_debris.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_commission_evidence"
+notes = "Seeded from visual_research act `act5`."
+
+[[scene_stills.items]]
+id = "systems_sheet_optional"
+act = "all"
+purpose = "Optional supporting still for systems framing if the edit needs a second static plate."
+preset = "challenger_mission_control"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/systems_sheet_optional"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/systems_sheet_optional/selects/systems_sheet_optional.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = false
+review_status = "pending"
+motion_review_status = "not_planned"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+motion_review_tags = []
+archetype_status = "resolved"
+archetype_id = "challenger_mission_control"
+
+[packaging_stills]
+status = "todo"
+
+[[packaging_stills.items]]
+id = "launch_thumbnail"
+kind = "thumbnail"
+purpose = "Primary launch thumbnail."
+preset = "one_red_flag"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_thumbnail"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_thumbnail/selects/hero_plate.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_review_status = "pending"
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+
+[[packaging_stills.items]]
+id = "launch_shorts_cover"
+kind = "shorts_cover"
+purpose = "Primary shorts cover."
+preset = "signal_object_portrait"
+reference_dir = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_shorts_cover"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_shorts_cover/selects/hero_plate.png"
+latest_render_path = ""
+latest_render_manifest_path = ""
+approved_proof_path = ""
+approved_proof_manifest_path = ""
+selected_asset = ""
+required = true
+review_status = "pending"
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+motion_review_status = "pending"
+motion_reviewer = ""
+motion_reviewed_at = ""
+motion_review_notes = ""
+
+[motion_assets]
+status = "todo"
+
+[[motion_assets.items]]
+id = "opening_subject_pull_in"
+source_still_id = "opening_culture_cluster"
+archetype_id = "opening_subject_pull_in"
+prompt = ""
+behavior = "The period objects drift away as Challenger takes the center of frame. Challenger becomes the focal point and commits to liftoff."
+frames = 33
+width = 640
+height = 384
+pipeline = "distilled"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/opening_subject_pull_in/selects/hero_video.mp4"
+latest_render_path = ""
+latest_render_manifest_path = ""
+status = "todo"
+review_outcome = ""
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+min_duration_seconds = 5.0
+notes = "Seeded from visual_research opening_sequence as the shared pre-act opener."
+
+[[motion_assets.items]]
+id = "launch_commit_dolly"
+source_still_id = "launch_commit_console"
+archetype_id = "challenger_slow_dolly"
+prompt = "Slow documentary dolly through the room, subtle CRT flicker, restrained camera move."
+behavior = "Other period objects clear from frame as Challenger takes focus and blasts off."
+frames = 33
+width = 640
+height = 384
+pipeline = "distilled"
+output_path = "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/launch_commit_dolly/selects/hero_video.mp4"
+latest_render_path = ""
+latest_render_manifest_path = ""
+status = "todo"
+review_outcome = ""
+reviewer = ""
+reviewed_at = ""
+review_notes = ""
+review_tags = []
+min_duration_seconds = 5.0
+notes = "Seeded from visual_research source still `launch_commit_console`."
+
+[assembly]
+status = "todo"
+owner = "agent"
+renderer = "ffmpeg"
+strategy = "act_spine"
+notes = "Assembly is the next lane once final edit timing is ready."
+master_video_path = ""
+completed_at = ""
+
+[web]
+status = "done"
+entry_id = "challenger"
+notes = "Launch entry exists in site-facts.ts."
+
+[release]
+status = "todo"
+scheduled_for = ""
+published_at = ""
+notes = "Publish timing has not been set."
+notes_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/publish_notes.md"
+
+[release.publish_readiness]
+status = "in_progress_video_pending"
+review_id = "challenger"
+packet_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_canonical_signoff_subtle_tail_outro_html_approval_proof_20260518T221334Z/video_render/challenger_longform_canonical_signoff_subtle_tail_outro_final_mp4_20260518T221420Z/publish_readiness/challenger_longform_canonical_signoff_publish_readiness_20260518T224617Z"
+manifest_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_canonical_signoff_subtle_tail_outro_html_approval_proof_20260518T221334Z/video_render/challenger_longform_canonical_signoff_subtle_tail_outro_final_mp4_20260518T221420Z/publish_readiness/challenger_longform_canonical_signoff_publish_readiness_20260518T224617Z/publish_readiness_manifest.json"
+local_review_url = "http://127.0.0.1:8840/review.html"
+remote_review_url = "https://cascadeeffects.tv/reviews/publish-readiness/challenger"
+youtube_review_status = "not_uploaded"
+youtube_review_privacy = "unlisted_when_review_video_exists"
+old_private_video_id = "ToEay5mFDy8"
+old_private_upload_status = "superseded_do_not_publish"
+upload_publish_schedule_visibility_actions = "locked_false"
+updated_at = "2026-05-18T22:58:54Z"
+
+[release.youtube]
+status = "private_review_uploaded"
+title = "The Challenger Warning That Stopped Working"
+description_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/publish_notes.md"
+tags = []
+privacy = "private"
+thumbnail_item_id = "launch_thumbnail"
+video_id = "ToEay5mFDy8"
+video_url = "https://www.youtube.com/watch?v=ToEay5mFDy8"
+scheduled_for = ""
+published_at = "2026-05-16T00:01:27Z"
+error = ""
+
+[release.podcast]
+status = "todo"
+title = "Challenger"
+description_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/publish_notes.md"
+audio_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/final/Ep1_Challenger.wav"
+external_id = ""
+episode_url = ""
+scheduled_for = ""
+published_at = ""
+error = ""
+
+[analytics]
+status = "todo"
+notes = "Open after publish date exists."
+
+[long_form_video]
+visual_system_baseline_path = "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/challenger.md"
+visual_system_baseline_status = "rolling_caption_rail_rough_assembly_review_ready_pending_human_keep"
+visual_system_baseline_updated_at = "2026-05-19"
+
+# rolling-caption-rail-redesign:start
+[long_form_video.rolling_caption_rail_redesign_20260520]
+status = "rolling_caption_rail_rough_assembly_review_ready_pending_human_keep"
+action = "supersede_publish_final_surfaces_create_successor_rough_proof"
+source_art_override_path = "not_applicable"
+source_art_override_status = "not_applicable"
+source_art_highlight_merge_model = "not_applicable"
+source_art_highlight_merge_predecessor_proof_path = "not_applicable"
+intro_trim_model = "first_eight_intro_trim_6s_v1"
+intro_trim_seconds = "6.000"
+previous_voice_start_offset_seconds = "9.601451"
+voice_start_offset_seconds = "3.601451"
+rail_preset_id = "fixed_16x9_right_rail_v1"
+rail_content_model_id = "rolling_caption_anchor_v1"
+caption_display_model = "rolling_rail_caption_window_v1"
+caption_display_chunking = "script_locked_chunk_split_v1"
+review_chrome_policy = "hidden_in_render_mode"
+review_control_model = "single_foreground_review_transport_v1"
+review_transport_scrub_model = "foreground_transport_scrub_lock_v1"
+legacy_review_chrome_suppression_model = "predecessor_review_chrome_hidden_in_review_mode_v1"
+highlight_render_policy = "reviewed_cue_map_spans_only"
+caption_motion_model = "constant_speed_audio_time_aligned_scroll_v2"
+caption_timeline_layout_model = "audio_time_positioned_stack_v1"
+caption_sync_target = "pre_vo_reading_lead_active_band_v1"
+caption_reading_lead_seconds = "0.65"
+caption_intro_visibility_gate_model = "first_vo_intro_hold_fade_v1"
+caption_intro_gate_start_seconds = "2.532"
+caption_intro_gate_full_opacity_seconds = "2.982"
+caption_intro_premature_text_read = "pass"
+caption_constant_speed_scope = "per_episode_constant_px_per_second"
+caption_playback_clock_model = "media_time_smoothed_raf_clock_v3"
+caption_stack_render_model = "compositor_linear_transform_driver_v1"
+caption_scroll_smoothness_model = "compositor_linear_transform_driver_v1"
+caption_runtime_coverage_model = "full_vo_runtime_visible_caption_coverage_v1"
+caption_end_screen_handoff_model = "review_approved_end_screen_entry_v1"
+review_approved_youtube_placeholder_fade_start_seconds = "1183"
+caption_full_vo_runtime_coverage_read = "pending_browser_runtime_qa"
+caption_runtime_cutoff_read = "pending_browser_runtime_qa"
+caption_scrub_transport_sync_read = "pending_browser_runtime_qa"
+review_transport_playing_scrub_read = "pending_browser_runtime_qa"
+caption_line_clip_read = "pending_browser_runtime_qa"
+caption_audio_time_transform_sync_read = "pending_browser_runtime_qa"
+caption_active_text_matches_audio_time_read = "pending_browser_runtime_qa"
+right_rail_caption_paint_visibility_read = "pending_browser_runtime_qa"
+caption_density_resolution_model = "merge_dense_chunks_no_speed_ramp_v1"
+caption_line_opacity_model = "viewport_distance_smoothstep_v1"
+caption_window_treatment_model = "transparent_caption_mask_only_v1"
+caption_constant_scroll_speed_px_per_second = "54.000"
+caption_stack_height_px = "65138"
+caption_stack_paint_containment_read = "pass_no_caption_stack_paint_clip"
+caption_dense_chunk_merge_count = "276"
+caption_unresolved_dense_pair_count = "0"
+caption_layout_collision_guard = "fixed_line_box_visual_gap_guard_v1"
+caption_min_rendered_line_gap_px = "40.0"
+caption_forced_takeaway_merge_count = "7"
+caption_max_active_chunk_center_delta_at_cue_start_px = "67.210"
+ambient_right_rail_motion_policy = "ambient_motion_allowed_under_rail_text_v1"
+foreground_matte_policy = "tower_shuttle_only_no_light_or_right_rail_mask"
+aircraft_right_rail_route_count = "6"
+aircraft_right_rail_cutoff_removed = true
+right_rail_alignment_review_only = false
+ambient_effects_acceptance_status = "not_applicable"
+ambient_effects_deferral_note_path = "not_applicable"
+active_ambient_effects_for_right_rail_alignment = "not_applicable"
+deferred_ambient_effects_review_root = "not_applicable"
+music_integration_contract_revalidation_scope = "not_applicable"
+highlight_phrase_scope = "exact_authored_span_only"
+caption_highlight_model_id = "lesson_takeaway_highlight_v1"
+highlight_semantic_role = "story_lesson_takeaway"
+highlight_density_model = "memorable_takeaway_cadence_v1"
+highlight_color_model = "source_sampled_backplate_contrast_takeaway_accent_v3"
+highlight_visual_timing_model = "active_band_presence_aligned_v1"
+caption_window_role = "middle_two_thirds_right_rail"
+caption_blur_scope = "none"
+caption_highlight_source = "living_cover_cue_map_key_phrases"
+caption_palette_source = "sampled_episode_backplate"
+rough_assembly_manifest_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/rough_assembly_manifest.json"
+rough_assembly_player_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/player.html"
+review_packet_path = "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/review/rolling_caption_rail_review_packet.md"
+source_art_reopened_by_default = false
+right_rail_safe_space_revalidation_required = true
+may_render_final_mp4 = false
+may_advance_to_final_assembly = false
+may_advance_to_publish_readiness = false
+may_youtube_action = false
+# rolling-caption-rail-redesign:end

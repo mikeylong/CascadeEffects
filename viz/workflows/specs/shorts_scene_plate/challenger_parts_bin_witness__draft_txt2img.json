@@ -1,0 +1,174 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_parts_bin_witness__draft_txt2img",
+  "base_fragment": "flux_full_txt2img_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "Macro documentary still life inside a quiet aerospace materials lab, one shallow brushed-metal inspection tray on a gray worktable holding several black rubber O-ring seal segments arranged routinely, one segment has a tiny eroded notch and faint soot at the seam, the rest of the tray is clean and procedural, blurred instrument housings and archive boxes in the background with no legible writing, a single small amber inspection lamp reflected softly on the tray, restrained gray-green industrial palette, soft diffuse fluorescent lighting, clinical official normalcy, the small damaged seal made physically legible, vertical 9:16 composition, centered readable subject, ultra realistic, restrained documentary photography, sharp but not glossy",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, people, hands, faces, control room, computer monitors, monitor UI, legible writing, no labels, no charts, no logos, no NASA worm logo, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, Midjourney look, sci-fi props, dramatic explosion, fireball, smoke plume, floating debris, cluttered collage, extra O-rings merging together, deformed rubber, cartoon CGI, glossy product ad lighting, high detail clutter, noisy surface, many objects, crowded scene, dramatic cinematic lighting, motion blur, action pose, ornate realism, multiple bright accents, watermark, ui overlay",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 24170501,
+    "selected_seed": 24170501,
+    "seed_mode": "search",
+    "variant_count": 4,
+    "steps": 24,
+    "guidance": 4.0,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 1.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_parts_bin_witness/draft/challenger_parts_bin_witness_draft",
+    "note_text": "Challenger beat_05 replacement carrier. Non-Midjourney macro parts-bin witness concept for motion-safe LTX animation: no people, no hands, no monitors, no legible writing.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "draft_txt2img",
+    "reference_board_dir": "references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed/still_overrides",
+    "style_profile": "minimal_surreal_editorial_v3",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "accent_palette": "gray green, brushed metal, black rubber, one muted amber signal",
+    "human_presence": "none",
+    "safe_zone_intent": "keep the tray and damaged seal readable in the middle field without requiring text or monitor UI",
+    "post_work": "none",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "one damaged O-ring seal segment in an otherwise routine inspection tray",
+    "beat_id": "beat_05",
+    "historical_anchor": "Challenger normalized-damage thesis expressed as one small damaged seal made routine",
+    "surreal_breach": "one tiny eroded soot-marked seal segment is treated like a normal catalogued part",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_parts_bin_witness.png",
+    "subject_reference_strength": 0.35,
+    "subject_reference_noise_augmentation": 0.0,
+    "subject_reference_crop": "none",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "macro aerospace inspection tray with black rubber O-ring seal segments",
+    "support_fragments": [
+      "one tiny eroded soot-marked notch carries the whole normalized-damage thesis",
+      "lab background stays blurred and captionless so motion cannot mutate writing or UI"
+    ],
+    "directives": [
+      "no people, hands, faces, monitors, or legible writing",
+      "single clear damaged-seal subject with routine institutional treatment",
+      "motion-safe still: later animation should be limited to lamp breathing, dust shimmer, and faint soot-edge shimmer"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "negative_prompt",
+      "widgets": {
+        "text": "{{ params.negative_prompt }}"
+      }
+    },
+    {
+      "key": "latent",
+      "widgets": {
+        "width": "{{ params.width }}",
+        "height": "{{ params.height }}",
+        "batch_size": "{{ params.batch_size }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.denoise }}"
+      }
+    },
+    {
+      "key": "flux_guidance",
+      "widgets": {
+        "guidance": "{{ params.guidance }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_parts_bin_witness__draft_txt2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_parts_bin_witness__draft_txt2img.json"
+  }
+}

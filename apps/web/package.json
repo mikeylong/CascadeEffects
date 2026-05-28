@@ -1,0 +1,46 @@
+{
+  "name": "cascadeeffects-tv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cascade Effects website",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "validate:style-system": "node scripts/validate-style-system.mjs",
+    "validate:asset-packages": "node scripts/validate-asset-packages.mjs",
+    "validate:episode-gallery": "node scripts/validate-episode-gallery-thumbnails.mjs",
+    "validate:brand": "npm run validate:style-system && npm run validate:asset-packages && npm run validate:episode-gallery",
+    "test:reviews": "node --test tests/publish-readiness-review.test.mjs",
+    "reviews:validate": "node scripts/publish-readiness-review.mjs validate",
+    "reviews:publish": "node scripts/publish-readiness-review.mjs publish",
+    "start": "next start",
+    "lint": "npm run validate:brand && eslint . --max-warnings=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeylong/cascadeeffects.tv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeylong/cascadeeffects.tv/issues"
+  },
+  "homepage": "https://cascadeeffects.tv",
+  "dependencies": {
+    "@vercel/blob": "^2.3.3",
+    "lucide-react": "^1.9.0",
+    "next": "^16.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "ajv": "^8.17.1",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.1",
+    "typescript": "^5.9.3"
+  }
+}

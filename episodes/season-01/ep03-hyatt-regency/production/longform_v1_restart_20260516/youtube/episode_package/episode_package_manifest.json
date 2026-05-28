@@ -1,0 +1,234 @@
+{
+  "packet_id": "hyatt_longform_restart_episode_package_20260516T194815Z",
+  "episode_id": "hyatt-regency",
+  "phase_gate": "episode_package_gate",
+  "status": "keep",
+  "human_disposition": "keep",
+  "may_advance_to_visual_system": true,
+  "created_utc": "2026-05-16T19:48:15Z",
+  "upstream_inventory_manifest": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/inventory/inventory_manifest.json",
+    "sha256": "235ed90cc27580a39e31dcd1eeb36df1faa252d5b98cf2855c5cccc6ae27f068",
+    "human_keep_required": false,
+    "human_disposition": "keep"
+  },
+  "script": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/Ep3_Hyatt-Regency.txt",
+    "sha256": "f9cf8878eaad94e3d5eac528aa9bedbfc25ce2d2fcecc61e383b8cb1d70547be",
+    "word_count": 2068,
+    "status": "locked"
+  },
+  "mechanism": "A shop drawing revision split a continuous hanger-rod load path into a double-rod arrangement, doubling the force at the fourth-floor box-beam connections while the review process treated the change as routine coordination.",
+  "viewer_promise": "Hyatt Regency shows how a drawing change could look orderly on paper while quietly changing the load path that held the walkways above a crowded atrium.",
+  "chapter_count": 6,
+  "chapters": [
+    {
+      "id": "the_tea_dance",
+      "label": "CHAPTER 01",
+      "title": "The Tea Dance",
+      "summary": "A crowded atrium event sets up the human and structural stakes.",
+      "at": 0,
+      "time_label": "00:00",
+      "duration": 82
+    },
+    {
+      "id": "the_original_load_path",
+      "label": "CHAPTER 02",
+      "title": "The Original Load Path",
+      "summary": "The original walkway support concept appears simple until the connection is examined.",
+      "at": 82,
+      "time_label": "01:22",
+      "duration": 99
+    },
+    {
+      "id": "the_revision",
+      "label": "CHAPTER 03",
+      "title": "The Revision",
+      "summary": "A shop drawing change divides the rods and changes the force path.",
+      "at": 181,
+      "time_label": "03:01",
+      "duration": 117
+    },
+    {
+      "id": "the_category_error",
+      "label": "CHAPTER 04",
+      "title": "The Category Error",
+      "summary": "The change is treated as coordination while it changes engineering responsibility.",
+      "at": 298,
+      "time_label": "04:58",
+      "duration": 177
+    },
+    {
+      "id": "the_warning_signs",
+      "label": "CHAPTER 05",
+      "title": "The Warning Signs",
+      "summary": "Prior cracks, deflection, and review signals fail to become decisive evidence.",
+      "at": 475,
+      "time_label": "07:55",
+      "duration": 278
+    },
+    {
+      "id": "everything_was_in_order",
+      "label": "CHAPTER 06",
+      "title": "Everything Was In Order",
+      "summary": "The tragedy lands in a system where each artifact appeared procedurally acceptable.",
+      "at": 753,
+      "time_label": "12:33",
+      "duration": 80.643
+    }
+  ],
+  "existing_short_bridge": {
+    "status": "available_bridge_reference_only_not_source_of_truth",
+    "short_root": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/hyatt_short_scoped_v1",
+    "keeper_short_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/motion_video_proof/pass_04_scene_led_opening_clean/final_export_adapter/final_exports/hyatt_pass04_minimal_surreal_editorial_v1_lower_left/20260426T052416Z__captioned_final.mp4",
+    "policy": "related_video_bridge_only_do_not_drive_longform_visual_state"
+  },
+  "audio": {
+    "pipeline_dir": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyattregency_production",
+    "canonical_episode_wav_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/final/Ep3_Hyatt-Regency.wav",
+    "status": "review_ready_revalidated",
+    "duration_seconds": 833.642812,
+    "packaged_sha256": "4987c649a19cccc36f3b1c0f0cddddba535e4a877be69c562f0e91302b550929",
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2",
+    "voice_profile_id": "longform_mike_v1",
+    "qa_completed_at": "2026-05-16T17:16:47Z"
+  },
+  "caption_package": {
+    "vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.vtt",
+    "vtt_sha256": "c172dbcb0299e070d34e33eea680b325b09281db19727a5be4fa66058e21e945",
+    "srt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.srt",
+    "srt_sha256": "d1fd11d1f40cfd7cf8463133be60de8535e1de5dbe2e0f37abe1549d1817b545",
+    "qa_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/captions/hyatt_regency_longform.script_locked_caption_qa.json",
+    "qa_sha256": "6f660e7d2f606380f12549c13a9a9e740458cbf277455eda56fbb21fdbc18984",
+    "qa_reads": {
+      "caption_alignment_coverage_read": "pass",
+      "caption_asr_text_not_used_read": "pass",
+      "caption_no_caption_after_outro_start_read": "pass",
+      "caption_no_speaker_labels_read": "pass",
+      "caption_rail_safe_chunk_read": "pass",
+      "caption_text_matches_script_read": "pass"
+    },
+    "alignment_coverage": 0.9919517102615694
+  },
+  "source_references": [
+    {
+      "id": "nist_bss_143",
+      "title": "Investigation of the Kansas City Hyatt Regency Walkways Collapse. (NBS BSS 143)",
+      "url": "https://www.nist.gov/publications/investigation-kansas-city-hyatt-regency-walkways-collapse-nbs-bss-143",
+      "use": "Primary investigation reference for atrium walkways, hanger rods, and box-beam connection failure."
+    },
+    {
+      "id": "nist_disaster_failure_page",
+      "title": "Walkway Collapse Kansas City Missouri 1981",
+      "url": "https://www.nist.gov/el/walkway-collapse-kansas-city-missouri-1981",
+      "use": "Public NIST summary of probable cause and investigation scope."
+    },
+    {
+      "id": "asce_hyatt_walkway_collapse",
+      "title": "The Hyatt Regency Walkway Collapse",
+      "url": "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/article/2007/01/the-hyatt-regency-walkway-collapse/",
+      "use": "Engineering-process and public-facing context for the shop drawing change and load path."
+    }
+  ],
+  "rights_notes": "Generated narration and future generated/source-art candidates remain local review assets only. Source/fact-check packet is missing or unverified, so publish readiness is blocked.",
+  "source_factcheck": {
+    "status": "blocked_pending_verified_fact_check_packet",
+    "status_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/source_factcheck_status.md",
+    "status_sha256": "0b41833d86c819a9f49ef7de96a97bb381ce197b8b846045c0c6f54c748c5ad5",
+    "publish_readiness_blocker": true
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "mp4_render_created": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "review_question": "Episode package keep recorded. Motion readiness may be reviewed next; rough assembly still requires motion-readiness keep.",
+  "may_advance_to_motion_readiness": true,
+  "updated_utc": "2026-05-17T07:21:30Z",
+  "script_audio_authorization_gate": {
+    "status": "pass_backfilled_no_script_changes_required",
+    "critic_model": "Anthropic Claude Opus 4.7 via local Claude CLI",
+    "required_reads": [
+      "frontier_model_script_critique_read",
+      "critique_integration_read",
+      "human_script_approval_for_audio_read",
+      "audio_source_integrity_read"
+    ],
+    "current_reads": {
+      "frontier_model_script_critique_read": "pass_no_script_changes",
+      "critique_integration_read": "pass_no_script_changes_required",
+      "human_script_approval_for_audio_read": "pass_prior_user_plan_locked_script_approved",
+      "audio_source_integrity_read": "pass_existing_audio_rendered_from_locked_script_with_prosody_tags_stripped"
+    },
+    "script_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/Ep3_Hyatt-Regency.txt",
+    "script_sha256": "f9cf8878eaad94e3d5eac528aa9bedbfc25ce2d2fcecc61e383b8cb1d70547be",
+    "frontier_model_script_critique_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/frontier_model_script_critique_claude_20260517.md",
+    "frontier_model_script_critique_sha256": "15a6e16c74ad76e0efad90c32fffbd459c6d676f238f597e4b848ad32044e97c",
+    "integration_note_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/script_gate_integration_note_20260517.md",
+    "integration_note_sha256": "d91155b640352ede6d9cd44a0b6b20ef9eb50d19eb395e01762708b0ea7cbe2e",
+    "human_script_approval_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/human_script_approval_for_audio_20260517.md",
+    "human_script_approval_sha256": "df24d4dc06c5e4b406bb30a14091774c4865123251d29cb40caf1b95550eca61",
+    "audio_source_integrity_report_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/audio_source_integrity_report_20260517.json",
+    "audio_source_integrity_report_sha256": "41da7991c539b90ae42160784082ae90eec49ed1a90bda4b4c9fa56b2bece937",
+    "gap_note_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/script_audio_authorization_gap.md",
+    "gap_note_sha256": "9d8c9f66f5e3bbc2bec0684a732aec6bee6e1a7f1e1cef266d56835b7b6d657b",
+    "no_rerender_required": true,
+    "publish_readiness_factcheck_blocker": true
+  },
+  "frontier_model_script_critique_read": "pass_no_script_changes",
+  "critique_integration_read": "pass_no_script_changes_required",
+  "human_script_approval_for_audio_read": "pass_prior_user_plan_locked_script_approved",
+  "audio_source_integrity_read": "pass_existing_audio_rendered_from_locked_script_with_prosody_tags_stripped",
+  "blockers": [
+    "source/fact-check packet missing or unverified; publish readiness remains blocked"
+  ],
+  "artifacts": {
+    "episode_package_md": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/episode_package.md",
+      "sha256": "f677cf783e7064ce5e20fbdcc625c29aa19f820219879cc0b5f02f3069e2e071"
+    },
+    "script_audio_authorization_gap": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/script_audio_authorization_gap.md",
+      "sha256": "9d8c9f66f5e3bbc2bec0684a732aec6bee6e1a7f1e1cef266d56835b7b6d657b"
+    },
+    "frontier_model_script_critique": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/frontier_model_script_critique_claude_20260517.md",
+      "sha256": "15a6e16c74ad76e0efad90c32fffbd459c6d676f238f597e4b848ad32044e97c"
+    },
+    "script_gate_integration_note": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/script_gate_integration_note_20260517.md",
+      "sha256": "d91155b640352ede6d9cd44a0b6b20ef9eb50d19eb395e01762708b0ea7cbe2e"
+    },
+    "human_script_approval_for_audio": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/human_script_approval_for_audio_20260517.md",
+      "sha256": "df24d4dc06c5e4b406bb30a14091774c4865123251d29cb40caf1b95550eca61"
+    },
+    "audio_source_integrity_report": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/audio_source_integrity_report_20260517.json",
+      "sha256": "41da7991c539b90ae42160784082ae90eec49ed1a90bda4b4c9fa56b2bece937"
+    }
+  },
+  "kept_utc": "2026-05-17T07:27:44Z",
+  "human_approval": {
+    "disposition": "keep",
+    "applied_utc": "2026-05-17T07:27:44Z",
+    "human_message": "whatever keep just keep going",
+    "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/gate_approvals/hyatt_inventory_episode_package_keep_20260517T072744Z.md",
+    "approval_record_sha256": "b55fdd1a41a95a293ca97a9ec549c2a9412c714261b14df810a6e60dd5db833d",
+    "interpretation": "applies_to_inventory_and_episode_package_only",
+    "explicit_non_approvals": [
+      "motion_readiness_keep",
+      "rough_assembly_keep",
+      "final_assembly_keep",
+      "publish_readiness_keep",
+      "private_youtube_upload_approval",
+      "public_release_approval"
+    ]
+  }
+}

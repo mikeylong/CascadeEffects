@@ -1,0 +1,22 @@
+{
+  "id": "boeing737max_a",
+  "incident": "boeing737max",
+  "negative_prompt": "photorealism, documentary realism, detailed faces, busy composition, multiple focal points, clutter, visible branding, readable text, ui overlays, hard digital edges, glossy 3d render, dramatic action pose, explosion close-up, debris close-up, sensationalism",
+  "outputs": {},
+  "positive_style_prompt": "minimalist emotional surrealism, radical simplicity of form, large dominant color fields, asymmetric composition, active negative space, muted palette with one selective saturated accent, soft painterly edges, subtle pigment bleed, tactile matte surface, visual silence, stillness with implied story, symbolic environment, no literal depiction of disaster, no gore, no crowd, no text, no logos, cinematic restraint",
+  "selected_seed": 43001,
+  "stage_defaults": {
+    "lookdev": {
+      "batch_size": 4,
+      "height": 1536,
+      "width": 864
+    },
+    "refine": {
+      "batch_size": 1,
+      "height": 1792,
+      "width": 1024
+    }
+  },
+  "subject_prompt": "pale overcast sky as a dominant color field, a very small simplified aircraft silhouette tilted slightly downward, placed off-center with vast empty space surrounding it, no crash depiction, no fire, no crowd, just subtle wrong angle and unresolved tension, muted palette, one restrained amber accent",
+  "variant": "a"
+}

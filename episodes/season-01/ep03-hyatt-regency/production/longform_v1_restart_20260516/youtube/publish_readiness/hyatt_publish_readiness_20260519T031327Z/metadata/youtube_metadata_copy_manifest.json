@@ -1,0 +1,114 @@
+{
+  "stage": "youtube_metadata_copy",
+  "surface": "long_form",
+  "episode_id": "hyatt-regency",
+  "created_utc": "2026-05-17T22:26:49.094Z",
+  "source_inputs": {
+    "script": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/Ep3_Hyatt-Regency.txt",
+    "chapter_map": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_staged_transition_20260517T214408Z/rough_assembly_manifest.json",
+    "source_factcheck_manifest": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/source_factcheck_manifest.json",
+    "thumbnail_candidate": "pending_publish_readiness_thumbnail_selection",
+    "rights_or_disclosure_notes": "Paper Architecture theme requires YouTube claim/status check after private upload processing; public release remains manual.",
+    "target_audience": "viewers interested in engineering failures, structural design, process failure, and system accidents"
+  },
+  "viewer_promise": "The video shows how a Hyatt Regency walkway drawing change doubled a critical load and how the review process accepted the changed load path.",
+  "recommended_title": "Hyatt Regency: The Drawing Change That Doubled the Load | Cascade Effects",
+  "alternate_titles": [
+    {
+      "title": "The Hyatt Drawing Change That Doubled the Load | Cascade Effects",
+      "mode": "hybrid",
+      "tradeoff": "Slightly tighter and more direct, but less searchable for the exact hotel name."
+    },
+    {
+      "title": "Hyatt Regency Walkway Collapse: The Load Path Change | Cascade Effects",
+      "mode": "searchable",
+      "tradeoff": "More search-aligned, less elegant."
+    },
+    {
+      "title": "The Walkway Failure Hidden in a Drawing Change | Cascade Effects",
+      "mode": "intriguing",
+      "tradeoff": "Broader curiosity, weaker exact-topic matching."
+    },
+    {
+      "title": "Hyatt Regency: When a Detail Changed the Structure | Cascade Effects",
+      "mode": "hybrid",
+      "tradeoff": "Good mechanism framing, less explicit about doubled load."
+    }
+  ],
+  "description": "On July 17, 1981, a tea dance filled the Kansas City Hyatt Regency atrium while suspended walkways crossed overhead. This video follows the drawing change that doubled the load at a critical hanger-rod connection and shows how an orderly approval process accepted the wrong load path.\n\nThe story is not just that a connection failed. It is how a structural change moved through drawings, assumptions, reviews, and warnings until the system treated a changed load path like paperwork.\n\nChapters:\n00:00 The Tea Dance\n01:32 The Original Load Path\n03:11 The Revision\n05:08 The Category Error\n08:05 The Warning Signs\n12:43 Everything Was In Order\n\nSources and references:\nNIST/NBS Building Science Series 143: Investigation of the Kansas City Hyatt Regency Walkways Collapse\nhttps://doi.org/10.6028/NBS.BSS.143\n\nNIST: Walkway Collapse, Kansas City, Missouri, 1981\nhttps://www.nist.gov/el/walkway-collapse-kansas-city-missouri-1981\n\nASCE Civil Engineering Source: The Hyatt Regency Walkway Collapse\nhttps://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/article/2007/01/the-hyatt-regency-walkway-collapse/\n",
+  "chapters": [
+    {
+      "time": "00:00",
+      "label": "The Tea Dance"
+    },
+    {
+      "time": "01:32",
+      "label": "The Original Load Path"
+    },
+    {
+      "time": "03:11",
+      "label": "The Revision"
+    },
+    {
+      "time": "05:08",
+      "label": "The Category Error"
+    },
+    {
+      "time": "08:05",
+      "label": "The Warning Signs"
+    },
+    {
+      "time": "12:43",
+      "label": "Everything Was In Order"
+    }
+  ],
+  "hashtags": [
+    "#EngineeringFailure",
+    "#StructuralEngineering",
+    "#CascadeEffects"
+  ],
+  "tags": [
+    "Hyatt Regency walkway collapse",
+    "Kansas City Hyatt Regency",
+    "Hyatt Regency disaster",
+    "engineering failure",
+    "structural engineering",
+    "structural collapse",
+    "hanger rods",
+    "load path",
+    "building failure",
+    "design change",
+    "engineering ethics",
+    "civil engineering",
+    "Cascade Effects"
+  ],
+  "qa_reads": {
+    "title_thumbnail_promise_read": "pass_title_names_hyatt_regency_and_doubled_load_mechanism",
+    "youtube_metadata_copywriting_read": "pass",
+    "front_loaded_title_read": "pass_specific_topic_before_brand",
+    "description_first_lines_read": "pass_hyatt_regency_atrium_drawing_change_doubled_load_viewer_payoff",
+    "description_concrete_viewer_hook_read": "pass_tea_dance_hyatt_regency_atrium_suspended_walkways_hanger_rod_connection",
+    "chapter_format_read": "pass_starts_00_00_ascending_at_least_three_chapters",
+    "public_metadata_copy_read": "pass_no_internal_workflow_terms",
+    "public_tag_relevance_read": "pass_episode_central_terms_no_research_source_tag_stuffing",
+    "tag_minimal_role_read": "pass_tags_secondary_and_limited",
+    "hashtag_policy_read": "pass_three_high_confidence_hashtags",
+    "spam_deception_policy_read": "pass_no_sensational_or_deceptive_claim",
+    "metadata_human_keep_read": "pending"
+  },
+  "blockers": [
+    "thumbnail candidate pending publish-readiness selection",
+    "metadata requires human keep before publish-readiness keep",
+    "YouTube Content ID/status checks remain after private upload processing"
+  ],
+  "human_review_required": true,
+  "disposition": "review_ready",
+  "may_advance": false,
+  "may_youtube_action": false,
+  "public_release_ready": false,
+  "packet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/metadata/hyatt_metadata_copy_20260517T_upload_readiness/youtube_metadata_copy_packet.md",
+    "sha256": "8ff83733cf85d0ef9a0d5da3ad8744a7e2e7e8fb46952eb6af14d4a191af7f88",
+    "bytes": 3889
+  }
+}

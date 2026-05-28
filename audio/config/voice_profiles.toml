@@ -1,0 +1,25 @@
+version = 1
+
+[voices.mike]
+voice_id = "dPrTCMw2R7HQlznlgwCO"
+category = "professional"
+language = "en"
+description = "Mike PVC automation profile for curated local WAV samples."
+sample_extensions = [".wav"]
+target_training_models = ["eleven_multilingual_sts_v2"]
+
+[voices.mike.render_settings]
+stability = 0.6
+similarity_boost = 0.8
+style = 0.0
+use_speaker_boost = true
+speed = 0.95
+
+[voices.mike.sample_defaults]
+remove_background_noise = false
+
+[shorts_profiles]
+registry_path = "/Users/mike/CascadeEffects/audio/references/voice_profiles/youtube_shorts_voice_profiles.json"
+default_active_profile_id = "youtube_shorts_mike_challenger_match_v1"
+experiment_profile_id = "youtube_shorts_mike_eleven_v3_experiment"
+legacy_profile_id = "openai_cedar_legacy_v1"

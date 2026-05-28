@@ -1,0 +1,192 @@
+{
+  "model": "full_vo_runtime_visible_caption_coverage_v1",
+  "status": "pass",
+  "review_url": "http://127.0.0.1:8766/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/html_review/source_credit_gap/player.html?t=851.541&range_guard=semmelweis_caption-highlight-runtime-audit_20260526T053124Z_html_review&caption_guard=semmelweis_caption_virtualizer_v1",
+  "render_url": "http://127.0.0.1:8766/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/html_review/source_credit_gap/player.html?render=1&t=851.541&range_guard=semmelweis_caption-highlight-runtime-audit_20260526T053124Z_html_review&caption_guard=semmelweis_caption_virtualizer_v1",
+  "reads": {
+    "highlight_color_read": "pass_legacy_dede35_not_rendered",
+    "highlight_treatment_read": "pass_review_safe_pale_highlight_visible",
+    "caption_virtualizer_model_read": "pass_visible_window_caption_virtualization_v1",
+    "full_stack_drag_read": "pass_full_caption_stack_not_dragged",
+    "source_credit_runtime_read": "pass_source_credit_gap_runtime",
+    "playback_virtualizer_read": "pass_playback_uses_visible_window_virtualizer",
+    "audio_render_upload_read": "pass_audio_unchanged_no_render_no_upload",
+    "caption_full_vo_runtime_coverage_read": "pass_full_vo_runtime_visible_caption_coverage",
+    "caption_runtime_cutoff_read": "pass_no_caption_cutoff_before_final_vo",
+    "caption_line_clip_read": "pass_no_visible_caption_line_clipping",
+    "right_rail_caption_paint_visibility_read": "pass_visible_right_rail_caption_lines_are_painted"
+  },
+  "review_playback_sample": {
+    "ok": true,
+    "frame_count": 12,
+    "max_frame_gap_ms": 159.20000000000027,
+    "virtualizer_models": [
+      "visible_window_caption_virtualization_v1"
+    ],
+    "max_visible_lines": 6,
+    "stack_transforms": [
+      "none"
+    ],
+    "transitions": [
+      "transform 0.11s linear, opacity 0.11s linear"
+    ]
+  },
+  "samples": [
+    {
+      "time_seconds": 851.541,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 5,
+        "visible_indexes": [
+          186,
+          187,
+          188,
+          189,
+          190
+        ],
+        "translate_y_px": -45544.214,
+        "time_seconds": 851.541
+      },
+      "stack": {
+        "model": "visible_window_caption_virtualization_v1",
+        "transform": "none",
+        "height": "844px",
+        "visible_line_count": 3,
+        "visible_transitions": [
+          "none",
+          "none",
+          "none"
+        ]
+      },
+      "highlights": [
+        {
+          "text": "cost of believing it",
+          "color": "rgb(239, 239, 159)",
+          "textShadow": "rgba(0, 0, 0, 0.7) 0px 2px 18px, rgba(0, 0, 0, 0.66) 0px 1px 5px, rgba(0, 0, 0, 0.66) 0px 0px 2px",
+          "lineDisplay": "block",
+          "lineOpacity": "0.933",
+          "lineTransform": "matrix(1, 0, 0, 1, 0, 302.586)"
+        },
+        {
+          "text": "was too high",
+          "color": "rgb(239, 239, 159)",
+          "textShadow": "rgba(0, 0, 0, 0.7) 0px 2px 18px, rgba(0, 0, 0, 0.66) 0px 1px 5px, rgba(0, 0, 0, 0.66) 0px 0px 2px",
+          "lineDisplay": "block",
+          "lineOpacity": "0.933",
+          "lineTransform": "matrix(1, 0, 0, 1, 0, 302.586)"
+        }
+      ],
+      "source_credit": {
+        "opacity": 0,
+        "text": "Sources Ignaz Semmelweis, Die Aetiologie Irvine Loudon, Semmelweis studies Best, Neuhauser, and Slavin"
+      },
+      "end_screen": {
+        "opacity": 0,
+        "railOpacity": 1,
+        "model": "youtube_legal_window_end_screen_entry_v1"
+      },
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/qa/semmelweis_caption_highlight_runtime_audit/t851_541_caption_highlight.png",
+      "screenshot_sha256": "02111acf7be729c48bb0a8f85de0089aa00592c687e11a16e4630250eda21b66"
+    },
+    {
+      "time_seconds": 857.75,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 3,
+        "visible_indexes": [
+          188,
+          189,
+          190
+        ],
+        "translate_y_px": -45879.5,
+        "time_seconds": 857.75
+      },
+      "stack": {
+        "model": "visible_window_caption_virtualization_v1",
+        "transform": "none",
+        "height": "844px",
+        "visible_line_count": 1,
+        "visible_transitions": [
+          "none"
+        ]
+      },
+      "highlights": [],
+      "source_credit": {
+        "opacity": 1,
+        "text": "Sources Ignaz Semmelweis, Die Aetiologie Irvine Loudon, Semmelweis studies Best, Neuhauser, and Slavin"
+      },
+      "end_screen": {
+        "opacity": 0,
+        "railOpacity": 1,
+        "model": "youtube_legal_window_end_screen_entry_v1"
+      },
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/qa/semmelweis_caption_highlight_runtime_audit/t857_750_source_credit_visible.png",
+      "screenshot_sha256": "86216581eac4de53aa0d9f415239b477c420791f204706263240d8181de0cd90"
+    },
+    {
+      "time_seconds": 863.722,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 1,
+        "visible_indexes": [
+          190
+        ],
+        "translate_y_px": -46201.988,
+        "time_seconds": 863.722
+      },
+      "stack": {
+        "model": "visible_window_caption_virtualization_v1",
+        "transform": "none",
+        "height": "844px",
+        "visible_line_count": 0,
+        "visible_transitions": []
+      },
+      "highlights": [],
+      "source_credit": {
+        "opacity": 0,
+        "text": "Sources Ignaz Semmelweis, Die Aetiologie Irvine Loudon, Semmelweis studies Best, Neuhauser, and Slavin"
+      },
+      "end_screen": {
+        "opacity": 0,
+        "railOpacity": 1,
+        "model": "youtube_legal_window_end_screen_entry_v1"
+      },
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/qa/semmelweis_caption_highlight_runtime_audit/t863_722_legal_entry.png",
+      "screenshot_sha256": "1641908480ca71bb245c5783f2c51b12615f507f3f22fbca2618cad8c467032d"
+    },
+    {
+      "time_seconds": 864.05,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 1,
+        "visible_indexes": [
+          190
+        ],
+        "translate_y_px": -46219.7,
+        "time_seconds": 864.05
+      },
+      "stack": {
+        "model": "visible_window_caption_virtualization_v1",
+        "transform": "none",
+        "height": "844px",
+        "visible_line_count": 0,
+        "visible_transitions": []
+      },
+      "highlights": [],
+      "source_credit": {
+        "opacity": 0,
+        "text": "Sources Ignaz Semmelweis, Die Aetiologie Irvine Loudon, Semmelweis studies Best, Neuhauser, and Slavin"
+      },
+      "end_screen": {
+        "opacity": 1,
+        "railOpacity": 0,
+        "model": "youtube_legal_window_end_screen_entry_v1"
+      },
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/qa/semmelweis_caption_highlight_runtime_audit/t864_050_end_screen_full.png",
+      "screenshot_sha256": "48a569abbe2a2888fa9e4c829346c50783059ba7a12e1a42787f7c8b6d425d8f"
+    }
+  ],
+  "passed": true,
+  "failure_count": 0,
+  "failures": []
+}

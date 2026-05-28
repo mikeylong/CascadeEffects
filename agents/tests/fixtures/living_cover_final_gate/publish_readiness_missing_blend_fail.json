@@ -1,0 +1,23 @@
+{
+  "packet_id": "fixture_publish_readiness_missing_blend_fail",
+  "required_reads": [
+    "full_outro_music_read",
+    "end_screen_music_handoff_read",
+    "audio_level_mix_read",
+    "music_rights_read"
+  ],
+  "media": {
+    "transition_samples": [
+      {
+        "label": "VO/outro transition review sample",
+        "path": "sample.mp3"
+      }
+    ]
+  },
+  "reads": {
+    "full_outro_music_read": "pass",
+    "end_screen_music_handoff_read": "pass",
+    "audio_level_mix_read": "pass",
+    "music_rights_read": "pass"
+  }
+}

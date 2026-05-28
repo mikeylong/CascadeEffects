@@ -1,0 +1,237 @@
+{
+  "packet_id": "therac-25_rolling_caption_rail_final_mp4_20260523T054302Z",
+  "gate": "final_assembly_gate",
+  "status": "final_assembly_keep_recorded_publish_readiness_gate_open_youtube_blocked",
+  "human_disposition": "keep",
+  "created_utc": "2026-05-23T06:30:14.959Z",
+  "review_only": false,
+  "publishable_final": true,
+  "upload_performed": false,
+  "proof_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z",
+  "proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/rough_assembly_manifest.json",
+  "source_html_proof": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/player.html",
+    "player_sha256": "504af0493d4f7f649b17438ead224afe1e9352de62db5ccd6197ae8b749167d4",
+    "current_kept_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source"
+  },
+  "audio_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/proof_assets/audio/therac-25_right_rail_alignment_music_mix.wav",
+    "sha256": "4b5aa18583331173df872c3663006bc633ec3656f0f121602e8c54d75d2900c5",
+    "bytes": 196536406,
+    "role": "kept_right_rail_alignment_music_mix_wav",
+    "encode_policy": "encoded_to_aac_for_mp4_container"
+  },
+  "caption_package": {
+    "visible_rail_captions_burned_in": true,
+    "caption_model": "rolling_rail_caption_window_v1",
+    "youtube_upload_sidecar_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/youtube_sidecars/therac25_longform_script_locked.offset_intro_3s601.vtt",
+      "sha256": "c8282e314298887e372f475c56b08159d84a31001a19659cd76e7f053949aaec",
+      "bytes": 25139
+    },
+    "youtube_upload_sidecar_srt": null,
+    "source_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/proof_assets/captions/therac25_longform_script_locked.offset_intro_3s601.vtt",
+      "sha256": "c8282e314298887e372f475c56b08159d84a31001a19659cd76e7f053949aaec",
+      "bytes": 25139
+    },
+    "browser_caption_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/browser/therac-25_final_browser_qa.json"
+  },
+  "output": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/therac-25_living_cover_final_review_1080p24.mp4",
+    "sha256": "762fe87520bd12baf43a3647feef8ebb5443a120572c692439867c1d99386f01",
+    "bytes": 168819426,
+    "duration_seconds": 1114.150998,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "bit_rate": 1212183
+  },
+  "render_strategy": {
+    "mode": "current_kept_living_cover_html_full_browser_render",
+    "full_video_reencoded": true,
+    "audio_stream_copied_from_predecessor": false,
+    "audio_stream_copy_justification": "source is approved WAV mix; AAC encode required for H.264/AAC MP4 delivery",
+    "source_audio_sha256": "4b5aa18583331173df872c3663006bc633ec3656f0f121602e8c54d75d2900c5",
+    "final_audio_stream_sha256": "90636b7544834eeea28e4fab497ef7992a019f017d3050e3343ec811ca4808c8",
+    "frame_count": 26740,
+    "parallel_capture_workers": 4,
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "crf": 18,
+    "preset": "veryfast"
+  },
+  "video_segments": {
+    "segment_count": 4,
+    "segments": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/segments/therac-25_segment_00.mp4",
+        "sha256": "b93aac83c9c55f078724955e719a0d4bd97f3a8909e941f50d901653661b9c71",
+        "bytes": 36072672
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/segments/therac-25_segment_01.mp4",
+        "sha256": "8202626cb2d4a08c5fbd9042d4746f9061c113eb2520fdc55681fbbdd080d689",
+        "bytes": 35193051
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/segments/therac-25_segment_02.mp4",
+        "sha256": "396fcc698bf1ac54d133be1ea68e42a4558cdbdb1a77f203fff02f1a4ae4dfe0",
+        "bytes": 36467252
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/segments/therac-25_segment_03.mp4",
+        "sha256": "469004c4a3c1531b2603d5f405c28fce9a04810df176c0a68bb70746ddf03aa3",
+        "bytes": 33768654
+      }
+    ],
+    "concat": {
+      "concat_list": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/segments/concat_list.txt",
+        "sha256": "f05f6e654ebaf9eadaca18551de76a3373c224f7eb07c19663cd0130fb930fce",
+        "bytes": 1072
+      },
+      "concat_video": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/segments/therac-25_video_concat.mp4",
+        "sha256": "2731352ea1febfe7535e3f336d7c31ec5eb6bf878d985756e49a3a428228c6bb",
+        "bytes": 141502279
+      }
+    }
+  },
+  "timing": {
+    "duration_seconds": 1114.157074,
+    "fps": 24,
+    "voice_start_seconds": 3.601451,
+    "safe_window_start_seconds": 1094.157074,
+    "safe_window_end_seconds": 1114.157074
+  },
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "24/1",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration": "1114.150998",
+      "size": "168819426",
+      "bit_rate": "1212183"
+    }
+  },
+  "browser_qa": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/browser/therac-25_final_browser_qa.json",
+    "sha256": "15085da3900c407f47903617b779ac38571cb6210dfef19698b4f0dc1a0af9c0",
+    "reads": {
+      "page_load_read": "pass",
+      "render_mode_controls_hidden_read": "pass",
+      "caption_suppression_read": "pass",
+      "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+      "viewer_text_suppression_read": "pass",
+      "youtube_target_geometry_static_read": "pass_static_overlay_boxes"
+    }
+  },
+  "qa_frames": {
+    "start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/frames/mp4_qa_start_1p000s.jpg",
+      "sha256": "009ccdb0985eebbdc9dd1c440f9b0c424d15ca6bd66d93dcf550410fa58dad39",
+      "bytes": 139748
+    },
+    "voice_start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/frames/mp4_qa_voice_start_3p601s.jpg",
+      "sha256": "59d5b7e3e5e6390ad8023f5f3e5e59e2999e612407941fbfe44a7f82fb6d1b78",
+      "bytes": 165361
+    },
+    "quarter": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/frames/mp4_qa_quarter_278p539s.jpg",
+      "sha256": "ff3b422974c219bf93c984a36dee81f933feadc8e60c17d5fbb4335078ac7329",
+      "bytes": 164513
+    },
+    "half": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/frames/mp4_qa_half_557p079s.jpg",
+      "sha256": "d9f2b13c80c144af0c2c72509d2b79da082dae4ad9a87756c109ad7883b6a86c",
+      "bytes": 165898
+    },
+    "three_quarter": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/frames/mp4_qa_three_quarter_835p618s.jpg",
+      "sha256": "d6ef8ad1a704bb2f72f107cab15f3fa0c37788215152766b0b063c53e41ebc67",
+      "bytes": 176977
+    },
+    "safe_window_start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/frames/mp4_qa_safe_window_start_1094p157s.jpg",
+      "sha256": "d90ab4d5fa40bd68d7dce9cb50f9c522ac8b8657ef4465492084859c42c7308d",
+      "bytes": 154222
+    },
+    "final_second": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/qa/frames/mp4_qa_final_second_1113p157s.jpg",
+      "sha256": "ce5bbfc9aba06894fc8407cd1434bfc13d1a2473e3acfdbb0f4c799bd9059128",
+      "bytes": 154767
+    }
+  },
+  "qa_reads": {
+    "mp4_created_read": "pass",
+    "video_stream_read": "pass_h264_present",
+    "audio_stream_read": "pass_aac_audio_present",
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "duration_read": "pass",
+    "dimensions_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "caption_sidecar_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "caption_suppression_read": "pass",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "viewer_text_suppression_read": "pass",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "post_change_regression_read": "pass_rendered_from_current_kept_therac-25_html_proof",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "downstream_gate_read": "pass_final_mp4_created_publish_and_youtube_flags_false",
+    "final_assembly_human_keep_read": "pass_user_kept_all_current_long_form_mp4_final_assemblies_2026_05_23",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package_creation_only",
+    "youtube_upload_ready_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only"
+  },
+  "may_advance_to_publish_readiness": true,
+  "may_youtube_action": false,
+  "youtube_upload_ready": false,
+  "public_release_ready": false,
+  "requested_youtube_upload": {
+    "requested_at_utc": "2026-05-23T06:30:15.316Z",
+    "requested_action": "encode_long_form_episode_to_mp4_for_youtube",
+    "disposition": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "next_valid_action": "Create or refresh HTML-first publish-readiness package after human keep on this MP4 assembly.",
+    "final_assembly_keep_receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/review/final_assembly_mp4_keep_receipt_20260523T141903Z.json"
+  },
+  "next_review_question": "Review this final MP4 assembly and reply with exactly one disposition: keep, tighten, or reject.",
+  "qa_selector_repair_note": "Repaired 2026-05-23: browser QA selector now chooses the visible end-screen container; prior tighten came from reading hidden successor overlay opacity while visible legacy YouTube targets were present in the screenshot.",
+  "human_keep_recorded_at": "2026-05-23T14:19:03.541Z",
+  "human_keep_approval_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T054302Z/review/final_assembly_mp4_keep_receipt_20260523T141903Z.json",
+  "human_keep_approval_sha256": "1b0891a3eb481fb3657eacdb847f4c5ee14431ca6ce68e64bcca6506ae6d09d1",
+  "publish_ready": false,
+  "upload_allowed": false,
+  "public_release_allowed": false
+}

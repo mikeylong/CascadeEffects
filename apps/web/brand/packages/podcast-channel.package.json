@@ -1,0 +1,203 @@
+{
+  "kind": "asset-package",
+  "id": "podcast-channel-launch-v1",
+  "version": "1.0.0",
+  "profileId": "cascade-paper-architectures-ink-lit-v1",
+  "platform": "podcast-channel",
+  "status": "active",
+  "summary": "podcast asset rules for Cascade Effects using the active ink-lit Paper Architectures direction.",
+  "sourceContracts": {
+    "illustration": "brand/contracts/illustration.contract.json",
+    "designSystem": "brand/contracts/design-system.contract.json"
+  },
+  "largeAssetPolicy": {
+    "sourceControl": "contracts-manifests-provenance-only",
+    "forbiddenTrackedExtensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp",
+      ".mov",
+      ".mp4",
+      ".wav",
+      ".mp3",
+      ".m4a",
+      ".aiff",
+      ".flac",
+      ".safetensors",
+      ".ckpt",
+      ".pt",
+      ".pth",
+      ".onnx"
+    ],
+    "assetRootEnv": "CASCADE_ASSET_ROOT"
+  },
+  "platformSources": [
+    {
+      "label": "Apple Podcasts show cover template",
+      "url": "https://podcasters.apple.com/support/5514-show-cover-template"
+    },
+    {
+      "label": "Apple Podcasts artwork requirements",
+      "url": "https://podcasters.apple.com/support/896-artwork-requirements"
+    }
+  ],
+  "deliverables": [
+    {
+      "role": "podcast-master-artwork",
+      "name": "Podcast show artwork master",
+      "dimensions": {
+        "width": 3000,
+        "height": 3000,
+        "unit": "px"
+      },
+      "format": "png",
+      "safeZones": [
+        {
+          "name": "show-cover-safe-area",
+          "x": 300,
+          "y": 300,
+          "width": 2400,
+          "height": 2400,
+          "unit": "px",
+          "purpose": "Keep title, folded-paper cascade, subject anchors, and artifacts away from rounded app crops and library UI overlays."
+        }
+      ],
+      "copyPolicy": {
+        "mode": "title-only",
+        "exactTitle": "Cascade of Effects",
+        "allowGeneratedTextInSourceArtwork": false,
+        "allowExtraCopy": false,
+        "notes": [
+          "Use this 3000x3000 file as the canonical square podcast source."
+        ]
+      },
+      "source": {
+        "assetRootEnv": "CASCADE_ASSET_ROOT",
+        "sourceRender": "podcast-assets/source-renders/show-art-source.png",
+        "composedAsset": "podcast-assets/cascade-effects-show-art-3000x3000.png",
+        "trackedInGit": false,
+        "compositionMethod": "generated-source-plus-local-title",
+        "referenceRenders": [
+          {
+            "evidenceSetId": "paper-architectures-ink-lit-v1",
+            "evidenceItemId": "homepage-hero-dark-adapted-mobile-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-mobile-source-v1.png"
+          }
+        ]
+      },
+      "texture_noise_read": "pass",
+      "qa": [
+        {
+          "id": "podcast-3000-dimensions",
+          "method": "dimension",
+          "description": "Confirm a square 3000x3000 RGB image before podcast submission.",
+          "required": true
+        },
+        {
+          "id": "library-legibility",
+          "method": "legibility",
+          "description": "Confirm the title survives common podcast-library sizes.",
+          "required": true
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "role": "podcast-library-square",
+      "name": "Podcast library square derivative",
+      "dimensions": {
+        "width": 1280,
+        "height": 1280,
+        "unit": "px"
+      },
+      "format": "png",
+      "safeZones": [
+        {
+          "name": "library-safe-area",
+          "x": 128,
+          "y": 128,
+          "width": 1024,
+          "height": 1024,
+          "unit": "px",
+          "purpose": "Keep the title and primary Paper Architectures mark readable in Apple, Spotify, and YouTube podcast grid contexts."
+        }
+      ],
+      "copyPolicy": {
+        "mode": "title-only",
+        "exactTitle": "Cascade of Effects",
+        "allowGeneratedTextInSourceArtwork": false,
+        "allowExtraCopy": false,
+        "notes": [
+          "This derivative can use the current stronger square v2 treatment as a visual reference."
+        ]
+      },
+      "source": {
+        "assetRootEnv": "CASCADE_ASSET_ROOT",
+        "sourceRender": "youtube-assets/source-renders/podcast-source.png",
+        "composedAsset": "youtube-assets/podcast-playlist-1280x1280.png",
+        "trackedInGit": false,
+        "compositionMethod": "generated-source-plus-local-title",
+        "referenceRenders": [
+          {
+            "evidenceSetId": "paper-architectures-ink-lit-v1",
+            "evidenceItemId": "homepage-hero-dark-adapted-mobile-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-mobile-source-v1.png"
+          }
+        ]
+      },
+      "texture_noise_read": "pass",
+      "qa": [
+        {
+          "id": "mock-library-preview",
+          "method": "visual",
+          "description": "Render into a podcast-library mockup and confirm title scale is sufficient.",
+          "required": true
+        },
+        {
+          "id": "exact-title",
+          "method": "manual",
+          "description": "Confirm exact title spelling: Cascade of Effects.",
+          "required": true
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "role": "podcast-library-mockup",
+      "name": "Podcast library contact sheet",
+      "dimensions": {
+        "width": 2600,
+        "height": 2100,
+        "unit": "px"
+      },
+      "format": "png",
+      "safeZones": [],
+      "copyPolicy": {
+        "mode": "none",
+        "allowGeneratedTextInSourceArtwork": false,
+        "allowExtraCopy": false,
+        "notes": [
+          "Mockups are QA artifacts and should not introduce additional brand copy."
+        ]
+      },
+      "source": {
+        "assetRootEnv": "CASCADE_ASSET_ROOT",
+        "sourceRender": "mockups/cascade-effects-podcast-library-square-v2-mockup.png",
+        "composedAsset": "mockups/cascade-effects-podcast-library-square-v2-mockup.png",
+        "trackedInGit": false,
+        "compositionMethod": "generated-source-no-title"
+      },
+      "texture_noise_read": "pass",
+      "qa": [
+        {
+          "id": "mockup-read",
+          "method": "visual",
+          "description": "Confirm the square art reads inside a podcast UI alongside competing show art.",
+          "required": true
+        }
+      ],
+      "status": "active"
+    }
+  ]
+}

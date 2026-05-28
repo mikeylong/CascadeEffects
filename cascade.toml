@@ -1,0 +1,106 @@
+[workspace]
+name = "Cascade Effects"
+root = "/Users/mike/CascadeEffects"
+artifact_root = ".artifacts"
+schema_version = 1
+production_runtime_target = "season_2_plus_compact_longform"
+
+[commands]
+ce = "bin/ce"
+doctor = "bin/ce doctor"
+status = "bin/ce status"
+
+[paths]
+agents = "agents"
+audio = "audio"
+viz = "viz"
+inbox = "inbox"
+web = "apps/web"
+stylelab = "labs/stylelab"
+fluxlab = "labs/fluxlab"
+season_01 = "episodes/season-01"
+season_02 = "episodes/season-02"
+channel_season_01 = "channel/season-01"
+tasks = "ops/tasks"
+locks = "ops/locks"
+contracts = "packages/contracts"
+production_registry = "packages/production-registry"
+
+[deploy.web]
+provider = "vercel"
+root_directory = "apps/web"
+framework = "nextjs"
+build_command = "npm run build"
+lint_command = "npm run lint"
+
+[artifacts]
+git_policy = "manifests_and_checksums_only"
+local_store = ".artifacts"
+allowed_tracked_media = ["apps/web/public/**", "apps/web/app/icon.png"]
+
+[season_defaults.season_2_plus]
+runtime_target_minutes = "12-18"
+runtime_exception = "up to about 20 minutes when evidence genuinely requires it"
+expanded_episode_requires_human_approval = true
+paper_architecture_video_assets_allowed = false
+manual_public_release_only = true
+
+[[legacy_roots]]
+name = "Agents_CascadeEffects"
+old_path = "/Users/mike/Agents_CascadeEffects"
+new_path = "agents"
+type = "git"
+
+[[legacy_roots]]
+name = "Audio_CascadeEffects"
+old_path = "/Users/mike/Audio_CascadeEffects"
+new_path = "audio"
+type = "git"
+
+[[legacy_roots]]
+name = "Episodes_CascadeEffects"
+old_path = "/Users/mike/Episodes_CascadeEffects"
+new_path = "episodes/season-01"
+type = "git"
+
+[[legacy_roots]]
+name = "Inbox_CascadeEffects"
+old_path = "/Users/mike/Inbox_CascadeEffects"
+new_path = "inbox"
+type = "git"
+
+[[legacy_roots]]
+name = "StyleLab_CascadeEffects"
+old_path = "/Users/mike/StyleLab_CascadeEffects"
+new_path = "labs/stylelab"
+type = "git"
+
+[[legacy_roots]]
+name = "Viz_CascadeEffects"
+old_path = "/Users/mike/Viz_CascadeEffects"
+new_path = "viz"
+type = "git"
+
+[[legacy_roots]]
+name = "Web_CascadeEffects"
+old_path = "/Users/mike/Web_CascadeEffects"
+new_path = "apps/web"
+type = "git"
+
+[[legacy_roots]]
+name = "FluxLab_CascadeEffects"
+old_path = "/Users/mike/FluxLab_CascadeEffects"
+new_path = "labs/fluxlab"
+type = "not_git"
+
+[[seasons]]
+id = "season-01"
+path = "episodes/season-01"
+status = "migrated"
+source = "first eight production migration"
+
+[[seasons]]
+id = "season-02"
+path = "episodes/season-02"
+status = "ready_for_scaffolded_production"
+source = "canonical table rows 9-16 reconstructed starter backlog"

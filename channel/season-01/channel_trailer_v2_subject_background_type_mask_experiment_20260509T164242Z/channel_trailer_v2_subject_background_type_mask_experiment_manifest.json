@@ -1,0 +1,988 @@
+{
+  "artifact_id": "cascade_of_effects_channel_trailer_v2_subject_background_type_mask_experiment",
+  "created_at": "20260509T164242Z",
+  "status": "local_review_experiment",
+  "experiment_type": "subject_background_type_mask_experiment",
+  "variant_of": "channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_larger_old_title_flash_repair_20260508T231816Z",
+  "publishable": false,
+  "youtube_rollout": "none_local_static_frames_only",
+  "summary": "Six single-frame comps testing subject names as masked Difference-blend background type behind Paper Architecture scenes.",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": null,
+    "media_type": "static_png_frames",
+    "frame_count": 6
+  },
+  "typography": {
+    "font_family": "Inter",
+    "font_weight": 900,
+    "font_source_path": "/Users/mike/Library/Fonts/Inter-VariableFont_opsz,wght.ttf",
+    "font_source_sha256": "0be2399ea925f1f83ff974764761da9860ec50742ed29a5d4c1ffd0c5c7ac3a8",
+    "orientation": "screen_parallel_no_rotation",
+    "tracking_px": 0,
+    "blend_mode": "difference",
+    "blend_color_rgb": [
+      246,
+      239,
+      255
+    ],
+    "blend_alpha": 142,
+    "left_scene_zone_xy": [
+      42,
+      62,
+      1138,
+      884
+    ],
+    "center_xy": [
+      548,
+      432
+    ]
+  },
+  "labels": {
+    "requested_subjects": [
+      "challenger",
+      "semelweis",
+      "titanic",
+      "737 max",
+      "tacoma narrows bridge",
+      "hyatt"
+    ],
+    "normalization": {
+      "semelweis": "SEMMELWEIS",
+      "hyatt": "HYATT REGENCY"
+    },
+    "rendered_labels_by_slug": {
+      "challenger": "CHALLENGER",
+      "semmelweis": "SEMMELWEIS",
+      "titanic": "TITANIC",
+      "737-max": "737 MAX",
+      "tacoma-narrows": "TACOMA NARROWS BRIDGE",
+      "hyatt-regency": "HYATT REGENCY"
+    },
+    "rendered_order": [
+      "challenger",
+      "semmelweis",
+      "titanic",
+      "737-max",
+      "tacoma-narrows",
+      "hyatt-regency"
+    ]
+  },
+  "mask_strategy": {
+    "foreground_occlusion": "derive_from_base_plate_luma_edges_plus_subject_specific_manual_repairs",
+    "text_layer": "Inter Black text alpha constrained_to_left_scene_zone",
+    "composite_order": [
+      "base_plate",
+      "difference_blend_text_constrained_to_inverse_foreground_mask",
+      "restore_original_foreground_with_occlusion_mask",
+      "right_short_card",
+      "section_grade"
+    ],
+    "debug_masks_exported": true
+  },
+  "source_carrier_policy": "approved_source_art_base_plates_plus_deterministic_local_typography_and_masks",
+  "paper_architecture_policy": {
+    "carrier": "deterministic_composition_over_approved_raster_source_art",
+    "texture_noise_read": "not_applicable_no_new_paper_material_generated",
+    "waterfall_read": "not_applicable_no_new_scene_generation"
+  },
+  "inputs": {
+    "visual_proofs": {
+      "challenger": {
+        "display_name": "Challenger",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/video/challenger_visual_proof_v1_motion.mp4",
+        "video_sha256": "9aa1edeab456d3c40cbd3df5e9da7592cc1117e9d90d0220dfa9e2c9bcc6ee2a",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/challenger_visual_proof_manifest.json",
+        "manifest_sha256": "4b5b63a55da191683f6d5c28c35cc3b6685af422ad62d6e49dc64f687fad3c3d",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_scoped_v1/motion_contact_sheet/pass_11/final_exports/challenger_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260430T_challenger_house_crt_visible_scanline_final_gate_pass01/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "2a8dda604e5d4b88de01048a74063752110f3dcb0998ecf8c5e254f8d5c89f54",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/source_art/challenger_selected_variant_01_base_plate.png",
+        "base_plate_sha256": "f24e7365f0c690c92b89128de19536db457cc82911ffae5a01b77cfe9d863b34"
+      },
+      "semmelweis": {
+        "display_name": "Semmelweis",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/semmelweis_visual_proof_v1_20260506T170958Z/video/semmelweis_visual_proof_v1_motion.mp4",
+        "video_sha256": "fc5bb36425e6cb7be69012011228f9bbc70e96cb29194e5000f61aa878173e27",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/semmelweis_visual_proof_v1_20260506T170958Z/semmelweis_visual_proof_manifest.json",
+        "manifest_sha256": "777912da4d9fef2db6af7899fcbba6ac4125cbbc1023978101b3eb3b162bffe5",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/semmelweis/shorts/semmelweis_short_scoped_v1/motion_video_proof/pass_01d_head_in_hands_ending/semmelweis_motion_video_proof_pass_01d_visual_bed_no_audio.mp4",
+        "short_video_pre_caption_sha256": "81213fcda8aae84f187d3431df11c76fa6fa09a6101d1472495726040a917bab",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/semmelweis_visual_proof_v1_20260506T170958Z/source_art/semmelweis_visual_proof_base_plate.png",
+        "base_plate_sha256": "3475d0e6086b7b5b69b277bb410d724c2d52c48c97375e116911fdc9e6d3e916"
+      },
+      "titanic": {
+        "display_name": "Titanic",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/titanic_visual_proof_v1_20260506T170958Z/video/titanic_visual_proof_v1_motion.mp4",
+        "video_sha256": "c787d7df4a41df4a088c0fa35fef5ff2a3a17effe68e94818607868769c243ed",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/titanic_visual_proof_v1_20260506T170958Z/titanic_visual_proof_manifest.json",
+        "manifest_sha256": "1a44cf6c9d37265700b7159a00b27035f96161dc31ee476ea2067be4b4a1578b",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/titanic/shorts/titanic_short_scoped_v1/motion_video_proof/pass_14_loc_archival_timed_proof/final_exports/pass_18_loc_archival_source_motion_tail_repair/20260430T201719Z__titanic_pass18_loc_archival_source_motion_tail_repair_source_motion_tail_no_caption.mp4",
+        "short_video_pre_caption_sha256": "018fb4d1ee0e1cdedf7ae4fe30dbe25a92f02255b06da5fe4a333802eb3fdcdd",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/titanic_visual_proof_v1_20260506T170958Z/source_art/titanic_visual_proof_base_plate.png",
+        "base_plate_sha256": "bc0c87e6a8c83c8d3f88b0e5fef98a3403f7fe5d6767230e6560963a1e6ea31a"
+      },
+      "737-max": {
+        "display_name": "737 MAX",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T170958Z/video/737-max_visual_proof_v1_motion.mp4",
+        "video_sha256": "3880140b6873d3b0aa5704bfe61e21e23d975a677811a1bb5ccef62b482fdf1a",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T170958Z/737-max_visual_proof_manifest.json",
+        "manifest_sha256": "acdb2ace86a28f4baad84ae017a243d0e7ff010d1108eb7d81a331dfba278bd2",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "721620ec94c2200e66b84aa14bba7a1960a006d2f91bf3b6a608ad4a00929db0",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T170958Z/source_art/737-max_visual_proof_base_plate.png",
+        "base_plate_sha256": "f9b96dd5e76dff15af5aa5204e6dfcfb3e442b50a08c5037c667224153c5cc19"
+      },
+      "tacoma-narrows": {
+        "display_name": "Tacoma Narrows",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/tacoma-narrows_visual_proof_v1_20260506T170958Z/video/tacoma-narrows_visual_proof_v1_motion.mp4",
+        "video_sha256": "466f643c446208ed2b4d13ad17045af480844f48885eef9ed4906a88c816948f",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/tacoma-narrows_visual_proof_v1_20260506T170958Z/tacoma-narrows_visual_proof_manifest.json",
+        "manifest_sha256": "cbe6ad176e0900197ac66c20dfcccdeb7364bf3d368628468aa0f9a7f58dbfd4",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/motion_video_proof/pass_01_source_led/final_exports/tacoma-narrows_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "ea115263908b64a09c81973bb3e45707d18ba17c558d7b162c51784a9730a25d",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/tacoma-narrows_visual_proof_v1_20260506T170958Z/source_art/tacoma-narrows_visual_proof_base_plate.png",
+        "base_plate_sha256": "904c4f4954141a3175d0f7009f0078b7739f96d6abfec9356816c04601eeaa4d"
+      },
+      "hyatt-regency": {
+        "display_name": "Hyatt Regency",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/hyatt-regency_visual_proof_v1_20260506T170958Z/video/hyatt-regency_visual_proof_v1_motion.mp4",
+        "video_sha256": "f7beeadcc88473b65db876957eea60ccd0f0540d147b38445e700b27d7b1ab32",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/hyatt-regency_visual_proof_v1_20260506T170958Z/hyatt-regency_visual_proof_manifest.json",
+        "manifest_sha256": "6744e8c494b443c2df9e3a6f7e3919334202ad465ce8be055c76267a2db9cef0",
+        "short_video_pre_caption_path": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/motion_video_proof/pass_11_scene_led_no_freeze_44s/final_exports/hyatt-regency_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+        "short_video_pre_caption_sha256": "bfe70498b6c79ab10a0e570752e0f95ddfeeeebf505fbeefcd6cda95535c9564",
+        "base_plate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/hyatt-regency_visual_proof_v1_20260506T170958Z/source_art/hyatt-regency_visual_proof_base_plate.png",
+        "base_plate_sha256": "8710ed140edd45d0e75e147390ed60c02937cc3b30e1a23d4547e022947dc6e4"
+      }
+    },
+    "timeline_segments": [
+      {
+        "start": 0.0,
+        "end": 6.0,
+        "slug": "youtube-shorts-card",
+        "role": "youtube_shorts_cold_open",
+        "playback": "cold_open",
+        "source_seconds": [
+          0.0,
+          6.0
+        ]
+      },
+      {
+        "start": 6.0,
+        "end": 9.2,
+        "slug": "challenger",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_no_hold_landed",
+        "source_seconds": [
+          8.0,
+          11.2
+        ]
+      },
+      {
+        "start": 9.2,
+        "end": 12.9,
+        "slug": "hyatt-regency",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 12.9,
+        "end": 16.6,
+        "slug": "semmelweis",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 16.6,
+        "end": 20.3,
+        "slug": "tacoma-narrows",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 20.3,
+        "end": 24.0,
+        "slug": "737-max",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 24.0,
+        "end": 30.2,
+        "slug": "titanic",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          6.2
+        ]
+      },
+      {
+        "start": 30.2,
+        "end": 37.172,
+        "slug": "titanic",
+        "role": "outro_music_resolve",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      },
+      {
+        "start": 37.172,
+        "end": 42.0,
+        "slug": "paper-architecture-title",
+        "role": "paper_architecture_title_end_screen",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      },
+      {
+        "start": 42.0,
+        "end": 48.0,
+        "slug": "paper-architecture-title",
+        "role": "paper_architecture_title_end_screen_hold",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      }
+    ]
+  },
+  "samples": [
+    {
+      "slug": "challenger",
+      "label": "CHALLENGER",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/challenger_background_type_difference.png",
+      "frame_sha256": "fe438a33a02c0614b7009d0cbf46c82dd01fdf3489d1ccad943bd201b9d1d2cc",
+      "reference_frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/challenger_reference_no_type.png",
+      "reference_frame_sha256": "fe438a33a02c0614b7009d0cbf46c82dd01fdf3489d1ccad943bd201b9d1d2cc",
+      "frame_dimensions": [
+        1920,
+        1080
+      ],
+      "sample_time_seconds": 6.7,
+      "segment_seconds": [
+        6.0,
+        9.2
+      ],
+      "short_source_time_seconds": 8.7,
+      "right_card_quad": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "type_context": {
+        "slug": "challenger",
+        "label": "CHALLENGER",
+        "lines": [
+          "CHALLENGER"
+        ],
+        "font_family": "Inter",
+        "font_weight": 900,
+        "font_size_px": 152,
+        "blend_mode": "difference",
+        "blend_color_rgb": [
+          246,
+          239,
+          255
+        ],
+        "blend_alpha": 142,
+        "text_bbox_xy": [
+          33,
+          375,
+          1063,
+          489
+        ],
+        "visible_text_bbox_xy": null,
+        "left_zone_xy": [
+          42,
+          62,
+          1138,
+          884
+        ],
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/challenger_foreground_occlusion_mask.png",
+        "foreground_mask_sha256": "99ff87f844a62f2365ae2dc1a6d6c7e6c772417cb7de230e79578c91bf2c0311",
+        "visible_text_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/challenger_visible_text_mask.png",
+        "visible_text_mask_sha256": "06da5431a575e89e972435a0219b390d3dbb32e73ad342de409a935744365f76",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/challenger_foreground_mask_overlay.png",
+        "foreground_mask_overlay_sha256": "81bbd51d577befa2d4507f7d47058cef72003b2e5fea76e5205d21902b665236",
+        "foreground_mask_strategy": "luma_edge_segmentation_plus_subject_specific_manual_repairs",
+        "visible_text_delta_320x180": 0.0,
+        "foreground_text_leak_mean_luma_delta": 0.0,
+        "foreground_text_leak_read": "pass",
+        "right_plate_overlap_read": "tighten"
+      },
+      "full_frame_delta_320x180": 0.0,
+      "frame_change_read": "tighten"
+    },
+    {
+      "slug": "semmelweis",
+      "label": "SEMMELWEIS",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/semmelweis_background_type_difference.png",
+      "frame_sha256": "92e93b82675d5a9aba28422eb85613c44c54c2fc2e90d6c26ff62b48babf00a4",
+      "reference_frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/semmelweis_reference_no_type.png",
+      "reference_frame_sha256": "92e93b82675d5a9aba28422eb85613c44c54c2fc2e90d6c26ff62b48babf00a4",
+      "frame_dimensions": [
+        1920,
+        1080
+      ],
+      "sample_time_seconds": 14.45,
+      "segment_seconds": [
+        12.9,
+        16.6
+      ],
+      "short_source_time_seconds": 1.55,
+      "right_card_quad": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "type_context": {
+        "slug": "semmelweis",
+        "label": "SEMMELWEIS",
+        "lines": [
+          "SEMMELWEIS"
+        ],
+        "font_family": "Inter",
+        "font_weight": 900,
+        "font_size_px": 148,
+        "blend_mode": "difference",
+        "blend_color_rgb": [
+          246,
+          239,
+          255
+        ],
+        "blend_alpha": 142,
+        "text_bbox_xy": [
+          34,
+          376,
+          1062,
+          488
+        ],
+        "visible_text_bbox_xy": null,
+        "left_zone_xy": [
+          42,
+          62,
+          1138,
+          884
+        ],
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/semmelweis_foreground_occlusion_mask.png",
+        "foreground_mask_sha256": "7d56d37418800a2ad56a22dc3debe8840b26ee4441beabe885eb8c2cbb686a27",
+        "visible_text_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/semmelweis_visible_text_mask.png",
+        "visible_text_mask_sha256": "06da5431a575e89e972435a0219b390d3dbb32e73ad342de409a935744365f76",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/semmelweis_foreground_mask_overlay.png",
+        "foreground_mask_overlay_sha256": "cec6ad1582d9eaffb4f3f0ea4bd5266606354c3e4107f4f36db8aaccae471b27",
+        "foreground_mask_strategy": "luma_edge_segmentation_plus_subject_specific_manual_repairs",
+        "visible_text_delta_320x180": 0.0,
+        "foreground_text_leak_mean_luma_delta": 0.0,
+        "foreground_text_leak_read": "pass",
+        "right_plate_overlap_read": "tighten"
+      },
+      "full_frame_delta_320x180": 0.0,
+      "frame_change_read": "tighten"
+    },
+    {
+      "slug": "titanic",
+      "label": "TITANIC",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/titanic_background_type_difference.png",
+      "frame_sha256": "d60aa70d1082a9a2f72094c1a795b350e83de1829b83f1f05c0613130d05f452",
+      "reference_frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/titanic_reference_no_type.png",
+      "reference_frame_sha256": "d60aa70d1082a9a2f72094c1a795b350e83de1829b83f1f05c0613130d05f452",
+      "frame_dimensions": [
+        1920,
+        1080
+      ],
+      "sample_time_seconds": 25.55,
+      "segment_seconds": [
+        24.0,
+        30.2
+      ],
+      "short_source_time_seconds": 1.55,
+      "right_card_quad": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "type_context": {
+        "slug": "titanic",
+        "label": "TITANIC",
+        "lines": [
+          "TITANIC"
+        ],
+        "font_family": "Inter",
+        "font_weight": 900,
+        "font_size_px": 244,
+        "blend_mode": "difference",
+        "blend_color_rgb": [
+          246,
+          239,
+          255
+        ],
+        "blend_alpha": 142,
+        "text_bbox_xy": [
+          59,
+          340,
+          1037,
+          524
+        ],
+        "visible_text_bbox_xy": null,
+        "left_zone_xy": [
+          42,
+          62,
+          1138,
+          884
+        ],
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/titanic_foreground_occlusion_mask.png",
+        "foreground_mask_sha256": "ea03360ac07f2003b6267cb11b779634f0b867ee27feb975a3e38a468244c9b7",
+        "visible_text_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/titanic_visible_text_mask.png",
+        "visible_text_mask_sha256": "06da5431a575e89e972435a0219b390d3dbb32e73ad342de409a935744365f76",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/titanic_foreground_mask_overlay.png",
+        "foreground_mask_overlay_sha256": "c2aeeb4c2f49bba8b21301e3f8c787d10c49693b006e193003a02faa4720bab1",
+        "foreground_mask_strategy": "luma_edge_segmentation_plus_subject_specific_manual_repairs",
+        "visible_text_delta_320x180": 0.0,
+        "foreground_text_leak_mean_luma_delta": 0.0,
+        "foreground_text_leak_read": "pass",
+        "right_plate_overlap_read": "tighten"
+      },
+      "full_frame_delta_320x180": 0.0,
+      "frame_change_read": "tighten"
+    },
+    {
+      "slug": "737-max",
+      "label": "737 MAX",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/737-max_background_type_difference.png",
+      "frame_sha256": "39d2a5b2ff9c82ddd148cc80782216c860ef4c1327ff9c553eaa2b894e2319f0",
+      "reference_frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/737-max_reference_no_type.png",
+      "reference_frame_sha256": "39d2a5b2ff9c82ddd148cc80782216c860ef4c1327ff9c553eaa2b894e2319f0",
+      "frame_dimensions": [
+        1920,
+        1080
+      ],
+      "sample_time_seconds": 21.85,
+      "segment_seconds": [
+        20.3,
+        24.0
+      ],
+      "short_source_time_seconds": 1.55,
+      "right_card_quad": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "type_context": {
+        "slug": "737-max",
+        "label": "737 MAX",
+        "lines": [
+          "737 MAX"
+        ],
+        "font_family": "Inter",
+        "font_weight": 900,
+        "font_size_px": 232,
+        "blend_mode": "difference",
+        "blend_color_rgb": [
+          246,
+          239,
+          255
+        ],
+        "blend_alpha": 142,
+        "text_bbox_xy": [
+          38,
+          345,
+          1058,
+          519
+        ],
+        "visible_text_bbox_xy": null,
+        "left_zone_xy": [
+          42,
+          62,
+          1138,
+          884
+        ],
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/737-max_foreground_occlusion_mask.png",
+        "foreground_mask_sha256": "767599ea4fca28b8e008e65a3975b4bc011299e294b5653fd84c7745f602c582",
+        "visible_text_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/737-max_visible_text_mask.png",
+        "visible_text_mask_sha256": "06da5431a575e89e972435a0219b390d3dbb32e73ad342de409a935744365f76",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/737-max_foreground_mask_overlay.png",
+        "foreground_mask_overlay_sha256": "943ca21d9446ae7abb86eba29085f4434daf744e53b650dda5dd3134d8b92598",
+        "foreground_mask_strategy": "luma_edge_segmentation_plus_subject_specific_manual_repairs",
+        "visible_text_delta_320x180": 0.0,
+        "foreground_text_leak_mean_luma_delta": 0.0,
+        "foreground_text_leak_read": "pass",
+        "right_plate_overlap_read": "tighten"
+      },
+      "full_frame_delta_320x180": 0.0,
+      "frame_change_read": "tighten"
+    },
+    {
+      "slug": "tacoma-narrows",
+      "label": "TACOMA NARROWS BRIDGE",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/tacoma-narrows_background_type_difference.png",
+      "frame_sha256": "2297e6c332834a24262eccbf9d042d2f10c2be979feb58b614ff488ba18b0393",
+      "reference_frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/tacoma-narrows_reference_no_type.png",
+      "reference_frame_sha256": "2297e6c332834a24262eccbf9d042d2f10c2be979feb58b614ff488ba18b0393",
+      "frame_dimensions": [
+        1920,
+        1080
+      ],
+      "sample_time_seconds": 18.15,
+      "segment_seconds": [
+        16.6,
+        20.3
+      ],
+      "short_source_time_seconds": 1.55,
+      "right_card_quad": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "type_context": {
+        "slug": "tacoma-narrows",
+        "label": "TACOMA NARROWS BRIDGE",
+        "lines": [
+          "TACOMA NARROWS",
+          "BRIDGE"
+        ],
+        "font_family": "Inter",
+        "font_weight": 900,
+        "font_size_px": 104,
+        "blend_mode": "difference",
+        "blend_color_rgb": [
+          246,
+          239,
+          255
+        ],
+        "blend_alpha": 142,
+        "text_bbox_xy": [
+          35,
+          353,
+          1061,
+          511
+        ],
+        "visible_text_bbox_xy": null,
+        "left_zone_xy": [
+          42,
+          62,
+          1138,
+          884
+        ],
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/tacoma-narrows_foreground_occlusion_mask.png",
+        "foreground_mask_sha256": "540853a5662a601f3258fb810885b20067fd5624cf73cb46b5f6140b2c1f0dca",
+        "visible_text_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/tacoma-narrows_visible_text_mask.png",
+        "visible_text_mask_sha256": "06da5431a575e89e972435a0219b390d3dbb32e73ad342de409a935744365f76",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/tacoma-narrows_foreground_mask_overlay.png",
+        "foreground_mask_overlay_sha256": "dc82f18781d734f350d70648c1dfd8d3587ad4a9a10d8da8774515121b879f53",
+        "foreground_mask_strategy": "luma_edge_segmentation_plus_subject_specific_manual_repairs",
+        "visible_text_delta_320x180": 0.0,
+        "foreground_text_leak_mean_luma_delta": 0.0,
+        "foreground_text_leak_read": "pass",
+        "right_plate_overlap_read": "tighten"
+      },
+      "full_frame_delta_320x180": 0.0,
+      "frame_change_read": "tighten"
+    },
+    {
+      "slug": "hyatt-regency",
+      "label": "HYATT REGENCY",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/hyatt-regency_background_type_difference.png",
+      "frame_sha256": "54ea26b38ed7a96c2dd85af60ac4643870ca56fbb83cb7f00b71f86ec7a50444",
+      "reference_frame_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/hyatt-regency_reference_no_type.png",
+      "reference_frame_sha256": "54ea26b38ed7a96c2dd85af60ac4643870ca56fbb83cb7f00b71f86ec7a50444",
+      "frame_dimensions": [
+        1920,
+        1080
+      ],
+      "sample_time_seconds": 10.75,
+      "segment_seconds": [
+        9.2,
+        12.9
+      ],
+      "short_source_time_seconds": 1.55,
+      "right_card_quad": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "type_context": {
+        "slug": "hyatt-regency",
+        "label": "HYATT REGENCY",
+        "lines": [
+          "HYATT",
+          "REGENCY"
+        ],
+        "font_family": "Inter",
+        "font_weight": 900,
+        "font_size_px": 212,
+        "blend_mode": "difference",
+        "blend_color_rgb": [
+          246,
+          239,
+          255
+        ],
+        "blend_alpha": 142,
+        "text_bbox_xy": [
+          32,
+          272,
+          1064,
+          592
+        ],
+        "visible_text_bbox_xy": null,
+        "left_zone_xy": [
+          42,
+          62,
+          1138,
+          884
+        ],
+        "foreground_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/hyatt-regency_foreground_occlusion_mask.png",
+        "foreground_mask_sha256": "2f5d0ad2585e8819c863e51d79ab65fff639f58ef67a2c25542059969a273a26",
+        "visible_text_mask_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/hyatt-regency_visible_text_mask.png",
+        "visible_text_mask_sha256": "06da5431a575e89e972435a0219b390d3dbb32e73ad342de409a935744365f76",
+        "foreground_mask_overlay_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/hyatt-regency_foreground_mask_overlay.png",
+        "foreground_mask_overlay_sha256": "c880fc0f82c64ef78169dd696f35fa1fad862d8c30c847b77f021904a5182bff",
+        "foreground_mask_strategy": "luma_edge_segmentation_plus_subject_specific_manual_repairs",
+        "visible_text_delta_320x180": 0.0,
+        "foreground_text_leak_mean_luma_delta": 0.0,
+        "foreground_text_leak_read": "pass",
+        "right_plate_overlap_read": "tighten"
+      },
+      "full_frame_delta_320x180": 0.0,
+      "frame_change_read": "tighten"
+    }
+  ],
+  "artifacts": {
+    "output_root": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z",
+    "frames_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames",
+    "reference_frames_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames",
+    "masks_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks",
+    "full_frame_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_full_frame_contact_sheet.jpg",
+    "full_frame_contact_sheet_sha256": "9c97fdd2c2ac6ef277a5ed759a0cd09bec1787a41b3a57e522d8c51d32a401d9",
+    "small_size_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_320x180_contact_sheet.jpg",
+    "small_size_contact_sheet_sha256": "15d74489dd3ecbc17d6c213aefe686ede846c714d0e34d256ca1439cb95c8695",
+    "left_scene_crop_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_left_scene_crop_contact_sheet.jpg",
+    "left_scene_crop_contact_sheet_sha256": "25f2a95e9df957e86c4d42643fdd9a72aea9815d671172a3e1fb9c2154701af1",
+    "mask_overlay_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_mask_overlay_contact_sheet.jpg",
+    "mask_overlay_contact_sheet_sha256": "198d4c199582df419a03869b3b9616b42a0ae127b5adf212eb28f087a13c31a5",
+    "reference_vs_experiment_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_reference_vs_experiment_contact_sheet.jpg",
+    "reference_vs_experiment_contact_sheet_sha256": "210aed6ddff450208a66f6638da3c9f7f628d6f4de408379167d1fd538db148e",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/channel_trailer_v2_subject_background_type_mask_experiment_manifest.json"
+  },
+  "qa": {
+    "frame_count": 6,
+    "expected_frame_count": 6,
+    "single_frame_count_read": "pass",
+    "dimension_read": "pass",
+    "right_plate_overlap_read": "tighten",
+    "foreground_text_leak_read": "pass",
+    "small_size_legibility_read": "review_ready_contact_sheet",
+    "paper_architecture_foreground_occlusion_read": "review_ready_mask_overlays",
+    "contact_sheets": {
+      "full_frame": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_full_frame_contact_sheet.jpg",
+        "sha256": "9c97fdd2c2ac6ef277a5ed759a0cd09bec1787a41b3a57e522d8c51d32a401d9",
+        "crop_xy": null,
+        "thumb_size": [
+          480,
+          270
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/challenger_background_type_difference.png"
+          },
+          {
+            "label": "SEMMELWEIS",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/semmelweis_background_type_difference.png"
+          },
+          {
+            "label": "TITANIC",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/titanic_background_type_difference.png"
+          },
+          {
+            "label": "737 MAX",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/737-max_background_type_difference.png"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/tacoma-narrows_background_type_difference.png"
+          },
+          {
+            "label": "HYATT REGENCY",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/hyatt-regency_background_type_difference.png"
+          }
+        ]
+      },
+      "small_320x180": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_320x180_contact_sheet.jpg",
+        "sha256": "15d74489dd3ecbc17d6c213aefe686ede846c714d0e34d256ca1439cb95c8695",
+        "crop_xy": null,
+        "thumb_size": [
+          320,
+          180
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/challenger_background_type_difference.png"
+          },
+          {
+            "label": "SEMMELWEIS",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/semmelweis_background_type_difference.png"
+          },
+          {
+            "label": "TITANIC",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/titanic_background_type_difference.png"
+          },
+          {
+            "label": "737 MAX",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/737-max_background_type_difference.png"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/tacoma-narrows_background_type_difference.png"
+          },
+          {
+            "label": "HYATT REGENCY",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/hyatt-regency_background_type_difference.png"
+          }
+        ]
+      },
+      "left_scene_crop": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_left_scene_crop_contact_sheet.jpg",
+        "sha256": "25f2a95e9df957e86c4d42643fdd9a72aea9815d671172a3e1fb9c2154701af1",
+        "crop_xy": [
+          42,
+          62,
+          1138,
+          884
+        ],
+        "thumb_size": [
+          548,
+          411
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/challenger_background_type_difference.png"
+          },
+          {
+            "label": "SEMMELWEIS",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/semmelweis_background_type_difference.png"
+          },
+          {
+            "label": "TITANIC",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/titanic_background_type_difference.png"
+          },
+          {
+            "label": "737 MAX",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/737-max_background_type_difference.png"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/tacoma-narrows_background_type_difference.png"
+          },
+          {
+            "label": "HYATT REGENCY",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/hyatt-regency_background_type_difference.png"
+          }
+        ]
+      },
+      "mask_overlay": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_mask_overlay_contact_sheet.jpg",
+        "sha256": "198d4c199582df419a03869b3b9616b42a0ae127b5adf212eb28f087a13c31a5",
+        "crop_xy": [
+          0,
+          0,
+          1138,
+          920
+        ],
+        "thumb_size": [
+          548,
+          443
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/challenger_foreground_mask_overlay.png"
+          },
+          {
+            "label": "SEMMELWEIS",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/semmelweis_foreground_mask_overlay.png"
+          },
+          {
+            "label": "TITANIC",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/titanic_foreground_mask_overlay.png"
+          },
+          {
+            "label": "737 MAX",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/737-max_foreground_mask_overlay.png"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/tacoma-narrows_foreground_mask_overlay.png"
+          },
+          {
+            "label": "HYATT REGENCY",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/masks/hyatt-regency_foreground_mask_overlay.png"
+          }
+        ]
+      },
+      "reference_vs_experiment": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/qa/subject_background_type_reference_vs_experiment_contact_sheet.jpg",
+        "sha256": "210aed6ddff450208a66f6638da3c9f7f628d6f4de408379167d1fd538db148e",
+        "crop_xy": null,
+        "thumb_size": [
+          480,
+          270
+        ],
+        "entries": [
+          {
+            "label": "CHALLENGER reference",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/challenger_reference_no_type.png"
+          },
+          {
+            "label": "SEMMELWEIS reference",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/semmelweis_reference_no_type.png"
+          },
+          {
+            "label": "TITANIC reference",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/titanic_reference_no_type.png"
+          },
+          {
+            "label": "737 MAX reference",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/737-max_reference_no_type.png"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE reference",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/tacoma-narrows_reference_no_type.png"
+          },
+          {
+            "label": "HYATT REGENCY reference",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/reference_frames/hyatt-regency_reference_no_type.png"
+          },
+          {
+            "label": "CHALLENGER experiment",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/challenger_background_type_difference.png"
+          },
+          {
+            "label": "SEMMELWEIS experiment",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/semmelweis_background_type_difference.png"
+          },
+          {
+            "label": "TITANIC experiment",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/titanic_background_type_difference.png"
+          },
+          {
+            "label": "737 MAX experiment",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/737-max_background_type_difference.png"
+          },
+          {
+            "label": "TACOMA NARROWS BRIDGE experiment",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/tacoma-narrows_background_type_difference.png"
+          },
+          {
+            "label": "HYATT REGENCY experiment",
+            "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_mask_experiment_20260509T164242Z/frames/hyatt-regency_background_type_difference.png"
+          }
+        ]
+      }
+    }
+  }
+}

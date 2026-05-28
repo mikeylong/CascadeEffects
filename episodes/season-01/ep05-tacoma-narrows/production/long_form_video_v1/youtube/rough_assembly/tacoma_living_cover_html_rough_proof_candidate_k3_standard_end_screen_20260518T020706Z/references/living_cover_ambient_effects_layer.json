@@ -1,0 +1,123 @@
+{
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_standard_end_screen_20260518T020706Z",
+  "episode_id": "tacoma-narrows",
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "created_at": "2026-05-17T16:33:17Z",
+  "status": "rough_proof_reference_refreshed_for_k3",
+  "human_disposition": "pending",
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_standard_end_screen_20260518T020706Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+    "sha256": "8f85d657d6a2573ddeaf637e468d4a8b2db4a20b2017b369591579f086e6246c",
+    "role": "kept_candidate_k3_workspace_copy"
+  },
+  "lane_decision": "mixed_source_drift_lighting_restrained_weather_micro_life",
+  "rationale": "Tacoma needs the kept bridge-deck tableau to feel alive without becoming a diagnostic diagram or inventing new collapse geometry.",
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "type": "transform_crop_drift",
+      "parameters": {
+        "scale_range": [
+          1.018,
+          1.034
+        ],
+        "rotation_degrees_range": [
+          -0.32,
+          0.42
+        ],
+        "cycle_seconds": 72,
+        "seed": 19401107
+      },
+      "source_safety": "does_not_redraw_bridge_geometry"
+    },
+    {
+      "id": "deck_roll_emphasis",
+      "type": "localized_transform_response",
+      "parameters": {
+        "active_story_window_seconds": [
+          206.901,
+          599.145
+        ],
+        "max_extra_rotation_degrees": 0.28,
+        "easing": "sine_in_out"
+      },
+      "source_safety": "uses the already-kept wave/torsion read; no new deformation mesh without review"
+    },
+    {
+      "id": "wet_air_micro_life",
+      "type": "subtle_weather_particles",
+      "parameters": {
+        "particle_count_max": 46,
+        "opacity_range": [
+          0.03,
+          0.09
+        ],
+        "speed_px_per_second": [
+          3,
+          9
+        ],
+        "seed": 3901
+      },
+      "source_safety": "background atmosphere only; no debris, no sparks, no gore, no dog focus"
+    },
+    {
+      "id": "rail_readability_local_shadow",
+      "type": "localized_panel_backlight",
+      "parameters": {
+        "rail_rect": [
+          1108,
+          52,
+          760,
+          976
+        ],
+        "fill": "#17201f",
+        "opacity_range": [
+          0.72,
+          0.82
+        ],
+        "radius_px": 8
+      },
+      "source_safety": "right-rail region only; no full-frame dark veil"
+    },
+    {
+      "id": "end_screen_background_continuity",
+      "type": "continuous_ambient_under_static_targets",
+      "parameters": {
+        "end_screen_start_seconds": 863.32746,
+        "end_screen_end_seconds": 883.32746,
+        "story_text_suppressed": true
+      },
+      "source_safety": "static YouTube target geometry, ambient image motion may continue behind it"
+    }
+  ],
+  "browser_sample_times_seconds": [
+    0,
+    9.601451,
+    216.502451,
+    316.442451,
+    559.355451,
+    685.830451,
+    852.532245,
+    863.32746,
+    882.32746
+  ],
+  "reads": {
+    "ambient_effects_plan_read": "pass_packet_local_layer_created",
+    "ambient_effect_lane_decision_read": "pass_mixed_source_drift_lighting_restrained_weather_micro_life",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_coordinate_space_required_before_rough",
+    "foreground_occlusion_read": "pass_no_new_people_vehicle_or_face_effects_planned",
+    "effect_layer_source_safety_read": "pass_preserve_candidate_k3_source_art_geometry",
+    "deterministic_ambient_read": "pass_seeded_parameters_declared_for_rough_builder",
+    "additive_effect_integration_read": "pass_successor_layers_preserve_kept_k3_plate_and_prior_approved_layers",
+    "debug_overlay_absence_read": "pass_required_for_viewer_facing_rough",
+    "ambient_effect_browser_sample_read": "pass_sample_times_declared_for_next_rough_review",
+    "range_scrub_effect_review_read": "pass_required_for_long_proof_review_server",
+    "rail_panel_palette_read": "pass_source_integrated_wet_steel_forest_rail_palette_planned",
+    "source_integrated_panel_color_read": "pass_no_challenger_navy_default",
+    "full_frame_dark_overlay_read": "pass_blocked_prefer_localized_rail_readability",
+    "localized_readability_treatment_read": "pass_right_rail_soft_panel_only",
+    "procedural_signal_overlay_read": "pass_no_overlay",
+    "ambient_line_artifact_read": "pass_no_cyan_or_diagnostic_lines"
+  },
+  "refreshed_from_packet_id": "tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z"
+}

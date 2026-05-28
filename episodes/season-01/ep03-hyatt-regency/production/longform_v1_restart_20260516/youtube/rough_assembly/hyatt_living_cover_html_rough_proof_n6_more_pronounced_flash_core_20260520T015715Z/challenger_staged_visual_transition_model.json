@@ -1,0 +1,41 @@
+{
+  "id": "challenger_staged_visual_transition_v1",
+  "version": "challenger_staged_visual_transition_v1",
+  "created_utc": "2026-05-17T21:44:08Z",
+  "scope": "chapter_boundary_source_art_transform_smoothing",
+  "precedent": "Challenger long-form staged Living Cover transition",
+  "applies_to": [
+    "x",
+    "y",
+    "scale",
+    "warmth"
+  ],
+  "stage_outgoing_ms": 120,
+  "stage_title_ms": 360,
+  "stage_total_ms": 600,
+  "visual_hold_ms": 120,
+  "visual_ease_start_ms": 120,
+  "visual_ease_end_ms": 600,
+  "easing": "smoothstep",
+  "rail_text_policy": "Viewer-facing text remains inside the fixed right rail.",
+  "visual_policy": "Source art holds the previous chapter state for the first 120ms after the story boundary, then eases from previous to next state by 600ms.",
+  "focused_boundary": {
+    "story_time_seconds": 82,
+    "audio_time_seconds": 91.601451,
+    "player_time_label": "01:31.601"
+  },
+  "hard_shift_policy": "A hard source-art shift at 01:31/01:32 or any chapter boundary is not eligible for MP4 render.",
+  "qa_reads": [
+    "challenger_staged_transition_model_read",
+    "first_chapter_boundary_visual_ease_read",
+    "chapter_boundary_hard_shift_read",
+    "focused_transition_review_strip_read"
+  ],
+  "chapter_boundaries_story_time_seconds": [
+    82,
+    181,
+    298,
+    475,
+    753
+  ]
+}

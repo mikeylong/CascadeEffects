@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "name": "cascade_effects_elevenlabs_known_pronunciation_risks_v1",
+  "description": "Curated pronunciation rules for known ElevenLabs risk terms. Captions and locked scripts remain unchanged; local aliases apply only to provider-specific render text.",
+  "rules": [
+    {
+      "id": "live_load_long_i",
+      "status": "approved",
+      "severity": "required",
+      "mode": "local_alias",
+      "match_type": "literal",
+      "pattern": "live load",
+      "replacement": "lyve load",
+      "case_sensitive": false,
+      "pronunciation_note": "Structural load term. Pronounce live with long-I, rhyming with hive.",
+      "source_note": "Hyatt Regency repair."
+    },
+    {
+      "id": "duplicate_safety_verb",
+      "status": "approved",
+      "severity": "required",
+      "mode": "local_alias",
+      "match_type": "regex",
+      "pattern": "\\bduplicate(?=\\s+safety\\b)",
+      "replacement": "dupli-kate",
+      "case_sensitive": false,
+      "pronunciation_note": "Verb form of duplicate. Avoid noun-like dupli-cut delivery.",
+      "source_note": "Therac-25 repair."
+    },
+    {
+      "id": "wind_tunnel_hyphen_air_noun",
+      "status": "approved",
+      "severity": "required",
+      "mode": "local_alias",
+      "match_type": "regex",
+      "pattern": "\\bwind[\\-\\u2010\\u2011\\u2012\\u2013\\u2014]tunnel\\b",
+      "replacement": "wind tunnel",
+      "case_sensitive": false,
+      "pronunciation_note": "Air noun wind with short-I. Remove hyphen because it has triggered long-I/wine delivery.",
+      "source_note": "Tacoma Narrows repair."
+    },
+    {
+      "id": "wind_tunnel_air_noun_review",
+      "status": "approved",
+      "severity": "review",
+      "mode": "review_marker",
+      "match_type": "literal",
+      "pattern": "wind tunnel",
+      "replacement": "",
+      "case_sensitive": false,
+      "pronunciation_note": "Air noun wind with short-I, rhyming with pinned. Review target only.",
+      "source_note": "Tacoma Narrows repair."
+    },
+    {
+      "id": "mcas_em_cass",
+      "status": "approved",
+      "severity": "required",
+      "mode": "local_alias",
+      "match_type": "literal",
+      "pattern": "MCAS",
+      "replacement": "em cass",
+      "case_sensitive": true,
+      "pronunciation_note": "737 MAX flight-control acronym. Pronounce as one term: em-cass.",
+      "source_note": "737 MAX long-form audio gate."
+    },
+    {
+      "id": "cfm_leap_letters",
+      "status": "approved",
+      "severity": "required",
+      "mode": "local_alias",
+      "match_type": "literal",
+      "pattern": "CFM LEAP",
+      "replacement": "C F M LEAP",
+      "case_sensitive": true,
+      "pronunciation_note": "Engine family. Spell CFM as letters, then say LEAP.",
+      "source_note": "737 MAX long-form audio gate."
+    },
+    {
+      "id": "a320neo_spoken",
+      "status": "approved",
+      "severity": "required",
+      "mode": "local_alias",
+      "match_type": "literal",
+      "pattern": "A320neo",
+      "replacement": "A three twenty neo",
+      "case_sensitive": true,
+      "pronunciation_note": "Airbus aircraft family. Say A three twenty neo.",
+      "source_note": "737 MAX long-form audio gate."
+    },
+    {
+      "id": "faa_letters",
+      "status": "approved",
+      "severity": "required",
+      "mode": "local_alias",
+      "match_type": "literal",
+      "pattern": "FAA",
+      "replacement": "F A A",
+      "case_sensitive": true,
+      "pronunciation_note": "Agency acronym. Spell as letters.",
+      "source_note": "737 MAX long-form audio gate."
+    },
+    {
+      "id": "addis_ababa_review",
+      "status": "approved",
+      "severity": "review",
+      "mode": "review_marker",
+      "match_type": "literal",
+      "pattern": "Addis Ababa",
+      "replacement": "",
+      "case_sensitive": true,
+      "pronunciation_note": "Place name. Review delivery for Addis Ababa.",
+      "source_note": "737 MAX long-form audio gate."
+    },
+    {
+      "id": "jakarta_review",
+      "status": "approved",
+      "severity": "review",
+      "mode": "review_marker",
+      "match_type": "literal",
+      "pattern": "Jakarta",
+      "replacement": "",
+      "case_sensitive": true,
+      "pronunciation_note": "Place name. Review delivery for Jakarta.",
+      "source_note": "737 MAX long-form audio gate."
+    },
+    {
+      "id": "java_sea_review",
+      "status": "approved",
+      "severity": "review",
+      "mode": "review_marker",
+      "match_type": "literal",
+      "pattern": "Java Sea",
+      "replacement": "",
+      "case_sensitive": true,
+      "pronunciation_note": "Place name. Review delivery for Java Sea.",
+      "source_note": "737 MAX long-form audio gate."
+    }
+  ]
+}

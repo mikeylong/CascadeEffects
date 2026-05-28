@@ -1,0 +1,251 @@
+{
+  "receipt_type": "first_eight_after_midnight_youtube_upload_queue",
+  "schema_version": "cascade_effects_upload_queue_v1",
+  "created_utc": "2026-05-26T21:34:19.146Z",
+  "requested_by_user": "get all 8 ready for youtube upload after 12 am",
+  "public_release": "manual_youtube_studio_only",
+  "quota_note": "YouTube API video insert quota was observed as 6/day; 737 MAX is already uploaded, leaving seven ready items. Batch 1 uploads six repair replacements after reset; Challenger remains ready and queued unless quota is available.",
+  "repaired_replacements_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+    "sha256": "3159cedb5c1d5a70581c6a7d98cde1799dc61d1b545205f4a96f662cfbf0614e",
+    "bytes": 21835
+  },
+  "challenger_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T213000Z.json",
+    "sha256": "96557d5a226d9bce750ed39819f9a9862a59931bac50fd3d3d03f76999ae0d74",
+    "bytes": 3956
+  },
+  "already_uploaded_approved": [
+    {
+      "episode_id": "737-max",
+      "batch": "already_uploaded_approved_no_new_insert_needed",
+      "priority": 0,
+      "upload_state": "already_uploaded_approved",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260526T080000Z/publish_readiness_manifest.json",
+      "video_id": "3F9MaG2IcmM",
+      "video_url": "https://www.youtube.com/watch?v=3F9MaG2IcmM",
+      "upload_performed": true,
+      "public_release_ready": false
+    }
+  ],
+  "ready_for_upload_after_midnight": [
+    {
+      "episode_id": "therac-25",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 1,
+      "upload_state": "ready_not_uploaded",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready"
+    },
+    {
+      "episode_id": "hyatt-regency",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 2,
+      "upload_state": "ready_not_uploaded",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready"
+    },
+    {
+      "episode_id": "semmelweis",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 3,
+      "upload_state": "ready_not_uploaded",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready"
+    },
+    {
+      "episode_id": "tacoma-narrows",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 4,
+      "upload_state": "ready_not_uploaded",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211636Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready"
+    },
+    {
+      "episode_id": "piltdown-man",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 5,
+      "upload_state": "ready_not_uploaded",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211636Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready"
+    },
+    {
+      "episode_id": "titanic",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 6,
+      "upload_state": "ready_not_uploaded",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211636Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready"
+    },
+    {
+      "episode_id": "challenger",
+      "batch": "queued_after_repair_replacements_due_video_insert_quota",
+      "priority": 7,
+      "upload_state": "ready_not_uploaded",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T213000Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/production_contract_receipts/contract_receipt_20260526T212947Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready"
+    }
+  ],
+  "recommended_after_midnight_order": [
+    "therac-25",
+    "hyatt-regency",
+    "semmelweis",
+    "tacoma-narrows",
+    "piltdown-man",
+    "titanic",
+    "challenger"
+  ],
+  "automation_policy": {
+    "first_run": "upload six repaired replacements first because they replace known defective black-screen/problematic unlisted uploads",
+    "challenger": "ready; upload after quota remains available or at the next reset",
+    "stop_conditions": [
+      "authentication failure",
+      "contract action receipt failure",
+      "mp4 visual guard failure",
+      "precision matte guard failure",
+      "quota exceeded",
+      "any upload processing rejection"
+    ],
+    "public_release": "do not make public; do not schedule; do not change visibility beyond unlisted review upload"
+  }
+}

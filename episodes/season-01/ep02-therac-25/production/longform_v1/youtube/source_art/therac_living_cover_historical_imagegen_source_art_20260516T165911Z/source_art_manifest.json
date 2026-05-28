@@ -1,0 +1,256 @@
+{
+  "packet_id": "therac_living_cover_historical_imagegen_source_art_20260516T165911Z",
+  "episode_id": "therac-25",
+  "phase_gate": "source_art_gate",
+  "status": "review_ready",
+  "human_disposition": "defer",
+  "created_utc": "20260516T165911Z",
+  "profile_id": "cascade-ink-lit-photoreal-v1",
+  "supersedes_inventory": [
+    "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_source_art_20260516T000139Z",
+    "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_photoreal_imagegen_source_art_20260516T164104Z"
+  ],
+  "carrier_type": "generated_raster_source_art",
+  "imagegen_skill_path": "/Users/mike/.codex/skills/.system/imagegen/SKILL.md",
+  "imagegen_skill_read": "pass",
+  "source_art_generation_policy": {
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "historical_reference_review_read": "pass",
+    "allowed_local_operations_read": "pass_copy_resize_preview_manifest_qa_only"
+  },
+  "historical_reference_sources": [
+    {
+      "id": "wikimedia_therac25_category",
+      "title": "Wikimedia Commons: Therac-25 category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Therac-25",
+      "use": "Web archival stills/diagrams for Therac-25 machine silhouette and period object vocabulary."
+    },
+    {
+      "id": "wikimedia_therac_rotation_gif",
+      "title": "Wikimedia Commons: Therac 25 Rotation GIF",
+      "url": "https://commons.wikimedia.org/wiki/File:Therac_25_Rotation.gif",
+      "use": "Reference for rotating gantry/head geometry and blocky cabinet/treatment-head relationship."
+    },
+    {
+      "id": "computing_cases_machine_design",
+      "title": "Computing Cases: Therac-25 Machine Design",
+      "url": "https://computingcases.org/case_materials/therac/supporting_docs/therac_case_narr/Machine_Design.html",
+      "use": "Confirms treatment modes, turntable/hardware configuration concepts, and earlier Therac lineage."
+    },
+    {
+      "id": "computing_cases_operators",
+      "title": "Computing Cases: Operators",
+      "url": "https://computingcases.org/case_materials/therac/supporting_docs/therac_case_narr/Operators.html",
+      "use": "Confirms operator role, computer-terminal workflow, and monitored treatment-room setup."
+    },
+    {
+      "id": "online_ethics_case_narrative",
+      "title": "Online Ethics: Therac-25 Case Narrative",
+      "url": "https://onlineethics.org/cases/therac-25/therac-25-case-narrative",
+      "use": "Case narrative cross-check for separation of patient experience, operator console reports, and failure timeline."
+    },
+    {
+      "id": "getty_linear_accelerator_motion",
+      "title": "Getty Images archival linear accelerator motion result",
+      "url": "https://www.gettyimages.fi/detail/video/an-operator-monitors-radiation-levels-on-a-linear-uutismateriaali/1B011858_0044",
+      "use": "Real motion-footage reference for operator/console/radiation-equipment monitoring grammar; not used as exact Therac-25 design evidence."
+    },
+    {
+      "id": "iaea_linac_motion",
+      "title": "IAEA video: linear accelerator capability",
+      "url": "https://www.iaea.org/newscenter/multimedia/videos/dosimetry-laboratory-adds-linear-acceleratory-capability",
+      "use": "Real motion/current linac workflow reference only; design anchored by Therac-era sources above."
+    }
+  ],
+  "historical_correction_summary": [
+    "Operator outside shielded treatment room at console/CRT, not a modern glass-suite staging.",
+    "Patient alone inside treatment room, calm and non-suffering.",
+    "Blocky AECL/CGR/Therac-era linear accelerator silhouette with squared cabinet and circular treatment head/aperture.",
+    "Period control-room cues: CRT terminal, analog buttons, intercom/phone, printed log/paper, no readable generated content.",
+    "Right side kept dark/quiet for fixed YouTube long-form rail."
+  ],
+  "selected_variant_id": "variant_f_period_operator_console",
+  "selected_source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/source_art/variant_f_period_operator_console_1920x1080.png",
+  "selected_source_art_sha256": "7c2a30c928e2a0fa49499080fed06efc1999c19f2747efad5af5c81520fe1702",
+  "variants": [
+    {
+      "id": "variant_d_shielded_room_tableau",
+      "label": "D",
+      "status": "candidate_reviewable",
+      "selected_for_revised_proof": false,
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e2dd2-7396-77b1-85e7-5789109f01ef/ig_0fa395dc990c94ec016a08a081bfd881969fb7cc1ebd60a370.png",
+      "source_generation_sha256": "67e53eb0fbc5f17ba3344f15e0e084c40491543888af44d9873d8925d1bd3032",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/source_generations/variant_d_shielded_room_tableau_codex_builtin_image_gen_original.png",
+      "copied_source_generation_sha256": "67e53eb0fbc5f17ba3344f15e0e084c40491543888af44d9873d8925d1bd3032",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/source_art/variant_d_shielded_room_tableau_1920x1080.png",
+      "final_asset_sha256": "36f1149fb3b2756d525f174f2307e9b47384a87bfea433386586f4a834d9a303",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/previews/variant_d_shielded_room_tableau_640x360.png",
+      "preview_sha256": "4549d24b55fb2809605544b4e4101f175f18b747bf36161b310e49e7a6745310",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/prompts/variant_d_shielded_room_tableau_prompt.txt",
+      "prompt_sha256": "34775746980385b9133949690d7b86c19af095087f4fd6eaae7bd6c09a4b05fe",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "mode": "text_to_image",
+        "source_generation_root": "/Users/mike/.codex/generated_images",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "historical_accuracy_precheck": {
+        "historical_accuracy_reference_read": "pass_period_shielded_room_workflow",
+        "operator_outside_room_read": "pass_operator_at_console_outside_treatment_room",
+        "period_console_crt_read": "pass_crt_monitor_buttons_and_console_present",
+        "blocky_therac_era_machine_read": "pass_blocky_enclosed_gantry_and_treatment_head",
+        "right_rail_safe_space_read": "pass_moderate_dark_right_side"
+      },
+      "notes": "Wide shielded-room tableau with calm patient visible through treatment-room glass and operator at a period control console."
+    },
+    {
+      "id": "variant_e_control_room_through_glass",
+      "label": "E",
+      "status": "candidate_reviewable",
+      "selected_for_revised_proof": false,
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e2dd2-7396-77b1-85e7-5789109f01ef/ig_0fa395dc990c94ec016a08a0e3ec008196bd744a9e1aca4f7a.png",
+      "source_generation_sha256": "58d2583d4b88fcaddc7be4d4ab661f3dbb6870f512b9bfd82b9d091eaf7673a0",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/source_generations/variant_e_control_room_through_glass_codex_builtin_image_gen_original.png",
+      "copied_source_generation_sha256": "58d2583d4b88fcaddc7be4d4ab661f3dbb6870f512b9bfd82b9d091eaf7673a0",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/source_art/variant_e_control_room_through_glass_1920x1080.png",
+      "final_asset_sha256": "4cd4a9f601a3526c326a860c994fe213eae6ed676a06b479d739746f9ee6d446",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/previews/variant_e_control_room_through_glass_640x360.png",
+      "preview_sha256": "6b33d6f267bb8b57a30f6efe79d9a548dc851ae8873e4c3ae4a7bb6ddf03d632",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/prompts/variant_e_control_room_through_glass_prompt.txt",
+      "prompt_sha256": "94469c22c2acb2d51dc3b2b17e0d31d97275402cef7f4d93cd08f787936224b7",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "mode": "text_to_image",
+        "source_generation_root": "/Users/mike/.codex/generated_images",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "historical_accuracy_precheck": {
+        "historical_accuracy_reference_read": "pass_period_shielded_room_workflow",
+        "operator_outside_room_read": "pass_operator_outside_room_with_crt_console",
+        "period_console_crt_read": "pass_crt_terminal_button_panel_and_intercom_present",
+        "blocky_therac_era_machine_read": "pass_blocky_machine_with_circular_treatment_port",
+        "right_rail_safe_space_read": "pass_strong_clean_dark_right_side"
+      },
+      "notes": "Control-room-through-glass composition with the strongest clear right-side rail area among the machine-forward candidates."
+    },
+    {
+      "id": "variant_f_period_operator_console",
+      "label": "F",
+      "status": "candidate_selected_for_revised_proof",
+      "selected_for_revised_proof": true,
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e2dd2-7396-77b1-85e7-5789109f01ef/ig_0fa395dc990c94ec016a08a13d5dfc8196a06a19e535a3a80e.png",
+      "source_generation_sha256": "828eb4957e6fec879c2f9111656dbaf1d846e83cd15dcf971d4fc243086c4290",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/source_generations/variant_f_period_operator_console_codex_builtin_image_gen_original.png",
+      "copied_source_generation_sha256": "828eb4957e6fec879c2f9111656dbaf1d846e83cd15dcf971d4fc243086c4290",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/source_art/variant_f_period_operator_console_1920x1080.png",
+      "final_asset_sha256": "7c2a30c928e2a0fa49499080fed06efc1999c19f2747efad5af5c81520fe1702",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/previews/variant_f_period_operator_console_640x360.png",
+      "preview_sha256": "ede6111236b8b3acbc9d9611cecd7204be53e0cf34e16d188b5ad2f2ff67dc8c",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/assets/prompts/variant_f_period_operator_console_prompt.txt",
+      "prompt_sha256": "10b3f331e2bc7f71d6bd2da611660a981f50650e7c38df485df3b1e822780401",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "mode": "text_to_image",
+        "source_generation_root": "/Users/mike/.codex/generated_images",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "historical_accuracy_precheck": {
+        "historical_accuracy_reference_read": "pass_best_period_console_and_workflow_read",
+        "operator_outside_room_read": "pass_operator_outside_shielded_room",
+        "period_console_crt_read": "pass_strong_analog_console_crt_paper_and_printer_cues",
+        "blocky_therac_era_machine_read": "pass_blocky_enclosed_gantry_and_circular_head",
+        "right_rail_safe_space_read": "pass_strong_dark_right_side_selected_for_rail"
+      },
+      "notes": "Selected for the revised HTML proof: strongest historical control-room cueing plus safest dark right-rail zone."
+    }
+  ],
+  "source_art_reads": {
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "historical_accuracy_reference_read": "pass",
+    "shielded_room_workflow_read": "pass",
+    "operator_outside_room_read": "pass",
+    "period_console_crt_read": "pass",
+    "blocky_therac_era_machine_read": "pass",
+    "patient_presence_read": "pass",
+    "operator_presence_read": "pass",
+    "human_role_count_read": "pass_patient_and_operator_present",
+    "no_patient_suffering_read": "pass",
+    "paper_architecture_absence_read": "pass",
+    "right_rail_safe_space_read": "pass_selected_variant_f_strong_dark_right_side",
+    "generated_text_logo_watermark_read": "pass_no_readable_text_or_logos_by_local_visual_inspection",
+    "texture_noise_read": "pass_subtle_photoreal_film_grain_not_paper_texture"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "mp4_render_created": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "references": {
+    "historical_reference_notes_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/references/historical_reference_notes.md",
+    "historical_reference_notes_sha256": "891a7c91e120efe87e16496317a5ae78f8e369d3bafd0b81b1fa89402bdfff80"
+  },
+  "review_question": "Reply with exactly one source-art disposition: keep, tighten, or reject. Human keep is required before final MP4 rendering.",
+  "artifacts": {
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/source_art_manifest.json",
+      "sha256": "self_hash_not_recorded_to_avoid_self_reference"
+    },
+    "source_art_review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_historical_imagegen_source_art_20260516T165911Z/review/source_art_review_packet.md",
+      "sha256": "217a8b61c446e654acc788ec17357e9b1f3745b04e8286a5d1b3ed0a1a8ce9f7"
+    }
+  }
+}

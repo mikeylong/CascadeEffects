@@ -1,0 +1,56 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_restart_scout_pass_01",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism, restrained Nikon still-frame feel",
+      "negative_prompt": "text, watermark, logo, ui overlay, readable signage, letters, numbers, black caption box, poster design, collage fragments, diagram, CAD render, white studio background, isolated product render, cutaway model, exploded view, red abstract object, red cube, red origami shape, red sculpture, saturated accent block, warning label, crowd chaos, collapse reenactment, gore, bodies, emergency spectacle, smoke, fire, debris field, plastic CGI surfaces, flattened render look, pseudo NASA logo, mission patch, countdown clock, readable control panel"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_restart__beat_01_a_current_operational_stack",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 85101,
+      "prompt_body": "Minimal surreal editorial still of Space Shuttle Challenger as routine launch infrastructure near Pad 39B, canonical orbiter external tank and solid rocket booster stack held motionless on gray crawler-pad structure, orderly launch process geometry feels too calm, muted Florida daylight, restrained cold whites and tank orange, no launch plume, no readable markings, no logos"
+    },
+    {
+      "id": "challenger_restart__beat_01_b_photoreal_operational_stack",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 85102,
+      "prompt_body": "Documentary vertical photograph of Space Shuttle Challenger prepared as operational launch infrastructure at Kennedy Pad 39B, believable orbiter external tank and booster proportions on gray crawler-pad support, flat Florida coastal light, quiet prelaunch workday atmosphere, credible lens perspective from medium distance, calm routine is the wrong state, no ignition, no smoke plume, no readable markings"
+    },
+    {
+      "id": "challenger_restart__beat_02_a_current_oring_evidence",
+      "archetype": "fragment_or_detail",
+      "base_seed": 85201,
+      "prompt_body": "Minimal surreal documentary close view of a solid rocket booster field-joint ring and O-ring seat, one localized dark seam and soot residue line where hot gas crossed a seal boundary, off-white casing and dark rubber material, quiet evidence lighting, clean edge hierarchy, no labels, no arrows, no diagram, no flame"
+    },
+    {
+      "id": "challenger_restart__beat_02_b_photoreal_oring_evidence",
+      "archetype": "fragment_or_detail",
+      "base_seed": 85202,
+      "prompt_body": "Photographic evidence-detail still of cylindrical solid rocket booster field-joint hardware, ring interface and O-ring seat visible with one restrained soot trace along the seal boundary, off-white painted metal casing, dark gasket material, lab-documentary lighting, enough surrounding casing to identify the mechanism, no text, no schematic, no cutaway, no flame"
+    },
+    {
+      "id": "challenger_restart__beat_04_a_current_decision_room",
+      "archetype": "small_human_group",
+      "base_seed": 85401,
+      "prompt_body": "Minimal surreal late-1980s launch-decision room, small engineering group divided by table geometry, blank folders and a wordless technical wall surface, cold blue exterior light suggesting ice outside, authority imbalance quietly pushes the warning burden to one side of the table, restrained institutional tension, believable anatomy, no readable text, no courtroom staging"
+    },
+    {
+      "id": "challenger_restart__beat_04_b_photoreal_decision_room",
+      "archetype": "small_human_group",
+      "base_seed": 85402,
+      "prompt_body": "Documentary photograph of a late-1980s engineering teleconference room during a launch decision, few figures seated and standing in fixed believable positions around a plain table, blank binders and wordless wall board, cold blue window light implying icy launch conditions outside, institutional fluorescent beige-gray room, proof burden shown by spacing and posture only, no readable papers, no modern laptops, no courtroom drama"
+    }
+  ]
+}

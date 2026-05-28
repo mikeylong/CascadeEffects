@@ -1,0 +1,134 @@
+{
+  "family": "thumbnail_plate",
+  "preset": "one_red_flag__refine_img2img",
+  "base_fragment": "flux_full_refine_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui",
+    "width": 1280,
+    "height": 720,
+    "batch_size": 1,
+    "seed": 18700451,
+    "selected_seed": 18700451,
+    "seed_mode": "search",
+    "variant_count": 2,
+    "steps": 6,
+    "guidance": 3.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.2,
+    "upscale_factor": 1.0,
+    "filename_prefix": "cascadeeffects/thumbnail_plate/one_red_flag/refine/one_red_flag_refine",
+    "note_text": "Refine stage for the chosen thumbnail plate. Keep the left-side safe zone intact while sharpening the anchor silhouette and the surrounding collage layers.",
+    "output_intent": "thumbnail_plate",
+    "stage": "refine_img2img",
+    "reference_board_dir": "references/one_red_flag/board",
+    "style_profile": "systems_failure_collage",
+    "temperature": "bold",
+    "palette_policy": "episode-specific",
+    "accent_palette": "alarm red, amber spill, gunmetal black, oxidized teal, pale lilac",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "left third stays clear enough for title lockup without becoming empty",
+    "post_work": "typography-later",
+    "safe_zone": "left-third-open",
+    "signal_anchor": "alarm beacon and jammed cutoff lever anchor fragment",
+    "source_image": "cascadeeffects/thumbnail_plate/one_red_flag/draft/one_red_flag_draft_00023_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.2,
+    "semantic_qc_profile": "packaging_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "alarm beacon locked above a jammed cutoff lever",
+    "support_fragments": [
+      "strained cable loop and bare bracket kept subordinate to the anchor",
+      "torn paper, soft paper seams, mechanical silhouette fragments, and poster montage"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.refine_denoise }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "thumbnail_plate",
+    "generated_filename": "ce_thumbnail_plate__one_red_flag__refine_img2img.workflow.json",
+    "sync_filename": "ce_thumbnail_plate__one_red_flag__refine_img2img.json"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cascade Effects Task Lease",
+  "type": "object",
+  "required": ["task_id", "owner", "claimed_at", "lease_expires_at"],
+  "properties": {
+    "task_id": { "type": "string" },
+    "owner": { "type": "string" },
+    "claimed_at": { "type": "string" },
+    "lease_expires_at": { "type": "string" }
+  }
+}

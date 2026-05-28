@@ -1,0 +1,17 @@
+### Result
+{
+  "time": 559.355451,
+  "storyTime": 549.754,
+  "activeTitle": "The Air Fed The Twist",
+  "caption": "The wind did not need to become a",
+  "captionEmpty": false,
+  "railOpacity": 1,
+  "endOpacity": 0,
+  "visualRoll": "0.2608deg",
+  "visualScale": "1.0374513732034039",
+  "duration": 883.321905
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (window.__setRenderTime(559.355451))');
+```

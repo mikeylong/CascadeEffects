@@ -1,0 +1,358 @@
+{
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z",
+  "episode_id": "tacoma-narrows",
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "process_version": "living_cover_ambient_effects_layer_v1",
+  "created_at": "2026-05-18T23:12:04Z",
+  "status": "rough_assembly_review_ready_human_keep_pending",
+  "human_disposition": "pending",
+  "lane_decision": "foreground_glass_rain_rivulet_led_v2",
+  "selected_direction": "Rivulet-led rain on glass",
+  "rationale": "Replace the rejected storm-pressure and first glass-rain treatment with a viewer-facing pane-of-glass layer: fewer tiny specks, more readable sliding rivulets and trails, and motion driven by absolute audio time from t=0 so the music-only intro is already alive.",
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+    "sha256": "8f85d657d6a2573ddeaf637e468d4a8b2db4a20b2017b369591579f086e6246c",
+    "role": "kept_k3_source_art_local_copy",
+    "source_art_id": "candidate_k3_roadway_wide_stance",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/references/source_art_manifest.json",
+      "sha256": "3e02c5d43fd32079a34fc345d8005ba90e6fa9947cc8a3c4c998ee3962ee3acc",
+      "role": "packet_local_source_art_manifest_copy"
+    }
+  },
+  "deterministic_parameters": {
+    "seed_function": "seededUnit(index, salt)",
+    "glass_rain_seed": 1940110717,
+    "glass_drop_count": 56,
+    "glass_rivulet_count": 78,
+    "glass_mask_rect": [
+      0,
+      0,
+      1068,
+      1080
+    ],
+    "glass_rail_exclusion_rect": [
+      1068,
+      0,
+      852,
+      1080
+    ],
+    "right_rail_review_rect": [
+      1108,
+      52,
+      760,
+      976
+    ],
+    "coordinate_space": [
+      1920,
+      1080
+    ],
+    "speed_down_px_per_second": [
+      28,
+      84
+    ],
+    "speed_slant_px_per_second": [
+      12,
+      34
+    ],
+    "visibility": "medium_visible_rivulet_led",
+    "motion_clock": "audio_time_from_zero"
+  },
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "type": "existing_source_safe_transform",
+      "preservation_read": "pass_preserved_from_chapter_transition_successor",
+      "source_safety": "does_not_redraw_bridge_geometry"
+    },
+    {
+      "id": "foreground_glass_rain_rivulet_led_v2",
+      "type": "seeded_transparent_rivulets_with_reduced_tiny_specks",
+      "parameters": {
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "opacity_profile": "medium_visible_screen_glass_trails",
+        "motion": "wind_slanted_down_screen_audio_time_from_zero",
+        "mask_rect": [
+          0,
+          0,
+          1068,
+          1080
+        ],
+        "rail_exclusion_rect": [
+          1068,
+          0,
+          852,
+          1080
+        ]
+      },
+      "masks": [
+        "viewer_facing_glass_surface_left_of_right_rail"
+      ],
+      "exclusions": [
+        "right_rail",
+        "captions",
+        "youtube_end_screen_targets",
+        "source_plate_geometry"
+      ],
+      "source_safety": "additive image-only canvas layer; no people, vehicle, bridge, or source-plate geometry animation"
+    }
+  ],
+  "hard_avoids": [
+    "source-plate geometry changes",
+    "animated people",
+    "animated cars",
+    "debris",
+    "diagnostic overlays",
+    "text outside the rail",
+    "right-rail or caption interference"
+  ],
+  "qa": {
+    "browser_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/browser_qa_1920x1080.json",
+      "sha256": "f19a3e9be82d92182c7d415b7964d5fe7c4a9e817e9379aebe271ac22deaf387",
+      "role": "browser_qa_json_rivulet_glass_rain_successor"
+    },
+    "glass_rain_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/glass_rain_review_strip.png",
+      "sha256": "ef92022c8bf4f46aa19931f739bef9510b539c0b21a2ec61cd1dd41287f71fe7",
+      "role": "rivulet_glass_rain_review_strip_png",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/glass_rain_review_strip.html",
+      "html_sha256": "5d09e8d0344f8dc28c800bc53f908dc2c5e7728e98a31042513fd378d2da6760",
+      "sample_count": 10
+    },
+    "pre_voice_motion_check": {
+      "start_time_seconds": 0,
+      "later_time_seconds": 0.85,
+      "read": "pass_glass_rain_moves_between_t0_and_t0_85_before_voice_start",
+      "evidence_slug": "glass_intro_start"
+    },
+    "samples": [
+      {
+        "slug": "glass_intro_start",
+        "time_seconds": 0,
+        "story_time_seconds": 0,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 0,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 9253,
+        "active_region_nonblank": 450,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_intro_start_0000000ms.png",
+          "sha256": "69972af9e56955f654b381cf47402dd25ac022d946f3787af6657a1324c6bae2",
+          "role": "rivulet_glass_rain_sample_glass_intro_start"
+        }
+      },
+      {
+        "slug": "glass_intro_mid",
+        "time_seconds": 4.8,
+        "story_time_seconds": 0,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 4.8,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 7661,
+        "active_region_nonblank": 355,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_intro_mid_0004800ms.png",
+          "sha256": "564bde686a5caa06155b7b8841db121c35831e2d00142677971fa4163e397245",
+          "role": "rivulet_glass_rain_sample_glass_intro_mid"
+        }
+      },
+      {
+        "slug": "glass_voice_start",
+        "time_seconds": 9.601451,
+        "story_time_seconds": 0,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 9.601451,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 6889,
+        "active_region_nonblank": 333,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_voice_start_0009601ms.png",
+          "sha256": "8bccb9ba2a073234ce89d26f165f572e27f5035db5a31cfe569cc0d80b394d85",
+          "role": "rivulet_glass_rain_sample_glass_voice_start"
+        }
+      },
+      {
+        "slug": "glass_opening_caption",
+        "time_seconds": 12,
+        "story_time_seconds": 2.398548999999999,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 12,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 6298,
+        "active_region_nonblank": 291,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_opening_caption_0012000ms.png",
+          "sha256": "cb39c11ef9534e6afdbe5df4ee6aec7b8c2099147a90d7749ea0e9d2b0dfecf1",
+          "role": "rivulet_glass_rain_sample_glass_opening_caption"
+        }
+      },
+      {
+        "slug": "glass_galloping",
+        "time_seconds": 216.502,
+        "story_time_seconds": 206.900549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 216.502,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 7098,
+        "active_region_nonblank": 326,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_galloping_0216502ms.png",
+          "sha256": "f68a044fd3c6a233d9fbbe0b8be6ee1e0177dc005c3c4df2e5752d6ddd1d5c1e",
+          "role": "rivulet_glass_rain_sample_glass_galloping"
+        }
+      },
+      {
+        "slug": "glass_five_conditions",
+        "time_seconds": 316.442,
+        "story_time_seconds": 306.840549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 316.442,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 8074,
+        "active_region_nonblank": 388,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_five_conditions_0316442ms.png",
+          "sha256": "09a4c91d711fd8af1a1acf0d64264339cee4f7d9f05a2f239c29e6359f51ba3f",
+          "role": "rivulet_glass_rain_sample_glass_five_conditions"
+        }
+      },
+      {
+        "slug": "glass_torsion_peak",
+        "time_seconds": 559.355,
+        "story_time_seconds": 549.753549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 559.355,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 7109,
+        "active_region_nonblank": 338,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_torsion_peak_0559355ms.png",
+          "sha256": "7666eaae726609fee6d7ffe038084f1bc820ba395ad5b48adf8186ba8e841260",
+          "role": "rivulet_glass_rain_sample_glass_torsion_peak"
+        }
+      },
+      {
+        "slug": "glass_synthesis",
+        "time_seconds": 685.83,
+        "story_time_seconds": 676.228549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 685.83,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 7541,
+        "active_region_nonblank": 353,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_synthesis_0685830ms.png",
+          "sha256": "568199428c10057b8d2cc22ae348094f61f0c9a8f0f5843c7ca48bbe1a2c25a7",
+          "role": "rivulet_glass_rain_sample_glass_synthesis"
+        }
+      },
+      {
+        "slug": "glass_outro",
+        "time_seconds": 849.235,
+        "story_time_seconds": 839.633549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 849.235,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 7509,
+        "active_region_nonblank": 358,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_outro_0849235ms.png",
+          "sha256": "e1c4b4f44e0e891112fda679d60117a6a5f21f690833887476d875a222b30ff9",
+          "role": "rivulet_glass_rain_sample_glass_outro"
+        }
+      },
+      {
+        "slug": "glass_end_screen",
+        "time_seconds": 856.525,
+        "story_time_seconds": 839.63356,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 856.525,
+        "droplet_count": 56,
+        "rivulet_count": 78,
+        "active_region_alpha_sum": 6990,
+        "active_region_nonblank": 333,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_rivulet_led_20260518T231204Z/qa/screenshots/glass_end_screen_0856525ms.png",
+          "sha256": "ce6e422fa5a6f112bbdf00bfd66e2edb341617b768650a891a40c59a84a9a42d",
+          "role": "rivulet_glass_rain_sample_glass_end_screen"
+        }
+      }
+    ]
+  },
+  "reads": {
+    "glass_rain_intro_motion_read": "pass_glass_rain_moves_between_t0_and_t0_85_before_voice_start",
+    "glass_rain_motion_clock_read": "pass_glass_rain_motion_uses_audio_time_from_zero_not_story_time",
+    "glass_rain_rivulet_variant_read": "pass_foreground_glass_rain_rivulet_led_v2_more_rivulets_than_specks",
+    "glass_rain_effects_plan_read": "pass_foreground_glass_rain_rivulet_led_v2_declared_and_exposed",
+    "glass_rain_lane_decision_read": "pass_medium_visible_wind_slanted_rivulet_led_glass_rain_selected",
+    "glass_rain_image_only_mask_read": "pass_image_only_layer_masked_left_of_fixed_right_rail",
+    "glass_rain_motion_read": "pass_droplets_and_rivulets_move_diagonally_down_screen_from_audio_time_zero",
+    "deterministic_glass_rain_read": "pass_seeded_rivulet_led_droplet_parameters_declared",
+    "source_plate_geometry_preservation_read": "pass_no_source_plate_geometry_change_from_glass_rain_layer",
+    "right_rail_exclusion_read": "pass_glass_rain_canvas_alpha_zero_in_right_rail_review_region",
+    "caption_legibility_preservation_read": "pass_caption_track_active_and_glass_rain_excluded_from_caption_region",
+    "debug_overlay_absence_read": "pass_no_diagnostic_overlay_in_player_samples",
+    "range_scrub_effect_review_read": "pass_rivulet_glass_rain_samples_captured_from_intro_through_end_screen",
+    "ambient_effects_plan_read": "pass_foreground_glass_rain_rivulet_led_v2_declared_and_exposed",
+    "ambient_effect_lane_decision_read": "pass_foreground_glass_rain_rivulet_led_v2",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_canvas_with_right_rail_exclusion_mask",
+    "foreground_occlusion_read": "pass_no_independent_people_car_face_vehicle_or_bridge_motion",
+    "effect_layer_source_safety_read": "pass_additive_image_only_layer_preserves_k3_plate_geometry",
+    "deterministic_ambient_read": "pass_seeded_audio_time_glass_rain_parameters_declared",
+    "additive_effect_integration_read": "pass_glass_rain_replaced_rejected_storm_pressure_without_source_art_audio_or_caption_changes",
+    "ambient_effect_browser_sample_read": "pass_rivulet_glass_rain_canvas_nonblank_and_changes_across_intro_story_and_end_screen"
+  },
+  "supersedes": {
+    "packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_20260518T222738Z",
+    "status": "tighten_superseded_by_rivulet_glass_rain_successor",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_glass_rain_20260518T222738Z/rough_assembly_manifest.json"
+  },
+  "rejected_successor_preserved": {
+    "packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z",
+    "status": "reject_storm_pressure_ambient_direction",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/rough_assembly_manifest.json"
+  },
+  "downstream_locks": {
+    "final_assembly": "blocked_pending_human_keep_on_rivulet_glass_rain_rough_proof",
+    "final_mp4": "blocked_pending_human_keep_on_rivulet_glass_rain_rough_proof",
+    "publish_readiness": "blocked_no_final_mp4",
+    "youtube_upload": "blocked_no_final_mp4_or_publish_readiness_package",
+    "public_release": "manual_youtube_studio_only"
+  }
+}

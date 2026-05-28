@@ -1,0 +1,32 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_restart_shot_plan_v2_scout_pass_02",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism, restrained Nikon still-frame feel",
+      "negative_prompt": "text, watermark, logo, ui overlay, readable signage, letters, numbers, black caption box, poster design, collage fragments, diagram, CAD render, white studio background, isolated product render, cutaway model, exploded view, red abstract object, red cube, red origami shape, red sculpture, saturated accent block, warning label, crowd chaos, collapse reenactment, gore, bodies, emergency spectacle, smoke, fire, debris field, plastic CGI surfaces, flattened render look, pseudo NASA logo, NASA meatball, NASA worm, mission patch, agency insignia, American flag, flag decal, USA marking, United States marking, Challenger wordmark, shuttle name text, wing text, body decals, countdown clock, readable control panel, whiteboard writing, technical wall chart, posted paper, binder spine label, folder label, paperwork text, chart labels, diagram marks, keyboard text, monitor text, warning label, button labels, numbered display, digital countdown, schematic arrows, label plate, printed plate, gauge numbers, switch labels"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_restart_v2__beat_04e_blank_indicator_macro_a",
+      "archetype": "machine_or_component",
+      "base_seed": 88451,
+      "prompt_body": "Photoreal macro of a blank dark industrial metal plate with three unlabeled round indicator bulbs and plain screw heads only, one small amber light glowing among dark bulbs, shallow documentary focus, no gauges, no switches, no label plates, no words, no numbers, no display, no UI"
+    },
+    {
+      "id": "challenger_restart_v2__beat_04e_blank_indicator_macro_b",
+      "archetype": "machine_or_component",
+      "base_seed": 88452,
+      "prompt_body": "Close documentary photograph of featureless green-gray equipment metal with a small cluster of plain glass indicator lights, one amber glow embedded in otherwise blank hardware, cropped so there are no panels with labels, no meters, no buttons with text, no words, no numbers, no countdown, no screens"
+    }
+  ]
+}

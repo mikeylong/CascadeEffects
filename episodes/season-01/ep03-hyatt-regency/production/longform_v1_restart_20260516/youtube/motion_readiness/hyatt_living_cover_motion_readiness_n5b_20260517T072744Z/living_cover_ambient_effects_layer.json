@@ -1,0 +1,100 @@
+{
+  "packet_id": "hyatt_living_cover_ambient_effects_layer_n5b_20260517T072744Z",
+  "episode_id": "hyatt-regency",
+  "created_utc": "2026-05-17T07:27:44Z",
+  "phase_gate": "motion_readiness_gate_input",
+  "status": "review_ready_internal_artifact",
+  "human_disposition": "defer",
+  "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+  "selected_lanes": [
+    "source_drift_lighting",
+    "practical_warmth_micro_life",
+    "subtle_depth_particles",
+    "music_visual_handoff"
+  ],
+  "source_plate": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_art/n5b_plausible_table_centerpieces_1920x1080.png",
+    "sha256": "7b6f6c5aa1970f311e01676d45e03a5bf319a11482e4d80531cfb266504b9458",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_space": "fixed_1920x1080"
+  },
+  "effect_parameters": {
+    "deterministic_seed": 8171981,
+    "source_drift": {
+      "max_translate_px": 18,
+      "max_scale_delta": 0.018,
+      "cycle_seconds": 180,
+      "easing": "sine_in_out"
+    },
+    "lighting": {
+      "warm_glow_opacity_range": [
+        0.05,
+        0.11
+      ],
+      "cycle_seconds": 97,
+      "rail_localization": true
+    },
+    "particles": {
+      "count": 42,
+      "opacity_range": [
+        0.05,
+        0.14
+      ],
+      "speed_px_per_second_range": [
+        1.2,
+        4.5
+      ],
+      "depth_policy": "behind_rail_and_event_floor_only"
+    },
+    "event_micro_life": {
+      "mode": "brightness_parallax_only",
+      "people_are_source_art_only": true,
+      "no_new_faces": true
+    },
+    "end_screen": {
+      "background_motion_policy": "continuous_subtle_ambient_allowed",
+      "youtube_target_geometry_static": true
+    }
+  },
+  "source_safety": {
+    "source_plate_matte_registration_read": "pass_planned_same_fixed_coordinate_space",
+    "foreground_occlusion_read": "pass_planned_no_face_or_body_detail_generation",
+    "effect_layer_source_safety_read": "pass_no_public_anchor_redraw",
+    "procedural_signal_overlay_read": "pass_no_cyan_lines_or_load_path_overlay_on_plate",
+    "debug_overlay_absence_read": "pass_planned_viewer_output_contains_no_debug_layers"
+  },
+  "browser_qa_plan": {
+    "required_before_rough_keep": true,
+    "samples_seconds": [
+      0,
+      82,
+      181,
+      298,
+      475,
+      753,
+      818.643,
+      832.642812
+    ],
+    "range_scrub_required": true,
+    "localhost_required_for_review": true
+  },
+  "required_reads": {
+    "ambient_effects_plan_read": "pass",
+    "ambient_effect_lane_decision_read": "pass_mixed_restrained_source_integrated",
+    "source_plate_matte_registration_read": "pass_planned_same_fixed_coordinate_space",
+    "foreground_occlusion_read": "pass_planned_no_new_human_detail",
+    "effect_layer_source_safety_read": "pass",
+    "deterministic_ambient_read": "pass_seeded_parameters_recorded",
+    "additive_effect_integration_read": "pass",
+    "debug_overlay_absence_read": "pass",
+    "ambient_effect_browser_sample_read": "planned_required_before_rough_keep",
+    "range_scrub_effect_review_read": "planned_required_before_rough_keep"
+  },
+  "downstream_locks": {
+    "may_create_html_rough_proof": false,
+    "may_advance_to_video_render": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_youtube_action": false
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_thesis_close__final_upscale",
+  "base_fragment": "image_resize_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131807,
+    "selected_seed": 972054013131807,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 8,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_thesis_close/final/challenger_thesis_close_final",
+    "note_text": "Final beat 07 deliverable. Keep the thesis object severe, off-center, and cover-worthy without literal documentary detail.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "final_upscale",
+    "reference_board_dir": "references/episodes/challenger/launch_shorts_cover/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "bold",
+    "palette_policy": "contract-limited",
+    "accent_palette": "bone white, slate blue, charcoal, warning red",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the thesis object above the subtitle band and preserve the top field as quiet air",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "compressed Challenger warning totem held as one final signal form",
+    "beat_id": "beat_07",
+    "historical_anchor": "Challenger as a preventable systems failure compressed into one final portrait signal",
+    "surreal_breach": "one warning seam remains visibly open inside an otherwise resolved monumental form",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_scene_plate/challenger_thesis_close/refine/challenger_thesis_close_refine_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "Challenger warning totem compressed into one severe portrait object",
+    "support_fragments": [
+      "one open seam and one red signal accent held inside a mostly quiet field",
+      "reduced structural planes suggesting stack, seal, and institution without crowding the frame"
+    ],
+    "directives": [
+      "keep the subject off-center but packaging-legible",
+      "make the thesis immediate at thumbnail size"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "widgets": {
+        "upscale_method": "{{ params.upscale_method }}",
+        "scale_by": "{{ params.upscale_factor }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_thesis_close__final_upscale.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_thesis_close__final_upscale.json"
+  }
+}

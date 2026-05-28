@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-05-23T19:47:32Z",
+  "episode_id": "tacoma-narrows",
+  "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "human_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "known_post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "notify_subscribers": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T194657Z/publish_readiness_manifest.json",
+  "source_publish_readiness_manifest_sha256": "7812756520f508cb8ae17dd2d0012117b5ec2b6708d368ff74a29073b0f52d86",
+  "target": "youtube_longform_unlisted_review",
+  "upload_assets": {
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T194657Z/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_srt_sha256": "ed4c52ab1bd5fe5352950d283fe7087036538af70ad7610294a6366bac2a2dc4",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T194657Z/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+    "caption_vtt_sha256": "ea99ff408c835221d9e4415464df52a0bbf1b7fcfa35dfd2be0c6ad1f77876b1",
+    "probe": {
+      "format": {
+        "bit_rate": "2231559",
+        "duration": "872.523991",
+        "size": "243386166"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "avg_frame_rate": "24/1",
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "872.375000",
+          "height": 1080,
+          "index": 0,
+          "side_data_list": [
+            {}
+          ],
+          "width": 1920
+        },
+        {
+          "avg_frame_rate": "0/0",
+          "channels": 2,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "872.523991",
+          "index": 1,
+          "sample_rate": "44100"
+        }
+      ]
+    },
+    "thumbnail_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T194657Z/thumbnail/tacoma-narrows_thumbnail_candidate.jpg",
+    "thumbnail_sha256": "2cd07b944a4b2eadbf3ccf72d7444db83d414c6c23054bbb17f2187fe00bb719",
+    "thumbnail_source_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T194657Z/thumbnail/tacoma-narrows_thumbnail_candidate.jpg",
+    "thumbnail_source_sha256": "2cd07b944a4b2eadbf3ccf72d7444db83d414c6c23054bbb17f2187fe00bb719",
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T194657Z/media/tacoma-narrows_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "87293a0c4de7194849c16c0dc764aa609e8e201f4c6661001cc9844706ae8c2d"
+  },
+  "youtube_metadata": {
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description": "Tacoma Narrows is a Cascade Effects episode about how small signals become system consequences.\n\nA bridge built at the edge of aerodynamic understanding exposed how structure, wind, and confidence can drift apart.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Opening\n0:04 Main episode\n13:33 Closing\n\n#CascadeEffects",
+    "self_declared_made_for_kids": false,
+    "tags": [
+      "Cascade Effects",
+      "Galloping Gertie",
+      "Tacoma Narrows",
+      "aeroelastic flutter",
+      "bridge collapse",
+      "documentary",
+      "systems failure"
+    ],
+    "title": "Tacoma Narrows"
+  }
+}

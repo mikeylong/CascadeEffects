@@ -1,0 +1,64 @@
+{
+  "packet_id": "therac25_living_cover_visual_system_plan_20260516T000308Z",
+  "episode_id": "therac-25",
+  "phase_gate": "visual_system_gate",
+  "status": "review_ready",
+  "human_disposition": "defer",
+  "may_advance_to_motion_readiness": false,
+  "may_advance_to_rough_assembly": false,
+  "created_utc": "20260516T000308Z",
+  "living_cover_system_version": "living_cover_system_v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "captioning_process_version": "living_cover_captioning_process_v1",
+  "caption_required": true,
+  "caption_output_model": "dual_visible_rail_and_youtube_vtt_sidecar",
+  "override_status": "none",
+  "source_art_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_source_art_20260516T000139Z/source_art_manifest.json",
+  "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_source_art_20260516T000139Z/assets/source_art/therac_living_cover_source_art_1920x1080.png",
+  "source_art_sha256": "f1e9c1928b569362986f03351ec7c5b0a67287ecec68d3a790064b6a76b667b3",
+  "generation_provenance": {
+    "tool": "codex_builtin_image_gen",
+    "model": "unknown_builtin_image_gen_model",
+    "model_confidence": "inferred_from_path",
+    "mode": "text_to_image",
+    "source_generation_path": "/Users/mike/.codex/generated_images/019e2dd2-7396-77b1-85e7-5789109f01ef/ig_064978f4c9038a1e016a07b33ab71c81909e7d6578f20baf43.png",
+    "source_generation_sha256": "0cbef585545bbada4a31c5caaa0b018feba9ab47483d23410a3cb34e9d4be9f3",
+    "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_source_art_20260516T000139Z/assets/source_art/therac_living_cover_source_art_1920x1080.png",
+    "final_asset_sha256": "f1e9c1928b569362986f03351ec7c5b0a67287ecec68d3a790064b6a76b667b3",
+    "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_source_art_20260516T000139Z/assets/prompts/therac_living_cover_source_art_prompt.txt",
+    "prompt_sha256": "3e12bd3aa6f9b75d12c3a46a6f54e93349c18fee4dd488bc450f177125306940",
+    "init_image_path": "not_applicable",
+    "init_image_sha256": "not_applicable",
+    "reference_image_paths": [],
+    "provenance_notes": "Built-in Codex image generation created a text-free Paper Architecture treatment-room carrier; packet final asset is a deterministic 1920x1080 scale from the original 16:9 output."
+  },
+  "chapter_model": {
+    "major_section_count": 8,
+    "active_panel_hierarchy": "chapter label / active beat title / one-line summary",
+    "context_list": "nearby previous/upcoming chapter titles only"
+  },
+  "captioning": {
+    "text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/Ep2_Therac-25.txt",
+    "text_source_sha256": "03ef5e6fb1219757fdf2bf73873781102397acfc7682b0616c5c17460cf91e69",
+    "timing_source_path": "TBD_after_audio_QA",
+    "min_alignment_coverage": 0.985,
+    "max_unmatched_script_span_tokens": 8
+  },
+  "visual_reads": {
+    "generation_tool_provenance_read": "pass_recorded_builtin_imagegen_path_prompt_hash_and_packet_asset_hash",
+    "source_art_carrier_read": "pass_generated_raster_source_art",
+    "right_rail_safe_space_read": "pass_large_clean_right_side_negative_space_available",
+    "texture_noise_read": "pass_subtle_paper_fiber_only_by_visual_inspection_pending_human_keep",
+    "waterfall_read": "pass_dry_cyan_signal_trace_no_water_read",
+    "generated_text_logo_read": "pass_no_readable_generated_text_or_logos_visible",
+    "harm_imagery_read": "pass_no_patient_no_gore_no_burns",
+    "human_keep_required": "pending"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false
+  }
+}

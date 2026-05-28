@@ -1,0 +1,38 @@
+{
+  "run_id": "f2a99581-eddd-4612-974f-00e1c591c686",
+  "created_at": "2026-03-27T01:48:34Z",
+  "invocation": "stage",
+  "pipeline_id": null,
+  "family": "shorts_cover_plate",
+  "preset": "signal_object_portrait",
+  "spec_preset": "signal_object_portrait__draft_txt2img",
+  "stage": "draft_txt2img",
+  "prompt_id": "7c912c33-d2fd-42d6-93a7-3ff5a315d308",
+  "server_url": "http://127.0.0.1:8188",
+  "selected_seed": 550128314,
+  "seed": 550128314,
+  "variant_count": 1,
+  "source_image": "",
+  "artifact_paths": {
+    "workflow": "/Users/mike/Viz_CascadeEffects/workflows/generated/shorts_cover_plate/ce_shorts_cover_plate__signal_object_portrait__draft_txt2img.workflow.json",
+    "prompt": "/Users/mike/Viz_CascadeEffects/workflows/generated/shorts_cover_plate/ce_shorts_cover_plate__signal_object_portrait__draft_txt2img.prompt.json",
+    "manifest": "/Users/mike/Viz_CascadeEffects/workflows/generated/shorts_cover_plate/ce_shorts_cover_plate__signal_object_portrait__draft_txt2img.manifest.json",
+    "sync_target": "/Users/mike/AI/comfy/user/default/workflows/ce_shorts_cover_plate__signal_object_portrait__draft_txt2img.json"
+  },
+  "output_files": [
+    "/Users/mike/AI/comfy/output/cascadeeffects/shorts_cover_plate/signal_object_portrait/draft/signal_object_portrait_draft_00005_.png"
+  ],
+  "dimensions": {
+    "width": 1080,
+    "height": 1920
+  },
+  "checkpoint": "",
+  "positive_prompt": "systems-failure key art, symbolic and object-led, mechanism-first storytelling, investigative editorial tone, non-typographic image logic, one dominant clue, at most two supporting elements, industrial textures, monitor glow, hazard accents, serious and restrained, no clear human figures, no scenic room overview, no cyberpunk, no glossy sci-fi, no horror poster, no conspiracy-board clutter, hotter than scene stills, nearly finished plate, safe zone preserved inside the composition, stronger anomaly emphasis, high thumbnail legibility, still serious and non-lurid, build around bare mechanisms and hazard hardware, label-free surfaces, no panel faces, no screens, no paper-carried clues, portrait packaging plate, single emblematic isolated mechanism, strongest crop, mobile-legible silhouette, intense but controlled, stripped field, no display faces or control labels, single emblematic jammed switch lever bolted to a bare steel bracket, one severed cable loop and one hot warning lamp reflection, dense shadow, accent palette signal green, hot amber, charcoal black, safe-zone intent upper band stays readable for Shorts packaging without weakening the central object",
+  "negative_prompt": "",
+  "legacy_comfy_history_removed": true,
+  "legacy_comfy_history_removed_reason": "Removed retired scene-still Comfy prompt graph before local Flux1 artifact purge.",
+  "legacy_workflow_retired": true,
+  "legacy_workflow_family": "scene-still",
+  "legacy_workflow_note": "Retired local scene-still workflow metadata was rewritten to reference canonical/reference-local assets.",
+  "canonical_reference_asset": "/Users/mike/Viz_CascadeEffects/references/signal_object_portrait/selects/hero_plate.png"
+}

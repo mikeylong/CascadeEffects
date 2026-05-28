@@ -1,0 +1,120 @@
+{
+  "schema_version": "1",
+  "artifact_type": "still",
+  "application_phase": "post_upscale",
+  "enabled": false,
+  "mode": "overlay_first",
+  "family": "evidence_card_plate",
+  "preset": "redacted_memo",
+  "validation_policy": {
+    "zone_ocr": "warn",
+    "unapproved_text": "fail"
+  },
+  "zones": [
+    {
+      "id": "memo_header_block",
+      "text": "DECLASSIFIED MEMORANDUM\nLAUNCH DECISION LOG",
+      "quad_norm": [
+        [0.235, 0.160],
+        [0.760, 0.160],
+        [0.760, 0.285],
+        [0.235, 0.285]
+      ],
+      "font_family": "Courier New Bold.ttf",
+      "font_size_px": 32,
+      "line_spacing_px": 10.0,
+      "tracking": 0.0,
+      "color": "#1F1C18",
+      "opacity": 0.92,
+      "blend_mode": "normal",
+      "blur_px": 0.0,
+      "glow_px": 0.0,
+      "noise_strength": 0.03,
+      "fit_mode": "contain",
+      "padding_px": 8.0,
+      "align_x": "start",
+      "align_y": "start",
+      "neutralize_mode": "soft_blur",
+      "underlay_kind": "none",
+      "shadow": {
+        "enabled": false,
+        "color": "#000000",
+        "opacity": 0.0,
+        "blur_px": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "debug_emit_crop": true
+    },
+    {
+      "id": "memo_subject_block",
+      "text": "Subject: Flight readiness review\nDate: 27 JAN 1986",
+      "quad_norm": [
+        [0.250, 0.355],
+        [0.770, 0.355],
+        [0.770, 0.455],
+        [0.250, 0.455]
+      ],
+      "font_family": "Courier New.ttf",
+      "font_size_px": 24,
+      "line_spacing_px": 8.0,
+      "tracking": 0.0,
+      "color": "#24201A",
+      "opacity": 0.88,
+      "blend_mode": "normal",
+      "blur_px": 0.0,
+      "glow_px": 0.0,
+      "noise_strength": 0.02,
+      "fit_mode": "contain",
+      "padding_px": 6.0,
+      "align_x": "start",
+      "align_y": "start",
+      "neutralize_mode": "soft_blur",
+      "underlay_kind": "none",
+      "shadow": {
+        "enabled": false,
+        "color": "#000000",
+        "opacity": 0.0,
+        "blur_px": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "debug_emit_crop": true
+    },
+    {
+      "id": "memo_clue_block",
+      "text": "Recommendation: Delay launch until\nthermal seal data is rechecked.",
+      "quad_norm": [
+        [0.240, 0.585],
+        [0.792, 0.585],
+        [0.792, 0.700],
+        [0.240, 0.700]
+      ],
+      "font_family": "Courier New Bold.ttf",
+      "font_size_px": 26,
+      "line_spacing_px": 8.0,
+      "tracking": 0.0,
+      "color": "#231D16",
+      "opacity": 0.9,
+      "blend_mode": "normal",
+      "blur_px": 0.0,
+      "glow_px": 0.0,
+      "noise_strength": 0.02,
+      "fit_mode": "contain",
+      "padding_px": 6.0,
+      "align_x": "start",
+      "align_y": "start",
+      "neutralize_mode": "soft_blur",
+      "underlay_kind": "none",
+      "shadow": {
+        "enabled": false,
+        "color": "#000000",
+        "opacity": 0.0,
+        "blur_px": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "debug_emit_crop": true
+    }
+  ]
+}

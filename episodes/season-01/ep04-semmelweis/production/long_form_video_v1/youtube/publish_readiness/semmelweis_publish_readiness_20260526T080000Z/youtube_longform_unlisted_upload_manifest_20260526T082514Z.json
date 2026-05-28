@@ -1,0 +1,87 @@
+{
+  "challenger_precision_matte_guard": {
+    "ok": true,
+    "reads": {
+      "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode"
+    },
+    "required": false
+  },
+  "created_at": "2026-05-26T08:27:23Z",
+  "episode_id": "semmelweis",
+  "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "human_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "known_post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "notify_subscribers": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/publish_readiness_manifest.json",
+  "source_publish_readiness_manifest_sha256": "55eddba2525f147d1dc80c927c17ee585aac463f1e541bf7f6689be89fe61c54",
+  "target": "youtube_longform_unlisted_review",
+  "upload_assets": {
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/captions/semmelweis_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_srt_sha256": "e4fba3ae9bfe221546e77d7f577a09489f643bc80b21c92d1cd441aacf53d3b1",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/captions/semmelweis_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+    "caption_vtt_sha256": "decc31ab0c99564e685c68223e7f3180c4a597df8fcea313e75ee5a239dec8e1",
+    "probe": {
+      "format": {
+        "bit_rate": "3044814",
+        "duration": "883.716009",
+        "size": "336343910"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "avg_frame_rate": "24/1",
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "883.666667",
+          "height": 1080,
+          "index": 0,
+          "side_data_list": [
+            {}
+          ],
+          "width": 1920
+        },
+        {
+          "avg_frame_rate": "0/0",
+          "channels": 2,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "883.716009",
+          "index": 1,
+          "sample_rate": "44100"
+        }
+      ]
+    },
+    "thumbnail_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/thumbnail/semmelweis_thumbnail_candidate.jpg",
+    "thumbnail_sha256": "27d6f7596b5194c808d45cf0e8d94ab72c8f84088ef51927ef6171295f1b54e8",
+    "thumbnail_source_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/thumbnail/semmelweis_thumbnail_candidate.jpg",
+    "thumbnail_source_sha256": "27d6f7596b5194c808d45cf0e8d94ab72c8f84088ef51927ef6171295f1b54e8",
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/media/semmelweis_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "d1f86b517d5e84a45ee8bcdab7b3fdaae2f8ea7ba97bbaec231f8822b2c4da7b"
+  },
+  "youtube_metadata": {
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description": "Semmelweis is a Cascade Effects episode about how small signals become system consequences.\n\nA simple handwashing observation collided with medical authority, hierarchy, and disbelief.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Measured, Not Explained\n1:18 Two Wards, Same Roof\n2:55 Autopsy To Ward\n4:36 The Evidence Had Layers\n6:41 The Result Became An Accusation\n8:37 Resistance Hardened\n10:19 Wrong In A Structural Way\n12:25 The Data Was Always Sufficient\n\n#CascadeEffects",
+    "self_declared_made_for_kids": false,
+    "tags": [
+      "Cascade Effects",
+      "Semmelweis",
+      "documentary",
+      "handwashing",
+      "medical history",
+      "public health",
+      "systems failure"
+    ],
+    "title": "Semmelweis"
+  }
+}

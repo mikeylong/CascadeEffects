@@ -1,0 +1,569 @@
+{
+  "blockers": [
+    "Superseded by approved Challenger source-credit/borderless/precision-matte candidate that is queued for YouTube upload.",
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "created_utc": "2026-05-25T20:56:35Z",
+  "current_gate": "publish_readiness_review",
+  "episode_id": "challenger",
+  "episode_title": "The Challenger Warning That Stopped Working",
+  "ffprobe": {
+    "audio_codec": "aac",
+    "duration_seconds": 1211.675011,
+    "video_codec": "h264"
+  },
+  "final_assembly_disposition": "keep",
+  "human_disposition": "keep",
+  "human_keep_record": {
+    "approval_read": "pass_user_requested_render_mp4_and_upload_successor_outro_fix_plus_tight_geometry_to_youtube_20260525",
+    "public_release": "manual_youtube_studio_only",
+    "recorded_at": "2026-05-25T20:57:06.317Z",
+    "requested_action": "render_mp4_and_upload_successor_outro_music_fix_plus_tighter_end_screen_geometry_to_youtube",
+    "source": "user_request",
+    "upload_privacy": "unlisted"
+  },
+  "human_keep_recorded_at": "2026-05-25T21:00:29Z",
+  "lifecycle_stage": "publish_readiness",
+  "local_assets": {
+    "browser_caption_qa": {
+      "bytes": 133544,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/provenance/browser_caption_qa.json",
+      "rel": "provenance/browser_caption_qa.json",
+      "role": "browser_caption_qa_copy",
+      "sha256": "1adf9ac14c8bbca793d4716bde79da7080d5554c93ba4c097d7c59772c57daaa"
+    },
+    "final_assembly_review_packet": {
+      "bytes": 1068,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/provenance/final_assembly_review_packet.md",
+      "rel": "provenance/final_assembly_review_packet.md",
+      "role": "final_assembly_review_packet_copy",
+      "sha256": "72e9e16bd849261470e4e2d4fd52417795cdd4727782cd3a25c124c66d2ffe80"
+    },
+    "mp4": {
+      "bytes": 211385796,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/media/challenger_living_cover_final_review_1080p24.mp4",
+      "rel": "media/challenger_living_cover_final_review_1080p24.mp4",
+      "role": "kept_final_assembly_mp4",
+      "sha256": "6bf54255723e043024a81a4671a21c7e274a8f303e86621237135efdc9c1c880"
+    },
+    "qa_frames": {
+      "final_second": {
+        "bytes": 282471,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/qa_frames/final_second_mp4_qa_final_second_1210p675s.jpg",
+        "rel": "qa_frames/final_second_mp4_qa_final_second_1210p675s.jpg",
+        "role": "qa_frame_final_second",
+        "sha256": "c6be850ba1d55837b8f04f8bc6f355f42513d256e4f56f94d4a2e9336c15c9d3"
+      },
+      "half": {
+        "bytes": 306539,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/qa_frames/half_mp4_qa_half_605p838s.jpg",
+        "rel": "qa_frames/half_mp4_qa_half_605p838s.jpg",
+        "role": "qa_frame_half",
+        "sha256": "26fc79612046294375f9e617514b9b25d350943f02711bc9cf2a6e67753f557d"
+      },
+      "quarter": {
+        "bytes": 300276,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/qa_frames/quarter_mp4_qa_quarter_302p919s.jpg",
+        "rel": "qa_frames/quarter_mp4_qa_quarter_302p919s.jpg",
+        "role": "qa_frame_quarter",
+        "sha256": "cf0b6657b08cf4b59b86e16b9c2fbd9c17c5064d6fd05e75e8f54380b9140319"
+      },
+      "safe_window_start": {
+        "bytes": 279240,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/qa_frames/safe_window_start_mp4_qa_safe_window_start_1191p681s.jpg",
+        "rel": "qa_frames/safe_window_start_mp4_qa_safe_window_start_1191p681s.jpg",
+        "role": "qa_frame_safe_window_start",
+        "sha256": "ef89de06a90d86e478bd8e224751ae7b79f913471470da77e0f0f50147f4134e"
+      },
+      "start": {
+        "bytes": 271980,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/qa_frames/start_mp4_qa_start_1p000s.jpg",
+        "rel": "qa_frames/start_mp4_qa_start_1p000s.jpg",
+        "role": "qa_frame_start",
+        "sha256": "4c0c99c42e8995e1ce0fb4df6d8bdcecbe077d70ff09c9c369b1bb1f54ad9947"
+      },
+      "three_quarter": {
+        "bytes": 301148,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/qa_frames/three_quarter_mp4_qa_three_quarter_908p756s.jpg",
+        "rel": "qa_frames/three_quarter_mp4_qa_three_quarter_908p756s.jpg",
+        "role": "qa_frame_three_quarter",
+        "sha256": "bfd69e55bbea43678d784a5e4278bb099e5c4af3beb1ade2915789756836fb44"
+      },
+      "voice_start": {
+        "bytes": 290599,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg",
+        "rel": "qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg",
+        "role": "qa_frame_voice_start",
+        "sha256": "010eb7643484c7f77529772eb24769ce656b5badad614641f7595acf802232bc"
+      }
+    },
+    "render_manifest": {
+      "bytes": 20636,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/provenance/render_manifest.json",
+      "rel": "provenance/render_manifest.json",
+      "role": "render_manifest_copy",
+      "sha256": "75e41f2d6f61fa868dba817c353301c31db727e2b7b42e1db4f2eefaeb4b57ce"
+    },
+    "rough_assembly_manifest": {
+      "bytes": 356726,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/provenance/rough_assembly_manifest.json",
+      "rel": "provenance/rough_assembly_manifest.json",
+      "role": "rough_assembly_manifest_copy",
+      "sha256": "2368bb4b1720a2f1e99d371cd8486776e6fc603729d450d90c94c229d20d7ae2"
+    },
+    "srt": {
+      "bytes": 29663,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+      "rel": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+      "role": "generated_youtube_caption_sidecar_srt",
+      "sha256": "5224e6e43dab6e96f69fda20ad7b3d787abc57698eecc1103d3cfd96c707ee50"
+    },
+    "thumbnail_candidate": {
+      "bytes": 271980,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/thumbnail/challenger_thumbnail_candidate.jpg",
+      "rel": "thumbnail/challenger_thumbnail_candidate.jpg",
+      "role": "thumbnail_candidate_from_kept_mp4_frame",
+      "sha256": "4c0c99c42e8995e1ce0fb4df6d8bdcecbe077d70ff09c9c369b1bb1f54ad9947"
+    },
+    "vtt": {
+      "bytes": 28319,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "rel": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "role": "youtube_caption_sidecar_vtt",
+      "sha256": "48733ec1b48ac86b4040dccccdaee76ad21e76093230d737f3f2ac0a3a181ddd"
+    }
+  },
+  "locks": {
+    "may_advance_to_upload": true,
+    "may_youtube_action": false,
+    "public_release": false,
+    "public_release_ready": false,
+    "public_visibility_change_enabled": false,
+    "publish_ready": true,
+    "review_upload_privacy_after_approval": "unlisted_uploaded_after_explicit_user_instruction",
+    "upload_action_enabled_in_review_html": false,
+    "upload_allowed": true,
+    "upload_performed": true,
+    "youtube_upload_ready": false
+  },
+  "may_advance_to_upload": false,
+  "may_youtube_action": false,
+  "media": {
+    "caption_srt": {
+      "bytes": 29663,
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "5224e6e43dab6e96f69fda20ad7b3d787abc57698eecc1103d3cfd96c707ee50"
+    },
+    "caption_vtt": {
+      "bytes": 28319,
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "48733ec1b48ac86b4040dccccdaee76ad21e76093230d737f3f2ac0a3a181ddd"
+    },
+    "final_mp4": {
+      "bytes": 211385796,
+      "path": "media/challenger_living_cover_final_review_1080p24.mp4",
+      "sha256": "6bf54255723e043024a81a4671a21c7e274a8f303e86621237135efdc9c1c880"
+    },
+    "mp4": {
+      "bytes": 211385796,
+      "path": "media/challenger_living_cover_final_review_1080p24.mp4",
+      "sha256": "6bf54255723e043024a81a4671a21c7e274a8f303e86621237135efdc9c1c880"
+    },
+    "srt": {
+      "bytes": 29663,
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "5224e6e43dab6e96f69fda20ad7b3d787abc57698eecc1103d3cfd96c707ee50"
+    },
+    "thumbnail_candidate": {
+      "bytes": 271980,
+      "path": "thumbnail/challenger_thumbnail_candidate.jpg",
+      "sha256": "4c0c99c42e8995e1ce0fb4df6d8bdcecbe077d70ff09c9c369b1bb1f54ad9947"
+    },
+    "upload_srt": {
+      "bytes": 29663,
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "5224e6e43dab6e96f69fda20ad7b3d787abc57698eecc1103d3cfd96c707ee50"
+    },
+    "upload_vtt": {
+      "bytes": 28319,
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "48733ec1b48ac86b4040dccccdaee76ad21e76093230d737f3f2ac0a3a181ddd"
+    },
+    "vtt": {
+      "bytes": 28319,
+      "path": "captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "48733ec1b48ac86b4040dccccdaee76ad21e76093230d737f3f2ac0a3a181ddd"
+    }
+  },
+  "next_review_question": "Review the unlisted YouTube upload and Studio blockers. Public release remains manual.",
+  "packet_id": "challenger_publish_readiness_20260525T205600Z",
+  "primary_review_artifact": {
+    "bytes": 10210,
+    "path": "review.html",
+    "sha256": "6c4017b7451e6e934b8606692f6a09291e6c82a74ff49c74478cf01fa174a265"
+  },
+  "production_contract": {
+    "contract_id": "first-eight-longform-v1",
+    "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+    "intent": "successor",
+    "youtube_action_approval_read": "pass_user_requested_render_mp4_and_upload_successor_outro_fix_plus_tight_geometry_to_youtube_20260525"
+  },
+  "production_contract_action_approval_read": "pass_user_requested_render_mp4_and_upload_successor_outro_fix_plus_tight_geometry_to_youtube_20260525",
+  "production_contract_action_receipt": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "ok": true,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/production_contract_receipts/contract_receipt_20260525T205710Z.json",
+    "sha256": "a918c85e33248f01412e24de1ddea4b85e40978a1c9868b59a05155f0b97189f",
+    "youtube_action_allowed": true,
+    "youtube_action_requested": "unlisted_review_upload"
+  },
+  "production_contract_receipt": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "ok": true,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/production_contract_receipts/contract_receipt_20260525T205635Z.json",
+    "reads": {
+      "contract_read": "pass_contract_loaded_and_required_reads_passed",
+      "delta_read": "pass_no_repair_delta_required_for_intent",
+      "media_read": "pass_source_hashes_and_media_reads_valid",
+      "style_read": "pass_style_contract_reads_passed",
+      "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+    },
+    "youtube_action_allowed": false
+  },
+  "public_release_ready": false,
+  "publish_readiness_canonical_review_url": "http://127.0.0.1:8903/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/review.html",
+  "publish_readiness_review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/review.html",
+  "publish_readiness_review_html_sha256": "6c4017b7451e6e934b8606692f6a09291e6c82a74ff49c74478cf01fa174a265",
+  "publish_ready": true,
+  "reads": {
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "audio_stream_read": "pass_aac_audio_present",
+    "caption_sidecar_packaged_read": "pass_vtt_and_generated_srt_packaged",
+    "caption_sidecar_read": "pass",
+    "caption_suppression_read": "pass",
+    "chapter_fallback_read": "pass_visual_research_acts_used_no_three_chapter_fallback",
+    "chapter_source_read": "pass_episode_toml_visual_research_acts",
+    "dimensions_read": "pass",
+    "downstream_gate_read": "pass_unlisted_review_upload_done_public_release_locked",
+    "duration_read": "pass",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "explicit_youtube_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "ffprobe_stream_read": "pass_video_and_audio_streams_present",
+    "final_assembly_human_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "final_mp4_packaged_read": "pass",
+    "forbidden_review_chrome_text_read": "pass_no_forbidden_review_ui_text_in_render_mode",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "html_canonical_review_url_read": "pass_http_review_url_200",
+    "html_media_refs_read": "pass_package_local_relative_media_refs_exist",
+    "html_native_video_scrub_read": "pass_native_video_controls_and_range_server_available",
+    "html_post_upload_blockers_visible_read": "pass_copyright_caption_altered_content_end_screen_public_release_blockers_visible",
+    "html_primary_review_read": "pass_review_html_created_as_primary_publish_readiness_artifact",
+    "html_public_release_lock_visible_read": "pass_public_release_schedule_visibility_locked",
+    "html_range_server_read": "pass_mp4_http_range_probe_206",
+    "html_unlisted_upload_visible_read": "pass_review_html_shows_new_unlisted_upload_video_id_and_url",
+    "html_upload_lock_read": "pass_upload_locks_visible_and_false",
+    "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "mp4_created_read": "pass",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "post_change_regression_read": "pass_rendered_from_current_kept_html_proof_challenger",
+    "production_contract_youtube_action_approval_read": "pass_user_requested_render_mp4_and_upload_successor_outro_fix_plus_tight_geometry_to_youtube_20260525",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "public_metadata_copy_read": "pass_generated_public_metadata_no_internal_terms",
+    "public_release_ready_read": "blocked_public_release_manual",
+    "public_tag_relevance_read": "pass_episode_specific_tags_present",
+    "publish_readiness_package_local_asset_copy_read": "pass_package_local_assets_copied",
+    "render_mode_stage_only_read": "pass_stage_rect_matches_1920x1080_viewport",
+    "render_mode_ui_chrome_absence_read": "pass_no_visible_review_chrome_controls",
+    "render_viewport_overflow_read": "pass_no_render_mode_viewport_overflow",
+    "source_factcheck_public_release_policy_read": "pass_source_factcheck_pending_does_not_block_unlisted_review_public_release_still_blocked",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing",
+    "unlisted_review_upload_approval_read": "pass_user_requested_render_mp4_and_upload_successor_outro_fix_plus_tight_geometry_to_youtube_20260525",
+    "upload_authorization_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "video_stream_read": "pass_h264_present",
+    "viewer_text_suppression_read": "pass",
+    "visible_form_controls_absence_read": "pass_no_visible_audio_form_controls_in_render_mode",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "youtube_caption_sidecar_upload_read": "pass_caption_sidecar_uploaded",
+    "youtube_description_chapter_count_read": "pass_7_chapter_lines_available_for_youtube_description",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "youtube_end_screen_studio_elements_read": "pending_youtube_studio_end_screen_element_configuration",
+    "youtube_metadata_copywriting_read": "pass_generated_public_metadata_no_internal_terms",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "youtube_unlisted_review_privacy_read": "pass_privacy_unlisted",
+    "youtube_unlisted_review_upload_read": "pass_new_unlisted_review_upload_created",
+    "youtube_unlisted_upload_status_read": "pass_upload_status_processed_processing_succeeded",
+    "youtube_unlisted_upload_thumbnail_read": "pass_thumbnail_uploaded",
+    "youtube_upload_ready_read": "pass_new_unlisted_review_upload_created_public_release_manual",
+    "current_approved_youtube_upload_read": "superseded_missing_source_credit_borderless_precision_matte_current_candidate",
+    "challenger_current_source_credit_borderless_read": "reject_superseded_upload_missing_current_source_credit_borderless_template",
+    "challenger_current_precision_matte_upload_read": "reject_superseded_upload_not_current_precision_matte_guarded_source_credit_candidate"
+  },
+  "remaining_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "remote_review": {
+    "large_video_upload_allowed": false,
+    "remote_review_url": "https://cascadeeffects.tv/reviews/publish-readiness/challenger",
+    "status": "not_published",
+    "storage_policy": "normalized_manifest_and_small_evidence_assets_only",
+    "video_host": "youtube_unlisted_after_explicit_approval_only"
+  },
+  "review_server": {
+    "mp4_range_probe_status": 206,
+    "port": 8903,
+    "review_probe_status": 200,
+    "root": "/Users/mike/Episodes_CascadeEffects",
+    "type": "byte_range_capable_local_http",
+    "url": "http://127.0.0.1:8903/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/review.html"
+  },
+  "source_factcheck": {
+    "episode_id": "challenger",
+    "note": "No current long-form source-factcheck manifest was found for this rolling-caption MP4 package. Review can continue, but publish-readiness keep should not waive this without a named human decision.",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing",
+    "status": "pending_current_long_form_source_factcheck_backfill"
+  },
+  "source_final_render": {
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_geometry_successor_20260525T204301Z/video_render/challenger_rolling_caption_rail_final_mp4_20260525T204758Z/render_manifest.json",
+    "manifest_sha256": "720ed09daf01d4c144457000d16056c6e698e6a1cd14c30fc0ebafa6e17eb414",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_geometry_successor_20260525T204301Z/video_render/challenger_rolling_caption_rail_final_mp4_20260525T204758Z/challenger_living_cover_final_review_1080p24.mp4",
+    "mp4_sha256": "6bf54255723e043024a81a4671a21c7e274a8f303e86621237135efdc9c1c880"
+  },
+  "source_html_proof": {
+    "corrective_review_render_from_unkept_proof": false,
+    "current_kept_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "current_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_geometry_successor_20260525T204301Z/rough_assembly_manifest.json",
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_geometry_successor_20260525T204301Z",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_geometry_successor_20260525T204301Z/player.html",
+    "player_sha256": "eb61c86f88810c15725d5a86eeb902d7043e41dc34666a227aba830640ec4d95"
+  },
+  "stage": "publish_readiness",
+  "status": "superseded_unlisted_review_missing_current_source_credit_borderless_precision_candidate",
+  "upload_allowed": true,
+  "upload_locks": {
+    "may_advance_to_upload": true,
+    "may_youtube_action": false,
+    "public_release": false,
+    "public_release_ready": false,
+    "public_visibility_change_enabled": false,
+    "publish_ready": true,
+    "review_upload_privacy_after_approval": "unlisted_uploaded_after_explicit_user_instruction",
+    "upload_action_enabled_in_review_html": false,
+    "upload_allowed": true,
+    "upload_performed": true,
+    "youtube_upload_ready": false
+  },
+  "upload_performed": true,
+  "workflow": "long_form_video_production_v1",
+  "youtube_metadata": {
+    "category": "Education",
+    "chapters": [
+      {
+        "label": "Opening",
+        "seconds": 0,
+        "time": "0:00"
+      },
+      {
+        "label": "Promise of routine",
+        "seconds": 4,
+        "time": "0:04"
+      },
+      {
+        "label": "Pressure and normalization",
+        "seconds": 242.335,
+        "time": "4:02"
+      },
+      {
+        "label": "The Jan. 27 reversal",
+        "seconds": 484.67,
+        "time": "8:05"
+      },
+      {
+        "label": "Launch and visible failure",
+        "seconds": 727.005,
+        "time": "12:07"
+      },
+      {
+        "label": "Commission and pattern",
+        "seconds": 969.34,
+        "time": "16:09"
+      },
+      {
+        "label": "Closing",
+        "seconds": 1151.675,
+        "time": "19:12"
+      }
+    ],
+    "description": "The Challenger Warning That Stopped Working is a Cascade Effects episode about how small signals become system consequences.\n\nA chain of engineering warnings, schedule pressure, and normalized cold-weather risk turned one launch decision into catastrophe.\n\nRuntime: about 20 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.",
+    "hashtags": [
+      "#CascadeEffects"
+    ],
+    "language": "en",
+    "made_for_kids": false,
+    "metadata_path": "metadata/youtube_metadata.json",
+    "metadata_sha256": "d2280a3a46696c86cfbb2263c8005b711e66ad8d7f042274a42d1a399be696d4",
+    "paid_promotion": false,
+    "privacy_after_explicit_approval": "unlisted",
+    "public_release_policy": "manual_youtube_studio_only",
+    "tags": [
+      "Cascade Effects",
+      "Challenger",
+      "NASA",
+      "documentary",
+      "engineering failure",
+      "space shuttle",
+      "systems failure"
+    ],
+    "title": "The Challenger Warning That Stopped Working"
+  },
+  "youtube_review": {
+    "caption_sidecar_to_upload_or_verify": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_upload": {
+      "caption_id": "AUieDaYHOVYAfubh_KbSH3qmeKU8gDo-Amiw8DneGF0KbKRgdtz9RdlaN-O4nwk4t9wXToof2PHEfvOL6v2B7GM",
+      "raw_response": {
+        "etag": "K5_kJ1LmhTmIoUG_mVKoa4gfs6w",
+        "id": "AUieDaYHOVYAfubh_KbSH3qmeKU8gDo-Amiw8DneGF0KbKRgdtz9RdlaN-O4nwk4t9wXToof2PHEfvOL6v2B7GM",
+        "kind": "youtube#caption",
+        "snippet": {
+          "audioTrackType": "unknown",
+          "isAutoSynced": false,
+          "isCC": false,
+          "isDraft": false,
+          "isEasyReader": false,
+          "isLarge": false,
+          "language": "en",
+          "lastUpdated": "2026-05-25T20:59:07.422686Z",
+          "name": "English script-locked captions",
+          "status": "serving",
+          "trackKind": "standard",
+          "videoId": "HFmW7x7sCJM"
+        }
+      },
+      "status": "uploaded"
+    },
+    "captions_uploaded": true,
+    "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+    "channel_title": "Cascade of Effects",
+    "embed_url": "https://www.youtube-nocookie.com/embed/HFmW7x7sCJM?enablejsapi=1&rel=0&modestbranding=1&playsinline=1",
+    "host": "youtube_unlisted",
+    "notify_subscribers": false,
+    "privacy_status": "unlisted",
+    "processing_status": "succeeded",
+    "read": "pass_new_unlisted_review_upload_created_no_public_release",
+    "receipt": {
+      "bytes": 10815,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_receipt_20260525T205746Z.json",
+      "sha256": "d9caacdffd25512a362da9bcecf64c0dffb4bff18706eee7a8a9da7f253049ba"
+    },
+    "status": "uploaded_unlisted_review_processing_succeeded",
+    "status_check": {
+      "bytes": 4516,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_status_20260525T205746Z.json",
+      "sha256": "67ac2cbc57af0a3c57c63ec8be0596778297ab088e67df45323e520f7ba508ec"
+    },
+    "thumbnail_status": "uploaded",
+    "upload_manifest": {
+      "bytes": 4885,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_manifest_20260525T205746Z.json",
+      "sha256": "19d2f4b42479e5eacd92bbc8b1325a519254421467a285c7c97ccbc9267eb218"
+    },
+    "upload_status": "processed",
+    "uploaded_at": "2026-05-25T21:00:29Z",
+    "video_id": "HFmW7x7sCJM",
+    "video_url": "https://www.youtube.com/watch?v=HFmW7x7sCJM",
+    "visibility_change_taken": false,
+    "watch_url": "https://www.youtube.com/watch?v=HFmW7x7sCJM"
+  },
+  "youtube_unlisted_review": {
+    "caption_sidecar_to_upload_or_verify": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/captions/challenger_longform_canonical_signoff_20260518T175232Z.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_upload": {
+      "caption_id": "AUieDaYHOVYAfubh_KbSH3qmeKU8gDo-Amiw8DneGF0KbKRgdtz9RdlaN-O4nwk4t9wXToof2PHEfvOL6v2B7GM",
+      "raw_response": {
+        "etag": "K5_kJ1LmhTmIoUG_mVKoa4gfs6w",
+        "id": "AUieDaYHOVYAfubh_KbSH3qmeKU8gDo-Amiw8DneGF0KbKRgdtz9RdlaN-O4nwk4t9wXToof2PHEfvOL6v2B7GM",
+        "kind": "youtube#caption",
+        "snippet": {
+          "audioTrackType": "unknown",
+          "isAutoSynced": false,
+          "isCC": false,
+          "isDraft": false,
+          "isEasyReader": false,
+          "isLarge": false,
+          "language": "en",
+          "lastUpdated": "2026-05-25T20:59:07.422686Z",
+          "name": "English script-locked captions",
+          "status": "serving",
+          "trackKind": "standard",
+          "videoId": "HFmW7x7sCJM"
+        }
+      },
+      "status": "uploaded"
+    },
+    "captions_uploaded": true,
+    "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+    "channel_title": "Cascade of Effects",
+    "embed_url": "https://www.youtube-nocookie.com/embed/HFmW7x7sCJM?enablejsapi=1&rel=0&modestbranding=1&playsinline=1",
+    "host": "youtube_unlisted",
+    "notify_subscribers": false,
+    "privacy_status": "unlisted",
+    "processing_status": "succeeded",
+    "read": "pass_new_unlisted_review_upload_created_no_public_release",
+    "receipt": {
+      "bytes": 10815,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_receipt_20260525T205746Z.json",
+      "sha256": "d9caacdffd25512a362da9bcecf64c0dffb4bff18706eee7a8a9da7f253049ba"
+    },
+    "status": "uploaded_unlisted_review_processing_succeeded",
+    "status_check": {
+      "bytes": 4516,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_status_20260525T205746Z.json",
+      "sha256": "67ac2cbc57af0a3c57c63ec8be0596778297ab088e67df45323e520f7ba508ec"
+    },
+    "thumbnail_status": "uploaded",
+    "upload_manifest": {
+      "bytes": 4885,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_manifest_20260525T205746Z.json",
+      "sha256": "19d2f4b42479e5eacd92bbc8b1325a519254421467a285c7c97ccbc9267eb218"
+    },
+    "upload_status": "processed",
+    "uploaded_at": "2026-05-25T21:00:29Z",
+    "video_id": "HFmW7x7sCJM",
+    "video_url": "https://www.youtube.com/watch?v=HFmW7x7sCJM",
+    "visibility_change_taken": false,
+    "watch_url": "https://www.youtube.com/watch?v=HFmW7x7sCJM"
+  },
+  "youtube_upload_ready": false,
+  "current_approved_youtube_upload": false,
+  "latest_approved_youtube_upload": false,
+  "do_not_present_as_current_approved": true,
+  "superseded_by": {
+    "status": "approved_upload_ready_not_yet_uploaded_due_quota",
+    "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/publish_readiness_manifest.json",
+    "source_html_proof_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z",
+    "source_html_proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/rough_assembly_manifest.json",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/video_render/challenger_rolling_caption_rail_final_mp4_20260526T212342Z/challenger_living_cover_final_review_1080p24.mp4",
+    "youtube_upload_ready": true,
+    "upload_performed": false,
+    "receipt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/challenger_youtube_upload_superseded_by_source_credit_borderless_precision_20260527Tcorr.json",
+      "sha256": "4ab2b1ea3cc5f11dc200abacde9896e6c376f326ef55fbc40a4f9965c5fc05b7",
+      "bytes": 7905
+    }
+  }
+}

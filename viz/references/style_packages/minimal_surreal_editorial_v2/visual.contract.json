@@ -1,0 +1,189 @@
+{
+  "$schema": "https://surfaces.systems/schemas/visual-contract-v1.json",
+  "contract_version": "2.0.0-draft",
+  "id": "minimal-surreal-editorial-v2",
+  "name": "Minimal Surreal Editorial Composition v2",
+  "intent": "Generate restrained documentary-surreal images with a clear primary subject, one dominant anomaly, and strong thumbnail legibility.",
+  "render_targets": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "3:4",
+      "9:16",
+      "16:9"
+    ],
+    "min_resolution": {
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "global_rules": {
+    "max_subject_clusters": 4,
+    "primary_focal_points": 1,
+    "negative_space_ratio": {
+      "min": 0.25,
+      "preferred": 0.45
+    },
+    "max_palette_count": 5,
+    "max_accent_colors": 1,
+    "surreal_breach_count": 1,
+    "allow_text": false,
+    "allow_logo": false,
+    "allow_ui_artifacts": false,
+    "allow_motion_blur": false,
+    "allow_photoreal_clutter": false
+  },
+  "composition": {
+    "symmetry": {
+      "allowed": true,
+      "preferred": "asymmetrical_when_helpful",
+      "max_center_balance_score": 0.75
+    },
+    "weight_distribution": {
+      "required": "readable",
+      "dominant_side_required": false
+    },
+    "horizon_or_division_line": {
+      "preferred": false,
+      "required_in_patterns": []
+    },
+    "subject_placement": {
+      "allowed_zones": [
+        "far_left",
+        "left_third",
+        "center_third",
+        "right_third",
+        "far_right",
+        "boundary_edge"
+      ]
+    },
+    "depth": {
+      "preferred": "moderate",
+      "max_layers": 6
+    }
+  },
+  "form_language": {
+    "geometry_bias": "medium",
+    "detail_level": "restrained",
+    "edge_quality": "clear",
+    "texture_level": "restrained",
+    "micro_detail": {
+      "allowed": true,
+      "level": "limited"
+    },
+    "human_figure_rules": {
+      "allowed": true,
+      "max_count": 2,
+      "facial_detail": "none_or_negligible",
+      "pose": "still_or_incidental"
+    }
+  },
+  "color": {
+    "dominant_field": {
+      "required": false,
+      "preferred": true,
+      "saturation": "low_to_medium"
+    },
+    "accent": {
+      "required": false,
+      "count": 1,
+      "saturation": "muted_to_high",
+      "role": "semantic_or_state_signal"
+    },
+    "allowed_neutrals": [
+      "off_white",
+      "beige",
+      "gray",
+      "charcoal",
+      "muted_blue",
+      "desaturated_green",
+      "pale_cyan",
+      "desaturated_steel"
+    ],
+    "avoid": [
+      "rainbow_palettes",
+      "multiple_competing_accents",
+      "high_frequency_color_noise"
+    ]
+  },
+  "lighting": {
+    "style": "controlled_soft_flat_or_gentle_directional",
+    "dramatic_shadows": false,
+    "hard_rim_light": false,
+    "specular_intensity": "low_to_moderate",
+    "mood": "restrained_tense_or_quiet"
+  },
+  "surrealism": {
+    "mode": "single_dominant_anomaly",
+    "examples": [
+      "duplicated state cue",
+      "missing component or impossible void",
+      "wrong seam or internal glow",
+      "impossible reflection or boundary",
+      "one contradictory physical condition"
+    ],
+    "forbidden": [
+      "stacked dream logic",
+      "melting objects",
+      "floating eyes",
+      "crowded symbolic collage",
+      "multiple unrelated impossible events",
+      "glitch spectacle"
+    ]
+  },
+  "patterns": [
+    {
+      "id": "subject_first_reduction",
+      "rules": {
+        "identity_before_style": true,
+        "single_subject_preferred": true,
+        "extra_objects_limited": true
+      }
+    },
+    {
+      "id": "evidence_frame_stillness",
+      "rules": {
+        "scene_state": "before_or_after_event",
+        "explanation_elements_limited": true,
+        "environment_supports_subject": true
+      }
+    },
+    {
+      "id": "quiet_system_anomaly",
+      "rules": {
+        "anomaly_integrated_into_subject": true,
+        "anomaly_count": 1,
+        "spectacle_forbidden": true
+      }
+    }
+  ],
+  "output_quality": {
+    "thumbnail_readability": {
+      "required": true,
+      "min_score": 0.8
+    },
+    "focal_clarity": {
+      "required": true,
+      "min_score": 0.78
+    },
+    "visual_noise": {
+      "max_score": 0.35
+    }
+  },
+  "negative_prompt_defaults": [
+    "text",
+    "watermark",
+    "logo",
+    "ui overlay",
+    "crowded scene",
+    "many small objects",
+    "unreadable background detail",
+    "motion blur",
+    "action pose",
+    "blockbuster cinematic lighting",
+    "poster design",
+    "collage fragments",
+    "multiple surreal events",
+    "multiple bright accents"
+  ]
+}

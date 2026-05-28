@@ -1,0 +1,440 @@
+{
+  "schema_version": "1.0",
+  "stage": "first-second hook review",
+  "prototype_id": "737max_theme_intro_hook_20260520T030808Z",
+  "local_only_no_youtube_action": true,
+  "episode_id": "737-max",
+  "short_id": "737_max_short_scoped_v1",
+  "display_name": "737 MAX",
+  "current_latest_publish_mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/shorts/737_max_short_scoped_v1/publish/youtube_20260518T173949Z/737_max_mcas_familiar_airplane_youtube_short.mp4",
+  "current_latest_publish_mp4_sha256": "67f686a26bb679e9ee7bd93ba31a326df5e48b095a0f6116ff74bd2790910f60",
+  "proof_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/737max_theme_intro_hook_review_proof.mp4",
+  "proof_sha256": "9fd3bf6aa7cd1143ba393b0084457f7b7315d4c005c4777cb916724467eb9e4a",
+  "comparison_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/side_by_side_current_vs_737max_theme_hook_first_10s.mp4",
+  "comparison_sha256": "70fab9a4931223ab413bf91a8240e4e5f3dd45353c05b739fb338bd08f02728d",
+  "opening_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/opening_frame_strip.jpg",
+  "opening_frame_strip_sha256": "5d731f9ab42b23b8d2c7f67ce6ee284a787ff93d541ecc4fe36fe47276da73c7",
+  "hook_source_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/hook_source_frame_strip.jpg",
+  "hook_source_frame_strip_sha256": "cf82ec4bacc257d1edaba539eb71646df72a4268ff4fdb79a305177f17887891",
+  "hook_body_seam_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/hook_body_seam_frame_strip.jpg",
+  "hook_body_seam_frame_strip_sha256": "bfc53977aba7dc67d639ac1ce85532906758768133d2c76b6da2b385d952f424",
+  "signal_tail_outro_handoff_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/signal_tail_outro_handoff_frame_strip.jpg",
+  "signal_tail_outro_handoff_frame_strip_sha256": "ec09c79c70e6f18cb98f0963718113e4f573d9bbd57eedaffb20486a065e051c",
+  "end_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/end_frame_strip.jpg",
+  "end_frame_strip_sha256": "527bc6bb7924eeab736f77a9f1c24064bb876ae6f0be7a5bf16e8a896771fb9d",
+  "waveform_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/first_10s_waveform.png",
+  "waveform_sha256": "8b12c319d3d26edc9bdc7129e3bed5c8631994170d1c0c4272fbff84b76edb39",
+  "visual_extension_mode": "source_motion_tail",
+  "cloned_frame_padding_used": false,
+  "source_motion_tail": {
+    "source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/visual_research/youtube_archival_pass_02/review_clips/yta2_737_03a_leap_engine_close_walkaround.no_audio.mp4",
+    "source_sha256": "5f6a463eaafd7064be0fdaa89124f400b03d1649dfa9ef3a27143be8aa4c13a9",
+    "source_start_seconds": 8.0,
+    "duration_seconds": 7.204172,
+    "description": "moving no-audio LEAP engine close-up source tail for the full theme outro",
+    "source_transition_trimmed_seconds": 8.0,
+    "house_crt_tail_texture": null,
+    "signal_interruption": {
+      "profile_id": "era_1980s_horizontal_signal_interruption_v2_randomized",
+      "duration_seconds": 0.25,
+      "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+      "full_frame_static_replacement_used": false,
+      "purpose": "brief analog interruption between the clean pass-07 body and engine source tail motion"
+    }
+  },
+  "signal_interruption": {
+    "profile_id": "era_1980s_horizontal_signal_interruption_v2_randomized",
+    "duration_seconds": 0.25,
+    "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+    "full_frame_static_replacement_used": false,
+    "purpose": "brief analog interruption between the clean pass-07 body and engine source tail motion"
+  },
+  "full_picture_crt_texture": {
+    "profile_id": "era_1980s_broadcast_crt_v1",
+    "intensity": "visible_but_premium",
+    "texture_application_scope": "assembled_picture_bed",
+    "duration_seconds": 65.204172,
+    "calibration_recipe_id": "premium_broadcast_crt_luma_neutral_chroma_visible_scanline_v1",
+    "scanline_policy_id": "luma_neutral_visible_scanline_modulation_v1",
+    "scanline_strength_variant_id": "max_visible_bars_y24_p8",
+    "texture_tone_policy": "luma_neutral_chroma_visible_scanline_v1",
+    "purpose": "apply one continuous CRT/analog texture over the assembled 737 MAX hook, body, and tail proof",
+    "caption_burn_is_last_visual_operation": false
+  },
+  "full_picture_crt_scope": "assembled_picture_bed",
+  "segment_crt_passes_used": false,
+  "tail_segment_crt_pass_used": false,
+  "caption_layer_policy": "local_review_no_final_caption_rebuild",
+  "opening_engine_hook_read": "pass_review_required",
+  "hook_body_no_repeat_read": "pass_review_required",
+  "tail_motion_read": "pass_review_required",
+  "full_picture_crt_continuity_read": "pass_review_required",
+  "freeze_tail_read": "pass",
+  "freeze_tail_evidence": {
+    "window_start_seconds": 57.204172,
+    "window_duration_seconds": 8.0,
+    "threshold_db": -60,
+    "min_freeze_duration_seconds": 0.5,
+    "freeze_events": [],
+    "freeze_tail_read": "pass"
+  },
+  "body_source_duration_seconds": 55.0,
+  "body_used_duration_seconds": 54.75,
+  "body_trimmed_for_tail_motion_seconds": 0.25,
+  "tail_gap_seconds": 7.204172,
+  "tail_start_seconds": 58.0,
+  "pass07_clean_body_context": {
+    "body_source_policy": "rebuilt_from_existing_pass07_source_segment_no_audio_clips",
+    "segment_count": 14,
+    "segment_order_read": "pass",
+    "segments": [
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/01_shot_00_subject_engine_open__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "d1e27e1b81e95b8e872ce597cf4877238c3985c7f1aba0059031531792f1ea13",
+        "duration_seconds": 3.9,
+        "body_timeline_start_seconds": 0.0,
+        "body_timeline_end_seconds": 3.9
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/02_shot_01a_commercial_promise_cockpit__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "5b8c5032722fd7671ffd41a704f6ed1dd9df1c2957936adb297209b7446049d0",
+        "duration_seconds": 2.166667,
+        "body_timeline_start_seconds": 3.9,
+        "body_timeline_end_seconds": 6.066667
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/03_shot_01b_training_commonality_insert__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "577a9765cbf8bc675afccd650932339d771b875af2c7553525b22f2d6c9bfcb0",
+        "duration_seconds": 4.733333,
+        "body_timeline_start_seconds": 6.066667,
+        "body_timeline_end_seconds": 10.8
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/04_shot_02a_larger_engine_source__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "ff18d6edd99965dea574148a77950537a7bc6bd2dbbf1840077872dcfb5934b1",
+        "duration_seconds": 5.0,
+        "body_timeline_start_seconds": 10.8,
+        "body_timeline_end_seconds": 15.8
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/05_shot_02b_forward_higher_geometry__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "8173ad4bdb4c562787e61d869f8ad68ddf78770567f9dfc4837c43431dcdf239",
+        "duration_seconds": 4.766667,
+        "body_timeline_start_seconds": 15.8,
+        "body_timeline_end_seconds": 20.566667
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/06_shot_03_high_aoa_pitch_behavior__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "094869c51e74a64e270b8ae7460a05ef89e95c68b1af0390673bb7e42a49de3b",
+        "duration_seconds": 4.6,
+        "body_timeline_start_seconds": 20.566667,
+        "body_timeline_end_seconds": 25.166667
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/07_shot_04a_mcas_familiarity_bridge__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "9c5f1b5fb5cecff7772c2bf6b9e81965e40a60180353e9a91487ec5b6f8b2f37",
+        "duration_seconds": 4.366667,
+        "body_timeline_start_seconds": 25.166667,
+        "body_timeline_end_seconds": 29.533334
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/08_shot_04b_single_sensor_stabilizer__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "74305d8626aef96ffc55c225fd65a36e476986791e4445a4c50b13faea01080c",
+        "duration_seconds": 5.0,
+        "body_timeline_start_seconds": 29.533334,
+        "body_timeline_end_seconds": 34.533334
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/09_shot_05_pilot_disclosure_gap__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "f01dd1567db9421e84502e0dbf4a0bb7ea1b53893fa8828d3b0870302b3cda74",
+        "duration_seconds": 3.233008,
+        "body_timeline_start_seconds": 34.533334,
+        "body_timeline_end_seconds": 37.766342
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/10_shot_06a_lion_air_warning__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "c3b0861b59a849e2354cf259bc0285e293eaeefaf3bf367372d490c38689aa2c",
+        "duration_seconds": 4.5,
+        "body_timeline_start_seconds": 37.766342,
+        "body_timeline_end_seconds": 42.266342
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/11_shot_06b_architectural_reclassification__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "c6830aad9223668a650e8db24fa58756e195d31b68e8b776decb39a22830f40c",
+        "duration_seconds": 4.133333,
+        "body_timeline_start_seconds": 42.266342,
+        "body_timeline_end_seconds": 46.399675
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/12_shot_07a_plane_changed__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "662babdef6d68c3f89feaf7069a7391ec4c4ab062e7f3fda4a1fb0d731ac25a9",
+        "duration_seconds": 2.066667,
+        "body_timeline_start_seconds": 46.399675,
+        "body_timeline_end_seconds": 48.466342
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/13_shot_07b_story_not_changed__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "27c54701d7a4605e54c9111029c558334a27981d9993402227454fbfeb64ed84",
+        "duration_seconds": 3.233333,
+        "body_timeline_start_seconds": 48.466342,
+        "body_timeline_end_seconds": 51.699675
+      },
+      {
+        "path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/segments/14_shot_08_motif_hold__house_crt_visible_scanline_signal_interruption__source_segment_no_audio.mp4",
+        "sha256": "58be2986beea1f921ef89d5a316e9ac059312ffea44178df2024c758fcab1199",
+        "duration_seconds": 3.3,
+        "body_timeline_start_seconds": 51.699675,
+        "body_timeline_end_seconds": 54.999675
+      }
+    ],
+    "concat_list_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/work/concat_737max_pass07_source_body_segments.txt",
+    "clean_body_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/work/737max_pass07_clean_body_from_source_segments_no_audio.mp4",
+    "clean_body_sha256": "fdec48911c4a3099182c6f78a5aa8c1b5bffa000bec3080c3812b96d222fb4ea",
+    "clean_body_duration_seconds": 55.0
+  },
+  "visual_strategy": {
+    "hook_visual": "clean LEAP engine close-up source span moved to the front",
+    "hook_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/visual_research/youtube_archival_pass_02/review_clips/yta2_737_03a_leap_engine_close_walkaround.no_audio.mp4",
+    "hook_source_start_seconds": 1.0,
+    "hook_duration_seconds": 3.0,
+    "body_after_hook": "existing pass-07 737 MAX source-segment body starts at original shot 01 after hook",
+    "body_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/work/737max_pass07_clean_body_from_source_segments_no_audio.mp4",
+    "tail_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/visual_research/youtube_archival_pass_02/review_clips/yta2_737_03a_leap_engine_close_walkaround.no_audio.mp4",
+    "tail_source_start_seconds": 8.0,
+    "full_picture_crt_scope": "assembled_picture_bed",
+    "segment_crt_passes_used": false,
+    "caption_layer_policy": "local_review_no_final_caption_rebuild"
+  },
+  "music_strategy": {
+    "full_theme_intro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_theme_intro_sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "theme_intro_start_seconds": 0.0,
+    "theme_intro_duration_seconds": 3.0,
+    "theme_intro_volume": 0.78,
+    "loop_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop_60s.wav",
+    "loop_sha256": "3f8751c4ad66d51c6dd1b483c51cc394f63925cb97d54e526dfda8469c7e038e",
+    "loop_start_seconds": 2.25,
+    "loop_crossfade_seconds": 0.75,
+    "loop_volume_under_voice": 0.14,
+    "outro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture outro.m4a",
+    "outro_sha256": "03734595354c2ca8e2b513dd00ef181b002e8e8009844d499682383422eb9860",
+    "outro_start_seconds": 58.224172,
+    "outro_volume": 0.76,
+    "limiter": "post-mix volume=0.62, alimiter=limit=0.62:level=false"
+  },
+  "voice_strategy": {
+    "voice_wav_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/shorts/737_max_short_scoped_v1/final/737_max_short_scoped_v1.wav",
+    "voice_wav_sha256": "8002698b6397b6ce497f8fb5e3199081dd773b42ac4b127864f283035a23afbc",
+    "voice_delay_seconds": 3.0,
+    "voice_volume": 1.0,
+    "voice_last_audible_seconds_source": 55.124172
+  },
+  "media_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/737max_theme_intro_hook_review_proof.mp4",
+    "sha256": "9fd3bf6aa7cd1143ba393b0084457f7b7315d4c005c4777cb916724467eb9e4a",
+    "duration_seconds": 65.233333,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "frame_rate": "30/1",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "audio_evidence": {
+    "first_3s": {
+      "window_seconds": 3.0,
+      "peak_dbfs": -3.692,
+      "rms_dbfs": -15.903,
+      "sample_count": 144000
+    },
+    "first_10s": {
+      "window_seconds": 10.0,
+      "peak_dbfs": -1.904,
+      "rms_dbfs": -16.067,
+      "sample_count": 480000
+    },
+    "full_proof": {
+      "window_seconds": 65.204172,
+      "peak_dbfs": -1.615,
+      "rms_dbfs": -16.53,
+      "sample_count": 3129344
+    }
+  },
+  "motion_evidence": {
+    "hook_motion": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/hook_motion_framemd5.txt",
+      "sha256": "2eead41b0a9d1a40671eb550b8d3bbffd542efa5746717bc42a4c11515c92f00",
+      "start_seconds": 0.0,
+      "duration_seconds": 3.0,
+      "sample_rate_fps": 2,
+      "sample_count": 6,
+      "unique_hash_count": 6,
+      "read": "pass"
+    },
+    "tail_motion": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/tail_motion_framemd5.txt",
+      "sha256": "483b9c5b53f168a6707c35962b45de45e1e4f273ed05c1938083c4672d440e1e",
+      "start_seconds": 58.0,
+      "duration_seconds": 3.0,
+      "sample_rate_fps": 2,
+      "sample_count": 6,
+      "unique_hash_count": 6,
+      "read": "pass"
+    }
+  },
+  "frame_samples": {
+    "opening": [
+      {
+        "seconds": 0.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_000.000.jpg",
+        "sha256": "c7d1337ef71f75c372fb3d4f4d22bb74b54deb07c2b305e7d3c096e7fccfb6a0"
+      },
+      {
+        "seconds": 0.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_000.500.jpg",
+        "sha256": "3dc28341badd31ff6a38e692d6eb0d78f6e020b7c8c05e4c1fb8f3ac7ace17a0"
+      },
+      {
+        "seconds": 1.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_001.000.jpg",
+        "sha256": "5918d33b770c68b1184688c80ed384847891b3b5b8e2b79f415c1bd673d4e4ee"
+      },
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_002.000.jpg",
+        "sha256": "7599c7204d21dadf8f5effca811302b4d0acecfc84ec8187f46f868abb42ed1c"
+      },
+      {
+        "seconds": 2.9,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_002.900.jpg",
+        "sha256": "5fcb7a1166adc7fad795e62d84a06b89fb604b1f9f0db667e9ab336943da295e"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_003.000.jpg",
+        "sha256": "ee6bbb217a29e04912e1b12cc67d953f15fd8f655c4b93a804c26cf34e11709c"
+      },
+      {
+        "seconds": 3.1,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_003.100.jpg",
+        "sha256": "0cdaadd9c6d8d37431112395eaea69c1c1e01f34bc46fcda754b4c9933a4a956"
+      }
+    ],
+    "hook_source": [
+      {
+        "seconds": 0.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_000.000.jpg",
+        "sha256": "9ef295002d48b4997542b052a8e45e6dab314ca44f29cd916c763f1bd25b9479"
+      },
+      {
+        "seconds": 0.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_000.500.jpg",
+        "sha256": "1503800ffb2116b4e6525f90a2b303239336158c1e21b47bd869e7e549cbe45f"
+      },
+      {
+        "seconds": 1.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_001.000.jpg",
+        "sha256": "a6d10da9c491e84476cde285ba972fd29442843e3783e3367bd7091c97f81e82"
+      },
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_002.000.jpg",
+        "sha256": "f95305457d942138e513010aa9b75edac94932a5dfb8543dac0a9c6911e7883f"
+      },
+      {
+        "seconds": 2.8,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_002.800.jpg",
+        "sha256": "7f7e92b10bf6a22a6bac4efa1216118630469f4d2dd22c1932bae15b137a6647"
+      }
+    ],
+    "hook_body_seam": [
+      {
+        "seconds": 2.7,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_002.700.jpg",
+        "sha256": "1cd87b36b56223fcae8f2b4cf04315776cb9afbe0fa27ad544e6d8512ae0657d"
+      },
+      {
+        "seconds": 2.9,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_002.900.jpg",
+        "sha256": "5fcb7a1166adc7fad795e62d84a06b89fb604b1f9f0db667e9ab336943da295e"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_003.000.jpg",
+        "sha256": "ee6bbb217a29e04912e1b12cc67d953f15fd8f655c4b93a804c26cf34e11709c"
+      },
+      {
+        "seconds": 3.1,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_003.100.jpg",
+        "sha256": "0cdaadd9c6d8d37431112395eaea69c1c1e01f34bc46fcda754b4c9933a4a956"
+      },
+      {
+        "seconds": 3.3,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_003.300.jpg",
+        "sha256": "fdcda4fff6865875141ce10c4a102604faccf41c86ad1e1e7d3e1db02cac8a42"
+      }
+    ],
+    "signal_tail_outro_handoff": [
+      {
+        "seconds": 57.25,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_057.250.jpg",
+        "sha256": "cab756418c96d8d5e387bc82491aaa0d94287f037ba1964ff0f42df9d1fe203b"
+      },
+      {
+        "seconds": 57.55,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_057.550.jpg",
+        "sha256": "76165e9a0a1bd6653b31deeb7b65fef4a497376918a3c937959d180621a7e091"
+      },
+      {
+        "seconds": 57.75,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_057.750.jpg",
+        "sha256": "0afbc43c867f82fd5d976253cfe82ce195f34bc62f2962249e0b5bf20eb9d4e2"
+      },
+      {
+        "seconds": 58.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_058.000.jpg",
+        "sha256": "b02543bffee49e839970a50945501d75cb11eb4ea42191a8ac341eaf7b5af4f9"
+      },
+      {
+        "seconds": 58.224172,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_058.224.jpg",
+        "sha256": "119925b481dee016c74ab93bc137b6b397b24b28c1606c0022ddb95267355508"
+      },
+      {
+        "seconds": 58.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_058.500.jpg",
+        "sha256": "5991207273cdfcef2185e60e56209ba922fdf327520dd97a03902c9c4162af46"
+      },
+      {
+        "seconds": 64.704172,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_064.704.jpg",
+        "sha256": "0a184bed3bc89be986dceb53baa655706b7f5fec0bcc40c157b1e0751a3a1428"
+      }
+    ],
+    "end": [
+      {
+        "seconds": 62.704172,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_062.704.jpg",
+        "sha256": "3952f7269390383511746e55a1437e51532da953c7a403105d56e5b891fcd166"
+      },
+      {
+        "seconds": 63.704172,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_063.704.jpg",
+        "sha256": "2cd7c5a1ca46c7624f94982d5b3770fcb8aacfd4b544adebfb20bfb769436570"
+      },
+      {
+        "seconds": 64.454172,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_064.454.jpg",
+        "sha256": "65efaefa31b954948742eda557de18285c3a5162a55b82dc65e9e447391fe93b"
+      },
+      {
+        "seconds": 64.954172,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_theme_intro_hook_20260520T030808Z/evidence/frame_064.954.jpg",
+        "sha256": "8795df1e12be43f5d2f4ef5fd6e3c2a5b3bacf8af56e419b6af051e69450084e"
+      }
+    ]
+  },
+  "review_request": "Judge whether the engine-led source hook plus full theme intro punch improves scroll-stop, and whether the hook/body seam avoids a visual repeat.",
+  "human_review_disposition": "keep|tighten|reject"
+}

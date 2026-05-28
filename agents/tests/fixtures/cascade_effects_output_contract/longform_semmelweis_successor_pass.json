@@ -1,0 +1,42 @@
+{
+  "episode_id": "semmelweis",
+  "production_contract": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "youtube_action_approval_read": "blocked_pending_human_upload_approval"
+  },
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "rail_content_model_id": "rolling_caption_anchor_v1",
+  "caption_display_model": "rolling_rail_caption_window_v1",
+  "end_screen_context": {
+    "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+    "end_screen_palette_treatment_model": "local_backplate_perceptual_target_palette_v3"
+  },
+  "highlight_color_qa": {
+    "selected_hex": "#efef9f",
+    "highlight_override_read": "pass_human_requested_episode_accent_override",
+    "highlight_backplate_contrast_read": "pass_backplate_contrast_gate"
+  },
+  "youtube_metadata": {
+    "chapters": [
+      {"time": "00:00", "label": "A Pattern Without a Name"},
+      {"time": "01:20", "label": "Two Clinics"},
+      {"time": "03:10", "label": "The Numbers Refuse to Move"},
+      {"time": "05:00", "label": "The Missing Mechanism"},
+      {"time": "07:00", "label": "A Control That Worked"},
+      {"time": "09:00", "label": "Why Proof Was Not Enough"},
+      {"time": "11:00", "label": "Recognition Arrives Late"},
+      {"time": "13:00", "label": "The Modern Lesson"}
+    ]
+  },
+  "reads": {
+    "highlight_override_read": "pass_human_requested_episode_accent_override",
+    "highlight_backplate_contrast_read": "pass_backplate_contrast_gate",
+    "caption_suppression_read": "tighten",
+    "viewer_text_suppression_read": "pass",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "youtube_upload_ready_read": "blocked_pending_human_upload_approval",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "public_release_ready_read": "blocked_public_release_manual"
+  }
+}

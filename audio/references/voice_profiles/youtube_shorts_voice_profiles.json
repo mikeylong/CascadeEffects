@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "default_active_shorts_profile_id": "youtube_shorts_mike_challenger_match_v1",
+  "profiles": {
+    "youtube_shorts_mike_challenger_match_v1": {
+      "provider": "elevenlabs",
+      "voice": "dPrTCMw2R7HQlznlgwCO",
+      "model": "eleven_multilingual_v2",
+      "final_export_eligible": true,
+      "allowed_lane_types": [
+        "active_short",
+        "comparison_short"
+      ],
+      "render_settings": {
+        "stability": 0.6,
+        "similarity_boost": 0.8,
+        "style": 0.0,
+        "use_speaker_boost": true,
+        "speed": 0.95
+      },
+      "notes": "Default Mike YouTube Shorts profile matched to the approved Challenger and corrected Hyatt delivery."
+    },
+    "youtube_shorts_mike_eleven_v3_experiment": {
+      "provider": "elevenlabs",
+      "voice": "dPrTCMw2R7HQlznlgwCO",
+      "model": "eleven_v3",
+      "final_export_eligible": false,
+      "allowed_lane_types": [
+        "comparison_short",
+        "diagnostic_short"
+      ],
+      "render_settings": {
+        "stability": 0.6,
+        "similarity_boost": 0.8,
+        "style": 0.0,
+        "use_speaker_boost": true
+      },
+      "notes": "Same ElevenLabs Mike voice ID, but not the active Shorts profile. Use only for beat-local comparison or diagnostic audio until explicitly promoted."
+    },
+    "openai_cedar_legacy_v1": {
+      "provider": "openai",
+      "voice": "cedar",
+      "model": "gpt-4o-mini-tts-2025-12-15",
+      "final_export_eligible": false,
+      "allowed_lane_types": [
+        "legacy_short"
+      ],
+      "render_settings": {},
+      "notes": "Legacy Therac short audio lane. It is not the Mike Shorts voice and cannot be used for a keeper short final."
+    },
+    "longform_mike_v1": {
+      "provider": "elevenlabs",
+      "voice": "dPrTCMw2R7HQlznlgwCO",
+      "model": "eleven_multilingual_v2",
+      "final_export_eligible": false,
+      "allowed_lane_types": [
+        "long_form"
+      ],
+      "render_settings": {
+        "stability": 0.6,
+        "similarity_boost": 0.8,
+        "style": 0.0,
+        "use_speaker_boost": true,
+        "speed": 0.95
+      },
+      "notes": "Long-form episode narration profile. Catalog only; never silently route into Shorts."
+    }
+  }
+}

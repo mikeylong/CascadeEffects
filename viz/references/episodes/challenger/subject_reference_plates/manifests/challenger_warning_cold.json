@@ -1,0 +1,19 @@
+{
+  "plate_id": "challenger_warning_cold",
+  "source_id": "act3_08_ice_on_pad_detail",
+  "source_image_path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/subject_reference_plates/sources/challenger_warning_cold__ice_detail.jpg",
+  "source_mask_path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/subject_reference_plates/sources/challenger_warning_cold__ice_detail_mask.png",
+  "crop_box": [0.0, 0.0, 1.0, 1.0],
+  "subject_box": [0.06, 0.04, 0.82, 0.92],
+  "placement_box": [0.07, 0.14, 0.34, 0.58],
+  "generation_allow_box": [0.06, 0.13, 0.37, 0.62],
+  "generation_exclusion_boxes": [
+    [0.0, 0.74, 1.0, 1.0],
+    [0.0, 0.6, 0.56, 1.0],
+    [0.36, 0.0, 1.0, 1.0]
+  ],
+  "canvas_size": [1024, 1792],
+  "background_mode": "neutral_matte",
+  "allow_humans": false,
+  "notes": "Cold-risk evidence plate. Use the ice-on-pad documentary detail as the only seed source, isolate one ice-laden pipe and gantry cluster into the left third, keep the subtitle band empty, and exclude right-side structure so the render reads as cold-pressure evidence rather than a launch-stack poster."
+}

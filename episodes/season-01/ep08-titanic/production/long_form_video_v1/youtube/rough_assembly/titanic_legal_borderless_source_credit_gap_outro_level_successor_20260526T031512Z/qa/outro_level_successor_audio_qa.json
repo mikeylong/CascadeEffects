@@ -1,0 +1,56 @@
+{
+  "model": "other_seven_outro_level_successor_audio_qa_v1",
+  "created_utc": "2026-05-26T03:15:12.345Z",
+  "episode_id": "titanic",
+  "title": "Titanic",
+  "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/titanic_right_rail_alignment_music_mix.wav",
+  "source_audio_sha256": "9baa472d2dc07579c238fdc52994f014d9270a714a093fb562a52ac1748442ba",
+  "source_audio_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/titanic_right_rail_alignment_music_mix_manifest.json",
+  "output_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/titanic_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+  "output_audio_sha256": "27a7847d15dae7e58a44ae87e64b7c449352348620dd64c39c9cc1c7972dfe1f",
+  "gain_db_after_voice": 5,
+  "gain_linear_after_voice": 1.778279,
+  "gain_ramp_start_seconds": 744.318004,
+  "gain_ramp_full_seconds": 747.318004,
+  "gain_expression": "if(lt(t,744.318004),1,if(lt(t,747.318004),1+(1.7782794100389228-1)*(t-744.318004)/3,1.7782794100389228))",
+  "legal_entry_seconds": 753.613219,
+  "prelap_current": {
+    "start_seconds": 741.432004,
+    "duration_seconds": 2.886,
+    "mean_volume_db": -16.4,
+    "max_volume_db": -1.1
+  },
+  "prelap_successor": {
+    "start_seconds": 741.432004,
+    "duration_seconds": 2.886,
+    "mean_volume_db": -16.4,
+    "max_volume_db": -1.1
+  },
+  "legal_window_current": {
+    "start_seconds": 753.613219,
+    "duration_seconds": 10,
+    "mean_volume_db": -22.1,
+    "max_volume_db": -8
+  },
+  "legal_window_successor": {
+    "start_seconds": 753.613219,
+    "duration_seconds": 10,
+    "mean_volume_db": -17.1,
+    "max_volume_db": -3
+  },
+  "late_outro_successor": {
+    "start_seconds": 761.913219,
+    "duration_seconds": 8,
+    "mean_volume_db": -17.2,
+    "max_volume_db": -3
+  },
+  "failures": [],
+  "passed": true,
+  "reads": {
+    "source_audio_hash_read": "pass_source_audio_hash_recorded",
+    "under_vo_overlap_read": "pass_final_vo_overlap_loudness_unchanged",
+    "legal_window_level_match_read": "pass_successor_legal_window_outro_meets_standard_threshold",
+    "no_clipping_read": "pass_no_window_peak_above_minus_1db",
+    "youtube_action_read": "blocked_no_upload_or_visibility_change_performed"
+  }
+}

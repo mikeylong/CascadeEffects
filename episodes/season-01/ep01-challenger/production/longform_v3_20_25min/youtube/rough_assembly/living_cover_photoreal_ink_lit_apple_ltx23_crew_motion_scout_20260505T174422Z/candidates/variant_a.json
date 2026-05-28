@@ -1,0 +1,241 @@
+{
+  "candidate_id": "variant_a",
+  "label": "A",
+  "seed": 314159,
+  "prompt_variant_id": "locked_micro_motion_a",
+  "motion_pipeline": "apple-ltx23-q8-one-stage",
+  "model_repo": "dgrauet/ltx-2.3-mlx-q8",
+  "text_encoder_repo": "mlx-community/gemma-3-12b-it-4bit",
+  "source_still_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png",
+  "source_still_sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+  "source_still_variant_role": "primary",
+  "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/prompts/variant_a_prompt.txt",
+  "prompt_sha256": "1ceb78adb4498e0fc24b426467c0017f0b8a5d89cfae062cd03e2bbfc84dd0b6",
+  "prompt_text": "Photorealistic ink-lit documentary image-to-video motion test for a Challenger launch pad living cover. Use the provided full-frame source still as the visual truth and preserve its composition, camera position, right-side safe space, shuttle anatomy, launch tower, crawlerway, foreground ramp, and exactly seven back-view astronauts in blue flight suits. Motion direction: subtle crew micro-motion, locked camera. The astronauts remain small foreground human presence, looking toward the shuttle with their backs to the viewer. Animate only restrained natural human presence: tiny weight shifts, subtle shoulder/head settling, very small torso adjustments, cloth micro-movement, and contact-shadow changes. Keep motion slow, irregular, and observed. Keep camera locked. Preserve night launch-pad lighting with only gentle practical-light shimmer. No walking. No waving. No synchronized swaying. No turning around. No looking at the viewer. No faces. No name patches. No readable logos. No generated text. No watermarks. No extra people. No missing people. No launch, ignition, smoke, fire, flame, plume, ascent, explosion, debris, camera push, camera pan, camera shake, dramatic action, or spectacle. Do not alter shuttle shape, SRBs, external tank, tower, pad hardware, or chronology.",
+  "raw_clip": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/clips/raw/variant_a_apple_ltx23_seed314159_raw.mp4",
+    "sha256": "0b1dfcadba0b02625efa9b7da627ef2b27963e94624e1131375deb55d40edf52",
+    "bytes": 1033838,
+    "duration_seconds": 5.0,
+    "width": 1024,
+    "height": 576,
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_frames": "120",
+    "has_audio": false,
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1024,
+          "height": 576,
+          "coded_width": 1024,
+          "coded_height": 576,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 31,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 61440,
+          "duration": "5.000000",
+          "bit_rate": "1650476",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "120",
+          "extradata_size": 46,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/clips/raw/variant_a_apple_ltx23_seed314159_raw.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "5.000000",
+        "size": "1033838",
+        "bit_rate": "1654140",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "raw_handoff_manifest": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/clips/raw/variant_a_apple_ltx23_seed314159_raw.mp4.json",
+    "sha256": "b050bdb5af8eca6fac41132683785d8c6bc3cc9dc826c82f52865f6efa842f32",
+    "bytes": 2957
+  },
+  "normalized_clip": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/clips/normalized/variant_a_apple_ltx23_seed314159_normalized.mp4",
+    "sha256": "dfd22a655198bf398e12628043da5875ffe41ba5f17a4512df9243a26eb96d6b",
+    "bytes": 1188762,
+    "duration_seconds": 5.0,
+    "width": 1024,
+    "height": 576,
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_frames": "120",
+    "has_audio": false,
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1024,
+          "height": 576,
+          "coded_width": 1024,
+          "coded_height": 576,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 31,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 61440,
+          "duration": "5.000000",
+          "bit_rate": "1898329",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "120",
+          "extradata_size": 46,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc62.11.100 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/clips/normalized/variant_a_apple_ltx23_seed314159_normalized.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "5.000000",
+        "size": "1188762",
+        "bit_rate": "1902019",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "qa_frames": [
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/qa/frames/variant_a/variant_a_frame_000.png",
+      "sha256": "5bcfaa41d7a22ca9e15a11a817fe7d8bc368af8246fe3a660de1d133c3a0c068",
+      "bytes": 463503
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/qa/frames/variant_a/variant_a_frame_024.png",
+      "sha256": "6669c4466629e8035f286dc23f6c0025bea30680a48fcacce354fd04fef59d94",
+      "bytes": 503781
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/qa/frames/variant_a/variant_a_frame_048.png",
+      "sha256": "6f79d105839abf819d20805c45b743a603352fb0bca394195da2aa531bb3a667",
+      "bytes": 511737
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/qa/frames/variant_a/variant_a_frame_072.png",
+      "sha256": "d51acf68817bbf2320cad083f7dab93aa00412e8a07d17a2651bf94950dc8e79",
+      "bytes": 447274
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_apple_ltx23_crew_motion_scout_20260505T174422Z/qa/frames/variant_a/variant_a_frame_096.png",
+      "sha256": "693879c0ccec80e0d732d5dd6db493e3595bbfdfdd433e72aa267c9628662ba4",
+      "bytes": 346214
+    }
+  ],
+  "disposition": "defer",
+  "selected_for_motion_proof": false,
+  "selected_for_motion_proof_status": "pending_human_review"
+}

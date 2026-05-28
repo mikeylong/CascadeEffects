@@ -1,0 +1,412 @@
+{
+  "schema_version": "1.0",
+  "stage": "first-second hook review",
+  "prototype_id": "piltdown_theme_intro_hook_20260520T010847Z",
+  "local_only_no_youtube_action": true,
+  "episode_id": "piltdown-man",
+  "short_id": "piltdown_man_short_scoped_v1",
+  "current_latest_publish_mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/shorts/piltdown_man_short_scoped_v1/publish/youtube_20260518T174506Z_pass07_visible_scanline/piltdown_man_fossil_hoax_youtube_short.mp4",
+  "current_latest_publish_mp4_sha256": "390542be1a25456a337e09702732cdcb77918342621715ab6ea32a90871bea0a",
+  "proof_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/piltdown_theme_intro_hook_review_proof.mp4",
+  "proof_sha256": "2df84a140e00021a581921ec92ac3a76b10e205cf5fa47b69b970bd198b70e69",
+  "comparison_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/side_by_side_current_vs_piltdown_theme_hook_first_10s.mp4",
+  "comparison_sha256": "9c02466006ca54465238a16248355077e18a72c3ba5d71ca634f2a4617365ac1",
+  "opening_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/opening_frame_strip.jpg",
+  "opening_frame_strip_sha256": "a5feca4b672ab53485d5c894919c819af4f529a82d1cc34d6b725413c4ffd832",
+  "hook_source_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_source/hook_source_frame_strip.jpg",
+  "hook_source_frame_strip_sha256": "da84bbe08cf04ad8f733899caf3c4e9833d7886fceb3a72cac522992c6ba92b2",
+  "hook_crop_letterbox_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_crop_letterbox/hook_crop_letterbox_frame_strip.jpg",
+  "hook_crop_letterbox_frame_strip_sha256": "991cb2f0aa1270931611b25c2d8f8d39290e56f07acd2f106594ac6783d40b78",
+  "hook_body_seam_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_body_seam_frame_strip.jpg",
+  "hook_body_seam_frame_strip_sha256": "cb19fc386abedea12efad7837bd41889064d2de97abca26bb2e742a6650ed90b",
+  "signal_tail_outro_handoff_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/signal_tail_outro_handoff_frame_strip.jpg",
+  "signal_tail_outro_handoff_frame_strip_sha256": "6f1a6b91d28686e5caf8755a7efdcdc0bf5ca08de84906ec6cb52a8c94abb96d",
+  "end_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/end_frame_strip.jpg",
+  "end_frame_strip_sha256": "26e442b93293b9a001e4e4eff4ecf9eddb8f1aca86ae449c8f90bd1cf48b698c",
+  "waveform_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/first_10s_waveform.png",
+  "waveform_sha256": "5aa1b716d772e4b1a782f465d04d3a051b8c6a6cf2b956a68f07d776850598ac",
+  "visual_extension_mode": "source_motion_tail",
+  "cloned_frame_padding_used": false,
+  "source_motion_tail": {
+    "source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/piltdown-man/shorts/piltdown_man_short_scoped_v1/visual_research/youtube_archival_review_pass_01/candidates/clips/pil-arc-10__dark_skull_receipt__yt_pil_03_banijay_greatest_hoaxes.no_audio.mp4",
+    "source_sha256": "fb9e0b722243ff79154576ffc9080bfcf12a51e4a64325900cc10ea7cc7faf68",
+    "source_start_seconds": 0.0,
+    "duration_seconds": 6.752562,
+    "description": "moving no-audio Piltdown dark skull/receipt source tail for the full theme outro",
+    "source_transition_trimmed_seconds": 0.0,
+    "house_crt_tail_texture": null,
+    "signal_interruption": {
+      "profile_id": "era_1980s_horizontal_signal_interruption_v2_randomized",
+      "duration_seconds": 0.25,
+      "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+      "full_frame_static_replacement_used": false,
+      "purpose": "brief analog interruption between the existing body and appended receipt-tail motion"
+    }
+  },
+  "signal_interruption": {
+    "profile_id": "era_1980s_horizontal_signal_interruption_v2_randomized",
+    "duration_seconds": 0.25,
+    "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+    "full_frame_static_replacement_used": false,
+    "purpose": "brief analog interruption between the existing body and appended receipt-tail motion"
+  },
+  "full_picture_crt_texture": {
+    "profile_id": "era_1980s_broadcast_crt_v1",
+    "intensity": "visible_but_premium",
+    "texture_application_scope": "assembled_picture_bed",
+    "duration_seconds": 68.050544,
+    "calibration_recipe_id": "premium_broadcast_crt_luma_neutral_chroma_visible_scanline_v1",
+    "scanline_policy_id": "luma_neutral_visible_scanline_modulation_v1",
+    "scanline_strength_variant_id": "max_visible_bars_y24_p8",
+    "texture_tone_policy": "luma_neutral_chroma_visible_scanline_v1",
+    "purpose": "apply one continuous CRT/analog texture over the assembled Piltdown hook, body, and tail proof",
+    "caption_burn_is_last_visual_operation": false
+  },
+  "full_picture_crt_scope": "assembled_picture_bed",
+  "segment_crt_passes_used": false,
+  "caption_layer_policy": "local_review_no_final_caption_rebuild",
+  "paper_architecture_visual_style_read": "pass_not_used",
+  "body_source_duration_seconds": 58.297982,
+  "body_used_duration_seconds": 58.047982,
+  "body_trimmed_for_tail_motion_seconds": 0.25,
+  "tail_gap_seconds": 6.752562,
+  "tail_start_seconds": 61.297982,
+  "signal_start_seconds": 61.047982,
+  "opening_skull_jaw_hook_read": "superseded_by_skull_face_full_bleed_repair",
+  "opening_skull_face_visible_read": "pass_review_required",
+  "opening_full_bleed_read": "pass_review_required",
+  "hook_internal_letterbox_read": "pass_review_required",
+  "hook_repair_reason": "skull_face_full_bleed_opening",
+  "opening_texture_match_read": "pass_review_required",
+  "hook_body_seam_read": "pass_review_required",
+  "tail_motion_read": "pass",
+  "freeze_tail_read": "pass",
+  "freeze_tail_evidence": {
+    "window_start_seconds": 60.050544,
+    "window_duration_seconds": 8.0,
+    "threshold_db": -60,
+    "min_freeze_duration_seconds": 0.5,
+    "freeze_events": [],
+    "freeze_tail_read": "pass"
+  },
+  "motion_evidence": {
+    "hook": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_motion_framemd5.txt",
+      "sha256": "00ff295727a38e266b41c70ab9913c7fc47826f8f3ca4a358846acaf8c928ed2",
+      "start_seconds": 0.0,
+      "duration_seconds": 3.0,
+      "sample_rate_fps": 2,
+      "sample_count": 6,
+      "unique_hash_count": 6,
+      "read": "pass",
+      "ffmpeg_stdout": ""
+    },
+    "tail": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/tail_motion_framemd5.txt",
+      "sha256": "3c65634f498b71e372ba261dfb76ab78547a5b39b74e19c56c6ce8abdc76c6cd",
+      "start_seconds": 61.297982,
+      "duration_seconds": 3.0,
+      "sample_rate_fps": 2,
+      "sample_count": 6,
+      "unique_hash_count": 6,
+      "read": "pass",
+      "ffmpeg_stdout": ""
+    }
+  },
+  "visual_strategy": {
+    "hook_visual": "Piltdown skull face full-bleed source motion moved to the front",
+    "hook_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/piltdown-man/shorts/piltdown_man_short_scoped_v1/visual_research/archival_expanded_9x16_pass_02/vertical_clips/02__pil-arc-11__skull_hands_museum__9x16_review.mp4",
+    "hook_source_start_seconds": 2.0,
+    "hook_duration_seconds": 3.0,
+    "hook_full_bleed_normalization": "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920",
+    "hook_letterbox_policy": "no_pad_no_pillarbox_no_blur_matte_no_letterbox",
+    "body_after_hook": "pass-03 clean no-caption body starts at original t=0 after hook",
+    "body_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/piltdown-man/shorts/piltdown_man_short_scoped_v1/motion_video_proof/pass_03_no_freeze_legibility_repair/piltdown_motion_video_proof_pass_03_no_freeze_legibility_video_only.mp4",
+    "tail_source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/piltdown-man/shorts/piltdown_man_short_scoped_v1/visual_research/youtube_archival_review_pass_01/candidates/clips/pil-arc-10__dark_skull_receipt__yt_pil_03_banijay_greatest_hoaxes.no_audio.mp4",
+    "source_motion_tail": {
+      "source_path": "/Users/mike/Viz_CascadeEffects/references/episodes/piltdown-man/shorts/piltdown_man_short_scoped_v1/visual_research/youtube_archival_review_pass_01/candidates/clips/pil-arc-10__dark_skull_receipt__yt_pil_03_banijay_greatest_hoaxes.no_audio.mp4",
+      "source_sha256": "fb9e0b722243ff79154576ffc9080bfcf12a51e4a64325900cc10ea7cc7faf68",
+      "source_start_seconds": 0.0,
+      "duration_seconds": 6.752562,
+      "description": "moving no-audio Piltdown dark skull/receipt source tail for the full theme outro",
+      "source_transition_trimmed_seconds": 0.0,
+      "house_crt_tail_texture": null,
+      "signal_interruption": {
+        "profile_id": "era_1980s_horizontal_signal_interruption_v2_randomized",
+        "duration_seconds": 0.25,
+        "timing_policy": "replace_outgoing_segment_tail_preserve_total_duration",
+        "full_frame_static_replacement_used": false,
+        "purpose": "brief analog interruption between the existing body and appended receipt-tail motion"
+      }
+    },
+    "full_picture_crt_scope": "assembled_picture_bed",
+    "caption_layer_policy": "local_review_no_final_caption_rebuild"
+  },
+  "music_strategy": {
+    "full_theme_intro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_theme_intro_sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "theme_intro_start_seconds": 0.0,
+    "theme_intro_duration_seconds": 3.0,
+    "theme_intro_volume": 0.78,
+    "loop_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop_60s.wav",
+    "loop_sha256": "3f8751c4ad66d51c6dd1b483c51cc394f63925cb97d54e526dfda8469c7e038e",
+    "loop_start_seconds": 2.25,
+    "loop_crossfade_seconds": 0.75,
+    "loop_volume_under_voice": 0.14,
+    "outro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture outro.m4a",
+    "outro_sha256": "03734595354c2ca8e2b513dd00ef181b002e8e8009844d499682383422eb9860",
+    "outro_start_seconds": 61.071,
+    "outro_volume": 0.76,
+    "limiter": "post-mix volume=0.62, alimiter=limit=0.62:level=false"
+  },
+  "voice_strategy": {
+    "voice_wav_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/shorts/piltdown_man_short_scoped_v1/final/piltdown_man_short_scoped_v1.wav",
+    "voice_wav_sha256": "b43e3c2221bf04e92bdb89fe80910005fcfca56b772c75e5f2146c405a8c75fb",
+    "voice_delay_seconds": 3.0,
+    "voice_volume": 1.0,
+    "voice_last_audible_seconds_source": 57.970544
+  },
+  "media_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/piltdown_theme_intro_hook_review_proof.mp4",
+    "sha256": "2df84a140e00021a581921ec92ac3a76b10e205cf5fa47b69b970bd198b70e69",
+    "duration_seconds": 68.066667,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "frame_rate": "30/1",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "audio_evidence": {
+    "first_3s": {
+      "window_seconds": 3.0,
+      "peak_dbfs": -3.692,
+      "rms_dbfs": -15.903,
+      "sample_count": 144000
+    },
+    "first_10s": {
+      "window_seconds": 10.0,
+      "peak_dbfs": -1.582,
+      "rms_dbfs": -15.565,
+      "sample_count": 480000
+    },
+    "full_proof": {
+      "window_seconds": 68.050544,
+      "peak_dbfs": -1.426,
+      "rms_dbfs": -16.922,
+      "sample_count": 3265536
+    }
+  },
+  "frame_samples": {
+    "opening": [
+      {
+        "seconds": 0.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_000.000.jpg",
+        "sha256": "8e6c5644e9ca10f737c76ee7b4d881cca6256047d8c4517f3592d3e767bf5015"
+      },
+      {
+        "seconds": 0.25,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_000.250.jpg",
+        "sha256": "b26932beae5bd77f742c8f3514ab842e0f2cb32a1174bc191e6677650defefeb"
+      },
+      {
+        "seconds": 0.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_000.500.jpg",
+        "sha256": "62ca7564ddc5decbd83bc480353b0d2be8f481346b706f297f897665f34d7d03"
+      },
+      {
+        "seconds": 1.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_001.000.jpg",
+        "sha256": "aa6c890858699f467a223b3d1541c4085c982e1a5849e0965dda003d699f7811"
+      },
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_002.000.jpg",
+        "sha256": "877587806d6ec25d625cdb85ddf2b772e431281e8ad47e7d1153e684069c9764"
+      },
+      {
+        "seconds": 2.9,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_002.900.jpg",
+        "sha256": "617911556b7c08a8e5afe40d5eb3e55e403b4973c3ec507b27b32af08ba0537f"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_003.000.jpg",
+        "sha256": "4056b7d314b6284f46800ab71e1d0bf0576ec7d9fead024468fc5e8f8eafb894"
+      },
+      {
+        "seconds": 3.1,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_003.100.jpg",
+        "sha256": "fff61af369ebb28d884bc6aaa5f66952b567d2a9a63eb401f15c6987cf984419"
+      },
+      {
+        "seconds": 4.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_004.000.jpg",
+        "sha256": "ca9fd42401e09e02985c7b9dbb6ab4c8e75b15700ac9d40719fcc90298ce8791"
+      },
+      {
+        "seconds": 6.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_006.000.jpg",
+        "sha256": "a2f2d202a52d1b35a9f70881934f96cf8c402da6ff9f45785ea2a1071b867ff3"
+      },
+      {
+        "seconds": 10.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_010.000.jpg",
+        "sha256": "86ced94a07c108430ac66654cad0460a9d954ea57e5f87df8aa41a6323195f46"
+      }
+    ],
+    "hook_source": [
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_source/frame_002.000.jpg",
+        "sha256": "e3fc990f3e8b9d43faa2c04fc033f46b3a0a960cd5bd21f858eee009236cb687"
+      },
+      {
+        "seconds": 2.25,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_source/frame_002.250.jpg",
+        "sha256": "45fc0a8817df8ae8252c1714a33b6966fa7af94f688174bb9e5747868594e5c4"
+      },
+      {
+        "seconds": 2.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_source/frame_002.500.jpg",
+        "sha256": "bb905c42b046be75857ba686f808cbecd8fb90ee9f7923839234367189c1b0b7"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_source/frame_003.000.jpg",
+        "sha256": "fc1193c5d0fa02ba8f3e456628c8930807167e54255eff083d7023b4bb67bea0"
+      },
+      {
+        "seconds": 4.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_source/frame_004.000.jpg",
+        "sha256": "27a6279b5775b3d13541177ea1e02ef686b136a946383c8dc25fd3c6f89100d5"
+      },
+      {
+        "seconds": 4.9,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_source/frame_004.900.jpg",
+        "sha256": "3200b02eedcee1d48a4b75848953d11a200f672c6615d437dabe2e7992bcfe1a"
+      }
+    ],
+    "hook_crop_letterbox": [
+      {
+        "seconds": 0.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_crop_letterbox/frame_000.000.jpg",
+        "sha256": "8e6c5644e9ca10f737c76ee7b4d881cca6256047d8c4517f3592d3e767bf5015"
+      },
+      {
+        "seconds": 0.25,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_crop_letterbox/frame_000.250.jpg",
+        "sha256": "b26932beae5bd77f742c8f3514ab842e0f2cb32a1174bc191e6677650defefeb"
+      },
+      {
+        "seconds": 0.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_crop_letterbox/frame_000.500.jpg",
+        "sha256": "62ca7564ddc5decbd83bc480353b0d2be8f481346b706f297f897665f34d7d03"
+      },
+      {
+        "seconds": 1.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_crop_letterbox/frame_001.000.jpg",
+        "sha256": "aa6c890858699f467a223b3d1541c4085c982e1a5849e0965dda003d699f7811"
+      },
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_crop_letterbox/frame_002.000.jpg",
+        "sha256": "877587806d6ec25d625cdb85ddf2b772e431281e8ad47e7d1153e684069c9764"
+      },
+      {
+        "seconds": 2.9,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/hook_crop_letterbox/frame_002.900.jpg",
+        "sha256": "617911556b7c08a8e5afe40d5eb3e55e403b4973c3ec507b27b32af08ba0537f"
+      }
+    ],
+    "hook_body_seam": [
+      {
+        "seconds": 2.7,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_002.700.jpg",
+        "sha256": "6e75112e377f4edddab2321f55dfd6aa4f70f9b63bfaa54190e39bd3850dec3b"
+      },
+      {
+        "seconds": 2.9,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_002.900.jpg",
+        "sha256": "617911556b7c08a8e5afe40d5eb3e55e403b4973c3ec507b27b32af08ba0537f"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_003.000.jpg",
+        "sha256": "4056b7d314b6284f46800ab71e1d0bf0576ec7d9fead024468fc5e8f8eafb894"
+      },
+      {
+        "seconds": 3.1,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_003.100.jpg",
+        "sha256": "fff61af369ebb28d884bc6aaa5f66952b567d2a9a63eb401f15c6987cf984419"
+      },
+      {
+        "seconds": 3.3,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_003.300.jpg",
+        "sha256": "256d1fc4ee04bcab7b3dadd2d0cc9a1d4fff94ecc63c7abfe7b7f1ee50e0fa3d"
+      }
+    ],
+    "signal_tail_outro": [
+      {
+        "seconds": 60.570544,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_060.571.jpg",
+        "sha256": "bb454ceac613d820ea75b5121b43be536d4ee8f02fb97a1ce32a3bcf5aef4ca3"
+      },
+      {
+        "seconds": 61.070544,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_061.071.jpg",
+        "sha256": "ab359e05c62a9f4827dfb62700d2cddebe143b5427d4f9561f9c5fb86dc8b8d1"
+      },
+      {
+        "seconds": 60.947981999999996,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_060.948.jpg",
+        "sha256": "467133964fb5ec0d6dcc8576696f7774726a94a36d52d809a2581f5bdfa3f0b1"
+      },
+      {
+        "seconds": 61.047982,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_061.048.jpg",
+        "sha256": "8d609bafc7ec722c8183bc05fa43e93c4842752934dc39edd74de92366bd6265"
+      },
+      {
+        "seconds": 61.297982,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_061.298.jpg",
+        "sha256": "28a03c41a794899b16a11ef92f0637cbac42f6dac1b39dc718df87dcce29898d"
+      },
+      {
+        "seconds": 61.797982,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_061.798.jpg",
+        "sha256": "4bf6c50cffa881c0105b160bd83894624dbfdae8fbfe72fc72134144775f27c9"
+      },
+      {
+        "seconds": 67.550544,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_067.551.jpg",
+        "sha256": "d782f408ef0980a0c8cd7fc43937422c23e208b58a35f6bf7f1562e86318988c"
+      }
+    ],
+    "end": [
+      {
+        "seconds": 65.550544,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_065.551.jpg",
+        "sha256": "a381f9017219e2ee501e661a95ab9359cd59475f0b539002ce2c48d337392dc6"
+      },
+      {
+        "seconds": 66.550544,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_066.551.jpg",
+        "sha256": "4f9587ac95cb3388e10bdc8f17bdf586037b68f22b3c3ee7b57502afd06f9876"
+      },
+      {
+        "seconds": 67.300544,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_067.301.jpg",
+        "sha256": "78b7b4edc43843de36f0b261cf7085b2c9e60daa545825129310e279278bf270"
+      },
+      {
+        "seconds": 67.800544,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/piltdown_theme_intro_hook_20260520T010847Z/evidence/frame_067.801.jpg",
+        "sha256": "0908ed9d6b6b4fcb76db785e4e18ca68596324251fa794ce0aa44bbc5efbbea1"
+      }
+    ]
+  },
+  "review_request": "Judge whether the skull-face full-bleed opening plus full theme intro punch improves scroll-stop, and whether the full-picture CRT, signal handoff, and receipt-tail outro feel continuous.",
+  "human_review_disposition": "keep|tighten|reject"
+}

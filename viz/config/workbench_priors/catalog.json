@@ -1,0 +1,20 @@
+{
+  "priors": [
+    {
+      "id": "space_shuttle_stack_v1",
+      "subject_class": "space_shuttle",
+      "label": "Space Shuttle Launch Stack",
+      "points_path": "space_shuttle_stack_v1.points.json",
+      "orientation_search_deg": [-10, -6, -3, 0, 3, 6, 10],
+      "mirror_x": [1.0, -1.0]
+    },
+    {
+      "id": "space_shuttle_orbiter_side_v1",
+      "subject_class": "space_shuttle",
+      "label": "Space Shuttle Orbiter Side",
+      "points_path": "space_shuttle_orbiter_side_v1.points.json",
+      "orientation_search_deg": [-12, -6, 0, 6, 12],
+      "mirror_x": [1.0, -1.0]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Source Notes
+
+- Source video: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath.mp4`
+- Source manifest: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_manifest.json`
+- Watermark source: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_video_watermark_clean_edge_repair_20260519T043706Z/assets/video-watermark-800x800-clean-edge.png`
+- Treatment: static soft paper-lavender CE silhouette, composited behind precision foreground mattes.
+- Supersedes tightened v1 static proof: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_logo_watermark_placement_proofs_20260525T171637Z`
+- This package does not create motion video or update YouTube.

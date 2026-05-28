@@ -1,0 +1,414 @@
+{
+  "package_id": "youtube_channel_banner_website_hero_faceted_title_repair_20260518T172942Z",
+  "status": "rejected_title_render_mismatch",
+  "may_advance": false,
+  "created_at_utc": "2026-05-18T17:43:16+00:00",
+  "youtube_studio_updated": false,
+  "candidate_lane": "website_hero_clean_identity",
+  "title_treatment": "faceted_paper_title",
+  "rejected_by": {
+    "package_id": "youtube_channel_banner_imagegen_title_lockup_20260518T181310Z",
+    "reason": "procedural faceted title read as a font effect rather than an actual Paper Architecture title lockup"
+  },
+  "source_generation": "Codex ImageGen source art plus deterministic local faceted title/wrapper composition",
+  "supersedes": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_website_hero_clean_identity_20260518T170531Z",
+    "reason": "title treatment was not faceted enough and read as a plain font mask with paper effects"
+  },
+  "website_reference": {
+    "path": "/Users/mike/Web_CascadeEffects/public/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png",
+    "copied_snapshot": "source/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png",
+    "role": "visual-system reference only; generated title in website hero is not reused"
+  },
+  "platform_sources": [
+    {
+      "label": "YouTube Help - Manage your channel branding",
+      "url": "https://support.google.com/youtube/answer/10456525?co=GENIE.Platform%3DDesktop&hl=en"
+    },
+    {
+      "label": "YouTube Help - Channel banner & profile picture tips",
+      "url": "https://support.google.com/youtube/answer/12950272?hl=en"
+    }
+  ],
+  "official_requirements": {
+    "primary_visible_strip_px": [
+      2048,
+      340
+    ],
+    "minimum_upload_canvas_px": [
+      2048,
+      1152
+    ],
+    "minimum_safe_area_px": [
+      1235,
+      338
+    ],
+    "file_size_limit_bytes": 6291456
+  },
+  "reads": {
+    "official_requirements_read": "pass",
+    "skill_workflow_read": "pass",
+    "display_strip_target_read": "pass",
+    "website_hero_alignment_read": "review_required",
+    "imagegen_source_read": "pass",
+    "dimensions_read": "pass",
+    "upload_canvas_read": "pass",
+    "file_size_read": "pass",
+    "safe_area_read": "pass",
+    "crop_resilience_read": "review_required",
+    "profile_icon_alignment_read": "pass",
+    "final_embellishment_read": "pass",
+    "generated_text_read": "pass",
+    "title_in_banner_read": "pass",
+    "paper_title_style_read": "review_required",
+    "faceted_paper_title_read": "review_required",
+    "waterfall_read": "pass",
+    "ice_liquid_read": "pass for review",
+    "texture_noise_read": "pass for review"
+  },
+  "candidates": [
+    {
+      "id": "candidate_a_close_hero_framing",
+      "label": "A - Close Hero Framing",
+      "status": "review_required",
+      "may_advance": false,
+      "candidate_lane": "website_hero_clean_identity",
+      "title_treatment": "faceted_paper_title",
+      "source_generation": "Codex ImageGen",
+      "imagegen_source": {
+        "path": "source/candidate_a_close_hero_framing_imagegen_source.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1986995,
+        "sha256": "c7926271d08d8c4c1120419b8d15716eef917ebf277d96415e3531bd759203b8",
+        "under_6mb": true
+      },
+      "crop_y_after_width_fit": 270,
+      "title_policy": "exact_local_deterministic_faceted_paper_title",
+      "exact_title": "Cascade of Effects",
+      "notes": "Closest to the website hero language: bridge and low folded terrain left, shuttle/Titanic framing right, quiet center.",
+      "website_hero_alignment": "close visual-system variant with repaired faceted local title",
+      "strip": {
+        "path": "assets/candidate_a_close_hero_framing_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 921747,
+        "sha256": "8dea283aadd790408a4de89a1ec3d66f720e6d8eb5d3c0ec5132403986e2c0db",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_a_close_hero_framing_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1208662,
+        "sha256": "59de8c10fb54ec06db8fade101b9abf413456e1b00131a813ee0491ac798b6a6",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_a_close_hero_framing_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 921747,
+          "sha256": "8dea283aadd790408a4de89a1ec3d66f720e6d8eb5d3c0ec5132403986e2c0db",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_a_close_hero_framing_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1208662,
+          "sha256": "59de8c10fb54ec06db8fade101b9abf413456e1b00131a813ee0491ac798b6a6",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_a_close_hero_framing_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 911716,
+          "sha256": "7919b2b94c15a647f72f881a6f648173245ac86f8c611eba5d08956f26d3b79b",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_a_close_hero_framing_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1189125,
+          "sha256": "60f17dc9dd2246cd46506d181fe849153c3a12cba2108ff4ec830e5058b1ac92",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_a_close_hero_framing_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 478956,
+          "sha256": "fc1ab6bb7d4348d41f2f8cfb85f252de7415c3796e4f8b90c7d5b6b89b72e816",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_a_close_hero_framing_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1679456,
+          "sha256": "f42371f0a7b3ab6e42ae2ca1c0ec52ee23b03bdcf728b41add1613fe6b87ea50",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "website_hero_alignment_read": "review_required",
+        "imagegen_source_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "faceted_paper_title_read": "review_required",
+        "waterfall_read": "pass",
+        "ice_liquid_read": "pass for review",
+        "texture_noise_read": "pass for review"
+      }
+    },
+    {
+      "id": "candidate_b_clean_negative_space",
+      "label": "B - Clean Negative Space",
+      "status": "review_required",
+      "may_advance": false,
+      "candidate_lane": "website_hero_clean_identity",
+      "title_treatment": "faceted_paper_title",
+      "source_generation": "Codex ImageGen",
+      "imagegen_source": {
+        "path": "source/candidate_b_clean_negative_space_imagegen_source.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1947949,
+        "sha256": "57b4c75c26da7a7d8673a3663219565bc4005740f91fc9cbc7da8fddbea333ca",
+        "under_6mb": true
+      },
+      "crop_y_after_width_fit": 220,
+      "title_policy": "exact_local_deterministic_faceted_paper_title",
+      "exact_title": "Cascade of Effects",
+      "notes": "Calmest identity field: wide ink center, bridge/shuttle/Titanic kept to the edges, reduced evidence density.",
+      "website_hero_alignment": "clean negative-space translation with repaired faceted local title",
+      "strip": {
+        "path": "assets/candidate_b_clean_negative_space_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 833068,
+        "sha256": "6dd1896433d9f00358fee131136626109f3c22f1020c2c27614f15f02ef0eddb",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_b_clean_negative_space_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1023152,
+        "sha256": "cc7ac85cd1b91089d59496abfec44e49f90212e02d06cf82834c0d53ce3ea2fd",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_b_clean_negative_space_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 833068,
+          "sha256": "6dd1896433d9f00358fee131136626109f3c22f1020c2c27614f15f02ef0eddb",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_b_clean_negative_space_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1023152,
+          "sha256": "cc7ac85cd1b91089d59496abfec44e49f90212e02d06cf82834c0d53ce3ea2fd",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_b_clean_negative_space_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 824421,
+          "sha256": "ed653f288d9a7ec455c65c7a090bfbcb35453d45e4c35e1e0a71c0a6e6f1a47a",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_b_clean_negative_space_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1004613,
+          "sha256": "4a700be47d6a2eef9adf6e3c23f60caa98a1dfdef41e2607483fcb43c909672c",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_b_clean_negative_space_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 420619,
+          "sha256": "3233fc684d5be44c1e5b3f193174c88d8353e47573aac7124f2ef77231f9d348",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_b_clean_negative_space_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1434796,
+          "sha256": "7310678e19c836a84e5832192d1f9d58ad7b1715530f36c16565c4da68d549f8",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "website_hero_alignment_read": "review_required",
+        "imagegen_source_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "faceted_paper_title_read": "review_required",
+        "waterfall_read": "pass",
+        "ice_liquid_read": "pass for review",
+        "texture_noise_read": "pass for review"
+      }
+    },
+    {
+      "id": "candidate_c_content_whisper",
+      "label": "C - Content Whisper",
+      "status": "review_required",
+      "may_advance": false,
+      "candidate_lane": "website_hero_clean_identity",
+      "title_treatment": "faceted_paper_title",
+      "source_generation": "Codex ImageGen",
+      "imagegen_source": {
+        "path": "source/candidate_c_content_whisper_imagegen_source.png",
+        "width": 2172,
+        "height": 724,
+        "bytes": 1987954,
+        "sha256": "454dc926be50430cab26fb716a4bd088de81b0d2a1ed0b39cacd8092cfa0cd8d",
+        "under_6mb": true
+      },
+      "crop_y_after_width_fit": 220,
+      "title_policy": "exact_local_deterministic_faceted_paper_title",
+      "exact_title": "Cascade of Effects",
+      "notes": "Calm website-hero variant with slightly more system texture: bridge fragments, shuttle/Titanic, terraces, and dry signal pins.",
+      "website_hero_alignment": "subtle content cues with repaired faceted local title",
+      "strip": {
+        "path": "assets/candidate_c_content_whisper_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 861016,
+        "sha256": "e35d896dfae8b385ee36dda8342590d120c5ed526bc5be4b0b70b81f48dd1858",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_c_content_whisper_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1093058,
+        "sha256": "14d5862c1937ba76cde150b62fac7319b35750e3cc33a76ef20865386d47d002",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_c_content_whisper_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 861016,
+          "sha256": "e35d896dfae8b385ee36dda8342590d120c5ed526bc5be4b0b70b81f48dd1858",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_c_content_whisper_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1093058,
+          "sha256": "14d5862c1937ba76cde150b62fac7319b35750e3cc33a76ef20865386d47d002",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_c_content_whisper_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 851407,
+          "sha256": "397d60542cb7a8fdd0dae025ca0b0a59371e7afde767a86ddcb47c257e6e1f1b",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_c_content_whisper_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1072740,
+          "sha256": "4479c054de534f78e4f5b0ade2c40764538349d512f06a086fb74a144f5a7dfc",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_c_content_whisper_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 422211,
+          "sha256": "dca1c00a7a382b867fd9791869a401179659972cc09c09ce28b4238ef0e4eb55",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_c_content_whisper_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1529528,
+          "sha256": "7a617671f09f02f9652385583989586ad40f644d76479eb183fe088b862dfbee",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "website_hero_alignment_read": "review_required",
+        "imagegen_source_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "faceted_paper_title_read": "review_required",
+        "waterfall_read": "pass",
+        "ice_liquid_read": "pass for review",
+        "texture_noise_read": "pass for review"
+      }
+    }
+  ],
+  "review_artifacts": {
+    "contact_sheet": {
+      "path": "qa/youtube-channel-banner-faceted-title-repair-contact-sheet.png",
+      "width": 1240,
+      "height": 1901,
+      "bytes": 1347550,
+      "sha256": "1f362e98133b93c1b508d8b52318c9c4e3613b0a3e1b3a8b3089306f06613c72",
+      "under_6mb": true
+    },
+    "title_reference_comparison": {
+      "path": "qa/faceted-title-reference-comparison.png",
+      "width": 1240,
+      "height": 850,
+      "bytes": 592635,
+      "sha256": "793e11dd2e280056e2d220a428ebe7f1788f0f19bf9227090cb3a266d1e68ef6",
+      "under_6mb": true
+    },
+    "qa_notes": "qa/qa_notes.md",
+    "source_notes": "source/source_notes.md",
+    "official_requirements_snapshot": "source/official_youtube_channel_branding_guidance_2026-05-17.md",
+    "skill_snapshot": "source/youtube_channel_branding_v1_SKILL_snapshot.md"
+  }
+}

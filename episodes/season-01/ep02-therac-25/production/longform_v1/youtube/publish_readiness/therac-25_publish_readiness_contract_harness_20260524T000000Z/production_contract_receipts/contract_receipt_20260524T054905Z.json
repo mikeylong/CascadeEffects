@@ -1,0 +1,38 @@
+{
+  "receipt_type": "cascade_effects_output_contract_validation",
+  "schema_version": "cascade_effects_output_contract_receipt_v1",
+  "created_at": "2026-05-24T05:49:05.045Z",
+  "ok": true,
+  "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_contract_harness_20260524T000000Z/publish_readiness_manifest.json",
+  "artifact_manifest_sha256": "2fdf8f7e5eb86d6c1ff23d688e3f56c1e73527399d160bc7b9f1c0aa6d56d4c7",
+  "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+  "contract_id": "first-eight-longform-v1",
+  "family": "longform",
+  "intent": "successor",
+  "source_hashes": {
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_contract_harness_20260524T000000Z/publish_readiness_manifest.json",
+    "artifact_manifest_sha256": "2fdf8f7e5eb86d6c1ff23d688e3f56c1e73527399d160bc7b9f1c0aa6d56d4c7",
+    "source_final_render.manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T183715Z/render_manifest.json",
+      "declared_sha256": "75ab3d68580709e772aafea779db6e5d07782b830925ef8c6937685778f92a16",
+      "actual_sha256": "75ab3d68580709e772aafea779db6e5d07782b830925ef8c6937685778f92a16"
+    },
+    "source_final_render.mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T183715Z/therac-25_living_cover_final_review_1080p24.mp4",
+      "declared_sha256": "4c0d7f3c109e529454ba529962686f9e0190220b15e6a336a30550844df30fa7",
+      "actual_sha256": "4c0d7f3c109e529454ba529962686f9e0190220b15e6a336a30550844df30fa7"
+    }
+  },
+  "allowed_delta": null,
+  "reads": {
+    "contract_read": "pass_contract_loaded_and_required_reads_passed",
+    "delta_read": "pass_no_repair_delta_required_for_intent",
+    "style_read": "pass_style_contract_reads_passed",
+    "media_read": "pass_source_hashes_and_media_reads_valid",
+    "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+  },
+  "existing_validators": [],
+  "failures": [],
+  "youtube_action_requested": "",
+  "youtube_action_allowed": false
+}

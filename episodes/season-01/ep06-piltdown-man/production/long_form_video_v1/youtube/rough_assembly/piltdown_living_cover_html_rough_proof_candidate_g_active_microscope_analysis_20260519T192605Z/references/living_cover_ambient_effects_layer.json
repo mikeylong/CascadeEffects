@@ -1,0 +1,304 @@
+{
+  "artifact": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/living_cover_ambient_effects_layer_candidate_g_active_microscope_analysis_20260519.md",
+    "sha256": "d8cc6ce1d496ba67a45374b38fdb89bd2eb843482011fa383ecb4aff9f99bd62"
+  },
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "browser_sample_times_seconds": [
+    0,
+    57.293,
+    115.486,
+    213.145,
+    275.355,
+    397.312,
+    531.085,
+    586.765,
+    754.445,
+    816.109,
+    840.98
+  ],
+  "caption_policy": {
+    "caption_asr_text_not_used_read": "pass_asr_sidecars_timing_only",
+    "caption_text_source": "locked_script_only",
+    "caption_timing_sources": {
+      "srt": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/transcripts_mastered_voiceover_repair_20260518/Ep6_Piltdown-Man.diarized.srt",
+      "vtt": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/transcripts_mastered_voiceover_repair_20260518/Ep6_Piltdown-Man.diarized.vtt",
+      "whisperx_json": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/transcripts_mastered_voiceover_repair_20260518/Ep6_Piltdown-Man.whisperx.json"
+    }
+  },
+  "created_at_local": "2026-05-19",
+  "created_at_utc": "2026-05-19T17:52:57Z",
+  "cue_map": {
+    "human_keep_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/human_living_cover_cue_map_keep_candidate_g_active_microscope_analysis_20260519.md",
+    "human_keep_sha256": "1e4b138980cb9ba69cc63cdd435ead1c71a59d67b082899b4d5cefb26d4b356d",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/living_cover_cue_map_candidate_g_active_microscope_analysis_manifest_20260519.json",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/living_cover_cue_map_candidate_g_active_microscope_analysis_20260519.md",
+    "sha256": "f7803b9224929ff955ce297a93807fd558aa976e191b33f4efbfb5abfed4fd6d"
+  },
+  "current_gate_after_keep": "music_integration_contract_keep",
+  "episode_id": "piltdown-man",
+  "gate": "living_cover_ambient_effects_layer",
+  "gate_effect": {
+    "current_gate": "living_cover_ambient_effects_layer",
+    "may_mark_ambient_effects_layer_keep": false,
+    "may_public_release": false,
+    "may_render_final_mp4": false,
+    "may_start_motion_readiness": false,
+    "may_start_music_integration_contract": false,
+    "may_start_rough_assembly": false,
+    "may_youtube_action": false,
+    "next_required_gate": "human_living_cover_ambient_effects_layer_keep_or_tighten"
+  },
+  "gate_locks": {
+    "may_mark_living_cover_ambient_effects_layer_keep": false,
+    "may_mark_music_integration_contract_keep": false,
+    "may_render_final_mp4": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "human_disposition": "keep",
+  "human_keep": {
+    "human_signal": "keep continue",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/human_living_cover_ambient_effects_layer_keep_candidate_g_active_microscope_analysis_20260519.md",
+    "reviewed_json_sha256": "ede1e09c2557a9b554954be3b7d7db7dd160b3fd5a4f5391e526691e9f823c74",
+    "reviewed_md_sha256": "d8cc6ce1d496ba67a45374b38fdb89bd2eb843482011fa383ecb4aff9f99bd62",
+    "sha256": "6dad5a5fbdebfd514cc2518411c375aefb655bb48a15b8d74ddcfdb67f832687"
+  },
+  "lane_decision": "mixed_source_drift_practical_light_glass_reflection_restrained_dust_worker_parallax",
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "parameters": {
+        "coordinate_space": [
+          1920,
+          1080
+        ],
+        "cycle_seconds": 118,
+        "rotation_degrees_range": [
+          -0.08,
+          0.08
+        ],
+        "scale_range": [
+          1.012,
+          1.024
+        ],
+        "seed": 19531949,
+        "translate_x_px_range": [
+          -6,
+          5
+        ],
+        "translate_y_px_range": [
+          -4,
+          4
+        ]
+      },
+      "source_safety": "moves kept plate only; does not redraw jaw, microscope, worker, or specimen geometry",
+      "type": "transform_crop_drift"
+    },
+    {
+      "id": "tungsten_task_lamp_micro_flicker",
+      "parameters": {
+        "anchor_rect_xywh": [
+          500,
+          130,
+          320,
+          230
+        ],
+        "cycle_seconds": [
+          7.5,
+          13.0
+        ],
+        "opacity_delta_range": [
+          0.025,
+          0.075
+        ],
+        "seed": 19121953
+      },
+      "source_safety": "practical lamp only; not a light panel, digital source, or screen surface",
+      "type": "localized_practical_light_variation"
+    },
+    {
+      "id": "microscope_optical_glint",
+      "parameters": {
+        "anchor_rect_xywh": [
+          390,
+          460,
+          190,
+          135
+        ],
+        "cycle_seconds": 19,
+        "opacity_delta_range": [
+          0.015,
+          0.045
+        ],
+        "radius_px_range": [
+          8,
+          28
+        ],
+        "seed": 19530041
+      },
+      "source_safety": "optical glint at microscope stage only; no UI glow or screen read",
+      "type": "localized_specular_micro_life"
+    },
+    {
+      "id": "glassware_reflection_shimmer",
+      "parameters": {
+        "anchor_rects_xywh": [
+          [
+            610,
+            420,
+            170,
+            320
+          ],
+          [
+            840,
+            420,
+            220,
+            330
+          ],
+          [
+            1110,
+            520,
+            180,
+            310
+          ]
+        ],
+        "cycle_seconds": [
+          23,
+          41
+        ],
+        "opacity_delta_range": [
+          0.012,
+          0.04
+        ],
+        "seed": 490053
+      },
+      "source_safety": "only glassware highlights already present in the kept source art are varied",
+      "type": "localized_reflection_variation"
+    },
+    {
+      "id": "lamp_cone_dust_motes",
+      "parameters": {
+        "opacity_range": [
+          0.018,
+          0.055
+        ],
+        "particle_count_max": 28,
+        "radius_px_range": [
+          0.8,
+          2.2
+        ],
+        "region_polygon_xy": [
+          [
+            430,
+            235
+          ],
+          [
+            875,
+            220
+          ],
+          [
+            930,
+            610
+          ],
+          [
+            360,
+            620
+          ]
+        ],
+        "seed": 4101953,
+        "speed_px_per_second": [
+          1.2,
+          4.5
+        ]
+      },
+      "source_safety": "dust is visible only in practical lamp cone and must not cross foreground jaw, glove, or microscope masks",
+      "type": "restrained_particle_micro_life"
+    },
+    {
+      "id": "background_worker_depth_parallax",
+      "parameters": {
+        "background_worker_rect_xywh": [
+          965,
+          70,
+          250,
+          540
+        ],
+        "cabinet_depth_rect_xywh": [
+          300,
+          0,
+          1075,
+          505
+        ],
+        "cycle_seconds": 86,
+        "max_translate_px": 2.5,
+        "seed": 19530808
+      },
+      "source_safety": "existing anonymous back-turned worker only; no face generation, gesture invention, or new person added",
+      "type": "subtle_depth_transform"
+    },
+    {
+      "id": "right_rail_local_readability",
+      "parameters": {
+        "active_panel_fill": "#1c1712",
+        "active_panel_opacity_range": [
+          0.64,
+          0.76
+        ],
+        "caption_softener_opacity_range": [
+          0.28,
+          0.42
+        ],
+        "context_region_opacity_max": 0.22,
+        "radius_px": 8,
+        "rail_rect_xywh": [
+          1108,
+          52,
+          760,
+          976
+        ]
+      },
+      "source_safety": "localized panel and caption support only; no full-height opaque right-column veil below active text",
+      "type": "localized_rail_readability_support"
+    }
+  ],
+  "next_required_gate_after_keep": "human_music_integration_contract_keep_or_tighten_reject",
+  "rationale": "Piltdown needs the kept 1953 microscope-analysis plate to feel alive while staying period-appropriate, analog, and non-diagnostic.",
+  "reads": {
+    "additive_effect_integration_read": "pass_successor_layers_must_preserve_kept_plate_cue_map_and_prior_approved_layers",
+    "ambient_effect_browser_sample_read": "pass_sample_times_declared_for_next_review",
+    "ambient_effect_lane_decision_read": "pass_mixed_source_drift_practical_light_glass_reflection_restrained_dust_worker_parallax",
+    "ambient_effects_plan_read": "pass_packet_local_layer_created_review_ready",
+    "ambient_line_artifact_read": "pass_no_cyan_connector_line_or_diagnostic_route",
+    "caption_softener_scope_read": "pass_lower_rail_caption_softener_only_while_captions_visible",
+    "context_region_source_visibility_read": "pass_right_rail_source_image_must_remain_visible_below_active_panel",
+    "debug_overlay_absence_read": "pass_no_debug_matte_route_label_or_status_overlay_in_viewer_facing_output",
+    "deterministic_ambient_read": "pass_seeded_parameters_declared_for_rough_builder",
+    "effect_layer_source_safety_read": "pass_preserve_candidate_g_source_art_geometry_no_new_objects_or_repaint",
+    "foreground_occlusion_read": "pass_foreground_microscope_worker_gloves_jaw_and_table_regions_declared_no_effects_over_specimens_without_matte",
+    "full_frame_dark_overlay_read": "pass_blocked_no_full_frame_dark_veil",
+    "human_presence_motion_read": "pass_subtle_background_worker_parallax_only_no_new_faces_or_likeness_motion",
+    "localized_readability_treatment_read": "pass_right_rail_active_panel_and_caption_softener_only",
+    "paper_architecture_visual_style_read": "pass_no_paper_architecture_visual_style",
+    "particle_foreground_leak_read": "pass_restrained_dust_limited_to_lamp_cone_and_background_after_matte_registration",
+    "practical_light_micro_life_read": "pass_tungsten_lamp_and_microscope_optical_glint_only",
+    "procedural_signal_overlay_read": "pass_no_overlay",
+    "rail_backlight_scope_read": "pass_localized_active_panel_caption_softener_not_full_height_opaque_column",
+    "rail_panel_palette_read": "pass_source_integrated_warm_lamp_dark_wood_charcoal_palette_planned",
+    "range_scrub_effect_review_read": "pass_required_for_long_proof_review_server_before_rough_keep",
+    "right_rail_opacity_balance_read": "pass_context_region_source_visibility_required",
+    "screen_glow_motion_read": "not_applicable_no_screen_tablet_led_or_digital_glow",
+    "source_integrated_panel_color_read": "pass_no_fixed_cross_episode_challenger_navy_default",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_coordinate_space_regions_declared_exact_mattes_required_before_motion_readiness",
+    "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper"
+  },
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_non_paper_20260519/assets/source_art/candidate_g_active_microscope_analysis_1920x1080.png",
+    "role": "kept_candidate_g_source_art",
+    "sha256": "4615cff276f95e544aa8a21004f8c520cb190860d04860f1bed9d5ae7a22a7a0"
+  },
+  "status": "keep",
+  "workflow": "long_form_video_production_v1"
+}

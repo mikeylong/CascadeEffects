@@ -1,0 +1,283 @@
+{
+  "name": "image_model_upscale_base",
+  "meta": {
+    "revision": 0,
+    "version": 0.4,
+    "config": {},
+    "groups": [],
+    "extra": {
+      "ds": {
+        "scale": 0.82,
+        "offset": [
+          -112.0,
+          44.0
+        ]
+      }
+    }
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "type": "LoadImageOutput",
+      "pos": [
+        32,
+        184
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "widget_names": [
+        "image"
+      ],
+      "widgets": {
+        "image": "cascadeeffects/placeholder.png"
+      },
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImageOutput"
+      }
+    },
+    {
+      "key": "upscale_model_loader",
+      "type": "UpscaleModelLoader",
+      "pos": [
+        32,
+        40
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "widget_names": [
+        "model_name"
+      ],
+      "widgets": {
+        "model_name": "RealESRGAN_x4plus.pth"
+      },
+      "inputs": [
+        {
+          "name": "model_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "model_name"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "UPSCALE_MODEL",
+          "type": "UPSCALE_MODEL",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UpscaleModelLoader"
+      }
+    },
+    {
+      "key": "image_upscale",
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        408,
+        104
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "widget_names": [],
+      "widgets": {},
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL"
+        },
+        {
+          "name": "image",
+          "type": "IMAGE"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageUpscaleWithModel"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "type": "ImageScaleBy",
+      "pos": [
+        776,
+        104
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "widget_names": [
+        "upscale_method",
+        "scale_by"
+      ],
+      "widgets": {
+        "upscale_method": "lanczos",
+        "scale_by": 1.0
+      },
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE"
+        },
+        {
+          "name": "upscale_method",
+          "type": "COMBO",
+          "widget": {
+            "name": "upscale_method"
+          }
+        },
+        {
+          "name": "scale_by",
+          "type": "FLOAT",
+          "widget": {
+            "name": "scale_by"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageScaleBy"
+      }
+    },
+    {
+      "key": "save_image",
+      "type": "SaveImage",
+      "pos": [
+        1144,
+        104
+      ],
+      "size": [
+        450,
+        220
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "widget_names": [
+        "filename_prefix"
+      ],
+      "widgets": {
+        "filename_prefix": "cascadeeffects/final"
+      },
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE"
+        },
+        {
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          }
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "type": "Note",
+      "pos": [
+        408,
+        304
+      ],
+      "size": [
+        360,
+        160
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "widget_names": [
+        "text"
+      ],
+      "widgets": {
+        "text": "Canonical final-upscale stage. Point the source image at a shortlisted refined render before saving the final deliverable."
+      },
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "text": ""
+      },
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    {
+      "from": "upscale_model_loader.UPSCALE_MODEL",
+      "to": "image_upscale.upscale_model",
+      "type": "UPSCALE_MODEL"
+    },
+    {
+      "from": "load_source_image.IMAGE",
+      "to": "image_upscale.image",
+      "type": "IMAGE"
+    },
+    {
+      "from": "image_upscale.IMAGE",
+      "to": "image_scale_by.image",
+      "type": "IMAGE"
+    },
+    {
+      "from": "image_scale_by.IMAGE",
+      "to": "save_image.images",
+      "type": "IMAGE"
+    }
+  ]
+}

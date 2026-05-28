@@ -1,0 +1,77 @@
+{
+  "cases": [
+    {
+      "archetype": "single_object_or_device",
+      "base_seed": 51001,
+      "id": "single_object_or_device",
+      "prompt_body": "industrial control console with toggles and an analog dial, one indicator stuck in the wrong state, pale gray enamel, desaturated green, charcoal, restrained amber warning light, fluorescent institutional light"
+    },
+    {
+      "archetype": "single_human_figure",
+      "base_seed": 52001,
+      "id": "single_human_figure",
+      "prompt_body": "single official seated at a hearing table, rigid posture, empty microphone angled toward no one, restrained navy, beige, charcoal, cool overhead light, one impossible second shadow cast in the wrong direction"
+    },
+    {
+      "archetype": "small_human_group",
+      "base_seed": 53001,
+      "id": "small_human_group",
+      "prompt_body": "three engineers around a conference table, attention fixed on one unseen concern, muted gray-blue room, one chair turned the wrong way as if the room skipped a step, soft fluorescent light"
+    },
+    {
+      "archetype": "room_or_interior",
+      "base_seed": 54001,
+      "id": "room_or_interior",
+      "prompt_body": "empty operations room with consoles and swivel chairs, one monitor glow appearing in the wrong place, pale green, gray, charcoal, stale fluorescent light"
+    },
+    {
+      "archetype": "structure_or_exterior",
+      "base_seed": 55001,
+      "id": "structure_or_exterior",
+      "prompt_body": "isolated broadcast tower on a flat winter horizon, one service light visible in daylight, overcast sky, concrete gray and oxidized red, cold diffused light"
+    },
+    {
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 56001,
+      "id": "vehicle_vessel_or_aircraft",
+      "prompt_body": "commercial passenger jet parked on a wet taxiway, nose wheel slightly off alignment, silver-gray fuselage, muted runway amber, low overcast light"
+    },
+    {
+      "archetype": "site_or_landscape",
+      "base_seed": 57001,
+      "id": "site_or_landscape",
+      "prompt_body": "fenced industrial basin at the edge of a salt plain, one straight pipeline bending where it should not, chalk white, rust, gray-blue, thin overcast light"
+    },
+    {
+      "archetype": "fragment_or_detail",
+      "base_seed": 58001,
+      "id": "fragment_or_detail",
+      "prompt_body": "close crop of a safety interlock latch and warning paint, latch appears closed while a hidden seam remains open, cream enamel, charcoal, restrained red, softened hard side light"
+    }
+  ],
+  "stage": "lookdev",
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v1",
+      "negative_prompt": "high detail, texture, noisy surface, photoreal clutter, many objects, crowded scene, dramatic cinematic lighting, motion blur, action pose, ornate realism, excessive foliage detail, complex sky, center-weighted composition, symmetrical layout, multiple bright accents, text, watermark, logo, ui overlay",
+      "positive_style_prompt": "minimal surreal editorial composition, reduced geometric forms, a quiet isolated structure near the far right edge of the frame, vast negative space across most of the image, one dominant environmental field, one saturated accent element used as a semantic signal, exactly one subtle violation of reality, stillness, soft diffuse lighting, clean edges, low detail, high thumbnail readability, asymmetrical balance, contemplative atmosphere",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial/prompts/negatives.txt"
+    },
+    {
+      "id": "minimal_surreal_editorial_v2",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, multiple bright accents",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, reduced but not empty frame, controlled palette, one dominant anomaly or wrong state, stillness, clear silhouette, restrained detail, non-spectacular tension",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v2/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v2/prompts/negatives.txt"
+    },
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt"
+    }
+  ],
+  "suite_id": "minimal_surreal_v1_v2_v3_go_no_go"
+}

@@ -1,0 +1,38 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_01_cold_launch_site_pass_02",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, icicle, icicles, hanging ice, frozen spikes, stalactite ice, snow drift, blizzard, heavy snow, storm drama"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_short__beat_01_blue_haze_hold",
+      "archetype": "site_or_landscape",
+      "base_seed": 70801,
+      "prompt_body": "Kennedy Space Center launch complex at first light seen from across the water, Challenger stack and fixed service structure rising from the flat coastal pad, the site remains calm and fully recognizable, blue-gray air and thin cryogenic haze soften the lower platform, damp deck surfaces and a faint rim frost sit on rails and edges only, no hanging icicles, no snow, muted sodium work lights, cold documentary stillness"
+    },
+    {
+      "id": "challenger_short__beat_01_platform_frost_rim",
+      "archetype": "site_or_landscape",
+      "base_seed": 70821,
+      "prompt_body": "Cold pre-ignition pad portrait of Challenger with the service tower and platform held as one readable site, stack remains canonical and calm, low white condensation pools around the base and gantry footings while metal surfaces read damp and lightly frosted at the edges, no hanging ice, no frozen spikes, pale blue-gray sky, restrained amber service lights, quiet launch readiness"
+    },
+    {
+      "id": "challenger_short__beat_01_vent_haze_silence",
+      "archetype": "site_or_landscape",
+      "base_seed": 70841,
+      "prompt_body": "Three-quarter tower-side hold of Challenger before liftoff, shuttle stack, service tower, and platform remain fully readable and canonical, the site carries cold through blue haze, wet concrete, and a light frost film on deck edges while one small white vent veil hangs near the lower platform, no icicles, no snow crust, no charged storm atmosphere, muted steel, bone white, restrained pre-launch silence"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "stage": "official_first_clean_footage_audit",
+  "episode_id": "Ep7_737-MAX",
+  "short_id": "737_max_short_scoped_v1",
+  "created_at_utc": "2026-05-20T051012Z",
+  "local_review_only": true,
+  "youtube_upload_publish_delete_replace_schedule_touched": false,
+  "proof_rebuild_performed": false,
+  "final_caption_rebuild_performed": false,
+  "source_priority": "official_first",
+  "strict_clean_rule": "Reject spans with lower-thirds, title cards, captions, graphic overlays, channel bugs, watermarks, split screens, end cards, or non-source-native text/graphics. Source-native aircraft markings are recorded separately and are not treated as graphic overlays in this audit.",
+  "package_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z",
+  "source_access": [
+    {
+      "source_id": "boeing_first_flight_media_portal",
+      "source_url": "http://bcacom.navigon.net/data/public/62c142352472a576a5efccbf05d3ad14.php?lang=en",
+      "role": "primary",
+      "access_read": "timeout",
+      "local_media_path": null,
+      "notes": "Boeing press release PDF downloaded, but the media-host endpoint timed out on HEAD/ranged/full retrieval attempts."
+    },
+    {
+      "source_id": "boeing_lapaz_broll_portal",
+      "source_url": "http://bcacom.navigon.net/data/public/f509482c18c3fae5544eb4c855c431ca.php?lang=en",
+      "role": "primary",
+      "access_read": "timeout",
+      "local_media_path": null,
+      "notes": "Boeing La Paz press page downloaded and confirms B-roll link, but media-host endpoint timed out."
+    },
+    {
+      "source_id": "boeing_max7_air_to_air_portal",
+      "source_url": "http://bcacom.navigon.net/data/public/4cd7b8562ea09b6568a4c7ccc666dfbc.php?lang=en",
+      "role": "primary",
+      "access_read": "timeout",
+      "local_media_path": null,
+      "notes": "Boeing MAX 7 press page downloaded and confirms air-to-air B-roll link, but media-host endpoint timed out."
+    },
+    {
+      "source_id": "boeing_max7_takeoff_portal",
+      "source_url": "http://bcacom.navigon.net/data/public/f83e0cf83716e8dea4332f9b3f9e857a.php?lang=en",
+      "role": "backup",
+      "access_read": "timeout",
+      "local_media_path": null,
+      "notes": "Backup B-roll endpoint timed out."
+    },
+    {
+      "source_id": "faa_dickson_737max_broll",
+      "source_url": "https://www.youtube.com/watch?v=eozVpyoYaLM",
+      "role": "backup",
+      "access_read": "unavailable_to_ytdlp",
+      "local_media_path": null,
+      "notes": "yt-dlp returned this video as unavailable in the local environment."
+    }
+  ],
+  "downloaded_sources": [
+    {
+      "source_id": "boeing_first_flight_youtube",
+      "source_url": "https://www.youtube.com/watch?v=k82e08kdKyw",
+      "source_title": "Boeing completes first flight of the 737 MAX",
+      "source_channel_or_origin": "Boeing",
+      "role": "official_youtube_fallback_for_first_flight",
+      "local_media_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/sources/boeing_first_flight_youtube.mp4",
+      "sha256": "d84095062ca7e53c611576a4935a9faf6bab1317ed980d1b9b0efc1e0d12b7cb",
+      "duration_seconds": 183.414422,
+      "resolution": "1920x1080",
+      "fps": "30000/1001",
+      "decode_read": "pass"
+    },
+    {
+      "source_id": "boeing_chief_pilot_flying_display",
+      "source_url": "https://www.youtube.com/watch?v=aFYmY3j0dKU",
+      "source_title": "A Boeing Chief Pilot's Perspective of the 737 MAX Flying Display",
+      "source_channel_or_origin": "Boeing",
+      "role": "official_youtube_fallback",
+      "local_media_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/sources/boeing_chief_pilot_flying_display.mp4",
+      "sha256": "82d3096fa24adcfc06e88c9cac3e5d7ab1f76049ca499188a78378aa53dcc1be",
+      "duration_seconds": 131.657143,
+      "resolution": "1280x720",
+      "fps": "30000/1001",
+      "decode_read": "pass",
+      "strict_clean_read": "reject",
+      "reject_reason": "Persistent on-screen hashtags, lower-third style labels, and captions make this unsuitable for clean source motion."
+    }
+  ],
+  "source_pages": [
+    {
+      "source_id": "boeing_first_flight_press_release_pdf",
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/source_pages/boeing_first_flight_press_release.pdf",
+      "sha256": "f7b38e9f6f28efb93339d7dd1b99dc81329ae80ce0db448b2a5cf82a670455e1"
+    },
+    {
+      "source_id": "boeing_lapaz_press_release_html",
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/source_pages/boeing_lapaz_press_release.html",
+      "sha256": "18c904a48b99534ffa6ed6f8a6def01e75f05816d520a2d540b74d6feeeb0ab1"
+    },
+    {
+      "source_id": "boeing_max7_press_release_html",
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/source_pages/boeing_max7_press_release.html",
+      "sha256": "2b827803a4321deaeaf01f8921259eaf3fb7b3b091f5aec3ea76beeffc0a08c2"
+    }
+  ],
+  "candidate_spans": [
+    {
+      "clip_id": "bff_span_27_55_takeoff_roll_rotation",
+      "source_id": "boeing_first_flight_youtube",
+      "source_start_seconds": 27.0,
+      "duration_seconds": 27.994633,
+      "local_clip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/clips/bff_span_27_55_takeoff_roll_rotation_no_audio.mp4",
+      "sha256": "c41b828933ff2e3b804befe4e61e0e96ea40a09f9abfe1268a4e7978c423c83a",
+      "native_frame_strip": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/evidence/bff_span_27_55_native_fps2_strip.jpg",
+      "crop_9x16_frame_strip": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/evidence/bff_span_27_55_9x16_crop_fps2_strip.jpg",
+      "visual_family": "runway_roll_rotation_takeoff",
+      "text_graphics_free_read": "pass",
+      "engine_only_read": "pass",
+      "motion_framehash_unique_count_1fps": 28,
+      "disposition": "keep"
+    },
+    {
+      "clip_id": "bff_span_75_110_air_to_air_landing",
+      "source_id": "boeing_first_flight_youtube",
+      "source_start_seconds": 75.0,
+      "duration_seconds": 35.001,
+      "local_clip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/clips/bff_span_75_110_air_to_air_landing_exact_no_audio.mp4",
+      "sha256": "ed8d0ac1df33f6b9d38b447d8b3d31b97bf792cf2140fbf76fe0bd05b7e2df2f",
+      "native_frame_strip": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/evidence/bff_span_75_110_exact_native_fps2_strip.jpg",
+      "crop_9x16_frame_strip": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/evidence/bff_span_75_110_exact_9x16_crop_fps2_strip.jpg",
+      "visual_family": "air_to_air_clouds_city_approach_landing",
+      "text_graphics_free_read": "pass",
+      "engine_only_read": "pass",
+      "motion_framehash_unique_count_1fps": 35,
+      "disposition": "keep"
+    },
+    {
+      "clip_id": "bff_span_115_132_taxi_wing_detail",
+      "source_id": "boeing_first_flight_youtube",
+      "source_start_seconds": 115.0,
+      "duration_seconds": 17.017,
+      "local_clip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/clips/bff_span_115_132_taxi_wing_detail_no_audio.mp4",
+      "sha256": "b9f0274186aaef1e10ed2cfb3cd2011a8acbf19320e1de4ce9171a89806744ca",
+      "native_frame_strip": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/evidence/bff_span_115_132_native_fps2_strip.jpg",
+      "crop_9x16_frame_strip": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/evidence/bff_span_115_132_9x16_crop_fps2_strip.jpg",
+      "visual_family": "taxi_wing_engine_detail",
+      "text_graphics_free_read": "pass",
+      "engine_only_read": "tighten",
+      "motion_framehash_unique_count_1fps": 17,
+      "disposition": "tighten"
+    }
+  ],
+  "summary_reads": {
+    "official_clean_spans_keep_count": 2,
+    "at_least_two_official_clean_spans_pass": true,
+    "stock_fallback_used": false,
+    "trip_report_sources_used": false,
+    "follow_up_rebuild_plan_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/737max_official_clean_footage_audit_20260520T051012Z/follow_up_rebuild_plan.md",
+    "overall_disposition": "diagnostic only"
+  },
+  "qa": {
+    "manifest_json_validated": "pass",
+    "source_and_clip_decode_read": "pass",
+    "candidate_framehash_motion_read": "pass",
+    "source_metadata_sha256_recorded": true,
+    "native_and_9x16_frame_strips_generated": true
+  }
+}

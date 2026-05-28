@@ -1,0 +1,113 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_visible_failure__final_upscale",
+  "base_fragment": "image_resize_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no generic rocket, no capsule rocket, no missile, no conical nose rocket, no off-frame smoke source, no side exhaust, no nose exhaust, no plume from the nose, no plume from the side, no mid-body exhaust, no explosion spectacle, no blockbuster blast bloom",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131804,
+    "selected_seed": 972054013131804,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 8,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_visible_failure/final/challenger_visible_failure_final",
+    "note_text": "Final v3 beat 04 deliverable. Preserve faithful Shuttle anatomy, right-booster-joint failure, and aft-only exhaust origin.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "final_upscale",
+    "reference_board_dir": "references/episodes/challenger/launch_stack_exterior/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "tense",
+    "palette_policy": "contract-limited",
+    "accent_palette": "ash gray, smoke white, charcoal, warning ember",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the Shuttle stack and booster-joint failure above the subtitle band and preserve the top UI band as open high sky",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "faithful Space Shuttle Challenger stack with smoke at the right booster joint escalating to flame and breakup in open sky",
+    "beat_id": "beat_04",
+    "historical_anchor": "the Space Shuttle Challenger visible failure sequence with correct orbiter wings, rust-orange external tank, and twin white solid rocket boosters",
+    "surreal_breach": "smoke at the right booster joint becomes flame and breakup while all exhaust stays confined to aft propulsion geometry, never the nose, side, or an off-frame source",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_scene_plate/challenger_visible_failure/refine/challenger_visible_failure_refine_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_ignition_smoke.png",
+    "midjourney_package_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v3_trimmed/package.manifest.json",
+    "midjourney_shot_id": "beat_04"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "accurate Shuttle stack held legibly in a restrained high-sky failure frame",
+    "support_fragments": [
+      "one right-booster-joint smoke-to-flame path while aft exhaust remains physically correct",
+      "open sky and smoke column kept subordinate to faithful Shuttle anatomy"
+    ],
+    "directives": [
+      "the orbiter, external tank, and twin boosters must read immediately and accurately",
+      "no generic rocket body, no side exhaust, no nose plume, no off-frame smoke source",
+      "keep the escalation legible without blockbuster spectacle"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "widgets": {
+        "upscale_method": "{{ params.upscale_method }}",
+        "scale_by": "{{ params.upscale_factor }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_visible_failure__final_upscale.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_visible_failure__final_upscale.json"
+  }
+}

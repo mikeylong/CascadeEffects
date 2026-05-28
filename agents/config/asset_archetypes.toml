@@ -1,0 +1,93 @@
+version = 1
+
+[defaults]
+pillar = "design-failures"
+thumbnail_preset = "one_red_flag"
+thumbnail_reference_dir = "/Users/mike/CascadeEffects/viz/references/one_red_flag"
+shorts_preset = "signal_object_portrait"
+shorts_reference_dir = "/Users/mike/CascadeEffects/viz/references/signal_object_portrait"
+
+[scene_archetypes.challenger_mission_control]
+label = "Mission control decision room"
+family = "scene_still"
+preset = "challenger_mission_control"
+reference_dir = "/Users/mike/CascadeEffects/viz/references/challenger_mission_control"
+default_motion_archetype_id = "challenger_slow_dolly"
+notes = "Certified scene still preset with controlled typography and handoff/video proof."
+
+[scene_archetypes.opening_culture_cluster]
+label = "Opening culture cluster"
+family = "scene_still"
+preset = "opening_culture_cluster"
+reference_dir = "/Users/mike/CascadeEffects/viz/references/opening_culture_cluster"
+default_motion_archetype_id = "opening_subject_pull_in"
+notes = "Shared pre-act opening tableau rendered from ordered episode slot assets into a deterministic layout before the opener motion handoff."
+
+[scene_archetypes.challenger_engineering_evidence]
+label = "Engineering evidence collage"
+family = "scene_still"
+preset = "challenger_engineering_evidence"
+reference_dir = "/Users/mike/CascadeEffects/viz/references/challenger_engineering_evidence"
+default_motion_archetype_id = ""
+notes = "Challenger evidence-board scene preset for diagrams, seal geometry, and systems-risk fragments."
+
+[scene_archetypes.challenger_launch_exterior]
+label = "Launch exterior evidence"
+family = "scene_still"
+preset = "challenger_launch_exterior"
+reference_dir = "/Users/mike/CascadeEffects/viz/references/challenger_launch_exterior"
+default_motion_archetype_id = ""
+notes = "Challenger launch/pad exterior preset for ice, launch stack, and restrained breach cues."
+
+[scene_archetypes.challenger_commission_evidence]
+label = "Commission and debris evidence"
+family = "scene_still"
+preset = "challenger_commission_evidence"
+reference_dir = "/Users/mike/CascadeEffects/viz/references/challenger_commission_evidence"
+default_motion_archetype_id = ""
+notes = "Challenger commission-era preset for recovered hardware, inquiry rooms, and institutional aftermath."
+
+[scene_archetypes.therac25_console_alarm]
+label = "Console alarm proof"
+family = "scene_still"
+preset = "therac25_console_alarm"
+reference_dir = "/Users/mike/CascadeEffects/viz/references/therac25_console_alarm"
+default_motion_archetype_id = "therac_console_push"
+notes = "Certified strict zero-letter scene preset with cleanup-only governance."
+
+[evidence_archetypes.redacted_memo]
+label = "Redacted memo evidence card"
+family = "evidence_card_plate"
+preset = "redacted_memo"
+reference_dir = "/Users/mike/CascadeEffects/viz/references/redacted_memo"
+notes = "Controlled-text evidence asset using deterministic multiline typography."
+
+[motion_archetypes.challenger_slow_dolly]
+label = "Challenger slow dolly"
+prompt = "Slow documentary dolly through the room, subtle CRT flicker, restrained camera move."
+frames = 33
+width = 640
+height = 384
+pipeline = "distilled"
+handoff_typography_intent_path = "/Users/mike/CascadeEffects/viz/workflows/typography/shared/challenger_mission_control_handoff_asset.intent.json"
+expected_typography_metadata = true
+
+[motion_archetypes.opening_subject_pull_in]
+label = "Opening subject pull-in"
+prompt = "Slow documentary push through floating era objects as they clear the frame and one focal subject becomes the sole center of attention."
+frames = 33
+width = 640
+height = 384
+pipeline = "distilled"
+handoff_typography_intent_path = ""
+expected_typography_metadata = false
+
+[motion_archetypes.therac_console_push]
+label = "Therac console push"
+prompt = "Slow documentary push toward the console, restrained phosphor flicker, quiet room tone."
+frames = 33
+width = 640
+height = 384
+pipeline = "distilled"
+handoff_typography_intent_path = ""
+expected_typography_metadata = false

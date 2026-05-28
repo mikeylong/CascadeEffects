@@ -1,0 +1,91 @@
+flowchart LR
+    subgraph Agents["Agents_CascadeEffects"]
+        Manifest["Episode manifest<br/>episodes/&lt;episode_id&gt;.toml"]
+        Planner["Orchestration planner<br/>validate / next / board / report / brief"]
+        ReviewState["Review state<br/>episodes/*.toml + state/reviews/*.jsonl"]
+        PromoteAudio["ce-orchestrate promote-audio"]
+        AudioGate{"audio approval approved<br/>and freshness current?"}
+        AssemblyReady{"ready_for_assembly?<br/>approved audio + required stills + packaging<br/>+ motion completeness + act coverage"}
+        Assembly["assembly<br/>agent-run ffmpeg act_spine edit"]
+    end
+
+    subgraph Episodes["Episodes_CascadeEffects"]
+        Script["Locked script"]
+        Research["visual_research<br/>docs + per-act coverage +<br/>approval + script fingerprint"]
+        ResearchGate{"approval approved<br/>and script fingerprint current?"}
+        FinalAudio["Canonical final WAV<br/>episode final/"]
+    end
+
+    subgraph Audio["Audio_CascadeEffects"]
+        AudioFlow["audio<br/>validate -> cost -> render -> guard -> merge -> qa"]
+        AudioPackage["audio_package.json<br/>provider + source manifest + packaged WAV + transcript"]
+        Transcript["QA transcript"]
+        Guard["Guard / mastering artifacts"]
+    end
+
+    subgraph Viz["Viz_CascadeEffects + AI runtime"]
+        Scene["scene_stills<br/>render -> review -> selected asset"]
+        Packaging["packaging_stills<br/>thumbnail + shorts cover"]
+        MotionGate{"Still approved_for_motion?"}
+        Motion["motion_assets<br/>handoff-stage -> handoff-i2v<br/>proof -> promote"]
+    end
+
+    subgraph Inbox["Inbox_CascadeEffects"]
+        ReviewDesk["single /review inbox<br/>visual research / audio / scene / packaging / motion"]
+        ReviewAction["approve / reject<br/>write manifest + review log"]
+    end
+
+    subgraph Web["Web_CascadeEffects"]
+        Launch["web<br/>launch archive entry"]
+        HomeGate{"homepage visible?"}
+        Release["release<br/>schedule / publish metadata"]
+        Analytics["analytics<br/>post-release notes"]
+    end
+
+    Script --> Manifest
+    Manifest --> Planner
+
+    Planner --> Research
+    Planner --> ReviewState
+
+    Research --> ReviewDesk
+    FinalAudio --> PromoteAudio
+    Transcript --> PromoteAudio
+    Scene --> ReviewDesk
+    Packaging --> ReviewDesk
+    Motion --> ReviewDesk
+
+    ReviewDesk --> ReviewAction
+    ReviewAction --> ReviewState
+    ReviewState --> Research
+    ReviewState --> Scene
+    ReviewState --> Packaging
+    ReviewState --> Motion
+
+    Research --> ResearchGate
+    ResearchGate -->|approved| AudioFlow
+    ResearchGate -->|approved| Scene
+    ResearchGate -->|approved| Packaging
+
+    AudioFlow --> Transcript
+    AudioFlow --> Guard
+    AudioFlow --> FinalAudio
+    AudioFlow --> AudioPackage
+    AudioPackage --> PromoteAudio
+    PromoteAudio --> ReviewDesk
+
+    Scene --> MotionGate
+    MotionGate -->|yes| Motion
+    MotionGate -->|no or not_needed| AssemblyReady
+
+    ReviewState --> AudioGate
+    AudioGate -->|approved| AssemblyReady
+    Scene --> AssemblyReady
+    Packaging --> AssemblyReady
+    Motion --> AssemblyReady
+
+    AssemblyReady -->|ready| Assembly
+    Assembly --> Launch
+    Launch --> HomeGate
+    Launch --> Release
+    Release --> Analytics

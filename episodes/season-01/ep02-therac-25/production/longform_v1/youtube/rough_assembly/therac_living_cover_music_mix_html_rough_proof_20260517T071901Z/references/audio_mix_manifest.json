@@ -1,0 +1,76 @@
+{
+  "packet_id": "therac25_music_mix_20260517T071901Z",
+  "status": "review_ready_pending_human_music_mix_disposition",
+  "created_utc": "20260517T071901Z",
+  "mix_profile_id": "paper_architecture_intro_bed_music_only_outro_v1",
+  "voice_source_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/final/Ep2_Therac-25.wav",
+  "voice_source_sha256": "b88395078d033003d31a71a63f7a581cba1ebce45541c1db848b408133c2efe4",
+  "voice_end_seconds": 1081.260408,
+  "output_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/assets/audio/Ep2_Therac-25.wav",
+  "output_sha256": "0b8be6238fd86d2d1a1c1f6b09ff887af010170332ea19b3cc11554e1cfaa525",
+  "output_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "pcm_s16le",
+        "sample_rate": "44100",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "1096.260045"
+    }
+  },
+  "total_duration_seconds": 1096.260045,
+  "expected_total_duration_seconds": 1096.260408,
+  "intro_music_end_seconds": 11.601451,
+  "music_only_tail_seconds": 15,
+  "end_screen_start_seconds": 1081.260408,
+  "music_sources": {
+    "registry": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json",
+      "sha256": "e8ad71cc4933eb0459814a241aff3da766c66f5c36a2f52aa9469689d833934a",
+      "track_id": "paper_architecture_theme_v1"
+    },
+    "intro_body_loop": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "duration_seconds": 9.601451,
+      "role": "intro_bed_and_outro_tail_loop"
+    },
+    "outro_motif": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture outro.m4a",
+      "sha256": "03734595354c2ca8e2b513dd00ef181b002e8e8009844d499682383422eb9860",
+      "duration_seconds": 6.971542,
+      "role": "music_only_end_screen_motif"
+    }
+  },
+  "mix_decisions": {
+    "voice_timing_shift_seconds": 0,
+    "caption_timing_shift_seconds": 0,
+    "intro_music_policy": "under_opening_voice_no_preroll",
+    "intro_music_volume_linear": 0.09,
+    "intro_music_fade_tail_seconds": 2,
+    "outro_music_policy": "append_music_only_tail_after_last_spoken_word",
+    "outro_loop_volume_linear": 0.18,
+    "outro_motif_volume_linear": 0.68,
+    "limiter": "alimiter limit=0.89 level=false"
+  },
+  "rights_and_claims": {
+    "rights_check_required_before_public_release": true,
+    "claim_risk": "check_upload_processing_before_public_release",
+    "notes": "Uses registered Paper Architecture theme assets from the local music registry. Public release remains blocked until YouTube claim/status checks are complete."
+  },
+  "reads": {
+    "voice_timing_preserved_read": "pass_no_voice_timing_shift",
+    "caption_timing_preserved_read": "pass_vtt_unchanged_no_caption_timing_shift",
+    "intro_music_fade_tail_read": "pass_intro_bed_fades_under_opening_without_timing_shift",
+    "outro_music_mix_read": "pass_music_only_tail_after_last_spoken_word",
+    "music_visual_handoff_read": "pass_end_screen_starts_at_voice_end",
+    "duration_extension_read": "pass_music_tail_extends_total_duration_after_voice_end_only",
+    "stream_read": "pass_pcm_s16le_stereo_44100",
+    "final_mix_no_clipping": "pass_max_volume_-11.9dB",
+    "music_rights_read": "review_warning_registered_paper_architecture_theme_requires_youtube_claim_check_before_public_release"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "packet_id": "hyatt_living_cover_cue_map_n5b_20260517T072744Z",
+  "episode_id": "hyatt-regency",
+  "created_utc": "2026-05-17T07:27:44Z",
+  "phase_gate": "motion_readiness_gate_input",
+  "status": "review_ready_internal_artifact",
+  "human_disposition": "defer",
+  "living_cover_system_version": "living_cover_system_v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "captioning_process_version": "living_cover_captioning_process_v1",
+  "selected_source_art": {
+    "variant_id": "n5b_plausible_table_centerpieces",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_art/n5b_plausible_table_centerpieces_1920x1080.png",
+    "sha256": "7b6f6c5aa1970f311e01676d45e03a5bf319a11482e4d80531cfb266504b9458",
+    "carrier_policy": "approved_generated_raster_source_art; no procedural public-anchor drawing"
+  },
+  "runtime": {
+    "audio_duration_seconds": 833.642812,
+    "outro_start_seconds": 827.253,
+    "end_screen_start_seconds": 818.643,
+    "end_screen_end_seconds": 833.642812,
+    "caption_suppression_start_seconds": 827.253
+  },
+  "chapter_cues": [
+    {
+      "chapter_id": "the_tea_dance",
+      "label": "CHAPTER 01",
+      "title": "The Tea Dance",
+      "start_seconds": 0,
+      "end_seconds": 82,
+      "summary": "A crowded atrium event sets up the human and structural stakes.",
+      "rail_behavior": "fixed right-rail active chapter with nearby context titles only",
+      "source_motion_behavior": "slow atrium settle-in, slight parallax drift, practical warmth in event floor",
+      "typography_cue": "cold-open title resolves to chapter rail after first identity hit",
+      "source_safe_read": "pass_planned_no_source_art_overlay_diagnostics"
+    },
+    {
+      "chapter_id": "the_original_load_path",
+      "label": "CHAPTER 02",
+      "title": "The Original Load Path",
+      "start_seconds": 82,
+      "end_seconds": 181,
+      "summary": "The original walkway support concept appears simple until the connection is examined.",
+      "rail_behavior": "fixed right-rail active chapter with nearby context titles only",
+      "source_motion_behavior": "subtle source drift and localized rail readability only",
+      "typography_cue": "brief key-phrase typography within rail-safe layout only",
+      "source_safe_read": "pass_planned_no_source_art_overlay_diagnostics"
+    },
+    {
+      "chapter_id": "the_revision",
+      "label": "CHAPTER 03",
+      "title": "The Revision",
+      "start_seconds": 181,
+      "end_seconds": 298,
+      "summary": "A shop drawing change divides the rods and changes the force path.",
+      "rail_behavior": "fixed right-rail active chapter with nearby context titles only",
+      "source_motion_behavior": "subtle source drift and localized rail readability only",
+      "typography_cue": "brief key-phrase typography within rail-safe layout only",
+      "source_safe_read": "pass_planned_no_source_art_overlay_diagnostics"
+    },
+    {
+      "chapter_id": "the_category_error",
+      "label": "CHAPTER 04",
+      "title": "The Category Error",
+      "start_seconds": 298,
+      "end_seconds": 475,
+      "summary": "The change is treated as coordination while it changes engineering responsibility.",
+      "rail_behavior": "fixed right-rail active chapter with nearby context titles only",
+      "source_motion_behavior": "subtle source drift and localized rail readability only",
+      "typography_cue": "brief key-phrase typography within rail-safe layout only",
+      "source_safe_read": "pass_planned_no_source_art_overlay_diagnostics"
+    },
+    {
+      "chapter_id": "the_warning_signs",
+      "label": "CHAPTER 05",
+      "title": "The Warning Signs",
+      "start_seconds": 475,
+      "end_seconds": 753,
+      "summary": "Prior cracks, deflection, and review signals fail to become decisive evidence.",
+      "rail_behavior": "fixed right-rail active chapter with nearby context titles only",
+      "source_motion_behavior": "subtle source drift and localized rail readability only",
+      "typography_cue": "brief key-phrase typography within rail-safe layout only",
+      "source_safe_read": "pass_planned_no_source_art_overlay_diagnostics"
+    },
+    {
+      "chapter_id": "everything_was_in_order",
+      "label": "CHAPTER 06",
+      "title": "Everything Was In Order",
+      "start_seconds": 753,
+      "end_seconds": 833.642812,
+      "summary": "The tragedy lands in a system where each artifact appeared procedurally acceptable.",
+      "rail_behavior": "fixed right-rail active chapter with nearby context titles only",
+      "source_motion_behavior": "subtle source drift and localized rail readability only",
+      "typography_cue": "brief key-phrase typography within rail-safe layout only",
+      "source_safe_read": "pass_planned_no_source_art_overlay_diagnostics"
+    }
+  ],
+  "typography_cues": [
+    {
+      "at": 12,
+      "cue": "The Tea Dance",
+      "layer": "rail_title",
+      "treatment": "strong active title lockup, no separate diagnostic card"
+    },
+    {
+      "at": 126,
+      "cue": "one rod, one path",
+      "layer": "rail_phrase",
+      "treatment": "short rail-native phrase cue, no connector lines"
+    },
+    {
+      "at": 212,
+      "cue": "the load doubled",
+      "layer": "rail_phrase",
+      "treatment": "caption-adjacent emphasis using rail typography only"
+    },
+    {
+      "at": 336,
+      "cue": "coordination became engineering",
+      "layer": "rail_phrase",
+      "treatment": "brief rail summary emphasis"
+    },
+    {
+      "at": 588,
+      "cue": "warning signs",
+      "layer": "rail_phrase",
+      "treatment": "muted repeat cue, no emergency imagery"
+    },
+    {
+      "at": 792,
+      "cue": "Everything was in order",
+      "layer": "rail_title",
+      "treatment": "final chapter rail cadence"
+    }
+  ],
+  "effect_map_cues": [
+    {
+      "at": 94,
+      "duration_seconds": 18,
+      "cue_id": "original_load_path_map",
+      "treatment": "rail-side simplified load-path explanation panel, not over source art",
+      "source_overlay_allowed": false
+    },
+    {
+      "at": 205,
+      "duration_seconds": 24,
+      "cue_id": "revision_changes_connection_map",
+      "treatment": "rail-side before/after text-and-shape cue inside panel area only",
+      "source_overlay_allowed": false
+    },
+    {
+      "at": 318,
+      "duration_seconds": 22,
+      "cue_id": "category_error_map",
+      "treatment": "rail-side responsibility handoff cue, no fake documents",
+      "source_overlay_allowed": false
+    },
+    {
+      "at": 492,
+      "duration_seconds": 28,
+      "cue_id": "warning_signs_sequence",
+      "treatment": "rail-side signal stack, no collapse/emergency imagery",
+      "source_overlay_allowed": false
+    },
+    {
+      "at": 756,
+      "duration_seconds": 20,
+      "cue_id": "order_vs_consequence_synthesis",
+      "treatment": "final synthesis in rail-safe area only",
+      "source_overlay_allowed": false
+    }
+  ],
+  "end_screen_cue": {
+    "start_seconds": 818.643,
+    "end_seconds": 833.642812,
+    "youtube_target_geometry_static": true,
+    "target_regions": {
+      "video_recommendation_box": {
+        "x": 1150,
+        "y": 260,
+        "width": 650,
+        "height": 365
+      },
+      "subscribe_target": {
+        "x": 1304,
+        "y": 702,
+        "width": 312,
+        "height": 166
+      }
+    },
+    "background_motion_policy": "ambient source drift may continue; platform target geometry remains static",
+    "captions_after_outro_start": "suppressed"
+  },
+  "required_reads": {
+    "living_cover_cue_map_read": "pass",
+    "chapter_cue_coverage_read": "pass",
+    "typography_cue_read": "pass",
+    "effect_map_cue_read": "pass",
+    "source_safe_motion_read": "pass",
+    "cue_no_diagnostic_overlay_read": "pass",
+    "cue_map_internal_artifact_read": "pass",
+    "visible_cue_overlay_read": "pass_no_visible_cue_ids_planned"
+  },
+  "downstream_locks": {
+    "may_create_html_rough_proof": false,
+    "may_advance_to_video_render": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_youtube_action": false
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "all_sources_locked_ready": false,
+  "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+  "created_at": "2026-05-21T08:03:29.774605Z",
+  "current_yellow_package_stamp_blocked": "20260521T070556Z",
+  "no_youtube_action": true,
+  "package_type": "shorts_script_locked_caption_source_inventory",
+  "ready_count": 1,
+  "review_required_count": 7,
+  "shorts": [
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": true,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": true,
+      "configured_locked_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/challenger_short_restart_v1_ending_cadence_script.txt",
+      "configured_locked_text_source_sha256": "af5de8b3748b953e49bc110c4feb0e69ca02c5135cc8f20d09c4d551965f6c2f",
+      "configured_locked_text_source_word_count": 124,
+      "human_script_lock_approval_required": false,
+      "label": "Challenger",
+      "legacy_script_candidates": [
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v1/challenger_short_v1.txt",
+          "sha256": "b97be0af71775e4108003860a596aea9800752aaf605bdc7279bf23c40278b75",
+          "similarity_to_timing_transcript": 0.090182,
+          "word_count": 120
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v3_trimmed/challenger_short_v3_trimmed.txt",
+          "sha256": "30959be6edefe30e56593c014afbc2c12c9c26eb1da0ca84aebbd051318791a1",
+          "similarity_to_timing_transcript": 0.082588,
+          "word_count": 130
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_v2_exact/challenger_short_v2_exact.txt",
+          "sha256": "fd83d85b8b74488558dea247326b4f8c56a509eacd53314e4ddd570c4df30c97",
+          "similarity_to_timing_transcript": 0.049116,
+          "word_count": 236
+        }
+      ],
+      "slug": "challenger",
+      "source_status": "locked_ready",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.diarized.srt",
+      "timing_srt_source_sha256": "c436910533895d93c94bfdab4cfeb644131b2629766845a848d0dd815bcb83a2",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "aa94fce5102592eb0d13d43126fd12788e93b0e21b410ec7efeee3fea31dd144"
+    },
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/transcripts_mastered/therac_short_scoped_v1.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/transcripts_mastered/therac_short_scoped_v1.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": false,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": false,
+      "configured_locked_text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/therac_short_scoped_v1.txt",
+      "configured_locked_text_source_sha256": "",
+      "configured_locked_text_source_word_count": 0,
+      "human_script_lock_approval_required": true,
+      "label": "Therac-25",
+      "legacy_script_candidates": [
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_minimal_surreal_v1/production/audio_text_backups/therac_short_minimal_surreal_v1.tagged.20260417T035548Z.txt",
+          "sha256": "5fc29e74baf8c28f73b6f9664ff76cb0d67b3c77501822111452e01904787bfb",
+          "similarity_to_timing_transcript": 0.945153,
+          "word_count": 132
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_minimal_surreal_v1/therac_short_minimal_surreal_v1.txt",
+          "sha256": "703b0282ad56edbf32d104625e42575469c08a94f9999b35666145279739d3d2",
+          "similarity_to_timing_transcript": 0.945153,
+          "word_count": 132
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_minimal_surreal_v1/therac_short_minimal_surreal_v1.tts_candidate_v2.txt",
+          "sha256": "621ae2615e4fb2d349971348acf8471ae62f1d5a8ccdc8f71c1cda9fade3ed56",
+          "similarity_to_timing_transcript": 0.695,
+          "word_count": 138
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/experiments/therac_short_v1_openai_cedar/therac_short_v1.txt",
+          "sha256": "da1e65b9a7e1262d59b6c60379cef501f73d960f4038168c0f15e2be58fd1b03",
+          "similarity_to_timing_transcript": 0.209628,
+          "word_count": 140
+        }
+      ],
+      "slug": "therac",
+      "source_status": "candidate_review_required",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/transcripts_mastered/therac_short_scoped_v1.diarized.srt",
+      "timing_srt_source_sha256": "8f2c32abef4a1f4b1a1762c77b2028abad77f61568c9c368b1f710be3d172316",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_short_scoped_v1/transcripts_mastered/therac_short_scoped_v1.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "b30582bdfcfc9d34de44e1661427d1afb2f032172d181831030291b23998a922"
+    },
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyatt_regency_short_scoped_v1/transcripts_mastered/hyatt_short_scoped_v1.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyatt_regency_short_scoped_v1/transcripts_mastered/hyatt_short_scoped_v1.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": false,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": false,
+      "configured_locked_text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/hyatt_short_scoped_v1/hyatt_short_scoped_v1.txt",
+      "configured_locked_text_source_sha256": "",
+      "configured_locked_text_source_word_count": 0,
+      "human_script_lock_approval_required": true,
+      "label": "Hyatt Regency",
+      "legacy_script_candidates": [
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/experiments/hyatt_short_motion_proof_v1/hyatt_short_motion_proof_v1.clean.txt",
+          "sha256": "74ca0b702e7cc47d5a2f99c53710b197cf68236d9e50bb676e94eef25ca5f59d",
+          "similarity_to_timing_transcript": 0.046906,
+          "word_count": 139
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/experiments/hyatt_short_motion_proof_v1/hyatt_short_motion_proof_v1.txt",
+          "sha256": "8e9d0e9c6693476f6d8686d41804b200926e18717b91d9d2e885cfc48c83f8bd",
+          "similarity_to_timing_transcript": 0.046906,
+          "word_count": 139
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/experiments/hyatt_short_motion_proof_v1_sub60/hyatt_short_motion_proof_v1_sub60.clean.txt",
+          "sha256": "096170fe59b45bd59ff9b57dadfb289142ad7721374b4cb33d41f2d7238cbddf",
+          "similarity_to_timing_transcript": 0.037683,
+          "word_count": 119
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/experiments/hyatt_short_motion_proof_v1_sub60/hyatt_short_motion_proof_v1_sub60.txt",
+          "sha256": "e8ec0d34244ba32f1fb4f17a654d778e7c0dfeb8399e615275d7e1852b93600d",
+          "similarity_to_timing_transcript": 0.037683,
+          "word_count": 119
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/hyatt_short_motion_proof_v1_challenger_match/hyatt_short_motion_proof_v1_challenger_match.clean.txt",
+          "sha256": "096170fe59b45bd59ff9b57dadfb289142ad7721374b4cb33d41f2d7238cbddf",
+          "similarity_to_timing_transcript": 0.037683,
+          "word_count": 119
+        },
+        {
+          "candidate_use": "review_candidate_only_not_locked",
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/shorts/hyatt_short_motion_proof_v1_challenger_match/hyatt_short_motion_proof_v1_challenger_match.txt",
+          "sha256": "e8ec0d34244ba32f1fb4f17a654d778e7c0dfeb8399e615275d7e1852b93600d",
+          "similarity_to_timing_transcript": 0.037683,
+          "word_count": 119
+        }
+      ],
+      "slug": "hyatt",
+      "source_status": "candidate_review_required",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyatt_regency_short_scoped_v1/transcripts_mastered/hyatt_short_scoped_v1.diarized.srt",
+      "timing_srt_source_sha256": "a165080bbcdd045eb15f4ae7301be7138d8a8ff36c116175e3383e78382aa77b",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyatt_regency_short_scoped_v1/transcripts_mastered/hyatt_short_scoped_v1.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "12d312fe47b819e4322ae96fa02f5c1e805c83bc0945e9e4c22d9398b70f46f4"
+    },
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_short_scoped_v1/transcripts_mastered/tacoma_short_scoped_v1.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_short_scoped_v1/transcripts_mastered/tacoma_short_scoped_v1.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": false,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": false,
+      "configured_locked_text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/shorts/tacoma_short_scoped_v1/tacoma_short_scoped_v1.txt",
+      "configured_locked_text_source_sha256": "",
+      "configured_locked_text_source_word_count": 0,
+      "human_script_lock_approval_required": true,
+      "label": "Tacoma Narrows",
+      "legacy_script_candidates": [],
+      "slug": "tacoma",
+      "source_status": "missing_locked_source",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_short_scoped_v1/transcripts_mastered/tacoma_short_scoped_v1.diarized.srt",
+      "timing_srt_source_sha256": "9865309a96e5cbacade2b758bf85ce992e152bcea42c82c9849b9c044843ec28",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_short_scoped_v1/transcripts_mastered/tacoma_short_scoped_v1.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "adbb75c08bf50fdb0f0174b3a6d6868efcc04c26f13d5fb67eae9c29bec0b32c"
+    },
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdown_man_short_scoped_v1/transcripts_mastered/piltdown_man_short_scoped_v1.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdown_man_short_scoped_v1/transcripts_mastered/piltdown_man_short_scoped_v1.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": false,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": false,
+      "configured_locked_text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/shorts/piltdown_man_short_scoped_v1/piltdown_man_short_scoped_v1.txt",
+      "configured_locked_text_source_sha256": "",
+      "configured_locked_text_source_word_count": 0,
+      "human_script_lock_approval_required": true,
+      "label": "Piltdown Man",
+      "legacy_script_candidates": [],
+      "slug": "piltdown",
+      "source_status": "missing_locked_source",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdown_man_short_scoped_v1/transcripts_mastered/piltdown_man_short_scoped_v1.diarized.srt",
+      "timing_srt_source_sha256": "98818283a8f21972086c8f799ebf434747a9a489acbe49c9dfd590ad9dcfcc8c",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdown_man_short_scoped_v1/transcripts_mastered/piltdown_man_short_scoped_v1.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "25135c8490d3f5676ee87d166702cbf7c2d5257a78fa32c6baedf22a41aab554"
+    },
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep7_737max_short_scoped_v1/transcripts_mastered/737_max_short_scoped_v1.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep7_737max_short_scoped_v1/transcripts_mastered/737_max_short_scoped_v1.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": false,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": false,
+      "configured_locked_text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/shorts/737_max_short_scoped_v1/737_max_short_scoped_v1.txt",
+      "configured_locked_text_source_sha256": "",
+      "configured_locked_text_source_word_count": 0,
+      "human_script_lock_approval_required": true,
+      "label": "737 MAX",
+      "legacy_script_candidates": [],
+      "slug": "737max",
+      "source_status": "missing_locked_source",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep7_737max_short_scoped_v1/transcripts_mastered/737_max_short_scoped_v1.diarized.srt",
+      "timing_srt_source_sha256": "9ebd1bec0a4290aa7b2ff5d8348cd3f4cb866cb4cbbf285b3c788831fc84d10d",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep7_737max_short_scoped_v1/transcripts_mastered/737_max_short_scoped_v1.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "d957c1f7f45de6436170dddde8581f509e6b9613820d54b0f312ad727e127ccb"
+    },
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/transcripts_mastered/titanic_short_scoped_v1.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/transcripts_mastered/titanic_short_scoped_v1.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": false,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": false,
+      "configured_locked_text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/shorts/titanic_short_scoped_v1/titanic_short_scoped_v1.txt",
+      "configured_locked_text_source_sha256": "",
+      "configured_locked_text_source_word_count": 0,
+      "human_script_lock_approval_required": true,
+      "label": "Titanic",
+      "legacy_script_candidates": [],
+      "slug": "titanic",
+      "source_status": "missing_locked_source",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/transcripts_mastered/titanic_short_scoped_v1.diarized.srt",
+      "timing_srt_source_sha256": "dd8da1bd94aaa04b60764e93f101477492d743c51c1e6ec2559eac85b893f6e7",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/transcripts_mastered/titanic_short_scoped_v1.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "cc7ef2468a87625ac631fbbb30cfe644a1466ed8bcf87228e5d8f111cc4d33f3"
+    },
+    {
+      "blocked_as_caption_word_sources": [
+        "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_short_scoped_v1/transcripts_mastered/semmelweis_short_scoped_v1.diarized.txt",
+        "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_short_scoped_v1/transcripts_mastered/semmelweis_short_scoped_v1.diarized.srt"
+      ],
+      "can_rebuild_publish_ready": false,
+      "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+      "configured_locked_text_source_exists": false,
+      "configured_locked_text_source_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/shorts/semmelweis_short_scoped_v1/semmelweis_short_scoped_v1.txt",
+      "configured_locked_text_source_sha256": "",
+      "configured_locked_text_source_word_count": 0,
+      "human_script_lock_approval_required": true,
+      "label": "Semmelweis",
+      "legacy_script_candidates": [],
+      "slug": "semmelweis",
+      "source_status": "missing_locked_source",
+      "timing_srt_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_short_scoped_v1/transcripts_mastered/semmelweis_short_scoped_v1.diarized.srt",
+      "timing_srt_source_sha256": "df6288b750f330aafac1e7664c001e23578871814882827b3db4acb0b8a8bcff",
+      "timing_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_short_scoped_v1/transcripts_mastered/semmelweis_short_scoped_v1.diarized.txt",
+      "timing_text_source_policy": "timing_only_blocked_as_caption_words",
+      "timing_text_source_sha256": "7797582b98245f2fdcdb86068b24ece1fd3b8fbae07fd58f893c62d9d9be3946"
+    }
+  ],
+  "source_policy": "locked_script_words_asr_timing_only_fail_closed",
+  "stamp": "20260521T080000Z"
+}

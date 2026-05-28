@@ -1,0 +1,1610 @@
+{
+  "episode_id": "titanic",
+  "created_utc": "2026-05-20T23:30:00Z",
+  "source": "living_cover_cue_map_key_phrases",
+  "status": "approved_lesson_takeaway_spans_loaded",
+  "highlight_render_policy": "reviewed_cue_map_spans_only",
+  "highlight_phrase_scope": "exact_authored_span_only",
+  "caption_motion_model": "constant_speed_audio_time_aligned_scroll_v2",
+  "caption_timeline_layout_model": "audio_time_positioned_stack_v1",
+  "caption_sync_target": "pre_vo_reading_lead_active_band_v1",
+  "caption_reading_lead_seconds": 0.65,
+  "caption_constant_speed_scope": "per_episode_constant_px_per_second",
+  "caption_playback_clock_model": "media_time_smoothed_raf_clock_v3",
+  "caption_stack_render_model": "compositor_linear_transform_driver_v1",
+  "caption_scroll_smoothness_model": "compositor_linear_transform_driver_v1",
+  "caption_runtime_coverage_model": "full_vo_runtime_visible_caption_coverage_v1",
+  "caption_full_vo_runtime_coverage_read": "pending_browser_runtime_qa",
+  "caption_density_resolution_model": "merge_dense_chunks_no_speed_ramp_v1",
+  "caption_line_opacity_model": "viewport_distance_smoothstep_v1",
+  "caption_window_treatment_model": "transparent_caption_mask_only_v1",
+  "caption_constant_scroll_speed_px_per_second": 54,
+  "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+  "highlight_semantic_role": "story_lesson_takeaway",
+  "highlight_density_model": "memorable_takeaway_cadence_v1",
+  "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+  "highlight_color_qa": {
+    "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+    "source": "sampled_episode_backplate",
+    "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+    "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+    "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+    "sample_bbox_xy": [
+      1410,
+      220,
+      1812,
+      872
+    ],
+    "sample_rgb": [
+      66,
+      82,
+      101
+    ],
+    "sample_hex": "#425265",
+    "selected_rgb": [
+      96,
+      93,
+      212
+    ],
+    "selected_hex": "#605dd4",
+    "active_caption_text_hex": "#f0f8fa",
+    "adjacent_caption_text_hex": "#b7ced4",
+    "active_caption_text_delta": 215.202,
+    "adjacent_caption_text_delta": 142.79,
+    "active_caption_text_contrast_ratio": 4.869,
+    "adjacent_caption_text_contrast_ratio": 3.192,
+    "candidate_count": 8,
+    "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+    "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+    "episode_id": "titanic"
+  },
+  "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+  "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+  "caption_layout_collision_guard": "fixed_line_box_visual_gap_guard_v1",
+  "caption_min_rendered_line_gap_px": 40,
+  "caption_forced_takeaway_merge_count": 10,
+  "missing_reviewed_key_phrase_span_policy": "highlights_suppressed_until_authored_reviewed_spans_exist",
+  "draft_key_phrase_span_policy": "draft spans render for rough-review behavior proof only; final and publish gates remain blocked until human keep",
+  "key_phrase_spans": [
+    {
+      "phrase_text": "law was measuring the wrong thing",
+      "normalized_script_token_range": [
+        116,
+        122
+      ],
+      "timing_window_seconds": [
+        48.173,
+        54.221
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        47.522,
+        50.722
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_01",
+      "source_candidate_id": "titanic_takeaway_candidate_01",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "They began with a category",
+      "normalized_script_token_range": [
+        148,
+        153
+      ],
+      "timing_window_seconds": [
+        59.128,
+        62.011
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        56.476,
+        59.676
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_02",
+      "source_candidate_id": "titanic_takeaway_candidate_02",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "Titanic was far beyond the world",
+      "normalized_script_token_range": [
+        221,
+        227
+      ],
+      "timing_window_seconds": [
+        90.371,
+        93.977
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        85.03,
+        88.23
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_03",
+      "source_candidate_id": "titanic_takeaway_candidate_03",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "the world changes around it",
+      "normalized_script_token_range": [
+        331,
+        336
+      ],
+      "timing_window_seconds": [
+        137.788,
+        143.395
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        134.456,
+        137.656
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_04",
+      "source_candidate_id": "titanic_takeaway_candidate_04",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "table had stopped tracking the scale",
+      "normalized_script_token_range": [
+        384,
+        390
+      ],
+      "timing_window_seconds": [
+        163.078,
+        165
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        160.546,
+        163.746
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_05",
+      "source_candidate_id": "titanic_takeaway_candidate_05",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "law did not say, count the people",
+      "normalized_script_token_range": [
+        471,
+        478
+      ],
+      "timing_window_seconds": [
+        197.251,
+        200.655
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        196.602,
+        199.314
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_06",
+      "source_candidate_id": "titanic_takeaway_candidate_06",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "old rule had a simpler answer ready",
+      "normalized_script_token_range": [
+        628,
+        635
+      ],
+      "timing_window_seconds": [
+        263.693,
+        268.661
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        263.043,
+        266.184
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_07",
+      "source_candidate_id": "titanic_takeaway_candidate_07",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "minimum into a signal of adequacy",
+      "normalized_script_token_range": [
+        759,
+        765
+      ],
+      "timing_window_seconds": [
+        316.093,
+        321.8
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        315.443,
+        318.643
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_08",
+      "source_candidate_id": "titanic_takeaway_candidate_08",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "rulebook was the smaller imagination",
+      "normalized_script_token_range": [
+        866,
+        871
+      ],
+      "timing_window_seconds": [
+        360.025,
+        363.531
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        359.457,
+        362.657
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_09",
+      "source_candidate_id": "titanic_takeaway_candidate_09",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "safety system would have had to think",
+      "normalized_script_token_range": [
+        944,
+        951
+      ],
+      "timing_window_seconds": [
+        394.909,
+        400.554
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        392.826,
+        396.026
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_10",
+      "source_candidate_id": "titanic_takeaway_candidate_10",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "reduced that system to a table",
+      "normalized_script_token_range": [
+        965,
+        971
+      ],
+      "timing_window_seconds": [
+        405.879,
+        411.951
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        405.23,
+        408.43
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_11",
+      "source_candidate_id": "titanic_takeaway_candidate_11",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "smaller version of the risk",
+      "normalized_script_token_range": [
+        1055,
+        1060
+      ],
+      "timing_window_seconds": [
+        443.951,
+        445.994
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        440.006,
+        443.206
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_12",
+      "source_candidate_id": "titanic_takeaway_candidate_12",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "law had turned scale into a category",
+      "normalized_script_token_range": [
+        1212,
+        1219
+      ],
+      "timing_window_seconds": [
+        511.454,
+        517.829
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        512.569,
+        515.769
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_13",
+      "source_candidate_id": "titanic_takeaway_candidate_13",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "A mature safety system does not pick",
+      "normalized_script_token_range": [
+        1342,
+        1349
+      ],
+      "timing_window_seconds": [
+        561.893,
+        568.24
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        563.235,
+        566.435
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_14",
+      "source_candidate_id": "titanic_takeaway_candidate_14",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "Then the proof arrives all at once",
+      "normalized_script_token_range": [
+        1461,
+        1468
+      ],
+      "timing_window_seconds": [
+        611.548,
+        613.651
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        610.898,
+        613.351
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_15",
+      "source_candidate_id": "titanic_takeaway_candidate_15",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "question was no longer just",
+      "normalized_script_token_range": [
+        1572,
+        1577
+      ],
+      "timing_window_seconds": [
+        656.445,
+        661.593
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        654.113,
+        657.313
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_16",
+      "source_candidate_id": "titanic_takeaway_candidate_16",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "failure was already present in the table",
+      "normalized_script_token_range": [
+        1654,
+        1661
+      ],
+      "timing_window_seconds": [
+        692.711,
+        694.693
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        692.061,
+        694.393
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_17",
+      "source_candidate_id": "titanic_takeaway_candidate_17",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "category built for yesterday's ship",
+      "normalized_script_token_range": [
+        1676,
+        1681
+      ],
+      "timing_window_seconds": [
+        699.72,
+        702.643
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        695.913,
+        699.113
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_18",
+      "source_candidate_id": "titanic_takeaway_candidate_18",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "law had stopped measuring the ships",
+      "normalized_script_token_range": [
+        1701,
+        1707
+      ],
+      "timing_window_seconds": [
+        710.29,
+        713.192
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        705.906,
+        709.106
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_19",
+      "source_candidate_id": "titanic_takeaway_candidate_19",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    },
+    {
+      "phrase_text": "reality audits the system",
+      "normalized_script_token_range": [
+        1742,
+        1746
+      ],
+      "timing_window_seconds": [
+        726.864,
+        728.67
+      ],
+      "highlight_color_sample": {
+        "source": "sampled_episode_backplate",
+        "hex": "#605dd4",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_hex": "#425265"
+      },
+      "highlight_color_qa": {
+        "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+        "source": "sampled_episode_backplate",
+        "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ambient_effect_placement_proof/placement_proof_browser.jpg",
+        "source_art_sha256": "418b30deff58f883369bc346754a2fa86f00109a427ddec8d6f895adb99fe223",
+        "sample_model": "caption_window_average_rgb_distinct_accent_v1",
+        "sample_bbox_xy": [
+          1410,
+          220,
+          1812,
+          872
+        ],
+        "sample_rgb": [
+          66,
+          82,
+          101
+        ],
+        "sample_hex": "#425265",
+        "selected_rgb": [
+          96,
+          93,
+          212
+        ],
+        "selected_hex": "#605dd4",
+        "active_caption_text_hex": "#f0f8fa",
+        "adjacent_caption_text_hex": "#b7ced4",
+        "active_caption_text_delta": 215.202,
+        "adjacent_caption_text_delta": 142.79,
+        "active_caption_text_contrast_ratio": 4.869,
+        "adjacent_caption_text_contrast_ratio": 3.192,
+        "candidate_count": 8,
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+        "highlight_adaptive_source_read": "pass_sampled_from_active_episode_backplate",
+        "episode_id": "titanic"
+      },
+      "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text",
+      "fade_in_seconds": 0.42,
+      "fade_out_seconds": 1.1,
+      "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+      "highlight_semantic_role": "story_lesson_takeaway",
+      "highlight_density_model": "memorable_takeaway_cadence_v1",
+      "highlight_color_model": "source_sampled_distinct_takeaway_accent_v2",
+      "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+      "visual_timing_window_seconds": [
+        726.215,
+        728.371
+      ],
+      "review_status": "human_approved_lesson_takeaway_span_20260523",
+      "span_id": "titanic_takeaway_approved_20",
+      "source_candidate_id": "titanic_takeaway_candidate_20",
+      "approved_candidate_source_path": "/Users/mike/Episodes_CascadeEffects/first_eight_lesson_takeaway_review/lesson_takeaway_candidates_latest.json",
+      "approved_candidate_source_sha256": "7f59d4af729a66d5e54a2401267fbaae2eba1e6a7012762221d2df48968ea0f2"
+    }
+  ]
+}

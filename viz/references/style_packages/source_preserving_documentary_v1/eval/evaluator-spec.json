@@ -1,0 +1,32 @@
+{
+  "evaluation_version": "1.0.0",
+  "style_id": "source_preserving_documentary_v1",
+  "metrics": [
+    {
+      "id": "asymmetry_ratio",
+      "weight": 0.12,
+      "pass_threshold": 0.45
+    },
+    {
+      "id": "palette_discipline",
+      "weight": 0.2,
+      "pass_threshold": 0.7
+    },
+    {
+      "id": "focal_clarity",
+      "weight": 0.43,
+      "pass_threshold": 0.78
+    },
+    {
+      "id": "visual_noise",
+      "weight": 0.25,
+      "pass_threshold": 0.65
+    }
+  ],
+  "overall_pass_threshold": 0.74,
+  "hard_fail_checks": [
+    "detected_text",
+    "control_asset_leakage",
+    "subject_count_exceeds_limit"
+  ]
+}

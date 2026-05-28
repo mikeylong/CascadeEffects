@@ -1,0 +1,38 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_04_visible_failure_pass_02",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_short__beat_04_tower_side_joint_smoke",
+      "archetype": "site_or_landscape",
+      "base_seed": 70401,
+      "prompt_body": "Three-quarter tower-side liftoff of the Space Shuttle Challenger just clearing the launch platform, pad structure, fixed service tower, orbiter, external tank, and twin boosters remain canonical and fully readable, one small gray-black smoke puff escapes from the right solid rocket booster aft field-joint zone while the tail exhaust and ground smoke remain normal and symmetrical, no breakup, no debris, no explosion, pale dawn sky, muted steel, restrained escalation"
+    },
+    {
+      "id": "challenger_short__beat_04_front_profile_breach",
+      "archetype": "site_or_landscape",
+      "base_seed": 70421,
+      "prompt_body": "Frontal launch-platform departure of Challenger with the launch pad and stack held as one readable site, orbiter, tank, boosters, and gantry geometry remain canonical as the vehicle rises, one thin dark breach plume curls sideways from the lower right booster joint while the engine and booster-tail exhaust stay otherwise routine, no fireball, no catastrophic breakup, no spectacle, cool gray sky, concrete beige, restrained launch tension"
+    },
+    {
+      "id": "challenger_short__beat_04_pad_relation_signal",
+      "archetype": "site_or_landscape",
+      "base_seed": 70441,
+      "prompt_body": "Closer launch-pad relation frame of Challenger lifting past the service structure, the pad deck, tower, and shuttle stack remain stable and recognizable, one localized charcoal smoke blossom the width of the booster body appears at the right booster aft field-joint area before dissipating into the otherwise normal launch plume, no explosion, no debris trail, no painterly abstraction, muted blue-gray, bone white, restrained daylight"
+    }
+  ]
+}

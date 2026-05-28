@@ -1,0 +1,9 @@
+# Subject Background Type Bezier Motion Precise Matte With Badges
+
+- Status: `local_review_experiment`
+- Motion overview sheet: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z/qa/subject_background_type_bezier_motion_320x180_contact_sheet.jpg`
+- Motion frame strips sheet: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z/qa/subject_background_type_bezier_motion_frame_strips_contact_sheet.jpg`
+- Precise matte overlay sheet: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z/qa/subject_background_type_bezier_motion_precise_matte_overlay_contact_sheet.jpg`
+- Manifest: `/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_20260509T191813Z/channel_trailer_v2_subject_background_type_bezier_motion_precise_matte_with_badges_manifest.json`
+
+This is a local silent motion proof only. It does not update the trailer, audio, or YouTube draft.

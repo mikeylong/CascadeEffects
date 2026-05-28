@@ -1,0 +1,39 @@
+{
+  "packet_id": "fixture_actual_outro_default_fail",
+  "voice_end_seconds": 100,
+  "outro_prelap_seconds": 5,
+  "outro_reaches_target_at_seconds": 100,
+  "outro_no_restart_at_voice_end": true,
+  "outro_source_continuity": true,
+  "vo_outro_blend_plan": {
+    "policy": "challenger_actual_outro_prelap_v1",
+    "full_outro_source_path": "/tmp/Paper Architecture.m4a",
+    "full_outro_start_seconds": 95,
+    "full_outro_fade_in_seconds": 5,
+    "full_outro_gain_linear": 0.66,
+    "voice_end_seconds": 100,
+    "outro_prelap_seconds": 5,
+    "outro_reaches_target_at_seconds": 100,
+    "outro_no_restart_at_voice_end": true,
+    "outro_source_continuity": true
+  },
+  "outro_transition_review_sample": {
+    "mp3": {
+      "path": "tests/fixtures/living_cover_final_gate/sample.mp3"
+    }
+  },
+  "reads": {
+    "vo_outro_blend_plan_read": "pass_mislabeled_non_subtle_default_fixture",
+    "vo_outro_music_blend_read": "pass_mislabeled_non_subtle_default_fixture",
+    "vo_outro_perceptual_review_read": "pass_mislabeled_non_subtle_default_fixture",
+    "outro_transition_review_sample_read": "pass",
+    "outro_entry_level_match_read": "pass",
+    "outro_under_vo_masking_read": "pass_mislabeled_non_subtle_default_fixture",
+    "outro_target_after_voice_read": "pass_mislabeled_non_subtle_default_fixture",
+    "outro_prelap_source_read": "pass_mislabeled_non_subtle_default_fixture",
+    "outro_prelap_start_read": "pass_mislabeled_non_subtle_default_fixture",
+    "outro_no_restart_at_voice_end_read": "pass_mislabeled_non_subtle_default_fixture",
+    "outro_source_continuity_read": "pass_mislabeled_non_subtle_default_fixture",
+    "music_contract_regression_read": "pass_mislabeled_non_subtle_default_fixture"
+  }
+}

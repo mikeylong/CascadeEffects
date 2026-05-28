@@ -1,0 +1,361 @@
+{
+  "package_id": "youtube_channel_banner_title_paper_architecture_20260518T005536Z",
+  "status": "superseded_too_abstract",
+  "may_advance": false,
+  "created_at_utc": "2026-05-18T01:16:25+00:00",
+  "youtube_studio_updated": false,
+  "platform_sources": [
+    {
+      "label": "YouTube Help - Manage your channel branding",
+      "url": "https://support.google.com/youtube/answer/10456525?co=GENIE.Platform%3DDesktop&hl=en"
+    },
+    {
+      "label": "YouTube Help - Channel banner & profile picture tips",
+      "url": "https://support.google.com/youtube/answer/12950272?hl=en"
+    }
+  ],
+  "official_requirements": {
+    "primary_visible_strip_px": [
+      2048,
+      340
+    ],
+    "minimum_upload_canvas_px": [
+      2048,
+      1152
+    ],
+    "minimum_safe_area_px": [
+      1235,
+      338
+    ],
+    "file_size_limit_bytes": 6291456
+  },
+  "supersedes": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_strip_candidates_repair_20260517T225043Z",
+    "reason": "title needed in banner and styled as Paper Architecture"
+  },
+  "reads": {
+    "official_requirements_read": "pass",
+    "skill_workflow_read": "pass",
+    "display_strip_target_read": "pass",
+    "dimensions_read": "pass",
+    "upload_canvas_read": "pass",
+    "file_size_read": "pass",
+    "safe_area_read": "pass",
+    "crop_resilience_read": "review_required",
+    "profile_icon_alignment_read": "pass",
+    "final_embellishment_read": "pass",
+    "generated_text_read": "pass",
+    "title_in_banner_read": "pass",
+    "paper_title_style_read": "review_required",
+    "waterfall_read": "pass",
+    "texture_noise_read": "pass"
+  },
+  "candidates": [
+    {
+      "id": "candidate_a_raised_paper_title_band",
+      "label": "A - Raised Paper Title Band",
+      "status": "superseded_too_abstract",
+      "may_advance": false,
+      "title_policy": "exact_local_deterministic_paper_architecture_title",
+      "exact_title": "Cascade of Effects",
+      "notes": "Raised cream paper title over the quiet low signal band.",
+      "base_strip": {
+        "path": "source/candidate_a_raised_paper_title_band_base_strip.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 790164,
+        "sha256": "35469f2c17eb5ed7ae5828e234e0da02b2fb6271df10c32892dde120369592bb",
+        "under_6mb": true
+      },
+      "strip": {
+        "path": "assets/candidate_a_raised_paper_title_band_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 794203,
+        "sha256": "c00c80c6fa7ad758e0fcd71397f43440cf5a361f25fb17178c5be14f14ce07de",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_a_raised_paper_title_band_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1028090,
+        "sha256": "7a41c3d5cf720aa3696a2990e0f1ff7ad8a1207b90a9e4604d55f8fec40b7223",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_a_raised_paper_title_band_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 794203,
+          "sha256": "c00c80c6fa7ad758e0fcd71397f43440cf5a361f25fb17178c5be14f14ce07de",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_a_raised_paper_title_band_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1028090,
+          "sha256": "7a41c3d5cf720aa3696a2990e0f1ff7ad8a1207b90a9e4604d55f8fec40b7223",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_a_raised_paper_title_band_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 777249,
+          "sha256": "43aa7661306a28ccc484eecda1ed7d081c829a533eb889278ace42c6a4c09caf",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_a_raised_paper_title_band_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1001989,
+          "sha256": "e667a7013542083a9dd0add966483dea027e506ff2913dfb92d174cc6c08759b",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_a_raised_paper_title_band_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 425554,
+          "sha256": "c8c317f0730aad5a4a11f0b5b7649c962b875b556c05335599df05c49f939ec0",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_a_raised_paper_title_band_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1476851,
+          "sha256": "db72db79e3da1a3459d05efcaae36b6ca652d4234e28c372ed6fe4939ad04858",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass"
+      }
+    },
+    {
+      "id": "candidate_b_foamcore_title_center",
+      "label": "B - Foam-Core Title Center",
+      "status": "superseded_too_abstract",
+      "may_advance": false,
+      "title_policy": "exact_local_deterministic_paper_architecture_title",
+      "exact_title": "Cascade of Effects",
+      "notes": "Replaces flat title with dimensional foam-core paper lettering.",
+      "base_strip": {
+        "path": "source/candidate_b_foamcore_title_center_base_strip.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1830770,
+        "sha256": "82d7dab771b6daf11db1e581bc0d7420c31e7fbd5261afd299a79902c6d445f4",
+        "under_6mb": true
+      },
+      "strip": {
+        "path": "assets/candidate_b_foamcore_title_center_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 768439,
+        "sha256": "fdc22cb27710b274298c3ab2a68633e9e741ff4e0bc54181cfde3940bae775d2",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_b_foamcore_title_center_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 914741,
+        "sha256": "638db0980af8cbfcd388b53171ffd36576131ae974c4a766301a56e51d3d2a93",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_b_foamcore_title_center_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 768439,
+          "sha256": "fdc22cb27710b274298c3ab2a68633e9e741ff4e0bc54181cfde3940bae775d2",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_b_foamcore_title_center_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 914741,
+          "sha256": "638db0980af8cbfcd388b53171ffd36576131ae974c4a766301a56e51d3d2a93",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_b_foamcore_title_center_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 759257,
+          "sha256": "11193e5d2b34feb33b4caa9507abe7433a861e87276619b005e968bf7b5ceb35",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_b_foamcore_title_center_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 899254,
+          "sha256": "24a9a9fbf267b456a487a741cfd72dc13b24124c79d8574e40550080095e68c6",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_b_foamcore_title_center_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 379389,
+          "sha256": "962b8262dfc110815375dd6597782d7ccf14a580b1b7562ccbe387b71964733d",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_b_foamcore_title_center_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1298533,
+          "sha256": "132d19bd335cf8418ccc62e3eb72722a3a537c530ade693aa76c72082393653f",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass"
+      }
+    },
+    {
+      "id": "candidate_c_cut_paper_title_world",
+      "label": "C - Cut-Paper Title World",
+      "status": "superseded_too_abstract",
+      "may_advance": false,
+      "title_policy": "exact_local_deterministic_paper_architecture_title",
+      "exact_title": "Cascade of Effects",
+      "notes": "Paper-cut title integrated into the channel-world edge architecture.",
+      "base_strip": {
+        "path": "source/candidate_c_cut_paper_title_world_base_strip.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 828473,
+        "sha256": "b266e64d2256dc616738942fafd16966518a509ce454347c51b4623dd4b58df9",
+        "under_6mb": true
+      },
+      "strip": {
+        "path": "assets/candidate_c_cut_paper_title_world_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 833831,
+        "sha256": "714475a245d01cd04467d421554a2f417e39d0ab495ce4431ccb76e4236d4b7f",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_c_cut_paper_title_world_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1014143,
+        "sha256": "d1e557c7357efc0c57abb9f91ad985af9c40f8306954b0ee2e4b74a70225826b",
+        "under_6mb": true
+      },
+      "usable_files": {
+        "visible_strip": {
+          "path": "visible_strips_2048x340/candidate_c_cut_paper_title_world_visible_strip_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 833831,
+          "sha256": "714475a245d01cd04467d421554a2f417e39d0ab495ce4431ccb76e4236d4b7f",
+          "under_6mb": true
+        },
+        "upload_candidate": {
+          "path": "upload_candidates_2048x1152/candidate_c_cut_paper_title_world_upload_wrapper_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 1014143,
+          "sha256": "d1e557c7357efc0c57abb9f91ad985af9c40f8306954b0ee2e4b74a70225826b",
+          "under_6mb": true
+        }
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_c_cut_paper_title_world_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 823419,
+          "sha256": "18783eea23d7758de3c194552c94e63c53afc51bce0f181839518a5a4e4a96f6",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_c_cut_paper_title_world_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 992000,
+          "sha256": "23d9cceccf5c0ec4f96a682acae0748412cb54af95b79fa9cccb15b6ba6f0914",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_c_cut_paper_title_world_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 392354,
+          "sha256": "e34ccedeeae83dc29e44b5c493d0ee901785a39600a9d5938dd2e28754dad8d3",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_c_cut_paper_title_world_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1429612,
+          "sha256": "6b266636dc3acf5588dbc4eb2db0a6c62ba9882fb62381d89cd6c6be1e80fc71",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "title_in_banner_read": "pass",
+        "paper_title_style_read": "review_required",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass"
+      }
+    }
+  ],
+  "review_artifacts": {
+    "contact_sheet": {
+      "path": "qa/youtube-channel-banner-title-paper-architecture-contact-sheet.png",
+      "width": 1240,
+      "height": 1818,
+      "bytes": 1206851,
+      "sha256": "5b1af82930d23995c4c467c0820936379a468e02d7cd2f024102fc8da8c2ca08",
+      "under_6mb": true
+    },
+    "qa_notes": "qa/qa_notes.md",
+    "source_notes": "source/source_notes.md"
+  }
+}

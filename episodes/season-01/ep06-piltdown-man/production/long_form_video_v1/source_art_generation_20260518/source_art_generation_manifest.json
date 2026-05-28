@@ -1,0 +1,133 @@
+{
+  "episode_id": "piltdown-man",
+  "workflow": "long_form_video_production_v1",
+  "gate": "source_art_generation",
+  "created_at_local": "2026-05-18",
+  "created_at_utc": "2026-05-19T03:49:33Z",
+  "updated_at_utc": "2026-05-19T04:20:35Z",
+  "status": "invalidated_wrong_video_visual_style_paper_architecture",
+  "disposition": "source_art_review_invalidated_paper_architecture_video_asset",
+  "review": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/review/source_art_generation_review_packet.md",
+    "packet_sha256": "a0377371f1719dcec448941f3281e4f97493d19979635672a63a11c6beb178eb",
+    "html_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/review/review.html",
+    "html_sha256": "7fb2af0141d011b1f9ff2458a2978db3a182707337516de23d3fd8bfd81eb731"
+  },
+  "invalidation": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/visual_style_invalidation_paper_architecture_video_assets_20260519.md",
+    "sha256": "b2b73c8a67c643aedc147d34ba46239618a067847727fb15800c6a7684f60e54",
+    "reason": "Video assets must not use Paper Architecture visual style.",
+    "effect": "Candidate source-art review is evidence-only; return to corrected non-Paper-Architecture visual-system planning before any source-art keep."
+  },
+  "visual_system_keep": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/human_visual_system_keep_20260518.md",
+    "sha256": "fb5e9cbd319fa03fc479fe3a5c9890328975887209f0b762ff568aa001b0aedf"
+  },
+  "visual_system_plan": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/visual_system_plan_20260518.md",
+    "sha256": "ad03a36456e8e2835c9abeb8c5083a6f339417aae2efc5657ede0a3fdd0df5b1"
+  },
+  "source_art_lane": "cascade-paper-architectures-ink-lit-v1",
+  "video_visual_style_scope_read": "reject_video_asset_used_paper_architecture",
+  "paper_architecture_visual_style_read": "reject",
+  "carrier_type": "generated_raster_source_art",
+  "generation_tool": "codex_builtin_image_gen",
+  "imagegen_skill_read": "pass_generated_with_builtin_image_gen",
+  "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+  "target_dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "aspect_ratio": "16:9"
+  },
+  "prompts": {
+    "primary_prompt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/prompts/piltdown_living_cover_source_art_primary_prompt.txt",
+      "sha256": "08b7282d6ff078cf895bd0d0541031bd36fa765938ba7d32da88125bc0bd49c1"
+    },
+    "candidate_b_repair_prompt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/prompts/piltdown_living_cover_source_art_candidate_b_repair_prompt.txt",
+      "sha256": "6b622c306c818c7e16bf0e309ccfd8521e99908fe52c03d45fab953587057946"
+    }
+  },
+  "recognizability_ladder": {
+    "public_anchor": "natural-history museum specimen table or display case with fossil fragments",
+    "evidence_object": "separated human cranium fragment, ape-like jaw, filed teeth, stained bone, and gravel-layer context",
+    "system_clue": "institutional drawers, display case, forensic light cues, and anonymous museum worker silhouette"
+  },
+  "required_source_art_reads": [
+    "historical_accuracy_read",
+    "source_reference_alignment_read",
+    "public_anchor_geometry_read",
+    "piltdown_specimen_relationship_read",
+    "fossil_fragment_accuracy_read",
+    "filed_teeth_visibility_read",
+    "stained_bone_material_read",
+    "museum_context_read",
+    "forensic_testing_cue_read",
+    "generated_text_logo_read",
+    "human_presence_read",
+    "no_recognizable_faces_read",
+    "texture_noise_read",
+    "waterfall_read"
+  ],
+  "candidate_outputs": [
+    {
+      "id": "candidate_a_museum_evidence_table",
+      "status": "rejected_wrong_video_visual_style_paper_architecture",
+      "raw_imagegen_path": "/Users/mike/.codex/generated_images/019e3c1f-efab-7a40-a8e6-b7157aa9322b/ig_09bd57a6412139c9016a0bdf01ac0881959b57252642752a13.png",
+      "raw_workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/assets/source_art/candidate_a_museum_evidence_table_raw.png",
+      "raw_sha256": "13711ee7763a48e12b260052eba321457f51e4c4a539344ed9fc1061168ecf0d",
+      "plate_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/assets/source_art/candidate_a_museum_evidence_table_1920x1080.png",
+      "plate_sha256": "718bad3055a59f1edc6b46cbea2c9b720e1d6343f404b250daad0056462eb601",
+      "review_notes": [
+        "Strong museum table and right-rail safe area.",
+        "Tighten: skull reads too complete for the fragment policy.",
+        "Tighten: cyan relationship marks read as visible connector lines."
+      ]
+    },
+    {
+      "id": "candidate_b_fragment_separation",
+      "status": "rejected_wrong_video_visual_style_paper_architecture",
+      "raw_imagegen_path": "/Users/mike/.codex/generated_images/019e3c1f-efab-7a40-a8e6-b7157aa9322b/ig_09bd57a6412139c9016a0bdf7ff9a88195a03cf520db82641e.png",
+      "raw_workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/assets/source_art/candidate_b_fragment_separation_raw.png",
+      "raw_sha256": "7999feb9a1bd47d3e7f8444c7a08f9290770ea9413cbc1f4c6ca3269a1a698ac",
+      "plate_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/assets/source_art/candidate_b_fragment_separation_1920x1080.png",
+      "plate_sha256": "2dc65d555a0a042a7a41b9cc62a3c954c1ebc0bec2cb35938104e00d696d8cc9",
+      "qa_320x180_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/qa/candidate_b_320x180.png",
+      "qa_320x180_sha256": "b95566340e6fc3196ff1c6e5035a30b115e05975a59db65aeb0239fdf24ce489",
+      "qa_168x94_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/qa/candidate_b_168x94.png",
+      "qa_168x94_sha256": "2894e9cc13215f5d432c36b21f30962543f004c9e409490b95f876cc8ec76af0",
+      "qa_960x540_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/source_art_generation_20260518/qa/candidate_b_960x540.png",
+      "qa_960x540_sha256": "f8019befad3174f6297080e00ab860b0e3a3dbf44a5160a5c3a21b69ea957822",
+      "preliminary_reads": {
+        "historical_accuracy_read": "pass_stylized_fragment_relationship",
+        "source_reference_alignment_read": "evidence_only_invalidated_wrong_video_visual_style_paper_architecture",
+        "public_anchor_geometry_read": "pass_museum_specimen_table",
+        "piltdown_specimen_relationship_read": "pass_separated_cranium_and_jaw",
+        "fossil_fragment_accuracy_read": "pass_partial_cranium_and_jaw_fragments",
+        "filed_teeth_visibility_read": "pass_visible_teeth",
+        "stained_bone_material_read": "pass",
+        "museum_context_read": "pass",
+        "forensic_testing_cue_read": "pass_restrained_case_and_lamp",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "human_presence_read": "pass_anonymous_back_turned_worker",
+        "no_recognizable_faces_read": "pass",
+        "texture_noise_read": "pass_preliminary_clean_paper",
+        "waterfall_read": "pass_no_water_read",
+        "video_visual_style_scope_read": "reject_video_asset_used_paper_architecture",
+        "paper_architecture_visual_style_read": "reject"
+      }
+    }
+  ],
+  "selected_review_candidate_id": "candidate_b_fragment_separation",
+  "candidate_output_status": "candidate_b_rejected_wrong_video_visual_style_paper_architecture",
+  "gate_effect": {
+    "may_generate_source_art_candidate": false,
+    "may_mark_source_art_keep": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false
+  },
+  "next_action": "Repair the visual-system plan with a non-Paper-Architecture video style, then require human visual-system keep before any new source-art generation."
+}

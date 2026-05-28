@@ -1,0 +1,389 @@
+{
+  "packet_id": "semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z",
+  "gate": "final_assembly_gate",
+  "status": "final_assembly_kept_publish_readiness_gate_open_public_release_blocked",
+  "human_disposition": "keep",
+  "created_utc": "2026-05-26T07:02:57.088Z",
+  "production_contract": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+    "youtube_action_approval_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization"
+  },
+  "review_only": false,
+  "publishable_final": true,
+  "upload_performed": false,
+  "proof_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z",
+  "proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/rough_assembly_manifest.json",
+  "source_html_proof": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/player.html",
+    "player_sha256": "a14d43dbc743b18ef097abd0213489e908ac6a0e2b2713f459051bbb2a6116d2",
+    "current_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "current_kept_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "corrective_review_render_from_unkept_proof": false,
+    "challenger_precision_matte_guard": {
+      "ok": true,
+      "context": "long_form_mp4_pre_render",
+      "created_utc": "2026-05-26T05:53:38.896Z",
+      "episode_id": "semmelweis",
+      "required": false,
+      "model": "challenger_precision_matte_guard_v1",
+      "expected": {
+        "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z",
+        "mask_sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+        "precision_model": "source_pixel_gap_preserving_tower_shuttle_matte_v3",
+        "keep_receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z/review/precision_matte_keep_receipt_20260523T045650Z.json",
+        "superseded_mask_sha256": [
+          "48ebac2e7e4b8737cc56e884d902211ee574781b7363eb24c9799afa3606d208",
+          "a184e54cd698b607a2f522c6a11888c4fe55cfaad6585c0a4d249936e97bd9a4",
+          "c4e91ecde3dd7ba44b2d5c7f3f3eb2580b142773158db122b4e3861afd9e938e"
+        ]
+      },
+      "observed": {
+        "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z",
+        "root_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/rough_assembly_manifest.json",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/rough_assembly_manifest.json",
+        "player_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/player.html",
+        "assets_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/assets",
+        "assets_realpath": "",
+        "mask_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/assets/masks/foreground_occlusion_matte.png",
+        "mask_realpath": "",
+        "mask_sha256": "",
+        "manifest_mask_sha256": "",
+        "manifest_precision_model": "",
+        "player_has_mask_cache_bust": false,
+        "player_has_data_mask_sha256": false,
+        "player_has_precision_model": false,
+        "keep_receipt_sha256": ""
+      },
+      "failures": [],
+      "reads": {
+        "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode"
+      }
+    }
+  },
+  "audio_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/audio_successor/semmelweis_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+    "sha256": "f156b7441fb621e25d4b636ad19843fa140d5d075fc04f5759f283a562629823",
+    "bytes": 155887702,
+    "role": "kept_right_rail_alignment_music_mix_wav",
+    "encode_policy": "encoded_to_aac_for_mp4_container"
+  },
+  "caption_package": {
+    "visible_rail_captions_burned_in": true,
+    "caption_model": "rolling_rail_caption_window_v1",
+    "youtube_upload_sidecar_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/youtube_sidecars/semmelweis_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "decc31ab0c99564e685c68223e7f3180c4a597df8fcea313e75ee5a239dec8e1",
+      "bytes": 20874
+    },
+    "youtube_upload_sidecar_srt": null,
+    "source_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T204013Z/proof_assets/captions/semmelweis_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "decc31ab0c99564e685c68223e7f3180c4a597df8fcea313e75ee5a239dec8e1",
+      "bytes": 20874
+    },
+    "browser_caption_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/browser/semmelweis_final_browser_qa.json"
+  },
+  "output": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/semmelweis_living_cover_final_review_1080p24.mp4",
+    "sha256": "d1f86b517d5e84a45ee8bcdab7b3fdaae2f8ea7ba97bbaec231f8822b2c4da7b",
+    "bytes": 336343910,
+    "duration_seconds": 883.716009,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "bit_rate": 3044814
+  },
+  "render_strategy": {
+    "mode": "current_kept_living_cover_html_full_browser_render",
+    "full_video_reencoded": true,
+    "audio_stream_copied_from_predecessor": false,
+    "audio_stream_copy_justification": "source is approved WAV mix; AAC encode required for H.264/AAC MP4 delivery",
+    "source_audio_sha256": "f156b7441fb621e25d4b636ad19843fa140d5d075fc04f5759f283a562629823",
+    "final_audio_stream_sha256": "cc65e69ca782ae818c9fab38cb2453db594eaa92549ee1d8b0e255ea0c077976",
+    "frame_count": 21210,
+    "parallel_capture_workers": 4,
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "crf": 18,
+    "preset": "veryfast"
+  },
+  "video_segments": {
+    "segment_count": 4,
+    "segments": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/segments/semmelweis_segment_00.mp4",
+        "sha256": "349c4c7807a295c745b0adb038bb34efbc34f3c4894f41be037c6e1b4305477a",
+        "bytes": 78852006
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/segments/semmelweis_segment_01.mp4",
+        "sha256": "de1d7d7f222d2985cdfaf9283548cba530ea1eaeafadcb9923701f2ddd257994",
+        "bytes": 79171644
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/segments/semmelweis_segment_02.mp4",
+        "sha256": "a35f28f96fa935dd3fe064ab45d0532432045b5f882a9fa0ef3ad17561c4bf82",
+        "bytes": 79501796
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/segments/semmelweis_segment_03.mp4",
+        "sha256": "bb5258a3508aabd5b5331cf2daea6a2e3df0fbb5b70938be180a30b29093637b",
+        "bytes": 77143418
+      }
+    ],
+    "concat": {
+      "concat_list": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/segments/concat_list.txt",
+        "sha256": "85e3db0cbf4fb34f62661854ccd785dd322e24058d7a36c3096e80502aa1ebbe",
+        "bytes": 1152
+      },
+      "concat_video": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/segments/semmelweis_video_concat.mp4",
+        "sha256": "b76c222307ea6515d77963fc0849b7b115ea7863c5084b67dbd951ad31c2369c",
+        "bytes": 314668618
+      }
+    }
+  },
+  "timing": {
+    "duration_seconds": 883.716689,
+    "fps": 24,
+    "voice_start_seconds": 3.601451,
+    "safe_window_start_seconds": 863.722244,
+    "safe_window_end_seconds": 883.722244
+  },
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "24/1",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration": "883.716009",
+      "size": "336343910",
+      "bit_rate": "3044814"
+    }
+  },
+  "browser_qa": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/browser/semmelweis_final_browser_qa.json",
+    "sha256": "21d530356ef211b78e906da015506d152817e59f14aaf412de00a9578242f322",
+    "reads": {
+      "page_load_read": "pass",
+      "render_mode_controls_hidden_read": "pass",
+      "render_mode_stage_only_read": "pass_stage_rect_matches_1920x1080_viewport",
+      "render_mode_ui_chrome_absence_read": "pass_no_visible_review_chrome_controls",
+      "forbidden_review_chrome_text_read": "pass_no_forbidden_review_ui_text_in_render_mode",
+      "visible_form_controls_absence_read": "pass_no_visible_audio_form_controls_in_render_mode",
+      "render_viewport_overflow_read": "pass_no_render_mode_viewport_overflow",
+      "caption_suppression_read": "tighten",
+      "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+      "viewer_text_suppression_read": "pass",
+      "youtube_target_geometry_static_read": "pass_static_overlay_boxes"
+    }
+  },
+  "production_contract_preflight": {
+    "receipt_type": "cascade_effects_output_contract_validation",
+    "schema_version": "cascade_effects_output_contract_receipt_v1",
+    "created_at": "2026-05-26T05:53:38.989Z",
+    "ok": true,
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/rough_assembly_manifest.json",
+    "artifact_manifest_sha256": "f5a56088a8d30cece9a644b469d774ae9aff2975a76deafd16d5a04f0b09a518",
+    "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+    "contract_id": "first-eight-longform-v1",
+    "family": "longform",
+    "intent": "successor",
+    "source_hashes": {
+      "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/rough_assembly_manifest.json",
+      "artifact_manifest_sha256": "f5a56088a8d30cece9a644b469d774ae9aff2975a76deafd16d5a04f0b09a518"
+    },
+    "allowed_delta": null,
+    "reads": {
+      "contract_read": "pass_contract_loaded_and_required_reads_passed",
+      "delta_read": "pass_no_repair_delta_required_for_intent",
+      "style_read": "pass_style_contract_reads_passed",
+      "media_read": "pass_source_hashes_and_media_reads_valid",
+      "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+    },
+    "existing_validators": [
+      {
+        "id": "validate_living_cover_rolling_caption_rail",
+        "status": "pass",
+        "stderr": ""
+      }
+    ],
+    "failures": [],
+    "youtube_action_requested": "",
+    "youtube_action_allowed": false,
+    "receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/production_contract_receipts/pre_render_contract_receipt.json",
+    "receipt_sha256": "3777a8d8aa8a26d8d2cd02453d373db8682e9f902bc93fe47b6faec0d65ad48b"
+  },
+  "qa_frames": {
+    "start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/frames/mp4_qa_start_1p000s.jpg",
+      "sha256": "27d6f7596b5194c808d45cf0e8d94ab72c8f84088ef51927ef6171295f1b54e8",
+      "bytes": 171050
+    },
+    "voice_start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/frames/mp4_qa_voice_start_3p601s.jpg",
+      "sha256": "7283450d8b7c92c279495e181380d3e0b829711b39dc6c5fc791f787459bd402",
+      "bytes": 180667
+    },
+    "quarter": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/frames/mp4_qa_quarter_220p929s.jpg",
+      "sha256": "41525fc5f5dabeb129722c0c4f68d101a912d4ebde73267c0ef53f608ee81633",
+      "bytes": 202084
+    },
+    "half": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/frames/mp4_qa_half_441p858s.jpg",
+      "sha256": "725a1a7061a9a5ff19932d6f9df0a165c11b5586f9de70a4a3674d7fd435384f",
+      "bytes": 194801
+    },
+    "three_quarter": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/frames/mp4_qa_three_quarter_662p788s.jpg",
+      "sha256": "6d438bfb58f1610db37f8d61860383a698260ea5b5ab3fccc152fb7d088d420e",
+      "bytes": 192454
+    },
+    "safe_window_start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/frames/mp4_qa_safe_window_start_863p722s.jpg",
+      "sha256": "3a0bd62134e8f7a5d41c9816580d94b10c4f494a3fce5daf98fac84152e44e45",
+      "bytes": 170571
+    },
+    "final_second": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/qa/frames/mp4_qa_final_second_882p717s.jpg",
+      "sha256": "cc46a0f30ccea49f3e8a638eb6bb10f0de3d45c5cd0ce455dec22767644e83fd",
+      "bytes": 164210
+    }
+  },
+  "qa_reads": {
+    "mp4_created_read": "pass",
+    "video_stream_read": "pass_h264_present",
+    "audio_stream_read": "pass_aac_audio_present",
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "duration_read": "pass",
+    "dimensions_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "caption_sidecar_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "caption_suppression_read": "tighten",
+    "render_mode_stage_only_read": "pass_stage_rect_matches_1920x1080_viewport",
+    "render_mode_ui_chrome_absence_read": "pass_no_visible_review_chrome_controls",
+    "forbidden_review_chrome_text_read": "pass_no_forbidden_review_ui_text_in_render_mode",
+    "visible_form_controls_absence_read": "pass_no_visible_audio_form_controls_in_render_mode",
+    "render_viewport_overflow_read": "pass_no_render_mode_viewport_overflow",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "viewer_text_suppression_read": "pass",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "post_change_regression_read": "pass_rendered_from_current_kept_html_proof_semmelweis",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode",
+    "challenger_precision_mask_sha_read": "not_applicable_non_challenger_episode",
+    "challenger_superseded_mask_block_read": "not_applicable_non_challenger_episode",
+    "downstream_gate_read": "pass_publish_readiness_package_only_public_release_locked",
+    "final_assembly_human_keep_read": "pass_user_requested_render_and_youtube_review_upload_20260526",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package",
+    "youtube_action_read": "pass_no_direct_youtube_action_from_final_assembly_manifest",
+    "youtube_upload_ready_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "public_release_ready_read": "blocked_manual_youtube_studio_only"
+  },
+  "may_advance_to_publish_readiness": true,
+  "may_youtube_action": false,
+  "youtube_upload_ready": false,
+  "public_release_ready": false,
+  "requested_youtube_upload": {
+    "requested_at_utc": "2026-05-26T08:20:44Z",
+    "requested_action": "prepare_publish_readiness_for_unlisted_youtube_review_upload",
+    "disposition": "allowed_next_gate_publish_readiness_package_only_public_release_blocked",
+    "next_valid_action": "build_publish_readiness_package_then_require_action_receipt_for_unlisted_review_upload"
+  },
+  "next_review_question": "Review this final MP4 assembly and reply with exactly one disposition: keep, tighten, or reject.",
+  "episode_id": "semmelweis",
+  "render_manifest_metadata_repair": {
+    "model": "post_render_manifest_episode_id_backfill_v1",
+    "created_utc": "2026-05-26T07:03:43.741Z",
+    "field_added": "episode_id",
+    "value": "semmelweis",
+    "media_changed": false,
+    "upload_performed": false,
+    "youtube_action_performed": false
+  },
+  "human_disposition_utc": "2026-05-26T08:20:44Z",
+  "human_disposition_source": "user_requested_render_and_youtube_review_upload_20260526",
+  "final_assembly_human_keep_record": {
+    "model": "final_assembly_human_keep_record_v1",
+    "episode_id": "semmelweis",
+    "approved_at_utc": "2026-05-26T08:20:44Z",
+    "approved_by": "user",
+    "approval_text": "Render the other episodes as well and publish them to YouTube.",
+    "approved_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/rough_assembly_manifest.json",
+    "approved_render_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/render_manifest.json",
+    "approved_mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_caption_highlight_runtime_audit_successor_20260526T053124Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260526T055338Z/semmelweis_living_cover_final_review_1080p24.mp4",
+    "approved_mp4_sha256": "d1f86b517d5e84a45ee8bcdab7b3fdaae2f8ea7ba97bbaec231f8822b2c4da7b",
+    "approved_scope": "current rendered MP4 assembly; open publish-readiness gate for unlisted YouTube review upload only",
+    "downstream_opened": [
+      "publish_readiness_package"
+    ],
+    "downstream_locked": [
+      "youtube_public_release",
+      "youtube_visibility_change"
+    ],
+    "youtube_visibility_action_performed": false
+  },
+  "reads": {
+    "final_assembly_human_keep_read": "pass_user_requested_render_and_youtube_review_upload_20260526",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package",
+    "youtube_action_read": "pass_no_direct_youtube_action_from_final_assembly_manifest",
+    "youtube_upload_ready_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "public_release_ready_read": "blocked_manual_youtube_studio_only",
+    "downstream_gate_read": "pass_publish_readiness_package_only_public_release_locked"
+  },
+  "review_reads": {
+    "final_assembly_human_keep_read": "pass_user_requested_render_and_youtube_review_upload_20260526",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package",
+    "youtube_action_read": "pass_no_direct_youtube_action_from_final_assembly_manifest",
+    "youtube_upload_ready_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "public_release_ready_read": "blocked_manual_youtube_studio_only",
+    "downstream_gate_read": "pass_publish_readiness_package_only_public_release_locked"
+  },
+  "publish_readiness_package": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/publish_readiness_manifest.json",
+    "review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/review.html",
+    "canonical_review_url": "http://127.0.0.1:8899/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T080000Z/review.html",
+    "status": "review_ready_pending_human_publish_readiness_keep",
+    "human_disposition": "pending",
+    "created_utc": "2026-05-26T08:23:23Z"
+  },
+  "publish_ready": false,
+  "upload_allowed": false
+}

@@ -1,0 +1,117 @@
+{
+  "alignment": {
+    "alignment_coverage": 0.9831932773109243,
+    "interpolated_script_token_count": 2,
+    "matched_script_token_count": 117,
+    "max_unmatched_script_span": 1,
+    "max_unmatched_script_span_allowed": 8,
+    "min_alignment_coverage": 0.98,
+    "script_token_count": 119,
+    "status": "pass",
+    "timing_token_count": 119,
+    "unmatched_script_span_count": 2,
+    "unmatched_script_spans": [
+      {
+        "end_index_exclusive": 9,
+        "start_index": 8,
+        "text": "twenty-four",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 96,
+        "start_index": 95,
+        "text": "seventy-three",
+        "token_count": 1
+      }
+    ]
+  },
+  "caption_alignment_coverage_read": "pass",
+  "caption_asr_text_not_used_read": "pass",
+  "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+  "caption_text_matches_script_read": "pass",
+  "caption_text_source": {
+    "path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/challenger_short_restart_v1_ending_cadence_script.txt",
+    "sha256": "af5de8b3748b953e49bc110c4feb0e69ca02c5135cc8f20d09c4d551965f6c2f"
+  },
+  "caption_text_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/challenger_short_restart_v1_ending_cadence_script.txt",
+  "caption_text_source_policy": "script_locked_canonical_text_only",
+  "caption_text_source_sha256": "af5de8b3748b953e49bc110c4feb0e69ca02c5135cc8f20d09c4d551965f6c2f",
+  "caption_timing_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/challenger_short_restart_v1_ending_cadence_pass_01.diarized.srt",
+    "sha256": "c01d20e12e5503c55ccf0db442bb84b3a61fdccf60515b662bc1e1f42dee18cf"
+  },
+  "caption_timing_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/challenger_short_restart_v1_ending_cadence_pass_01.diarized.srt",
+  "caption_timing_source_policy": "asr_whisperx_timing_only",
+  "caption_timing_source_sha256": "c01d20e12e5503c55ccf0db442bb84b3a61fdccf60515b662bc1e1f42dee18cf",
+  "cue_count": {
+    "offset": 21,
+    "story": 21
+  },
+  "outputs": {
+    "offset_srt": {
+      "bytes": 1468,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T084500Z/script_locked_captions/challenger_shorts.script_locked_rail_safe.offset_intro_3s000.srt",
+      "sha256": "77ad2e181536f9e0f45f05e9fff2fac6f9d0a5a986f576b9788fc37e98bffa68"
+    },
+    "offset_vtt": {
+      "bytes": 1422,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T084500Z/script_locked_captions/challenger_shorts.script_locked_rail_safe.offset_intro_3s000.vtt",
+      "sha256": "48e9f708c22ebdaa5e0b6dcc6e1d6d85d8beef39c35f0d4d7e7f5e48924e836c"
+    },
+    "qa_json": {
+      "bytes": 3655,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T084500Z/script_locked_captions/challenger_shorts.script_locked_caption_qa.json",
+      "sha256": "7b3c15e90ad9ad1bb64328969905355e833c977309a5023be5c7f428f1ed0269"
+    },
+    "story_srt": {
+      "bytes": 1468,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T084500Z/script_locked_captions/challenger_shorts.script_locked_rail_safe.srt",
+      "sha256": "19605620d5551d528004cde4d104066f3969b1a6af4335233ab60c0779ddec4f"
+    },
+    "story_vtt": {
+      "bytes": 1422,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T084500Z/script_locked_captions/challenger_shorts.script_locked_rail_safe.vtt",
+      "sha256": "d73531690d3bf3b4f771d1385c8f33e238cb007112919942312cfa3c2bff75cf"
+    }
+  },
+  "outro_cutoff_seconds": null,
+  "publish_ready_blocked_if_caption_text_not_script_locked": true,
+  "rail_safe_chunking": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7
+  },
+  "rail_validation": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "reads": {
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_no_caption_after_outro_start_read": "pass",
+    "caption_no_speaker_labels_read": "pass",
+    "caption_rail_safe_chunk_read": "pass",
+    "caption_text_matches_script_read": "pass"
+  },
+  "script_text_source": {
+    "bytes": 781,
+    "path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/challenger_short_restart_v1_ending_cadence_script.txt",
+    "sha256": "af5de8b3748b953e49bc110c4feb0e69ca02c5135cc8f20d09c4d551965f6c2f"
+  },
+  "status": "pass",
+  "story_cutoff_seconds": null,
+  "text_validation": {
+    "normalized_caption_token_count": 119,
+    "normalized_script_token_count": 119,
+    "status": "pass"
+  },
+  "timing_validation": {
+    "outro_cutoff_seconds": null,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "voice_offset_seconds": 3.0
+}

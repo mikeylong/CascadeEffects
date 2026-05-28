@@ -1,0 +1,121 @@
+{
+  "episode_id": "tacoma-narrows",
+  "status": "blocked_pending_publish_readiness_keep_and_explicit_upload_authorization",
+  "privacy_after_explicit_approval": "unlisted",
+  "video": {
+    "path": "media/tacoma-narrows_living_cover_final_review_1080p24.mp4",
+    "sha256": "87293a0c4de7194849c16c0dc764aa609e8e201f4c6661001cc9844706ae8c2d",
+    "bytes": 243386166
+  },
+  "captions": {
+    "vtt": {
+      "path": "captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "ea99ff408c835221d9e4415464df52a0bbf1b7fcfa35dfd2be0c6ad1f77876b1",
+      "bytes": 20590
+    },
+    "srt": {
+      "path": "captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "ed4c52ab1bd5fe5352950d283fe7087036538af70ad7610294a6366bac2a2dc4",
+      "bytes": 21594
+    }
+  },
+  "thumbnail": {
+    "path": "thumbnail/tacoma-narrows_thumbnail_candidate.jpg",
+    "sha256": "2cd07b944a4b2eadbf3ccf72d7444db83d414c6c23054bbb17f2187fe00bb719",
+    "bytes": 265926
+  },
+  "metadata": {
+    "title": "Tacoma Narrows",
+    "description": "Tacoma Narrows is a Cascade Effects episode about how small signals become system consequences.\n\nA bridge built at the edge of aerodynamic understanding exposed how structure, wind, and confidence can drift apart.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.",
+    "chapters": [
+      {
+        "time": "0:00",
+        "seconds": 0.0,
+        "label": "The Bridge Was Already Moving"
+      },
+      {
+        "time": "1:45",
+        "seconds": 104.521,
+        "label": "The Redesign Removed Stiffness"
+      },
+      {
+        "time": "3:27",
+        "seconds": 206.901,
+        "label": "Galloping Became Normal"
+      },
+      {
+        "time": "5:07",
+        "seconds": 306.841,
+        "label": "Five Conditions Before The Cable"
+      },
+      {
+        "time": "8:35",
+        "seconds": 514.515,
+        "label": "The Air Fed The Twist"
+      },
+      {
+        "time": "9:59",
+        "seconds": 599.145,
+        "label": "The Profession Changed"
+      },
+      {
+        "time": "11:16",
+        "seconds": 676.229,
+        "label": "The Model Had An Edge"
+      },
+      {
+        "time": "12:53",
+        "seconds": 772.836,
+        "label": "How Engineering Learns"
+      }
+    ],
+    "tags": [
+      "Cascade Effects",
+      "Galloping Gertie",
+      "Tacoma Narrows",
+      "aeroelastic flutter",
+      "bridge collapse",
+      "documentary",
+      "systems failure"
+    ],
+    "hashtags": [
+      "#CascadeEffects"
+    ],
+    "category": "Education",
+    "language": "en",
+    "made_for_kids": false,
+    "paid_promotion": false,
+    "privacy_after_explicit_approval": "unlisted",
+    "public_release_policy": "manual_youtube_studio_only",
+    "metadata_path": "metadata/youtube_metadata.json",
+    "metadata_sha256": "7fd175aed2854b53652e05ed5c09d617adde1e518363216c96a786e0857e2abb"
+  },
+  "locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "may_youtube_action": false,
+  "upload_allowed": false,
+  "upload_performed": false,
+  "production_contract_receipt": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_contract_harness_20260524T000000Z/production_contract_receipts/contract_receipt_20260524T054906Z.json",
+    "ok": true,
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "youtube_action_allowed": false,
+    "reads": {
+      "contract_read": "pass_contract_loaded_and_required_reads_passed",
+      "delta_read": "pass_no_repair_delta_required_for_intent",
+      "style_read": "pass_style_contract_reads_passed",
+      "media_read": "pass_source_hashes_and_media_reads_valid",
+      "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+    }
+  }
+}

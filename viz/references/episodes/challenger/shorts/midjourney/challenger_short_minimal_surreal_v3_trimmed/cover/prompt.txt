@@ -1,0 +1,17 @@
+Midjourney reference upload order:
+1. cover/references/01__opening_02.jpg
+2. cover/references/02__act2_01.jpg
+3. cover/references/03__act3_01.jpg
+4. cover/references/04__act4_02.jpg
+
+Text prompt:
+Challenger compressed into one institutional warning signal. single compressed Challenger shuttle-stack warning form occupying the left third as one severe industrial signal object. left-third composition, one dominant subject, large empty field, vertical 9:16 frame. Palette limited to bone white, slate blue, charcoal, warning red. one narrow warning-red seam embedded inside the same shuttle-stack form with no detached accent pieces or companion slab. Stillness, soft diffuse light, quiet suspended atmosphere.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

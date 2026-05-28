@@ -1,0 +1,204 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_reversed_burden__draft_txt2img",
+  "base_fragment": "minimal_surreal_flux_midjourney_grid_draft_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no crowd scene, no multiple readable faces, no room-wide crowd context, no chaotic press-room energy, no press scrum, no hearing-room spectacle, no booklet, no folder, no disconnected speakerphone, no second tabletop device, no giant wall monitor hero",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131803,
+    "selected_seed": 972054013131803,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 24,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_reversed_burden/draft/challenger_reversed_burden_draft",
+    "note_text": "Minimal-surreal Challenger v3 beat 03. Keep the table-power composition, remove the noisy props, and add wordless shuttle whiteboard context behind the decision.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "draft_txt2img",
+    "reference_board_dir": "references/episodes/challenger/routine_console_wide/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "tense",
+    "palette_policy": "contract-limited",
+    "accent_palette": "off-white, slate blue, charcoal, signal amber",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "preserve a quiet upper band and keep the reversed decision threshold above the subtitle zone",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "decision-room table where the burden of proof has been reversed and the room itself carries shuttle whiteboard context",
+    "beat_id": "beat_03",
+    "historical_anchor": "NASA and Thiokol decision room where safety had to be proven unsafe to stop launch",
+    "surreal_breach": "the authority split stays calm while the board behind it quietly remembers the shuttle in wordless marker traces",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_burden_shift.png",
+    "reference_mode": "midjourney_package_grid",
+    "midjourney_package_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v3_trimmed/package.manifest.json",
+    "midjourney_shot_id": "beat_03"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "small institutional decision room with a plain conference table, seated managers on one side, one standing engineer opposite, and a whiteboard behind them carrying simple shuttle-related marker traces",
+    "support_fragments": [
+      "blue and black marker arcs and booster-like whiteboard geometry remain wordless and subordinate to the authority split",
+      "the table stays clean and plausible, with no stray booklet or disconnected device pulling focus from the burden-shift read"
+    ],
+    "directives": [
+      "keep the room institutional and calm rather than chaotic",
+      "avoid press-room or courtroom drift",
+      "remove prop noise before adding any extra board context",
+      "make the reversal immediate at thumbnail size"
+    ],
+    "draft_directives": [
+      "keep the whiteboard marks wordless and shuttle-related rather than explanatory",
+      "use at most one physically plausible tabletop communication device and keep it subordinate"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "negative_prompt",
+      "widgets": {
+        "text": "{{ params.negative_prompt }}"
+      }
+    },
+    {
+      "key": "latent",
+      "widgets": {
+        "width": "{{ params.width }}",
+        "height": "{{ params.height }}",
+        "batch_size": "{{ params.batch_size }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.denoise }}"
+      }
+    },
+    {
+      "key": "flux_guidance",
+      "widgets": {
+        "guidance": "{{ params.guidance }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    },
+    {
+      "key": "load_subject_reference",
+      "widgets": {
+        "image": "{{ params.subject_reference_runtime_image }}"
+      }
+    },
+    {
+      "key": "clip_vision_loader",
+      "widgets": {
+        "clip_name": "{{ params.subject_reference_clip_vision_model }}"
+      }
+    },
+    {
+      "key": "clip_vision_encode",
+      "widgets": {
+        "crop": "{{ params.subject_reference_crop }}"
+      }
+    },
+    {
+      "key": "subject_reference_conditioning",
+      "widgets": {
+        "strength": "{{ params.subject_reference_strength }}",
+        "noise_augmentation": "{{ params.subject_reference_noise_augmentation }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_reversed_burden__draft_txt2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_reversed_burden__draft_txt2img.json"
+  }
+}

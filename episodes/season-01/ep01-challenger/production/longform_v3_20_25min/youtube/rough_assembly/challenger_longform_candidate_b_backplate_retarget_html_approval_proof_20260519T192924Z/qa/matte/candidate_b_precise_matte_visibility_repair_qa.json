@@ -1,0 +1,724 @@
+{
+  "status": "pass",
+  "matte_semantics": "alpha > 0 permits aircraft/dust; alpha 0 blocks foreground objects and rail text region",
+  "source_plate_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/references/candidate_b_clean_rail_depth_exact_seven_1920x1080.png",
+  "source_plate_sha256": "387a76bf66d948e647870d9ef895f8cd42e976ee4c132feea8e05a3077478e78",
+  "mask_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/assets/masks/foreground_occlusion_matte.png",
+  "mask_sha256": "1473144f1aeca28a70dcc074b796a901b4737db00c911d0afc5842f3a32b167c",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "candidate_b_precision_repair": {
+    "rail_exclusion_x_min": 1108,
+    "allowed_pixels_alpha_gt_10": 554221,
+    "hard_block_pixels": 718629,
+    "object_block_pixels": 217644
+  },
+  "probe_qa": {
+    "foreground_probe_alpha": {
+      "tower_beacon_pole": 0.0,
+      "tower_mid_hardware": 0.0,
+      "gantry_arm": 0.0,
+      "external_tank": 0.0,
+      "orbiter_body": 0.0,
+      "right_booster": 0.0,
+      "pad_deck": 0.0,
+      "left_floodlight": 0.0,
+      "foreground_astronaut": 0.0,
+      "wet_ground": 0.0,
+      "right_rail_region": 0.0
+    },
+    "open_air_probe_alpha": {
+      "left_open_sky": 1.0,
+      "high_sky_above_stack": 1.0,
+      "right_open_sky_before_rail": 1.0,
+      "tower_lattice_gap_upper": 1.0,
+      "tower_lattice_gap_mid": 1.0,
+      "shuttle_tower_gap": 1.0,
+      "lower_right_air_before_rail": 1.0
+    }
+  },
+  "route_qa": [
+    {
+      "start_seconds": 8,
+      "duration_seconds": 92,
+      "visible_samples": 110,
+      "foreground_leak_samples": 0,
+      "representative_samples": [
+        {
+          "p": 0.0,
+          "xy": [
+            1048,
+            114
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.125,
+          "xy": [
+            1006,
+            124
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.25,
+          "xy": [
+            896,
+            152
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.375,
+          "xy": [
+            739,
+            191
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.5,
+          "xy": [
+            560,
+            236
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.625,
+          "xy": [
+            381,
+            281
+          ],
+          "alpha": 0.0,
+          "visible": false
+        },
+        {
+          "p": 0.75,
+          "xy": [
+            224,
+            320
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.875,
+          "xy": [
+            114,
+            348
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 1.0,
+          "xy": [
+            72,
+            358
+          ],
+          "alpha": 1.0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "start_seconds": 248,
+      "duration_seconds": 100,
+      "visible_samples": 128,
+      "foreground_leak_samples": 0,
+      "representative_samples": [
+        {
+          "p": 0.0,
+          "xy": [
+            80,
+            88
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.125,
+          "xy": [
+            121,
+            91
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.25,
+          "xy": [
+            230,
+            98
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.375,
+          "xy": [
+            384,
+            108
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.5,
+          "xy": [
+            561,
+            120
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.625,
+          "xy": [
+            738,
+            132
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.75,
+          "xy": [
+            892,
+            142
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.875,
+          "xy": [
+            1001,
+            149
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 1.0,
+          "xy": [
+            1042,
+            152
+          ],
+          "alpha": 1.0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "start_seconds": 438,
+      "duration_seconds": 90,
+      "visible_samples": 127,
+      "foreground_leak_samples": 0,
+      "representative_samples": [
+        {
+          "p": 0.0,
+          "xy": [
+            1048,
+            68
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.125,
+          "xy": [
+            1007,
+            73
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.25,
+          "xy": [
+            899,
+            85
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.375,
+          "xy": [
+            746,
+            102
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.5,
+          "xy": [
+            571,
+            122
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.625,
+          "xy": [
+            396,
+            142
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.75,
+          "xy": [
+            243,
+            159
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.875,
+          "xy": [
+            135,
+            171
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 1.0,
+          "xy": [
+            94,
+            176
+          ],
+          "alpha": 1.0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "start_seconds": 627,
+      "duration_seconds": 108,
+      "visible_samples": 124,
+      "foreground_leak_samples": 0,
+      "representative_samples": [
+        {
+          "p": 0.0,
+          "xy": [
+            1038,
+            286
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.125,
+          "xy": [
+            996,
+            279
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.25,
+          "xy": [
+            887,
+            262
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.375,
+          "xy": [
+            732,
+            237
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.5,
+          "xy": [
+            554,
+            209
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.625,
+          "xy": [
+            376,
+            181
+          ],
+          "alpha": 0.0,
+          "visible": false
+        },
+        {
+          "p": 0.75,
+          "xy": [
+            221,
+            156
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.875,
+          "xy": [
+            112,
+            139
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 1.0,
+          "xy": [
+            70,
+            132
+          ],
+          "alpha": 1.0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "start_seconds": 804,
+      "duration_seconds": 96,
+      "visible_samples": 128,
+      "foreground_leak_samples": 0,
+      "representative_samples": [
+        {
+          "p": 0.0,
+          "xy": [
+            96,
+            178
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.125,
+          "xy": [
+            137,
+            174
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.25,
+          "xy": [
+            244,
+            162
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.375,
+          "xy": [
+            395,
+            146
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.5,
+          "xy": [
+            569,
+            128
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.625,
+          "xy": [
+            743,
+            110
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.75,
+          "xy": [
+            894,
+            94
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.875,
+          "xy": [
+            1001,
+            82
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 1.0,
+          "xy": [
+            1042,
+            78
+          ],
+          "alpha": 1.0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "start_seconds": 1006,
+      "duration_seconds": 100,
+      "visible_samples": 127,
+      "foreground_leak_samples": 0,
+      "representative_samples": [
+        {
+          "p": 0.0,
+          "xy": [
+            1052,
+            198
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.125,
+          "xy": [
+            1012,
+            192
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.25,
+          "xy": [
+            905,
+            178
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.375,
+          "xy": [
+            755,
+            157
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.5,
+          "xy": [
+            582,
+            133
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.625,
+          "xy": [
+            409,
+            109
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.75,
+          "xy": [
+            259,
+            88
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.875,
+          "xy": [
+            152,
+            74
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 1.0,
+          "xy": [
+            112,
+            68
+          ],
+          "alpha": 1.0,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "start_seconds": 1188,
+      "duration_seconds": 86,
+      "visible_samples": 126,
+      "foreground_leak_samples": 0,
+      "representative_samples": [
+        {
+          "p": 0.0,
+          "xy": [
+            74,
+            122
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.125,
+          "xy": [
+            115,
+            126
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.25,
+          "xy": [
+            225,
+            136
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.375,
+          "xy": [
+            379,
+            151
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.5,
+          "xy": [
+            556,
+            168
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.625,
+          "xy": [
+            733,
+            185
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.75,
+          "xy": [
+            887,
+            200
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 0.875,
+          "xy": [
+            997,
+            210
+          ],
+          "alpha": 1.0,
+          "visible": true
+        },
+        {
+          "p": 1.0,
+          "xy": [
+            1038,
+            214
+          ],
+          "alpha": 1.0,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "dust_qa": {
+    "sample_times": [
+      {
+        "time_seconds": 12,
+        "visible_motes": 40,
+        "foreground_leak_motes": 0
+      },
+      {
+        "time_seconds": 252,
+        "visible_motes": 39,
+        "foreground_leak_motes": 0
+      },
+      {
+        "time_seconds": 444,
+        "visible_motes": 42,
+        "foreground_leak_motes": 0
+      },
+      {
+        "time_seconds": 632,
+        "visible_motes": 41,
+        "foreground_leak_motes": 0
+      },
+      {
+        "time_seconds": 810,
+        "visible_motes": 43,
+        "foreground_leak_motes": 0
+      },
+      {
+        "time_seconds": 1012,
+        "visible_motes": 40,
+        "foreground_leak_motes": 0
+      },
+      {
+        "time_seconds": 1192,
+        "visible_motes": 43,
+        "foreground_leak_motes": 0
+      }
+    ]
+  },
+  "qa_reads": {
+    "source_plate_matte_registration_read": "pass_source_derived_candidate_b_precision_matte",
+    "foreground_probe_block_read": "pass",
+    "open_air_probe_read": "pass",
+    "aircraft_route_open_air_dwell_read": "pass",
+    "aircraft_foreground_occlusion_read": "pass",
+    "dust_visibility_read": "pass",
+    "dust_foreground_leak_read": "pass",
+    "right_rail_effect_exclusion_read": "pass"
+  },
+  "qa_artifacts": {
+    "mask": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/assets/masks/foreground_occlusion_matte.png",
+    "alpha": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/matte/candidate_b_matte_black_white_alpha.png",
+    "overlay": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/matte/candidate_b_matte_overlay_for_review.png",
+    "route_overlay": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/matte/candidate_b_precise_matte_aircraft_route_overlay.png",
+    "tower_stack_crop": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/matte/candidate_b_precise_matte_tower_stack_crop.png",
+    "dust_overlay": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/matte/candidate_b_precise_matte_dust_visibility_overlay.png"
+  }
+}

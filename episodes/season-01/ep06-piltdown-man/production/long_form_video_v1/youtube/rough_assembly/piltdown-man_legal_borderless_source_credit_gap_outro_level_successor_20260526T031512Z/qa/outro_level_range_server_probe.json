@@ -1,0 +1,11 @@
+{
+  "model": "review_range_server_probe_v1",
+  "ok": true,
+  "review_url": "http://127.0.0.1:8766/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=841.696&range_guard=piltdown-man-source-credit-gap-outro-level_20260526T031512Z_html_review",
+  "media_url": "http://127.0.0.1:8766/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/proof_assets/audio/piltdown-man_right_rail_alignment_music_mix.wav",
+  "http_status": 206,
+  "accept_ranges": "bytes",
+  "content_range": "bytes 0-1023/154150998",
+  "range_server_read": "pass_http_206_partial_content_byte_range_server",
+  "required_server_command": "node scripts/range_static_server.mjs 8766 /Users/mike/Episodes_CascadeEffects"
+}

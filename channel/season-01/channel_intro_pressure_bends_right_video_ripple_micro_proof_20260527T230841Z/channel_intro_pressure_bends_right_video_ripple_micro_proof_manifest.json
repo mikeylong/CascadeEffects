@@ -1,0 +1,664 @@
+{
+  "artifact_id": "channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z",
+  "workflow": "channel_intro_pressure_bends_right_video_ripple_micro_proof_v1",
+  "created_at_utc": "2026-05-27T23:09:29Z",
+  "status": "proof_only_review_required",
+  "production_contract": {
+    "contract_id": "channel-trailer-v1",
+    "intent": "experiment",
+    "production_successor_allowed": false,
+    "reason": "micro_proof_only_no_full_runtime_render_until_human_review"
+  },
+  "lineage": {
+    "accepted_full_backplate_predecessor_package": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_bass_drum_full_backplate_pulse_fix_20260527T192026Z",
+    "accepted_full_backplate_predecessor_manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_bass_drum_full_backplate_pulse_fix_20260527T192026Z/channel_intro_pressure_bends_original_format_bass_drum_full_backplate_pulse_fix_manifest.json",
+    "accepted_full_backplate_predecessor_manifest_sha256": "8d15b0ae6744a23a1949a697fdb47898146ffbcaa4ea20c18a7187f9af211b6e",
+    "accepted_full_backplate_predecessor_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_bass_drum_full_backplate_pulse_fix_20260527T192026Z/video/cascade_of_effects_channel_intro_pressure_bends_original_format_bass_drum_full_backplate_pulse_fix_1080p24.mp4",
+    "accepted_full_backplate_predecessor_mp4_sha256": "95999925a067d167b8329ba909c428781fa0a0694ea6553ab9803366fd73634b",
+    "rejected_full_render_package": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_bass_drum_right_video_pressure_ripple_fix_20260527T220702Z",
+    "rejected_full_render_manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_bass_drum_right_video_pressure_ripple_fix_20260527T220702Z/channel_intro_pressure_bends_original_format_bass_drum_right_video_pressure_ripple_fix_manifest.json",
+    "rejected_full_render_manifest_sha256": "630cb92f47ffa63d55f4572a37ac421e3de347cf5abf1ca95027f199ca3b824a",
+    "rejected_reason": "right_video_checkerboard_mesh_artifact_visual_ripple_not_believable"
+  },
+  "micro_proof": {
+    "scene": "Challenger",
+    "window_seconds": [
+      6.0,
+      8.0
+    ],
+    "frame_count": 48,
+    "fps": 24,
+    "selected_bass_hit": {
+      "analysis_index": 585,
+      "time_seconds": 6.282667,
+      "score": 1.0,
+      "low_energy": 165.508881,
+      "mid_high_energy_norm": 0.82408,
+      "frame_index": 151,
+      "frame_time_seconds": 6.291667,
+      "frame_lock_offset_seconds": 0.009
+    },
+    "config": {
+      "profile_id": "right_video_smooth_pressure_refraction_micro_proof_v1",
+      "render_model": "numpy_per_pixel_bilinear_radial_remap_no_mesh",
+      "proof_window_seconds": [
+        6.0,
+        8.0
+      ],
+      "hit_seconds": 6.291667,
+      "hit_frame": 151,
+      "decay_frames": 9,
+      "max_displacement_px": 1.65,
+      "base_pressure_displacement_px": 0.42,
+      "ripple_wavelength_px": 148.0,
+      "ripple_travel_px_per_frame": 62.0,
+      "ripple_band_width_px": 175.0,
+      "pressure_contrast_lift": 0.024,
+      "pressure_brightness_lift": 0.022,
+      "scanline_lift": 0.014,
+      "screen_wash_mix": 0.018,
+      "carry_through_brightness_lift": 0.075,
+      "carry_through_additive_lift_rgb": [
+        2.0,
+        3.0,
+        7.0
+      ],
+      "carry_through_wash_mix": 0.035,
+      "carry_through_mask_blur_px": 42,
+      "video_pixels_clipped_to_screen_mask": true,
+      "geometry_movement_allowed": false
+    },
+    "contexts": [
+      {
+        "global_frame": 144,
+        "global_time_seconds": 6.0,
+        "strength": 0.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 145,
+        "global_time_seconds": 6.041667,
+        "strength": 0.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 146,
+        "global_time_seconds": 6.083333,
+        "strength": 0.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 147,
+        "global_time_seconds": 6.125,
+        "strength": 0.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 148,
+        "global_time_seconds": 6.166667,
+        "strength": 0.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 149,
+        "global_time_seconds": 6.208333,
+        "strength": 0.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 150,
+        "global_time_seconds": 6.25,
+        "strength": 0.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 151,
+        "global_time_seconds": 6.291667,
+        "strength": 1.0,
+        "elapsed_frames": 0,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 152,
+        "global_time_seconds": 6.333333,
+        "strength": 0.804615,
+        "elapsed_frames": 1,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 153,
+        "global_time_seconds": 6.375,
+        "strength": 0.647405,
+        "elapsed_frames": 2,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 154,
+        "global_time_seconds": 6.416667,
+        "strength": 0.520912,
+        "elapsed_frames": 3,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 155,
+        "global_time_seconds": 6.458333,
+        "strength": 0.419134,
+        "elapsed_frames": 4,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 156,
+        "global_time_seconds": 6.5,
+        "strength": 0.337241,
+        "elapsed_frames": 5,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 157,
+        "global_time_seconds": 6.541667,
+        "strength": 0.271349,
+        "elapsed_frames": 6,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 158,
+        "global_time_seconds": 6.583333,
+        "strength": 0.218332,
+        "elapsed_frames": 7,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 159,
+        "global_time_seconds": 6.625,
+        "strength": 0.175673,
+        "elapsed_frames": 8,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 160,
+        "global_time_seconds": 6.666667,
+        "strength": 0.141349,
+        "elapsed_frames": 9,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 161,
+        "global_time_seconds": 6.708333,
+        "strength": 0.0,
+        "elapsed_frames": 10,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 162,
+        "global_time_seconds": 6.75,
+        "strength": 0.0,
+        "elapsed_frames": 11,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 163,
+        "global_time_seconds": 6.791667,
+        "strength": 0.0,
+        "elapsed_frames": 12,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 164,
+        "global_time_seconds": 6.833333,
+        "strength": 0.0,
+        "elapsed_frames": 13,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 165,
+        "global_time_seconds": 6.875,
+        "strength": 0.0,
+        "elapsed_frames": 14,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 166,
+        "global_time_seconds": 6.916667,
+        "strength": 0.0,
+        "elapsed_frames": 15,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 167,
+        "global_time_seconds": 6.958333,
+        "strength": 0.0,
+        "elapsed_frames": 16,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 168,
+        "global_time_seconds": 7.0,
+        "strength": 0.0,
+        "elapsed_frames": 17,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 169,
+        "global_time_seconds": 7.041667,
+        "strength": 0.0,
+        "elapsed_frames": 18,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 170,
+        "global_time_seconds": 7.083333,
+        "strength": 0.0,
+        "elapsed_frames": 19,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 171,
+        "global_time_seconds": 7.125,
+        "strength": 0.0,
+        "elapsed_frames": 20,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 172,
+        "global_time_seconds": 7.166667,
+        "strength": 0.0,
+        "elapsed_frames": 21,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 173,
+        "global_time_seconds": 7.208333,
+        "strength": 0.0,
+        "elapsed_frames": 22,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 174,
+        "global_time_seconds": 7.25,
+        "strength": 0.0,
+        "elapsed_frames": 23,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 175,
+        "global_time_seconds": 7.291667,
+        "strength": 0.0,
+        "elapsed_frames": 24,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 176,
+        "global_time_seconds": 7.333333,
+        "strength": 0.0,
+        "elapsed_frames": 25,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 177,
+        "global_time_seconds": 7.375,
+        "strength": 0.0,
+        "elapsed_frames": 26,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 178,
+        "global_time_seconds": 7.416667,
+        "strength": 0.0,
+        "elapsed_frames": 27,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 179,
+        "global_time_seconds": 7.458333,
+        "strength": 0.0,
+        "elapsed_frames": 28,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 180,
+        "global_time_seconds": 7.5,
+        "strength": 0.0,
+        "elapsed_frames": 29,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 181,
+        "global_time_seconds": 7.541667,
+        "strength": 0.0,
+        "elapsed_frames": 30,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 182,
+        "global_time_seconds": 7.583333,
+        "strength": 0.0,
+        "elapsed_frames": 31,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 183,
+        "global_time_seconds": 7.625,
+        "strength": 0.0,
+        "elapsed_frames": 32,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 184,
+        "global_time_seconds": 7.666667,
+        "strength": 0.0,
+        "elapsed_frames": 33,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 185,
+        "global_time_seconds": 7.708333,
+        "strength": 0.0,
+        "elapsed_frames": 34,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 186,
+        "global_time_seconds": 7.75,
+        "strength": 0.0,
+        "elapsed_frames": 35,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 187,
+        "global_time_seconds": 7.791667,
+        "strength": 0.0,
+        "elapsed_frames": 36,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 188,
+        "global_time_seconds": 7.833333,
+        "strength": 0.0,
+        "elapsed_frames": 37,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 189,
+        "global_time_seconds": 7.875,
+        "strength": 0.0,
+        "elapsed_frames": 38,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 190,
+        "global_time_seconds": 7.916667,
+        "strength": 0.0,
+        "elapsed_frames": 39,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      },
+      {
+        "global_frame": 191,
+        "global_time_seconds": 7.958333,
+        "strength": 0.0,
+        "elapsed_frames": 40,
+        "active_quad_labels": [
+          "challenger"
+        ]
+      }
+    ]
+  },
+  "outputs": {
+    "package_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z",
+    "review_html": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/review.html",
+    "review_url": "http://127.0.0.1:8767/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/review.html",
+    "effect_only_clip": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/video/right_video_smooth_ripple_effect_only_1080p24.mp4",
+    "effect_only_clip_sha256": "3a9a1bd111f62e1e31e736d1ab07dc4510eb8a6cc6a79f08aa02e2be4aff353d",
+    "before_after_clip": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/video/right_video_smooth_ripple_before_after_1080p24.mp4",
+    "before_after_clip_sha256": "171c15dfde96df89af88136e2491bdffb2251692f8a412e3550ed181eb8b2580",
+    "hit_frame_strip": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_hit_frame_strip.jpg",
+    "hit_frame_strip_sha256": "2c95293f52f973d373f88ebb52765daa6e681e1633f5d928b4b9dee726f30ead",
+    "before_after_delta_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_before_after_delta_contact_sheet.jpg",
+    "before_after_delta_contact_sheet_sha256": "1f71cf8ee568fa7238f2ab35c895ef8207f981e92a4f3a69b55a4a5e61ce4728",
+    "range_server_probe": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/range_server_probe_8767.json",
+    "range_server_probe_sha256": "b81d502187b383664e8b6368caf95bfd3c8a1fc79e41c5fa0058630c19e4c79a"
+  },
+  "qa": {
+    "effect_only_ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "duration": "2.000000"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "avg_frame_rate": "0/0",
+          "duration": "2.000000"
+        }
+      ],
+      "format": {
+        "duration": "2.000000"
+      },
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/video/right_video_smooth_ripple_effect_only_1080p24.mp4",
+      "sha256": "3a9a1bd111f62e1e31e736d1ab07dc4510eb8a6cc6a79f08aa02e2be4aff353d"
+    },
+    "before_after_ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "24/1",
+          "duration": "2.000000"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "avg_frame_rate": "0/0",
+          "duration": "2.000000"
+        }
+      ],
+      "format": {
+        "duration": "2.000000"
+      },
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/video/right_video_smooth_ripple_before_after_1080p24.mp4",
+      "sha256": "171c15dfde96df89af88136e2491bdffb2251692f8a412e3550ed181eb8b2580"
+    },
+    "effect_only_full_decode_read": "pass",
+    "before_after_full_decode_read": "pass",
+    "range_server_read": "pass_http_206_partial_content_byte_range_server",
+    "visual_qa": {
+      "samples": [
+        {
+          "offset_frames": 0,
+          "global_frame": 151,
+          "global_time_seconds": 6.291667,
+          "local_frame": 7,
+          "strength": 1.0,
+          "before_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0151_plus_00_before.png",
+          "after_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0151_plus_00_after.png",
+          "delta_crop_x12": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0151_plus_00_delta_x12.png",
+          "before_sha256": "1d05bc67574d0cebff28df3ed9a8d58f0d35a4e210f84ccc499aa1d2643ad5e2",
+          "after_sha256": "87053aa32a90556e9bde81b85f1a749459f2afa5817619d8d9336a64acbcc219",
+          "delta_sha256": "823915b993964257c6ea03c82b2d47a001973e27a7080042323a0dc319b93b9b"
+        },
+        {
+          "offset_frames": 2,
+          "global_frame": 153,
+          "global_time_seconds": 6.375,
+          "local_frame": 9,
+          "strength": 0.647405,
+          "before_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0153_plus_02_before.png",
+          "after_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0153_plus_02_after.png",
+          "delta_crop_x12": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0153_plus_02_delta_x12.png",
+          "before_sha256": "0ac6d9ef94976ec60c0af7dc4c2dc57303b6fe92726bce68db6d14acbda66584",
+          "after_sha256": "ea8e699b6137c3fbda52dc26e8a68f2153c22246721ee515cba31a11de0c341f",
+          "delta_sha256": "223008324561914a952ad94f5d930f9d832bff7253cbb65b4f33e919e4d224fd"
+        },
+        {
+          "offset_frames": 5,
+          "global_frame": 156,
+          "global_time_seconds": 6.5,
+          "local_frame": 12,
+          "strength": 0.337241,
+          "before_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0156_plus_05_before.png",
+          "after_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0156_plus_05_after.png",
+          "delta_crop_x12": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0156_plus_05_delta_x12.png",
+          "before_sha256": "c8b52b94341d097d3d2071053fa96d755d7dbb038aa35076d10e165d0413135d",
+          "after_sha256": "fd73d38f893a7471d90687bb236e29113f023574a727a0eba873e222749bf155",
+          "delta_sha256": "ae5a00819dd00d7fb8e1d5ce774ae393ca19275b70202bda74836f869e518322"
+        },
+        {
+          "offset_frames": 9,
+          "global_frame": 160,
+          "global_time_seconds": 6.666667,
+          "local_frame": 16,
+          "strength": 0.141349,
+          "before_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0160_plus_09_before.png",
+          "after_crop": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0160_plus_09_after.png",
+          "delta_crop_x12": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_sample_frames/0160_plus_09_delta_x12.png",
+          "before_sha256": "6f6cea0d2f62d2621a3e6263685e71d7876edb9ef384f69f930e9472c1b9829f",
+          "after_sha256": "265922aa59a25827cdbb92c1288bbdde42c3a19d1bc7bf55e99a248c7d9fad19",
+          "delta_sha256": "493c8ec9c8fb718f20770b26a472902536e9cf67f0b71f688cec8a9370a51649"
+        }
+      ],
+      "hit_frame_strip": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_hit_frame_strip.jpg",
+      "hit_frame_strip_sha256": "2c95293f52f973d373f88ebb52765daa6e681e1633f5d928b4b9dee726f30ead",
+      "before_after_delta_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_right_video_ripple_micro_proof_20260527T230841Z/qa/smooth_ripple_before_after_delta_contact_sheet.jpg",
+      "before_after_delta_contact_sheet_sha256": "1f71cf8ee568fa7238f2ab35c895ef8207f981e92a4f3a69b55a4a5e61ce4728",
+      "checkerboard_mesh_artifact_read": "pass_no_pil_mesh_used_smooth_per_pixel_remap",
+      "hard_block_boundary_read": "pass_no_rectangular_mesh_cells_generated",
+      "screen_realism_read": "review_required_human_judges_smooth_refraction_micro_proof"
+    }
+  },
+  "reads": {
+    "proof_only_read": "pass_micro_proof_only_no_full_runtime_render",
+    "rejected_full_render_recorded_read": "pass_prior_full_render_marked_tighten_in_lineage",
+    "inherited_hit_timing_read": "pass_uses_existing_6_291667s_challenger_bass_hit_no_new_detection",
+    "smooth_remap_read": "pass_numpy_per_pixel_bilinear_remap_no_pil_mesh",
+    "checkerboard_mesh_artifact_read": "pass_no_pil_mesh_used_smooth_per_pixel_remap",
+    "hard_block_boundary_read": "pass_no_rectangular_mesh_cells_generated",
+    "right_video_clipped_screen_read": "pass_video_pixels_clipped_to_rounded_screen_mask",
+    "carry_through_edge_read": "pass_smooth_low_amplitude_card_edge_and_backplate_response",
+    "geometry_stability_read": "pass_card_quad_badges_labels_and_placeholders_not_moved",
+    "effect_only_full_decode_read": "pass",
+    "before_after_full_decode_read": "pass",
+    "range_server_read": "pass_http_206_partial_content_byte_range_server",
+    "youtube_action_read": "blocked_local_review_only_no_upload_or_replacement"
+  },
+  "youtube_uploaded": false,
+  "youtube_channel_trailer_replaced": false
+}

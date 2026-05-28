@@ -1,0 +1,398 @@
+{
+  "episode_id": "challenger",
+  "workflow": "long_form_video_production_v1",
+  "packet_type": "source_art_experiment",
+  "experiment_id": "challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z",
+  "created_at_utc": "2026-05-19T18:08:14Z",
+  "status": "candidate_b_selected_for_successor_proof_current_final_unchanged",
+  "disposition": "experiment_only_not_active_source_art",
+  "experiment_only": true,
+  "blocks_current_final": false,
+  "may_replace_current_final": false,
+  "may_mark_source_art_keep": false,
+  "may_create_cue_map": false,
+  "may_start_motion_readiness": false,
+  "may_start_rough_assembly": false,
+  "may_render_final_mp4": false,
+  "may_youtube_action": false,
+  "current_final_publish_package_touched": false,
+  "source_art_lane": "cascade-ink-lit-photoreal-v1",
+  "carrier_direction": "candidate_b_composition_exact_seven_astronauts",
+  "carrier_type": "generated_raster_source_art",
+  "generation_method": "visible_reference_guided_regenerate",
+  "generation_tool": "codex_builtin_image_gen",
+  "imagegen_skill_read": "pass_required_for_generation",
+  "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+  "source_art_workspace_copy_read": "pass_all_packaged_generated_assets_copied_into_experiment_packet",
+  "local_rendered_backplate_read": "pass_local_tools_only_normalized_and_packaged_imagegen_outputs",
+  "target_dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "aspect_ratio": "16:9"
+  },
+  "active_episode_baseline": {
+    "baseline_index": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json",
+      "sha256": "e6d1e72e6e46f1877ef0dc9813f30cd66513363c54e5594899bbcf01c7793f0e"
+    },
+    "baseline_doc": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/challenger.md",
+      "sha256": "190bec3da12a76eab1dca58aaafe4037cbe184ae490c336ff5ff594ca185035b"
+    },
+    "baseline_status": "keep_publish_readiness_active",
+    "active_source_art": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_shuttle_stack_reference_imagegen_scene_exploration_20260510T174825Z/assets/source_art/shuttle_stack_reference_variant_a.png",
+      "sha256": "981f442755441d374a6d512632572730b4edbfb5f91314c736b8e287ee65880d"
+    },
+    "source_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_shuttle_stack_reference_imagegen_scene_exploration_20260510T174825Z/source_art_exploration_manifest.json",
+      "sha256": "329d6559b18ef41b5fcfed1b5ce8fe71b134ba467bce409051ff30abba04351a"
+    },
+    "prior_candidate_b_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_b_wide_right_rail_safe_observers_1920x1080.png",
+      "sha256": "1a34d128cd47dfbfbc8bf8ee06b058364e18e22f4afed275d4866eb8d460440c"
+    },
+    "prior_observer_experiment_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/source_art_experiment_manifest.json",
+      "sha256": "1431f088533d037521e2393ed741a41fa3241f1cba6bc036f0e6c0f94eea6aa6"
+    },
+    "deviation_note": "Separate Candidate B composition regeneration experiment. It does not replace active shuttle-stack Variant A source art unless a later human keep explicitly promotes it."
+  },
+  "foreground_motif_policy": {
+    "seven_astronaut_foreground_read_required": true,
+    "required_count": 7,
+    "maximum_count": 7,
+    "motif_source": "active_challenger_plate_foreground_motif",
+    "literal_documentary_claim": false,
+    "policy_note": "The seven blue-suited foreground figures are a representational Challenger crew motif inherited from the active plate. They must remain anonymous and back-facing."
+  },
+  "reference_composition_policy": {
+    "reference_candidate_id": "candidate_b_wide_right_rail_safe_observers",
+    "preserve_top_of_tower": true,
+    "preserve_red_beacon": true,
+    "preserve_long_right_pad_depth": true,
+    "preserve_dark_right_rail_safe_sky": true,
+    "practical_light_atmosphere_only": true,
+    "smoke_exhaust_launch_haze_allowed": false
+  },
+  "required_source_art_reads": [
+    "seven_astronaut_foreground_read",
+    "tower_top_visible_read",
+    "candidate_b_composition_retention_read",
+    "practical_light_atmosphere_read",
+    "foreground_admin_prop_read",
+    "implied_action_anticipation_read",
+    "ambient_affordance_read",
+    "historical_source_reference_alignment_read",
+    "no_recognizable_faces_read",
+    "right_rail_safe_space_read",
+    "video_visual_style_scope_read",
+    "launch_pad_scene_read",
+    "reference_anchor_read",
+    "pad_hardware_authenticity_read",
+    "website_hero_artifact_read",
+    "paper_architecture_visual_style_read",
+    "brand_signal_artifact_read",
+    "generated_text_logo_read",
+    "disaster_spectacle_absence_read",
+    "source_provenance_read",
+    "rights_and_content_id_risk_read"
+  ],
+  "candidate_outputs": [
+    {
+      "candidate_id": "candidate_a_candidate_b_composition_exact_seven",
+      "title": "Candidate A - Count Drift, Eight Foreground Figures",
+      "status": "tighten_count_drift_not_recommended",
+      "review_recommendation": "not_recommended_hard_count_read_failed",
+      "strength": "visually close to the requested reference, but hard-fails the foreground count: eight astronauts are visible",
+      "hard_reads_pass_for_recommendation": false,
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image_with_visible_reference_context",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0ca5edb75881968071edbfc2321415.png",
+        "source_generation_sha256": "80f0d38f2f7172262d0c37e5bc170dee0b56b9a18a88e8d5fdacde7d81a4de0d",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/prompts/challenger_candidate_a_candidate_b_composition_exact_seven_prompt_20260519T180814Z.md",
+        "prompt_sha256": "b00d9f0630e3e0dba686e752ff8b540ddf8bd5e88ad87c4c3d8a2e0cc0ba6771",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_b_wide_right_rail_safe_observers_1920x1080.png"
+        ],
+        "reference_image_sha256": "1a34d128cd47dfbfbc8bf8ee06b058364e18e22f4afed275d4866eb8d460440c",
+        "provenance_notes": "Built-in ImageGen output copied into a separate Challenger Candidate B seven-astronaut regeneration experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/assets/source_art/candidate_a_candidate_b_composition_exact_seven_raw_imagegen_20260519T180814Z.png",
+        "sha256": "80f0d38f2f7172262d0c37e5bc170dee0b56b9a18a88e8d5fdacde7d81a4de0d",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/assets/source_art/candidate_a_candidate_b_composition_exact_seven_1920x1080.png",
+        "sha256": "8913b05161cd198414b956c7e5f8d3a98c7b4b0fa8cc607402ee6188239fdb11",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_a_candidate_b_composition_exact_seven_960x540.png",
+          "sha256": "a923edd32543264932c30f9482939d0fbd0b2475a58ea70467d42015d078f679",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_a_candidate_b_composition_exact_seven_320x180.png",
+          "sha256": "323a6fe1ec89f0214585d6be561e0a0befaaffbccfca9255ae4bfa098c45860f",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_a_candidate_b_composition_exact_seven_168x94.png",
+          "sha256": "b29e05a575a9f91de13146407d4d4f170b08ac5957bbb845384728a439957f3d",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "seven_astronaut_foreground_read": "tighten_count_drift_eight_foreground_astronauts_visible",
+        "foreground_astronaut_count_observed": 8,
+        "tower_top_visible_read": "pass_tower_top_and_red_beacon_visible",
+        "candidate_b_composition_retention_read": "pass_closest_candidate_b_reference_match",
+        "practical_light_atmosphere_read": "pass_soft_practical_light_atmosphere_no_smoke_exhaust",
+        "representational_crew_motif_read": "pass_recorded_not_literal_documentary_claim",
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_back_facing_astronauts_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_back_facing_no_recognizable_faces",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk",
+        "count_correction_source": "human_review_browser_comment_20260519"
+      }
+    },
+    {
+      "candidate_id": "candidate_b_clean_rail_depth_exact_seven",
+      "title": "Candidate B - Clean Rail Depth, Exact Seven",
+      "status": "review_ready_pending_human_keep_or_tighten",
+      "review_recommendation": "recommended_for_human_review",
+      "strength": "recommended passing candidate: exactly seven astronauts, strong right-side rail safety, clean pad depth, tower top visible",
+      "hard_reads_pass_for_recommendation": true,
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image_with_visible_reference_context",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0ca69e45b88196a59c8af9bf8b3da8.png",
+        "source_generation_sha256": "2b985c710fe5b295b14a22d5fafd6c951a01cf21a40d14e44d957cae50923d07",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/prompts/challenger_candidate_b_clean_rail_depth_exact_seven_prompt_20260519T180814Z.md",
+        "prompt_sha256": "9569e63cd5b8ce600743c9f0bbe35b38d3d1b6c2c4bf3c90d1944c36a762f3b2",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_b_wide_right_rail_safe_observers_1920x1080.png"
+        ],
+        "reference_image_sha256": "1a34d128cd47dfbfbc8bf8ee06b058364e18e22f4afed275d4866eb8d460440c",
+        "provenance_notes": "Built-in ImageGen output copied into a separate Challenger Candidate B seven-astronaut regeneration experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/assets/source_art/candidate_b_clean_rail_depth_exact_seven_raw_imagegen_20260519T180814Z.png",
+        "sha256": "2b985c710fe5b295b14a22d5fafd6c951a01cf21a40d14e44d957cae50923d07",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/assets/source_art/candidate_b_clean_rail_depth_exact_seven_1920x1080.png",
+        "sha256": "387a76bf66d948e647870d9ef895f8cd42e976ee4c132feea8e05a3077478e78",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_b_clean_rail_depth_exact_seven_960x540.png",
+          "sha256": "835258c3944bef563118e124638b0d963c450357309c53f4f0e202b9158be859",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_b_clean_rail_depth_exact_seven_320x180.png",
+          "sha256": "2dc16466793994c04afe109775255f0d8930fa3c30222ab49b740b1f1861e656",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_b_clean_rail_depth_exact_seven_168x94.png",
+          "sha256": "841ce00a2391dea9a894f2fcf0c379a5e0620d8124b2038a3895c083e814f1dc",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "seven_astronaut_foreground_read": "pass_exactly_seven_foreground_astronauts_visible",
+        "foreground_astronaut_count_observed": 7,
+        "tower_top_visible_read": "pass_tower_top_and_red_beacon_visible",
+        "candidate_b_composition_retention_read": "pass_candidate_b_reference_family_with_cleaner_right_rail_depth",
+        "practical_light_atmosphere_read": "pass_practical_light_atmosphere_no_smoke_exhaust",
+        "representational_crew_motif_read": "pass_recorded_not_literal_documentary_claim",
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_back_facing_astronauts_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_back_facing_no_recognizable_faces",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    },
+    {
+      "candidate_id": "candidate_c_wet_pad_atmosphere_exact_seven",
+      "title": "Candidate C - Wet Pad Atmosphere, Exact Seven",
+      "status": "review_ready_pending_human_keep_or_tighten",
+      "review_recommendation": "alternate_review_candidate",
+      "strength": "strong wet-surface ambience and tower visibility, seven astronauts, slightly less open right rail than A/B",
+      "hard_reads_pass_for_recommendation": true,
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image_with_visible_reference_context",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0ca64834dc8196b7d1573773b6197c.png",
+        "source_generation_sha256": "4e669db426d0e44a2073d2956a8bb947e1e4f73c856a51c4f04ae190641699c8",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/prompts/challenger_candidate_c_wet_pad_atmosphere_exact_seven_prompt_20260519T180814Z.md",
+        "prompt_sha256": "5f9032af0dbe705dfceef43cfe9e1274c8f6f28d10adb9653714c57121b4b214",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_b_wide_right_rail_safe_observers_1920x1080.png"
+        ],
+        "reference_image_sha256": "1a34d128cd47dfbfbc8bf8ee06b058364e18e22f4afed275d4866eb8d460440c",
+        "provenance_notes": "Built-in ImageGen output copied into a separate Challenger Candidate B seven-astronaut regeneration experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/assets/source_art/candidate_c_wet_pad_atmosphere_exact_seven_raw_imagegen_20260519T180814Z.png",
+        "sha256": "4e669db426d0e44a2073d2956a8bb947e1e4f73c856a51c4f04ae190641699c8",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/assets/source_art/candidate_c_wet_pad_atmosphere_exact_seven_1920x1080.png",
+        "sha256": "03ade12961795bbdcd41a9a85479589003349dcca80abeadc058705143095be4",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_c_wet_pad_atmosphere_exact_seven_960x540.png",
+          "sha256": "5bff958446e54d1cfed68a6c4619453cd030bb5c2d1d9eb259871f5c8b785f8a",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_c_wet_pad_atmosphere_exact_seven_320x180.png",
+          "sha256": "6b7a6971ccd9a927de1db5e63052a967476a302274b4b875ad1113af4225e9bd",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/qa/candidate_c_wet_pad_atmosphere_exact_seven_168x94.png",
+          "sha256": "36723d88045acbb055d3b65d2bf53359494ede6d857e2ed4d816c692cd674ff8",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "seven_astronaut_foreground_read": "pass_exactly_seven_foreground_astronauts_visible",
+        "foreground_astronaut_count_observed": 7,
+        "tower_top_visible_read": "pass_tower_top_and_red_beacon_visible",
+        "candidate_b_composition_retention_read": "pass_candidate_b_reference_family_with_stronger_wet_pad_atmosphere",
+        "practical_light_atmosphere_read": "pass_stronger_wet_practical_light_atmosphere_no_smoke_exhaust",
+        "representational_crew_motif_read": "pass_recorded_not_literal_documentary_claim",
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_back_facing_astronauts_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_back_facing_no_recognizable_faces",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    }
+  ],
+  "unselected_generated_outputs": [
+    {
+      "path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0ca52dc1448196b2be2ef20dd59a70.png",
+      "sha256": "40ef9ed4edceaaa25213bd660f121103da2cb52c275f31ffa4029643d7b968e6",
+      "reason": "extra generation from reconnect sequence; not packaged as one of the requested three review candidates"
+    }
+  ],
+  "selected_review_candidate_id": "candidate_b_clean_rail_depth_exact_seven",
+  "recommended_review_candidate_id": "candidate_b_clean_rail_depth_exact_seven",
+  "gate_effect": {
+    "may_mark_source_art_keep": false,
+    "may_replace_active_challenger_source_art": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "current_publish_readiness_package_unchanged": true
+  },
+  "next_action": "Human source-art review: Candidate A is not eligible because it shows eight astronauts; keep Candidate B, keep Candidate C, tighten, or reject. Promotion to active source art requires a later explicit human keep.",
+  "review_packet": {
+    "contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/review/challenger_candidate_b_seven_astronaut_contact_sheet.png",
+      "sha256": "a95cff42c59a4d5d3cfb1ec42c8cd1d60d72e800daa99b8ea5dffbdbc4926430",
+      "width": 2016,
+      "height": 512
+    },
+    "right_rail_overlay_preview": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/review/challenger_candidate_b_seven_astronaut_right_rail_overlay_contact_sheet.png",
+      "sha256": "5087e04b74a7849ae9584341c88cece29a386ed524a446fe5f58182d7228c90a",
+      "width": 2016,
+      "height": 512
+    },
+    "review_note": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/review/challenger_candidate_b_seven_astronaut_review_20260519T180814Z.md",
+      "sha256": "e9ec3ff22f1873b05b492b490d9453aefb350581a1520ffb708ce09f97c355da"
+    },
+    "review_html": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_candidate_b_seven_astronaut_regeneration_20260519T180814Z/review/review.html",
+      "sha256": "1c31367504951a21d2447bc079a7e168456c49c8773acbff21d8346485aca45e"
+    }
+  },
+  "human_review_corrections": [
+    {
+      "timestamp_utc": "2026-05-19T18:58:00Z",
+      "source": "human_review_browser_comment",
+      "note": "Candidate A was corrected from exactly seven to eight foreground astronauts; seven_astronaut_foreground_read is a hard tighten/reject read for this experiment."
+    }
+  ],
+  "qa_notes": {
+    "candidate_a_count_correction": "Human QA observed eight foreground astronauts, not seven. Candidate A hard-fails seven_astronaut_foreground_read and is not recommended."
+  },
+  "human_source_art_selection": {
+    "selected_candidate_id": "candidate_b_clean_rail_depth_exact_seven",
+    "selection_source": "user_request_20260519_go_with_candidate_b",
+    "scope": "proof_first_successor_only",
+    "does_not_authorize_final_render_or_upload": true,
+    "candidate_a_status": "tighten_count_drift_not_recommended",
+    "candidate_a_count_read": "tighten_count_drift_eight_foreground_astronauts_visible"
+  }
+}

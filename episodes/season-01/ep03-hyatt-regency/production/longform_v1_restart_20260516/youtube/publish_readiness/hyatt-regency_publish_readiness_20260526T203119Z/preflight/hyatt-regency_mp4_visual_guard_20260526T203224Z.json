@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-05-26T20:32:24Z",
+  "episode_id": "hyatt-regency",
+  "model": "youtube_upload_mp4_black_screen_guard_v1",
+  "ok": true,
+  "reads": {
+    "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+    "youtube_upload_black_screen_block_read": "pass_black_screen_upload_preflight"
+  },
+  "samples": [
+    {
+      "name": "start",
+      "passed": true,
+      "seconds": 1.0,
+      "stats": {
+        "max_luma": 163.981,
+        "mean_luma": 39.206,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.831319,
+        "pixel_count": 14400,
+        "std_luma": 31.6
+      }
+    },
+    {
+      "name": "quarter",
+      "passed": true,
+      "seconds": 216.633,
+      "stats": {
+        "max_luma": 166.972,
+        "mean_luma": 39.68,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.839861,
+        "pixel_count": 14400,
+        "std_luma": 31.299
+      }
+    },
+    {
+      "name": "half",
+      "passed": true,
+      "seconds": 433.267,
+      "stats": {
+        "max_luma": 171.401,
+        "mean_luma": 40.578,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.845278,
+        "pixel_count": 14400,
+        "std_luma": 32.235
+      }
+    },
+    {
+      "name": "three_quarter",
+      "passed": true,
+      "seconds": 649.9,
+      "stats": {
+        "max_luma": 178.736,
+        "mean_luma": 39.854,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.841875,
+        "pixel_count": 14400,
+        "std_luma": 31.658
+      }
+    },
+    {
+      "name": "final_second",
+      "passed": true,
+      "seconds": 865.534,
+      "stats": {
+        "max_luma": 175.324,
+        "mean_luma": 41.879,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.885347,
+        "pixel_count": 14400,
+        "std_luma": 29.745
+      }
+    }
+  ],
+  "thresholds": {
+    "min_mean_luma": 20.0,
+    "min_nonblack_fraction": 0.08,
+    "min_std_luma": 8.0
+  },
+  "video_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/media/hyatt-regency_living_cover_final_review_1080p24.mp4",
+  "video_sha256": "01c70d73dd499819fb239c10ae66a0359af6a76ae190b52918c98aff86e3901d"
+}

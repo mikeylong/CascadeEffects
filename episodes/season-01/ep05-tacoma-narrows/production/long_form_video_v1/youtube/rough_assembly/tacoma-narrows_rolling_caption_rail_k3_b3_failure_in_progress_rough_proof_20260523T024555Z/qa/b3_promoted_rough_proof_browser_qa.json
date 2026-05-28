@@ -1,0 +1,2487 @@
+{
+  "created_utc": "2026-05-23T03:05:23.568Z",
+  "packet": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z",
+  "url": "http://127.0.0.1:8766/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/player.html?v=tacoma-narrows_rolling_caption_rail_k3_b3_rough_proof_20260523024555Z",
+  "review_url": "http://127.0.0.1:8766/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/player.html?v=tacoma-narrows_rolling_caption_rail_k3_b3_rough_proof_20260523024555Z&b3_promoted_runtime_qa=1",
+  "render_url": "http://127.0.0.1:8766/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/player.html?v=tacoma-narrows_rolling_caption_rail_k3_b3_rough_proof_20260523024555Z&render=1&b3_promoted_runtime_qa=1",
+  "expected_source_plate": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+  "expected_source_sha256": "580e69bea2f7d278f2aed000ccf669cfaa45fcbf562238694085809eac4363b8",
+  "expected_proof_build_id": "tacoma-narrows_rolling_caption_rail_k3_b3_rough_proof_20260523024555Z",
+  "pass": true,
+  "failed_reads": [],
+  "reads": {
+    "b3_source_plate_loaded_read": true,
+    "b3_source_art_sha_read": true,
+    "source_art_keep_state_read": true,
+    "wrong_backplate_absence_read": true,
+    "diagnostic_overlay_absence_read": true,
+    "inherited_rail_chrome_suppression_read": true,
+    "rolling_caption_hook_read": true,
+    "caption_track_runtime_read": true,
+    "rolling_caption_visibility_read": true,
+    "captions_inside_right_rail_read": true,
+    "intro_readability_read": true,
+    "review_transport_scrub_read": true,
+    "review_shell_responsive_canvas_read": true,
+    "render_mode_fixed_canvas_read": true,
+    "rail_opacity_handoff_read": true,
+    "end_screen_timing_read": true,
+    "end_screen_template_read": true,
+    "end_screen_target_geometry_read": true,
+    "end_screen_palette_read": true,
+    "audio_duration_read": true,
+    "proof_build_freshness_read": true,
+    "final_publish_upload_gates_blocked_read": true,
+    "browser_response_read": true,
+    "browser_console_error_read": true
+  },
+  "samples": [
+    {
+      "slug": "intro_start",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_review_intro_start_0000000ms.png",
+      "screenshot_sha256": "8fdc18a15d56ac0cbf314f4e669d7393641b9c2245e03506a5b91274a9e2a746",
+      "time": 0,
+      "renderMode": false,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "rail": {
+        "left": 1020,
+        "top": 48,
+        "right": 1719,
+        "bottom": 946,
+        "width": 699,
+        "height": 898
+      },
+      "captionWindow": {
+        "left": 1259,
+        "top": 114,
+        "right": 1708,
+        "bottom": 891,
+        "width": 449,
+        "height": 777
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 0,
+        "translateY": 439,
+        "scrollPosition": 0,
+        "activeChunkIndex": 0,
+        "activeChunkId": "cue_001_chunk_01",
+        "activeChunkText": "On November 7, 1940, the Tacoma Narrows Bridge",
+        "activeChunkCueStartSeconds": 3.632,
+        "activeChunkCenterDeltaPx": 161,
+        "activeChunkLeadSeconds": 0.6505185185185187,
+        "sourceRailOpacity": 1,
+        "targetGeometryWindowActive": false,
+        "youtubePlaceholderOpacity": 0,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": false,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 0,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0,
+        "visibleCaptionLineCount": 0,
+        "visibleCaptionChunkIds": [],
+        "nearestVisibleChunkIndex": null,
+        "nearestVisibleChunkId": null,
+        "nearestVisibleChunkText": "",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0,
+        "endScreenSuppressionActive": false,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 0,
+      "maxVisibleCaptionOpacity": 0,
+      "visibleLines": [],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 0,
+        "state": {
+          "time": 0,
+          "outroOpacity": 0,
+          "endScreenOpacity": 0,
+          "railOpacity": 1,
+          "isSafeWindow": false,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 72,
+            "top": 352,
+            "right": 698,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "right_video": {
+            "left": 1069,
+            "top": 352,
+            "right": 1695,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "center_subscribe": {
+            "left": 749,
+            "top": 395,
+            "right": 1018,
+            "bottom": 664,
+            "width": 269,
+            "height": 269
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 0,
+        "currentLabel": "00:00",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 0
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    },
+    {
+      "slug": "opening_caption",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_review_opening_caption_0012000ms.png",
+      "screenshot_sha256": "c8e4b2b2d12888ce45e59e56fa55ce84f71367c26f9efab5c6dc0789c87748de",
+      "time": 12,
+      "renderMode": false,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "rail": {
+        "left": 1020,
+        "top": 48,
+        "right": 1719,
+        "bottom": 946,
+        "width": 699,
+        "height": 898
+      },
+      "captionWindow": {
+        "left": 1259,
+        "top": 114,
+        "right": 1708,
+        "bottom": 891,
+        "width": 449,
+        "height": 777
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 12,
+        "translateY": -209,
+        "scrollPosition": 648,
+        "activeChunkIndex": 1,
+        "activeChunkId": "cue_002_chunk_01__cue_003_chunk_01__cue_004_chunk_01",
+        "activeChunkText": "collapsed into Puget Sound. It had opened on July 1. Four months later, it was gone.",
+        "activeChunkCueStartSeconds": 7.618,
+        "activeChunkCenterDeltaPx": -271.7,
+        "activeChunkLeadSeconds": 0.649481481481482,
+        "sourceRailOpacity": 1,
+        "targetGeometryWindowActive": false,
+        "youtubePlaceholderOpacity": 0,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": false,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 1,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0.73,
+        "visibleCaptionLineCount": 3,
+        "visibleCaptionChunkIds": [
+          "cue_002_chunk_01__cue_003_chunk_01__cue_004_chunk_01",
+          "cue_005_chunk_01",
+          "cue_006_chunk_01__cue_007_chunk_01"
+        ],
+        "nearestVisibleChunkIndex": 2,
+        "nearestVisibleChunkId": "cue_005_chunk_01",
+        "nearestVisibleChunkText": "The wind that morning was not extraordinary.",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0,
+        "endScreenSuppressionActive": false,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 3,
+      "maxVisibleCaptionOpacity": 0.73,
+      "visibleLines": [
+        {
+          "text": "collapsed into PugetSound. It had opened onJuly 1. Four monthslater, it was gone.",
+          "opacity": 0.4044,
+          "rect": {
+            "left": 1298,
+            "top": 191,
+            "right": 1668,
+            "bottom": 345,
+            "width": 370,
+            "height": 155
+          },
+          "insideRail": true
+        },
+        {
+          "text": "The wind that morningwas not extraordinary.",
+          "opacity": 0.73,
+          "rect": {
+            "left": 1298,
+            "top": 618,
+            "right": 1668,
+            "bottom": 695,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        },
+        {
+          "text": "It was measured at 38miles per hour at 7:30a.m.",
+          "opacity": 0.2259,
+          "rect": {
+            "left": 1298,
+            "top": 735,
+            "right": 1668,
+            "bottom": 851,
+            "width": 370,
+            "height": 116
+          },
+          "insideRail": true
+        }
+      ],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 0,
+        "state": {
+          "time": 12,
+          "outroOpacity": 0,
+          "endScreenOpacity": 0,
+          "railOpacity": 1,
+          "isSafeWindow": false,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 72,
+            "top": 352,
+            "right": 698,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "right_video": {
+            "left": 1069,
+            "top": 352,
+            "right": 1695,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "center_subscribe": {
+            "left": 749,
+            "top": 395,
+            "right": 1018,
+            "bottom": 664,
+            "width": 269,
+            "height": 269
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 12,
+        "currentLabel": "00:12",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 12
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    },
+    {
+      "slug": "galloping_motion",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_review_galloping_motion_0216502ms.png",
+      "screenshot_sha256": "6b8c99f2bc971bc1a7812a7b50a4e17aa81efb394fda7d6ad1d2432bb5cac766",
+      "time": 216.502,
+      "renderMode": false,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "rail": {
+        "left": 1020,
+        "top": 48,
+        "right": 1719,
+        "bottom": 946,
+        "width": 699,
+        "height": 898
+      },
+      "captionWindow": {
+        "left": 1259,
+        "top": 114,
+        "right": 1708,
+        "bottom": 891,
+        "width": 449,
+        "height": 777
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 216.502,
+        "translateY": -11252.108,
+        "scrollPosition": 11691.108,
+        "activeChunkIndex": 51,
+        "activeChunkId": "cue_071_chunk_01__cue_071_chunk_02",
+        "activeChunkText": "undulation first. The deck rose and fell in",
+        "activeChunkCueStartSeconds": 215.915,
+        "activeChunkCenterDeltaPx": -66.8080000000009,
+        "activeChunkLeadSeconds": 0.6501851851851939,
+        "sourceRailOpacity": 1,
+        "targetGeometryWindowActive": false,
+        "youtubePlaceholderOpacity": 0,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": false,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 1,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0.94,
+        "visibleCaptionLineCount": 5,
+        "visibleCaptionChunkIds": [
+          "cue_069_chunk_02",
+          "cue_070_chunk_01",
+          "cue_071_chunk_01__cue_071_chunk_02",
+          "cue_072_chunk_01__cue_072_chunk_02",
+          "cue_073_chunk_01"
+        ],
+        "nearestVisibleChunkIndex": 51,
+        "nearestVisibleChunkId": "cue_071_chunk_01__cue_071_chunk_02",
+        "nearestVisibleChunkText": "undulation first. The deck rose and fell in",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0,
+        "endScreenSuppressionActive": false,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 5,
+      "maxVisibleCaptionOpacity": 0.94,
+      "visibleLines": [
+        {
+          "text": "Almost immediately, itmoved.",
+          "opacity": 0.078,
+          "rect": {
+            "left": 1298,
+            "top": 132,
+            "right": 1668,
+            "bottom": 209,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        },
+        {
+          "text": "Drivers and pedestriansnoticed the vertical",
+          "opacity": 0.5063,
+          "rect": {
+            "left": 1298,
+            "top": 298,
+            "right": 1668,
+            "bottom": 376,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        },
+        {
+          "text": "undulation first. Thedeck rose and fell in",
+          "opacity": 0.94,
+          "rect": {
+            "left": 1298,
+            "top": 418,
+            "right": 1668,
+            "bottom": 495,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        },
+        {
+          "text": "long waves. The motionwas so conspicuousthat",
+          "opacity": 0.9095,
+          "rect": {
+            "left": 1298,
+            "top": 558,
+            "right": 1668,
+            "bottom": 674,
+            "width": 370,
+            "height": 116
+          },
+          "insideRail": true
+        },
+        {
+          "text": "the bridge quicklyacquired a nickname:",
+          "opacity": 0.1804,
+          "rect": {
+            "left": 1298,
+            "top": 766,
+            "right": 1668,
+            "bottom": 843,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        }
+      ],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 0,
+        "state": {
+          "time": 216.502,
+          "outroOpacity": 0,
+          "endScreenOpacity": 0,
+          "railOpacity": 1,
+          "isSafeWindow": false,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 72,
+            "top": 352,
+            "right": 698,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "right_video": {
+            "left": 1069,
+            "top": 352,
+            "right": 1695,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "center_subscribe": {
+            "left": 749,
+            "top": 395,
+            "right": 1018,
+            "bottom": 664,
+            "width": 269,
+            "height": 269
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 216.5,
+        "currentLabel": "03:36",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 216.5
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    },
+    {
+      "slug": "torsion_peak",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_review_torsion_peak_0559355ms.png",
+      "screenshot_sha256": "636996955079936fe7f98fd3994688eca7c36a93fe88756fbd1eed89b453f943",
+      "time": 559.355,
+      "renderMode": false,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "rail": {
+        "left": 1020,
+        "top": 48,
+        "right": 1719,
+        "bottom": 946,
+        "width": 699,
+        "height": 898
+      },
+      "captionWindow": {
+        "left": 1259,
+        "top": 114,
+        "right": 1708,
+        "bottom": 891,
+        "width": 449,
+        "height": 777
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 559.355,
+        "translateY": -29766.170000000002,
+        "scrollPosition": 30205.170000000002,
+        "activeChunkIndex": 132,
+        "activeChunkId": "cue_184_chunk_01__cue_184_chunk_02",
+        "activeChunkText": "turning into fuel. This is why Tacoma Narrows",
+        "activeChunkCueStartSeconds": 556.222,
+        "activeChunkCenterDeltaPx": -204.27000000000044,
+        "activeChunkLeadSeconds": 0.6497777777777856,
+        "sourceRailOpacity": 1,
+        "targetGeometryWindowActive": false,
+        "youtubePlaceholderOpacity": 0,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": false,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 1,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0.94,
+        "visibleCaptionLineCount": 4,
+        "visibleCaptionChunkIds": [
+          "cue_184_chunk_01__cue_184_chunk_02",
+          "cue_185_chunk_01",
+          "cue_186_chunk_01",
+          "cue_187_chunk_01"
+        ],
+        "nearestVisibleChunkIndex": 133,
+        "nearestVisibleChunkId": "cue_185_chunk_01",
+        "nearestVisibleChunkText": "is so often misunderstood.",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0,
+        "endScreenSuppressionActive": false,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 4,
+      "maxVisibleCaptionOpacity": 0.94,
+      "visibleLines": [
+        {
+          "text": "turning into fuel. Thisis why TacomaNarrows",
+          "opacity": 0.4785,
+          "rect": {
+            "left": 1298,
+            "top": 272,
+            "right": 1668,
+            "bottom": 388,
+            "width": 370,
+            "height": 116
+          },
+          "insideRail": true
+        },
+        {
+          "text": "is so oftenmisunderstood.",
+          "opacity": 0.94,
+          "rect": {
+            "left": 1298,
+            "top": 473,
+            "right": 1668,
+            "bottom": 550,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        },
+        {
+          "text": "The famous footagetempts people to call it",
+          "opacity": 0.8516,
+          "rect": {
+            "left": 1298,
+            "top": 593,
+            "right": 1668,
+            "bottom": 671,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        },
+        {
+          "text": "a simple resonancestory, as if the wind",
+          "opacity": 0.3798,
+          "rect": {
+            "left": 1298,
+            "top": 711,
+            "right": 1668,
+            "bottom": 788,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        }
+      ],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 0,
+        "state": {
+          "time": 559.355,
+          "outroOpacity": 0,
+          "endScreenOpacity": 0,
+          "railOpacity": 1,
+          "isSafeWindow": false,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 72,
+            "top": 352,
+            "right": 698,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "right_video": {
+            "left": 1069,
+            "top": 352,
+            "right": 1695,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "center_subscribe": {
+            "left": 749,
+            "top": 395,
+            "right": 1018,
+            "bottom": 664,
+            "width": 269,
+            "height": 269
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 559.35,
+        "currentLabel": "09:19",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 559.35
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    },
+    {
+      "slug": "last_caption_visible_exit",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_review_last_caption_visible_exit_0844000ms.png",
+      "screenshot_sha256": "f9424692f3430ce250b7ec9bf0b2c93b2cd0cec977fac0aeab941dda6b2f5805",
+      "time": 844,
+      "renderMode": false,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "rail": {
+        "left": 1020,
+        "top": 48,
+        "right": 1719,
+        "bottom": 946,
+        "width": 699,
+        "height": 898
+      },
+      "captionWindow": {
+        "left": 1259,
+        "top": 114,
+        "right": 1708,
+        "bottom": 891,
+        "width": 449,
+        "height": 777
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 844,
+        "translateY": -45137,
+        "scrollPosition": 45576,
+        "activeChunkIndex": 208,
+        "activeChunkId": "cue_280_chunk_01",
+        "activeChunkText": "it had not yet learned how to name.",
+        "activeChunkCueStartSeconds": 841.395,
+        "activeChunkCenterDeltaPx": -175.8000000000029,
+        "activeChunkLeadSeconds": 0.6505555555555702,
+        "sourceRailOpacity": 1,
+        "targetGeometryWindowActive": false,
+        "youtubePlaceholderOpacity": 0,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": false,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 1,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0.6001,
+        "visibleCaptionLineCount": 2,
+        "visibleCaptionChunkIds": [
+          "cue_279_chunk_01",
+          "cue_280_chunk_01"
+        ],
+        "nearestVisibleChunkIndex": 208,
+        "nearestVisibleChunkId": "cue_280_chunk_01",
+        "nearestVisibleChunkText": "it had not yet learned how to name.",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0.6001,
+        "endScreenSuppressionActive": false,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 2,
+      "maxVisibleCaptionOpacity": 0.6001,
+      "visibleLines": [
+        {
+          "text": "Another system thattaught itself to ignorewhat",
+          "opacity": 0.1936,
+          "rect": {
+            "left": 1298,
+            "top": 146,
+            "right": 1668,
+            "bottom": 261,
+            "width": 370,
+            "height": 116
+          },
+          "insideRail": true
+        },
+        {
+          "text": "it had not yet learnedhow to name.",
+          "opacity": 0.6001,
+          "rect": {
+            "left": 1298,
+            "top": 318,
+            "right": 1668,
+            "bottom": 395,
+            "width": 370,
+            "height": 77
+          },
+          "insideRail": true
+        }
+      ],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 0,
+        "state": {
+          "time": 844,
+          "outroOpacity": 0,
+          "endScreenOpacity": 0,
+          "railOpacity": 1,
+          "isSafeWindow": false,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 72,
+            "top": 352,
+            "right": 698,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "right_video": {
+            "left": 1069,
+            "top": 352,
+            "right": 1695,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "center_subscribe": {
+            "left": 749,
+            "top": 395,
+            "right": 1018,
+            "bottom": 664,
+            "width": 269,
+            "height": 269
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 844,
+        "currentLabel": "14:04",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 844
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    },
+    {
+      "slug": "end_screen_settled",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_review_end_screen_settled_0856525ms.png",
+      "screenshot_sha256": "87aa155eeddebbcbb492a68879f1e68d6a1ee0dbb5c3830deae4ee635f835fd3",
+      "time": 856.525,
+      "renderMode": false,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1767,
+        "bottom": 994,
+        "width": 1767,
+        "height": 994
+      },
+      "rail": {
+        "left": 1020,
+        "top": 48,
+        "right": 1719,
+        "bottom": 946,
+        "width": 699,
+        "height": 898
+      },
+      "captionWindow": {
+        "left": 1259,
+        "top": 114,
+        "right": 1708,
+        "bottom": 891,
+        "width": 449,
+        "height": 777
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 856.525,
+        "translateY": -45813.35,
+        "scrollPosition": 46252.35,
+        "activeChunkIndex": 208,
+        "activeChunkId": "cue_280_chunk_01",
+        "activeChunkText": "it had not yet learned how to name.",
+        "activeChunkCueStartSeconds": 841.395,
+        "activeChunkCenterDeltaPx": -852.1500000000015,
+        "activeChunkLeadSeconds": 0.6505555555555702,
+        "sourceRailOpacity": 0,
+        "targetGeometryWindowActive": true,
+        "youtubePlaceholderOpacity": 1,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": true,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 1,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0,
+        "visibleCaptionLineCount": 0,
+        "visibleCaptionChunkIds": [],
+        "nearestVisibleChunkIndex": null,
+        "nearestVisibleChunkId": null,
+        "nearestVisibleChunkText": "",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0,
+        "endScreenSuppressionActive": true,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 0,
+      "maxVisibleCaptionOpacity": 0,
+      "visibleLines": [],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 1,
+        "state": {
+          "time": 856.525,
+          "outroOpacity": 1,
+          "endScreenOpacity": 1,
+          "railOpacity": 0,
+          "isSafeWindow": true,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 72,
+            "top": 352,
+            "right": 698,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "right_video": {
+            "left": 1069,
+            "top": 352,
+            "right": 1695,
+            "bottom": 704,
+            "width": 626,
+            "height": 353
+          },
+          "center_subscribe": {
+            "left": 749,
+            "top": 395,
+            "right": 1018,
+            "bottom": 664,
+            "width": 269,
+            "height": 269
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 856.55,
+        "currentLabel": "14:16",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 856.55
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    }
+  ],
+  "render_samples": [
+    {
+      "slug": "opening_caption",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_render_opening_caption_0012000ms.png",
+      "screenshot_sha256": "c3ce56b8e62d2df5786505bff7b656f6b80adc8f46fee56fe351e57ced30e661",
+      "time": 12,
+      "renderMode": true,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080,
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080,
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "captionWindow": {
+        "left": 1368,
+        "top": 124,
+        "right": 1856,
+        "bottom": 968,
+        "width": 488,
+        "height": 844
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 12,
+        "translateY": -209,
+        "scrollPosition": 648,
+        "activeChunkIndex": 1,
+        "activeChunkId": "cue_002_chunk_01__cue_003_chunk_01__cue_004_chunk_01",
+        "activeChunkText": "collapsed into Puget Sound. It had opened on July 1. Four months later, it was gone.",
+        "activeChunkCueStartSeconds": 7.618,
+        "activeChunkCenterDeltaPx": -271.7,
+        "activeChunkLeadSeconds": 0.649481481481482,
+        "sourceRailOpacity": 1,
+        "targetGeometryWindowActive": false,
+        "youtubePlaceholderOpacity": 0,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": false,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 1,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0.73,
+        "visibleCaptionLineCount": 3,
+        "visibleCaptionChunkIds": [
+          "cue_002_chunk_01__cue_003_chunk_01__cue_004_chunk_01",
+          "cue_005_chunk_01",
+          "cue_006_chunk_01__cue_007_chunk_01"
+        ],
+        "nearestVisibleChunkIndex": 2,
+        "nearestVisibleChunkId": "cue_005_chunk_01",
+        "nearestVisibleChunkText": "The wind that morning was not extraordinary.",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0,
+        "endScreenSuppressionActive": false,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 3,
+      "maxVisibleCaptionOpacity": 0.73,
+      "visibleLines": [
+        {
+          "text": "collapsed into PugetSound. It had opened onJuly 1. Four monthslater, it was gone.",
+          "opacity": 0.4044,
+          "rect": {
+            "left": 1410,
+            "top": 207,
+            "right": 1812,
+            "bottom": 375,
+            "width": 402,
+            "height": 168
+          },
+          "insideRail": true
+        },
+        {
+          "text": "The wind that morningwas not extraordinary.",
+          "opacity": 0.73,
+          "rect": {
+            "left": 1410,
+            "top": 671,
+            "right": 1812,
+            "bottom": 755,
+            "width": 402,
+            "height": 84
+          },
+          "insideRail": true
+        },
+        {
+          "text": "It was measured at 38miles per hour at 7:30a.m.",
+          "opacity": 0.2259,
+          "rect": {
+            "left": 1410,
+            "top": 798,
+            "right": 1812,
+            "bottom": 924,
+            "width": 402,
+            "height": 126
+          },
+          "insideRail": true
+        }
+      ],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 0,
+        "state": {
+          "time": 12,
+          "outroOpacity": 0,
+          "endScreenOpacity": 0,
+          "railOpacity": 1,
+          "isSafeWindow": false,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 78,
+            "top": 382,
+            "right": 758,
+            "bottom": 765,
+            "width": 680,
+            "height": 383
+          },
+          "right_video": {
+            "left": 1162,
+            "top": 382,
+            "right": 1842,
+            "bottom": 765,
+            "width": 680,
+            "height": 383
+          },
+          "center_subscribe": {
+            "left": 814,
+            "top": 429,
+            "right": 1106,
+            "bottom": 721,
+            "width": 292,
+            "height": 292
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 12,
+        "currentLabel": "00:12",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 12
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    },
+    {
+      "slug": "end_screen_settled",
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/screenshots/b3_promoted_render_end_screen_settled_0856525ms.png",
+      "screenshot_sha256": "348c7d161d111f24007e6d0effb96a1ac52e79c0cfa7a3d851337005e09abf9c",
+      "time": 856.525,
+      "renderMode": true,
+      "stage": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080,
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080,
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "captionWindow": {
+        "left": 1368,
+        "top": 124,
+        "right": 1856,
+        "bottom": 968,
+        "width": 488,
+        "height": 844
+      },
+      "sourcePlate": {
+        "src": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "sourceState": {
+        "activeSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "originalSrc": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+        "transformId": "candidate_k3_b3_failure_in_progress_kept_source_art_v1",
+        "operation": "kept_source_art_backplate_swap",
+        "reason": "Use kept B3 failure-in-progress source art in the promoted rolling-caption rough-proof review build.",
+        "sourceArtKeepId": "candidate_k3_b3_failure_in_progress_snapped_suspenders_source_art_keep",
+        "deterministicLayoutProbe": false
+      },
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "captionState": {
+        "time": 856.525,
+        "translateY": -45813.35,
+        "scrollPosition": 46252.35,
+        "activeChunkIndex": 208,
+        "activeChunkId": "cue_280_chunk_01",
+        "activeChunkText": "it had not yet learned how to name.",
+        "activeChunkCueStartSeconds": 841.395,
+        "activeChunkCenterDeltaPx": -852.1500000000015,
+        "activeChunkLeadSeconds": 0.6505555555555702,
+        "sourceRailOpacity": 0,
+        "targetGeometryWindowActive": true,
+        "youtubePlaceholderOpacity": 1,
+        "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+        "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "endScreenSafeWindowActive": true,
+        "lastCaptionVisibleExitStartSeconds": 844,
+        "lastCaptionFullySuppressedSeconds": 844.3,
+        "youtubePlaceholderFadeStartSeconds": 844,
+        "youtubePlaceholderFullOpacitySeconds": 844.3,
+        "captionEndScreenGapSeconds": 0,
+        "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+        "introTrimModel": "first_eight_intro_trim_6s_v1",
+        "introTrimSeconds": 6,
+        "previousVoiceStartOffsetSeconds": 9.601451,
+        "voiceStartOffsetSeconds": 3.601451,
+        "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+        "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+        "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+        "captionReadingLeadSeconds": 0.65,
+        "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+        "captionIntroGateOpacity": 1,
+        "captionIntroGateStartSeconds": 2.532,
+        "captionIntroGateFullOpacitySeconds": 2.982,
+        "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+        "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+        "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+        "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+        "captionStackCompositorActive": false,
+        "captionStackCompositorTargetTime": null,
+        "captionStackCompositorStartedAt": null,
+        "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+        "reviewApprovedEndScreenFadeStartSeconds": 844,
+        "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+        "tacomaRainFrameThrottleMs": 83,
+        "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+        "maxVisibleCaptionOpacity": 0,
+        "visibleCaptionLineCount": 0,
+        "visibleCaptionChunkIds": [],
+        "nearestVisibleChunkIndex": null,
+        "nearestVisibleChunkId": null,
+        "nearestVisibleChunkText": "",
+        "lastCaptionCueEndSeconds": 843.235,
+        "finalCaptionOpacity": 0,
+        "endScreenSuppressionActive": true,
+        "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+        "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+        "captionDisplayLineMaxWidthPx": 360,
+        "captionMaxEstimatedLineWidthPx": 359.7,
+        "captionTextStackWidthPx": 402,
+        "captionStackHeightPx": 46799,
+        "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+        "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+        "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+        "captionConstantScrollSpeedPxPerSecond": 54,
+        "captionScrollStartTimeSeconds": 0,
+        "captionScrollStartPositionPx": 0,
+        "highlightPhraseScope": "exact_authored_span_only",
+        "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+        "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+        "highlightSemanticRole": "story_lesson_takeaway",
+        "highlightDensityModel": "memorable_takeaway_cadence_v1",
+        "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+        "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+        "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+        "captionMinRenderedLineGapPx": 40,
+        "captionForcedTakeawayMergeCount": 0,
+        "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+        "captionAudioOffsetSeconds": 3.601451,
+        "firstDisplayCueStartSeconds": 3.632,
+        "highlights": []
+      },
+      "visibleCaptionLineCount": 0,
+      "maxVisibleCaptionOpacity": 0,
+      "visibleLines": [],
+      "visibleLinesInsideRail": true,
+      "endScreen": {
+        "overlayPresent": true,
+        "templateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+        "opacity": 1,
+        "state": {
+          "time": 856.525,
+          "outroOpacity": 1,
+          "endScreenOpacity": 1,
+          "railOpacity": 0,
+          "isSafeWindow": true,
+          "youtubeEndScreenTemplateId": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+          "compositionMode": "titleless_youtube_end_screen_overlay",
+          "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+          "reviewApprovedEndScreenFadeStartSeconds": 844,
+          "fadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+          "transitionStartSeconds": 844,
+          "transitionDurationSeconds": 0.3,
+          "fullOpacityAtSeconds": 844.3,
+          "safeWindowStartSeconds": 852.530226,
+          "safeWindowEndSeconds": 872.530226,
+          "lastDisplayCueEndSeconds": 843.235,
+          "lastCaptionVisibleExitStartSeconds": 844,
+          "lastCaptionFullySuppressedSeconds": 844.3,
+          "youtubePlaceholderFadeStartSeconds": 844,
+          "youtubePlaceholderFullOpacitySeconds": 844.3,
+          "captionEndScreenGapSeconds": 0,
+          "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+          "youtubeSafeWindowCaptionSuppressionRead": "pass_caption_suppressed_before_safe_window",
+          "layout": {
+            "left_video": {
+              "role": "suggested_video",
+              "bbox_xy": [
+                78,
+                382,
+                758,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "right_video": {
+              "role": "watch_next_video",
+              "bbox_xy": [
+                1162,
+                382,
+                1842,
+                765
+              ],
+              "aspect_ratio": "16:9"
+            },
+            "center_subscribe": {
+              "role": "subscribe",
+              "bbox_xy": [
+                814,
+                429,
+                1106,
+                721
+              ]
+            }
+          }
+        },
+        "targets": {
+          "left_video": {
+            "left": 78,
+            "top": 382,
+            "right": 758,
+            "bottom": 765,
+            "width": 680,
+            "height": 383
+          },
+          "right_video": {
+            "left": 1162,
+            "top": 382,
+            "right": 1842,
+            "bottom": 765,
+            "width": 680,
+            "height": 383
+          },
+          "center_subscribe": {
+            "left": 814,
+            "top": 429,
+            "right": 1106,
+            "bottom": 721,
+            "width": 292,
+            "height": 292
+          }
+        }
+      },
+      "reviewTransport": {
+        "present": true,
+        "scrubberPresent": true,
+        "scrubberValue": 856.55,
+        "currentLabel": "14:16",
+        "durationLabel": "14:32",
+        "state": {
+          "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+          "isUserScrubbing": false,
+          "wasPlayingBeforeScrub": false,
+          "pendingScrubTime": null,
+          "lastCommittedScrubTime": null,
+          "audioCurrentTime": 0,
+          "audioPaused": true,
+          "scrubberValue": 856.55
+        }
+      },
+      "audio": {
+        "duration": 872.524671,
+        "currentTime": null,
+        "paused": true
+      },
+      "diagnosticTextAbsent": true,
+      "inheritedReviewChromeHidden": true
+    }
+  ],
+  "scrub_probe": {
+    "transport": {
+      "reviewTransportScrubModel": "foreground_transport_scrub_lock_v1",
+      "isUserScrubbing": false,
+      "wasPlayingBeforeScrub": false,
+      "pendingScrubTime": null,
+      "lastCommittedScrubTime": null,
+      "audioCurrentTime": 0,
+      "audioPaused": true,
+      "scrubberValue": 216.5
+    },
+    "caption": {
+      "time": 216.502,
+      "translateY": -11252.108,
+      "scrollPosition": 11691.108,
+      "activeChunkIndex": 51,
+      "activeChunkId": "cue_071_chunk_01__cue_071_chunk_02",
+      "activeChunkText": "undulation first. The deck rose and fell in",
+      "activeChunkCueStartSeconds": 215.915,
+      "activeChunkCenterDeltaPx": -66.8080000000009,
+      "activeChunkLeadSeconds": 0.6501851851851939,
+      "sourceRailOpacity": 1,
+      "targetGeometryWindowActive": false,
+      "youtubePlaceholderOpacity": 0,
+      "captionEndScreenHandoffModel": "review_approved_end_screen_entry_v1",
+      "endScreenFadeTimingModel": "caption_exit_aligned_end_screen_fade_v1",
+      "endScreenSafeWindowActive": false,
+      "lastCaptionVisibleExitStartSeconds": 844,
+      "lastCaptionFullySuppressedSeconds": 844.3,
+      "youtubePlaceholderFadeStartSeconds": 844,
+      "youtubePlaceholderFullOpacitySeconds": 844.3,
+      "captionEndScreenGapSeconds": 0,
+      "captionEndScreenOverlapRead": "pass_review_approved_end_screen_entry_no_blank_gap",
+      "introTrimModel": "first_eight_intro_trim_6s_v1",
+      "introTrimSeconds": 6,
+      "previousVoiceStartOffsetSeconds": 9.601451,
+      "voiceStartOffsetSeconds": 3.601451,
+      "captionMotionModel": "constant_speed_audio_time_aligned_scroll_v2",
+      "captionTimelineLayoutModel": "audio_time_positioned_stack_v1",
+      "captionSyncTarget": "pre_vo_reading_lead_active_band_v1",
+      "captionReadingLeadSeconds": 0.65,
+      "captionIntroVisibilityGateModel": "first_vo_intro_hold_fade_v1",
+      "captionIntroGateOpacity": 1,
+      "captionIntroGateStartSeconds": 2.532,
+      "captionIntroGateFullOpacitySeconds": 2.982,
+      "captionConstantSpeedScope": "per_episode_constant_px_per_second",
+      "captionPlaybackClockModel": "media_time_smoothed_raf_clock_v3",
+      "captionStackRenderModel": "compositor_linear_transform_driver_v1",
+      "captionScrollSmoothnessModel": "compositor_linear_transform_driver_v1",
+      "captionStackCompositorActive": false,
+      "captionStackCompositorTargetTime": null,
+      "captionStackCompositorStartedAt": null,
+      "reviewApprovedEndScreenEntryModel": "review_approved_end_screen_entry_v1",
+      "reviewApprovedEndScreenFadeStartSeconds": 844,
+      "tacomaRainPerformanceGuardModel": "caption_review_rain_layer_performance_guard_v1",
+      "tacomaRainFrameThrottleMs": 83,
+      "captionRuntimeCoverageModel": "full_vo_runtime_visible_caption_coverage_v1",
+      "maxVisibleCaptionOpacity": 0.94,
+      "visibleCaptionLineCount": 5,
+      "visibleCaptionChunkIds": [
+        "cue_069_chunk_02",
+        "cue_070_chunk_01",
+        "cue_071_chunk_01__cue_071_chunk_02",
+        "cue_072_chunk_01__cue_072_chunk_02",
+        "cue_073_chunk_01"
+      ],
+      "nearestVisibleChunkIndex": 51,
+      "nearestVisibleChunkId": "cue_071_chunk_01__cue_071_chunk_02",
+      "nearestVisibleChunkText": "undulation first. The deck rose and fell in",
+      "lastCaptionCueEndSeconds": 843.235,
+      "finalCaptionOpacity": 0,
+      "endScreenSuppressionActive": false,
+      "captionDensityResolutionModel": "merge_dense_chunks_no_speed_ramp_v1",
+      "captionDisplayLineWrapModel": "pixel_budgeted_deterministic_line_wrap_v1",
+      "captionDisplayLineMaxWidthPx": 360,
+      "captionMaxEstimatedLineWidthPx": 359.7,
+      "captionTextStackWidthPx": 402,
+      "captionStackHeightPx": 46799,
+      "captionStackPaintContainmentRead": "pass_no_caption_stack_paint_clip",
+      "captionLineOpacityModel": "viewport_distance_smoothstep_v1",
+      "captionWindowTreatmentModel": "transparent_caption_mask_only_v1",
+      "captionConstantScrollSpeedPxPerSecond": 54,
+      "captionScrollStartTimeSeconds": 0,
+      "captionScrollStartPositionPx": 0,
+      "highlightPhraseScope": "exact_authored_span_only",
+      "highlightRenderPolicy": "reviewed_cue_map_spans_only",
+      "captionHighlightModelId": "lesson_takeaway_highlight_v1",
+      "highlightSemanticRole": "story_lesson_takeaway",
+      "highlightDensityModel": "memorable_takeaway_cadence_v1",
+      "highlightColorModel": "source_sampled_high_contrast_warm_accent_v1",
+      "highlightVisualTimingModel": "active_band_presence_aligned_v1",
+      "captionLayoutCollisionGuard": "fixed_line_box_visual_gap_guard_v1",
+      "captionMinRenderedLineGapPx": 40,
+      "captionForcedTakeawayMergeCount": 0,
+      "captionAudioSyncModel": "source_sidecar_audio_time_v1",
+      "captionAudioOffsetSeconds": 3.601451,
+      "firstDisplayCueStartSeconds": 3.632,
+      "highlights": []
+    },
+    "audioCurrentTime": 0
+  },
+  "review_responses": [
+    {
+      "path": "player.html",
+      "status": 200
+    },
+    {
+      "path": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+      "status": 200
+    },
+    {
+      "path": "assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "status": 200
+    },
+    {
+      "path": "proof_assets/audio/tacoma-narrows_right_rail_alignment_music_mix.wav",
+      "status": 200
+    },
+    {
+      "path": "assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "status": 200
+    },
+    {
+      "path": "proof_build.json",
+      "status": 200
+    }
+  ],
+  "render_responses": [
+    {
+      "path": "player.html",
+      "status": 200
+    },
+    {
+      "path": "assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+      "status": 200
+    },
+    {
+      "path": "assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "status": 200
+    },
+    {
+      "path": "assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "status": 200
+    },
+    {
+      "path": "proof_assets/audio/tacoma-narrows_right_rail_alignment_music_mix.wav",
+      "status": 200
+    }
+  ],
+  "review_failed_responses": [],
+  "render_failed_responses": [],
+  "review_console_errors": [],
+  "render_console_errors": [],
+  "legacy_donor_browser_qa": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_failure_in_progress_rough_proof_20260523T024555Z/qa/browser_qa_1920x1080.json",
+    "status": "non_gating_legacy_contract_superseded_by_b3_promoted_runtime_qa"
+  }
+}

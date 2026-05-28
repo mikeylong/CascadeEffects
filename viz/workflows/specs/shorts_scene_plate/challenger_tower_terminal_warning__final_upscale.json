@@ -1,0 +1,114 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_tower_terminal_warning__final_upscale",
+  "base_fragment": "image_resize_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no second worker, no crowd, no meeting room, no indoor office, no enclosed window bay, no full centered shuttle hero, no full stack portrait behind the operator, no giant monitor hero, no close face portrait, no smiling pose, no snow, no hanging icicles, no launch already in progress, no explosion imagery",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131811,
+    "selected_seed": 972054013131811,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 8,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_tower_terminal_warning/final/challenger_tower_terminal_warning_final",
+    "note_text": "Final v3 beat 01a deliverable. Preserve the higher in-tower warning posture and the partial tank slice without text leakage or spectacle.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "final_upscale",
+    "reference_board_dir": "references/challenger_episode_acts/board",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "accent_palette": "winter blue, off-white, charcoal, signal orange",
+    "human_presence": "operators-allowed",
+    "safe_zone_intent": "keep the engineer proxy, elevated tower terminal, and partial tank geometry above the subtitle band while leaving the top UI band calm",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "one engineer proxy holds the warning high inside the tower while only a partial Challenger tank slice waits beyond the steel",
+    "beat_id": "beat_01a",
+    "historical_anchor": "Roger Boisjoly warned NASA not to fly the night before Challenger launched",
+    "surreal_breach": "the higher tower air feels held around one human warning while only a partial launch-stack slice waits beyond the steel",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_scene_plate/challenger_tower_terminal_warning/refine/challenger_tower_terminal_warning_refine_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_warning_cold.png",
+    "midjourney_package_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v3_trimmed/package.manifest.json",
+    "midjourney_shot_id": "beat_01"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "high open launch-tower service level with one engineer proxy at a side terminal and only a partial Challenger tank and booster slice visible through the steel behind him",
+    "support_fragments": [
+      "cold damp air and exposed tower catwalk structure carrying the warning while the background shuttle hardware stays subordinate and recognizable",
+      "small unreadable terminal glow and one lone human posture held inside an elevated documentary prelaunch frame"
+    ],
+    "directives": [
+      "keep the figure proxy-specific, not portrait-specific",
+      "make the engineer read as inside the tower proper rather than in a room beside it",
+      "show only a partial tank-and-booster slice behind the steel instead of a full centered shuttle view",
+      "keep the warning immediate without turning the frame into spectacle or office drama"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "widgets": {
+        "upscale_method": "{{ params.upscale_method }}",
+        "scale_by": "{{ params.upscale_factor }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_tower_terminal_warning__final_upscale.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_tower_terminal_warning__final_upscale.json"
+  }
+}

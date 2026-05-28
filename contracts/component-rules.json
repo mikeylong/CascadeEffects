@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "id": "use-design-tokens",
+      "severity": "required",
+      "description": "Use project design tokens for color, spacing, typography, radius, and shadow decisions."
+    },
+    {
+      "id": "cover-core-states",
+      "severity": "required",
+      "description": "Account for loading, empty, error, disabled, active, and success states when a surface can enter them."
+    },
+    {
+      "id": "preserve-component-contracts",
+      "severity": "required",
+      "description": "Do not change public component props, events, or exported names unless the active spec requires it."
+    }
+  ]
+}

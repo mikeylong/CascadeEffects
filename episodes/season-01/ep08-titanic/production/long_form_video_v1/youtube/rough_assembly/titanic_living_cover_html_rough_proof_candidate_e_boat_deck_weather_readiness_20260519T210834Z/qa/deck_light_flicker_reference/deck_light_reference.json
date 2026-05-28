@@ -1,0 +1,153 @@
+{
+  "artifact_type": "diagnostic_imagegen_two_plate_deck_light_flicker_reference",
+  "coordinate_space": "native_generated_pair_pixels_1920x1080",
+  "diagnostic_only": true,
+  "episode_id": "titanic",
+  "flicker_contract": {
+    "compositing_model": "lights_off_imagegen_plate_base_plus_masked_lights_on_imagegen_plate_overlay",
+    "forbidden_motion": [
+      "slow_fade",
+      "ease_in_out_breathing",
+      "synchronized_global_pulse",
+      "broad_wall_band",
+      "full_frame_exposure_flash"
+    ],
+    "masking_model": "per_light_radial_css_mask_on_lights_on_plate",
+    "schedule_seed": "titanic_deck_light_distress_flicker_v1",
+    "state_model": "hard_step_on_off",
+    "timing_model": "deterministic_seeded_independent_per_light",
+    "viewer_player_scope": "diagnostic_markers_do_not_render_in_player; viewer_player_uses_two_plate_mask_only"
+  },
+  "gate_effect": {
+    "current_gate": "rough_assembly_review",
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "next_required_gate": "human_rough_assembly_keep_or_tighten_reject",
+    "public_release_ready": false
+  },
+  "lights": [
+    {
+      "id": "L01",
+      "intensity": 1.0,
+      "label": "port wall sconce near foreground",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 42,
+      "x": 184,
+      "y": 303
+    },
+    {
+      "id": "L02",
+      "intensity": 0.82,
+      "label": "midship warm sconce left of davit",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 30,
+      "x": 382,
+      "y": 370
+    },
+    {
+      "id": "L03",
+      "intensity": 0.74,
+      "label": "midship warm sconce at davit crossing",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 26,
+      "x": 410,
+      "y": 372
+    },
+    {
+      "id": "L04",
+      "intensity": 0.78,
+      "label": "covered-boat deck lamp",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 26,
+      "x": 501,
+      "y": 388
+    },
+    {
+      "id": "L05",
+      "intensity": 0.72,
+      "label": "covered-boat deck lamp aft",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 24,
+      "x": 620,
+      "y": 434
+    },
+    {
+      "id": "L06",
+      "intensity": 0.62,
+      "label": "distant deck lamp",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 20,
+      "x": 760,
+      "y": 457
+    },
+    {
+      "id": "L07",
+      "intensity": 0.56,
+      "label": "distant davit-side lamp",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 18,
+      "x": 828,
+      "y": 473
+    },
+    {
+      "id": "L08",
+      "intensity": 0.48,
+      "label": "far deck lamp",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 16,
+      "x": 935,
+      "y": 497
+    },
+    {
+      "id": "L09",
+      "intensity": 0.44,
+      "label": "far deck lamp near crowd",
+      "origin_read": "pass_visible_lamp_fixture_on_generated_on_and_off_pair",
+      "radius": 15,
+      "x": 1000,
+      "y": 511
+    }
+  ],
+  "packet_id": "titanic_deck_light_flicker_reference_imagegen_pair_20260520",
+  "reads": {
+    "diagnostic_overlay_absence_read": "pass_reference_only_not_viewer_player",
+    "effect_origin_exclusion_read": "pass_no_people_rail_sky_or_reflection_origins",
+    "flicker_not_fade_read": "pass_no_css_transition_on_plate_mask_switch",
+    "generated_pair_dimension_read": "pass_1920x1080_after_normalization",
+    "imagegen_full_pair_attempt_read": "pass_attempt_01_activated",
+    "independent_interval_read": "planned_verified_in_player_qa",
+    "lights_off_plate_read": "pass_imagegen_full_scene_off_state_active_as_base",
+    "masked_on_plate_read": "pass_imagegen_full_scene_on_state_visible_only_through_light_masks",
+    "pixel_perfect_light_reference_read": "pass_native_1920x1080_coordinates_declared_on_generated_pair",
+    "subject_surface_origin_read": "pass_visible_lamp_sconce_hotspots_only",
+    "two_plate_registration_read": "pass_attempt_01_lamp_regions_register_for_masked_flicker"
+  },
+  "source_art_pair": {
+    "attempt_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_manifest.json",
+    "attempt_manifest_sha256": "61c2db41177f156f69f55cc483520202bed3f771c5828d6d8226370672cf2fed",
+    "generation_strategy": "full_scene_imagegen_pair_attempt_01_activated_after_registration_qa",
+    "lamp_origin_reference_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_lamp_origin_reference_sheet.jpg",
+    "lamp_origin_reference_sheet_sha256": "e4586814b4311834e0b59473d5ba55075ef0d5ab40e8c84ac4cd1fbb602e0bc6",
+    "light_mask_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_light_mask_1920x1080.png",
+      "role": "active_radial_light_mask_reference",
+      "sha256": "fc3486679697a70943148786aec52e6fc86d415ea244cbbeb825fad57cb094da"
+    },
+    "lights_off_plate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_off_1920x1080.png",
+      "role": "imagegen_full_scene_lights_off_active_base",
+      "sha256": "2f9bc9c95d0aa868461bca5fd9bbc8979a14f8ad8c6fff907890d1ad42c71880"
+    },
+    "lights_on_plate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_on_1920x1080.png",
+      "role": "imagegen_full_scene_lights_on_active_overlay",
+      "sha256": "20c832b8fb07eaa40aa7c8420962ef068cd7c7009c38066dd3e63910f1e3b365"
+    },
+    "provenance_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/imagegen_full_pair_provenance.json",
+    "provenance_sha256": "8a31cf3b3c4a992a54384fcad6b2c297478e79ecbb4559723f8480c7c8bf34c5",
+    "registration_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_registration_qa.json",
+    "registration_qa_sha256": "822af95187c35e049acd5edaad490ea07b78439e62cc020becfbd76ddb695c5e"
+  },
+  "updated_at": "2026-05-20T15:54:06.087753Z",
+  "workflow": "long_form_video_production_v1"
+}

@@ -1,0 +1,622 @@
+{
+  "candidate_id": "variant_a",
+  "label": "A",
+  "iteration": "stable_generated_walk_prefix",
+  "source_ltx_candidate": "variant_a",
+  "source_seed": 404101,
+  "source_prefix_first_frame": 0,
+  "source_prefix_last_frame": 96,
+  "source_prefix_frame_count": 97,
+  "prompt_variant_id": "stable_prefix_restrained_first_step_a",
+  "motion_note": "restrained first-step cue; minimal travel and no late drift",
+  "cfg_scale": 1.15,
+  "stg_scale": 0.2,
+  "steps": 8,
+  "frames_requested": 289,
+  "frames_after_normalization": 288,
+  "terminal_walk_duration_seconds": 12.0,
+  "review_transition_duration_seconds": 14.0,
+  "loop_construction": "stable LTX-generated walking prefix stretched once to 12s; not looped",
+  "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/prompts/variant_a_terminal_walk_prompt.txt",
+  "prompt_sha256": "f60e739c80de6b3a7b2ac4961ac0815780a91e6da9cc0d12b934382f71d6d3d9",
+  "ltx_invocation": {
+    "runtime": "/Users/mike/AI/ltx-2-mlx/.venv/bin/ltx-2-mlx",
+    "model": "dgrauet/ltx-2.3-mlx-q8",
+    "gemma": "mlx-community/gemma-3-12b-it-4bit",
+    "width": 960,
+    "height": 384,
+    "frames": 289,
+    "steps": 8,
+    "cfg_scale": 1.15,
+    "stg_scale": 0.2,
+    "enhance_prompt": false,
+    "pipeline": "one_stage",
+    "post_generation_selection": "stable walking prefix only, no in-place deformation or sprite overlay"
+  },
+  "raw_chroma_crew_clip": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/raw_chroma_crew/variant_a_stable_generated_walk_prefix_terminal_walk_raw_chroma_12s.mp4",
+    "sha256": "5931b8bd8d6ee38847c1ec48f4328e2a324c2b9790e34e0a5e4eb5a402bcc742",
+    "bytes": 1572558,
+    "duration_seconds": 12.0,
+    "width": 960,
+    "height": 384,
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_frames": "288",
+    "has_audio": false,
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 960,
+          "height": 384,
+          "coded_width": 960,
+          "coded_height": 384,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 30,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 147456,
+          "duration": "12.000000",
+          "bit_rate": "1045488",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "288",
+          "extradata_size": 45,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc62.11.100 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/raw_chroma_crew/variant_a_stable_generated_walk_prefix_terminal_walk_raw_chroma_12s.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "12.000000",
+        "size": "1572558",
+        "bit_rate": "1048372",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "keyed_alpha_preview_clip": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/keyed_alpha_preview/variant_a_stable_generated_walk_prefix_terminal_walk_keyed_alpha_preview_12s.mp4",
+    "sha256": "f6e27c3e5c7d74ea54a570ea9f23e4fcaccb6b27fd935fcfe3931f1e2cbf46cf",
+    "bytes": 1892902,
+    "duration_seconds": 12.0,
+    "width": 960,
+    "height": 384,
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_frames": "288",
+    "has_audio": false,
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 960,
+          "height": 384,
+          "coded_width": 960,
+          "coded_height": 384,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 30,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 147456,
+          "duration": "12.000000",
+          "bit_rate": "1259051",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "288",
+          "extradata_size": 45,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc62.11.100 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/keyed_alpha_preview/variant_a_stable_generated_walk_prefix_terminal_walk_keyed_alpha_preview_12s.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "12.000000",
+        "size": "1892902",
+        "bit_rate": "1261934",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "composited_full_frame_clip": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/composited_full_frame/variant_a_stable_generated_walk_prefix_terminal_walk_composited_full_frame_12s.mp4",
+    "sha256": "8f12b72f923477e47a7377f53847550626ffae5c45ebbec3a97a2db2329f2819",
+    "bytes": 2465553,
+    "duration_seconds": 12.0,
+    "width": 1920,
+    "height": 1080,
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_frames": "288",
+    "has_audio": false,
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 147456,
+          "duration": "12.000000",
+          "bit_rate": "1640806",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "288",
+          "extradata_size": 47,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc62.11.100 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/composited_full_frame/variant_a_stable_generated_walk_prefix_terminal_walk_composited_full_frame_12s.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "12.000000",
+        "size": "2465553",
+        "bit_rate": "1643702",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "transition_review_clip": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/transition_review/variant_a_stable_generated_walk_prefix_static_then_terminal_walk_review_14s.mp4",
+    "sha256": "64e6f15b18d96a1ade22e71930c7c78d8bc2332424ac398b63514024d448b712",
+    "bytes": 2529222,
+    "duration_seconds": 14.0,
+    "width": 1920,
+    "height": 1080,
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_frames": "336",
+    "has_audio": false,
+    "ffprobe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "width": 1920,
+          "height": 1080,
+          "coded_width": 1920,
+          "coded_height": 1080,
+          "has_b_frames": 2,
+          "pix_fmt": "yuv420p",
+          "level": 40,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "refs": 1,
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "time_base": "1/12288",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 172032,
+          "duration": "14.000000",
+          "bit_rate": "1442465",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "336",
+          "extradata_size": 47,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "vendor_id": "[0][0][0][0]",
+            "encoder": "Lavc62.11.100 libx264"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/clips/transition_review/variant_a_stable_generated_walk_prefix_static_then_terminal_walk_review_14s.mp4",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "format_long_name": "QuickTime / MOV",
+        "start_time": "0.000000",
+        "duration": "14.000000",
+        "size": "2529222",
+        "bit_rate": "1445269",
+        "probe_score": 100,
+        "tags": {
+          "major_brand": "isom",
+          "minor_version": "512",
+          "compatible_brands": "isomiso2avc1mp41",
+          "encoder": "Lavf62.3.100"
+        }
+      }
+    }
+  },
+  "qa_frames": {
+    "raw_chroma_crew": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/raw_chroma_crew/variant_a/variant_a_raw_000.png",
+        "sha256": "3edce14ceeeb75b85ed1f951f9829f7431ffe355c743e0600900d688946c01a1",
+        "bytes": 295964
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/raw_chroma_crew/variant_a/variant_a_raw_036.png",
+        "sha256": "e6118c0087f28a3c1bd605211eb972714cfe677383c4468a763db256698c7074",
+        "bytes": 321388
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/raw_chroma_crew/variant_a/variant_a_raw_072.png",
+        "sha256": "e4ad85a01e88b2761fa121c8217f4d084708bf7a79347dbc0c70fa357b6baa73",
+        "bytes": 322246
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/raw_chroma_crew/variant_a/variant_a_raw_144.png",
+        "sha256": "00f5edf4a7102f3d21f4baa0040bbf159b8813a3b9e005ff9dd614bd6de8ccb2",
+        "bytes": 345822
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/raw_chroma_crew/variant_a/variant_a_raw_216.png",
+        "sha256": "b707ea21b0af9dd072157099cc61b98d944d3f6dc6c150c635a93e713028a8cc",
+        "bytes": 411083
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/raw_chroma_crew/variant_a/variant_a_raw_287.png",
+        "sha256": "e496a587f1aca6ddbd3eab17cd18155f01c8399ade4698b137105acffd59646a",
+        "bytes": 459190
+      }
+    ],
+    "matte": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/matte/variant_a/variant_a_matte_000.png",
+        "sha256": "314a91d8adfb99e078c1a13e9b20ca568f00eb7d91364f6cc11de86cb6b2b509",
+        "bytes": 11735
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/matte/variant_a/variant_a_matte_036.png",
+        "sha256": "84f958a2bd3faef166aa9319f1682aef6c688227def1ae8577e1a8ca938cac73",
+        "bytes": 11703
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/matte/variant_a/variant_a_matte_072.png",
+        "sha256": "754d402dfcefc2b2bbc7a76cd004d1615269595f05f5f36d9a52a52a1a7b268b",
+        "bytes": 14548
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/matte/variant_a/variant_a_matte_144.png",
+        "sha256": "458e82a64e154e1892b5b53539207a73415389fbfef05cf561daefb4e3502738",
+        "bytes": 15002
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/matte/variant_a/variant_a_matte_216.png",
+        "sha256": "e08bd268b8a8875f43eff1cf40c1f2ee6c8ba88f3107b2143ecf56476cf13312",
+        "bytes": 15266
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/matte/variant_a/variant_a_matte_287.png",
+        "sha256": "75290ef63d4c535f93401c5c2e45f0cca14466dad1d4f849bc1762fafb4300ba",
+        "bytes": 15749
+      }
+    ],
+    "composited_full_frame": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/composited_full_frame/variant_a/variant_a_full_000.png",
+        "sha256": "f1cba034402cef80707165fd013987451760174e02747ed4a17ada58c34b4b14",
+        "bytes": 2412547
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/composited_full_frame/variant_a/variant_a_full_036.png",
+        "sha256": "9756e24db96cf717df8353e7d169b175fffd711a0c8c4c82a3b789aa42ffd4a7",
+        "bytes": 2413406
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/composited_full_frame/variant_a/variant_a_full_072.png",
+        "sha256": "4aff13e1bfab89b34fc35e040cd089be9e3ba459d448602eeb6ea12ee9b0f73c",
+        "bytes": 2404341
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/composited_full_frame/variant_a/variant_a_full_144.png",
+        "sha256": "058ebbd2041d5607b78b076baea19fd6a05f0b2bd52fb7587d5bda12629883c2",
+        "bytes": 2406847
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/composited_full_frame/variant_a/variant_a_full_216.png",
+        "sha256": "359de1436d92c087c6379ba47fa892ce8fbdc60d8ee9caf44a72e3eed0a40a98",
+        "bytes": 2411649
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/composited_full_frame/variant_a/variant_a_full_287.png",
+        "sha256": "e688b8e5f901c30fae212ee76a5243737b6aa3ca39f9a5cf17fc749233518c6b",
+        "bytes": 2415836
+      }
+    ],
+    "crew_crop": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/crew_crop/variant_a/variant_a_crew_crop_000.png",
+        "sha256": "6ea59f2edb231d3c4d36cbcc5ccb87c3b0db9c9c80a09df49a90c58429ab3a73",
+        "bytes": 549213
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/crew_crop/variant_a/variant_a_crew_crop_036.png",
+        "sha256": "9757e945381599f7d4e4e662c40d581f387c324ccedde60f79af5600657dda76",
+        "bytes": 550411
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/crew_crop/variant_a/variant_a_crew_crop_072.png",
+        "sha256": "5f10c9f34aacd79bae473465452f3dad01bd6b224c813a0f955dc45991876eff",
+        "bytes": 541673
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/crew_crop/variant_a/variant_a_crew_crop_144.png",
+        "sha256": "860f445f520ce10aa9aedd9af5ea9f2b53dd665405096160ebb01dcfcdfe777d",
+        "bytes": 544482
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/crew_crop/variant_a/variant_a_crew_crop_216.png",
+        "sha256": "e4796f6bde17020708b6bd1ea34d4f33bf25079d99c3fbc8e286e378e7ea084a",
+        "bytes": 547959
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/crew_crop/variant_a/variant_a_crew_crop_287.png",
+        "sha256": "12cf31025802ba21195d2b72c0696af42f32795648a6eac81608dbcb8f64b804",
+        "bytes": 551994
+      }
+    ],
+    "still_to_walk_transition": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_000.png",
+        "sha256": "a910e26c7d3bb49af6ea6f1a271ed0fff58ead128ac81cd28a19b047e3b174cc",
+        "bytes": 2429764
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_024.png",
+        "sha256": "a910e26c7d3bb49af6ea6f1a271ed0fff58ead128ac81cd28a19b047e3b174cc",
+        "bytes": 2429764
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_047.png",
+        "sha256": "a910e26c7d3bb49af6ea6f1a271ed0fff58ead128ac81cd28a19b047e3b174cc",
+        "bytes": 2429764
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_048.png",
+        "sha256": "f1cba034402cef80707165fd013987451760174e02747ed4a17ada58c34b4b14",
+        "bytes": 2412547
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_060.png",
+        "sha256": "0a25b4a711d0aef364777044f2283c6fdb14100a6e07073e953df16c26859701",
+        "bytes": 2415901
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_084.png",
+        "sha256": "9756e24db96cf717df8353e7d169b175fffd711a0c8c4c82a3b789aa42ffd4a7",
+        "bytes": 2413406
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_120.png",
+        "sha256": "4aff13e1bfab89b34fc35e040cd089be9e3ba459d448602eeb6ea12ee9b0f73c",
+        "bytes": 2404341
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_180.png",
+        "sha256": "df76241c83e7b1f6c88b298eef864e2e08d10639054aac4698e033f023146495",
+        "bytes": 2404077
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_240.png",
+        "sha256": "3be6a4b0fbfb1a57854636f1e94b5ead6e2b5a095139a800881e5758d3ee6bab",
+        "bytes": 2413177
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_ltx23_terminal_walk_scout_20260506T020817Z/qa/frames/stable_generated_walk_prefix/still_to_walk_transition/variant_a/variant_a_transition_335.png",
+        "sha256": "e688b8e5f901c30fae212ee76a5243737b6aa3ca39f9a5cf17fc749233518c6b",
+        "bytes": 2415836
+      }
+    ]
+  },
+  "machine_motion_probe": {
+    "crew_crop_motion_delta_score": 18.2459,
+    "hand_raise_probe": {
+      "upper_body_blue_pixel_counts": [
+        10765,
+        11902,
+        12206,
+        13456,
+        15172,
+        13949
+      ],
+      "max_delta_from_first": 4407,
+      "machine_flag": "no_large_upper_body_raise_detected"
+    },
+    "note": "Machine probes are coarse screening only; human review is authoritative for walking authenticity, crew count, hand waving, and synchronized stride."
+  },
+  "disposition": "defer",
+  "selected_for_full_runtime_html_proof": false,
+  "selected_for_full_runtime_html_proof_status": "pending_human_review",
+  "seed": 404101
+}

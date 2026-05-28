@@ -1,0 +1,322 @@
+{
+  "packet_id": "semmelweis_living_cover_ambient_effects_layer_candidate_f_candidate_c_composition_texture_repair_20260519",
+  "episode_id": "semmelweis",
+  "workflow": "long_form_video_production_v1",
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+  "created_at": "2026-05-19T17:45:24Z",
+  "updated_at": "2026-05-20T00:00:00-07:00",
+  "status": "review_ready_pending_human_keep_after_lamp_reflection_sink_glow_tighten",
+  "human_disposition": "pending_after_lamp_reflection_sink_glow_tighten",
+  "may_advance": false,
+  "source_art": {
+    "candidate_id": "candidate_f_candidate_c_composition_texture_repair",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/source_art/candidates/semmelweis_living_cover_source_art_candidate_f_candidate_c_composition_texture_repair_20260519.png",
+    "sha256": "9399f6e0aa51cbf649279a101e1e97ba3931fc8ea4838d31bd7601e535d3fb6d",
+    "width": 1920,
+    "height": 1080,
+    "role": "kept_candidate_f_living_cover_source_art_backplate"
+  },
+  "cue_map": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/cue_map/living_cover_cue_map_candidate_f_candidate_c_composition_texture_repair_20260519.md",
+    "sha256": "c5a9fbb7bf9ca436961985a728e1301a002ad6274dcb794396e15d1315046f6c",
+    "json_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/cue_map/living_cover_cue_map_candidate_f_candidate_c_composition_texture_repair_20260519.json",
+    "json_sha256": "35670cbd320c36f7099527fc7ee62afee10196fbecf808507bc6d57ff2f595eb",
+    "human_keep_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/cue_map/human_living_cover_cue_map_keep_candidate_f_20260519.md",
+    "human_keep_sha256": "9bfab6d67760990fdd6e0d04e905bdaa1273c6d0506c1afd026e15f9da2a58c4"
+  },
+  "human_tighten": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/ambient_effects/human_living_cover_ambient_effects_layer_tighten_imperceptible_20260520.md",
+    "sha256": "ca1fab8787ea776a5f796ad543d71e835fe3034d93fc0f3b426fe24fc802f1ae",
+    "disposition": "tighten",
+    "reason": "ambient_effects_imperceptible_in_normal_browser_review_playback",
+    "repair_scope": "increase_source_integrated_ambient_noticeability_without_changing_source_art_rail_audio_or_downstream_gates"
+  },
+  "human_source_plate_drift_tighten": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/ambient_effects/human_living_cover_ambient_effects_layer_tighten_source_plate_drift_20260520.md",
+    "sha256": "8196bcffad0334e0a1f3728717e8ec4c549f7a334fd14ee27991a4a486824d56",
+    "disposition": "tighten",
+    "reason": "subtle_source_plate_drift_missing_or_not_perceptible_in_browser_review",
+    "repair_scope": "make_source_plate_drift_audio_time_aware_and_visible_during_playback_and_scrub_without_changing_source_art_rail_audio_or_downstream_gates"
+  },
+  "human_basin_glint_artifact_tighten": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/ambient_effects/human_living_cover_ambient_effects_layer_tighten_basin_glint_box_artifact_20260520.md",
+    "sha256": "4fd23ff0012be23914e5d465a11523a6f4b1368c4c3883805761742ca5b8312d",
+    "disposition": "tighten",
+    "reason": "basin_glint_reads_as_pulsing_translucent_square_transposed_onto_sink",
+    "repair_scope": "remove_rectangular_clipped_glint_overlay_and_replace_with_soft_surface_local_radial_highlights"
+  },
+  "human_glint_speed_left_lamp_tighten": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/ambient_effects/human_living_cover_ambient_effects_layer_tighten_glint_speed_left_lamp_20260520.md",
+    "sha256": "cb8e45c9dfde6b190baa9aaa3c4083fcb7247e1fcadb0070e772d5436f1cb518",
+    "disposition": "tighten",
+    "reason": "basin_glint_too_slow_and_existing_left_room_lamp_needs_perceptible_ambient_life",
+    "repair_scope": "speed_up_soft_basin_glint_and_add_localized_warm_bloom_micro_flicker_to_existing_left_room_lamp_without_changing_source_art_rail_audio_or_downstream_gates"
+  },
+  "lane_decision": {
+    "id": "mixed_minimal_hospital_threshold_micro_life_lamp_reflection_sink_glow_tighten_v6",
+    "rationale": "Candidate F is an institutional autopsy-to-ward threshold carrier. Human review tightened the ambient layer for imperceptible effects, missing source plate drift, a rectangular basin-glint artifact, slow basin glint and left-room lamp micro-life, then tightened again because the left-room lamp read as reflecting on the surgeon coat and the sink/basin glow should be removed. This repair keeps the noticeability/source-drift pass, keeps the rectangular glint artifact as historical provenance only, removes active basin shimmer/glint, narrows the lamp breath and bloom off the coat, and confines any lamp reflection to the existing covered cadaver/table surface without changing the source art, adding horror, or reintroducing paper/grain/texture treatment.",
+    "selected_lanes": [
+      "source_plate_drift",
+      "practical_lamp_micro_life",
+      "left_wall_lamp_bloom",
+      "cadaver_table_lamp_reflection",
+      "ward_window_daylight_drift",
+      "doorway_light_sweep",
+      "cloth_curtain_breathing",
+      "clean_air_mote_depth",
+      "localized_rail_readability",
+      "end_screen_background_continuity"
+    ]
+  },
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "type": "source_transform",
+      "treatment": "audio-time-aware source-safe pan and scale drift that is visible during playback and scrub review; no hard chapter transform switches, zoom spectacle, or seasick motion",
+      "qa_read": "source_plate_drift_read"
+    },
+    {
+      "id": "practical_lamp_micro_life",
+      "type": "localized_light",
+      "treatment": "readable warm lamp breathing near the autopsy-room practical; left-room breath narrowed off the surgeon coat; no new lamp, sparks, flame surges, emergency flashes, horror flicker, or coat spill",
+      "qa_read": "practical_light_micro_life_read"
+    },
+    {
+      "id": "left_wall_lamp_bloom",
+      "type": "localized_light",
+      "treatment": "localized warm bloom and restrained micro-flicker centered on the existing lamp in the left/autopsy-room area; narrowed with the lamp-breath layer to avoid visible spill on the surgeon coat and avoid broad room wash",
+      "qa_read": "left_wall_lamp_micro_life_read"
+    },
+    {
+      "id": "cadaver_table_lamp_reflection",
+      "type": "localized_reflection",
+      "treatment": "restrained warm reflection on the existing covered cadaver/table surface in the left/autopsy-room area only; no exposed anatomy, gore, new table, new body, or horror treatment",
+      "qa_read": "cadaver_table_lamp_reflection_read"
+    },
+    {
+      "id": "ward_window_daylight_drift",
+      "type": "localized_light",
+      "treatment": "readable daylight pulse through the ward window and doorway depth; no divine glow, supernatural treatment, or source repainting",
+      "qa_read": "ward_window_daylight_read"
+    },
+    {
+      "id": "doorway_light_sweep",
+      "type": "localized_light",
+      "treatment": "soft slow light sweep through the existing ward doorway and floor path to give the autopsy-to-ward route visible ambient life without source repainting",
+      "qa_read": "doorway_light_sweep_read"
+    },
+    {
+      "id": "cloth_curtain_breathing",
+      "type": "localized_micro_motion",
+      "treatment": "readable movement in existing ward curtains and hanging cloth only; no paper texture, flutter spectacle, or new foreground cloth",
+      "qa_read": "cloth_curtain_motion_read"
+    },
+    {
+      "id": "clean_air_mote_depth",
+      "type": "restrained_depth_atmosphere",
+      "treatment": "faint depth air only if it reads as light in air, not dust/grit/speckle/noise or documentary grime",
+      "qa_read": "localized_particle_density_read"
+    },
+    {
+      "id": "localized_rail_readability",
+      "type": "rail_readability",
+      "treatment": "source-aware active-panel and caption support only; no full-frame dark veil and no full-height opaque right-column panel",
+      "qa_read": "localized_readability_treatment_read"
+    },
+    {
+      "id": "end_screen_background_continuity",
+      "type": "end_screen_background_policy",
+      "treatment": "future rough proof may continue ambient motion behind static YouTube target geometry only after end-screen reads pass",
+      "qa_read": "end_screen_text_boundary_read"
+    }
+  ],
+  "effect_parameters": {
+    "seed": "semmelweis_candidate_f_ambient_20260520_lamp_reflection_sink_glow_tighten_v6",
+    "fixed_coordinate_space": "1920x1080",
+    "source_transform_scale_range": [
+      1.009,
+      1.018
+    ],
+    "source_transform_x_drift_px": [
+      -10,
+      10
+    ],
+    "source_transform_y_drift_px": [
+      -6,
+      6
+    ],
+    "source_drift_cycle_seconds": [
+      23,
+      74
+    ],
+    "source_drift_review_sync": "audio_time_and_timeline_scrub_aware",
+    "chapter_transition_easing_seconds": [
+      14,
+      24
+    ],
+    "practical_lamp_micro_life_opacity_delta": [
+      0.04,
+      0.14
+    ],
+    "left_wall_lamp_bloom_cycle_seconds": [
+      3.4,
+      3.4
+    ],
+    "left_wall_lamp_bloom_opacity_delta": [
+      0.03,
+      0.1
+    ],
+    "ward_window_daylight_opacity_delta": [
+      0,
+      0.09
+    ],
+    "doorway_floor_light_sweep_opacity_delta": [
+      0,
+      0.08
+    ],
+    "cloth_curtain_motion_amplitude_px": [
+      0,
+      7
+    ],
+    "clean_air_mote_opacity_ceiling": 0.04,
+    "rail_readability_treatment": "localized_active_panel_fill_and_caption_softener_only",
+    "cadaver_table_lamp_reflection_opacity_delta": [
+      0,
+      0.1
+    ],
+    "cadaver_table_lamp_reflection_cycle_seconds": [
+      4.6,
+      4.6
+    ],
+    "sink_basin_glow_policy": "disabled_no_active_basin_shimmer_basin_glint_sink_glow_or_basin_targeted_light_layer"
+  },
+  "browser_sample_times_seconds": [
+    0,
+    77.856,
+    202.205,
+    240.447,
+    400.994,
+    449.447,
+    516.678,
+    619.001,
+    716.408,
+    839.062,
+    850.825578
+  ],
+  "source_safety": {
+    "allowed": [
+      "source transform",
+      "localized lamp micro-life",
+      "localized covered cadaver/table lamp reflection",
+      "ward window daylight drift",
+      "existing curtain and cloth micro-motion",
+      "extremely faint clean air depth",
+      "localized rail readability support",
+      "future static end-screen background continuity"
+    ],
+    "blocked": [
+      "new source-art backplate",
+      "source repaint",
+      "room geometry changes",
+      "basin geometry changes",
+      "ward-bed geometry changes",
+      "new characters",
+      "handwashing demonstration",
+      "surgical action",
+      "gore",
+      "medical horror",
+      "exposed bodies",
+      "mothers or babies close-ups",
+      "asylum imagery",
+      "wound imagery",
+      "deathbed imagery",
+      "foreground administrative props",
+      "ledgers",
+      "mortality charts",
+      "diagnostic overlays",
+      "cyan vectors",
+      "connector lines",
+      "generated UI paths",
+      "recognizable faces",
+      "generated logos",
+      "readable signs or labels",
+      "modern medical equipment",
+      "Paper Architecture resemblance",
+      "paper texture",
+      "paper fibers",
+      "model-board cues",
+      "sandy speckle",
+      "gritty grain",
+      "AI shimmer",
+      "active sink or basin glow",
+      "basin shimmer",
+      "basin glint",
+      "lamp reflection on surgeon coat",
+      "new cadaver or table geometry"
+    ]
+  },
+  "reads": {
+    "ambient_effects_plan_read": "pass_packet_local_layer_created",
+    "ambient_effect_lane_decision_read": "pass_mixed_minimal_hospital_threshold_micro_life_lamp_reflection_sink_glow_tighten",
+    "human_ambient_tighten_read": "pass_imperceptible_review_recorded",
+    "human_source_plate_drift_tighten_read": "pass_missing_source_plate_drift_review_recorded",
+    "human_glint_speed_left_lamp_tighten_read": "pass_glint_speed_and_left_room_lamp_feedback_recorded",
+    "ambient_noticeability_read": "pass_tightened_after_human_imperceptible_review",
+    "discernible_ambient_effects_read": "pass_tightened_visible_at_normal_playback",
+    "source_safe_visibility_tighten_read": "pass_lamp_window_cadaver_table_cloth_floor_only_no_sink_glow",
+    "source_plate_drift_read": "pass_audio_time_synced_subtle_pan_scale_visible_on_playback_and_scrub",
+    "basin_glint_box_artifact_read": "pass_historical_rectangular_pulsing_glint_removed_not_active",
+    "left_wall_lamp_micro_life_read": "pass_existing_left_room_lamp_localized_warm_bloom",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_coordinate_space_required_before_rough",
+    "foreground_occlusion_read": "pass_no_new_people_faces_or_foreground_object_effects_planned",
+    "effect_layer_source_safety_read": "pass_preserve_candidate_f_geometry_no_new_room_basin_ward_cadaver_or_horror_elements",
+    "deterministic_ambient_read": "pass_seeded_parameters_declared_for_rough_builder",
+    "additive_effect_integration_read": "pass_successor_layers_preserve_kept_plate_cue_map_source_drift_audio_scrubber_and_fixed_rail",
+    "debug_overlay_absence_read": "pass_required_for_viewer_facing_rough",
+    "ambient_effect_browser_sample_read": "pass_sample_times_declared_for_next_rough_review",
+    "range_scrub_effect_review_read": "pass_required_for_long_proof_review_server",
+    "practical_light_micro_life_read": "pass_readable_existing_lamp_breathing_and_left_room_lamp_bloom_without_coat_spill",
+    "ward_window_daylight_read": "pass_readable_existing_window_and_doorway_light_drift_only",
+    "basin_reflection_read": "pass_disabled_no_active_sink_or_basin_glow",
+    "doorway_light_sweep_read": "pass_existing_doorway_and_floor_path_light_only",
+    "cloth_curtain_motion_read": "pass_existing_cloth_and_curtain_readable_micro_motion_only",
+    "localized_particle_density_read": "pass_faint_depth_air_only_not_grit_speckle_or_texture",
+    "particle_foreground_leak_read": "pass_no_foreground_particle_leak_or_texture_layer",
+    "rail_panel_palette_read": "pass_source_integrated_plaster_tile_wood_lamp_palette_planned",
+    "source_integrated_panel_color_read": "pass_no_challenger_navy_default",
+    "full_frame_dark_overlay_read": "pass_blocked_prefer_localized_rail_readability",
+    "localized_readability_treatment_read": "pass_active_panel_and_caption_softener_only",
+    "right_rail_opacity_balance_read": "pass_no_full_height_opaque_right_column_planned",
+    "context_region_source_visibility_read": "pass_context_region_keeps_source_image_visible",
+    "caption_softener_scope_read": "pass_lower_rail_caption_softener_only_while_captions_visible",
+    "procedural_signal_overlay_read": "pass_no_overlay",
+    "ambient_line_artifact_read": "pass_no_cyan_or_diagnostic_lines",
+    "medical_horror_absence_read": "pass_no_gore_wounds_bodies_asylum_or_deathbed_imagery",
+    "foreground_admin_prop_read": "pass_no_admin_anchor_added_by_effect_layer",
+    "texture_detail_creep_read": "pass_no_paper_grain_speckle_or_ai_texture_layer_planned",
+    "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper",
+    "paper_architecture_visual_style_read": "pass_no_resemblance",
+    "human_lamp_reflection_sink_glow_tighten_read": "pass_lamp_reflection_on_surgeon_coat_and_remove_sink_glow_feedback_recorded",
+    "sink_glow_absence_read": "pass_basin_shimmer_and_basin_glint_removed",
+    "coat_reflection_absence_read": "pass_left_room_lamp_breath_and_bloom_narrowed_off_surgeon_coat",
+    "cadaver_table_lamp_reflection_read": "pass_subtle_reflection_on_existing_covered_cadaver_table_only"
+  },
+  "advance_flags": {
+    "may_mark_ambient_effects_layer_keep": false,
+    "may_create_music_integration_contract": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "next_action": "Human review must mark the ambient/effects layer keep, tighten, or reject. A keep may open the music_integration_contract gate.",
+  "human_lamp_reflection_sink_glow_tighten": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/living_cover/ambient_effects/human_living_cover_ambient_effects_layer_tighten_lamp_reflection_sink_glow_20260520.md",
+    "sha256": "25117d34256d2d2fb402734f051d40eb0905672e1223be1713c1fe3a4b06e86f",
+    "disposition": "tighten",
+    "reason": "lamp_reflection_on_surgeon_coat_and_remove_sink_glow",
+    "repair_scope": "remove_active_sink_basin_glow_narrow_lamp_bloom_off_coat_and_confine_any_lamp_reflection_to_existing_covered_cadaver_table"
+  }
+}

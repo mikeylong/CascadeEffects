@@ -1,0 +1,392 @@
+{
+  "episode_id": "challenger",
+  "workflow": "long_form_video_production_v1",
+  "packet_type": "source_art_experiment",
+  "experiment_id": "challenger_seven_astronaut_photoreal_experiment_20260519T072721Z",
+  "created_at_utc": "2026-05-19T07:27:21Z",
+  "status": "experiment_review_ready_with_tighten_variants_pending_human_review",
+  "disposition": "experiment_only_not_active_source_art",
+  "experiment_only": true,
+  "blocks_current_final": false,
+  "may_replace_current_final": false,
+  "may_mark_source_art_keep": false,
+  "may_create_cue_map": false,
+  "may_start_motion_readiness": false,
+  "may_start_rough_assembly": false,
+  "may_render_final_mp4": false,
+  "may_youtube_action": false,
+  "current_final_publish_package_touched": false,
+  "source_art_lane": "cascade-ink-lit-photoreal-v1",
+  "carrier_direction": "seven_astronaut_launch_pad_photoreal",
+  "carrier_type": "generated_raster_source_art",
+  "generation_method": "prompt_only_regenerate",
+  "generation_tool": "codex_builtin_image_gen",
+  "imagegen_skill_read": "pass_required_for_generation",
+  "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+  "source_art_workspace_copy_read": "pass_all_generated_assets_copied_into_experiment_packet",
+  "local_rendered_backplate_read": "pass_local_tools_only_normalized_and_packaged_imagegen_outputs",
+  "target_dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "aspect_ratio": "16:9"
+  },
+  "active_episode_baseline": {
+    "baseline_index": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json",
+      "sha256": "834377e2c83655e7139319f856e1e8a1e458c51776a0a7aaa6fc7cc9632b7cfe"
+    },
+    "baseline_doc": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/challenger.md",
+      "sha256": "190bec3da12a76eab1dca58aaafe4037cbe184ae490c336ff5ff594ca185035b"
+    },
+    "baseline_status": "keep_publish_readiness_active",
+    "active_source_art": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_shuttle_stack_reference_imagegen_scene_exploration_20260510T174825Z/assets/source_art/shuttle_stack_reference_variant_a.png",
+      "sha256": "981f442755441d374a6d512632572730b4edbfb5f91314c736b8e287ee65880d"
+    },
+    "source_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_shuttle_stack_reference_imagegen_scene_exploration_20260510T174825Z/source_art_exploration_manifest.json",
+      "sha256": "329d6559b18ef41b5fcfed1b5ce8fe71b134ba467bce409051ff30abba04351a"
+    },
+    "prior_experiment_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/source_art_experiment_manifest.json",
+      "sha256": "1431f088533d037521e2393ed741a41fa3241f1cba6bc036f0e6c0f94eea6aa6"
+    },
+    "inherited_required_reads": [
+      "launch_pad_scene_read",
+      "reference_anchor_read",
+      "pad_hardware_authenticity_read",
+      "website_hero_artifact_read",
+      "brand_signal_artifact_read",
+      "video_visual_style_scope_read",
+      "paper_architecture_visual_style_read",
+      "right_rail_safe_space_read"
+    ],
+    "deviation_note": "Separate prompt-only seven-astronaut photoreal experiment. It does not replace active shuttle-stack Variant A source art unless a later human keep explicitly promotes it."
+  },
+  "foreground_motif_policy": {
+    "seven_astronaut_foreground_read_required": true,
+    "required_count": 7,
+    "motif_source": "active_challenger_plate_foreground_motif",
+    "literal_documentary_claim": false,
+    "policy_note": "The seven blue-suited foreground figures are a representational Challenger crew motif inherited from the active plate. They must remain anonymous and back-facing."
+  },
+  "recognizability_ladder": {
+    "public_anchor": "Space Shuttle Challenger on LC-39 at night with fixed service structure and pad lights",
+    "human_presence": "exactly seven anonymous blue-suited astronaut figures from behind, used as anticipation and scale",
+    "system_clue": "pad hardware readiness, practical tower lights, beacon, floodlights, crawlerway/service-road geometry, and rail-safe night sky"
+  },
+  "ambient_affordance_targets": [
+    "practical_tower_and_pad_light_glow",
+    "tower_beacon_pulse",
+    "localized_dust_or_air_particles_near_lights",
+    "damp_or_reflective_pad_surface_shimmer",
+    "distant_aircraft_navigation_points",
+    "subtle_anticipation_in_figure_stance"
+  ],
+  "hard_bans": [
+    "count_drift_from_seven_foreground_astronauts",
+    "paper_architecture_resemblance",
+    "foreground_clipboards",
+    "foreground_binders",
+    "foreground_folders",
+    "paperwork_stacks",
+    "legal_pads",
+    "document_trays",
+    "generic_evidence_table_props",
+    "admin_desks",
+    "readable_text",
+    "logos",
+    "mission_patches",
+    "ui_labels",
+    "cyan_brand_signal_artifacts",
+    "coral_brand_signal_artifacts",
+    "smoke",
+    "haze",
+    "fire",
+    "launch_exhaust",
+    "sparks",
+    "plume",
+    "explosion",
+    "launch_moment",
+    "recognizable_faces",
+    "full_frame_grain"
+  ],
+  "required_source_art_reads": [
+    "seven_astronaut_foreground_read",
+    "foreground_admin_prop_read",
+    "implied_action_anticipation_read",
+    "ambient_affordance_read",
+    "historical_source_reference_alignment_read",
+    "no_recognizable_faces_read",
+    "right_rail_safe_space_read",
+    "video_visual_style_scope_read",
+    "launch_pad_scene_read",
+    "reference_anchor_read",
+    "pad_hardware_authenticity_read",
+    "website_hero_artifact_read",
+    "paper_architecture_visual_style_read",
+    "brand_signal_artifact_read",
+    "generated_text_logo_read",
+    "disaster_spectacle_absence_read",
+    "source_provenance_read",
+    "rights_and_content_id_risk_read"
+  ],
+  "candidate_outputs": [
+    {
+      "candidate_id": "candidate_a_prompt_only_seven_astronauts_primary",
+      "title": "Candidate A - Prompt-Only Seven-Astronaut Primary",
+      "status": "tighten_count_drift_not_recommended",
+      "review_recommendation": "tighten",
+      "strength": "strong photoreal pad and rail space, but foreground count appears to drift to eight",
+      "hard_reads_pass_for_recommendation": false,
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image_prompt_only",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0c0fe667108196aefadd84bcf44a11.png",
+        "source_generation_sha256": "0d5ede7c90cf9b4819e26081033fbf976ff450ec6e547cc79bf2eada8aff850c",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/prompts/challenger_candidate_a_prompt_only_seven_astronauts_primary_prompt_20260519T072721Z.md",
+        "prompt_sha256": "666fa7f81cdbbb6891a2e1696cab4849a9a1461ff30aead903311d27531ad760",
+        "init_or_reference_images": [],
+        "provenance_notes": "Prompt-only built-in ImageGen output copied into a separate Challenger seven-astronaut experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/assets/source_art/candidate_a_prompt_only_seven_astronauts_primary_raw_imagegen_20260519T072721Z.png",
+        "sha256": "0d5ede7c90cf9b4819e26081033fbf976ff450ec6e547cc79bf2eada8aff850c",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/assets/source_art/candidate_a_prompt_only_seven_astronauts_primary_1920x1080.png",
+        "sha256": "56c965869f5f47fe528e666372c7457451af1eb3c6b2bf751c41da4cb6faaf11",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_a_prompt_only_seven_astronauts_primary_960x540.png",
+          "sha256": "6a7bb2a6ffd7faded24d807578a0da7e332d9c1314234a5ee25ee885c51035ce",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_a_prompt_only_seven_astronauts_primary_320x180.png",
+          "sha256": "259299a8c34ba1c3b462a4098c08fc4752149e2ad521a3337fd06cae6f7303f0",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_a_prompt_only_seven_astronauts_primary_168x94.png",
+          "sha256": "3b3c109ca7d9041cb54337d4822de3218ad5c2d15da606ecca39d5d9588c4b6f",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "seven_astronaut_foreground_read": "tighten_count_appears_eight_not_seven",
+        "foreground_astronaut_count_observed": 8,
+        "representational_crew_motif_read": "pass_recorded_not_literal_documentary_claim",
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_back_facing_astronauts_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_dust_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_back_facing_no_recognizable_faces",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    },
+    {
+      "candidate_id": "candidate_b_prompt_only_exact_seven_astronauts",
+      "title": "Candidate B - Prompt-Only Exact Seven Astronauts",
+      "status": "review_ready_pending_human_keep_or_tighten",
+      "review_recommendation": "recommended_for_human_review",
+      "strength": "best count fidelity: exactly seven foreground astronauts, strong pad realism, clean right rail space",
+      "hard_reads_pass_for_recommendation": true,
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image_prompt_only",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0c10301e50819680818505cac6df49.png",
+        "source_generation_sha256": "c47cbdba2d54a16dc99efa7b1115ef617267d3c72ba5016bcc65765591f4a185",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/prompts/challenger_candidate_b_prompt_only_exact_seven_astronauts_prompt_20260519T072721Z.md",
+        "prompt_sha256": "d204cac8f797301ab8f7e5edbb5cb62d561fa34503466d21bc9722619be17e25",
+        "init_or_reference_images": [],
+        "provenance_notes": "Prompt-only built-in ImageGen output copied into a separate Challenger seven-astronaut experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/assets/source_art/candidate_b_prompt_only_exact_seven_astronauts_raw_imagegen_20260519T072721Z.png",
+        "sha256": "c47cbdba2d54a16dc99efa7b1115ef617267d3c72ba5016bcc65765591f4a185",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/assets/source_art/candidate_b_prompt_only_exact_seven_astronauts_1920x1080.png",
+        "sha256": "ecdb38891fc6e10955da6ce7c58a7fe8e9f0999c331365985ec9e0c1932ef078",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_b_prompt_only_exact_seven_astronauts_960x540.png",
+          "sha256": "7d47a27005016b41ec934f97d4d49dd3a86970c602fac9a41adc4014e265e3ed",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_b_prompt_only_exact_seven_astronauts_320x180.png",
+          "sha256": "be94fc3d88d23f59997926c62663f034eb363523b1fc71b36376c604ffdc3907",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_b_prompt_only_exact_seven_astronauts_168x94.png",
+          "sha256": "31a06d35ff106c40fecb0907f9b8b88b1baaa6d38c8319c62f4d1215f468dcd9",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "seven_astronaut_foreground_read": "pass_exactly_seven_foreground_astronauts_visible",
+        "foreground_astronaut_count_observed": 7,
+        "representational_crew_motif_read": "pass_recorded_not_literal_documentary_claim",
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_back_facing_astronauts_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_dust_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_back_facing_no_recognizable_faces",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    },
+    {
+      "candidate_id": "candidate_c_prompt_only_layered_seven_astronauts",
+      "title": "Candidate C - Prompt-Only Layered Seven-Astronaut Attempt",
+      "status": "tighten_count_drift_not_recommended",
+      "review_recommendation": "tighten",
+      "strength": "strong photoreal pad and wet-surface ambience, but foreground count appears to drift to eight",
+      "hard_reads_pass_for_recommendation": false,
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image_prompt_only",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0c10763bb881968bcc24c2df1a8292.png",
+        "source_generation_sha256": "4f272dbcc143a7bc1ec98206f2febfb2a3f40cfc977e2a539db30a68f85cecd6",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/prompts/challenger_candidate_c_prompt_only_layered_seven_astronauts_prompt_20260519T072721Z.md",
+        "prompt_sha256": "40e94b9b80bf87afa897cd4e8affb849fe2dfe5233abb61eba88460f2d6e5510",
+        "init_or_reference_images": [],
+        "provenance_notes": "Prompt-only built-in ImageGen output copied into a separate Challenger seven-astronaut experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/assets/source_art/candidate_c_prompt_only_layered_seven_astronauts_raw_imagegen_20260519T072721Z.png",
+        "sha256": "4f272dbcc143a7bc1ec98206f2febfb2a3f40cfc977e2a539db30a68f85cecd6",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/assets/source_art/candidate_c_prompt_only_layered_seven_astronauts_1920x1080.png",
+        "sha256": "f88eab7e7bb640a4d942134eedf4d7ce4468e6ae1e6801dd1b547264da82dded",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_c_prompt_only_layered_seven_astronauts_960x540.png",
+          "sha256": "0fa06ae30d3e0a458e8b3abe66879e3f3f34e91013b804e6939bb3fb516602d7",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_c_prompt_only_layered_seven_astronauts_320x180.png",
+          "sha256": "e55683bf73affe9e779702f92513ca7f5bb770ab6a4208a56509895fdc5fcbe9",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/qa/candidate_c_prompt_only_layered_seven_astronauts_168x94.png",
+          "sha256": "a9c3d6b48bfb1ac832ddfe253d3688968efa6bbbd6ea2b009ad6561333474060",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "seven_astronaut_foreground_read": "tighten_count_appears_eight_not_seven",
+        "foreground_astronaut_count_observed": 8,
+        "representational_crew_motif_read": "pass_recorded_not_literal_documentary_claim",
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_back_facing_astronauts_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_dust_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_back_facing_no_recognizable_faces",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    }
+  ],
+  "selected_review_candidate_id": "",
+  "recommended_review_candidate_id": "candidate_b_prompt_only_exact_seven_astronauts",
+  "tighten_candidate_ids": [
+    "candidate_a_prompt_only_seven_astronauts_primary",
+    "candidate_c_prompt_only_layered_seven_astronauts"
+  ],
+  "gate_effect": {
+    "may_mark_source_art_keep": false,
+    "may_replace_active_challenger_source_art": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "current_publish_readiness_package_unchanged": true
+  },
+  "next_action": "Human source-art review: keep candidate B, tighten with exact notes, or reject. Promotion to active source art requires a later explicit human keep.",
+  "review_packet": {
+    "contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/review/challenger_seven_astronaut_contact_sheet.png",
+      "sha256": "e71712b1b05d8f611f7a2f5833383d81a6f2c6c62bc68e4d97770eea45a41732",
+      "width": 2016,
+      "height": 508
+    },
+    "right_rail_overlay_preview": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/review/challenger_seven_astronaut_right_rail_overlay_contact_sheet.png",
+      "sha256": "6694f58c33b0468f0644e968fd5cbb185b25407aa222baf4a12913563908c47c",
+      "width": 2016,
+      "height": 508
+    },
+    "review_note": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/review/challenger_seven_astronaut_source_art_experiment_review_20260519T072721Z.md",
+      "sha256": "015c9fd2aedaaaf0351a3d17edd9776e07d7dbb7d1c83b90fd9a13f079bd9e02"
+    },
+    "review_html": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_seven_astronaut_photoreal_experiment_20260519T072721Z/review/review.html",
+      "sha256": "763ef8c47bcaaca0c1a482fb223bca774bd36e96a8e9b7d2e6d3f0684a937d70"
+    }
+  }
+}

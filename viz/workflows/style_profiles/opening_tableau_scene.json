@@ -1,0 +1,19 @@
+{
+  "name": "opening_tableau_scene",
+  "defaults": {
+    "style_profile": "opening_tableau_scene",
+    "temperature": "restrained",
+    "palette_policy": "episode-specific",
+    "human_presence": "traces-only",
+    "post_work": "typography-later"
+  },
+  "prompts": {
+    "global_base": "premium editorial collage opening tableau, transformed source ingredients absorbed into the house editorial language, never visible pasted source cutouts, zero-letter image logic, recognizable period-object silhouettes, floating isolated artifacts arranged in deliberate open space, soft collage seam, paper fiber, soft tonal breakup, subtle analog texture, restrained composited depth, serious and intentional, no scenic realism, no room scene, no architecture shorthand, no readable branding, no gloss-ad futurism",
+    "scene_base": "opening-tableau hero still, one dominant central subject remains the clearest and largest read, supporting objects orbit in separated peripheral zones, composition feels premium and deliberate rather than chaotic collage, supporting objects feel interpreted and editorially unified rather than literal pasted references, no institutional room, no building-led anchor read, no monitor mosaic, safe-zone aware composition",
+    "packaging_base": "bold packaging collage, clear small-size legibility through silhouette and value contrast, recognizable anchor object carried by a dominant anchor fragment and layered support fragments, poster montage logic, controlled overlays only, title-friendly negative space, serious rather than lurid",
+    "thumbnail_base": "landscape poster montage, anchor fragment weighted right or center-right, left-side or upper-left quiet field preserved for title lockup, strong value split, broad silhouette, support fragments reinforce the anchor without dissolving the read",
+    "shorts_base": "portrait poster montage, anchor fragment large and mobile-legible, recognizable anchor object centered in stacked vertical layering, controlled torn edges, strong header-safe negative space, support fragments stay subordinate to the main signal",
+    "refine_base": "preserve central-subject dominance, preserve the ordered peripheral support objects, preserve transformed source ingredients inside the house editorial language, unify lighting and material language without inventing scenic context, keep silhouettes readable, avoid buildings, interiors, clocks, tiled panel grids, or extra shuttle subjects",
+    "final_base": "canonical final deliverable, preserve central-subject dominance, preserve ordered support hierarchy and clean negative space, preserve zero-letter editorial polish, preserve premium stillness and the clean pull-in path into the focal subject, and never reveal visible source cutouts"
+  }
+}

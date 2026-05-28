@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 69001,
+      "case_id": "737_max__tailplane_subsystem_clarity",
+      "prompt_body": "Tight rear-quarter view of a commercial narrowbody airliner with 737 MAX geometry in climb, aft fuselage, vertical tail, and horizontal stabilizer clearly readable and canonical, one visible nose-down trim state in the tailplane while the rest of the aircraft remains rigid and credible, muted overcast sky, silver body, dark tail, no readable livery or markings, restrained aviation tension",
+      "styles": [
+        {
+          "api_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_737_tailplane_motion_redesign/20260411T014322Z/737_max__tailplane_subsystem_clarity/minimal_surreal_editorial_v3/737_max__tailplane_subsystem_clarity__minimal_surreal_editorial_v3__proof.api.json",
+          "batch_size": 1,
+          "candidate_seeds": [
+            69001
+          ],
+          "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_737_tailplane_motion_redesign/20260411T014322Z/737_max__tailplane_subsystem_clarity/minimal_surreal_editorial_v3/737_max__tailplane_subsystem_clarity__minimal_surreal_editorial_v3",
+          "height": 1024,
+          "image_paths": [
+            "/Users/mike/AI/comfy/output/cascadeeffects_fluxlab/proofs/minimal_surreal_v3_737_tailplane_motion_redesign/20260411T014322Z/737_max__tailplane_subsystem_clarity/minimal_surreal_editorial_v3/737_max__tailplane_subsystem_clarity__minimal_surreal_editorial_v3_00001_.png"
+          ],
+          "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents",
+          "positive_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, Tight rear-quarter view of a commercial narrowbody airliner with 737 MAX geometry in climb, aft fuselage, vertical tail, and horizontal stabilizer clearly readable and canonical, one visible nose-down trim state in the tailplane while the rest of the aircraft remains rigid and credible, muted overcast sky, silver body, dark tail, no readable livery or markings, restrained aviation tension",
+          "queue": {
+            "attempted": true,
+            "queued": true,
+            "response": {
+              "node_errors": {},
+              "number": 18,
+              "prompt_id": "a0e59e72-d8a3-446d-a44a-96bd9e1ef854"
+            }
+          },
+          "review": {
+            "notes": ""
+          },
+          "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+          "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+          "steps": 12,
+          "style_id": "minimal_surreal_editorial_v3",
+          "ui_workflow_path": "/Users/mike/FluxLab_CascadeEffects/exports/proofs/minimal_surreal_v3_737_tailplane_motion_redesign/20260411T014322Z/737_max__tailplane_subsystem_clarity/minimal_surreal_editorial_v3/737_max__tailplane_subsystem_clarity__minimal_surreal_editorial_v3__proof.ui.json",
+          "width": 576
+        }
+      ]
+    }
+  ],
+  "run_id": "20260411T014322Z",
+  "run_manifest_path": "/Users/mike/FluxLab_CascadeEffects/runs/proofs/minimal_surreal_v3_737_tailplane_motion_redesign/20260411T014322Z.json",
+  "stage": "proof",
+  "suite_id": "minimal_surreal_v3_737_tailplane_motion_redesign",
+  "suite_manifest_path": "/Users/mike/FluxLab_CascadeEffects/proofs/suites/minimal_surreal_v3_737_tailplane_motion_redesign.json"
+}

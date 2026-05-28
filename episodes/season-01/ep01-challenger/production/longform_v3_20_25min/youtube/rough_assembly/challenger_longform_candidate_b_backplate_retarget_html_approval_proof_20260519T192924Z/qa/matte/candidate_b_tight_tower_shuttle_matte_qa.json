@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "matte_semantics": "alpha > 0 permits ambient effects; alpha 0 blocks only the tower/service structure and shuttle stack",
+  "source_plate_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/references/candidate_b_clean_rail_depth_exact_seven_1920x1080.png",
+  "source_plate_sha256": "387a76bf66d948e647870d9ef895f8cd42e976ee4c132feea8e05a3077478e78",
+  "mask_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/assets/masks/foreground_occlusion_matte.png",
+  "mask_sha256": "48ebac2e7e4b8737cc56e884d902211ee574781b7363eb24c9799afa3606d208",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "blocked_probe_alpha": {
+    "tower_beacon_pole": 0.0,
+    "tower_mid_hardware": 0.0,
+    "tower_lower_lattice": 0.0,
+    "service_arm": 0.0,
+    "external_tank": 0.0,
+    "orbiter_body": 0.0,
+    "left_booster": 0.0,
+    "right_booster": 0.0
+  },
+  "allowed_probe_alpha": {
+    "left_floodlight": 1.0,
+    "mid_pad_floodlight": 1.0,
+    "crawlerway_light": 1.0,
+    "right_rail_region": 1.0,
+    "rail_caption_region": 1.0,
+    "left_open_sky": 1.0,
+    "right_open_sky_before_rail": 1.0,
+    "right_rail_sky": 1.0,
+    "wet_ground": 1.0,
+    "foreground_astronaut": 1.0
+  },
+  "qa_reads": {
+    "tower_shuttle_tight_matte_read": "pass",
+    "floodlight_matte_removed_read": "pass",
+    "right_rail_matte_removed_read": "pass",
+    "open_air_and_ground_allowed_read": "pass"
+  },
+  "qa_artifacts": {
+    "alpha_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/matte/candidate_b_tight_tower_shuttle_matte_alpha.png",
+    "alpha_sha256": "262514e2c15588b2d67d29cca061373dcf389fcd39d3a80f73a2d93abf9f7e83",
+    "overlay_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/matte/candidate_b_tight_tower_shuttle_matte_overlay_for_review.png",
+    "overlay_sha256": "e7e8b35bcd7f488f2773fd6b1f8e987a89fa92c958504666f70b194575140cae"
+  }
+}

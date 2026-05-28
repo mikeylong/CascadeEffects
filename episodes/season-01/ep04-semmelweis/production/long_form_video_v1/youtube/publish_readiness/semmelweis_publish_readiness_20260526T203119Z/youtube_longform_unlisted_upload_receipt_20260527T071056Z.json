@@ -1,0 +1,329 @@
+{
+  "caption_sidecar_to_upload_or_verify": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/captions/semmelweis_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+  "caption_upload": {
+    "caption_id": "AUieDabXMHt1R1LbtgHGaKJxRuM_dyt2qMBnJOs48hYD_tV_S7JHzmOBiyDZD2iHMXKJwx4xDOCZh2D7VA9_mJI",
+    "raw_response": {
+      "etag": "2XmRfC8CoqGZ8bqlNP-zAms9QHk",
+      "id": "AUieDabXMHt1R1LbtgHGaKJxRuM_dyt2qMBnJOs48hYD_tV_S7JHzmOBiyDZD2iHMXKJwx4xDOCZh2D7VA9_mJI",
+      "kind": "youtube#caption",
+      "snippet": {
+        "audioTrackType": "unknown",
+        "isAutoSynced": false,
+        "isCC": false,
+        "isDraft": false,
+        "isEasyReader": false,
+        "isLarge": false,
+        "language": "en",
+        "lastUpdated": "2026-05-27T07:14:20.01844Z",
+        "name": "English script-locked captions",
+        "status": "serving",
+        "trackKind": "standard",
+        "videoId": "VY7RXqWfdfs"
+      }
+    },
+    "status": "uploaded"
+  },
+  "captions_uploaded": true,
+  "challenger_precision_matte_guard": {
+    "ok": true,
+    "reads": {
+      "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode"
+    },
+    "required": false
+  },
+  "created_at": "2026-05-27T07:15:21Z",
+  "episode_id": "semmelweis",
+  "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/youtube_longform_unlisted_upload_manifest_20260527T071056Z.json",
+  "mp4_visual_guard": {
+    "created_at": "2026-05-27T07:14:05Z",
+    "episode_id": "semmelweis",
+    "model": "youtube_upload_mp4_black_screen_guard_v1",
+    "ok": true,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/preflight/semmelweis_mp4_visual_guard_20260527T071405Z.json",
+    "reads": {
+      "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+      "youtube_upload_black_screen_block_read": "pass_black_screen_upload_preflight"
+    },
+    "samples": [
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "start",
+        "passed": true,
+        "seconds": 1.0,
+        "stats": {
+          "max_luma": 249.0,
+          "mean_luma": 88.285,
+          "min_luma": 1.0,
+          "nonblack_fraction": 0.987222,
+          "pixel_count": 14400,
+          "std_luma": 41.995
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "quarter",
+        "passed": true,
+        "seconds": 220.929,
+        "stats": {
+          "max_luma": 249.643,
+          "mean_luma": 87.907,
+          "min_luma": 1.503,
+          "nonblack_fraction": 0.986458,
+          "pixel_count": 14400,
+          "std_luma": 41.905
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "half",
+        "passed": true,
+        "seconds": 441.858,
+        "stats": {
+          "max_luma": 249.643,
+          "mean_luma": 88.561,
+          "min_luma": 1.0,
+          "nonblack_fraction": 0.986875,
+          "pixel_count": 14400,
+          "std_luma": 42.329
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "three_quarter",
+        "passed": true,
+        "seconds": 662.787,
+        "stats": {
+          "max_luma": 249.643,
+          "mean_luma": 89.928,
+          "min_luma": 1.0,
+          "nonblack_fraction": 0.985417,
+          "pixel_count": 14400,
+          "std_luma": 43.044
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "final_second",
+        "passed": true,
+        "seconds": 882.716,
+        "stats": {
+          "max_luma": 248.643,
+          "mean_luma": 85.364,
+          "min_luma": 1.0,
+          "nonblack_fraction": 0.988681,
+          "pixel_count": 14400,
+          "std_luma": 39.437
+        }
+      }
+    ],
+    "sha256": "fe234960ab76c82121b76a46f30b8459cb41cf277a71c88ac0078be82064da04",
+    "thresholds": {
+      "dark_scene_min_mean_luma": 16.0,
+      "dark_scene_min_nonblack_fraction": 0.3,
+      "dark_scene_min_std_luma": 16.0,
+      "min_mean_luma": 20.0,
+      "min_nonblack_fraction": 0.08,
+      "min_std_luma": 8.0
+    },
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/media/semmelweis_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "7a738406f9bdeab1b65ca3c7eb5cf29cf523e1fc81d475f21cfc5be92c3fbc48"
+  },
+  "notify_subscribers": false,
+  "post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "privacy": "unlisted",
+  "production_contract_receipt": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+    "sha256": "25da0087cec6ed1b2b2f8789b21df3f1ddc375aec84aaf3850f4a1cbbaa28ffc",
+    "youtube_action_allowed": true,
+    "youtube_action_requested": "unlisted_review_upload"
+  },
+  "public_release": "manual_youtube_studio_only",
+  "raw_upload_response": {
+    "etag": "5A4YG7AWY66f_bMZhhJqJ9jE3Ck",
+    "id": "VY7RXqWfdfs",
+    "kind": "youtube#video",
+    "snippet": {
+      "categoryId": "27",
+      "channelId": "UCa3AHc0y2E-1vrUxvQLUGPg",
+      "channelTitle": "Cascade of Effects",
+      "defaultAudioLanguage": "en",
+      "defaultLanguage": "en",
+      "description": "Semmelweis is a Cascade Effects episode about how small signals become system consequences.\n\nA simple handwashing observation collided with medical authority, hierarchy, and disbelief.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Measured, Not Explained\n1:18 Two Wards, Same Roof\n2:55 Autopsy To Ward\n4:36 The Evidence Had Layers\n6:41 The Result Became An Accusation\n8:37 Resistance Hardened\n10:19 Wrong In A Structural Way\n12:25 The Data Was Always Sufficient\n\n#CascadeEffects",
+      "liveBroadcastContent": "none",
+      "localized": {
+        "description": "Semmelweis is a Cascade Effects episode about how small signals become system consequences.\n\nA simple handwashing observation collided with medical authority, hierarchy, and disbelief.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Measured, Not Explained\n1:18 Two Wards, Same Roof\n2:55 Autopsy To Ward\n4:36 The Evidence Had Layers\n6:41 The Result Became An Accusation\n8:37 Resistance Hardened\n10:19 Wrong In A Structural Way\n12:25 The Data Was Always Sufficient\n\n#CascadeEffects",
+        "title": "Semmelweis"
+      },
+      "publishedAt": "2026-05-27T07:14:06Z",
+      "tags": [
+        "Cascade Effects",
+        "Semmelweis",
+        "documentary",
+        "handwashing",
+        "medical history",
+        "public health",
+        "systems failure"
+      ],
+      "thumbnails": {
+        "default": {
+          "height": 90,
+          "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/default.jpg",
+          "width": 120
+        },
+        "high": {
+          "height": 360,
+          "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/hqdefault.jpg",
+          "width": 480
+        },
+        "medium": {
+          "height": 180,
+          "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/mqdefault.jpg",
+          "width": 320
+        }
+      },
+      "title": "Semmelweis"
+    },
+    "status": {
+      "embeddable": true,
+      "license": "youtube",
+      "privacyStatus": "unlisted",
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false,
+      "uploadStatus": "uploaded"
+    }
+  },
+  "receipt_type": "youtube_longform_unlisted_upload",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+  "thumbnail": {
+    "content_type": "image/jpeg",
+    "error": "",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/thumbnail/semmelweis_thumbnail_candidate.jpg",
+    "status": "uploaded"
+  },
+  "youtube": {
+    "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+    "channel_title": "Cascade of Effects",
+    "published_at": "2026-05-27T07:14:06Z",
+    "status": {
+      "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+      "channel_title": "Cascade of Effects",
+      "embeddable": true,
+      "exists": true,
+      "privacy_status": "unlisted",
+      "processing_status": "succeeded",
+      "published_at": "2026-05-27T07:14:06Z",
+      "raw_response": {
+        "etag": "DTL5FJQJmlKOpdwSrS4dWSTYnFU",
+        "items": [
+          {
+            "etag": "g3kvjs-eD8Rd6DjfU5_b4dPn540",
+            "id": "VY7RXqWfdfs",
+            "kind": "youtube#video",
+            "processingDetails": {
+              "editorSuggestionsAvailability": "inProgress",
+              "fileDetailsAvailability": "available",
+              "processingIssuesAvailability": "available",
+              "processingStatus": "succeeded",
+              "tagSuggestionsAvailability": "inProgress",
+              "thumbnailsAvailability": "inProgress"
+            },
+            "snippet": {
+              "categoryId": "27",
+              "channelId": "UCa3AHc0y2E-1vrUxvQLUGPg",
+              "channelTitle": "Cascade of Effects",
+              "defaultAudioLanguage": "en",
+              "defaultLanguage": "en",
+              "description": "Semmelweis is a Cascade Effects episode about how small signals become system consequences.\n\nA simple handwashing observation collided with medical authority, hierarchy, and disbelief.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Measured, Not Explained\n1:18 Two Wards, Same Roof\n2:55 Autopsy To Ward\n4:36 The Evidence Had Layers\n6:41 The Result Became An Accusation\n8:37 Resistance Hardened\n10:19 Wrong In A Structural Way\n12:25 The Data Was Always Sufficient\n\n#CascadeEffects",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "description": "Semmelweis is a Cascade Effects episode about how small signals become system consequences.\n\nA simple handwashing observation collided with medical authority, hierarchy, and disbelief.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Measured, Not Explained\n1:18 Two Wards, Same Roof\n2:55 Autopsy To Ward\n4:36 The Evidence Had Layers\n6:41 The Result Became An Accusation\n8:37 Resistance Hardened\n10:19 Wrong In A Structural Way\n12:25 The Data Was Always Sufficient\n\n#CascadeEffects",
+                "title": "Semmelweis"
+              },
+              "publishedAt": "2026-05-27T07:14:06Z",
+              "tags": [
+                "Cascade Effects",
+                "Semmelweis",
+                "documentary",
+                "handwashing",
+                "medical history",
+                "public health",
+                "systems failure"
+              ],
+              "thumbnails": {
+                "default": {
+                  "height": 90,
+                  "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/default.jpg",
+                  "width": 120
+                },
+                "high": {
+                  "height": 360,
+                  "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/hqdefault.jpg",
+                  "width": 480
+                },
+                "maxres": {
+                  "height": 720,
+                  "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/maxresdefault.jpg",
+                  "width": 1280
+                },
+                "medium": {
+                  "height": 180,
+                  "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/mqdefault.jpg",
+                  "width": 320
+                },
+                "standard": {
+                  "height": 480,
+                  "url": "https://i.ytimg.com/vi/VY7RXqWfdfs/sddefault.jpg",
+                  "width": 640
+                }
+              },
+              "title": "Semmelweis"
+            },
+            "status": {
+              "embeddable": true,
+              "license": "youtube",
+              "madeForKids": false,
+              "privacyStatus": "unlisted",
+              "publicStatsViewable": true,
+              "selfDeclaredMadeForKids": false,
+              "uploadStatus": "processed"
+            }
+          }
+        ],
+        "kind": "youtube#videoListResponse",
+        "pageInfo": {
+          "resultsPerPage": 1,
+          "totalResults": 1
+        }
+      },
+      "title": "Semmelweis",
+      "upload_status": "processed",
+      "video_id": "VY7RXqWfdfs",
+      "video_url": "https://www.youtube.com/watch?v=VY7RXqWfdfs"
+    },
+    "video_id": "VY7RXqWfdfs",
+    "video_url": "https://www.youtube.com/watch?v=VY7RXqWfdfs"
+  }
+}

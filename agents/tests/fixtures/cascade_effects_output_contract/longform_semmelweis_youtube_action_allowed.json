@@ -1,0 +1,32 @@
+{
+  "episode_id": "semmelweis",
+  "production_contract": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "youtube_action_approval_read": "pass_explicit_user_approval_for_unlisted_review_upload"
+  },
+  "highlight_color_qa": {
+    "selected_hex": "#efef9f",
+    "highlight_override_read": "pass_human_requested_episode_accent_override",
+    "highlight_backplate_contrast_read": "pass_backplate_contrast_gate"
+  },
+  "youtube_metadata": {
+    "chapters": [
+      {"time": "00:00", "label": "A Pattern Without a Name"},
+      {"time": "01:20", "label": "Two Clinics"},
+      {"time": "03:10", "label": "The Numbers Refuse to Move"},
+      {"time": "05:00", "label": "The Missing Mechanism"},
+      {"time": "07:00", "label": "A Control That Worked"},
+      {"time": "09:00", "label": "Why Proof Was Not Enough"},
+      {"time": "11:00", "label": "Recognition Arrives Late"},
+      {"time": "13:00", "label": "The Modern Lesson"}
+    ]
+  },
+  "reads": {
+    "highlight_override_read": "pass_human_requested_episode_accent_override",
+    "highlight_backplate_contrast_read": "pass_backplate_contrast_gate",
+    "youtube_upload_ready_read": "blocked_pending_human_upload_approval",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "public_release_ready_read": "blocked_public_release_manual"
+  }
+}

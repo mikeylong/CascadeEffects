@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-05-26T21:29:47Z",
+  "stamp": "20260526T213000Z",
+  "server_root": "/Users/mike/Episodes_CascadeEffects",
+  "port": 8898,
+  "count": 1,
+  "packages": [
+    {
+      "episode_id": "challenger",
+      "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/publish_readiness_manifest.json",
+      "review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/review.html",
+      "review_url": "http://127.0.0.1:8898/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/review.html",
+      "youtube_upload_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/youtube_upload_manifest.json",
+      "blockers": [
+        "Current long-form source/fact-check manifest is pending or missing.",
+        "Publish-readiness package human keep is required before any YouTube review upload.",
+        "Explicit upload authorization is required after publish-readiness keep.",
+        "YouTube Content ID/music claim status must be checked after upload processing.",
+        "Public release remains manual."
+      ],
+      "status": "publish_readiness_keep_unlisted_review_upload_ready_after_midnight",
+      "human_disposition": "keep",
+      "publish_ready": true,
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": false,
+      "youtube_ready_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z//challenger_publish_readiness_keep_upload_ready_receipt_20260526T2131Z.json",
+        "sha256": "2db2183507626ec0b6cd03625858898d88438c86f3de392f6de02c37bbce4150",
+        "bytes": 1913
+      }
+    }
+  ],
+  "validation": [
+    {
+      "episode_id": "challenger",
+      "review_status": 200,
+      "mp4_range_status": 206,
+      "html_range_server_read": "pass_mp4_http_range_probe_206"
+    }
+  ],
+  "upload_locks": {
+    "may_youtube_action": true,
+    "upload_allowed": true,
+    "upload_performed": false,
+    "public_release_ready": false
+  },
+  "status": "challenger_publish_readiness_keep_unlisted_upload_ready_after_midnight"
+}

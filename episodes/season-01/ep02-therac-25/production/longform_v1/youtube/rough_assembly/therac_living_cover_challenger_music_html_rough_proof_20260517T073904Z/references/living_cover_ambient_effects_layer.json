@@ -1,0 +1,304 @@
+{
+  "packet_id": "therac_living_cover_ambient_effects_layer_20260517T071901Z",
+  "episode_id": "Ep2_Therac-25",
+  "phase_gate": "ambient_effects_layer_gate",
+  "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+  "status": "review_ready_pending_human_music_mix_disposition",
+  "human_disposition": "defer",
+  "lane_decision": "user_directed_backplate_region_effects_plus_music_visual_handoff",
+  "enabled_lanes": [
+    "crt_console_screen_active_full_runtime",
+    "control_panel_existing_light_blinks",
+    "top_left_monitor_intermittent_flicker_noise",
+    "implied_machine_to_patient_radiation_action",
+    "music_visual_handoff"
+  ],
+  "rationale": "Music-mix successor preserves the kept CRT-tight visual/effects proof and adds the required intro/outro music handoff without shifting narration or caption timings.",
+  "explicitly_disabled_lanes": [
+    "particles_dust",
+    "aircraft_or_vehicle_routes",
+    "cyan_signal_traces",
+    "diagnostic_connector_lines",
+    "procedural_readable_screen_ui_overlay",
+    "foreground_matte_particles",
+    "literal_laser_beam",
+    "gore_burn_or_patient_distress_effect",
+    "whole_plate_drift_as_ambient_effect",
+    "glass_sheen_as_standalone_effect",
+    "rail_pulse_as_ambient_effect"
+  ],
+  "source_plate": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/assets/source_art/variant_h_control_room_active_terminal_1920x1080.png",
+    "sha256": "cf08a25f31ea122daf9996827a56b28cc6692cebd83b2bebe5e48fa78cc0365e",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_space": "fixed_1920x1080_stage"
+  },
+  "terminal_screen_policy": "The proof shell adds masked phosphor glow, shimmer, scanlines, refresh roll, and abstract field blocks on the console CRT for the full video. It does not draw readable words, numbers, codes, replacement UI, MALFUNCTION text, or screen labels.",
+  "source_matte_policy": "Effects use fixed 1920x1080 source-space coordinates registered through the same source-art transform as the backplate. Effects are clipped/localized to the CRT, existing panel lights, top-left monitor, and machine-to-patient area only.",
+  "additive_integration_policy": "Preserve the approved ImageGen backplate, VTT/captions, right rail, cue map, CRT/control-panel/top-left-monitor/machine-to-patient effects, and upload locks; replace only the local proof audio with a documented music mix.",
+  "deterministic_parameters": {
+    "procedural_effect_count": 4,
+    "seed": "therac25_user_directed_effects_v1",
+    "coordinate_space": "fixed_1920x1080_stage_with_source_transform_registration",
+    "crt_console_source_region": {
+      "x": 555,
+      "y": 646,
+      "width": 180,
+      "height": 81,
+      "mask": "trapezoid_screen_face_only",
+      "points": [
+        [
+          555,
+          646
+        ],
+        [
+          735,
+          649
+        ],
+        [
+          727,
+          727
+        ],
+        [
+          549,
+          723
+        ]
+      ]
+    },
+    "top_left_monitor_source_region": {
+      "x": 268,
+      "y": 174,
+      "width": 98,
+      "height": 77
+    },
+    "machine_to_patient_action_source_points": {
+      "from": [
+        790,
+        323
+      ],
+      "to": [
+        813,
+        393
+      ]
+    },
+    "practical_light_source_points": [
+      [
+        567,
+        800
+      ],
+      [
+        607,
+        800
+      ],
+      [
+        748,
+        822
+      ],
+      [
+        769,
+        804
+      ],
+      [
+        555,
+        867
+      ],
+      [
+        737,
+        878
+      ]
+    ],
+    "max_canvas_opacity": 0.94,
+    "effect_colors": [
+      "warm_amber_phosphor",
+      "muted_olive_terminal_glow",
+      "soft_institutional_cream_energy_field",
+      "muted_console_orange"
+    ],
+    "banned_effect_colors": [
+      "cyan_signal_trace",
+      "blue_diagnostic_line"
+    ]
+  },
+  "browser_sample_times_seconds": [
+    0,
+    260.287,
+    710.468,
+    895.118,
+    1082.26
+  ],
+  "range_scrub_review_policy": "Proof is served through a byte-range-capable review server on port 8826; QA probes Range bytes=0-1023 against the WAV.",
+  "debug_overlay_policy": "Matte previews, route overlays, QA labels, effect-lane names, and implementation-status panels are not rendered in viewer-facing proof frames.",
+  "required_reads": {
+    "ambient_effects_plan_read": "pass_packet_local_user_directed_effect_layer_artifact_present",
+    "ambient_effect_lane_decision_read": "pass_user_directed_backplate_region_effects",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_source_transform_registered_regions",
+    "foreground_occlusion_read": "pass_no_particles_or_depth_crossing_effects_used",
+    "effect_layer_source_safety_read": "pass_localized_to_user_identified_backplate_regions_only",
+    "deterministic_ambient_read": "pass_seeded_deterministic_parameters_recorded",
+    "additive_effect_integration_read": "pass_successor_replaces_imperceptible_micro_life_without_replacing_source_art",
+    "debug_overlay_absence_read": "pass_no_debug_overlay_effect_labels_status_panels_or_cue_panels_rendered",
+    "ambient_effect_browser_sample_read": "pass_browser_qa_intro_0420_1150_1455_end_screen_crt_tight_mask_and_user_directed_regions_visible",
+    "range_scrub_effect_review_read": "pass_206_partial_content_wav_range_probe",
+    "human_rough_proof_keep_read": "pass_visual_keep_inherited_music_mix_successor_pending_human_audio_mix_disposition",
+    "final_render_gate_read": "blocked_music_mix_successor_pending_keep",
+    "youtube_upload_lock_read": "pass_upload_publish_visibility_actions_remain_blocked",
+    "intro_music_fade_tail_read": "pass_intro_bed_fades_under_opening_without_timing_shift",
+    "outro_music_mix_read": "pass_music_only_tail_after_last_spoken_word",
+    "music_visual_handoff_read": "pass_end_screen_starts_at_voice_end",
+    "music_rights_read": "review_warning_registered_paper_architecture_theme_requires_youtube_claim_check_before_public_release",
+    "audio_level_mix_read": "pass_max_volume_-11.9dB"
+  },
+  "optional_per_effect_reads": {
+    "crt_screen_full_runtime_activity_read": "pass_perceptual_region_delta_all_browser_samples_tight_mask",
+    "control_panel_light_blink_read": "pass_perceptual_region_delta_all_browser_samples",
+    "top_left_monitor_flicker_read": "pass_perceptual_region_delta_all_browser_samples",
+    "machine_to_patient_action_effect_read": "pass_perceptual_region_delta_all_browser_samples",
+    "effect_visibility_read": "pass_all_user_directed_regions_visibly_alive_at_review_size",
+    "radiation_realism_context_read": "pass_visual_metaphor_acknowledged_not_literal_radiation",
+    "localized_particle_density_read": "not_applicable_no_particles",
+    "particle_foreground_leak_read": "not_applicable_no_particles",
+    "public_motion_occlusion_reappearance_read": "not_applicable_no_public_scene_routes",
+    "intro_music_fade_tail_read": "pass_intro_bed_fades_under_opening_without_timing_shift",
+    "ambient_effect_browser_sample_read": "pass_browser_qa_intro_0420_1150_1455_end_screen_crt_tight_mask_and_user_directed_regions_visible",
+    "range_scrub_effect_review_read": "pass_206_partial_content_wav_range_probe",
+    "ambient_line_artifact_read": "pass_zero_cyan_diagnostic_pixels_all_samples",
+    "procedural_signal_overlay_read": "pass_no_cyan_signal_trace_connector_or_diagnostic_line_overlay",
+    "crt_mask_tightness_read": "pass_no_spill_past_crt_screen_face_guard_region",
+    "screen_text_legibility_read": "pass_no_readable_text_boxes_removed_from_procedural_layer",
+    "outro_music_mix_read": "pass_music_only_tail_after_last_spoken_word",
+    "intro_music_voice_timing_read": "pass_no_voice_or_caption_timing_shift",
+    "end_screen_music_tail_read": "pass_music_only_tail_after_voice_end"
+  },
+  "predecessor_proof": {
+    "packet_id": "therac_living_cover_user_directed_effects_html_rough_proof_20260517T030150Z",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_user_directed_effects_html_rough_proof_20260517T030150Z",
+    "relationship": "crt_tight_mask_successor_to_user_directed_effects_tighten"
+  },
+  "downstream_locks": {
+    "mp4_render_created": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_advance_to_video_render": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false,
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false
+  },
+  "review_question": "Review this music-mix successor: keep, tighten, or reject. Final MP4 stays locked until keep.",
+  "browser_qa": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/qa/browser_qa.json",
+    "sha256": "633d8df074ffa0b9c9c8933df3499f43e2dabe58372f94bdd7acca0ec9690e21",
+    "pass": true,
+    "sample_times_seconds": [
+      0,
+      260.287,
+      710.468,
+      895.118,
+      1082.26
+    ],
+    "viewport_checks": [
+      "desktop_1920x1080",
+      "review_1280x720"
+    ],
+    "range_probe": {
+      "status": 206,
+      "contentRange": "bytes 0-1023/193380350",
+      "acceptRanges": "bytes",
+      "pass": true
+    },
+    "perceptual_region_delta_reads": [
+      {
+        "time": 0,
+        "effect_visibility_read": "pass",
+        "crt_screen_full_runtime_activity_read": "pass",
+        "crt_mask_tightness_read": "pass",
+        "control_panel_light_blink_read": "pass",
+        "top_left_monitor_flicker_read": "pass",
+        "machine_to_patient_action_effect_read": "pass",
+        "cyan_diagnostic_pixel_count": 0
+      },
+      {
+        "time": 260.287,
+        "effect_visibility_read": "pass",
+        "crt_screen_full_runtime_activity_read": "pass",
+        "crt_mask_tightness_read": "pass",
+        "control_panel_light_blink_read": "pass",
+        "top_left_monitor_flicker_read": "pass",
+        "machine_to_patient_action_effect_read": "pass",
+        "cyan_diagnostic_pixel_count": 0
+      },
+      {
+        "time": 710.468,
+        "effect_visibility_read": "pass",
+        "crt_screen_full_runtime_activity_read": "pass",
+        "crt_mask_tightness_read": "pass",
+        "control_panel_light_blink_read": "pass",
+        "top_left_monitor_flicker_read": "pass",
+        "machine_to_patient_action_effect_read": "pass",
+        "cyan_diagnostic_pixel_count": 0
+      },
+      {
+        "time": 895.118,
+        "effect_visibility_read": "pass",
+        "crt_screen_full_runtime_activity_read": "pass",
+        "crt_mask_tightness_read": "pass",
+        "control_panel_light_blink_read": "pass",
+        "top_left_monitor_flicker_read": "pass",
+        "machine_to_patient_action_effect_read": "pass",
+        "cyan_diagnostic_pixel_count": 0
+      },
+      {
+        "time": 1082.26,
+        "effect_visibility_read": "pass",
+        "crt_screen_full_runtime_activity_read": "pass",
+        "crt_mask_tightness_read": "pass",
+        "control_panel_light_blink_read": "pass",
+        "top_left_monitor_flicker_read": "pass",
+        "machine_to_patient_action_effect_read": "pass",
+        "cyan_diagnostic_pixel_count": 0
+      }
+    ]
+  },
+  "music_visual_handoff": {
+    "intro_music": {
+      "start_seconds": 0,
+      "end_seconds": 11.601451,
+      "policy": "under_opening_voice_no_voice_or_caption_timing_shift"
+    },
+    "outro_music": {
+      "start_seconds": 1081.260408,
+      "end_seconds": 1096.260045,
+      "policy": "music_only_tail_after_last_spoken_word"
+    },
+    "end_screen": {
+      "start_seconds": 1081.260408,
+      "end_seconds": 1096.260045,
+      "policy": "static_youtube_target_geometry_during_music_only_tail"
+    }
+  },
+  "music_handoff": {
+    "runtime_model": "music_only_intro_then_voiceover_with_2s_intro_fade_tail_then_full_music_only_outro",
+    "voice_start_seconds": 9.601451,
+    "voice_end_seconds": 1090.861859,
+    "outro_music_start_seconds": 1090.861859,
+    "youtube_end_screen_safe_window_seconds": [
+      1101.651519,
+      1121.651519
+    ]
+  },
+  "reads": {
+    "intro_music_fade_tail_read": "pass_challenger_style_music_only_intro_then_2s_fade_tail_under_voice",
+    "intro_music_voice_timing_read": "pass_voice_starts_after_9s601_music_only_intro",
+    "caption_timing_shift_read": "pass_offset_vtt_srt_shifted_by_9s601451",
+    "outro_music_mix_read": "pass_full_paper_architecture_outro_after_last_spoken_word",
+    "old_therac_music_policy_read": "pass_previous_under_voice_15s_tail_superseded_as_tighten",
+    "old_outro_motif_active_read": "pass_not_used_paper_architecture_outro_m4a_not_active",
+    "music_visual_handoff_read": "pass_end_screen_starts_at_shifted_voice_end",
+    "final_render_gate_read": "blocked_music_mix_successor_pending_keep",
+    "downstream_gate_read": "pass_final_render_final_assembly_publish_upload_locked_until_music_mix_keep",
+    "youtube_upload_lock_read": "pass_upload_publish_visibility_actions_remain_blocked"
+  }
+}

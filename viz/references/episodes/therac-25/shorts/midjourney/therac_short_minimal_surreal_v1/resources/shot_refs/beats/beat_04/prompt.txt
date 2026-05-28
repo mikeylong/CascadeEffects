@@ -1,0 +1,16 @@
+Midjourney reference upload order:
+1. beats/beat_04/references/01__therac_radyoterapi_linac.jpg
+2. beats/beat_04/references/02__therac_varian_trubeam_room.jpg
+3. beats/beat_04/references/03__therac_varian_precision_linac.jpg
+
+Text prompt:
+Operators kept using Therac-25, more patients were burned, and each self-investigation ended by declaring the system normal. single ready-state machine sits in an orderly treatment room that looks routine enough to pass a checklist. composition is steadier and more frontal than the earlier beats, emphasizing institutional normalcy and the false confidence of a machine left in service, vertical 9:16 frame. Palette stays pale beige, desaturated steel, charcoal, and a buried warning red. one warning trace is absorbed into the machine's ready-state geometry so the danger appears hidden inside normal operation. Institutional light, controlled surfaces, and an unnerving sense of official reassurance.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

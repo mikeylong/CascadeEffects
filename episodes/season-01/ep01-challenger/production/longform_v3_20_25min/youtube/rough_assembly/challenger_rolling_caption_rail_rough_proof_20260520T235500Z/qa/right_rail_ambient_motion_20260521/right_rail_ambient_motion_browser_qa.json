@@ -1,0 +1,162 @@
+{
+  "created_utc": "2026-05-21T05:31:43.084Z",
+  "proof_url": "http://127.0.0.1:8766/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/player.html?render=1&t=310",
+  "playwright_module": "/Users/mike/.npm/_npx/420ff84f11983ee5/node_modules/playwright",
+  "chromium_executable": "/Users/mike/Library/Caches/ms-playwright/chromium-1223/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+  "samples": [
+    {
+      "time_seconds": 10,
+      "visible_right_rail_aircraft_count": 1,
+      "visible_right_rail_aircraft": [
+        {
+          "index": 0,
+          "x": 1845.519,
+          "y": 114.341,
+          "local": 0.022,
+          "skyAlpha": 1,
+          "safeWindowSuppressed": false
+        }
+      ],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 1,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 1,
+      "active_caption_text": ""
+    },
+    {
+      "time_seconds": 15,
+      "visible_right_rail_aircraft_count": 1,
+      "visible_right_rail_aircraft": [
+        {
+          "index": 0,
+          "x": 1818.72,
+          "y": 118.023,
+          "local": 0.076,
+          "skyAlpha": 1,
+          "safeWindowSuppressed": false
+        }
+      ],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 1,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 1,
+      "active_caption_text": ""
+    },
+    {
+      "time_seconds": 306,
+      "visible_right_rail_aircraft_count": 1,
+      "visible_right_rail_aircraft": [
+        {
+          "index": 1,
+          "x": 1179.301,
+          "y": 127.614,
+          "local": 0.58,
+          "skyAlpha": 1,
+          "safeWindowSuppressed": false
+        }
+      ],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 1,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 1,
+      "active_caption_text": ""
+    },
+    {
+      "time_seconds": 310,
+      "visible_right_rail_aircraft_count": 1,
+      "visible_right_rail_aircraft": [
+        {
+          "index": 1,
+          "x": 1281.542,
+          "y": 131.299,
+          "local": 0.62,
+          "skyAlpha": 1,
+          "safeWindowSuppressed": false
+        }
+      ],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 1,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 1,
+      "active_caption_text": ""
+    },
+    {
+      "time_seconds": 324,
+      "visible_right_rail_aircraft_count": 1,
+      "visible_right_rail_aircraft": [
+        {
+          "index": 1,
+          "x": 1598.21,
+          "y": 142.71,
+          "local": 0.76,
+          "skyAlpha": 1,
+          "safeWindowSuppressed": false
+        }
+      ],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 1,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 1,
+      "active_caption_text": ""
+    },
+    {
+      "time_seconds": 866,
+      "visible_right_rail_aircraft_count": 1,
+      "visible_right_rail_aircraft": [
+        {
+          "index": 4,
+          "x": 1347.233,
+          "y": 106.745,
+          "local": 0.646,
+          "skyAlpha": 1,
+          "safeWindowSuppressed": false
+        }
+      ],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 1,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 1,
+      "active_caption_text": ""
+    },
+    {
+      "time_seconds": 1188,
+      "visible_right_rail_aircraft_count": 0,
+      "visible_right_rail_aircraft": [],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 0,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 1,
+      "active_caption_text": ""
+    },
+    {
+      "time_seconds": 1195,
+      "visible_right_rail_aircraft_count": 0,
+      "visible_right_rail_aircraft": [],
+      "aircraft_right_rail_route_count": 6,
+      "aircraft_right_rail_visible_count_metric": 0,
+      "aircraft_right_rail_cutoff_removed": true,
+      "aircraft_safe_window_suppression_start_seconds": 1197.675329,
+      "caption_window_opacity": 0,
+      "active_caption_text": ""
+    }
+  ],
+  "static_expectations": {
+    "at_least_one_pre_end_screen_visible_right_rail_aircraft_sample": true,
+    "no_visible_right_rail_aircraft_in_target_safe_window": true,
+    "aircraft_right_rail_route_count": 6,
+    "aircraft_right_rail_cutoff_removed": true
+  },
+  "screenshots": {
+    "active_1920x1080": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/qa/right_rail_ambient_motion_20260521/active_aircraft_right_rail_t310_1920x1080.png",
+    "active_320x180": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/qa/right_rail_ambient_motion_20260521/active_aircraft_right_rail_t310_320x180.png",
+    "active_168x94": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/qa/right_rail_ambient_motion_20260521/active_aircraft_right_rail_t310_168x94.png",
+    "right_rail_crop": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260520T235500Z/qa/right_rail_ambient_motion_20260521/active_aircraft_right_rail_t310_right_rail_crop.png"
+  }
+}

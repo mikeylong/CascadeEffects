@@ -1,0 +1,54 @@
+{
+  "candidate_id": "candidate_k3_g2_right_cable_microrepair",
+  "created_at_utc": "2026-05-22T23:35:08.414Z",
+  "base_source_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k4_suspension_cable_repair_20260522T224753Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080.png",
+  "base_source_sha256": "b2b4411de556d2e202ac672fa435f961e7369c0093dcc61ef0c827c75f178b2f",
+  "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_g2_right_cable_microrepair_20260522T233508Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080_source.png",
+  "workspace_original_copy_sha256": "b2b4411de556d2e202ac672fa435f961e7369c0093dcc61ef0c827c75f178b2f",
+  "repaired_source_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_g2_right_cable_microrepair_20260522T233508Z/assets/source_art/candidate_k3_g2_right_cable_microrepair_1920x1080.png",
+  "repaired_source_sha256": "71a81004ec8e6f01208de6f242f5d79bea2553f56b0c744d7039783a4d6e9c86",
+  "changed_pixels": 77775,
+  "changed_pixels_outside_mask": 0,
+  "changed_pixel_percent": 3.7507,
+  "max_channel_delta": 194,
+  "mask_bbox_xy": [
+    1274,
+    0,
+    1874,
+    812
+  ],
+  "mask_band_count": 3,
+  "mask_bands": [
+    {
+      "id": "right_image_near_hanger_over_road_edge",
+      "bbox_xy": [
+        1274,
+        0,
+        1303,
+        770
+      ],
+      "read": "suppressed over-scale free-floating right-side hanger pair after K3 horizontal flip"
+    },
+    {
+      "id": "right_image_hanger_pair_visually_landing_on_car",
+      "bbox_xy": [
+        1487,
+        0,
+        1522,
+        760
+      ],
+      "read": "removed foreground hanger pair that read as landing on the car/roadway plane"
+    },
+    {
+      "id": "right_image_edge_hanger_overweight_foreground_bar",
+      "bbox_xy": [
+        1838,
+        0,
+        1874,
+        810
+      ],
+      "read": "softened image-right edge bar so it no longer dominates as detached foreground cable"
+    }
+  ],
+  "nonmask_preservation_read": "pass_non_mask_pixels_unchanged"
+}

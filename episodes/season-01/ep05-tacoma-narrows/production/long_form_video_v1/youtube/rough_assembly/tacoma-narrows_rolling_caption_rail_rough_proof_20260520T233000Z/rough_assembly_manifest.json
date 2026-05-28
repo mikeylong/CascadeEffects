@@ -1,0 +1,386 @@
+{
+  "packet_id": "tacoma-narrows_rolling_caption_rail_rough_proof_20260520T233000Z",
+  "episode_id": "tacoma-narrows",
+  "phase_gate": "rough_assembly_gate",
+  "created_utc": "2026-05-20T23:30:00Z",
+  "status": "rolling_caption_rail_rough_assembly_review_ready_pending_human_keep",
+  "action": "refresh_current_rough_review_ready_proof",
+  "human_disposition": "defer",
+  "review_only": true,
+  "html_proof_only": true,
+  "mp4_render_created": false,
+  "source_predecessor_rough_proof_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z",
+  "source_predecessor_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/rough_assembly_manifest.json",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "rail_content_model_id": "rolling_caption_anchor_v1",
+  "caption_display_model": "rolling_rail_caption_window_v1",
+  "caption_window_role": "middle_two_thirds_right_rail",
+  "caption_blur_scope": "caption_window_only",
+  "caption_highlight_source": "living_cover_cue_map_key_phrases",
+  "caption_palette_source": "sampled_episode_backplate",
+  "first_eight_rollout_policy": {
+    "scope": "shared_first_eight_long_form_rail_system_redesign",
+    "source_art_reopened_by_default": false,
+    "right_rail_geometry_preserved": true,
+    "legacy_previous_upcoming_context_rows_removed": true,
+    "downstream_gates_trusted_after": "refreshed rolling-caption rough proof receives human keep, then final assembly keep, then publish-readiness keep"
+  },
+  "canvas_behavior": {
+    "model": "fixed_youtube_long_form_canvas",
+    "design_width_px": 1920,
+    "design_height_px": 1080,
+    "aspect_ratio": "16:9",
+    "rail_width_px": 760,
+    "rail_right_margin_px": 52,
+    "rail_top_inset_px": 52,
+    "rail_bottom_inset_px": 52
+  },
+  "source_visual": {
+    "carrier": "episode_specific_raster_source_art",
+    "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080.png",
+    "source_art_sha256": "b2b4411de556d2e202ac672fa435f961e7369c0093dcc61ef0c827c75f178b2f",
+    "media_referenced_only": true,
+    "media_copied_or_modified": false,
+    "right_rail_safe_space_revalidation_required": true
+  },
+  "approved_audio": {
+    "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/tacoma_narrows_longform_pronunciation_repair_master.wav",
+    "sha256": "1ee1df5cb267ea00c0c73eaa52a7a813a625ffb3b4d0a9550d5a5642b8462e65",
+    "duration_seconds": 0,
+    "media_referenced_only": true,
+    "media_copied_or_modified": false
+  },
+  "caption_text_source": {
+    "kind": "locked_narration_script",
+    "path": "TBD_LOCKED_SCRIPT_PATH_REQUIRED_FOR_KEEP",
+    "sha256": "TBD_BEFORE_KEEP"
+  },
+  "caption_timing_source": {
+    "kind": "vtt",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+    "sha256": "894618dbae18c9440c35f2c817455273e299b7b0aaffe180cac577d79106d553",
+    "text_usage": "timing_only_asr_text_not_used_for_output"
+  },
+  "caption_context": {
+    "caption_slot_preset_id": "rolling_rail_caption_window_v1",
+    "behavior_model": "deterministic_audio_time_rolling_caption_window",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+    "caption_vtt_sha256": "894618dbae18c9440c35f2c817455273e299b7b0aaffe180cac577d79106d553",
+    "caption_text_source": {
+      "kind": "locked_narration_script",
+      "path": "TBD_LOCKED_SCRIPT_PATH_REQUIRED_FOR_KEEP",
+      "sha256": "TBD_BEFORE_KEEP"
+    },
+    "caption_timing_source": {
+      "kind": "vtt",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "sha256": "894618dbae18c9440c35f2c817455273e299b7b0aaffe180cac577d79106d553",
+      "text_usage": "timing_only_asr_text_not_used_for_output"
+    },
+    "min_alignment_coverage": 0.985,
+    "max_unmatched_script_span_tokens": 8,
+    "layout_model": "precomputed_fixed_metrics_single_translate_y",
+    "render_time_mapping": "audio.currentTime_or_window.__setRenderTime_maps_to_single_translateY",
+    "stable_properties_only": [
+      "opacity",
+      "transform",
+      "highlight_color_alpha"
+    ],
+    "qa_hooks": [
+      "window.__railCaptionStateAt(time)",
+      "window.__setRenderTime(time)"
+    ],
+    "word_by_word_karaoke": false,
+    "placement": "middle two-thirds of fixed right rail",
+    "caption_window_role": "middle_two_thirds_right_rail",
+    "caption_blur_scope": "caption_window_only",
+    "caption_palette_source": "sampled_episode_backplate",
+    "caption_highlight_source": "living_cover_cue_map_key_phrases",
+    "caption_window_geometry_px": {
+      "left": 1108,
+      "right_margin": 52,
+      "width": 760,
+      "top": 215,
+      "height": 650,
+      "bottom": 865
+    },
+    "caption_window_background": {
+      "localized_blur_px": 12,
+      "fill_source": "sampled_episode_backplate",
+      "fill_alpha": 0.36,
+      "scope": "caption_window_only"
+    },
+    "caption_window_mask": {
+      "top_fade_px": 96,
+      "bottom_fade_px": 116
+    },
+    "displayed_caption_source": "script-locked cue text from locked narration script; ASR/timed text is timing-only",
+    "text_generation_mode": "locked_script_words_only_asr_text_never_copied",
+    "no_flare_or_embellishment": true,
+    "final_render_behavior": "burn visible rail captions into video frame after human keep",
+    "publish_sidecar_behavior": "preserve approved VTT sidecar for YouTube upload"
+  },
+  "full_timeline": {
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+    "caption_vtt_sha256": "894618dbae18c9440c35f2c817455273e299b7b0aaffe180cac577d79106d553",
+    "caption_cue_count_in_proof": 90,
+    "embedded_caption_sample_policy": "proof embeds script-locked cue sample for rolling rail behavior review; full caption script match must be refreshed before keep",
+    "sections": []
+  },
+  "living_cover_cue_map": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_rough_proof_20260520T233000Z/review/rolling_caption_key_phrase_cue_map_supplement.json",
+    "sha256": "fec8bbc82d906b4d1f5b0ca255dbc14e983e0f28fe4d690e1ab6b204ff39b70f",
+    "cue_count": 5,
+    "required_treatments": [
+      "chapter_shift",
+      "key_phrase_typography",
+      "source_safe_motion_or_composition",
+      "rolling_caption_window",
+      "outro_end_screen"
+    ],
+    "key_phrase_spans": [
+      {
+        "phrase_text": "collapsed into Puget Sound",
+        "normalized_script_token_range": [
+          12,
+          16
+        ],
+        "timing_window_seconds": [
+          13.618,
+          15.121
+        ],
+        "highlight_color_sample": {
+          "source": "sampled_episode_backplate",
+          "hex": "#b6e7f3"
+        },
+        "fade_in_seconds": 0.22,
+        "fade_out_seconds": 0.42,
+        "review_status": "review_ready_pending_human_keep",
+        "review_note": "Authored in the rolling-caption cue-map supplement for human rough-proof review.",
+        "span_id": "rolling_phrase_01"
+      },
+      {
+        "phrase_text": "Four months later was gone",
+        "normalized_script_token_range": [
+          36,
+          41
+        ],
+        "timing_window_seconds": [
+          17.024,
+          19.824
+        ],
+        "highlight_color_sample": {
+          "source": "sampled_episode_backplate",
+          "hex": "#b6e7f3"
+        },
+        "fade_in_seconds": 0.22,
+        "fade_out_seconds": 0.42,
+        "review_status": "review_ready_pending_human_keep",
+        "review_note": "Authored in the rolling-caption cue-map supplement for human rough-proof review.",
+        "span_id": "rolling_phrase_02"
+      },
+      {
+        "phrase_text": "was measured miles per hour",
+        "normalized_script_token_range": [
+          60,
+          65
+        ],
+        "timing_window_seconds": [
+          24.175,
+          25.675
+        ],
+        "highlight_color_sample": {
+          "source": "sampled_episode_backplate",
+          "hex": "#b6e7f3"
+        },
+        "fade_in_seconds": 0.22,
+        "fade_out_seconds": 0.42,
+        "review_status": "review_ready_pending_human_keep",
+        "review_note": "Authored in the rolling-caption cue-map supplement for human rough-proof review.",
+        "span_id": "rolling_phrase_03"
+      },
+      {
+        "phrase_text": "hour near the bridge's east",
+        "normalized_script_token_range": [
+          84,
+          89
+        ],
+        "timing_window_seconds": [
+          29.644,
+          32.443999999999996
+        ],
+        "highlight_color_sample": {
+          "source": "sampled_episode_backplate",
+          "hex": "#b6e7f3"
+        },
+        "fade_in_seconds": 0.22,
+        "fade_out_seconds": 0.42,
+        "review_status": "review_ready_pending_human_keep",
+        "review_note": "Authored in the rolling-caption cue-map supplement for human rough-proof review.",
+        "span_id": "rolling_phrase_04"
+      },
+      {
+        "phrase_text": "hour What could not survive",
+        "normalized_script_token_range": [
+          120,
+          125
+        ],
+        "timing_window_seconds": [
+          39.852,
+          42.651999999999994
+        ],
+        "highlight_color_sample": {
+          "source": "sampled_episode_backplate",
+          "hex": "#b6e7f3"
+        },
+        "fade_in_seconds": 0.22,
+        "fade_out_seconds": 0.42,
+        "review_status": "review_ready_pending_human_keep",
+        "review_note": "Authored in the rolling-caption cue-map supplement for human rough-proof review.",
+        "span_id": "rolling_phrase_05"
+      }
+    ],
+    "render_policy": "internal production artifact only; no visible cue-map cards or diagnostic labels"
+  },
+  "rail_behavior": {
+    "model": "fixed_16x9_right_rail_v1",
+    "rail_content_model_id": "rolling_caption_anchor_v1",
+    "caption_display_model": "rolling_rail_caption_window_v1",
+    "active_panel_hierarchy": [
+      "minimal current chapter or beat anchor"
+    ],
+    "context_window": "removed for rolling_caption_anchor_v1",
+    "previous_upcoming_context_rows_allowed": false,
+    "viewer_text_boundary": "all viewer-facing story/chapter/caption/effect/end-screen text stays inside fixed right rail unless a human-approved override scopes another surface",
+    "desktop_width_cap_px": 760,
+    "design_left_px": 1108,
+    "design_right_margin_px": 52,
+    "render_api": [
+      "window.__setRenderTime",
+      "window.__railCaptionStateAt"
+    ],
+    "type_scale_px": {
+      "chapter_label": 26,
+      "rolling_caption": 40
+    },
+    "rolling_caption_window": {
+      "placement": "middle two-thirds of fixed right rail",
+      "source": "script-locked cue chunks with timing-only ASR/VTT/SRT alignment",
+      "font_size_px": 40,
+      "line_height": 1.12,
+      "layout": "precomputed fixed metrics",
+      "motion": "single translateY as deterministic function of audio/render time",
+      "top_bottom_mask_fades": true,
+      "localized_blur_scope": "caption_window_only",
+      "background_fill_source": "sampled_episode_backplate",
+      "highlight_source": "living_cover_cue_map_key_phrases",
+      "no_embellishment": true,
+      "karaoke_word_timing": false
+    },
+    "no_viewport_specific_reflow": true
+  },
+  "end_screen_context": {
+    "youtube_end_screen_template_id": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+    "rolling_caption_end_screen_policy": "captions continue upward at approved transition, then caption window blur/fill/text/highlights fade to zero before target geometry window",
+    "youtube_end_screen_targets": {
+      "left_video": {
+        "role": "suggested_video",
+        "bbox_xy": [
+          78,
+          382,
+          758,
+          765
+        ],
+        "aspect_ratio": "16:9"
+      },
+      "right_video": {
+        "role": "watch_next_video",
+        "bbox_xy": [
+          1162,
+          382,
+          1842,
+          765
+        ],
+        "aspect_ratio": "16:9"
+      },
+      "center_subscribe": {
+        "role": "subscribe",
+        "bbox_xy": [
+          814,
+          429,
+          1106,
+          721
+        ]
+      }
+    }
+  },
+  "rough_assembly_reads": {
+    "living_cover_system_version_read": "pass",
+    "rail_preset_read": "pass",
+    "rail_content_model_read": "pass",
+    "caption_display_model_read": "pass",
+    "caption_window_role_read": "pass",
+    "caption_window_blur_scope_read": "pass",
+    "caption_highlight_source_read": "pass",
+    "caption_palette_source_read": "pass",
+    "right_rail_safe_space_read": "pending_human_review",
+    "old_context_rows_absence_read": "pass",
+    "minimal_anchor_read": "pass",
+    "rolling_caption_behavior_read": "pass",
+    "rolling_caption_state_hook_read": "pass",
+    "caption_scroll_smoothness_read": "pending_browser_review",
+    "caption_window_fade_mask_read": "pass",
+    "caption_window_fill_palette_read": "pending_human_review",
+    "caption_key_phrase_span_read": "pending_human_review",
+    "caption_highlight_fade_read": "pending_browser_review",
+    "caption_end_screen_rollout_read": "pending_browser_review",
+    "caption_text_source_read": "pending_static_script_match_review",
+    "caption_timing_source_read": "pass_timing_source_referenced",
+    "caption_text_matches_script_read": "pending_script_locked_validation_refresh",
+    "caption_alignment_coverage_read": "pending_alignment_refresh_min_98_5_percent",
+    "caption_asr_text_not_used_read": "pass_policy_script_locked_text_only",
+    "no_karaoke_caption_read": "pass",
+    "caption_no_embellishment_read": "pass",
+    "no_progress_bar_read": "pass",
+    "no_timecode_read": "pass",
+    "viewer_text_suppression_read": "pending_end_screen_browser_review",
+    "end_screen_text_artifact_read": "pending_end_screen_browser_review",
+    "rail_fade_read": "pending_end_screen_browser_review",
+    "downstream_gate_read": "pass_blocked_until_human_rolling_rough_keep",
+    "copied_media_read": "pass_no_new_media_copied"
+  },
+  "qa": {
+    "rail_content_model_static_pass": true,
+    "caption_display_model_static_pass": true,
+    "caption_window_role_static_pass": true,
+    "caption_blur_scope_static_pass": true,
+    "caption_highlight_source_static_pass": true,
+    "caption_palette_source_static_pass": true,
+    "rolling_caption_state_hook_static_pass": true,
+    "caption_scroll_deterministic_static_pass": true,
+    "caption_window_blur_scope_static_pass": true,
+    "caption_window_mask_fade_static_pass": true,
+    "caption_key_phrase_spans_static_pass": true,
+    "old_context_rows_absence_static_pass": true,
+    "downstream_gate_static_pass": true
+  },
+  "proof_artifacts": {
+    "player_html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_rough_proof_20260520T233000Z/player.html",
+    "player_html_sha256": "460d081de6ebef855c4f474d21fd8449d9c82fb15ee9988088c1fc25925e4b4b",
+    "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_rough_proof_20260520T233000Z/review/rolling_caption_rail_review_packet.md",
+    "static_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_rough_proof_20260520T233000Z/qa/rolling_caption_rail_static_qa.json",
+    "review_media_links": {
+      "source_art_symlink": "assets/source_art/backplate.png",
+      "audio_symlink": "assets/audio/approved_audio.wav",
+      "media_symlinked_for_local_review_server": true,
+      "media_copied_or_modified": false
+    }
+  },
+  "blocked_prerequisite": null,
+  "may_create_full_runtime_mp4_render": false,
+  "may_advance_to_video_render": false,
+  "may_advance_to_final_assembly": false,
+  "may_advance_to_publish_readiness": false,
+  "may_youtube_action": false,
+  "next_review_question": "Review this refreshed rolling-caption rail rough proof and reply keep, tighten, or reject."
+}

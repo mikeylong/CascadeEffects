@@ -1,0 +1,16 @@
+Midjourney reference upload order:
+1. beats/beat_01/references/01__radiation_machine.jpg
+2. beats/beat_01/references/02__therac_varian_trubeam_room.jpg
+3. beats/beat_01/references/03__therac_tel_hashomer_sbrt.jpg
+
+Text prompt:
+Therac-25 overdose, denial, then repeat shown as one treatment room caught after an impossible event has already happened twice. single machine and table geometry occupy an empty room with no operators, no patient, and no interface readout asked to explain the failure. composition leans off-center with the gantry and bed misaligned just enough to feel wrong, leaving unused floor and wall space around them in a vertical 9:16 frame. Palette stays clinical beige, off-white, muted teal, and a small phosphor-green cue. one duplicated beam-state trace appears twice through the machine head, making repetition itself the surreal breach. Diffuse ceiling light, suspended air, and a room that feels recently abandoned.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

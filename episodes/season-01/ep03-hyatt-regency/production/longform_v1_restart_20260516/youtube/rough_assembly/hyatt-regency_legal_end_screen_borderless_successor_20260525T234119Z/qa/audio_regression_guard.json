@@ -1,0 +1,39 @@
+{
+  "model": "other_seven_selected_review_audio_hash_loudness_guard_v1",
+  "episode_id": "hyatt-regency",
+  "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/hyatt-regency_right_rail_alignment_music_mix.wav",
+  "source_audio_sha256": "f5351038cee89b037c5457802da0c64dc0f550c26388e873f306930ea911a5f3",
+  "source_audio_duration_seconds": 866.539478,
+  "observed_audio_duration_seconds": 866.533923,
+  "fade_start_seconds": 846.539478,
+  "full_file_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -15.1,
+    "max_volume_db": -1
+  },
+  "pre_entry_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.1,
+    "max_volume_db": -8
+  },
+  "post_entry_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.5,
+    "max_volume_db": -8
+  },
+  "late_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.7,
+    "max_volume_db": -8
+  },
+  "source_mix_changed": false,
+  "remix_performed": false,
+  "failures": [],
+  "passed": true,
+  "reads": {
+    "source_audio_hash_read": "pass_selected_review_audio_sha_preserved",
+    "clipping_read": "pass_no_clipping_detected_by_volumedetect",
+    "outro_loudness_regression_read": "pass_same_selected_review_mix_no_loudness_regression_possible",
+    "remix_read": "pass_no_remix_performed"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "created_utc": "2026-05-23T18:30:02.516Z",
+  "method": "headless_chromium_render_mode_setRenderTime_repeatability_probe",
+  "command_scope": "html_only_no_mp4_render",
+  "affected_episode_ids": [
+    "therac-25",
+    "semmelweis"
+  ],
+  "assertions": [
+    "window.__ceSetAmbientRenderTime exists in render mode",
+    "__setRenderTime(t) repeated after wall-clock delay gives identical ambient state",
+    "__setRenderTime(t + 1/24) advances exactly one composition frame"
+  ],
+  "results": {
+    "therac-25": {
+      "stable_at_same_timestamp": true,
+      "stable_at_next_frame_timestamp": true,
+      "one_frame_step_seconds": 0.041666667,
+      "sampled_canvas_hash_t": "1920x1080:587b9c46",
+      "sampled_canvas_hash_t_plus_1_frame": "1920x1080:50d1131c"
+    },
+    "semmelweis": {
+      "stable_at_same_timestamp": true,
+      "stable_at_next_frame_timestamp": true,
+      "one_frame_step_seconds": 0.041666667,
+      "sampled_css_state_t": {
+        "plate_x": "-8.90px",
+        "plate_y": "4.79px",
+        "plate_scale": "1.01100"
+      },
+      "sampled_css_state_t_plus_1_frame": {
+        "plate_x": "-8.89px",
+        "plate_y": "4.79px",
+        "plate_scale": "1.01101"
+      }
+    }
+  }
+}

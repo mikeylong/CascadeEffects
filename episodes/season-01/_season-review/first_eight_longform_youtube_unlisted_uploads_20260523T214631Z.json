@@ -1,0 +1,18 @@
+{
+  "count": 1,
+  "created_at": "2026-05-23T21:46:32Z",
+  "notify_subscribers": false,
+  "ok": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "results": [
+    {
+      "episode_id": "semmelweis_publish_readiness_20260523T214546Z",
+      "error": "YouTube API request failed: 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1028311285079'.\",\n    \"errors\": [\n      {\n        \"message\": \"Quota exceeded for quota metric 'Video Uploads' and limit 'Video Uploads per day' of service 'youtube.googleapis.com' for consumer 'project_number:1028311285079'.\",\n        \"domain\": \"global\",\n        \"reason\": \"rateLimitExceeded\"\n      }\n    ],\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"RATE_LIMIT_EXCEEDED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n          \"consumer\": \"projects/1028311285079\",\n          \"quota_unit\": \"1/d/{project}\",\n          \"quota_metric\": \"youtube.googleapis.com/video_insert\",\n          \"quota_location\": \"global\",\n          \"service\": \"youtube.googleapis.com\",\n          \"quota_limit\": \"defaultVideoInsertPerDayPerProject\",\n          \"quota_limit_value\": \"6\"\n        }\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Request a higher quota limit.\",\n            \"url\": \"https://cloud.google.com/docs/quotas/help/request_increase\"\n          }\n        ]\n      }\n    ]\n  }\n}\n",
+      "publish_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260523T214546Z/publish_readiness_manifest.json",
+      "status": "failed"
+    }
+  ],
+  "stamp": "20260523T214631Z",
+  "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_latest.json"
+}

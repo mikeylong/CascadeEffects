@@ -1,0 +1,66 @@
+{
+  "shot_id": "beat_05",
+  "included_reference_indices": [0, 1, 2],
+  "reference_crops": {
+    "0": [0.08, 0.04, 0.9, 0.9],
+    "1": [0.16, 0.02, 0.92, 0.94],
+    "2": [0.12, 0.06, 0.9, 0.94]
+  },
+  "grid_layout_template": "cover_weighted_triptych",
+  "prompt_adapter_append": [
+    "preserve a faithful NASA Space Shuttle stack with correct orbiter, external tank, and twin solid rocket boosters even during the rupture",
+    "the subject must still read as a winged shuttle orbiter attached to a rust-orange external tank flanked by two white solid rocket boosters, not a single cylindrical rocket or abstract spike",
+    "keep the shuttle recognizable and anatomically correct, never a generic rocket, spear, spike, or abstract wound",
+    "preserve the orbiter nose, delta-wing body, and booster relationship as recognizable shuttle geometry rather than simplifying them away",
+    "any sustained exhaust or flame must originate only from aft booster nozzles or orbiter main engines at the rear, never from the nose, sidewalls, mid-body, or forward joints"
+  ],
+  "negative_adapter_terms": [
+    "generic rocket",
+    "abstract spike",
+    "abstract wound",
+    "single-stick rocket",
+    "single cylindrical rocket",
+    "capsule rocket",
+    "missile",
+    "needle rocket",
+    "conical nose rocket",
+    "front exhaust",
+    "forward exhaust",
+    "nose exhaust",
+    "mid-body exhaust",
+    "side exhaust",
+    "plume from fuselage",
+    "plume from nose",
+    "missing external tank",
+    "missing booster",
+    "distorted orbiter",
+    "incorrect shuttle anatomy"
+  ],
+  "steer_target": "accurate_shuttle_documentary",
+  "steer_keep_traits": [
+    "accurate shuttle stack silhouette",
+    "winged orbiter plus external tank plus twin boosters",
+    "aft-only exhaust origin",
+    "legible vehicle-plume relationship"
+  ],
+  "steer_avoid_traits": [
+    "generic rocket body",
+    "abstract spike collapse",
+    "side exhaust",
+    "malformed shuttle"
+  ],
+  "ranking_bias_tags": [
+    "accurate_shuttle_stack",
+    "single_object_severity",
+    "one_accent_only",
+    "compressed_monolith"
+  ],
+  "draft_visual_softpass": {
+    "enabled": true,
+    "allowed_visual_failures": [
+      "asymmetry_ratio_below_threshold",
+      "palette_discipline_below_threshold",
+      "focal_clarity_below_threshold"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_03",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, second worker, crowd, meeting room, enclosed office bay, full shuttle hero, full stack portrait, giant monitor hero, close face portrait, snow, icicles, launch already in progress, explosion imagery"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_short__beat_01a_tank_dominant_warning",
+      "archetype": "single_human_figure",
+      "base_seed": 71401,
+      "prompt_body": "High launch-tower service level before dawn, one engineer proxy in a weather jacket stands at a side-mounted terminal inside open steel, the rust-orange external tank fills almost the entire background behind him with only a thin white booster slice visible, no full shuttle orbiter read, terminal screen unreadable and dim, catwalk altitude obvious, cold damp air, sodium work lights, restrained documentary tension"
+    },
+    {
+      "id": "challenger_short__beat_01a_orange_column_terminal",
+      "archetype": "single_human_figure",
+      "base_seed": 71421,
+      "prompt_body": "Open launch tower catwalk with one lone technical worker paused at a waist-high console, the worker reads clearly as inside the tower and the background is dominated by the orange external tank column close behind the steel, only a sliver of white booster hardware remains, no full shuttle body, unreadable terminal glow, misty blue cold, quiet procedural stillness"
+    },
+    {
+      "id": "challenger_short__beat_01a_tower_tank_hold",
+      "archetype": "single_human_figure",
+      "base_seed": 71441,
+      "prompt_body": "Elevated launch-tower warning shot with one engineer proxy at a compact side terminal, tower lattice and catwalk remain obvious, the background is almost entirely occupied by the Challenger external tank and a narrow booster edge rather than a zoomed full shuttle view, one lone human posture held in cold air, no second worker, no office bay, restrained prelaunch calm"
+    }
+  ]
+}

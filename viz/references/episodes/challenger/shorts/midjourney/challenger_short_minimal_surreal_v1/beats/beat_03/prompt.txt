@@ -1,0 +1,17 @@
+Midjourney reference upload order:
+1. beats/beat_03/references/01__act3_01.jpg
+2. beats/beat_03/references/02__act3_02.jpg
+3. beats/beat_03/references/03__act3_03.jpg
+4. beats/beat_03/references/04__act3_04.jpg
+
+Text prompt:
+NASA and Thiokol decision space inside the launch-commit control environment. mission-control console bank and observation barrier compressed into one institutional portrait shard. off-center composition, one dominant subject, large empty field, vertical 9:16 frame. Palette limited to off-white, slate blue, charcoal, signal amber. a single division line slices through the room as if the burden of proof became architecture. Stillness, soft diffuse light, quiet suspended atmosphere.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

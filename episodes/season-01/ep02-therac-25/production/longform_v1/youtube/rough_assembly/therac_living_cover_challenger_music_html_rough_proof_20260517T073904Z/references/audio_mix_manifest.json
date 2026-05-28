@@ -1,0 +1,140 @@
+{
+  "created_utc": "2026-05-18T18:28:26.081Z",
+  "inputs": {
+    "full_outro_music": {
+      "bytes": 773136,
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+      "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365"
+    },
+    "intro_music": {
+      "bytes": 1693774,
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818"
+    },
+    "music_registry_path": "/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json",
+    "voice_master": {
+      "bytes": 95367246,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/final/Ep2_Therac-25.wav",
+      "sha256": "ba2b5093646641b9a4c35cb893676a8d5d0942946df68a2888a0ccb4345cd077"
+    }
+  },
+  "outputs": {
+    "mp3_review": {
+      "bytes": 26801048,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_challenger_music_html_rough_proof_20260517T073904Z/audio_repairs/actual_outro_prelap_20260518T182800Z/Ep2-Therac-25.actual_outro_prelap_web_review.mp3",
+      "sha256": "8139acc864bbd3e2fc0f462ae4df2993d0c61714e344bc253a4aa9c3197aef76"
+    },
+    "wav": {
+      "bytes": 196977406,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_challenger_music_html_rough_proof_20260517T073904Z/audio_repairs/actual_outro_prelap_20260518T182800Z/Ep2-Therac-25.actual_outro_prelap.wav",
+      "sha256": "f0881b7b3627dd977f72b2a5b792ae90c2320c79d82d9a72c0c16efc35cc9667"
+    }
+  },
+  "outro_transition_review_sample": {
+    "end_seconds": 1097.861859,
+    "mp3": {
+      "bytes": 337336,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_challenger_music_html_rough_proof_20260517T073904Z/qa/audio/vo_outro_actual_prelap_transition_20260518T182800Z.mp3",
+      "sha256": "060b1a3c7ed581be4426e751b7c255a7336425da28d0dcc835e7fa9f02cb0bdc"
+    },
+    "start_seconds": 1083.861859,
+    "wav": {
+      "bytes": 2469678,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_challenger_music_html_rough_proof_20260517T073904Z/qa/audio/vo_outro_actual_prelap_transition_20260518T182800Z.wav",
+      "sha256": "9651b44c2cda2959f071a92364529a1db1347367d5eb2993036c53fc0b3809fb"
+    },
+    "window_seconds": 14
+  },
+  "packet_id": "therac25_actual_outro_prelap_music_mix_20260518T182800Z",
+  "policy": "challenger_actual_outro_prelap_v1",
+  "qa": {
+    "full_mix": {
+      "max_volume_db": -1,
+      "mean_volume_db": -15.1
+    },
+    "post_voice_end": {
+      "max_volume_db": -4.1,
+      "mean_volume_db": -18.4
+    },
+    "pre_voice_end": {
+      "max_volume_db": -1,
+      "mean_volume_db": -14.1
+    },
+    "transition": {
+      "max_volume_db": -1,
+      "mean_volume_db": -16.3
+    }
+  },
+  "reads": {
+    "approved_music_source_read": "pass_registered_paper_architecture_intro_and_full_outro_sources",
+    "audio_level_mix_read": "pass_no_clipping_volumedetect_supporting_evidence",
+    "caption_timing_shift_read": "pass_offset_vtt_srt_shifted_by_9s601451",
+    "downstream_gate_read": "pass_publish_upload_public_flags_false",
+    "end_screen_music_handoff_read": "pass_actual_outro_carries_end_screen_window",
+    "full_decode_read": "pass",
+    "full_outro_music_read": "pass_full_paper_architecture_outro_starts_under_final_vo_and_continues_without_restart",
+    "intro_music_contract_read": "pass_music_only_intro_then_2s_fade_tail_under_voice",
+    "mp3_review_asset_read": "pass_browser_review_mp3_created",
+    "music_contract_regression_read": "pass_bridge_proxy_handoff_removed_challenger_actual_outro_prelap_v1",
+    "music_integration_plan_read": "pass_challenger_actual_outro_prelap_v1",
+    "music_rights_read": "review_warning_registered_paper_architecture_theme_requires_youtube_claim_check_before_public_release",
+    "no_clipping_read": "pass_max_volume_below_0dB",
+    "outro_entry_level_match_read": "pass_transition_mean_-16.3_max_-1_dB",
+    "outro_no_restart_at_voice_end_read": "pass_full_outro_continues_through_voice_end_without_restart",
+    "outro_prelap_source_read": "pass_full_paper_architecture_m4a_is_actual_prelap_source",
+    "outro_prelap_start_read": "pass_full_outro_starts_5s_before_voice_end_at_1085p861859",
+    "outro_source_continuity_read": "pass_single_full_outro_source_spans_final_vo_to_end_screen",
+    "outro_target_after_voice_read": "pass_full_outro_reaches_target_at_voice_end_and_continues_after_voice",
+    "outro_transition_review_sample_read": "pass_transition_sample_exported_1083p862_to_1097p862",
+    "outro_under_vo_masking_read": "pass_5s_prelap_fade_under_final_vo_does_not_mask_last_words",
+    "series_music_contract_read": "pass_challenger_precedent",
+    "stream_read": "pass_pcm_s16le_stereo_44100",
+    "vo_outro_blend_plan_read": "pass_challenger_actual_outro_prelap_v1_5s_full_outro_under_final_vo",
+    "vo_outro_music_blend_read": "pass_actual_full_outro_fades_under_final_words_no_bridge_substitute",
+    "vo_outro_perceptual_review_read": "pass_human_keep_after_transition_sample_review_no_hard_join_or_dead_air",
+    "voice_master_unchanged_read": "pass_source_voice_master_hash_recorded",
+    "voice_start_offset_read": "pass_9s601451",
+    "wav_duration_read": "pass"
+  },
+  "sample_rate": 44100,
+  "source_episode": "Ep2_Therac-25",
+  "status": "review_ready_audio_only_successor",
+  "timing": {
+    "actualOutroPrelapSeconds": 5,
+    "endScreenSafeWindowStartSeconds": 1096.657074,
+    "finalSecondSampleSeconds": 1115.657074,
+    "fullOutroDurationSeconds": 30.795215,
+    "fullOutroFadeInSeconds": 5,
+    "fullOutroGainLinear": 0.66,
+    "fullOutroStartSamples": 47886508,
+    "fullOutroStartSeconds": 1085.861859,
+    "introFadeEndSeconds": 11.601451,
+    "introFadeTailSeconds": 2,
+    "naturalRuntimeSeconds": 1116.657074,
+    "transitionSampleEndSeconds": 1097.861859,
+    "transitionSampleStartSeconds": 1083.861859,
+    "voiceDurationSeconds": 1081.260408,
+    "voiceEndSamples": 48107008,
+    "voiceEndSeconds": 1090.861859,
+    "voiceStartSamples": 423424,
+    "voiceStartSeconds": 9.601451
+  },
+  "vo_outro_blend_plan": {
+    "bridge_source_path": null,
+    "bridge_source_policy": "removed_not_used_for_final_vo_handoff",
+    "final_voice_line": "Next time: another design failure. Another system that taught itself to ignore what it already knew.",
+    "full_outro_fade_in_seconds": 5,
+    "full_outro_gain_linear": 0.66,
+    "full_outro_source_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_outro_start_seconds": 1085.861859,
+    "outro_no_restart_at_voice_end": true,
+    "outro_prelap_seconds": 5,
+    "outro_reaches_target_at_seconds": 1090.861859,
+    "outro_source_continuity": true,
+    "policy": "challenger_actual_outro_prelap_v1",
+    "rationale": "Use the approved full Paper Architecture outro itself under the final VO so the end-screen music is a continuation, not a bridge-to-outro restart.",
+    "voice_duration_seconds": 1081.260408,
+    "voice_end_seconds": 1090.861859,
+    "voice_start_seconds": 9.601451
+  }
+}

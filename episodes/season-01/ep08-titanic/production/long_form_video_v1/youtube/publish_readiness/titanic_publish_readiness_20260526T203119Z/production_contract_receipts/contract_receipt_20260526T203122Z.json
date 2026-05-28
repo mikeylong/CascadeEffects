@@ -1,0 +1,38 @@
+{
+  "receipt_type": "cascade_effects_output_contract_validation",
+  "schema_version": "cascade_effects_output_contract_receipt_v1",
+  "created_at": "2026-05-26T20:31:22.676Z",
+  "ok": true,
+  "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+  "artifact_manifest_sha256": "6c141994c9c8914a2a7b924b25893a2d5a3f50e170fd009306878052f3bb54a2",
+  "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+  "contract_id": "first-eight-longform-v1",
+  "family": "longform",
+  "intent": "successor",
+  "source_hashes": {
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+    "artifact_manifest_sha256": "6c141994c9c8914a2a7b924b25893a2d5a3f50e170fd009306878052f3bb54a2",
+    "source_final_render.manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/titanic_rolling_caption_rail_final_mp4_20260526T195328Z/render_manifest.json",
+      "declared_sha256": "01d442242ef8a8fa7f4e2f653dc2160aef1a247b562da26aa70de2df0fc68e2f",
+      "actual_sha256": "01d442242ef8a8fa7f4e2f653dc2160aef1a247b562da26aa70de2df0fc68e2f"
+    },
+    "source_final_render.mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/titanic_rolling_caption_rail_final_mp4_20260526T195328Z/titanic_living_cover_final_review_1080p24.mp4",
+      "declared_sha256": "2f40cfd73a1c72ee9ba3b242fae99b57c2bc2ed3f2e023d0ab5f7132084398c7",
+      "actual_sha256": "2f40cfd73a1c72ee9ba3b242fae99b57c2bc2ed3f2e023d0ab5f7132084398c7"
+    }
+  },
+  "allowed_delta": null,
+  "reads": {
+    "contract_read": "pass_contract_loaded_and_required_reads_passed",
+    "delta_read": "pass_no_repair_delta_required_for_intent",
+    "style_read": "pass_style_contract_reads_passed",
+    "media_read": "pass_source_hashes_and_media_reads_valid",
+    "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+  },
+  "existing_validators": [],
+  "failures": [],
+  "youtube_action_requested": "unlisted_review_upload",
+  "youtube_action_allowed": true
+}

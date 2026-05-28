@@ -1,0 +1,688 @@
+{
+  "artifact_id": "cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_variant",
+  "created_at": "20260512T175730Z",
+  "status": "variant_review_ready",
+  "publishable": false,
+  "variant_of": "channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair_20260509T152439Z",
+  "visual_variant": "opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath",
+  "revision_reason": "integrate_corrected_bass_drum_beat_breath_into_badge_only_music_trailer",
+  "beat_breath_source": "channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_20260512T172625Z",
+  "beat_breath_source_manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_20260512T172625Z/channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_manifest.json",
+  "beat_breath_source_manifest_sha256": "49806245632e3e90729a0c0c3f9dc7c68ccefdb402becbd2c9d4581959dd7bfd",
+  "beat_response_seconds": [
+    6.0,
+    30.2
+  ],
+  "titanic_no_bass_drum_seconds": [
+    24.0,
+    30.2
+  ],
+  "tacoma_confirmed_hit_seconds": [
+    17.338356,
+    18.341406,
+    18.805805,
+    19.258594,
+    19.711383
+  ],
+  "boeing_737_max_confirmed_hit_seconds": [
+    20.793912,
+    21.242891,
+    22.145839,
+    23.203435,
+    23.652415
+  ],
+  "earlier_confirmed_hits_preserved": [
+    6.359909,
+    6.801088,
+    7.706667,
+    8.763175,
+    9.192744,
+    9.657143,
+    10.098322,
+    11.15483,
+    11.596009,
+    12.501587,
+    13.546485,
+    13.999274,
+    14.452063,
+    14.893243,
+    15.949751,
+    16.40254
+  ],
+  "background_text_removed": true,
+  "background_title_or_lyric_type_used": false,
+  "rendered_text_policy": "cascade_title_raster_and_gallery_subject_badges_only",
+  "audio_stream_copied_unchanged": true,
+  "music_bed_changed": false,
+  "youtube_rollout": "local_review_first_no_private_draft_update",
+  "youtube_updated": false,
+  "full_48s_trailer_rendered": true,
+  "episode_body_render_strategy": "corrected_bass_drum_beat_breath_proof_reel_inserted_between_preserved_baseline_segments",
+  "segment_insert_strategy": {
+    "baseline_video_preserved_seconds": [
+      [
+        0.0,
+        6.0
+      ],
+      [
+        30.2,
+        48.0
+      ]
+    ],
+    "corrected_beat_breath_video_seconds": [
+      6.0,
+      30.2
+    ],
+    "audio_source": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair_20260509T152439Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair.mp4",
+    "audio_copy_method": "aac_stream_copy_from_badge_baseline"
+  },
+  "inputs": {
+    "badge_baseline": {
+      "package_id": "channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair_20260509T152439Z",
+      "mp4_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair_20260509T152439Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair.mp4",
+      "mp4_sha256": "e049e5ced9eb2bbc7463018eabb1b0ac2009d138ca90be47c9601fccec345a3d",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair_20260509T152439Z/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_subject_badges_challenger_continuity_repair_manifest.json",
+      "manifest_sha256": "1215603f3e1dbebccb44685301fdb9b214eadae81c22b662538c701bd90e009f",
+      "audio_stream_sha256": "c7a77f0b732cd17e3341e926e50c553cfef68bb9d604e235d11856f728634d52",
+      "baseline_status": "variant_review_ready"
+    },
+    "corrected_beat_breath_proof": {
+      "package_id": "channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_20260512T172625Z",
+      "review_reel_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_20260512T172625Z/video/cascade_of_effects_channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_reel.mp4",
+      "review_reel_sha256": "9440ec0ba1e3da75fb7b49269e86e172af75dc1340091dd65460dfafc7d28117",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_20260512T172625Z/channel_trailer_v2_music_only_corrected_tacoma_737_bass_drum_breath_background_proof_manifest.json",
+      "manifest_sha256": "49806245632e3e90729a0c0c3f9dc7c68ccefdb402becbd2c9d4581959dd7bfd",
+      "proof_status": "local_review_experiment"
+    }
+  },
+  "timeline_segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "slug": "youtube-shorts-card",
+      "role": "youtube_shorts_cold_open",
+      "playback": "cold_open",
+      "source_seconds": [
+        0.0,
+        6.0
+      ]
+    },
+    {
+      "start": 6.0,
+      "end": 9.2,
+      "slug": "challenger",
+      "role": "voiceover_episode_sequence",
+      "playback": "live_short_no_hold_landed",
+      "source_seconds": [
+        8.0,
+        11.2
+      ]
+    },
+    {
+      "start": 9.2,
+      "end": 12.9,
+      "slug": "hyatt-regency",
+      "role": "voiceover_episode_sequence",
+      "playback": "live_short_push_in_no_hold",
+      "source_seconds": [
+        0.0,
+        3.7
+      ]
+    },
+    {
+      "start": 12.9,
+      "end": 16.6,
+      "slug": "semmelweis",
+      "role": "voiceover_episode_sequence",
+      "playback": "live_short_push_in_no_hold",
+      "source_seconds": [
+        0.0,
+        3.7
+      ]
+    },
+    {
+      "start": 16.6,
+      "end": 20.3,
+      "slug": "tacoma-narrows",
+      "role": "voiceover_episode_sequence",
+      "playback": "live_short_push_in_no_hold",
+      "source_seconds": [
+        0.0,
+        3.7
+      ]
+    },
+    {
+      "start": 20.3,
+      "end": 24.0,
+      "slug": "737-max",
+      "role": "voiceover_episode_sequence",
+      "playback": "live_short_push_in_no_hold",
+      "source_seconds": [
+        0.0,
+        3.7
+      ]
+    },
+    {
+      "start": 24.0,
+      "end": 30.2,
+      "slug": "titanic",
+      "role": "voiceover_episode_sequence",
+      "playback": "live_short_push_in_no_hold",
+      "source_seconds": [
+        0.0,
+        6.2
+      ]
+    },
+    {
+      "start": 30.2,
+      "end": 37.172,
+      "slug": "titanic",
+      "role": "outro_music_resolve",
+      "playback": "hold",
+      "source_seconds": [
+        9.95,
+        9.95
+      ]
+    },
+    {
+      "start": 37.172,
+      "end": 42.0,
+      "slug": "paper-architecture-title",
+      "role": "paper_architecture_title_end_screen",
+      "playback": "hold",
+      "source_seconds": [
+        9.95,
+        9.95
+      ]
+    },
+    {
+      "start": 42.0,
+      "end": 48.0,
+      "slug": "paper-architecture-title",
+      "role": "paper_architecture_title_end_screen_hold",
+      "playback": "hold",
+      "source_seconds": [
+        9.95,
+        9.95
+      ]
+    }
+  ],
+  "outputs": {
+    "final_mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath.mp4",
+      "sha256": "ea07746e4ddadf9995f26e1eb3bd2d27eb88120494d1db37f28e3568948639e3",
+      "duration_seconds": 48.0,
+      "video_stream_count": 1,
+      "audio_stream_count": 1,
+      "video_streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1"
+        }
+      ],
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "48.000000",
+        "size": "22450144"
+      }
+    },
+    "final_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath.mp4",
+      "full_decode_read": "pass"
+    },
+    "silent_video": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_silent.mp4",
+      "sha256": "9fa65fb06faaffb9c1963d95b0ce050a972bea45c69f03704197e803adbaba98",
+      "duration_seconds": 48.0
+    }
+  },
+  "qa": {
+    "final_format_read": "pass",
+    "runtime_read": "pass",
+    "full_decode_read": "pass",
+    "audio_stream_copy_read": "pass",
+    "no_clipping_read": "pass",
+    "ffprobe": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath.mp4",
+      "sha256": "ea07746e4ddadf9995f26e1eb3bd2d27eb88120494d1db37f28e3568948639e3",
+      "duration_seconds": 48.0,
+      "video_stream_count": 1,
+      "audio_stream_count": 1,
+      "video_streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1"
+        }
+      ],
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "48.000000",
+        "size": "22450144"
+      }
+    },
+    "audio_volume_peak": {
+      "status": "pass",
+      "max_volume_db": -2.4,
+      "mean_volume_db": -17.4
+    },
+    "baseline_audio_stream_sha256": "c7a77f0b732cd17e3341e926e50c553cfef68bb9d604e235d11856f728634d52",
+    "final_audio_stream_sha256": "c7a77f0b732cd17e3341e926e50c553cfef68bb9d604e235d11856f728634d52",
+    "final_video_stream_sha256": "f256cb8815e14151230b7099b27a98e4fa428b5dedea8a37c2a5e33273a0fe8b",
+    "cold_open_baseline_match": {
+      "sample_times_seconds": [
+        0.6,
+        2.2,
+        5.75,
+        6.0
+      ],
+      "samples": [
+        {
+          "time_seconds": 0.6,
+          "source_raw_rgb_sha256": "dd62e1f280ec34c2fb2ed18ef3e4790d3758352678438fcafdd33ab84c1eb123",
+          "final_raw_rgb_sha256": "5372c2466ec2d2e79e81fd3feeffb60ec00ddabbdbd86d0e478bf0d33961b514",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.1088
+        },
+        {
+          "time_seconds": 2.2,
+          "source_raw_rgb_sha256": "ced06347f6f067ecf319500a5313c5461707ca64b6bf21587dd8c8b475f32e79",
+          "final_raw_rgb_sha256": "276bbecc06bb726ee29f1257c843acbb2d1f5a57672bad8f7a89ad4c2dfce602",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.178
+        },
+        {
+          "time_seconds": 5.75,
+          "source_raw_rgb_sha256": "2b262bd54d48a8c094ab6b3e69a611c1d6b4ea8b1ce6883d91ad48997a8e87d2",
+          "final_raw_rgb_sha256": "b609b0d1ef5ffb1e8b180a9d6b7cc9bc5e272c45c94785b52f6236fe77f10493",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.1021
+        },
+        {
+          "time_seconds": 6.0,
+          "source_raw_rgb_sha256": "dfe2e5ade69914320dcf5347d13c00a4a958579e1fee005570a27747d079dee5",
+          "final_raw_rgb_sha256": "c7e944d143ef99dfc92381283ec9025400e5d90788d79775b3bfe23eb5120131",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.3107
+        }
+      ],
+      "luma_tolerance": 0.85,
+      "cold_open_baseline_match_read": "pass"
+    },
+    "cold_open_baseline_match_read": "pass",
+    "end_screen_baseline_match": {
+      "sample_times_seconds": [
+        30.2,
+        37.172,
+        42.0,
+        47.9
+      ],
+      "samples": [
+        {
+          "time_seconds": 30.2,
+          "source_raw_rgb_sha256": "9fbff1c71a9499ab9901e68a653459f26458f51940055bbc6fedc2b12d76afec",
+          "final_raw_rgb_sha256": "8883d1b7271a35b9815b0ed46bf39cc1657cdb1cd9f0c98213dc422941a61b9c",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.0952
+        },
+        {
+          "time_seconds": 37.172,
+          "source_raw_rgb_sha256": "0a6e58867a8b36f454152fd9247dcbc2d4c02ba984c8210199535d29efcd964b",
+          "final_raw_rgb_sha256": "455e6a85b98c85df57793253ab668ebb7e21b724a4827ccdb02ca726f5e770df",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.0362
+        },
+        {
+          "time_seconds": 42.0,
+          "source_raw_rgb_sha256": "15402560e0e7aef6d74b9eba1ed6b7dffcde087ab65b6ce24eb098cd5bdf7bf5",
+          "final_raw_rgb_sha256": "4ef0edaec50c2cd5725e20691c081a1d59c50fc4eca06b664bcee2b03a6391e1",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.0467
+        },
+        {
+          "time_seconds": 47.9,
+          "source_raw_rgb_sha256": "a155cb0e5cc153080e98ee14a17b687be853583c42968bcafec847c25bee83cf",
+          "final_raw_rgb_sha256": "e3fe8eb9cdde35be5431864a37f1f62d911911b1c290fa9eb70106d790e943ff",
+          "sample_match_read": "pass_encoding_tolerance",
+          "mean_luma_delta": 0.0242
+        }
+      ],
+      "luma_tolerance": 0.85,
+      "end_screen_baseline_match_read": "pass"
+    },
+    "end_screen_baseline_match_read": "pass",
+    "corrected_tacoma_pulse_hit_count_read": "pass",
+    "corrected_737_pulse_hit_count_read": "pass",
+    "titanic_no_bass_drum_no_pulse_read": "pass",
+    "titanic_max_pulse": 0.0,
+    "no_support_accent_pulse_read": "pass",
+    "no_low_band_fallback_read": "pass",
+    "no_periodic_grid_read": "pass",
+    "pre_attack_used_read": "pass_false",
+    "background_text_removed_read": "pass",
+    "lyric_background_type_returned_read": "pass_not_rendered",
+    "rendered_text_policy_read": "pass_cascade_title_raster_and_gallery_subject_badges_only",
+    "end_screen_hold_report": {
+      "hold_frame_source_seconds": 42.0,
+      "end_screen_hold_seconds": [
+        42.0,
+        48.0
+      ],
+      "hold_frame_raw_rgb_sha256": "4ef0edaec50c2cd5725e20691c081a1d59c50fc4eca06b664bcee2b03a6391e1",
+      "hold_frame_mean_luma": 36.7639,
+      "hold_match_luma_delta_threshold": 0.15,
+      "samples": [
+        {
+          "time_seconds": 42.0,
+          "raw_rgb_sha256": "4ef0edaec50c2cd5725e20691c081a1d59c50fc4eca06b664bcee2b03a6391e1",
+          "raw_hash_match": true,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 36.7639,
+          "mean_luma_delta_from_hold": 0.0,
+          "luma_drop_from_hold": 0.0
+        },
+        {
+          "time_seconds": 45.0,
+          "raw_rgb_sha256": "018ff3c92371105da53c1affe4ab7277d678a5be1a764bbd0679d642c85664c4",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 36.7641,
+          "mean_luma_delta_from_hold": 0.0037,
+          "luma_drop_from_hold": -0.0002
+        },
+        {
+          "time_seconds": 46.0,
+          "raw_rgb_sha256": "47f810b37c685d66ff7d7756cbfaf146c15a10d85d5bd2181579bba894955ff9",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 36.7605,
+          "mean_luma_delta_from_hold": 0.1037,
+          "luma_drop_from_hold": 0.0034
+        },
+        {
+          "time_seconds": 47.9,
+          "raw_rgb_sha256": "e3fe8eb9cdde35be5431864a37f1f62d911911b1c290fa9eb70106d790e943ff",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 36.7606,
+          "mean_luma_delta_from_hold": 0.1036,
+          "luma_drop_from_hold": 0.0033
+        }
+      ],
+      "held_frame_match_read": "pass",
+      "final_frame_luma_read": "pass",
+      "visual_fade_out_removed_read": "pass"
+    },
+    "held_frame_match_read": "pass",
+    "visual_fade_out_removed_read": "pass",
+    "final_frame_luma_read": "pass",
+    "contact_sheets": {
+      "full_intro_overview": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/qa/final_intro_corrected_bass_drum_overview_contact_sheet.jpg",
+        "sha256": "20b929099fe3a66900e0eaa0f0bfe49add3c57aa391b05d617661d9198e0bf10",
+        "samples": [
+          {
+            "label": "cold open",
+            "time_seconds": 0.6
+          },
+          {
+            "label": "handoff",
+            "time_seconds": 6.0
+          },
+          {
+            "label": "challenger",
+            "time_seconds": 6.36
+          },
+          {
+            "label": "hyatt",
+            "time_seconds": 9.66
+          },
+          {
+            "label": "semmelweis",
+            "time_seconds": 15.95
+          },
+          {
+            "label": "tacoma",
+            "time_seconds": 17.34
+          },
+          {
+            "label": "737 max",
+            "time_seconds": 20.79
+          },
+          {
+            "label": "titanic neutral",
+            "time_seconds": 24.5
+          },
+          {
+            "label": "end-screen",
+            "time_seconds": 30.2
+          },
+          {
+            "label": "hold",
+            "time_seconds": 47.9
+          }
+        ]
+      },
+      "baseline_vs_corrected_before_after": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/qa/baseline_vs_corrected_bass_drum_breath_before_after_sheet.jpg",
+        "sha256": "e0cc71eb00757912a77193a9dee6167369d81c0a6637a78f93bd2939bda3a8da",
+        "samples": [
+          {
+            "label": "Challenger breath",
+            "global_time_seconds": 6.359909,
+            "proof_time_seconds": 6.359909
+          },
+          {
+            "label": "Semmelweis breath",
+            "global_time_seconds": 15.949751,
+            "proof_time_seconds": 15.949751
+          },
+          {
+            "label": "Tacoma corrected",
+            "global_time_seconds": 17.338356,
+            "proof_time_seconds": 17.338356
+          },
+          {
+            "label": "Tacoma corrected",
+            "global_time_seconds": 19.711383,
+            "proof_time_seconds": 19.711383
+          },
+          {
+            "label": "737 corrected",
+            "global_time_seconds": 20.793912,
+            "proof_time_seconds": 20.793912
+          },
+          {
+            "label": "737 corrected",
+            "global_time_seconds": 23.652415,
+            "proof_time_seconds": 23.652415
+          }
+        ]
+      },
+      "tacoma_737_corrected_pulse_strip": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/qa/final_tacoma_737_corrected_pulse_timing_strip.jpg",
+        "sha256": "56bcca4e13420ce324a3ee7576508908ba3533c93251a36d523eb0e7cf2d9a29",
+        "samples": [
+          {
+            "label": "Tacoma 17.338",
+            "time_seconds": 17.338356
+          },
+          {
+            "label": "Tacoma 18.341",
+            "time_seconds": 18.341406
+          },
+          {
+            "label": "Tacoma 18.806",
+            "time_seconds": 18.805805
+          },
+          {
+            "label": "Tacoma 19.259",
+            "time_seconds": 19.258594
+          },
+          {
+            "label": "Tacoma 19.711",
+            "time_seconds": 19.711383
+          },
+          {
+            "label": "737 20.794",
+            "time_seconds": 20.793912
+          },
+          {
+            "label": "737 21.243",
+            "time_seconds": 21.242891
+          },
+          {
+            "label": "737 22.146",
+            "time_seconds": 22.145839
+          },
+          {
+            "label": "737 23.203",
+            "time_seconds": 23.203435
+          },
+          {
+            "label": "737 23.652",
+            "time_seconds": 23.652415
+          }
+        ]
+      },
+      "previous_vs_final_timing_comparison": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/qa/strict_bass_drum_only_vs_corrected_tacoma_737_timing_comparison_sheet.jpg",
+        "sha256": "7fd7fb5796068d97efc600cf8037ad07ab060979db81a0a98419e08d8521f3c9"
+      },
+      "titanic_no_pulse_strip": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/qa/final_titanic_no_pulse_strip.jpg",
+        "sha256": "b50640efa316ef5ae0f5286306732f398c902c57cc5a3450eafd5d9f5a6ff694",
+        "samples": [
+          {
+            "label": "Titanic start",
+            "time_seconds": 24.0
+          },
+          {
+            "label": "neutral",
+            "time_seconds": 24.5
+          },
+          {
+            "label": "neutral",
+            "time_seconds": 25.5
+          },
+          {
+            "label": "neutral",
+            "time_seconds": 26.5
+          },
+          {
+            "label": "neutral",
+            "time_seconds": 27.5
+          },
+          {
+            "label": "neutral",
+            "time_seconds": 28.5
+          },
+          {
+            "label": "neutral",
+            "time_seconds": 29.5
+          },
+          {
+            "label": "pre-outro",
+            "time_seconds": 30.0
+          }
+        ]
+      },
+      "end_screen_hold": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/qa/final_end_screen_hold_contact_sheet.jpg",
+        "sha256": "7dd18609b26da5bbc5d69f3494611cf22a94b222f4d3b8f40d8fd093bbf921ac",
+        "samples": [
+          {
+            "label": "layout starts",
+            "time_seconds": 30.2
+          },
+          {
+            "label": "title",
+            "time_seconds": 37.172
+          },
+          {
+            "label": "hold starts",
+            "time_seconds": 42.0
+          },
+          {
+            "label": "held",
+            "time_seconds": 46.0
+          },
+          {
+            "label": "tail",
+            "time_seconds": 47.9
+          }
+        ]
+      },
+      "end_screen_safe_zone": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_gallery_badges_corrected_bass_drum_breath_20260512T175730Z/qa/final_youtube_end_screen_safe_zone_overlay.jpg",
+        "sha256": "a28fa400ff358b22bce5cec1831080f663f90bcc669b330eb9f0deb22030e916",
+        "sample_time_seconds": 42.0,
+        "youtube_end_screen_targets": {
+          "left_video": {
+            "role": "suggested_video",
+            "bbox_xy": [
+              78,
+              382,
+              758,
+              765
+            ],
+            "aspect_ratio": "16:9"
+          },
+          "right_video": {
+            "role": "watch_next_video",
+            "bbox_xy": [
+              1162,
+              382,
+              1842,
+              765
+            ],
+            "aspect_ratio": "16:9"
+          },
+          "center_subscribe": {
+            "role": "subscribe",
+            "center_xy": [
+              960,
+              575
+            ],
+            "radius_px": 146,
+            "bbox_xy": [
+              814,
+              429,
+              1106,
+              721
+            ]
+          }
+        }
+      }
+    }
+  }
+}

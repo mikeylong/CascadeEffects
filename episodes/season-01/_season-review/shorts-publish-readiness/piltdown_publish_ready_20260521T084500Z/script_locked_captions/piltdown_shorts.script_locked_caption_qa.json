@@ -1,0 +1,111 @@
+{
+  "alignment": {
+    "alignment_coverage": 0.992,
+    "interpolated_script_token_count": 1,
+    "matched_script_token_count": 124,
+    "max_unmatched_script_span": 1,
+    "max_unmatched_script_span_allowed": 8,
+    "min_alignment_coverage": 0.985,
+    "script_token_count": 125,
+    "status": "pass",
+    "timing_token_count": 126,
+    "unmatched_script_span_count": 1,
+    "unmatched_script_spans": [
+      {
+        "end_index_exclusive": 84,
+        "start_index": 83,
+        "text": "tests",
+        "token_count": 1
+      }
+    ]
+  },
+  "caption_alignment_coverage_read": "pass",
+  "caption_asr_text_not_used_read": "pass",
+  "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+  "caption_text_matches_script_read": "pass",
+  "caption_text_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/piltdown_locked_caption_text_from_tts_manifest.txt",
+    "sha256": "bb9e28e50ec6b59a1f05c6d0276b4d83f5db51ab996860ab984566d78c167067"
+  },
+  "caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/piltdown_locked_caption_text_from_tts_manifest.txt",
+  "caption_text_source_policy": "script_locked_canonical_text_only",
+  "caption_text_source_sha256": "bb9e28e50ec6b59a1f05c6d0276b4d83f5db51ab996860ab984566d78c167067",
+  "caption_timing_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/piltdown_man_short_scoped_v1.diarized.srt",
+    "sha256": "73edb5b2ab3a71197f2b45aa78a339aeefcad1ae7d2a0996025bec64276a326c"
+  },
+  "caption_timing_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/piltdown_man_short_scoped_v1.diarized.srt",
+  "caption_timing_source_policy": "asr_whisperx_timing_only",
+  "caption_timing_source_sha256": "73edb5b2ab3a71197f2b45aa78a339aeefcad1ae7d2a0996025bec64276a326c",
+  "cue_count": {
+    "offset": 21,
+    "story": 21
+  },
+  "outputs": {
+    "offset_srt": {
+      "bytes": 1438,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/piltdown_publish_ready_20260521T084500Z/script_locked_captions/piltdown_shorts.script_locked_rail_safe.offset_intro_3s000.srt",
+      "sha256": "5c368e967444f4b1217f749bfb045a60eb88d39f39e4845803461c219ee8cd4b"
+    },
+    "offset_vtt": {
+      "bytes": 1392,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/piltdown_publish_ready_20260521T084500Z/script_locked_captions/piltdown_shorts.script_locked_rail_safe.offset_intro_3s000.vtt",
+      "sha256": "aa306fef39f788e1484c150626289c6db06ab335beeb0eecf4144227e7f04042"
+    },
+    "qa_json": {
+      "bytes": 3494,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/piltdown_publish_ready_20260521T084500Z/script_locked_captions/piltdown_shorts.script_locked_caption_qa.json",
+      "sha256": "1d0eed017a0ed7dd0bd412fe56abb101d1a2705e6592870e226627d5f8237e02"
+    },
+    "story_srt": {
+      "bytes": 1438,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/piltdown_publish_ready_20260521T084500Z/script_locked_captions/piltdown_shorts.script_locked_rail_safe.srt",
+      "sha256": "25070fa4dd58ab513dc33af37dfe32f161bd13dadd469d15467b78c93d929d66"
+    },
+    "story_vtt": {
+      "bytes": 1392,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/piltdown_publish_ready_20260521T084500Z/script_locked_captions/piltdown_shorts.script_locked_rail_safe.vtt",
+      "sha256": "8d1a66bab611dc463ad48ac4b63d04c654c8d55b265a4c2260940f9f84ba84f1"
+    }
+  },
+  "outro_cutoff_seconds": null,
+  "publish_ready_blocked_if_caption_text_not_script_locked": true,
+  "rail_safe_chunking": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7
+  },
+  "rail_validation": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "reads": {
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_no_caption_after_outro_start_read": "pass",
+    "caption_no_speaker_labels_read": "pass",
+    "caption_rail_safe_chunk_read": "pass",
+    "caption_text_matches_script_read": "pass"
+  },
+  "script_text_source": {
+    "bytes": 741,
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/piltdown_locked_caption_text_from_tts_manifest.txt",
+    "sha256": "bb9e28e50ec6b59a1f05c6d0276b4d83f5db51ab996860ab984566d78c167067"
+  },
+  "status": "pass",
+  "story_cutoff_seconds": null,
+  "text_validation": {
+    "normalized_caption_token_count": 125,
+    "normalized_script_token_count": 125,
+    "status": "pass"
+  },
+  "timing_validation": {
+    "outro_cutoff_seconds": null,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "voice_offset_seconds": 3.0
+}

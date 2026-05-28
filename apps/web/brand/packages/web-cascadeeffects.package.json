@@ -1,0 +1,323 @@
+{
+  "kind": "asset-package",
+  "id": "web-cascadeeffects-v1",
+  "version": "1.0.0",
+  "profileId": "cascade-paper-architectures-ink-lit-v1",
+  "platform": "web-cascadeeffects",
+  "status": "active",
+  "summary": "Web_CascadeEffects asset rules for Cascade Effects using the active ink-lit Paper Architectures direction.",
+  "sourceContracts": {
+    "illustration": "brand/contracts/illustration.contract.json",
+    "designSystem": "brand/contracts/design-system.contract.json"
+  },
+  "largeAssetPolicy": {
+    "sourceControl": "contracts-manifests-provenance-only",
+    "forbiddenTrackedExtensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".webp",
+      ".mov",
+      ".mp4",
+      ".wav",
+      ".mp3",
+      ".m4a",
+      ".aiff",
+      ".flac",
+      ".safetensors",
+      ".ckpt",
+      ".pt",
+      ".pth",
+      ".onnx"
+    ],
+    "assetRootEnv": "CASCADE_ASSET_ROOT"
+  },
+  "platformSources": [
+    {
+      "label": "Next.js metadata image files",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata/opengraph-image"
+    },
+    {
+      "label": "Next.js metadata file conventions",
+      "url": "https://nextjs.org/docs/app/api-reference/file-conventions/metadata"
+    }
+  ],
+  "deliverables": [
+    {
+      "role": "web-opengraph-image",
+      "name": "Web Open Graph image",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "unit": "px"
+      },
+      "format": "png",
+      "safeZones": [
+        {
+          "name": "og-title-safe-area",
+          "x": 80,
+          "y": 60,
+          "width": 1040,
+          "height": 510,
+          "unit": "px",
+          "purpose": "Keep the title, folded-paper cascade, subject anchors, and artifacts inside common social-card previews."
+        }
+      ],
+      "copyPolicy": {
+        "mode": "title-only",
+        "exactTitle": "Cascade of Effects",
+        "allowGeneratedTextInSourceArtwork": true,
+        "allowExtraCopy": false,
+        "notes": [
+          "Use the approved large-screen homepage hero as the title-bearing source for social previews.",
+          "Generated social card should not include a tagline or concept label."
+        ]
+      },
+      "source": {
+        "assetRootEnv": "CASCADE_ASSET_ROOT",
+        "sourceRender": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v4.png",
+        "composedAsset": "public:/brand/social/cascadeeffects-social-card-homepage-hero-20260513T221407Z.png",
+        "trackedInGit": false,
+        "compositionMethod": "approved-title-bearing-source",
+        "referenceRenders": [
+          {
+            "evidenceSetId": "paper-architectures-ink-lit-v1",
+            "evidenceItemId": "homepage-hero-cloudless-clean-surface-desktop-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v4.png"
+          }
+        ]
+      },
+      "texture_noise_read": "pass",
+      "qa": [
+        {
+          "id": "og-static-asset-dimensions",
+          "method": "dimension",
+          "description": "Confirm /brand/social/cascadeeffects-social-card-homepage-hero-20260513T221407Z.png is 1200x630.",
+          "required": true
+        },
+        {
+          "id": "og-title-only",
+          "method": "manual",
+          "description": "Confirm title-only copy and exact title spelling.",
+          "required": true
+        },
+        {
+          "id": "og-deterministic-route-retired",
+          "method": "manual",
+          "description": "Confirm the former procedural /opengraph-image route is no longer used by page metadata.",
+          "required": true
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "role": "web-twitter-image",
+      "name": "Web Twitter/X summary image",
+      "dimensions": {
+        "width": 1200,
+        "height": 630,
+        "unit": "px"
+      },
+      "format": "png",
+      "safeZones": [
+        {
+          "name": "twitter-title-safe-area",
+          "x": 80,
+          "y": 60,
+          "width": 1040,
+          "height": 510,
+          "unit": "px",
+          "purpose": "Keep the title and primary cascade motif readable in social link previews."
+        }
+      ],
+      "copyPolicy": {
+        "mode": "title-only",
+        "exactTitle": "Cascade of Effects",
+        "allowGeneratedTextInSourceArtwork": true,
+        "allowExtraCopy": false,
+        "notes": [
+          "Use the approved large-screen homepage hero as the title-bearing source for social previews.",
+          "Generated social card should not include a tagline or concept label."
+        ]
+      },
+      "source": {
+        "assetRootEnv": "CASCADE_ASSET_ROOT",
+        "sourceRender": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v4.png",
+        "composedAsset": "public:/brand/social/cascadeeffects-social-card-homepage-hero-20260513T221407Z.png",
+        "trackedInGit": false,
+        "compositionMethod": "approved-title-bearing-source",
+        "referenceRenders": [
+          {
+            "evidenceSetId": "paper-architectures-ink-lit-v1",
+            "evidenceItemId": "homepage-hero-cloudless-clean-surface-desktop-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v4.png"
+          }
+        ]
+      },
+      "texture_noise_read": "pass",
+      "qa": [
+        {
+          "id": "twitter-static-asset-dimensions",
+          "method": "dimension",
+          "description": "Confirm /brand/social/cascadeeffects-social-card-homepage-hero-20260513T221407Z.png is 1200x630.",
+          "required": true
+        },
+        {
+          "id": "twitter-title-only",
+          "method": "manual",
+          "description": "Confirm title-only copy and exact title spelling.",
+          "required": true
+        },
+        {
+          "id": "twitter-deterministic-route-retired",
+          "method": "manual",
+          "description": "Confirm the former procedural /twitter-image route is no longer used by page metadata.",
+          "required": true
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "role": "web-app-icon",
+      "name": "Web app icon",
+      "dimensions": {
+        "width": 128,
+        "height": 128,
+        "unit": "px"
+      },
+      "format": "png",
+      "safeZones": [
+        {
+          "name": "icon-mark-safe-area",
+          "x": 14,
+          "y": 14,
+          "width": 100,
+          "height": 100,
+          "unit": "px",
+          "purpose": "Keep the circular YouTube profile mark readable in favicon and app icon contexts."
+        }
+      ],
+      "copyPolicy": {
+        "mode": "mark-only",
+        "allowGeneratedTextInSourceArtwork": false,
+        "allowExtraCopy": false,
+        "notes": [
+          "Use the clean-edge YouTube profile mark with a circular mask, not the full title."
+        ]
+      },
+      "source": {
+        "assetRootEnv": "CASCADE_ASSET_ROOT",
+        "sourceRender": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_clean_edge_repair_20260519T002930Z/assets/profile-icon-800x800-square-clean-edge-no-alpha.png",
+        "composedAsset": "app/icon.png",
+        "trackedInGit": false,
+        "compositionMethod": "deterministic-code-render"
+      },
+      "texture_noise_read": "pass",
+      "qa": [
+        {
+          "id": "icon-small-preview",
+          "method": "legibility",
+          "description": "Confirm the icon reads as a Cascade Effects mark at small browser/app sizes.",
+          "required": true
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "role": "homepage-brand-illustration",
+      "name": "Homepage brand illustration",
+      "dimensions": {
+        "width": 1600,
+        "height": 900,
+        "unit": "px"
+      },
+      "format": "webp",
+      "safeZones": [
+        {
+          "name": "responsive-hero-safe-area",
+          "x": 120,
+          "y": 80,
+          "width": 1360,
+          "height": 740,
+          "unit": "px",
+          "purpose": "Keep folded-paper cascade, subject anchors, and artifacts clear across desktop and mobile responsive crops."
+        }
+      ],
+      "copyPolicy": {
+        "mode": "title-only",
+        "exactTitle": "Cascade of Effects",
+        "allowGeneratedTextInSourceArtwork": true,
+        "allowExtraCopy": false,
+        "notes": [
+          "Homepage identity art uses the approved cloudless clean-surface stylized-peril title-bearing reference render; do not add extra copy in the image frame.",
+          "Episode gallery thumbnails remain text-free and use surrounding card pills/titles for context."
+        ]
+      },
+      "source": {
+        "assetRootEnv": "CASCADE_ASSET_ROOT",
+        "sourceRender": "web-assets/source-renders/homepage-hero-paper-cloudless-clean-surface-source-v4.png",
+        "composedAsset": "public:/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png",
+        "trackedInGit": false,
+        "compositionMethod": "approved-title-bearing-source",
+        "referenceRenders": [
+          {
+            "evidenceSetId": "paper-architectures-ink-lit-v1",
+            "evidenceItemId": "homepage-hero-cloudless-clean-surface-desktop-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v4.png"
+          },
+          {
+            "evidenceSetId": "paper-architectures-ink-lit-v1",
+            "evidenceItemId": "homepage-hero-cloudless-clean-surface-mobile-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-mobile-source-v4.png"
+          }
+        ]
+      },
+      "texture_noise_read": "pass",
+      "qa": [
+        {
+          "id": "responsive-crops",
+          "method": "crop",
+          "description": "Check desktop, tablet, and mobile crops for cascade readability and no text overlap.",
+          "required": true
+        },
+        {
+          "id": "approved-title-bearing-source",
+          "method": "manual",
+          "description": "Confirm only the approved Cascade of Effects title is present and no extra generated text, labels, logos, or watermarks appear.",
+          "required": true
+        },
+        {
+          "id": "stylized-peril-read",
+          "method": "manual",
+          "description": "Confirm the shuttle fire cue, sinking ocean liner, fractured cascade, and frightened figures read as peril without explosion spectacle.",
+          "required": true
+        },
+        {
+          "id": "cloudless-sky-read",
+          "method": "manual",
+          "description": "Confirm all paper clouds are removed, with no replacement sky objects or cloud remnants.",
+          "required": true
+        },
+        {
+          "id": "sky-patch-seam-read",
+          "method": "manual",
+          "description": "Confirm the former cloud areas read as clean deep ink-blue sky without visible patch seams.",
+          "required": true
+        },
+        {
+          "id": "fun-slide-read",
+          "method": "manual",
+          "description": "Confirm the falling figures and cascade do not read as playful or recreational.",
+          "required": true
+        },
+        {
+          "id": "texture-detail-creep-read",
+          "method": "manual",
+          "description": "Confirm the cloudless sky cleanup does not add grain, grit, speckle, noisy surfaces, or texture-heavy rendering.",
+          "required": true
+        }
+      ],
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,1638 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Particle Workbench</title>
+  <link rel="icon" href="data:,">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "/vendor/three.module.js"
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #07090d;
+      --surface: #0d1016;
+      --surface-strong: #121722;
+      --surface-soft: #0b0e14;
+      --line: rgba(255, 255, 255, 0.08);
+      --line-strong: rgba(255, 255, 255, 0.16);
+      --text: #ecf1f8;
+      --muted: #8f98a8;
+      --muted-strong: #b3bdcc;
+      --success: #9ee3ba;
+      --warning: #ffd999;
+      --danger: #ff8a8a;
+      --accent: #f4f7fb;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Gill Sans", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(255,255,255,0.045), transparent 24%),
+        linear-gradient(180deg, #05070b 0%, #090c12 58%, #0d1118 100%);
+    }
+
+    body.modal-open {
+      overflow: hidden;
+    }
+
+    button, input, select {
+      font: inherit;
+    }
+
+    button, select, input[type="text"], input[type="password"], input[type="number"] {
+      color: var(--text);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+
+    select {
+      color-scheme: dark;
+      background-color: #11151d;
+      color: var(--text);
+    }
+
+    option {
+      background-color: #11151d;
+      color: var(--text);
+    }
+
+    button {
+      padding: 10px 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+    }
+
+    button:hover,
+    button:focus-visible {
+      background: rgba(255,255,255,0.08);
+      border-color: var(--line-strong);
+      outline: none;
+    }
+
+    button.secondary {
+      color: var(--muted-strong);
+    }
+
+    button.success {
+      border-color: rgba(158,227,186,0.28);
+      background: rgba(158,227,186,0.08);
+      color: var(--success);
+    }
+
+    button.danger {
+      border-color: rgba(255,138,138,0.24);
+      background: rgba(255,138,138,0.06);
+      color: var(--danger);
+    }
+
+    button:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .shell {
+      min-height: 100%;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 304px minmax(0, 1fr);
+    }
+
+    .sidebar {
+      display: grid;
+      align-content: start;
+      gap: 0;
+      padding: 20px 18px 16px;
+      border-right: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(9, 12, 18, 0.98), rgba(7, 10, 15, 0.96));
+    }
+
+    .sidebar-section {
+      padding: 14px 0;
+    }
+
+    .sidebar-divider,
+    .stage-divider {
+      height: 1px;
+      background: var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .project-title {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .project-meta {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+
+    .metric {
+      padding: 14px 10px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .metric span,
+    .detail span {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .metric strong,
+    .detail strong,
+    .snapshot-item strong {
+      display: block;
+      font-size: 14px;
+      line-height: 1.28;
+      color: var(--text);
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .detail-stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .snapshot-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .snapshot-item {
+      appearance: none;
+      width: 100%;
+      display: grid;
+      gap: 6px;
+      padding: 10px 0;
+      border: 0;
+      border-bottom: 1px solid var(--line);
+      border-radius: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.4;
+      text-align: left;
+      overflow-wrap: anywhere;
+    }
+
+    .snapshot-item:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .snapshot-item:hover,
+    .snapshot-item:focus-visible {
+      background: rgba(255,255,255,0.02);
+      border-color: var(--line-strong);
+      color: var(--text);
+      box-shadow: none;
+      outline: none;
+    }
+
+    .snapshot-item.active {
+      background: rgba(141, 198, 63, 0.06);
+    }
+
+    .snapshot-item.active strong {
+      color: var(--success);
+    }
+
+    .snapshot-primary {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .snapshot-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .snapshot-badge.kind-approved {
+      color: var(--success);
+      border-color: rgba(141, 198, 63, 0.32);
+      background: rgba(141, 198, 63, 0.08);
+    }
+
+    .snapshot-badge.kind-initial {
+      color: var(--accent);
+      border-color: rgba(125, 208, 255, 0.24);
+      background: rgba(125, 208, 255, 0.06);
+    }
+
+    .snapshot-meta {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .content {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-width: 0;
+      min-height: 0;
+      height: 100vh;
+    }
+
+    .workflow-rail {
+      display: grid;
+      gap: 12px;
+      padding: 16px 18px 14px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(11, 14, 20, 0.92), rgba(10, 13, 18, 0.82));
+    }
+
+    .workflow-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .workflow-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .workflow-step {
+      appearance: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 52px;
+      padding: 10px 14px;
+      border: 0;
+      border-right: 1px solid var(--line);
+      border-radius: 0;
+      background: transparent;
+      text-align: left;
+    }
+
+    .workflow-step:last-child { border-right: 0; }
+    .workflow-step.active { background: rgba(255,255,255,0.07); }
+    .workflow-step.complete .step-index {
+      background: rgba(158,227,186,0.18);
+      color: var(--success);
+    }
+    .workflow-step.locked { opacity: 0.5; }
+
+    .step-index {
+      width: 26px;
+      height: 26px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.06);
+      color: var(--muted-strong);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .workflow-step strong {
+      font-size: 12px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: inherit;
+      font-weight: 600;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 14px;
+      min-height: 42px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted-strong);
+      font-weight: 600;
+    }
+
+    .status-pill.draft {
+      color: var(--warning);
+      background: rgba(255,217,153,0.08);
+      border-color: rgba(255,217,153,0.2);
+    }
+
+    .status-pill.approved {
+      color: var(--success);
+      background: rgba(158,227,186,0.08);
+      border-color: rgba(158,227,186,0.2);
+    }
+
+    .stage-surface {
+      min-width: 0;
+      min-height: 0;
+      height: 100%;
+      padding: 0;
+    }
+
+    .tab-panel {
+      display: none;
+      min-height: 0;
+      animation: panel-enter 220ms ease;
+    }
+
+    .tab-panel.active {
+      display: block;
+      height: 100%;
+    }
+
+    .stage-grid,
+    .effect-grid,
+    .burn-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.18fr) 360px;
+      min-height: 0;
+      height: 100%;
+      border: 1px solid var(--line);
+      background: rgba(8, 10, 15, 0.58);
+    }
+
+    .stage-main,
+    .effect-main,
+    .burn-main {
+      display: grid;
+      min-width: 0;
+      min-height: 0;
+      height: 100%;
+      background: rgba(4, 5, 8, 0.46);
+    }
+
+    .stage-main {
+      grid-template-rows: auto auto minmax(0, 1fr);
+    }
+
+    .effect-main {
+      grid-template-rows: auto auto auto;
+      align-content: start;
+    }
+
+    .burn-main {
+      grid-template-rows: auto auto minmax(0, 1fr);
+    }
+
+    .section-row {
+      padding: 16px 18px;
+    }
+
+    .section-row.tight {
+      padding: 12px 18px;
+    }
+
+    .section-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .section-actions input[type="text"],
+    .section-actions select {
+      min-width: 0;
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.03);
+    }
+
+    .section-actions .grow {
+      flex: 1 1 260px;
+    }
+
+    .model-command-block {
+      display: grid;
+      gap: 14px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,0.022), rgba(255,255,255,0.008));
+    }
+
+    .model-command-head {
+      display: grid;
+      gap: 6px;
+    }
+
+    .model-command-title {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .model-command-copy {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .model-search-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .model-search-row input[type="text"] {
+      width: 100%;
+      min-width: 0;
+      padding: 12px 14px;
+      background: rgba(255,255,255,0.03);
+    }
+
+    .model-utility-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .model-inline-note {
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+    .action-link {
+      color: var(--success);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.16em;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .action-link:hover {
+      color: var(--text);
+    }
+
+    .action-link:focus-visible {
+      outline: 2px solid rgba(158,227,186,0.4);
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
+
+    .model-results-shell {
+      display: grid;
+      gap: 12px;
+      align-content: start;
+    }
+
+    .selected-model-head {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 14px 16px;
+      align-items: start;
+    }
+
+    .model-source-result-layout {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .model-source-result-copy {
+      min-width: 0;
+    }
+
+    .model-source-thumbnail {
+      position: relative;
+      width: 92px;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.015));
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.03);
+      justify-self: start;
+    }
+
+    .model-source-thumbnail.selected {
+      width: 128px;
+    }
+
+    .model-source-thumbnail-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: rgba(255,255,255,0.03);
+    }
+
+    .model-source-thumbnail-fallback {
+      display: grid;
+      justify-items: center;
+      align-content: center;
+      gap: 8px;
+      width: 100%;
+      height: 100%;
+      padding: 12px;
+      text-align: center;
+      background:
+        radial-gradient(circle at top, rgba(255,255,255,0.08), transparent 58%),
+        linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.015));
+    }
+
+    .model-source-thumbnail-provider {
+      color: var(--muted-strong);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .model-source-thumbnail-label {
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+
+    .model-source-thumbnail.has-fallback .model-source-thumbnail-image {
+      display: none;
+    }
+
+    .selected-model-copy {
+      display: grid;
+      gap: 6px;
+      min-width: 0;
+    }
+
+    .selected-model-actions {
+      display: flex;
+      justify-content: flex-end;
+      flex: 0 0 auto;
+      align-self: start;
+    }
+
+    .selected-model-copy strong {
+      font-size: 16px;
+      line-height: 1.2;
+      color: var(--text);
+    }
+
+    .results-header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .results-header strong {
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted-strong);
+    }
+
+    .results-header span {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .selected-model-copy p,
+    .selected-model-copy .model-source-meta,
+    .selected-model-copy .model-source-status,
+    .results-header span,
+    .model-inline-note,
+    .control label,
+    .control-number,
+    .model-source-meta,
+    .model-source-status,
+    .snapshot-item,
+    .project-meta {
+      font-weight: 500;
+    }
+
+    .hint,
+    .log {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    #effect-autosave-status[data-tone="saving"] {
+      color: var(--accent);
+    }
+
+    #effect-autosave-status[data-tone="error"] {
+      color: var(--warning);
+    }
+
+    .warning-note {
+      margin: 10px 0 0;
+      color: var(--warning);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .model-source-results,
+    .burn-results {
+      display: grid;
+      gap: 10px;
+      align-content: start;
+    }
+
+    .model-source-result,
+    .selected-model-card,
+    .burn-result-card {
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
+    }
+
+    .model-source-result.selected {
+      border-color: rgba(158,227,186,0.52);
+      background: rgba(158,227,186,0.08);
+      box-shadow: inset 0 0 0 1px rgba(158,227,186,0.14);
+    }
+
+    .model-source-result.search-only {
+      opacity: 0.82;
+    }
+
+    .selected-model-card.empty {
+      color: var(--muted);
+    }
+
+    .selected-model-card.active {
+      border-color: rgba(158,227,186,0.52);
+      background: rgba(158,227,186,0.07);
+      box-shadow: inset 0 0 0 1px rgba(158,227,186,0.14);
+    }
+
+    .model-source-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .model-source-title {
+      flex: 1 1 180px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .model-source-meta {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .model-source-status {
+      margin-top: 10px;
+      font-size: 11px;
+      line-height: 1.45;
+      color: var(--muted-strong);
+    }
+
+    .model-source-status.success {
+      color: var(--success);
+    }
+
+    .model-source-status.warning {
+      color: var(--warning);
+    }
+
+    .model-source-status.error {
+      color: var(--danger);
+    }
+
+    .model-source-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted-strong);
+    }
+
+    .model-source-badge.kind-open_access,
+    .model-source-badge.kind-user_supplied {
+      color: var(--success);
+      background: rgba(158,227,186,0.10);
+    }
+
+    .model-source-badge.kind-open_license {
+      color: var(--warning);
+      background: rgba(255,217,153,0.10);
+    }
+
+    .model-source-badge.capability-search_only {
+      color: var(--warning);
+      background: rgba(255,217,153,0.08);
+    }
+
+    .model-source-badge.capability-enabled {
+      color: var(--success);
+      background: rgba(158,227,186,0.08);
+    }
+
+    .model-source-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    .model-source-actions .primary {
+      border-color: rgba(158,227,186,0.28);
+      background: rgba(158,227,186,0.08);
+      color: var(--success);
+    }
+
+    .model-auth-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 12px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.03);
+    }
+
+    .model-auth-status {
+      flex: 1 1 300px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .model-auth-controls {
+      display: flex;
+      flex: 1 1 360px;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .model-auth-controls input[type="password"] {
+      flex: 1 1 240px;
+      min-width: 220px;
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.03);
+    }
+
+    .model-resource-grid {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      margin-top: 14px;
+    }
+
+    .model-resource-card {
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
+    }
+
+    .model-resource-actions {
+      margin-top: 12px;
+    }
+
+    .modal-shell {
+      position: fixed;
+      inset: 0;
+      z-index: 90;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .modal-shell[hidden] {
+      display: none;
+    }
+
+    .modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(2, 4, 7, 0.72);
+      backdrop-filter: blur(10px);
+    }
+
+    .modal-dialog {
+      position: relative;
+      z-index: 1;
+      width: min(1080px, calc(100vw - 32px));
+      max-height: min(82vh, 900px);
+      display: grid;
+      gap: 18px;
+      padding: 24px;
+      overflow: auto;
+      border: 1px solid var(--line-strong);
+      border-radius: 20px;
+      background: linear-gradient(180deg, rgba(13,16,22,0.98), rgba(9,12,18,0.98));
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    }
+
+    .modal-dialog-head {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: start;
+      justify-content: space-between;
+    }
+
+    .modal-dialog-copy-block {
+      display: grid;
+      gap: 8px;
+      min-width: 0;
+      flex: 1 1 380px;
+    }
+
+    .modal-dialog-title {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+    }
+
+    .modal-dialog-copy {
+      margin: 0;
+      max-width: 64ch;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+
+    .modal-close-button {
+      flex: 0 0 auto;
+    }
+
+    .modal-resource-grid {
+      margin-top: 0;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+
+    .model-source-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .model-source-links a,
+    .resource-link {
+      color: var(--success);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .model-source-links a:hover,
+    .resource-link:hover {
+      text-decoration: underline;
+    }
+
+    .effect-view {
+      position: relative;
+      min-height: 0;
+      background: #040507;
+      display: grid;
+      align-items: start;
+      padding: 0;
+      align-content: start;
+    }
+
+    .media-preview-shell {
+      width: 100%;
+      aspect-ratio: var(--media-preview-aspect-ratio, 16 / 9);
+      min-height: min(42vw, 300px);
+      max-height: min(70vh, 720px);
+      height: auto;
+      border: 1px solid var(--line);
+      background: #020304;
+      overflow: hidden;
+    }
+
+    #effect-viewer {
+      width: 100%;
+    }
+
+    .viewport-toolbar {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      right: 12px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .viewport-toolbar button {
+      pointer-events: auto;
+    }
+
+    .viewport-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px;
+      max-width: calc(100% - 56px);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(4, 5, 7, 0.82);
+      backdrop-filter: blur(14px);
+    }
+
+    .viewport-tab {
+      min-height: 32px;
+      padding: 0 12px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--muted-strong);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      box-shadow: none;
+      white-space: nowrap;
+    }
+
+    .viewport-tab.active {
+      background: rgba(255,255,255,0.14);
+      color: var(--text);
+    }
+
+    .scrub-row {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      gap: 12px;
+      align-items: center;
+      padding: 10px 14px 8px;
+    }
+
+    .scrub-row input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent);
+    }
+
+    .playback-button {
+      width: 38px;
+      min-width: 38px;
+      height: 38px;
+      min-height: 38px;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon-button {
+      width: 38px;
+      min-width: 38px;
+      height: 38px;
+      min-height: 38px;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon-button svg,
+    .playback-button svg {
+      width: 20px;
+      height: 20px;
+      display: block;
+      fill: currentColor;
+    }
+
+    .playback-button.active {
+      background: rgba(255,255,255,0.10);
+      border-color: var(--line-strong);
+      color: var(--accent);
+    }
+
+    .control-pane,
+    .burn-pane {
+      display: grid;
+      align-content: start;
+      gap: 0;
+      min-height: 0;
+      height: 100%;
+      border-left: 1px solid var(--line);
+      background: rgba(10, 12, 18, 0.92);
+    }
+
+    .effect-grid > .control-pane {
+      overflow-y: auto;
+      align-content: start;
+    }
+
+    .control-section,
+    .burn-section {
+      padding: 16px 18px;
+    }
+
+    .control-section h2,
+    .burn-section h2 {
+      margin: 0;
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .section-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .tooltip {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .tooltip-trigger {
+      min-width: 22px;
+      width: 22px;
+      height: 22px;
+      padding: 0;
+      border-radius: 999px;
+      border-color: var(--line);
+      background: rgba(255,255,255,0.03);
+      color: var(--muted-strong);
+      box-shadow: none;
+      font-size: 11px;
+      line-height: 1;
+    }
+
+    .tooltip-popup {
+      position: absolute;
+      right: 0;
+      top: calc(100% + 8px);
+      z-index: 10;
+      width: min(280px, 64vw);
+      padding: 10px 12px;
+      border: 1px solid var(--line-strong);
+      background: rgba(8, 10, 14, 0.98);
+      color: var(--text);
+      font-size: 11px;
+      line-height: 1.45;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(4px);
+      transition: opacity 140ms ease, transform 140ms ease;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.36);
+    }
+
+    .tooltip:hover .tooltip-popup,
+    .tooltip:focus-within .tooltip-popup {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .control-group {
+      display: grid;
+      gap: 10px;
+    }
+
+    .control {
+      display: grid;
+      grid-template-columns: 84px minmax(0, 1fr);
+      grid-template-areas:
+        "label label"
+        "number slider";
+      gap: 8px 12px;
+      align-items: center;
+    }
+
+    .control-label-row {
+      grid-area: label;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .control label {
+      display: block;
+      margin-bottom: 0;
+      font-size: 12px;
+      color: var(--muted-strong);
+      font-weight: 500;
+    }
+
+    .control-number {
+      grid-area: number;
+      min-width: 0;
+      padding: 9px 10px;
+      color: var(--text);
+      border-color: var(--line-strong);
+      background: rgba(255,255,255,0.045);
+      caret-color: var(--accent);
+      -webkit-text-fill-color: var(--text);
+      text-align: right;
+    }
+
+    .control-number:focus,
+    .control-number:focus-visible {
+      outline: none;
+      border-color: rgba(244,247,251,0.34);
+      background: rgba(255,255,255,0.07);
+      box-shadow: 0 0 0 1px rgba(244,247,251,0.08);
+    }
+
+    .control-number:disabled {
+      color: rgba(236,241,248,0.76);
+      border-color: rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.028);
+      caret-color: rgba(236,241,248,0.76);
+      -webkit-text-fill-color: rgba(236,241,248,0.76);
+      opacity: 1;
+      cursor: not-allowed;
+    }
+
+    .control input[type="range"] {
+      grid-area: slider;
+      width: 100%;
+      accent-color: var(--accent);
+      background: transparent;
+    }
+
+    .burn-output-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .burn-output {
+      display: grid;
+      gap: 4px;
+    }
+
+    .burn-output span {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .burn-output strong,
+    .burn-output a {
+      color: var(--text);
+      word-break: break-word;
+    }
+
+    .burn-preview-row {
+      display: grid;
+      gap: 12px;
+      align-content: start;
+      min-height: 0;
+      height: 100%;
+    }
+
+    .burn-preview-shell {
+      position: relative;
+    }
+
+    #burn-video {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      display: block;
+      object-fit: contain;
+    }
+
+    #burn-video[hidden] {
+      display: none;
+    }
+
+    .burn-empty-state {
+      display: grid;
+      place-items: center;
+      min-height: 100%;
+      padding: 28px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+      text-align: center;
+      background:
+        radial-gradient(circle at top, rgba(255,255,255,0.04), transparent 58%),
+        #020304;
+    }
+
+    .burn-preview-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+
+    @media (max-width: 1180px) {
+      .shell,
+      .stage-grid,
+      .effect-grid,
+      .burn-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .media-preview-shell {
+        min-height: 280px;
+        max-height: none;
+      }
+
+      .effect-grid > .control-pane {
+        max-height: none;
+        overflow: visible;
+      }
+
+      .sidebar,
+      .control-pane,
+      .burn-pane {
+        border-right: 0;
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+    }
+
+    @media (max-width: 760px) {
+      .workflow-strip {
+        grid-template-columns: 1fr;
+      }
+      .workflow-step {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .workflow-step:last-child {
+        border-bottom: 0;
+      }
+      .workflow-head {
+        grid-template-columns: 1fr;
+      }
+
+      .scrub-row {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+      }
+
+      .playback-button {
+        min-width: 0;
+      }
+
+      .selected-model-head,
+      .model-source-result-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .model-source-thumbnail,
+      .model-source-thumbnail.selected {
+        width: min(128px, 100%);
+      }
+
+      .selected-model-actions {
+        justify-content: flex-start;
+      }
+    }
+
+    @keyframes panel-enter {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <section class="sidebar-section">
+        <p class="eyebrow">Particle Workbench</p>
+        <h1 class="project-title" id="project-title">Loading…</h1>
+        <p class="project-meta" id="project-meta"></p>
+      </section>
+      <div class="sidebar-divider"></div>
+      <section class="sidebar-section">
+        <p class="eyebrow">Run State</p>
+        <div class="metric-grid">
+          <div class="metric"><span>Approval</span><strong id="approval-stat">Draft</strong></div>
+          <div class="metric"><span>Seed</span><strong id="seed-stat">0</strong></div>
+          <div class="metric"><span>Backend</span><strong id="backend-stat">Model</strong></div>
+          <div class="metric"><span>Preset</span><strong id="preset-stat">Vigil</strong></div>
+        </div>
+      </section>
+      <div class="sidebar-divider"></div>
+      <section class="sidebar-section">
+        <p class="eyebrow">Selected Model</p>
+        <div class="detail-stack">
+          <div class="detail"><span>Title</span><strong id="selected-model-title">No model loaded</strong></div>
+          <div class="detail"><span>Provider</span><strong id="selected-model-provider">--</strong></div>
+          <div class="detail"><span>License</span><strong id="selected-model-license">--</strong></div>
+        </div>
+      </section>
+      <div class="sidebar-divider"></div>
+      <section class="sidebar-section">
+        <p class="eyebrow">Snapshots</p>
+        <div class="snapshot-list" id="snapshot-list"></div>
+      </section>
+    </aside>
+    <main class="content">
+      <header class="workflow-rail">
+        <div class="workflow-head">
+          <div class="workflow-strip" role="tablist" aria-label="Particle workbench workflow">
+            <button class="workflow-step active" id="workflow-model" data-tab="model" role="tab" aria-selected="true" type="button">
+              <span class="step-index">1</span>
+              <strong>Model</strong>
+            </button>
+            <button class="workflow-step" id="workflow-effect" data-tab="effect" role="tab" aria-selected="false" type="button">
+              <span class="step-index">2</span>
+              <strong>Effect</strong>
+            </button>
+            <button class="workflow-step" id="workflow-burn" data-tab="burn" role="tab" aria-selected="false" type="button">
+              <span class="step-index">3</span>
+              <strong>Burn</strong>
+            </button>
+          </div>
+          <div class="status-pill draft" id="approval-pill">Draft</div>
+        </div>
+      </header>
+      <section class="stage-surface tab-panel active" data-tab-panel="model">
+        <div class="stage-grid">
+          <div class="stage-main">
+            <div class="section-row">
+              <div class="model-command-block">
+              <div class="model-command-head">
+                  <h2 class="model-command-title">Find A Subject Model</h2>
+                  <p class="model-command-copy">Search for an object or subject first, then fetch and select the best candidate from connected providers.</p>
+                </div>
+                <div class="model-search-row">
+                  <input id="model-source-query" type="text" placeholder="Search for a subject or object, e.g. space shuttle, booster, Canadarm">
+                  <button id="model-source-search-button" type="button">Search</button>
+                </div>
+                <div class="model-auth-row">
+                  <p class="model-auth-status" id="sketchfab-auth-status">Paste a Sketchfab personal token to fetch downloadable CC0 and CC BY models.</p>
+                  <div class="model-auth-controls">
+                    <input id="sketchfab-token-input" type="password" placeholder="Paste Sketchfab personal token" autocomplete="off" spellcheck="false">
+                    <button id="sketchfab-auth-action" type="button" class="secondary">Connect</button>
+                  </div>
+                </div>
+                <div class="model-utility-row">
+                  <div class="model-inline-note">Provider search is the primary path. NASA 3D, Poly Pizza, and Sketchfab are selectable here; Smithsonian stays search-only; the external library link opens site-scoped search. Local upload stays available for exact assets you already have.</div>
+                  <div class="section-actions">
+                    <button id="upload-model-button" type="button" class="secondary">Upload Local Model</button>
+                    <a id="model-resource-modal-trigger" class="action-link" href="#model-resource-modal" aria-controls="model-resource-modal" aria-expanded="false" aria-haspopup="dialog">Browse External Libraries</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input id="model-upload-input" type="file" accept=".obj,.glb,.gltf,model/gltf-binary,model/gltf+json" hidden>
+            <div class="stage-divider"></div>
+            <div class="section-row">
+              <div class="model-results-shell">
+                <div class="selected-model-card empty" id="model-source-active">No model selected.</div>
+                <div class="results-header">
+                  <strong>Search Results</strong>
+                  <span id="model-results-summary">Search a provider to load candidates.</span>
+                </div>
+                <div class="log" id="model-source-log"></div>
+                <div class="model-source-results" id="model-source-results"></div>
+              </div>
+            </div>
+          </div>
+          <aside class="control-pane">
+            <section class="control-section">
+              <h2>Selection</h2>
+              <div class="detail-stack">
+                <div class="detail"><span>Current Model</span><strong id="model-selection-title">No model selected</strong></div>
+                <div class="detail"><span>Provider</span><strong id="model-selection-provider">--</strong></div>
+                <div class="detail"><span>License</span><strong id="model-selection-license">--</strong></div>
+                <div class="detail"><span>Author</span><strong id="model-selection-author">--</strong></div>
+                <div class="detail"><span>Attribution</span><strong id="model-selection-attribution">--</strong></div>
+              </div>
+              <div class="hint" id="model-next-step" style="margin-top:12px;">Search for a subject model or upload a local mesh to unlock the Effect step.</div>
+            </section>
+          </aside>
+        </div>
+      </section>
+      <section class="stage-surface tab-panel" data-tab-panel="effect">
+        <div class="effect-grid">
+          <div class="effect-main">
+            <div class="effect-view">
+              <div class="viewport-toolbar">
+                <div class="viewport-switcher" role="tablist" aria-label="Effect viewport mode">
+                  <button id="viewport-tab-particle" type="button" class="viewport-tab active" data-viewport-tab="particle" role="tab" aria-selected="true">Particle View</button>
+                  <button id="viewport-tab-model" type="button" class="viewport-tab" data-viewport-tab="model" role="tab" aria-selected="false">Raw Model</button>
+                </div>
+                <button id="reset-camera-button" type="button" class="secondary icon-button" aria-label="Reset camera" title="Reset camera">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 5a7 7 0 1 1-6.2 3.75 1 1 0 1 1 1.76.96A5 5 0 1 0 12 7h-1.59l1.3 1.29a1 1 0 0 1-1.42 1.42L6.59 6l3.7-3.71a1 1 0 0 1 1.42 1.42L10.41 5H12Z"/>
+                  </svg>
+                </button>
+              </div>
+              <div id="effect-viewer" class="media-preview-shell"></div>
+            </div>
+            <div class="scrub-row">
+              <button id="preview-play-toggle" type="button" class="secondary playback-button active" aria-label="Pause playback" title="Pause playback"></button>
+              <input id="preview-progress" type="range" min="0" max="1" step="0.01" value="0.65">
+              <output id="preview-progress-output">0.65</output>
+            </div>
+            <div class="section-row tight">
+              <div class="section-actions">
+                <button id="snapshot-button" type="button" class="secondary">Snapshot</button>
+                <button id="approve-button" type="button" class="success">Approve Look</button>
+                <span id="effect-autosave-status" class="hint">All changes autosave.</span>
+              </div>
+              <p id="preview-warning" class="warning-note" hidden></p>
+              <p class="log" id="preview-log" style="margin-top:10px;"></p>
+            </div>
+          </div>
+          <aside class="control-pane">
+            <section class="control-section" data-section-key="model">
+              <div class="section-title-row"></div>
+              <div class="control-group" id="model-controls"></div>
+            </section>
+            <div class="stage-divider"></div>
+            <section class="control-section" data-section-key="preset">
+              <div class="section-title-row">
+                <h2>Preset</h2>
+              </div>
+              <div class="control-group">
+                <div class="section-actions">
+                  <select id="preset-family"></select>
+                  <button id="save-preset-button" type="button" class="secondary">Save Preset…</button>
+                </div>
+              </div>
+            </section>
+            <div class="stage-divider"></div>
+            <section class="control-section" data-section-key="surface">
+              <div class="section-title-row"></div>
+              <div class="control-group" id="surface-controls"></div>
+            </section>
+            <div class="stage-divider"></div>
+            <section class="control-section" data-section-key="breakup">
+              <div class="section-title-row"></div>
+              <div class="control-group" id="breakup-controls"></div>
+            </section>
+            <div class="stage-divider"></div>
+            <section class="control-section" data-section-key="emitter">
+              <div class="section-title-row"></div>
+              <div class="control-group" id="emitter-controls"></div>
+            </section>
+            <div class="stage-divider"></div>
+            <section class="control-section" data-section-key="volume">
+              <div class="section-title-row"></div>
+              <div class="control-group" id="volume-controls"></div>
+            </section>
+            <div class="stage-divider"></div>
+            <section class="control-section" data-section-key="render">
+              <div class="section-title-row"></div>
+              <div class="control-group" id="render-controls"></div>
+            </section>
+          </aside>
+        </div>
+      </section>
+      <section class="stage-surface tab-panel" data-tab-panel="burn">
+        <div class="burn-grid">
+          <div class="burn-main">
+            <div class="section-row">
+              <div class="section-actions">
+                <button id="burn-video-button" type="button" class="success">Burn Video</button>
+              </div>
+              <p class="log" id="burn-log" style="margin-top:10px;"></p>
+            </div>
+            <div class="stage-divider"></div>
+            <div class="section-row burn-preview-row">
+              <div class="media-preview-shell burn-preview-shell" id="burn-preview-shell">
+                <video id="burn-video" controls playsinline hidden></video>
+                <div class="burn-empty-state" id="burn-empty-state">Burn a video to preview the approved export here.</div>
+              </div>
+              <p class="burn-preview-note">The main preview shows the Safari-playable MP4. The FFV1 master, poster PNG, and still PNG are listed below as export artifacts.</p>
+            </div>
+          </div>
+          <aside class="burn-pane">
+            <section class="burn-section">
+              <h2>Approval</h2>
+              <div class="detail-stack">
+                <div class="detail"><span>Status</span><strong id="burn-status">Draft</strong></div>
+                <div class="detail"><span>Snapshot</span><strong id="burn-snapshot">--</strong></div>
+                <div class="detail"><span>Output Contract</span><strong id="burn-contract">--</strong></div>
+              </div>
+            </section>
+            <div class="stage-divider"></div>
+            <section class="burn-section">
+              <h2>Latest Burn</h2>
+              <div class="burn-results" id="burn-results">
+              <div class="burn-result-card">
+                <div class="burn-output-list">
+                    <div class="burn-output"><span>Safari Preview MP4</span><strong id="burn-video-path">--</strong></div>
+                    <div class="burn-output"><span>Exact Master (FFV1 MKV)</span><strong id="burn-master-path">--</strong></div>
+                    <div class="burn-output"><span>Manifest</span><strong id="burn-manifest-path">--</strong></div>
+                    <div class="burn-output"><span>Poster PNG (middle frame)</span><strong id="burn-poster-path">--</strong></div>
+                    <div class="burn-output"><span>Still PNG (final frame)</span><strong id="burn-still-path">--</strong></div>
+                </div>
+              </div>
+              </div>
+            </section>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div class="modal-shell" id="model-resource-modal" hidden>
+    <div class="modal-backdrop" data-model-resource-modal-dismiss></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="model-resource-modal-title">
+      <div class="modal-dialog-head">
+        <div class="modal-dialog-copy-block">
+          <p class="eyebrow">External Libraries</p>
+          <h2 class="modal-dialog-title" id="model-resource-modal-title">Browse External Libraries</h2>
+          <p class="modal-dialog-copy">These shortcuts open site-scoped searches in a new tab using the current subject query. Confirm downloadability, licensing, and attribution terms on each asset page before reuse.</p>
+        </div>
+        <button id="model-resource-modal-close" type="button" class="secondary modal-close-button" aria-label="Close external libraries">Close</button>
+      </div>
+      <div class="model-resource-grid modal-resource-grid" id="model-source-resources"></div>
+    </div>
+  </div>
+  <script type="module" src="/assets/workbench.js"></script>
+</body>
+</html>

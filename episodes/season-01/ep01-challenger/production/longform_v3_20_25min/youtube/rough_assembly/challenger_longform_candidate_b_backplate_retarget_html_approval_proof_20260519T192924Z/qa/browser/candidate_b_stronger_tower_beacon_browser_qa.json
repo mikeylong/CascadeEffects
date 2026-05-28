@@ -1,0 +1,535 @@
+{
+  "status": "pass",
+  "url": "http://127.0.0.1:8864/player.html?beaconIntensity=20260520T0359",
+  "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/qa/browser/candidate_b_stronger_tower_beacon_632s.png",
+  "screenshot_sha256": "96c1f63958ffd7003ac84ad45d7f5287688f7c320eedee88539076a5b9ae3090",
+  "player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/player.html",
+  "player_sha256": "fa78167efe1420bdbbe8dcecbe220dd7539008ca723858cbfcafa8586a0885f0",
+  "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_longform_candidate_b_backplate_retarget_html_approval_proof_20260519T192924Z/rough_assembly_manifest.json",
+  "manifest_gate_effect": {
+    "mp4_render_created": false,
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "current_final_publish_package_touched": false,
+    "existing_upload_state_touched": false,
+    "may_advance_to_video_render": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "peak_beacon_sample": {
+    "x": 365,
+    "y": 37,
+    "cycle": 3.6,
+    "phase": 0.22754617941019264,
+    "intensity": 1,
+    "treatment": "stronger_visible_beacon_v2",
+    "outerAlpha": 0.6,
+    "midAlpha": 0.74,
+    "coreAlpha": 0.78,
+    "outerRadius": 42,
+    "midRadius": 15,
+    "coreRadius": 3.0999999999999996
+  },
+  "samples": [
+    {
+      "time": 0,
+      "beacon": {
+        "x": 365,
+        "y": 37,
+        "cycle": 3.6,
+        "phase": 0.18584308578526917,
+        "intensity": 0.8941022328424706,
+        "treatment": "stronger_visible_beacon_v2",
+        "outerAlpha": 0.5449331610780848,
+        "midAlpha": 0.6722254290191811,
+        "coreAlpha": 0.7143433843623318,
+        "outerRadius": 39.034862519589176,
+        "midRadius": 14.046920095582236,
+        "coreRadius": 2.9729226794109644
+      },
+      "metrics": {
+        "preset": "candidate_b_backplate_retarget_ambient_v1",
+        "ambient_effect_categories": [
+          "practical_lights",
+          "tower_beacon",
+          "aircraft",
+          "volumetric_fog"
+        ],
+        "practical_light_count": 9,
+        "tower_beacon_treatment": "stronger_visible_beacon_v2",
+        "tower_beacon_intensity": 0.8941022328424706,
+        "tower_beacon_cycle_seconds": 3.6,
+        "aircraft_event_count": 7,
+        "aircraft_visible_count": 0,
+        "aircraft_left_sky_visible_count": 0,
+        "tower_left_x": 230,
+        "dust_layer_removed": true,
+        "dust_mote_count": 0,
+        "dust_speed_multiplier": 0,
+        "dust_visible_count": 0,
+        "volumetric_fog_layer_active": true,
+        "volumetric_fog_volume_count": 6,
+        "volumetric_fog_visible_volume_count": 4,
+        "volumetric_fog_max_alpha": 0.041,
+        "volumetric_fog_matte_policy": "tower_shuttle_only",
+        "volumetric_fog_right_rail_mask_removed": true,
+        "rail_safe_left_x": 1108,
+        "foreground_matte_loaded": true
+      },
+      "outro": {
+        "railOpacity": 1,
+        "captionText": "",
+        "storyTime": 0,
+        "ambientTime": 0,
+        "outroOpacity": 0
+      },
+      "dustDebugLength": 0,
+      "fog": [
+        {
+          "index": 0,
+          "x": 128.84043299569115,
+          "y": 518.9003328892062,
+          "rx": 260,
+          "ry": 106,
+          "alpha": 0.026235124372609227,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 1,
+          "x": 415.15143284168954,
+          "y": 258.679868571601,
+          "rx": 228,
+          "ry": 92,
+          "alpha": 0.02456203768818729,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 2,
+          "x": 669.7566178254009,
+          "y": 444.9709233724009,
+          "rx": 330,
+          "ry": 120,
+          "alpha": 0.0330112675193025,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 3,
+          "x": 877.7124172349156,
+          "y": 549.0700525237969,
+          "rx": 382,
+          "ry": 142,
+          "alpha": 0.034685637162262854,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 4,
+          "x": 1008.8995599726744,
+          "y": 662.9960041396001,
+          "rx": 246,
+          "ry": 92,
+          "alpha": 0.019816714288862402,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 5,
+          "x": 791.1021486877529,
+          "y": 220.37802796862135,
+          "rx": 360,
+          "ry": 130,
+          "alpha": 0.013088988149293134,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 632,
+      "beacon": {
+        "x": 365,
+        "y": 37,
+        "cycle": 3.6,
+        "phase": 0.7418603510614901,
+        "intensity": 0.11259976151861256,
+        "treatment": "stronger_visible_beacon_v2",
+        "outerAlpha": 0.13855187598967855,
+        "midAlpha": 0.17206384737191205,
+        "coreAlpha": 0.2298118521415398,
+        "outerRadius": 17.152793322521152,
+        "midRadius": 7.013397853667513,
+        "coreRadius": 2.035119713822335
+      },
+      "metrics": {
+        "preset": "candidate_b_backplate_retarget_ambient_v1",
+        "ambient_effect_categories": [
+          "practical_lights",
+          "tower_beacon",
+          "aircraft",
+          "volumetric_fog"
+        ],
+        "practical_light_count": 9,
+        "tower_beacon_treatment": "stronger_visible_beacon_v2",
+        "tower_beacon_intensity": 0.11259976151861256,
+        "tower_beacon_cycle_seconds": 3.6,
+        "aircraft_event_count": 7,
+        "aircraft_visible_count": 1,
+        "aircraft_left_sky_visible_count": 0,
+        "tower_left_x": 230,
+        "dust_layer_removed": true,
+        "dust_mote_count": 0,
+        "dust_speed_multiplier": 0,
+        "dust_visible_count": 0,
+        "volumetric_fog_layer_active": true,
+        "volumetric_fog_volume_count": 6,
+        "volumetric_fog_visible_volume_count": 4,
+        "volumetric_fog_max_alpha": 0.041,
+        "volumetric_fog_matte_policy": "tower_shuttle_only",
+        "volumetric_fog_right_rail_mask_removed": true,
+        "rail_safe_left_x": 1108,
+        "foreground_matte_loaded": true
+      },
+      "outro": {
+        "railOpacity": 1,
+        "captionText": "the contractor that built the solid rocket boosters.",
+        "storyTime": 622.398549,
+        "ambientTime": 632,
+        "outroOpacity": 0
+      },
+      "dustDebugLength": 0,
+      "fog": [
+        {
+          "index": 0,
+          "x": 139.76159897708592,
+          "y": 517.0049173730272,
+          "rx": 260,
+          "ry": 106,
+          "alpha": 0.02519361012545329,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 1,
+          "x": 411.2241234573213,
+          "y": 261.33355494733615,
+          "rx": 228,
+          "ry": 92,
+          "alpha": 0.01640473199088688,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 2,
+          "x": 665.9439250825491,
+          "y": 453.13332912206107,
+          "rx": 330,
+          "ry": 120,
+          "alpha": 0.028312258585424452,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 3,
+          "x": 898.9343895397458,
+          "y": 561.8373190021289,
+          "rx": 382,
+          "ry": 142,
+          "alpha": 0.03041637402864253,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 4,
+          "x": 1013.4648157212144,
+          "y": 660.5244133887929,
+          "rx": 246,
+          "ry": 92,
+          "alpha": 0.022010067780046924,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 5,
+          "x": 797.8417137824579,
+          "y": 208.52229037675795,
+          "rx": 360,
+          "ry": 130,
+          "alpha": 0.018708547915588784,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 1214.763537,
+      "beacon": {
+        "x": 365,
+        "y": 37,
+        "cycle": 3.6,
+        "phase": 0.6157859910218804,
+        "intensity": 0.3050033340984214,
+        "treatment": "stronger_visible_beacon_v2",
+        "outerAlpha": 0.23860173373117916,
+        "midAlpha": 0.2952021338229897,
+        "coreAlpha": 0.34910206714102127,
+        "outerRadius": 22.540093354755797,
+        "midRadius": 8.745030006885793,
+        "coreRadius": 2.2660040009181057
+      },
+      "metrics": {
+        "preset": "candidate_b_backplate_retarget_ambient_v1",
+        "ambient_effect_categories": [
+          "practical_lights",
+          "tower_beacon",
+          "aircraft",
+          "volumetric_fog"
+        ],
+        "practical_light_count": 9,
+        "tower_beacon_treatment": "stronger_visible_beacon_v2",
+        "tower_beacon_intensity": 0.3050033340984214,
+        "tower_beacon_cycle_seconds": 3.6,
+        "aircraft_event_count": 7,
+        "aircraft_visible_count": 1,
+        "aircraft_left_sky_visible_count": 0,
+        "tower_left_x": 230,
+        "dust_layer_removed": true,
+        "dust_mote_count": 0,
+        "dust_speed_multiplier": 0,
+        "dust_visible_count": 0,
+        "volumetric_fog_layer_active": true,
+        "volumetric_fog_volume_count": 6,
+        "volumetric_fog_visible_volume_count": 4,
+        "volumetric_fog_max_alpha": 0.041,
+        "volumetric_fog_matte_policy": "tower_shuttle_only",
+        "volumetric_fog_right_rail_mask_removed": true,
+        "rail_safe_left_x": 1108,
+        "foreground_matte_loaded": true
+      },
+      "outro": {
+        "railOpacity": 0,
+        "captionText": "",
+        "storyTime": 1178.784218,
+        "ambientTime": 1214.763537,
+        "outroOpacity": 1
+      },
+      "dustDebugLength": 0,
+      "fog": [
+        {
+          "index": 0,
+          "x": 134.647967494855,
+          "y": 510.1364361537961,
+          "rx": 260,
+          "ry": 106,
+          "alpha": 0.02688680382637308,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 1,
+          "x": 414.4547303822725,
+          "y": 254.11051531508798,
+          "rx": 228,
+          "ry": 92,
+          "alpha": 0.02147721450219627,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 2,
+          "x": 664.7508922231441,
+          "y": 449.13820223742664,
+          "rx": 330,
+          "ry": 120,
+          "alpha": 0.02702253253280945,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 3,
+          "x": 897.6025143105021,
+          "y": 552.27445528441,
+          "rx": 382,
+          "ry": 142,
+          "alpha": 0.03321847653473526,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 4,
+          "x": 1035.1415425704647,
+          "y": 661.0791957246905,
+          "rx": 246,
+          "ry": 92,
+          "alpha": 0.020000710987814294,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 5,
+          "x": 834.6216740399985,
+          "y": 216.54509750384747,
+          "rx": 360,
+          "ry": 130,
+          "alpha": 0.016549957038656003,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "time": 1242,
+      "beacon": {
+        "x": 365,
+        "y": 37,
+        "cycle": 3.6,
+        "phase": 0.4251892237996344,
+        "intensity": 0.9043246888651566,
+        "treatment": "stronger_visible_beacon_v2",
+        "outerAlpha": 0.5502488382098815,
+        "midAlpha": 0.6787678008737003,
+        "coreAlpha": 0.7206813070963971,
+        "outerRadius": 39.32109128822438,
+        "midRadius": 14.138922199786409,
+        "coreRadius": 2.9851896266381877
+      },
+      "metrics": {
+        "preset": "candidate_b_backplate_retarget_ambient_v1",
+        "ambient_effect_categories": [
+          "practical_lights",
+          "tower_beacon",
+          "aircraft",
+          "volumetric_fog"
+        ],
+        "practical_light_count": 9,
+        "tower_beacon_treatment": "stronger_visible_beacon_v2",
+        "tower_beacon_intensity": 0.9043246888651566,
+        "tower_beacon_cycle_seconds": 3.6,
+        "aircraft_event_count": 7,
+        "aircraft_visible_count": 1,
+        "aircraft_left_sky_visible_count": 0,
+        "tower_left_x": 230,
+        "dust_layer_removed": true,
+        "dust_mote_count": 0,
+        "dust_speed_multiplier": 0,
+        "dust_visible_count": 0,
+        "volumetric_fog_layer_active": true,
+        "volumetric_fog_volume_count": 6,
+        "volumetric_fog_visible_volume_count": 4,
+        "volumetric_fog_max_alpha": 0.041,
+        "volumetric_fog_matte_policy": "tower_shuttle_only",
+        "volumetric_fog_right_rail_mask_removed": true,
+        "rail_safe_left_x": 1108,
+        "foreground_matte_loaded": true
+      },
+      "outro": {
+        "railOpacity": 0,
+        "captionText": "",
+        "storyTime": 1178.784218,
+        "ambientTime": 1217.675329,
+        "outroOpacity": 1
+      },
+      "dustDebugLength": 0,
+      "fog": [
+        {
+          "index": 0,
+          "x": 134.35707349488,
+          "y": 510.2129292919055,
+          "rx": 260,
+          "ry": 106,
+          "alpha": 0.027138917448670138,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 1,
+          "x": 414.63236547382195,
+          "y": 254.1297651466942,
+          "rx": 228,
+          "ry": 92,
+          "alpha": 0.02130841282066307,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 2,
+          "x": 664.1366574973059,
+          "y": 449.2662304542399,
+          "rx": 330,
+          "ry": 120,
+          "alpha": 0.02720296458527825,
+          "matteAlpha": 0,
+          "rightRailMaskRemoved": true,
+          "visible": false
+        },
+        {
+          "index": 3,
+          "x": 897.655472138995,
+          "y": 552.3806477991492,
+          "rx": 382,
+          "ry": 142,
+          "alpha": 0.03295790352331481,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 4,
+          "x": 1035.3093621712603,
+          "y": 661.0006368424831,
+          "rx": 246,
+          "ry": 92,
+          "alpha": 0.020199199460701294,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        },
+        {
+          "index": 5,
+          "x": 834.6935533834803,
+          "y": 216.66449873249442,
+          "rx": 360,
+          "ry": 130,
+          "alpha": 0.01659216326396972,
+          "matteAlpha": 1,
+          "rightRailMaskRemoved": true,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "reads": {
+    "tower_beacon_intensity_read": "pass_stronger_visible_beacon_v2_peak_readable",
+    "tower_beacon_source_lock_read": "pass_source_locked_x365_y37_cycle_3_6",
+    "tower_beacon_no_graphic_flare_read": "pass_alpha_and_radius_capped_below_graphic_flare",
+    "tower_beacon_cycle_preservation_read": "pass_cycle_preserved_3_6s",
+    "fog_unchanged_read": "pass_fog_left_at_restrained_light_volume_v1",
+    "dust_layer_removed_read": "pass",
+    "gate_lock_read": "pass_all_render_upload_publish_flags_false",
+    "rail_caption_behavior_read": "pass_browser_samples_available"
+  }
+}

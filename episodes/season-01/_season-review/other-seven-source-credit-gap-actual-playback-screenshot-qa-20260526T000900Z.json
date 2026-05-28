@@ -1,0 +1,187 @@
+{
+  "model": "other_seven_source_credit_actual_playback_screenshot_qa_v1",
+  "created_utc": "2026-05-26T02:04:30.081Z",
+  "rollout_manifest_path": "/Users/mike/Episodes_CascadeEffects/other-seven-source-credit-gap-review-20260526T000900Z.json",
+  "passed": true,
+  "screenshots_are_from_actual_review_playback": true,
+  "method": "open review_player_url, click .ce-review-transport [data-ce-play], wait for audio.currentTime to reach source-credit full-opacity sample, then screenshot viewport",
+  "results": [
+    {
+      "episode_id": "therac-25",
+      "title": "Therac-25",
+      "review_player_url": "http://127.0.0.1:8766/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_legal_borderless_source_credit_gap_successor_20260526T000900Z/html_review/source_credit_gap/player.html?t=1081.976&range_guard=therac-25-source-credit-gap_20260526000900Z_html_review",
+      "target_time_seconds": 1088.1761900000001,
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/actual_playback_source_credit_screenshots/therac-25_source_credit_actual_playback.png",
+      "screenshot_sha256": "ce271f9c9e7eb6494e0195b7dccdcd4ca9fc282751d6be9d831d5b2402628199",
+      "state": {
+        "audio_current_time": 1088.657924,
+        "audio_paused": false,
+        "overlay_exists": true,
+        "overlay_active": "true",
+        "overlay_text": "Sources Leveson and Turner, Therac-25 accident investigation SEI CERT, Learning from Accidents FDA Medical Device Reporting records",
+        "computed_opacity": 1,
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 702.2890625,
+          "y": 384.18975830078125,
+          "width": 515.4072265625,
+          "height": 225.62005615234375
+        }
+      },
+      "passed": true
+    },
+    {
+      "episode_id": "hyatt-regency",
+      "title": "Hyatt Regency",
+      "review_player_url": "http://127.0.0.1:8766/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_successor_20260526T000900Z/html_review/source_credit_gap/player.html?t=834.359&range_guard=hyatt-regency-source-credit-gap_20260526000900Z_html_review",
+      "target_time_seconds": 840.558594,
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/actual_playback_source_credit_screenshots/hyatt-regency_source_credit_actual_playback.png",
+      "screenshot_sha256": "4d0f93703c5a330a2270d594a2a14d814057b5e32ec8fbea0f14a112dc94ebd3",
+      "state": {
+        "audio_current_time": 840.823028,
+        "audio_paused": false,
+        "overlay_exists": true,
+        "overlay_active": "true",
+        "overlay_text": "Sources NBS Building Science Series 143 NIST Walkway Collapse archive ASCE Civil Engineering Source",
+        "computed_opacity": 1,
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 702.2890625,
+          "y": 417.1648864746094,
+          "width": 515.4072265625,
+          "height": 159.66983032226562
+        }
+      },
+      "passed": true
+    },
+    {
+      "episode_id": "semmelweis",
+      "title": "Semmelweis",
+      "review_player_url": "http://127.0.0.1:8766/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_legal_borderless_source_credit_gap_successor_20260526T000900Z/html_review/source_credit_gap/player.html?t=851.541&range_guard=semmelweis-source-credit-gap_20260526000900Z_html_review",
+      "target_time_seconds": 857.74136,
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/actual_playback_source_credit_screenshots/semmelweis_source_credit_actual_playback.png",
+      "screenshot_sha256": "dc366ed9ab8ebef2ab0fe431ef24d4791ddb2c56108831eb5377baa14f6b5473",
+      "state": {
+        "audio_current_time": 858.010012,
+        "audio_paused": false,
+        "overlay_exists": true,
+        "overlay_active": "true",
+        "overlay_text": "Sources Ignaz Semmelweis, Die Aetiologie Irvine Loudon, Semmelweis studies Best, Neuhauser, and Slavin",
+        "computed_opacity": 1,
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 724.9164428710938,
+          "y": 547.7506713867188,
+          "width": 470.16644287109375,
+          "height": 145.654541015625
+        }
+      },
+      "passed": true
+    },
+    {
+      "episode_id": "tacoma-narrows",
+      "title": "Tacoma Narrows",
+      "review_player_url": "http://127.0.0.1:8766/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_successor_20260526T000900Z/html_review/source_credit_gap/player.html?t=840.349&range_guard=tacoma-narrows-source-credit-gap_20260526000900Z_html_review",
+      "target_time_seconds": 846.549342,
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/actual_playback_source_credit_screenshots/tacoma-narrows_source_credit_actual_playback.png",
+      "screenshot_sha256": "58a2cdc6c1969c5bc179a3f384befe653ead7ebf3d5c01fbd82c1821d62b140f",
+      "state": {
+        "audio_current_time": 846.868733,
+        "audio_paused": false,
+        "overlay_exists": true,
+        "overlay_active": "true",
+        "overlay_text": "Sources Ammann, von Karman, and Woodruff Washington State DOT Tacoma Narrows history ASCE Tacoma Narrows Bridges",
+        "computed_opacity": 1,
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 702.2890625,
+          "y": 400.67730712890625,
+          "width": 515.4072265625,
+          "height": 192.64495849609375
+        }
+      },
+      "passed": true
+    },
+    {
+      "episode_id": "piltdown-man",
+      "title": "Piltdown Man",
+      "review_player_url": "http://127.0.0.1:8766/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_successor_20260526T000900Z/html_review/source_credit_gap/player.html?t=841.696&range_guard=piltdown-man-source-credit-gap_20260526000900Z_html_review",
+      "target_time_seconds": 847.8960989999999,
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/actual_playback_source_credit_screenshots/piltdown-man_source_credit_actual_playback.png",
+      "screenshot_sha256": "9320f754385b9716b8bbb3916fb673769c953d88fd5b23e796845d49c930d433",
+      "state": {
+        "audio_current_time": 848.187826,
+        "audio_paused": false,
+        "overlay_exists": true,
+        "overlay_active": "true",
+        "overlay_text": "Sources Natural History Museum Piltdown archive Weiner, Oakley, and Le Gros Clark De Groote et al., Royal Society Open Science",
+        "computed_opacity": 1,
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 702.2890625,
+          "y": 384.18975830078125,
+          "width": 515.4072265625,
+          "height": 225.62005615234375
+        }
+      },
+      "passed": true
+    },
+    {
+      "episode_id": "737-max",
+      "title": "737 MAX",
+      "review_player_url": "http://127.0.0.1:8766/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_successor_20260526T000900Z/html_review/source_credit_gap/player.html?t=943.585&range_guard=737-max-source-credit-gap_20260526000900Z_html_review",
+      "target_time_seconds": 949.78526,
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/actual_playback_source_credit_screenshots/737-max_source_credit_actual_playback.png",
+      "screenshot_sha256": "09fe1de1d51555b000cea21d999bb533ca30fafb058a9cb440b8530f8d368618",
+      "state": {
+        "audio_current_time": 950.135452,
+        "audio_paused": false,
+        "overlay_exists": true,
+        "overlay_active": "true",
+        "overlay_text": "Sources U.S. House Transportation Committee report FAA 737 MAX return-to-service review Joint Authorities Technical Review",
+        "computed_opacity": 1,
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 842.07421875,
+          "y": 376.1014099121094,
+          "width": 512.29638671875,
+          "height": 291.7973937988281
+        }
+      },
+      "passed": true
+    },
+    {
+      "episode_id": "titanic",
+      "title": "Titanic",
+      "review_player_url": "http://127.0.0.1:8766/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_successor_20260526T000900Z/html_review/source_credit_gap/player.html?t=741.432&range_guard=titanic-source-credit-gap_20260526000900Z_html_review",
+      "target_time_seconds": 747.632335,
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/actual_playback_source_credit_screenshots/titanic_source_credit_actual_playback.png",
+      "screenshot_sha256": "ce74d3a91acc9df9aca275adde449fca5e0c1722ce3b703ad35c66ab889ba773",
+      "state": {
+        "audio_current_time": 747.944193,
+        "audio_paused": false,
+        "overlay_exists": true,
+        "overlay_active": "true",
+        "overlay_text": "Sources Library of Congress legal history Hansard Board of Trade debate IMO Titanic and SOLAS explainer",
+        "computed_opacity": 1,
+        "display": "block",
+        "visibility": "visible",
+        "rect": {
+          "x": 702.2890625,
+          "y": 417.1648864746094,
+          "width": 515.4072265625,
+          "height": 159.66983032226562
+        }
+      },
+      "passed": true
+    }
+  ],
+  "contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/other-seven-source-credit-gap-actual-playback-contact-sheet-20260526T000900Z.png",
+  "contact_sheet_sha256": "26381286b28173b4f6d66efb2107e58e29756d2f92e56d884f2ab0aa3458a98b"
+}

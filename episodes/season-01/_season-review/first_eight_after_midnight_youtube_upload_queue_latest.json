@@ -1,0 +1,408 @@
+{
+  "receipt_type": "first_eight_after_midnight_youtube_upload_queue",
+  "schema_version": "cascade_effects_upload_queue_v1",
+  "created_utc": "2026-05-26T21:34:19.146Z",
+  "requested_by_user": "get all 8 ready for youtube upload after 12 am",
+  "public_release": "manual_youtube_studio_only",
+  "quota_note": "All eight current approved long-form unlisted review uploads are now present. The six repaired replacements uploaded first after reset; Challenger uploaded after explicit local MP4 approval on 2026-05-27.",
+  "repaired_replacements_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+    "sha256": "3159cedb5c1d5a70581c6a7d98cde1799dc61d1b545205f4a96f662cfbf0614e",
+    "bytes": 21835
+  },
+  "challenger_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T213000Z.json",
+    "sha256": "96557d5a226d9bce750ed39819f9a9862a59931bac50fd3d3d03f76999ae0d74",
+    "bytes": 3956
+  },
+  "already_uploaded_approved": [
+    {
+      "episode_id": "737-max",
+      "batch": "already_uploaded_approved_no_new_insert_needed",
+      "priority": 0,
+      "upload_state": "already_uploaded_approved",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260526T080000Z/publish_readiness_manifest.json",
+      "video_id": "3F9MaG2IcmM",
+      "video_url": "https://www.youtube.com/watch?v=3F9MaG2IcmM",
+      "upload_performed": true,
+      "public_release_ready": false
+    }
+  ],
+  "ready_for_upload_after_midnight": [
+    {
+      "episode_id": "therac-25",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 1,
+      "upload_state": "uploaded_unlisted_processed",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": true,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready",
+      "replacement_video_id": "OsPgjlPRN6M",
+      "replacement_video_url": "https://www.youtube.com/watch?v=OsPgjlPRN6M",
+      "processing_status": "succeeded",
+      "caption_status": "uploaded",
+      "thumbnail_status": "uploaded"
+    },
+    {
+      "episode_id": "hyatt-regency",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 2,
+      "upload_state": "uploaded_unlisted_processed",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": true,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready",
+      "replacement_video_id": "sE5YKLicnME",
+      "replacement_video_url": "https://www.youtube.com/watch?v=sE5YKLicnME",
+      "processing_status": "succeeded",
+      "caption_status": "uploaded",
+      "thumbnail_status": "uploaded"
+    },
+    {
+      "episode_id": "semmelweis",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 3,
+      "upload_state": "uploaded_unlisted_processed",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": true,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/publish_readiness/semmelweis_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready",
+      "replacement_video_id": "VY7RXqWfdfs",
+      "replacement_video_url": "https://www.youtube.com/watch?v=VY7RXqWfdfs",
+      "processing_status": "succeeded",
+      "caption_status": "uploaded",
+      "thumbnail_status": "uploaded"
+    },
+    {
+      "episode_id": "tacoma-narrows",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 4,
+      "upload_state": "uploaded_unlisted_processed",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": true,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211636Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready",
+      "replacement_video_id": "sknu2lK8Z2o",
+      "replacement_video_url": "https://www.youtube.com/watch?v=sknu2lK8Z2o",
+      "processing_status": "succeeded",
+      "caption_status": "uploaded",
+      "thumbnail_status": "uploaded"
+    },
+    {
+      "episode_id": "piltdown-man",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 5,
+      "upload_state": "uploaded_unlisted_processed",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": true,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211636Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready",
+      "replacement_video_id": "s88BAewrp2M",
+      "replacement_video_url": "https://www.youtube.com/watch?v=s88BAewrp2M",
+      "processing_status": "succeeded",
+      "caption_status": "uploaded",
+      "thumbnail_status": "uploaded"
+    },
+    {
+      "episode_id": "titanic",
+      "batch": "after_midnight_batch_1_repair_replacements",
+      "priority": 6,
+      "upload_state": "uploaded_unlisted_processed",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T203119Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": true,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211636Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready",
+      "replacement_video_id": "yqcaIX9Lnws",
+      "replacement_video_url": "https://www.youtube.com/watch?v=yqcaIX9Lnws",
+      "processing_status": "succeeded",
+      "caption_status": "uploaded",
+      "thumbnail_status": "uploaded"
+    },
+    {
+      "episode_id": "challenger",
+      "batch": "uploaded_after_explicit_challenger_local_mp4_approval",
+      "priority": 7,
+      "upload_state": "uploaded_unlisted_processed",
+      "publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/publish_readiness_manifest.json",
+      "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T213000Z.json",
+      "youtube_upload_ready": true,
+      "may_youtube_action": true,
+      "upload_allowed": true,
+      "upload_performed": true,
+      "action_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/production_contract_receipts/contract_receipt_20260526T212947Z.json",
+        "ok": true,
+        "contract_id": "first-eight-longform-v1",
+        "intent": "successor",
+        "youtube_action_requested": "unlisted_review_upload",
+        "youtube_action_allowed": true,
+        "reads": {
+          "contract_read": "pass_contract_loaded_and_required_reads_passed",
+          "delta_read": "pass_no_repair_delta_required_for_intent",
+          "style_read": "pass_style_contract_reads_passed",
+          "media_read": "pass_source_hashes_and_media_reads_valid",
+          "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+        }
+      },
+      "dry_run_status": "dry_run_ready",
+      "replacement_video_id": "safBLFP3he8",
+      "replacement_video_url": "https://www.youtube.com/watch?v=safBLFP3he8",
+      "video_id": "safBLFP3he8",
+      "video_url": "https://www.youtube.com/watch?v=safBLFP3he8",
+      "processing_status": "succeeded",
+      "upload_status": "processed",
+      "caption_status": "uploaded",
+      "thumbnail_status": "uploaded",
+      "youtube_unlisted_upload_aggregate": {
+        "path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_youtube_unlisted_uploads_20260527T165351Z.json",
+        "sha256": "cd0eac78c02d5b957c663ffc273be6835248508c824f5239e8ef84105bf3eb07",
+        "bytes": 1842
+      },
+      "youtube_unlisted_upload_receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/youtube_longform_unlisted_upload_receipt_20260527T165351Z.json",
+        "sha256": "47c0323e6adff098dbe79c9ff14c56da59570df73a7857884c6b7d30ce33abf2",
+        "bytes": 19736
+      },
+      "youtube_unlisted_upload_status": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/youtube_longform_unlisted_upload_status_20260527T165351Z.json",
+        "sha256": "a7b59b87bad6354e1824c9997476f61df5ac6d46187b698e94173b8abcd6e3d8",
+        "bytes": 4516
+      },
+      "public_release_ready": false,
+      "public_release": "blocked_manual_youtube_studio_only"
+    }
+  ],
+  "recommended_after_midnight_order": [
+    "therac-25",
+    "hyatt-regency",
+    "semmelweis",
+    "tacoma-narrows",
+    "piltdown-man",
+    "titanic",
+    "challenger"
+  ],
+  "automation_policy": {
+    "first_run": "upload six repaired replacements first because they replace known defective black-screen/problematic unlisted uploads",
+    "challenger": "ready; upload after quota remains available or at the next reset",
+    "stop_conditions": [
+      "authentication failure",
+      "contract action receipt failure",
+      "mp4 visual guard failure",
+      "precision matte guard failure",
+      "quota exceeded",
+      "any upload processing rejection"
+    ],
+    "public_release": "do not make public; do not schedule; do not change visibility beyond unlisted review upload"
+  },
+  "completed_after_midnight_upload_batch": {
+    "aggregate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_youtube_unlisted_uploads_20260527T071056Z.json",
+      "sha256": "97bf81d9e2a3ea59fa323b428403ea3e10b38b81accdd103e1d6541bd566f3f1",
+      "bytes": 9291
+    },
+    "uploaded_count": 6,
+    "videos": [
+      {
+        "episode_id": "therac-25",
+        "video_id": "OsPgjlPRN6M",
+        "video_url": "https://www.youtube.com/watch?v=OsPgjlPRN6M",
+        "processing_status": "succeeded",
+        "caption_status": "uploaded",
+        "thumbnail_status": "uploaded"
+      },
+      {
+        "episode_id": "hyatt-regency",
+        "video_id": "sE5YKLicnME",
+        "video_url": "https://www.youtube.com/watch?v=sE5YKLicnME",
+        "processing_status": "succeeded",
+        "caption_status": "uploaded",
+        "thumbnail_status": "uploaded"
+      },
+      {
+        "episode_id": "semmelweis",
+        "video_id": "VY7RXqWfdfs",
+        "video_url": "https://www.youtube.com/watch?v=VY7RXqWfdfs",
+        "processing_status": "succeeded",
+        "caption_status": "uploaded",
+        "thumbnail_status": "uploaded"
+      },
+      {
+        "episode_id": "tacoma-narrows",
+        "video_id": "sknu2lK8Z2o",
+        "video_url": "https://www.youtube.com/watch?v=sknu2lK8Z2o",
+        "processing_status": "succeeded",
+        "caption_status": "uploaded",
+        "thumbnail_status": "uploaded"
+      },
+      {
+        "episode_id": "piltdown-man",
+        "video_id": "s88BAewrp2M",
+        "video_url": "https://www.youtube.com/watch?v=s88BAewrp2M",
+        "processing_status": "succeeded",
+        "caption_status": "uploaded",
+        "thumbnail_status": "uploaded"
+      },
+      {
+        "episode_id": "titanic",
+        "video_id": "yqcaIX9Lnws",
+        "video_url": "https://www.youtube.com/watch?v=yqcaIX9Lnws",
+        "processing_status": "succeeded",
+        "caption_status": "uploaded",
+        "thumbnail_status": "uploaded"
+      }
+    ]
+  },
+  "challenger_queue_status": {
+    "status": "uploaded_unlisted_processed",
+    "reason": "Uploaded after explicit Challenger local MP4 approval on 2026-05-27.",
+    "summary_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_publish_readiness_packages_20260526T213000Z.json",
+    "current_youtube_upload_available": true,
+    "current_youtube_upload_video_id": "safBLFP3he8",
+    "current_youtube_upload_url": "https://www.youtube.com/watch?v=safBLFP3he8",
+    "current_youtube_upload_note": "This replaces the superseded HFmW7x7sCJM Challenger unlisted review for current approval tracking; old uploads are preserved, not deleted."
+  },
+  "challenger_previous_uploads_superseded": [
+    {
+      "video_id": "HFmW7x7sCJM",
+      "video_url": "https://www.youtube.com/watch?v=HFmW7x7sCJM",
+      "reason": [
+        "Missing center source-credit interstitial approved in challenger_source_credit_gap_successor_20260525T232801Z.",
+        "Does not represent the current borderless YouTube end-screen template.",
+        "Does not represent the current required Challenger precision-matte guarded candidate lineage."
+      ],
+      "receipt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/challenger_youtube_upload_superseded_by_source_credit_borderless_precision_20260527Tcorr.json",
+        "sha256": "32962db7088fd0b442fd74bf3e835dc3d537abc7121a9d481df80858a217df2c",
+        "bytes": 8011
+      },
+      "preservation_policy": "old_unlisted_upload_preserved_not_deleted"
+    }
+  ],
+  "updated_utc": "2026-05-27T16:57:12.153Z",
+  "completed_challenger_upload": {
+    "aggregate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_youtube_unlisted_uploads_20260527T165351Z.json",
+      "sha256": "cd0eac78c02d5b957c663ffc273be6835248508c824f5239e8ef84105bf3eb07",
+      "bytes": 1842
+    },
+    "uploaded_count": 1,
+    "uploaded_at": "2026-05-27T16:55:42Z",
+    "video_id": "safBLFP3he8",
+    "video_url": "https://www.youtube.com/watch?v=safBLFP3he8",
+    "processing_status": "succeeded",
+    "upload_status": "processed",
+    "caption_status": "uploaded",
+    "thumbnail_status": "uploaded",
+    "privacy": "unlisted",
+    "public_release": "blocked_manual_youtube_studio_only"
+  }
+}

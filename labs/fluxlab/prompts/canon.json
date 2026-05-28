@@ -1,0 +1,18 @@
+{
+  "shared_negative_prompt": "photorealism, documentary realism, detailed faces, busy composition, multiple focal points, clutter, visible branding, readable text, ui overlays, hard digital edges, glossy 3d render, dramatic action pose, explosion close-up, debris close-up, sensationalism",
+  "shared_positive_style_prompt": "minimalist emotional surrealism, radical simplicity of form, large dominant color fields, asymmetric composition, active negative space, muted palette with one selective saturated accent, soft painterly edges, subtle pigment bleed, tactile matte surface, visual silence, stillness with implied story, symbolic environment, no literal depiction of disaster, no gore, no crowd, no text, no logos, cinematic restraint",
+  "subjects": {
+    "boeing737max": {
+      "a": "pale overcast sky as a dominant color field, a very small simplified aircraft silhouette tilted slightly downward, placed off-center with vast empty space surrounding it, no crash depiction, no fire, no crowd, just subtle wrong angle and unresolved tension, muted palette, one restrained amber accent",
+      "b": "vast blue-gray field with a tiny protruding sensor-like line near one edge, the entire composition organized around this almost insignificant element, systemic imbalance, quiet technical unease, reduction to symbol, painterly matte edges"
+    },
+    "challenger": {
+      "a": "quiet aftermath, vast ultramarine sky occupying nearly the full frame, a single thin white ascent trail rising upward and forking near the top, tiny human silhouette near the bottom edge at a distant shoreline, one faint warm orange haze at the point of separation, minimal horizon, extreme scale contrast, restrained and elegiac",
+      "b": "deep blue ocean and sky compressed into two large calm color fields, tiny red-orange fragment floating low in frame, almost no detail, horizon barely visible, immense silence, absence more important than object, painterly softness, meditative tension"
+    },
+    "therac25": {
+      "a": "near-black room reduced to simple planes, a floating green terminal glow centered slightly off-axis, one unreadable line of pale text, blinking cursor implied, no human visible, sterile stillness, invisible danger, minimalist technological dread, soft crt bloom, restrained composition",
+      "b": "muted gray clinical chamber, single bed-like horizontal geometry pushed to one side, pale overhead light, large empty shadow field dominating frame, no figures, no machinery detail, quiet wrongness, procedural harm implied through absence"
+    }
+  }
+}

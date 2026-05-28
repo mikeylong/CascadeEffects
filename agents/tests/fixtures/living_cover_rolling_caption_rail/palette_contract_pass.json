@@ -1,0 +1,191 @@
+{
+  "episode_id": "fixture",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "rail_content_model_id": "rolling_caption_anchor_v1",
+  "caption_display_model": "rolling_rail_caption_window_v1",
+  "caption_window_role": "middle_two_thirds_right_rail",
+  "caption_blur_scope": "none",
+  "caption_window_treatment_model": "transparent_caption_mask_only_v1",
+  "caption_highlight_source": "living_cover_cue_map_key_phrases",
+  "caption_palette_source": "sampled_episode_backplate",
+  "caption_display_chunking": "script_locked_chunk_split_v1",
+  "review_chrome_policy": "hidden_in_render_mode",
+  "review_control_model": "single_foreground_review_transport_v1",
+  "legacy_review_chrome_suppression_model": "predecessor_review_chrome_hidden_in_review_mode_v1",
+  "highlight_render_policy": "reviewed_cue_map_spans_only",
+  "caption_motion_model": "constant_speed_audio_time_aligned_scroll_v2",
+  "caption_timeline_layout_model": "audio_time_positioned_stack_v1",
+  "caption_sync_target": "pre_vo_reading_lead_active_band_v1",
+  "caption_reading_lead_seconds": 0.65,
+  "caption_constant_speed_scope": "per_episode_constant_px_per_second",
+  "caption_playback_clock_model": "media_time_anchored_raf_clock_v1",
+  "caption_stack_render_model": "compositor_linear_transform_transition_v1",
+  "caption_density_resolution_model": "merge_dense_chunks_no_speed_ramp_v1",
+  "caption_display_line_wrap_model": "pixel_budgeted_deterministic_line_wrap_v1",
+  "caption_line_opacity_model": "viewport_distance_smoothstep_v1",
+  "highlight_phrase_scope": "exact_authored_span_only",
+  "caption_highlight_model_id": "lesson_takeaway_highlight_v1",
+  "highlight_semantic_role": "story_lesson_takeaway",
+  "highlight_density_model": "memorable_takeaway_cadence_v1",
+  "highlight_color_model": "source_sampled_high_contrast_warm_accent_v1",
+  "highlight_visual_timing_model": "active_band_presence_aligned_v1",
+  "caption_layout_collision_guard": "fixed_line_box_visual_gap_guard_v1",
+  "proof_integration_model": "predecessor_html_rolling_rail_injection_v1",
+  "caption_text_stack_width_px": 402,
+  "caption_max_estimated_line_width_px": 320,
+  "caption_constant_scroll_speed_px_per_second": 50,
+  "caption_min_rendered_line_gap_px": 40,
+  "status": "blocked_pending_reviewed_cue_map_key_phrase_spans",
+  "human_disposition": "defer",
+  "may_create_full_runtime_mp4_render": false,
+  "may_advance_to_video_render": false,
+  "may_advance_to_final_assembly": false,
+  "may_advance_to_publish_readiness": false,
+  "may_youtube_action": false,
+  "caption_text_source": {
+    "kind": "locked_narration_script"
+  },
+  "end_screen_palette_contract": {
+    "contract_id": "living_cover_end_screen_palette_contract_v1",
+    "status": "pass",
+    "required": true,
+    "required_for_gates": ["visual_system", "rough_assembly", "final_assembly", "publish_readiness"],
+    "palette_source": "sampled_episode_backplate",
+    "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+    "sample_model": "fixture_average_rgb_v1",
+    "approved_backplate": {
+      "path": "../living_cover_final_gate/sample_backplate.ppm",
+      "sha256": "1ff50809b9c708917f5753fb251039d510fd47568fca3971eb5507c6621788ee",
+      "role": "approved_living_cover_source_art_backplate"
+    },
+    "colors": {
+      "video_target_fill_rgba": "rgba(28, 24, 25, 0.42)",
+      "video_target_border_rgba": "rgba(188, 151, 111, 0.76)",
+      "video_target_secondary_border_rgba": "rgba(172, 146, 119, 0.70)",
+      "subscribe_ring_rgba": "rgba(223, 187, 135, 0.88)",
+      "muted_rail_text_hex": "#d8c19b",
+      "small_accent_hex": "#f6d37d"
+    },
+    "reads": {
+      "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+      "end_screen_target_fill_palette_read": "pass_target_fill_harmonized_with_backplate_sample",
+      "end_screen_target_contrast_read": "pass_muted_text_and_accent_contrast_preserved",
+      "rail_panel_palette_read": "pass_source_aware_end_screen_palette_contract",
+      "source_integrated_panel_color_read": "pass_no_fixed_cross_episode_panel_color",
+      "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors"
+    }
+  },
+  "end_screen_context": {
+    "end_screen_palette_contract": {
+      "contract_id": "living_cover_end_screen_palette_contract_v1",
+      "status": "pass",
+      "required": true,
+      "required_for_gates": ["visual_system", "rough_assembly", "final_assembly", "publish_readiness"],
+      "palette_source": "sampled_episode_backplate",
+      "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+      "approved_backplate": {
+        "path": "../living_cover_final_gate/sample_backplate.ppm",
+        "sha256": "1ff50809b9c708917f5753fb251039d510fd47568fca3971eb5507c6621788ee"
+      },
+      "colors": {
+        "video_target_fill_rgba": "rgba(28, 24, 25, 0.42)",
+        "video_target_border_rgba": "rgba(188, 151, 111, 0.76)",
+        "video_target_secondary_border_rgba": "rgba(172, 146, 119, 0.70)",
+        "subscribe_ring_rgba": "rgba(223, 187, 135, 0.88)",
+        "muted_rail_text_hex": "#d8c19b",
+        "small_accent_hex": "#f6d37d"
+      },
+      "reads": {
+        "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+        "end_screen_target_fill_palette_read": "pass_target_fill_harmonized_with_backplate_sample",
+        "end_screen_target_contrast_read": "pass_muted_text_and_accent_contrast_preserved",
+        "rail_panel_palette_read": "pass_source_aware_end_screen_palette_contract",
+        "source_integrated_panel_color_read": "pass_no_fixed_cross_episode_panel_color",
+        "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors"
+      }
+    },
+    "end_screen_palette_model": "backplate_sampled_youtube_end_screen_palette_v1",
+    "end_screen_palette_source": "sampled_episode_backplate",
+    "end_screen_adaptive_palette_read": "pass_source_backplate_sampled_target_palette_contract",
+    "end_screen_palette": {
+      "model_id": "backplate_sampled_youtube_end_screen_palette_v1",
+      "palette_source": "sampled_episode_backplate",
+      "sample_read": "pass_source_backplate_sampled",
+      "targets": {
+        "left_video": {
+          "sample_hex": "#4e3d2e",
+          "fill_rgba": "rgba(28, 24, 25, 0.42)",
+          "border_rgba": "rgba(188, 151, 111, 0.76)",
+          "sample_bbox_xy": [78, 382, 758, 765]
+        },
+        "right_video": {
+          "sample_hex": "#725b42",
+          "fill_rgba": "rgba(34, 28, 24, 0.42)",
+          "border_rgba": "rgba(172, 146, 119, 0.70)",
+          "sample_bbox_xy": [1162, 382, 1842, 765]
+        },
+        "center_subscribe": {
+          "sample_hex": "#b18450",
+          "fill_rgba": "rgba(42, 32, 24, 0.28)",
+          "border_rgba": "rgba(223, 187, 135, 0.88)",
+          "sample_bbox_xy": [814, 429, 1106, 721]
+        }
+      }
+    }
+  },
+  "caption_context": {
+    "caption_slot_preset_id": "rolling_rail_caption_window_v1",
+    "behavior_model": "deterministic_audio_time_rolling_caption_window",
+    "caption_text_source": {
+      "kind": "locked_narration_script"
+    },
+    "caption_timing_source": {
+      "text_usage": "timing_only_asr_text_not_used_for_output"
+    },
+    "min_alignment_coverage": 0.985,
+    "qa_hooks": ["window.__railCaptionStateAt", "window.__setRenderTime"],
+    "stable_properties_only": ["transform", "opacity"],
+    "caption_window_geometry_px": {
+      "left": 1368,
+      "top": 124,
+      "width": 488,
+      "height": 844,
+      "bottom": 968
+    },
+    "caption_window_background": {
+      "scope": "none",
+      "localized_blur_px": 0,
+      "fill_alpha": 0
+    }
+  },
+  "full_timeline": {
+    "caption_timeline_layout_model": "audio_time_positioned_stack_v1",
+    "caption_sync_target": "pre_vo_reading_lead_active_band_v1",
+    "caption_reading_lead_seconds": 0.65,
+    "caption_constant_speed_scope": "per_episode_constant_px_per_second",
+    "caption_density_resolution_model": "merge_dense_chunks_no_speed_ramp_v1",
+    "caption_display_line_wrap_model": "pixel_budgeted_deterministic_line_wrap_v1",
+    "caption_constant_scroll_speed_px_per_second": 50,
+    "caption_unresolved_dense_pair_count": 0,
+    "caption_max_active_chunk_center_delta_at_cue_start_px": 0,
+    "caption_min_rendered_line_gap_px": 40,
+    "caption_cue_count_in_proof": 0,
+    "rolling_caption_display_chunk_count": 0,
+    "caption_source_cue_coverage_count": 0
+  },
+  "rail_behavior": {
+    "previous_upcoming_context_rows_allowed": false
+  },
+  "living_cover_cue_map": {
+    "status": "blocked_pending_reviewed_cue_map_key_phrase_spans",
+    "key_phrase_spans": []
+  },
+  "rough_assembly_reads": {
+    "caption_collision_guard_read": "pass",
+    "caption_key_phrase_span_read": "blocked_pending_reviewed_cue_map_key_phrase_spans",
+    "old_context_rows_absence_read": "pass"
+  },
+  "qa": {
+    "caption_highlight_suppressed_without_reviewed_spans_static_pass": true
+  }
+}

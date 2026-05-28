@@ -1,0 +1,214 @@
+{
+  "stage": "external_footage_scout",
+  "episode_id": "Ep7_737-MAX",
+  "short_id": "737_max_short_scoped_v1",
+  "created_at_utc": "2026-05-20T034206Z",
+  "local_review_only": true,
+  "footage_downloaded_or_imported": false,
+  "youtube_upload_publish_delete_replace_schedule_touched": false,
+  "current_theme_hook_proof_read": "tighten",
+  "tighten_reason": "Current hook proof leans too hard on repeated LEAP engine close-ups and needs stronger visual variety before another local proof rebuild.",
+  "policy": {
+    "archival_role": "hybrid",
+    "hygiene_rule": "strict clean",
+    "analog_look": "selective",
+    "primary_source_limit": 3,
+    "backup_source_limit": 2,
+    "paper_architecture_visual_style_read": "blocked_for_shorts",
+    "caption_layer_policy": "local_review_no_final_caption_rebuild"
+  },
+  "recommended_direction": [
+    "Official FAA return-to-service/test-flight material for flight deck and certification context.",
+    "Cockpit or pilot-view flight material for runway roll, climb, and pilot workload.",
+    "Stock or clean exterior airport material only when the frame is actually clean and not generic plane wallpaper."
+  ],
+  "primary_source_ids": [
+    "faa_dickson_737max_broll",
+    "pilot_view_737max_departure_toronto",
+    "pixabay_737max_stock_pool"
+  ],
+  "backup_source_ids": [
+    "dfw_aviation_aa_737max_mia_takeoff",
+    "just_planes_lhr_pilot_briefing"
+  ],
+  "source_pool_within_limit": true,
+  "candidates": [
+    {
+      "source_id": "faa_dickson_737max_broll",
+      "source_url": "https://www.youtube.com/watch?v=eozVpyoYaLM",
+      "source_context_url": "https://www.faa.gov/newsroom/faa-administrator-completes-boeing-737-max-flight",
+      "source_title": "FAA Administrator Steve Dickson piloting the Boeing 737 MAX (B-ROLL)",
+      "source_channel_or_origin": "Federal Aviation Administration",
+      "duration_seconds": 150,
+      "source_family": "official_test_flight_flight_deck_certification_context",
+      "source_role": "primary",
+      "local_media_path": null,
+      "external_availability_read": "official_page_links_video_but_ytdlp_returned_unavailable_in_this_environment",
+      "intended_use": "Best first candidate for varied hook or early body shots if access and clean spans pass.",
+      "hygiene_status": "pass_review_required",
+      "rights_risk": "lower_official_source_verify_usage",
+      "verdict": "primary_scout_pending_access"
+    },
+    {
+      "source_id": "pilot_view_737max_departure_toronto",
+      "source_url": "https://www.youtube.com/watch?v=TTc66BPgdpQ",
+      "source_title": "B737 MAX Turbulent Departure out of Toronto (FULL ATC)",
+      "source_channel_or_origin": "Pilot View",
+      "duration_seconds": 946,
+      "source_family": "cockpit_departure_runway_climb_pilot_pov",
+      "source_role": "primary",
+      "local_media_path": null,
+      "external_availability_read": "metadata_available",
+      "intended_use": "Strong non-official motion variety for cockpit/runway/climb if clean.",
+      "hygiene_status": "strict_clean_audit_required",
+      "rights_risk": "high_youtube_creator",
+      "verdict": "primary_scout_if_clean"
+    },
+    {
+      "source_id": "pixabay_737max_stock_pool",
+      "source_url": "https://pixabay.com/videos/search/boeing%20737%20max/",
+      "source_title": "Pixabay Boeing 737 MAX video pool",
+      "source_channel_or_origin": "Pixabay",
+      "duration_seconds": null,
+      "source_family": "stock_exterior_aircraft_airport_ramp_approach_weather",
+      "source_role": "primary",
+      "local_media_path": null,
+      "external_availability_read": "search_page_available_exact_clip_not_selected",
+      "intended_use": "Backup clean exterior texture or tail if an exact clip is visually specific and clean.",
+      "hygiene_status": "exact_clip_audit_required",
+      "rights_risk": "stock_license_verify_clip_specific",
+      "verdict": "primary_scout_pool_refine_to_exact_clip"
+    },
+    {
+      "source_id": "dfw_aviation_aa_737max_mia_takeoff",
+      "source_url": "https://www.youtube.com/watch?v=07yx-aUvN_4",
+      "source_title": "American Airlines Boeing 737 MAX 8 STUNNING Takeoff from Miami International Airport (MIA)",
+      "source_channel_or_origin": "DFW Aviation",
+      "duration_seconds": 795,
+      "source_family": "passenger_window_or_exterior_takeoff",
+      "source_role": "backup",
+      "local_media_path": null,
+      "external_availability_read": "metadata_available",
+      "intended_use": "Exterior subject motion or brief bridge away from cockpit.",
+      "hygiene_status": "strict_clean_audit_required",
+      "rights_risk": "high_youtube_creator",
+      "verdict": "backup_scout"
+    },
+    {
+      "source_id": "dfw_aviation_southwest_lga_engine_view",
+      "source_url": "https://www.youtube.com/watch?v=HsNDNXFXFys",
+      "source_title": "Southwest Airlines Boeing 737 MAX 8 Takeoff from New York-LaGuardia (LGA) + AMAZING ENGINE VIEW!",
+      "source_channel_or_origin": "DFW Aviation",
+      "duration_seconds": 958,
+      "source_family": "passenger_window_engine_departure",
+      "source_role": "backup",
+      "local_media_path": null,
+      "external_availability_read": "metadata_available",
+      "intended_use": "Limited transition or tail option only if it avoids repeating the current engine lane.",
+      "hygiene_status": "strict_clean_audit_required",
+      "rights_risk": "high_youtube_creator",
+      "verdict": "backup_scout_limited"
+    },
+    {
+      "source_id": "just_planes_lhr_pilot_briefing",
+      "source_url": "https://www.youtube.com/watch?v=SSz9E4mDRjw",
+      "source_title": "Boeing 737MAX into London Heathrow + Pilot Landing Briefing",
+      "source_channel_or_origin": "Just Planes",
+      "duration_seconds": 1782,
+      "source_family": "cockpit_briefing_landing_flight_deck",
+      "source_role": "backup",
+      "local_media_path": null,
+      "external_availability_read": "metadata_available",
+      "intended_use": "Strong cockpit variety if rights and clean spans pass.",
+      "hygiene_status": "strict_clean_audit_required",
+      "rights_risk": "high_youtube_creator",
+      "verdict": "backup_scout"
+    },
+    {
+      "source_id": "pexels_newark_737max_rain_gate",
+      "source_url": "https://www.pexels.com/video/as-thunder-and-lightning-rumble-through-the-skies-a-torrential-downpour-engulfs-a-gate-at-newark-airport-causing-airplanes-including-a-united-airlines-boeing-737-max-to-patiently-await-16954669/",
+      "source_title": "United 737 MAX at Newark gate in thunderstorm",
+      "source_channel_or_origin": "Pexels",
+      "duration_seconds": null,
+      "source_family": "rainy_gate_airport_atmosphere_aircraft_waiting",
+      "source_role": "backup",
+      "local_media_path": null,
+      "external_availability_read": "page_available_exact_download_not_attempted",
+      "intended_use": "Possible texture or tail option if clean and not too generic.",
+      "hygiene_status": "exact_span_audit_required",
+      "rights_risk": "stock_license_verify_clip_specific",
+      "verdict": "backup_scout_exact_span_required"
+    },
+    {
+      "source_id": "boeing_demo_flight_2016",
+      "source_url": "https://www.sfgate.com/business/boeing/article/Watch-Boeing-shows-off-737-MAX-in-new-demo-8425451.php",
+      "source_title": "Boeing 737 MAX flight demonstration video",
+      "source_channel_or_origin": "Boeing referenced by news pages",
+      "duration_seconds": null,
+      "source_family": "high_energy_exterior_flight_display",
+      "source_role": "backup",
+      "local_media_path": null,
+      "external_availability_read": "research_reference_original_video_url_not_resolved",
+      "intended_use": "Possible high-impact subject footage only if original source and rights are resolved.",
+      "hygiene_status": "original_source_required_before_clip_audit",
+      "rights_risk": "manufacturer_promotional_source",
+      "verdict": "backup_research_reference"
+    },
+    {
+      "source_id": "flightdeck2sim_stab_trim_override",
+      "source_url": "https://www.youtube.com/watch?v=1RrLEl00HTM",
+      "source_title": "Boeing 737 Stab Trim Override Demonstration by Real 737 Pilot",
+      "source_channel_or_origin": "flightdeck2sim",
+      "duration_seconds": 257,
+      "source_family": "mechanism_demonstration_stabilizer_trim_controls",
+      "source_role": "backup",
+      "local_media_path": null,
+      "external_availability_read": "metadata_available",
+      "intended_use": "Teaching reference only unless DP approves nonliteral support.",
+      "hygiene_status": "not_exact_max_subject_footage",
+      "rights_risk": "high_youtube_creator",
+      "verdict": "backup_reference_only"
+    }
+  ],
+  "reject_sources": [
+    {
+      "source_id": "vox_real_reason_737max",
+      "source_url": "https://www.youtube.com/watch?v=H2tuKiiznsY",
+      "reject_reason": "Explainer/editing/text graphics; useful for research context, not clean source motion."
+    },
+    {
+      "source_id": "news_package_family",
+      "source_url": null,
+      "reject_reason": "Lower-thirds, anchors, studio graphics, channel bugs, and edited news framing are too risky for strict-clean source motion."
+    },
+    {
+      "source_id": "simulator_msfs_family",
+      "source_url": null,
+      "reject_reason": "Simulator/MSFS footage is not the real aircraft/event lane and should not replace source-led footage."
+    },
+    {
+      "source_id": "crash_spectacle_family",
+      "source_url": null,
+      "reject_reason": "Wrong tone for this proof and likely hygiene/rights failures."
+    }
+  ],
+  "search_queries": [
+    "737 MAX taxi takeoff b-roll footage cockpit simulator MCAS YouTube",
+    "Boeing 737 MAX flight deck cockpit simulator MCAS video",
+    "737 MAX stabilizer trim MCAS angle of attack sensor video",
+    "737 MAX ramp taxi takeoff landing footage clean no captions",
+    "site:youtube.com/watch Boeing 737 MAX b-roll FAA official",
+    "site:youtube.com/watch Boeing 737 MAX rollout flight test b roll official",
+    "site:youtube.com/watch 737 MAX cockpit view pilot landing briefing Just Planes",
+    "Pexels 737 MAX video aircraft takeoff cockpit",
+    "Pixabay 737 MAX aircraft video takeoff landing",
+    "Boeing 737 MAX B-roll FAA official video"
+  ],
+  "handoff": {
+    "may_inform_next_local_hook_rebuild": true,
+    "may_lock_visual_beatmap": false,
+    "may_download_or_import_without_clip_audit": false,
+    "next_action": "Exact-span audit for FAA B-roll first; if unavailable, audit Pilot View cockpit/departure plus one exact stock/exterior clip. Then rebuild a local-only 737 proof with fewer engine repeats.",
+    "disposition": "diagnostic only"
+  }
+}

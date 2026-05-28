@@ -1,0 +1,364 @@
+{
+  "artifact": "titanic_end_screen_handoff_repair_qa",
+  "created_at_local": "2026-05-20T19:59:25.272Z",
+  "player_url": "http://127.0.0.1:8871/player.html?ambientReview=1",
+  "player_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/player.html",
+  "timing_contract": {
+    "outro_prelap_start_seconds": 748.818004,
+    "voice_end_seconds": 750.318004,
+    "outro_target_level_seconds": 753.318004,
+    "youtube_safe_window_start_seconds": 759.613219,
+    "end_screen_end_seconds": 779.613219,
+    "source": "references/music_integration_contract.json and references/audio_mix_manifest.json"
+  },
+  "implementation": {
+    "rail_fade_start_seconds": 748.818004,
+    "rail_fade_end_seconds": 753.318004,
+    "end_screen_fade_start_seconds": 748.818004,
+    "end_screen_fade_end_seconds": 753.318004,
+    "end_screen_safe_window_start_seconds": 759.613219,
+    "opacity_source": "JS-set CSS variables from deterministic outroFadeProgress(time)",
+    "css_transition_policy": "transition_none_to_prevent_browser_lag_or_delayed_fade"
+  },
+  "frames": [
+    {
+      "id": "pre_outro_hold",
+      "time": 747.8,
+      "description": "before outro prelap; rail fully visible, end screen hidden",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/end_screen_handoff_repair/frames/pre_outro_hold_747p800s.png",
+      "frame_sha256": "1eb664c3e5e771247d0705556bfd7ef1df3c715ea331905df3130132a9f895ff",
+      "state": {
+        "time": 747.8,
+        "audioCurrentTime": 747.8,
+        "cssVariables": {
+          "endOpacity": 0,
+          "railOpacity": 1,
+          "outroProgress": 0,
+          "captionOpacity": 1
+        },
+        "computed": {
+          "railOpacity": 1,
+          "endScreenOpacity": 0,
+          "endScreenTransitionDuration": "0s",
+          "endScreenTransitionProperty": "none",
+          "captionOpacity": 1
+        },
+        "endScreenDebug": {
+          "time": 747.8,
+          "railOpacity": 1,
+          "endOpacity": 0,
+          "captionVisibleWindow": true,
+          "inYoutubeSafeWindow": false
+        },
+        "youtubeTargets": {
+          "leftVideo": {
+            "x": 78,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "rightVideo": {
+            "x": 1162,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "subscribe": {
+            "x": 814,
+            "y": 429,
+            "width": 292,
+            "height": 292
+          }
+        },
+        "railBox": {
+          "x": 1108,
+          "y": 52,
+          "width": 760,
+          "height": 976
+        },
+        "endScreenBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "currentTransportTime": "12:27"
+      }
+    },
+    {
+      "id": "outro_prelap_start",
+      "time": 748.818004,
+      "description": "outro prelap starts under final VO; fade begins",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/end_screen_handoff_repair/frames/outro_prelap_start_748p818s.png",
+      "frame_sha256": "f8fe6c871e3d7fd3a6cfc2201e720356800a93f3900c9cbbed4c1611d4fba65d",
+      "state": {
+        "time": 748.818004,
+        "audioCurrentTime": 748.818004,
+        "cssVariables": {
+          "endOpacity": 0,
+          "railOpacity": 1,
+          "outroProgress": 0,
+          "captionOpacity": 1
+        },
+        "computed": {
+          "railOpacity": 1,
+          "endScreenOpacity": 0,
+          "endScreenTransitionDuration": "0s",
+          "endScreenTransitionProperty": "none",
+          "captionOpacity": 1
+        },
+        "endScreenDebug": {
+          "time": 748.818004,
+          "railOpacity": 1,
+          "endOpacity": 0,
+          "captionVisibleWindow": true,
+          "inYoutubeSafeWindow": false
+        },
+        "youtubeTargets": {
+          "leftVideo": {
+            "x": 78,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "rightVideo": {
+            "x": 1162,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "subscribe": {
+            "x": 814,
+            "y": 429,
+            "width": 292,
+            "height": 292
+          }
+        },
+        "railBox": {
+          "x": 1108,
+          "y": 52,
+          "width": 760,
+          "height": 976
+        },
+        "endScreenBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "currentTransportTime": "12:28"
+      }
+    },
+    {
+      "id": "voice_end_mid_fade",
+      "time": 750.318004,
+      "description": "VO lowers/ends while outro music is rising; rail fading out and placeholders fading in",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/end_screen_handoff_repair/frames/voice_end_mid_fade_750p318s.png",
+      "frame_sha256": "720e6344dddb82122fe826c4eb3f3b4f28356ac92eb058075bc21c5d1190c4cd",
+      "state": {
+        "time": 750.318004,
+        "audioCurrentTime": 750.318004,
+        "cssVariables": {
+          "endOpacity": 0.3333333333333333,
+          "railOpacity": 0.6666666666666667,
+          "outroProgress": 0.3333333333333333,
+          "captionOpacity": 0
+        },
+        "computed": {
+          "railOpacity": 0.666667,
+          "endScreenOpacity": 0.333333,
+          "endScreenTransitionDuration": "0s",
+          "endScreenTransitionProperty": "none",
+          "captionOpacity": 0
+        },
+        "endScreenDebug": {
+          "time": 750.318004,
+          "railOpacity": 0.6666666666666667,
+          "endOpacity": 0.3333333333333333,
+          "captionVisibleWindow": false,
+          "inYoutubeSafeWindow": false
+        },
+        "youtubeTargets": {
+          "leftVideo": {
+            "x": 78,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "rightVideo": {
+            "x": 1162,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "subscribe": {
+            "x": 814,
+            "y": 429,
+            "width": 292,
+            "height": 292
+          }
+        },
+        "railBox": {
+          "x": 1108,
+          "y": 52,
+          "width": 760,
+          "height": 976
+        },
+        "endScreenBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "currentTransportTime": "12:30"
+      }
+    },
+    {
+      "id": "outro_target_full_end_screen",
+      "time": 753.318004,
+      "description": "outro reaches target level; end screen fully visible",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/end_screen_handoff_repair/frames/outro_target_full_end_screen_753p318s.png",
+      "frame_sha256": "556a97c25204733e9490e4e1800d93db89f9e9abb97c9e7b2a5ea86a9525e921",
+      "state": {
+        "time": 753.318004,
+        "audioCurrentTime": 753.318004,
+        "cssVariables": {
+          "endOpacity": 1,
+          "railOpacity": 0,
+          "outroProgress": 1,
+          "captionOpacity": 0
+        },
+        "computed": {
+          "railOpacity": 0,
+          "endScreenOpacity": 1,
+          "endScreenTransitionDuration": "0s",
+          "endScreenTransitionProperty": "none",
+          "captionOpacity": 0
+        },
+        "endScreenDebug": {
+          "time": 753.318004,
+          "railOpacity": 0,
+          "endOpacity": 1,
+          "captionVisibleWindow": false,
+          "inYoutubeSafeWindow": false
+        },
+        "youtubeTargets": {
+          "leftVideo": {
+            "x": 78,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "rightVideo": {
+            "x": 1162,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "subscribe": {
+            "x": 814,
+            "y": 429,
+            "width": 292,
+            "height": 292
+          }
+        },
+        "railBox": {
+          "x": 1108,
+          "y": 52,
+          "width": 760,
+          "height": 976
+        },
+        "endScreenBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "currentTransportTime": "12:33"
+      }
+    },
+    {
+      "id": "youtube_safe_window_start",
+      "time": 759.613219,
+      "description": "YouTube final 20-second safe window begins; placeholders already held",
+      "frame_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/end_screen_handoff_repair/frames/youtube_safe_window_start_759p613s.png",
+      "frame_sha256": "b8259692614bc2dd5529e22def2533e3648cff16c8c6be40b217607980b5f57e",
+      "state": {
+        "time": 759.613219,
+        "audioCurrentTime": 759.613219,
+        "cssVariables": {
+          "endOpacity": 1,
+          "railOpacity": 0,
+          "outroProgress": 1,
+          "captionOpacity": 0
+        },
+        "computed": {
+          "railOpacity": 0,
+          "endScreenOpacity": 1,
+          "endScreenTransitionDuration": "0s",
+          "endScreenTransitionProperty": "none",
+          "captionOpacity": 0
+        },
+        "endScreenDebug": {
+          "time": 759.613219,
+          "railOpacity": 0,
+          "endOpacity": 1,
+          "captionVisibleWindow": false,
+          "inYoutubeSafeWindow": true
+        },
+        "youtubeTargets": {
+          "leftVideo": {
+            "x": 78,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "rightVideo": {
+            "x": 1162,
+            "y": 382,
+            "width": 680,
+            "height": 383
+          },
+          "subscribe": {
+            "x": 814,
+            "y": 429,
+            "width": 292,
+            "height": 292
+          }
+        },
+        "railBox": {
+          "x": 1108,
+          "y": 52,
+          "width": 760,
+          "height": 976
+        },
+        "endScreenBox": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 1080
+        },
+        "currentTransportTime": "12:39"
+      }
+    }
+  ],
+  "reads": {
+    "end_screen_fade_start_read": "pass_starts_at_actual_outro_prelap_748p818s_not_late_safe_window_only",
+    "rail_fade_out_read": "pass_rail_opacity_reaches_zero_by_outro_target_753p318s",
+    "youtube_placeholder_fade_read": "pass_placeholders_fade_in_during_vo_outro_handoff_and_are_fully_visible_before_safe_window",
+    "youtube_safe_window_read": "pass_placeholders_hold_through_final_20s_start_759p613s",
+    "caption_fade_coupling_read": "pass_caption_opacity_follows_rail_opacity_until_voice_end",
+    "css_transition_lag_read": "pass_end_screen_transition_none_js_deterministic",
+    "ambient_keep_read": "pass_existing_restrained_distress_v2_ambient_keep_preserved",
+    "final_render_read": "blocked_until_human_rough_keep",
+    "upload_prep_read": "blocked_until_human_rough_keep_and_final_render",
+    "youtube_action_read": "blocked",
+    "public_release_read": "blocked"
+  },
+  "current_gate": "rough_assembly_keep",
+  "next_required_gate": "human_rough_assembly_keep_or_tighten_reject",
+  "contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/end_screen_handoff_repair/end_screen_handoff_contact_sheet.png",
+  "contact_sheet_sha256": "ae3f70ef006c324f6a769c98fa40a1eefb46c8307ee5715acee3a7ac88ab5d05",
+  "qa_sha256_self_excluded_note": "hash recorded in manifests after this file is written; do not include self-hash inside this JSON",
+  "updated_at_local": "2026-05-20T12:59:25.648015-07:00"
+}

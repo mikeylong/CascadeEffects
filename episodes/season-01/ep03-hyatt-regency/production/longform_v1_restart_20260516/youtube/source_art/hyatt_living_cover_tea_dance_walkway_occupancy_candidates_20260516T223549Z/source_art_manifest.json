@@ -1,0 +1,357 @@
+{
+  "packet_id": "hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z",
+  "episode_id": "hyatt-regency",
+  "phase_gate": "source_art_gate",
+  "status": "reference_only_tightened_by_actual_architecture_pass",
+  "human_disposition": "tighten",
+  "selected_variant_id": null,
+  "may_advance_to_motion_readiness": false,
+  "created_utc": "2026-05-16T22:35:49Z",
+  "profile_id": "cascade-ink-lit-photoreal-v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "carrier_type": "generated_raster_source_art_candidate_set",
+  "package_root": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z",
+  "upstream_episode_package_manifest": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/episode_package_manifest.json",
+    "sha256": "3d7a002e10f91528214d2a09fdb51f10873d14b6a8d4f816036c2ff1a9160914",
+    "human_keep_required": true
+  },
+  "prior_source_art_candidates": [
+    {
+      "status": "reference_only_tightened_by_tea_dance_walkway_occupancy_pass",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_short_reference_candidates_20260516T202509Z/source_art_manifest.json",
+      "note_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_short_reference_candidates_20260516T202509Z/REFERENCE_ONLY_TIGHTENED_BY_TEA_DANCE_WALKWAY_OCCUPANCY_PASS.md"
+    },
+    {
+      "status": "reference_only_replaced_by_short_reference_candidate_set",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_restart_human_anonymous_imagegen_source_art_20260516T195611Z/source_art_manifest.json"
+    }
+  ],
+  "imagegen_policy": {
+    "imagegen_skill_path": "/Users/mike/.codex/skills/.system/imagegen/SKILL.md",
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "allowed_local_operations_read": "pass_copy_resize_preview_contact_sheet_manifest_only",
+    "anonymous_human_presence_policy_read": "pass"
+  },
+  "short_reference_import_policy": {
+    "role": "reference_only",
+    "short_status_basis": "Hyatt pass 04 human/DP approved material imported by explicit user request; this pass additionally incorporates human feedback for balloons, dancing, and people on walkways.",
+    "long_form_source_of_truth_read": "pass_short_material_not_promoted_as_long_form_source_truth",
+    "captioned_final_reference_read": "pass_not_used_for_prompt_surface_to_avoid_short_caption_treatment_inheritance"
+  },
+  "historical_accuracy_context": {
+    "measurement_target": "Hyatt Regency atrium architecture and pre-collapse tea dance event texture",
+    "reference_basis": [
+      "Hyatt Short pass 04 clean reference frames imported as reference-only visual material",
+      "Prior Variant D source-art candidate as reference-only strongest load-path geometry",
+      "NIST/NBS Building Science Series 143 candidate source reference pending full fact-check packet verification",
+      "NIST disaster/failure page candidate source reference pending full fact-check packet verification",
+      "ASCE Civil Engineering Source candidate source reference pending full fact-check packet verification"
+    ],
+    "canonical_visual_facts": [
+      "multi-story hotel atrium identity",
+      "suspended walkways or skywalks crossing the atrium volume",
+      "visible hanger rods descending to walkway structure",
+      "plausible box-beam and load-path relationship",
+      "stacked balcony or room openings around the atrium",
+      "public event floor below the walkways",
+      "tea dance party details including balloons, dancing couples, tables, and crowd density",
+      "anonymous people on suspended walkways and on the atrium floor",
+      "pre-collapse condition only"
+    ],
+    "allowed_abstraction": [
+      "cinematic lighting and clean Living Cover composition",
+      "anonymous crowd simplification",
+      "non-identical but historically plausible atrium viewpoint",
+      "right-rail safe negative space"
+    ],
+    "hard_mismatch_blockers": [
+      "generic atrium with no suspended walkway read",
+      "walkway geometry that contradicts the episode's load-path mechanism",
+      "missing hanger rods when the candidate claims load-path emphasis",
+      "no tea dance event texture",
+      "no visible walkway occupancy",
+      "collapse or post-collapse condition",
+      "recognizable faces or victim imagery",
+      "fake readable documents, signs, labels, or diagram overlays"
+    ],
+    "required_reads": [
+      "historical_accuracy_read",
+      "source_reference_alignment_read",
+      "public_anchor_geometry_read",
+      "hyatt_atrium_architecture_read",
+      "tea_dance_event_specificity_read",
+      "balloons_read",
+      "dancing_read",
+      "walkway_occupancy_read"
+    ]
+  },
+  "short_reference_imports": [
+    {
+      "id": "hyatt_short_pass04_selected_reference_grid",
+      "role": "reference_only_prompt_context_grid",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/short_pass04_selected_reference_grid.jpg",
+      "sha256": "0e5731edd6d5749cc18f1e8655b5577d7bbb837e650c0376250107ed6d152ffc"
+    },
+    {
+      "id": "previous_variant_d_architectural_reference",
+      "role": "reference_only_architecture_load_path_candidate",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/previous_variant_d_architectural_reference.png",
+      "sha256": "5fa109239db7e75453c75c3816bb4910facf2cb329318418b0b7023c94bcfbc5"
+    }
+  ],
+  "variants": [
+    {
+      "id": "variant_f_tea_dance_walkway_spectators",
+      "label": "F",
+      "status": "candidate_reviewable_pending_human_disposition",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e31a9-462c-7b02-b5ac-72a70c18b20f/ig_04786613dad3efe8016a08f15427288193a7955a9d8087ea75.png",
+      "source_generation_sha256": "913031e632828ca719e6a618071d6abcafa65072c86bbfd76d8f21c44b3807ba",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/source_generations/variant_f_tea_dance_walkway_spectators_builtin_imagegen_original.png",
+      "copied_source_generation_sha256": "913031e632828ca719e6a618071d6abcafa65072c86bbfd76d8f21c44b3807ba",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/source_art/variant_f_tea_dance_walkway_spectators_1920x1080.png",
+      "final_asset_sha256": "0821eaa3c3c4e1e7e3a8a79d4e6c53e73d52f3019828fad57ad92dced64feae5",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/previews/variant_f_tea_dance_walkway_spectators_640x360.png",
+      "preview_sha256": "a74f09d6894372a51c5442ec4248164038df2679d0868fb6de7e832e7cbea4eb",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/prompts/variant_f_tea_dance_walkway_spectators_prompt.txt",
+      "prompt_sha256": "f2be3256a8ca410a8aae9de288360442efcb0a31ef7873b14192fcf66760e7a7",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_tool",
+        "mode": "text_to_image_with_visible_reference_grid_and_variant_d_context",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "reference_images": [
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/short_pass04_selected_reference_grid.jpg",
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/previous_variant_d_architectural_reference.png"
+        ],
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "hyatt_precheck": {
+        "short_reference_import_read": "pass_reference_only",
+        "historical_accuracy_read": "pass_combines_atrium_architecture_with_tea_dance_specificity",
+        "source_reference_alignment_read": "pass_aligns_with_short_event_texture_and_variant_d_load_path_reference",
+        "public_anchor_geometry_read": "pass_multistory_atrium_suspended_walkways_event_floor",
+        "hyatt_atrium_architecture_read": "pass_visible_walkways_hanger_rods_balcony_openings_and_event_floor",
+        "tea_dance_event_specificity_read": "pass_balloons_tables_dancing_and_public_event_density",
+        "balloons_read": "pass_visible_balloon_clusters",
+        "dancing_read": "pass_visible_dancing_couples",
+        "walkway_occupancy_read": "pass_people_visible_on_suspended_walkways_and_balcony_rails",
+        "human_presence_read": "pass_anonymous_people_on_floor_and_walkways",
+        "no_recognizable_faces_read": "pass_people_are_distant_or_oblique",
+        "right_rail_safe_space_read": "pass_dark_glass_and_shadow_on_right",
+        "collapse_recreation_read": "pass_no_collapse_or_broken_walkway",
+        "bodies_gore_read": "pass_no_bodies_gore_injury_or_emergency_response",
+        "fake_readable_text_read": "pass_no_readable_text_or_diagram_labels",
+        "generic_paper_architecture_hero_read": "pass_photoreal_atrium_not_generic_paper_hero",
+        "waterfall_read": "pass_no_waterfall_or_cyan_water",
+        "full_frame_dark_overlay_read": "pass_no_heavy_full_frame_overlay",
+        "procedural_signal_overlay_read": "pass_no_procedural_signal_overlay",
+        "ambient_line_artifact_read": "pass_no_ambient_line_artifact",
+        "texture_noise_read": "pass_photoreal_surface_not_noisy_paper_texture"
+      },
+      "review_notes": "Strong combined candidate: visible tea dance, balloons, occupied walkways, rods/load path, and usable right rail."
+    },
+    {
+      "id": "variant_g_party_floor_occupied_walkways",
+      "label": "G",
+      "status": "candidate_reviewable_pending_human_disposition",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e31a9-462c-7b02-b5ac-72a70c18b20f/ig_04786613dad3efe8016a08f19638948193b377dfd542542a87.png",
+      "source_generation_sha256": "e38e53af8caeed77296b52a858968ee44ccd4cf689a311b2ed6f427c748ed67b",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/source_generations/variant_g_party_floor_occupied_walkways_builtin_imagegen_original.png",
+      "copied_source_generation_sha256": "e38e53af8caeed77296b52a858968ee44ccd4cf689a311b2ed6f427c748ed67b",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/source_art/variant_g_party_floor_occupied_walkways_1920x1080.png",
+      "final_asset_sha256": "b3663243200ce77c0e9ed21e1d3de2c42f300b840411c1efe9b0df541da7a27c",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/previews/variant_g_party_floor_occupied_walkways_640x360.png",
+      "preview_sha256": "fc396291231a7e74f2145de4d4abc308b79697c0b1879080f82faf94414a08ac",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/prompts/variant_g_party_floor_occupied_walkways_prompt.txt",
+      "prompt_sha256": "1d1641825aae13ed3b444a5a4433259af80f4196bcda29f3e7f9fcfd9736b7d8",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_tool",
+        "mode": "text_to_image_with_visible_reference_grid_and_variant_d_context",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "reference_images": [
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/short_pass04_selected_reference_grid.jpg",
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/previous_variant_d_architectural_reference.png"
+        ],
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "hyatt_precheck": {
+        "short_reference_import_read": "pass_reference_only",
+        "historical_accuracy_read": "pass_strong_event_specificity_with_credible_atrium_architecture",
+        "source_reference_alignment_read": "pass_aligns_with_short_balloons_dancing_and_walkway_crowd_references",
+        "public_anchor_geometry_read": "pass_multistory_atrium_suspended_walkways_event_floor",
+        "hyatt_atrium_architecture_read": "pass_walkways_hanger_rods_and_balcony_openings_read",
+        "tea_dance_event_specificity_read": "pass_strongest_party_floor_balloon_and_dancing_read",
+        "balloons_read": "pass_visible_balloon_clusters",
+        "dancing_read": "pass_visible_dancing_couples",
+        "walkway_occupancy_read": "pass_people_visible_on_multiple_walkway_levels",
+        "human_presence_read": "pass_anonymous_people_on_floor_and_walkways",
+        "no_recognizable_faces_read": "pass_people_are_distant_or_oblique",
+        "right_rail_safe_space_read": "tighten_right_side_busier_than_variant_f_or_h",
+        "collapse_recreation_read": "pass_no_collapse_or_broken_walkway",
+        "bodies_gore_read": "pass_no_bodies_gore_injury_or_emergency_response",
+        "fake_readable_text_read": "pass_no_readable_text_or_diagram_labels",
+        "generic_paper_architecture_hero_read": "pass_photoreal_atrium_not_generic_paper_hero",
+        "waterfall_read": "pass_no_waterfall_or_cyan_water",
+        "full_frame_dark_overlay_read": "pass_no_heavy_full_frame_overlay",
+        "procedural_signal_overlay_read": "pass_no_procedural_signal_overlay",
+        "ambient_line_artifact_read": "pass_no_ambient_line_artifact",
+        "texture_noise_read": "pass_photoreal_surface_not_noisy_paper_texture"
+      },
+      "review_notes": "Strongest party specificity; may need localized right-rail readability treatment if selected."
+    },
+    {
+      "id": "variant_h_balanced_tea_dance_load_path",
+      "label": "H",
+      "status": "candidate_reviewable_pending_human_disposition",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e31a9-462c-7b02-b5ac-72a70c18b20f/ig_04786613dad3efe8016a08f1db82288193af90e586cbb224ad.png",
+      "source_generation_sha256": "b799678d077b02c568e215a7aeb33ae70167bb1bb48db845abda094d2a56d2d4",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/source_generations/variant_h_balanced_tea_dance_load_path_builtin_imagegen_original.png",
+      "copied_source_generation_sha256": "b799678d077b02c568e215a7aeb33ae70167bb1bb48db845abda094d2a56d2d4",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/source_art/variant_h_balanced_tea_dance_load_path_1920x1080.png",
+      "final_asset_sha256": "4a4b75e7cdc42db9c1d6f202fdadfdfbdc53bb53353263c545f00ab47f3b3904",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/previews/variant_h_balanced_tea_dance_load_path_640x360.png",
+      "preview_sha256": "ca9e3cc449eac32d9736dac9e552de1c0c46bc59a2132b34ee74e4fa6f5c65f6",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/prompts/variant_h_balanced_tea_dance_load_path_prompt.txt",
+      "prompt_sha256": "6ad59bb9fa78e5c38db59224da5c999ed51e577dd7a3f6d17f2abc6b6832520b",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_tool",
+        "mode": "text_to_image_with_visible_reference_grid_and_variant_d_context",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "reference_images": [
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/short_pass04_selected_reference_grid.jpg",
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/assets/reference_contact/previous_variant_d_architectural_reference.png"
+        ],
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "hyatt_precheck": {
+        "short_reference_import_read": "pass_reference_only",
+        "historical_accuracy_read": "pass_balanced_party_specificity_and_atrium_load_path",
+        "source_reference_alignment_read": "pass_aligns_with_short_event_texture_and_variant_d_load_path_reference",
+        "public_anchor_geometry_read": "pass_multistory_atrium_suspended_walkways_event_floor",
+        "hyatt_atrium_architecture_read": "pass_walkways_hanger_rods_balcony_openings_and_event_floor",
+        "tea_dance_event_specificity_read": "pass_balloons_tables_dancing_and_public_event_density",
+        "balloons_read": "pass_visible_balloon_clusters",
+        "dancing_read": "pass_visible_dancing_couples",
+        "walkway_occupancy_read": "pass_people_visible_on_upper_walkways_and_balconies",
+        "human_presence_read": "pass_anonymous_people_on_floor_and_walkways",
+        "no_recognizable_faces_read": "pass_people_are_distant_or_oblique",
+        "right_rail_safe_space_read": "pass_dark_glass_and_shadow_on_right",
+        "collapse_recreation_read": "pass_no_collapse_or_broken_walkway",
+        "bodies_gore_read": "pass_no_bodies_gore_injury_or_emergency_response",
+        "fake_readable_text_read": "pass_no_readable_text_or_diagram_labels",
+        "generic_paper_architecture_hero_read": "pass_photoreal_atrium_not_generic_paper_hero",
+        "waterfall_read": "pass_no_waterfall_or_cyan_water",
+        "full_frame_dark_overlay_read": "pass_no_heavy_full_frame_overlay",
+        "procedural_signal_overlay_read": "pass_no_procedural_signal_overlay",
+        "ambient_line_artifact_read": "pass_no_ambient_line_artifact",
+        "texture_noise_read": "pass_photoreal_surface_not_noisy_paper_texture"
+      },
+      "review_notes": "Best broad balance of party specificity, walkway occupancy, architecture, and rail-safe right side."
+    }
+  ],
+  "source_art_reads": {
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "short_reference_import_read": "pass_reference_only_user_requested",
+    "historical_accuracy_read": "pass_all_candidates_reviewable_for_event_and_architecture",
+    "source_reference_alignment_read": "pass_candidate_set_uses_short_pass04_and_variant_d_reference_only_material",
+    "public_anchor_geometry_read": "pass_all_candidates_preserve_hyatt_atrium_anchor",
+    "hyatt_atrium_architecture_read": "pass_all_candidates_show_suspended_walkways_hanger_rods_and_event_floor",
+    "tea_dance_event_specificity_read": "pass_all_candidates_show_balloons_dancing_tables_and_public_event_density",
+    "balloons_read": "pass",
+    "dancing_read": "pass",
+    "walkway_occupancy_read": "pass",
+    "human_presence_read": "pass",
+    "no_recognizable_faces_read": "pass",
+    "right_rail_safe_space_read": "pass_with_variant_g_tighten_note",
+    "collapse_recreation_read": "pass",
+    "bodies_gore_read": "pass",
+    "fake_readable_text_read": "pass",
+    "generic_paper_architecture_hero_read": "pass",
+    "waterfall_read": "pass",
+    "full_frame_dark_overlay_read": "pass",
+    "procedural_signal_overlay_read": "pass",
+    "ambient_line_artifact_read": "pass",
+    "texture_noise_read": "pass"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "mp4_render_created": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "artifacts": {
+    "candidate_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/review/hyatt_living_cover_tea_dance_walkway_occupancy_candidate_contact_sheet.jpg",
+      "sha256": "d4802b246b049e3cd8c2b38777e079ccd20e94b501c47417e55a6783cefadc5d"
+    },
+    "review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/review/source_art_candidate_review_packet.md",
+      "sha256": "54ab35387ae8dd964b36e5b9d7523e8b6111639826b8edd5cf4a7246f7296dfa"
+    },
+    "historical_accuracy_review": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/review/historical_accuracy_review.md",
+      "sha256": "9a0c0122fee781a7aa892c0b8e403c1cacc7f51c752a34473acefcf9513387fe"
+    },
+    "short_reference_notes": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_tea_dance_walkway_occupancy_candidates_20260516T223549Z/references/short_reference_notes.md",
+      "sha256": "bc1ec60fc8ca3bda810d7fab7afaa4db2390bb0c10b7bfe8dda33f60fe9b995d"
+    }
+  },
+  "successor_source_art_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_architecture_tight_tea_dance_candidates_20260516T231232Z/source_art_manifest.json",
+  "review_question": "Reference-only after architecture tighten. Review the successor L/M/N architecture-tight source-art packet."
+}

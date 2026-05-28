@@ -1,0 +1,273 @@
+{
+  "schema_version": "2.0",
+  "registry_id": "historical_signal_texture_profiles_v1",
+  "legacy_registry_id": "archival_signal_texture_recipes_v1",
+  "owner": "source_preserving_documentary_v1",
+  "scope": "global_cascade_effects_shorts",
+  "intent": "Era-aware full-bleed historical media signal profiles for approved archival, broadcast-linked, or period-media-derived Shorts motion handles.",
+  "global_policy": {
+    "stage_contract": "historical_signal_texture",
+    "texture_application_scope": "selective_per_beat",
+    "requires_texture_influence": "selective_archival",
+    "requires_approved_archival_or_broadcast_family": true,
+    "selected_by": [
+      "historical_context_year_or_range",
+      "source_media_era",
+      "source_medium",
+      "beat_family",
+      "source_quality"
+    ],
+    "not_a_universal_crt_pass": true,
+    "not_a_global_degradation_pass": true,
+    "texture_cannot_rescue_failed_motion": true,
+    "effect_must_be_reviewable": true,
+    "output_contract": {
+      "full_bleed": true,
+      "audio_allowed": false,
+      "tv_frame_allowed": false,
+      "matte_allowed": false,
+      "rounded_screen_mask_allowed": false,
+      "border_allowed": false,
+      "reduced_image_area_allowed": false,
+      "fake_text_logo_caption_allowed": false
+    },
+    "youtube_survivability_proxy": {
+      "required_before_proof_or_final": true,
+      "container": "mp4",
+      "video_codec": "h264",
+      "profile": "high",
+      "scan": "progressive",
+      "chroma_subsampling": "4:2:0",
+      "color_space": "BT.709 SDR",
+      "frame_rate": "same_as_source",
+      "target_bitrate": "5M"
+    }
+  },
+  "profiles": [
+    {
+      "historical_signal_profile_id": "era_1980s_broadcast_crt_v1",
+      "production_status": "default_when_era_and_beat_review_pass",
+      "legacy_recipe_source": "premium_broadcast_crt_v1",
+      "default_strength": "visible_but_premium",
+      "source_lane": "conservative_clean",
+      "historical_context_year_or_range": "1978-1989",
+      "source_media_era": "analog_broadcast_crt",
+      "allowed_beat_families": [
+        "archival_broadcast_event",
+        "control_room",
+        "human_room",
+        "exterior_structure",
+        "vehicle_or_aircraft",
+        "machinery",
+        "launch_or_ascent",
+        "failure_or_disaster",
+        "low_resolution_full_bleed_crop"
+      ],
+      "components": [
+        "faint_scanline_or_interlace_texture",
+        "mild_luma_grain",
+        "one_pixel_chroma_bleed_or_delay",
+        "controlled_soft_bloom",
+        "subtle_timebase_instability",
+        "restrained_1980s_broadcast_color_response"
+      ],
+      "best_for": "Challenger-like 1980s NASA, TV news, institutional broadcast, and archival event footage where the historical media surface should be visible and intentional.",
+      "banned_use": [
+        "non_1980s_subjects_without_dp_override",
+        "clips_with_failed_motion_or_failed_hygiene",
+        "fake_tv_object_frame_or_screen_mask",
+        "beats_where_signal_texture_reduces_subject_readability"
+      ],
+      "required_reads": [
+        "texture_visibility_read",
+        "era_match_read",
+        "historical_signal_texture_read",
+        "youtube_survival_read",
+        "compression_artifact_read",
+        "detail_survival_read"
+      ],
+      "evidence": {
+        "calibration_episode": "challenger",
+        "calibration_run_id": "20260424T221733Z",
+        "calibration_stage": "archival_signal_texture_scout_pass_01",
+        "calibration_recipe_id": "premium_broadcast_crt_v1"
+      }
+    },
+    {
+      "historical_signal_profile_id": "era_1980s_institutional_video_v1",
+      "production_status": "allowed_when_era_and_beat_review_pass",
+      "default_strength": "low_to_visible",
+      "source_lane": "conservative_clean",
+      "historical_context_year_or_range": "1978-1989",
+      "source_media_era": "analog_institutional_video",
+      "allowed_beat_families": [
+        "clinical_room",
+        "control_room",
+        "human_room",
+        "institutional_room",
+        "process_or_monitoring",
+        "machine_operation"
+      ],
+      "components": [
+        "soft_institutional_video_luma",
+        "very_mild_chroma_softness",
+        "low_scanline_visibility",
+        "restrained_room_detail_preservation"
+      ],
+      "best_for": "Therac-style hospital, clinical, operator, machine-room, and institutional scenes where period video should be present but not distract from faces, room layout, or equipment.",
+      "banned_use": [
+        "high_drama_event_footage_when_1980s_broadcast_crt_is_better",
+        "modern_digital_subjects",
+        "face_smoothing_or_synthetic_detail"
+      ],
+      "required_reads": [
+        "texture_visibility_read",
+        "era_match_read",
+        "historical_signal_texture_read",
+        "youtube_survival_read",
+        "compression_artifact_read",
+        "detail_survival_read"
+      ]
+    },
+    {
+      "historical_signal_profile_id": "era_1990s_news_v1",
+      "production_status": "allowed_when_era_and_beat_review_pass",
+      "default_strength": "low_to_medium",
+      "source_lane": "conservative_clean",
+      "historical_context_year_or_range": "1990-1999",
+      "source_media_era": "late_analog_news_camcorder",
+      "allowed_beat_families": [
+        "broadcast_news",
+        "institutional_room",
+        "machinery",
+        "field_footage",
+        "failure_or_disaster"
+      ],
+      "components": [
+        "late_analog_chroma_softness",
+        "camcorder_or_news_tape_color_response",
+        "light_tape_noise",
+        "limited_scanline_read"
+      ],
+      "best_for": "1990s news, camcorder, institutional, and late-analog archival contexts.",
+      "banned_use": [
+        "heavy_1980s_crt_scanline_language",
+        "2010s_mobile_or_web_contexts"
+      ],
+      "required_reads": [
+        "texture_visibility_read",
+        "era_match_read",
+        "historical_signal_texture_read",
+        "youtube_survival_read",
+        "compression_artifact_read",
+        "detail_survival_read"
+      ]
+    },
+    {
+      "historical_signal_profile_id": "era_2000s_digital_news_v1",
+      "production_status": "allowed_when_era_and_beat_review_pass",
+      "default_strength": "low_to_medium",
+      "source_lane": "baseline_or_conservative_clean",
+      "historical_context_year_or_range": "2000-2009",
+      "source_media_era": "early_digital_news_web",
+      "allowed_beat_families": [
+        "digital_news",
+        "press_conference",
+        "institutional_room",
+        "field_footage",
+        "machinery",
+        "failure_or_disaster"
+      ],
+      "components": [
+        "early_digital_compression_softness",
+        "subtle_block_noise_control",
+        "reduced_scanline_language",
+        "web_video_color_response"
+      ],
+      "best_for": "Early digital news, web video, and DV-era contexts where CRT scanlines would be historically wrong.",
+      "banned_use": [
+        "visible_crt_scanline_default",
+        "vhs_or_broadcast_degradation_without_era_support"
+      ],
+      "required_reads": [
+        "texture_visibility_read",
+        "era_match_read",
+        "historical_signal_texture_read",
+        "youtube_survival_read",
+        "compression_artifact_read",
+        "detail_survival_read"
+      ]
+    },
+    {
+      "historical_signal_profile_id": "era_2010s_mobile_news_v1",
+      "production_status": "allowed_when_era_and_beat_review_pass",
+      "default_strength": "low",
+      "source_lane": "baseline_or_conservative_clean",
+      "historical_context_year_or_range": "2010-2019",
+      "source_media_era": "mobile_social_news",
+      "allowed_beat_families": [
+        "mobile_video",
+        "digital_news",
+        "press_conference",
+        "web_platform",
+        "field_footage"
+      ],
+      "components": [
+        "mobile_video_compression",
+        "web_news_chroma_subsampling",
+        "platform_encode_softness",
+        "no_crt_scanline_language"
+      ],
+      "best_for": "2010s phone, web, and social-news contexts where modern compression is historically accurate and CRT would be false.",
+      "banned_use": [
+        "crt_scanline_or_timebase_default",
+        "vhs_or_analog_broadcast_degradation_without_dp_override"
+      ],
+      "required_reads": [
+        "texture_visibility_read",
+        "era_match_read",
+        "historical_signal_texture_read",
+        "youtube_survival_read",
+        "compression_artifact_read",
+        "detail_survival_read"
+      ]
+    }
+  ],
+  "legacy_recipe_aliases": [
+    {
+      "recipe_id": "premium_broadcast_crt_v1",
+      "maps_to_profile_id": "era_1980s_broadcast_crt_v1",
+      "status": "challenger_calibration_reference"
+    },
+    {
+      "recipe_id": "premium_broadcast_youtube_safe_v1",
+      "maps_to_profile_id": "era_1980s_broadcast_crt_v1",
+      "status": "superseded_low_visibility_variant"
+    },
+    {
+      "recipe_id": "premium_broadcast_subtle_signal_v1",
+      "maps_to_profile_id": "era_1980s_institutional_video_v1",
+      "status": "superseded_low_visibility_variant"
+    },
+    {
+      "recipe_id": "premium_broadcast_ntsc_chroma_v1",
+      "maps_to_profile_id": "era_1980s_broadcast_crt_v1",
+      "status": "diagnostic_only_degraded_accent"
+    }
+  ],
+  "failure_modes": [
+    "texture_invisible_no_reviewable_historical_signal",
+    "historical_signal_overpowering_subject",
+    "compression_shimmer_or_mud",
+    "historical_signal_cheese",
+    "detail_loss_from_signal_texture",
+    "era_mismatch",
+    "global_historical_signal_misapplied"
+  ],
+  "fallback_order": [
+    "lower_strength_same_era_profile",
+    "conservative_clean",
+    "baseline",
+    "better_archival_source_search"
+  ]
+}

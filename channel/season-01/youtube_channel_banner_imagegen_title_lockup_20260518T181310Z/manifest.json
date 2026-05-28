@@ -1,0 +1,425 @@
+{
+  "package_id": "youtube_channel_banner_imagegen_title_lockup_20260518T181310Z",
+  "status": "review_required",
+  "may_advance": false,
+  "created_at_utc": "2026-05-18T19:02:12+00:00",
+  "youtube_studio_updated": false,
+  "candidate_lane": "imagegen_title_lockup_experiment",
+  "generated_title_exception": true,
+  "controlled_exception_reason": "Mike explicitly requested ImageGen-rendered title text for this repair.",
+  "exact_title": "Cascade of Effects",
+  "base_candidate": {
+    "id": "candidate_b_clean_negative_space",
+    "source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_website_hero_clean_identity_20260518T170531Z/source/candidate_b_clean_negative_space_imagegen_source.png",
+    "copied_snapshot": "source/candidate_b_clean_negative_space_imagegen_source.png",
+    "role": "title-free banner base with clean centered negative space"
+  },
+  "website_reference": {
+    "path": "/Users/mike/Web_CascadeEffects/public/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png",
+    "copied_snapshot": "source/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png",
+    "role": "Paper Architecture title and hero visual reference only"
+  },
+  "supersedes": {
+    "package": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_website_hero_faceted_title_repair_20260518T172942Z",
+    "status": "rejected_title_render_mismatch",
+    "reason": "procedural faceted title read as a font effect rather than actual Paper Architecture lettering"
+  },
+  "platform_sources": [
+    {
+      "label": "YouTube Help - Manage your channel branding",
+      "url": "https://support.google.com/youtube/answer/10456525?co=GENIE.Platform%3DDesktop&hl=en"
+    },
+    {
+      "label": "YouTube Help - Channel banner & profile picture tips",
+      "url": "https://support.google.com/youtube/answer/12950272?hl=en"
+    }
+  ],
+  "official_requirements": {
+    "primary_visible_strip_px": [
+      2048,
+      340
+    ],
+    "minimum_upload_canvas_px": [
+      2048,
+      1152
+    ],
+    "minimum_safe_area_px": [
+      1235,
+      338
+    ],
+    "file_size_limit_bytes": 6291456
+  },
+  "title_generation": {
+    "tool": "Codex ImageGen built-in",
+    "prompt_path": "source/source_prompts.md",
+    "accepted_title_candidate": "title_candidate_02",
+    "accepted_title_alpha": {
+      "path": "assets/accepted_imagegen_title_lockup_alpha.png",
+      "width": 1674,
+      "height": 632,
+      "bytes": 1406922,
+      "sha256": "fca411066a368ffca7cc0adda67df788ddf2995b2789885d9127c3d89f8002b5",
+      "under_6mb": true
+    },
+    "title_candidates": [
+      {
+        "id": "title_candidate_01",
+        "status": "rejected_not_selected",
+        "manual_spelling_read": "appears_exact_not_selected",
+        "text": "Cascade of Effects",
+        "source": {
+          "path": "title_candidates/title_candidate_01_imagegen_chroma.png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 1635074,
+          "sha256": "e1d43321300615b389e9fa06cfcad406c316b3d9afd2a69dfed73658ad0485b4",
+          "under_6mb": true
+        },
+        "alpha": {
+          "path": "title_candidates/title_candidate_01_alpha.png",
+          "width": 1672,
+          "height": 941,
+          "bytes": 1610608,
+          "sha256": "6400ac7041a56c40ef9e662943f0d9a993160d559f89fd22a507545114f15ac3",
+          "under_6mb": true
+        },
+        "alpha_checker": {
+          "path": "title_candidates/title_candidate_01_alpha_checker.png",
+          "width": 980,
+          "height": 472,
+          "bytes": 437739,
+          "sha256": "cf578ebf61a40a8342ab1eb677c011e823abd997bb7a6482b9bc6cbce096e1d8",
+          "under_6mb": true
+        },
+        "alpha_bbox": {
+          "x": 152,
+          "y": 137,
+          "width": 1390,
+          "height": 636
+        },
+        "notes": "Retained as rejected source evidence; not composited into the final banner."
+      },
+      {
+        "id": "title_candidate_02",
+        "status": "accepted_exact_title",
+        "manual_spelling_read": "pass",
+        "text": "Cascade of Effects",
+        "source": {
+          "path": "title_candidates/title_candidate_02_imagegen_chroma.png",
+          "width": 2170,
+          "height": 725,
+          "bytes": 1671181,
+          "sha256": "55002982bb9051e420f51574ab255eb84b964c9ebb985f40c2e042f6dabc90ac",
+          "under_6mb": true
+        },
+        "alpha": {
+          "path": "title_candidates/title_candidate_02_alpha.png",
+          "width": 2170,
+          "height": 725,
+          "bytes": 1659105,
+          "sha256": "d9a0776e2b7a3d9d0c4ae64ca508455f6e8dbd9946ac8afdedeb95e222f6d1c3",
+          "under_6mb": true
+        },
+        "alpha_checker": {
+          "path": "title_candidates/title_candidate_02_alpha_checker.png",
+          "width": 980,
+          "height": 374,
+          "bytes": 360928,
+          "sha256": "0b2669f1c993cf43d471f7658f029d8a0cc6a08ca066e8ab78dc9cdad818b488",
+          "under_6mb": true
+        },
+        "alpha_bbox": {
+          "x": 285,
+          "y": 73,
+          "width": 1622,
+          "height": 580
+        },
+        "notes": "Selected for the best balance of exact spelling, wider banner-friendly lockup, and Paper Architecture faceted read."
+      },
+      {
+        "id": "title_candidate_03",
+        "status": "rejected_not_selected",
+        "manual_spelling_read": "appears_exact_not_selected",
+        "text": "Cascade of Effects",
+        "source": {
+          "path": "title_candidates/title_candidate_03_imagegen_chroma.png",
+          "width": 1774,
+          "height": 887,
+          "bytes": 1664955,
+          "sha256": "b698e0359fe4fdf8f4fe5fb1704adbb93c4c42ad42f3e9f82e22e3180001e912",
+          "under_6mb": true
+        },
+        "alpha": {
+          "path": "title_candidates/title_candidate_03_alpha.png",
+          "width": 1774,
+          "height": 887,
+          "bytes": 1581249,
+          "sha256": "0f9bdf6f03ab0d0f1f2ced6b77e989bb8ea5823bb3a8dc433a4be93ed197e699",
+          "under_6mb": true
+        },
+        "alpha_checker": {
+          "path": "title_candidates/title_candidate_03_alpha_checker.png",
+          "width": 980,
+          "height": 464,
+          "bytes": 454919,
+          "sha256": "2458e7759486b351b208c285ee8f66f357dde080ef067ac7d11f3b979daa3951",
+          "under_6mb": true
+        },
+        "alpha_bbox": {
+          "x": 211,
+          "y": 131,
+          "width": 1351,
+          "height": 606
+        },
+        "notes": "Retained as rejected source evidence; not composited into the final banner."
+      },
+      {
+        "id": "title_candidate_04",
+        "status": "rejected_not_selected",
+        "manual_spelling_read": "appears_exact_not_selected",
+        "text": "Cascade of Effects",
+        "source": {
+          "path": "title_candidates/title_candidate_04_imagegen_chroma.png",
+          "width": 1774,
+          "height": 887,
+          "bytes": 1764719,
+          "sha256": "028f7588486ed3df63dc2106e67aca8606424d1f4f874374ab376065044d75a9",
+          "under_6mb": true
+        },
+        "alpha": {
+          "path": "title_candidates/title_candidate_04_alpha.png",
+          "width": 1774,
+          "height": 887,
+          "bytes": 1717283,
+          "sha256": "d8968c1cd0cef9a5110f857c272d76ce18d0b04c86002bfe851f5960ebf4b290",
+          "under_6mb": true
+        },
+        "alpha_checker": {
+          "path": "title_candidates/title_candidate_04_alpha_checker.png",
+          "width": 980,
+          "height": 455,
+          "bytes": 437024,
+          "sha256": "28d2902b456510a2ed53a91cf1c9aacb18959fd3cb00aa7649ac47f8e6c6d3d1",
+          "under_6mb": true
+        },
+        "alpha_bbox": {
+          "x": 162,
+          "y": 115,
+          "width": 1483,
+          "height": 655
+        },
+        "notes": "Retained as rejected source evidence; not composited into the final banner."
+      },
+      {
+        "id": "title_candidate_05",
+        "status": "rejected_not_selected",
+        "manual_spelling_read": "appears_exact_not_selected",
+        "text": "Cascade of Effects",
+        "source": {
+          "path": "title_candidates/title_candidate_05_imagegen_chroma.png",
+          "width": 1915,
+          "height": 821,
+          "bytes": 1797436,
+          "sha256": "231db89e91f8e26ea59e4c97c8e4aece43bd661c3aebb3c1d05b409320fa339f",
+          "under_6mb": true
+        },
+        "alpha": {
+          "path": "title_candidates/title_candidate_05_alpha.png",
+          "width": 1915,
+          "height": 821,
+          "bytes": 1795467,
+          "sha256": "c8ee5c6d3f0159961927456ffac920065646046c33ec0c7551c736b7ffb5df88",
+          "under_6mb": true
+        },
+        "alpha_checker": {
+          "path": "title_candidates/title_candidate_05_alpha_checker.png",
+          "width": 980,
+          "height": 439,
+          "bytes": 432853,
+          "sha256": "859c7dc8fb1b23401631eceacff966585a78ef22279988057e89e8c288a0ad88",
+          "under_6mb": true
+        },
+        "alpha_bbox": {
+          "x": 154,
+          "y": 83,
+          "width": 1562,
+          "height": 665
+        },
+        "notes": "Retained as rejected source evidence; not composited into the final banner."
+      },
+      {
+        "id": "title_candidate_06",
+        "status": "rejected_not_selected",
+        "manual_spelling_read": "appears_exact_not_selected",
+        "text": "Cascade of Effects",
+        "source": {
+          "path": "title_candidates/title_candidate_06_imagegen_chroma.png",
+          "width": 1774,
+          "height": 887,
+          "bytes": 1681432,
+          "sha256": "7dce63b8dccb7fee39e06d47b33a5943e144fe8a8e5be408c78d9d62ee402059",
+          "under_6mb": true
+        },
+        "alpha": {
+          "path": "title_candidates/title_candidate_06_alpha.png",
+          "width": 1774,
+          "height": 887,
+          "bytes": 1638263,
+          "sha256": "02befc0571485be71f814ec1e40c817ea8432df6b02c6a4a5537983b68d19af1",
+          "under_6mb": true
+        },
+        "alpha_checker": {
+          "path": "title_candidates/title_candidate_06_alpha_checker.png",
+          "width": 980,
+          "height": 480,
+          "bytes": 452818,
+          "sha256": "1c876334c4b5e194066fa6ca5686505e20ea7c8695fbdf56b06b29dc4891aebf",
+          "under_6mb": true
+        },
+        "alpha_bbox": {
+          "x": 180,
+          "y": 97,
+          "width": 1421,
+          "height": 664
+        },
+        "notes": "Retained as rejected source evidence; not composited into the final banner."
+      }
+    ],
+    "failed_title_policy": "misspelling, extra text, warped word, unreadable glyph, logo, label, subtitle, or watermark is reject"
+  },
+  "title_placement": {
+    "x": 618,
+    "y": 15,
+    "width": 811,
+    "height": 306,
+    "safe_rect": {
+      "x": 406,
+      "y": 1,
+      "width": 1235,
+      "height": 338
+    },
+    "inside_safe_rect": true
+  },
+  "outputs": {
+    "strip": {
+      "path": "visible_strips_2048x340/candidate_b_imagegen_title_lockup_visible_strip_2048x340.png",
+      "width": 2048,
+      "height": 340,
+      "bytes": 973158,
+      "sha256": "0cea25f23678baf4e262643aab0aef5a0e2c6faf126173e329fc10ea940c821e",
+      "under_6mb": true
+    },
+    "upload_wrapper": {
+      "path": "upload_candidates_2048x1152/candidate_b_imagegen_title_lockup_upload_wrapper_2048x1152.png",
+      "width": 2048,
+      "height": 1152,
+      "bytes": 1297414,
+      "sha256": "ea52fb5df49253019355aaa6cab37217620cc366368253c37a14433cfd7acadb",
+      "under_6mb": true
+    },
+    "asset_strip": {
+      "path": "assets/candidate_b_imagegen_title_lockup_visible_strip_2048x340.png",
+      "width": 2048,
+      "height": 340,
+      "bytes": 973158,
+      "sha256": "0cea25f23678baf4e262643aab0aef5a0e2c6faf126173e329fc10ea940c821e",
+      "under_6mb": true
+    },
+    "asset_upload_wrapper": {
+      "path": "assets/candidate_b_imagegen_title_lockup_upload_wrapper_2048x1152.png",
+      "width": 2048,
+      "height": 1152,
+      "bytes": 1297414,
+      "sha256": "ea52fb5df49253019355aaa6cab37217620cc366368253c37a14433cfd7acadb",
+      "under_6mb": true
+    },
+    "accepted_title_alpha": {
+      "path": "assets/accepted_imagegen_title_lockup_alpha.png",
+      "width": 1674,
+      "height": 632,
+      "bytes": 1406922,
+      "sha256": "fca411066a368ffca7cc0adda67df788ddf2995b2789885d9127c3d89f8002b5",
+      "under_6mb": true
+    },
+    "title_contact_sheet": {
+      "path": "qa/title-lockup-candidates-contact-sheet.png",
+      "width": 1312,
+      "height": 1056,
+      "bytes": 971087,
+      "sha256": "f50c75a3231bebd0ed8a5a7e28af6a994adcc1830a2d594bd1c7db278212cd20",
+      "under_6mb": true
+    },
+    "strip_safe_overlay": {
+      "path": "previews/candidate_b_imagegen_title_lockup_strip_safe_overlay_2048x340.png",
+      "width": 2048,
+      "height": 340,
+      "bytes": 961224,
+      "sha256": "1dbbb6132a34b1a7c1bb37ac9ee3c35e28db6729657349af9947b925c5afdb3d",
+      "under_6mb": true
+    },
+    "upload_safe_overlay": {
+      "path": "previews/candidate_b_imagegen_title_lockup_upload_safe_overlay_2048x1152.png",
+      "width": 2048,
+      "height": 1152,
+      "bytes": 1277589,
+      "sha256": "b0d3a4aea4bacbe994050f3338395d4dbe07936620265828f34fbb5b8b55e23d",
+      "under_6mb": true
+    },
+    "center_safe_crop": {
+      "path": "previews/candidate_b_imagegen_title_lockup_center_safe_crop_1235x338.png",
+      "width": 1235,
+      "height": 338,
+      "bytes": 572261,
+      "sha256": "969e481c44b8a514f39416b8c24b47ab00c3fe694853512fd79c10780c439de0",
+      "under_6mb": true
+    },
+    "tv_preview": {
+      "path": "previews/candidate_b_imagegen_title_lockup_tv_preview_wrapper_2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 1766463,
+      "sha256": "0d7375ceb9e92532523e1fbbe8d368624521dfd535e6a6e39bcb117a6cdb8ac6",
+      "under_6mb": true
+    },
+    "website_title_comparison": {
+      "path": "qa/website-hero-title-comparison.png",
+      "width": 1320,
+      "height": 980,
+      "bytes": 1098621,
+      "sha256": "fef4ab6463f3228fdf8affab2fa44d2b025606beaf46ff947dae3c15f36c0196",
+      "under_6mb": true
+    },
+    "final_contact_sheet": {
+      "path": "qa/imagegen-title-lockup-final-contact-sheet.png",
+      "width": 1320,
+      "height": 980,
+      "bytes": 965887,
+      "sha256": "50f2285a1bd734c66cddcc0214a9ee1643224c7b10ad7d5bd7926fca795d6f80",
+      "under_6mb": true
+    }
+  },
+  "reads": {
+    "official_requirements_read": "pass",
+    "skill_workflow_read": "pass",
+    "display_strip_target_read": "pass",
+    "imagegen_title_lockup_read": "review_required",
+    "exact_title_spelling_read": "pass",
+    "generated_text_read": "controlled_exception_pass",
+    "extra_generated_text_read": "pass",
+    "title_alpha_matte_read": "pass for review",
+    "title_chroma_fringe_read": "pass for review",
+    "dimensions_read": "pass",
+    "upload_canvas_read": "pass",
+    "file_size_read": "pass",
+    "safe_area_read": "pass",
+    "crop_resilience_read": "review_required",
+    "profile_icon_alignment_read": "pass",
+    "title_in_banner_read": "pass",
+    "paper_title_style_read": "review_required",
+    "website_hero_alignment_read": "review_required",
+    "texture_noise_read": "pass for review",
+    "waterfall_read": "pass",
+    "ice_liquid_read": "pass for review"
+  },
+  "no_keep_without_mike_approval": true
+}

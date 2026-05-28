@@ -1,0 +1,38 @@
+{
+  "run_id": "0b0c5f61-4999-4a74-a77e-78fe51509154",
+  "created_at": "2026-03-26T18:07:58Z",
+  "invocation": "stage",
+  "pipeline_id": null,
+  "family": "retired-scene-still-reference",
+  "preset": "challenger_mission_control",
+  "spec_preset": "challenger_mission_control__draft_txt2img",
+  "stage": "draft_txt2img",
+  "prompt_id": "da792033-d720-4d5c-a08b-04576bef755c",
+  "server_url": "http://127.0.0.1:8188",
+  "selected_seed": 972054013131375,
+  "seed": 972054013131375,
+  "variant_count": 1,
+  "source_image": "",
+  "artifact_paths": {
+    "workflow": "",
+    "prompt": "",
+    "manifest": "",
+    "sync_target": "/Users/mike/AI/comfy/user/default/workflows/ce_scene-still__challenger_mission_control__draft_txt2img.json"
+  },
+  "output_files": [
+    "/Users/mike/Viz_CascadeEffects/references/challenger_mission_control/selects/hero_still.png"
+  ],
+  "dimensions": {
+    "width": 1344,
+    "height": 768
+  },
+  "checkpoint": "",
+  "positive_prompt": "1986 NASA mission evaluation room after a critical launch decision, dim fluorescent ceiling panels, CRT monitors with shuttle telemetry, printed checklists and binders on the desk, one page marked with red pen, coffee cups, restrained documentary framing, archival realism, serious mood, asymmetrical composition, evidence-led scene, subtle tension, realistic materials, no futuristic design",
+  "negative_prompt": "",
+  "legacy_comfy_history_removed": true,
+  "legacy_comfy_history_removed_reason": "Removed retired scene-still Comfy prompt graph before local Flux1 artifact purge.",
+  "legacy_workflow_retired": true,
+  "legacy_workflow_family": "scene-still",
+  "legacy_workflow_note": "Retired local scene-still workflow metadata was rewritten to reference canonical/reference-local assets.",
+  "canonical_reference_asset": "/Users/mike/Viz_CascadeEffects/references/challenger_mission_control/selects/hero_still.png"
+}

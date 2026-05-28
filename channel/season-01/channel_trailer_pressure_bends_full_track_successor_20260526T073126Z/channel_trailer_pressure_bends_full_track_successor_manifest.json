@@ -1,0 +1,280 @@
+{
+  "artifact_id": "channel_trailer_pressure_bends_full_track_successor_20260526T073126Z",
+  "created_at": "20260526T073126Z",
+  "status": "review_ready_pending_human_keep",
+  "workflow": "channel_trailer_pressure_bends_full_track_successor_v1",
+  "mp4_render_created": true,
+  "youtube_uploaded": false,
+  "youtube_visibility_changed": false,
+  "youtube_channel_trailer_replaced": false,
+  "may_upload_to_youtube": false,
+  "production_contract": {
+    "contract_id": "channel-trailer-v1",
+    "intent": "successor",
+    "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+    "youtube_action_approval_read": "blocked_local_review_only"
+  },
+  "youtube_action_read": "blocked_local_review_only",
+  "source_video": {
+    "role": "current_titleless_channel_trailer_render",
+    "latest_pointer_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_latest.json",
+    "latest_pointer_sha256": "710ee13a16fa1c2181ebb4609ea7a38c762402a06abe876b7f435ae481947d88",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_20260524T054934Z/channel_trailer_end_screen_titleless_only_manifest.json",
+    "manifest_sha256": "25bd078209f2c2f6d5647894ee5876a49d3e77283309120c056be68fa59a2658",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_20260524T054934Z/video/cascade_of_effects_channel_trailer_end_screen_titleless_only_1080p24.mp4",
+    "mp4_sha256": "b0d5b70796e8fc56a32b748f5c7c57601a8cca9b6db0d4c455b7973a8b2f872e"
+  },
+  "predecessor": {
+    "role": "visual_predecessor_preserved_through_original_runtime",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_20260524T054934Z/channel_trailer_end_screen_titleless_only_manifest.json",
+    "manifest_sha256": "25bd078209f2c2f6d5647894ee5876a49d3e77283309120c056be68fa59a2658",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_20260524T054934Z/video/cascade_of_effects_channel_trailer_end_screen_titleless_only_1080p24.mp4",
+    "mp4_sha256": "b0d5b70796e8fc56a32b748f5c7c57601a8cca9b6db0d4c455b7973a8b2f872e"
+  },
+  "source_audio": {
+    "role": "replacement_full_track",
+    "path": "/Users/mike/Downloads/The_Pressure_Bends.mp3",
+    "sha256": "5f85a73411de44d64633602f38524e948205c76d3de11cba231d3f1db9ea184f",
+    "duration_seconds": 58.279125,
+    "measurements": {
+      "integrated_lufs": -12.1,
+      "true_peak_dbfs": 0.4,
+      "mean_volume_db": -14.3,
+      "max_volume_db": 0.0
+    }
+  },
+  "audio_treatment": {
+    "policy": "full_track_once_safe_aac_normalization",
+    "target_integrated_lufs": -16.0,
+    "true_peak_limit_dbfs": -1.5,
+    "safe_true_peak_max_dbfs": -1.0,
+    "filter": "loudnorm_plus_limiter",
+    "final_audio_stream_sha256": "6d0738bacb5356fd763de8d0ceb738a7427f861ff75f4b5467f2dacfe3fcb5f0",
+    "final_measurements": {
+      "integrated_lufs": -14.8,
+      "true_peak_dbfs": -1.6,
+      "mean_volume_db": -16.9,
+      "max_volume_db": -1.6
+    }
+  },
+  "timeline": {
+    "source_trailer_duration_seconds": 48.0,
+    "source_audio_duration_seconds": 58.279125,
+    "output_duration_seconds": 58.291667,
+    "duration_delta_seconds": 0.012542,
+    "duration_tolerance_seconds": 0.061667,
+    "video_preserved_seconds": [
+      0.0,
+      48.0
+    ],
+    "titleless_end_screen_extension_seconds": [
+      48.0,
+      58.291667
+    ],
+    "titleless_end_screen_extension_duration_seconds": 10.279125,
+    "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1"
+  },
+  "end_screen_palette_contract": {
+    "contract_id": "living_cover_end_screen_palette_contract_v1",
+    "status": "pass",
+    "required": true,
+    "required_for_gates": [
+      "channel_trailer_review",
+      "local_review"
+    ],
+    "palette_source": "sampled_episode_backplate",
+    "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+    "sample_model": "pillow_downsample_average_rgb_v1",
+    "approved_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_20260524T054934Z/work/predecessor_end_screen_reference_title_removed.jpg",
+      "sha256": "0a14cbba1eab0865fff16cfe79915e15fe65fec2ab29ddcd32408064ffcb8345",
+      "role": "channel_trailer_titleless_end_screen_backplate"
+    },
+    "sampled_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_20260524T054934Z/work/predecessor_end_screen_reference_title_removed.jpg",
+      "sha256": "0a14cbba1eab0865fff16cfe79915e15fe65fec2ab29ddcd32408064ffcb8345"
+    },
+    "colors": {
+      "video_target_fill_rgba": "rgba(36, 46, 58, 0.360)",
+      "video_target_border_rgba": "rgba(130, 166, 198, 0.740)",
+      "video_target_secondary_border_rgba": "rgba(152, 174, 202, 0.740)",
+      "subscribe_ring_rgba": "rgba(184, 158, 126, 0.840)",
+      "muted_rail_text_hex": "#9fb3c9",
+      "small_accent_hex": "#b89e7e"
+    },
+    "css_variables": {
+      "--ce-end-screen-target-fill": "rgba(36, 46, 58, 0.360)",
+      "--ce-end-screen-video-border": "rgba(130, 166, 198, 0.740)",
+      "--ce-end-screen-video-border-secondary": "rgba(152, 174, 202, 0.740)",
+      "--ce-end-screen-subscribe-ring": "rgba(184, 158, 126, 0.840)",
+      "--ce-end-screen-muted-text": "#9fb3c9",
+      "--ce-end-screen-small-accent": "#b89e7e"
+    },
+    "reads": {
+      "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+      "end_screen_target_geometry_read": "pass_titleless_two_video_subscribe_safe_zone_geometry",
+      "end_screen_target_fill_palette_read": "pass_local_target_fills_sampled_from_backplate_regions",
+      "end_screen_target_contrast_read": "pass_local_target_borders_visible_without_challenger_hue_shift",
+      "rail_panel_palette_read": "pass_adaptive_end_screen_targets_use_source_aware_palette",
+      "source_integrated_panel_color_read": "pass_perceptual_episode_backplate_colors_visible_in_end_screen",
+      "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors_with_visible_variability",
+      "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets"
+    },
+    "target_palette": {
+      "palette_treatment_model": "local_backplate_perceptual_target_palette_v3"
+    }
+  },
+  "visual_qa": {
+    "video_preservation_report": {
+      "samples": [
+        {
+          "seconds": 0.6,
+          "source_seconds": 0.6,
+          "mean_rgb_delta": 0.2281,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 6.25,
+          "source_seconds": 6.25,
+          "mean_rgb_delta": 0.493,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 12.3,
+          "source_seconds": 12.3,
+          "mean_rgb_delta": 0.7313,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 18.35,
+          "source_seconds": 18.35,
+          "mean_rgb_delta": 0.612,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 24.4,
+          "source_seconds": 24.4,
+          "mean_rgb_delta": 0.4353,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 30.42,
+          "source_seconds": 30.42,
+          "mean_rgb_delta": 0.275,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 42.0,
+          "source_seconds": 42.0,
+          "mean_rgb_delta": 0.1787,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 47.5,
+          "source_seconds": 47.5,
+          "mean_rgb_delta": 0.1787,
+          "sample_read": "pass"
+        }
+      ],
+      "tolerance_mean_rgb_delta": 5.0,
+      "read": "pass"
+    },
+    "end_screen_extension_report": {
+      "samples": [
+        {
+          "seconds": 48.1,
+          "source_seconds": 47.958,
+          "mean_rgb_delta": 0.9716,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 52.0,
+          "source_seconds": 47.958,
+          "mean_rgb_delta": 0.9738,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 56.0,
+          "source_seconds": 47.958,
+          "mean_rgb_delta": 1.0042,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 58.092,
+          "source_seconds": 47.958,
+          "mean_rgb_delta": 1.0043,
+          "sample_read": "pass"
+        }
+      ],
+      "tolerance_mean_rgb_delta": 5.0,
+      "read": "pass"
+    },
+    "final_video_stream_sha256": "ea482a0c7fc2eea7793d3edd12ec425a43eb9d2f10c70b56dbd165a6fe5d2119"
+  },
+  "reads": {
+    "source_audio_hash_read": "pass_source_audio_sha256_recorded",
+    "audio_replacement_read": "pass_pressure_bends_replaces_previous_audio",
+    "full_track_audio_read": "pass_full_source_track_used_once_no_loop",
+    "safe_mastering_read": "pass_true_peak_margin_and_loudness_target_met",
+    "no_clipping_read": "pass_final_mix_no_clipping",
+    "video_preservation_read": "pass_source_picture_preserved_until_original_trailer_end",
+    "end_screen_extension_read": "pass_titleless_end_screen_extended_to_full_track_end",
+    "end_screen_title_image_absence_read": "pass_no_cascade_of_effects_title_image_on_end_screen",
+    "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+    "end_screen_target_fill_palette_read": "pass_local_target_fills_sampled_from_backplate_regions",
+    "end_screen_target_contrast_read": "pass_local_target_borders_visible_without_challenger_hue_shift",
+    "rail_panel_palette_read": "pass_adaptive_end_screen_targets_use_source_aware_palette",
+    "source_integrated_panel_color_read": "pass_perceptual_episode_backplate_colors_visible_in_end_screen",
+    "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors_with_visible_variability",
+    "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+    "format_read": "pass",
+    "full_decode_read": "pass",
+    "youtube_action_read": "blocked_local_review_only"
+  },
+  "outputs": {
+    "package_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z",
+    "review_html": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z/review.html",
+    "final_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z/video/cascade_of_effects_channel_trailer_pressure_bends_full_track_successor_1080p24.mp4",
+    "final_mp4_sha256": "14187036d071974fcbbb917b1feba093cf1566d216215fc1deefcb49058bb056",
+    "silent_video": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z/video/cascade_of_effects_channel_trailer_pressure_bends_full_track_successor_silent.mp4",
+    "silent_video_sha256": "20bdb0f1b596fd1c514d040a5e57e4efc7ae9a5a0f88e7229569cdd9ac34d2f1",
+    "hold_frame": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z/work/titleless_end_screen_hold_frame.png",
+    "hold_frame_sha256": "06608dc3b84a27d87cffb71da5ac5ed5fe72deb02d75a8b382a70a8682213005",
+    "contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z/qa/channel_trailer_pressure_bends_contact_sheet.jpg",
+    "contact_sheet_sha256": "44a7b917ce8bc0613125091536835e2590df06e0cd675a745e7dcbd9c069a9a9",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z/channel_trailer_pressure_bends_full_track_successor_manifest.json"
+  },
+  "media_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "duration": "58.291667"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "duration": "58.282000"
+      }
+    ],
+    "format": {
+      "duration": "58.291667",
+      "size": "24063617",
+      "bit_rate": "3302512"
+    },
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_full_track_successor_20260526T073126Z/video/cascade_of_effects_channel_trailer_pressure_bends_full_track_successor_1080p24.mp4",
+    "sha256": "14187036d071974fcbbb917b1feba093cf1566d216215fc1deefcb49058bb056"
+  }
+}

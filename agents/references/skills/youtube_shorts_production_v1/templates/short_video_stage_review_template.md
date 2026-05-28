@@ -1,0 +1,191 @@
+# Short Video Stage Review Template
+
+## Stage Review
+
+- `episode_id`:
+- `short_id`:
+- `stage`: `first-second hook review|stills video proof|motion video proof|video final`
+- `input_audio_wav_path`:
+- `short_audio_package_path`:
+- `expected_voice_profile_id`:
+- `audio_package_sha256`:
+- `packaged_audio_sha256`:
+- `audio_disposition`: `keep|tighten|diagnostic only|reject`
+- `brand_motif_status`: `present|variant|waived|missing`
+- `motif_family`:
+- `motif_text`:
+- `motif_waiver_reason`:
+- `ending_cadence_read`: `pass|tighten|reject`
+- `transcript_sha256`:
+- `caption_text_source_path`:
+- `caption_timing_source_path`:
+- `input_contact_sheet_path`:
+- `input_contact_sheet_index_path`:
+- `input_proof_video_path`:
+- `input_proof_manifest_path`:
+- `production_model_decision_path`:
+- `production_model_lane`: `source_led_motion|source_derived_reanimation|sourced_stills|generated_stills|hybrid`
+- `hero_source_family_ids`:
+- `render_authorization_read`: `pass|tighten|reject|not_applicable`
+- `shot_timing_edl_path`:
+- `proof_assembled_from_shot_timing_edl`: `true|false`
+- `contact_sheet_to_proof_parity_read`: `pass|tighten|reject|not_applicable`
+- `hidden_cut_read`: `pass|tighten|reject|not_applicable`
+- `story_shot_duration_read`: `pass|tighten|reject|not_applicable`
+- `beat_sheet_path`:
+- `caption_overlay_manifest_path`:
+- `captioned_final_path`:
+- `caption_placement`:
+- `first_second_hook_manifest_path`:
+- `local_review_set_path`:
+- `current_latest_publish_mp4_path`:
+- `revised_first_second_proof_path`:
+- `comparison_proof_path`:
+- `frame_strip_path`:
+- `waveform_path`:
+- `opening_impact_audio_asset_id`:
+- `opening_impact_audio_path`:
+- `opening_impact_audio_sha256`:
+- `impact_hit_start_seconds`: `0.00`
+- `cold_flash_prebeat_length_seconds`: `0.75`
+- `first_second_hook_read`: `pass|tighten|reject|not_applicable`
+- `human_review_disposition`: `keep|tighten|reject|pending|not_applicable`
+- `review_type`: `first-second hook|proof|final`
+- `gate_level`: `first-second hook review|stills video proof|motion video proof|video final`
+- `hygiene_read`: `pass|tighten|reject`
+- `generation_surface_read`: `pass|tighten|reject`
+- `coverage_read`: `pass|tighten|reject`
+- `variety_read`: `pass|tighten|reject`
+- `engagement_read`: `pass|tighten|reject`
+- `historical_signal_texture_read`: `pass|tighten|reject|not_applicable`
+- `texture_visibility_read`: `pass|tighten|reject|not_applicable`
+- `house_crt_texture_read`: `pass|tighten|reject|not_applicable`
+- `signal_interruption_read`: `pass|tighten|reject|not_applicable`
+- `youtube_survival_read`: `pass|tighten|reject|not_applicable`
+- `compression_artifact_read`: `pass|tighten|reject|not_applicable`
+- `detail_survival_read`: `pass|tighten|reject|not_applicable`
+- `music_track_registry_path`: `/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json`
+- `music_track_id`:
+- `music_policy`: `canonical_default|waived|alternate_approved`
+- `music_waiver_reason`:
+- `music_rights_check_status`: `pending_youtube_upload_check|cleared|claim_warning|waived|not_applicable`
+- `motif_outro_mix_used`: `true|false`
+- `body_loop_sha256`:
+- `outro_sha256`:
+- `motif_music_bed_read`: `pass|tighten|reject|not_applicable`
+- `outro_completion_read`: `pass|tighten|reject|not_applicable`
+- `visual_extension_mode`: `cloned_final_frame|source_motion_tail|none`
+- `final_frame_hold_seconds`:
+- `source_motion_tail_path`:
+- `source_motion_tail_residual_hold_seconds`:
+- `final_mix_peak_db`:
+- `local_only_no_youtube_action`: `true|false|not_applicable`
+- `disposition`: `keep|tighten|diagnostic only|reject`
+- `reel_class`: `keeper short|mixed review short`
+- `publish_package_manifest_path`:
+- `publish_package_check_status`: `not_run|pass|fail|pass_with_warnings`
+- `review_upload_receipt_path`:
+- `youtube_video_id`:
+- `youtube_video_url`:
+- `privacy_status`: `unlisted|private|public|missing`
+- `processing_status`:
+- `thumbnail_status`: `uploaded|failed_nonfatal|not_declared|manual_required`
+- `public_release_boundary`: `manual_youtube_studio_only`
+- `failure_reason`:
+- `texture_failure_mode`: `texture_invisible_no_reviewable_historical_signal|historical_signal_overpowering_subject|compression_shimmer_or_mud|historical_signal_cheese|detail_loss_from_signal_texture|era_mismatch|global_historical_signal_misapplied|none`
+- `absorbed_archival_contamination_detected`: `true|false`
+- `review_surface_contamination_detected`: `true|false`
+- `backend_or_source_audio_stripped`: `true|false`
+- `source_derived_reanimation_used`: `true|false`
+- `next_action`:
+
+## Coverage Check
+
+- `opening_covered`: `true|false`
+- `impact_hit_starts_at_t0`: `true|false|not_applicable`
+- `no_black_frame_or_silence_at_t0`: `true|false|not_applicable`
+- `recognizable_subject_or_event_by_1s`: `true|false|not_applicable`
+- `first_second_has_motion_or_high_energy_presence`: `true|false|not_applicable`
+- `first_second_audio_no_clipping`: `true|false|not_applicable`
+- `first_words_not_masked_by_hit`: `true|false|not_applicable`
+- `cold_flash_visual_scene_or_event_led`: `true|false|not_applicable`
+- `paper_architecture_visual_style_blocked`: `true|false|not_applicable`
+- `no_logos_lower_thirds_burned_captions_or_source_hygiene_defects`: `true|false|not_applicable`
+- `review_proof_stays_local`: `true|false|not_applicable`
+- `middle_covered`: `true|false`
+- `closing_covered`: `true|false`
+- `audio_sync_checked`: `true|false`
+- `audio_package_provenance_checked`: `true|false`
+- `signature_consequence_motif_present_or_waived`: `true|false`
+- `ending_cadence_passed`: `true|false`
+- `closing_motif_caption_preserved`: `true|false`
+- `music_policy_valid`: `true|false`
+- `music_track_registered_when_used`: `true|false|not_applicable`
+- `music_source_hashes_verified`: `true|false|not_applicable`
+- `music_waiver_reason_present_when_waived`: `true|false|not_applicable`
+- `music_rights_check_recorded`: `true|false|not_applicable`
+- `motif_music_bed_supports_voiceover`: `true|false|not_applicable`
+- `outro_ramp_after_motif_resolution`: `true|false|not_applicable`
+- `outro_not_cut_off`: `true|false|not_applicable`
+- `final_mix_no_clipping`: `true|false|not_applicable`
+- `all_included_assets_are_keep`: `true|false`
+- `no_diagnostic_placeholders`: `true|false`
+- `caption_overlay_checked`: `true|false`
+- `generated_visuals_free_of_text_leakage`: `true|false`
+- `archival_hygiene_checked`: `true|false`
+- `proof_uses_clean_selected_stills_only`: `true|false`
+- `motion_assets_are_no_audio`: `true|false`
+- `proof_assembled_from_shot_timing_edl`: `true|false`
+- `contact_sheet_to_proof_parity_checked`: `true|false`
+- `hidden_cut_audit_checked`: `true|false`
+- `story_shot_duration_floor_checked`: `true|false`
+- `source_derived_reanimation_candidates_frame_audited`: `true|false`
+- `historical_signal_texture_checked`: `true|false`
+- `youtube_survival_proxy_checked`: `true|false`
+
+## Included Assets
+
+- `clip_case_id`:
+- `clip_stage_source`: `still|motion|final_caption`
+- `motion_strategy`: `direct_source_clip|source_derived_reanimation|direct_source_still|still_driven_i2v|generated_still|hybrid_generated`
+- `clip_disposition`:
+- `clip_path`:
+- `normalized_no_audio_path`:
+- `source_clip_id`:
+- `source_span_in`:
+- `source_span_out`:
+- `shot_timing_edl_row_ids`:
+- `actual_story_shot_duration_seconds`:
+- `no_internal_cut_read`: `pass|tighten|reject|not_applicable`
+- `continuity_vector`:
+- `start_keyframe_path`:
+- `end_keyframe_path`:
+- `historical_context_year_or_range`:
+- `source_media_era`:
+- `historical_signal_profile_id`:
+- `texture_source_lane`:
+- `texture_applied_path`:
+- `signal_texture_strength`:
+- `youtube_survival_proxy_path`:
+- `historical_signal_texture_read`: `pass|tighten|reject|not_applicable`
+- `texture_visibility_read`: `pass|tighten|reject|not_applicable`
+- `house_crt_texture_read`: `pass|tighten|reject|not_applicable`
+- `signal_interruption_read`: `pass|tighten|reject|not_applicable`
+- `youtube_survival_read`: `pass|tighten|reject|not_applicable`
+- `compression_artifact_read`: `pass|tighten|reject|not_applicable`
+- `detail_survival_read`: `pass|tighten|reject|not_applicable`
+- `clip_note`:
+- `clean_selected_still_path`:
+- `contact_sheet_tile_path`:
+- `review_plate_path`:
+- `proof_render_source`: `clean_selected_still`
+
+## Deferred Gaps Carrying Forward
+
+- `stage`:
+- `beat_id`:
+- `carrier`:
+- `failure_mode`:
+- `best_attempt_path`:
+- `next_carrier`:
+- `reopen_condition`:

@@ -1,0 +1,22 @@
+{
+  "id": "therac25_a",
+  "incident": "therac25",
+  "negative_prompt": "photorealism, documentary realism, detailed faces, busy composition, multiple focal points, clutter, visible branding, readable text, ui overlays, hard digital edges, glossy 3d render, dramatic action pose, explosion close-up, debris close-up, sensationalism",
+  "outputs": {},
+  "positive_style_prompt": "minimalist emotional surrealism, radical simplicity of form, large dominant color fields, asymmetric composition, active negative space, muted palette with one selective saturated accent, soft painterly edges, subtle pigment bleed, tactile matte surface, visual silence, stillness with implied story, symbolic environment, no literal depiction of disaster, no gore, no crowd, no text, no logos, cinematic restraint",
+  "selected_seed": 42001,
+  "stage_defaults": {
+    "lookdev": {
+      "batch_size": 4,
+      "height": 1536,
+      "width": 864
+    },
+    "refine": {
+      "batch_size": 1,
+      "height": 1792,
+      "width": 1024
+    }
+  },
+  "subject_prompt": "near-black room reduced to simple planes, a floating green terminal glow centered slightly off-axis, one unreadable line of pale text, blinking cursor implied, no human visible, sterile stillness, invisible danger, minimalist technological dread, soft crt bloom, restrained composition",
+  "variant": "a"
+}

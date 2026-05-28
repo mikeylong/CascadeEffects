@@ -1,0 +1,38 @@
+{
+  "run_id": "1f0bf3b5-3df4-4d4e-8f6c-e5fc019dd683",
+  "created_at": "2026-03-26T21:33:16Z",
+  "invocation": "stage",
+  "pipeline_id": null,
+  "family": "retired-scene-still-reference",
+  "preset": "therac25_console_alarm",
+  "spec_preset": "therac25_console_alarm__draft_txt2img",
+  "stage": "draft_txt2img",
+  "prompt_id": "c448c18f-d593-4282-9fc4-c9fb8bbbdf24",
+  "server_url": "http://127.0.0.1:8188",
+  "selected_seed": 416725903117,
+  "seed": 416725903117,
+  "variant_count": 1,
+  "source_image": "",
+  "artifact_paths": {
+    "workflow": "",
+    "prompt": "",
+    "manifest": "",
+    "sync_target": "/Users/mike/AI/comfy/user/default/workflows/ce_scene-still__therac25_console_alarm__draft_txt2img.json"
+  },
+  "output_files": [
+    "/Users/mike/Viz_CascadeEffects/references/therac25_console_alarm/selects/hero_still.png"
+  ],
+  "dimensions": {
+    "width": 1344,
+    "height": 768
+  },
+  "checkpoint": "",
+  "positive_prompt": "hospital radiation therapy control room in the mid 1980s after a dangerous operator input sequence, monochrome terminal glow, printed logs, maintenance binders, one alarming line item circled in red, serious documentary realism, institutional lighting, asymmetrical composition, evidence-led scene, grounded materials, no futuristic design, calm but ominous mood",
+  "negative_prompt": "",
+  "legacy_comfy_history_removed": true,
+  "legacy_comfy_history_removed_reason": "Removed retired scene-still Comfy prompt graph before local Flux1 artifact purge.",
+  "legacy_workflow_retired": true,
+  "legacy_workflow_family": "scene-still",
+  "legacy_workflow_note": "Retired local scene-still workflow metadata was rewritten to reference canonical/reference-local assets.",
+  "canonical_reference_asset": "/Users/mike/Viz_CascadeEffects/references/therac25_console_alarm/selects/hero_still.png"
+}

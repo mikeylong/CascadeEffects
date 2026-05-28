@@ -1,0 +1,149 @@
+[calm] A patient lies on a table in a hospital treatment room. The door is closed. The room is empty except for the patient and the machine.
+
+[calm] In the next room, an operator sits at a console. She has entered the treatment parameters. The screen confirms the settings. She presses the key to activate the beam.
+
+[flatly] The machine fires. The screen updates: treatment complete. Normal dose. No error.
+
+[sorrowful] The patient feels a sudden, intense burning — like a hot wire pressed against the skin. She calls out. The intercom is off. She gets up. She finds someone. She says something went wrong.
+
+[matter-of-fact] The operator checks the console. The readout shows a routine treatment. The dose log is normal. The machine recorded no fault.
+
+[deliberate] One of them is wrong. The patient, or the machine.
+
+[pauses] The hospital believes the machine.
+
+[sorrowful] This is a story about what happens when a system earns trust it was never tested enough to deserve — and what it costs when that trust finally breaks.
+
+[matter-of-fact] Radiation therapy works by aiming a beam of high-energy particles at a tumor. The goal is to deliver enough energy to destroy cancerous cells while leaving the surrounding tissue intact.
+
+[deliberate] The margin is narrow. Too little dose and the treatment fails. Too much and you burn healthy tissue, damage organs, kill the patient. The machine exists to hold that margin.
+
+[matter-of-fact] A medical linear accelerator can operate in two modes. In electron mode, the beam hits the patient directly — useful for tumors near the surface. In X-ray mode, the electron beam strikes a metal target first, which converts it into X-rays that can penetrate deeper. In X-ray mode, a flattening filter spreads the beam evenly across the treatment area.
+
+[flatly] The distinction matters. In electron mode, the beam is relatively low energy and diffuse. In X-ray mode without the target and filter in place, the full-power electron beam would hit the patient concentrated and unshielded. That is not a treatment. That is an injury.
+
+[deliberate] The machine's job is to make sure the beam mode and the physical hardware configuration always match. If the operator selects X-ray, the target and filter must be in the beam path. If they are not, the machine must not fire.
+
+[deliberate] That rule is the entire safety architecture. Everything depends on it being enforced.
+
+[matter-of-fact] The Therac-25 was not a new machine. It was the third in a series built by Atomic Energy of Canada Limited. Its predecessors — the Therac-6 and Therac-20 — had been in clinical use for years.
+
+[matter-of-fact] Those earlier machines had software controlling the beam. But they also had something else: hardware interlocks. Physical mechanisms in the beam path that prevented dangerous configurations from reaching the patient, regardless of what the software did.
+
+[calm] If the software set up the wrong mode, the hardware caught it. A mechanical fuse between intention and consequence. The software could fail, and the patient would still be safe.
+
+[flatly] The Therac-25 removed the hardware interlocks.
+
+[matter-of-fact] Software would handle safety directly. No physical backup. No mechanical check. The reasoning was straightforward: the software had been used in the earlier models. It had worked. It had never caused an accident. Why duplicate safety with expensive hardware when the code was already proven?
+
+[frustrated] That reasoning had a flaw. The software in the earlier machines had never been tested operating alone. It had always run behind the hardware safety net. The fact that no software failure had caused an accident did not mean the software could not fail. It meant the hardware had never needed to catch a failure visibly.
+
+[deliberate] The absence of a visible problem was treated as proof that no problem existed. The safety net was removed because it had never been seen catching anything.
+
+[flatly] And the machine shipped.
+
+[matter-of-fact] The Therac-25's software had a flaw that only appeared under specific conditions.
+
+[matter-of-fact] The operator interface let you type in treatment parameters, then edit them. If you typed a command, moved the cursor up to change a field, and re-entered the correct value within a narrow time window — roughly eight seconds — the software could enter a state where the beam mode displayed on screen no longer matched the physical hardware configuration.
+
+[flatly] The screen would show X-ray mode. The machine would be configured for direct electron beam. No target in the path. No flattening filter. Full-power electrons aimed straight at the patient.
+
+[matter-of-fact] This was a race condition. A timing-dependent bug. The software used a shared variable that could be overwritten if the operator edited faster than the machine could reconfigure. The counter that tracked the setup process would overflow, skip the safety check, and leave the hardware in the wrong state.
+
+[matter-of-fact] In the earlier Therac models, this would not have mattered. The hardware interlock would have physically blocked the beam. In the Therac-25, there was nothing between the bug and the patient.
+
+[sorrowful] The overdose was massive. Patients received doses estimated at 100 times the intended amount, concentrated into a beam a few millimeters wide. In a fraction of a second.
+
+[flatly] And the console would display: treatment complete. No error.
+
+[frustrated] Sometimes a cryptic message appeared — MALFUNCTION 54 — with no explanation of what it meant, no indication of severity, and a prompt that allowed the operator to simply press P to proceed.
+
+[resigned] Operators learned to press P. The message came up often enough to feel routine. It was background noise.
+
+[deliberate] Here is how a machine earns trust it does not deserve. Not through deception. Through repetition.
+
+[matter-of-fact] Layer one: inherited reputation. The Therac-25's software was carried forward from earlier models. Code that has been running in the field feels tested. It carries a track record. But the track record belonged to a different context — one where hardware interlocks caught any software failure before it reached the patient. The reputation was real. The safety it implied was not.
+
+[frustrated] Layer two: removed safeguards. The hardware interlocks were taken out. This was framed as simplification. An improvement. Fewer moving parts. Lower cost. No one performed a systematic analysis of what the software would need to handle on its own, because no one believed the software would fail in a way that mattered.
+
+[matter-of-fact] Layer three: successful operation. The machine shipped to hospitals. It ran treatments. Hundreds of them. Thousands. Treatments completed. Patients received their doses. No alarms. Each successful session reinforced the same conclusion: the machine works.
+
+[frustrated] Layer four: normalized error messages. When errors did appear, they were cryptic. MALFUNCTION 54. No explanation. No severity level. No instruction to stop treatment and investigate. Operators saw these messages regularly. They learned that pressing P and retrying usually worked. The interface trained them to override warnings, because the warnings had never meant anything before.
+
+[sorrowful] Layer five: the instrument over the patient. When patients reported pain — burning, stinging, sensations that did not match a normal treatment — the machine's dose log showed a normal delivery. The data said everything was fine. The patient said it was not. And in a system built on the assumption that the machine was reliable, the data won.
+
+[deliberate] This chain — inherited trust, removed safeguards, reinforced by repetition, normalized errors, instrument over patient — is the same structural pattern as Challenger's warning-softening chain, running in a completely different domain.
+
+[deliberate] In both cases, the system was not lying. It was not hiding anything. It was simply operating on a definition of safety that had never been stress-tested against the conditions that would break it.
+
+[flatly] The conditions arrived.
+
+[sorrowful] Between June 1985 and January 1987, the Therac-25 was involved in at least six known radiation overdose incidents at hospitals in the United States and Canada. Three patients died from their injuries. Others suffered severe radiation burns, neurological damage, and long-term disability.
+
+[matter-of-fact] The first reported accident was at a clinic in Georgia in 1985. A patient received a massive overdose. She developed radiation burns consistent with far more energy than the prescribed treatment. The hospital reported the incident to the manufacturer, AECL.
+
+[flatly] AECL investigated. They could not reproduce the error. Their conclusion: the machine's safety systems made such an overdose impossible. The problem must have been elsewhere.
+
+[matter-of-fact] A second incident occurred at a different hospital. Same symptoms. Same machine behavior. Treatment complete. No error. AECL again could not reproduce the fault. Again concluded the machine was not responsible.
+
+[deliberate] Then came the incident that cracked the case open. An operator in Tyler, Texas, had noticed something. When she entered parameters in a specific sequence — typing one mode, then quickly correcting to another — the machine displayed MALFUNCTION 54 and delivered only a partial dose. She would press P, retry, and the same thing happened.
+
+[sorrowful] On one occasion she retried three times. The patient, lying on the table, received three massive overdoses in succession. He died five months later.
+
+[deliberate] The operator reported the exact keystroke sequence. She had identified the trigger. AECL issued a software patch. The patch addressed that specific input sequence.
+
+[resigned] More accidents followed. The patch had fixed one path to the bug, but the underlying architecture — the race condition, the shared variable, the missing hardware check — was still there. Other keystroke sequences could trigger the same failure.
+
+[flatly] Each incident was handled as a one-off. Each investigation started from the assumption that the machine was fundamentally sound. And no mechanism existed to connect reports across hospitals. A physicist at one clinic had no way of knowing that a physicist at another clinic, a thousand miles away, was seeing the same thing.
+
+[pauses] The pattern was there. No one was looking at the whole picture.
+
+[matter-of-fact] The investigation that finally exposed the full scope of the problem was driven largely by a hospital physicist named Fritz Hager at the East Texas Cancer Center.
+
+[deliberate] After the Tyler incidents, Hager refused to accept AECL's assurance that the machine was safe. He conducted his own tests. He replicated the operator's keystroke sequence. He measured the output. He found that the machine could deliver radiation doses orders of magnitude above what the console displayed.
+
+[matter-of-fact] He contacted the FDA. He contacted other hospitals. He started connecting incidents that had been treated as unrelated.
+
+[matter-of-fact] What Hager demonstrated was not just a technical defect. It was a structural failure: the manufacturer's investigation process could not find the problem because it started from the assumption that the machine was reliable. Every test was designed to confirm safety, not to probe for failure. The question was never "under what conditions could this machine hurt someone?" The question was "can we reproduce the specific reported error?" And when they could not, the case was closed.
+
+[deliberate] The same inversion of proof that appeared in the Challenger decision meeting. The burden was on the failure to prove itself, not on the system to prove its safety.
+
+[deliberate] Once the full picture emerged, the failures were not subtle.
+
+[matter-of-fact] The software had no independent safety monitoring. The same code that controlled the beam also decided whether the beam was safe. There was no separate system watching for dangerous states.
+
+[matter-of-fact] The error messages shown to operators were meaningless. Numeric codes with no description, no severity ranking, no instruction to stop. The interface was not designed to communicate danger. It was designed to communicate workflow status.
+
+[deliberate] There was no hardware dose monitor that could independently detect an overdose in real time. The machine trusted its own software to report its own errors. That is like asking someone to grade their own exam.
+
+[frustrated] The manufacturer had not performed a systematic failure-mode analysis on the software. No one had asked: what happens if the setup routine is interrupted? What happens if the operator edits faster than the machine reconfigures? What happens if the counter overflows?
+
+[matter-of-fact] And the FDA's regulatory framework was not equipped to evaluate software-dependent medical devices. The agency had authority over the hardware. The software lived in a gap.
+
+[deliberate] Two causes. A software defect that allowed a lethal mismatch between beam mode and hardware configuration. And an organizational system — manufacturer, regulator, hospital — that was structured to confirm the machine worked rather than to discover how it could fail.
+
+[flatly] The Therac-25 did not fail despite the system. It failed because the system was designed to trust itself.
+
+[matter-of-fact] The Therac-25 is now one of the most cited case studies in software engineering, medical device regulation, and safety system design. Not because it was the worst accident. Because the pattern it revealed keeps showing up.
+
+[matter-of-fact] Carried-forward code inherits a reputation it may not have earned in the new context. Removing a safety layer is treated as simplification, not as a change that requires its own risk analysis. Operators adapt to unreliable signals by learning to ignore them — which means real warnings get the same response as false alarms. And when a machine says one thing and a person says another, the default is to believe the machine.
+
+[matter-of-fact] The case did produce real change. The FDA expanded its authority to cover software in medical devices. The principle of defense in depth — never rely on a single layer for safety — was reinforced as a binding design standard for radiation equipment. Independent hardware dose monitors became expected, not optional. And incident-reporting mechanisms across hospitals were strengthened so that patterns invisible to individual sites could be caught.
+
+[deliberate] But the deeper question — the one that makes this more than a historical case — is how we build trust in systems that are too complex to fully test.
+
+[matter-of-fact] Autonomous vehicles run millions of miles without incident, and each mile builds confidence. But the confidence is in the conditions that have been driven, not in the conditions that have not. Algorithmic decision systems in healthcare and criminal justice compile track records of outputs, and those track records become the evidence of reliability. But the track record only covers what has been measured.
+
+[deliberate] The question is always the same. Has the system been tested under the conditions where it could fail? Or only under the conditions where it has succeeded?
+
+[sorrowful] The Therac-25 answered that question with six patients who did not know they were the test.
+
+[deliberate] The most dangerous kind of trust is the kind that has never been tested. Only repeated.
+
+[resigned] The Therac-25 did not fail because the people around it were careless. It failed because every layer of the system — the engineers who carried the code forward, the manufacturer who removed the interlocks, the operators who learned to override the errors, the regulators who had not caught up to software — had built confidence on the same foundation: the machine had worked before.
+
+[deliberate] That was true. It was also incomplete. And incomplete, in a system where the consequences are measured in human tissue, is not the same as safe.
+
+[deliberate] The failure was real. The cause chain was longer.
+
+[calm] Next time: another design failure. Another system that taught itself to ignore what it already knew.

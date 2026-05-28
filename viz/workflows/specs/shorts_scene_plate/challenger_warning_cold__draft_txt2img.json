@@ -1,0 +1,199 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_warning_cold__draft_txt2img",
+  "base_fragment": "minimal_surreal_flux_midjourney_grid_draft_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no person, no people, no worker, no crew, no face, no walkway, no road, no second tower, no detached gantry tower, no snow berm as subject, no centered launch poster composition, no multi-object launch complex, no shuttle stack, no crawlerway, no laptop, no console, no rectangular overlay bands",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131801,
+    "selected_seed": 972054013131801,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 24,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_warning_cold/draft/challenger_warning_cold_draft",
+    "note_text": "Minimal-surreal Challenger beat 01. Use the MidJourney package reference grid as hidden CLIP-vision guidance only and generate a full-frame cold-risk portrait with no visible collage panels or pasted source fragments.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "draft_txt2img",
+    "reference_board_dir": "references/challenger_episode_acts/board",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "accent_palette": "winter blue, off-white, charcoal, signal orange",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the ice-laden gantry cluster in the left third, entirely above the subtitle band, and leave the top UI band and lower field empty",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "single off-center ice-laden gantry and pipe cluster in the left third under a crushing cold field",
+    "beat_id": "beat_01",
+    "historical_anchor": "ice on the pad and gantry steel on the Challenger launch morning",
+    "surreal_breach": "the cold boundary presses into the frame as if it were a physical wall",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_warning_cold.png",
+    "reference_mode": "midjourney_package_grid",
+    "midjourney_package_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v1/package.manifest.json",
+    "midjourney_adapter_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v1/comfy_adapters/beat_01.json",
+    "midjourney_shot_id": "beat_01"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "single off-center ice-laden gantry and pipe cluster occupying the left third against a winter field",
+    "support_fragments": [
+      "one subordinate band of brittle vapor and frozen structure surrounding the same gantry cluster while no shuttle silhouette appears"
+    ],
+    "directives": [
+      "keep the icy structure off-center and mobile-legible",
+      "single evidence frame, not a collage, diptych, or composite",
+      "no shuttle stack, no second tower, no badge or watermark-like mark",
+      "no centered launch-poster framing",
+      "preserve at least 70 percent empty winter field"
+    ],
+    "draft_directives": [
+      "keep the icy structural cluster above the subtitle band",
+      "bias the subject into the left third of frame",
+      "keep the cold boundary atmospheric, not a separate object",
+      "no human trace, walkway, road, secondary tower, shuttle stack, laptop, console, or rectangular overlay band may become a readable subject"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "negative_prompt",
+      "widgets": {
+        "text": "{{ params.negative_prompt }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.denoise }}"
+      }
+    },
+    {
+      "key": "flux_guidance",
+      "widgets": {
+        "guidance": "{{ params.guidance }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    },
+    {
+      "key": "load_subject_reference",
+      "widgets": {
+        "image": "{{ params.subject_reference_runtime_image }}"
+      }
+    },
+    {
+      "key": "clip_vision_loader",
+      "widgets": {
+        "clip_name": "{{ params.subject_reference_clip_vision_model }}"
+      }
+    },
+    {
+      "key": "clip_vision_encode",
+      "widgets": {
+        "crop": "{{ params.subject_reference_crop }}"
+      }
+    },
+    {
+      "key": "subject_reference_conditioning",
+      "widgets": {
+        "strength": "{{ params.subject_reference_strength }}",
+        "noise_augmentation": "{{ params.subject_reference_noise_augmentation }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_warning_cold__draft_txt2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_warning_cold__draft_txt2img.json"
+  }
+}

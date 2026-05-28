@@ -1,0 +1,62 @@
+{
+  "model": "other_seven_source_credit_gap_static_qa_v1",
+  "created_utc": "2026-05-26T02:37:08.450Z",
+  "episode_id": "hyatt-regency",
+  "status": "pass",
+  "passed": true,
+  "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_successor_20260526T000900Z/rough_assembly_manifest.json",
+  "player_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_successor_20260526T000900Z/player.html",
+  "source_credit_model": "center_source_credit_gap_v1",
+  "source_labels": [
+    "NBS Building Science Series 143",
+    "NIST Walkway Collapse archive",
+    "ASCE Civil Engineering Source"
+  ],
+  "source_selection_basis": "verified_hyatt_source_factcheck_packet",
+  "provenance_paths": [
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/source_factcheck_review_packet.md",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/source_factcheck_manifest.json"
+  ],
+  "external_provenance_urls": [],
+  "source_credit_timing": {
+    "fade_start_seconds": 839.658594,
+    "full_opacity_seconds": 840.408594,
+    "fade_out_start_seconds": 845.608594,
+    "fade_out_end_seconds": 846.539478
+  },
+  "source_credit_review_start_model": "challenger_contextual_source_credit_review_start_v1",
+  "source_credit_review_start_seconds": 834.359,
+  "player_default_review_start_seconds": 834.359,
+  "review_player_default_review_start_seconds": 834.359,
+  "player_proof_build_config": {
+    "proofBuildId": "hyatt-regency-source-credit-gap_20260526000900Z",
+    "proofGeneratedAtUtc": "2026-05-26T02:37:08.107Z",
+    "proofBuildJsonPath": "proof_build.json"
+  },
+  "review_player_proof_build_config": {
+    "proofBuildId": "hyatt-regency-source-credit-gap_20260526000900Z_html_review",
+    "proofGeneratedAtUtc": "2026-05-26T02:37:08.107Z",
+    "proofBuildJsonPath": "proof_build.json"
+  },
+  "expected_proof_build_id": "hyatt-regency-source-credit-gap_20260526000900Z",
+  "expected_review_proof_build_id": "hyatt-regency-source-credit-gap_20260526000900Z_html_review",
+  "legal_end_screen_fade_start_seconds": 846.539478,
+  "legal_end_screen_full_opacity_seconds": 846.839478,
+  "selected_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/hyatt-regency_right_rail_alignment_music_mix.wav",
+  "selected_audio_sha256": "f5351038cee89b037c5457802da0c64dc0f550c26388e873f306930ea911a5f3",
+  "inherited_audio_guard_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_end_screen_borderless_successor_20260525T234119Z/qa/audio_regression_guard.json",
+  "inherited_audio_guard_sha256": "fc781e12705a29a3f6faafc1d9cbfb2ce0e8fadab27aee477da19ab567994d0a",
+  "failures": [],
+  "reads": {
+    "source_credit_gap_static_read": "pass_source_credit_gap_static_qa",
+    "source_credit_names_read": "pass_three_named_sources_present_no_urls_on_screen",
+    "source_credit_timing_read": "pass_source_credits_clear_at_legal_end_screen_entry",
+    "end_screen_legal_timing_preservation_read": "pass_youtube_legal_window_end_screen_entry_v1_unchanged",
+    "borderless_placeholder_preservation_read": "pass_youtube_placeholder_borderless_underlay_v1_unchanged",
+    "audio_regression_guard_read": "pass_selected_review_audio_sha_preserved_no_remix",
+    "proof_build_freshness_config_read": "pass_player_proof_build_config_matches_proof_build_json",
+    "source_credit_review_start_read": "pass_source_credit_review_starts_before_fade_like_challenger",
+    "youtube_action_read": "blocked_other_seven_no_upload_authorized"
+  },
+  "manifest_sha256_after_write": "e5209620c2bd0f362232c2a154931629344775252ccaa84347eea89b22b667f5"
+}

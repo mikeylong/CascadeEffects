@@ -1,0 +1,58 @@
+{
+  "model": "737_max_outro_level_standard_blocker_v1",
+  "created_utc": "2026-05-26T03:11:06.155Z",
+  "episode_id": "737-max",
+  "status": "tighten_audio_regression_blocker",
+  "reason": "737 MAX selected review mix preserves the pre-existing quiet outro; legal-window outro is below the approved post-VO outro level standard.",
+  "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/737-max_right_rail_alignment_music_mix.wav",
+  "source_audio_sha256": "20daf1eac41a26105efbb54dc822b3d4f598adf18a8061e0c659084930a29399",
+  "diagnostic_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_successor_20260526T000900Z/qa/737_max_outro_level_diagnostic_20260526T_current_vs_plus5db.json",
+  "current_legal_window_outro": {
+    "start_seconds": 955.766144,
+    "duration_seconds": 10,
+    "input_i_lufs": -21.21,
+    "input_tp_dbtp": -7.94,
+    "input_lra": 2.3,
+    "mean_volume_db": -22.1,
+    "max_volume_db": -8
+  },
+  "estimated_plus5db_legal_window_outro": {
+    "start_seconds": 955.766144,
+    "duration_seconds": 10,
+    "input_i_lufs": -16.21,
+    "input_tp_dbtp": -2.94,
+    "input_lra": 2.3,
+    "mean_volume_db": -17.1,
+    "max_volume_db": -3
+  },
+  "current_final_vo_prelap": {
+    "start_seconds": 943.584929,
+    "duration_seconds": 2.886,
+    "input_i_lufs": -12.46,
+    "input_tp_dbtp": -1.01,
+    "input_lra": 0,
+    "mean_volume_db": -16.2,
+    "max_volume_db": -1.1
+  },
+  "estimated_plus5db_final_vo_prelap": {
+    "start_seconds": 943.584929,
+    "duration_seconds": 2.886,
+    "input_i_lufs": -12.46,
+    "input_tp_dbtp": -1.01,
+    "input_lra": 0,
+    "mean_volume_db": -16.2,
+    "max_volume_db": -1.1
+  },
+  "current_guard_failure": "prior guard only checked selected-audio hash preservation and clipping; it did not compare outro loudness to the standard threshold.",
+  "required_successor_model": "episode_post_vo_outro_level_successor_v1",
+  "recommended_delta": "apply Challenger-approved +5 dB post-VO ramp pattern to 737 MAX only, then create HTML review before any MP4 render",
+  "render_allowed": false,
+  "upload_allowed": false,
+  "youtube_action_allowed": false,
+  "reads": {
+    "source_audio_hash_read": "pass_current_selected_audio_hash_recorded",
+    "legal_window_outro_level_read": "fail_current_legal_window_outro_below_standard_threshold",
+    "plus5db_candidate_read": "pass_estimated_plus5db_matches_approved_outro_level_window_without_vo_prelap_change",
+    "render_gate_read": "blocked_737_max_outro_level_successor_required"
+  }
+}

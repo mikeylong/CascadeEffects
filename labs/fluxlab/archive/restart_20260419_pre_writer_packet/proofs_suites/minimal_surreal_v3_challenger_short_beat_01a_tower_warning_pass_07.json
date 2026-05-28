@@ -1,0 +1,26 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_07",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, second worker, crowd, meeting room, enclosed office bay, full shuttle hero, full stack portrait, giant monitor hero, close face portrait, snow, icicles, launch already in progress, explosion imagery, white booster slice, visible booster, booster, full shuttle body, exterior scaffolding behind subject, tower outside subject, horizon, blue sky background, open sky wedge, visible sky, sky slit, blue slit, gap beside tank, side gap beside tank, narrow sky gap, tank bottom, lower tank edge, tank base, lower tank curve, exterior catwalk behind subject, outside platform, ground plane, stretched figure, compressed figure, squashed body, short legs, distorted anatomy"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_short__beat_01a_aperture_fill_warning",
+      "archetype": "single_human_figure",
+      "base_seed": 72141,
+      "prompt_body": "Upper launch-tower service level before dawn, one engineer proxy in a weather jacket stands at a side-mounted terminal inside the tower, natural human body proportions, medium full-body side profile, the tank fills the entire exterior opening behind him edge to edge like a close orange wall, no visible gap on either side of the tank, no visible booster, no visible sky, no visible bottom of the tank, only dark interior tower framing at the edges, terminal screen unreadable and dim, cold damp air, sodium work light, restrained documentary tension"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "status": "pass",
+  "voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/audio/recording_20260511T204835Z_hybrid_attention_rewrite/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_voice_master.wav",
+    "sha256": "ecbcbbe23f38b30d68073e6069ffde5d281eab8092ce773717f064c3fcb0720d",
+    "duration_seconds": 1205.162086,
+    "size": 106295374,
+    "codec": "pcm_s16le",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "packaged_voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/audio/recording_20260511T204835Z_hybrid_attention_rewrite/final/recording_20260511T204835Z_hybrid_attention_rewrite.wav",
+    "sha256": "ecbcbbe23f38b30d68073e6069ffde5d281eab8092ce773717f064c3fcb0720d",
+    "duration_seconds": 1205.162086,
+    "size": 106295374,
+    "codec": "pcm_s16le",
+    "sample_rate": 44100,
+    "channels": 1
+  },
+  "review_mix": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/audio/recording_20260511T204835Z_hybrid_attention_rewrite/review/mix/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_music_only_intro_outro_review_mix.wav",
+    "sha256": "fc2ab5f4db2a0d950e2bc4586a4ae386c3fa4ee4e642df69c6d5fb5ae448c14f",
+    "duration_seconds": 1245.553197,
+    "size": 219715662,
+    "codec": "pcm_s16le",
+    "sample_rate": 44100,
+    "channels": 2
+  },
+  "intro_music_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+    "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+    "duration_used_seconds": 9.601451
+  },
+  "outro_music_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "duration_used_seconds": 30.78966
+  },
+  "mix_contract": {
+    "runtime_model": "music-only intro, voiceover body, music-only outro; no voice/music overlap by concat construction",
+    "intro_music_start_seconds": 0,
+    "intro_music_end_seconds": 9.601451,
+    "voice_start_seconds": 9.601451,
+    "voice_duration_seconds": 1205.162086,
+    "voice_end_seconds": 1214.763537,
+    "outro_music_start_seconds": 1214.763537,
+    "outro_music_end_seconds": 1245.553197,
+    "timeline_shift_for_story_seconds": 9.601451
+  },
+  "decode_reads": {
+    "voice_full_decode_read": "pass",
+    "voice_decode_stderr": "",
+    "mix_full_decode_read": "pass",
+    "mix_decode_stderr": ""
+  },
+  "level_reads": {
+    "voice": {
+      "max_volume_db": -0.9,
+      "mean_volume_db": -15.1
+    },
+    "review_mix": {
+      "max_volume_db": -0.1,
+      "mean_volume_db": -18.0
+    }
+  },
+  "duration_match_read": "pass",
+  "no_voice_music_overlap_read": "pass_by_concat_construction",
+  "voice_runtime_target_read": "pass_20_to_22_min_voice"
+}

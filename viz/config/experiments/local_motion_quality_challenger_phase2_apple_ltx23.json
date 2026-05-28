@@ -1,0 +1,55 @@
+{
+  "experiment_id": "local_motion_quality_challenger_phase2_apple_ltx23",
+  "title": "Local Motion Quality Experiment Phase 2 Apple-Native LTX 2.3",
+  "short_manifest_path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_minimal_surreal_v3_trimmed.json",
+  "baseline_summary_path": "/Users/mike/Viz_CascadeEffects/workflows/generated/experiments/local_motion_quality/20260414T211440Z/summary.json",
+  "output_root": "/Users/mike/Viz_CascadeEffects/workflows/generated/experiments/local_motion_quality",
+  "review_note_path": "/Users/mike/FluxLab_CascadeEffects/proofs/suites/challenger_local_motion_quality_experiment_pass_02_apple_ltx23.md",
+  "runtime_root": "/Users/mike/AI/ltx-2-mlx",
+  "runtime_repo": "https://github.com/dgrauet/ltx-2-mlx.git",
+  "width": 576,
+  "height": 1024,
+  "primary_seed": 42,
+  "winner_seed": 314159,
+  "max_wall_clock_multiplier": 3.0,
+  "fallback_to_q4_on_runtime_or_memory": true,
+  "beats": [
+    {
+      "id": "beat_02a",
+      "role": "control",
+      "archetype": "field_joint_motion",
+      "frame_override": 121
+    },
+    {
+      "id": "beat_01b",
+      "role": "stress",
+      "archetype": "cold_launch_site_motion",
+      "frame_override": 129
+    }
+  ],
+  "variants": [
+    {
+      "id": "q8_one_stage",
+      "label": "Apple-native q8 one-stage",
+      "model": "dgrauet/ltx-2.3-mlx-q8",
+      "mode": "one_stage",
+      "extra_args": []
+    },
+    {
+      "id": "q8_hq",
+      "label": "Apple-native q8 HQ",
+      "model": "dgrauet/ltx-2.3-mlx-q8",
+      "mode": "hq",
+      "extra_args": [
+        "--hq"
+      ]
+    },
+    {
+      "id": "q4_one_stage",
+      "label": "Apple-native q4 one-stage fallback",
+      "model": "dgrauet/ltx-2.3-mlx-q4",
+      "mode": "one_stage",
+      "extra_args": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+# Challenger Episode Acts Sources
+
+This board uses a strict `5 rows x 3 columns` order:
+
+- Column 1: historical `process` / environment
+- Column 2: historical `signal` / mechanism
+- Column 3: `style` / graphic-editorial cue
+
+For reproducibility and lighter network impact, several Commons assets were downloaded from the file-page preview thumbnail rather than the original full-resolution file. The style-column replacements were downloaded from Behance project-module images and normalized locally. Source attribution below points to the canonical project or file page for each image.
+
+Text-heavy editorial references were explored separately and rejected from the main board when the readable headline or page layout became the primary visual read.
+
+| Act | Slot | File | Source | Why it was chosen |
+| --- | --- | --- | --- | --- |
+| 1 | process | `01_act1_process_mission_control_room_1.jpg` | [Wikimedia Commons - File:Mission Control Room 1.jpg](https://commons.wikimedia.org/wiki/File:Mission_Control_Room_1.jpg) | Establishes the calm institutional baseline with a wider room/process view instead of another close console crop. |
+| 1 | signal | `02_act1_signal_kranz_console.jpg` | [Wikimedia Commons - File:Eugene F. Kranz at his console at the NASA Mission Control Center.jpg](https://commons.wikimedia.org/wiki/File:Eugene_F._Kranz_at_his_console_at_the_NASA_Mission_Control_Center.jpg) | Pushes the act from room-scale routine down to the console and decision surface where “normal” gets administered. |
+| 1 | style | `03_act1_style_magdiel_ordered_collage.png` | [Behance - Editorial Collage](https://www.behance.net/gallery/220176921/Editorial-Collage) | Replaces the literal diagram with a calmer mathematical-collage plate: ordered geometry, pale field, and designed abstraction rather than documentary spaceflight graphics. |
+| 2 | process | `04_act2_process_apollo10_mission_control.jpg` | [Wikimedia Commons - File:Mission Control during Apollo 10 (23658364679).jpg](https://commons.wikimedia.org/wiki/File:Mission_Control_during_Apollo_10_%2823658364679%29.jpg) | Dense operational labor and repeated monitoring imagery support the “concern absorbed into procedure” section of the script. |
+| 2 | signal | `05_act2_signal_field_joint_diagram.jpg` | [Wikimedia Commons - File:RogersCommission-v1p57 cropped.jpg](https://commons.wikimedia.org/wiki/File:RogersCommission-v1p57_cropped.jpg) | Makes the hidden failure site legible: the joint geometry and O-ring location that the organization kept reclassifying. |
+| 2 | style | `06_act2_style_magdiel_hidden_risk_collage.png` | [Behance - Editorial Collage](https://www.behance.net/gallery/220176921/Editorial-Collage) | A busier metaphor plate with dice, metrics, and animal camouflage fits the act’s “warning absorbed into normalcy” logic better than a literal exploded booster graphic. |
+| 3 | process | `07_act3_process_launch_control_room.jpg` | [Wikimedia Commons - File:NASA Launch Control Center renovated control room.jpg](https://commons.wikimedia.org/wiki/File:NASA_Launch_Control_Center_renovated_control_room.jpg) | An empty control room keeps the act about institutional procedure and decision-space, not personalities. |
+| 3 | signal | `08_act3_signal_ice_on_pad.jpg` | [Wikimedia Commons - File:Ice on the Pad on the Day of STS-51-L's Launch - GPN-2004-00011.jpg](https://commons.wikimedia.org/wiki/File:Ice_on_the_Pad_on_the_Day_of_STS-51-L%27s_Launch_-_GPN-2004-00011.jpg) | The cold-weather cue that turned engineering concern into a launch-commit argument. |
+| 3 | style | `09_act3_style_architecture_editorial_collage.png` | [Behance - Editorial Collage for Architecture Magazine](https://www.behance.net/gallery/240320321/Editorial-Collage-for-Architecture-Magazine) | A stark architectural collage keeps Act 3 institutional and austere while steering the board toward designed editorial art instead of another literal room photograph. |
+| 4 | process | `10_act4_process_challenger_launch.jpg` | [Wikimedia Commons - File:Challenger STS-51-L-launch.jpg](https://commons.wikimedia.org/wiki/File:Challenger_STS-51-L-launch.jpg) | Holds the act at launch scale before the failure becomes visually explicit. |
+| 4 | signal | `11_act4_signal_booster_breach.jpg` | [Wikimedia Commons - File:Booster Rocket Breach - GPN-2000-001425.jpg](https://commons.wikimedia.org/wiki/File:Booster_Rocket_Breach_-_GPN-2000-001425.jpg) | A focused breach image that shows the visible failure without collapsing into pure explosion spectacle. |
+| 4 | style | `12_act4_style_magdiel_countdown_collage.png` | [Behance - Editorial Collage](https://www.behance.net/gallery/220176921/Editorial-Collage) | The floating objects, equation marks, and hourglass-like countdown energy push this act toward designed launch-tension instead of another literal shuttle tracking frame. |
+| 5 | process | `13_act5_process_rogers_commission_arrival.jpg` | [Wikimedia Commons - File:Rogers Commission members arrive at Kennedy Space Center.jpg](https://commons.wikimedia.org/wiki/File:Rogers_Commission_members_arrive_at_Kennedy_Space_Center.jpg) | Marks the shift from event to inquiry without defaulting to courtroom cliches. |
+| 5 | signal | `14_act5_signal_left_srb_debris.jpg` | [Wikimedia Commons - File:STS-51-L Recovered Debris (Left Solid Rocket Booster) - GPN-2004-00009.jpg](https://commons.wikimedia.org/wiki/File:STS-51-L_Recovered_Debris_%28Left_Solid_Rocket_Booster%29_-_GPN-2004-00009.jpg) | Recovered hardware becomes the physical proof that replaces argument and inference. |
+| 5 | style | `15_act5_style_keith_institutional_collage.png` | [Behance - Digital Collages/Editorial Designs](https://www.behance.net/gallery/181372359/Digital-CollagesEditorial-Designs) | A civic/institutional collage plate gives the commission act a designed systems-coda without falling back into courtroom photos or text-led newspaper evidence. |

@@ -1,0 +1,552 @@
+{
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z",
+  "episode_id": "tacoma-narrows",
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "process_version": "living_cover_ambient_effects_layer_v1",
+  "created_at": "2026-05-19T04:22:19Z",
+  "status": "tighten_superseded_by_weather_app_glass_rain_opacity_successor",
+  "human_disposition": "tighten",
+  "lane_decision": "foreground_glass_rain_weather_app_beads_v6",
+  "selected_direction": "Weather-app soft beaded rain on glass over horizontally flipped K3 backplate",
+  "rationale": "Reject the organic teardrop/streak direction because it no longer read as water; return to the user reference language of soft translucent bead droplets, faint lens highlights/shadows, subtle edge irregularity, and short downward runners while keeping right-rail exclusion and source-plate geometry unchanged.",
+  "reference_evidence": {
+    "user_reference_recording": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/reference/reference_weather_glass_recording.mov",
+      "sha256": "7672133d32ae39efd171492b255b1bd56054e721772ec87a24dc774575e884e3",
+      "role": "user_supplied_weather_app_flipped_backplate_large_drops_video"
+    },
+    "reference_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/reference/reference_screen_recording_contact_sheet.png",
+      "sha256": "e4623fecc7e60b8dd09a51a2ebf5e98e1a603e4bc68dfe666a89b71772a2fc90",
+      "role": "reference_recording_contact_sheet"
+    },
+    "transcript_log": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/reference/transcribe_no_audio_log.txt",
+      "sha256": "83ad8c7bcb7716b33742752068620fbe5f8e1ead1d30370ff53d5e339a9df1d8",
+      "role": "transcribe_attempt_log_no_audio_stream"
+    },
+    "no_audio_stream_read": "pass_ffprobe_video_only_reference_recording"
+  },
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080.png",
+    "sha256": "b2b4411de556d2e202ac672fa435f961e7369c0093dcc61ef0c827c75f178b2f",
+    "role": "deterministic_horizontal_flip_of_kept_k3_source_art_for_layout_review",
+    "source_art_id": "candidate_k3_roadway_wide_stance_flipped_layout_probe",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/references/source_art_manifest.json",
+      "sha256": "3e02c5d43fd32079a34fc345d8005ba90e6fa9947cc8a3c4c998ee3962ee3acc",
+      "role": "packet_local_source_art_manifest_copy"
+    },
+    "original_unflipped_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sha256": "8f85d657d6a2573ddeaf637e468d4a8b2db4a20b2017b369591579f086e6246c",
+      "role": "kept_k3_source_art_local_copy_unflipped_reference"
+    },
+    "deterministic_transform": {
+      "id": "horizontal_flip_layout_probe_v1",
+      "operation": "ffmpeg_hflip",
+      "reason": "move bridge tower out from under fixed right rail for review",
+      "status": "review_only_not_new_source_art_keep"
+    }
+  },
+  "deterministic_parameters": {
+    "seed_function": "seededUnit(index, salt)",
+    "glass_rain_seed": 1940110927,
+    "glass_drop_count": 176,
+    "glass_rivulet_count": 34,
+    "glass_mask_rect": [
+      0,
+      0,
+      1068,
+      1080
+    ],
+    "glass_rail_exclusion_rect": [
+      1068,
+      0,
+      852,
+      1080
+    ],
+    "right_rail_review_rect": [
+      1108,
+      52,
+      760,
+      976
+    ],
+    "coordinate_space": [
+      1920,
+      1080
+    ],
+    "speed_down_px_per_second": [
+      4,
+      22
+    ],
+    "speed_slant_px_per_second": [
+      0.8,
+      5.2
+    ],
+    "visibility": "medium_visible_weather_app_foreground_glass",
+    "motion_clock": "audio_time_from_zero",
+    "reference_model": "weather_app_beaded_glass_reference",
+    "shape_model": "soft_lens_beads_with_short_runners",
+    "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+    "bead_density": "medium_high_many_small_medium_soft_beads",
+    "large_drop_share": 0.14,
+    "runner_share": 0.19,
+    "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+    "drop_width_range_px": [
+      5,
+      26
+    ],
+    "drop_height_range_px": [
+      6,
+      34
+    ],
+    "drop_aspect_ratio_range": [
+      1.08,
+      1.62
+    ],
+    "terminal_width_range_px": [
+      4,
+      14
+    ],
+    "terminal_height_range_px": [
+      7,
+      26
+    ],
+    "spherical_drop_policy": "soft_beads_allowed_with_subtle_edge_irregularity_no_bubble_shading",
+    "terminal_shape_model": "soft_bead_terminal_with_short_tail"
+  },
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "type": "existing_source_safe_transform",
+      "preservation_read": "pass_preserved_from_chapter_transition_successor",
+      "source_safety": "does_not_redraw_bridge_geometry"
+    },
+    {
+      "id": "foreground_glass_rain_weather_app_beads_v6",
+      "type": "seeded_weather_app_soft_lens_beads_with_short_downward_runners",
+      "parameters": {
+        "droplet_count": 176,
+        "rivulet_count": 34,
+        "drop_width_range_px": [
+          5,
+          26
+        ],
+        "drop_height_range_px": [
+          6,
+          34
+        ],
+        "drop_aspect_ratio_range": [
+          1.08,
+          1.62
+        ],
+        "terminal_drop_width_range_px": [
+          4,
+          14
+        ],
+        "terminal_drop_height_range_px": [
+          7,
+          26
+        ],
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "terminal_shape_model": "soft_bead_terminal_with_short_tail",
+        "spherical_drop_policy": "soft_beads_allowed_with_subtle_edge_irregularity_no_bubble_shading",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "opacity_profile": "medium_visible_translucent_lens_beads_with_faint_offset_highlights_and_soft_shadows",
+        "motion": "soft_bead_droplets_and_short_runners_down_screen_audio_time_from_zero",
+        "mask_rect": [
+          0,
+          0,
+          1068,
+          1080
+        ],
+        "rail_exclusion_rect": [
+          1068,
+          0,
+          852,
+          1080
+        ]
+      },
+      "masks": [
+        "viewer_facing_glass_surface_left_of_right_rail"
+      ],
+      "exclusions": [
+        "right_rail",
+        "captions",
+        "youtube_end_screen_targets",
+        "source_plate_geometry"
+      ],
+      "source_safety": "additive image-only canvas layer; no people, vehicle, bridge, or source-plate geometry animation"
+    }
+  ],
+  "hard_avoids": [
+    "source-plate geometry changes",
+    "animated people",
+    "animated cars",
+    "debris",
+    "diagnostic overlays",
+    "text outside the rail",
+    "right-rail or caption interference",
+    "dry streak texture replacing water droplets",
+    "radial bubble-ring shading",
+    "perfectly circular large bubble bodies"
+  ],
+  "qa": {
+    "browser_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/browser_qa_1920x1080.json",
+      "sha256": "9fc27bcafe395a0d523c320e75a5e31ded0f0f476b7882b678d377a28977b6f6",
+      "role": "browser_qa_json_weather_app_glass_rain_successor"
+    },
+    "glass_rain_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/glass_rain_review_strip.png",
+      "sha256": "d5c5e6078190982da2d711717850f6c2c0ed9d2c4cbe3f64ec6657f84d354e77",
+      "role": "weather_app_glass_rain_v6_review_strip_png",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/glass_rain_review_strip.html",
+      "html_sha256": "ab5e431030fd693b7cfb5bde511ee3ba1ea6afb012b2d7f7d8c8bcda04758878",
+      "sample_count": 10
+    },
+    "weather_app_reference_comparison_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/weather_app_reference_comparison_strip.png",
+      "sha256": "b428c5166dce29f032dc17f21821258a744b147474e60a4368bffadbd0f68dbc",
+      "role": "weather_app_reference_vs_rejected_organic_vs_v6_comparison_strip_png",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/weather_app_reference_comparison_strip.html",
+      "html_sha256": "e52bf80d7430e85517be0a4c720272584cfa8b632f347f61652e90a030e1ffc0"
+    },
+    "rejected_organic_v5_reference_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/rejected_organic_v5_glass_rain_review_strip.png",
+      "sha256": "5ca334509a2f84fd38539224b2c40bda028ae321cf90a72f1391758fbac12ec6",
+      "role": "rejected_organic_v5_strip_for_comparison",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/rejected_organic_v5_glass_rain_review_strip.html",
+      "html_sha256": "e9d987240e40ced0f0f474b2354124bdf54e5f862245f46434323d9325f087d7"
+    },
+    "pre_voice_motion_check": {
+      "start_time_seconds": 0,
+      "later_time_seconds": 0.85,
+      "read": "pass_glass_rain_moves_between_t0_and_t0_85_before_voice_start",
+      "evidence_slug": "glass_intro_start"
+    },
+    "samples": [
+      {
+        "slug": "glass_intro_start",
+        "time_seconds": 0,
+        "story_time_seconds": 0,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 0,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 4824,
+        "active_region_nonblank": 351,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_intro_start_0000000ms.png",
+          "sha256": "868b5f24ddd0d38df33ce5e3c284b87c1cc051d59b01e4a620df66872ad7048d",
+          "role": "weather_app_glass_rain_sample_glass_intro_start"
+        }
+      },
+      {
+        "slug": "glass_intro_mid",
+        "time_seconds": 4.8,
+        "story_time_seconds": 0,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 4.8,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 4923,
+        "active_region_nonblank": 395,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_intro_mid_0004800ms.png",
+          "sha256": "dbdab6b9d3ca53e9bf06470ee5774e5a8a8987671c4b744cfcb4956fa1cb9c98",
+          "role": "weather_app_glass_rain_sample_glass_intro_mid"
+        }
+      },
+      {
+        "slug": "glass_voice_start",
+        "time_seconds": 9.601451,
+        "story_time_seconds": 0,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 9.601451,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 4548,
+        "active_region_nonblank": 339,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_voice_start_0009601ms.png",
+          "sha256": "1d0061dc78b55433787c45d8d48ed9be36a6bb369b6d6571fbf12336c63e3288",
+          "role": "weather_app_glass_rain_sample_glass_voice_start"
+        }
+      },
+      {
+        "slug": "glass_opening_caption",
+        "time_seconds": 12,
+        "story_time_seconds": 2.398548999999999,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 12,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 4048,
+        "active_region_nonblank": 317,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_opening_caption_0012000ms.png",
+          "sha256": "c94f09abffcfab436ca5fa5de0fceb87ff6cf88f30ee5bdd273aeed9f1ee903d",
+          "role": "weather_app_glass_rain_sample_glass_opening_caption"
+        }
+      },
+      {
+        "slug": "glass_galloping",
+        "time_seconds": 216.502,
+        "story_time_seconds": 206.900549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 216.502,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 3723,
+        "active_region_nonblank": 279,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_galloping_0216502ms.png",
+          "sha256": "635dab27d2b44c8e793507105ae8f805a2736177fe1fdb0adcc4274bdc9cd6f1",
+          "role": "weather_app_glass_rain_sample_glass_galloping"
+        }
+      },
+      {
+        "slug": "glass_five_conditions",
+        "time_seconds": 316.442,
+        "story_time_seconds": 306.840549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 316.442,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 4239,
+        "active_region_nonblank": 320,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_five_conditions_0316442ms.png",
+          "sha256": "25c9f9f88b24ca4435783278e41ad6229274ef181ed197a1e2bc4b41a56079fe",
+          "role": "weather_app_glass_rain_sample_glass_five_conditions"
+        }
+      },
+      {
+        "slug": "glass_torsion_peak",
+        "time_seconds": 559.355,
+        "story_time_seconds": 549.753549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 559.355,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 4840,
+        "active_region_nonblank": 383,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_torsion_peak_0559355ms.png",
+          "sha256": "e302b70229f10aae733e4675688bad521fef1fb741c325cc38055517e148258d",
+          "role": "weather_app_glass_rain_sample_glass_torsion_peak"
+        }
+      },
+      {
+        "slug": "glass_synthesis",
+        "time_seconds": 685.83,
+        "story_time_seconds": 676.228549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 685.83,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 4215,
+        "active_region_nonblank": 300,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_synthesis_0685830ms.png",
+          "sha256": "b37f4dc8e4d4137b273888894628328a44c2f21a219eb2e7cbe05cc8cfb0b448",
+          "role": "weather_app_glass_rain_sample_glass_synthesis"
+        }
+      },
+      {
+        "slug": "glass_outro",
+        "time_seconds": 849.235,
+        "story_time_seconds": 839.633549,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 849.235,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 3820,
+        "active_region_nonblank": 298,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_outro_0849235ms.png",
+          "sha256": "8600847d2d431298f68b3bc9f4e6b6241796e77b0758ef41b2115611645aff97",
+          "role": "weather_app_glass_rain_sample_glass_outro"
+        }
+      },
+      {
+        "slug": "glass_end_screen",
+        "time_seconds": 856.525,
+        "story_time_seconds": 839.63356,
+        "motion_clock": "audio_time_from_zero",
+        "motion_time_seconds": 856.525,
+        "droplet_count": 176,
+        "runner_count": 34,
+        "reference_model": "weather_app_beaded_glass_reference",
+        "shape_model": "soft_lens_beads_with_short_runners",
+        "dominant_droplet_read": "water_droplets_not_bubbles_not_texture",
+        "bead_density": "medium_high_many_small_medium_soft_beads",
+        "highlight_policy": "faint_offset_lens_highlight_and_soft_shadow_no_radial_bubble_ring",
+        "active_region_alpha_sum": 3561,
+        "active_region_nonblank": 259,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_20260519T042219Z/qa/screenshots/glass_end_screen_0856525ms.png",
+          "sha256": "a509bb62cfa778361e1eb1fcaa401544cfbd38dee6d92af307cc7663baffbe42",
+          "role": "weather_app_glass_rain_sample_glass_end_screen"
+        }
+      }
+    ],
+    "reads": {
+      "glass_rain_weather_app_reference_alignment_read": "pass_weather_app_reference_soft_beads_and_short_runners_matched",
+      "glass_rain_water_droplet_read": "pass_soft_lens_beads_read_as_water_droplets",
+      "glass_rain_not_bubble_read": "pass_subtle_irregular_beads_without_radial_bubble_shading",
+      "glass_rain_not_dry_streak_read": "pass_beads_dominate_with_short_runners_not_dry_streak_texture",
+      "glass_rain_intro_motion_read": "pass_glass_rain_moves_between_t0_and_t0_85_before_voice_start",
+      "glass_rain_motion_clock_read": "pass_glass_rain_motion_uses_audio_time_from_zero_not_story_time",
+      "right_rail_exclusion_read": "pass_glass_rain_canvas_alpha_zero_in_right_rail_review_region",
+      "caption_legibility_preservation_read": "pass_caption_track_active_and_glass_rain_excluded_from_caption_region",
+      "source_plate_geometry_preservation_read": "pass_no_source_plate_geometry_change_from_glass_rain_layer",
+      "debug_overlay_absence_read": "pass_no_diagnostic_overlay_in_player_samples",
+      "range_scrub_effect_review_read": "pass_glass_rain_samples_captured_across_range_including_end_screen"
+    }
+  },
+  "reads": {
+    "glass_rain_reference_alignment_read": "pass_weather_app_reference_adapted_to_organic_non_spherical_glass_surface",
+    "glass_rain_intro_motion_read": "pass_glass_rain_moves_between_t0_and_t0_85_before_voice_start",
+    "glass_rain_motion_clock_read": "pass_glass_rain_motion_uses_audio_time_from_zero_not_story_time",
+    "glass_rain_foreground_drop_scale_read": "pass_large_foreground_width_height_ranges_preserved",
+    "glass_rain_non_spherical_shape_read": "pass_irregular_teardrop_aspect_ratio_range_declared",
+    "glass_rain_organic_teardrop_read": "pass_organic_teardrop_and_rivulet_shape_model",
+    "glass_rain_bubble_artifact_absence_read": "pass_no_spherical_bubble_primitives_in_glass_renderer",
+    "glass_rain_terminal_shape_read": "pass_terminal_drops_use_elongated_teardrop_paths",
+    "glass_rain_organic_pane_variant_read": "pass_foreground_glass_rain_organic_pane_v5_matches_non_spherical_shape_direction",
+    "glass_rain_effects_plan_read": "pass_foreground_glass_rain_organic_pane_v5_declared_and_exposed",
+    "glass_rain_lane_decision_read": "pass_medium_visible_organic_glass_rain_selected",
+    "glass_rain_image_only_mask_read": "pass_image_only_layer_masked_left_of_fixed_right_rail",
+    "glass_rain_motion_read": "pass_organic_teardrops_and_rivulets_move_diagonally_down_screen",
+    "deterministic_glass_rain_read": "pass_seeded_organic_pane_parameters_declared",
+    "source_plate_geometry_preservation_read": "pass_no_source_plate_geometry_change_from_glass_rain_layer",
+    "right_rail_exclusion_read": "pass_glass_rain_canvas_alpha_zero_in_right_rail_review_region",
+    "caption_legibility_preservation_read": "pass_caption_track_active_and_glass_rain_excluded_from_caption_region",
+    "debug_overlay_absence_read": "pass_no_diagnostic_overlay_in_player_samples",
+    "range_scrub_effect_review_read": "pass_organic_glass_rain_samples_captured_from_intro_through_end_screen",
+    "ambient_effects_plan_read": "pass_foreground_glass_rain_organic_pane_v5_declared_and_exposed",
+    "ambient_effect_lane_decision_read": "pass_foreground_glass_rain_organic_pane_v5",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_canvas_with_right_rail_exclusion_mask",
+    "foreground_occlusion_read": "pass_no_independent_people_car_face_vehicle_or_bridge_motion",
+    "effect_layer_source_safety_read": "pass_additive_image_only_layer_preserves_k3_plate_geometry",
+    "deterministic_ambient_read": "pass_seeded_audio_time_organic_glass_pane_parameters_declared",
+    "additive_effect_integration_read": "pass_organic_glass_rain_replaces_bubble_like_beads_without_source_art_audio_or_caption_changes",
+    "ambient_effect_browser_sample_read": "pass_organic_glass_rain_canvas_nonblank_and_changes_across_intro_story_and_end_screen",
+    "living_cover_ambient_effects_layer_read": "pass_foreground_glass_rain_organic_pane_v5_packet_local_artifact_over_flipped_backplate",
+    "human_ambient_direction_read": "pass_user_bubble_shape_feedback_repaired_for_review",
+    "source_art_read": "pass_k3_source_art_flipped_layout_probe_loaded",
+    "backplate_horizontal_flip_read": "pass_deterministic_horizontal_flip_layout_probe_active",
+    "right_rail_story_space_read": "pass_bridge_tower_repositioned_out_from_under_fixed_right_rail_for_review",
+    "source_art_successor_read": "pass_candidate_g_runtime_reference_absent",
+    "rough_assembly_browser_qa_read": "pass_organic_glass_rain_shape_samples_captured_at_1920x1080",
+    "final_assembly_read": "blocked_pending_human_keep_on_organic_glass_rain_rough_proof",
+    "final_render_read": "blocked_pending_human_keep_on_organic_glass_rain_rough_proof"
+  },
+  "supersedes": {
+    "packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_flipped_backplate_large_drops_20260519T011711Z",
+    "status": "tighten_superseded_by_organic_glass_rain_shape_successor",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_flipped_backplate_large_drops_20260519T011711Z/rough_assembly_manifest.json"
+  },
+  "rejected_successor_preserved": {
+    "packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z",
+    "status": "reject_storm_pressure_ambient_direction",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/rough_assembly_manifest.json"
+  },
+  "downstream_locks": {
+    "final_assembly": "blocked_pending_human_keep_on_organic_glass_rain_rough_proof",
+    "final_mp4": "blocked_pending_human_keep_on_organic_glass_rain_rough_proof",
+    "publish_readiness": "blocked_no_final_mp4",
+    "youtube_upload": "blocked_no_final_mp4_or_publish_readiness_package",
+    "public_release": "manual_youtube_studio_only",
+    "may_render_final_mp4": false,
+    "may_advance_to_publish_readiness": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "updated_at": "2026-05-19T04:56:35Z",
+  "updated_utc": "2026-05-19T04:56:35Z",
+  "tightened_at": "2026-05-19T04:56:35Z",
+  "tighten_reason": "User requested increased droplet opacity; weather-app v6 retained as predecessor only.",
+  "superseded_by": {
+    "packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_opacity_20260519T045635Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_opacity_20260519T045635Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_glass_rain_opacity_20260519T045635Z/player.html",
+    "status": "rough_assembly_review_ready_human_keep_pending"
+  },
+  "may_render_final_mp4": false,
+  "may_youtube_action": false,
+  "public_release_ready": false
+}

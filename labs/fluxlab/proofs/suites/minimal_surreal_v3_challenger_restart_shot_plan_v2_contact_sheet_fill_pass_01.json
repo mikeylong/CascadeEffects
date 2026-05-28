@@ -1,0 +1,56 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_restart_shot_plan_v2_contact_sheet_fill_pass_01",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism, restrained Nikon still-frame feel",
+      "negative_prompt": "text, watermark, logo, ui overlay, readable signage, letters, numbers, black caption box, poster design, collage fragments, diagram, CAD render, white studio background, isolated product render, cutaway model, exploded view, red abstract object, red cube, red origami shape, red sculpture, saturated accent block, warning label, crowd chaos, collapse reenactment, gore, bodies, emergency spectacle, smoke, fire, debris field, plastic CGI surfaces, flattened render look, pseudo NASA logo, NASA meatball, NASA worm, mission patch, agency insignia, American flag, flag decal, USA marking, United States marking, Challenger wordmark, shuttle name text, wing text, body decals, countdown clock, readable control panel, whiteboard writing, technical wall chart, posted paper, binder spine label, folder label, paperwork text, chart labels, diagram marks, keyboard text, monitor text, warning label, button labels, numbered display, digital countdown, schematic arrows, label plate, printed plate, gauge numbers, switch labels, readable film edge, contact sheet captions"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_restart_v2__beat_01b_archive_light_table",
+      "archetype": "room_or_interior",
+      "base_seed": 89102,
+      "prompt_body": "Photoreal documentary macro of an archival light table with unlabeled translucent photo sleeves and blank dark film-frame rectangles repeating in orderly rows, cool institutional glow, shallow depth of field, program rhythm without any readable frame edges, no writing, no logos, no captions, no mission labels, no people"
+    },
+    {
+      "id": "challenger_restart_v2__beat_01c_calm_control_room_wordless",
+      "archetype": "room_or_interior",
+      "base_seed": 89103,
+      "prompt_body": "Photoreal late-1980s control room interior seen vertically, wordless monitor glow and blank physical console shapes, empty operator chairs or tiny indistinct silhouettes only, calm institutional order, green-blue low light, no readable screens, no UI, no keyboard labels, no logos, no wall charts"
+    },
+    {
+      "id": "challenger_restart_v2__beat_03b_evidence_storage_shadow",
+      "archetype": "room_or_interior",
+      "base_seed": 89302,
+      "prompt_body": "Photoreal archive shelf with unmarked recovered hardware trays receding into soft shadow, one foreground tray edge and inert ring-like hardware shapes visible, muted green-gray institutional storage light, warning evidence becoming ordinary storage, no labels, no paper text, no tags, no human hands, no logos"
+    },
+    {
+      "id": "challenger_restart_v2__beat_04c_isolation_hallway_room",
+      "archetype": "room_or_interior",
+      "base_seed": 89403,
+      "prompt_body": "Photoreal institutional hallway looking into a late-1980s engineering meeting room through an open doorway, one distant human silhouette reduced to posture or one empty chair under cold fluorescent light, restrained negative space, no readable signs, no documents, no wall text, no logos, no gestures"
+    },
+    {
+      "id": "challenger_restart_v2__beat_04d_cold_pad_tower_detail_a",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 89441,
+      "prompt_body": "Photoreal cold dawn launch pad tower detail, frost on steel handrails and service structure with blue-gray haze, only partial shuttle-era geometry cropped at edge and kept secondary, environmental cold is the subject, documentary vertical frame, no centered full shuttle stack, no heroic poster framing, no plume, no smoke, no flame, no logos, no readable markings"
+    },
+    {
+      "id": "challenger_restart_v2__beat_04d_cold_pad_tower_detail_b",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 89442,
+      "prompt_body": "Close documentary vertical photograph of icy launch tower metal and frost-coated pad equipment at dawn, pale blue mist and cold service-platform geometry dominate the frame, shuttle presence only implied by out-of-focus white curved hardware at one edge, no full vehicle portrait, no launch action, no smoke, no fire, no explosion, no text, no markings"
+    }
+  ]
+}

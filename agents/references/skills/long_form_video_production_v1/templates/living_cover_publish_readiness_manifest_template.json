@@ -1,0 +1,256 @@
+{
+  "packet_id": "EPISODE_publish_readiness_TIMESTAMP",
+  "review_id": "EPISODE_ID",
+  "lifecycle_stage": "in_progress_or_publish_readiness",
+  "gate": "publish_readiness_lifecycle_or_package_gate",
+  "current_gate": "final_assembly_review_or_publish_readiness_review",
+  "status": "in_progress_blocked_pending_final_assembly_keep_or_review_ready_pending_human_publish_readiness_disposition",
+  "human_disposition": "defer",
+  "final_assembly_disposition": "pending_or_keep",
+  "created_utc": "TIMESTAMP",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "rail_content_model_id": "rolling_caption_anchor_v1",
+  "caption_display_model": "rolling_rail_caption_window_v1",
+  "caption_window_role": "middle_two_thirds_right_rail",
+  "caption_blur_scope": "caption_window_only",
+  "caption_highlight_source": "living_cover_cue_map_key_phrases",
+  "caption_palette_source": "sampled_episode_backplate",
+  "caption_display_chunking": "script_locked_chunk_split_v1",
+  "review_chrome_policy": "hidden_in_render_mode",
+  "highlight_render_policy": "reviewed_cue_map_spans_only",
+  "primary_review_artifact": {
+    "path": "review.html",
+    "sha256": "TBD",
+    "bytes": 0
+  },
+  "review_surface_type": "html_inline_media_local_refs",
+  "publish_readiness_review_html_path": "ABSOLUTE_PATH/review.html",
+  "publish_readiness_review_html_sha256": "TBD",
+  "publish_readiness_canonical_review_url": "http://127.0.0.1:PORT/review.html",
+  "review_server": {
+    "type": "byte_range_capable_local_http",
+    "script_path": "scripts/range_static_server.mjs",
+    "url": "http://127.0.0.1:PORT/review.html",
+    "range_probe_status": "pending"
+  },
+  "remote_review": {
+    "status": "not_published",
+    "review_id": "EPISODE_ID",
+    "remote_review_url": "https://cascadeeffects.tv/reviews/publish-readiness/EPISODE_ID",
+    "route": "/reviews/publish-readiness/[reviewId]",
+    "site_visibility": "unlisted_noindex",
+    "storage_policy": "normalized_manifest_and_small_evidence_assets_only",
+    "large_video_upload_allowed": false,
+    "video_host": "youtube_unlisted",
+    "publish_command": "cd /Users/mike/Web_CascadeEffects && npm run reviews:publish -- --packet ABSOLUTE_PACKET_PATH --mode publish-readiness --review-id EPISODE_ID --receipt ABSOLUTE_UNLISTED_YOUTUBE_RECEIPT_PATH"
+  },
+  "current_review_artifact": {
+    "role": "current_review_artifact_not_upload_candidate_until_publish_readiness_keep",
+    "final_assembly_human_disposition": "pending_or_keep",
+    "mp4_path": "assets/video/EPISODE.mp4",
+    "mp4_sha256": "TBD"
+  },
+  "youtube_review": {
+    "host": "youtube_unlisted",
+    "status": "not_uploaded",
+    "video_id": "TBD",
+    "watch_url": "https://www.youtube.com/watch?v=TBD",
+    "embed_url": "https://www.youtube-nocookie.com/embed/TBD?enablejsapi=1&rel=0&modestbranding=1&playsinline=1",
+    "privacy_status": "unlisted_required",
+    "processing_status": "pending_youtube_upload",
+    "embeddable": null,
+    "receipt_path": "ABSOLUTE_UNLISTED_YOUTUBE_RECEIPT_PATH",
+    "receipt_sha256": "TBD",
+    "access_note": "Unlisted YouTube playback is available to anyone with the link; keep the cascadeeffects.tv URL and YouTube watch URL limited to reviewers."
+  },
+  "media": {
+    "mp4": {
+      "path": "assets/video/EPISODE.mp4",
+      "sha256": "TBD",
+      "bytes": 0
+    },
+    "upload_vtt": {
+      "path": "assets/captions/EPISODE.vtt",
+      "sha256": "TBD",
+      "bytes": 0
+    },
+    "upload_srt": {
+      "path": "assets/captions/EPISODE.srt",
+      "sha256": "TBD",
+      "bytes": 0
+    },
+    "thumbnail_candidate": {
+      "path": "assets/thumbnail/thumbnail_candidate.png",
+      "sha256": "TBD",
+      "bytes": 0
+    },
+    "qa_frames": [],
+    "transition_samples": [
+      {
+        "label": "VO/outro transition review sample",
+        "path": "assets/audio/vo_outro_blend_transition.mp3",
+        "sha256": "TBD",
+        "bytes": 0
+      }
+    ]
+  },
+  "end_screen_palette_contract": {
+    "contract_id": "living_cover_end_screen_palette_contract_v1",
+    "status": "blocked_pending_final_approved_backplate_palette_sample",
+    "required": true,
+    "required_for_gates": ["visual_system", "rough_assembly", "final_assembly", "publish_readiness"],
+    "palette_source": "TBD_sampled_episode_backplate_or_human_approved_override",
+    "approved_backplate": {
+      "path": "TBD_APPROVED_BACKPLATE_PATH",
+      "sha256": "TBD_APPROVED_BACKPLATE_SHA256",
+      "role": "approved_living_cover_source_art_backplate"
+    },
+    "colors": {
+      "video_target_fill_rgba": "TBD",
+      "video_target_border_rgba": "TBD",
+      "video_target_secondary_border_rgba": "TBD",
+      "subscribe_ring_rgba": "TBD",
+      "muted_rail_text_hex": "TBD",
+      "small_accent_hex": "TBD"
+    },
+    "reads": {
+      "end_screen_palette_contract_read": "blocked_pending_final_approved_backplate_palette_sample",
+      "end_screen_target_fill_palette_read": "blocked_pending_final_approved_backplate_palette_sample",
+      "end_screen_target_contrast_read": "blocked_pending_final_approved_backplate_palette_sample",
+      "rail_panel_palette_read": "blocked_pending_final_approved_backplate_palette_sample",
+      "source_integrated_panel_color_read": "blocked_pending_final_approved_backplate_palette_sample",
+      "no_cross_episode_default_palette_read": "blocked_pending_final_approved_backplate_palette_sample"
+    }
+  },
+  "music_integration_contract": {
+    "contract_id": "EPISODE_subtle_tail_outro_v1",
+    "audio_mix_manifest_path": "ABSOLUTE_PATH/audio_mix_manifest.json",
+    "audio_mix_manifest_sha256": "TBD",
+    "vo_outro_blend_plan": {
+      "policy": "subtle_tail_outro_v1",
+      "full_outro_source_path": "ABSOLUTE_PATH/Paper Architecture.m4a",
+      "full_outro_start_seconds": 0,
+      "voice_end_seconds": 0,
+      "outro_prelap_seconds": 1.5,
+      "outro_under_vo_gain_linear": 0.1,
+      "outro_target_gain_linear": 0.42,
+      "outro_target_ramp_seconds": 3,
+      "outro_reaches_target_at_seconds": 0,
+      "under_vo_music_margin_db": 12,
+      "outro_no_restart_at_voice_end": true,
+      "outro_source_continuity": true
+    },
+    "outro_transition_review_sample": {
+      "mp3": {
+        "path": "assets/audio/vo_outro_blend_transition.mp3",
+        "sha256": "TBD",
+        "bytes": 0
+      }
+    }
+  },
+  "metadata": {
+    "copy_packet_path": "youtube_metadata_copy_packet.md",
+    "youtube_metadata_copywriting_read": "pending_human_review",
+    "public_metadata_copy_read": "pending_human_review",
+    "public_tag_relevance_read": "pending_human_review"
+  },
+  "locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false
+  },
+  "required_reads": [
+    "lifecycle_review_html_read",
+    "lifecycle_upload_lock_read",
+    "lifecycle_final_assembly_gate_read",
+    "final_assembly_human_keep_read",
+    "html_primary_review_read",
+    "html_media_refs_read",
+    "html_native_video_scrub_read",
+    "html_range_server_read",
+    "html_canonical_review_url_read",
+    "publish_readiness_package_local_asset_copy_read",
+    "html_upload_lock_read",
+    "youtube_metadata_copywriting_read",
+    "public_metadata_copy_read",
+    "public_tag_relevance_read",
+    "caption_sidecar_read",
+    "rail_content_model_read",
+    "caption_display_model_read",
+    "caption_display_chunking_read",
+    "review_chrome_policy_read",
+    "highlight_render_policy_read",
+    "rolling_caption_rough_keep_read",
+    "caption_end_screen_rollout_read",
+    "end_screen_palette_contract_read",
+    "end_screen_target_fill_palette_read",
+    "end_screen_target_contrast_read",
+    "no_cross_episode_default_palette_read",
+    "youtube_unlisted_review_upload_read",
+    "youtube_unlisted_review_privacy_read",
+    "remote_review_manifest_read",
+    "remote_review_large_video_upload_block_read",
+    "vo_outro_blend_plan_read",
+    "vo_outro_music_blend_read",
+    "vo_outro_perceptual_review_read",
+    "outro_transition_review_sample_read",
+    "outro_entry_level_match_read",
+    "outro_under_vo_masking_read",
+    "outro_target_after_voice_read",
+    "outro_prelap_source_read",
+    "outro_prelap_start_read",
+    "outro_no_restart_at_voice_end_read",
+    "outro_source_continuity_read",
+    "music_contract_regression_read",
+    "music_rights_read"
+  ],
+  "reads": {
+    "lifecycle_review_html_read": "pending_review_html_creation",
+    "lifecycle_upload_lock_read": "pending_upload_lock_check",
+    "lifecycle_final_assembly_gate_read": "pending_or_blocked_until_final_assembly_keep",
+    "final_assembly_human_keep_read": "pending_human_review",
+    "html_primary_review_read": "pending_human_review",
+    "html_media_refs_read": "pending_human_review",
+    "html_native_video_scrub_read": "pending_human_review",
+    "html_range_server_read": "pending_http_range_probe",
+    "html_canonical_review_url_read": "pending_http_review_url",
+    "publish_readiness_package_local_asset_copy_read": "pending_local_asset_check",
+    "html_upload_lock_read": "pending_upload_lock_check",
+    "youtube_metadata_copywriting_read": "pending_human_review",
+    "public_metadata_copy_read": "pending_human_review",
+    "public_tag_relevance_read": "pending_human_review",
+    "caption_sidecar_read": "pending_human_review",
+    "rail_content_model_read": "pending_final_assembly_manifest_check",
+    "caption_display_model_read": "pending_final_assembly_manifest_check",
+    "caption_display_chunking_read": "pending_final_assembly_manifest_check",
+    "review_chrome_policy_read": "pending_final_assembly_manifest_check",
+    "highlight_render_policy_read": "pending_final_assembly_manifest_check",
+    "rolling_caption_rough_keep_read": "pending_or_blocked_until_refreshed_rough_proof_keep",
+    "caption_end_screen_rollout_read": "pending_final_assembly_review",
+    "end_screen_palette_contract_read": "blocked_pending_final_approved_backplate_palette_sample",
+    "end_screen_target_fill_palette_read": "blocked_pending_final_approved_backplate_palette_sample",
+    "end_screen_target_contrast_read": "blocked_pending_final_approved_backplate_palette_sample",
+    "no_cross_episode_default_palette_read": "blocked_pending_final_approved_backplate_palette_sample",
+    "youtube_unlisted_review_upload_read": "pending_explicit_unlisted_upload_approval",
+    "youtube_unlisted_review_privacy_read": "pending_unlisted_upload_status_check",
+    "remote_review_manifest_read": "pending_remote_review_publish",
+    "remote_review_large_video_upload_block_read": "pending_remote_review_publish",
+    "vo_outro_blend_plan_read": "pending_music_contract_check",
+    "vo_outro_music_blend_read": "pending_perceptual_transition_review",
+    "vo_outro_perceptual_review_read": "pending_transition_sample_listen_review",
+    "outro_transition_review_sample_read": "pending_transition_sample_check",
+    "outro_entry_level_match_read": "pending_level_match_check",
+    "outro_under_vo_masking_read": "pending_under_vo_stem_margin_check",
+    "outro_target_after_voice_read": "pending_target_after_voice_check",
+    "outro_prelap_source_read": "pending_subtle_tail_outro_source_check",
+    "outro_prelap_start_read": "pending_subtle_tail_start_check",
+    "outro_no_restart_at_voice_end_read": "pending_no_restart_check",
+    "outro_source_continuity_read": "pending_source_continuity_check",
+    "music_contract_regression_read": "pending_regression_check",
+    "music_rights_read": "pending_human_review"
+  },
+  "next_review_question": "Review publish-readiness package and reply keep, tighten, or reject. Upload remains locked until explicit approval after this package is kept."
+}

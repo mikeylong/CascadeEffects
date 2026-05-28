@@ -1,0 +1,106 @@
+{
+  "family": "shorts_cover_plate",
+  "preset": "challenger_thesis_cover__final_upscale",
+  "base_fragment": "image_resize_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui",
+    "width": 1080,
+    "height": 1920,
+    "batch_size": 1,
+    "seed": 550128771,
+    "selected_seed": 550128771,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 6,
+    "guidance": 3.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.2,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_cover_plate/challenger_thesis_cover/final/challenger_thesis_cover_final",
+    "note_text": "Canonical final Challenger cover plate. Preserve the off-center thesis object and the quiet field for mobile packaging.",
+    "output_intent": "shorts_cover_plate",
+    "stage": "final_upscale",
+    "reference_board_dir": "references/challenger_episode_acts/board",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "bold",
+    "palette_policy": "contract-limited",
+    "accent_palette": "bone white, slate blue, charcoal, warning red",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "reserve the top UI band and the lower subtitle band while keeping the thesis object dominant",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "compressed Challenger warning totem held as the cover signal object",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_cover_plate/challenger_thesis_cover/refine/challenger_thesis_cover_refine_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.2,
+    "semantic_qc_profile": "minimal_surreal_packaging"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "compressed Challenger warning totem treated as one severe signal object",
+    "support_fragments": [
+      "one open seam and one red accent held subordinate to the signal object",
+      "quiet structural planes suggesting stack, seal, and institution without crowding the frame"
+    ],
+    "directives": [
+      "keep the thesis object off-center",
+      "recognizable anchor object"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "widgets": {
+        "upscale_method": "{{ params.upscale_method }}",
+        "scale_by": "{{ params.upscale_factor }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_cover_plate",
+    "generated_filename": "ce_shorts_cover_plate__challenger_thesis_cover__final_upscale.workflow.json",
+    "sync_filename": "ce_shorts_cover_plate__challenger_thesis_cover__final_upscale.json"
+  }
+}

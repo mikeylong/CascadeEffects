@@ -1,0 +1,309 @@
+{
+  "packet_id": "737_max_living_cover_cue_map_candidate_l_ramp_depth_lights_20260519",
+  "episode_id": "737-max",
+  "workflow": "long_form_video_production_v1",
+  "artifact_type": "living_cover_cue_map",
+  "created_at": "2026-05-19T21:03:15Z",
+  "status": "review_ready_pending_human_keep",
+  "human_disposition": "pending",
+  "may_advance": false,
+  "living_cover_system_version": "living_cover_system_v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "captioning_process_version": "living_cover_captioning_process_v1",
+  "source_art": {
+    "candidate_id": "candidate_l_ramp_depth_lights",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/candidates/737_max_living_cover_source_art_candidate_l_ramp_depth_lights_1920x1080_20260519.png",
+    "sha256": "05519145f11d4ceb49d38d6684fcb029877fca0bcec2329165eb81ff317a28b4",
+    "width": 1920,
+    "height": 1080,
+    "role": "kept_candidate_l_living_cover_source_art_backplate"
+  },
+  "source_art_keep": {
+    "human_keep_note": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/review/human_source_art_keep_candidate_l_ramp_depth_lights_20260519.md",
+      "sha256": "89d8aeb11ebff93028283263b48183bee9b91213d77a556c374bda8c5ba3430f"
+    },
+    "keep_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/source_art/source_art_candidate_l_ramp_depth_lights_keep_manifest_20260519.json",
+      "sha256": "4f7349ec5914ae138e54d1a2925bfae27dc8b9b05c0a316504fc7e8b559a83f8"
+    }
+  },
+  "audio_and_caption_sources": {
+    "audio_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/final/Ep7_737-MAX.wav",
+      "sha256": "adaf19d653f7d673d601ba0f273ef822dbce375dee25ec5c3554f687b839db71",
+      "duration_seconds": 942.869478
+    },
+    "caption_text_source": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/Ep7_737-MAX.txt",
+      "sha256": "3f95aaf72b3144f0c33ee85e77d18140a888ba97c46eb89b0cfaad5c61a7c718",
+      "role": "locked_script_visible_caption_text_source"
+    },
+    "caption_timing_sources": {
+      "srt": {
+        "path": "/Users/mike/Audio_CascadeEffects/tmp/transcripts_final/Ep7_737-MAX.diarized.srt",
+        "sha256": "d0ea85324c5b7aa07e290ba9f468a1dc26a70c4686ef5f59d26b8ea33e188096",
+        "role": "timing_only"
+      },
+      "vtt": {
+        "path": "/Users/mike/Audio_CascadeEffects/tmp/transcripts_final/Ep7_737-MAX.diarized.vtt",
+        "sha256": "f45906753a5660d6744060d0281b615b29297cae5aa80b5acca85a2baf2c83c5",
+        "role": "timing_only"
+      },
+      "whisperx_json": {
+        "path": "/Users/mike/Audio_CascadeEffects/tmp/transcripts_final/Ep7_737-MAX.whisperx.json",
+        "sha256": "6b2cd28bd172c0fff59c113b1b465fc0853cf57a7af0a529590d80ea5747ae8f",
+        "role": "timing_only"
+      }
+    },
+    "caption_output_model": "dual_visible_rail_and_youtube_vtt_sidecar",
+    "caption_text_policy": "Visible rail captions and YouTube sidecars must be generated from the locked script text. ASR, SRT, VTT, and WhisperX artifacts may supply timing only."
+  },
+  "story_time_model": {
+    "current_voice_start_offset_seconds": 0.0,
+    "story_time_at_current_audio_time": "audio_time_seconds",
+    "music_contract_retime_note": "A later music integration contract may add an intro voice-start offset; proof times and caption sidecars must be retimed there before rough assembly."
+  },
+  "rail_text_model": {
+    "rail_copy_source": "episode_specific_chapter_spine_from_kept_visual_system_plan",
+    "viewer_text_surface": "fixed_16x9_right_rail_v1_only",
+    "active_panel": "major chapter label, semantic active title, one short summary",
+    "context_rows": "nearby previous/upcoming semantic chapter titles only",
+    "caption_slot": "native_rail_caption_slot_v1",
+    "ordinal_labels": "blocked_for_viewer_facing_output",
+    "out_of_rail_text": "blocked_for_viewer_facing_output",
+    "cue_ids_visible": false,
+    "diagnostic_labels_visible": false
+  },
+  "rail_palette_intent": {
+    "source_aware_palette": "deep blue-gray rain glass and wet ramp shadow, warm amber practical lights, muted cream caption text",
+    "cross_episode_default_panel_color": "blocked",
+    "readability_strategy": "localized active-panel fill and caption softener only; no broad full-frame dark veil and no full-height opaque right-column panel"
+  },
+  "chapters": [
+    {
+      "id": "two_crews_one_hidden_system",
+      "title": "Two Crews, One Hidden System",
+      "story_start_seconds": 0.0,
+      "story_end_seconds": 80.606,
+      "story_start_timecode": "00:00:00.000",
+      "story_end_timecode": "00:01:20.606",
+      "rail_summary": "Two departures reveal one hidden control path.",
+      "story_anchor": "Lion Air 610, Ethiopian 302, and the premise that this is not about one faulty sensor.",
+      "visual_behavior": "Start on the kept terminal/ramp plate with settled rail state; terminal silhouettes and ramp lights imply public attention before departure."
+    },
+    {
+      "id": "a_familiar_airplane_had_changed",
+      "title": "A Familiar Airplane Had Changed",
+      "story_start_seconds": 80.606,
+      "story_end_seconds": 217.171,
+      "story_start_timecode": "00:01:20.606",
+      "story_end_timecode": "00:03:37.171",
+      "rail_summary": "A familiar airframe changed around a larger engine.",
+      "story_anchor": "737 commonality, A320neo pressure, MAX modernization, and the forward/high engine relationship.",
+      "visual_behavior": "Rail emphasis shifts toward nose and engine geometry; source plate remains intact with no overlays or labels on the aircraft."
+    },
+    {
+      "id": "software_preserved_the_promise",
+      "title": "Software Preserved the Promise",
+      "story_start_seconds": 217.171,
+      "story_end_seconds": 291.209,
+      "story_start_timecode": "00:03:37.171",
+      "story_end_timecode": "00:04:51.209",
+      "rail_summary": "Software made a new physical behavior feel old.",
+      "story_anchor": "MCAS introduced to compensate for changed pitch behavior, then expanded during development.",
+      "visual_behavior": "Right-rail transitions carry the software idea; the source plate gets only transform/opacity behavior, not diagnostic marks."
+    },
+    {
+      "id": "one_sensor_became_enough",
+      "title": "One Sensor Became Enough",
+      "story_start_seconds": 291.209,
+      "story_end_seconds": 459.507,
+      "story_start_timecode": "00:04:51.209",
+      "story_end_timecode": "00:07:39.507",
+      "rail_summary": "One input gained enough authority to move the airplane.",
+      "story_anchor": "Single AOA dependency, undisclosed MCAS, Lion Air, Ethiopian, and the first framing around procedure.",
+      "visual_behavior": "Rail contrast tightens around the single-sensor claim; no cyan traces, connector lines, cockpit UI, or sensor graphics appear over the plate."
+    },
+    {
+      "id": "training_followed_commonality",
+      "title": "Training Followed Commonality",
+      "story_start_seconds": 459.507,
+      "story_end_seconds": 659.173,
+      "story_start_timecode": "00:07:39.507",
+      "story_end_timecode": "00:10:59.173",
+      "rail_summary": "The commonality promise shaped what pilots were told.",
+      "story_anchor": "Five conditions: competitive pressure, MCAS authority growth, single-sensor acceptance, and limited pilot knowledge.",
+      "visual_behavior": "Semantic rail chapter changes carry the condition sequence without ordinal-only labels or out-of-rail cards."
+    },
+    {
+      "id": "procedure_hid_architecture",
+      "title": "Procedure Hid Architecture",
+      "story_start_seconds": 659.173,
+      "story_end_seconds": 800.597,
+      "story_start_timecode": "00:10:59.173",
+      "story_end_timecode": "00:13:20.597",
+      "rail_summary": "A procedure answer avoided an architecture problem.",
+      "story_anchor": "The fifth condition, post-Lion Air response, congressional record, oversight failures, and return-to-service redesign.",
+      "visual_behavior": "Rail copy and subtle plate quieting distinguish procedure from architecture; no hearing-room paperwork carrier is introduced."
+    },
+    {
+      "id": "the_familiar_story_failed",
+      "title": "The Familiar Story Failed",
+      "story_start_seconds": 800.597,
+      "story_end_seconds": 942.869478,
+      "story_start_timecode": "00:13:20.597",
+      "story_end_timecode": "00:15:42.869",
+      "rail_summary": "The familiar-airplane story collapsed into a system failure.",
+      "story_anchor": "System synthesis, familiar-aircraft claim, cause-chain close, and canonical next-episode line.",
+      "visual_behavior": "Motion and rail energy calm down for synthesis; captions and story rail text must suppress before the eventual end-screen window."
+    }
+  ],
+  "typography_cues": [
+    {
+      "id": "both_had_lost",
+      "story_time_seconds": 38.17,
+      "trigger": "Both had lost.",
+      "treatment": "brief right-rail active-title weight emphasis only",
+      "viewer_surface": "right_rail_only"
+    },
+    {
+      "id": "new_physical_reality",
+      "story_time_seconds": 69.218,
+      "trigger": "new physical reality",
+      "treatment": "active summary shift toward physical-change thesis",
+      "viewer_surface": "right_rail_only"
+    },
+    {
+      "id": "make_it_fly_like_one",
+      "story_time_seconds": 213.171,
+      "trigger": "make it fly like one",
+      "treatment": "semantic title transition into software promise",
+      "viewer_surface": "right_rail_only"
+    },
+    {
+      "id": "a_single_sensor",
+      "story_time_seconds": 291.209,
+      "trigger": "A single sensor.",
+      "treatment": "active panel contrast lift and chapter transition",
+      "viewer_surface": "right_rail_only"
+    },
+    {
+      "id": "did_not_name_mcas",
+      "story_time_seconds": 420.668,
+      "trigger": "It did not name MCAS.",
+      "treatment": "short rail pause with caption held cleanly in native rail slot",
+      "viewer_surface": "right_rail_only"
+    },
+    {
+      "id": "procedure_before_architecture",
+      "story_time_seconds": 660.515,
+      "trigger": "procedure before it was admitted as architecture",
+      "treatment": "semantic chapter transition, no ordinal labels",
+      "viewer_surface": "right_rail_only"
+    },
+    {
+      "id": "it_was_a_system",
+      "story_time_seconds": 824.344,
+      "trigger": "It was a system.",
+      "treatment": "rail summary snaps from event chronology into mechanism synthesis",
+      "viewer_surface": "right_rail_only"
+    },
+    {
+      "id": "cause_chain_longer",
+      "story_time_seconds": 920.0,
+      "trigger": "The cause chain was longer.",
+      "treatment": "settled closing rail with subdued source-art motion",
+      "viewer_surface": "right_rail_only"
+    }
+  ],
+  "effect_map_cues": [
+    {
+      "id": "physical_change_without_overlay",
+      "story_start_seconds": 80.606,
+      "story_end_seconds": 217.171,
+      "story_function": "Make the larger forward/high engine relationship the visual root of the cascade.",
+      "treatment": "source-safe crop/scale emphasis toward aircraft nose and engine; no lines, labels, arrows, or diagram overlays"
+    },
+    {
+      "id": "software_as_hidden_correction",
+      "story_start_seconds": 217.171,
+      "story_end_seconds": 291.209,
+      "story_function": "Shift from physical change to hidden stabilizer correction path.",
+      "treatment": "right-rail state change and restrained source-plate dimming; no cockpit UI or MCAS graphic"
+    },
+    {
+      "id": "single_sensor_authority",
+      "story_start_seconds": 291.209,
+      "story_end_seconds": 459.507,
+      "story_function": "Emphasize that one input carried aircraft-moving authority.",
+      "treatment": "rail emphasis and caption pacing; no generated sensor marker or cyan trace"
+    },
+    {
+      "id": "procedure_versus_architecture",
+      "story_start_seconds": 659.173,
+      "story_end_seconds": 800.597,
+      "story_function": "Separate procedural response from design architecture.",
+      "treatment": "semantic rail transition and context-row reordering; no evidence-table or hearing-room insert"
+    },
+    {
+      "id": "cause_chain_synthesis",
+      "story_start_seconds": 800.597,
+      "story_end_seconds": 942.869478,
+      "story_function": "Close on the chain rather than individual villains.",
+      "treatment": "decelerating rail transitions and lower-motion source-art behavior before end-screen suppression"
+    }
+  ],
+  "source_safe_motion_plan": {
+    "allowed": [
+      "very slow source-plate push of less than 2 percent",
+      "localized rail panel opacity transitions",
+      "caption slot softener only while captions are present",
+      "source-integrated ramp-light and rain-glass motion planned later in ambient/effects layer"
+    ],
+    "blocked": [
+      "diagnostic overlays over aircraft",
+      "cyan route lines or sensor traces",
+      "out-of-rail chapter cards",
+      "foreground paperwork or evidence-table inserts",
+      "full-height opaque right rail column",
+      "generated text outside the right rail"
+    ]
+  },
+  "review_reads": {
+    "living_cover_cue_map_read": "pass_review_ready_pending_human_keep",
+    "chapter_cue_coverage_read": "pass_seven_chapters_cover_full_audio_duration",
+    "typography_cue_read": "pass_key_phrases_mapped_to_right_rail_only",
+    "effect_map_cue_read": "pass_five_source_safe_cascade_moments_mapped_without_overlays",
+    "source_safe_motion_read": "pass_motion_plan_preserves_candidate_l_source_art",
+    "cue_no_diagnostic_overlay_read": "pass_no_diagnostic_overlay_or_cyan_trace_planned",
+    "cue_map_internal_artifact_read": "pass_internal_only_not_viewer_facing",
+    "visible_cue_overlay_read": "pass_no_visible_cue_overlay_planned",
+    "viewer_text_surface_inventory_read": "pass_right_rail_and_native_rail_caption_slot_only",
+    "right_rail_text_boundary_read": "pass_all_story_text_inside_fixed_right_rail",
+    "out_of_rail_text_read": "pass_no_out_of_rail_text_surface_planned",
+    "ordinal_chapter_label_read": "pass_no_ordinal_only_viewer_labels",
+    "end_screen_text_boundary_read": "pass_story_and_caption_text_suppressed_for_future_end_screen_window",
+    "caption_text_source_read": "pass_locked_script_text_only",
+    "caption_timing_source_read": "pass_asr_outputs_timing_only",
+    "stale_cross_episode_label_read": "pass_737_specific_rail_copy",
+    "rail_backlight_scope_read": "pass_localized_panel_and_caption_softener_only",
+    "right_rail_opacity_balance_read": "pass_source_visible_in_context_region",
+    "context_region_source_visibility_read": "pass_candidate_l_right_third_remains_visible_scene_context",
+    "full_frame_dark_overlay_read": "pass_no_full_frame_dark_veil_planned",
+    "localized_readability_treatment_read": "pass_localized_only",
+    "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper",
+    "paper_architecture_visual_style_read": "pass_no_resemblance"
+  },
+  "gate_effect": {
+    "may_mark_living_cover_cue_map_keep": false,
+    "may_create_ambient_effects_layer": false,
+    "may_create_music_integration_contract": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "may_public_release": false
+  },
+  "next_action": "Human review must choose keep, tighten, or reject for the Candidate L Living Cover cue map. Only cue-map keep can open ambient/effects planning."
+}

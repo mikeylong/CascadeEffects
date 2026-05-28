@@ -1,0 +1,245 @@
+{
+  "packet_id": "tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z",
+  "episode_id": "tacoma-narrows",
+  "workflow": "long_form_video_production_v1",
+  "phase_gate": "motion_readiness_review",
+  "created_at": "2026-05-17T16:33:17Z",
+  "status": "keep_opened_rough_assembly_gate",
+  "human_disposition": "keep",
+  "review_question": "keep motion readiness, tighten, reject, or defer",
+  "primary_review_artifact": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/review.html",
+    "sha256": "9810fd5055f6fdc6acb9f18cf444f69ab15a76d0038b39c2060494896ab7fc84",
+    "role": "html_primary_review_surface"
+  },
+  "review_packet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/motion_readiness_review_packet.md",
+    "sha256": "c3b7fec896ecb26c1cdcba0f07108be3e8a72ded529e2a1f96c748714e54805a",
+    "role": "markdown_support_review_packet"
+  },
+  "selected_source_art": {
+    "candidate_id": "candidate_g_higher_wave_downshot",
+    "source_art_role": "kept_imagegen_backplate_for_living_cover_motion_readiness",
+    "workspace_copy": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/source_art/candidate_g_higher_wave_downshot_1920x1080.png",
+      "sha256": "c9081edf59aed0a4b4538579f19a9d0a50ba9b33a075d2eaf722397b764d37de",
+      "role": "packet_workspace_copy"
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/source_art_manifest.json",
+      "sha256": "e4887a492b13b95782914b62207fc6e268d7c5bdd10a587117a14c9e2aa91112",
+      "role": "source_art_manifest"
+    },
+    "human_keep_note": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/review/human_source_art_keep_candidate_g_20260517T161819Z.md",
+      "sha256": "15d01105023ac202014afb2b717f7e136a963ab68280b073a5df800d589f70db",
+      "role": "human_keep_note"
+    },
+    "source_art_manifest_selected_candidate_read": "pass_candidate_g_higher_wave_downshot"
+  },
+  "generation_provenance": {
+    "tool": "deterministic_composition",
+    "mode": "motion_readiness_review_packet_over_kept_imagegen_source_art",
+    "source_generation_tool": "codex_builtin_image_gen",
+    "model": "unknown_builtin_image_gen_model",
+    "model_confidence": "inferred_from_path",
+    "notes": "This packet does not generate new source art or rough motion. It packages the human-kept ImageGen plate with cue, ambient/effects, caption, and music prerequisites."
+  },
+  "audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/final/Ep5_Tacoma-Narrows.wav",
+    "sha256": "de593cc6e4a554507f45a0289177a31b321a2017caca361287315d85cca7e2bf",
+    "role": "kept_long_form_voice_master",
+    "duration_seconds": 842.930794,
+    "codec_name": "pcm_s16le",
+    "sample_rate": 44100,
+    "channels": 1,
+    "bits_per_sample": 16
+  },
+  "script": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/Ep5_Tacoma-Narrows.txt",
+    "sha256": "08ae7837e0f01ac9a281f631b9d678dcd27ed9186946a1a50bd685fa42db586a",
+    "role": "locked_post_critique_script"
+  },
+  "caption_package": {
+    "captioning_process_version": "living_cover_captioning_process_v1",
+    "caption_output_model": "dual_visible_rail_and_youtube_vtt_sidecar",
+    "caption_text_source": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/Ep5_Tacoma-Narrows.txt",
+      "sha256": "08ae7837e0f01ac9a281f631b9d678dcd27ed9186946a1a50bd685fa42db586a",
+      "role": "locked_narration_script"
+    },
+    "caption_timing_source": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_production/transcripts_mastered/Ep5_Tacoma-Narrows.whisperx.json",
+      "sha256": "b16db284d29cbb496984117ccc00d8d3462538648eef26f03c791ab05a8ebd4e",
+      "role": "whisperx_timing_only"
+    },
+    "outputs": {
+      "story_vtt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.vtt",
+        "sha256": "c1b38aa34e0f6ab221a0fe7f9947a7eee08197d8dd009de70cdca62bf77bf779",
+        "role": "script_locked_story_vtt"
+      },
+      "story_srt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.srt",
+        "sha256": "da05677de993cad988c85e332236275bd8b9a68d9787bdf52538198770e5fc39",
+        "role": "script_locked_story_srt"
+      },
+      "offset_vtt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+        "sha256": "3eaa19c54d44bd656df934deb4610725f330d9492d2c04ff8a476debc32d7bc5",
+        "role": "script_locked_offset_vtt"
+      },
+      "offset_srt": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.srt",
+        "sha256": "a4fd26996be92952020b75b86dd9ee7e85d2afa3322233d7f002c0460947ef63",
+        "role": "script_locked_offset_srt"
+      },
+      "qa_json": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_caption_qa.json",
+        "sha256": "f0c6643a90b1ee1542a9a6accb68718cf6b4713f6e05b50c8f6f4a1574d08983",
+        "role": "caption_gate_qa_json"
+      }
+    },
+    "qa_reads": {
+      "caption_text_matches_script_read": "pass",
+      "caption_alignment_coverage_read": "pass",
+      "caption_asr_text_not_used_read": "pass",
+      "caption_no_caption_after_outro_start_read": "pass",
+      "caption_rail_safe_chunk_read": "pass",
+      "caption_timing_shift_read": "pass_offset_sidecars_generated_from_locked_script"
+    }
+  },
+  "living_cover_cue_map": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/living_cover_cue_map.json",
+    "sha256": "e9350e5a4524dcda20d86db668c52914e10076e5111a0f06cfe3b7d8ae435e99",
+    "role": "living_cover_cue_map_json"
+  },
+  "living_cover_cue_map_note": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/living_cover_cue_map.md",
+    "sha256": "aec85ac89b77a6be4fda922f511dfb7e8d7bd38e9f1af606e010861fe1c0165d",
+    "role": "living_cover_cue_map_md"
+  },
+  "ambient_effects_layer": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/living_cover_ambient_effects_layer.json",
+    "sha256": "c61d0ea96ccebb8fa6b9b4b6cb75a632ffa96b7b999dd6bb3e27b0d45661f330",
+    "role": "ambient_effects_layer_json"
+  },
+  "ambient_effects_layer_note": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/living_cover_ambient_effects_layer.md",
+    "sha256": "2940504ce47def0aaae6b5986241176b63807adbe2ced83e2ee3fc4bb3dabda9",
+    "role": "ambient_effects_layer_md"
+  },
+  "music_integration_contract": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/music_integration_contract.json",
+    "sha256": "d7c45491f47839b6dc372d2ba5456ec36ac8a01b9da575c27f3eac8e8d8b0f82",
+    "role": "music_integration_contract_json"
+  },
+  "music_integration_contract_note": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/music_integration_contract.md",
+    "sha256": "ac88cb340075ccafcf89080622b02b096c4aed0e1123a3094f4ab4b75d6fd526",
+    "role": "music_integration_contract_md"
+  },
+  "timing_model": {
+    "voice_start_offset_seconds": 9.601451,
+    "voice_duration_seconds": 842.930794,
+    "voice_end_outro_start_seconds": 852.532245,
+    "outro_duration_seconds": 30.795215,
+    "planned_total_duration_seconds": 883.32746,
+    "end_screen_start_seconds": 863.32746,
+    "end_screen_end_seconds": 883.32746
+  },
+  "review_reads": {
+    "living_cover_cue_map_read": "pass_review_ready_packet_local_artifact_created",
+    "chapter_cue_coverage_read": "pass_8_semantic_sections_plus_outro_handoff",
+    "typography_cue_read": "pass_right_rail_only_semantic_episode_copy",
+    "effect_map_cue_read": "pass_6_source_safe_moments_no_diagnostic_overlay",
+    "source_safe_motion_read": "pass_planned_transform_opacity_crop_only_over_kept_plate",
+    "cue_no_diagnostic_overlay_read": "pass_no_cue_ids_or_overlay_marks_in_viewer_proof_plan",
+    "cue_map_internal_artifact_read": "pass_internal_json_md_only",
+    "visible_cue_overlay_read": "pass_blocked_for_viewer_facing_output",
+    "ambient_effects_plan_read": "pass_packet_local_layer_created",
+    "ambient_effect_lane_decision_read": "pass_mixed_source_drift_lighting_restrained_weather_micro_life",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_coordinate_space_required_before_rough",
+    "foreground_occlusion_read": "pass_no_new_people_vehicle_or_face_effects_planned",
+    "effect_layer_source_safety_read": "pass_preserve_candidate_g_source_art_geometry",
+    "deterministic_ambient_read": "pass_seeded_parameters_declared_for_rough_builder",
+    "additive_effect_integration_read": "pass_successor_layers_must_preserve_kept_plate_and_prior_approved_layers",
+    "debug_overlay_absence_read": "pass_required_for_viewer_facing_rough",
+    "ambient_effect_browser_sample_read": "pass_sample_times_declared_for_next_rough_review",
+    "range_scrub_effect_review_read": "pass_required_for_long_proof_review_server",
+    "music_integration_plan_read": "pass_packet_local_contract_created",
+    "series_music_contract_read": "pass_challenger_style_intro_outro_default",
+    "approved_music_source_read": "pass_registered_paper_architecture_theme_assets_recorded",
+    "intro_music_contract_read": "pass_music_only_intro_plus_2s_fade_tail_under_opening_voice",
+    "voice_start_offset_read": "pass_9_601451s",
+    "caption_timing_shift_read": "pass_offset_sidecars_generated_from_locked_script",
+    "full_outro_music_read": "pass_30_795215s_full_outro_after_voice",
+    "end_screen_music_handoff_read": "pass_outro_carries_through_20s_static_target_window",
+    "audio_level_mix_read": "planned_required_before_rough_keep",
+    "music_rights_read": "review_warning_registered_theme_assets_content_id_check_before_public_release",
+    "music_contract_regression_read": "pass_no_under_opening_voice_bed_plus_short_tail",
+    "no_music_or_temp_music_waiver_read": "not_applicable_no_waiver_requested",
+    "caption_text_matches_script_read": "pass",
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_no_caption_after_outro_start_read": "pass",
+    "caption_rail_safe_chunk_read": "pass",
+    "stale_cross_episode_label_read": "pass_tacoma_specific_rail_copy",
+    "viewer_text_surface_inventory_read": "pass_planned_right_rail_captions_chapters_only",
+    "right_rail_text_boundary_read": "pass_fixed_16x9_right_rail_v1_only",
+    "out_of_rail_text_read": "pass_blocked_except_review_diagnostics_not_viewer_proof",
+    "ordinal_chapter_label_read": "pass_no_ordinal_only_viewer_labels",
+    "end_screen_text_boundary_read": "pass_story_text_suppressed_before_end_screen",
+    "rail_panel_palette_read": "pass_source_integrated_wet_steel_forest_rail_palette_planned",
+    "source_integrated_panel_color_read": "pass_no_challenger_navy_default",
+    "full_frame_dark_overlay_read": "pass_blocked_prefer_localized_rail_readability",
+    "localized_readability_treatment_read": "pass_right_rail_soft_panel_only",
+    "historical_accuracy_read": "pass_human_kept_source_art_with_39ft_width_context",
+    "source_reference_alignment_read": "pass_locked_script_and_wsdot_archival_motion_context",
+    "public_anchor_geometry_read": "pass_tacoma_suspension_bridge_deck_towers_cables_readable",
+    "tacoma_bridge_motion_read": "pass_candidate_g_wave_and_torsion_kept",
+    "bridge_deck_width_read": "pass_human_selected_wider_wave_variant_against_39ft_target",
+    "human_presence_read": "pass_anonymous_scale_elements_only",
+    "no_recognizable_faces_read": "pass",
+    "procedural_signal_overlay_read": "pass_no_overlay",
+    "ambient_line_artifact_read": "pass_no_cyan_or_diagnostic_lines",
+    "motion_readiness_read": "keep_human_approved_opened_rough_assembly_gate",
+    "rough_assembly_read": "blocked_pending_motion_readiness_keep",
+    "final_assembly_read": "blocked_no_rough_assembly",
+    "publish_readiness_read": "blocked_no_final_assembly"
+  },
+  "advance_flags": {
+    "may_advance_to_motion_readiness": false,
+    "may_start_rough_assembly": true,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false,
+    "publish_ready": false,
+    "youtube_upload_ready": false
+  },
+  "downstream_locks": {
+    "rough_assembly": "blocked_pending_human_keep_on_motion_readiness",
+    "final_assembly": "blocked_no_rough_assembly_keep",
+    "publish_readiness": "blocked_no_final_assembly_keep",
+    "youtube_upload": "blocked_no_publish_readiness_and_no_explicit_upload_approval",
+    "public_release": "manual_youtube_studio_only"
+  },
+  "browser_qa": {
+    "status": "pass",
+    "review_url": "http://127.0.0.1:8853/review.html",
+    "review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/review.html",
+    "page_title_read": "pass_tacoma_living_cover_motion_readiness",
+    "console_error_read": "pass_no_console_errors_after_favicon_fix",
+    "screenshot": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/qa/review_page_screenshot.png",
+      "sha256": "06a474133e1f087316ac7734593094a2af6edfb5a7eecad98ea110fd7fbb624c",
+      "role": "playwright_full_page_review_screenshot"
+    }
+  },
+  "human_keep_recorded_at": "2026-05-17T18:23:53Z",
+  "human_keep_note": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/review/human_motion_readiness_keep_20260517T182353Z.md",
+    "sha256": "10e531f3f8e0c9034b9eef0bd4cd8b90f41e608897f06fc4259a8b411e008e92",
+    "role": "human_motion_readiness_keep_note"
+  }
+}

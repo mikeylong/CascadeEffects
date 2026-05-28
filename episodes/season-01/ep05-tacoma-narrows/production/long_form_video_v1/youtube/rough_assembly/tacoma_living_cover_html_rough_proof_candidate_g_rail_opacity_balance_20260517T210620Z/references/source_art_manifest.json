@@ -1,0 +1,375 @@
+{
+  "packet_id": "tacoma_living_cover_bridge_deck_story_imagegen_20260517",
+  "episode_id": "tacoma-narrows",
+  "workflow": "long_form_video_production_v1",
+  "phase_gate": "source_art_gate",
+  "status": "source_art_gate_keep_candidate_g_next_living_cover_prereqs",
+  "human_disposition": "keep",
+  "created_at": "2026-05-17",
+  "carrier_type": "generated_raster_source_art",
+  "visual_lane": "cascade-ink-lit-photoreal-v1",
+  "package_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517",
+  "primary_review_artifact": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/review.html",
+    "sha256": "bc06c8a9972d27389590d438b5929824468db8498d63af6a558e9488db6560a9",
+    "review_surface_type": "html_embedded_source_art_candidates"
+  },
+  "contact_sheet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/review/contact_sheet_tacoma_bridge_deck_story.jpg",
+    "sha256": "ac17e0e0a64d58a38e1ed1aa380f5d173feb113e4d8013564e07def2536b3898",
+    "dimensions": {
+      "width": 1920,
+      "height": 720
+    }
+  },
+  "historical_accuracy_review": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/review/historical_accuracy_review.md",
+    "sha256": "00675c8c30487131e12ac23c2958c6579be099aeae6cfa41e57d4092a58755be"
+  },
+  "browser_qa": {
+    "url": "http://127.0.0.1:8852/review.html",
+    "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/qa/review_page_screenshot.png",
+    "screenshot_sha256": "f2daaa9a2e7d8ae4b2356446a85a3bd543d70c56512d9cdcdef08facf9bf6a21",
+    "review_html_load_read": "pass",
+    "image_refs_read": "pass_all_nine_candidate_images_loaded_kept_candidate_g_visible",
+    "browser_policy_note": "Direct file URL navigation was blocked by browser security policy; QA used local HTTP server.",
+    "screenshot_dimensions": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "source_references": [
+    {
+      "label": "WSDOT 1940 bridge specifications",
+      "url": "https://www.wsdot.wa.gov/tnbhistory/1940-bridge.htm",
+      "used_for": "39 feet between cables, 26-foot roadway, two 5-foot sidewalks, 8-foot plate girders, two traffic lanes, 2800-foot center span, 1:72 slenderness read"
+    },
+    {
+      "label": "Locked Tacoma narration script",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/Ep5_Tacoma-Narrows.txt",
+      "sha256": "08ae7837e0f01ac9a281f631b9d678dcd27ed9186946a1a50bd685fa42db586a",
+      "used_for": "Coatsworth car, crawling figure, rolling deck, engineers and photographers watching"
+    }
+  ],
+  "generation_provenance": {
+    "tool": "codex_builtin_image_gen",
+    "model": "unknown_builtin_image_gen_model",
+    "model_confidence": "not_disclosed_by_builtin_tool",
+    "generation_mode": "text_to_image_then_ffmpeg_normalize_to_1920x1080",
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_imagegen_primary_source",
+    "local_rendered_backplate_read": "pass_local_tools_only_normalized_and_packaged_imagegen_assets",
+    "source_art_workspace_copy_read": "pass_workspace_copies_present"
+  },
+  "candidates": [
+    {
+      "id": "candidate_a_deck_survival_moment",
+      "label": "Deck Survival Moment",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09789b24148194875ff13f61f38a89.png",
+      "source_generation_sha256": "9faf4a05a7268d993549cae0a436c193dba1adaf9d768e5e06ac4a702e7c5cd9",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_a_deck_survival_moment_1920x1080.png",
+      "workspace_sha256": "363cace9eaeb01c5397b847f7bcb2257e0aca8d8a46eba3a5856e2f4c2e0a1f8",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_a_deck_survival_moment_prompt.txt",
+      "prompt_sha256": "22186655e746888b1c6fc4e3093390dd546d452d0bdb14562bd3d1239ef5ff8b",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "tighten_tower_opening_and_torsion_exactness",
+        "source_reference_alignment_read": "pass_story_beat_aligned_with_locked_script",
+        "public_anchor_geometry_read": "tighten_tower_opening_shape",
+        "tacoma_bridge_motion_read": "tighten_torsion_partly_reads_as_vertical_roadway_swell",
+        "bridge_deck_width_read": "pass_narrow_two_lane_read",
+        "bridge_deck_slenderness_read": "pass",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass_anonymous_story_scale",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    },
+    {
+      "id": "candidate_b_torsion_with_witnesses",
+      "label": "Torsion With Witnesses",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09791ae9088194b13644bee73a2d0d.png",
+      "source_generation_sha256": "a192cfaf203fc1628db4060b76b46b1f169c75af8b584728c39456a89224c6f6",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_b_torsion_with_witnesses_1920x1080.png",
+      "workspace_sha256": "f2e525cb4fc0f2299832c44747795c5f7edd2d4ac90ea7b69e75f9a82b2a5262",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_b_torsion_with_witnesses_prompt.txt",
+      "prompt_sha256": "25830ed44645472524679a3bb7f162b4b336db5b7a4a2749b76d6face47bfb9c",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "tighten_readable_plate_and_busy_witness_staging",
+        "source_reference_alignment_read": "pass_engineers_photographers_watching_story_beat",
+        "public_anchor_geometry_read": "pass_narrow_span_and_plate_girder_read",
+        "tacoma_bridge_motion_read": "pass_torsional_wave_visible",
+        "bridge_deck_width_read": "pass_narrow_two_lane_read",
+        "period_vehicle_read": "tighten_readable_plate_text_risk",
+        "human_presence_read": "pass",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    },
+    {
+      "id": "candidate_c_narrow_deck_survival",
+      "label": "Narrow Deck Survival",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09795eec6c819487ae2e404fb45b28.png",
+      "source_generation_sha256": "3cca9e3669cb66905e557a9abd7121a32028fdf83d8b0f13831594b64081a750",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_c_narrow_deck_survival_1920x1080.png",
+      "workspace_sha256": "6198ae78db34f05687aeca30c711bd2be329868cb53cba07617f1bc56bd0ff14",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_c_narrow_deck_survival_prompt.txt",
+      "prompt_sha256": "d229872dc6d45699332587c2a675672b26175479c6bcdc6b04f04e0f44851d21",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "review_ready_with_tighten_note_for_tower_opening_and_plate_girder_height",
+        "source_reference_alignment_read": "pass_locked_script_survival_story_beat",
+        "public_anchor_geometry_read": "review_ready_original_bridge_anchor_visible",
+        "tacoma_bridge_motion_read": "pass_torsional_deck_story_visible",
+        "bridge_deck_width_read": "pass_narrow_two_lane_39ft_read",
+        "bridge_deck_slenderness_read": "pass",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass_anonymous_people_for_story_and_scale",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    },
+    {
+      "id": "candidate_d_wider_wave_downshot",
+      "label": "Wider Wave Down-Shot",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a0983aa5c5481948b0fb7e07c7e5085.png",
+      "source_generation_sha256": "eb8dea512eaa74253fc5b8a42fdb50e558648ea8680600d600bde3b87a48c7cf",
+      "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_d_wider_wave_downshot_original.png",
+      "workspace_original_copy_sha256": "eb8dea512eaa74253fc5b8a42fdb50e558648ea8680600d600bde3b87a48c7cf",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_d_wider_wave_downshot_1920x1080.png",
+      "workspace_sha256": "8370d0d6e4f0c176e943fb4de36900638bd80bc33f18494561b18c27b1e03e72",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_d_wider_wave_downshot_prompt.txt",
+      "prompt_sha256": "a50d6f8c18ee27c987ff2ab1cb2d55b82512e0bf6a20a8fcd1e6500876bee6b4",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "review_ready_human_judgment_required_for_wider_feeling_width",
+        "source_reference_alignment_read": "pass_locked_script_survival_story_beat",
+        "public_anchor_geometry_read": "review_ready_original_bridge_anchor_visible",
+        "tacoma_bridge_motion_read": "pass_stronger_down_bridge_wave_and_torsion",
+        "bridge_deck_width_read": "review_wider_feeling_composition_against_39ft_target",
+        "bridge_deck_slenderness_read": "pass_long_slender_span_read",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass_anonymous_people_for_story_and_scale",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    },
+    {
+      "id": "candidate_e_intimate_wave_story",
+      "label": "Intimate Wave Story",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09ccef12788194a48d09f74d1e35b2.png",
+      "source_generation_sha256": "39556ee583c561cb328d6b67dd91eb5c16b90212a7d7ec4717efef62bcbe7449",
+      "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_e_intimate_wave_story_original.png",
+      "workspace_original_copy_sha256": "39556ee583c561cb328d6b67dd91eb5c16b90212a7d7ec4717efef62bcbe7449",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_e_intimate_wave_story_1920x1080.png",
+      "workspace_sha256": "4953389fe1b01bc4493511f431192a38cd3a6cda95b28a81bb6e3c85756a87dd",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_e_intimate_wave_story_prompt.txt",
+      "prompt_sha256": "bd5ae1e9df37b2f47d25590ce43cdcec7f50c2441ba4b71dbd0b32fcf3e197f5",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "review_ready_human_judgment_required_for_wider_feeling_width",
+        "source_reference_alignment_read": "pass_reference_wave_and_locked_script_story_beat",
+        "public_anchor_geometry_read": "review_ready_original_bridge_anchor_visible",
+        "tacoma_bridge_motion_read": "pass_wave_readable_less_extreme_than_g",
+        "bridge_deck_width_read": "review_wider_feeling_composition_against_39ft_target",
+        "bridge_deck_slenderness_read": "pass",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass_anonymous_survivor_scale",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    },
+    {
+      "id": "candidate_f_crest_dip_wave",
+      "label": "Crest Dip Wave",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09cd4dedfc8194a7ddf8de76c90545.png",
+      "source_generation_sha256": "2049ca847e94fca35400f0a7abe80535ff61023ff71155d420d4f98aed779a38",
+      "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_f_crest_dip_wave_original.png",
+      "workspace_original_copy_sha256": "2049ca847e94fca35400f0a7abe80535ff61023ff71155d420d4f98aed779a38",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_f_crest_dip_wave_1920x1080.png",
+      "workspace_sha256": "73f76baefd9c9cf544c9ff750643219ce09a638814e526b1db837ba4e79dcbcc",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_f_crest_dip_wave_prompt.txt",
+      "prompt_sha256": "4ca665c8f65442d7f7f944aba6061b1689318abd4f5b88542e419b441e11bb97",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "review_ready_human_judgment_required_for_wider_feeling_width_and_witness_staging",
+        "source_reference_alignment_read": "pass_reference_wave_and_witness_context",
+        "public_anchor_geometry_read": "review_ready_original_bridge_anchor_visible",
+        "tacoma_bridge_motion_read": "pass_crest_dip_wave_visible",
+        "bridge_deck_width_read": "review_wider_feeling_composition_against_39ft_target",
+        "bridge_deck_slenderness_read": "pass",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    },
+    {
+      "id": "candidate_g_higher_wave_downshot",
+      "label": "Higher Wave Down-Shot",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09cdad2d3c8194b9f5f992b75a194c.png",
+      "source_generation_sha256": "ade34ea247f8ff07344393201bc40237aaded8a3c57fdb0dadbc9269a3dfba99",
+      "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_g_higher_wave_downshot_original.png",
+      "workspace_original_copy_sha256": "ade34ea247f8ff07344393201bc40237aaded8a3c57fdb0dadbc9269a3dfba99",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_g_higher_wave_downshot_1920x1080.png",
+      "workspace_sha256": "c9081edf59aed0a4b4538579f19a9d0a50ba9b33a075d2eaf722397b764d37de",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_g_higher_wave_downshot_prompt.txt",
+      "prompt_sha256": "4d8b58ad1db4df5f74e8b47dc15eaac6b5cc9a225414ff62e2e7b105c9eb0866",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "review_ready_human_judgment_required_for_wider_feeling_width",
+        "source_reference_alignment_read": "pass_reference_wave_and_locked_script_story_beat",
+        "public_anchor_geometry_read": "review_ready_original_bridge_anchor_visible",
+        "tacoma_bridge_motion_read": "pass_strongest_wave_and_torsion_read",
+        "bridge_deck_width_read": "review_wider_feeling_composition_against_39ft_target",
+        "bridge_deck_slenderness_read": "pass",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass_anonymous_survivor_and_witness_scale",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      },
+      "status": "human_keep_selected_active_for_living_cover_prereqs",
+      "human_disposition": "keep",
+      "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/review/human_source_art_keep_candidate_g_20260517T161819Z.md",
+      "approval_record_sha256": "15d01105023ac202014afb2b717f7e136a963ab68280b073a5df800d589f70db",
+      "review_notes": "Selected by user keep on 2026-05-17. Use as active source-art plate for Living Cover cue map, ambient/effects layer, music integration contract, and motion-readiness review."
+    },
+    {
+      "id": "candidate_h_reduced_crowd_wave",
+      "label": "Reduced Crowd Wave",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09ce12d20081949e61de182f8ada43.png",
+      "source_generation_sha256": "6b97346162d7a07f2489ba119da75dd7f0324aa6f0bbebd8ebfd60280e2037c9",
+      "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_h_reduced_crowd_wave_original.png",
+      "workspace_original_copy_sha256": "6b97346162d7a07f2489ba119da75dd7f0324aa6f0bbebd8ebfd60280e2037c9",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_h_reduced_crowd_wave_1920x1080.png",
+      "workspace_sha256": "dc576cb3245170f2bc92099c9f09794546305cb5bd9fc3600de73fcd875c0334",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_h_reduced_crowd_wave_prompt.txt",
+      "prompt_sha256": "e5dd79a33c1c22acd419487ad71cedef67affeffedc53f8595b358ad25a52ed1",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "review_ready_human_judgment_required_for_wider_feeling_width",
+        "source_reference_alignment_read": "pass_locked_script_survival_story_beat",
+        "public_anchor_geometry_read": "review_ready_original_bridge_anchor_visible",
+        "tacoma_bridge_motion_read": "tighten_wave_less_forceful_than_g",
+        "bridge_deck_width_read": "review_wider_feeling_composition_against_39ft_target",
+        "bridge_deck_slenderness_read": "pass",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass_anonymous_survivor_scale",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    },
+    {
+      "id": "candidate_i_distant_wave_evidence",
+      "label": "Distant Wave Evidence",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09ce6e2b5481949ee485848f02c814.png",
+      "source_generation_sha256": "4b4eb33c03e58539fa8961d025ce79cf467c4018f412054f7179c61d6e67bc93",
+      "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_i_distant_wave_evidence_original.png",
+      "workspace_original_copy_sha256": "4b4eb33c03e58539fa8961d025ce79cf467c4018f412054f7179c61d6e67bc93",
+      "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_i_distant_wave_evidence_1920x1080.png",
+      "workspace_sha256": "81396f493ca7dc974756d43086693b8dccb705bf628f69d4537b6f677f8bf82c",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/prompts/candidate_i_distant_wave_evidence_prompt.txt",
+      "prompt_sha256": "b414c174d54adaedababf40da1c41748ec2b6370c9bec1f250e82a7eba15170e",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reads": {
+        "historical_accuracy_read": "review_ready_human_judgment_required_for_wider_feeling_width_and_scene_busyness",
+        "source_reference_alignment_read": "pass_closest_to_user_reference_vehicle_witness_setup",
+        "public_anchor_geometry_read": "review_ready_original_bridge_anchor_visible",
+        "tacoma_bridge_motion_read": "pass_reference_style_wave_visible",
+        "bridge_deck_width_read": "review_wider_feeling_composition_against_39ft_target",
+        "bridge_deck_slenderness_read": "pass",
+        "period_vehicle_read": "pass",
+        "human_presence_read": "pass",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass",
+        "procedural_signal_overlay_read": "pass_no_overlay",
+        "texture_noise_read": "pass_subtle_archival_texture"
+      }
+    }
+  ],
+  "supersedes": [
+    {
+      "artifact": "tacoma_living_cover_player_imagegen_review_20260517",
+      "status": "diagnostic_only_superseded",
+      "reason": "premature player used a bridge-span backplate with weak storytelling and weak torsional deck read"
+    },
+    {
+      "artifact": "tacoma_living_cover_archival_source_art_review_20260517",
+      "status": "reference_only_not_active_source_art_gate",
+      "reason": "sourced archival frames remain reference evidence under ImageGen-primary long-form source-art rule"
+    }
+  ],
+  "gate_locks": {
+    "may_advance_to_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_build_publish_package": false,
+    "may_youtube_action": false,
+    "public_release_ready": false,
+    "may_treat_source_art_as_keep": true,
+    "may_start_living_cover_cue_map": true,
+    "may_start_ambient_effects_layer": false,
+    "may_start_music_integration_contract": false
+  },
+  "review_decision_requested": "complete: human keep recorded for candidate_g_higher_wave_downshot; next required gate is Living Cover cue map, ambient/effects layer, music integration contract, and motion-readiness review; rough assembly/final/upload/release remain blocked",
+  "selected_candidate_recommendation": "candidate_g_higher_wave_downshot",
+  "selected_candidate_id": "candidate_g_higher_wave_downshot",
+  "human_approval": {
+    "disposition": "keep",
+    "approved_candidate_id": "candidate_g_higher_wave_downshot",
+    "approved_utc": "2026-05-17T16:18:19Z",
+    "approved_raw_imagegen_output_path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_0ae240bbb97f2c1d016a09cdad2d3c8194b9f5f992b75a194c.png",
+    "approved_raw_imagegen_output_sha256": "ade34ea247f8ff07344393201bc40237aaded8a3c57fdb0dadbc9269a3dfba99",
+    "workspace_source_generation_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_g_higher_wave_downshot_original.png",
+    "workspace_source_generation_copy_sha256": "ade34ea247f8ff07344393201bc40237aaded8a3c57fdb0dadbc9269a3dfba99",
+    "final_source_art_plate_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/assets/source_art/candidate_g_higher_wave_downshot_1920x1080.png",
+    "final_source_art_plate_sha256": "c9081edf59aed0a4b4538579f19a9d0a50ba9b33a075d2eaf722397b764d37de",
+    "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_bridge_deck_story_imagegen_20260517/review/human_source_art_keep_candidate_g_20260517T161819Z.md",
+    "approval_record_sha256": "15d01105023ac202014afb2b717f7e136a963ab68280b073a5df800d589f70db",
+    "downstream_gate_note": "Source art is kept for the next long-form gated artifacts. Motion readiness, rough assembly, final MP4 render, publish package, YouTube action, and public release remain blocked until their own gates pass."
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "kind": "design-system-contract",
+  "id": "cascade-effects-design-system-contract",
+  "version": "1.0.0",
+  "profileId": "cascade-paper-architectures-ink-lit-v1",
+  "status": "active",
+  "summary": "The active Cascade Effects design system uses ink-lit Paper Architectures illustration, deterministic title policy, bold Inter-based title typography, and platform-specific safe-zone rules.",
+  "sourceAuthority": {
+    "canonicalProfile": "cascade-paper-architectures-ink-lit-v1",
+    "styleSystem": "brand/cascade-effects-signal.style-system.json",
+    "notes": [
+      "The style-system JSON is the active token source for web and asset composition.",
+      "This contract governs package assets for YouTube, podcast, Web_CascadeEffects, Shorts covers, long-form living-cover visuals, chapter cards, and metadata images.",
+      "Ink-lit Paper Architectures is the canonical brand illustration direction; bright/daylight Paper Architectures and low-poly pastel launch references are legacy/inactive.",
+      "CascadeEffects.tv web episode-gallery thumbnails use the proof-v6 subject-only lane until a new approved subject-only proof replaces it.",
+      "Production exports remain outside normal git; approved reference renders may be tracked through Git LFS as source evidence."
+    ]
+  },
+  "sourceEvidence": {
+    "sets": [
+      {
+        "id": "paper-architectures-ink-lit-v1",
+        "description": "Canonical visual evidence for the active ink-lit Paper Architectures direction: deep ink-blue fields, cream paper forms, lavender shadows, cyan vellum glow, restrained coral accents, and clean model-lit paper construction.",
+        "storage": {
+          "mode": "git-lfs",
+          "root": "brand/assets/reference-renders/paper-architectures-v1",
+          "trackedInGit": true,
+          "lfsRequired": true
+        },
+        "items": [
+          {
+            "id": "homepage-hero-cloudless-clean-surface-desktop-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v4.png",
+            "dimensions": {
+              "width": 1672,
+              "height": 941,
+              "unit": "px"
+            },
+            "roleHints": [
+              "homepage-brand-illustration",
+              "web-opengraph-image",
+              "title-treatment"
+            ],
+            "notes": [
+              "Approved active cloudless clean-surface title-bearing ink-lit homepage hero reference for CascadeEffects.tv; preserves the Cascade of Effects folded-paper title and stylized peril cues without paper clouds.",
+              "Use as active web identity evidence; v3 remains the prior clean-surface reference for rollback/comparison only."
+            ]
+          },
+          {
+            "id": "homepage-hero-cloudless-clean-surface-mobile-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-mobile-source-v4.png",
+            "dimensions": {
+              "width": 916,
+              "height": 1717,
+              "unit": "px"
+            },
+            "roleHints": [
+              "homepage-brand-illustration",
+              "title-treatment"
+            ],
+            "notes": [
+              "Approved active cloudless clean-surface title-bearing ink-lit mobile reference for CascadeEffects.tv phone-scale hero crops with stylized peril cues.",
+              "Use as active web identity evidence; profile icons and episode thumbnails must not depend on generated title text unless a manifest explicitly permits it."
+            ]
+          },
+          {
+            "id": "homepage-hero-stylized-peril-clean-surface-desktop-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-stylized-peril-clean-surface-desktop-source-v3.png",
+            "dimensions": {
+              "width": 1672,
+              "height": 941,
+              "unit": "px"
+            },
+            "roleHints": [
+              "homepage-brand-illustration",
+              "web-opengraph-image",
+              "title-treatment"
+            ],
+            "notes": [
+              "Prior clean-surface title-bearing ink-lit homepage hero reference for CascadeEffects.tv; preserves the Cascade of Effects folded-paper title while adding stylized peril cues.",
+              "Use for rollback/comparison only; cloudless v4 is the active homepage hero reference, the dark-adapted v1 hero remains a legacy reference for composition and lighting continuity, and stylized-peril v2 is superseded by this texture repair."
+            ]
+          },
+          {
+            "id": "homepage-hero-stylized-peril-clean-surface-mobile-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-stylized-peril-clean-surface-mobile-source-v3.png",
+            "dimensions": {
+              "width": 916,
+              "height": 1717,
+              "unit": "px"
+            },
+            "roleHints": [
+              "homepage-brand-illustration",
+              "title-treatment"
+            ],
+            "notes": [
+              "Prior clean-surface title-bearing ink-lit mobile reference for CascadeEffects.tv phone-scale hero crops with stylized peril cues.",
+              "Use for rollback/comparison only; cloudless v4 is the active homepage hero reference and profile icons and episode thumbnails must not depend on generated title text unless a manifest explicitly permits it."
+            ]
+          },
+          {
+            "id": "homepage-hero-dark-adapted-desktop-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-desktop-source-v1.png",
+            "dimensions": {
+              "width": 1672,
+              "height": 941,
+              "unit": "px"
+            },
+            "roleHints": [
+              "homepage-brand-illustration",
+              "channel-banner",
+              "video-thumbnail",
+              "web-opengraph-image",
+              "title-treatment"
+            ],
+            "notes": [
+              "Prior approved title-bearing ink-lit homepage hero reference; preserves the existing Cascade of Effects folded-paper title while adapting the scene to deep ink gallery lighting.",
+              "Use as web/channel identity evidence only; episode thumbnails remain text-free unless a package manifest explicitly says otherwise."
+            ]
+          },
+          {
+            "id": "homepage-hero-dark-adapted-mobile-title-reference",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-mobile-source-v1.png",
+            "dimensions": {
+              "width": 916,
+              "height": 1717,
+              "unit": "px"
+            },
+            "roleHints": [
+              "homepage-brand-illustration",
+              "shorts-cover-frame",
+              "youtube-podcast-playlist",
+              "podcast-library-square",
+              "title-treatment"
+            ],
+            "notes": [
+              "Prior approved title-bearing ink-lit mobile reference for phone-scale identity crops and square/vertical channel-package planning.",
+              "Use as web/channel identity evidence only; profile icons and episode thumbnails must not depend on generated title text unless a manifest explicitly permits it."
+            ]
+          }
+        ]
+      }
+    ],
+    "policy": [
+      "Ink-lit Paper Architectures reference renders are canonical visual evidence, not final production exports.",
+      "Approved web/channel identity reference renders may include the Cascade of Effects title when a package manifest explicitly allows a title-bearing source.",
+      "Episode thumbnails, Shorts covers, chapter cards, and package source art stay text-free unless their package manifest explicitly permits title-bearing source art.",
+      "Approved reference renders are tracked through Git LFS only under brand/assets/reference-renders/**.",
+      "The former bright/daylight Paper Architectures look and cascade-lowpoly-pastel-v1 references are legacy/inactive unless a package explicitly imports them as historical context."
+    ]
+  },
+  "tokens": {
+    "palette": {
+      "ink": "#0B1023",
+      "inkPanel": "#11172F",
+      "lavenderShadow": "#5D568E",
+      "blueFrame": "#3D4B70",
+      "cream": "#FFF8E8",
+      "cyanGlow": "#78DCE8",
+      "restrainedCoral": "#FF6F61",
+      "secondaryText": "#CBD3E8"
+    },
+    "source": "brand/cascade-effects-signal.style-system.json",
+    "rule": "Use the active ink-lit paper palette with strong separation between deep ink fields, cream paper forms, lavender shadows, cyan vellum glow, and restrained coral warning accents. Do not revert to bright/daylight, low-poly plastic, dark documentary, noir, or evidence-board defaults unless a file is explicitly marked legacy."
+  },
+  "typography": {
+    "display": "Inter 800 or equivalent bold blocky sans-serif.",
+    "body": "Inter regular/bold.",
+    "technical": "IBM Plex Mono for small labels and metadata.",
+    "rules": [
+      "Letter spacing must stay zero or positive.",
+      "The word of must be heavy enough to read at thumbnail and podcast-library sizes.",
+      "Do not rely on generated model text for final spelling."
+    ]
+  },
+  "titleTreatment": {
+    "exactTitle": "Cascade of Effects",
+    "composition": "Apply title locally after source artwork generation, except for approved web/channel identity reference renders explicitly allowed by a package manifest.",
+    "style": [
+      "large title-only copy",
+      "bold cream fill",
+      "deep blue or lavender paper shadow/depth",
+      "simple blocky sans-serif",
+      "high contrast against calm paper artwork zones"
+    ],
+    "rules": [
+      "No tagline on launch package assets.",
+      "No episode title unless a package manifest explicitly defines an episode-level template.",
+      "Profile icons must not carry the full title.",
+      "Episode thumbnails remain text-free unless a package manifest explicitly says otherwise."
+    ]
+  },
+  "layout": {
+    "safeZones": [
+      "Every platform asset must declare safe zones in its package manifest.",
+      "Title-bearing assets must reserve a calm paper zone that stays readable at the smallest QA size.",
+      "CascadeEffects.tv episode-gallery thumbnails must use subject-only crops with no title inside the image frame, no evidence/system clutter, and no decorative cyan/coral artifacts."
+    ],
+    "density": "Prefer one dominant folded-paper public anchor or folded cascade model, ink-lit negative space, one or two terraces/cascade sheets, and only a few supporting artifacts when the format can sustain them.",
+    "webEpisodeGallery": {
+      "activeProofId": "proof-v6-ink-lit-subjects",
+      "folderPattern": "proof-vN-ink-lit-subjects",
+      "rule": "One dominant primary subject only; the card pill/title carries case context.",
+      "requiredArtifacts": [
+        "source PNGs under brand/assets/episode-gallery/{proofId}/source-renders/",
+        "runtime WebPs under public/brand/episode-gallery/{proofId}/",
+        "provenance under brand/assets/episode-gallery/{proofId}/provenance.md",
+        "320x180 contact sheet",
+        "168x94 contact sheet",
+        "homepage desktop and mobile screenshots"
+      ],
+      "bannedInLiveWiring": [
+        "proof-v3",
+        "proof-v4-dark-adapted",
+        "proof-v5-ink-lit-regenerated"
+      ]
+    },
+    "textureNoise": "Generated source-art proofs, package candidates, thumbnails, and motion-readiness candidates must record texture_noise_read: pass|tighten|reject. Use subtle paper fiber only and clean low-detail paper planes; no speckle/noise/grain/grit/sandy texture.",
+    "responsiveness": "Web and social assets must derive from platform-native compositions, not one crop reused everywhere."
+  },
+  "colorPolicy": {
+    "dominantPalette": "Deep ink-blue fields, warm cream paper, powder cyan vellum glow, muted lavender shadows, soft graphite seams, and restrained coral warning accents.",
+    "accentUse": [
+      "Use coral sparingly for warning or failure cues only.",
+      "Use cyan for dry vellum cascade sheets and signal emphasis only where causality needs to be shown.",
+      "Use lavender for paper shadows and depth on dark fields.",
+      "Use cream paper forms against deep ink fields so assets stay readable at small sizes."
+    ],
+    "legacyBan": "The prior bright/daylight Paper Architectures, low-poly plastic, dark evidence-board, neon signal green, and archival/evidence collage grammars are inactive defaults."
+  },
+  "compositionPolicy": {
+    "sourceArtwork": "Generated no-text ink-lit Paper Architectures artwork first, except approved title-bearing web/channel identity source references named by a package manifest.",
+    "titleComposition": "Local deterministic overlay second.",
+    "webEpisodeGalleryThumbnails": "For CascadeEffects.tv episode-gallery cards, keep source art subject-only and text-free. Start future prompts with the primary subject and ban separate evidence trays, ledgers, gauges, connection details, system diagrams, arrows, dry signal paths, secondary prop clusters, and decorative cyan/coral artifacts.",
+    "sceneCompositing": "After a baseline Paper Architectures illustration is approved, small additions or placement changes must be handled as deterministic layer composites over the locked baseline, not by regenerating the full scene.",
+    "driftControl": "Composited layers must record source paths, placement, scale, rotation, opacity, and output path so approved paper material language, minimal texture-noise level, palette, and object density do not drift between iterations. High-frequency speckle, visible grain, grit, sandy/noisy paper surfaces, texture-heavy rendering, or texture that competes with the public anchor requires texture_noise_read: tighten|reject and blocks promotion.",
+    "qaPreview": "Produce contact sheets or platform mockups for profile crop, podcast-library square, YouTube thumbnail sizes, banner safe-zone crop, Shorts phone scale, and web social cards.",
+    "sourceControl": "Track contracts, manifests, validators, templates, and provenance. Do not track generated raster media."
+  },
+  "legacyPolicy": {
+    "priorProfile": "cascade-paper-architectures-v1",
+    "status": "inactive-reference-only",
+    "rules": [
+      "Do not use cascade-paper-architectures-v1 bright/daylight language as active package guidance for new assets.",
+      "Do not use cascade-lowpoly-pastel-v1 as active package guidance for new assets.",
+      "Do not use legacy dark visual language, noir, gritty documentary, or evidence-board defaults as active package guidance.",
+      "Do not let older token files, screenshots, or generated images override this ink-lit contract."
+    ]
+  },
+  "qa": [
+    {
+      "id": "exact-title",
+      "method": "manual",
+      "description": "Every title-bearing asset spells Cascade of Effects exactly.",
+      "required": true
+    },
+    {
+      "id": "small-size-legibility",
+      "method": "legibility",
+      "description": "Title-bearing assets remain readable at platform-library preview sizes.",
+      "required": true
+    },
+    {
+      "id": "contract-validation",
+      "method": "script",
+      "description": "Contracts and manifests pass the asset-package schema and custom validator.",
+      "required": true
+    },
+    {
+      "id": "texture-noise-read",
+      "method": "visual",
+      "description": "Every generated source-art proof, package candidate, thumbnail, or motion-readiness candidate records texture_noise_read: pass|tighten|reject; only pass may advance.",
+      "required": true
+    },
+    {
+      "id": "episode-gallery-thumbnail-wiring",
+      "method": "script",
+      "description": "Live CascadeEffects.tv episode-gallery thumbnails point at the active proof-v6 subject-only folder, avoid rejected/stale proof folders, and keep alt text free of water/evidence-clutter language.",
+      "required": true
+    }
+  ]
+}

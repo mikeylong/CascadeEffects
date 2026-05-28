@@ -1,0 +1,64 @@
+{
+  "count": 1,
+  "created_utc": "2026-05-25T20:56:36Z",
+  "packages": [
+    {
+      "blockers": [
+        "Current long-form source/fact-check manifest is pending or missing.",
+        "Publish-readiness package human keep is required before any YouTube review upload.",
+        "Explicit upload authorization is required after publish-readiness keep.",
+        "YouTube Content ID/music claim status must be checked after upload processing.",
+        "Public release remains manual."
+      ],
+      "episode_id": "challenger",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/publish_readiness_manifest.json",
+      "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z",
+      "review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/review.html",
+      "review_url": "http://127.0.0.1:8903/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/review.html",
+      "youtube_upload_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_upload_manifest.json",
+      "manifest_sha256": "f103a031fa36914f0552718329b245fdfb9a93ae2b051bf2bbddf617b8f670b4"
+    }
+  ],
+  "port": 8903,
+  "server_root": "/Users/mike/Episodes_CascadeEffects",
+  "stamp": "20260525T205600Z",
+  "upload_locks": {
+    "may_youtube_action": false,
+    "public_release_ready": false,
+    "upload_allowed": false,
+    "upload_performed": false
+  },
+  "validation": [
+    {
+      "episode_id": "challenger",
+      "html_range_server_read": "pass_mp4_http_range_probe_206",
+      "mp4_range_status": 206,
+      "review_status": 200
+    }
+  ],
+  "youtube_unlisted_uploads": {
+    "aggregate_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_youtube_unlisted_uploads_20260525T205746Z.json",
+    "aggregate_sha256": "05d727ff381649fb40fdb596d728b2dd27f2bb942217e3f228d181a97ebec522",
+    "public_release": "manual_youtube_studio_only",
+    "results": [
+      {
+        "caption_status": "uploaded",
+        "episode_id": "challenger",
+        "privacy": "unlisted",
+        "processing_status": "succeeded",
+        "production_contract_receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/production_contract_receipts/contract_receipt_20260525T205710Z.json",
+        "public_release": "blocked_manual_youtube_studio_only",
+        "publish_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/publish_readiness_manifest.json",
+        "publish_manifest_sha256": "f103a031fa36914f0552718329b245fdfb9a93ae2b051bf2bbddf617b8f670b4",
+        "receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_receipt_20260525T205746Z.json",
+        "status": "uploaded",
+        "status_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260525T205600Z/youtube_longform_unlisted_upload_status_20260525T205746Z.json",
+        "thumbnail_status": "uploaded",
+        "upload_status": "processed",
+        "video_id": "HFmW7x7sCJM",
+        "video_url": "https://www.youtube.com/watch?v=HFmW7x7sCJM"
+      }
+    ],
+    "status": "complete"
+  }
+}

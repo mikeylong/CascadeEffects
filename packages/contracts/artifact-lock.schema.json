@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cascade Effects Artifact Lock",
+  "type": "object",
+  "required": ["schema_version", "artifacts"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "episode": { "type": "string" },
+    "scope": { "type": "string" },
+    "generated_at": { "type": "string" },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "status", "artifact_path", "original_path", "sha256", "created_at", "source_stage"],
+        "properties": {
+          "id": { "type": "string" },
+          "kind": { "type": "string" },
+          "status": { "enum": ["keep_artifact", "final_artifact", "production_receipt", "source"] },
+          "repo_path": { "type": ["string", "null"] },
+          "artifact_path": { "type": "string" },
+          "original_path": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "bytes": { "type": "integer", "minimum": 0 },
+          "created_at": { "type": "string" },
+          "source_stage": { "type": "string" },
+          "episode": { "type": ["string", "null"] },
+          "source_manifest": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

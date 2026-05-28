@@ -1,0 +1,443 @@
+{
+  "packet_id": "piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z",
+  "gate": "final_assembly_gate",
+  "status": "review_ready_pending_human_final_assembly_disposition",
+  "human_disposition": "defer",
+  "created_utc": "2026-05-26T19:53:19.171Z",
+  "production_contract": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+    "youtube_action_approval_read": "blocked_final_assembly_review_only"
+  },
+  "review_only": true,
+  "publishable_final": false,
+  "upload_performed": false,
+  "proof_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+  "proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/rough_assembly_manifest.json",
+  "source_html_proof": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/player.html",
+    "player_sha256": "48dcae938eb7f591f4bab637e6adc0dbe5711dadd61d0baffe3cfc2d018f62ff",
+    "current_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "current_kept_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "corrective_review_render_from_unkept_proof": false,
+    "challenger_precision_matte_guard": {
+      "ok": true,
+      "context": "long_form_mp4_pre_render",
+      "created_utc": "2026-05-26T19:45:12.645Z",
+      "episode_id": "piltdown-man",
+      "required": false,
+      "model": "challenger_precision_matte_guard_v1",
+      "expected": {
+        "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z",
+        "mask_sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+        "precision_model": "source_pixel_gap_preserving_tower_shuttle_matte_v3",
+        "keep_receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z/review/precision_matte_keep_receipt_20260523T045650Z.json",
+        "superseded_mask_sha256": [
+          "48ebac2e7e4b8737cc56e884d902211ee574781b7363eb24c9799afa3606d208",
+          "a184e54cd698b607a2f522c6a11888c4fe55cfaad6585c0a4d249936e97bd9a4",
+          "c4e91ecde3dd7ba44b2d5c7f3f3eb2580b142773158db122b4e3861afd9e938e"
+        ]
+      },
+      "observed": {
+        "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+        "root_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/rough_assembly_manifest.json",
+        "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/rough_assembly_manifest.json",
+        "player_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/player.html",
+        "assets_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/assets",
+        "assets_realpath": "",
+        "mask_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/assets/masks/foreground_occlusion_matte.png",
+        "mask_realpath": "",
+        "mask_sha256": "",
+        "manifest_mask_sha256": "",
+        "manifest_precision_model": "",
+        "player_has_mask_cache_bust": false,
+        "player_has_data_mask_sha256": false,
+        "player_has_precision_model": false,
+        "keep_receipt_sha256": ""
+      },
+      "failures": [],
+      "reads": {
+        "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode"
+      }
+    }
+  },
+  "audio_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/piltdown-man_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+    "sha256": "7db81c44fe7f6b9beadcedc7264e97de1dfa6d321d46073c99e0d0a8c9bf5078",
+    "bytes": 154150998,
+    "role": "kept_right_rail_alignment_music_mix_wav",
+    "encode_policy": "encoded_to_aac_for_mp4_container"
+  },
+  "caption_package": {
+    "visible_rail_captions_burned_in": true,
+    "caption_model": "rolling_rail_caption_window_v1",
+    "youtube_upload_sidecar_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/youtube_sidecars/piltdown_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "d9df8efc2a02fbdf224b6053ace0f1a28f3fbcd8726724398945aed8ed53db03",
+      "bytes": 20820
+    },
+    "youtube_upload_sidecar_srt": null,
+    "source_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/captions/piltdown_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "d9df8efc2a02fbdf224b6053ace0f1a28f3fbcd8726724398945aed8ed53db03",
+      "bytes": 20820
+    },
+    "browser_caption_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/browser/piltdown-man_final_browser_qa.json"
+  },
+  "output": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/piltdown-man_living_cover_final_review_1080p24.mp4",
+    "sha256": "bb97fb5040962c096edd5ae80163e849acf7737f55f8f2959c1e8de3cab265a2",
+    "bytes": 141298598,
+    "duration_seconds": 873.870998,
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "bit_rate": 1293541
+  },
+  "render_strategy": {
+    "mode": "current_kept_living_cover_html_full_browser_render",
+    "full_video_reencoded": true,
+    "audio_stream_copied_from_predecessor": false,
+    "audio_stream_copy_justification": "source is approved WAV mix; AAC encode required for H.264/AAC MP4 delivery",
+    "source_audio_sha256": "7db81c44fe7f6b9beadcedc7264e97de1dfa6d321d46073c99e0d0a8c9bf5078",
+    "final_audio_stream_sha256": "b26640c27c9990927090b91dc6fe1abe2e2501df0980cd14eff9724eb1842826",
+    "frame_count": 20973,
+    "parallel_capture_workers": 8,
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "crf": 18,
+    "preset": "veryfast"
+  },
+  "video_segments": {
+    "segment_count": 8,
+    "segments": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_00.mp4",
+        "sha256": "c9f3ca5462ed3cb77bee857d0f008406c6bc907a80e862b97751b386760ad982",
+        "bytes": 15008385
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_01.mp4",
+        "sha256": "011f29f02c0c48b4b40e66fdc89e2905af5baa6356c3b14589ed29f0599fdd2a",
+        "bytes": 14831938
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_02.mp4",
+        "sha256": "3ca9d24c99581f0b799386c8845864b8120305a9afd8f5f83a82b70f810fae6b",
+        "bytes": 14761470
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_03.mp4",
+        "sha256": "f4dfcdc66a98229100005602643558d0de97fb8b876980b8a5c4ca136df9a95a",
+        "bytes": 15715612
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_04.mp4",
+        "sha256": "f6d3cd9d5b18560cfc5283a06cf93ea214503d31cf2e6c85fdef52d567d8b8be",
+        "bytes": 15365787
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_05.mp4",
+        "sha256": "da96fb124caa05543ebafcea8c040248ec6f0059f9153aa7760235a2d3e8fc3b",
+        "bytes": 15805290
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_06.mp4",
+        "sha256": "b6246a6aea88050f6d10b41dd585063ea7239ee2fd4b5a4e43294b803fe5a6f9",
+        "bytes": 15541475
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_segment_07.mp4",
+        "sha256": "223dd0a1faba6812abe4ee9073ce6b6a8fc43c649a8fb6dc01ce018822bd0b79",
+        "bytes": 12840294
+      }
+    ],
+    "concat": {
+      "concat_list": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/concat_list.txt",
+        "sha256": "2d9bd8524683b2fcdb992e2b50bb791c8c9e5415ea6c5793984ca854b1a21eda",
+        "bytes": 2488
+      },
+      "concat_video": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/segments/piltdown-man_video_concat.mp4",
+        "sha256": "2ca96194612a5502403aadbd4896a96b71d602f90669aa6cda74e9d3694f0d3a",
+        "bytes": 119864641
+      }
+    }
+  },
+  "timing": {
+    "duration_seconds": 873.871429,
+    "fps": 24,
+    "voice_start_seconds": 3.601451,
+    "safe_window_start_seconds": 853.876983,
+    "safe_window_end_seconds": 873.876983
+  },
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "24/1",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration": "873.870998",
+      "size": "141298598",
+      "bit_rate": "1293541"
+    }
+  },
+  "browser_qa": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/browser/piltdown-man_final_browser_qa.json",
+    "sha256": "c4dfebee468f3d79b9f3670263d1e5b1beb3011b2ef2c6bb96c7cd0b0905cb75",
+    "reads": {
+      "page_load_read": "pass",
+      "render_mode_controls_hidden_read": "pass",
+      "render_mode_stage_only_read": "pass_stage_rect_matches_1920x1080_viewport",
+      "render_mode_ui_chrome_absence_read": "pass_no_visible_review_chrome_controls",
+      "forbidden_review_chrome_text_read": "pass_no_forbidden_review_ui_text_in_render_mode",
+      "visible_form_controls_absence_read": "pass_no_visible_audio_form_controls_in_render_mode",
+      "render_viewport_overflow_read": "pass_no_render_mode_viewport_overflow",
+      "caption_suppression_read": "pass",
+      "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+      "viewer_text_suppression_read": "pass",
+      "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+      "visual_nonblack_stage_read": "pass_stage_screenshots_nonblack_with_luma_variance",
+      "source_art_visibility_read": "pass_source_art_visible_in_render_mode",
+      "browser_screenshot_byte_size_read": "pass_browser_screenshots_above_blank_size_floor",
+      "stage_luma_variance_read": "pass_stage_luma_and_variance_above_black_screen_floor",
+      "youtube_upload_black_screen_block_read": "pass_black_screen_preflight_allows_render_continuation",
+      "semmelweis_deterministic_ambient_read": "not_applicable_non_semmelweis_episode"
+    },
+    "visual_guard": {
+      "narrative_sample_count": 5,
+      "failing_visual_samples": [],
+      "tiny_screenshot_samples": [],
+      "hidden_source_art_samples": [],
+      "passed": true
+    }
+  },
+  "production_contract_preflight": {
+    "receipt_type": "cascade_effects_output_contract_validation",
+    "schema_version": "cascade_effects_output_contract_receipt_v1",
+    "created_at": "2026-05-26T19:45:12.693Z",
+    "ok": true,
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/rough_assembly_manifest.json",
+    "artifact_manifest_sha256": "28d9a2943f54f797bb5ea4c29f0245913e5b5c467aa91aa8a59e6eecc9efda1c",
+    "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+    "contract_id": "first-eight-longform-v1",
+    "family": "longform",
+    "intent": "successor",
+    "source_hashes": {
+      "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/rough_assembly_manifest.json",
+      "artifact_manifest_sha256": "28d9a2943f54f797bb5ea4c29f0245913e5b5c467aa91aa8a59e6eecc9efda1c",
+      "rendered_video_proof.manifest": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T071639Z/render_manifest.json",
+        "declared_sha256": "",
+        "actual_sha256": "f45011568d45dd29b1aaf0f23fc049e37b6984e8f0b7e455642bf2e5a6dd32e2"
+      },
+      "rendered_video_proof.mp4": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T071639Z/piltdown-man_living_cover_final_review_1080p24.mp4",
+        "declared_sha256": "c4b00eaff14520a7326d82b0a58cd8f47f0bd653583b783d8badcc229deb3a5f",
+        "actual_sha256": "c4b00eaff14520a7326d82b0a58cd8f47f0bd653583b783d8badcc229deb3a5f"
+      }
+    },
+    "allowed_delta": null,
+    "reads": {
+      "contract_read": "pass_contract_loaded_and_required_reads_passed",
+      "delta_read": "pass_no_repair_delta_required_for_intent",
+      "style_read": "pass_style_contract_reads_passed",
+      "media_read": "pass_source_hashes_and_media_reads_valid",
+      "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+    },
+    "existing_validators": [],
+    "failures": [],
+    "youtube_action_requested": "",
+    "youtube_action_allowed": false,
+    "receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/production_contract_receipts/pre_render_contract_receipt.json",
+    "receipt_sha256": "61ec66a762948ac089a3f4aa5f6c531b22800f10093645f9e6c6014339f382b5"
+  },
+  "qa_frames": {
+    "start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/mp4_qa_start_1p000s.jpg",
+      "sha256": "3f33a0bce30bedca2d2851f04b13eaeb23f503f4ed4d1ae489db82dc66e33fbb",
+      "bytes": 195217,
+      "pixel_stats": {
+        "pixel_count": 14400,
+        "mean_luma": 34.704,
+        "std_luma": 32.32,
+        "min_luma": 0,
+        "max_luma": 231.554,
+        "nonblack_fraction": 0.828889
+      }
+    },
+    "voice_start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/mp4_qa_voice_start_3p601s.jpg",
+      "sha256": "556717a96e1cec1af673a980d9f217fe30ca940a28a97fe6142dfe7c7b8c6a26",
+      "bytes": 213597,
+      "pixel_stats": {
+        "pixel_count": 14400,
+        "mean_luma": 35.784,
+        "std_luma": 33.023,
+        "min_luma": 0,
+        "max_luma": 231.409,
+        "nonblack_fraction": 0.832292
+      }
+    },
+    "quarter": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/mp4_qa_quarter_218p468s.jpg",
+      "sha256": "c057d7edf0877e4eacd7065c2a58f83704eb35547f46d153cce1efbc77aefff6",
+      "bytes": 229960,
+      "pixel_stats": {
+        "pixel_count": 14400,
+        "mean_luma": 36.425,
+        "std_luma": 33.349,
+        "min_luma": 0,
+        "max_luma": 229.201,
+        "nonblack_fraction": 0.831319
+      }
+    },
+    "half": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/mp4_qa_half_436p936s.jpg",
+      "sha256": "2c73fb9fb20719a494e116851f14c34e6324dc5f0e03f3e1544222cd1556e650",
+      "bytes": 234072,
+      "pixel_stats": {
+        "pixel_count": 14400,
+        "mean_luma": 36.798,
+        "std_luma": 33.39,
+        "min_luma": 0,
+        "max_luma": 230.554,
+        "nonblack_fraction": 0.835625
+      }
+    },
+    "three_quarter": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/mp4_qa_three_quarter_655p404s.jpg",
+      "sha256": "fe0040447652abec773953a33d93e839af64a87dab25a015fa14073130be5778",
+      "bytes": 221179,
+      "pixel_stats": {
+        "pixel_count": 14400,
+        "mean_luma": 35.861,
+        "std_luma": 33.015,
+        "min_luma": 0,
+        "max_luma": 230.201,
+        "nonblack_fraction": 0.830139
+      }
+    },
+    "safe_window_start": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/mp4_qa_safe_window_start_853p877s.jpg",
+      "sha256": "f056978731c23bf83dfb6c1190ad2c0baafb30a6f69ea217ebc4fb23a30b8d09",
+      "bytes": 192293,
+      "pixel_stats": {
+        "pixel_count": 14400,
+        "mean_luma": 34.683,
+        "std_luma": 32.124,
+        "min_luma": 0,
+        "max_luma": 230.409,
+        "nonblack_fraction": 0.831806
+      }
+    },
+    "final_second": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/mp4_qa_final_second_872p871s.jpg",
+      "sha256": "b3e7e6ab96031c6faaead43793647798a10b6361d650d29b95dfec5f6ec3b7ed",
+      "bytes": 182620,
+      "pixel_stats": {
+        "pixel_count": 14400,
+        "mean_luma": 35.687,
+        "std_luma": 29.8,
+        "min_luma": 0,
+        "max_luma": 230.554,
+        "nonblack_fraction": 0.866389
+      }
+    }
+  },
+  "visual_guard": {
+    "browser": {
+      "narrative_sample_count": 5,
+      "failing_visual_samples": [],
+      "tiny_screenshot_samples": [],
+      "hidden_source_art_samples": [],
+      "passed": true
+    },
+    "mp4": {
+      "narrative_sample_count": 5,
+      "failing_visual_samples": [],
+      "tiny_screenshot_samples": [],
+      "hidden_source_art_samples": [],
+      "passed": true
+    },
+    "contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/piltdown-man_rolling_caption_rail_final_mp4_20260526T194512Z/qa/frames/visual_guard_contact_sheet.html",
+      "sha256": "3b1e43530abfb8372123fd076b0ae71b1809e8e02aab5a5388870856266853a4",
+      "bytes": 1600
+    }
+  },
+  "qa_reads": {
+    "mp4_created_read": "pass",
+    "video_stream_read": "pass_h264_present",
+    "audio_stream_read": "pass_aac_audio_present",
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "duration_read": "pass",
+    "dimensions_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "caption_sidecar_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "caption_suppression_read": "pass",
+    "render_mode_stage_only_read": "pass_stage_rect_matches_1920x1080_viewport",
+    "render_mode_ui_chrome_absence_read": "pass_no_visible_review_chrome_controls",
+    "forbidden_review_chrome_text_read": "pass_no_forbidden_review_ui_text_in_render_mode",
+    "visible_form_controls_absence_read": "pass_no_visible_audio_form_controls_in_render_mode",
+    "render_viewport_overflow_read": "pass_no_render_mode_viewport_overflow",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "viewer_text_suppression_read": "pass",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+    "visual_nonblack_stage_read": "pass_stage_screenshots_nonblack_with_luma_variance",
+    "source_art_visibility_read": "pass_source_art_visible_in_render_mode",
+    "stage_luma_variance_read": "pass_stage_luma_and_variance_above_black_screen_floor",
+    "youtube_upload_black_screen_block_read": "pass_black_screen_preflight_allows_render_continuation",
+    "semmelweis_deterministic_ambient_read": "not_applicable_non_semmelweis_episode",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "post_change_regression_read": "pass_rendered_from_current_kept_html_proof_piltdown-man",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode",
+    "challenger_precision_mask_sha_read": "not_applicable_non_challenger_episode",
+    "challenger_superseded_mask_block_read": "not_applicable_non_challenger_episode",
+    "downstream_gate_read": "pass_final_mp4_created_publish_and_youtube_flags_false",
+    "browser_screenshot_byte_size_read": "pass_browser_screenshots_above_blank_size_floor"
+  },
+  "may_advance_to_publish_readiness": false,
+  "may_youtube_action": false,
+  "youtube_upload_ready": false,
+  "public_release_ready": false,
+  "requested_youtube_upload": {
+    "requested_at_utc": "2026-05-26T19:53:19.474Z",
+    "requested_action": "encode_long_form_episode_to_mp4_for_youtube",
+    "disposition": "blocked_pending_publish_readiness_package_and_explicit_upload_approval",
+    "next_valid_action": "Create or refresh HTML-first publish-readiness package after human keep on this MP4 assembly."
+  },
+  "next_review_question": "Review this final MP4 assembly and reply with exactly one disposition: keep, tighten, or reject."
+}

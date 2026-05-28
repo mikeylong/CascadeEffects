@@ -1,0 +1,110 @@
+{
+  "packet_id": "hyatt_source_factcheck_packet_20260517T_upload_readiness",
+  "episode_id": "hyatt-regency",
+  "stage": "source_factcheck",
+  "status": "verified_for_publish_readiness",
+  "human_disposition": "keep_for_source_truth_not_public_release",
+  "created_utc": "2026-05-17T22:25:11.533Z",
+  "primary_sources": {
+    "nist_bss_143_pdf": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/references/nbsbuildingscience143.pdf",
+      "sha256": "5f75a7b2c28883e3f989afc9bd89f0aa8d2c04dbf1ddc10f851978b45cae0fc3",
+      "bytes": 27072712,
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/BSS/nbsbuildingscience143.pdf",
+      "title": "Investigation of the Kansas City Hyatt Regency Walkways Collapse, NBS Building Science Series 143"
+    },
+    "nist_bss_143_page": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/references/nist_bss_143_page.html",
+      "sha256": "b625e2b8dd8daf5240d6fe6b54d5d535b91e6e7d0b65003389b2a8570df09718",
+      "bytes": 79937,
+      "url": "https://www.nist.gov/node/603536",
+      "title": "NIST publication page for NBS BSS 143"
+    },
+    "nist_incident_page": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/references/nist_walkway_collapse_page.html",
+      "sha256": "dd7466b300a08afa9132b3359e8403c523b2c291062d278e5422f4ea3cb4a3d9",
+      "bytes": 90843,
+      "url": "https://www.nist.gov/el/walkway-collapse-kansas-city-missouri-1981",
+      "title": "NIST Walkway Collapse Kansas City Missouri 1981"
+    }
+  },
+  "secondary_public_reference": {
+    "asce_article": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/references/asce_hyatt_regency_walkway_collapse.html",
+      "sha256": "767524d2f30b3d4df4106c0f1897d9ea4353cbc720332aaa9d0e7c177ecfe703",
+      "bytes": 124743,
+      "url": "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/article/2007/01/the-hyatt-regency-walkway-collapse/",
+      "title": "The Hyatt Regency Walkway Collapse, ASCE Civil Engineering Source"
+    }
+  },
+  "verified_claims": [
+    {
+      "claim_id": "atrium_walkway_layout",
+      "status": "pass",
+      "claim": "The Hyatt atrium had suspended walkways at the second, third, and fourth floor levels; the second-floor walkway was directly below and suspended from the fourth-floor walkway, while the third-floor walkway was offset and independently suspended.",
+      "basis": [
+        "NIST/NBS BSS 143 abstract and summary lines from extracted text around 248-256 and 339-348."
+      ]
+    },
+    {
+      "claim_id": "collapse_scope",
+      "status": "pass",
+      "claim": "The second- and fourth-floor walkways fell to the atrium floor, with the fourth-floor walkway coming to rest on top of the lower walkway.",
+      "basis": [
+        "NIST/NBS BSS 143 extracted text around 256-259 and 1067-1068."
+      ]
+    },
+    {
+      "claim_id": "probable_cause_connection_capacity",
+      "status": "pass",
+      "claim": "NIST identified insufficient load capacity in the box beam-hanger rod connection at the fourth-floor walkway as the probable failure mechanism.",
+      "basis": [
+        "NIST/NBS BSS 143 extracted text around 259-263."
+      ]
+    },
+    {
+      "claim_id": "rod_revision_doubled_load",
+      "status": "pass",
+      "claim": "Changing from continuous hanger rods to two sets of rods doubled the load transferred by the fourth-floor box beam-hanger rod connections.",
+      "basis": [
+        "NIST/NBS BSS 143 extracted text around 268-278 and 439; ASCE article saved at paragraph lines around 1422."
+      ]
+    },
+    {
+      "claim_id": "event_and_casualty_public_context",
+      "status": "pass",
+      "claim": "The collapse occurred during a public event in the atrium; public-facing casualty context may state 114 killed and 216 injured when needed, but marketing copy should avoid sensational framing.",
+      "basis": [
+        "ASCE saved page line around 1421; NIST/NBS BSS 143 chronology line around 2334 for time of collapse."
+      ]
+    }
+  ],
+  "rights_and_usage_notes": {
+    "source_use": "References are used for fact-checking and public source notes. The final video uses generated source art and original narration/music assets, not archival NIST/ASCE images.",
+    "public_release_blockers": [
+      "YouTube Content ID and music claim status must still be checked after private upload processing.",
+      "Public release remains manual."
+    ],
+    "source_quote_policy": "Use brief citation/reference notes only; do not reproduce long passages from source pages or the report in public metadata."
+  },
+  "qa_reads": {
+    "source_factcheck_packet_read": "pass",
+    "nist_bss_143_primary_source_read": "pass_pdf_and_publication_page_archived_with_hashes",
+    "nist_incident_page_read": "pass_archived_with_hash",
+    "asce_secondary_reference_read": "pass_archived_with_hash",
+    "source_hashes_read": "pass",
+    "hyatt_atrium_architecture_fact_read": "pass",
+    "hanger_rod_load_path_fact_read": "pass",
+    "doubled_load_fact_read": "pass",
+    "rights_notes_read": "pass",
+    "publish_readiness_source_blocker_read": "pass_resolved_for_source_notes"
+  },
+  "may_advance_publish_readiness_source_gate": true,
+  "may_youtube_action": false,
+  "public_release_ready": false,
+  "review_packet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/hyatt_source_factcheck_packet_20260517T_upload_readiness/source_factcheck_review_packet.md",
+    "sha256": "2939ab48245612231952c22ca717ffc72b634c34b251eb778a11678a97a0105c",
+    "bytes": 2379
+  }
+}

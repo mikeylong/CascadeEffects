@@ -1,0 +1,112 @@
+{
+  "bridge_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/bridge_final_export__proof.json",
+  "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/challenger_captions.srt",
+  "caption_srt_sha256": "63e2f5510b2f23678495c02c5eb87777018be4b694f5d8348fb4d77b1ebb4e45",
+  "captioned_mp4_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/challenger_theme_intro_captioned_youtube_short.mp4",
+  "captioned_mp4_sha256": "419cc65be14c22e9ede5ee36fc0a683d48703c9d02b3bcdb0a4cbb79f6c62d84",
+  "created_at": "2026-05-21T06:15:52.193312Z",
+  "episode_label": "Challenger",
+  "final_export_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/final_export_manifest.json",
+  "final_export_manifest_sha256": "5f1014be7a2fa998453cbef8f1326ef8a8f0b711ca9d2904e78a3fbbf7021879",
+  "no_youtube_action": true,
+  "package_type": "all_eight_theme_intro_publish_ready_final",
+  "public_release_boundary": "manual_youtube_studio_only",
+  "publish_package_validation_ok": true,
+  "publish_package_validation_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/publish_package_validation.json",
+  "qa": {
+    "audio_peak_dbfs": -4.7,
+    "audio_peak_read": "pass",
+    "caption_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.diarized.txt",
+    "caption_text_read": {
+      "caption_word_count": 122,
+      "normalized_exact_match": true,
+      "read": "pass",
+      "transcript_word_count": 122
+    },
+    "comparison_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/side_by_side_current_vs_explosion_theme_hook_first_10s.mp4",
+      "read": "pass",
+      "returncode": 0,
+      "stderr": ""
+    },
+    "final8_freezedetect": {
+      "event_count": 0,
+      "events": [],
+      "read": "pass",
+      "window_start_seconds": 59.6
+    },
+    "final_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/challenger_theme_intro_captioned_youtube_short.mp4",
+      "read": "pass",
+      "returncode": 0,
+      "stderr": ""
+    },
+    "fresh_transcription_srt_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/challenger_short_restart_v1_ending_cadence_pass_01.diarized.srt",
+    "fresh_transcription_verification_read": {
+      "caption_word_count": 122,
+      "normalized_exact_match": false,
+      "read": "pass_review_required",
+      "transcript_word_count": 122
+    },
+    "proof_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/challenger_explosion_theme_intro_hook_review_proof.mp4",
+      "read": "pass",
+      "returncode": 0,
+      "stderr": ""
+    },
+    "publish_package_check": {
+      "issues": [],
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/youtube_upload_manifest.json",
+      "ok": true,
+      "probe": {
+        "audio_channels": 2,
+        "audio_codec": "aac",
+        "audio_sample_rate_hz": 48000,
+        "duration_seconds": 67.6,
+        "frame_rate": "30/1",
+        "height": 1920,
+        "video_codec": "h264",
+        "width": 1080
+      },
+      "resolved_paths": {
+        "caption_overlay_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/caption_overlay_manifest.json",
+        "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/challenger_captions.srt",
+        "caption_timing_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/caption_timing.json",
+        "description_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/youtube_description.txt",
+        "final_export_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/final_export_manifest.json",
+        "final_review_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/final_qa_review_note.md",
+        "metadata_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/youtube_metadata.md",
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/challenger_theme_intro_captioned_youtube_short.mp4",
+        "proof_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/challenger_explosion_theme_intro_hook_review_proof.mp4",
+        "source_duplicate_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/challenger_theme_intro_captioned_youtube_short.mp4",
+        "source_theme_hook_proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/challenger_explosion_theme_intro_hook_manifest.json",
+        "suggested_cover_frame_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/suggested_shorts_cover_frame.png",
+        "tags_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/youtube_tags.txt",
+        "title_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/youtube_title.txt",
+        "upload_checklist_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/upload_checklist.md",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/challenger_theme_intro_captioned_youtube_short.mp4"
+      },
+      "target": "youtube_shorts",
+      "warnings": [
+        "Manual YouTube copyright/Content ID and source-footage review required before public release."
+      ]
+    },
+    "technical_read": {
+      "audio_channels": 2,
+      "audio_codec": "aac",
+      "audio_sample_rate_hz": 48000,
+      "bit_rate": 6000246,
+      "duration_seconds": 67.6,
+      "frame_rate": "30/1",
+      "height": 1920,
+      "size_bytes": 50702084,
+      "video_codec": "h264",
+      "width": 1080
+    },
+    "voice_delay_seconds": 3.0
+  },
+  "source_theme_hook_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/challenger_explosion_theme_intro_hook_manifest.json",
+  "source_theme_hook_package": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z",
+  "youtube_upload_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/challenger_publish_ready_20260521T060000Z/youtube_upload_manifest.json",
+  "youtube_upload_manifest_sha256": "5b0cd7fdbcad002a67d5e22721a81cc59a2a1ccc4bbd027232e76727e7b9dd4b"
+}

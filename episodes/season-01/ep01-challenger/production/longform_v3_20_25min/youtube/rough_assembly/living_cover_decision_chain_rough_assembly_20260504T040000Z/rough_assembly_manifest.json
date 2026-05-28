@@ -1,0 +1,196 @@
+{
+  "packet_id": "living_cover_decision_chain_rough_assembly_20260504T040000Z",
+  "gate": "rough_assembly_gate",
+  "status": "blocked_pending_ink_lit_source_art_keep",
+  "human_disposition": "tighten",
+  "human_disposition_note": "Previous Variant B source art keeps texture_noise_read: pass but is stale under cascade-paper-architectures-ink-lit-v1; rough/render advancement is blocked pending an ink-lit source-art keep.",
+  "created_from_gate": "long_form_living_cover_motion_readiness",
+  "selected_direction": "living_cover",
+  "representative_excerpt": true,
+  "full_runtime_rough": false,
+  "source_art_regenerated": true,
+  "source_art_selected_variant": "variant_b_daylight_reference_only",
+  "may_advance_to_final_assembly": false,
+  "may_advance_to_video_render": false,
+  "may_advance_to_full_runtime_rough": false,
+  "final_assembly_blocked_until_human_rough_assembly_keep": true,
+  "blocked_until_clean_source_art_keep": false,
+  "blocked_until_ink_lit_source_art_keep": true,
+  "source_art_repair_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_texture_repair_20260504T043512Z",
+  "ink_lit_source_art_repair_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_ink_lit_repair_20260504T061353Z",
+  "dry_signal_source_art_repair_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_dry_signal_repair_20260504T163347Z",
+  "approved_audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/audio/recording_20260501_v3_20_25min/challenger_longform_v3_20_25min_recording_review.wav",
+    "sha256": "9cf03a2fecec33bdc42b2074babf741da995f1038166651f9e863bff87219000",
+    "duration_seconds": 1289.131247,
+    "duration_display": "00:21:29.131"
+  },
+  "excerpt": {
+    "label": "Decision Chain",
+    "source_start_seconds": 519.158,
+    "source_end_seconds": 857.193,
+    "duration_seconds": 338.035,
+    "source_start_display": "00:08:39.158",
+    "source_end_display": "00:14:17.193",
+    "wav_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/assets/audio/challenger_decision_chain_excerpt.wav",
+    "wav_sha256": "5f91b104cd1fbdc5818fdf0106093f45ee0ebdca4c2971f7d1b1ca4083d0ff69",
+    "mp3_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/assets/audio/challenger_decision_chain_excerpt.mp3",
+    "mp3_sha256": "5c6fe44e6fb4d157281e710739337a6723451202710eddca26f64a593099c0b9",
+    "vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/assets/captions/challenger_decision_chain_excerpt.vtt",
+    "vtt_sha256": "1da089dc28fdd9378cacbc29d760e0fed53ab841c0e7845b709720b3df45c18f",
+    "srt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/assets/captions/challenger_decision_chain_excerpt.srt",
+    "srt_sha256": "c9b5610800d40ec1fe9080c94aa1889ae5287f83240b964ccd5d3acec1dd6fb2",
+    "aligned_script_json_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/assets/transcript/challenger_decision_chain_excerpt_aligned_script.json",
+    "aligned_script_json_sha256": "13f4ce1d56f7980a50eff071898e9a9aa6c4e91b5a313adde0bef2348436dc17"
+  },
+  "visual_carrier": {
+    "carrier": "generated_raster_source_art",
+    "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_texture_repair_20260504T043512Z/assets/source_art/living_cover_clean_variant_b.png",
+    "source_art_sha256": "bdbcba3549323e3fd702fc7404acd43a7431212a800b2fbfa76381077602fdd0",
+    "source_art_regenerated": true,
+    "source_art_selected_variant": "variant_b",
+    "texture_noise_read": "pass",
+    "visual_profile_read": "tighten_stale_daylight_profile",
+    "waterfall_read": "tighten_prior_ink_lit_variants_blocked",
+    "source_art_disposition": "keep",
+    "source_art_role": "composition_reference_only_until_ink_lit_replacement_keep",
+    "source_art_repair_read": "pass_variant_b_keep",
+    "css_procedural_carrier_read": "pass",
+    "profile_blocker": "Selected Variant B was generated from daylight/peach/mint prompt language before cascade-paper-architectures-ink-lit-v1 became active."
+  },
+  "player": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/player.html",
+    "sha256": "fa0f0036cc9bc7e72813e2b3d2de835dc5ed6a341344a39630dbf672ef080a61",
+    "layout_note": "Chapter card and evidence callouts sit in a right-hand rail with section labels removed so the public anchor remains clear on the left side of the frame."
+  },
+  "qa_screenshots": {
+    "desktop_full_000": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/desktop_full_000.png",
+      "viewport": "1440x810",
+      "player_time_seconds": 0,
+      "sha256": "798ac74eb727b2ccb91c2c0bf56cf2b65c66f81bb8aef978d119fc633f3a654c"
+    },
+    "desktop_full_158": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/desktop_full_158.png",
+      "viewport": "1440x810",
+      "player_time_seconds": 158.116,
+      "sha256": "f88eb00397f14ac46ad9c95ab4b1fc6e25175777761cf31425a93a2ed454e939"
+    },
+    "desktop_full_229": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/desktop_full_229.png",
+      "viewport": "1440x810",
+      "player_time_seconds": 229.558,
+      "sha256": "ed3031d25b97cdb5d407cae25253e6fa40b92e8092767602514c6c3e1bfd0559"
+    },
+    "youtube_preview_320x180": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/youtube_preview_320x180.png",
+      "viewport": "320x180",
+      "player_time_seconds": 229.558,
+      "sha256": "6c1a1dd534e9963f242938c63adf65226f6180b8e07db0977190b7dac1d68f1f"
+    },
+    "youtube_preview_168x94": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/youtube_preview_168x94.png",
+      "viewport": "168x94",
+      "player_time_seconds": 229.558,
+      "sha256": "b1c1ff09330fdb92d9cb6952099b9bf3824c15e37382d4a7c3957e7de7b54a61"
+    },
+    "desktop_right_rail_229": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/desktop_right_rail_229.png",
+      "viewport": "1440x810",
+      "player_time_seconds": 229.558,
+      "sha256": "ed3031d25b97cdb5d407cae25253e6fa40b92e8092767602514c6c3e1bfd0559"
+    },
+    "youtube_preview_right_rail_320x180": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/youtube_preview_right_rail_320x180.png",
+      "viewport": "320x180",
+      "player_time_seconds": 229.558,
+      "sha256": "6c1a1dd534e9963f242938c63adf65226f6180b8e07db0977190b7dac1d68f1f"
+    },
+    "youtube_preview_right_rail_168x94": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/youtube_preview_right_rail_168x94.png",
+      "viewport": "168x94",
+      "player_time_seconds": 229.558,
+      "sha256": "b1c1ff09330fdb92d9cb6952099b9bf3824c15e37382d4a7c3957e7de7b54a61"
+    },
+    "desktop_variant_b_229": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/desktop_variant_b_229.png",
+      "viewport": "1440x810",
+      "player_time_seconds": 229.558,
+      "sha256": "ed3031d25b97cdb5d407cae25253e6fa40b92e8092767602514c6c3e1bfd0559"
+    },
+    "youtube_preview_variant_b_320x180": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/youtube_preview_variant_b_320x180.png",
+      "viewport": "320x180",
+      "player_time_seconds": 229.558,
+      "sha256": "6c1a1dd534e9963f242938c63adf65226f6180b8e07db0977190b7dac1d68f1f"
+    },
+    "youtube_preview_variant_b_168x94": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/qa/screenshots/youtube_preview_variant_b_168x94.png",
+      "viewport": "168x94",
+      "player_time_seconds": 229.558,
+      "sha256": "b1c1ff09330fdb92d9cb6952099b9bf3824c15e37382d4a7c3957e7de7b54a61"
+    }
+  },
+  "beats": [
+    {
+      "source_time": "00:08:39.158",
+      "local_time_seconds": 0,
+      "label": "Processed Warning",
+      "motion_state": "cool baseline lighting, slow rightward camera drift"
+    },
+    {
+      "source_time": "00:09:07.376",
+      "local_time_seconds": 28.218,
+      "label": "Full Flight History",
+      "motion_state": "history callout active"
+    },
+    {
+      "source_time": "00:10:29.561",
+      "local_time_seconds": 110.403,
+      "label": "Launch-Night Decision",
+      "motion_state": "threshold callout begins"
+    },
+    {
+      "source_time": "00:11:17.274",
+      "local_time_seconds": 158.116,
+      "label": "Last Formal Shape",
+      "motion_state": "chart-standard lighting state"
+    },
+    {
+      "source_time": "00:12:28.716",
+      "local_time_seconds": 229.558,
+      "label": "Burden Shift",
+      "motion_state": "burden callout active"
+    },
+    {
+      "source_time": "00:13:28.039",
+      "local_time_seconds": 328.881,
+      "label": "Recommendation Reversal",
+      "motion_state": "warmer recommendation state"
+    }
+  ],
+  "rough_assembly_reads": {
+    "audio_sync_read": "pass",
+    "caption_coverage_read": "pass",
+    "public_anchor_read": "pass",
+    "public_anchor_stability_read": "pass",
+    "subject_occlusion_read": "pass_right_rail_keeps_public_anchor_clear",
+    "deterministic_typography_read": "pass",
+    "generated_readable_text_read": "pass_no_image_embedded_text",
+    "logo_watermark_read": "pass",
+    "diagram_density_read": "pass_sparse",
+    "diagram_readability_read": "pass_sparse",
+    "css_procedural_carrier_read": "pass_generated_raster_source_art_carrier_with_deterministic_overlay_only",
+    "static_thumbnail_read": "pass",
+    "static_loop_read": "pass_timed_motion_state_changes",
+    "waveform_only_read": "pass",
+    "fatigue_risk_read": "pass_representative_excerpt",
+    "full_runtime_loop_read": "not_applicable_representative_excerpt",
+    "texture_noise_read": "pass",
+    "visual_profile_read": "tighten_stale_daylight_profile",
+    "waterfall_read": "tighten_prior_ink_lit_variants_blocked",
+    "video_render_read": "blocked_pending_dry_signal_source_art_keep",
+    "dry_signal_source_art_read": "blocked_pending_human_keep"
+  },
+  "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z/review/rough_assembly_review_packet.md"
+}

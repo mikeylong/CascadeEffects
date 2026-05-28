@@ -1,0 +1,325 @@
+{
+  "package_id": "youtube_channel_banner_strip_candidates_repair_20260517T225043Z",
+  "status": "superseded_title_not_paper_architecture",
+  "may_advance": false,
+  "created_at_utc": "2026-05-17T23:14:23+00:00",
+  "workflow": "official research -> skill/requirements update -> implementation package -> QA review -> human keep -> manual YouTube Studio update",
+  "youtube_studio_updated": false,
+  "platform_sources": [
+    {
+      "label": "YouTube Help - Manage your channel branding",
+      "url": "https://support.google.com/youtube/answer/10456525?co=GENIE.Platform%3DDesktop&hl=en"
+    },
+    {
+      "label": "YouTube Help - Channel banner & profile picture tips",
+      "url": "https://support.google.com/youtube/answer/12950272?hl=en"
+    }
+  ],
+  "official_requirements": {
+    "snapshot": "source/official_youtube_channel_branding_guidance_2026-05-17.md",
+    "primary_visible_strip_px": [
+      2048,
+      340
+    ],
+    "minimum_upload_canvas_px": [
+      2048,
+      1152
+    ],
+    "recommended_upload_canvas_px": [
+      2560,
+      1440
+    ],
+    "minimum_safe_area_px": [
+      1235,
+      338
+    ],
+    "minimum_safe_area_rect_on_2048x1152": {
+      "x": 406,
+      "y": 407,
+      "width": 1235,
+      "height": 338
+    },
+    "file_size_limit_bytes": 6291456
+  },
+  "skill_files": {
+    "active_skill": "/Users/mike/Agents_CascadeEffects/references/skills/youtube_channel_branding_v1/SKILL.md",
+    "package_skill_snapshot": "source/youtube_channel_branding_v1_SKILL_snapshot.md",
+    "official_snapshot_source": "/Users/mike/Agents_CascadeEffects/references/skills/youtube_channel_branding_v1/references/official_youtube_channel_branding_guidance_2026-05-17.md"
+  },
+  "rejected_references": [
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_candidates_brand_safe_20260517T212808Z",
+      "use_assets": false
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_banner_strip_candidates_20260517T221232Z",
+      "use_assets": false
+    }
+  ],
+  "reads": {
+    "official_requirements_read": "pass",
+    "skill_workflow_read": "pass",
+    "display_strip_target_read": "pass",
+    "dimensions_read": "pass",
+    "upload_canvas_read": "pass",
+    "file_size_read": "pass",
+    "safe_area_read": "pass",
+    "crop_resilience_read": "review_required",
+    "profile_icon_alignment_read": "pass",
+    "final_embellishment_read": "pass",
+    "generated_text_read": "pass",
+    "waterfall_read": "pass",
+    "texture_noise_read": "pass"
+  },
+  "candidates": [
+    {
+      "id": "candidate_a_quiet_signal_band",
+      "label": "A - Quiet Signal Band",
+      "lane": "minimal_identity_field",
+      "status": "superseded_title_not_paper_architecture",
+      "may_advance": false,
+      "title_policy": "none",
+      "exact_title": null,
+      "notes": "Purpose-built shallow strip; quiet center, low folded signal band, no title.",
+      "source_art": {
+        "path": "source/candidate_a_quiet_signal_band_source_art.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1767930,
+        "sha256": "5f643f2c767f8fceac0f15ee3896c260d81d852bd04bb07cd6fbd12167a079ac",
+        "under_6mb": true
+      },
+      "strip": {
+        "path": "assets/candidate_a_quiet_signal_band_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 790164,
+        "sha256": "35469f2c17eb5ed7ae5828e234e0da02b2fb6271df10c32892dde120369592bb",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_a_quiet_signal_band_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1023139,
+        "sha256": "bcdd9449a960d01f52241e42c2cdda514fbf812afcc9881180e6dd4bc586d997",
+        "under_6mb": true
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_a_quiet_signal_band_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 772248,
+          "sha256": "13ab4a7a3b356418416149840d7bbccd55821fb053ff5b196edaf6b47d85f3fe",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_a_quiet_signal_band_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 995434,
+          "sha256": "39af6174d813f538dedb59b6697f0923b6f7b5359ced56ada0c65d3972aad8ae",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_a_quiet_signal_band_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 415188,
+          "sha256": "bb7cbf18b48a2bd8e03bbe88d83bffd29be69be5d6400dc546a77b40807590d3",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_a_quiet_signal_band_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1452532,
+          "sha256": "da03251b70d10eb2052cec3e5f3651ba36fe82722207bce451d9553a18ddf480",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass"
+      }
+    },
+    {
+      "id": "candidate_b_exact_title_center",
+      "label": "B - Exact Title Center",
+      "lane": "title_bearing_safe_area",
+      "status": "superseded_title_not_paper_architecture",
+      "may_advance": false,
+      "title_policy": "exact_local_deterministic_title",
+      "exact_title": "Cascade of Effects",
+      "notes": "Exact deterministic local title over a quieter strip; no generated text.",
+      "source_art": {
+        "path": "source/candidate_b_exact_title_center_source_art.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1830770,
+        "sha256": "82d7dab771b6daf11db1e581bc0d7420c31e7fbd5261afd299a79902c6d445f4",
+        "under_6mb": true
+      },
+      "strip": {
+        "path": "assets/candidate_b_exact_title_center_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 758418,
+        "sha256": "89227ed8838ce73d799c2623dd45c1ac5cbfbde3ff3873bb59fc8b691fa0d1d8",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_b_exact_title_center_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 909232,
+        "sha256": "f90d642527085140ba2ce7629400e58c59bd5297a57d9db9dd2ddc72a49ecea2",
+        "under_6mb": true
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_b_exact_title_center_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 749385,
+          "sha256": "a822c5c913befb4d1df87a0a0b647f2a7113c11e81c32c62bf7d02f7dea07439",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_b_exact_title_center_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 890951,
+          "sha256": "9985eeee9d518da8411cf5c75c5cf4f7112dae2451e862d685fdc7604624c58f",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_b_exact_title_center_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 369379,
+          "sha256": "e98e954e5af1ce111a34c59f6beae907bc8227a5e92f7d24e97d693cf1d05740",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_b_exact_title_center_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1291827,
+          "sha256": "24713cecfd6f72ab281f2c5ea5c5821bc714a39cfa33596980ab9bfc9ab8935f",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass"
+      }
+    },
+    {
+      "id": "candidate_c_channel_world_edges",
+      "label": "C - Channel World Edges",
+      "lane": "folded_cascade_world",
+      "status": "superseded_title_not_paper_architecture",
+      "may_advance": false,
+      "title_policy": "none",
+      "exact_title": null,
+      "notes": "Channel-world edge architecture with a large clean center; no title.",
+      "source_art": {
+        "path": "source/candidate_c_channel_world_edges_source_art.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1991638,
+        "sha256": "123facb82eca5d7d69f43c6c410116e98c2cc6f616d6ae8ff63877e00d2476e0",
+        "under_6mb": true
+      },
+      "strip": {
+        "path": "assets/candidate_c_channel_world_edges_visible_strip_2048x340.png",
+        "width": 2048,
+        "height": 340,
+        "bytes": 828473,
+        "sha256": "b266e64d2256dc616738942fafd16966518a509ce454347c51b4623dd4b58df9",
+        "under_6mb": true
+      },
+      "upload_wrapper": {
+        "path": "assets/candidate_c_channel_world_edges_upload_wrapper_2048x1152.png",
+        "width": 2048,
+        "height": 1152,
+        "bytes": 1006578,
+        "sha256": "b7066327e216f08701c26d07189cf25f70a577b93775281255c1e264644cf006",
+        "under_6mb": true
+      },
+      "previews": {
+        "strip_safe_overlay": {
+          "path": "previews/candidate_c_channel_world_edges_strip_safe_overlay_2048x340.png",
+          "width": 2048,
+          "height": 340,
+          "bytes": 817630,
+          "sha256": "1b872ca81e87964faa4fb7d60917ae72701df249ca4d31c9524f22cda1281dce",
+          "under_6mb": true
+        },
+        "upload_safe_overlay": {
+          "path": "previews/candidate_c_channel_world_edges_upload_safe_overlay_2048x1152.png",
+          "width": 2048,
+          "height": 1152,
+          "bytes": 985042,
+          "sha256": "24bcf309600bf59ca5b70d9b76aa713926539a5560927e92d6e67fff7308a16b",
+          "under_6mb": true
+        },
+        "center_safe_crop": {
+          "path": "previews/candidate_c_channel_world_edges_center_safe_crop_1235x338.png",
+          "width": 1235,
+          "height": 338,
+          "bytes": 385150,
+          "sha256": "1bf0606628bfe52fdf629dda515db20b1285438b0502ceb7a9d4646a78406957",
+          "under_6mb": true
+        },
+        "tv_preview_wrapper": {
+          "path": "previews/candidate_c_channel_world_edges_tv_preview_wrapper_2560x1440.png",
+          "width": 2560,
+          "height": 1440,
+          "bytes": 1402565,
+          "sha256": "50fa46b2d8f70480c809350c5c10b1b771ff3447109a493227df6ac9c1d72ef8",
+          "under_6mb": true
+        }
+      },
+      "qa_reads": {
+        "dimensions_read": "pass",
+        "file_size_read": "pass",
+        "safe_area_read": "pass",
+        "crop_resilience_read": "review_required",
+        "profile_icon_alignment_read": "pass",
+        "final_embellishment_read": "pass",
+        "generated_text_read": "pass",
+        "waterfall_read": "pass",
+        "texture_noise_read": "pass"
+      }
+    }
+  ],
+  "review_artifacts": {
+    "contact_sheet": {
+      "path": "qa/youtube-channel-banner-repair-candidates-contact-sheet.png",
+      "width": 1240,
+      "height": 1818,
+      "bytes": 1163121,
+      "sha256": "af1f0f9a59d69296de797a5b17b6e911bcb12b760de124408d775f5f1d933080",
+      "under_6mb": true
+    },
+    "qa_notes": "qa/qa_notes.md",
+    "source_prompts": "source/source_prompts.md"
+  }
+}

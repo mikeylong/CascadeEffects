@@ -1,0 +1,159 @@
+{
+  "alignment": {
+    "alignment_coverage": 0.9919517102615694,
+    "interpolated_script_token_count": 16,
+    "matched_script_token_count": 1972,
+    "max_unmatched_script_span": 2,
+    "max_unmatched_script_span_allowed": 8,
+    "min_alignment_coverage": 0.985,
+    "script_token_count": 1988,
+    "status": "pass",
+    "timing_token_count": 2033,
+    "unmatched_script_span_count": 12,
+    "unmatched_script_spans": [
+      {
+        "end_index_exclusive": 6,
+        "start_index": 5,
+        "text": "17,",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 126,
+        "start_index": 125,
+        "text": "hanger",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 285,
+        "start_index": 284,
+        "text": "hanger",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 386,
+        "start_index": 384,
+        "text": "fourth floor",
+        "token_count": 2
+      },
+      {
+        "end_index_exclusive": 447,
+        "start_index": 446,
+        "text": "Havens",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 543,
+        "start_index": 541,
+        "text": "second floor.",
+        "token_count": 2
+      },
+      {
+        "end_index_exclusive": 647,
+        "start_index": 645,
+        "text": "fourth floor.",
+        "token_count": 2
+      },
+      {
+        "end_index_exclusive": 818,
+        "start_index": 817,
+        "text": "Havens",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 822,
+        "start_index": 821,
+        "text": "rod",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 1045,
+        "start_index": 1044,
+        "text": "percent",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 1071,
+        "start_index": 1070,
+        "text": "percent",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 1235,
+        "start_index": 1233,
+        "text": "The fifth:",
+        "token_count": 2
+      }
+    ]
+  },
+  "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+  "caption_timing_source": {
+    "bytes": 622224,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1/youtube/captions/timing_repairs/Ep3_Hyatt-Regency.whisperx.hyphen_compound_timing_repair.json",
+    "sha256": "e1d35c0fa1d442096a6d095450a90584225fe6f385dc94b531dc4f68c79592c3"
+  },
+  "cue_count": {
+    "offset": 288,
+    "story": 288
+  },
+  "outputs": {
+    "offset_srt": {
+      "bytes": 22187,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.offset_intro_0s000.srt",
+      "sha256": "d1fd11d1f40cfd7cf8463133be60de8535e1de5dbe2e0f37abe1549d1817b545"
+    },
+    "offset_vtt": {
+      "bytes": 21151,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.offset_intro_0s000.vtt",
+      "sha256": "c172dbcb0299e070d34e33eea680b325b09281db19727a5be4fa66058e21e945"
+    },
+    "story_srt": {
+      "bytes": 22187,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.srt",
+      "sha256": "d1fd11d1f40cfd7cf8463133be60de8535e1de5dbe2e0f37abe1549d1817b545"
+    },
+    "story_vtt": {
+      "bytes": 21151,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.vtt",
+      "sha256": "c172dbcb0299e070d34e33eea680b325b09281db19727a5be4fa66058e21e945"
+    }
+  },
+  "outro_cutoff_seconds": null,
+  "rail_safe_chunking": {
+    "max_chars_per_cue": 54,
+    "max_words_per_cue": 8
+  },
+  "rail_validation": {
+    "max_chars_per_cue": 54,
+    "max_words_per_cue": 8,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "reads": {
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_no_caption_after_outro_start_read": "pass",
+    "caption_no_speaker_labels_read": "pass",
+    "caption_rail_safe_chunk_read": "pass",
+    "caption_text_matches_script_read": "pass"
+  },
+  "script_text_source": {
+    "bytes": 13148,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/Ep3_Hyatt-Regency.txt",
+    "sha256": "f9cf8878eaad94e3d5eac528aa9bedbfc25ce2d2fcecc61e383b8cb1d70547be"
+  },
+  "status": "pass",
+  "story_cutoff_seconds": null,
+  "text_validation": {
+    "normalized_caption_token_count": 1988,
+    "normalized_script_token_count": 1988,
+    "status": "pass"
+  },
+  "timing_validation": {
+    "outro_cutoff_seconds": null,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "voice_offset_seconds": 0.0
+}

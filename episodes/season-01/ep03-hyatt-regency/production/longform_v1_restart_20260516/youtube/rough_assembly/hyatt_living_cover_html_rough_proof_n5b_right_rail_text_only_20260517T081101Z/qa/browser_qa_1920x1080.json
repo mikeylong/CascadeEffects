@@ -1,0 +1,1329 @@
+{
+  "status": "pass",
+  "url": "http://127.0.0.1:8844/player.html",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "sample_count": 8,
+  "range_request_media_read": "pass_206_partial_content",
+  "reads": {
+    "viewer_text_surface_inventory_read": "pass",
+    "right_rail_text_boundary_read": "pass",
+    "out_of_rail_text_read": "pass_no_visible_out_of_rail_text",
+    "ordinal_chapter_label_read": "pass_no_visible_ordinal_chapter_labels",
+    "end_screen_text_boundary_read": "pass_no_end_screen_text_outside_rail",
+    "render_api_read": "pass",
+    "removed_invalid_surfaces_read": "pass"
+  },
+  "failures": {
+    "out_of_rail_text": [],
+    "ordinal_labels": []
+  },
+  "screenshots": [
+    {
+      "label": "start",
+      "time": 0,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/start_0.png",
+      "sha256": "03e701e30edc0336308473870ff1694a799514a671565ed0580c103f3ee1535c"
+    },
+    {
+      "label": "load_path",
+      "time": 94,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/load_path_94.png",
+      "sha256": "a310bf4cb6664dd805a3d7d4e8f026f8b283ec5a53563b91c0618c93183aedb4"
+    },
+    {
+      "label": "revision",
+      "time": 205,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/revision_205.png",
+      "sha256": "b821000f9d4714b0576c0d6a9ebd412fe353b4a02fd7fd6a0c1ba0b48aa476d6"
+    },
+    {
+      "label": "category_error",
+      "time": 318,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/category_error_318.png",
+      "sha256": "02a12f107c90d732d9d16794bb3eeed5a1fd63f9e5a6c4eded6d42d696686546"
+    },
+    {
+      "label": "warning_signs",
+      "time": 492,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/warning_signs_492.png",
+      "sha256": "34005d3de6aabce2d9e5049283af152211ccd23494aa3431865f4086acfb3aaf"
+    },
+    {
+      "label": "final_chapter",
+      "time": 756,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/final_chapter_756.png",
+      "sha256": "ca47071dbe642acd5a67c9fcc4534b45967991da8c3711b58e2a7239ac3a5d84"
+    },
+    {
+      "label": "end_screen_after_outro",
+      "time": 828,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/end_screen_after_outro_828.png",
+      "sha256": "217c9879d692dca62eb9c511d5ab776797d8b022ae6fb8747182fcd8ea5dfa57"
+    },
+    {
+      "label": "end_screen_late",
+      "time": 832.643,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/end_screen_late_832_643.png",
+      "sha256": "89be5fef1f3b07281240187525f2c9010096e7e33deae8742f812989b33aa720"
+    }
+  ],
+  "samples": [
+    {
+      "label": "start",
+      "time": 0,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1152,
+            "top": 86,
+            "right": 1840,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "A party under suspended walkways",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1162,
+            "top": 128,
+            "right": 1850,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "A public celebration fills the atrium below suspended walkways.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1152,
+            "top": 273,
+            "right": 1683,
+            "bottom": 388,
+            "width": 531,
+            "height": 114
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 448,
+            "right": 1868,
+            "bottom": 477,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 501,
+            "right": 1868,
+            "bottom": 530,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 554,
+            "right": 1868,
+            "bottom": 583,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 607,
+            "right": 1868,
+            "bottom": 636,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 660,
+            "right": 1868,
+            "bottom": 689,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "The Tea Dance\nA party under suspended walkways\nA public celebration fills the atrium below suspended walkways.\nThe Original Load Path\nThe Revision\nThe Category Error\nThe Warning Signs\nEverything Was In Order",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "The Tea Dance",
+      "activeTitle": "A party under suspended walkways",
+      "activeSummary": "A public celebration fills the atrium below suspended walkways.",
+      "railCaption": "",
+      "endScreenOpacity": "0",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/start_0.png",
+        "sha256": "03e701e30edc0336308473870ff1694a799514a671565ed0580c103f3ee1535c"
+      }
+    },
+    {
+      "label": "load_path",
+      "time": 94,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1144,
+            "top": 86,
+            "right": 1832,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "One rod, one carried floor",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1144,
+            "top": 128,
+            "right": 1832,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "The original support concept carries both walkways through one continuous hanger rod.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1144,
+            "top": 265,
+            "right": 1675,
+            "bottom": 380,
+            "width": 531,
+            "height": 114
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 448,
+            "right": 1868,
+            "bottom": 477,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 501,
+            "right": 1868,
+            "bottom": 530,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 554,
+            "right": 1868,
+            "bottom": 583,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 607,
+            "right": 1868,
+            "bottom": 636,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 660,
+            "right": 1868,
+            "bottom": 689,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "117 feet wide, and 50 feet high.",
+          "tag": "p",
+          "className": "rail-caption",
+          "rect": {
+            "left": 1188,
+            "top": 936,
+            "right": 1868,
+            "bottom": 1028,
+            "width": 680,
+            "height": 92
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "The Original Load Path\nOne rod, one carried floor\nThe original support concept carries both walkways through one continuous hanger rod.\nThe Tea Dance\nThe Revision\nThe Category Error\nThe Warning Signs\nEverything Was In Order\n117 feet wide, and 50 feet high.",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "The Original Load Path",
+      "activeTitle": "One rod, one carried floor",
+      "activeSummary": "The original support concept carries both walkways through one continuous hanger rod.",
+      "railCaption": "117 feet wide, and 50 feet high.",
+      "endScreenOpacity": "0",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/load_path_94.png",
+        "sha256": "a310bf4cb6664dd805a3d7d4e8f026f8b283ec5a53563b91c0618c93183aedb4"
+      }
+    },
+    {
+      "label": "revision",
+      "time": 205,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1144,
+            "top": 86,
+            "right": 1832,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "Two rods, twice the demand",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1144,
+            "top": 128,
+            "right": 1832,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "The shop drawing split the rod and changed what the fourth-floor box beam had to carry.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1144,
+            "top": 265,
+            "right": 1675,
+            "bottom": 380,
+            "width": 531,
+            "height": 114
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 448,
+            "right": 1868,
+            "bottom": 477,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 501,
+            "right": 1868,
+            "bottom": 530,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 554,
+            "right": 1868,
+            "bottom": 583,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 607,
+            "right": 1868,
+            "bottom": 636,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 660,
+            "right": 1868,
+            "bottom": 689,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "Threading a long rod is difficult.",
+          "tag": "p",
+          "className": "rail-caption",
+          "rect": {
+            "left": 1188,
+            "top": 936,
+            "right": 1868,
+            "bottom": 1028,
+            "width": 680,
+            "height": 92
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "The Revision\nTwo rods, twice the demand\nThe shop drawing split the rod and changed what the fourth-floor box beam had to carry.\nThe Tea Dance\nThe Original Load Path\nThe Category Error\nThe Warning Signs\nEverything Was In Order\nThreading a long rod is difficult.",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "The Revision",
+      "activeTitle": "Two rods, twice the demand",
+      "activeSummary": "The shop drawing split the rod and changed what the fourth-floor box beam had to carry.",
+      "railCaption": "Threading a long rod is difficult.",
+      "endScreenOpacity": "0",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/revision_205.png",
+        "sha256": "b821000f9d4714b0576c0d6a9ebd412fe353b4a02fd7fd6a0c1ba0b48aa476d6"
+      }
+    },
+    {
+      "label": "category_error",
+      "time": 318,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1144,
+            "top": 86,
+            "right": 1832,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "A detail treated as paperwork",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1144,
+            "top": 128,
+            "right": 1832,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "A structural change passes through the process as if it were coordination.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1144,
+            "top": 265,
+            "right": 1675,
+            "bottom": 380,
+            "width": 531,
+            "height": 114
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 448,
+            "right": 1868,
+            "bottom": 477,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 501,
+            "right": 1868,
+            "bottom": 530,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 554,
+            "right": 1868,
+            "bottom": 583,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 607,
+            "right": 1868,
+            "bottom": 636,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 660,
+            "right": 1868,
+            "bottom": 689,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "shop drawings pass between the fabricator and the",
+          "tag": "p",
+          "className": "rail-caption",
+          "rect": {
+            "left": 1188,
+            "top": 936,
+            "right": 1868,
+            "bottom": 1028,
+            "width": 680,
+            "height": 92
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "The Category Error\nA detail treated as paperwork\nA structural change passes through the process as if it were coordination.\nThe Tea Dance\nThe Original Load Path\nThe Revision\nThe Warning Signs\nEverything Was In Order\nshop drawings pass between the fabricator and the",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "The Category Error",
+      "activeTitle": "A detail treated as paperwork",
+      "activeSummary": "A structural change passes through the process as if it were coordination.",
+      "railCaption": "shop drawings pass between the fabricator and the",
+      "endScreenOpacity": "0",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/category_error_318.png",
+        "sha256": "02a12f107c90d732d9d16794bb3eeed5a1fd63f9e5a6c4eded6d42d696686546"
+      }
+    },
+    {
+      "label": "warning_signs",
+      "time": 492,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1144,
+            "top": 86,
+            "right": 1832,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "Deflection before failure",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1144,
+            "top": 128,
+            "right": 1832,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "Cracks, deflection, and inspections never become decisive evidence.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1144,
+            "top": 265,
+            "right": 1675,
+            "bottom": 380,
+            "width": 531,
+            "height": 114
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 448,
+            "right": 1868,
+            "bottom": 477,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 501,
+            "right": 1868,
+            "bottom": 530,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 554,
+            "right": 1868,
+            "bottom": 583,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 607,
+            "right": 1868,
+            "bottom": 636,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 660,
+            "right": 1868,
+            "bottom": 689,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "and addressed. Construction continued.",
+          "tag": "p",
+          "className": "rail-caption",
+          "rect": {
+            "left": 1188,
+            "top": 936,
+            "right": 1868,
+            "bottom": 1028,
+            "width": 680,
+            "height": 92
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "The Warning Signs\nDeflection before failure\nCracks, deflection, and inspections never become decisive evidence.\nThe Tea Dance\nThe Original Load Path\nThe Revision\nThe Category Error\nEverything Was In Order\nand addressed. Construction continued.",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "The Warning Signs",
+      "activeTitle": "Deflection before failure",
+      "activeSummary": "Cracks, deflection, and inspections never become decisive evidence.",
+      "railCaption": "and addressed. Construction continued.",
+      "endScreenOpacity": "0",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/warning_signs_492.png",
+        "sha256": "34005d3de6aabce2d9e5049283af152211ccd23494aa3431865f4086acfb3aaf"
+      }
+    },
+    {
+      "label": "final_chapter",
+      "time": 756,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1144,
+            "top": 86,
+            "right": 1832,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "The system accepted the wrong load path",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1144,
+            "top": 128,
+            "right": 1832,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "The documents look orderly after the load path has changed.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1144,
+            "top": 265,
+            "right": 1675,
+            "bottom": 341,
+            "width": 531,
+            "height": 76
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 410,
+            "right": 1868,
+            "bottom": 439,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 463,
+            "right": 1868,
+            "bottom": 492,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 516,
+            "right": 1868,
+            "bottom": 545,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 569,
+            "right": 1868,
+            "bottom": 598,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 622,
+            "right": 1868,
+            "bottom": 651,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "opened, the atrium was full of people on",
+          "tag": "p",
+          "className": "rail-caption",
+          "rect": {
+            "left": 1188,
+            "top": 936,
+            "right": 1868,
+            "bottom": 1028,
+            "width": 680,
+            "height": 92
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "Everything Was In Order\nThe system accepted the wrong load path\nThe documents look orderly after the load path has changed.\nThe Tea Dance\nThe Original Load Path\nThe Revision\nThe Category Error\nThe Warning Signs\nopened, the atrium was full of people on",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "Everything Was In Order",
+      "activeTitle": "The system accepted the wrong load path",
+      "activeSummary": "The documents look orderly after the load path has changed.",
+      "railCaption": "opened, the atrium was full of people on",
+      "endScreenOpacity": "0",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/final_chapter_756.png",
+        "sha256": "ca47071dbe642acd5a67c9fcc4534b45967991da8c3711b58e2a7239ac3a5d84"
+      }
+    },
+    {
+      "label": "end_screen_after_outro",
+      "time": 828,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1144,
+            "top": 86,
+            "right": 1832,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "The system accepted the wrong load path",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1144,
+            "top": 128,
+            "right": 1832,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "The documents look orderly after the load path has changed.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1144,
+            "top": 265,
+            "right": 1675,
+            "bottom": 341,
+            "width": 531,
+            "height": 76
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 410,
+            "right": 1868,
+            "bottom": 439,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 463,
+            "right": 1868,
+            "bottom": 492,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 516,
+            "right": 1868,
+            "bottom": 545,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 569,
+            "right": 1868,
+            "bottom": 598,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 622,
+            "right": 1868,
+            "bottom": 651,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "Everything Was In Order\nThe system accepted the wrong load path\nThe documents look orderly after the load path has changed.\nThe Tea Dance\nThe Original Load Path\nThe Revision\nThe Category Error\nThe Warning Signs",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "Everything Was In Order",
+      "activeTitle": "The system accepted the wrong load path",
+      "activeSummary": "The documents look orderly after the load path has changed.",
+      "railCaption": "",
+      "endScreenOpacity": "1",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/end_screen_after_outro_828.png",
+        "sha256": "217c9879d692dca62eb9c511d5ab776797d8b022ae6fb8747182fcd8ea5dfa57"
+      }
+    },
+    {
+      "label": "end_screen_late",
+      "time": 832.643,
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028,
+        "width": 760,
+        "height": 976
+      },
+      "textNodes": [
+        {
+          "text": "Everything Was In Order",
+          "tag": "p",
+          "className": "eyebrow",
+          "rect": {
+            "left": 1144,
+            "top": 86,
+            "right": 1832,
+            "bottom": 112,
+            "width": 688,
+            "height": 26
+          },
+          "inRail": true
+        },
+        {
+          "text": "The system accepted the wrong load path",
+          "tag": "h1",
+          "className": "active-title",
+          "rect": {
+            "left": 1144,
+            "top": 128,
+            "right": 1832,
+            "bottom": 248,
+            "width": 688,
+            "height": 120
+          },
+          "inRail": true
+        },
+        {
+          "text": "The documents look orderly after the load path has changed.",
+          "tag": "p",
+          "className": "active-summary",
+          "rect": {
+            "left": 1144,
+            "top": 265,
+            "right": 1675,
+            "bottom": 341,
+            "width": 531,
+            "height": 76
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 410,
+            "right": 1868,
+            "bottom": 439,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 463,
+            "right": 1868,
+            "bottom": 492,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Revision",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 516,
+            "right": 1868,
+            "bottom": 545,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Category Error",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 569,
+            "right": 1868,
+            "bottom": 598,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        },
+        {
+          "text": "The Warning Signs",
+          "tag": "p",
+          "className": "context-title",
+          "rect": {
+            "left": 1148,
+            "top": 622,
+            "right": 1868,
+            "bottom": 651,
+            "width": 720,
+            "height": 29
+          },
+          "inRail": true
+        }
+      ],
+      "visibleText": "Everything Was In Order\nThe system accepted the wrong load path\nThe documents look orderly after the load path has changed.\nThe Tea Dance\nThe Original Load Path\nThe Revision\nThe Category Error\nThe Warning Signs",
+      "outOfRailText": [],
+      "ordinalMatches": [],
+      "activeLabel": "Everything Was In Order",
+      "activeTitle": "The system accepted the wrong load path",
+      "activeSummary": "The documents look orderly after the load path has changed.",
+      "railCaption": "",
+      "endScreenOpacity": "1",
+      "chapterSlatePresent": false,
+      "effectCardPresent": false,
+      "endLabelPresent": false,
+      "renderApiPresent": true,
+      "screenshot": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_right_rail_text_only_20260517T081101Z/qa/screenshots/end_screen_late_832_643.png",
+        "sha256": "89be5fef1f3b07281240187525f2c9010096e7e33deae8742f812989b33aa720"
+      }
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "artifact_id": "channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z",
+  "created_at": "20260526T195816Z",
+  "status": "review_ready_pending_human_keep",
+  "workflow": "channel_intro_pressure_bends_first_eight_full_intro_borderless_review_v1",
+  "mp4_render_created": true,
+  "youtube_uploaded": false,
+  "youtube_visibility_changed": false,
+  "youtube_channel_trailer_replaced": false,
+  "may_upload_to_youtube": false,
+  "production_contract": {
+    "contract_id": "channel-trailer-v1",
+    "intent": "successor",
+    "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+    "youtube_action_approval_read": "blocked_local_review_only"
+  },
+  "youtube_action_read": "blocked_local_review_only",
+  "source_final_render": {
+    "role": "full_intro_first_eight_pressure_bends_source",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_first_eight_successor_20260526T075258Z/channel_trailer_pressure_bends_first_eight_successor_manifest.json",
+    "manifest_sha256": "4603e289615bbd98b20c807659ca7359a646f38a80ec646113b92213791c3209",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_first_eight_successor_20260526T075258Z/video/cascade_of_effects_channel_trailer_pressure_bends_first_eight_successor_1080p24.mp4",
+    "mp4_sha256": "4b6e983a287dd2830ee68d92712f72e5f3a61829a616bfbc8226a5c5f89e5b59"
+  },
+  "predecessor": {
+    "role": "full_intro_first_eight_pressure_bends_source",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_first_eight_successor_20260526T075258Z/channel_trailer_pressure_bends_first_eight_successor_manifest.json",
+    "manifest_sha256": "4603e289615bbd98b20c807659ca7359a646f38a80ec646113b92213791c3209",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_pressure_bends_first_eight_successor_20260526T075258Z/video/cascade_of_effects_channel_trailer_pressure_bends_first_eight_successor_1080p24.mp4",
+    "mp4_sha256": "4b6e983a287dd2830ee68d92712f72e5f3a61829a616bfbc8226a5c5f89e5b59"
+  },
+  "source_audio": {
+    "role": "pressure_bends_original_track",
+    "path": "/Users/mike/Downloads/The_Pressure_Bends.mp3",
+    "sha256": "5f85a73411de44d64633602f38524e948205c76d3de11cba231d3f1db9ea184f"
+  },
+  "approved_borderless_end_screen": {
+    "role": "human_approved_intro_end_screen_design",
+    "latest_pointer_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_end_screen_adaptive_borderless_keep_latest.json",
+    "latest_pointer_sha256": "69dec46e7bf055e6d497552e19219d49ed490fa725a642bc6c2206d02750f0d2",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_adaptive_borderless_html_review_20260526T191418Z/channel_trailer_end_screen_adaptive_borderless_html_review_manifest.json",
+    "manifest_sha256": "ee62cd3de650d38408fd11947a60ef881cf6d954edbf185d1237f6775e657688",
+    "source_preview_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_adaptive_borderless_html_review_20260526T191418Z/images/adaptive_titleless_borderless_end_screen_preview.png",
+    "source_preview_sha256": "3f702f64827e1c98d843c7adea2744ea5f038a17ec4e996d227eebf57b6d1394",
+    "local_preview_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/source/adaptive_titleless_borderless_end_screen_preview.png",
+    "local_preview_sha256": "3f702f64827e1c98d843c7adea2744ea5f038a17ec4e996d227eebf57b6d1394",
+    "human_review_decision": "keep",
+    "approved_at_utc": "2026-05-26T19:46:46Z"
+  },
+  "timeline": {
+    "source_full_intro_duration_seconds": 58.291667,
+    "source_audio_duration_seconds": 58.279125,
+    "output_duration_seconds": 58.291667,
+    "duration_delta_seconds": 0.012542,
+    "duration_tolerance_seconds": 0.061667,
+    "identity_open_seconds": [
+      0.0,
+      6.0
+    ],
+    "first_eight_body_seconds": [
+      6.0,
+      30.2
+    ],
+    "approved_borderless_end_screen_seconds": [
+      30.2,
+      58.291667
+    ],
+    "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1"
+  },
+  "end_screen_context": {
+    "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+    "end_screen_palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+    "placeholder_style_model": "youtube_placeholder_borderless_underlay_v1"
+  },
+  "episode_sequence": [
+    {
+      "episode_id": "challenger",
+      "display": "Challenger",
+      "seconds": [
+        6.0,
+        9.025
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/challenger-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "954a38aba816accb98232a38cd3725d3c977ce1d1bc0ef0835c5df3f2ce02a17",
+      "short_source": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_scoped_v1/motion_contact_sheet/pass_11/final_exports/challenger_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260430T_challenger_house_crt_visible_scanline_final_gate_pass01/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+      "short_source_sha256": "2a8dda604e5d4b88de01048a74063752110f3dcb0998ecf8c5e254f8d5c89f54",
+      "order": 1,
+      "source_seconds": [
+        6.0,
+        9.025
+      ],
+      "gallery_source_sha256_actual": "954a38aba816accb98232a38cd3725d3c977ce1d1bc0ef0835c5df3f2ce02a17",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "2a8dda604e5d4b88de01048a74063752110f3dcb0998ecf8c5e254f8d5c89f54"
+    },
+    {
+      "episode_id": "therac-25",
+      "display": "Therac-25",
+      "seconds": [
+        9.025,
+        12.05
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/therac-25-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "90cd82c106a598fb8d69becceeb90527e703d87507a01e1dbb463e0186bd7cd4",
+      "short_source": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/shorts/therac_short_scoped_v1/publish/youtube_20260429T002638Z_pass02_1980s_texture/therac25_software_safety_youtube_short.mp4",
+      "short_source_sha256": "0fa29b630f06c39fe192341abf981004f47fc87e7aae4724cc65a6924f5ecfe4",
+      "order": 2,
+      "source_seconds": [
+        9.025,
+        12.05
+      ],
+      "gallery_source_sha256_actual": "90cd82c106a598fb8d69becceeb90527e703d87507a01e1dbb463e0186bd7cd4",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "0fa29b630f06c39fe192341abf981004f47fc87e7aae4724cc65a6924f5ecfe4"
+    },
+    {
+      "episode_id": "hyatt-regency",
+      "display": "Hyatt Regency",
+      "seconds": [
+        12.05,
+        15.075
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/hyatt-regency-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "1b884e6937f36763025f88e086784fb208f9eaca58c403ee277771c3050a4458",
+      "short_source": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_scoped_v1/motion_video_proof/pass_11_scene_led_no_freeze_44s/final_exports/hyatt-regency_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+      "short_source_sha256": "bfe70498b6c79ab10a0e570752e0f95ddfeeeebf505fbeefcd6cda95535c9564",
+      "order": 3,
+      "source_seconds": [
+        12.05,
+        15.075
+      ],
+      "gallery_source_sha256_actual": "1b884e6937f36763025f88e086784fb208f9eaca58c403ee277771c3050a4458",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "bfe70498b6c79ab10a0e570752e0f95ddfeeeebf505fbeefcd6cda95535c9564"
+    },
+    {
+      "episode_id": "semmelweis",
+      "display": "Semmelweis",
+      "seconds": [
+        15.075,
+        18.1
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/semmelweis-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "1bb2976faeb7b8cfea5463bb25c2b028f5e9f86c1d8148dd2051ec8f0bd3cf02",
+      "short_source": "/Users/mike/Viz_CascadeEffects/references/episodes/semmelweis/shorts/semmelweis_short_scoped_v1/motion_video_proof/pass_01d_head_in_hands_ending/semmelweis_motion_video_proof_pass_01d_visual_bed_no_audio.mp4",
+      "short_source_sha256": "81213fcda8aae84f187d3431df11c76fa6fa09a6101d1472495726040a917bab",
+      "order": 4,
+      "source_seconds": [
+        15.075,
+        18.1
+      ],
+      "gallery_source_sha256_actual": "1bb2976faeb7b8cfea5463bb25c2b028f5e9f86c1d8148dd2051ec8f0bd3cf02",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "81213fcda8aae84f187d3431df11c76fa6fa09a6101d1472495726040a917bab"
+    },
+    {
+      "episode_id": "tacoma-narrows",
+      "display": "Tacoma Narrows",
+      "seconds": [
+        18.1,
+        21.125
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/tacoma-narrows-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "2a9662534e48ff3cc94141db31cb6d1b65a6e433fbd38537517e8114d7d226be",
+      "short_source": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/motion_video_proof/pass_01_source_led/final_exports/tacoma-narrows_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+      "short_source_sha256": "ea115263908b64a09c81973bb3e45707d18ba17c558d7b162c51784a9730a25d",
+      "order": 5,
+      "source_seconds": [
+        18.1,
+        21.125
+      ],
+      "gallery_source_sha256_actual": "2a9662534e48ff3cc94141db31cb6d1b65a6e433fbd38537517e8114d7d226be",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "ea115263908b64a09c81973bb3e45707d18ba17c558d7b162c51784a9730a25d"
+    },
+    {
+      "episode_id": "piltdown-man",
+      "display": "Piltdown Man",
+      "seconds": [
+        21.125,
+        24.15
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/piltdown-man-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "445e79aaea6c18917efa45cd4c5b9d91552bce980f9f126637324b88160349da",
+      "short_source": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/shorts/piltdown_man_short_scoped_v1/publish/youtube_20260518T174506Z_pass07_visible_scanline/piltdown_man_fossil_hoax_youtube_short.mp4",
+      "short_source_sha256": "390542be1a25456a337e09702732cdcb77918342621715ab6ea32a90871bea0a",
+      "order": 6,
+      "source_seconds": [
+        21.125,
+        24.15
+      ],
+      "gallery_source_sha256_actual": "445e79aaea6c18917efa45cd4c5b9d91552bce980f9f126637324b88160349da",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "390542be1a25456a337e09702732cdcb77918342621715ab6ea32a90871bea0a"
+    },
+    {
+      "episode_id": "737-max",
+      "display": "737 MAX",
+      "seconds": [
+        24.15,
+        27.175
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/737-max-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "88a1dd2e550e8ff15d272a7dceee347ac3eeabc5b923cbf9e67977b544e4c70f",
+      "short_source": "/Users/mike/Viz_CascadeEffects/references/episodes/737-max/shorts/737_max_short_scoped_v1/motion_video_proof/pass_05_source_led_takeoff_continuity_repair/final_exports/737-max_house_crt_clean_source_lineage_visible_scanline_first8_pass_07/20260429T_house_crt_visible_scanline_first8_pass07_y24/work/motion_full_duration__house_crt_signal_interruption_no_audio.mp4",
+      "short_source_sha256": "721620ec94c2200e66b84aa14bba7a1960a006d2f91bf3b6a608ad4a00929db0",
+      "order": 7,
+      "source_seconds": [
+        24.15,
+        27.175
+      ],
+      "gallery_source_sha256_actual": "88a1dd2e550e8ff15d272a7dceee347ac3eeabc5b923cbf9e67977b544e4c70f",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "721620ec94c2200e66b84aa14bba7a1960a006d2f91bf3b6a608ad4a00929db0"
+    },
+    {
+      "episode_id": "titanic",
+      "display": "Titanic",
+      "seconds": [
+        27.175,
+        30.2
+      ],
+      "gallery_source": "/Users/mike/Web_CascadeEffects/brand/assets/episode-gallery/proof-v6-ink-lit-subjects/source-renders/titanic-thumbnail-proof-v6-ink-lit-subjects-source.png",
+      "gallery_source_sha256": "9881989795a9f3e70cd3a969345c4aba83f3acf59f0f10b2fe9c82610977ba9b",
+      "short_source": "/Users/mike/Viz_CascadeEffects/references/episodes/titanic/shorts/titanic_short_scoped_v1/motion_video_proof/pass_14_loc_archival_timed_proof/final_exports/pass_18_loc_archival_source_motion_tail_repair/20260430T201719Z__titanic_pass18_loc_archival_source_motion_tail_repair_source_motion_tail_no_caption.mp4",
+      "short_source_sha256": "018fb4d1ee0e1cdedf7ae4fe30dbe25a92f02255b06da5fe4a333802eb3fdcdd",
+      "order": 8,
+      "source_seconds": [
+        27.175,
+        30.2
+      ],
+      "gallery_source_sha256_actual": "9881989795a9f3e70cd3a969345c4aba83f3acf59f0f10b2fe9c82610977ba9b",
+      "short_source_available_read": "pass_exact_prior_short_insert_available",
+      "short_source_sha256_actual": "018fb4d1ee0e1cdedf7ae4fe30dbe25a92f02255b06da5fe4a333802eb3fdcdd"
+    }
+  ],
+  "end_screen_palette_contract": {
+    "contract_id": "living_cover_end_screen_palette_contract_v1",
+    "status": "pass",
+    "required": true,
+    "required_for_gates": [
+      "channel_trailer_review",
+      "local_review"
+    ],
+    "palette_source": "sampled_episode_backplate",
+    "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+    "sample_model": "pillow_target_region_average_rgb_v1",
+    "approved_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_adaptive_borderless_html_review_20260526T191418Z/images/adaptive_titleless_borderless_end_screen_backplate.png",
+      "sha256": "bc0c87e6a8c83c8d3f88b0e5fef98a3403f7fe5d6767230e6560963a1e6ea31a",
+      "role": "channel_trailer_end_screen_backplate_preserved_visual_language"
+    },
+    "sampled_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_adaptive_borderless_html_review_20260526T191418Z/images/adaptive_titleless_borderless_end_screen_backplate.png",
+      "sha256": "bc0c87e6a8c83c8d3f88b0e5fef98a3403f7fe5d6767230e6560963a1e6ea31a",
+      "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+      "target_samples": {
+        "left_video": {
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ],
+          "sample_hex": "#736664",
+          "sample_read": "pass_backplate_region_average"
+        },
+        "right_video": {
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ],
+          "sample_hex": "#010616",
+          "sample_read": "pass_backplate_region_average"
+        },
+        "center_subscribe": {
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ],
+          "sample_hex": "#312f3a",
+          "sample_read": "pass_backplate_region_average"
+        }
+      }
+    },
+    "colors": {
+      "video_target_fill_rgba": "rgba(59, 43, 41, 0.360)",
+      "video_target_border_rgba": "rgba(184, 131, 122, 0.740)",
+      "video_target_secondary_border_rgba": "rgba(105, 128, 201, 0.740)",
+      "subscribe_ring_rgba": "rgba(154, 144, 198, 0.840)",
+      "muted_rail_text_hex": "#010616",
+      "small_accent_hex": "#312f3a"
+    },
+    "css_variables": {
+      "--ce-end-screen-left-target-fill": "rgba(59, 43, 41, 0.360)",
+      "--ce-end-screen-right-target-fill": "rgba(26, 33, 56, 0.360)",
+      "--ce-end-screen-subscribe-fill": "rgba(46, 42, 62, 0.340)",
+      "--ce-end-screen-outline-model": "youtube_placeholder_borderless_underlay_v1"
+    },
+    "reads": {
+      "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+      "end_screen_target_geometry_read": "pass_titleless_two_video_subscribe_safe_zone_geometry",
+      "end_screen_target_fill_palette_read": "pass_local_target_fills_sampled_from_backplate_regions",
+      "end_screen_target_contrast_read": "pass_borderless_underlay_legible_without_target_outlines",
+      "rail_panel_palette_read": "pass_adaptive_end_screen_targets_use_source_aware_palette",
+      "source_integrated_panel_color_read": "pass_perceptual_episode_backplate_colors_visible_in_end_screen",
+      "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors_with_visible_variability",
+      "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+      "end_screen_placeholder_style_read": "pass_youtube_placeholder_borderless_underlay_v1",
+      "end_screen_outline_removal_read": "pass_borders_glow_rings_inset_rings_subscribe_inner_ring_and_shadow_removed",
+      "end_screen_fill_preservation_read": "pass_translucent_target_fills_preserved"
+    },
+    "target_palette": {
+      "model_id": "backplate_sampled_youtube_end_screen_palette_v1",
+      "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+      "palette_source": "sampled_channel_trailer_end_screen_backplate",
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_adaptive_borderless_html_review_20260526T191418Z/images/adaptive_titleless_borderless_end_screen_backplate.png",
+      "source_art_sha256": "bc0c87e6a8c83c8d3f88b0e5fef98a3403f7fe5d6767230e6560963a1e6ea31a",
+      "target_count": 3,
+      "targets": {
+        "left_video": {
+          "role": "suggested_video",
+          "sample_bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ],
+          "sample_hex": "#736664",
+          "fill_rgba": "rgba(59, 43, 41, 0.360)",
+          "border_rgba": "rgba(184, 131, 122, 0.740)",
+          "ring_rgba": "rgba(149, 99, 91, 0.180)",
+          "inner_ring_rgba": "rgba(187, 141, 134, 0.460)",
+          "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+          "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+          "source_hue_degrees": 8,
+          "source_saturation": 0.07,
+          "derived_saturation": 0.22,
+          "perceptual_variability_score": 62,
+          "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+          "hue_shift_applied": false,
+          "sample_read": "pass_backplate_region_average"
+        },
+        "right_video": {
+          "role": "watch_next_video",
+          "sample_bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ],
+          "sample_hex": "#010616",
+          "fill_rgba": "rgba(26, 33, 56, 0.360)",
+          "border_rgba": "rgba(105, 128, 201, 0.740)",
+          "ring_rgba": "rgba(71, 94, 168, 0.180)",
+          "inner_ring_rgba": "rgba(124, 142, 197, 0.460)",
+          "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+          "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+          "source_hue_degrees": 226,
+          "source_saturation": 0.913,
+          "derived_saturation": 0.44,
+          "perceptual_variability_score": 96,
+          "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+          "hue_shift_applied": false,
+          "sample_read": "pass_backplate_region_average"
+        },
+        "center_subscribe": {
+          "role": "subscribe",
+          "sample_bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ],
+          "sample_hex": "#312f3a",
+          "fill_rgba": "rgba(46, 42, 62, 0.340)",
+          "border_rgba": "rgba(154, 144, 198, 0.840)",
+          "ring_rgba": "rgba(117, 105, 171, 0.200)",
+          "inner_ring_rgba": "rgba(144, 134, 187, 0.460)",
+          "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+          "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+          "source_hue_degrees": 251,
+          "source_saturation": 0.105,
+          "derived_saturation": 0.24,
+          "perceptual_variability_score": 54,
+          "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+          "hue_shift_applied": false,
+          "sample_read": "pass_backplate_region_average"
+        }
+      },
+      "sample_read": "pass_source_backplate_sampled",
+      "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+      "perceptual_variability_min_score": 54,
+      "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+      "adaptive_context_read": "pass_local_target_regions_sampled_with_perceptual_backplate_variability",
+      "fixed_cross_episode_color_read": "pass_no_challenger_default_color_reuse_with_visible_episode_variability",
+      "placeholder_style_model": "youtube_placeholder_borderless_underlay_v1",
+      "outline_model": "youtube_placeholder_borderless_underlay_v1",
+      "borderless_underlay": {
+        "enabled": true,
+        "removed": [
+          "css_border",
+          "outer_glow_ring",
+          "inset_glow_ring",
+          "subscribe_inner_ring",
+          "drop_shadow"
+        ],
+        "fill_preserved": true
+      }
+    },
+    "placeholder_style_model": "youtube_placeholder_borderless_underlay_v1",
+    "outline_model": "youtube_placeholder_borderless_underlay_v1",
+    "borderless_underlay": {
+      "enabled": true,
+      "removed": [
+        "css_border",
+        "outer_glow_ring",
+        "inset_glow_ring",
+        "subscribe_inner_ring",
+        "drop_shadow"
+      ],
+      "fill_preserved": true
+    },
+    "adaptive_render": {
+      "render_model": "pillow_adaptive_titleless_borderless_youtube_underlay_v1",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_adaptive_borderless_html_review_20260526T191418Z/images/adaptive_titleless_borderless_end_screen_preview.png",
+      "clean_backplate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_adaptive_borderless_html_review_20260526T191418Z/images/adaptive_titleless_borderless_end_screen_backplate.png",
+      "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+      "placeholder_style_model": "youtube_placeholder_borderless_underlay_v1",
+      "layout_bbox_xy": {
+        "left_video": [
+          78,
+          382,
+          758,
+          765
+        ],
+        "right_video": [
+          1162,
+          382,
+          1842,
+          765
+        ],
+        "center_subscribe": [
+          814,
+          429,
+          1106,
+          721
+        ]
+      },
+      "reads": {
+        "html_review_preview_read": "pass_adaptive_titleless_borderless_end_screen_preview_rendered",
+        "end_screen_title_artifact_removal_read": "pass_no_cascade_of_effects_title_on_preview_backplate",
+        "end_screen_target_geometry_read": "pass_titleless_two_video_subscribe_safe_zone_geometry",
+        "end_screen_placeholder_style_read": "pass_youtube_placeholder_borderless_underlay_v1"
+      }
+    }
+  },
+  "audio_qa": {
+    "source_audio_stream_sha256": "6d0738bacb5356fd763de8d0ceb738a7427f861ff75f4b5467f2dacfe3fcb5f0",
+    "final_audio_stream_sha256": "6d0738bacb5356fd763de8d0ceb738a7427f861ff75f4b5467f2dacfe3fcb5f0",
+    "audio_stream_copy_match": true,
+    "final_measurements": {
+      "integrated_lufs": -14.8,
+      "true_peak_dbfs": -1.6,
+      "mean_volume_db": -16.9,
+      "max_volume_db": -1.6
+    },
+    "safe_true_peak_max_dbfs": -1.0
+  },
+  "visual_qa": {
+    "pre_end_screen_visual_preservation_report": {
+      "samples": [
+        {
+          "seconds": 0.6,
+          "mean_rgb_delta": 0.4057,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 7.513,
+          "mean_rgb_delta": 0.3754,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 10.538,
+          "mean_rgb_delta": 0.4555,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 13.562,
+          "mean_rgb_delta": 0.6281,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 16.587,
+          "mean_rgb_delta": 0.3752,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 19.613,
+          "mean_rgb_delta": 0.4862,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 22.637,
+          "mean_rgb_delta": 0.5673,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 25.663,
+          "mean_rgb_delta": 0.4847,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 28.688,
+          "mean_rgb_delta": 0.4475,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 29.95,
+          "mean_rgb_delta": 0.4985,
+          "sample_read": "pass"
+        }
+      ],
+      "tolerance_mean_rgb_delta": 5.0,
+      "read": "pass"
+    },
+    "borderless_end_screen_application_report": {
+      "samples": [
+        {
+          "seconds": 30.6,
+          "reference_preview": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/source/adaptive_titleless_borderless_end_screen_preview.png",
+          "mean_rgb_delta": 1.4413,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 47.5,
+          "reference_preview": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/source/adaptive_titleless_borderless_end_screen_preview.png",
+          "mean_rgb_delta": 1.4413,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 48.4,
+          "reference_preview": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/source/adaptive_titleless_borderless_end_screen_preview.png",
+          "mean_rgb_delta": 1.4413,
+          "sample_read": "pass"
+        },
+        {
+          "seconds": 58.042,
+          "reference_preview": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/source/adaptive_titleless_borderless_end_screen_preview.png",
+          "mean_rgb_delta": 1.4416,
+          "sample_read": "pass"
+        }
+      ],
+      "tolerance_mean_rgb_delta": 5.0,
+      "read": "pass"
+    },
+    "final_video_stream_sha256": "bafbb06d3cb6e246d4deb0ee613218d748182688444045622c5bf03ac70615ad",
+    "contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/qa/channel_intro_pressure_bends_full_intro_borderless_contact_sheet.jpg",
+    "contact_sheet_sha256": "3a77472fa6adf456badbbc6125a1431ebd8874c09d76a928e2b6b23ddbdb37fe"
+  },
+  "reads": {
+    "all_first_eight_episode_coverage_read": "pass_8_of_8_episode_segments_present_once",
+    "canonical_first_eight_order_read": "pass_canonical_first_eight_order",
+    "source_audio_hash_read": "pass_source_audio_sha256_recorded",
+    "audio_replacement_read": "pass_pressure_bends_normalized_audio_preserved_from_full_intro_source",
+    "full_track_audio_read": "pass_full_source_track_used_once_no_loop",
+    "safe_mastering_read": "pass_true_peak_margin_and_loudness_target_met",
+    "no_clipping_read": "pass_final_mix_no_clipping",
+    "audio_stream_copy_read": "pass_audio_stream_copied_from_full_intro_source",
+    "video_preservation_read": "pass_full_intro_body_preserved_until_30p2s",
+    "approved_borderless_end_screen_read": "pass_human_approved_borderless_end_screen_applied_to_full_intro",
+    "end_screen_extension_read": "pass_borderless_titleless_end_screen_holds_from_30p2s_to_full_intro_end",
+    "end_screen_title_image_absence_read": "pass_no_cascade_of_effects_title_image_on_end_screen",
+    "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+    "end_screen_target_fill_palette_read": "pass_local_target_fills_sampled_from_backplate_regions",
+    "end_screen_target_contrast_read": "pass_borderless_underlay_legible_without_target_outlines",
+    "rail_panel_palette_read": "pass_adaptive_end_screen_targets_use_source_aware_palette",
+    "source_integrated_panel_color_read": "pass_perceptual_episode_backplate_colors_visible_in_end_screen",
+    "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors_with_visible_variability",
+    "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+    "end_screen_placeholder_style_read": "pass_youtube_placeholder_borderless_underlay_v1",
+    "end_screen_outline_removal_read": "pass_borders_glow_rings_inset_rings_subscribe_inner_ring_and_shadow_removed",
+    "format_read": "pass",
+    "full_decode_read": "pass",
+    "youtube_action_read": "blocked_local_review_only"
+  },
+  "outputs": {
+    "package_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z",
+    "review_html": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/review.html",
+    "final_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/video/cascade_of_effects_channel_intro_pressure_bends_first_eight_full_intro_borderless_1080p24.mp4",
+    "final_mp4_sha256": "c95e78a3e52eda2571fd63520a76df41beac13bad0edbc7d9973e7db348fa728",
+    "contact_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/qa/channel_intro_pressure_bends_full_intro_borderless_contact_sheet.jpg",
+    "contact_sheet_sha256": "3a77472fa6adf456badbbc6125a1431ebd8874c09d76a928e2b6b23ddbdb37fe",
+    "borderless_reference_preview": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/source/adaptive_titleless_borderless_end_screen_preview.png",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_manifest.json"
+  },
+  "media_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "duration": "58.291667"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "duration": "58.282000"
+      }
+    ],
+    "format": {
+      "duration": "58.291667",
+      "size": "20060265",
+      "bit_rate": "2753088"
+    },
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_first_eight_full_intro_borderless_review_20260526T195816Z/video/cascade_of_effects_channel_intro_pressure_bends_first_eight_full_intro_borderless_1080p24.mp4",
+    "sha256": "c95e78a3e52eda2571fd63520a76df41beac13bad0edbc7d9973e7db348fa728"
+  }
+}

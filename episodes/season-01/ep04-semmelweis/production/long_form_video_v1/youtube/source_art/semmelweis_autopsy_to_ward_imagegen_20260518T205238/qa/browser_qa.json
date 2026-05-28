@@ -1,0 +1,34 @@
+{
+  "status": "static_review_ready",
+  "checked_at": "2026-05-18T20:52:38-0700",
+  "checks": {
+    "candidate_count_read": "pass_three_candidates",
+    "candidate_dimensions_read": "pass_all_1920x1080",
+    "contact_sheet_read": "pass_three_candidates_visible",
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_imagegen_primary_source",
+    "local_rendered_backplate_read": "pass_local_tools_only_normalized_and_packaged_imagegen_assets",
+    "html_local_asset_refs_read": "pass_no_external_urls_all_image_refs_exist",
+    "source_art_keep_read": "blocked_pending_human_review"
+  },
+  "images": [
+    {
+      "id": "candidate_a_threshold_procession",
+      "src": "assets/source_art/candidate_a_threshold_procession_1920x1080.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "candidate_b_wash_basin_threshold",
+      "src": "assets/source_art/candidate_b_wash_basin_threshold_1920x1080.png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "candidate_c_foreground_basin_corridor",
+      "src": "assets/source_art/candidate_c_foreground_basin_corridor_1920x1080.png",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}

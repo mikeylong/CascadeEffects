@@ -1,0 +1,93 @@
+{
+  "episode_id": "titanic",
+  "workflow": "long_form_video_production_v1",
+  "created_at": "2026-05-18",
+  "disposition": "pass",
+  "source_script": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/Ep8_Titanic.txt",
+    "sha256": "38056564c66cb5249d02f37dffaf98c4acdea680465e1d9b93d01d06102e38cc",
+    "word_count": 1849,
+    "role": "approved_post_critique_audio_source"
+  },
+  "script_gate_reads": {
+    "frontier_model_script_critique_read": "pass",
+    "frontier_model_script_critique_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/frontier_model_script_critique_gpt5_20260518.md",
+    "frontier_model_script_critique_sha256": "aa12bc555195ef4b546505e23d8e2a99905dcda642ee1b4803932f3adec250f5",
+    "critique_integration_read": "pass",
+    "critique_integration_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/script_gate_integration_note_20260518.md",
+    "critique_integration_sha256": "8fddb08df1a026d5f73a7c4e0d18dd512e9225e1b4e1b522c6467543bfb7d8e8",
+    "human_script_approval_for_audio_read": "pass",
+    "human_script_approval_for_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/human_script_approval_for_audio_20260518.md",
+    "human_script_approval_for_audio_sha256": "cd25f2e7b22071f167b334a8ecb1733cb8d8b847e6e8d8972262bd99c65e2a53"
+  },
+  "render_inputs": {
+    "pipeline_id": "ep8_titanic_longform_20260518",
+    "pipeline_dir": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518",
+    "final_jobs_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/final_jobs.jsonl",
+    "final_jobs_sha256": "0feda9bc6def54e418f4321c1fc6d7b46c305e5d2c3d5ffd5768b9a8ab2c4f27",
+    "effective_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/effective_final_jobs.elevenlabs.jsonl",
+    "effective_manifest_sha256": "b45c7b4a2976f859f41d365dfcf06d78fb62cfe1a62d5fa65a20e3db0d16a5e3",
+    "spoken_input_matches_locked_script_normalized": true,
+    "script_tokens_normalized": 1782,
+    "spoken_tokens_normalized": 1782,
+    "cue_tags_stripped_from_job_input": true,
+    "cue_tone_preserved_by_chunk_instructions": true,
+    "provider_input_char_limit": 3000,
+    "job_count": 5
+  },
+  "render_settings": {
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2",
+    "voice": "dPrTCMw2R7HQlznlgwCO",
+    "voice_profile_id": "longform_mike_v1",
+    "response_format": "wav",
+    "elevenlabs_output_format": "wav_44100",
+    "speed": 0.95,
+    "elevenlabs_seed": 1215938414,
+    "pronunciation_lexicon_sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "pronunciation_applied_rule_ids": []
+  },
+  "render_outputs": {
+    "master_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/final/Ep8_Titanic.wav",
+    "master_sha256": "79253cadeae659aa74fcc2b2c32302d0483a9b1be2d6a3e69f97e367b2623a1f",
+    "duration_seconds": 731.800091,
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "codec": "pcm_s16le",
+    "bits_per_sample": 16,
+    "bit_rate": 705600,
+    "size_bytes": 64544846,
+    "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/audio_package.json",
+    "audio_package_sha256": "1c9e00939e5d203c17f24b60617963a108f14f0e731c31a9f9a3b4fab0a84825",
+    "audio_package_sha_matches_master": true
+  },
+  "timing_sidecars": {
+    "transcript_txt_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/transcripts_mastered/Ep8_Titanic.diarized.txt",
+    "transcript_txt_sha256": "7ed7ad0f3b63d0045234d2bfd039e85bab049f24ad604a54772ce8cff788c1a7",
+    "srt_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/transcripts_mastered/Ep8_Titanic.diarized.srt",
+    "srt_sha256": "dadde6559955ecf82f12855b12c8ee274808a80ec215e7b2ce821ac911d15145",
+    "vtt_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/transcripts_mastered/Ep8_Titanic.diarized.vtt",
+    "vtt_sha256": "07d500d9cb571b7023dc60ce618680cfbd32efe983718a974f54f21490d69ebb",
+    "whisperx_json_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/transcripts_mastered/Ep8_Titanic.whisperx.json",
+    "whisperx_json_sha256": "9f1d2c13e02b4563578afd9ccdaccce3e397cbed54cfa776c1ca8ba20458a0db",
+    "whisperx_log_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/transcripts_mastered/logs/transcribe.20260518-154547.log"
+  },
+  "guard_and_mastering": {
+    "prosody_guard_status": "ok_no_repairs",
+    "prosody_guard_report_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/prosody_guard/guard_report.json",
+    "prosody_guard_report_sha256": "6f57e627a972657c43102df0d15c215e3f6cb48b96f97ba2fd9fdb32a7d307fc",
+    "loudnorm_scan_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/mastering/loudnorm_scan.json",
+    "loudnorm_scan_sha256": "22b93db5128ac4c0bb23a5ee3829b572cec7449e634446bed7025974d8649df5",
+    "loudnorm_second_pass_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_longform_20260518/mastering/loudnorm_second_pass.json",
+    "loudnorm_second_pass_sha256": "e2431f5cdacdc070e666a7e3a28fbc8a0b7652d67e52016b246699aea4edf58f"
+  },
+  "gate_effect": {
+    "audio_status": "review_ready_pending_human_keep",
+    "audio_keep_status": "pending",
+    "may_advance_to_visual_system": false,
+    "may_start_source_art": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false
+  }
+}

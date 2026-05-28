@@ -1,0 +1,445 @@
+{
+  "artifact_id": "cascade_of_effects_channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit",
+  "created_at": "20260512T163702Z",
+  "status": "tighten",
+  "publishable": false,
+  "experiment_type": "music_only_tacoma_737_bass_drum_hit_audit",
+  "variant_of": "channel_trailer_v2_music_only_bass_drum_only_no_titanic_pulse_breath_background_proof_20260512T152748Z",
+  "variant_of_manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_bass_drum_only_no_titanic_pulse_breath_background_proof_20260512T152748Z/channel_trailer_v2_music_only_bass_drum_only_no_titanic_pulse_breath_background_proof_manifest.json",
+  "variant_of_manifest_sha256": "0195e849be1418f8ca0437d6220b3b486ea74aded96587f8535254bc0c364f91",
+  "variant_of_manifest_status_at_render": "local_review_experiment",
+  "summary": "Local audit package for Tacoma Narrows and 737 MAX strict bass-drum hit decisions before rendering another beat-breath proof.",
+  "youtube_updated": false,
+  "youtube_rollout": "none_local_audit_only",
+  "trailer_video_rendered": false,
+  "full_48s_trailer_rendered": false,
+  "beat_breath_proof_rendered": false,
+  "audit_reel_rendered": true,
+  "strict_rule": "breath effect may fire only on confirmed_bass_drum_hit decisions",
+  "support_accents_allowed": false,
+  "low_band_proxy_allowed": false,
+  "periodic_grid_allowed": false,
+  "fallback_pulse_allowed": false,
+  "pre_attack_allowed": false,
+  "titanic_no_bass_drum_seconds": [
+    24.0,
+    30.2
+  ],
+  "audit_window_global_seconds": [
+    16.6,
+    24.0
+  ],
+  "baseline": {
+    "review_reel_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_bass_drum_only_no_titanic_pulse_breath_background_proof_20260512T152748Z/video/cascade_of_effects_channel_trailer_v2_music_only_bass_drum_only_no_titanic_pulse_breath_background_proof_reel.mp4",
+    "review_reel_sha256": "fa3e699776110611fb64615b511104704d6f0091bbd916db9acaf159f80077f8",
+    "hit_map_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_bass_drum_only_no_titanic_pulse_breath_background_proof_20260512T152748Z/beat/bass_drum_only_hit_map.json",
+    "hit_map_sha256": "a00345e0a49dca0e16ea9bb45e6dcf988c6e248a86dd7d211b0e80889efb13d1"
+  },
+  "candidate_audit": {
+    "analysis_strategy": "strict_bass_drum_hit_audit_tacoma_737_no_pulse_render",
+    "variant_of_hit_map_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_bass_drum_only_no_titanic_pulse_breath_background_proof_20260512T152748Z/beat/bass_drum_only_hit_map.json",
+    "strict_rule": "only confirmed_bass_drum_hit entries may drive future breath pulses",
+    "audit_window_global_seconds": [
+      16.6,
+      24.0
+    ],
+    "tacoma_narrows_seconds": [
+      16.6,
+      20.3
+    ],
+    "boeing_737_max_seconds": [
+      20.3,
+      24.0
+    ],
+    "broad_no_drum_window_inherited": false,
+    "broad_no_drum_window_replacement": "explicit_candidate_decisions",
+    "candidate_decisions": [
+      {
+        "index": 1,
+        "global_time_seconds": 16.983039,
+        "review_reel_time_seconds": 10.983039,
+        "audit_window_relative_seconds": 0.383039,
+        "subject": "Tacoma Narrows",
+        "decision": "rejected_not_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_rejected_candidate_map",
+        "human_reaudit_required": true,
+        "strength": 0.968307,
+        "rejection_reason": "not_confirmed_as_audible_bass_drum_hit",
+        "nearest_assisted_candidate_global_seconds": 10.983039,
+        "sub_bass_35_95_strength": 0.800418183,
+        "low_bass_45_130_strength": 0.70958696,
+        "bass_body_55_180_strength": 0.224676044
+      },
+      {
+        "index": 2,
+        "global_time_seconds": 18.341406,
+        "review_reel_time_seconds": 12.341406,
+        "audit_window_relative_seconds": 1.741406,
+        "subject": "Tacoma Narrows",
+        "decision": "rejected_not_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_rejected_candidate_map",
+        "human_reaudit_required": true,
+        "strength": 1.0,
+        "rejection_reason": "manual_review_no_audible_bass_drum_prior_low_frequency_false_positive_region",
+        "nearest_assisted_candidate_global_seconds": 12.341406,
+        "sub_bass_35_95_strength": 1.070067046,
+        "low_bass_45_130_strength": 1.154382458,
+        "bass_body_55_180_strength": 1.083896452
+      },
+      {
+        "index": 3,
+        "global_time_seconds": 18.805805,
+        "review_reel_time_seconds": 12.805805,
+        "audit_window_relative_seconds": 2.205805,
+        "subject": "Tacoma Narrows",
+        "decision": "rejected_not_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_rejected_candidate_map",
+        "human_reaudit_required": true,
+        "strength": 0.846605,
+        "rejection_reason": "manual_review_no_audible_bass_drum_prior_low_frequency_false_positive_region",
+        "nearest_assisted_candidate_global_seconds": 12.805805,
+        "sub_bass_35_95_strength": 0.43607985,
+        "low_bass_45_130_strength": 0.244270502,
+        "bass_body_55_180_strength": 0.257302194
+      },
+      {
+        "index": 4,
+        "global_time_seconds": 19.258594,
+        "review_reel_time_seconds": 13.258594,
+        "audit_window_relative_seconds": 2.658594,
+        "subject": "Tacoma Narrows",
+        "decision": "rejected_not_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_rejected_candidate_map",
+        "human_reaudit_required": true,
+        "strength": 0.906464,
+        "rejection_reason": "manual_review_no_audible_bass_drum_prior_low_frequency_false_positive_region",
+        "nearest_assisted_candidate_global_seconds": 13.258594,
+        "sub_bass_35_95_strength": 0.766496511,
+        "low_bass_45_130_strength": 0.266214038,
+        "bass_body_55_180_strength": 0.263129916
+      },
+      {
+        "index": 5,
+        "global_time_seconds": 19.711383,
+        "review_reel_time_seconds": 13.711383,
+        "audit_window_relative_seconds": 3.111383,
+        "subject": "Tacoma Narrows",
+        "decision": "rejected_not_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_rejected_candidate_map",
+        "human_reaudit_required": true,
+        "strength": 0.834329,
+        "rejection_reason": "manual_review_no_audible_bass_drum_prior_low_frequency_false_positive_region",
+        "nearest_assisted_candidate_global_seconds": 13.711383,
+        "sub_bass_35_95_strength": 0.242805379,
+        "low_bass_45_130_strength": 0.324376372,
+        "bass_body_55_180_strength": 0.390446457
+      },
+      {
+        "index": 6,
+        "global_time_seconds": 20.744671,
+        "review_reel_time_seconds": 14.744671,
+        "audit_window_relative_seconds": 4.144671,
+        "subject": "737 MAX",
+        "decision": "rejected_not_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_rejected_candidate_map",
+        "human_reaudit_required": true,
+        "strength": 1.0,
+        "rejection_reason": "manual_review_no_audible_bass_drum_prior_low_frequency_false_positive_region",
+        "nearest_assisted_candidate_global_seconds": 14.744671,
+        "sub_bass_35_95_strength": 0.924528403,
+        "low_bass_45_130_strength": 0.95498361,
+        "bass_body_55_180_strength": 0.68499147
+      },
+      {
+        "index": 7,
+        "global_time_seconds": 21.20907,
+        "review_reel_time_seconds": 15.20907,
+        "audit_window_relative_seconds": 4.60907,
+        "subject": "737 MAX",
+        "decision": "confirmed_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_hit_map",
+        "human_reaudit_required": true,
+        "strength": 1.0,
+        "rejection_reason": null,
+        "nearest_assisted_candidate_global_seconds": 21.20907,
+        "sub_bass_35_95_strength": 0.906423017,
+        "low_bass_45_130_strength": 0.797416534,
+        "bass_body_55_180_strength": 0.372143154
+      },
+      {
+        "index": 8,
+        "global_time_seconds": 21.801179,
+        "review_reel_time_seconds": 15.801179,
+        "audit_window_relative_seconds": 5.201179,
+        "subject": "737 MAX",
+        "decision": "confirmed_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_hit_map",
+        "human_reaudit_required": true,
+        "strength": 1.0,
+        "rejection_reason": null,
+        "nearest_assisted_candidate_global_seconds": 21.801179,
+        "sub_bass_35_95_strength": 0.863664454,
+        "low_bass_45_130_strength": 0.728647875,
+        "bass_body_55_180_strength": 0.76409651
+      },
+      {
+        "index": 9,
+        "global_time_seconds": 23.147937,
+        "review_reel_time_seconds": 17.147937,
+        "audit_window_relative_seconds": 6.547937,
+        "subject": "737 MAX",
+        "decision": "confirmed_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_hit_map",
+        "human_reaudit_required": true,
+        "strength": 1.0,
+        "rejection_reason": null,
+        "nearest_assisted_candidate_global_seconds": 23.147937,
+        "sub_bass_35_95_strength": 1.047499012,
+        "low_bass_45_130_strength": 1.059223507,
+        "bass_body_55_180_strength": 1.000051189
+      },
+      {
+        "index": 10,
+        "global_time_seconds": 23.600726,
+        "review_reel_time_seconds": 17.600726,
+        "audit_window_relative_seconds": 7.000726,
+        "subject": "737 MAX",
+        "decision": "confirmed_bass_drum_hit",
+        "decision_source": "current_strict_bass_drum_only_hit_map",
+        "human_reaudit_required": true,
+        "strength": 1.0,
+        "rejection_reason": null,
+        "nearest_assisted_candidate_global_seconds": 23.600726,
+        "sub_bass_35_95_strength": 0.942893703,
+        "low_bass_45_130_strength": 0.990888622,
+        "bass_body_55_180_strength": 1.028989741
+      }
+    ],
+    "diagnostic_737_timing_peaks": [
+      {
+        "index": 1,
+        "global_time_seconds": 20.793912,
+        "review_reel_time_seconds": 14.793912,
+        "subject": "737 MAX",
+        "source": "full_band_rms_peak_diagnostic_not_candidate_decision",
+        "nearest_candidate_global_seconds": 20.744671,
+        "nearest_candidate_decision": "rejected_not_bass_drum_hit",
+        "nearest_candidate_delta_seconds": 0.049241
+      },
+      {
+        "index": 2,
+        "global_time_seconds": 21.242891,
+        "review_reel_time_seconds": 15.242891,
+        "subject": "737 MAX",
+        "source": "full_band_rms_peak_diagnostic_not_candidate_decision",
+        "nearest_candidate_global_seconds": 21.20907,
+        "nearest_candidate_decision": "confirmed_bass_drum_hit",
+        "nearest_candidate_delta_seconds": 0.033821
+      },
+      {
+        "index": 3,
+        "global_time_seconds": 22.145839,
+        "review_reel_time_seconds": 16.145839,
+        "subject": "737 MAX",
+        "source": "full_band_rms_peak_diagnostic_not_candidate_decision",
+        "nearest_candidate_global_seconds": 21.801179,
+        "nearest_candidate_decision": "confirmed_bass_drum_hit",
+        "nearest_candidate_delta_seconds": 0.34466
+      },
+      {
+        "index": 4,
+        "global_time_seconds": 23.203435,
+        "review_reel_time_seconds": 17.203435,
+        "subject": "737 MAX",
+        "source": "full_band_rms_peak_diagnostic_not_candidate_decision",
+        "nearest_candidate_global_seconds": 23.147937,
+        "nearest_candidate_decision": "confirmed_bass_drum_hit",
+        "nearest_candidate_delta_seconds": 0.055498
+      },
+      {
+        "index": 5,
+        "global_time_seconds": 23.652415,
+        "review_reel_time_seconds": 17.652415,
+        "subject": "737 MAX",
+        "source": "full_band_rms_peak_diagnostic_not_candidate_decision",
+        "nearest_candidate_global_seconds": 23.600726,
+        "nearest_candidate_decision": "confirmed_bass_drum_hit",
+        "nearest_candidate_delta_seconds": 0.051689
+      }
+    ],
+    "confirmed_candidate_count": 4,
+    "rejected_candidate_count": 6,
+    "tacoma_confirmed_candidate_count": 0,
+    "boeing_737_max_confirmed_candidate_count": 4,
+    "all_candidates_have_binary_decision_read": "pass",
+    "human_bass_drum_hit_audit_read": "review_required"
+  },
+  "candidate_artifacts": {
+    "candidate_json_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/audit/tacoma_737_bass_drum_candidate_audit.json",
+    "candidate_json_sha256": "e1562440c7ddb1de22b13ae6a023eef11006b9351a3c7efa33902efb989ef2b3",
+    "candidate_csv_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/audit/tacoma_737_bass_drum_candidate_audit.csv",
+    "candidate_csv_sha256": "2a046ea4782aeaf45952c247248ba6ec210db83a1092f37091934765beafc35a",
+    "diagnostic_peaks_csv_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/audit/tacoma_737_737_diagnostic_peaks.csv",
+    "diagnostic_peaks_csv_sha256": "ca1c53b0ee2bac025ff49abc3a69255ad74135e929a51f7ce1ad9b7164c9711b"
+  },
+  "outputs": {
+    "audit_reel": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/video/tacoma_737_bass_drum_hit_audit_reel.mp4",
+      "sha256": "9405d2e51b0e58f3d3ef02af1f4382e69f90d77ae3a0d8f1042c58fa34497e12",
+      "duration_seconds": 7.4,
+      "video_stream_count": 1,
+      "audio_stream_count": 1,
+      "video_streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1"
+        }
+      ],
+      "audio_streams": [
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "7.400000",
+        "size": "3948795"
+      }
+    },
+    "audit_reel_full_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/video/tacoma_737_bass_drum_hit_audit_reel.mp4",
+      "full_decode_read": "pass"
+    },
+    "silent_audit_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/work/tacoma_737_bass_drum_hit_audit_silent.mp4",
+    "silent_audit_video_sha256": "38c80a2a3dc8a25b7b8c7317ac2450b3ffa6f1e72a87d3321bb15633ac3c51b6"
+  },
+  "qa": {
+    "audit_reel_format_read": "pass",
+    "full_decode_read": "pass",
+    "candidate_json_binary_decision_read": "pass",
+    "broad_no_drum_window_inherited_read": "pass_not_inherited",
+    "no_support_accent_pulse_read": "pass",
+    "no_low_band_proxy_read": "pass",
+    "no_periodic_grid_read": "pass",
+    "no_fallback_pulse_read": "pass",
+    "no_pre_attack_read": "pass",
+    "titanic_no_bass_drum_window_preserved_read": "pass",
+    "human_bass_drum_hit_audit_read": "review_required",
+    "youtube_updated_read": "pass_not_updated",
+    "contact_sheets": {
+      "waveform_spectrogram": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/qa/tacoma_737_bass_drum_audit_waveform_spectrogram_sheet.jpg",
+        "sha256": "96e7693388e72f370660b2dd242b9d95f542c19de3bacbf8d61fccbdd80e2db2",
+        "global_seconds": [
+          16.6,
+          24.0
+        ],
+        "confirmed_candidate_count": 4,
+        "rejected_candidate_count": 6,
+        "diagnostic_peak_count": 5
+      },
+      "candidate_frame_strip": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/qa/tacoma_737_bass_drum_candidate_frame_strip.jpg",
+        "sha256": "7e02c5a086826953a24afe65276fce202486a9a40a21c86fbcb7ffce444f2f90",
+        "samples": [
+          {
+            "global_time_seconds": 16.983039,
+            "subject": "Tacoma Narrows",
+            "decision": "rejected_not_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 18.341406,
+            "subject": "Tacoma Narrows",
+            "decision": "rejected_not_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 18.805805,
+            "subject": "Tacoma Narrows",
+            "decision": "rejected_not_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 19.258594,
+            "subject": "Tacoma Narrows",
+            "decision": "rejected_not_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 19.711383,
+            "subject": "Tacoma Narrows",
+            "decision": "rejected_not_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 20.744671,
+            "subject": "737 MAX",
+            "decision": "rejected_not_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 21.20907,
+            "subject": "737 MAX",
+            "decision": "confirmed_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 21.801179,
+            "subject": "737 MAX",
+            "decision": "confirmed_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 23.147937,
+            "subject": "737 MAX",
+            "decision": "confirmed_bass_drum_hit"
+          },
+          {
+            "global_time_seconds": 23.600726,
+            "subject": "737 MAX",
+            "decision": "confirmed_bass_drum_hit"
+          }
+        ]
+      },
+      "diagnostic_737_peak_frame_strip": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_music_only_tacoma_737_bass_drum_hit_audit_20260512T163702Z/qa/tacoma_737_737_diagnostic_peak_frame_strip.jpg",
+        "sha256": "68c8b0887f348e6fedba45048a048101abb598708772d72dabe1edf8a692860f",
+        "samples": [
+          {
+            "global_time_seconds": 20.793912,
+            "nearest_candidate_delta_seconds": 0.049241
+          },
+          {
+            "global_time_seconds": 21.242891,
+            "nearest_candidate_delta_seconds": 0.033821
+          },
+          {
+            "global_time_seconds": 22.145839,
+            "nearest_candidate_delta_seconds": 0.34466
+          },
+          {
+            "global_time_seconds": 23.203435,
+            "nearest_candidate_delta_seconds": 0.055498
+          },
+          {
+            "global_time_seconds": 23.652415,
+            "nearest_candidate_delta_seconds": 0.051689
+          }
+        ]
+      }
+    },
+    "frame_report": {
+      "frame_count": 178,
+      "duration_seconds": 7.4,
+      "global_seconds": [
+        16.6,
+        24.0
+      ]
+    }
+  },
+  "tighten_reason": "missed_tacoma_17_to_18_hit_and_rejected_18_to_20_bass_drum_hits",
+  "superseded_by": "channel_trailer_v2_music_only_tacoma_737_corrected_bass_drum_hit_audit_20260512T170408Z"
+}

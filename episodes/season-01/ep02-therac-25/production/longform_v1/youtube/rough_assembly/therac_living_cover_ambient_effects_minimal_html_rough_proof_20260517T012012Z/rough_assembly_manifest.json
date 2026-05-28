@@ -1,0 +1,1033 @@
+{
+  "packet_id": "therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z",
+  "episode_id": "therac-25",
+  "phase_gate": "rough_assembly_gate",
+  "status": "review_ready",
+  "human_disposition": "defer",
+  "created_utc": "20260517T012012Z",
+  "living_cover_system_version": "living_cover_system_v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "captioning_process_version": "living_cover_captioning_process_v1",
+  "caption_required": true,
+  "caption_output_model": "dual_visible_rail_and_youtube_vtt_sidecar",
+  "override_status": "none",
+  "review_only": true,
+  "html_proof_only": true,
+  "mp4_render_created": false,
+  "may_create_full_runtime_mp4_render": false,
+  "may_advance_to_video_render": false,
+  "may_advance_to_final_assembly": false,
+  "may_advance_to_publish_readiness": false,
+  "may_youtube_action": false,
+  "publish_ready": false,
+  "youtube_upload_ready": false,
+  "public_release_ready": false,
+  "approved_audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/final/Ep2_Therac-25.wav",
+    "sha256": "b88395078d033003d31a71a63f7a581cba1ebce45541c1db848b408133c2efe4",
+    "duration_seconds": 1081.260408,
+    "provider": "elevenlabs",
+    "voice_profile_id": "longform_mike_v1",
+    "qa_completed_at": "2026-05-16T00:11:13Z"
+  },
+  "source_visual": {
+    "carrier": "generated_raster_source_art",
+    "source_art_lane": "cascade-ink-lit-photoreal-v1",
+    "selected_variant_id": "variant_h_control_room_active_terminal",
+    "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/assets/source_art/variant_h_control_room_active_terminal_1920x1080.png",
+    "source_art_sha256": "cf08a25f31ea122daf9996827a56b28cc6692cebd83b2bebe5e48fa78cc0365e",
+    "source_art_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_accuracy_cue_repair_imagegen_source_art_20260516T195352Z/source_art_manifest.json",
+    "source_art_manifest_sha256": "f75b6619dd4bf83460e6053f0bd11a98e49b6e208e2e6cf26b797fd1e9e53b7f",
+    "historical_reference_notes_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/historical_reference_notes.md",
+    "generation_provenance": {
+      "tool": "codex_builtin_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_path",
+      "mode": "text_to_image",
+      "source_generation_root": "/Users/mike/.codex/generated_images",
+      "source_generation_original_pixel_size": {
+        "width": 1672,
+        "height": 941
+      },
+      "local_operations_after_generation": [
+        "copy_original",
+        "resize_to_1920x1080",
+        "resize_preview_only",
+        "manifest_qa"
+      ],
+      "local_rendered_backplate_used": false,
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e2dd2-7396-77b1-85e7-5789109f01ef/ig_0795620be4cb8c94016a08c926efe08195be01e45a7f9556f6.png",
+      "source_generation_sha256": "60e18c50fcd3446512bcfa814e10772cde858449a1b0ac171a8db99ef1271712",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_accuracy_cue_repair_imagegen_source_art_20260516T195352Z/assets/source_generations/variant_h_control_room_active_terminal_codex_builtin_image_gen_original.png",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_accuracy_cue_repair_imagegen_source_art_20260516T195352Z/assets/source_art/variant_h_control_room_active_terminal_1920x1080.png",
+      "final_asset_sha256": "cf08a25f31ea122daf9996827a56b28cc6692cebd83b2bebe5e48fa78cc0365e",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/source_art/therac_living_cover_accuracy_cue_repair_imagegen_source_art_20260516T195352Z/assets/prompts/variant_h_control_room_active_terminal_prompt.txt",
+      "prompt_sha256": "a4470cdc09466408caca54b9e7ed412a3e62da17a8607fb3615d02320480e847",
+      "provenance_notes": "Built-in Codex image_gen generated the source-art backplate; local operations only copied/resized/packaged the raster and composed it into the HTML proof shell."
+    },
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    }
+  },
+  "caption_context": {
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_historical_imagegen_html_rough_proof_20260516T170724Z/assets/captions/therac25_longform_script_locked.vtt",
+    "caption_vtt_sha256": "cc73574b28f81302817b8ecab65eaaba624319c2d8935edb80fe0f69da558631",
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_historical_imagegen_html_rough_proof_20260516T170724Z/assets/captions/therac25_longform_script_locked.srt",
+    "caption_srt_sha256": "3a84e6e416dfa8a81bb2e06f822ca23d873d11c87dc5bb3297976cabd063ef6e",
+    "caption_text_source": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/Ep2_Therac-25.txt",
+      "sha256": "03ef5e6fb1219757fdf2bf73873781102397acfc7682b0616c5c17460cf91e69"
+    },
+    "caption_timing_source": {
+      "bytes": 771843,
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep2_therac25_production/transcripts_mastered/Ep2_Therac-25.whisperx.json",
+      "sha256": "22c045e8618f536741f88647df12ac54744b3e9265906321bed6f3a203fe1da2"
+    },
+    "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+    "alignment": {
+      "alignment_coverage": 0.985632183908046,
+      "interpolated_script_token_count": 35,
+      "matched_script_token_count": 2401,
+      "max_unmatched_script_span": 2,
+      "max_unmatched_script_span_allowed": 8,
+      "min_alignment_coverage": 0.985,
+      "script_token_count": 2436,
+      "status": "pass",
+      "timing_token_count": 2451,
+      "unmatched_script_span_count": 33,
+      "unmatched_script_spans": [
+        {
+          "end_index_exclusive": 308,
+          "start_index": 307,
+          "text": "full-power",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 382,
+          "start_index": 381,
+          "text": "Therac-25",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 405,
+          "start_index": 404,
+          "text": "Therac-6",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 407,
+          "start_index": 406,
+          "text": "Therac-20",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 482,
+          "start_index": 481,
+          "text": "Therac-25",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 620,
+          "start_index": 619,
+          "text": "Therac-25's",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 646,
+          "start_index": 644,
+          "text": "typed a",
+          "token_count": 2
+        },
+        {
+          "end_index_exclusive": 648,
+          "start_index": 647,
+          "text": "moved",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 657,
+          "start_index": 656,
+          "text": "re-entered",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 684,
+          "start_index": 683,
+          "text": "matched",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 712,
+          "start_index": 711,
+          "text": "Full-power",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 725,
+          "start_index": 724,
+          "text": "timing-dependent",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 868,
+          "start_index": 867,
+          "text": "learned",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 902,
+          "start_index": 901,
+          "text": "one:",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 906,
+          "start_index": 905,
+          "text": "Therac-25's",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 962,
+          "start_index": 961,
+          "text": "two:",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1014,
+          "start_index": 1013,
+          "text": "three:",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1048,
+          "start_index": 1047,
+          "text": "four:",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1059,
+          "start_index": 1058,
+          "text": "MALFUNCTION",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1103,
+          "start_index": 1102,
+          "text": "five:",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1163,
+          "start_index": 1162,
+          "text": "removed",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1172,
+          "start_index": 1170,
+          "text": "over patient",
+          "token_count": 2
+        },
+        {
+          "end_index_exclusive": 1180,
+          "start_index": 1179,
+          "text": "warning-softening",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1318,
+          "start_index": 1317,
+          "text": "machine's",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1883,
+          "start_index": 1882,
+          "text": "failure-mode",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1927,
+          "start_index": 1926,
+          "text": "software-dependent",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 1983,
+          "start_index": 1982,
+          "text": "Therac-25",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 2001,
+          "start_index": 2000,
+          "text": "Therac-25",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 2036,
+          "start_index": 2035,
+          "text": "Carried-forward",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 2158,
+          "start_index": 2157,
+          "text": "incident-reporting",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 2293,
+          "start_index": 2292,
+          "text": "Therac-25",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 2325,
+          "start_index": 2324,
+          "text": "Therac-25",
+          "token_count": 1
+        },
+        {
+          "end_index_exclusive": 2393,
+          "start_index": 2392,
+          "text": "And",
+          "token_count": 1
+        }
+      ]
+    },
+    "reads": {
+      "caption_alignment_coverage_read": "pass",
+      "caption_asr_text_not_used_read": "pass",
+      "caption_no_caption_after_outro_start_read": "pass",
+      "caption_no_speaker_labels_read": "pass",
+      "caption_rail_safe_chunk_read": "pass",
+      "caption_text_matches_script_read": "pass"
+    }
+  },
+  "full_timeline": {
+    "duration_seconds": 1081.260408,
+    "section_count": 8,
+    "sections": [
+      {
+        "id": "patient_or_machine",
+        "label": "CHAPTER 01",
+        "title": "Patient or Machine",
+        "summary": "A treatment room contradiction opens the case.",
+        "anchor": "A patient lies on a table in a hospital treatment room.",
+        "at": 0.031,
+        "time_label": "00:00",
+        "beats": [
+          {
+            "at": 0.031,
+            "label": "Patient or Machine"
+          }
+        ],
+        "visual": {
+          "x": -0.8,
+          "y": -0.4,
+          "scale": 1.02,
+          "signal": 0
+        },
+        "duration": 66.099
+      },
+      {
+        "id": "the_margin",
+        "label": "CHAPTER 02",
+        "title": "The Narrow Margin",
+        "summary": "Radiation therapy depends on mode and hardware matching.",
+        "anchor": "Radiation therapy works by aiming a beam of high-energy particles at a tumor.",
+        "at": 66.13,
+        "time_label": "01:06",
+        "beats": [
+          {
+            "at": 66.13,
+            "label": "The Narrow Margin"
+          }
+        ],
+        "visual": {
+          "x": -0.62,
+          "y": -0.28,
+          "scale": 1.025,
+          "signal": 1
+        },
+        "duration": 91.365
+      },
+      {
+        "id": "safety_net_removed",
+        "label": "CHAPTER 03",
+        "title": "The Safety Net Removed",
+        "summary": "Proven code inherits trust from hardware that no longer exists.",
+        "anchor": "The Therac-25 was not a new machine.",
+        "at": 157.495,
+        "time_label": "02:37",
+        "beats": [
+          {
+            "at": 157.495,
+            "label": "The Safety Net Removed"
+          }
+        ],
+        "visual": {
+          "x": -0.44,
+          "y": -0.16,
+          "scale": 1.03,
+          "signal": 2
+        },
+        "duration": 102.792
+      },
+      {
+        "id": "race_condition",
+        "label": "CHAPTER 04",
+        "title": "The Hidden State",
+        "summary": "Fast edits expose a software state the console cannot admit.",
+        "anchor": "The Therac-25's software had a flaw that only appeared under specific conditions.",
+        "at": 260.287,
+        "time_label": "04:20",
+        "beats": [
+          {
+            "at": 260.287,
+            "label": "The Hidden State"
+          }
+        ],
+        "visual": {
+          "x": -0.26,
+          "y": -0.4,
+          "scale": 1.035,
+          "signal": 0
+        },
+        "duration": 114.58
+      },
+      {
+        "id": "trust_layers",
+        "label": "CHAPTER 05",
+        "title": "How Trust Repeats",
+        "summary": "Routine sessions train the system to believe the machine.",
+        "anchor": "Here is how a machine earns trust it does not deserve.",
+        "at": 374.867,
+        "time_label": "06:14",
+        "beats": [
+          {
+            "at": 374.867,
+            "label": "How Trust Repeats"
+          }
+        ],
+        "visual": {
+          "x": -0.8,
+          "y": -0.28,
+          "scale": 1.04,
+          "signal": 1
+        },
+        "duration": 169.785
+      },
+      {
+        "id": "incidents_repeat",
+        "label": "CHAPTER 06",
+        "title": "The Pattern Repeats",
+        "summary": "Separate hospitals see the same impossible injury.",
+        "anchor": "Between June 1985 and January 1987",
+        "at": 544.652,
+        "time_label": "09:04",
+        "beats": [
+          {
+            "at": 544.652,
+            "label": "The Pattern Repeats"
+          }
+        ],
+        "visual": {
+          "x": -0.62,
+          "y": -0.16,
+          "scale": 1.02,
+          "signal": 2
+        },
+        "duration": 165.816
+      },
+      {
+        "id": "proof_reversed",
+        "label": "CHAPTER 07",
+        "title": "The Burden of Proof",
+        "summary": "The case breaks open when testing asks how the machine can fail.",
+        "anchor": "The investigation that finally exposed the full scope",
+        "at": 710.468,
+        "time_label": "11:50",
+        "beats": [
+          {
+            "at": 710.468,
+            "label": "The Burden of Proof"
+          }
+        ],
+        "visual": {
+          "x": -0.44,
+          "y": -0.4,
+          "scale": 1.025,
+          "signal": 0
+        },
+        "duration": 184.65
+      },
+      {
+        "id": "lesson",
+        "label": "CHAPTER 08",
+        "title": "Trust Is Not Safety",
+        "summary": "The lesson moves from one machine to any system that grades itself.",
+        "anchor": "The Therac-25 is now one of the most cited case studies",
+        "at": 895.118,
+        "time_label": "14:55",
+        "beats": [
+          {
+            "at": 895.118,
+            "label": "Trust Is Not Safety"
+          }
+        ],
+        "visual": {
+          "x": -0.26,
+          "y": -0.28,
+          "scale": 1.03,
+          "signal": 1
+        },
+        "duration": 186.142
+      }
+    ],
+    "caption_cue_count": 322,
+    "cue_count": 11,
+    "living_cover_cues": [
+      {
+        "id": "opening_contradiction",
+        "chapter_id": "patient_or_machine",
+        "at": 0.031,
+        "end": 66.13,
+        "type": "effect_map",
+        "layer": "internal_cue_map_only",
+        "title": "One of them is wrong",
+        "phrase": "Patient or machine",
+        "nodes": [
+          "Patient reports injury",
+          "Console reports normal",
+          "Trust chooses machine"
+        ],
+        "treatment": "warm right-rail effect map with source-art drift only",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "beam_path_rule",
+        "chapter_id": "the_margin",
+        "at": 92.374,
+        "end": 157.495,
+        "type": "effect_map",
+        "layer": "internal_cue_map_only",
+        "title": "Beam path must match",
+        "phrase": "That rule is the safety architecture",
+        "nodes": [
+          "Mode selected",
+          "Hardware moves",
+          "Beam must match"
+        ],
+        "treatment": "rail-safe effect map; no overlay on treatment room",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "safety_net_removed",
+        "chapter_id": "safety_net_removed",
+        "at": 177.88,
+        "end": 260.287,
+        "type": "key_phrase_typography",
+        "layer": "internal_cue_map_only",
+        "title": "No physical backup",
+        "phrase": "Software would handle safety directly",
+        "nodes": [
+          "Inherited code",
+          "Interlocks removed",
+          "Software alone"
+        ],
+        "treatment": "typography cue and three-node rail map",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "eight_second_state",
+        "chapter_id": "race_condition",
+        "at": 260.287,
+        "end": 374.867,
+        "type": "effect_map",
+        "layer": "internal_cue_map_only",
+        "title": "Eight seconds",
+        "phrase": "The screen no longer matched the machine",
+        "nodes": [
+          "Type",
+          "Correct fast",
+          "Wrong state"
+        ],
+        "treatment": "terminal-state cue in rail only; generated screen remains source art",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "routine_error",
+        "chapter_id": "race_condition",
+        "at": 353.358,
+        "end": 374.867,
+        "type": "key_phrase_typography",
+        "layer": "internal_cue_map_only",
+        "title": "Routine error",
+        "phrase": "Operators learned to press P",
+        "nodes": [
+          "Cryptic code",
+          "Retry allowed",
+          "Warning fades"
+        ],
+        "treatment": "brief typography cue inside rail panel",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "trust_layers",
+        "chapter_id": "trust_layers",
+        "at": 374.867,
+        "end": 544.652,
+        "type": "effect_map",
+        "layer": "internal_cue_map_only",
+        "title": "Trust repeats",
+        "phrase": "The data won",
+        "nodes": [
+          "Reputation",
+          "Repetition",
+          "Instrument over patient"
+        ],
+        "treatment": "chapter-long right-rail cause chain",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "pattern_repeats",
+        "chapter_id": "incidents_repeat",
+        "at": 544.652,
+        "end": 710.468,
+        "type": "effect_map",
+        "layer": "internal_cue_map_only",
+        "title": "Same behavior",
+        "phrase": "No one was looking at the whole picture",
+        "nodes": [
+          "Georgia",
+          "Tyler",
+          "No shared picture"
+        ],
+        "treatment": "rail-only pattern cue",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "burden_reversed",
+        "chapter_id": "proof_reversed",
+        "at": 710.468,
+        "end": 795.862,
+        "type": "effect_map",
+        "layer": "internal_cue_map_only",
+        "title": "Proof reversed",
+        "phrase": "The burden was on the failure",
+        "nodes": [
+          "Report",
+          "Cannot reproduce",
+          "Case closed"
+        ],
+        "treatment": "right-rail effect map with no diagnostic source overlay",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "software_grades_itself",
+        "chapter_id": "proof_reversed",
+        "at": 795.862,
+        "end": 895.118,
+        "type": "key_phrase_typography",
+        "layer": "internal_cue_map_only",
+        "title": "No independent watcher",
+        "phrase": "The software graded itself",
+        "nodes": [
+          "Control",
+          "Judge",
+          "No watcher"
+        ],
+        "treatment": "typing-weight cue in rail panel",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "trust_tested",
+        "chapter_id": "lesson",
+        "at": 895.118,
+        "end": 1057.26,
+        "type": "effect_map",
+        "layer": "internal_cue_map_only",
+        "title": "Trust tested",
+        "phrase": "Only repeated",
+        "nodes": [
+          "Track record",
+          "Untested edge",
+          "False confidence"
+        ],
+        "treatment": "final synthesis cue in rail",
+        "render_policy": "do_not_render_as_standalone_ui"
+      },
+      {
+        "id": "outro_next_pattern",
+        "chapter_id": "lesson",
+        "at": 1057.26,
+        "end": 1081.260408,
+        "type": "outro_end_screen",
+        "layer": "end_screen_and_faded_rail",
+        "title": "Next pattern",
+        "phrase": "Another system that taught itself to ignore what it knew",
+        "nodes": [
+          "Next case",
+          "Same pattern",
+          "Known warning"
+        ],
+        "treatment": "rail fade and static YouTube end-screen target geometry",
+        "render_policy": "do_not_render_as_standalone_ui"
+      }
+    ]
+  },
+  "rough_assembly_reads": {
+    "living_cover_system_version_read": "pass",
+    "captioning_process_version_read": "pass",
+    "fixed_16x9_canvas_read": "pass",
+    "browser_shell_letterbox_read": "pass",
+    "source_art_carrier_read": "pass_generated_raster_source_art",
+    "generation_tool_provenance_read": "pass_recorded",
+    "right_rail_safe_space_read": "pass_browser_qa_1920x1080_selected_variant_h_dark_right_side",
+    "rail_preset_read": "pass_fixed_16x9_right_rail_v1",
+    "no_responsive_rail_reflow_read": "pass",
+    "no_rail_scale_hack_read": "pass",
+    "copy_hierarchy_read": "pass",
+    "native_caption_behavior_read": "pass",
+    "caption_required_read": "pass",
+    "caption_output_model_read": "pass",
+    "caption_text_source_read": "pass",
+    "caption_timing_source_read": "pass",
+    "caption_text_matches_script_read": "pass",
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_phrase_level_read": "pass",
+    "no_karaoke_caption_read": "pass",
+    "caption_bottom_rail_fit_read": "pass_browser_qa_1920x1080",
+    "caption_no_embellishment_read": "pass",
+    "caption_vtt_reference_read": "pass",
+    "caption_sidecar_preservation_read": "pass",
+    "caption_waiver_read": "pass_no_waiver",
+    "stale_cross_episode_label_read": "pass_no_stale_challenger_short_paper_architecture_or_internal_rail_labels",
+    "end_screen_hold_read": "pass_static_target_geometry_planned",
+    "continuous_ambient_end_screen_preservation_read": "pass_not_applicable_no_procedural_ambient_overlay_in_photoreal_proof",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_title_policy_read": "pass_titleless_overlay",
+    "caption_suppression_read": "pass_captions_suppressed_after_outro_start",
+    "rail_fade_read": "pass_rail_fades_for_end_screen",
+    "current_kept_proof_render_source_read": "pending_human_keep_before_final_render",
+    "downstream_gate_read": "pass_all_downstream_flags_false",
+    "no_progress_bar_read": "pass",
+    "no_timecode_read": "pass",
+    "gradient_vignette_read": "pass_no_global_vignette",
+    "copied_media_read": "pass_audio_symlink_source_art_and_captions_packeted",
+    "browser_canvas_readback_warning_read": "pass_context_created_with_willReadFrequently",
+    "browser_qa_read": "pass",
+    "html_media_refs_read": "pass",
+    "render_time_hook_read": "pass_render_mode_updates_visual_without_audio_seek",
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "historical_accuracy_reference_read": "pass",
+    "shielded_room_workflow_read": "pass",
+    "operator_outside_room_read": "pass",
+    "period_console_crt_read": "pass",
+    "blocky_therac_era_machine_read": "pass",
+    "paper_architecture_absence_read": "pass",
+    "generated_text_logo_watermark_read": "pass_no_readable_text_or_logos_by_source_art_precheck",
+    "procedural_signal_overlay_read": "pass_no_canvas_svg_signal_overlay_on_photoreal_backplate",
+    "ambient_line_artifact_read": "pass_canvas_clear_zero_sampled_nonblank_pixels",
+    "ambient_motion_policy_read": "pass_no_procedural_ambient_overlay_for_photoreal_source_preserving_proof",
+    "rail_panel_palette_read": "pass_source_integrated_warm_charcoal_sampled_from_therac_control_room_palette",
+    "source_integrated_panel_color_read": "pass_no_challenger_night_sky_navy_on_therac_photoreal_proof",
+    "operator_gender_script_alignment_read": "pass",
+    "operator_screen_historical_accuracy_read": "pass_active_period_terminal_status_fields",
+    "screen_not_black_read": "pass_browser_sampled_active_terminal_region",
+    "period_terminal_read": "pass_dec_vt100_pdp11_style_crt",
+    "screen_text_legibility_read": "pass_no_readable_text_numbers_or_codes_by_source_art_precheck",
+    "patient_monitor_read": "pass_terminal_or_monitor_glow_present",
+    "living_cover_cue_map_read": "pass",
+    "chapter_cue_coverage_read": "pass_all_major_chapters_have_source_safe_cues",
+    "typography_cue_read": "pass_key_phrase_typography_present",
+    "effect_map_cue_read": "pass_4_to_8_effect_map_moments",
+    "source_safe_motion_read": "pass_opacity_transform_rail_panel_only_no_source_art_diagnostic_marks",
+    "cue_no_diagnostic_overlay_read": "pass_no_cyan_lines_connector_paths_or_generated_ui_over_source_art",
+    "cue_map_internal_artifact_read": "pass_internal_only_not_rendered",
+    "visible_cue_overlay_read": "pass_no_visible_cue_panel_card_label_or_node_list",
+    "ambient_effects_plan_read": "pass_packet_local_minimal_layer_artifact_present",
+    "ambient_effect_lane_decision_read": "pass_minimal_source_preserving_lane_with_rationale",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_source_plate_stage_no_matte_required",
+    "foreground_occlusion_read": "pass_not_applicable_no_depth_effects_or_particles",
+    "effect_layer_source_safety_read": "pass_no_procedural_marks_over_photoreal_source_art",
+    "deterministic_ambient_read": "pass_zero_procedural_effects_with_explicit_parameters",
+    "additive_effect_integration_read": "pass_no_visual_change_preserves_predecessor_layers",
+    "debug_overlay_absence_read": "pass_no_debug_overlay_effect_labels_or_status_panels_rendered",
+    "ambient_effect_browser_sample_read": "pass_browser_qa_intro_mid_1150_1455_end_screen",
+    "range_scrub_effect_review_read": "pass_206_partial_content_wav_range_probe",
+    "localized_particle_density_read": "not_applicable",
+    "particle_foreground_leak_read": "not_applicable",
+    "public_motion_occlusion_reappearance_read": "not_applicable",
+    "practical_light_micro_life_read": "not_applicable",
+    "screen_glow_motion_read": "not_applicable_static_source_art_terminal_glow_only",
+    "intro_music_fade_tail_read": "not_applicable_no_music_change_in_this_successor",
+    "range_request_media_read": "pass_206_partial_content_wav_range_probe"
+  },
+  "artifacts": {
+    "player_html": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/player.html",
+      "sha256": "36fc02faab8575608333f43935d64c5f93a8eb8c19930386106144e2d52ec53e"
+    },
+    "chapter_map": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/chapter_map.json",
+      "sha256": "cf8e36e32fde9721a09a94ef0a1f5dbac9eb422509ea48621bd07c6edb165035"
+    },
+    "living_cover_cue_map": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/living_cover_cue_map.json",
+      "sha256": "877505e6bc59421fbf07221377948b3928a4c419916f3d9aca2bc1ed7d43c51f"
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/source_art_manifest.json",
+      "sha256": "f75b6619dd4bf83460e6053f0bd11a98e49b6e208e2e6cf26b797fd1e9e53b7f"
+    },
+    "review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/review/rough_assembly_review_packet.md",
+      "sha256": "e971b1c6152add356d8d2b880febde57d5990008af4bc0d5d206f36705c809cf"
+    },
+    "browser_qa_script": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/scripts/rough_proof_browser_qa.mjs",
+      "sha256": "b1b5808988d061508ce678d0f27b6deb7d6b1e305b5e68d8a459acafe9bd051b"
+    },
+    "browser_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/browser_qa.json",
+      "sha256": "500dee564213650d329c56a4506ab6b5a0959e08e67ec06e92a60e99e7c78995"
+    },
+    "living_cover_ambient_effects_layer": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/living_cover_ambient_effects_layer.json",
+      "sha256": "c0ec066818f5053d4cfc8b91fe6df5295726eba86f35c0a281c05a2991244a3f"
+    },
+    "visual_system_plan": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/living_cover_visual_system_plan.json",
+      "sha256": "4c6189fc70e9baec11de728c51f5e554a60e061d645ebd4663877cd9233eb6ee"
+    },
+    "range_static_server": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/scripts/range_static_server.mjs",
+      "sha256": "be7fdf38fbd47f41171c34d17521387a411d52b8cc1fbce22f31a5c8d9bccec6"
+    },
+    "browser_qa_raw": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/browser_qa.raw.json",
+      "sha256": "500dee564213650d329c56a4506ab6b5a0959e08e67ec06e92a60e99e7c78995"
+    },
+    "review_server": {
+      "url": "http://127.0.0.1:8826/player.html",
+      "pid_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/review_server.pid",
+      "server": "range_static_server.mjs"
+    },
+    "rough_assembly_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/rough_assembly_manifest.json",
+      "sha256": "not_applicable_self_referential_manifest"
+    }
+  },
+  "review_question": "Reply with exactly one disposition on this updated HTML rough proof: keep, tighten, or reject.",
+  "qa": {
+    "browser_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/browser_qa.json",
+    "browser_qa_sha256": "500dee564213650d329c56a4506ab6b5a0959e08e67ec06e92a60e99e7c78995",
+    "browser_qa_raw_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/browser_qa.raw.json",
+    "browser_qa_raw_sha256": "500dee564213650d329c56a4506ab6b5a0959e08e67ec06e92a60e99e7c78995",
+    "browser_qa_pass": true,
+    "viewport_checks": [
+      {
+        "label": "desktop_1920x1080",
+        "stage": {
+          "width": 1920,
+          "height": 1080
+        },
+        "frame": {
+          "width": 1920,
+          "height": 1080
+        },
+        "rail": {
+          "width": 760,
+          "height": 976
+        },
+        "frameAspectPass": true,
+        "visibleCueOverlayAbsent": true
+      },
+      {
+        "label": "review_1280x720",
+        "stage": {
+          "width": 1280,
+          "height": 720
+        },
+        "frame": {
+          "width": 1280,
+          "height": 720
+        },
+        "rail": {
+          "width": 507,
+          "height": 651
+        },
+        "frameAspectPass": true,
+        "visibleCueOverlayAbsent": true
+      }
+    ],
+    "sample_screenshots": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-0000.png",
+        "sha256": "ee51fa1db2f9e5172decb3a5cbf121cc69b2b344959ccf8f48a5ea0f69492c7a",
+        "time": 0,
+        "title": "Patient or Machine",
+        "caption_empty": true,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-0420.png",
+        "sha256": "159b62c080e1bb0f47b891890c029a3f41912c8da7aab82f634b122de636370d",
+        "time": 260.287,
+        "title": "The Hidden State",
+        "caption_empty": false,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-1150.png",
+        "sha256": "5ac9de5d45154b55b65fd2f33440c882c1b48135087fa029e8709d978fe95262",
+        "time": 710.468,
+        "title": "The Burden of Proof",
+        "caption_empty": false,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-1455.png",
+        "sha256": "c5f2e192c9a7a1511980ae3239fb273b621812e06d424b39c41c79c1710e7533",
+        "time": 895.118,
+        "title": "Trust Is Not Safety",
+        "caption_empty": false,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-end.png",
+        "sha256": "7b60d5e93dd169d7ce0f218c85a4086fc48659d70321656ec846827597b00f6a",
+        "time": 1061.5,
+        "title": "Trust Is Not Safety",
+        "caption_empty": true,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      }
+    ],
+    "range_probe": {
+      "status": 206,
+      "contentRange": "bytes 0-1023/95367246",
+      "acceptRanges": "bytes",
+      "pass": true
+    }
+  },
+  "profile_id": "cascade-ink-lit-photoreal-v1",
+  "historical_reference_sources": [
+    {
+      "id": "computing_cases_operator_interface",
+      "title": "Computing Cases: Therac-25 Operator Interface",
+      "url": "https://www.computingcases.org/case_materials/therac/supporting_docs/levenson/Interface.html",
+      "use": "Confirms terminal/operator-interface workflow, treatment-parameter entry, cursor/edit behavior, and status/error-message context."
+    },
+    {
+      "id": "mit_leveson_turner_paper",
+      "title": "An Investigation of the Therac-25 Accidents",
+      "url": "https://sunnyday.mit.edu/papers/therac.pdf",
+      "use": "Primary investigation reference for software/operator-interface failure modes and malfunction-message context."
+    },
+    {
+      "id": "computing_cases_operators",
+      "title": "Computing Cases: Operators",
+      "url": "https://computingcases.org/case_materials/therac/supporting_docs/therac_case_narr/Operators.html",
+      "use": "Confirms operator role, monitored treatment-room setup, and clinical workflow."
+    },
+    {
+      "id": "wikimedia_therac25_category",
+      "title": "Wikimedia Commons: Therac-25 category",
+      "url": "https://commons.wikimedia.org/wiki/Category:Therac-25",
+      "use": "Reference for Therac-25 machine silhouette and period object vocabulary."
+    },
+    {
+      "id": "wikimedia_therac_rotation_gif",
+      "title": "Wikimedia Commons: Therac 25 Rotation GIF",
+      "url": "https://commons.wikimedia.org/wiki/File:Therac_25_Rotation.gif",
+      "use": "Reference for rotating gantry/head geometry and blocky cabinet/treatment-head relationship."
+    }
+  ],
+  "living_cover_cue_map": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/living_cover_cue_map.json",
+    "sha256": "877505e6bc59421fbf07221377948b3928a4c419916f3d9aca2bc1ed7d43c51f",
+    "cue_map_version": "living_cover_cue_map_v1",
+    "cue_count": 11,
+    "effect_map_count": 7,
+    "key_phrase_typography_count": 3,
+    "source_safe_policy": "Photoreal/source-preserving cue behavior stays in the rail, typography, effect-map panel, opacity/transform, and end-screen layers; no diagnostic lines, cyan signal traces, generated UI paths, or procedural marks over source art.",
+    "reads": {
+      "living_cover_cue_map_read": "pass",
+      "chapter_cue_coverage_read": "pass_all_major_chapters_have_source_safe_cues",
+      "typography_cue_read": "pass_key_phrase_typography_present",
+      "effect_map_cue_read": "pass_4_to_8_effect_map_moments",
+      "source_safe_motion_read": "pass_opacity_transform_rail_panel_only_no_source_art_diagnostic_marks",
+      "cue_no_diagnostic_overlay_read": "pass_no_cyan_lines_connector_paths_or_generated_ui_over_source_art",
+      "cue_map_internal_artifact_read": "pass_internal_only_not_rendered",
+      "visible_cue_overlay_read": "pass_no_visible_cue_panel_card_label_or_node_list"
+    },
+    "render_policy": "internal_only_not_rendered"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "mp4_render_created": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+  "predecessor_proof": {
+    "packet_id": "therac_living_cover_accuracy_cue_repair_html_rough_proof_20260516T195352Z",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_accuracy_cue_repair_html_rough_proof_20260516T195352Z",
+    "relationship": "no_visual_change_compliance_successor"
+  },
+  "living_cover_ambient_effects_layer": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/references/living_cover_ambient_effects_layer.json",
+    "sha256": "c0ec066818f5053d4cfc8b91fe6df5295726eba86f35c0a281c05a2991244a3f",
+    "lane_decision": "minimal",
+    "enabled_lanes": [
+      "minimal_source_preserving_backplate",
+      "rail_typography_opacity_transform_only",
+      "source_integrated_static_terminal_glow_baked_into_imagegen_source_art"
+    ],
+    "rationale": "Therac-25 should stay restrained, clinical, and source-preserving. The active terminal and monitor glow are part of the approved ImageGen source art; the proof shell should not add particles, diagnostic lines, cyan signal traces, aircraft, dust, or procedural marks over the photoreal backplate.",
+    "render_policy": "internal production artifact only; no visible effect label, debug overlay, status panel, route overlay, or diagnostic mark in viewer-facing proof"
+  }
+}

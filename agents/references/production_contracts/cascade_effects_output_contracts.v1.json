@@ -1,0 +1,141 @@
+{
+  "schema_version": "cascade_effects_output_contract_registry_v1",
+  "created_for": "cascade_effects_production_contract_harness_v1",
+  "contracts": {
+    "first-eight-longform-v1": {
+      "contract_id": "first-eight-longform-v1",
+      "family": "longform",
+      "description": "Current first-eight long-form rolling-caption Living Cover production contract.",
+      "episode_ids": [
+        "challenger",
+        "therac-25",
+        "hyatt-regency",
+        "semmelweis",
+        "tacoma-narrows",
+        "piltdown-man",
+        "737-max",
+        "titanic"
+      ],
+      "allowed_intents": ["repair", "successor", "experiment"],
+      "baseline_index_path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json",
+      "rollout_manifest_path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/rolling_caption_rail_rollout_20260520.json",
+      "required_template_ids": {
+        "rail_preset_id": "fixed_16x9_right_rail_v1",
+        "rail_content_model_id": "rolling_caption_anchor_v1",
+        "caption_display_model": "rolling_rail_caption_window_v1",
+        "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "end_screen_palette_treatment_model": "local_backplate_perceptual_target_palette_v3"
+      },
+      "required_passing_reads": [],
+      "allowed_blocked_reads": [
+        "youtube_upload_ready_read",
+        "youtube_public_release_read",
+        "public_release_ready_read",
+        "downstream_gate_read",
+        "source_factcheck_status_read"
+      ],
+      "allowed_tighten_reads": [
+        {
+          "read": "caption_suppression_read",
+          "requires_passing_reads": [
+            "viewer_text_suppression_read",
+            "end_screen_text_artifact_read"
+          ],
+          "reason": "legacy DOM text-content check may remain tighten when the stricter rendered viewer-text suppression gates pass"
+        }
+      ],
+      "blocked_public_release_read": "blocked_manual_youtube_studio_only",
+      "allowed_not_applicable_reads": [],
+      "youtube_policy": {
+        "public_release": "manual_youtube_studio_only",
+        "requires_contract_receipt": true,
+        "requires_explicit_user_approval": true,
+        "allowed_actions_after_receipt": ["unlisted_review_upload", "description_update", "delete_defective_unlisted_upload"]
+      }
+    },
+    "channel-trailer-v1": {
+      "contract_id": "channel-trailer-v1",
+      "family": "channel_trailer",
+      "description": "Channel trailer local review contract. Repairs preserve the actual trailer treatment unless a successor is explicitly scoped.",
+      "allowed_intents": ["repair", "successor", "experiment"],
+      "current_reference_manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_end_screen_titleless_only_repair_latest.json",
+      "required_template_ids": {
+        "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1",
+        "end_screen_palette_treatment_model": "local_backplate_perceptual_target_palette_v3"
+      },
+      "required_passing_reads": [],
+      "required_passing_reads_by_intent": {
+        "repair": [
+          "repair_scope_read",
+          "intro_rollback_read",
+          "body_rollback_read",
+          "end_screen_title_image_absence_read",
+          "end_screen_palette_contract_read",
+          "end_screen_target_fill_palette_read",
+          "end_screen_target_contrast_read",
+          "source_integrated_panel_color_read",
+          "no_cross_episode_default_palette_read",
+          "end_screen_adaptive_perceptual_variability_read",
+          "audio_stream_copy_read",
+          "format_read",
+          "full_decode_read"
+        ],
+        "successor": [
+          "source_audio_hash_read",
+          "audio_replacement_read",
+          "full_track_audio_read",
+          "safe_mastering_read",
+          "no_clipping_read",
+          "video_preservation_read",
+          "end_screen_extension_read",
+          "end_screen_title_image_absence_read",
+          "end_screen_palette_contract_read",
+          "end_screen_target_fill_palette_read",
+          "end_screen_target_contrast_read",
+          "source_integrated_panel_color_read",
+          "no_cross_episode_default_palette_read",
+          "end_screen_adaptive_perceptual_variability_read",
+          "format_read",
+          "full_decode_read"
+        ],
+        "experiment": []
+      },
+      "allowed_blocked_reads": [
+        "youtube_action_read"
+      ],
+      "allowed_not_applicable_reads": [
+        "rail_panel_palette_read"
+      ],
+      "repair_defaults": {
+        "allowed_time_ranges_seconds": [[30.2, 48.0]],
+        "allowed_pixel_regions": [[0, 0, 1920, 410]],
+        "allowed_stream_changes": ["video"],
+        "unchanged_streams": ["audio"]
+      },
+      "youtube_policy": {
+        "public_release": "manual_youtube_studio_only",
+        "channel_trailer_replacement": "manual_youtube_studio_only_until_separate_replacement_lane_exists",
+        "unlisted_review_upload": "allowed_only_after_contract_receipt_and_explicit_user_approval",
+        "unlisted_review_metadata_update": "allowed_only_for_existing_unlisted_review_upload_after_explicit_user_approval",
+        "requires_contract_receipt": true,
+        "requires_explicit_user_approval": true,
+        "allowed_actions_after_receipt": ["unlisted_review_upload", "unlisted_review_metadata_update"]
+      }
+    },
+    "shorts-adapter-v1": {
+      "contract_id": "shorts-adapter-v1",
+      "family": "shorts",
+      "description": "Placeholder adapter for Shorts contract validation; blocks production until the Shorts final-export contract is wired into this harness.",
+      "allowed_intents": ["experiment"],
+      "required_passing_reads": [],
+      "allowed_not_applicable_reads": [],
+      "youtube_policy": {
+        "public_release": "manual_youtube_studio_only",
+        "requires_contract_receipt": true,
+        "requires_explicit_user_approval": true,
+        "allowed_actions_after_receipt": []
+      },
+      "blocked_read": "blocked_shorts_adapter_not_yet_wired"
+    }
+  }
+}

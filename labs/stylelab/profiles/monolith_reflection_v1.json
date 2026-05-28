@@ -1,0 +1,95 @@
+{
+  "caption_safe_defaults": {
+    "subtitles": [
+      0.08,
+      0.74,
+      0.92,
+      0.96
+    ],
+    "top_ui": [
+      0.0,
+      0.0,
+      1.0,
+      0.12
+    ]
+  },
+  "contract_metrics": {
+    "evaluator_thresholds": {
+      "asymmetry_ratio": 0.7,
+      "focal_clarity": 0.8,
+      "overall_pass_threshold": 0.78,
+      "palette_discipline": 0.8,
+      "visual_noise": 0.8
+    },
+    "forbidden_elements": [
+      "text",
+      "logo",
+      "ui_artifacts",
+      "motion_blur",
+      "photoreal_clutter"
+    ],
+    "lighting_style": "soft_diffuse",
+    "max_accent_colors": 1,
+    "max_palette_count": 4,
+    "negative_space_ratio": {
+      "min": 0.6,
+      "preferred": 0.75
+    },
+    "surreal_breach_count": 1
+  },
+  "id": "monolith_reflection_v1",
+  "negative_prompt_defaults": [
+    "high detail",
+    "texture",
+    "noise",
+    "photoreal clutter",
+    "multiple subjects",
+    "complex background",
+    "dramatic lighting",
+    "motion blur",
+    "busy composition",
+    "ornate realism",
+    "text",
+    "watermark",
+    "logo",
+    "ui overlay"
+  ],
+  "palette": {
+    "ivory": "#E6DED0",
+    "plane": "#D8CFBF",
+    "blue": "#183D64",
+    "blue_highlight": "#2F5C86",
+    "accent": "#A2241D",
+    "anchor": "#F5F1E8",
+    "anchor_glow": "#F7F1E1",
+    "subject": "#8F877B",
+    "shadow": "#172333",
+    "warm_fiber": "#D7C7AE",
+    "cool_fiber": "#7C91A6"
+  },
+  "prompts": {
+    "global_base": "Quiet collision between minimalism and emotional surrealism. Reality reduced to a few decisive gestures. Vertical poetic landscape built from asymmetry, active negative space, and restraint. Large environmental color fields behave like emotional forces rather than descriptive backgrounds.",
+    "mode_overrides": {
+      "sketch": "Composition-search pass. Push silhouette reduction, asymmetry, and emotional spacing before detail.",
+      "final": "Quality pass. Keep surfaces calm, forms distilled, and the dominant color field psychologically heavy.",
+      "lock": "Style-lock pass. Preserve stillness, the single vivid accent, and painterly paper-edge softness."
+    }
+  },
+  "rules": {
+    "subject_anchor": "The subject should read as a simplified silhouette or emblematic form, not a descriptive illustration.",
+    "reduction": "Strip forms to essentials so geometry, silhouette, and interval carry the image.",
+    "color_fields": "Use large uninterrupted fields of muted color as emotional forces rather than backgrounds.",
+    "asymmetry": "Let the composition lean decisively to one side so negative space feels active and unresolved.",
+    "selective_saturation": "Permit one vivid accent against an otherwise restrained palette.",
+    "textural_restraint": "Keep surfaces smooth and calm, with only soft painterly bleed at edges to avoid a digital feel.",
+    "implied_story": "Preserve stillness that suggests something has just happened or is about to happen without resolving the narrative."
+  },
+  "motion_presets": {
+    "stillness_breathe": {
+      "description": "Almost-locked camera, slight atmospheric breathing, restrained reflection movement."
+    },
+    "vertical_glide": {
+      "description": "Slow vertical glide with tightly capped movement."
+    }
+  }
+}

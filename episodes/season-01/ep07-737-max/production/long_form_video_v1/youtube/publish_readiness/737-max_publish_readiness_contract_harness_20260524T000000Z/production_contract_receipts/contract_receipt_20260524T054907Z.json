@@ -1,0 +1,38 @@
+{
+  "receipt_type": "cascade_effects_output_contract_validation",
+  "schema_version": "cascade_effects_output_contract_receipt_v1",
+  "created_at": "2026-05-24T05:49:07.511Z",
+  "ok": true,
+  "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_contract_harness_20260524T000000Z/publish_readiness_manifest.json",
+  "artifact_manifest_sha256": "775e58cd8e0a0b487eb8ab6334efdbe9cd94b57ec491488318a81f5007d83960",
+  "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+  "contract_id": "first-eight-longform-v1",
+  "family": "longform",
+  "intent": "successor",
+  "source_hashes": {
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_contract_harness_20260524T000000Z/publish_readiness_manifest.json",
+    "artifact_manifest_sha256": "775e58cd8e0a0b487eb8ab6334efdbe9cd94b57ec491488318a81f5007d83960",
+    "source_final_render.manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T144059Z/video_render/737-max_rolling_caption_rail_final_mp4_20260523T170351Z/render_manifest.json",
+      "declared_sha256": "173942c28318e81c049b41b880edebc6ba57ccdf7e69fd05689e5d8fcb6ba252",
+      "actual_sha256": "173942c28318e81c049b41b880edebc6ba57ccdf7e69fd05689e5d8fcb6ba252"
+    },
+    "source_final_render.mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T144059Z/video_render/737-max_rolling_caption_rail_final_mp4_20260523T170351Z/737-max_living_cover_final_review_1080p24.mp4",
+      "declared_sha256": "a6a81d8621a89b29abe222d040e5c46bf1925990106b9325544b6519fcca09ce",
+      "actual_sha256": "a6a81d8621a89b29abe222d040e5c46bf1925990106b9325544b6519fcca09ce"
+    }
+  },
+  "allowed_delta": null,
+  "reads": {
+    "contract_read": "pass_contract_loaded_and_required_reads_passed",
+    "delta_read": "pass_no_repair_delta_required_for_intent",
+    "style_read": "pass_style_contract_reads_passed",
+    "media_read": "pass_source_hashes_and_media_reads_valid",
+    "youtube_action_allowed_read": "blocked_contract_does_not_allow_youtube_action"
+  },
+  "existing_validators": [],
+  "failures": [],
+  "youtube_action_requested": "",
+  "youtube_action_allowed": false
+}

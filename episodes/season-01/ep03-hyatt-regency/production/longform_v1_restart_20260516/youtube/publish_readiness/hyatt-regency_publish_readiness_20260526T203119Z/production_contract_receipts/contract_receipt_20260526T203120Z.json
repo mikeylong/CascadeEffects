@@ -1,0 +1,38 @@
+{
+  "receipt_type": "cascade_effects_output_contract_validation",
+  "schema_version": "cascade_effects_output_contract_receipt_v1",
+  "created_at": "2026-05-26T20:31:20.502Z",
+  "ok": true,
+  "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+  "artifact_manifest_sha256": "c7c9cd68eb014b1faed0c90a7f8862bdb549dfdcd7fd762e65b81868f27c3427",
+  "contract_registry_path": "/Users/mike/Agents_CascadeEffects/references/production_contracts/cascade_effects_output_contracts.v1.json",
+  "contract_id": "first-eight-longform-v1",
+  "family": "longform",
+  "intent": "successor",
+  "source_hashes": {
+    "artifact_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+    "artifact_manifest_sha256": "c7c9cd68eb014b1faed0c90a7f8862bdb549dfdcd7fd762e65b81868f27c3427",
+    "source_final_render.manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/hyatt-regency_rolling_caption_rail_final_mp4_20260526T193638Z/render_manifest.json",
+      "declared_sha256": "7d370069e716c09af0aa552fb6119f805b0edc81617ec2d11e15d0668eabf6e3",
+      "actual_sha256": "7d370069e716c09af0aa552fb6119f805b0edc81617ec2d11e15d0668eabf6e3"
+    },
+    "source_final_render.mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/video_render/hyatt-regency_rolling_caption_rail_final_mp4_20260526T193638Z/hyatt-regency_living_cover_final_review_1080p24.mp4",
+      "declared_sha256": "01c70d73dd499819fb239c10ae66a0359af6a76ae190b52918c98aff86e3901d",
+      "actual_sha256": "01c70d73dd499819fb239c10ae66a0359af6a76ae190b52918c98aff86e3901d"
+    }
+  },
+  "allowed_delta": null,
+  "reads": {
+    "contract_read": "pass_contract_loaded_and_required_reads_passed",
+    "delta_read": "pass_no_repair_delta_required_for_intent",
+    "style_read": "pass_style_contract_reads_passed",
+    "media_read": "pass_source_hashes_and_media_reads_valid",
+    "youtube_action_allowed_read": "pass_contract_allows_requested_youtube_action"
+  },
+  "existing_validators": [],
+  "failures": [],
+  "youtube_action_requested": "unlisted_review_upload",
+  "youtube_action_allowed": true
+}

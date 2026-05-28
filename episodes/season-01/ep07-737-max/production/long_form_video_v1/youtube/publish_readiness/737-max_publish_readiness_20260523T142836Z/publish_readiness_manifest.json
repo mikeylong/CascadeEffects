@@ -1,0 +1,332 @@
+{
+  "packet_id": "737-max_publish_readiness_20260523T142836Z",
+  "episode_id": "737-max",
+  "episode_title": "737 MAX",
+  "workflow": "long_form_video_production_v1",
+  "stage": "publish_readiness",
+  "lifecycle_stage": "publish_readiness",
+  "current_gate": "publish_readiness_review",
+  "status": "review_ready_pending_human_publish_readiness_keep",
+  "human_disposition": "pending",
+  "final_assembly_disposition": "keep",
+  "created_utc": "2026-05-23T14:28:40Z",
+  "primary_review_artifact": {
+    "path": "review.html",
+    "sha256": "1017b6687d1aad20c62744d57eb4250a7568468f33231f879b43beeb9ddc43f7",
+    "bytes": 8499
+  },
+  "publish_readiness_review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/review.html",
+  "publish_readiness_canonical_review_url": "http://127.0.0.1:8899/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/review.html",
+  "remote_review": {
+    "status": "not_published",
+    "remote_review_url": "https://cascadeeffects.tv/reviews/publish-readiness/737-max",
+    "storage_policy": "normalized_manifest_and_small_evidence_assets_only",
+    "large_video_upload_allowed": false,
+    "video_host": "youtube_unlisted_after_explicit_approval_only"
+  },
+  "source_final_render": {
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/737-max_rolling_caption_rail_final_mp4_20260523T074143Z/render_manifest.json",
+    "manifest_sha256": "05ff765062b34e51e67d2651cd30a544181c7e219b6942140f0064b54169bfa9",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/737-max_rolling_caption_rail_final_mp4_20260523T074143Z/737-max_living_cover_final_review_1080p24.mp4",
+    "mp4_sha256": "7dd15dbf2c614f4b6ccae372ff37b43c8f32a085e9c9dbe5ea983b6026cb9959"
+  },
+  "source_html_proof": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/player.html",
+    "player_sha256": "2d784a3f4dc33873dd56efd87dfb19e0f87ea24c0f55ed998489a7d72d6905b3",
+    "current_kept_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source"
+  },
+  "local_assets": {
+    "mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/media/737-max_living_cover_final_review_1080p24.mp4",
+      "sha256": "7dd15dbf2c614f4b6ccae372ff37b43c8f32a085e9c9dbe5ea983b6026cb9959",
+      "bytes": 256979975,
+      "role": "kept_final_assembly_mp4",
+      "rel": "media/737-max_living_cover_final_review_1080p24.mp4"
+    },
+    "vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "27dd3545a4a66ca06602ec657fb0ee82d312882edc0b90230f84e2e225a834dc",
+      "bytes": 22771,
+      "role": "youtube_caption_sidecar_vtt",
+      "rel": "captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.vtt"
+    },
+    "srt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "fe5a0d42e3841b5885f86f3bc915f6173888e5a4669ba1fd9317b281c3d4a654",
+      "bytes": 23871,
+      "role": "generated_youtube_caption_sidecar_srt",
+      "rel": "captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.srt"
+    },
+    "thumbnail_candidate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/thumbnail/737-max_thumbnail_candidate.jpg",
+      "sha256": "3791eb3584cdcaef480916caa6ca619f33dede8e6648bb94e7b4a115c459f72c",
+      "bytes": 203390,
+      "role": "thumbnail_candidate_from_kept_mp4_frame",
+      "rel": "thumbnail/737-max_thumbnail_candidate.jpg"
+    },
+    "qa_frames": {
+      "final_second": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/qa_frames/final_second_mp4_qa_final_second_974p766s.jpg",
+        "sha256": "25f4b624dc960181593d6fe1a96ff500228d6f9f3a93df69b3cb6e3829dd10cb",
+        "bytes": 199884,
+        "role": "qa_frame_final_second",
+        "rel": "qa_frames/final_second_mp4_qa_final_second_974p766s.jpg"
+      },
+      "half": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/qa_frames/half_mp4_qa_half_487p883s.jpg",
+        "sha256": "50a0f982e0a9d643b6b893ddfb7044f5d91e8a7542ed4dff8cf53efdbeb0e534",
+        "bytes": 221210,
+        "role": "qa_frame_half",
+        "rel": "qa_frames/half_mp4_qa_half_487p883s.jpg"
+      },
+      "quarter": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/qa_frames/quarter_mp4_qa_quarter_243p942s.jpg",
+        "sha256": "70161e6a30d14c47450f11b403191ee57f94dc77ebf6fc8d8a4310a0e4f01428",
+        "bytes": 217689,
+        "role": "qa_frame_quarter",
+        "rel": "qa_frames/quarter_mp4_qa_quarter_243p942s.jpg"
+      },
+      "safe_window_start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/qa_frames/safe_window_start_mp4_qa_safe_window_start_955p766s.jpg",
+        "sha256": "82d1e0fd0036b5b2eaa09cd4386f6e5f4eff1ba72f5e83a0b540796a0efcc97d",
+        "bytes": 199978,
+        "role": "qa_frame_safe_window_start",
+        "rel": "qa_frames/safe_window_start_mp4_qa_safe_window_start_955p766s.jpg"
+      },
+      "start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/qa_frames/start_mp4_qa_start_1p000s.jpg",
+        "sha256": "3791eb3584cdcaef480916caa6ca619f33dede8e6648bb94e7b4a115c459f72c",
+        "bytes": 203390,
+        "role": "qa_frame_start",
+        "rel": "qa_frames/start_mp4_qa_start_1p000s.jpg"
+      },
+      "three_quarter": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/qa_frames/three_quarter_mp4_qa_three_quarter_731p825s.jpg",
+        "sha256": "d538725855d87e08f9ffc932a4c23024ccc9cdff1da443eaaac9e9b6cef7867c",
+        "bytes": 219934,
+        "role": "qa_frame_three_quarter",
+        "rel": "qa_frames/three_quarter_mp4_qa_three_quarter_731p825s.jpg"
+      },
+      "voice_start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg",
+        "sha256": "c9894c880f4e3f5b496b032d467d7fdd6542654e59ef966e1fa304df563ab1c8",
+        "bytes": 215144,
+        "role": "qa_frame_voice_start",
+        "rel": "qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg"
+      }
+    },
+    "render_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/provenance/render_manifest.json",
+      "sha256": "05ff765062b34e51e67d2651cd30a544181c7e219b6942140f0064b54169bfa9",
+      "bytes": 15075,
+      "role": "render_manifest_copy",
+      "rel": "provenance/render_manifest.json"
+    },
+    "rough_assembly_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/provenance/rough_assembly_manifest.json",
+      "sha256": "4e999e8babb2e586c12685987ec7874d5e4ace8f79b0b0c2f61b881f11485dbd",
+      "bytes": 193426,
+      "role": "rough_assembly_manifest_copy",
+      "rel": "provenance/rough_assembly_manifest.json"
+    },
+    "final_assembly_review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/provenance/final_assembly_review_packet.md",
+      "sha256": "e035188ccea668e6b5091197f29fc4f668c6e929169d5a040e4e5d1e2a4b197b",
+      "bytes": 1023,
+      "role": "final_assembly_review_packet_copy",
+      "rel": "provenance/final_assembly_review_packet.md"
+    },
+    "browser_caption_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/provenance/browser_caption_qa.json",
+      "sha256": "c50e6855c6ca7b4d15bba7ebd10080eda7bf196389df82cf6e4c9f3dbf705e68",
+      "bytes": 104082,
+      "role": "browser_caption_qa_copy",
+      "rel": "provenance/browser_caption_qa.json"
+    }
+  },
+  "media": {
+    "final_mp4": {
+      "path": "media/737-max_living_cover_final_review_1080p24.mp4",
+      "sha256": "7dd15dbf2c614f4b6ccae372ff37b43c8f32a085e9c9dbe5ea983b6026cb9959",
+      "bytes": 256979975
+    },
+    "caption_vtt": {
+      "path": "captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "27dd3545a4a66ca06602ec657fb0ee82d312882edc0b90230f84e2e225a834dc",
+      "bytes": 22771
+    },
+    "caption_srt": {
+      "path": "captions/737_max_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "fe5a0d42e3841b5885f86f3bc915f6173888e5a4669ba1fd9317b281c3d4a654",
+      "bytes": 23871
+    },
+    "thumbnail_candidate": {
+      "path": "thumbnail/737-max_thumbnail_candidate.jpg",
+      "sha256": "3791eb3584cdcaef480916caa6ca619f33dede8e6648bb94e7b4a115c459f72c",
+      "bytes": 203390
+    }
+  },
+  "youtube_metadata": {
+    "title": "737 MAX",
+    "description": "737 MAX is a Cascade Effects episode about how small signals become system consequences.\n\nA familiar aircraft promise hid a new control problem inside software pilots were not prepared to see.\n\nRuntime: about 16 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.",
+    "chapters": [
+      {
+        "time": "0:00",
+        "seconds": 0,
+        "label": "Opening"
+      },
+      {
+        "time": "0:04",
+        "seconds": 4.0,
+        "label": "Two departures, one system"
+      },
+      {
+        "time": "3:17",
+        "seconds": 196.539,
+        "label": "Commonality as product"
+      },
+      {
+        "time": "6:32",
+        "seconds": 391.923,
+        "label": "MCAS grows in the dark"
+      },
+      {
+        "time": "9:47",
+        "seconds": 587.306,
+        "label": "Lion Air to Ethiopian"
+      },
+      {
+        "time": "13:02",
+        "seconds": 781.533,
+        "label": "Hearing, grounding, redesign"
+      },
+      {
+        "time": "15:16",
+        "seconds": 915.76,
+        "label": "Closing"
+      }
+    ],
+    "tags": [
+      "737 MAX",
+      "Boeing",
+      "Cascade Effects",
+      "MCAS",
+      "aviation safety",
+      "documentary",
+      "systems failure"
+    ],
+    "hashtags": [
+      "#CascadeEffects"
+    ],
+    "category": "Education",
+    "language": "en",
+    "made_for_kids": false,
+    "paid_promotion": false,
+    "privacy_after_explicit_approval": "unlisted",
+    "public_release_policy": "manual_youtube_studio_only",
+    "metadata_path": "metadata/youtube_metadata.json",
+    "metadata_sha256": "72b63467c98499abd12febfe2c6940ff1b20029f0e7084cc9b8fc02252b322f4"
+  },
+  "source_factcheck": {
+    "status": "pending_current_long_form_source_factcheck_backfill",
+    "episode_id": "737-max",
+    "note": "No current long-form source-factcheck manifest was found for this rolling-caption MP4 package. Review can continue, but publish-readiness keep should not waive this without a named human decision.",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing"
+  },
+  "ffprobe": {
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "duration_seconds": 975.76
+  },
+  "reads": {
+    "mp4_created_read": "pass",
+    "video_stream_read": "pass_h264_present",
+    "audio_stream_read": "pass_aac_audio_present",
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "duration_read": "pass",
+    "dimensions_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "caption_sidecar_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "caption_suppression_read": "tighten",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "viewer_text_suppression_read": "pass",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "post_change_regression_read": "pass_rendered_from_current_kept_737-max_html_proof",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "downstream_gate_read": "pass_final_mp4_created_publish_and_youtube_flags_false",
+    "final_assembly_human_keep_read": "pass_user_kept_all_current_long_form_mp4_final_assemblies_2026_05_23",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package_creation_only",
+    "youtube_upload_ready_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "html_primary_review_read": "pass_review_html_created_as_primary_publish_readiness_artifact",
+    "html_media_refs_read": "pass_package_local_relative_media_refs_exist",
+    "html_native_video_scrub_read": "pass_native_video_controls_and_range_server_available",
+    "html_range_server_read": "pass_mp4_http_range_probe_206",
+    "html_canonical_review_url_read": "pass_http_review_url_200",
+    "publish_readiness_package_local_asset_copy_read": "pass_package_local_assets_copied",
+    "html_upload_lock_read": "pass_upload_locks_visible_and_false",
+    "youtube_metadata_copywriting_read": "pass_generated_public_metadata_no_internal_terms",
+    "public_metadata_copy_read": "pass_generated_public_metadata_no_internal_terms",
+    "public_tag_relevance_read": "pass_episode_specific_tags_present",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing",
+    "caption_sidecar_packaged_read": "pass_vtt_and_generated_srt_packaged",
+    "final_mp4_packaged_read": "pass",
+    "ffprobe_stream_read": "pass_video_and_audio_streams_present"
+  },
+  "blockers": [
+    "Current long-form source/fact-check manifest is pending or missing.",
+    "Publish-readiness package human keep is required before any YouTube review upload.",
+    "Explicit upload authorization is required after publish-readiness keep.",
+    "YouTube Content ID/music claim status must be checked after upload processing.",
+    "Public release remains manual."
+  ],
+  "locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "publish_ready": false,
+  "youtube_upload_ready": false,
+  "public_release_ready": false,
+  "may_youtube_action": false,
+  "may_advance_to_upload": false,
+  "upload_allowed": false,
+  "upload_performed": false,
+  "next_review_question": "Review publish readiness and reply with exactly one disposition: keep, tighten, or reject.",
+  "publish_readiness_review_html_sha256": "1017b6687d1aad20c62744d57eb4250a7568468f33231f879b43beeb9ddc43f7",
+  "review_server": {
+    "type": "byte_range_capable_local_http",
+    "root": "/Users/mike/Episodes_CascadeEffects",
+    "port": 8899,
+    "url": "http://127.0.0.1:8899/Ep7_737-MAX/production/long_form_video_v1/youtube/publish_readiness/737-max_publish_readiness_20260523T142836Z/review.html",
+    "review_probe_status": 200,
+    "mp4_range_probe_status": 206
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_restart_shot_plan_v2_contact_sheet_repair_pass_02",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension, photographic documentary realism, restrained Nikon still-frame feel",
+      "negative_prompt": "text, watermark, logo, ui overlay, readable signage, letters, numbers, black caption box, poster design, collage fragments, diagram, CAD render, white studio background, isolated product render, cutaway model, exploded view, red abstract object, red cube, red origami shape, red sculpture, saturated accent block, warning label, crowd chaos, collapse reenactment, gore, bodies, emergency spectacle, smoke, fire, debris field, plastic CGI surfaces, flattened render look, pseudo NASA logo, NASA meatball, NASA worm, mission patch, agency insignia, American flag, flag decal, USA marking, United States marking, Challenger wordmark, shuttle name text, wing text, body decals, countdown clock, readable control panel, whiteboard writing, technical wall chart, posted paper, binder spine label, folder label, paperwork text, chart labels, diagram marks, keyboard text, monitor text, warning label, button labels, numbered display, digital countdown, schematic arrows, label plate, printed plate, gauge numbers, switch labels, readable film edge, contact sheet captions, shelf label, bin label, storage tag, barcode, handwritten mark, typed mark, screen interface, monitor data"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_restart_v2__beat_01b_blank_sleeve_grid_repair",
+      "archetype": "room_or_interior",
+      "base_seed": 89122,
+      "prompt_body": "Photoreal macro of a plain archival light table holding blank translucent acetate sleeve windows and dark empty frame openings, no film strips, no edge marks, no printed borders, no typed frame codes, repeated rhythm of empty rectangles only, cool institutional glow, shallow documentary focus, no writing, no logos, no captions, no people"
+    },
+    {
+      "id": "challenger_restart_v2__beat_03b_unmarked_tray_table_repair",
+      "archetype": "room_or_interior",
+      "base_seed": 89322,
+      "prompt_body": "Photoreal close documentary view of a single unmarked metal evidence tray on a plain institutional table receding into shadow, inert rubber ring-like hardware shapes inside the tray, blank featureless table and wall surfaces only, muted green-gray storage light, warning evidence becoming ordinary storage, no shelves, no bins, no labels, no tags, no paper, no writing, no hands"
+    },
+    {
+      "id": "challenger_restart_v2__beat_04c_empty_room_threshold_repair",
+      "archetype": "room_or_interior",
+      "base_seed": 89423,
+      "prompt_body": "Photoreal institutional hallway looking into an empty late-1980s engineering meeting room through a doorway, one empty chair at the far table under cold fluorescent light, restrained negative space and burden-shift isolation, no screens, no monitors, no signs, no documents, no wall text, no logos, no people"
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "created_utc": "2026-05-23T19:47:22Z",
+  "current_gate": "publish_readiness_review",
+  "episode_id": "titanic",
+  "episode_title": "Titanic and the Lifeboat Regulation Gap",
+  "ffprobe": {
+    "audio_codec": "aac",
+    "duration_seconds": 773.607007,
+    "video_codec": "h264"
+  },
+  "final_assembly_disposition": "keep",
+  "human_disposition": "keep",
+  "human_keep_recorded_at": "2026-05-23T19:54:40Z",
+  "lifecycle_stage": "publish_readiness",
+  "local_assets": {
+    "browser_caption_qa": {
+      "bytes": 82812,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/provenance/browser_caption_qa.json",
+      "rel": "provenance/browser_caption_qa.json",
+      "role": "browser_caption_qa_copy",
+      "sha256": "dc7b2150e79f00b67438482933d328c28525e34d37d5c68ac886c720675e7257"
+    },
+    "final_assembly_review_packet": {
+      "bytes": 1023,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/provenance/final_assembly_review_packet.md",
+      "rel": "provenance/final_assembly_review_packet.md",
+      "role": "final_assembly_review_packet_copy",
+      "sha256": "5fa0d9aef4a4cd9471b26d8242badd49f992a3ec8228774ae658807d0b9ac03a"
+    },
+    "mp4": {
+      "bytes": 159472731,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/media/titanic_living_cover_final_review_1080p24.mp4",
+      "rel": "media/titanic_living_cover_final_review_1080p24.mp4",
+      "role": "kept_final_assembly_mp4",
+      "sha256": "d08c1ffb8556973de05208a7afb441805cfc60316db167ceae10b5aaee76c586"
+    },
+    "qa_frames": {
+      "final_second": {
+        "bytes": 223179,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/qa_frames/final_second_mp4_qa_final_second_772p613s.jpg",
+        "rel": "qa_frames/final_second_mp4_qa_final_second_772p613s.jpg",
+        "role": "qa_frame_final_second",
+        "sha256": "a64f08f66676c8f8110eec2ffab45a2aea2ca6993dda0583327aaa4fb0bdd4fc"
+      },
+      "half": {
+        "bytes": 238530,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/qa_frames/half_mp4_qa_half_386p807s.jpg",
+        "rel": "qa_frames/half_mp4_qa_half_386p807s.jpg",
+        "role": "qa_frame_half",
+        "sha256": "a091b128794b207a256ab8fa5600fd0586bd5f8d78b5b82f74c0cbd5331cdb0d"
+      },
+      "quarter": {
+        "bytes": 238664,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/qa_frames/quarter_mp4_qa_quarter_193p403s.jpg",
+        "rel": "qa_frames/quarter_mp4_qa_quarter_193p403s.jpg",
+        "role": "qa_frame_quarter",
+        "sha256": "b85a807ab0695d847bdc1c1fb574bddddb410578be29bfc1b23e22c754da5d66"
+      },
+      "safe_window_start": {
+        "bytes": 223311,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/qa_frames/safe_window_start_mp4_qa_safe_window_start_753p613s.jpg",
+        "rel": "qa_frames/safe_window_start_mp4_qa_safe_window_start_753p613s.jpg",
+        "role": "qa_frame_safe_window_start",
+        "sha256": "2435b313748a08a5f4109e988c41e88fcc0ce80e75033d0d4008bd53875adca2"
+      },
+      "start": {
+        "bytes": 218397,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/qa_frames/start_mp4_qa_start_1p000s.jpg",
+        "rel": "qa_frames/start_mp4_qa_start_1p000s.jpg",
+        "role": "qa_frame_start",
+        "sha256": "9b8da395dd902fba28ecdd45faf372df7b74a95aa01b5b6c6c66fe6b0380743b"
+      },
+      "three_quarter": {
+        "bytes": 238694,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/qa_frames/three_quarter_mp4_qa_three_quarter_580p210s.jpg",
+        "rel": "qa_frames/three_quarter_mp4_qa_three_quarter_580p210s.jpg",
+        "role": "qa_frame_three_quarter",
+        "sha256": "91b254ad411a77a92509980dc1fd9fe5dd2323a71d8dc8cac0263f4c4634c9f3"
+      },
+      "voice_start": {
+        "bytes": 238072,
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg",
+        "rel": "qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg",
+        "role": "qa_frame_voice_start",
+        "sha256": "5c840fe37dbc93f11ee8393db695c8b9c669b313743fe0695b57885f2b5fc04a"
+      }
+    },
+    "render_manifest": {
+      "bytes": 16053,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/provenance/render_manifest.json",
+      "rel": "provenance/render_manifest.json",
+      "role": "render_manifest_copy",
+      "sha256": "8eac17f972455fcc33d14f93c5ac934fd1eed47c899b4a9388b88afdd86370e9"
+    },
+    "rough_assembly_manifest": {
+      "bytes": 250994,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/provenance/rough_assembly_manifest.json",
+      "rel": "provenance/rough_assembly_manifest.json",
+      "role": "rough_assembly_manifest_copy",
+      "sha256": "efa21938f527dfb756044365d7b23b3ab7cc76769714295ee73cae904b3cf739"
+    },
+    "srt": {
+      "bytes": 19455,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "rel": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "role": "generated_youtube_caption_sidecar_srt",
+      "sha256": "f5f6e13618d01af76437e943ae016d0316b892cf05802f6b2bf1990d13152f40"
+    },
+    "thumbnail_candidate": {
+      "bytes": 218397,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/thumbnail/titanic_thumbnail_candidate.jpg",
+      "rel": "thumbnail/titanic_thumbnail_candidate.jpg",
+      "role": "thumbnail_candidate_from_kept_mp4_frame",
+      "sha256": "9b8da395dd902fba28ecdd45faf372df7b74a95aa01b5b6c6c66fe6b0380743b"
+    },
+    "vtt": {
+      "bytes": 18531,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "rel": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "role": "youtube_caption_sidecar_vtt",
+      "sha256": "54e673db1fa4834e004c2b441f0b063cf8ad6338f0c01c61dc2e0382f7cf312c"
+    }
+  },
+  "locks": {
+    "may_youtube_action": false,
+    "public_release": false,
+    "public_release_ready": false,
+    "public_visibility_change_enabled": false,
+    "publish_ready": true,
+    "review_upload_privacy_after_approval": "unlisted_uploaded_after_explicit_user_instruction",
+    "upload_action_enabled_in_review_html": false,
+    "upload_allowed": false,
+    "upload_performed": true,
+    "youtube_upload_ready": false
+  },
+  "may_advance_to_upload": false,
+  "may_youtube_action": false,
+  "media": {
+    "caption_srt": {
+      "bytes": 19455,
+      "path": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "f5f6e13618d01af76437e943ae016d0316b892cf05802f6b2bf1990d13152f40"
+    },
+    "caption_vtt": {
+      "bytes": 18531,
+      "path": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "54e673db1fa4834e004c2b441f0b063cf8ad6338f0c01c61dc2e0382f7cf312c"
+    },
+    "final_mp4": {
+      "bytes": 159472731,
+      "path": "media/titanic_living_cover_final_review_1080p24.mp4",
+      "sha256": "d08c1ffb8556973de05208a7afb441805cfc60316db167ceae10b5aaee76c586"
+    },
+    "mp4": {
+      "bytes": 159472731,
+      "path": "media/titanic_living_cover_final_review_1080p24.mp4",
+      "sha256": "d08c1ffb8556973de05208a7afb441805cfc60316db167ceae10b5aaee76c586"
+    },
+    "srt": {
+      "bytes": 19455,
+      "path": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "f5f6e13618d01af76437e943ae016d0316b892cf05802f6b2bf1990d13152f40"
+    },
+    "thumbnail_candidate": {
+      "bytes": 218397,
+      "path": "thumbnail/titanic_thumbnail_candidate.jpg",
+      "sha256": "9b8da395dd902fba28ecdd45faf372df7b74a95aa01b5b6c6c66fe6b0380743b"
+    },
+    "upload_srt": {
+      "bytes": 19455,
+      "path": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "f5f6e13618d01af76437e943ae016d0316b892cf05802f6b2bf1990d13152f40"
+    },
+    "upload_vtt": {
+      "bytes": 18531,
+      "path": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "54e673db1fa4834e004c2b441f0b063cf8ad6338f0c01c61dc2e0382f7cf312c"
+    },
+    "vtt": {
+      "bytes": 18531,
+      "path": "captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "54e673db1fa4834e004c2b441f0b063cf8ad6338f0c01c61dc2e0382f7cf312c"
+    }
+  },
+  "next_review_question": "Review the unlisted YouTube upload and Studio blockers. Public release remains manual.",
+  "packet_id": "titanic_publish_readiness_20260523T194657Z",
+  "primary_review_artifact": {
+    "bytes": 9328,
+    "path": "review.html",
+    "sha256": "9b022722eaca4d419006f105f272bf08ad428b4114b38ca87f666f91b93e282a"
+  },
+  "public_release_ready": false,
+  "publish_readiness_canonical_review_url": "http://127.0.0.1:8898/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/review.html",
+  "publish_readiness_review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/review.html",
+  "publish_readiness_review_html_sha256": "9b022722eaca4d419006f105f272bf08ad428b4114b38ca87f666f91b93e282a",
+  "publish_ready": true,
+  "reads": {
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "audio_stream_read": "pass_aac_audio_present",
+    "caption_sidecar_packaged_read": "pass_vtt_and_generated_srt_packaged",
+    "caption_sidecar_read": "pass",
+    "caption_suppression_read": "pass",
+    "dimensions_read": "pass",
+    "downstream_gate_read": "pass_unlisted_review_upload_done_public_release_locked",
+    "duration_read": "pass",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "explicit_youtube_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "ffprobe_stream_read": "pass_video_and_audio_streams_present",
+    "final_assembly_human_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "final_mp4_packaged_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "html_canonical_review_url_read": "pass_http_review_url_200",
+    "html_media_refs_read": "pass_package_local_relative_media_refs_exist",
+    "html_native_video_scrub_read": "pass_native_video_controls_and_range_server_available",
+    "html_post_upload_blockers_visible_read": "pass_copyright_caption_altered_content_end_screen_public_release_blockers_visible",
+    "html_primary_review_read": "pass_review_html_created_as_primary_publish_readiness_artifact",
+    "html_public_release_lock_visible_read": "pass_public_release_schedule_visibility_locked",
+    "html_range_server_read": "pass_mp4_http_range_probe_206",
+    "html_unlisted_upload_visible_read": "pass_review_html_shows_new_unlisted_upload_video_id_and_url",
+    "html_upload_lock_read": "pass_upload_locks_visible_and_false",
+    "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "mp4_created_read": "pass",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "post_change_regression_read": "pass_rendered_from_unkept_corrective_successor_html_proof_for_review_titanic",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "public_metadata_copy_read": "pass_generated_public_metadata_no_internal_terms",
+    "public_release_ready_read": "blocked_public_release_manual",
+    "public_tag_relevance_read": "pass_episode_specific_tags_present",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package_creation_only",
+    "publish_readiness_package_local_asset_copy_read": "pass_package_local_assets_copied",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing",
+    "upload_authorization_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "video_stream_read": "pass_h264_present",
+    "viewer_text_suppression_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "youtube_caption_sidecar_upload_read": "pass_caption_sidecar_uploaded",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "youtube_end_screen_studio_elements_read": "pending_youtube_studio_end_screen_element_configuration",
+    "youtube_metadata_copywriting_read": "pass_generated_public_metadata_no_internal_terms",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "youtube_unlisted_review_privacy_read": "pass_privacy_unlisted",
+    "youtube_unlisted_review_upload_read": "pass_new_unlisted_review_upload_created",
+    "youtube_unlisted_upload_status_read": "review_pending_upload_status_uploaded_processing_processing",
+    "youtube_unlisted_upload_thumbnail_read": "pass_thumbnail_uploaded",
+    "youtube_upload_ready_read": "pass_new_unlisted_review_upload_created_public_release_manual"
+  },
+  "remaining_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "remote_review": {
+    "large_video_upload_allowed": false,
+    "remote_review_url": "https://cascadeeffects.tv/reviews/publish-readiness/titanic",
+    "status": "not_published",
+    "storage_policy": "normalized_manifest_and_small_evidence_assets_only",
+    "video_host": "youtube_unlisted_after_explicit_approval_only"
+  },
+  "review_server": {
+    "mp4_range_probe_status": 206,
+    "port": 8898,
+    "review_probe_status": 200,
+    "root": "/Users/mike/Episodes_CascadeEffects",
+    "type": "byte_range_capable_local_http",
+    "url": "http://127.0.0.1:8898/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/review.html"
+  },
+  "source_factcheck": {
+    "episode_id": "titanic",
+    "note": "No current long-form source-factcheck manifest was found for this rolling-caption MP4 package. Review can continue, but publish-readiness keep should not waive this without a named human decision.",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing",
+    "status": "pending_current_long_form_source_factcheck_backfill"
+  },
+  "source_final_render": {
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z/video_render/titanic_rolling_caption_rail_final_mp4_20260523T173545Z/render_manifest.json",
+    "manifest_sha256": "8eac17f972455fcc33d14f93c5ac934fd1eed47c899b4a9388b88afdd86370e9",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z/video_render/titanic_rolling_caption_rail_final_mp4_20260523T173545Z/titanic_living_cover_final_review_1080p24.mp4",
+    "mp4_sha256": "d08c1ffb8556973de05208a7afb441805cfc60316db167ceae10b5aaee76c586"
+  },
+  "source_html_proof": {
+    "corrective_review_render_from_unkept_proof": true,
+    "current_kept_proof_render_source_read": "not_applicable_corrective_review_render_from_unkept_successor_proof",
+    "current_proof_render_source_read": "pass_user_requested_corrective_review_render_from_unkept_successor_proof_upload_locked",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z/rough_assembly_manifest.json",
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z/player.html",
+    "player_sha256": "1b75e09d8f429adc9bfb2ff05bbece04cb1652f9f205b46698092ba29e0b8055"
+  },
+  "stage": "publish_readiness",
+  "status": "youtube_unlisted_review_uploaded_public_release_blocked_pending_studio_checks",
+  "upload_allowed": false,
+  "upload_locks": {
+    "may_youtube_action": false,
+    "public_release": false,
+    "public_release_ready": false,
+    "public_visibility_change_enabled": false,
+    "publish_ready": true,
+    "review_upload_privacy_after_approval": "unlisted_uploaded_after_explicit_user_instruction",
+    "upload_action_enabled_in_review_html": false,
+    "upload_allowed": false,
+    "upload_performed": true,
+    "youtube_upload_ready": false
+  },
+  "upload_performed": true,
+  "workflow": "long_form_video_production_v1",
+  "youtube_metadata": {
+    "category": "Education",
+    "chapters": [
+      {
+        "label": "Opening",
+        "seconds": 0,
+        "time": "0:00"
+      },
+      {
+        "label": "Main episode",
+        "seconds": 4,
+        "time": "0:04"
+      },
+      {
+        "label": "Closing",
+        "seconds": 713.607007,
+        "time": "11:54"
+      }
+    ],
+    "description": "Titanic and the Lifeboat Regulation Gap is a Cascade Effects episode about how small signals become system consequences.\n\nTitanic carried enough lifeboats to satisfy the law, but the law was measuring an older class of risk.\n\nRuntime: about 13 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.",
+    "hashtags": [
+      "#CascadeEffects"
+    ],
+    "language": "en",
+    "made_for_kids": false,
+    "metadata_path": "metadata/youtube_metadata.json",
+    "metadata_sha256": "06e1eb076da7b3c8e18b5f204a2b24974d96516fafb6d133fb31dc02bbc804a7",
+    "paid_promotion": false,
+    "privacy_after_explicit_approval": "unlisted",
+    "public_release_policy": "manual_youtube_studio_only",
+    "tags": [
+      "Cascade Effects",
+      "Titanic",
+      "documentary",
+      "lifeboats",
+      "maritime safety",
+      "regulation",
+      "systems failure"
+    ],
+    "title": "Titanic and the Lifeboat Regulation Gap"
+  },
+  "youtube_review": {
+    "caption_sidecar_to_upload_or_verify": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_upload": {
+      "caption_id": "AUieDaZLyvfMJNNXPmMI7xwRi6IyM_wyFj4jBvzV05YxUSSG22l0MKuju-pITzCVkjZdv7flwLJnm5yizajvlPA",
+      "raw_response": {
+        "etag": "mC7MdLJJd1DU-yqAIIf2dhaVnys",
+        "id": "AUieDaZLyvfMJNNXPmMI7xwRi6IyM_wyFj4jBvzV05YxUSSG22l0MKuju-pITzCVkjZdv7flwLJnm5yizajvlPA",
+        "kind": "youtube#caption",
+        "snippet": {
+          "audioTrackType": "unknown",
+          "isAutoSynced": false,
+          "isCC": false,
+          "isDraft": false,
+          "isEasyReader": false,
+          "isLarge": false,
+          "language": "en",
+          "lastUpdated": "2026-05-23T19:54:29.94026Z",
+          "name": "English script-locked captions",
+          "status": "serving",
+          "trackKind": "standard",
+          "videoId": "ikBaThpggE4"
+        }
+      },
+      "status": "uploaded"
+    },
+    "captions_uploaded": true,
+    "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+    "channel_title": "Cascade of Effects",
+    "embed_url": "https://www.youtube-nocookie.com/embed/ikBaThpggE4?enablejsapi=1&rel=0&modestbranding=1&playsinline=1",
+    "host": "youtube_unlisted",
+    "notify_subscribers": false,
+    "privacy_status": "unlisted",
+    "processing_status": "processing",
+    "read": "pass_new_unlisted_review_upload_created_no_public_release",
+    "receipt": {
+      "bytes": 9540,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/youtube_longform_unlisted_upload_receipt_20260523T195108Z.json",
+      "sha256": "2af0cd71045c37da169fabb0a60203263c878c54d421a413eedd224876175530"
+    },
+    "status": "uploaded_unlisted_review_processing_pending",
+    "status_check": {
+      "bytes": 4179,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/youtube_longform_unlisted_upload_status_20260523T195108Z.json",
+      "sha256": "10d8fd2bf0d6a6764a8dca063b46a759307ebdbfeb5e7c524058046866e7c9be"
+    },
+    "thumbnail_status": "uploaded",
+    "upload_manifest": {
+      "bytes": 4565,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/youtube_longform_unlisted_upload_manifest_20260523T195108Z.json",
+      "sha256": "40c2506580822ce5999d727180b78b68826429246232f6e1c6a3e1f3ec886a2e"
+    },
+    "upload_status": "uploaded",
+    "uploaded_at": "2026-05-23T19:54:40Z",
+    "video_id": "ikBaThpggE4",
+    "video_url": "https://www.youtube.com/watch?v=ikBaThpggE4",
+    "visibility_change_taken": false,
+    "watch_url": "https://www.youtube.com/watch?v=ikBaThpggE4"
+  },
+  "youtube_unlisted_review": {
+    "caption_sidecar_to_upload_or_verify": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/captions/titanic_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_upload": {
+      "caption_id": "AUieDaZLyvfMJNNXPmMI7xwRi6IyM_wyFj4jBvzV05YxUSSG22l0MKuju-pITzCVkjZdv7flwLJnm5yizajvlPA",
+      "raw_response": {
+        "etag": "mC7MdLJJd1DU-yqAIIf2dhaVnys",
+        "id": "AUieDaZLyvfMJNNXPmMI7xwRi6IyM_wyFj4jBvzV05YxUSSG22l0MKuju-pITzCVkjZdv7flwLJnm5yizajvlPA",
+        "kind": "youtube#caption",
+        "snippet": {
+          "audioTrackType": "unknown",
+          "isAutoSynced": false,
+          "isCC": false,
+          "isDraft": false,
+          "isEasyReader": false,
+          "isLarge": false,
+          "language": "en",
+          "lastUpdated": "2026-05-23T19:54:29.94026Z",
+          "name": "English script-locked captions",
+          "status": "serving",
+          "trackKind": "standard",
+          "videoId": "ikBaThpggE4"
+        }
+      },
+      "status": "uploaded"
+    },
+    "captions_uploaded": true,
+    "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+    "channel_title": "Cascade of Effects",
+    "embed_url": "https://www.youtube-nocookie.com/embed/ikBaThpggE4?enablejsapi=1&rel=0&modestbranding=1&playsinline=1",
+    "host": "youtube_unlisted",
+    "notify_subscribers": false,
+    "privacy_status": "unlisted",
+    "processing_status": "processing",
+    "read": "pass_new_unlisted_review_upload_created_no_public_release",
+    "receipt": {
+      "bytes": 9540,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/youtube_longform_unlisted_upload_receipt_20260523T195108Z.json",
+      "sha256": "2af0cd71045c37da169fabb0a60203263c878c54d421a413eedd224876175530"
+    },
+    "status": "uploaded_unlisted_review_processing_pending",
+    "status_check": {
+      "bytes": 4179,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/youtube_longform_unlisted_upload_status_20260523T195108Z.json",
+      "sha256": "10d8fd2bf0d6a6764a8dca063b46a759307ebdbfeb5e7c524058046866e7c9be"
+    },
+    "thumbnail_status": "uploaded",
+    "upload_manifest": {
+      "bytes": 4565,
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/publish_readiness/titanic_publish_readiness_20260523T194657Z/youtube_longform_unlisted_upload_manifest_20260523T195108Z.json",
+      "sha256": "40c2506580822ce5999d727180b78b68826429246232f6e1c6a3e1f3ec886a2e"
+    },
+    "upload_status": "uploaded",
+    "uploaded_at": "2026-05-23T19:54:40Z",
+    "video_id": "ikBaThpggE4",
+    "video_url": "https://www.youtube.com/watch?v=ikBaThpggE4",
+    "visibility_change_taken": false,
+    "watch_url": "https://www.youtube.com/watch?v=ikBaThpggE4"
+  },
+  "youtube_upload_ready": false
+}

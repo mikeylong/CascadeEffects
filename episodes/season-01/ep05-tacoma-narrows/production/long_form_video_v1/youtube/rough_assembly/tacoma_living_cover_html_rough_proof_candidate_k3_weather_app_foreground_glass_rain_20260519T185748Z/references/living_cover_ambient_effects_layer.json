@@ -1,0 +1,208 @@
+{
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z",
+  "episode_id": "tacoma-narrows",
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "process_version": "living_cover_ambient_effects_layer_v1",
+  "created_at": "2026-05-19T17:19:23Z",
+  "updated_at": "2026-05-19T18:57:48Z",
+  "status": "review_ready_human_keep_pending",
+  "human_disposition": "pending_keep_tighten_reject",
+  "lane_decision": "foreground_glass_rain_weather_app_foreground_readability_v9",
+  "selected_direction": "Weather-app glass rain with foreground-readable bead scale: 6-18px dominant beads, 22-34px rare accents, sparse 24-90px runners, fine falling streaks, and no macro windshield drops.",
+  "rationale": "The previous weather-app nuance proof corrected the macro overreaction but undershot scale against the detailed bridge plate. This successor slightly increases bead scale and material contrast so the layer reads as foreground glass rather than distant drizzle, while preserving low wetness and weather-app nuance.",
+  "reference_evidence": {
+    "user_reference_recording": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_nuance_glass_rain_20260519T171923Z/qa/reference/reference_weather_glass_recording.mov",
+      "sha256": "7672133d32ae39efd171492b255b1bd56054e721772ec87a24dc774575e884e3",
+      "role": "user_supplied_weather_app_glass_rain_reference_video_no_audio_stream"
+    },
+    "reference_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_nuance_glass_rain_20260519T171923Z/qa/reference/reference_screen_recording_contact_sheet.png",
+      "sha256": "e4623fecc7e60b8dd09a51a2ebf5e98e1a603e4bc68dfe666a89b71772a2fc90",
+      "role": "weather_app_reference_contact_sheet"
+    },
+    "transcript_log": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_nuance_glass_rain_20260519T171923Z/qa/reference/transcribe_no_audio_log.txt",
+      "sha256": "83ad8c7bcb7716b33742752068620fbe5f8e1ead1d30370ff53d5e339a9df1d8",
+      "role": "transcribe_attempt_log_no_audio_stream"
+    },
+    "no_audio_stream_read": "pass_ffprobe_video_only_reference_recording"
+  },
+  "source_art": {
+    "flipped_k3_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_nuance_glass_rain_20260519T171923Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080.png",
+      "sha256": "b2b4411de556d2e202ac672fa435f961e7369c0093dcc61ef0c827c75f178b2f",
+      "role": "deterministic_horizontal_flip_of_kept_k3_source_art_for_layout_review",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "unflipped_k3_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_nuance_glass_rain_20260519T171923Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sha256": "8f85d657d6a2573ddeaf637e468d4a8b2db4a20b2017b369591579f086e6246c",
+      "role": "kept_k3_source_art_local_copy_unflipped_reference",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_nuance_glass_rain_20260519T171923Z/references/source_art_manifest.json",
+      "sha256": "3e02c5d43fd32079a34fc345d8005ba90e6fa9947cc8a3c4c998ee3962ee3acc",
+      "role": "packet_local_source_art_manifest_copy"
+    },
+    "source_plate_geometry_preservation_read": "pass_no_source_plate_geometry_change_from_glass_rain_layer"
+  },
+  "deterministic_parameters": {
+    "source_type": "deterministic_weather_app_glass_layer",
+    "motion_clock": "audio_time_from_zero",
+    "seed": 27190419,
+    "glass_mask_rect": [
+      0,
+      0,
+      1068,
+      1080
+    ],
+    "glass_rail_exclusion_rect": [
+      1068,
+      0,
+      852,
+      1080
+    ],
+    "typical_bead_diameter_px": [
+      6,
+      18
+    ],
+    "rare_accent_diameter_px": [
+      22,
+      34
+    ],
+    "macro_drop_policy": "forbidden_above_36px",
+    "bead_count": 205,
+    "moving_bead_share": 0.2,
+    "runner_count": 12,
+    "runner_length_px": [
+      24,
+      90
+    ],
+    "runner_width_px": [
+      1.6,
+      4.2
+    ],
+    "fine_streak_count": 90,
+    "fine_streak_width_px": [
+      1,
+      3
+    ],
+    "whole_overlay_scroll_policy": "forbidden",
+    "low_wetness_policy": "weather_app_nuance_not_soaked_screen",
+    "highlight_policy": "stronger small rim highlights and soft foreground lensing without bubble shading"
+  },
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "type": "existing_source_safe_transform",
+      "preservation_read": "pass_preserved_from_chapter_transition_successor"
+    },
+    {
+      "id": "foreground_glass_rain_weather_app_foreground_readability_v9",
+      "type": "deterministic_canvas_weather_app_glass_layer",
+      "source_safety": "masked to left glass region; no source plate geometry, people, vehicle, or bridge animation",
+      "scale_read": "foreground_readable_not_macro"
+    }
+  ],
+  "qa": {
+    "browser_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/browser_qa_1920x1080.json",
+      "sha256": "1605548176d49ba658e124d12948802a52ddcca19f59114ede46c979f896ae23",
+      "pass": true
+    },
+    "glass_rain_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/glass_rain_review_strip.png",
+      "sha256": "19b31e79fea15df11150b0f42470931f1b570731410e847fd6c7eb9b7c273600",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/glass_rain_review_strip.html",
+      "html_sha256": "d8efab81c63d33f1ef217387612853e4c40d9bb29db338eb07d1159c42096d8d"
+    },
+    "weather_app_foreground_reference_comparison_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/weather_app_nuance_reference_comparison_strip.png",
+      "sha256": "43f42def17608bb6e71cd0c8f7b0bf2be225d75c819403a51f7d329186719810",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/weather_app_nuance_reference_comparison_strip.html",
+      "html_sha256": "a9b51c104c8377b1cc8bae04c94842151eb6cc34a0bd7a6a95893431eceaa5ca"
+    },
+    "weather_app_foreground_motion_crop_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/weather_app_nuance_motion_crop_strip.png",
+      "sha256": "2d8a341fd5a02618a8712d3e07949db33409b0d0e22f06d28be36e38bd6a6151",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/weather_app_nuance_motion_crop_strip.html",
+      "html_sha256": "af89ad5bb911283b216bda89c607cc6fb7b2c2cd41f2041f9aee3c7f575feeaf"
+    },
+    "focused_transition_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/focused_transition_review_strip.png",
+      "sha256": "47ef5048fb246591dfed6ce3ab6797c53b72073c0fd5d23916317b276068c67a",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_foreground_glass_rain_20260519T185748Z/qa/focused_transition_review_strip.html",
+      "html_sha256": "63df6c76aae895a889fb79aafa8fe8293b605132f7ff361e993864c1fd1afb5a"
+    }
+  },
+  "reads": {
+    "k3_loaded_read": "pass",
+    "backplate_horizontal_flip_read": "pass",
+    "right_rail_story_space_read": "pass",
+    "candidate_g_runtime_reference_absent_read": "pass",
+    "youtube_end_screen_template_read": "pass",
+    "youtube_target_geometry_static_read": "pass",
+    "fixed_canvas_read": "pass",
+    "visual_state_debug_hook_read": "pass",
+    "challenger_staged_transition_model_read": "pass",
+    "first_chapter_boundary_visual_ease_read": "pass",
+    "chapter_boundary_hard_shift_read": "pass",
+    "focused_transition_review_strip_read": "pass",
+    "weather_app_nuance_reference_read": "pass",
+    "droplet_scale_not_macro_read": "pass",
+    "small_bead_density_low_wetness_read": "pass_medium_low_visual_weight_foreground_readable_beads",
+    "heterogeneous_motion_read": "pass",
+    "no_whole_overlay_scroll_read": "pass",
+    "fine_falling_streak_read": "pass",
+    "short_runner_rarity_read": "pass",
+    "glass_rain_intro_motion_read": "pass",
+    "glass_rain_motion_clock_read": "pass",
+    "glass_rain_image_only_mask_read": "pass",
+    "glass_rain_motion_read": "pass",
+    "deterministic_glass_rain_read": "pass",
+    "source_plate_geometry_preservation_read": "pass",
+    "right_rail_exclusion_read": "pass",
+    "caption_legibility_preservation_read": "pass",
+    "range_scrub_effect_review_read": "pass",
+    "player_activated_caption_track_read": "pass",
+    "weather_app_nuance_motion_crop_strip_read": "pass",
+    "weather_app_nuance_comparison_strip_read": "pass",
+    "intro_rail_readiness_read": "pass",
+    "eyebrow_title_distinct_read": "pass",
+    "right_rail_opacity_balance_read": "pass",
+    "captions_inside_right_rail_read": "pass",
+    "out_of_rail_text_read": "pass",
+    "diagnostic_overlay_absence_read": "pass",
+    "end_screen_target_read": "pass",
+    "final_20s_end_screen_window_read": "pass",
+    "rail_end_screen_handoff_read": "pass",
+    "vo_outro_prelap_read": "pass",
+    "end_screen_text_artifact_read": "pass",
+    "byte_range_read": "pass",
+    "stale_cross_episode_label_read": "pass",
+    "ordinal_chapter_label_read": "pass",
+    "response_read": "pass",
+    "console_error_read": "pass",
+    "weather_app_foreground_readability_read": "pass",
+    "foreground_glass_scale_read": "pass_dominant_6_18px_rare_22_34px_macro_above_36px_forbidden"
+  },
+  "locks": {
+    "may_render_final_mp4": false,
+    "may_advance_to_final_assembly": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "predecessor": {
+    "packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_weather_app_nuance_glass_rain_20260519T171923Z",
+    "status": "tighten_superseded_by_weather_app_foreground_glass_rain_successor",
+    "reason": "User agreed current v8 weather-app nuance undershot drop scale against the detailed bridge plate."
+  }
+}

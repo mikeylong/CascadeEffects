@@ -1,0 +1,1300 @@
+{
+  "url": "http://127.0.0.1:8858/player.html",
+  "packet": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z",
+  "created_utc": "2026-05-18T17:51:36.308Z",
+  "console_errors": [],
+  "source_art_runtime_reference_read": {
+    "candidate_g_absent_from_player_html": true,
+    "candidate_k3_present_in_player_html": true
+  },
+  "end_screen_template_source_read": {
+    "template_id": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+    "required_classes_present": true,
+    "forbidden_ad_hoc_classes_absent": true
+  },
+  "responses": [
+    {
+      "path": "player.html",
+      "status": 200
+    },
+    {
+      "path": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "status": 200
+    },
+    {
+      "path": "assets/audio/Ep5-Tacoma-Narrows.actual_outro_prelap_web_review_20260518T170954Z.mp3",
+      "status": 200
+    },
+    {
+      "path": "assets/audio/Ep5-Tacoma-Narrows.actual_outro_prelap_review_mix_20260518T170954Z.wav",
+      "status": 200
+    },
+    {
+      "path": "assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "status": 200
+    },
+    {
+      "path": "assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.srt",
+      "status": 200
+    },
+    {
+      "path": "references/living_cover_cue_map.json",
+      "status": 200
+    },
+    {
+      "path": "references/living_cover_ambient_effects_layer.json",
+      "status": 200
+    },
+    {
+      "path": "references/music_integration_contract.json",
+      "status": 200
+    },
+    {
+      "path": "references/audio_mix_manifest.json",
+      "status": 200
+    },
+    {
+      "path": "references/source_art_manifest.json",
+      "status": 200
+    }
+  ],
+  "viewport_checks": [
+    {
+      "label": "desktop_1920x1080",
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "frame_aspect_pass": true,
+      "visible_cue_overlay_absent": true
+    },
+    {
+      "label": "scaled_1280x720",
+      "stage": {
+        "width": 1280,
+        "height": 720
+      },
+      "frame": {
+        "width": 1280,
+        "height": 720
+      },
+      "rail": {
+        "width": 507,
+        "height": 651
+      },
+      "frame_aspect_pass": true,
+      "visible_cue_overlay_absent": true
+    }
+  ],
+  "samples": [
+    {
+      "slug": "intro_start",
+      "time": 0,
+      "reviewState": {
+        "time": 0,
+        "storyTime": 0,
+        "activeLabel": "OPENING COLLAPSE",
+        "activeTitle": "The Bridge Was Already Moving",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "-0.1000deg",
+        "visualScale": "1.022",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "activeSummary": "A collapse that began as ordinary motion turned into a feedback problem.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/intro_start_0000000ms.png"
+    },
+    {
+      "slug": "intro_mid",
+      "time": 4.8,
+      "reviewState": {
+        "time": 4.8,
+        "storyTime": 0,
+        "activeLabel": "OPENING COLLAPSE",
+        "activeTitle": "The Bridge Was Already Moving",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "-0.1000deg",
+        "visualScale": "1.022",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "activeSummary": "A collapse that began as ordinary motion turned into a feedback problem.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/intro_mid_0004800ms.png"
+    },
+    {
+      "slug": "voice_start",
+      "time": 9.601451,
+      "reviewState": {
+        "time": 9.601451,
+        "storyTime": 0,
+        "activeLabel": "OPENING COLLAPSE",
+        "activeTitle": "The Bridge Was Already Moving",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "-0.1000deg",
+        "visualScale": "1.022",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "activeSummary": "A collapse that began as ordinary motion turned into a feedback problem.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/voice_start_0009601ms.png"
+    },
+    {
+      "slug": "opening_caption",
+      "time": 12,
+      "reviewState": {
+        "time": 12,
+        "storyTime": 2.398548999999999,
+        "activeLabel": "OPENING COLLAPSE",
+        "activeTitle": "The Bridge Was Already Moving",
+        "caption": "On November 7, 1940, the Tacoma Narrows Bridge",
+        "captionEmpty": false,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "-0.0920deg",
+        "visualScale": "1.0220773639710496",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "OPENING COLLAPSE",
+      "activeTitle": "The Bridge Was Already Moving",
+      "activeSummary": "A collapse that began as ordinary motion turned into a feedback problem.",
+      "caption": "On November 7, 1940, the Tacoma Narrows Bridge",
+      "captionEmpty": false,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 1,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/opening_caption_0012000ms.png"
+    },
+    {
+      "slug": "galloping_motion",
+      "time": 216.502,
+      "reviewState": {
+        "time": 216.502,
+        "storyTime": 206.900549,
+        "activeLabel": "REDESIGN TRADEOFF",
+        "activeTitle": "The Redesign Removed Stiffness",
+        "caption": "1940. Almost immediately, it moved.",
+        "captionEmpty": false,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "0.0073deg",
+        "visualScale": "1.0283810781881781",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "REDESIGN TRADEOFF",
+      "activeTitle": "The Redesign Removed Stiffness",
+      "activeSummary": "The bridge became slender, elegant, cheaper, and more flexible.",
+      "caption": "1940. Almost immediately, it moved.",
+      "captionEmpty": false,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 1,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/galloping_motion_0216502ms.png"
+    },
+    {
+      "slug": "five_conditions",
+      "time": 316.442,
+      "reviewState": {
+        "time": 316.442,
+        "storyTime": 306.840549,
+        "activeLabel": "NORMALIZED MOTION",
+        "activeTitle": "Galloping Became Normal",
+        "caption": "evaluate well. To understand why,",
+        "captionEmpty": false,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "-0.4041deg",
+        "visualScale": "1.0353993181850882",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "NORMALIZED MOTION",
+      "activeTitle": "Galloping Became Normal",
+      "activeSummary": "Drivers watched the roadway rise and fall until motion became part of the bridge identity.",
+      "caption": "evaluate well. To understand why,",
+      "captionEmpty": false,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 1,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/five_conditions_0316442ms.png"
+    },
+    {
+      "slug": "torsion_peak",
+      "time": 559.355,
+      "reviewState": {
+        "time": 559.355,
+        "storyTime": 549.753549,
+        "activeLabel": "AERODYNAMIC FEEDBACK",
+        "activeTitle": "The Air Fed The Twist",
+        "caption": "hurricane. It only needed to keep supplying the",
+        "captionEmpty": false,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "0.2608deg",
+        "visualScale": "1.037451372982192",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 303
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "AERODYNAMIC FEEDBACK",
+      "activeTitle": "The Air Fed The Twist",
+      "activeSummary": "Torsion changed the airflow, and the airflow added energy back into torsion.",
+      "caption": "hurricane. It only needed to keep supplying the",
+      "captionEmpty": false,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 1,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/torsion_peak_0559355ms.png"
+    },
+    {
+      "slug": "model_boundary",
+      "time": 685.83,
+      "reviewState": {
+        "time": 685.83,
+        "storyTime": 676.228549,
+        "activeLabel": "MODEL BOUNDARY",
+        "activeTitle": "The Model Had An Edge",
+        "caption": "that the domain itself had an edge.",
+        "captionEmpty": false,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "-0.0478deg",
+        "visualScale": "1.026504928401314",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "MODEL BOUNDARY",
+      "activeTitle": "The Model Had An Edge",
+      "activeSummary": "The equations were not useless. They were incomplete outside their domain.",
+      "caption": "that the domain itself had an edge.",
+      "captionEmpty": false,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 1,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/model_boundary_0685830ms.png"
+    },
+    {
+      "slug": "outro_start",
+      "time": 849.235,
+      "reviewState": {
+        "time": 849.235,
+        "storyTime": 839.633549,
+        "activeLabel": "LESSON",
+        "activeTitle": "How Engineering Learns",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 1,
+        "endOpacity": 0,
+        "visualRoll": "0.0476deg",
+        "visualScale": "1.02115846669489",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "LESSON",
+      "activeTitle": "How Engineering Learns",
+      "activeSummary": "Engineering learns by finding the edge of a model and rebuilding around it.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 1,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/outro_start_0849235ms.png"
+    },
+    {
+      "slug": "rail_fade_start",
+      "time": 853.925,
+      "reviewState": {
+        "time": 853.925,
+        "storyTime": 839.63356,
+        "activeLabel": "LESSON",
+        "activeTitle": "How Engineering Learns",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 0.9997009090909408,
+        "endOpacity": 0,
+        "visualRoll": "0.0476deg",
+        "visualScale": "1.021158466367575",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "LESSON",
+      "activeTitle": "How Engineering Learns",
+      "activeSummary": "Engineering learns by finding the edge of a model and rebuilding around it.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 0.9997009090909408,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 0,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/rail_fade_start_0853925ms.png"
+    },
+    {
+      "slug": "end_screen_start",
+      "time": 855.025,
+      "reviewState": {
+        "time": 855.025,
+        "storyTime": 839.63356,
+        "activeLabel": "LESSON",
+        "activeTitle": "How Engineering Learns",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 0,
+        "endOpacity": 0.0002741666666376356,
+        "visualRoll": "0.0476deg",
+        "visualScale": "1.021158466367575",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "LESSON",
+      "activeTitle": "How Engineering Learns",
+      "activeSummary": "Engineering learns by finding the edge of a model and rebuilding around it.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 0,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 0.0002741666666376356,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/end_screen_start_0855025ms.png"
+    },
+    {
+      "slug": "end_screen_settled",
+      "time": 856.525,
+      "reviewState": {
+        "time": 856.525,
+        "storyTime": 839.63356,
+        "activeLabel": "LESSON",
+        "activeTitle": "How Engineering Learns",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 0,
+        "endOpacity": 1,
+        "visualRoll": "0.0476deg",
+        "visualScale": "1.021158466367575",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "LESSON",
+      "activeTitle": "How Engineering Learns",
+      "activeSummary": "Engineering learns by finding the edge of a model and rebuilding around it.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 0,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 1,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/end_screen_settled_0856525ms.png"
+    },
+    {
+      "slug": "end_screen_late",
+      "time": 874.025,
+      "reviewState": {
+        "time": 874.025,
+        "storyTime": 839.63356,
+        "activeLabel": "LESSON",
+        "activeTitle": "How Engineering Learns",
+        "caption": "",
+        "captionEmpty": true,
+        "railOpacity": 0,
+        "endOpacity": 1,
+        "visualRoll": "0.0476deg",
+        "visualScale": "1.021158466367575",
+        "duration": 875.024671
+      },
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "activePanel": {
+        "width": 760,
+        "height": 364
+      },
+      "sourcePlateSrc": "assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sourcePlateComplete": true,
+      "activeLabel": "LESSON",
+      "activeTitle": "How Engineering Learns",
+      "activeSummary": "Engineering learns by finding the edge of a model and rebuilding around it.",
+      "caption": "",
+      "captionEmpty": true,
+      "railOpacity": 0,
+      "captionSoftenerOpacity": 0,
+      "endOpacity": 1,
+      "endScreenTemplateId": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+      "endScreenTargetGeometry": {
+        "left_video": {
+          "present": true,
+          "role": "suggested_video",
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ]
+        },
+        "right_video": {
+          "present": true,
+          "role": "watch_next_video",
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ]
+        },
+        "center_subscribe": {
+          "present": true,
+          "role": "subscribe",
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ]
+        }
+      },
+      "staleCrossEpisodeLabelAbsent": true,
+      "ordinalChapterLabelAbsent": true,
+      "visibleCueOverlayAbsent": true,
+      "diagnosticOverlayAbsent": true,
+      "outOfRailStoryTextAbsent": true,
+      "lowerRailOpaqueColumnAbsent": true,
+      "endScreenViewerTextSuppressed": true,
+      "eyebrowTitleDistinct": true,
+      "final20sEndScreenWindow": true,
+      "railEndScreenHandoff": true,
+      "actualOutroPrelap": true,
+      "sourceArtK3Loaded": true,
+      "sourceArtCandidateGAbsent": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_pronunciation_rail_music_handoff_20260518T170954Z/qa/screenshots/end_screen_late_0874025ms.png"
+    }
+  ],
+  "range_probe": {
+    "status": 206,
+    "contentRange": "bytes 0-1023/21002492",
+    "acceptRanges": "bytes",
+    "pass": true
+  },
+  "failed_responses": [],
+  "reads": {
+    "k3_loaded_read": true,
+    "candidate_g_runtime_reference_absent_read": true,
+    "youtube_end_screen_template_read": true,
+    "youtube_target_geometry_static_read": true,
+    "fixed_canvas_read": true,
+    "intro_rail_readiness_read": true,
+    "eyebrow_title_distinct_read": true,
+    "right_rail_opacity_balance_read": true,
+    "captions_inside_right_rail_read": true,
+    "out_of_rail_text_read": true,
+    "diagnostic_overlay_absence_read": true,
+    "end_screen_target_read": true,
+    "final_20s_end_screen_window_read": true,
+    "rail_end_screen_handoff_read": true,
+    "vo_outro_prelap_read": true,
+    "end_screen_text_artifact_read": true,
+    "byte_range_read": true,
+    "stale_cross_episode_label_read": true,
+    "ordinal_chapter_label_read": true,
+    "response_read": true,
+    "console_error_read": true
+  },
+  "pass": true
+}

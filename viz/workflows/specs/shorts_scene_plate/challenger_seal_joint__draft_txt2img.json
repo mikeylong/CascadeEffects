@@ -1,0 +1,198 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_seal_joint__draft_txt2img",
+  "base_fragment": "minimal_surreal_flux_midjourney_grid_draft_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no cutaway diagram, no multiple hardware clusters, no evidence bench spread",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131802,
+    "selected_seed": 972054013131802,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 24,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_seal_joint/draft/challenger_seal_joint_draft",
+    "note_text": "Minimal-surreal Challenger beat 02. Let the booster-joint seal read immediately, with calm system logic around one impossible failure.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "draft_txt2img",
+    "reference_board_dir": "references/episodes/challenger/booster_joint_evidence/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "accent_palette": "beige, muted blue, charcoal, signal red",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the joint geometry above the subtitle band and leave the top UI band empty",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "booster seal ring that never quite closes",
+    "beat_id": "beat_02",
+    "historical_anchor": "solid rocket booster joint and O-ring seal geometry",
+    "surreal_breach": "the seal ring remains visibly open while the rest of the system stays calm",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_seal_joint.png",
+    "reference_mode": "midjourney_package_grid",
+    "midjourney_package_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v1/package.manifest.json",
+    "midjourney_shot_id": "beat_02"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "solid rocket booster joint rendered as a severe ring-and-gap signal object",
+    "support_fragments": [
+      "calm engineering surfaces and a single red pressure accent kept subordinate to the joint read",
+      "quiet beige field and dark seam geometry carrying the system logic"
+    ],
+    "directives": [
+      "keep the joint large enough to read on mobile",
+      "avoid literal cutaway-diagram styling"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "negative_prompt",
+      "widgets": {
+        "text": "{{ params.negative_prompt }}"
+      }
+    },
+    {
+      "key": "latent",
+      "widgets": {
+        "width": "{{ params.width }}",
+        "height": "{{ params.height }}",
+        "batch_size": "{{ params.batch_size }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.denoise }}"
+      }
+    },
+    {
+      "key": "flux_guidance",
+      "widgets": {
+        "guidance": "{{ params.guidance }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    },
+    {
+      "key": "load_subject_reference",
+      "widgets": {
+        "image": "{{ params.subject_reference_runtime_image }}"
+      }
+    },
+    {
+      "key": "clip_vision_loader",
+      "widgets": {
+        "clip_name": "{{ params.subject_reference_clip_vision_model }}"
+      }
+    },
+    {
+      "key": "clip_vision_encode",
+      "widgets": {
+        "crop": "{{ params.subject_reference_crop }}"
+      }
+    },
+    {
+      "key": "subject_reference_conditioning",
+      "widgets": {
+        "strength": "{{ params.subject_reference_strength }}",
+        "noise_augmentation": "{{ params.subject_reference_noise_augmentation }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_seal_joint__draft_txt2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_seal_joint__draft_txt2img.json"
+  }
+}

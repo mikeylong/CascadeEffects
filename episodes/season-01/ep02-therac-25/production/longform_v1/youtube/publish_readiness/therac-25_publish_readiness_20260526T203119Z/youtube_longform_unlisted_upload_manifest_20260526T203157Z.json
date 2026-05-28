@@ -1,0 +1,173 @@
+{
+  "challenger_precision_matte_guard": {
+    "ok": true,
+    "reads": {
+      "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode"
+    },
+    "required": false
+  },
+  "created_at": "2026-05-26T20:31:58Z",
+  "episode_id": "therac-25",
+  "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "human_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "known_post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "mp4_visual_guard": {
+    "created_at": "2026-05-26T20:31:58Z",
+    "episode_id": "therac-25",
+    "model": "youtube_upload_mp4_black_screen_guard_v1",
+    "ok": true,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/preflight/therac-25_mp4_visual_guard_20260526T203158Z.json",
+    "reads": {
+      "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+      "youtube_upload_black_screen_block_read": "pass_black_screen_upload_preflight"
+    },
+    "samples": [
+      {
+        "name": "start",
+        "passed": true,
+        "seconds": 1.0,
+        "stats": {
+          "max_luma": 214.766,
+          "mean_luma": 45.225,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.91625,
+          "pixel_count": 14400,
+          "std_luma": 32.767
+        }
+      },
+      {
+        "name": "quarter",
+        "passed": true,
+        "seconds": 278.538,
+        "stats": {
+          "max_luma": 207.119,
+          "mean_luma": 46.731,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.9175,
+          "pixel_count": 14400,
+          "std_luma": 33.383
+        }
+      },
+      {
+        "name": "half",
+        "passed": true,
+        "seconds": 557.075,
+        "stats": {
+          "max_luma": 213.268,
+          "mean_luma": 46.201,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.916111,
+          "pixel_count": 14400,
+          "std_luma": 33.279
+        }
+      },
+      {
+        "name": "three_quarter",
+        "passed": true,
+        "seconds": 835.613,
+        "stats": {
+          "max_luma": 214.766,
+          "mean_luma": 46.789,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.916597,
+          "pixel_count": 14400,
+          "std_luma": 33.446
+        }
+      },
+      {
+        "name": "final_second",
+        "passed": true,
+        "seconds": 1113.151,
+        "stats": {
+          "max_luma": 208.622,
+          "mean_luma": 45.561,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.951667,
+          "pixel_count": 14400,
+          "std_luma": 30.202
+        }
+      }
+    ],
+    "sha256": "eef8d4ba41a002d90204dc0f621498cff8a4c24d9c889a634fd5dde9aa4e9c6d",
+    "thresholds": {
+      "min_mean_luma": 20.0,
+      "min_nonblack_fraction": 0.08,
+      "min_std_luma": 8.0
+    },
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/media/therac-25_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "25090e7c75ec9e9a0d843949f6249cec1d908e836c0ed72acde3bb6859841295"
+  },
+  "notify_subscribers": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+  "source_publish_readiness_manifest_sha256": "4f4fd9a84ef25f6d37f556125f65f97afdb1a5939ff9faa91607971f564ada5b",
+  "target": "youtube_longform_unlisted_review",
+  "upload_assets": {
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/captions/therac25_longform_script_locked.offset_intro_3s601.srt",
+    "caption_srt_sha256": "dc0bf034dad53c3b284e35016be1241706d259b5591ef78dac3387c2aef9a4c3",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/captions/therac25_longform_script_locked.offset_intro_3s601.vtt",
+    "caption_vtt_sha256": "c8282e314298887e372f475c56b08159d84a31001a19659cd76e7f053949aaec",
+    "probe": {
+      "format": {
+        "bit_rate": "1137419",
+        "duration": "1114.150998",
+        "size": "158407135"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "avg_frame_rate": "24/1",
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "1114.000000",
+          "height": 1080,
+          "index": 0,
+          "side_data_list": [
+            {}
+          ],
+          "width": 1920
+        },
+        {
+          "avg_frame_rate": "0/0",
+          "channels": 2,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "1114.150998",
+          "index": 1,
+          "sample_rate": "44100"
+        }
+      ]
+    },
+    "thumbnail_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/thumbnail/therac-25_thumbnail_candidate.jpg",
+    "thumbnail_sha256": "e6acee5412f9d9407c211c29e3ad81e54a2df6870b7faba58f1112a5621f94a9",
+    "thumbnail_source_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/thumbnail/therac-25_thumbnail_candidate.jpg",
+    "thumbnail_source_sha256": "e6acee5412f9d9407c211c29e3ad81e54a2df6870b7faba58f1112a5621f94a9",
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260526T203119Z/media/therac-25_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "25090e7c75ec9e9a0d843949f6249cec1d908e836c0ed72acde3bb6859841295"
+  },
+  "youtube_metadata": {
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description": "Therac-25 is a Cascade Effects episode about how small signals become system consequences.\n\nSoftware assumptions, missing hardware interlocks, and institutional disbelief let lethal overdoses repeat.\n\nRuntime: about 19 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 Opening\n0:04 Patient report versus machine report\n3:44 Safety architecture removed\n7:27 The hidden state mismatch\n11:09 Repeated incidents and disbelief\n14:52 Exposure and present-tense warning\n17:34 Closing\n\n#CascadeEffects",
+    "self_declared_made_for_kids": false,
+    "tags": [
+      "Cascade Effects",
+      "Therac-25",
+      "documentary",
+      "medical device safety",
+      "radiation therapy",
+      "software safety",
+      "systems failure"
+    ],
+    "title": "Therac-25"
+  }
+}

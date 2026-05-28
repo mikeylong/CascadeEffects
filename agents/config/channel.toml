@@ -1,0 +1,34 @@
+version = 1
+
+[paths]
+agents_root = "/Users/mike/CascadeEffects/agents"
+episodes_root = "/Users/mike/CascadeEffects/episodes/season-01"
+audio_root = "/Users/mike/CascadeEffects/audio"
+viz_root = "/Users/mike/CascadeEffects/viz"
+ai_root = "/Users/mike/AI"
+web_root = "/Users/mike/CascadeEffects/apps/web"
+viz_ce_path = "/Users/mike/CascadeEffects/viz/bin/ce"
+orchestrate_helper = "/Users/mike/CascadeEffects/agents/bin/ce-orchestrate"
+
+[defaults]
+slate_target_episode_count = 186
+lane_order = [
+  "visual_research",
+  "audio",
+  "scene_stills",
+  "packaging_stills",
+  "motion_assets",
+  "assembly",
+  "web",
+  "release",
+  "analytics",
+]
+board_categories = [
+  "backlog",
+  "in_production",
+  "ready_for_assembly",
+  "release_ready",
+  "scheduled",
+  "published",
+  "post_release",
+]

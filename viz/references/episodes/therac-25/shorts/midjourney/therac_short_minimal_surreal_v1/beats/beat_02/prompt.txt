@@ -1,0 +1,16 @@
+Midjourney reference upload order:
+1. beats/beat_02/references/01__radiotherapie_device.jpg
+2. beats/beat_02/references/02__therac_truebeam_close.jpg
+3. beats/beat_02/references/03__therac_elekta_versa_hd_room.jpg
+
+Text prompt:
+Therac-25 after software replaced physical interlocks, leaving a treatment device able to fire at full power with the wrong state active. single gantry-head apparatus dominates the frame while the surrounding field is stripped back to pure clinical geometry instead of a generic room mood. framing favors the device head and its open working side, with harder asymmetry and less environmental context than beat_01, vertical 9:16. Palette shifts to off-white, pale cyan, charcoal, and a colder phosphor-green diagnostic glow. one missing-filter void and one state-mismatch line inside the head imply a race condition rather than an accident tableau. Cooler light, hard edges, and technical calm that hides the hazard.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

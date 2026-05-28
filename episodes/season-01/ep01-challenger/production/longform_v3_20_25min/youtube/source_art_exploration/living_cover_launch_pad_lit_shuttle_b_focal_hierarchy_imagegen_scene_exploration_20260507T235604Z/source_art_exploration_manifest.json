@@ -1,0 +1,302 @@
+{
+  "packet_id": "living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z",
+  "created_utc": "20260507T235604Z",
+  "status": "tighten_realistic_lighting_detail_balance",
+  "gate": "source_art_exploration_side_lane",
+  "review_only": true,
+  "stills_only": true,
+  "side_exploration_only": true,
+  "human_disposition": "tighten",
+  "selected_variant": null,
+  "imagegen_mode": "built_in_image_gen",
+  "created_from_tightened_packet": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_80s_imagegen_scene_exploration_20260507T233444Z",
+  "base_direction": "prior lit-shuttle Variant B",
+  "repair_direction": "Make the lit shuttle/pad the dominant subject and make the seven astronauts a supporting witnessing layer, while preserving rail safe space.",
+  "frozen_current_proof_unchanged": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_fixed_16x9_larger_native_rail_captions_html_rough_proof_20260507T150724Z/player.html",
+  "prompt_contract": {
+    "primary_reference_priority": "variant_b_lit_shuttle_focal_hierarchy",
+    "hard_requirements": [
+      "shuttle and LC-39-style pad visibly lit up and dominant",
+      "exactly seven full visible back-view astronauts",
+      "crew reads as secondary witnessing layer",
+      "no extra/partial/background humans",
+      "open right 40% rail safe field",
+      "historically credible early-1980s NASA press-photo look",
+      "no generated text, readable logos/name patches, fake overlays, launch/smoke/fire"
+    ]
+  },
+  "variants": {
+    "variant_a": {
+      "variant_id": "variant_a",
+      "label": "A",
+      "direction": "Conservative repair of prior B: mostly same geometry, stronger lit-shuttle focal read, crew still secondary.",
+      "human_disposition": "defer",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_08834c6ce32961530169fd24479760819586539d7e19e12e39.png",
+      "source_generation_sha256": "4a5a69c7772b11082a577143c2b3de22dc9dbec53259784a28f5573ffce02909",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_generations/lit_shuttle_b_focal_hierarchy_variant_a_imagegen_source.png",
+      "copied_source_generation_sha256": "4a5a69c7772b11082a577143c2b3de22dc9dbec53259784a28f5573ffce02909",
+      "source_generation_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_art/lit_shuttle_b_focal_hierarchy_variant_a.png",
+      "source_art_sha256": "fb7232e47ed36bd0a61fc540bca6761d358c42f558506948d9ca74debe28a155",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/prompts/lit_shuttle_b_focal_hierarchy_variant_a_prompt.txt",
+      "prompt_sha256": "342382b3f9221591e94b44818718cd21d4e6f67e83bf47ace80a5ab43f42311d",
+      "preview_320x180_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/previews/lit_shuttle_b_focal_hierarchy_variant_a_320x180.png",
+      "preview_320x180_sha256": "22ef617ecb95a5b6f68f030c17c90f241200b5a6719e283224bc4b56c38b32f8",
+      "preview_168x94_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/previews/lit_shuttle_b_focal_hierarchy_variant_a_168x94.png",
+      "preview_168x94_sha256": "cda94f2a9e7964a8ebce0e419c0cf4e3e261966912b47da731de0dda9de4f8db",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_path",
+        "mode": "image_to_image_or_contextual_edit",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_08834c6ce32961530169fd24479760819586539d7e19e12e39.png",
+        "source_generation_sha256": "4a5a69c7772b11082a577143c2b3de22dc9dbec53259784a28f5573ffce02909",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_art/lit_shuttle_b_focal_hierarchy_variant_a.png",
+        "final_asset_sha256": "fb7232e47ed36bd0a61fc540bca6761d358c42f558506948d9ca74debe28a155",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/prompts/lit_shuttle_b_focal_hierarchy_variant_a_prompt.txt",
+        "prompt_sha256": "342382b3f9221591e94b44818718cd21d4e6f67e83bf47ace80a5ab43f42311d",
+        "init_image_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_80s_imagegen_scene_exploration_20260507T233444Z/assets/source_art/lit_shuttle_80s_variant_b.png",
+        "init_image_sha256": "aab28cde97e794cf9d5acf02ae2570f8e464ee02a3cd5572cf5b6fc010de24c6",
+        "provenance_notes": "Built-in image_gen output under /Users/mike/.codex/generated_images. Prior lit-shuttle Variant B was used as the base direction; prompts emphasized shuttle/pad focal dominance and crew as secondary witnessing layer."
+      },
+      "local_precheck": {
+        "lit_shuttle_focal_read": "appears_pass_shuttle_and_pad_are_brightly_illuminated",
+        "focal_hierarchy_read": "appears_pass_shuttle_pad_read_as_subject_and_crew_as_supporting_layer",
+        "crew_count_read": "appears_pass_countable_seven_foreground_figures",
+        "extra_partial_people_read": "appears_pass_no_extra_or_partial_humans_seen_in_packet_precheck",
+        "right_rail_safe_space_read": "appears_pass",
+        "note": "Local precheck is not a human keep; final reads remain pending human review."
+      },
+      "required_human_reads": {
+        "lit_shuttle_focal_read": "pending_human_review",
+        "focal_hierarchy_read": "pending_human_review",
+        "crew_supporting_layer_read": "pending_human_review",
+        "crew_count_read": "pending_human_review",
+        "extra_partial_people_read": "pending_human_review",
+        "historical_accuracy_read": "pending_human_review",
+        "early_80s_film_camera_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review"
+      },
+      "may_replace_source_art_carrier": false,
+      "may_create_motion_readiness_packet": false,
+      "may_create_rough_assembly_proof": false,
+      "may_create_full_runtime_mp4_render": false,
+      "may_advance_to_final_assembly": false,
+      "may_advance_to_shorts_work": false,
+      "may_advance_to_publish_readiness": false,
+      "may_youtube_action": false
+    },
+    "variant_b": {
+      "variant_id": "variant_b",
+      "label": "B",
+      "direction": "Recommended balance: strongest lit-shuttle/pad focal hierarchy with clean rail space and seven supporting crew.",
+      "human_disposition": "defer",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_08834c6ce32961530169fd2498b80c81959a3524c1abb8868e.png",
+      "source_generation_sha256": "4768b7545fee31072ad20aefb34991c324611ff5fc96ce910fb2cb0329fdca6c",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_generations/lit_shuttle_b_focal_hierarchy_variant_b_imagegen_source.png",
+      "copied_source_generation_sha256": "4768b7545fee31072ad20aefb34991c324611ff5fc96ce910fb2cb0329fdca6c",
+      "source_generation_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_art/lit_shuttle_b_focal_hierarchy_variant_b.png",
+      "source_art_sha256": "2805d723da3878d7f3621851083c651e76df64b551f76e6f2be66dcc8426944f",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/prompts/lit_shuttle_b_focal_hierarchy_variant_b_prompt.txt",
+      "prompt_sha256": "968a4b6b360147f62073522206ffeec215636e588a2f66431335056c8cc76b9c",
+      "preview_320x180_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/previews/lit_shuttle_b_focal_hierarchy_variant_b_320x180.png",
+      "preview_320x180_sha256": "c31c900d0aab808354052f4cdf9dc32cf6409cc71a380b38d2ad75fbb8724942",
+      "preview_168x94_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/previews/lit_shuttle_b_focal_hierarchy_variant_b_168x94.png",
+      "preview_168x94_sha256": "9024c584a763bce84625ab06451a9d6bb929c573c8791b84e0eecc6e78e39cab",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_path",
+        "mode": "image_to_image_or_contextual_edit",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_08834c6ce32961530169fd2498b80c81959a3524c1abb8868e.png",
+        "source_generation_sha256": "4768b7545fee31072ad20aefb34991c324611ff5fc96ce910fb2cb0329fdca6c",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_art/lit_shuttle_b_focal_hierarchy_variant_b.png",
+        "final_asset_sha256": "2805d723da3878d7f3621851083c651e76df64b551f76e6f2be66dcc8426944f",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/prompts/lit_shuttle_b_focal_hierarchy_variant_b_prompt.txt",
+        "prompt_sha256": "968a4b6b360147f62073522206ffeec215636e588a2f66431335056c8cc76b9c",
+        "init_image_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_80s_imagegen_scene_exploration_20260507T233444Z/assets/source_art/lit_shuttle_80s_variant_b.png",
+        "init_image_sha256": "aab28cde97e794cf9d5acf02ae2570f8e464ee02a3cd5572cf5b6fc010de24c6",
+        "provenance_notes": "Built-in image_gen output under /Users/mike/.codex/generated_images. Prior lit-shuttle Variant B was used as the base direction; prompts emphasized shuttle/pad focal dominance and crew as secondary witnessing layer."
+      },
+      "local_precheck": {
+        "lit_shuttle_focal_read": "appears_pass_shuttle_and_pad_are_brightly_illuminated",
+        "focal_hierarchy_read": "appears_pass_shuttle_pad_read_as_subject_and_crew_as_supporting_layer",
+        "crew_count_read": "appears_pass_countable_seven_foreground_figures",
+        "extra_partial_people_read": "appears_pass_no_extra_or_partial_humans_seen_in_packet_precheck",
+        "right_rail_safe_space_read": "appears_pass",
+        "note": "Local precheck is not a human keep; final reads remain pending human review."
+      },
+      "required_human_reads": {
+        "lit_shuttle_focal_read": "pending_human_review",
+        "focal_hierarchy_read": "pending_human_review",
+        "crew_supporting_layer_read": "pending_human_review",
+        "crew_count_read": "pending_human_review",
+        "extra_partial_people_read": "pending_human_review",
+        "historical_accuracy_read": "pending_human_review",
+        "early_80s_film_camera_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review"
+      },
+      "may_replace_source_art_carrier": false,
+      "may_create_motion_readiness_packet": false,
+      "may_create_rough_assembly_proof": false,
+      "may_create_full_runtime_mp4_render": false,
+      "may_advance_to_final_assembly": false,
+      "may_advance_to_shorts_work": false,
+      "may_advance_to_publish_readiness": false,
+      "may_youtube_action": false
+    },
+    "variant_c": {
+      "variant_id": "variant_c",
+      "label": "C",
+      "direction": "Upper-bound cinematic version: brighter pad glow and crew lower/darker, still historically grounded.",
+      "human_disposition": "defer",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_08834c6ce32961530169fd24f4ddd88195a51de1fc0dbccde6.png",
+      "source_generation_sha256": "7666941a1a99fdfb6c077ae2f5c1ef560239db62f4e8ba7aff877c0c27cf9e8a",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_generations/lit_shuttle_b_focal_hierarchy_variant_c_imagegen_source.png",
+      "copied_source_generation_sha256": "7666941a1a99fdfb6c077ae2f5c1ef560239db62f4e8ba7aff877c0c27cf9e8a",
+      "source_generation_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_art/lit_shuttle_b_focal_hierarchy_variant_c.png",
+      "source_art_sha256": "fffdaf24fb5e27f0f7e3d09bd7e85d1a7fe45a7170c18f8163a87a62da97d826",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/prompts/lit_shuttle_b_focal_hierarchy_variant_c_prompt.txt",
+      "prompt_sha256": "5d0b7c6ce218e3f4794d5f6081f57249adcc4744a7d4ca337828aa1813827580",
+      "preview_320x180_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/previews/lit_shuttle_b_focal_hierarchy_variant_c_320x180.png",
+      "preview_320x180_sha256": "c168f8b8d593f00ed4753913b51648889b81b635a12fcde207d29c77ca4416bf",
+      "preview_168x94_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/previews/lit_shuttle_b_focal_hierarchy_variant_c_168x94.png",
+      "preview_168x94_sha256": "1f05a8ad3b459f342ec59dd09ecca3f1b18916ccbf40da054616b7284570dc56",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_path",
+        "mode": "image_to_image_or_contextual_edit",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019df4b0-7ec4-7a22-a583-b3d9ec843bc5/ig_08834c6ce32961530169fd24f4ddd88195a51de1fc0dbccde6.png",
+        "source_generation_sha256": "7666941a1a99fdfb6c077ae2f5c1ef560239db62f4e8ba7aff877c0c27cf9e8a",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/source_art/lit_shuttle_b_focal_hierarchy_variant_c.png",
+        "final_asset_sha256": "fffdaf24fb5e27f0f7e3d09bd7e85d1a7fe45a7170c18f8163a87a62da97d826",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/assets/prompts/lit_shuttle_b_focal_hierarchy_variant_c_prompt.txt",
+        "prompt_sha256": "5d0b7c6ce218e3f4794d5f6081f57249adcc4744a7d4ca337828aa1813827580",
+        "init_image_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_80s_imagegen_scene_exploration_20260507T233444Z/assets/source_art/lit_shuttle_80s_variant_b.png",
+        "init_image_sha256": "aab28cde97e794cf9d5acf02ae2570f8e464ee02a3cd5572cf5b6fc010de24c6",
+        "provenance_notes": "Built-in image_gen output under /Users/mike/.codex/generated_images. Prior lit-shuttle Variant B was used as the base direction; prompts emphasized shuttle/pad focal dominance and crew as secondary witnessing layer."
+      },
+      "local_precheck": {
+        "lit_shuttle_focal_read": "appears_pass_shuttle_and_pad_are_brightly_illuminated",
+        "focal_hierarchy_read": "appears_pass_shuttle_pad_read_as_subject_and_crew_as_supporting_layer",
+        "crew_count_read": "appears_pass_countable_seven_foreground_figures",
+        "extra_partial_people_read": "appears_pass_no_extra_or_partial_humans_seen_in_packet_precheck",
+        "right_rail_safe_space_read": "appears_pass",
+        "note": "Local precheck is not a human keep; final reads remain pending human review."
+      },
+      "required_human_reads": {
+        "lit_shuttle_focal_read": "pending_human_review",
+        "focal_hierarchy_read": "pending_human_review",
+        "crew_supporting_layer_read": "pending_human_review",
+        "crew_count_read": "pending_human_review",
+        "extra_partial_people_read": "pending_human_review",
+        "historical_accuracy_read": "pending_human_review",
+        "early_80s_film_camera_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review"
+      },
+      "may_replace_source_art_carrier": false,
+      "may_create_motion_readiness_packet": false,
+      "may_create_rough_assembly_proof": false,
+      "may_create_full_runtime_mp4_render": false,
+      "may_advance_to_final_assembly": false,
+      "may_advance_to_shorts_work": false,
+      "may_advance_to_publish_readiness": false,
+      "may_youtube_action": false
+    }
+  },
+  "contact_sheets": {
+    "desktop": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/contact_sheets/lit_shuttle_b_focal_hierarchy_contact_sheet_desktop.png",
+      "sha256": "97e87cfee3dce572db0888113f9e3295dba584da4b335a01b5149d68c69f2264",
+      "dimensions": {
+        "width": 1920,
+        "height": 448
+      }
+    },
+    "320x180": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/contact_sheets/lit_shuttle_b_focal_hierarchy_contact_sheet_320x180.png",
+      "sha256": "082bed2398fd0f7d616243d256a16e1ad0f3abb8999d4923f2e188bb4418315b",
+      "dimensions": {
+        "width": 320,
+        "height": 180
+      }
+    },
+    "168x94": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/contact_sheets/lit_shuttle_b_focal_hierarchy_contact_sheet_168x94.png",
+      "sha256": "11c16f66999bb0db647fad5b7a538e943ffe000555bdb75158c3d6a23b41d917",
+      "dimensions": {
+        "width": 168,
+        "height": 94
+      }
+    }
+  },
+  "qa_metadata_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lit_shuttle_b_focal_hierarchy_imagegen_scene_exploration_20260507T235604Z/qa/qa_metadata.json",
+  "qa_metadata_sha256": "554c1adea57f760dab27922b67f2575c6b28d332fe3099deeea14c0f4412fb7b",
+  "reads": {
+    "lit_shuttle_focal_read": "pending_human_review",
+    "focal_hierarchy_read": "pending_human_review",
+    "crew_supporting_layer_read": "pending_human_review",
+    "crew_count_read": "pending_human_review",
+    "extra_partial_people_read": "pending_human_review",
+    "historical_accuracy_read": "pending_human_review",
+    "early_80s_film_camera_read": "pending_human_review",
+    "material_difference_read": "pending_human_review",
+    "challenger_launch_pad_scene_read": "pending_human_review",
+    "right_rail_safe_space_read": "pending_human_review",
+    "flight_suit_period_read": "pending_human_review",
+    "generated_text_logo_watermark_read": "pending_human_review",
+    "launch_chronology_read": "pending_human_review",
+    "source_art_continuity_read": "pending_human_review",
+    "generation_tool_provenance_read": "pass_inferred_from_existing_manifest_paths",
+    "stills_dimension_read": "pass",
+    "contact_sheet_read": "pass",
+    "no_video_or_audio_media_created_read": "pass",
+    "realistic_lighting_detail_read": "tighten"
+  },
+  "advancement_flags": {
+    "may_replace_source_art_carrier": false,
+    "may_create_motion_readiness_packet": false,
+    "may_create_rough_assembly_proof": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_shorts_work": false,
+    "may_advance_to_publish_readiness": false,
+    "may_youtube_action": false
+  },
+  "next_review_question": "Reply with exactly one response: keep A, keep B, keep C, tighten, or reject.",
+  "review_records": [
+    {
+      "timestamp_utc": "20260508T002904Z",
+      "human_disposition": "tighten",
+      "reviewer_note": "Continue from judgment that Variant A has the best realistic lighting/detail; tighten by using A as realism base and borrowing only a little of B brightness.",
+      "successor_packet": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_realistic_lighting_detail_imagegen_scene_exploration_20260508T002904Z"
+    }
+  ]
+}

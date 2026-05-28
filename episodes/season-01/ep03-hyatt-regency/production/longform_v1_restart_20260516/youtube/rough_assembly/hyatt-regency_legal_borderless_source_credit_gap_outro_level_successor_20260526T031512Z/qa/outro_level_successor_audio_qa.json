@@ -1,0 +1,56 @@
+{
+  "model": "other_seven_outro_level_successor_audio_qa_v1",
+  "created_utc": "2026-05-26T03:15:12.345Z",
+  "episode_id": "hyatt-regency",
+  "title": "Hyatt Regency",
+  "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/hyatt-regency_right_rail_alignment_music_mix.wav",
+  "source_audio_sha256": "f5351038cee89b037c5457802da0c64dc0f550c26388e873f306930ea911a5f3",
+  "source_audio_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/hyatt-regency_right_rail_alignment_music_mix_manifest.json",
+  "output_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/hyatt-regency_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+  "output_audio_sha256": "44d698fc460aa1ab73aca4ec707788cc7a658918c9b892016fbc0d539b906d55",
+  "gain_db_after_voice": 5,
+  "gain_linear_after_voice": 1.778279,
+  "gain_ramp_start_seconds": 837.244263,
+  "gain_ramp_full_seconds": 840.244263,
+  "gain_expression": "if(lt(t,837.244263),1,if(lt(t,840.244263),1+(1.7782794100389228-1)*(t-837.244263)/3,1.7782794100389228))",
+  "legal_entry_seconds": 846.539478,
+  "prelap_current": {
+    "start_seconds": 834.358263,
+    "duration_seconds": 2.886,
+    "mean_volume_db": -16.1,
+    "max_volume_db": -1
+  },
+  "prelap_successor": {
+    "start_seconds": 834.358263,
+    "duration_seconds": 2.886,
+    "mean_volume_db": -16.1,
+    "max_volume_db": -1
+  },
+  "legal_window_current": {
+    "start_seconds": 846.539478,
+    "duration_seconds": 10,
+    "mean_volume_db": -22.1,
+    "max_volume_db": -8
+  },
+  "legal_window_successor": {
+    "start_seconds": 846.539478,
+    "duration_seconds": 10,
+    "mean_volume_db": -17.1,
+    "max_volume_db": -3
+  },
+  "late_outro_successor": {
+    "start_seconds": 854.839478,
+    "duration_seconds": 8,
+    "mean_volume_db": -17.2,
+    "max_volume_db": -3
+  },
+  "failures": [],
+  "passed": true,
+  "reads": {
+    "source_audio_hash_read": "pass_source_audio_hash_recorded",
+    "under_vo_overlap_read": "pass_final_vo_overlap_loudness_unchanged",
+    "legal_window_level_match_read": "pass_successor_legal_window_outro_meets_standard_threshold",
+    "no_clipping_read": "pass_no_window_peak_above_minus_1db",
+    "youtube_action_read": "blocked_no_upload_or_visibility_change_performed"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "artifact_type": "imagegen_overlay_prompt_provenance",
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z",
+  "created_at": "2026-05-19T05:42:33Z",
+  "tool": "codex_builtin_image_gen",
+  "source_type": "imagegen_raster_overlay",
+  "reference_evidence": [
+    "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/reference/reference_screen_recording_contact_sheet.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/glass_rain_review_strip.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080.png"
+  ],
+  "raw_generated_outputs": [
+    {
+      "path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_08e7b60af01a7906016a0bf77ed8808197823098c03d60dbb8.png",
+      "sha256": "8d40d391bce2b1ac2904d7b71c19e0a6091a4ebd4808c69ede9c3a25a7c71d96"
+    },
+    {
+      "path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_08e7b60af01a7906016a0bf7bcd2d88197b23513a5e3346074.png",
+      "sha256": "4bb526b552e23d91464d50ecf572ba88a301ff2a95bf919e50696bb14da03ac4"
+    },
+    {
+      "path": "/Users/mike/.codex/generated_images/019e32ed-64cd-7ac0-a810-33ba1a388327/ig_08e7b60af01a7906016a0bf7feb1788197a2c48ec061f6fb48.png",
+      "sha256": "17d78d0a963678d667725781622f242ec908842e907545e287aa82664460a6ec"
+    }
+  ],
+  "normalization": "ffmpeg scale=1920:1080 followed by local luma-matte alpha extraction from black background; project player uses alpha-matted raster overlays, not canvas droplet primitives",
+  "candidates": [
+    {
+      "id": "candidate_a_photoreal_windshield_beads_luma_1920x1080",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/glass_rain_overlay/candidate_a_photoreal_windshield_beads_luma_1920x1080.png",
+      "relative_path": "assets/glass_rain_overlay/candidate_a_photoreal_windshield_beads_luma_1920x1080.png",
+      "sha256": "210788eb48ec69a1f90eeef827cfb5cc1cdb107e28530e8eb6188163c14a9962",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "role": "imagegen_overlay_candidate_alpha_matte",
+      "opaque_luma_source": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/glass_rain_overlay/candidate_a_photoreal_windshield_beads_luma_opaque_luma_1920x1080.png",
+        "sha256": "b13bab6929d7139cd809fad8d74317b76b44ab9df3e895765675fe0c2f355df3"
+      }
+    },
+    {
+      "id": "candidate_b_photoreal_windshield_beads_luma_1920x1080",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/glass_rain_overlay/candidate_b_photoreal_windshield_beads_luma_1920x1080.png",
+      "relative_path": "assets/glass_rain_overlay/candidate_b_photoreal_windshield_beads_luma_1920x1080.png",
+      "sha256": "e556f75db2675023e4e403b7f9b87efb2fca31141c8b812039c498118f700356",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "role": "selected_imagegen_overlay_candidate_alpha_matte",
+      "opaque_luma_source": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/glass_rain_overlay/candidate_b_photoreal_windshield_beads_luma_opaque_luma_1920x1080.png",
+        "sha256": "2e27ce744eba666b71ad3822abd7ae73a2726543cead5e4cfb0256d5a00041e8"
+      }
+    },
+    {
+      "id": "candidate_c_photoreal_windshield_beads_luma_1920x1080",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/glass_rain_overlay/candidate_c_photoreal_windshield_beads_luma_1920x1080.png",
+      "relative_path": "assets/glass_rain_overlay/candidate_c_photoreal_windshield_beads_luma_1920x1080.png",
+      "sha256": "c3898583fffa2597261897c804bd3445aec6ba0189c3f4919fe455654e9a2169",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "role": "imagegen_overlay_candidate_alpha_matte",
+      "opaque_luma_source": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/glass_rain_overlay/candidate_c_photoreal_windshield_beads_luma_opaque_luma_1920x1080.png",
+        "sha256": "baa62d204f4af64ea54cc568a7b79ec317b0dd39036d6b4e884dab672a452397"
+      }
+    }
+  ],
+  "selected_overlay": {
+    "id": "selected_photoreal_windshield_beads_overlay",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/glass_rain_overlay/selected_photoreal_windshield_beads_overlay_1920x1080.png",
+    "relative_path": "assets/glass_rain_overlay/selected_photoreal_windshield_beads_overlay_1920x1080.png",
+    "sha256": "e556f75db2675023e4e403b7f9b87efb2fca31141c8b812039c498118f700356",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "role": "active_alpha_matted_photoreal_glass_rain_overlay"
+  },
+  "selection_rationale": "Candidate B had the best balance of foreground water-bead scale, realistic lens highlights, short runners, and a clean right-side matte zone for the fixed rail.",
+  "prompt_constraints": [
+    "pure black luma-matte background",
+    "close foreground windshield beads and short runners",
+    "no text, UI, bridge redraw, people, cars, diagnostic marks, or source-scene imagery",
+    "right side left mostly empty for fixed rail exclusion"
+  ],
+  "reads": {
+    "imagegen_overlay_provenance_read": "pass_codex_builtin_image_gen_outputs_copied_into_workspace_and_normalized",
+    "overlay_dimension_read": "pass_all_candidates_normalized_to_1920x1080",
+    "no_bridge_redraw_read": "pass_overlay_assets_contain_no_bridge_people_cars_or_scene_content",
+    "selected_overlay_read": "pass_candidate_b_selected_for_rough_proof_review",
+    "alpha_matte_conversion_read": "pass_black_luma_background_converted_to_transparency_for_player_composite"
+  }
+}

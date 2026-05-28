@@ -1,0 +1,318 @@
+{
+  "package_id": "first_eight_longform_highlight_ambient_html_review_20260523T182309Z",
+  "created_utc": "2026-05-23T18:30:02.516Z",
+  "status": "html_repair_review_ready_no_mp4_render_no_upload",
+  "workflow": "long_form_video_production_v1",
+  "scope": "first-eight-longform-highlight-and-ambient-frame-clock-html-repair",
+  "server_root": "/Users/mike/Episodes_CascadeEffects",
+  "review_html_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_highlight_ambient_html_review_20260523T182309Z/review.html",
+  "review_url": "http://127.0.0.1:8899/first_eight_longform_highlight_ambient_html_review_20260523T182309Z/review.html",
+  "source_rough_proof_stamp": "20260523T182309Z",
+  "repair_model": {
+    "semmelweis_highlight_override": {
+      "episode_id": "semmelweis",
+      "selected_hex": "#dede35",
+      "highlight_override_read": "pass_human_requested_episode_accent_override"
+    },
+    "ambient_frame_clock_model": "render_frame_time_locked_to_composition_fps_v1",
+    "affected_ambient_episode_ids": [
+      "therac-25",
+      "semmelweis"
+    ]
+  },
+  "validation": {
+    "syntax_checks": {
+      "build_first_eight_rolling_caption_rail_proofs": "pass_node_check",
+      "validate_living_cover_rolling_caption_rail": "pass_node_check"
+    },
+    "corrected_manifest_reads": "pass",
+    "browser_frame_clock_qa_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_highlight_ambient_html_review_20260523T182309Z/browser_frame_clock_qa.json",
+    "browser_frame_clock_qa_read": "pass",
+    "full_validator_status": "blocked_existing_runtime_coverage_artifacts_not_regenerated_in_html_only_repair",
+    "full_validator_blockers_preserved": [
+      "proof_build_freshness_guard_read",
+      "end_screen.runtime_qa_read",
+      "caption_runtime_coverage_qa_artifact"
+    ]
+  },
+  "upload_locks": {
+    "may_youtube_action": false,
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "upload_performed": false,
+    "public_release_ready": false,
+    "youtube_visibility_action_performed": false,
+    "upload_block_reason": "html_repair_review_pending_human_keep_and_later_mp4_rerender"
+  },
+  "supersedes_mp4_review_for_episode_ids": [
+    "therac-25",
+    "semmelweis"
+  ],
+  "prior_mp4_review_latest_path": "/Users/mike/Episodes_CascadeEffects/first_eight_longform_highlight_contrast_repair_review_latest.json",
+  "episodes": [
+    {
+      "episode_id": "challenger",
+      "title": "Challenger",
+      "status": "html_rough_proof_refreshed_no_mp4_rerender_requested",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?v=challenger_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?render=1&v=challenger_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#efef9f",
+        "highlight_override_read": "not_applicable",
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text_and_backplate",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 12.59,
+        "p20_backplate_contrast_ratio": 16.765,
+        "minimum_backplate_color_delta": 308.772
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "not_applicable",
+        "ambient_render_clock_read": "not_applicable",
+        "ambient_wall_clock_drift_suppression_read": "not_applicable"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    },
+    {
+      "episode_id": "therac-25",
+      "title": "Therac-25",
+      "status": "html_repair_review_ready_pending_later_mp4_rerender",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?v=therac-25_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?render=1&v=therac-25_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#efef9f",
+        "highlight_override_read": "not_applicable",
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text_and_backplate",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 8.679,
+        "p20_backplate_contrast_ratio": 12.684,
+        "minimum_backplate_color_delta": 265.296
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "render_frame_time_locked_to_composition_fps_v1",
+        "ambient_render_clock_read": "pass_ambient_time_uses_render_frame_seconds",
+        "ambient_wall_clock_drift_suppression_read": "pass_no_render_mode_wall_clock_ambient_mutation"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    },
+    {
+      "episode_id": "hyatt-regency",
+      "title": "Hyatt Regency",
+      "status": "html_rough_proof_refreshed_no_mp4_rerender_requested",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?v=hyatt-regency_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?render=1&v=hyatt-regency_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#efef9f",
+        "highlight_override_read": "not_applicable",
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text_and_backplate",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 6.474,
+        "p20_backplate_contrast_ratio": 11.183,
+        "minimum_backplate_color_delta": 236.475
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "not_applicable",
+        "ambient_render_clock_read": "not_applicable",
+        "ambient_wall_clock_drift_suppression_read": "not_applicable"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    },
+    {
+      "episode_id": "semmelweis",
+      "title": "Semmelweis",
+      "status": "html_repair_review_ready_pending_later_mp4_rerender",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?v=semmelweis_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?render=1&v=semmelweis_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#dede35",
+        "highlight_override_read": "pass_human_requested_episode_accent_override",
+        "highlight_distinct_from_caption_text_read": "pass_human_requested_override_distinct_by_color_distance_and_backplate_contrast",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 2.367,
+        "p20_backplate_contrast_ratio": 2.642,
+        "minimum_backplate_color_delta": 132.639
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "render_frame_time_locked_to_composition_fps_v1",
+        "ambient_render_clock_read": "pass_ambient_time_uses_render_frame_seconds",
+        "ambient_wall_clock_drift_suppression_read": "pass_no_render_mode_wall_clock_ambient_mutation"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    },
+    {
+      "episode_id": "tacoma-narrows",
+      "title": "Tacoma Narrows",
+      "status": "html_rough_proof_refreshed_no_mp4_rerender_requested",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T182309Z/player.html?v=tacoma-narrows_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T182309Z/player.html?render=1&v=tacoma-narrows_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#efef9f",
+        "highlight_override_read": "not_applicable",
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text_and_backplate",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 2.127,
+        "p20_backplate_contrast_ratio": 2.925,
+        "minimum_backplate_color_delta": 108.695
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "not_applicable",
+        "ambient_render_clock_read": "not_applicable",
+        "ambient_wall_clock_drift_suppression_read": "not_applicable"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    },
+    {
+      "episode_id": "piltdown-man",
+      "title": "Piltdown Man",
+      "status": "html_rough_proof_refreshed_no_mp4_rerender_requested",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?v=piltdown-man_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?render=1&v=piltdown-man_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#efef9f",
+        "highlight_override_read": "not_applicable",
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text_and_backplate",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 11.173,
+        "p20_backplate_contrast_ratio": 11.884,
+        "minimum_backplate_color_delta": 293.851
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "not_applicable",
+        "ambient_render_clock_read": "not_applicable",
+        "ambient_wall_clock_drift_suppression_read": "not_applicable"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    },
+    {
+      "episode_id": "737-max",
+      "title": "737 MAX",
+      "status": "html_rough_proof_refreshed_no_mp4_rerender_requested",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?v=737-max_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?render=1&v=737-max_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#efef9f",
+        "highlight_override_read": "not_applicable",
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text_and_backplate",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 6.204,
+        "p20_backplate_contrast_ratio": 7.979,
+        "minimum_backplate_color_delta": 230.572
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "not_applicable",
+        "ambient_render_clock_read": "not_applicable",
+        "ambient_wall_clock_drift_suppression_read": "not_applicable"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    },
+    {
+      "episode_id": "titanic",
+      "title": "Titanic",
+      "status": "html_rough_proof_refreshed_no_mp4_rerender_requested",
+      "proof_dir": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T182309Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "manifest_url": "http://127.0.0.1:8899/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+      "player_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+      "player_url": "http://127.0.0.1:8899/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?v=titanic_rolling_caption_rail_20260523182312128Z",
+      "render_mode_url": "http://127.0.0.1:8899/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T182309Z/player.html?render=1&v=titanic_rolling_caption_rail_20260523182312128Z",
+      "highlight": {
+        "selected_hex": "#dede35",
+        "highlight_override_read": "not_applicable",
+        "highlight_distinct_from_caption_text_read": "pass_source_sampled_accent_distinct_from_active_and_muted_caption_text_and_backplate",
+        "highlight_backplate_contrast_read": "pass_grid_sampled_caption_window_backplate_contrast",
+        "minimum_backplate_contrast_ratio": 2.458,
+        "p20_backplate_contrast_ratio": 4.49,
+        "minimum_backplate_color_delta": 168.904
+      },
+      "ambient_frame_clock": {
+        "ambient_frame_clock_model": "not_applicable",
+        "ambient_render_clock_read": "not_applicable",
+        "ambient_wall_clock_drift_suppression_read": "not_applicable"
+      },
+      "upload_locks": {
+        "may_youtube_action": true,
+        "publish_ready": true,
+        "youtube_upload_ready": true,
+        "upload_performed": true,
+        "public_release_ready": true,
+        "youtube_visibility_action_performed": true
+      }
+    }
+  ]
+}

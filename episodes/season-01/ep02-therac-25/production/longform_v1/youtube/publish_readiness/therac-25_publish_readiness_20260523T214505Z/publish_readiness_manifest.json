@@ -1,0 +1,330 @@
+{
+  "packet_id": "therac-25_publish_readiness_20260523T214505Z",
+  "episode_id": "therac-25",
+  "episode_title": "Therac-25",
+  "workflow": "long_form_video_production_v1",
+  "stage": "publish_readiness",
+  "lifecycle_stage": "publish_readiness",
+  "current_gate": "publish_readiness_review",
+  "status": "review_ready_pending_human_publish_readiness_keep",
+  "human_disposition": "pending",
+  "final_assembly_disposition": "keep",
+  "created_utc": "2026-05-23T21:45:05Z",
+  "primary_review_artifact": {
+    "path": "review.html",
+    "sha256": "9d9085364efb54f471684a0fcd908e0b622b168e05bc3e0a649c09475bc2181f",
+    "bytes": 9021
+  },
+  "publish_readiness_review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/review.html",
+  "publish_readiness_canonical_review_url": "http://127.0.0.1:8901/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/review.html",
+  "remote_review": {
+    "status": "not_published",
+    "remote_review_url": "https://cascadeeffects.tv/reviews/publish-readiness/therac-25",
+    "storage_policy": "normalized_manifest_and_small_evidence_assets_only",
+    "large_video_upload_allowed": false,
+    "video_host": "youtube_unlisted_after_explicit_approval_only"
+  },
+  "source_final_render": {
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T183715Z/render_manifest.json",
+    "manifest_sha256": "86ab58601f5fce3306dc38c0d41fce480ccc207d9f57e8a59410d3e7cf58f59f",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/video_render/therac-25_rolling_caption_rail_final_mp4_20260523T183715Z/therac-25_living_cover_final_review_1080p24.mp4",
+    "mp4_sha256": "4c0d7f3c109e529454ba529962686f9e0190220b15e6a336a30550844df30fa7"
+  },
+  "source_html_proof": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/player.html",
+    "player_sha256": "475abbe4fc3338674d63f6f2214b2836ec11ebffab47ab7f2272f757ae3d0344",
+    "current_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "current_kept_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source",
+    "corrective_review_render_from_unkept_proof": false
+  },
+  "local_assets": {
+    "mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/media/therac-25_living_cover_final_review_1080p24.mp4",
+      "sha256": "4c0d7f3c109e529454ba529962686f9e0190220b15e6a336a30550844df30fa7",
+      "bytes": 158262669,
+      "role": "kept_final_assembly_mp4",
+      "rel": "media/therac-25_living_cover_final_review_1080p24.mp4"
+    },
+    "vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/captions/therac25_longform_script_locked.offset_intro_3s601.vtt",
+      "sha256": "c8282e314298887e372f475c56b08159d84a31001a19659cd76e7f053949aaec",
+      "bytes": 25139,
+      "role": "youtube_caption_sidecar_vtt",
+      "rel": "captions/therac25_longform_script_locked.offset_intro_3s601.vtt"
+    },
+    "srt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/captions/therac25_longform_script_locked.offset_intro_3s601.srt",
+      "sha256": "dc0bf034dad53c3b284e35016be1241706d259b5591ef78dac3387c2aef9a4c3",
+      "bytes": 26311,
+      "role": "generated_youtube_caption_sidecar_srt",
+      "rel": "captions/therac25_longform_script_locked.offset_intro_3s601.srt"
+    },
+    "thumbnail_candidate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/thumbnail/therac-25_thumbnail_candidate.jpg",
+      "sha256": "e6acee5412f9d9407c211c29e3ad81e54a2df6870b7faba58f1112a5621f94a9",
+      "bytes": 139668,
+      "role": "thumbnail_candidate_from_kept_mp4_frame",
+      "rel": "thumbnail/therac-25_thumbnail_candidate.jpg"
+    },
+    "qa_frames": {
+      "final_second": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/qa_frames/final_second_mp4_qa_final_second_1113p157s.jpg",
+        "sha256": "e3ed1ddec2249c32fcd48c7a15276aac778a9aeb27ea0e08db7a409c489a5e33",
+        "bytes": 154823,
+        "role": "qa_frame_final_second",
+        "rel": "qa_frames/final_second_mp4_qa_final_second_1113p157s.jpg"
+      },
+      "half": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/qa_frames/half_mp4_qa_half_557p079s.jpg",
+        "sha256": "e829d609a042cebd0a36121e73d614154e587a29313e3d76ee47ba61686cd82d",
+        "bytes": 166088,
+        "role": "qa_frame_half",
+        "rel": "qa_frames/half_mp4_qa_half_557p079s.jpg"
+      },
+      "quarter": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/qa_frames/quarter_mp4_qa_quarter_278p539s.jpg",
+        "sha256": "410be3f0ef2092287523431cfcf824f39d75c95097bfc96f53bcf590ef9c1a40",
+        "bytes": 164798,
+        "role": "qa_frame_quarter",
+        "rel": "qa_frames/quarter_mp4_qa_quarter_278p539s.jpg"
+      },
+      "safe_window_start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/qa_frames/safe_window_start_mp4_qa_safe_window_start_1094p157s.jpg",
+        "sha256": "b1d7e8d1c87a842dc80d1e61df2dff98dc3dd630effc75e6822597e02c674b57",
+        "bytes": 154440,
+        "role": "qa_frame_safe_window_start",
+        "rel": "qa_frames/safe_window_start_mp4_qa_safe_window_start_1094p157s.jpg"
+      },
+      "start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/qa_frames/start_mp4_qa_start_1p000s.jpg",
+        "sha256": "e6acee5412f9d9407c211c29e3ad81e54a2df6870b7faba58f1112a5621f94a9",
+        "bytes": 139668,
+        "role": "qa_frame_start",
+        "rel": "qa_frames/start_mp4_qa_start_1p000s.jpg"
+      },
+      "three_quarter": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/qa_frames/three_quarter_mp4_qa_three_quarter_835p618s.jpg",
+        "sha256": "6f72cdcb8cb0e55665aad692328286b568edc0cacb7be5231a244c3b427c635d",
+        "bytes": 177108,
+        "role": "qa_frame_three_quarter",
+        "rel": "qa_frames/three_quarter_mp4_qa_three_quarter_835p618s.jpg"
+      },
+      "voice_start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg",
+        "sha256": "18bf1713c9ebe00bcb649566d042b93f61b569d2091c5f135d5eded747f7bef5",
+        "bytes": 165806,
+        "role": "qa_frame_voice_start",
+        "rel": "qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg"
+      }
+    },
+    "render_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/provenance/render_manifest.json",
+      "sha256": "86ab58601f5fce3306dc38c0d41fce480ccc207d9f57e8a59410d3e7cf58f59f",
+      "bytes": 15911,
+      "role": "render_manifest_copy",
+      "rel": "provenance/render_manifest.json"
+    },
+    "rough_assembly_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/provenance/rough_assembly_manifest.json",
+      "sha256": "b54b8896ed21aee72cc51cd1defea9f516b9e33675b78f0fc99f0cdfd2b6cd49",
+      "bytes": 312173,
+      "role": "rough_assembly_manifest_copy",
+      "rel": "provenance/rough_assembly_manifest.json"
+    },
+    "final_assembly_review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/provenance/final_assembly_review_packet.md",
+      "sha256": "7ccbc5cf1cd9ff27ef5e9ae208989ee8738b3578c819f2c41efdbc335998c132",
+      "bytes": 1022,
+      "role": "final_assembly_review_packet_copy",
+      "rel": "provenance/final_assembly_review_packet.md"
+    },
+    "browser_caption_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/publish_readiness/therac-25_publish_readiness_20260523T214505Z/provenance/browser_caption_qa.json",
+      "sha256": "d61d049ec8297978ef8de3097bdc120662b7e5632144876badd230edd3b6bd71",
+      "bytes": 117565,
+      "role": "browser_caption_qa_copy",
+      "rel": "provenance/browser_caption_qa.json"
+    }
+  },
+  "media": {
+    "final_mp4": {
+      "path": "media/therac-25_living_cover_final_review_1080p24.mp4",
+      "sha256": "4c0d7f3c109e529454ba529962686f9e0190220b15e6a336a30550844df30fa7",
+      "bytes": 158262669
+    },
+    "caption_vtt": {
+      "path": "captions/therac25_longform_script_locked.offset_intro_3s601.vtt",
+      "sha256": "c8282e314298887e372f475c56b08159d84a31001a19659cd76e7f053949aaec",
+      "bytes": 25139
+    },
+    "caption_srt": {
+      "path": "captions/therac25_longform_script_locked.offset_intro_3s601.srt",
+      "sha256": "dc0bf034dad53c3b284e35016be1241706d259b5591ef78dac3387c2aef9a4c3",
+      "bytes": 26311
+    },
+    "thumbnail_candidate": {
+      "path": "thumbnail/therac-25_thumbnail_candidate.jpg",
+      "sha256": "e6acee5412f9d9407c211c29e3ad81e54a2df6870b7faba58f1112a5621f94a9",
+      "bytes": 139668
+    }
+  },
+  "youtube_metadata": {
+    "title": "Therac-25",
+    "description": "Therac-25 is a Cascade Effects episode about how small signals become system consequences.\n\nSoftware assumptions, missing hardware interlocks, and institutional disbelief let lethal overdoses repeat.\n\nRuntime: about 19 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.",
+    "chapters": [
+      {
+        "time": "0:00",
+        "seconds": 0,
+        "label": "Opening"
+      },
+      {
+        "time": "0:04",
+        "seconds": 4.0,
+        "label": "Patient report versus machine report"
+      },
+      {
+        "time": "3:44",
+        "seconds": 223.507,
+        "label": "Safety architecture removed"
+      },
+      {
+        "time": "7:27",
+        "seconds": 447.015,
+        "label": "The hidden state mismatch"
+      },
+      {
+        "time": "11:09",
+        "seconds": 669.394,
+        "label": "Repeated incidents and disbelief"
+      },
+      {
+        "time": "14:52",
+        "seconds": 891.772,
+        "label": "Exposure and present-tense warning"
+      },
+      {
+        "time": "17:34",
+        "seconds": 1054.151,
+        "label": "Closing"
+      }
+    ],
+    "tags": [
+      "Cascade Effects",
+      "Therac-25",
+      "documentary",
+      "medical device safety",
+      "radiation therapy",
+      "software safety",
+      "systems failure"
+    ],
+    "hashtags": [
+      "#CascadeEffects"
+    ],
+    "category": "Education",
+    "language": "en",
+    "made_for_kids": false,
+    "paid_promotion": false,
+    "privacy_after_explicit_approval": "unlisted",
+    "public_release_policy": "manual_youtube_studio_only",
+    "metadata_path": "metadata/youtube_metadata.json",
+    "metadata_sha256": "dfe889e35d30efb85adabd3c107e67b668de649ab7d45011924ffd5688a02193"
+  },
+  "source_factcheck": {
+    "status": "pending_current_long_form_source_factcheck_backfill",
+    "episode_id": "therac-25",
+    "note": "No current long-form source-factcheck manifest was found for this rolling-caption MP4 package. Review can continue, but publish-readiness keep should not waive this without a named human decision.",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing"
+  },
+  "ffprobe": {
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "duration_seconds": 1114.150998
+  },
+  "reads": {
+    "mp4_created_read": "pass",
+    "video_stream_read": "pass_h264_present",
+    "audio_stream_read": "pass_aac_audio_present",
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "duration_read": "pass",
+    "dimensions_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "caption_sidecar_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "caption_suppression_read": "pass",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "viewer_text_suppression_read": "pass",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "post_change_regression_read": "pass_rendered_from_current_kept_html_proof_therac-25",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "downstream_gate_read": "pass_final_mp4_created_publish_and_youtube_flags_false",
+    "final_assembly_human_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package_creation_only",
+    "explicit_youtube_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+    "youtube_upload_ready_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "html_primary_review_read": "pass_review_html_created_as_primary_publish_readiness_artifact",
+    "html_media_refs_read": "pending_package_local_media_ref_check",
+    "html_native_video_scrub_read": "pass_native_mp4_controls_and_chapter_jump_buttons_present",
+    "html_range_server_read": "pending_http_range_probe",
+    "html_canonical_review_url_read": "pending_http_review_url_probe",
+    "publish_readiness_package_local_asset_copy_read": "pass_package_local_assets_copied",
+    "html_upload_lock_read": "pass_upload_locks_visible_and_false",
+    "youtube_metadata_copywriting_read": "pass_generated_public_metadata_no_internal_terms",
+    "public_metadata_copy_read": "pass_generated_public_metadata_no_internal_terms",
+    "chapter_source_read": "pass_episode_toml_visual_research_acts",
+    "chapter_fallback_read": "pass_visual_research_acts_used_no_three_chapter_fallback",
+    "youtube_description_chapter_count_read": "pass_7_chapter_lines_available_for_youtube_description",
+    "public_tag_relevance_read": "pass_episode_specific_tags_present",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing",
+    "caption_sidecar_packaged_read": "pass_vtt_and_generated_srt_packaged",
+    "final_mp4_packaged_read": "pass",
+    "ffprobe_stream_read": "pass_video_and_audio_streams_present"
+  },
+  "blockers": [
+    "Current long-form source/fact-check manifest is pending or missing.",
+    "Publish-readiness package human keep is required before any YouTube review upload.",
+    "Explicit upload authorization is required after publish-readiness keep.",
+    "YouTube Content ID/music claim status must be checked after upload processing.",
+    "Public release remains manual."
+  ],
+  "locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "publish_ready": false,
+  "youtube_upload_ready": false,
+  "public_release_ready": false,
+  "may_youtube_action": false,
+  "may_advance_to_upload": false,
+  "upload_allowed": false,
+  "upload_performed": false,
+  "next_review_question": "Review publish readiness and reply with exactly one disposition: keep, tighten, or reject.",
+  "publish_readiness_review_html_sha256": "9d9085364efb54f471684a0fcd908e0b622b168e05bc3e0a649c09475bc2181f"
+}

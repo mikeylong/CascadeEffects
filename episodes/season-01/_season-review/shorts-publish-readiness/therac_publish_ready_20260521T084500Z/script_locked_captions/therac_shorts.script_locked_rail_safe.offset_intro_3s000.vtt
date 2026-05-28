@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00:03.031 --> 00:00:05.118
+A radiation machine gave one patient
+
+00:00:05.118 --> 00:00:07.277
+roughly a hundred times the intended dose.
+
+00:00:08.259 --> 00:00:10.343
+The manufacturer said it was impossible.
+
+00:00:11.224 --> 00:00:12.105
+Then it happened again.
+
+00:00:12.147 --> 00:00:14.541
+The Therac twenty-five replaced physical
+
+00:00:14.541 --> 00:00:17.555
+safety interlocks with software checks.
+
+00:00:18.436 --> 00:00:21.277
+During fast data entry, a race condition
+
+00:00:21.277 --> 00:00:23.860
+could leave the machine in the wrong
+
+00:00:23.860 --> 00:00:26.443
+state and fire a full-power beam with
+
+00:00:26.443 --> 00:00:28.781
+no filter. Nobody caught it because the
+
+00:00:28.781 --> 00:00:31.147
+code had been reused from older machines,
+
+00:00:31.147 --> 00:00:33.304
+and reused code felt like tested code.
+
+00:00:34.246 --> 00:00:36.852
+Operators reported errors. The
+
+00:00:36.852 --> 00:00:39.515
+manufacturer insisted the machine was
+
+00:00:39.515 --> 00:00:41.779
+safe. More patients were burned before the
+
+00:00:41.779 --> 00:00:43.146
+pattern was treated as real.
+
+00:00:43.185 --> 00:00:46.215
+The disaster was not just bad code.
+
+00:00:46.896 --> 00:00:49.025
+It was a system with no independent
+
+00:00:49.025 --> 00:00:51.228
+safety layer, no quick way to believe
+
+00:00:51.228 --> 00:00:53.725
+field reports, and no design for software
+
+00:00:53.725 --> 00:00:57.295
+being wrong. That is how small causes
+
+00:00:57.295 --> 00:00:59.412
+become massive consequences.

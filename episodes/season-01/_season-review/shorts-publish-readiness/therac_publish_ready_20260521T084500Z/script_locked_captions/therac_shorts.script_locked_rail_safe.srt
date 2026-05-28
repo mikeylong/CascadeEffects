@@ -1,0 +1,87 @@
+1
+00:00:00,031 --> 00:00:02,118
+A radiation machine gave one patient
+
+2
+00:00:02,118 --> 00:00:04,277
+roughly a hundred times the intended dose.
+
+3
+00:00:05,259 --> 00:00:07,343
+The manufacturer said it was impossible.
+
+4
+00:00:08,224 --> 00:00:09,105
+Then it happened again.
+
+5
+00:00:09,147 --> 00:00:11,541
+The Therac twenty-five replaced physical
+
+6
+00:00:11,541 --> 00:00:14,555
+safety interlocks with software checks.
+
+7
+00:00:15,436 --> 00:00:18,277
+During fast data entry, a race condition
+
+8
+00:00:18,277 --> 00:00:20,860
+could leave the machine in the wrong
+
+9
+00:00:20,860 --> 00:00:23,443
+state and fire a full-power beam with
+
+10
+00:00:23,443 --> 00:00:25,781
+no filter. Nobody caught it because the
+
+11
+00:00:25,781 --> 00:00:28,147
+code had been reused from older machines,
+
+12
+00:00:28,147 --> 00:00:30,304
+and reused code felt like tested code.
+
+13
+00:00:31,246 --> 00:00:33,852
+Operators reported errors. The
+
+14
+00:00:33,852 --> 00:00:36,515
+manufacturer insisted the machine was
+
+15
+00:00:36,515 --> 00:00:38,779
+safe. More patients were burned before the
+
+16
+00:00:38,779 --> 00:00:40,146
+pattern was treated as real.
+
+17
+00:00:40,185 --> 00:00:43,215
+The disaster was not just bad code.
+
+18
+00:00:43,896 --> 00:00:46,025
+It was a system with no independent
+
+19
+00:00:46,025 --> 00:00:48,228
+safety layer, no quick way to believe
+
+20
+00:00:48,228 --> 00:00:50,725
+field reports, and no design for software
+
+21
+00:00:50,725 --> 00:00:54,295
+being wrong. That is how small causes
+
+22
+00:00:54,295 --> 00:00:56,412
+become massive consequences.

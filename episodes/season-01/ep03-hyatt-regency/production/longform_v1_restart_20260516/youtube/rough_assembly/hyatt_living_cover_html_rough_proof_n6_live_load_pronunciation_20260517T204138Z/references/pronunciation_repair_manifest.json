@@ -1,0 +1,375 @@
+{
+  "id": "live_load_long_i_repair",
+  "status": "review_ready_pending_human_audio_spot_check",
+  "created_utc": "20260517T204138Z",
+  "issue_reported_by_user": "At active proof 00:02:54-00:02:56, live in live load was pronounced with short-i; both structural live load occurrences require long-I.",
+  "repair_scope": "audio_only_two_sentence_splices_for_hyatt_n6_successor",
+  "locked_script_and_caption_policy": "locked script, VTT, and SRT remain spelled live load; ASR text is not used for caption text; TTS-only phonetic text used lyve to force long-I pronunciation.",
+  "provider": {
+    "name": "elevenlabs",
+    "model": "eleven_multilingual_v2",
+    "voice_profile_id": "longform_mike_v1",
+    "voice_id": "dPrTCMw2R7HQlznlgwCO",
+    "voice_settings": {
+      "stability": 0.6,
+      "similarity_boost": 0.8,
+      "style": 0,
+      "use_speaker_boost": true,
+      "speed": 0.95
+    }
+  },
+  "timing_model": {
+    "voice_start_offset_seconds": 9.601451,
+    "total_review_duration_seconds": 874.033923,
+    "voice_duration_seconds": 833.642812,
+    "occurrence_active_proof_times_seconds": [
+      174.557451,
+      445.631451
+    ]
+  },
+  "target_occurrences": [
+    {
+      "id": "live_load_01_dead_load_and_live_load",
+      "active_proof_window_seconds": [
+        170.872451,
+        176.579451
+      ],
+      "voice_window_seconds": [
+        161.271,
+        166.978
+      ],
+      "word_window_seconds": [
+        164.956,
+        165.176
+      ],
+      "locked_script_sentence": "The nut at the fourth floor bore only against the dead load and live load of that structure.",
+      "tts_render_text": "The nut at the fourth floor bore only against the dead load and lyve load of that structure."
+    },
+    {
+      "id": "live_load_02_expected_live_load",
+      "active_proof_window_seconds": [
+        440.324451,
+        446.512451
+      ],
+      "voice_window_seconds": [
+        430.723,
+        436.911
+      ],
+      "word_window_seconds": [
+        436.03,
+        436.27
+      ],
+      "locked_script_sentence": "The Kansas City Building Code at the time required walkway connections to support twice the expected live load.",
+      "tts_render_text": "The Kansas City Building Code at the time required walkway connections to support twice the expected lyve load."
+    }
+  ],
+  "tts_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/tts_jobs/live_load_long_i_jobs.jsonl",
+  "tts_manifest_sha256": "6fd74a38eda343e54947c1e280c9d138d88b245f61bd2af0b7293bd7972fe6ca",
+  "tts_jobs": [
+    {
+      "id": "hyatt_live_load_01_dead_load_and_live_load_long_i",
+      "out": "hyatt_live_load_01_dead_load_and_live_load_long_i.wav",
+      "input": "The nut at the fourth floor bore only against the dead load and live load of that structure.",
+      "elevenlabs_text": "The nut at the fourth floor bore only against the dead load and lyve load of that structure.",
+      "pronunciation_guidance": "TTS-only: pronounce live as long-I, rhymes with hive. Captions keep locked spelling.",
+      "voice_time_window_seconds": [
+        161.271,
+        166.978
+      ],
+      "proof_time_window_seconds": [
+        170.872451,
+        176.579451
+      ]
+    },
+    {
+      "id": "hyatt_live_load_02_expected_live_load_long_i",
+      "out": "hyatt_live_load_02_expected_live_load_long_i.wav",
+      "input": "The Kansas City Building Code at the time required walkway connections to support twice the expected live load.",
+      "elevenlabs_text": "The Kansas City Building Code at the time required walkway connections to support twice the expected lyve load.",
+      "pronunciation_guidance": "TTS-only: pronounce live as long-I, rhymes with hive. Captions keep locked spelling.",
+      "voice_time_window_seconds": [
+        430.723,
+        436.911
+      ],
+      "proof_time_window_seconds": [
+        440.324451,
+        446.512451
+      ]
+    }
+  ],
+  "tts_renders": [
+    {
+      "id": "live_load_01",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/tts_candidates/hyatt_live_load_01_dead_load_and_live_load_long_i.wav",
+      "sha256": "d65e74032b320001925a2d0f29e2229523c587948793423a126d641e01443001",
+      "bytes": 553038,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "6.269388"
+          }
+        ],
+        "format": {
+          "duration": "6.269388",
+          "size": "553038"
+        }
+      },
+      "metadata_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/tts_candidates/hyatt_live_load_01_dead_load_and_live_load_long_i.wav.json",
+      "metadata_sha256": "806786004c9795b40f18ebd873d6383aa55e89172b1d75b34d77931df550d071"
+    },
+    {
+      "id": "live_load_02",
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/tts_candidates/hyatt_live_load_02_expected_live_load_long_i.wav",
+      "sha256": "ad5ff5c6b106b64c241263398ffd2ce0c097b079547a1fe835bb71cd7f6c3332",
+      "bytes": 634958,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "7.198186"
+          }
+        ],
+        "format": {
+          "duration": "7.198186",
+          "size": "634958"
+        }
+      },
+      "metadata_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/tts_candidates/hyatt_live_load_02_expected_live_load_long_i.wav.json",
+      "metadata_sha256": "18d734fdf5baea576d668004e9145fb55c96e96215c991843512c8b5fec38c51"
+    }
+  ],
+  "splice_timing_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/replacement_segments/splice_timing.json",
+  "splice_timing_sha256": "2bb36d9965b411fc5f31a517eb52a1a9b36a38b12bff0d1979fae38eeb8d7cbf",
+  "splice_method": "localized_sentence_replacement_at_original_sentence_boundaries_with_duration-matched_tts_sentence_audio",
+  "before_files": [
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/final/Ep3_Hyatt-Regency.wav",
+      "sha256": "4987c649a19cccc36f3b1c0f0cddddba535e4a877be69c562f0e91302b550929",
+      "bytes": 73527374,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "833.642812"
+          }
+        ],
+        "format": {
+          "duration": "833.642812",
+          "size": "73527374"
+        }
+      }
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_event_density_20260517T185113Z/assets/audio/Ep3-Hyatt-Regency.challenger_music_web_review.mp3",
+      "sha256": "eea73bdc72e525233365505395f68add340ad1a7d492dca2ab406b2da5ca7c6e",
+      "bytes": 20978668,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "874.033923"
+          }
+        ],
+        "format": {
+          "duration": "874.033923",
+          "size": "20978668"
+        }
+      }
+    }
+  ],
+  "after_files": [
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/masters/Ep3-Hyatt-Regency.live_load_long_i_voice_master.wav",
+      "sha256": "7fc8f63aa8ef6f05ba5daa6648c417bf2e6a1f99eee854b0843045f64358c905",
+      "bytes": 73527374,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 1,
+            "duration": "833.642812"
+          }
+        ],
+        "format": {
+          "duration": "833.642812",
+          "size": "73527374"
+        }
+      }
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_live_load_pronunciation_20260517T204138Z/assets/audio/Ep3-Hyatt-Regency.live_load_long_i_challenger_music_review_mix_20260517T204138Z.wav",
+      "sha256": "6d8f9f36090624d6f4a65d226c4876ccfe8ae24072cce0d809a85a161f306081",
+      "bytes": 154179662,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "874.033923"
+          }
+        ],
+        "format": {
+          "duration": "874.033923",
+          "size": "154179662"
+        }
+      }
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_live_load_pronunciation_20260517T204138Z/assets/audio/Ep3-Hyatt-Regency.live_load_long_i_challenger_music_web_review_20260517T204138Z.mp3",
+      "sha256": "0967e874f633a988a0980f9d0a62860aadd7566615d2ac217715996c92acceb6",
+      "bytes": 20978668,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "874.033923"
+          }
+        ],
+        "format": {
+          "duration": "874.033923",
+          "size": "20978668"
+        }
+      }
+    }
+  ],
+  "context_clips": [
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/qa/audio/live_load_01_after_2m49_2m59.wav",
+      "sha256": "720b9d32c2b8b56ab728815258bfa9e22dd0ff7471f74c53a52fcbb1909ee886",
+      "bytes": 1764078,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "10.000000"
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "1764078"
+        }
+      }
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/qa/audio/live_load_01_before_2m49_2m59.wav",
+      "sha256": "29e5cafefb2c46b8ea905ee1876c85b535704a5c873a0e945b72fdee45161aa0",
+      "bytes": 1764078,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "10.000000"
+          }
+        ],
+        "format": {
+          "duration": "10.000000",
+          "size": "1764078"
+        }
+      }
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/qa/audio/live_load_02_after_7m20_7m31.wav",
+      "sha256": "dca1fc4534c5f74795f3ab67ad09c81e8ad0a4226e1ddb34ce038d4ee0f34564",
+      "bytes": 1940478,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "11.000000"
+          }
+        ],
+        "format": {
+          "duration": "11.000000",
+          "size": "1940478"
+        }
+      }
+    },
+    {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/qa/audio/live_load_02_before_7m20_7m31.wav",
+      "sha256": "6501a0ae89571d404d6b4f4d6ab01580a07ef889ddb87438541282104ed180fc",
+      "bytes": 1940478,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "duration": "11.000000"
+          }
+        ],
+        "format": {
+          "duration": "11.000000",
+          "size": "1940478"
+        }
+      }
+    }
+  ],
+  "successor_proof": {
+    "packet_id": "hyatt_living_cover_html_rough_proof_n6_live_load_pronunciation_20260517T204138Z",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_live_load_pronunciation_20260517T204138Z",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_live_load_pronunciation_20260517T204138Z/player.html",
+    "review_url": "http://127.0.0.1:8844/player.html"
+  },
+  "qa_reads": {
+    "live_load_long_i_pronunciation_repair_read": "pass_repaired_pending_human_spot_check_at_two_context_clips",
+    "script_text_preservation_read": "pass_locked_script_and_captions_unchanged",
+    "caption_text_preservation_read": "pass_vtt_srt_keep_live_load_spelling",
+    "caption_asr_text_not_used_read": "pass",
+    "duration_preservation_read": "pass_voice_master_and_review_mix_durations_unchanged",
+    "surrounding_word_integrity_read": "pass_no_duration_delta_no_known_clipping_or_duplication_detected_by_splice_boundaries",
+    "before_after_context_clip_read": "pass_exported_before_and_after_clips_for_both_occurrences",
+    "downstream_gate_lock_read": "pass_no_mp4_publish_readiness_upload_or_youtube_action"
+  }
+}

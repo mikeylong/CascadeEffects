@@ -1,0 +1,76 @@
+{
+  "pulse_contract": {
+    "version": "subtle_full_frame_exposure_pulse_v1",
+    "source": "audited_camera_flashes_only",
+    "enabled": true,
+    "alpha_per_full_strength_flash": 0.052,
+    "max_alpha": 0.07,
+    "end_screen_cap_alpha": 0.012,
+    "color_rgb": [
+      255,
+      236,
+      202
+    ],
+    "compositing": "screen_canvas_layer_below_right_rail",
+    "aggregate_policy": "sum_active_audited_flash_events_then_hard_cap",
+    "rail_caption_protection": "ambient_canvas_z_index_below_rail_plus_alpha_cap"
+  },
+  "scanned_step_seconds": 0.02,
+  "max_observed_alpha": 0.07,
+  "max_observed_time_seconds": 55.98,
+  "max_under_contract_cap": true,
+  "representative_samples": [
+    {
+      "time_seconds": 0.8,
+      "pulse_alpha": 0,
+      "active_flash_ids": []
+    },
+    {
+      "time_seconds": 3.25,
+      "pulse_alpha": 0,
+      "active_flash_ids": []
+    },
+    {
+      "time_seconds": 9.601,
+      "pulse_alpha": 0,
+      "active_flash_ids": []
+    },
+    {
+      "time_seconds": 55.9,
+      "pulse_alpha": 0,
+      "active_flash_ids": []
+    },
+    {
+      "time_seconds": 56.18,
+      "pulse_alpha": 0.0125,
+      "active_flash_ids": [
+        "audited_flash_014_diag_walkway_02",
+        "audited_flash_015_diag_walkway_09"
+      ]
+    },
+    {
+      "time_seconds": 56.48,
+      "pulse_alpha": 0.0057,
+      "active_flash_ids": [
+        "audited_flash_016_diag_walkway_08"
+      ]
+    },
+    {
+      "time_seconds": 56.6,
+      "pulse_alpha": 0.0346,
+      "active_flash_ids": [
+        "audited_flash_017_main_floor_05"
+      ]
+    },
+    {
+      "time_seconds": 843.444,
+      "pulse_alpha": 0,
+      "active_flash_ids": []
+    },
+    {
+      "time_seconds": 871.491,
+      "pulse_alpha": 0,
+      "active_flash_ids": []
+    }
+  ]
+}

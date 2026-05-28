@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "gate_types": {
+    "visual_research": [
+      "missing_contact_sheet",
+      "too_abstract",
+      "source_text_unresolved",
+      "insufficient_option_range",
+      "text_led_reference",
+      "forensic_drift",
+      "low_renderability_object_choice"
+    ],
+    "shorts_scene_plate": [
+      "unrecognizable_anchor",
+      "too_abstract",
+      "text_artifacts",
+      "duplicate_human_identity",
+      "scenic_exterior_drift",
+      "multiple_shuttle_heroes"
+    ],
+    "motion_source": [
+      "text_artifacts"
+    ],
+    "packaging_still": [
+      "unrecognizable_anchor",
+      "text_artifacts",
+      "scanline_banding"
+    ],
+    "motion_asset": [
+      "motion_too_short"
+    ]
+  },
+  "reject_tags": {
+    "missing_contact_sheet": {
+      "label": "Missing contact sheet",
+      "mode": "machine_enforced"
+    },
+    "too_abstract": {
+      "label": "Too abstract",
+      "mode": "machine_enforced"
+    },
+    "source_text_unresolved": {
+      "label": "Source text unresolved",
+      "mode": "machine_enforced"
+    },
+    "insufficient_option_range": {
+      "label": "Insufficient option range",
+      "mode": "machine_enforced"
+    },
+    "text_led_reference": {
+      "label": "Text-led reference",
+      "mode": "review_only"
+    },
+    "forensic_drift": {
+      "label": "Forensic drift",
+      "mode": "review_only"
+    },
+    "low_renderability_object_choice": {
+      "label": "Low-renderability object choice",
+      "mode": "review_only"
+    },
+    "unrecognizable_anchor": {
+      "label": "Unrecognizable anchor",
+      "mode": "machine_enforced"
+    },
+    "text_artifacts": {
+      "label": "Text artifacts",
+      "mode": "machine_enforced"
+    },
+    "scanline_banding": {
+      "label": "Scanline banding",
+      "mode": "machine_enforced"
+    },
+    "overscaled_ripped_paper": {
+      "label": "Overscaled ripped paper",
+      "mode": "machine_enforced"
+    },
+    "duplicate_human_identity": {
+      "label": "Duplicate human identity",
+      "mode": "machine_enforced"
+    },
+    "monitor_wall_mosaic": {
+      "label": "Monitor-wall mosaic dominance",
+      "mode": "machine_enforced"
+    },
+    "scenic_exterior_drift": {
+      "label": "Scenic or exterior drift",
+      "mode": "machine_enforced"
+    },
+    "multiple_shuttle_heroes": {
+      "label": "Multiple shuttle hero inserts",
+      "mode": "machine_enforced"
+    },
+    "building_or_interior_drift": {
+      "label": "Building or interior drift",
+      "mode": "machine_enforced"
+    },
+    "wall_clock_drift": {
+      "label": "Wall-clock drift",
+      "mode": "machine_enforced"
+    },
+    "tiled_panel_grid": {
+      "label": "Tiled panel grid",
+      "mode": "machine_enforced"
+    },
+    "slot_object_missing": {
+      "label": "Required slot object missing",
+      "mode": "machine_enforced"
+    },
+    "motion_too_short": {
+      "label": "Motion too short",
+      "mode": "machine_enforced"
+    }
+  },
+  "prompt_guardrails": {
+    "families": {
+      "shorts_scene_plate": {
+        "banned_phrases": {
+          "torn paper": "legacy collage cue",
+          "ripped seam": "legacy collage cue",
+          "soft collage seam": "legacy collage cue",
+          "poster montage": "legacy collage cue",
+          "explosion poster": "spectacle drift cue"
+        },
+        "required_phrases": [
+          "anchor fragment",
+          "layered support fragments",
+          "historical anchor",
+          "surreal breach"
+        ]
+      },
+      "thumbnail_plate": {
+        "banned_phrases": {
+          "schematic overlay": "scanline-adjacent packaging cue",
+          "circuit traces": "scanline-adjacent packaging cue",
+          "halftone": "banding-prone packaging cue",
+          "photocopy grain": "banding-prone packaging cue",
+          "aggressive overlays": "over-abstract packaging cue",
+          "pure abstraction": "over-abstract packaging cue",
+          "abstract icon only": "anchor-loss packaging cue",
+          "oversized ripped paper": "overscaled ripped-paper treatment"
+        },
+        "required_phrases": [
+          "anchor fragment",
+          "layered support fragments",
+          "poster montage",
+          "recognizable anchor object"
+        ]
+      },
+      "shorts_cover_plate": {
+        "banned_phrases": {
+          "schematic overlay": "scanline-adjacent packaging cue",
+          "circuit traces": "scanline-adjacent packaging cue",
+          "halftone": "banding-prone packaging cue",
+          "photocopy grain": "banding-prone packaging cue",
+          "aggressive overlays": "over-abstract packaging cue",
+          "pure abstraction": "over-abstract packaging cue",
+          "abstract icon only": "anchor-loss packaging cue",
+          "oversized ripped paper": "overscaled ripped-paper treatment"
+        },
+        "required_phrases": [
+          "anchor fragment",
+          "layered support fragments",
+          "poster montage",
+          "recognizable anchor object"
+        ]
+      }
+    },
+    "presets": {}
+  },
+  "visual_qc": {
+    "families": {
+      "shorts_scene_plate": {
+        "ban_scanlines": true,
+        "semantic_qc_profile": "shorts_scene_default"
+      },
+      "thumbnail_plate": {
+        "ban_scanlines": true,
+        "semantic_qc_profile": "packaging_default"
+      },
+      "shorts_cover_plate": {
+        "ban_scanlines": true,
+        "semantic_qc_profile": "packaging_default"
+      }
+    },
+    "presets": {}
+  },
+  "semantic_qc": {
+    "default_model": "llava:7b",
+    "profiles": {
+      "shorts_scene_default": {
+        "brief": "Minimal-surreal short beats must keep the historical anchor immediately legible, preserve one primary read in a 9:16 portrait frame, and avoid collapse into spectacle, generic collage, or centered hardware hero shots.",
+        "allowed_issue_tags": [
+          "unrecognizable_anchor",
+          "too_abstract",
+          "text_artifacts",
+          "duplicate_human_identity",
+          "scenic_exterior_drift",
+          "multiple_shuttle_heroes"
+        ],
+        "hard_fail_tags": [
+          "unrecognizable_anchor",
+          "too_abstract",
+          "text_artifacts",
+          "duplicate_human_identity",
+          "scenic_exterior_drift",
+          "multiple_shuttle_heroes"
+        ],
+        "minimum_rank_score": 6.8,
+        "minimum_composition_score": 6.3,
+        "weights": {
+          "composition": 0.7,
+          "clarity": 0.3,
+          "anchor_bonus_clear": 2.3,
+          "anchor_bonus_partial": 0.6,
+          "anchor_penalty_missing": 3.5,
+          "issue_penalty": 1.6
+        },
+        "stage_focus": {
+          "candidate": "Choose the strongest off-center portrait candidate that keeps the intended historical anchor readable and avoids spectacle or generic launch-poster drift.",
+          "final": "Final short beats must keep one clean dominant read in portrait orientation while staying historically grounded and emotionally restrained."
+        }
+      },
+      "packaging_default": {
+        "brief": "Packaging plates must keep one recognizable anchor object, strong hierarchy, and avoid abstract drift or oversized paper treatments.",
+        "allowed_issue_tags": [
+          "unrecognizable_anchor",
+          "too_abstract",
+          "overscaled_ripped_paper"
+        ],
+        "hard_fail_tags": [
+          "unrecognizable_anchor",
+          "too_abstract",
+          "overscaled_ripped_paper"
+        ],
+        "minimum_rank_score": 6.5,
+        "minimum_composition_score": 6.0,
+        "weights": {
+          "composition": 0.65,
+          "clarity": 0.35,
+          "anchor_bonus_clear": 2.0,
+          "anchor_bonus_partial": 0.5,
+          "anchor_penalty_missing": 3.0,
+          "issue_penalty": 1.6
+        },
+        "stage_focus": {
+          "candidate": "Prefer immediately legible small-size packaging candidates.",
+          "final": "Final packaging plates must keep one dominant anchor object with no semantic ambiguity."
+        }
+      },
+      "minimal_surreal_packaging": {
+        "brief": "Minimal-surreal packaging plates must keep one dominant anchor object with strong mobile legibility, quiet negative space, and no centered-object collapse or decorative accent clutter.",
+        "allowed_issue_tags": [
+          "unrecognizable_anchor",
+          "too_abstract",
+          "text_artifacts"
+        ],
+        "hard_fail_tags": [
+          "unrecognizable_anchor",
+          "too_abstract",
+          "text_artifacts"
+        ],
+        "minimum_rank_score": 6.8,
+        "minimum_composition_score": 6.4,
+        "weights": {
+          "composition": 0.65,
+          "clarity": 0.35,
+          "anchor_bonus_clear": 2.4,
+          "anchor_bonus_partial": 0.5,
+          "anchor_penalty_missing": 3.5,
+          "issue_penalty": 1.75
+        },
+        "stage_focus": {
+          "candidate": "Prefer the most legible off-center packaging candidate with quiet negative space and a single unmistakable signal object.",
+          "final": "Final minimal-surreal packaging must hold one dominant anchor without ambiguity or decorative clutter."
+        }
+      }
+    }
+  },
+  "motion": {
+    "default_min_duration_seconds": 0.0,
+    "entries": []
+  }
+}

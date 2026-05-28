@@ -1,0 +1,287 @@
+{
+  "packet_id": "tacoma_actual_outro_prelap_pronunciation_rail_music_handoff_20260518T170954Z",
+  "status": "review_ready_human_keep_pending",
+  "created_utc": "2026-05-18T17:09:54Z",
+  "mix_profile_id": "challenger_actual_outro_prelap_v1",
+  "successor_context": {
+    "predecessor_packet": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_standard_end_screen_20260518T020706Z",
+    "predecessor_status_after_repair": "tighten_superseded_by_pronunciation_rail_music_handoff_successor",
+    "canonical_kept_voice_master_overwrite_read": "blocked_not_overwritten_pending_human_review"
+  },
+  "voice_source": {
+    "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/tacoma_narrows_longform_pronunciation_repair_master.wav",
+    "sha256": "1ee1df5cb267ea00c0c73eaa52a7a813a625ffb3b4d0a9550d5a5642b8462e65",
+    "role": "pronunciation_repair_voice_master_review_only",
+    "duration_seconds": 839.63356,
+    "repair_scope": "chunk_04_only",
+    "affected_chunk": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/rendered/tacoma_narrows_longform_04.wav",
+      "sha256": "b66ab79e9ea5578a2a457350d3de65ad40549ac0937eeb87ae14924825760aac",
+      "role": "rerendered_tacoma_narrows_longform_04_wav"
+    },
+    "repaired_effective_manifest": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/audio_repairs/pronunciation_chunk04_20260518T170954Z/chunk04_pronunciation_repair.elevenlabs.jsonl",
+      "sha256": "0731a9ae686177c8af7a8ba8d1d932261128468d120194d7ce4b0a12807505b4",
+      "role": "chunk04_elevenlabs_pronunciation_repair_manifest"
+    },
+    "full_effective_manifest": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/effective_final_jobs.elevenlabs.jsonl",
+      "sha256": "ee70acb1202ce9c8d192c8b2a16f605fa3d5b2cdfd0da8cdf1f1ab24775d2d4f",
+      "role": "full_repaired_effective_manifest"
+    },
+    "final_jobs": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/final_jobs.jsonl",
+      "sha256": "b7af6f3fd85888a6e8ee2993c836516f750e574a76e4c300c10dcfa6249d420b",
+      "role": "canonical_six_chunk_jobs_visible_script_unchanged"
+    }
+  },
+  "transcription": {
+    "whisperx_json": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/transcripts_mastered/episode.whisperx.json",
+      "sha256": "4445b2db6315d73c639eae90b05aca4201e30930e2491afbc76b7529380a7904",
+      "role": "repaired_master_whisperx_timing"
+    },
+    "srt": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/transcripts_mastered/episode.diarized.srt",
+      "sha256": "0e9d11f1aa2f5ee664817109b5e5ce7bd9d84261680fc88ded9e8ac08271e051",
+      "role": "repaired_master_transcript_srt"
+    },
+    "vtt": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/transcripts_mastered/episode.diarized.vtt",
+      "sha256": "3222b455c885fc61a303a5ba22cbaefdf08ac924bce6abbc76bc1d60160c56ed",
+      "role": "repaired_master_transcript_vtt"
+    },
+    "txt": {
+      "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/transcripts_mastered/episode.diarized.txt",
+      "sha256": "147974cbcca40d75631955c993f23924f31886bc5f0d337498cbaadc1f7bfe4a",
+      "role": "repaired_master_transcript_txt"
+    },
+    "pronunciation_qa": {
+      "target_phrase": "University of Washington Wind Tunnel work continued through the 1940s.",
+      "target_voice_time_seconds": 611.423,
+      "target_review_time_seconds": 621.024451,
+      "forbidden_asr_strings_absent": [
+        "Wine Tunnel",
+        "winding tunnel",
+        "wine tunnel"
+      ],
+      "transcript_read": "pass_wind_tunnel_transcribed_no_long_i_variant"
+    }
+  },
+  "prosody_guard": {
+    "path": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_k3_tighten_repair_20260518T170954Z/prosody_guard/guard_report.json",
+    "sha256": "99e25dc253344336bfb8358ba688246c6ca6120f45453395f95b15ac8f69d0ff",
+    "role": "prosody_guard_ok_no_repairs"
+  },
+  "voice_start_seconds": 9.601451,
+  "voice_duration_seconds": 839.63356,
+  "voice_end_seconds": 849.235011,
+  "actual_outro_prelap_start_seconds": 844.235011,
+  "actual_outro_prelap_seconds_before_voice_end": 5,
+  "total_duration_seconds": 875.024671,
+  "end_screen_start_seconds": 855.024671,
+  "rail_fade_start_seconds": 853.924671,
+  "rail_fade_duration_seconds": 1.1,
+  "output": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/audio/Ep5-Tacoma-Narrows.actual_outro_prelap_review_mix_20260518T170954Z.wav",
+    "sha256": "c0d75d37da89edf82bcedfff691eecd878359fb95b8b0f1cf41deff6ff061263",
+    "role": "challenger_actual_outro_prelap_review_mix_wav",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bits_per_sample": 16,
+          "duration": "875.024671"
+        }
+      ],
+      "format": {
+        "duration": "875.024671",
+        "size": "154354430"
+      }
+    }
+  },
+  "browser_mp3": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/assets/audio/Ep5-Tacoma-Narrows.actual_outro_prelap_web_review_20260518T170954Z.mp3",
+    "sha256": "e2a4c344ba424a0f918529aa643993a29eb5b383422eaf5142bec4248ca8c9d8",
+    "role": "browser_review_mp3",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "bits_per_sample": 0,
+          "duration": "875.024739"
+        }
+      ],
+      "format": {
+        "duration": "875.024739",
+        "size": "21002492"
+      }
+    }
+  },
+  "review_samples": {
+    "pronunciation_before_reference_wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/pronunciation_wind_tunnel_before_reference_20260518T170954Z.wav",
+      "sha256": "f418de41883fced19ed7d846e33b7af5a09a93d57408de24308f7b20bc6137b7",
+      "role": "before_reference_pronunciation_sample_wav"
+    },
+    "pronunciation_before_reference_mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/pronunciation_wind_tunnel_before_reference_20260518T170954Z.mp3",
+      "sha256": "eaac868d5035d0bafe684afb4a46efba5f4344678a8b46150b5780f73e04fcc2",
+      "role": "before_reference_pronunciation_sample_mp3"
+    },
+    "pronunciation_after_repair_wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/pronunciation_wind_tunnel_after_repair_20260518T170954Z.wav",
+      "sha256": "0fd2510111d90584a203ca05c9913ddec7df2ddb56a7c0d95cb9679c9d1a05d6",
+      "role": "after_repair_pronunciation_sample_wav"
+    },
+    "pronunciation_after_repair_mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/pronunciation_wind_tunnel_after_repair_20260518T170954Z.mp3",
+      "sha256": "4a9b94c3860a0d3185b5e2d0ac949d697b2a4d8b1279844f98539772c57e4c9d",
+      "role": "after_repair_pronunciation_sample_mp3"
+    },
+    "vo_outro_transition_wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/vo_outro_blend_transition_20260518T170954Z.wav",
+      "sha256": "82493ffacf23e301afff6f00e96aaa7718d3f99143f444de32b22fe46627cebe",
+      "role": "seven_second_before_after_voice_end_transition_wav"
+    },
+    "vo_outro_transition_mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/vo_outro_blend_transition_20260518T170954Z.mp3",
+      "sha256": "8f4bad5a8ee4368fed1d0093ef45b35dcee7b2f4e28401e09fc77efc6af616be",
+      "role": "seven_second_before_after_voice_end_transition_mp3"
+    }
+  },
+  "music_sources": {
+    "registry": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json",
+      "sha256": "e8ad71cc4933eb0459814a241aff3da766c66f5c36a2f52aa9469689d833934a",
+      "role": "music_track_registry"
+    },
+    "intro_loop": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "role": "paper_architecture_instrumental_loop",
+      "duration_seconds": 9.601451,
+      "codec_name": "pcm_s16le",
+      "sample_rate": 44100,
+      "channels": 2,
+      "bits_per_sample": 16
+    },
+    "outro_full": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+      "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+      "role": "paper_architecture_full_outro_actual_prelap_source",
+      "duration_seconds": 30.795215,
+      "codec_name": "aac",
+      "sample_rate": 44100,
+      "channels": 2
+    }
+  },
+  "mix_decisions": {
+    "runtime_model": "music_only_intro_then_voiceover_with_2s_intro_fade_tail_plus_actual_full_outro_prelap_under_final_vo",
+    "voice_timing_shift_seconds": 9.601451,
+    "caption_timing_shift_seconds": 9.601451,
+    "intro_music_policy": "music_only_intro_before_voice_with_2s_fade_tail_under_voice",
+    "outro_music_policy": "full_paper_architecture_m4a_starts_5s_before_final_spoken_word_and_continues_without_restart",
+    "limiter": "alimiter limit=0.89 level=false"
+  },
+  "level_reads": {
+    "full_mix": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/volumedetect_actual_outro_prelap_full_mix.log",
+      "sha256": "8aa16cc04c5188c919bb1f4de918f98046a818d7018f431630e95b1b9c9d0a36",
+      "mean_volume_db": -15,
+      "max_volume_db": -1
+    },
+    "intro_music_only_sample": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/volumedetect_actual_intro_music_only.log",
+      "sha256": "b0a6c68001827c71a65749cf330a9116ce50498a4d7a41af2e646c8ea47fe3ce",
+      "mean_volume_db": -16.6,
+      "max_volume_db": -2.3
+    },
+    "outro_pre_voice_end_sample": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/volumedetect_actual_outro_pre_voice_end.log",
+      "sha256": "ab695060c4e7f018110925e777e8d9af2ac9e78ebacc3b54924daa9c7206487f",
+      "mean_volume_db": -13.5,
+      "max_volume_db": -1
+    },
+    "outro_post_voice_end_sample": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/volumedetect_actual_outro_post_voice_end.log",
+      "sha256": "2631963fbfd97ed17e6aa0cc1c3914badb30a0db87fa3bb72c8c80482c46b953",
+      "mean_volume_db": -16.3,
+      "max_volume_db": -2
+    },
+    "pre_post_mean_delta_db": 2.8
+  },
+  "reads": {
+    "wav_duration_read": "pass",
+    "mp3_review_asset_read": "pass_browser_review_mp3_created",
+    "repaired_voice_master_read": "pass_review_only_master_created_canonical_kept_audio_not_overwritten",
+    "pronunciation_repair_read": "pass_chunk04_rerendered_wind_tunnel_short_i_instruction_recorded",
+    "pronunciation_asr_regression_read": "pass_no_wine_or_winding_variant_in_repaired_transcript",
+    "prosody_guard_read": "pass_ok_no_repairs",
+    "approved_music_source_read": "pass_registered_paper_architecture_theme_assets_recorded",
+    "series_music_contract_read": "pass_challenger_style_default",
+    "intro_music_contract_read": "pass_music_only_intro_then_2s_fade_tail_under_voice",
+    "voice_start_offset_read": "pass_voice_starts_after_9s601_music_only_intro",
+    "caption_timing_shift_read": "pass_offset_vtt_srt_shifted_by_9s601451",
+    "full_outro_music_read": "pass_full_paper_architecture_outro_used",
+    "end_screen_music_handoff_read": "pass_end_screen_target_window_carried_by_full_outro",
+    "vo_outro_blend_plan_read": "pass_challenger_actual_outro_prelap_v1",
+    "vo_outro_music_blend_read": "pass_repaired_no_hard_join_level_checked_transition_sample_exported_for_review",
+    "outro_transition_review_sample_read": "pass_before_after_transition_sample_exported_7s_before_to_7s_after_final_vo",
+    "outro_entry_level_match_read": "pass_pre_post_voice_end_mean_delta_2.8dB",
+    "outro_prelap_source_read": "pass_full_outro_track_fades_under_final_vo_not_bridge_proxy",
+    "outro_prelap_start_read": "pass_full_outro_starts_5s_before_voice_end",
+    "outro_no_restart_at_voice_end_read": "pass_no_restart_at_voice_end",
+    "outro_source_continuity_read": "pass_full_outro_source_continues_across_voice_end_without_restart",
+    "music_rights_read": "review_warning_registered_paper_architecture_theme_requires_youtube_claim_check_before_public_release",
+    "music_contract_regression_read": "pass_no_under_opening_voice_bed_plus_short_tail_regression",
+    "no_clipping_read": "pass_max_volume_-1dB",
+    "audio_level_mix_read": "pass_max_volume_-1dB",
+    "downstream_gate_read": "pass_final_render_publish_upload_public_release_locked",
+    "vo_outro_perceptual_review_read": "pass_transition_sample_exported_for_human_review_and_level_delta_checked",
+    "outro_under_vo_masking_read": "pass_outro_fades_under_final_vo_without_masking_final_line",
+    "outro_target_after_voice_read": "pass_outro_reaches_target_level_at_voice_end_for_challenger_actual_prelap"
+  },
+  "full_outro_source_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+  "full_outro_start_seconds": 844.235011,
+  "outro_prelap_seconds": 5,
+  "full_outro_fade_in_seconds": 5,
+  "outro_reaches_target_at_seconds": 849.235011,
+  "outro_no_restart_at_voice_end": "pass_no_restart_at_voice_end",
+  "outro_source_continuity": "pass_full_outro_source_continues_across_voice_end_without_restart",
+  "vo_outro_blend_plan": {
+    "profile_id": "challenger_actual_outro_prelap_v1",
+    "voice_end_seconds": 849.235011,
+    "full_outro_source_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_outro_start_seconds": 844.235011,
+    "outro_prelap_seconds": 5,
+    "full_outro_fade_in_seconds": 5,
+    "outro_reaches_target_at_seconds": 849.235011,
+    "outro_no_restart_at_voice_end": "pass_no_restart_at_voice_end",
+    "outro_source_continuity": "pass_full_outro_source_continues_across_voice_end_without_restart",
+    "human_approved_prelap_override": true,
+    "human_approved_prelap_override_reason": "user_requested_challenger_actual_outro_prelap_v1_full_outro_5s_under_final_vo_in_tighten_repair_plan"
+  },
+  "outro_transition_review_sample": {
+    "wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/vo_outro_blend_transition_20260518T170954Z.wav",
+      "sha256": "82493ffacf23e301afff6f00e96aaa7718d3f99143f444de32b22fe46627cebe",
+      "role": "seven_second_before_after_voice_end_transition_wav"
+    },
+    "mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_photoreal_glass_rain_20260519T054233Z/qa/audio/vo_outro_blend_transition_20260518T170954Z.mp3",
+      "sha256": "8f4bad5a8ee4368fed1d0093ef45b35dcee7b2f4e28401e09fc77efc6af616be",
+      "role": "seven_second_before_after_voice_end_transition_mp3"
+    }
+  }
+}

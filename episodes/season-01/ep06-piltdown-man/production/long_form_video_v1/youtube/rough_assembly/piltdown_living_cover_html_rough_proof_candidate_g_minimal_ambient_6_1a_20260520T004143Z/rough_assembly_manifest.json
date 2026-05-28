@@ -1,0 +1,599 @@
+{
+  "packet_id": "piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z",
+  "episode_id": "piltdown-man",
+  "phase_gate": "rough_assembly_gate",
+  "status": "keep_minimal_ambient_6_1a_approved_for_final_render",
+  "human_disposition": "keep",
+  "created_utc": "20260520T004143Z",
+  "living_cover_system_version": "living_cover_system_v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "captioning_process_version": "living_cover_captioning_process_v1",
+  "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+  "review_only": true,
+  "html_proof_only": true,
+  "mp4_render_created": false,
+  "may_render_final_mp4": true,
+  "may_advance_to_final_assembly": true,
+  "may_advance_to_publish_readiness": false,
+  "may_youtube_action": false,
+  "public_release_ready": false,
+  "human_motion_readiness_keep": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/human_motion_readiness_keep_candidate_g_active_microscope_analysis_20260519.md",
+    "sha256": "71d170498077c20c1bdce4656b34d5934058de2b8254c80b87fc7778165f296d"
+  },
+  "player": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/player.html",
+    "sha256": "101c3e381986bfbcaaa98ac9d0b5cda12d7614d91a76a4bace89f5098f9e3ccc",
+    "role": "primary_html_rough_proof_minimal_ambient_6_1a"
+  },
+  "source_visual": {
+    "carrier": "episode_specific_generated_raster_source_art",
+    "source_art_id": "candidate_g_active_microscope_analysis",
+    "local_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/assets/source_art/candidate_g_active_microscope_analysis_1920x1080.png",
+      "sha256": "4615cff276f95e544aa8a21004f8c520cb190860d04860f1bed9d5ae7a22a7a0",
+      "role": "kept_candidate_g_source_art_copy"
+    },
+    "profile_id": "cascade-ink-lit-photoreal-v1",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/references/source_art_manifest.json",
+      "sha256": "2c9682c2c6f3d1c9ef6803d062631cc8b3f84771ee53750fb0d72e5b7eddf44c"
+    },
+    "source_art_reads": {
+      "historical_accuracy_read": "pass_1953_analog_museum_microscope_analysis_carrier_kept",
+      "source_reference_alignment_read": "pass_candidate_g_reference_control_carried_forward",
+      "foreground_admin_prop_read": "pass_no_admin_prop_anchor",
+      "implied_action_anticipation_read": "pass_active_microscope_analysis_moment",
+      "ambient_affordance_read": "pass_practical_light_glass_reflection_dust_and_worker_depth",
+      "no_recognizable_faces_read": "pass",
+      "right_rail_safe_space_read": "pass",
+      "procedural_signal_overlay_read": "pass_no_overlay",
+      "ambient_line_artifact_read": "pass_no_signal_lines",
+      "texture_noise_read": "pass",
+      "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper",
+      "paper_architecture_visual_style_read": "pass_no_paper_architecture_visual_style"
+    }
+  },
+  "approved_audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/final/Ep6_Piltdown-Man.wav",
+    "sha256": "fa215461f2e522816d462d2bbfe9a85c607efecd002999d5e5c8a8e4df91e127",
+    "duration_seconds": 840.980317
+  },
+  "music_mix": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/references/audio_mix_manifest.json",
+    "sha256": "a8aea5e642c16ec4be511cbe007283551da9c7f9c65cbbb7d4f7cadec74ca0d5",
+    "role": "audio_mix_manifest_subtle_tail_outro_v1"
+  },
+  "audio_assets": {
+    "review_mix_wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/assets/audio/Ep6-Piltdown-Man.candidate_g_subtle_tail_review_mix_20260519T192605Z.wav",
+      "sha256": "d08f130d8beef18ecc5f0f37fc6989abb4c823deb3100ad49bf8380a60d7ebe4",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 16,
+            "duration": "879.871383"
+          }
+        ],
+        "format": {
+          "duration": "879.871383",
+          "size": "155209390"
+        }
+      }
+    },
+    "browser_review_mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/assets/audio/Ep6-Piltdown-Man.candidate_g_subtle_tail_web_review_20260519T192605Z.mp3",
+      "sha256": "9e813f02c48d7ccac5b206c210866df23ea0659b0557296eeaf5e30d25b657f3",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 0,
+            "duration": "879.871383"
+          }
+        ],
+        "format": {
+          "duration": "879.871383",
+          "size": "21118475"
+        }
+      }
+    },
+    "vo_outro_transition_sample_mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/audio/piltdown_candidate_g_vo_outro_transition_20260519T192605Z.mp3",
+      "sha256": "603b537caf3c4f8fc17ed97f2cc67770ba4dc39335fbfeb1c39c4fc9d431f0ce",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "bits_per_sample": 0,
+            "duration": "14.000000"
+          }
+        ],
+        "format": {
+          "duration": "14.000000",
+          "size": "337336"
+        }
+      }
+    }
+  },
+  "caption_context": {
+    "caption_slot_preset_id": "native_rail_caption_slot_v1",
+    "local_vtt_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/assets/captions/piltdown_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "sha256": "13c391067c31fe4ab1dfed611993d65e660b6d99e09dbb1da29c08c8361f8679"
+    },
+    "local_srt_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/assets/captions/piltdown_longform.script_locked_rail_safe.offset_intro_9s601.srt",
+      "sha256": "cf84f1a4d74f99513261ba604ac7c26c9c5161933ab1f2d5add7500db85bfdb4"
+    },
+    "caption_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/assets/captions/piltdown_longform.script_locked_caption_qa.json",
+      "sha256": "e8a49946b5e17e504be820de24f1cd4da928e00e5379788a2d1940ba6f272ebf",
+      "status": "pass",
+      "alignment_coverage": 0.9926892950391645
+    },
+    "displayed_caption_source": "script-locked WebVTT cue text shifted by Challenger-style music-only intro offset",
+    "word_by_word_karaoke": false,
+    "placement": "lower right rail",
+    "timing_shift_seconds": 9.601451
+  },
+  "full_timeline": {
+    "duration_seconds": 879.876983,
+    "section_count": 8,
+    "sections": [
+      {
+        "id": "piltdown_fossil_britain_wanted",
+        "label": "OPENING FOSSIL",
+        "title": "The fossil Britain wanted",
+        "summary": "A missing link arrives already shaped like confirmation.",
+        "at": 0.0,
+        "end": 123.625,
+        "time_label": "00:00",
+        "visual": {
+          "x": -0.26,
+          "y": -0.08,
+          "scale": 1.018,
+          "roll": -0.04,
+          "rail": "#1b1511",
+          "warmth": 0.05
+        }
+      },
+      {
+        "id": "piltdown_fit_too_precisely",
+        "label": "THEORY FIT",
+        "title": "The story fit too precisely",
+        "summary": "Dawson, Woodward, and the brain-first model make the specimen feel inevitable.",
+        "at": 125.087,
+        "end": 212.705,
+        "time_label": "02:05",
+        "visual": {
+          "x": -0.12,
+          "y": -0.12,
+          "scale": 1.022,
+          "roll": 0.03,
+          "rail": "#1d1712",
+          "warmth": 0.03
+        }
+      },
+      {
+        "id": "piltdown_objections_did_not_prevail",
+        "label": "OBJECTIONS",
+        "title": "Objections did not prevail",
+        "summary": "Skepticism existed, but follow-up finds and institutional cost kept it contained.",
+        "at": 212.746,
+        "end": 284.896,
+        "time_label": "03:32",
+        "visual": {
+          "x": 0.04,
+          "y": -0.1,
+          "scale": 1.026,
+          "roll": -0.02,
+          "rail": "#1b1814",
+          "warmth": 0.02
+        }
+      },
+      {
+        "id": "piltdown_prestige_insulates_fraud",
+        "label": "PRESTIGE",
+        "title": "Prestige protects the flattering lie",
+        "summary": "National expectation and museum authority turn skepticism into a social cost.",
+        "at": 284.956,
+        "end": 405.951,
+        "time_label": "04:44",
+        "visual": {
+          "x": 0.18,
+          "y": -0.04,
+          "scale": 1.024,
+          "roll": 0.02,
+          "rail": "#201711",
+          "warmth": 0.07
+        }
+      },
+      {
+        "id": "piltdown_weak_evidence_gets_buried",
+        "label": "WEAK EVIDENCE",
+        "title": "Weak evidence gets buried",
+        "summary": "Visible inconsistencies and poor provenance disappear under repetition.",
+        "at": 406.913,
+        "end": 539.465,
+        "time_label": "06:46",
+        "visual": {
+          "x": 0.3,
+          "y": -0.02,
+          "scale": 1.028,
+          "roll": -0.03,
+          "rail": "#1c1714",
+          "warmth": 0.04
+        }
+      },
+      {
+        "id": "piltdown_methods_reveal_fraud",
+        "label": "TESTS",
+        "title": "The tests break the story",
+        "summary": "Fluorine, microscopy, X-ray, and chemical analysis expose the mismatch.",
+        "at": 540.686,
+        "end": 596.307,
+        "time_label": "09:00",
+        "visual": {
+          "x": 0.14,
+          "y": -0.12,
+          "scale": 1.033,
+          "roll": 0.04,
+          "rail": "#24180f",
+          "warmth": 0.1
+        }
+      },
+      {
+        "id": "piltdown_system_was_disposed_to_accept",
+        "label": "ACCEPTANCE",
+        "title": "The system was disposed to accept it",
+        "summary": "The forger mattered less than the institution's acceptance machinery.",
+        "at": 596.366,
+        "end": 762.323,
+        "time_label": "09:56",
+        "visual": {
+          "x": -0.05,
+          "y": -0.02,
+          "scale": 1.025,
+          "roll": -0.02,
+          "rail": "#1d1712",
+          "warmth": 0.03
+        }
+      },
+      {
+        "id": "piltdown_receipts_remain",
+        "label": "RECEIPTS",
+        "title": "The record shows the mechanism",
+        "summary": "Authority processed the evidence through a channel that could not ask the right question.",
+        "at": 764.046,
+        "end": 850.581,
+        "time_label": "12:44",
+        "visual": {
+          "x": -0.22,
+          "y": 0.02,
+          "scale": 1.02,
+          "roll": 0.01,
+          "rail": "#1b1512",
+          "warmth": 0.04
+        }
+      }
+    ],
+    "voice_start_seconds": 9.601451,
+    "voice_end_seconds": 850.581768,
+    "outro_prelap_start_seconds": 849.081768,
+    "rail_fade_start_seconds": 858.776983,
+    "end_screen_start_seconds": 859.876983,
+    "end_screen_end_seconds": 879.876983,
+    "caption_suppression_start_seconds": 850.581768,
+    "effect_cues_render_policy": "internal_cue_map_only_no_out_of_rail_text_surface"
+  },
+  "living_cover_cue_map": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/references/living_cover_cue_map.json",
+    "sha256": "b9bee67e0ef3fc2f369d32dc2ec0909081d48f0e62767d22835941678a3e2c97"
+  },
+  "living_cover_ambient_effects_layer": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/references/living_cover_ambient_effects_layer.json",
+    "sha256": "b12e53f56bb9cf79c64b2531d9db45da69a4f1bbebb90c6e3edddd3556d49258",
+    "lane": "minimal_source_plate_drift_and_lamp_hotspot_only",
+    "upstream_layer_status": "kept_ambient_effects_intent_preserved_but_render_subset_simplified_by_human_direction"
+  },
+  "music_integration_contract": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/references/music_integration_contract.json",
+    "sha256": "97b746a34bd1e8222aece1d40b5576f93ab64abfcf49c64e24ff05290046ea01",
+    "audio_mix_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/references/audio_mix_manifest.json",
+    "audio_mix_manifest_sha256": "a8aea5e642c16ec4be511cbe007283551da9c7f9c65cbbb7d4f7cadec74ca0d5",
+    "reads": {
+      "approved_music_source_read": "pass_registered_paper_architecture_theme_assets_recorded_as_audio_only",
+      "series_music_contract_read": "pass_challenger_style_default",
+      "intro_music_contract_read": "pass_music_only_intro_then_2s_fade_tail_under_voice",
+      "voice_start_offset_read": "pass_voice_starts_after_9s601_music_only_intro",
+      "caption_timing_shift_read": "pass_offset_vtt_srt_shifted_by_9s601451",
+      "full_outro_music_read": "pass_full_paper_architecture_outro_used_as_audio_source_only",
+      "end_screen_music_handoff_read": "pass_end_screen_target_window_carried_by_full_outro",
+      "vo_outro_blend_plan_read": "pass_subtle_tail_outro_v1_contract",
+      "vo_outro_music_blend_read": "pass_review_mix_uses_full_outro_under_final_vo_no_restart",
+      "vo_outro_perceptual_review_read": "pass_transition_sample_exported_for_human_review_and_level_delta_recorded",
+      "outro_transition_review_sample_read": "pass_7s_before_to_7s_after_final_vo_sample_exported",
+      "outro_entry_level_match_read": "pass_rms_delta_recorded_for_review",
+      "outro_under_vo_masking_read": "pass_outro_under_vo_gain_limited_to_0p10_before_voice_end",
+      "outro_target_after_voice_read": "pass_outro_target_gain_reached_after_voice_end_only",
+      "outro_prelap_source_read": "pass_full_outro_track_not_proxy",
+      "outro_prelap_start_read": "pass_1p5s_before_voice_end",
+      "outro_no_restart_at_voice_end_read": "pass_no_restart_at_voice_end",
+      "outro_source_continuity_read": "pass_full_outro_continues_across_voice_end",
+      "audio_level_mix_read": "pass_max_volume_below_minus_1db",
+      "music_rights_read": "review_warning_registered_theme_requires_youtube_claim_check_before_public_release",
+      "music_contract_regression_read": "pass_no_under_opening_voice_bed_plus_short_tail_regression",
+      "no_music_or_temp_music_waiver_read": "not_applicable_no_waiver_requested"
+    }
+  },
+  "source_motion_readiness": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/references/motion_readiness_manifest.json",
+    "sha256": "e8e0d1b7c07635cb5862f74ce055c4cb582fd81185f918b2705d973dca4acbc3",
+    "human_disposition": "keep"
+  },
+  "review_reads": {
+    "html_proof_created_read": "pass_player_html_created",
+    "fixed_canvas_read": "pass_1920x1080_fixed_stage_scaled_shell",
+    "source_art_read": "pass_candidate_g_source_art_loaded",
+    "living_cover_cue_map_read": "pass_packet_local_artifact",
+    "living_cover_ambient_effects_layer_read": "pass_packet_local_artifact",
+    "music_integration_contract_read": "pass_packet_local_contract_kept_and_mix_created",
+    "caption_text_matches_script_read": "pass",
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_timing_shift_read": "pass_offset_vtt_srt_shifted_by_9s601451",
+    "caption_sidecar_read": "pass_offset_vtt_and_srt_packaged",
+    "right_rail_text_boundary_read": "pass_viewer_story_text_in_fixed_right_rail",
+    "out_of_rail_text_read": "pass_no_out_of_rail_story_text",
+    "ordinal_chapter_label_read": "pass_no_ordinal_only_visible_labels",
+    "stale_cross_episode_label_read": "pass_piltdown_specific_rail_copy",
+    "procedural_signal_overlay_read": "pass_no_cyan_or_diagnostic_overlay",
+    "ambient_line_artifact_read": "pass_no_signal_lines",
+    "full_frame_dark_overlay_read": "pass_no_full_frame_or_full_height_rail_dark_veil",
+    "localized_readability_treatment_read": "pass_active_panel_fill_and_caption_localized_softener_only",
+    "intro_rail_readiness_read": "pass_first_rail_state_readable_at_t0_mid_intro_and_voice_start",
+    "intro_active_title_read": "pass_visible_at_t0_mid_intro_and_voice_start",
+    "intro_summary_legibility_read": "pass_visible_at_t0_mid_intro_and_voice_start",
+    "intro_context_readability_read": "pass_context_rows_visible_at_intro",
+    "intro_transition_completion_read": "pass_first_chapter_transition_forced_complete_during_music_only_intro",
+    "end_screen_hold_read": "pass_static_target_geometry_background_motion_allowed",
+    "continuous_ambient_end_screen_preservation_read": "pass",
+    "youtube_target_geometry_static_read": "pass_left_right_video_and_center_subscribe_bboxes_static",
+    "viewer_text_suppression_read": "pass_story_text_suppressed_before_end_screen",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_in_end_screen_window",
+    "youtube_end_screen_template_read": "pass_challenger_therac_titleless_three_target_template",
+    "visual_freeze_read": "pass_source_plate_transform_and_canvas_ambient_change_across_samples",
+    "proof_speedup_read": "not_applicable_html_proof_timeline_unchanged_no_mp4_render_created",
+    "post_change_regression_read": "pass_candidate_g_timing_music_captions_and_end_screen_preserved",
+    "rail_backlight_scope_read": "pass_no_full_height_or_context_region_rail_softener",
+    "right_rail_opacity_balance_read": "pass_no_opaque_lower_rail_column_below_active_scene_text",
+    "context_region_source_visibility_read": "pass_source_image_visible_behind_context_region",
+    "caption_softener_scope_read": "pass_lower_softener_appears_only_when_captions_are_present",
+    "challenger_staged_transition_model_read": "pass_hold_0_120ms_smoothstep_120_600ms_settled_after_600ms",
+    "first_chapter_boundary_visual_ease_read": "pass_first_boundary_holds_blends_and_settles",
+    "chapter_boundary_hard_shift_read": "pass_all_chapter_boundaries_staged_no_hard_transform_switch",
+    "visual_state_debug_hook_read": "pass_window_visualStateAt_exposes_time_chapter_caption_and_end_screen_opacity",
+    "approved_music_source_read": "pass_registered_paper_architecture_theme_assets_recorded_as_audio_only",
+    "series_music_contract_read": "pass_challenger_style_default",
+    "intro_music_contract_read": "pass_music_only_intro_then_2s_fade_tail_under_voice",
+    "voice_start_offset_read": "pass_voice_starts_after_9s601_music_only_intro",
+    "full_outro_music_read": "pass_full_paper_architecture_outro_used_as_audio_source_only",
+    "end_screen_music_handoff_read": "pass_end_screen_target_window_carried_by_full_outro",
+    "vo_outro_blend_plan_read": "pass_subtle_tail_outro_v1_contract",
+    "vo_outro_music_blend_read": "pass_review_mix_uses_full_outro_under_final_vo_no_restart",
+    "vo_outro_perceptual_review_read": "pass_transition_sample_exported_for_human_review_and_level_delta_recorded",
+    "outro_transition_review_sample_read": "pass_7s_before_to_7s_after_final_vo_sample_exported",
+    "outro_entry_level_match_read": "pass_rms_delta_recorded_for_review",
+    "outro_under_vo_masking_read": "pass_outro_under_vo_gain_limited_to_0p10_before_voice_end",
+    "outro_target_after_voice_read": "pass_outro_target_gain_reached_after_voice_end_only",
+    "outro_prelap_source_read": "pass_full_outro_track_not_proxy",
+    "outro_prelap_start_read": "pass_1p5s_before_voice_end",
+    "outro_no_restart_at_voice_end_read": "pass_no_restart_at_voice_end",
+    "outro_source_continuity_read": "pass_full_outro_continues_across_voice_end",
+    "audio_level_mix_read": "pass_max_volume_below_minus_1db",
+    "music_rights_read": "review_warning_registered_theme_requires_youtube_claim_check_before_public_release",
+    "music_contract_regression_read": "pass_no_under_opening_voice_bed_plus_short_tail_regression",
+    "no_music_or_temp_music_waiver_read": "not_applicable_no_waiver_requested",
+    "rough_assembly_read": "keep_minimal_ambient_6_1a_approved_for_final_render",
+    "final_assembly_read": "open_create_final_assembly_from_kept_minimal_rough_proof",
+    "final_render_read": "open_final_mp4_render_creation_from_kept_html_proof",
+    "youtube_upload_read": "blocked_no_youtube_action",
+    "public_release_read": "blocked_manual_youtube_studio_only",
+    "player_js_parse_read": "pass_node_check_after_minimal_ambient_simplification",
+    "browser_sample_qa_read": "pass_minimal_ambient_1920x1080_samples_captured",
+    "html_range_server_read": "pass_206_partial_content_after_8862_restart",
+    "debug_overlay_absence_read": "pass_no_diagnostic_overlay_in_player_render_mode; placement_overlay_is_separate_review_artifact",
+    "end_screen_sample_read": "pass_late_end_screen_targets_detected_titleless_geometry",
+    "visual_motion_read": "pass_source_plate_or_canvas_changes_across_samples",
+    "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper",
+    "paper_architecture_visual_style_read": "pass_no_paper_architecture_visual_style_music_asset_name_only",
+    "source_art_pointer_read": "pass_candidate_g_only_no_superseded_source_art_inputs",
+    "normal_playback_ambient_visibility_read": "pass_minimal_6_1a_visible_under_normal_playback",
+    "lamp_roi_normal_playback_read": "superseded_by_1a_lamp_hotspot_read",
+    "microscope_glass_roi_normal_playback_read": "disabled_in_minimal_successor",
+    "dust_roi_normal_playback_read": "disabled_in_minimal_successor",
+    "foreground_mask_motion_read": "not_applicable_dust_disabled_guardrails_inactive",
+    "ambient_noticeability_read": "pass_minimal_ambient_6_1a_review_ready",
+    "lamp_flicker_read": "disabled_broad_lamp_wash_not_active_only_1a_hotspot_retained",
+    "microscope_glint_read": "disabled_in_minimal_successor",
+    "glassware_reflection_shimmer_read": "disabled_in_minimal_successor",
+    "dust_visibility_read": "disabled_in_minimal_successor",
+    "modern_screen_glow_read": "pass_no_screen_tablet_ui_led_or_cool_glow_added",
+    "minimal_ambient_scope_read": "pass_only_6_source_plate_drift_and_1a_lamp_hotspot_active",
+    "1a_lamp_hotspot_read": "pass_visible_but_not_screenlike",
+    "source_plate_drift_read": "pass_subtle_continuous_motion",
+    "disabled_effects_absence_read": "pass_no_glints_no_dust_no_broad_lamp_wash",
+    "right_rail_safe_zone_read": "pass_fixed_right_rail_text_zone_preserved",
+    "rough_assembly_human_keep_read": "pass_keep_minimal_ambient_6_1a_approved_for_final_render_only",
+    "publish_readiness_read": "blocked_pending_final_assembly_render_and_human_keep"
+  },
+  "review_packet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/review/rough_assembly_review_packet.md",
+    "sha256": "251c62cf805511ee7717288e7b11b6906192beebd939d6300637e993a5b1bf11"
+  },
+  "review_url": "http://127.0.0.1:8862/player.html",
+  "browser_qa": {
+    "status": "pass_minimal_ambient_6_1a_qa_created_1920x1080_and_8862_range_check_passed",
+    "review_url": "http://127.0.0.1:8862/player.html",
+    "minimal_ambient_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/minimal_ambient_6_1a_qa.json",
+    "minimal_ambient_qa_sha256": "a009fae3f2d1d00dacb5026a867f1935aba0e833ed206aa3bd7958f7eb14a9b1",
+    "minimal_ambient_contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/minimal_ambient_6_1a_contact_sheet_1920x1080.png",
+    "minimal_ambient_contact_sheet_sha256": "3ca759f833f02e5c78d5c15e724905cb5179d5b6d51ab9ff37146ff81caec77f",
+    "minimal_ambient_placement_overlay_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/placement/minimal_ambient_6_1a_placement_overlay.png",
+    "minimal_ambient_placement_overlay_sha256": "3e4fb6a6eac024935e646f4a801162171bd541eeb29b5c8818231d2efd87ae10",
+    "range_request_status": 206,
+    "reads": {
+      "1a_lamp_hotspot_read": "pass_visible_but_not_screenlike",
+      "source_plate_drift_read": "pass_subtle_continuous_motion",
+      "disabled_effects_absence_read": "pass_no_glints_no_dust_no_broad_lamp_wash",
+      "modern_screen_glow_read": "pass_no_screen_tablet_ui_led_or_cool_glow_added",
+      "right_rail_safe_zone_read": "pass_fixed_right_rail_text_zone_preserved",
+      "minimal_ambient_scope_read": "pass_only_6_source_plate_drift_and_1a_lamp_hotspot_active"
+    },
+    "content_range": "bytes 0-1023/21118475"
+  },
+  "post_build_repairs": [
+    {
+      "repair_id": "player_vtt_parser_escape_repair",
+      "read": "pass_player_js_parse_check_after_repair",
+      "player_sha256_after_repair": "8eec404b88886de60a5472566b6bc0f2d61264280fc0885d200d652c8c648dd3",
+      "reason": "Initial browser QA exposed blank rail/captions from escaped newline handling in parseVtt; repaired before review packet was promoted."
+    },
+    {
+      "repair_id": "ambient_noticeability_repair_20260519T210343Z",
+      "read": "pass_normal_playback_ambient_visibility_repaired",
+      "player_sha256_after_repair": "4f15b67322a61c0978bd4f1cdbde8f7cb7a65e639daf1c42601689b5202cf213",
+      "normal_playback_qa_sha256": "e76c646004514d3ff7c64ed3be0bd232602f842ab4a5636b09efd47e0f076d2c",
+      "reason": "Predecessor rough proof was tightened after human review because ambient effects were only obvious by scrubbing; successor uses visible normal-speed practical flicker, optical glints, reflection shimmer, dust, and subtle drift."
+    }
+  ],
+  "successor_of": {
+    "packet_id": "piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z",
+    "root": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z/rough_assembly_manifest.json",
+    "manifest_sha256_after_tighten_record": "75273112d701baa268e6288ccdeab052b5726705dcc88d8598a3996f1569057d",
+    "reason": "tighten_simplify_ambient_scope_to_6_and_1a after human review; keep only effect 6 source-plate drift and effect 1a tight lamp hotspot"
+  },
+  "ambient_noticeability_repair": {
+    "status": "superseded_by_minimal_ambient_6_1a_successor",
+    "predecessor_root": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z",
+    "reason": "prior repaired proof remains provenance only after human simplification direction"
+  },
+  "minimal_ambient_simplification": {
+    "status": "review_ready_human_keep_pending",
+    "source_art_input": "candidate_g_active_microscope_analysis_kept_source_art_only",
+    "user_review_signal": "simplify ambient layer and keep only 6 source-plate drift plus 1a tight lamp hotspot",
+    "active_effects": [
+      {
+        "id": "6_source_plate_drift",
+        "status": "kept_unchanged",
+        "role": "subtle continuous whole-backplate drift/parallax"
+      },
+      {
+        "id": "1a_lamp_hotspot",
+        "status": "kept_unchanged",
+        "role": "tight warm practical lamp hotspot"
+      }
+    ],
+    "layout_invariants": [
+      {
+        "id": "5_right_rail_safe_zone",
+        "status": "kept_layout_invariant_not_ambient_effect"
+      }
+    ],
+    "disabled_effects": [
+      "1_broad_lamp_wash",
+      "2_microscope_glints",
+      "2a_glass_glint",
+      "2b_glass_glint",
+      "2c_glass_glint",
+      "3_dust_motes",
+      "4_dust_exclusion_mask_inactive_guardrail",
+      "4b_dust_exclusion_mask_inactive_guardrail"
+    ],
+    "qa": {
+      "report_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/minimal_ambient_6_1a_qa.json",
+      "report_sha256": "a009fae3f2d1d00dacb5026a867f1935aba0e833ed206aa3bd7958f7eb14a9b1",
+      "contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/minimal_ambient_6_1a_contact_sheet_1920x1080.png",
+      "contact_sheet_sha256": "3ca759f833f02e5c78d5c15e724905cb5179d5b6d51ab9ff37146ff81caec77f",
+      "placement_overlay_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/placement/minimal_ambient_6_1a_placement_overlay.png",
+      "placement_overlay_sha256": "3e4fb6a6eac024935e646f4a801162171bd541eeb29b5c8818231d2efd87ae10",
+      "placement_overlay_1920x1080_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/placement/minimal_ambient_6_1a_placement_overlay_1920x1080.png",
+      "placement_overlay_1920x1080_sha256": "410cf99ef09408abd8a4c02ab8f4e9b53c7ed07f365dcc10027e2129b9656e3b",
+      "placement_review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/review.html",
+      "placement_review_html_sha256": "8f9785f30b0e4dff374427dc3ef97a9993b9f371e27ab4a286852f0c7d09c43c",
+      "sample_window_seconds": [
+        57.293,
+        68.293
+      ],
+      "sample_cadence_seconds": 1.0,
+      "frame_dimensions": "1920x1080",
+      "reads": {
+        "1a_lamp_hotspot_read": "pass_visible_but_not_screenlike",
+        "source_plate_drift_read": "pass_subtle_continuous_motion",
+        "disabled_effects_absence_read": "pass_no_glints_no_dust_no_broad_lamp_wash",
+        "modern_screen_glow_read": "pass_no_screen_tablet_ui_led_or_cool_glow_added",
+        "right_rail_safe_zone_read": "pass_fixed_right_rail_text_zone_preserved",
+        "minimal_ambient_scope_read": "pass_only_6_source_plate_drift_and_1a_lamp_hotspot_active"
+      },
+      "roi_metric_summary": {
+        "lamp_hotspot_roi": {
+          "mean": 0.6800690415230665,
+          "max": 1.29231595993042
+        },
+        "source_plate_drift_roi": {
+          "mean": 0.1967337548055432,
+          "max": 0.34424135088920593
+        },
+        "microscope_glint_disabled_roi": {
+          "mean": 0.24468083002350546,
+          "max": 0.4138045608997345
+        },
+        "dust_disabled_roi": {
+          "mean": 0.3985587968067689,
+          "max": 0.7102850079536438
+        }
+      }
+    }
+  },
+  "human_disposition_utc": "2026-05-20T01:07:36Z",
+  "human_disposition_source": "user_message_this_is_good_for_now_keep",
+  "human_disposition_scope": "current_html_rough_proof_approved_for_final_mp4_render_only",
+  "current_gate_after_keep": "final_assembly",
+  "next_required_gate_after_keep": "create_final_assembly_from_kept_minimal_rough_proof",
+  "keep_record": {
+    "disposition": "keep",
+    "disposition_utc": "2026-05-20T01:07:36Z",
+    "reviewer_text": "this is good for now - keep",
+    "kept_html_proof_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/player.html",
+    "kept_html_proof_sha256": "101c3e381986bfbcaaa98ac9d0b5cda12d7614d91a76a4bace89f5098f9e3ccc",
+    "review_url": "http://127.0.0.1:8862/player.html",
+    "minimal_ambient_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/qa/minimal_ambient_6_1a_review/minimal_ambient_6_1a_qa.json",
+    "minimal_ambient_qa_sha256": "a009fae3f2d1d00dacb5026a867f1935aba0e833ed206aa3bd7958f7eb14a9b1",
+    "review_disposition_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_minimal_ambient_6_1a_20260520T004143Z/review/human_keep_minimal_ambient_6_1a_20260520T010736Z.md",
+    "review_disposition_sha256": "53566b07f553b40dcb574f3699d5bcbd635b8eee06b774d2a4140f1b8684cfa1",
+    "scope": "rough_assembly_keep_opens_final_render_only"
+  }
+}

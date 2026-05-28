@@ -1,0 +1,312 @@
+{
+  "packet_id": "tacoma-narrows_publish_readiness_20260523T142836Z",
+  "episode_id": "tacoma-narrows",
+  "episode_title": "Tacoma Narrows",
+  "workflow": "long_form_video_production_v1",
+  "stage": "publish_readiness",
+  "lifecycle_stage": "publish_readiness",
+  "current_gate": "publish_readiness_review",
+  "status": "review_ready_pending_human_publish_readiness_keep",
+  "human_disposition": "pending",
+  "final_assembly_disposition": "keep",
+  "created_utc": "2026-05-23T14:28:39Z",
+  "primary_review_artifact": {
+    "path": "review.html",
+    "sha256": "b0e0908fe7ca0195135a0fb3666d36435514f8a665886906c6c806642fefb523",
+    "bytes": 8216
+  },
+  "publish_readiness_review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/review.html",
+  "publish_readiness_canonical_review_url": "http://127.0.0.1:8899/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/review.html",
+  "remote_review": {
+    "status": "not_published",
+    "remote_review_url": "https://cascadeeffects.tv/reviews/publish-readiness/tacoma-narrows",
+    "storage_policy": "normalized_manifest_and_small_evidence_assets_only",
+    "large_video_upload_allowed": false,
+    "video_host": "youtube_unlisted_after_explicit_approval_only"
+  },
+  "source_final_render": {
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T050034Z/video_render/tacoma-narrows_rolling_caption_rail_final_mp4_20260523T072507Z/render_manifest.json",
+    "manifest_sha256": "e0e8745f6f16efe0191dbdb7e3d72e2b8ae6d79dab992962bcaf8a3ea96e09b5",
+    "mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T050034Z/video_render/tacoma-narrows_rolling_caption_rail_final_mp4_20260523T072507Z/tacoma-narrows_living_cover_final_review_1080p24.mp4",
+    "mp4_sha256": "b3cb84eec7f6a69242da70cae5e98bca138895b11da6950d6f08300ca27bb669"
+  },
+  "source_html_proof": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T050034Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T050034Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T050034Z/player.html",
+    "player_sha256": "d90ae2fd73a54fcda494971224fc108a7f3ef12afbd6ca923b414dba5918b4f8",
+    "current_kept_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source"
+  },
+  "local_assets": {
+    "mp4": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/media/tacoma-narrows_living_cover_final_review_1080p24.mp4",
+      "sha256": "b3cb84eec7f6a69242da70cae5e98bca138895b11da6950d6f08300ca27bb669",
+      "bytes": 243793162,
+      "role": "kept_final_assembly_mp4",
+      "rel": "media/tacoma-narrows_living_cover_final_review_1080p24.mp4"
+    },
+    "vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "ea99ff408c835221d9e4415464df52a0bbf1b7fcfa35dfd2be0c6ad1f77876b1",
+      "bytes": 20590,
+      "role": "youtube_caption_sidecar_vtt",
+      "rel": "captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.vtt"
+    },
+    "srt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "ed4c52ab1bd5fe5352950d283fe7087036538af70ad7610294a6366bac2a2dc4",
+      "bytes": 21594,
+      "role": "generated_youtube_caption_sidecar_srt",
+      "rel": "captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.srt"
+    },
+    "thumbnail_candidate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/thumbnail/tacoma-narrows_thumbnail_candidate.jpg",
+      "sha256": "2cd07b944a4b2eadbf3ccf72d7444db83d414c6c23054bbb17f2187fe00bb719",
+      "bytes": 265926,
+      "role": "thumbnail_candidate_from_kept_mp4_frame",
+      "rel": "thumbnail/tacoma-narrows_thumbnail_candidate.jpg"
+    },
+    "qa_frames": {
+      "final_second": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/qa_frames/final_second_mp4_qa_final_second_871p530s.jpg",
+        "sha256": "cfdcb990942d4abb7f32d18666c6689e8721bc0078fda4cee9973c1e194e66db",
+        "bytes": 269828,
+        "role": "qa_frame_final_second",
+        "rel": "qa_frames/final_second_mp4_qa_final_second_871p530s.jpg"
+      },
+      "half": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/qa_frames/half_mp4_qa_half_436p265s.jpg",
+        "sha256": "8ef98f0e66a9810e6e08abdc1f9c68b4c71f43699e77f13211a4e7f349914c1e",
+        "bytes": 289433,
+        "role": "qa_frame_half",
+        "rel": "qa_frames/half_mp4_qa_half_436p265s.jpg"
+      },
+      "quarter": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/qa_frames/quarter_mp4_qa_quarter_218p133s.jpg",
+        "sha256": "873c615ca78245511f734b931be9611eb8bd03a8c779aa75c25db5d75fda62a6",
+        "bytes": 283329,
+        "role": "qa_frame_quarter",
+        "rel": "qa_frames/quarter_mp4_qa_quarter_218p133s.jpg"
+      },
+      "safe_window_start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/qa_frames/safe_window_start_mp4_qa_safe_window_start_852p530s.jpg",
+        "sha256": "ff078108492559daf66fba281eaa71e7b478bc9ba8d7401592b2c77fe7e0bfbb",
+        "bytes": 269424,
+        "role": "qa_frame_safe_window_start",
+        "rel": "qa_frames/safe_window_start_mp4_qa_safe_window_start_852p530s.jpg"
+      },
+      "start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/qa_frames/start_mp4_qa_start_1p000s.jpg",
+        "sha256": "2cd07b944a4b2eadbf3ccf72d7444db83d414c6c23054bbb17f2187fe00bb719",
+        "bytes": 265926,
+        "role": "qa_frame_start",
+        "rel": "qa_frames/start_mp4_qa_start_1p000s.jpg"
+      },
+      "three_quarter": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/qa_frames/three_quarter_mp4_qa_three_quarter_654p398s.jpg",
+        "sha256": "f92c1cb2477e71230b505a912f4c1dac1fd782cc2cc19fe792da132c1693f92a",
+        "bytes": 292631,
+        "role": "qa_frame_three_quarter",
+        "rel": "qa_frames/three_quarter_mp4_qa_three_quarter_654p398s.jpg"
+      },
+      "voice_start": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg",
+        "sha256": "65cda8b895ab32af383e33a338b96894ffdfec51548ccb87f3261efec14027ef",
+        "bytes": 281342,
+        "role": "qa_frame_voice_start",
+        "rel": "qa_frames/voice_start_mp4_qa_voice_start_3p601s.jpg"
+      }
+    },
+    "render_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/provenance/render_manifest.json",
+      "sha256": "e0e8745f6f16efe0191dbdb7e3d72e2b8ae6d79dab992962bcaf8a3ea96e09b5",
+      "bytes": 16382,
+      "role": "render_manifest_copy",
+      "rel": "provenance/render_manifest.json"
+    },
+    "rough_assembly_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/provenance/rough_assembly_manifest.json",
+      "sha256": "d1b9e4d4bc6d0366738bcf279488fea16d6861e2cc33efd9d6a79828af417092",
+      "bytes": 194863,
+      "role": "rough_assembly_manifest_copy",
+      "rel": "provenance/rough_assembly_manifest.json"
+    },
+    "final_assembly_review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/provenance/final_assembly_review_packet.md",
+      "sha256": "bd7fc43df4be61c9ffc33ce84bb42278d487814e0404b493c2e68d6be6553b6a",
+      "bytes": 1147,
+      "role": "final_assembly_review_packet_copy",
+      "rel": "provenance/final_assembly_review_packet.md"
+    },
+    "browser_caption_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/provenance/browser_caption_qa.json",
+      "sha256": "0d9313eadd90919b285be97dd632165e22bcf00f131b5f2b006dde47cded99fb",
+      "bytes": 94052,
+      "role": "browser_caption_qa_copy",
+      "rel": "provenance/browser_caption_qa.json"
+    }
+  },
+  "media": {
+    "final_mp4": {
+      "path": "media/tacoma-narrows_living_cover_final_review_1080p24.mp4",
+      "sha256": "b3cb84eec7f6a69242da70cae5e98bca138895b11da6950d6f08300ca27bb669",
+      "bytes": 243793162
+    },
+    "caption_vtt": {
+      "path": "captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+      "sha256": "ea99ff408c835221d9e4415464df52a0bbf1b7fcfa35dfd2be0c6ad1f77876b1",
+      "bytes": 20590
+    },
+    "caption_srt": {
+      "path": "captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+      "sha256": "ed4c52ab1bd5fe5352950d283fe7087036538af70ad7610294a6366bac2a2dc4",
+      "bytes": 21594
+    },
+    "thumbnail_candidate": {
+      "path": "thumbnail/tacoma-narrows_thumbnail_candidate.jpg",
+      "sha256": "2cd07b944a4b2eadbf3ccf72d7444db83d414c6c23054bbb17f2187fe00bb719",
+      "bytes": 265926
+    }
+  },
+  "youtube_metadata": {
+    "title": "Tacoma Narrows",
+    "description": "Tacoma Narrows is a Cascade Effects episode about how small signals become system consequences.\n\nA bridge built at the edge of aerodynamic understanding exposed how structure, wind, and confidence can drift apart.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.",
+    "chapters": [
+      {
+        "time": "0:00",
+        "seconds": 0,
+        "label": "Opening"
+      },
+      {
+        "time": "0:04",
+        "seconds": 4,
+        "label": "Main episode"
+      },
+      {
+        "time": "13:33",
+        "seconds": 812.523991,
+        "label": "Closing"
+      }
+    ],
+    "tags": [
+      "Cascade Effects",
+      "Galloping Gertie",
+      "Tacoma Narrows",
+      "aeroelastic flutter",
+      "bridge collapse",
+      "documentary",
+      "systems failure"
+    ],
+    "hashtags": [
+      "#CascadeEffects"
+    ],
+    "category": "Education",
+    "language": "en",
+    "made_for_kids": false,
+    "paid_promotion": false,
+    "privacy_after_explicit_approval": "unlisted",
+    "public_release_policy": "manual_youtube_studio_only",
+    "metadata_path": "metadata/youtube_metadata.json",
+    "metadata_sha256": "26eccc9479fa6b4be85b13de301bb5bd74fae4c625a7484d02c37f5a9697a92c"
+  },
+  "source_factcheck": {
+    "status": "pending_current_long_form_source_factcheck_backfill",
+    "episode_id": "tacoma-narrows",
+    "note": "No current long-form source-factcheck manifest was found for this rolling-caption MP4 package. Review can continue, but publish-readiness keep should not waive this without a named human decision.",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing"
+  },
+  "ffprobe": {
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "duration_seconds": 872.523991
+  },
+  "reads": {
+    "mp4_created_read": "pass",
+    "video_stream_read": "pass_h264_present",
+    "audio_stream_read": "pass_aac_audio_present",
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "duration_read": "pass",
+    "dimensions_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "caption_sidecar_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "caption_suppression_read": "pass",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "viewer_text_suppression_read": "pass",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "post_change_regression_read": "pass_rendered_from_current_kept_tacoma-narrows_html_proof",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "downstream_gate_read": "pass_final_mp4_created_publish_and_youtube_flags_false",
+    "final_assembly_human_keep_read": "pass_user_kept_all_current_long_form_mp4_final_assemblies_2026_05_23",
+    "publish_readiness_gate_read": "pass_final_assembly_keep_opens_publish_readiness_package_creation_only",
+    "youtube_upload_ready_read": "blocked_pending_publish_readiness_package_keep_and_explicit_upload_authorization",
+    "youtube_public_release_read": "blocked_manual_youtube_studio_only",
+    "html_primary_review_read": "pass_review_html_created_as_primary_publish_readiness_artifact",
+    "html_media_refs_read": "pass_package_local_relative_media_refs_exist",
+    "html_native_video_scrub_read": "pass_native_video_controls_and_range_server_available",
+    "html_range_server_read": "pass_mp4_http_range_probe_206",
+    "html_canonical_review_url_read": "pass_http_review_url_200",
+    "publish_readiness_package_local_asset_copy_read": "pass_package_local_assets_copied",
+    "html_upload_lock_read": "pass_upload_locks_visible_and_false",
+    "youtube_metadata_copywriting_read": "pass_generated_public_metadata_no_internal_terms",
+    "public_metadata_copy_read": "pass_generated_public_metadata_no_internal_terms",
+    "public_tag_relevance_read": "pass_episode_specific_tags_present",
+    "source_factcheck_status_read": "pending_current_source_factcheck_manifest_missing",
+    "caption_sidecar_packaged_read": "pass_vtt_and_generated_srt_packaged",
+    "final_mp4_packaged_read": "pass",
+    "ffprobe_stream_read": "pass_video_and_audio_streams_present"
+  },
+  "blockers": [
+    "Current long-form source/fact-check manifest is pending or missing.",
+    "Publish-readiness package human keep is required before any YouTube review upload.",
+    "Explicit upload authorization is required after publish-readiness keep.",
+    "YouTube Content ID/music claim status must be checked after upload processing.",
+    "Public release remains manual."
+  ],
+  "locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "upload_action_enabled_in_review_html": false,
+    "public_release": false,
+    "review_upload_privacy_after_approval": "unlisted_after_publish_readiness_keep_and_explicit_upload_approval"
+  },
+  "publish_ready": false,
+  "youtube_upload_ready": false,
+  "public_release_ready": false,
+  "may_youtube_action": false,
+  "may_advance_to_upload": false,
+  "upload_allowed": false,
+  "upload_performed": false,
+  "next_review_question": "Review publish readiness and reply with exactly one disposition: keep, tighten, or reject.",
+  "publish_readiness_review_html_sha256": "b0e0908fe7ca0195135a0fb3666d36435514f8a665886906c6c806642fefb523",
+  "review_server": {
+    "type": "byte_range_capable_local_http",
+    "root": "/Users/mike/Episodes_CascadeEffects",
+    "port": 8899,
+    "url": "http://127.0.0.1:8899/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/publish_readiness/tacoma-narrows_publish_readiness_20260523T142836Z/review.html",
+    "review_probe_status": 200,
+    "mp4_range_probe_status": 206
+  }
+}

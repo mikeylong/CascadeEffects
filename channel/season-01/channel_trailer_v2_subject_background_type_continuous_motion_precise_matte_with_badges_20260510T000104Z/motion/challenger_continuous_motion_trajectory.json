@@ -1,0 +1,1436 @@
+{
+  "slug": "challenger",
+  "label": "CHALLENGER",
+  "segment_duration_seconds": 3.2,
+  "fps": 24,
+  "frame_count": 77,
+  "motion_strategy": "continuous_velocity_profile_fast_in_slow_middle_fast_out",
+  "motion_model": {
+    "start_x": -1454,
+    "settle_x": null,
+    "slow_glide_end_x": null,
+    "exit_x": 2100,
+    "y": 206,
+    "enter_duration_seconds": 1.0239999999999998,
+    "slow_glide_duration_seconds": 1.4079999999999997,
+    "exit_duration_seconds": 0.7679999999999998,
+    "enter_curve": null,
+    "slow_glide_curve": null,
+    "exit_curve": null,
+    "fast_in_zone": [
+      0.0,
+      0.32
+    ],
+    "slow_middle_zone": [
+      0.32,
+      0.76
+    ],
+    "fast_out_zone": [
+      0.76,
+      1.0
+    ],
+    "middle_speed_ratio": 0.45,
+    "speed_measurement_core_windows": {
+      "fast_in": [
+        0.0,
+        0.18
+      ],
+      "slow_middle": [
+        0.42,
+        0.68
+      ],
+      "fast_out": [
+        0.86,
+        1.0
+      ]
+    }
+  },
+  "trajectory": [
+    {
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "global_time_seconds": 6.0,
+      "short_source_time_seconds": 8.0,
+      "x": -1454.0,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.0,
+      "eased_progress": 0.0,
+      "speed_shape": 1.0,
+      "text_bbox_xy": [
+        -1454,
+        206,
+        -180,
+        347
+      ]
+    },
+    {
+      "frame_index": 1,
+      "time_seconds": 0.042105,
+      "global_time_seconds": 6.042105,
+      "short_source_time_seconds": 8.042105,
+      "x": -1376.649353,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.013158,
+      "eased_progress": 0.021764,
+      "speed_shape": 0.997239,
+      "text_bbox_xy": [
+        -1377,
+        206,
+        -103,
+        347
+      ]
+    },
+    {
+      "frame_index": 2,
+      "time_seconds": 0.084211,
+      "global_time_seconds": 6.084211,
+      "short_source_time_seconds": 8.084211,
+      "x": -1299.716384,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.026316,
+      "eased_progress": 0.043411,
+      "speed_shape": 0.989294,
+      "text_bbox_xy": [
+        -1300,
+        206,
+        -26,
+        347
+      ]
+    },
+    {
+      "frame_index": 3,
+      "time_seconds": 0.126316,
+      "global_time_seconds": 6.126316,
+      "short_source_time_seconds": 8.126316,
+      "x": -1223.583053,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.039474,
+      "eased_progress": 0.064833,
+      "speed_shape": 0.976665,
+      "text_bbox_xy": [
+        -1224,
+        206,
+        50,
+        347
+      ]
+    },
+    {
+      "frame_index": 4,
+      "time_seconds": 0.168421,
+      "global_time_seconds": 6.168421,
+      "short_source_time_seconds": 8.168421,
+      "x": -1148.593108,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.052632,
+      "eased_progress": 0.085933,
+      "speed_shape": 0.959839,
+      "text_bbox_xy": [
+        -1149,
+        206,
+        125,
+        347
+      ]
+    },
+    {
+      "frame_index": 5,
+      "time_seconds": 0.210526,
+      "global_time_seconds": 6.210526,
+      "short_source_time_seconds": 8.210526,
+      "x": -1075.052778,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.065789,
+      "eased_progress": 0.106626,
+      "speed_shape": 0.939298,
+      "text_bbox_xy": [
+        -1075,
+        206,
+        199,
+        347
+      ]
+    },
+    {
+      "frame_index": 6,
+      "time_seconds": 0.252632,
+      "global_time_seconds": 6.252632,
+      "short_source_time_seconds": 8.252632,
+      "x": -1003.231463,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.078947,
+      "eased_progress": 0.126834,
+      "speed_shape": 0.915511,
+      "text_bbox_xy": [
+        -1003,
+        206,
+        271,
+        347
+      ]
+    },
+    {
+      "frame_index": 7,
+      "time_seconds": 0.294737,
+      "global_time_seconds": 6.294737,
+      "short_source_time_seconds": 8.294737,
+      "x": -933.362251,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.092105,
+      "eased_progress": 0.146493,
+      "speed_shape": 0.888948,
+      "text_bbox_xy": [
+        -933,
+        206,
+        341,
+        347
+      ]
+    },
+    {
+      "frame_index": 8,
+      "time_seconds": 0.336842,
+      "global_time_seconds": 6.336842,
+      "short_source_time_seconds": 8.336842,
+      "x": -865.642424,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.105263,
+      "eased_progress": 0.165548,
+      "speed_shape": 0.860064,
+      "text_bbox_xy": [
+        -866,
+        206,
+        408,
+        347
+      ]
+    },
+    {
+      "frame_index": 9,
+      "time_seconds": 0.378947,
+      "global_time_seconds": 6.378947,
+      "short_source_time_seconds": 8.378947,
+      "x": -800.233816,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.118421,
+      "eased_progress": 0.183952,
+      "speed_shape": 0.829318,
+      "text_bbox_xy": [
+        -800,
+        206,
+        474,
+        347
+      ]
+    },
+    {
+      "frame_index": 10,
+      "time_seconds": 0.421053,
+      "global_time_seconds": 6.421053,
+      "short_source_time_seconds": 8.421053,
+      "x": -737.263219,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.131579,
+      "eased_progress": 0.20167,
+      "speed_shape": 0.79716,
+      "text_bbox_xy": [
+        -737,
+        206,
+        537,
+        347
+      ]
+    },
+    {
+      "frame_index": 11,
+      "time_seconds": 0.463158,
+      "global_time_seconds": 6.463158,
+      "short_source_time_seconds": 8.463158,
+      "x": -676.822577,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.144737,
+      "eased_progress": 0.218677,
+      "speed_shape": 0.764038,
+      "text_bbox_xy": [
+        -677,
+        206,
+        597,
+        347
+      ]
+    },
+    {
+      "frame_index": 12,
+      "time_seconds": 0.505263,
+      "global_time_seconds": 6.505263,
+      "short_source_time_seconds": 8.505263,
+      "x": -618.969164,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.157895,
+      "eased_progress": 0.234955,
+      "speed_shape": 0.730401,
+      "text_bbox_xy": [
+        -619,
+        206,
+        655,
+        347
+      ]
+    },
+    {
+      "frame_index": 13,
+      "time_seconds": 0.547368,
+      "global_time_seconds": 6.547368,
+      "short_source_time_seconds": 8.547368,
+      "x": -563.725761,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.171053,
+      "eased_progress": 0.250499,
+      "speed_shape": 0.69669,
+      "text_bbox_xy": [
+        -564,
+        206,
+        710,
+        347
+      ]
+    },
+    {
+      "frame_index": 14,
+      "time_seconds": 0.589474,
+      "global_time_seconds": 6.589474,
+      "short_source_time_seconds": 8.589474,
+      "x": -511.080633,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.184211,
+      "eased_progress": 0.265312,
+      "speed_shape": 0.663356,
+      "text_bbox_xy": [
+        -511,
+        206,
+        763,
+        347
+      ]
+    },
+    {
+      "frame_index": 15,
+      "time_seconds": 0.631579,
+      "global_time_seconds": 6.631579,
+      "short_source_time_seconds": 8.631579,
+      "x": -460.987509,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.197368,
+      "eased_progress": 0.279407,
+      "speed_shape": 0.63084,
+      "text_bbox_xy": [
+        -461,
+        206,
+        813,
+        347
+      ]
+    },
+    {
+      "frame_index": 16,
+      "time_seconds": 0.673684,
+      "global_time_seconds": 6.673684,
+      "short_source_time_seconds": 8.673684,
+      "x": -413.365601,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.210526,
+      "eased_progress": 0.292807,
+      "speed_shape": 0.599593,
+      "text_bbox_xy": [
+        -413,
+        206,
+        861,
+        347
+      ]
+    },
+    {
+      "frame_index": 17,
+      "time_seconds": 0.715789,
+      "global_time_seconds": 6.715789,
+      "short_source_time_seconds": 8.715789,
+      "x": -368.099296,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.223684,
+      "eased_progress": 0.305543,
+      "speed_shape": 0.570065,
+      "text_bbox_xy": [
+        -368,
+        206,
+        906,
+        347
+      ]
+    },
+    {
+      "frame_index": 18,
+      "time_seconds": 0.757895,
+      "global_time_seconds": 6.757895,
+      "short_source_time_seconds": 8.757895,
+      "x": -325.037941,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.236842,
+      "eased_progress": 0.31766,
+      "speed_shape": 0.542709,
+      "text_bbox_xy": [
+        -325,
+        206,
+        949,
+        347
+      ]
+    },
+    {
+      "frame_index": 19,
+      "time_seconds": 0.8,
+      "global_time_seconds": 6.8,
+      "short_source_time_seconds": 8.8,
+      "x": -283.995707,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.25,
+      "eased_progress": 0.329208,
+      "speed_shape": 0.517983,
+      "text_bbox_xy": [
+        -284,
+        206,
+        990,
+        347
+      ]
+    },
+    {
+      "frame_index": 20,
+      "time_seconds": 0.842105,
+      "global_time_seconds": 6.842105,
+      "short_source_time_seconds": 8.842105,
+      "x": -244.750933,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.263158,
+      "eased_progress": 0.34025,
+      "speed_shape": 0.496353,
+      "text_bbox_xy": [
+        -245,
+        206,
+        1029,
+        347
+      ]
+    },
+    {
+      "frame_index": 21,
+      "time_seconds": 0.884211,
+      "global_time_seconds": 6.884211,
+      "short_source_time_seconds": 8.884211,
+      "x": -207.045984,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.276316,
+      "eased_progress": 0.350859,
+      "speed_shape": 0.478286,
+      "text_bbox_xy": [
+        -207,
+        206,
+        1067,
+        347
+      ]
+    },
+    {
+      "frame_index": 22,
+      "time_seconds": 0.926316,
+      "global_time_seconds": 6.926316,
+      "short_source_time_seconds": 8.926316,
+      "x": -170.586389,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.289474,
+      "eased_progress": 0.361118,
+      "speed_shape": 0.464261,
+      "text_bbox_xy": [
+        -171,
+        206,
+        1103,
+        347
+      ]
+    },
+    {
+      "frame_index": 23,
+      "time_seconds": 0.968421,
+      "global_time_seconds": 6.968421,
+      "short_source_time_seconds": 8.968421,
+      "x": -135.040547,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.302632,
+      "eased_progress": 0.37112,
+      "speed_shape": 0.454763,
+      "text_bbox_xy": [
+        -135,
+        206,
+        1139,
+        347
+      ]
+    },
+    {
+      "frame_index": 24,
+      "time_seconds": 1.010526,
+      "global_time_seconds": 7.010526,
+      "short_source_time_seconds": 9.010526,
+      "x": -100.038709,
+      "y": 206.0,
+      "phase": "fast_in",
+      "phase_progress": 0.315789,
+      "eased_progress": 0.380968,
+      "speed_shape": 0.450289,
+      "text_bbox_xy": [
+        -100,
+        206,
+        1174,
+        347
+      ]
+    },
+    {
+      "frame_index": 25,
+      "time_seconds": 1.052632,
+      "global_time_seconds": 7.052632,
+      "short_source_time_seconds": 9.052632,
+      "x": -65.196113,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.328947,
+      "eased_progress": 0.390772,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        -65,
+        206,
+        1209,
+        347
+      ]
+    },
+    {
+      "frame_index": 26,
+      "time_seconds": 1.094737,
+      "global_time_seconds": 7.094737,
+      "short_source_time_seconds": 9.094737,
+      "x": -30.35606,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.342105,
+      "eased_progress": 0.400575,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        -30,
+        206,
+        1244,
+        347
+      ]
+    },
+    {
+      "frame_index": 27,
+      "time_seconds": 1.136842,
+      "global_time_seconds": 7.136842,
+      "short_source_time_seconds": 9.136842,
+      "x": 4.484047,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.355263,
+      "eased_progress": 0.410378,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        4,
+        206,
+        1278,
+        347
+      ]
+    },
+    {
+      "frame_index": 28,
+      "time_seconds": 1.178947,
+      "global_time_seconds": 7.178947,
+      "short_source_time_seconds": 9.178947,
+      "x": 39.324196,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.368421,
+      "eased_progress": 0.420181,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        39,
+        206,
+        1313,
+        347
+      ]
+    },
+    {
+      "frame_index": 29,
+      "time_seconds": 1.221053,
+      "global_time_seconds": 7.221053,
+      "short_source_time_seconds": 9.221053,
+      "x": 74.164296,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.381579,
+      "eased_progress": 0.429984,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        74,
+        206,
+        1348,
+        347
+      ]
+    },
+    {
+      "frame_index": 30,
+      "time_seconds": 1.263158,
+      "global_time_seconds": 7.263158,
+      "short_source_time_seconds": 9.263158,
+      "x": 109.004401,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.394737,
+      "eased_progress": 0.439787,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        109,
+        206,
+        1383,
+        347
+      ]
+    },
+    {
+      "frame_index": 31,
+      "time_seconds": 1.305263,
+      "global_time_seconds": 7.305263,
+      "short_source_time_seconds": 9.305263,
+      "x": 143.844462,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.407895,
+      "eased_progress": 0.44959,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        144,
+        206,
+        1418,
+        347
+      ]
+    },
+    {
+      "frame_index": 32,
+      "time_seconds": 1.347368,
+      "global_time_seconds": 7.347368,
+      "short_source_time_seconds": 9.347368,
+      "x": 178.68457,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.421053,
+      "eased_progress": 0.459394,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        179,
+        206,
+        1453,
+        347
+      ]
+    },
+    {
+      "frame_index": 33,
+      "time_seconds": 1.389474,
+      "global_time_seconds": 7.389474,
+      "short_source_time_seconds": 9.389474,
+      "x": 213.524689,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.434211,
+      "eased_progress": 0.469197,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        214,
+        206,
+        1488,
+        347
+      ]
+    },
+    {
+      "frame_index": 34,
+      "time_seconds": 1.431579,
+      "global_time_seconds": 7.431579,
+      "short_source_time_seconds": 9.431579,
+      "x": 248.36478,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.447368,
+      "eased_progress": 0.479,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        248,
+        206,
+        1522,
+        347
+      ]
+    },
+    {
+      "frame_index": 35,
+      "time_seconds": 1.473684,
+      "global_time_seconds": 7.473684,
+      "short_source_time_seconds": 9.473684,
+      "x": 283.204877,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.460526,
+      "eased_progress": 0.488803,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        283,
+        206,
+        1557,
+        347
+      ]
+    },
+    {
+      "frame_index": 36,
+      "time_seconds": 1.515789,
+      "global_time_seconds": 7.515789,
+      "short_source_time_seconds": 9.515789,
+      "x": 318.044956,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.473684,
+      "eased_progress": 0.498606,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        318,
+        206,
+        1592,
+        347
+      ]
+    },
+    {
+      "frame_index": 37,
+      "time_seconds": 1.557895,
+      "global_time_seconds": 7.557895,
+      "short_source_time_seconds": 9.557895,
+      "x": 352.885049,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.486842,
+      "eased_progress": 0.508409,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        353,
+        206,
+        1627,
+        347
+      ]
+    },
+    {
+      "frame_index": 38,
+      "time_seconds": 1.6,
+      "global_time_seconds": 7.6,
+      "short_source_time_seconds": 9.6,
+      "x": 387.725167,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.5,
+      "eased_progress": 0.518212,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        388,
+        206,
+        1662,
+        347
+      ]
+    },
+    {
+      "frame_index": 39,
+      "time_seconds": 1.642105,
+      "global_time_seconds": 7.642105,
+      "short_source_time_seconds": 9.642105,
+      "x": 422.565272,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.513158,
+      "eased_progress": 0.528015,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        423,
+        206,
+        1697,
+        347
+      ]
+    },
+    {
+      "frame_index": 40,
+      "time_seconds": 1.684211,
+      "global_time_seconds": 7.684211,
+      "short_source_time_seconds": 9.684211,
+      "x": 457.405411,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.526316,
+      "eased_progress": 0.537818,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        457,
+        206,
+        1731,
+        347
+      ]
+    },
+    {
+      "frame_index": 41,
+      "time_seconds": 1.726316,
+      "global_time_seconds": 7.726316,
+      "short_source_time_seconds": 9.726316,
+      "x": 492.245446,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.539474,
+      "eased_progress": 0.547621,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        492,
+        206,
+        1766,
+        347
+      ]
+    },
+    {
+      "frame_index": 42,
+      "time_seconds": 1.768421,
+      "global_time_seconds": 7.768421,
+      "short_source_time_seconds": 9.768421,
+      "x": 527.085547,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.552632,
+      "eased_progress": 0.557424,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        527,
+        206,
+        1801,
+        347
+      ]
+    },
+    {
+      "frame_index": 43,
+      "time_seconds": 1.810526,
+      "global_time_seconds": 7.810526,
+      "short_source_time_seconds": 9.810526,
+      "x": 561.92574,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.565789,
+      "eased_progress": 0.567227,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        562,
+        206,
+        1836,
+        347
+      ]
+    },
+    {
+      "frame_index": 44,
+      "time_seconds": 1.852632,
+      "global_time_seconds": 7.852632,
+      "short_source_time_seconds": 9.852632,
+      "x": 596.765782,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.578947,
+      "eased_progress": 0.57703,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        597,
+        206,
+        1871,
+        347
+      ]
+    },
+    {
+      "frame_index": 45,
+      "time_seconds": 1.894737,
+      "global_time_seconds": 7.894737,
+      "short_source_time_seconds": 9.894737,
+      "x": 631.605902,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.592105,
+      "eased_progress": 0.586833,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        632,
+        206,
+        1906,
+        347
+      ]
+    },
+    {
+      "frame_index": 46,
+      "time_seconds": 1.936842,
+      "global_time_seconds": 7.936842,
+      "short_source_time_seconds": 9.936842,
+      "x": 666.445926,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.605263,
+      "eased_progress": 0.596636,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        666,
+        206,
+        1940,
+        347
+      ]
+    },
+    {
+      "frame_index": 47,
+      "time_seconds": 1.978947,
+      "global_time_seconds": 7.978947,
+      "short_source_time_seconds": 9.978947,
+      "x": 701.286136,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.618421,
+      "eased_progress": 0.60644,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        701,
+        206,
+        1975,
+        347
+      ]
+    },
+    {
+      "frame_index": 48,
+      "time_seconds": 2.021053,
+      "global_time_seconds": 8.021053,
+      "short_source_time_seconds": 10.021053,
+      "x": 736.126175,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.631579,
+      "eased_progress": 0.616243,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        736,
+        206,
+        2010,
+        347
+      ]
+    },
+    {
+      "frame_index": 49,
+      "time_seconds": 2.063158,
+      "global_time_seconds": 8.063158,
+      "short_source_time_seconds": 10.063158,
+      "x": 770.966351,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.644737,
+      "eased_progress": 0.626046,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        771,
+        206,
+        2045,
+        347
+      ]
+    },
+    {
+      "frame_index": 50,
+      "time_seconds": 2.105263,
+      "global_time_seconds": 8.105263,
+      "short_source_time_seconds": 10.105263,
+      "x": 805.806431,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.657895,
+      "eased_progress": 0.635849,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        806,
+        206,
+        2080,
+        347
+      ]
+    },
+    {
+      "frame_index": 51,
+      "time_seconds": 2.147368,
+      "global_time_seconds": 8.147368,
+      "short_source_time_seconds": 10.147368,
+      "x": 840.646498,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.671053,
+      "eased_progress": 0.645652,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        841,
+        206,
+        2115,
+        347
+      ]
+    },
+    {
+      "frame_index": 52,
+      "time_seconds": 2.189474,
+      "global_time_seconds": 8.189474,
+      "short_source_time_seconds": 10.189474,
+      "x": 875.486597,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.684211,
+      "eased_progress": 0.655455,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        875,
+        206,
+        2149,
+        347
+      ]
+    },
+    {
+      "frame_index": 53,
+      "time_seconds": 2.231579,
+      "global_time_seconds": 8.231579,
+      "short_source_time_seconds": 10.231579,
+      "x": 910.326739,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.697368,
+      "eased_progress": 0.665258,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        910,
+        206,
+        2184,
+        347
+      ]
+    },
+    {
+      "frame_index": 54,
+      "time_seconds": 2.273684,
+      "global_time_seconds": 8.273684,
+      "short_source_time_seconds": 10.273684,
+      "x": 945.16681,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.710526,
+      "eased_progress": 0.675061,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        945,
+        206,
+        2219,
+        347
+      ]
+    },
+    {
+      "frame_index": 55,
+      "time_seconds": 2.315789,
+      "global_time_seconds": 8.315789,
+      "short_source_time_seconds": 10.315789,
+      "x": 980.006902,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.723684,
+      "eased_progress": 0.684864,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        980,
+        206,
+        2254,
+        347
+      ]
+    },
+    {
+      "frame_index": 56,
+      "time_seconds": 2.357895,
+      "global_time_seconds": 8.357895,
+      "short_source_time_seconds": 10.357895,
+      "x": 1014.847025,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.736842,
+      "eased_progress": 0.694667,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        1015,
+        206,
+        2289,
+        347
+      ]
+    },
+    {
+      "frame_index": 57,
+      "time_seconds": 2.4,
+      "global_time_seconds": 8.4,
+      "short_source_time_seconds": 10.4,
+      "x": 1049.687071,
+      "y": 206.0,
+      "phase": "slow_middle",
+      "phase_progress": 0.75,
+      "eased_progress": 0.70447,
+      "speed_shape": 0.45,
+      "text_bbox_xy": [
+        1050,
+        206,
+        2324,
+        347
+      ]
+    },
+    {
+      "frame_index": 58,
+      "time_seconds": 2.442105,
+      "global_time_seconds": 8.442105,
+      "short_source_time_seconds": 10.442105,
+      "x": 1084.52951,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.763158,
+      "eased_progress": 0.714274,
+      "speed_shape": 0.450289,
+      "text_bbox_xy": [
+        1085,
+        206,
+        2359,
+        347
+      ]
+    },
+    {
+      "frame_index": 59,
+      "time_seconds": 2.484211,
+      "global_time_seconds": 8.484211,
+      "short_source_time_seconds": 10.484211,
+      "x": 1119.609632,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.776316,
+      "eased_progress": 0.724145,
+      "speed_shape": 0.457396,
+      "text_bbox_xy": [
+        1120,
+        206,
+        2394,
+        347
+      ]
+    },
+    {
+      "frame_index": 60,
+      "time_seconds": 2.526316,
+      "global_time_seconds": 8.526316,
+      "short_source_time_seconds": 10.526316,
+      "x": 1155.581737,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.789474,
+      "eased_progress": 0.734266,
+      "speed_shape": 0.473138,
+      "text_bbox_xy": [
+        1156,
+        206,
+        2430,
+        347
+      ]
+    },
+    {
+      "frame_index": 61,
+      "time_seconds": 2.568421,
+      "global_time_seconds": 8.568421,
+      "short_source_time_seconds": 10.568421,
+      "x": 1193.069028,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.802632,
+      "eased_progress": 0.744814,
+      "speed_shape": 0.496353,
+      "text_bbox_xy": [
+        1193,
+        206,
+        2467,
+        347
+      ]
+    },
+    {
+      "frame_index": 62,
+      "time_seconds": 2.610526,
+      "global_time_seconds": 8.610526,
+      "short_source_time_seconds": 10.610526,
+      "x": 1232.60626,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.815789,
+      "eased_progress": 0.755939,
+      "speed_shape": 0.525904,
+      "text_bbox_xy": [
+        1233,
+        206,
+        2507,
+        347
+      ]
+    },
+    {
+      "frame_index": 63,
+      "time_seconds": 2.652632,
+      "global_time_seconds": 8.652632,
+      "short_source_time_seconds": 10.652632,
+      "x": 1274.640643,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.828947,
+      "eased_progress": 0.767766,
+      "speed_shape": 0.560682,
+      "text_bbox_xy": [
+        1275,
+        206,
+        2549,
+        347
+      ]
+    },
+    {
+      "frame_index": 64,
+      "time_seconds": 2.694737,
+      "global_time_seconds": 8.694737,
+      "short_source_time_seconds": 10.694737,
+      "x": 1319.534348,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.842105,
+      "eased_progress": 0.780398,
+      "speed_shape": 0.599593,
+      "text_bbox_xy": [
+        1320,
+        206,
+        2594,
+        347
+      ]
+    },
+    {
+      "frame_index": 65,
+      "time_seconds": 2.736842,
+      "global_time_seconds": 8.736842,
+      "short_source_time_seconds": 10.736842,
+      "x": 1367.565709,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.855263,
+      "eased_progress": 0.793913,
+      "speed_shape": 0.64156,
+      "text_bbox_xy": [
+        1368,
+        206,
+        2642,
+        347
+      ]
+    },
+    {
+      "frame_index": 66,
+      "time_seconds": 2.778947,
+      "global_time_seconds": 8.778947,
+      "short_source_time_seconds": 10.778947,
+      "x": 1418.929778,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.868421,
+      "eased_progress": 0.808365,
+      "speed_shape": 0.685515,
+      "text_bbox_xy": [
+        1419,
+        206,
+        2693,
+        347
+      ]
+    },
+    {
+      "frame_index": 67,
+      "time_seconds": 2.821053,
+      "global_time_seconds": 8.821053,
+      "short_source_time_seconds": 10.821053,
+      "x": 1473.739355,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.881579,
+      "eased_progress": 0.823787,
+      "speed_shape": 0.730401,
+      "text_bbox_xy": [
+        1474,
+        206,
+        2748,
+        347
+      ]
+    },
+    {
+      "frame_index": 68,
+      "time_seconds": 2.863158,
+      "global_time_seconds": 8.863158,
+      "short_source_time_seconds": 10.863158,
+      "x": 1532.025833,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.894737,
+      "eased_progress": 0.840187,
+      "speed_shape": 0.775158,
+      "text_bbox_xy": [
+        1532,
+        206,
+        2806,
+        347
+      ]
+    },
+    {
+      "frame_index": 69,
+      "time_seconds": 2.905263,
+      "global_time_seconds": 8.905263,
+      "short_source_time_seconds": 10.905263,
+      "x": 1593.738284,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.907895,
+      "eased_progress": 0.857552,
+      "speed_shape": 0.818734,
+      "text_bbox_xy": [
+        1594,
+        206,
+        2868,
+        347
+      ]
+    },
+    {
+      "frame_index": 70,
+      "time_seconds": 2.947368,
+      "global_time_seconds": 8.947368,
+      "short_source_time_seconds": 10.947368,
+      "x": 1658.744103,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.921053,
+      "eased_progress": 0.875842,
+      "speed_shape": 0.860064,
+      "text_bbox_xy": [
+        1659,
+        206,
+        2933,
+        347
+      ]
+    },
+    {
+      "frame_index": 71,
+      "time_seconds": 2.989474,
+      "global_time_seconds": 8.989474,
+      "short_source_time_seconds": 10.989474,
+      "x": 1726.828156,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.934211,
+      "eased_progress": 0.894999,
+      "speed_shape": 0.898083,
+      "text_bbox_xy": [
+        1727,
+        206,
+        3001,
+        347
+      ]
+    },
+    {
+      "frame_index": 72,
+      "time_seconds": 3.031579,
+      "global_time_seconds": 9.031579,
+      "short_source_time_seconds": 11.031579,
+      "x": 1797.691824,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.947368,
+      "eased_progress": 0.914939,
+      "speed_shape": 0.931706,
+      "text_bbox_xy": [
+        1798,
+        206,
+        3072,
+        347
+      ]
+    },
+    {
+      "frame_index": 73,
+      "time_seconds": 3.073684,
+      "global_time_seconds": 9.073684,
+      "short_source_time_seconds": 11.073684,
+      "x": 1870.953347,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.960526,
+      "eased_progress": 0.935552,
+      "speed_shape": 0.959839,
+      "text_bbox_xy": [
+        1871,
+        206,
+        3145,
+        347
+      ]
+    },
+    {
+      "frame_index": 74,
+      "time_seconds": 3.115789,
+      "global_time_seconds": 9.115789,
+      "short_source_time_seconds": 11.115789,
+      "x": 1946.143584,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.973684,
+      "eased_progress": 0.956709,
+      "speed_shape": 0.981365,
+      "text_bbox_xy": [
+        1946,
+        206,
+        3220,
+        347
+      ]
+    },
+    {
+      "frame_index": 75,
+      "time_seconds": 3.157895,
+      "global_time_seconds": 9.157895,
+      "short_source_time_seconds": 11.157895,
+      "x": 2022.707713,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 0.986842,
+      "eased_progress": 0.978252,
+      "speed_shape": 0.995142,
+      "text_bbox_xy": [
+        2023,
+        206,
+        3297,
+        347
+      ]
+    },
+    {
+      "frame_index": 76,
+      "time_seconds": 3.2,
+      "global_time_seconds": 9.158333,
+      "short_source_time_seconds": 11.2,
+      "x": 2100.0,
+      "y": 206.0,
+      "phase": "fast_out",
+      "phase_progress": 1.0,
+      "eased_progress": 1.0,
+      "speed_shape": 1.0,
+      "text_bbox_xy": [
+        2100,
+        206,
+        3374,
+        347
+      ]
+    }
+  ]
+}

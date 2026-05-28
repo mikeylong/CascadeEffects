@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-05-27T07:16:38Z",
+  "episode_id": "piltdown-man",
+  "model": "youtube_upload_mp4_black_screen_guard_v1",
+  "ok": true,
+  "reads": {
+    "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+    "youtube_upload_black_screen_block_read": "pass_black_screen_upload_preflight"
+  },
+  "samples": [
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "start",
+      "passed": true,
+      "seconds": 1.0,
+      "stats": {
+        "max_luma": 231.554,
+        "mean_luma": 34.701,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.829167,
+        "pixel_count": 14400,
+        "std_luma": 32.329
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "quarter",
+      "passed": true,
+      "seconds": 218.468,
+      "stats": {
+        "max_luma": 229.201,
+        "mean_luma": 36.426,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.831111,
+        "pixel_count": 14400,
+        "std_luma": 33.357
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "half",
+      "passed": true,
+      "seconds": 436.935,
+      "stats": {
+        "max_luma": 230.554,
+        "mean_luma": 36.789,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.834792,
+        "pixel_count": 14400,
+        "std_luma": 33.401
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "three_quarter",
+      "passed": true,
+      "seconds": 655.403,
+      "stats": {
+        "max_luma": 229.911,
+        "mean_luma": 35.851,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.829514,
+        "pixel_count": 14400,
+        "std_luma": 33.023
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "final_second",
+      "passed": true,
+      "seconds": 872.871,
+      "stats": {
+        "max_luma": 230.554,
+        "mean_luma": 35.683,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.865486,
+        "pixel_count": 14400,
+        "std_luma": 29.817
+      }
+    }
+  ],
+  "thresholds": {
+    "dark_scene_min_mean_luma": 16.0,
+    "dark_scene_min_nonblack_fraction": 0.3,
+    "dark_scene_min_std_luma": 16.0,
+    "min_mean_luma": 20.0,
+    "min_nonblack_fraction": 0.08,
+    "min_std_luma": 8.0
+  },
+  "video_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/media/piltdown-man_living_cover_final_review_1080p24.mp4",
+  "video_sha256": "bb97fb5040962c096edd5ae80163e849acf7737f55f8f2959c1e8de3cab265a2"
+}

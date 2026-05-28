@@ -1,0 +1,134 @@
+{
+  "model": "challenger_precision_matte_legal_borderless_browser_qa_v1",
+  "status": "pass",
+  "created_utc": "2026-05-25T23:16:03.413Z",
+  "url": "http://127.0.0.1:8766/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_precision_matte_legal_end_screen_borderless_successor_20260525T230840Z/html_review/borderless_youtube_geometry/player.html?range_guard=20260525T2312Z",
+  "qa": {
+    "mask": {
+      "src": "http://127.0.0.1:8766/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_precision_matte_legal_end_screen_borderless_successor_20260525T230840Z/html_review/borderless_youtube_geometry/assets/masks/foreground_occlusion_matte.png?v=987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+      "data_sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+      "complete": true,
+      "natural_width": 1920,
+      "natural_height": 1080,
+      "expected_sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+      "expected_model": "source_pixel_gap_preserving_tower_shuttle_matte_v3",
+      "model_present": true
+    },
+    "runtime_probe_alpha": {
+      "service_arm_open_gap_upper": 1,
+      "service_arm_open_gap_lower": 1,
+      "right_booster_side_sky": 1,
+      "right_booster_lower_side_sky": 1,
+      "upper_service_arm_visible_hardware": 0,
+      "lower_service_arm_visible_hardware": 0,
+      "external_tank": 0,
+      "orbiter_body": 0,
+      "right_booster": 0
+    },
+    "aircraft_route0_runtime_samples": {
+      "70": {
+        "xy": [
+          515.38,
+          297.085
+        ],
+        "sky_alpha": 1,
+        "visible": true
+      },
+      "72": {
+        "xy": [
+          465.385,
+          303.954
+        ],
+        "sky_alpha": 1,
+        "visible": true
+      }
+    },
+    "end_screen_opacity_samples": {
+      "1183": {
+        "opacity": 0,
+        "overlayOpacity": 0,
+        "railOpacity": 1,
+        "isSafeWindow": false
+      },
+      "1196": {
+        "opacity": 1,
+        "overlayOpacity": 1,
+        "railOpacity": 0,
+        "isSafeWindow": true
+      },
+      "1182.385669": {
+        "opacity": 0,
+        "overlayOpacity": 0,
+        "railOpacity": 1,
+        "isSafeWindow": false
+      },
+      "1185.385669": {
+        "opacity": 0,
+        "overlayOpacity": 0,
+        "railOpacity": 1,
+        "isSafeWindow": false
+      },
+      "1191.680884": {
+        "opacity": 0,
+        "overlayOpacity": 0,
+        "railOpacity": 0,
+        "isSafeWindow": true
+      },
+      "1191.830884": {
+        "opacity": 0.4999999999993179,
+        "overlayOpacity": 0.5,
+        "railOpacity": 0,
+        "isSafeWindow": true
+      },
+      "1191.980884": {
+        "opacity": 1,
+        "overlayOpacity": 1,
+        "railOpacity": 0,
+        "isSafeWindow": true
+      }
+    },
+    "borderless_css_samples": [
+      {
+        "className": "youtube-target left-video",
+        "borderTopWidth": "0px",
+        "boxShadow": "none"
+      },
+      {
+        "className": "youtube-target right-video",
+        "borderTopWidth": "0px",
+        "boxShadow": "none"
+      },
+      {
+        "className": "youtube-target subscribe-target",
+        "borderTopWidth": "0px",
+        "boxShadow": "none"
+      },
+      {
+        "className": "ce-youtube-end-screen-target left-video",
+        "borderTopWidth": "0px",
+        "boxShadow": "none"
+      },
+      {
+        "className": "ce-youtube-end-screen-target right-video",
+        "borderTopWidth": "0px",
+        "boxShadow": "none"
+      },
+      {
+        "className": "ce-youtube-end-screen-target subscribe-target",
+        "borderTopWidth": "0px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  "failures": [],
+  "reads": {
+    "precision_mask_runtime_read": "pass_v3_mask_cache_bust_data_sha_and_model_present",
+    "precision_gap_runtime_read": "pass_service_arm_gap_and_right_booster_sky_open_hardware_blocked",
+    "route0_aircraft_visibility_read": "pass_route0_aircraft_visible_at_t70_and_t72",
+    "end_screen_legal_opacity_read": "pass_zero_before_legal_entry_then_300ms_ramp",
+    "borderless_placeholder_runtime_read": "pass_no_css_borders_or_glow_shadows"
+  },
+  "artifacts": {
+    "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_precision_matte_legal_end_screen_borderless_successor_20260525T230840Z/qa/challenger_precision_matte_t70_browser_probe.png"
+  }
+}

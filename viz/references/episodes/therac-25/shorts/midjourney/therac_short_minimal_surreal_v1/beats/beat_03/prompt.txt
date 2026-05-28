@@ -1,0 +1,16 @@
+Midjourney reference upload order:
+1. beats/beat_03/references/01__radiation_machine.jpg
+2. beats/beat_03/references/02__therac_imrt_oropharyngeal_setup.jpg
+3. beats/beat_03/references/03__therac_tel_hashomer_sbrt.jpg
+
+Text prompt:
+In 1985 a woman in Georgia was overdosed, died months later, and the room became evidence even while the machine was said to be incapable of that harm. single treatment table and machine anchor the scene as a clinical record image, with the room arranged like documentation rather than spectacle. composition pulls the table and beam path across the frame so the empty patient position is legible without depicting a body, vertical 9:16. Palette narrows to hospital beige, paper white, charcoal, and a restrained cauterized red. one directional injury trace cuts through the air between machine and table, reading as aftermath rather than action. Flat report light, sober stillness, and no sentimental drama.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

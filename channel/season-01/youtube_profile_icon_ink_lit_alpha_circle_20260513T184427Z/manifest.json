@@ -1,0 +1,166 @@
+{
+  "kind": "local_review_asset_package",
+  "id": "youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z",
+  "status": "superseded_for_profile_upload",
+  "previous_status": "keep",
+  "superseded_for_profile_upload_at_utc": "2026-05-19T04:35:27Z",
+  "superseded_for_profile_upload_by": "youtube_profile_icon_clean_edge_repair_20260519T002930Z",
+  "superseded_for_profile_upload_reason": "visible YouTube avatar edge artifacts from alpha-circle/circular-edge handling",
+  "youtube_studio_updated": false,
+  "created_utc": "20260513T184427Z",
+  "asset_role": "youtube_profile_icon_channel_avatar",
+  "visual_profile": "cascade-paper-architectures-ink-lit-v1",
+  "summary": "Successor local-review 800x800 Cascade Effects YouTube channel avatar package with a true circular RGBA primary upload asset.",
+  "supersedes": "youtube_profile_icon_ink_lit_20260512T201730Z",
+  "revision_reason": "make_primary_profile_icon_true_alpha_circle",
+  "primary_profile_icon_mode": "RGBA",
+  "transparent_outside_circle": true,
+  "square_background_removed": true,
+  "source_contracts": {
+    "illustration_contract": "/Users/mike/Web_CascadeEffects/brand/contracts/illustration.contract.md",
+    "youtube_channel_package": "/Users/mike/Web_CascadeEffects/brand/packages/youtube-channel.package.json",
+    "homepage_reference": "/Users/mike/Web_CascadeEffects/brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-mobile-source-v1.png"
+  },
+  "source_package": {
+    "id": "youtube_profile_icon_ink_lit_20260512T201730Z",
+    "primary_square_rgb_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_20260512T201730Z/assets/profile-icon-800x800.png",
+    "reference_copy_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/source/reference-profile-icon-square-rgb-20260512T201730Z.png",
+    "source_primary_sha256": "584ba5ea9104751cc8626201f1759bcf5c8a7ff20aa95778aaf24c7226519146",
+    "source_primary_mode": "RGB",
+    "source_primary_width": 800,
+    "source_primary_height": 800
+  },
+  "alpha_mask": {
+    "shape": "circle_inscribed_in_800x800_square",
+    "method": "8x_supersampled_binary_circle_downsampled_with_box_filter",
+    "outside_alpha": 0,
+    "interior_alpha": 255,
+    "edge_antialiasing": "partial_alpha_boundary_pixels_only",
+    "partial_alpha_pixel_count": 2772,
+    "opaque_pixel_count": 501240,
+    "transparent_pixel_count": 135988,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "center_alpha": 255,
+    "mark_interior_alpha_samples": {
+      "center_400_400": 255,
+      "mark_left_320_400": 255,
+      "mark_right_480_400": 255,
+      "mark_upper_400_320": 255,
+      "mark_lower_400_480": 255
+    }
+  },
+  "deliverables": {
+    "profile_icon": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/assets/profile-icon-800x800.png",
+      "sha256": "79e2decf4145a9465ec4265c4158715d0728a37ead218e173a94d1ccbea37124",
+      "width": 800,
+      "height": 800,
+      "mode": "RGBA",
+      "bytes": 762041
+    },
+    "source_reference_square_rgb": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/source/reference-profile-icon-square-rgb-20260512T201730Z.png",
+      "sha256": "584ba5ea9104751cc8626201f1759bcf5c8a7ff20aa95778aaf24c7226519146",
+      "width": 800,
+      "height": 800,
+      "mode": "RGB",
+      "bytes": 671212
+    },
+    "previews": {
+      "alpha_checkerboard_800": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/previews/profile-icon-alpha-checkerboard-800.png",
+        "sha256": "04ef5615876204d94378a0042cbeee50404401f32d543a47b0823bcb91e870a8",
+        "width": 800,
+        "height": 800,
+        "mode": "RGB",
+        "bytes": 620580
+      },
+      "alpha_dark_800": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/previews/profile-icon-alpha-dark-800.png",
+        "sha256": "ab7009aa02a2687bb3f95ca578d1fdd8b0c010aad5ab39860122af01a0b8969f",
+        "width": 800,
+        "height": 800,
+        "mode": "RGB",
+        "bytes": 591389
+      },
+      "alpha_white_800": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/previews/profile-icon-alpha-white-800.png",
+        "sha256": "5ffe0c77ff2fcc02f11f331b7389b91dbe2008718961e8b3c51abb7c9f90ee3d",
+        "width": 800,
+        "height": 800,
+        "mode": "RGB",
+        "bytes": 614613
+      },
+      "circle_98px": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/previews/profile-icon-circle-98px.png",
+        "sha256": "9fd126ba7c573034238e9dfb4eaf6bc64a25827e09e3e837ba7beae30e6067f9",
+        "width": 98,
+        "height": 98,
+        "mode": "RGBA",
+        "bytes": 14344
+      },
+      "circle_176px": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/previews/profile-icon-circle-176px.png",
+        "sha256": "6e027814bf9076c8adc0dfd05ddf51224df9ea1a9ef0bea979897a977b25c697",
+        "width": 176,
+        "height": 176,
+        "mode": "RGBA",
+        "bytes": 37240
+      },
+      "circle_320px": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/previews/profile-icon-circle-320px.png",
+        "sha256": "70684772a059b8c5dcd3c8b0286e381874de5bf355228efebf608e912676324d",
+        "width": 320,
+        "height": 320,
+        "mode": "RGBA",
+        "bytes": 109932
+      }
+    },
+    "contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/qa/profile-icon-alpha-circle-contact-sheet.png",
+      "sha256": "8cc04aea3068f94740f3099baef463bdf58bfc40e8c3d5f9043759db5e2f7e9a",
+      "width": 1920,
+      "height": 1080,
+      "mode": "RGB",
+      "bytes": 342552
+    }
+  },
+  "qa_reads": {
+    "alpha_channel_read": "pass",
+    "corner_transparency_read": "pass",
+    "circle_edge_antialias_read": "pass",
+    "profile_icon_circle_crop_read": "pass",
+    "small_size_recognition_read": "pass",
+    "homepage_contract_alignment_read": "pass"
+  },
+  "rollout": {
+    "youtube_channel_updated": false,
+    "youtube_draft_updated": false,
+    "mp4_updated": false,
+    "manual_youtube_studio_upload_required": true
+  },
+  "human_disposition": "superseded_for_profile_upload",
+  "human_disposition_reason": "clean-edge square/no-alpha successor approved for YouTube profile upload; alpha-circle package retained for traceability and legacy watermark source evidence",
+  "approved_for": [
+    "youtube_video_watermark_source_legacy_until_clean_watermark_approved"
+  ],
+  "superseded_for": [
+    "youtube_profile_icon"
+  ],
+  "successor_profile_icon_package": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_clean_edge_repair_20260519T002930Z",
+  "retained_for": [
+    "historical_trace",
+    "legacy_video_watermark_source_evidence"
+  ],
+  "used_by_package": "youtube_channel_brand_assets_20260513T190642Z",
+  "used_by_packages": [
+    "youtube_channel_brand_assets_20260513T190642Z",
+    "youtube_channel_brand_assets_repair_20260513T193457Z"
+  ],
+  "preferred_channel_asset_package": "youtube_channel_brand_assets_repair_20260513T193457Z"
+}

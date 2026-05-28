@@ -1,0 +1,185 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_mission_command_failure_insert__refine_img2img",
+  "base_fragment": "minimal_surreal_flux_midjourney_grid_refine_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no graph dashboard, no line chart hero, no cracked screen, no shattered glass, no exterior launch pad, no shuttle exterior hero, no fireball spectacle, no crowd scene, no hearing-room melodrama",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131815,
+    "selected_seed": 972054013131815,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 8,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_mission_command_failure_insert/refine/challenger_mission_command_failure_insert_refine",
+    "note_text": "Refine Challenger v3 beat 04b from the draft while preserving the mission command room and the smoke-pattern screen event.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "refine_img2img",
+    "reference_board_dir": "references/episodes/challenger/monitoring_labor_bank/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "tense",
+    "palette_policy": "contract-limited",
+    "accent_palette": "pale gray, desaturated green, charcoal, smoke gray, warning amber",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the mission screen and seated command silhouettes above the subtitle band while leaving the top UI band calm",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "mission command room registering the returning smoke pattern as a screen-borne failure signal",
+    "beat_id": "beat_04b",
+    "historical_anchor": "as flame became visible again, Challenger's failure could be read as a monitored event inside mission command",
+    "surreal_breach": "a diffuse smoke pattern echoes across one mission screen while the room itself remains procedural and calm",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_scene_plate/challenger_mission_command_failure_insert/draft/challenger_mission_command_failure_insert_draft_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_warning_absorbed.png",
+    "reference_mode": "midjourney_package_grid",
+    "midjourney_package_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v3_trimmed/package.manifest.json",
+    "midjourney_shot_id": "beat_05"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "mission command room with one large overhead screen carrying a diffuse smoke-plume echo while seated operators remain subordinate below it",
+    "support_fragments": [
+      "institutional consoles and restrained silhouettes held under the screen rather than competing with it",
+      "the smoke pattern reads as technical observation rather than cracked glass, graph UI, or exterior spectacle"
+    ],
+    "directives": [
+      "keep the room specific to mission command rather than a generic office meeting space",
+      "make the smoke pattern screen-borne and diffuse without readable text or plot lines",
+      "hold the image inside procedural calm instead of catastrophe spectacle"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.refine_denoise }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    },
+    {
+      "key": "load_subject_reference",
+      "widgets": {
+        "image": "{{ params.subject_reference_runtime_image }}"
+      }
+    },
+    {
+      "key": "clip_vision_loader",
+      "widgets": {
+        "clip_name": "{{ params.subject_reference_clip_vision_model }}"
+      }
+    },
+    {
+      "key": "clip_vision_encode",
+      "widgets": {
+        "crop": "{{ params.subject_reference_crop }}"
+      }
+    },
+    {
+      "key": "subject_reference_conditioning",
+      "widgets": {
+        "strength": "{{ params.subject_reference_strength }}",
+        "noise_augmentation": "{{ params.subject_reference_noise_augmentation }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_mission_command_failure_insert__refine_img2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_mission_command_failure_insert__refine_img2img.json"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "mix_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_music_layer_html_approval_proof_20260511T043053Z/assets/audio/challenger_longform_v3_20_25min_music_layer_review_mix.wav",
+  "mix_audio_sha256": "bd8910693e1a697de6b2f0673f49d1bc1272cc080826fd84ea26161f51eae9a4",
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "pcm_s16le",
+        "sample_rate": "44100",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "1289.131247"
+    }
+  },
+  "duration_seconds": 1289.131247,
+  "target_duration_seconds": 1289.131247,
+  "duration_match_read": "pass",
+  "stream_read": "pass",
+  "full_mix_volumedetect": {
+    "mean_volume_db": -22.7,
+    "max_volume_db": -1
+  },
+  "no_clipping_read": "pass",
+  "voice_level_preservation_read": "pass",
+  "segment_volumes": {
+    "intro_0_to_12s": {
+      "mean_volume_db": -20.9,
+      "max_volume_db": -4.1
+    },
+    "bed_fade_77_384_to_89_384s": {
+      "mean_volume_db": -21.9,
+      "max_volume_db": -3.5
+    },
+    "after_bed_91_to_111s": {
+      "mean_volume_db": -22.2,
+      "max_volume_db": -3.6
+    },
+    "outro_1258_336_to_end": {
+      "mean_volume_db": -22.6,
+      "max_volume_db": -5.1
+    }
+  },
+  "music_schedule": {
+    "runtime_model": "no runtime change; narration starts at 0s",
+    "intro_bed_source": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop_60s.wav",
+    "intro_bed_source_sha256": "3f8751c4ad66d51c6dd1b483c51cc394f63925cb97d54e526dfda8469c7e038e",
+    "intro_bed_start_seconds": 0,
+    "intro_bed_duck_start_seconds": 12,
+    "intro_bed_duck_end_seconds": 20,
+    "intro_bed_fade_out_start_seconds": 77.384,
+    "intro_bed_end_seconds": 89.384,
+    "outro_source": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "outro_source_sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "outro_start_seconds": 1258.336,
+    "outro_end_seconds": 1289.131247
+  },
+  "reads": {
+    "intro_loop_bed_read": "pending_human_review",
+    "bed_fade_to_cold_joint_read": "pass_schedule_fades_out_by_89_384s",
+    "outro_music_read": "pending_human_review",
+    "voice_primary_read": "pending_human_review",
+    "caption_sync_preservation_read": "pass_runtime_and_voice_start_unchanged",
+    "audio_mix_review_only_read": "pass"
+  }
+}

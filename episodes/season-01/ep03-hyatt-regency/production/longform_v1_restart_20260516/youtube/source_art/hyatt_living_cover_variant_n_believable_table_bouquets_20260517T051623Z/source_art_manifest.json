@@ -1,0 +1,330 @@
+{
+  "packet_id": "hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z",
+  "episode_id": "hyatt-regency",
+  "phase_gate": "source_art_gate",
+  "status": "tighten_superseded_by_n6",
+  "human_disposition": "tighten",
+  "selected_direction_id": "variant_n_north_wall_rail_safe_stacked_walkways",
+  "selected_variant_id": "n5b_plausible_table_centerpieces",
+  "may_advance_to_motion_readiness": true,
+  "may_advance_to_visual_system": true,
+  "created_utc": "2026-05-17T05:16:23Z",
+  "profile_id": "cascade-ink-lit-photoreal-v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "carrier_type": "generated_raster_source_art_edit_candidate",
+  "package_root": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z",
+  "human_direction": "Use N2 as the sole believability baseline; balloons must read as plausible event decor, not generated evidence.",
+  "prior_source_art_candidates": [
+    {
+      "status": "believability_baseline_reference_only",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_table_balloons_20260517T012235Z/source_art_manifest.json",
+      "variant_id": "variant_n2_table_balloon_bouquets",
+      "role": "sole_imagegen_edit_baseline"
+    },
+    {
+      "status": "reference_only_tightened_by_n5_believability_pass",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_uniform_large_table_bouquets_20260517T025815Z/source_art_manifest.json",
+      "note_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_uniform_large_table_bouquets_20260517T025815Z/REFERENCE_ONLY_TIGHTENED_BY_N5_BELIEVABILITY_PASS.md",
+      "variant_id": "variant_n4_uniform_large_table_bouquets",
+      "role": "negative_believability_reference_only_not_used_as_imagegen_init"
+    }
+  ],
+  "imagegen_policy": {
+    "imagegen_skill_path": "/Users/mike/.codex/skills/.system/imagegen/SKILL.md",
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen_edit_mode",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "allowed_local_operations_read": "pass_copy_resize_preview_contact_sheet_manifest_only",
+    "anonymous_human_presence_policy_read": "pass",
+    "n4_init_reference_read": "pass_not_used"
+  },
+  "base_source_art": {
+    "id": "variant_n2_table_balloon_bouquets",
+    "role": "sole_believability_baseline_and_imagegen_edit_target",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/reference_source_art/variant_n2_believability_baseline_1920x1080.png",
+    "sha256": "1e29dea0fc25a873cf09c9272077656f53beec228f006a38e28e05ffb9e53041",
+    "source_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_table_balloons_20260517T012235Z/source_art_manifest.json"
+  },
+  "historical_accuracy_context": {
+    "measurement_target": "Variant N/N2 architecture-preserving believable tea dance edit with restrained plausible table balloon decor",
+    "canonical_visual_facts": [
+      "preserve directly stacked second/fourth floor suspended walkways",
+      "preserve offset third-floor suspended walkway",
+      "preserve visible hanger rods and roof framing",
+      "preserve right-side dark rail-safe glass area",
+      "keep balloons as plausible event decor only",
+      "avoid uniform table coverage, repeated balloon geometry, and generated-looking string forests",
+      "keep anonymous people and pre-collapse condition only"
+    ],
+    "required_reads": [
+      "artifact_believability_read",
+      "historical_accuracy_read",
+      "source_reference_alignment_read",
+      "public_anchor_geometry_read",
+      "hyatt_atrium_architecture_read",
+      "stacked_second_fourth_walkway_read",
+      "offset_third_walkway_read",
+      "hanger_rod_attachment_read",
+      "table_balloon_bouquet_read",
+      "balloons_not_focus_read",
+      "tea_dance_event_specificity_read",
+      "human_presence_read",
+      "no_recognizable_faces_read"
+    ]
+  },
+  "variants": [
+    {
+      "id": "n5a_photographic_restraint",
+      "label": "N5A",
+      "status": "alternate_reference_not_selected_by_human",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e31a9-462c-7b02-b5ac-72a70c18b20f/ig_053c3ae8e8a2b34a016a094fd478f08195b82da8a339167deb.png",
+      "source_generation_sha256": "c876c11a0f9d1a434e30dd6a981f1cfd0c1f2d64f7e9a5872491210fb488f98d",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_generations/n5a_photographic_restraint_builtin_imagegen_original.png",
+      "copied_source_generation_sha256": "c876c11a0f9d1a434e30dd6a981f1cfd0c1f2d64f7e9a5872491210fb488f98d",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_art/n5a_photographic_restraint_1920x1080.png",
+      "final_asset_sha256": "c7d27e8d8936eeb4ecc4d19cb834d4275cc32bbd58551c3d52fb660a13937e6f",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/previews/n5a_photographic_restraint_640x360.png",
+      "preview_sha256": "ee0f2b5f51296ff8ee8de4a85c910eeba9eeb49907ea51cfb892fedd7e6a8b09",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/prompts/n5a_photographic_restraint_prompt.txt",
+      "prompt_sha256": "9193a5a03f2871aa4179dec41c2ed67822beab82ec1e42c38e48bce33454652a",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "inferred_from_tool",
+        "mode": "image_edit_over_visible_variant_n2_only",
+        "source_generation_original_pixel_size": {
+          "width": 1672,
+          "height": 941
+        },
+        "reference_images": [
+          "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/reference_source_art/variant_n2_believability_baseline_1920x1080.png",
+          "visible_context:variant_n2_table_balloon_bouquets"
+        ],
+        "local_operations_after_generation": [
+          "copy_original",
+          "resize_to_1920x1080",
+          "resize_preview_only",
+          "contact_sheet_compare_to_n2_n4_n5b"
+        ],
+        "local_rendered_backplate_used": false
+      },
+      "hyatt_precheck": {
+        "artifact_believability_read": "pass_best_balance_against_n2_and_n4",
+        "historical_accuracy_read": "pass_preserves_variant_n_architecture",
+        "source_reference_alignment_read": "pass_n2_baseline_only",
+        "public_anchor_geometry_read": "pass",
+        "hyatt_atrium_architecture_read": "pass_preserved",
+        "stacked_second_fourth_walkway_read": "pass_preserved",
+        "offset_third_walkway_read": "pass_preserved",
+        "hanger_rod_attachment_read": "pass_preserved",
+        "table_balloon_bouquet_read": "pass_restrained_plausible_event_decor",
+        "balloons_not_focus_read": "pass",
+        "repeated_balloon_geometry_read": "pass",
+        "uniform_bouquet_pattern_read": "pass",
+        "giant_foreground_cluster_read": "pass",
+        "tea_dance_event_specificity_read": "pass",
+        "human_presence_read": "pass",
+        "no_recognizable_faces_read": "pass",
+        "right_rail_safe_space_read": "pass_preserved",
+        "collapse_recreation_read": "pass",
+        "bodies_gore_read": "pass",
+        "fake_readable_text_read": "pass",
+        "procedural_signal_overlay_read": "pass",
+        "texture_noise_read": "pass"
+      },
+      "review_notes": "Retained as alternate/reference. Assistant pre-approval comparison preferred this restraint, but human review selected N5B.",
+      "human_disposition": "defer"
+    },
+    {
+      "id": "n5b_plausible_table_centerpieces",
+      "label": "N5B",
+      "status": "human_keep_selected_active_for_motion_readiness",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019e31a9-462c-7b02-b5ac-72a70c18b20f/ig_053c3ae8e8a2b34a016a095159167c8195b87e9f8c5ae5d080.png",
+      "source_generation_sha256": "61fec1ef54a704302a8cb5c603ee9770b0c1967cf9ad0ae9fe6fd03bf47f223e",
+      "copied_source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_generations/n5b_plausible_table_centerpieces_builtin_imagegen_original.png",
+      "copied_source_generation_sha256": "61fec1ef54a704302a8cb5c603ee9770b0c1967cf9ad0ae9fe6fd03bf47f223e",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_art/n5b_plausible_table_centerpieces_1920x1080.png",
+      "final_asset_sha256": "7b6f6c5aa1970f311e01676d45e03a5bf319a11482e4d80531cfb266504b9458",
+      "preview_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/previews/n5b_plausible_table_centerpieces_640x360.png",
+      "preview_sha256": "327e161ca867abc352073f619d0eda4658ae1850d515bc9b04985b7585dae5ec",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/prompts/n5b_plausible_table_centerpieces_prompt.txt",
+      "prompt_sha256": "f00bad8f97dc2ab772d4e255d43d9b1d3628af028eca4cb18372885606c3e4f0",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "hyatt_precheck": {
+        "artifact_believability_read": "pass_human_approved_n5b",
+        "historical_accuracy_read": "pass_preserves_variant_n_architecture",
+        "source_reference_alignment_read": "pass_n2_baseline_only",
+        "hyatt_atrium_architecture_read": "pass_preserved",
+        "repeated_balloon_geometry_read": "pass_human_approved_n5b",
+        "uniform_bouquet_pattern_read": "pass_human_approved_n5b",
+        "human_presence_read": "pass",
+        "no_recognizable_faces_read": "pass",
+        "public_anchor_geometry_read": "pass",
+        "stacked_second_fourth_walkway_read": "pass_preserved",
+        "offset_third_walkway_read": "pass_preserved",
+        "hanger_rod_attachment_read": "pass_preserved",
+        "table_balloon_bouquet_read": "pass_human_approved_n5b",
+        "balloons_not_focus_read": "pass",
+        "giant_foreground_cluster_read": "pass",
+        "tea_dance_event_specificity_read": "pass",
+        "right_rail_safe_space_read": "pass_preserved",
+        "collapse_recreation_read": "pass",
+        "bodies_gore_read": "pass",
+        "fake_readable_text_read": "pass",
+        "procedural_signal_overlay_read": "pass",
+        "texture_noise_read": "pass"
+      },
+      "review_notes": "Selected by human keep. Use as the active source-art plate after inventory and episode-package keeps are also recorded.",
+      "human_disposition": "keep",
+      "assistant_preapproval_note": "Pre-approval assistant comparison marked N5B busier than N5A; human review selected N5B as the more believable production plate."
+    }
+  ],
+  "source_art_reads": {
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_codex_builtin_image_gen_edit_mode",
+    "local_rendered_backplate_read": "pass_not_used",
+    "source_art_workspace_copy_read": "pass",
+    "short_reference_import_read": "pass_not_active_source_truth; prior short material informs tea_dance_texture_only",
+    "n2_baseline_only_read": "pass",
+    "n4_init_reference_read": "pass_not_used",
+    "artifact_believability_read": "pass_human_approved_n5b",
+    "historical_accuracy_read": "pass_preserves_variant_n_architecture",
+    "source_reference_alignment_read": "pass_n2_baseline_only",
+    "public_anchor_geometry_read": "pass",
+    "hyatt_atrium_architecture_read": "pass",
+    "stacked_second_fourth_walkway_read": "pass",
+    "offset_third_walkway_read": "pass",
+    "hanger_rod_attachment_read": "pass",
+    "table_balloon_bouquet_read": "pass_human_approved_n5b",
+    "balloons_not_focus_read": "pass",
+    "repeated_balloon_geometry_read": "pass_human_approved_n5b",
+    "uniform_bouquet_pattern_read": "pass_human_approved_n5b",
+    "giant_foreground_cluster_read": "pass",
+    "tea_dance_event_specificity_read": "pass",
+    "balloons_read": "pass",
+    "dancing_read": "pass",
+    "walkway_occupancy_read": "pass",
+    "human_presence_read": "pass",
+    "no_recognizable_faces_read": "pass",
+    "right_rail_safe_space_read": "pass_preserved",
+    "collapse_recreation_read": "pass",
+    "bodies_gore_read": "pass",
+    "fake_readable_text_read": "pass",
+    "generic_paper_architecture_hero_read": "pass",
+    "full_frame_dark_overlay_read": "pass",
+    "procedural_signal_overlay_read": "pass",
+    "ambient_line_artifact_read": "pass",
+    "texture_noise_read": "pass",
+    "evidence_not_decor_read": "pass"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "mp4_render_created": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "artifacts": {
+    "candidate_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/review/hyatt_n5_believability_contact_sheet.jpg",
+      "sha256": "53715a59d6e9d665291b2f61457aa657fdd0947e635c60a2da456520be68fd30"
+    },
+    "review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/review/source_art_candidate_review_packet.md",
+      "sha256": "50ab41a3a6e948cbf2a751c1776b94c69246d2da2a78338dfcfb04cb9415259b"
+    },
+    "historical_accuracy_review": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/review/historical_accuracy_review.md",
+      "sha256": "6683c384ffcce503bfa1380a2053350fc470fd64b92f8875b988f912388faf9a"
+    },
+    "believability_review": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/review/believability_review.md",
+      "sha256": "db70f9ef18eaabc84e892e842436ee31ad1340bb5b92bf8f767b6490ae795938"
+    },
+    "source_reference_notes": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/references/source_reference_notes.md",
+      "sha256": "3962e3a4a83fddb9bf13350be8f493633b2beecafffe75d09ff2cbd99bb2185f"
+    },
+    "selected_source_art": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_art/n5b_plausible_table_centerpieces_1920x1080.png",
+      "sha256": "7b6f6c5aa1970f311e01676d45e03a5bf319a11482e4d80531cfb266504b9458",
+      "variant_id": "n5b_plausible_table_centerpieces"
+    },
+    "human_approval": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/review/human_approval_n5b_20260517T070207Z.md",
+      "sha256": "6b1c5057b293f7a7b48344fe83dc8e6b1f24e9a90f504da7811f331e687de308"
+    }
+  },
+  "review_question": "Source-art keep and upstream keeps are recorded. Motion readiness is the next review gate; no rough proof is authorized until motion-readiness keep.",
+  "human_approval": {
+    "disposition": "keep",
+    "approved_variant_id": "n5b_plausible_table_centerpieces",
+    "approved_utc": "2026-05-17T07:02:07Z",
+    "approved_raw_imagegen_output_path": "/Users/mike/.codex/generated_images/019e31a9-462c-7b02-b5ac-72a70c18b20f/ig_053c3ae8e8a2b34a016a095159167c8195b87e9f8c5ae5d080.png",
+    "approved_raw_imagegen_output_sha256": "61fec1ef54a704302a8cb5c603ee9770b0c1967cf9ad0ae9fe6fd03bf47f223e",
+    "workspace_source_generation_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_generations/n5b_plausible_table_centerpieces_builtin_imagegen_original.png",
+    "workspace_source_generation_copy_sha256": "61fec1ef54a704302a8cb5c603ee9770b0c1967cf9ad0ae9fe6fd03bf47f223e",
+    "final_source_art_plate_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_art/n5b_plausible_table_centerpieces_1920x1080.png",
+    "final_source_art_plate_sha256": "7b6f6c5aa1970f311e01676d45e03a5bf319a11482e4d80531cfb266504b9458",
+    "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/review/human_approval_n5b_20260517T070207Z.md",
+    "approval_record_sha256": "6b1c5057b293f7a7b48344fe83dc8e6b1f24e9a90f504da7811f331e687de308",
+    "downstream_gate_note": "Motion readiness, rough assembly, MP4 render, publish readiness, and YouTube upload remain blocked pending inventory and episode-package keep."
+  },
+  "upstream_gate_keeps": {
+    "inventory": {
+      "status": "keep",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/inventory/inventory_manifest.json",
+      "manifest_sha256": "235ed90cc27580a39e31dcd1eeb36df1faa252d5b98cf2855c5cccc6ae27f068",
+      "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/gate_approvals/hyatt_inventory_episode_package_keep_20260517T072744Z.md",
+      "approval_record_sha256": "b55fdd1a41a95a293ca97a9ec549c2a9412c714261b14df810a6e60dd5db833d"
+    },
+    "episode_package": {
+      "status": "keep",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/episode_package_manifest.json",
+      "manifest_sha256": "101396d793dbae86cbc497278bba2a7e5d405b47b2dd078b29b475f3a0595036",
+      "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/gate_approvals/hyatt_inventory_episode_package_keep_20260517T072744Z.md",
+      "approval_record_sha256": "b55fdd1a41a95a293ca97a9ec549c2a9412c714261b14df810a6e60dd5db833d"
+    }
+  },
+  "post_keep_issue": {
+    "recorded_utc": "2026-05-17T08:37:50Z",
+    "reason": "Top walkway appeared to float between floors; atrium crowd density did not convey the 1,600-person tea dance event.",
+    "successor_source_art_packet": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_n6_architecture_crowd_density_20260517T083750Z",
+    "successor_source_art_manifest": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_n6_architecture_crowd_density_20260517T083750Z/source_art_manifest.json",
+    "may_use_for_final_render": false
+  },
+  "post_review_tighten": {
+    "recorded_utc": "2026-05-17T08:44:54.335Z",
+    "reason": "Human review found the top-level walkway visually floating between floors and the atrium crowd density too sparse for the 1,600-person tea dance event.",
+    "successor_source_art_packet_id": "hyatt_living_cover_n6_architecture_crowd_density_20260517T083750Z",
+    "successor_source_art_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_n6_architecture_crowd_density_20260517T083750Z/source_art_manifest.json",
+    "successor_source_art_manifest_sha256": "1e3ecdaef21a8ac324a910a1eac814a3d3879212e94356ee44cc1373dcd5f402",
+    "successor_source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_n6_architecture_crowd_density_20260517T083750Z/assets/source_art/n6_architecture_crowd_density_1920x1080.png",
+    "successor_source_art_sha256": "1bbdebe0fdc425f387f2f218633501ab3ce7d5fa5bad8b9a36f989b6eb30bae4",
+    "successor_rough_proof_packet_id": "hyatt_living_cover_html_rough_proof_n6_architecture_crowd_density_20260517T083750Z",
+    "successor_rough_proof_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_architecture_crowd_density_20260517T083750Z",
+    "successor_rough_proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_architecture_crowd_density_20260517T083750Z/rough_assembly_manifest.json",
+    "successor_rough_proof_manifest_sha256": "7472aae8bf003464fefdfb8b99735d998ec1ffac903fb166c94aa8cd03ea11c3"
+  },
+  "downstream_locks": {
+    "may_advance_to_motion_readiness": false,
+    "may_treat_source_art_as_keep": false,
+    "may_advance_to_video_render": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_advance_to_publish_readiness": false,
+    "may_youtube_action": false
+  }
+}

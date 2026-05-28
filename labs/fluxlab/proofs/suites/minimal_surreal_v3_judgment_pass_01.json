@@ -1,0 +1,44 @@
+{
+  "suite_id": "minimal_surreal_v3_judgment_pass_01",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger__frozen_launch_site",
+      "archetype": "site_or_landscape",
+      "base_seed": 66001,
+      "prompt_body": "Kennedy Space Center launch complex at first light, Challenger stack and service structure rising from a flat coastal pad, the site remains calm and fully recognizable, unusual ice and frost clinging to hardware that should read as routine launch infrastructure, pale blue-gray sky, muted sodium glow, cold documentary stillness"
+    },
+    {
+      "id": "therac_25__operator_override_habit",
+      "archetype": "single_human_figure",
+      "base_seed": 67001,
+      "prompt_body": "Single Therac-25 operator seated at the treatment console in a dim control room, posture practiced and unalarmed, green monitor light on hands and face, one small warning state treated as ordinary workflow while the machine beyond remains trusted, beige panels, charcoal equipment, restrained clinical tension"
+    },
+    {
+      "id": "hyatt_regency__box_beam_connection_detail",
+      "archetype": "fragment_or_detail",
+      "base_seed": 68001,
+      "prompt_body": "Close structural detail of the Hyatt Regency fourth-floor hanger-rod connection, nut, washer, threaded rod, and box-beam channels sharply readable under warm atrium light, the upper bearing point quietly carrying both walkway loads instead of one, elegant finish surrounding an overburdened joint"
+    },
+    {
+      "id": "737_max__familiar_aircraft_hidden_trim",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 69001,
+      "prompt_body": "Clean side-profile Boeing 737 MAX 8 climbing through muted overcast light, enlarged engines mounted forward and high and the canonical airliner shape kept intact, the horizontal stabilizer sits in a subtly wrong nose-down trim state inside an otherwise familiar ascent, silver fuselage, dark tail, restrained aviation tension"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "episode_id": "piltdown-man",
+  "workflow": "long_form_video_production_v1",
+  "created_at": "2026-05-18",
+  "disposition": "pass",
+  "source_script": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/Ep6_Piltdown-Man.txt",
+    "sha256": "b9993d242adcef5352b372f9e3168749c6b513024ca0f566ea6b488ac35c5b5c",
+    "word_count": 1982,
+    "role": "approved_post_critique_audio_source"
+  },
+  "script_gate_reads": {
+    "frontier_model_script_critique_read": "pass",
+    "frontier_model_script_critique_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/frontier_model_script_critique_gpt5_20260518.md",
+    "frontier_model_script_critique_sha256": "f48234c94a07150d870e4073151bab7a57adaca69e4f28225c67de336f7bb021",
+    "critique_integration_read": "pass",
+    "critique_integration_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/script_gate_integration_note_20260518.md",
+    "critique_integration_sha256": "67ef59fead2cb99f0cc1188c1b2e614913eb26777c37eebdbbbe28831f302d0a",
+    "human_script_approval_for_audio_read": "pass",
+    "human_script_approval_for_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/human_script_approval_for_audio_20260518.md",
+    "human_script_approval_for_audio_sha256": "6686f684a8ee57d79bf2994859afa5dcc1052558934ee725a2b85319d2b74567"
+  },
+  "render_inputs": {
+    "pipeline_id": "ep6_piltdownman_production",
+    "pipeline_dir": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production",
+    "final_jobs_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/final_jobs.jsonl",
+    "final_jobs_sha256": "dded8cd721e671fead407e93dd728edeb519c2b9ee6c2208aacd57b3ddd3bcfe",
+    "effective_manifest_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/effective_final_jobs.elevenlabs.jsonl",
+    "effective_manifest_sha256": "852496362f7e3446d48c0aeb79d7c35a4cd189c8af8ca9070f3f4a1979e8deb4",
+    "spoken_input_matches_locked_script_normalized": true,
+    "script_tokens_normalized": 1937,
+    "spoken_tokens_normalized": 1937,
+    "cue_tags_stripped_from_job_input": true,
+    "cue_tags_reapplied_by_provider_manifest": true
+  },
+  "render_settings": {
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2",
+    "voice": "dPrTCMw2R7HQlznlgwCO",
+    "voice_profile_id": "longform_mike_v1",
+    "response_format": "wav",
+    "elevenlabs_output_format": "wav_44100",
+    "speed": 0.95,
+    "pronunciation_lexicon_sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "pronunciation_applied_rule_ids": []
+  },
+  "render_outputs": {
+    "master_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/final/Ep6_Piltdown-Man.wav",
+    "master_sha256": "f9411d5bdffa2d5463497f7874d1931c7d90a12b67d6dafc917fabe648a5f552",
+    "duration_seconds": 846.553107,
+    "sample_rate_hz": 44100,
+    "channels": 1,
+    "codec": "pcm_s16le",
+    "audio_package_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/audio_package.json",
+    "audio_package_sha256": "796698445f8e28c4761e2f7f112b74239617a26e9f6f38acb3a71d0ab00f92b5",
+    "audio_package_sha_matches_master": true
+  },
+  "guard_and_mastering": {
+    "prosody_guard_status": "ok_no_repairs",
+    "prosody_guard_report_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/prosody_guard/guard_report.json",
+    "prosody_guard_report_sha256": "6f57e627a972657c43102df0d15c215e3f6cb48b96f97ba2fd9fdb32a7d307fc",
+    "loudnorm_scan_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/mastering/loudnorm_scan.json",
+    "loudnorm_scan_sha256": "7cad4cce41cc14fe2ae26777599ab43f13bcf92284f117cfcbeeaf308e3078e4",
+    "loudnorm_second_pass_path": "/Users/mike/Audio_CascadeEffects/tmp/ep6_piltdownman_production/mastering/loudnorm_second_pass.json",
+    "loudnorm_second_pass_sha256": "b6dbc34ec48533b46cfadd487dcfe2c3f9e84039203a2e7fd33e2ea685884d91"
+  },
+  "gate_effect": {
+    "audio_status": "review_ready_pending_human_keep",
+    "audio_keep_status": "pending",
+    "may_advance_to_visual_system": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false
+  }
+}

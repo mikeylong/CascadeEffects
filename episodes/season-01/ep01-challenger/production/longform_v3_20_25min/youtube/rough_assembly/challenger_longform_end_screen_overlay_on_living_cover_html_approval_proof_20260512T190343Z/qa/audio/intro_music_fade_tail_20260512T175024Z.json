@@ -1,0 +1,133 @@
+{
+  "created_utc": "20260512T175024Z",
+  "intent": "audio-only successor: add brief intro music fade tail under unchanged VO start",
+  "predecessor_proof_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_hybrid_attention_rewrite_music_only_intro_outro_outro_screen_literal_rail_captions_precise_matte_visibility_repair_dust_pacing_tune_html_approval_proof_20260512T172711Z",
+  "sources": {
+    "intro_music": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "bytes": 1693774
+    },
+    "voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/audio/recording_20260511T204835Z_hybrid_attention_rewrite/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_voice_master.wav",
+      "sha256": "ecbcbbe23f38b30d68073e6069ffde5d281eab8092ce773717f064c3fcb0720d",
+      "bytes": 106295374
+    },
+    "outro_music": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+      "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+      "bytes": 773136
+    }
+  },
+  "outputs": {
+    "review_wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_hybrid_attention_rewrite_music_only_intro_outro_outro_screen_literal_rail_captions_precise_matte_visibility_repair_dust_pacing_tune_intro_music_fade_tail_html_approval_proof_20260512T175024Z/assets/audio/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_intro_music_fade_tail_review_mix.wav",
+      "sha256": "959aa149e92092e74bcf27c85cb9602c38c28784a983d23a43388b7e1456c942",
+      "bytes": 219715662
+    },
+    "browser_mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_hybrid_attention_rewrite_music_only_intro_outro_outro_screen_literal_rail_captions_precise_matte_visibility_repair_dust_pacing_tune_intro_music_fade_tail_html_approval_proof_20260512T175024Z/assets/audio/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_intro_music_fade_tail_web_review.mp3",
+      "sha256": "a9ff8dd1c7a251e5a98c979bbbad607ef2598e942189c03bd7808ba8428e8c42",
+      "bytes": 29894991
+    }
+  },
+  "previous_outputs": {
+    "review_wav": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_hybrid_attention_rewrite_music_only_intro_outro_outro_screen_literal_rail_captions_precise_matte_visibility_repair_dust_pacing_tune_html_approval_proof_20260512T172711Z/assets/audio/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_music_only_intro_outro_review_mix.wav",
+      "sha256": "fc2ab5f4db2a0d950e2bc4586a4ae386c3fa4ee4e642df69c6d5fb5ae448c14f",
+      "bytes": 219715662
+    },
+    "browser_mp3": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_hybrid_attention_rewrite_music_only_intro_outro_outro_screen_literal_rail_captions_precise_matte_visibility_repair_dust_pacing_tune_html_approval_proof_20260512T172711Z/assets/audio/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_music_only_intro_outro_web_review.mp3",
+      "sha256": "46d19e540c57ee47950c8561eba6c946bb27b0f42d2d2749a77813104e5abbe9",
+      "bytes": 29894991
+    }
+  },
+  "mix_contract": {
+    "runtime_model": "intro music fades under first 2 seconds of unchanged voiceover, then voice-only body, unchanged music-only outro",
+    "intro_music_start_seconds": 0.0,
+    "voice_start_seconds": 9.601451,
+    "intro_music_fade_out_seconds": [
+      9.601451,
+      11.601451
+    ],
+    "voice_duration_seconds": 1205.162086,
+    "voice_end_seconds": 1214.763537,
+    "outro_music_start_seconds": 1214.763537,
+    "outro_music_end_seconds": 1245.553197,
+    "runtime_duration_seconds": 1245.553197,
+    "caption_offset_seconds_unchanged": 9.601451
+  },
+  "ffprobe": {
+    "review_wav": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "pcm_s16le",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "duration": "1245.553197"
+        }
+      ],
+      "format": {
+        "duration": "1245.553197",
+        "size": "219715662"
+      }
+    },
+    "browser_mp3": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "duration": "1245.553197"
+        }
+      ],
+      "format": {
+        "duration": "1245.553197",
+        "size": "29894991"
+      }
+    }
+  },
+  "wav_props": {
+    "sample_rate": 44100,
+    "channels": 2,
+    "frames": 54928896
+  },
+  "volumedetect": {
+    "mean_volume_db": -15.1,
+    "max_volume_db": -0.1,
+    "raw": "[aist#0:0/pcm_s16le @ 0xbf6800180] Guessed Channel Layout: stereo\nInput #0, wav, from '/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_hybrid_attention_rewrite_music_only_intro_outro_outro_screen_literal_rail_captions_precise_matte_visibility_repair_dust_pacing_tune_intro_music_fade_tail_html_approval_proof_20260512T175024Z/assets/audio/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_intro_music_fade_tail_review_mix.wav':\n  Metadata:\n    encoder         : Lavf62.3.100\n  Duration: 00:20:45.55, bitrate: 1411 kb/s\n  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s\n[Parsed_volumedetect_0 @ 0xbf7031ec0] n_samples: 0\nStream mapping:\n  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))\nPress [q] to stop, [?] for help\nOutput #0, null, to 'pipe:':\n  Metadata:\n    encoder         : Lavf62.3.100\n  Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s\n    Metadata:\n      encoder         : Lavc62.11.100 pcm_s16le\n[Parsed_volumedetect_0 @ 0xbf7032340] n_samples: 109857792\n[Parsed_volumedetect_0 @ 0xbf7032340] mean_volume: -15.1 dB\n[Parsed_volumedetect_0 @ 0xbf7032340] max_volume: -0.1 dB\n[Parsed_volumedetect_0 @ 0xbf7032340] histogram_0db: 1771\n[Parsed_volumedetect_0 @ 0xbf7032340] histogram_1db: 151401\n[out#0/null @ 0xbf7031bc0] video:0KiB audio:214566KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:20:45.55 bitrate=N/A speed=6.66e+03x elapsed=0:00:00.18    \n"
+  },
+  "transition_analysis": {
+    "voice_start_sample": 423424,
+    "voice_start_seconds": 9.601451247165533,
+    "fade_end_sample": 511624,
+    "fade_end_seconds": 11.601451247165533,
+    "runtime_samples": 54928896,
+    "runtime_seconds": 1245.5531972789115,
+    "pre_boundary_50ms_rms_dbfs": -15.351737983037374,
+    "post_boundary_50ms_rms_dbfs": -13.323441582274736,
+    "music_residual_10p6s_250ms_rms_dbfs": -17.618356979389155,
+    "music_residual_11p7s_250ms_rms_dbfs": -999,
+    "voice_start_timing_read": "pass",
+    "music_tail_audible_under_vo_read": "pass",
+    "music_tail_silent_after_fade_read": "pass",
+    "boundary_continuity_read": "pass"
+  },
+  "reads": {
+    "wav_duration_read": "pass",
+    "mp3_duration_read": "pass",
+    "wav_full_decode_read": "pass",
+    "mp3_full_decode_read": "pass",
+    "no_clipping_read": "pass",
+    "voice_master_unchanged_read": "pass",
+    "caption_offset_unchanged_read": "pass",
+    "outro_timing_unchanged_read": "pass"
+  }
+}

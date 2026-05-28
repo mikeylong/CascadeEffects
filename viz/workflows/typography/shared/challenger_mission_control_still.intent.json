@@ -1,0 +1,81 @@
+{
+  "schema_version": "1",
+  "artifact_type": "still",
+  "application_phase": "post_upscale",
+  "enabled": true,
+  "mode": "overlay_first",
+  "validation_policy": {
+    "zone_ocr": "warn",
+    "unapproved_text": "fail"
+  },
+  "zones": [
+    {
+      "id": "left_wall_clock_strip",
+      "text": "45",
+      "quad_norm": [
+        [0.178, 0.170],
+        [0.395, 0.170],
+        [0.395, 0.225],
+        [0.178, 0.225]
+      ],
+      "font_family": "Arial Bold.ttf",
+      "font_size_px": 24,
+      "tracking": 0.0,
+      "color": "#FFF5E8",
+      "opacity": 1.0,
+      "blend_mode": "normal",
+      "blur_px": 0.0,
+      "glow_px": 0.0,
+      "noise_strength": 0.0,
+      "fit_mode": "stretch",
+      "padding_px": 2.0,
+      "align_x": "center",
+      "align_y": "center",
+      "neutralize_mode": "soft_blur",
+      "underlay_kind": "clock_strip",
+      "shadow": {
+        "enabled": false,
+        "color": "#000000",
+        "opacity": 0.0,
+        "blur_px": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "debug_emit_crop": true
+    },
+    {
+      "id": "left_nasa_wall_mark",
+      "text": "NASA",
+      "quad_norm": [
+        [0.217, 0.478],
+        [0.292, 0.478],
+        [0.292, 0.528],
+        [0.217, 0.528]
+      ],
+      "font_family": "Arial Bold.ttf",
+      "font_size_px": 34,
+      "tracking": 2.0,
+      "color": "#F0F4F6",
+      "opacity": 0.84,
+      "blend_mode": "normal",
+      "blur_px": 0.4,
+      "glow_px": 0.0,
+      "noise_strength": 0.03,
+      "fit_mode": "contain",
+      "padding_px": 2.0,
+      "align_x": "center",
+      "align_y": "center",
+      "neutralize_mode": "soft_blur",
+      "underlay_kind": "none",
+      "shadow": {
+        "enabled": false,
+        "color": "#000000",
+        "opacity": 0.0,
+        "blur_px": 0.0,
+        "offset_x": 0.0,
+        "offset_y": 0.0
+      },
+      "debug_emit_crop": true
+    }
+  ]
+}

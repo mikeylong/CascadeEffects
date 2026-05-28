@@ -1,0 +1,123 @@
+{
+  "alignment": {
+    "alignment_coverage": 0.9722222222222222,
+    "interpolated_script_token_count": 3,
+    "matched_script_token_count": 105,
+    "max_unmatched_script_span": 1,
+    "max_unmatched_script_span_allowed": 8,
+    "min_alignment_coverage": 0.97,
+    "script_token_count": 108,
+    "status": "pass",
+    "timing_token_count": 108,
+    "unmatched_script_span_count": 3,
+    "unmatched_script_spans": [
+      {
+        "end_index_exclusive": 32,
+        "start_index": 31,
+        "text": "sixteen",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 39,
+        "start_index": 38,
+        "text": "sixteen",
+        "token_count": 1
+      },
+      {
+        "end_index_exclusive": 87,
+        "start_index": 86,
+        "text": "SOLAS",
+        "token_count": 1
+      }
+    ]
+  },
+  "caption_alignment_coverage_read": "pass",
+  "caption_asr_text_not_used_read": "pass",
+  "caption_model": "script_locked_canonical_text_timing_from_asr_v1",
+  "caption_text_matches_script_read": "pass",
+  "caption_text_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/titanic_locked_caption_text_from_tts_manifest.txt",
+    "sha256": "4955cca5ed792bef98e03ea4622357c282b32b83fe598196b49403b8ff77a95a"
+  },
+  "caption_text_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/titanic_locked_caption_text_from_tts_manifest.txt",
+  "caption_text_source_policy": "script_locked_canonical_text_only",
+  "caption_text_source_sha256": "4955cca5ed792bef98e03ea4622357c282b32b83fe598196b49403b8ff77a95a",
+  "caption_timing_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/titanic_short_scoped_v1.diarized.srt",
+    "sha256": "8eb78220848d0afe9f612f9db080b83cf00e071f83af4028cac35e417098612b"
+  },
+  "caption_timing_source_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/titanic_short_scoped_v1.diarized.srt",
+  "caption_timing_source_policy": "asr_whisperx_timing_only",
+  "caption_timing_source_sha256": "8eb78220848d0afe9f612f9db080b83cf00e071f83af4028cac35e417098612b",
+  "cue_count": {
+    "offset": 21,
+    "story": 21
+  },
+  "outputs": {
+    "offset_srt": {
+      "bytes": 1458,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T084500Z/script_locked_captions/titanic_shorts.script_locked_rail_safe.offset_intro_3s000.srt",
+      "sha256": "b8fb6154b277d91ab2a25c8b60091f301acd83a02fdb8192edb8967da9c42d66"
+    },
+    "offset_vtt": {
+      "bytes": 1412,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T084500Z/script_locked_captions/titanic_shorts.script_locked_rail_safe.offset_intro_3s000.vtt",
+      "sha256": "d186089b9cb426dc3caac7a036fa5646ce6e9ce4c387e32b278679759dcdfb62"
+    },
+    "qa_json": {
+      "bytes": 3754,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T084500Z/script_locked_captions/titanic_shorts.script_locked_caption_qa.json",
+      "sha256": "701fb8ba5d101fcb941a33eed603484e72bf7d8e26a8643b923bcc44ea98c8e3"
+    },
+    "story_srt": {
+      "bytes": 1458,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T084500Z/script_locked_captions/titanic_shorts.script_locked_rail_safe.srt",
+      "sha256": "59a021a1c31e46c922174d76389e1ddd956a5951761203ce5d9a934c12bf526b"
+    },
+    "story_vtt": {
+      "bytes": 1412,
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T084500Z/script_locked_captions/titanic_shorts.script_locked_rail_safe.vtt",
+      "sha256": "7acd46d1b55afdd87113820032bfdb6031d20a84ffae3930eb60ed914dfcca3b"
+    }
+  },
+  "outro_cutoff_seconds": null,
+  "publish_ready_blocked_if_caption_text_not_script_locked": true,
+  "rail_safe_chunking": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7
+  },
+  "rail_validation": {
+    "max_chars_per_cue": 42,
+    "max_words_per_cue": 7,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "reads": {
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_no_caption_after_outro_start_read": "pass",
+    "caption_no_speaker_labels_read": "pass",
+    "caption_rail_safe_chunk_read": "pass",
+    "caption_text_matches_script_read": "pass"
+  },
+  "script_text_source": {
+    "bytes": 764,
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/script_locked_caption_sources_20260521T083000Z/titanic_locked_caption_text_from_tts_manifest.txt",
+    "sha256": "4955cca5ed792bef98e03ea4622357c282b32b83fe598196b49403b8ff77a95a"
+  },
+  "status": "pass",
+  "story_cutoff_seconds": null,
+  "text_validation": {
+    "normalized_caption_token_count": 108,
+    "normalized_script_token_count": 108,
+    "status": "pass"
+  },
+  "timing_validation": {
+    "outro_cutoff_seconds": null,
+    "status": "pass",
+    "violation_count": 0,
+    "violations": []
+  },
+  "voice_offset_seconds": 3.0
+}

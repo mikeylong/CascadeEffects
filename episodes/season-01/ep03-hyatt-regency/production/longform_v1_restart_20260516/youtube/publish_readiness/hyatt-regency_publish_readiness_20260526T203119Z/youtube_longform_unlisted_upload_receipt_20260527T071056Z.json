@@ -1,0 +1,329 @@
+{
+  "caption_sidecar_to_upload_or_verify": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/captions/hyatt_regency_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+  "caption_upload": {
+    "caption_id": "AUieDaaAi07wF04qCuBHWQYi16tnbDIrP1Xjui3e1y0S-YCrSgZLvehVMYW7tcDEeZ42ko6zkhZP00j1ls7pt_I",
+    "raw_response": {
+      "etag": "oXmJw1vozP2upRqmv_1R4NZDEvw",
+      "id": "AUieDaaAi07wF04qCuBHWQYi16tnbDIrP1Xjui3e1y0S-YCrSgZLvehVMYW7tcDEeZ42ko6zkhZP00j1ls7pt_I",
+      "kind": "youtube#caption",
+      "snippet": {
+        "audioTrackType": "unknown",
+        "isAutoSynced": false,
+        "isCC": false,
+        "isDraft": false,
+        "isEasyReader": false,
+        "isLarge": false,
+        "language": "en",
+        "lastUpdated": "2026-05-27T07:13:03.438895Z",
+        "name": "English script-locked captions",
+        "status": "serving",
+        "trackKind": "standard",
+        "videoId": "sE5YKLicnME"
+      }
+    },
+    "status": "uploaded"
+  },
+  "captions_uploaded": true,
+  "challenger_precision_matte_guard": {
+    "ok": true,
+    "reads": {
+      "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode"
+    },
+    "required": false
+  },
+  "created_at": "2026-05-27T07:14:04Z",
+  "episode_id": "hyatt-regency",
+  "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/youtube_longform_unlisted_upload_manifest_20260527T071056Z.json",
+  "mp4_visual_guard": {
+    "created_at": "2026-05-27T07:12:43Z",
+    "episode_id": "hyatt-regency",
+    "model": "youtube_upload_mp4_black_screen_guard_v1",
+    "ok": true,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/preflight/hyatt-regency_mp4_visual_guard_20260527T071243Z.json",
+    "reads": {
+      "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+      "youtube_upload_black_screen_block_read": "pass_black_screen_upload_preflight"
+    },
+    "samples": [
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "start",
+        "passed": true,
+        "seconds": 1.0,
+        "stats": {
+          "max_luma": 163.981,
+          "mean_luma": 39.206,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.831319,
+          "pixel_count": 14400,
+          "std_luma": 31.6
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "quarter",
+        "passed": true,
+        "seconds": 216.633,
+        "stats": {
+          "max_luma": 166.972,
+          "mean_luma": 39.68,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.839861,
+          "pixel_count": 14400,
+          "std_luma": 31.299
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "half",
+        "passed": true,
+        "seconds": 433.267,
+        "stats": {
+          "max_luma": 171.401,
+          "mean_luma": 40.578,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.845278,
+          "pixel_count": 14400,
+          "std_luma": 32.235
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "three_quarter",
+        "passed": true,
+        "seconds": 649.9,
+        "stats": {
+          "max_luma": 178.736,
+          "mean_luma": 39.854,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.841875,
+          "pixel_count": 14400,
+          "std_luma": 31.658
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "final_second",
+        "passed": true,
+        "seconds": 865.534,
+        "stats": {
+          "max_luma": 175.324,
+          "mean_luma": 41.879,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.885347,
+          "pixel_count": 14400,
+          "std_luma": 29.745
+        }
+      }
+    ],
+    "sha256": "b77de77a391ea7d5657a8287b6bba72284b66a82ae5873801e71696e40611545",
+    "thresholds": {
+      "dark_scene_min_mean_luma": 16.0,
+      "dark_scene_min_nonblack_fraction": 0.3,
+      "dark_scene_min_std_luma": 16.0,
+      "min_mean_luma": 20.0,
+      "min_nonblack_fraction": 0.08,
+      "min_std_luma": 8.0
+    },
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/media/hyatt-regency_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "01c70d73dd499819fb239c10ae66a0359af6a76ae190b52918c98aff86e3901d"
+  },
+  "notify_subscribers": false,
+  "post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "privacy": "unlisted",
+  "production_contract_receipt": {
+    "contract_id": "first-eight-longform-v1",
+    "intent": "successor",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/production_contract_receipts/contract_receipt_20260526T211635Z.json",
+    "sha256": "5b7b861d47438cf7f9df23b6537fa04ffbfb28506097ab58fb070e510231e79a",
+    "youtube_action_allowed": true,
+    "youtube_action_requested": "unlisted_review_upload"
+  },
+  "public_release": "manual_youtube_studio_only",
+  "raw_upload_response": {
+    "etag": "h2AO0mglFogwM2jtAY3coTSpIh4",
+    "id": "sE5YKLicnME",
+    "kind": "youtube#video",
+    "snippet": {
+      "categoryId": "27",
+      "channelId": "UCa3AHc0y2E-1vrUxvQLUGPg",
+      "channelTitle": "Cascade of Effects",
+      "defaultAudioLanguage": "en",
+      "defaultLanguage": "en",
+      "description": "Hyatt Regency is a Cascade Effects episode about how small signals become system consequences.\n\nA small connection change turned a public atrium into a hidden load-path failure.\n\nRuntime: about 14 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 The Tea Dance\n1:32 The Original Load Path\n3:11 The Revision\n5:08 The Category Error\n8:05 The Warning Signs\n12:43 Everything Was In Order\n\n#CascadeEffects",
+      "liveBroadcastContent": "none",
+      "localized": {
+        "description": "Hyatt Regency is a Cascade Effects episode about how small signals become system consequences.\n\nA small connection change turned a public atrium into a hidden load-path failure.\n\nRuntime: about 14 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 The Tea Dance\n1:32 The Original Load Path\n3:11 The Revision\n5:08 The Category Error\n8:05 The Warning Signs\n12:43 Everything Was In Order\n\n#CascadeEffects",
+        "title": "Hyatt Regency"
+      },
+      "publishedAt": "2026-05-27T07:12:44Z",
+      "tags": [
+        "Cascade Effects",
+        "Hyatt Regency",
+        "Kansas City",
+        "documentary",
+        "structural engineering",
+        "systems failure",
+        "walkway collapse"
+      ],
+      "thumbnails": {
+        "default": {
+          "height": 90,
+          "url": "https://i.ytimg.com/vi/sE5YKLicnME/default.jpg",
+          "width": 120
+        },
+        "high": {
+          "height": 360,
+          "url": "https://i.ytimg.com/vi/sE5YKLicnME/hqdefault.jpg",
+          "width": 480
+        },
+        "medium": {
+          "height": 180,
+          "url": "https://i.ytimg.com/vi/sE5YKLicnME/mqdefault.jpg",
+          "width": 320
+        }
+      },
+      "title": "Hyatt Regency"
+    },
+    "status": {
+      "embeddable": true,
+      "license": "youtube",
+      "privacyStatus": "unlisted",
+      "publicStatsViewable": true,
+      "selfDeclaredMadeForKids": false,
+      "uploadStatus": "uploaded"
+    }
+  },
+  "receipt_type": "youtube_longform_unlisted_upload",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+  "thumbnail": {
+    "content_type": "image/jpeg",
+    "error": "",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/publish_readiness/hyatt-regency_publish_readiness_20260526T203119Z/thumbnail/hyatt-regency_thumbnail_candidate.jpg",
+    "status": "uploaded"
+  },
+  "youtube": {
+    "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+    "channel_title": "Cascade of Effects",
+    "published_at": "2026-05-27T07:12:44Z",
+    "status": {
+      "channel_id": "UCa3AHc0y2E-1vrUxvQLUGPg",
+      "channel_title": "Cascade of Effects",
+      "embeddable": true,
+      "exists": true,
+      "privacy_status": "unlisted",
+      "processing_status": "succeeded",
+      "published_at": "2026-05-27T07:12:44Z",
+      "raw_response": {
+        "etag": "cIKKEX9TzuvBkvBvxsV3i6VNLVc",
+        "items": [
+          {
+            "etag": "B0_OWcg0k8YigI5mC8R5Eja5Jys",
+            "id": "sE5YKLicnME",
+            "kind": "youtube#video",
+            "processingDetails": {
+              "editorSuggestionsAvailability": "inProgress",
+              "fileDetailsAvailability": "inProgress",
+              "processingIssuesAvailability": "inProgress",
+              "processingStatus": "succeeded",
+              "tagSuggestionsAvailability": "inProgress",
+              "thumbnailsAvailability": "inProgress"
+            },
+            "snippet": {
+              "categoryId": "27",
+              "channelId": "UCa3AHc0y2E-1vrUxvQLUGPg",
+              "channelTitle": "Cascade of Effects",
+              "defaultAudioLanguage": "en",
+              "defaultLanguage": "en",
+              "description": "Hyatt Regency is a Cascade Effects episode about how small signals become system consequences.\n\nA small connection change turned a public atrium into a hidden load-path failure.\n\nRuntime: about 14 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 The Tea Dance\n1:32 The Original Load Path\n3:11 The Revision\n5:08 The Category Error\n8:05 The Warning Signs\n12:43 Everything Was In Order\n\n#CascadeEffects",
+              "liveBroadcastContent": "none",
+              "localized": {
+                "description": "Hyatt Regency is a Cascade Effects episode about how small signals become system consequences.\n\nA small connection change turned a public atrium into a hidden load-path failure.\n\nRuntime: about 14 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 The Tea Dance\n1:32 The Original Load Path\n3:11 The Revision\n5:08 The Category Error\n8:05 The Warning Signs\n12:43 Everything Was In Order\n\n#CascadeEffects",
+                "title": "Hyatt Regency"
+              },
+              "publishedAt": "2026-05-27T07:12:44Z",
+              "tags": [
+                "Cascade Effects",
+                "Hyatt Regency",
+                "Kansas City",
+                "documentary",
+                "structural engineering",
+                "systems failure",
+                "walkway collapse"
+              ],
+              "thumbnails": {
+                "default": {
+                  "height": 90,
+                  "url": "https://i.ytimg.com/vi/sE5YKLicnME/default.jpg",
+                  "width": 120
+                },
+                "high": {
+                  "height": 360,
+                  "url": "https://i.ytimg.com/vi/sE5YKLicnME/hqdefault.jpg",
+                  "width": 480
+                },
+                "maxres": {
+                  "height": 720,
+                  "url": "https://i.ytimg.com/vi/sE5YKLicnME/maxresdefault.jpg",
+                  "width": 1280
+                },
+                "medium": {
+                  "height": 180,
+                  "url": "https://i.ytimg.com/vi/sE5YKLicnME/mqdefault.jpg",
+                  "width": 320
+                },
+                "standard": {
+                  "height": 480,
+                  "url": "https://i.ytimg.com/vi/sE5YKLicnME/sddefault.jpg",
+                  "width": 640
+                }
+              },
+              "title": "Hyatt Regency"
+            },
+            "status": {
+              "embeddable": true,
+              "license": "youtube",
+              "madeForKids": false,
+              "privacyStatus": "unlisted",
+              "publicStatsViewable": true,
+              "selfDeclaredMadeForKids": false,
+              "uploadStatus": "processed"
+            }
+          }
+        ],
+        "kind": "youtube#videoListResponse",
+        "pageInfo": {
+          "resultsPerPage": 1,
+          "totalResults": 1
+        }
+      },
+      "title": "Hyatt Regency",
+      "upload_status": "processed",
+      "video_id": "sE5YKLicnME",
+      "video_url": "https://www.youtube.com/watch?v=sE5YKLicnME"
+    },
+    "video_id": "sE5YKLicnME",
+    "video_url": "https://www.youtube.com/watch?v=sE5YKLicnME"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_realistic_lighting_detail_imagegen_scene_exploration_20260508T002904Z/assets/source_art/realistic_lighting_detail_variant_c.png",
+  "source_sha256": "dc0fbb6da7596d6374ebed2965d87a9a240b0103a5c740f58efaf208e3fa477a",
+  "candidate_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lights_off_pixel_exact_masked_relight_20260508T021521Z/assets/source_art/lights_off_pixel_exact_masked_relight_candidate.png",
+  "candidate_sha256": "f5dd6483e88d7a4a887a03db1503d5fe554d242d198e53d3931651d56eed4502",
+  "source_dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "candidate_dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "pixel_grid_registration": {
+    "same_width": true,
+    "same_height": true,
+    "same_canvas_origin": true,
+    "no_crop": true,
+    "no_warp": true,
+    "no_rescale": true,
+    "no_reframe": true,
+    "method": "output_rgb[x,y] = deterministic_lighting_transform(source_rgb[x,y], practical_light_mask[x,y])"
+  },
+  "luminance": {
+    "source_mean_luma": 0.12412817776203156,
+    "candidate_mean_luma": 0.030873462557792664,
+    "candidate_to_source_mean_luma_ratio": 0.24872243404388428
+  },
+  "mask_stats": {
+    "practical_core_mask_mean": 0.10187278687953949,
+    "practical_bloom_mask_mean": 0.15099959075450897,
+    "practical_wide_mask_mean": 0.18124085664749146
+  },
+  "qa_images": {
+    "registration_sheet": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lights_off_pixel_exact_masked_relight_20260508T021521Z/qa/source_vs_lights_off_pixel_exact_registration_sheet.png",
+    "edge_registration_overlay": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lights_off_pixel_exact_masked_relight_20260508T021521Z/qa/edge_registration_overlay.png",
+    "difference_amplified": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lights_off_pixel_exact_masked_relight_20260508T021521Z/qa/source_vs_lights_off_difference_amplified.png",
+    "practical_light_mask": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_lights_off_pixel_exact_masked_relight_20260508T021521Z/qa/practical_light_mask_core_bloom_wide.png"
+  },
+  "future_story_shaped_lit_plate_opacity_ramp": [
+    {
+      "time_seconds": 0.0,
+      "label": "First Warning",
+      "lit_plate_opacity": 0.0
+    },
+    {
+      "time_seconds": 89.384,
+      "label": "Cold Joint",
+      "lit_plate_opacity": 0.06
+    },
+    {
+      "time_seconds": 183.497,
+      "label": "Joint Problem",
+      "lit_plate_opacity": 0.12
+    },
+    {
+      "time_seconds": 338.105,
+      "label": "Warning Becomes Process",
+      "lit_plate_opacity": 0.22
+    },
+    {
+      "time_seconds": 519.158,
+      "label": "Processed Warning",
+      "lit_plate_opacity": 0.35
+    },
+    {
+      "time_seconds": 629.0,
+      "label": "Launch-Night Decision",
+      "lit_plate_opacity": 0.48
+    },
+    {
+      "time_seconds": 808.0,
+      "label": "Recommendation Reversal",
+      "lit_plate_opacity": 0.68
+    },
+    {
+      "time_seconds": 1082.561,
+      "label": "Routine Pressure",
+      "lit_plate_opacity": 0.88
+    },
+    {
+      "time_seconds": 1289.131,
+      "label": "End",
+      "lit_plate_opacity": 1.0
+    }
+  ],
+  "future_crossfade_proof_created": false
+}

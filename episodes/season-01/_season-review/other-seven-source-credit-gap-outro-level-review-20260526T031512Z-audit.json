@@ -1,0 +1,589 @@
+{
+  "audit_id": "other_seven_outro_level_successor_full_audit_20260526T_current",
+  "created_utc": "2026-05-26T03:37:04.772Z",
+  "rollout_manifest_path": "/Users/mike/Episodes_CascadeEffects/other-seven-source-credit-gap-outro-level-review-20260526T031512Z.json",
+  "rollout_manifest_sha256_before": "b6b519578cd1e4bd1277eb5b7064c789028104b03bda543ac5e1cb1e3ff8a68e",
+  "source_rollout_manifest_path": "/Users/mike/Episodes_CascadeEffects/other-seven-source-credit-gap-review-20260526T000900Z.json",
+  "challenger_reference_audio_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_outro_level_successor_20260525T203318Z/qa/challenger_outro_level_audio_qa.json",
+  "challenger_reference_reads": {
+    "model": "challenger_outro_level_audio_qa_v1",
+    "legal_window_successor_mean_volume_db": null,
+    "post_vo_ramp_successor_mean_volume_db": null
+  },
+  "standard": {
+    "model": "challenger_plus5db_after_vo_applied_per_episode_v1",
+    "min_legal_window_mean_volume_db": -19.5,
+    "required_gain_db_after_voice": 5,
+    "prelap_must_remain_unchanged": true,
+    "no_mp4_or_youtube_actions_allowed": true,
+    "first_audio_tag_must_reference_selected_successor": true
+  },
+  "episodes": [
+    {
+      "episode_id": "therac-25",
+      "title": "Therac-25",
+      "status": "pass",
+      "review_player_url": "http://127.0.0.1:8766/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=1081.976&range_guard=therac-25-source-credit-gap-outro-level_20260526T031512Z_html_review",
+      "output_root": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+      "successor_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/therac-25_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "successor_audio_sha256": "3748792bd30fe4c257d6417cbf83d881851f91c1512d8656a483b2e853e3598b",
+      "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/proof_assets/audio/therac-25_right_rail_alignment_music_mix.wav",
+      "source_audio_sha256": "4b5aa18583331173df872c3663006bc633ec3656f0f121602e8c54d75d2900c5",
+      "review_audio_src": "audio_successor/therac-25_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "root_audio_src": "audio_successor/therac-25_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "review_audio_range_status": 206,
+      "gain_db_after_voice": 5,
+      "gain_ramp_start_seconds": 1084.861859,
+      "gain_ramp_full_seconds": 1087.861859,
+      "legal_entry_seconds": 1094.157074,
+      "legal_full_opacity_seconds": 1094.457074,
+      "source_credit_timing": {
+        "fade_start_seconds": 1087.27619,
+        "full_opacity_seconds": 1088.02619,
+        "fade_out_start_seconds": 1093.22619,
+        "fade_out_end_seconds": 1094.157074
+      },
+      "qa_manifest_values": {
+        "current_legal_window_mean_volume_db": -22.1,
+        "successor_legal_window_mean_volume_db": -17.1,
+        "successor_late_window_mean_volume_db": -17.2,
+        "prelap_current_mean_volume_db": -15.7,
+        "prelap_successor_mean_volume_db": -15.7,
+        "max_volume_successor_legal_window_db": -3,
+        "max_volume_successor_late_window_db": -3
+      },
+      "measured_actual_files": {
+        "source_legal_window": {
+          "start_seconds": 1094.157074,
+          "duration_seconds": 10,
+          "mean_volume_db": -22.1,
+          "max_volume_db": -8
+        },
+        "successor_legal_window": {
+          "start_seconds": 1094.157074,
+          "duration_seconds": 10,
+          "mean_volume_db": -17.1,
+          "max_volume_db": -3
+        },
+        "successor_late_window": {
+          "start_seconds": 1100.457074,
+          "duration_seconds": 8,
+          "mean_volume_db": -16.7,
+          "max_volume_db": -3
+        },
+        "source_prelap": {
+          "start_seconds": 1081.975859,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -15.7,
+          "max_volume_db": -1
+        },
+        "successor_prelap": {
+          "start_seconds": 1081.975859,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -15.7,
+          "max_volume_db": -1
+        }
+      },
+      "reads": {
+        "audio_successor_read": "pass_actual_player_and_wav_use_outro_plus5db_after_vo_successor",
+        "source_audio_baseline_read": "pass_old_review_mix_was_below_standard_and_blocked",
+        "prelap_read": "pass_pre_vo_prelap_unchanged",
+        "legal_window_level_read": "pass_measured_successor_legal_window_meets_standard_threshold",
+        "late_outro_level_read": "pass_measured_successor_late_outro_meets_standard_threshold",
+        "review_player_audio_read": "pass_review_and_root_players_use_audio_successor",
+        "review_audio_range_read": "pass_selected_review_audio_supports_http_206_byte_ranges",
+        "render_upload_read": "pass_no_render_or_upload_performed",
+        "range_server_read": "pass_http_206_partial_content_byte_range_server",
+        "browser_qa_read": "pass_source_credit_and_end_screen_runtime_qa"
+      },
+      "failures": []
+    },
+    {
+      "episode_id": "hyatt-regency",
+      "title": "Hyatt Regency",
+      "status": "pass",
+      "review_player_url": "http://127.0.0.1:8766/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=834.359&range_guard=hyatt-regency-source-credit-gap-outro-level_20260526T031512Z_html_review",
+      "output_root": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+      "successor_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/hyatt-regency_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "successor_audio_sha256": "44d698fc460aa1ab73aca4ec707788cc7a658918c9b892016fbc0d539b906d55",
+      "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/hyatt-regency_right_rail_alignment_music_mix.wav",
+      "source_audio_sha256": "f5351038cee89b037c5457802da0c64dc0f550c26388e873f306930ea911a5f3",
+      "review_audio_src": "audio_successor/hyatt-regency_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "root_audio_src": "audio_successor/hyatt-regency_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "review_audio_range_status": 206,
+      "gain_db_after_voice": 5,
+      "gain_ramp_start_seconds": 837.244263,
+      "gain_ramp_full_seconds": 840.244263,
+      "legal_entry_seconds": 846.539478,
+      "legal_full_opacity_seconds": 846.839478,
+      "source_credit_timing": {
+        "fade_start_seconds": 839.658594,
+        "full_opacity_seconds": 840.408594,
+        "fade_out_start_seconds": 845.608594,
+        "fade_out_end_seconds": 846.539478
+      },
+      "qa_manifest_values": {
+        "current_legal_window_mean_volume_db": -22.1,
+        "successor_legal_window_mean_volume_db": -17.1,
+        "successor_late_window_mean_volume_db": -17.2,
+        "prelap_current_mean_volume_db": -16.1,
+        "prelap_successor_mean_volume_db": -16.1,
+        "max_volume_successor_legal_window_db": -3,
+        "max_volume_successor_late_window_db": -3
+      },
+      "measured_actual_files": {
+        "source_legal_window": {
+          "start_seconds": 846.539478,
+          "duration_seconds": 10,
+          "mean_volume_db": -22.1,
+          "max_volume_db": -8
+        },
+        "successor_legal_window": {
+          "start_seconds": 846.539478,
+          "duration_seconds": 10,
+          "mean_volume_db": -17.1,
+          "max_volume_db": -3
+        },
+        "successor_late_window": {
+          "start_seconds": 852.839478,
+          "duration_seconds": 8,
+          "mean_volume_db": -16.7,
+          "max_volume_db": -3
+        },
+        "source_prelap": {
+          "start_seconds": 834.358263,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.1,
+          "max_volume_db": -1
+        },
+        "successor_prelap": {
+          "start_seconds": 834.358263,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.1,
+          "max_volume_db": -1
+        }
+      },
+      "reads": {
+        "audio_successor_read": "pass_actual_player_and_wav_use_outro_plus5db_after_vo_successor",
+        "source_audio_baseline_read": "pass_old_review_mix_was_below_standard_and_blocked",
+        "prelap_read": "pass_pre_vo_prelap_unchanged",
+        "legal_window_level_read": "pass_measured_successor_legal_window_meets_standard_threshold",
+        "late_outro_level_read": "pass_measured_successor_late_outro_meets_standard_threshold",
+        "review_player_audio_read": "pass_review_and_root_players_use_audio_successor",
+        "review_audio_range_read": "pass_selected_review_audio_supports_http_206_byte_ranges",
+        "render_upload_read": "pass_no_render_or_upload_performed",
+        "range_server_read": "pass_http_206_partial_content_byte_range_server",
+        "browser_qa_read": "pass_source_credit_and_end_screen_runtime_qa"
+      },
+      "failures": []
+    },
+    {
+      "episode_id": "semmelweis",
+      "title": "Semmelweis",
+      "status": "pass",
+      "review_player_url": "http://127.0.0.1:8766/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=851.541&range_guard=semmelweis-source-credit-gap-outro-level_20260526T031512Z_html_review",
+      "output_root": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+      "successor_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/semmelweis_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "successor_audio_sha256": "f156b7441fb621e25d4b636ad19843fa140d5d075fc04f5759f283a562629823",
+      "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260523T204013Z/proof_assets/audio/semmelweis_right_rail_alignment_music_mix.wav",
+      "source_audio_sha256": "f638851928f231183c7f40e0c780d12c289bf80b60ba901ffa83f151cb03c38a",
+      "review_audio_src": "audio_successor/semmelweis_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "root_audio_src": "audio_successor/semmelweis_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "review_audio_range_status": 206,
+      "gain_db_after_voice": 5,
+      "gain_ramp_start_seconds": 854.427029,
+      "gain_ramp_full_seconds": 857.427029,
+      "legal_entry_seconds": 863.722244,
+      "legal_full_opacity_seconds": 864.022244,
+      "source_credit_timing": {
+        "fade_start_seconds": 856.84136,
+        "full_opacity_seconds": 857.59136,
+        "fade_out_start_seconds": 862.79136,
+        "fade_out_end_seconds": 863.722244
+      },
+      "qa_manifest_values": {
+        "current_legal_window_mean_volume_db": -22.1,
+        "successor_legal_window_mean_volume_db": -17.1,
+        "successor_late_window_mean_volume_db": -17.2,
+        "prelap_current_mean_volume_db": -17.5,
+        "prelap_successor_mean_volume_db": -17.5,
+        "max_volume_successor_legal_window_db": -3,
+        "max_volume_successor_late_window_db": -3
+      },
+      "measured_actual_files": {
+        "source_legal_window": {
+          "start_seconds": 863.722244,
+          "duration_seconds": 10,
+          "mean_volume_db": -22.1,
+          "max_volume_db": -8
+        },
+        "successor_legal_window": {
+          "start_seconds": 863.722244,
+          "duration_seconds": 10,
+          "mean_volume_db": -17.1,
+          "max_volume_db": -3
+        },
+        "successor_late_window": {
+          "start_seconds": 870.022244,
+          "duration_seconds": 8,
+          "mean_volume_db": -16.7,
+          "max_volume_db": -3
+        },
+        "source_prelap": {
+          "start_seconds": 851.541029,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -17.5,
+          "max_volume_db": -1
+        },
+        "successor_prelap": {
+          "start_seconds": 851.541029,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -17.5,
+          "max_volume_db": -1
+        }
+      },
+      "reads": {
+        "audio_successor_read": "pass_actual_player_and_wav_use_outro_plus5db_after_vo_successor",
+        "source_audio_baseline_read": "pass_old_review_mix_was_below_standard_and_blocked",
+        "prelap_read": "pass_pre_vo_prelap_unchanged",
+        "legal_window_level_read": "pass_measured_successor_legal_window_meets_standard_threshold",
+        "late_outro_level_read": "pass_measured_successor_late_outro_meets_standard_threshold",
+        "review_player_audio_read": "pass_review_and_root_players_use_audio_successor",
+        "review_audio_range_read": "pass_selected_review_audio_supports_http_206_byte_ranges",
+        "render_upload_read": "pass_no_render_or_upload_performed",
+        "range_server_read": "pass_http_206_partial_content_byte_range_server",
+        "browser_qa_read": "pass_source_credit_and_end_screen_runtime_qa"
+      },
+      "failures": []
+    },
+    {
+      "episode_id": "tacoma-narrows",
+      "title": "Tacoma Narrows",
+      "status": "pass",
+      "review_player_url": "http://127.0.0.1:8766/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=840.349&range_guard=tacoma-narrows-source-credit-gap-outro-level_20260526T031512Z_html_review",
+      "output_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+      "successor_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/tacoma-narrows_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "successor_audio_sha256": "ca011c47e0e8f8d3fdaed7061d08bb93946de47367fc2158157f0ccb7d3eb428",
+      "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma-narrows_rolling_caption_rail_k3_b3_highlighted_rough_proof_20260523T144059Z/proof_assets/audio/tacoma-narrows_right_rail_alignment_music_mix.wav",
+      "source_audio_sha256": "00c7eb3f4b62bcd55a42963880f0c40c42f6643c39cb8fab64c0169c6565dc84",
+      "review_audio_src": "audio_successor/tacoma-narrows_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "root_audio_src": "audio_successor/tacoma-narrows_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "review_audio_range_status": 206,
+      "gain_db_after_voice": 5,
+      "gain_ramp_start_seconds": 843.235011,
+      "gain_ramp_full_seconds": 846.235011,
+      "legal_entry_seconds": 852.530226,
+      "legal_full_opacity_seconds": 852.830226,
+      "source_credit_timing": {
+        "fade_start_seconds": 845.649342,
+        "full_opacity_seconds": 846.399342,
+        "fade_out_start_seconds": 851.599342,
+        "fade_out_end_seconds": 852.530226
+      },
+      "qa_manifest_values": {
+        "current_legal_window_mean_volume_db": -22.1,
+        "successor_legal_window_mean_volume_db": -17.1,
+        "successor_late_window_mean_volume_db": -17.2,
+        "prelap_current_mean_volume_db": -15.6,
+        "prelap_successor_mean_volume_db": -15.6,
+        "max_volume_successor_legal_window_db": -3,
+        "max_volume_successor_late_window_db": -3
+      },
+      "measured_actual_files": {
+        "source_legal_window": {
+          "start_seconds": 852.530226,
+          "duration_seconds": 10,
+          "mean_volume_db": -22.1,
+          "max_volume_db": -8
+        },
+        "successor_legal_window": {
+          "start_seconds": 852.530226,
+          "duration_seconds": 10,
+          "mean_volume_db": -17.1,
+          "max_volume_db": -3
+        },
+        "successor_late_window": {
+          "start_seconds": 858.830226,
+          "duration_seconds": 8,
+          "mean_volume_db": -16.7,
+          "max_volume_db": -3
+        },
+        "source_prelap": {
+          "start_seconds": 840.349011,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -15.6,
+          "max_volume_db": -1
+        },
+        "successor_prelap": {
+          "start_seconds": 840.349011,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -15.6,
+          "max_volume_db": -1
+        }
+      },
+      "reads": {
+        "audio_successor_read": "pass_actual_player_and_wav_use_outro_plus5db_after_vo_successor",
+        "source_audio_baseline_read": "pass_old_review_mix_was_below_standard_and_blocked",
+        "prelap_read": "pass_pre_vo_prelap_unchanged",
+        "legal_window_level_read": "pass_measured_successor_legal_window_meets_standard_threshold",
+        "late_outro_level_read": "pass_measured_successor_late_outro_meets_standard_threshold",
+        "review_player_audio_read": "pass_review_and_root_players_use_audio_successor",
+        "review_audio_range_read": "pass_selected_review_audio_supports_http_206_byte_ranges",
+        "render_upload_read": "pass_no_render_or_upload_performed",
+        "range_server_read": "pass_http_206_partial_content_byte_range_server",
+        "browser_qa_read": "pass_source_credit_and_end_screen_runtime_qa"
+      },
+      "failures": []
+    },
+    {
+      "episode_id": "piltdown-man",
+      "title": "Piltdown Man",
+      "status": "pass",
+      "review_player_url": "http://127.0.0.1:8766/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=841.696&range_guard=piltdown-man-source-credit-gap-outro-level_20260526T031512Z_html_review",
+      "output_root": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+      "successor_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/piltdown-man_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "successor_audio_sha256": "7db81c44fe7f6b9beadcedc7264e97de1dfa6d321d46073c99e0d0a8c9bf5078",
+      "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown-man_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/piltdown-man_right_rail_alignment_music_mix.wav",
+      "source_audio_sha256": "ce9dd3524d21ca0829bd2ecc0c6cfbd357be96af651314e00391db24ca06d7aa",
+      "review_audio_src": "audio_successor/piltdown-man_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "root_audio_src": "audio_successor/piltdown-man_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "review_audio_range_status": 206,
+      "gain_db_after_voice": 5,
+      "gain_ramp_start_seconds": 844.581768,
+      "gain_ramp_full_seconds": 847.581768,
+      "legal_entry_seconds": 853.876983,
+      "legal_full_opacity_seconds": 854.176983,
+      "source_credit_timing": {
+        "fade_start_seconds": 846.996099,
+        "full_opacity_seconds": 847.746099,
+        "fade_out_start_seconds": 852.946099,
+        "fade_out_end_seconds": 853.876983
+      },
+      "qa_manifest_values": {
+        "current_legal_window_mean_volume_db": -22.1,
+        "successor_legal_window_mean_volume_db": -17.1,
+        "successor_late_window_mean_volume_db": -17.2,
+        "prelap_current_mean_volume_db": -16.6,
+        "prelap_successor_mean_volume_db": -16.6,
+        "max_volume_successor_legal_window_db": -3,
+        "max_volume_successor_late_window_db": -3
+      },
+      "measured_actual_files": {
+        "source_legal_window": {
+          "start_seconds": 853.876983,
+          "duration_seconds": 10,
+          "mean_volume_db": -22.1,
+          "max_volume_db": -8
+        },
+        "successor_legal_window": {
+          "start_seconds": 853.876983,
+          "duration_seconds": 10,
+          "mean_volume_db": -17.1,
+          "max_volume_db": -3
+        },
+        "successor_late_window": {
+          "start_seconds": 860.176983,
+          "duration_seconds": 8,
+          "mean_volume_db": -16.7,
+          "max_volume_db": -3
+        },
+        "source_prelap": {
+          "start_seconds": 841.695768,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.6,
+          "max_volume_db": -1
+        },
+        "successor_prelap": {
+          "start_seconds": 841.695768,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.6,
+          "max_volume_db": -1
+        }
+      },
+      "reads": {
+        "audio_successor_read": "pass_actual_player_and_wav_use_outro_plus5db_after_vo_successor",
+        "source_audio_baseline_read": "pass_old_review_mix_was_below_standard_and_blocked",
+        "prelap_read": "pass_pre_vo_prelap_unchanged",
+        "legal_window_level_read": "pass_measured_successor_legal_window_meets_standard_threshold",
+        "late_outro_level_read": "pass_measured_successor_late_outro_meets_standard_threshold",
+        "review_player_audio_read": "pass_review_and_root_players_use_audio_successor",
+        "review_audio_range_read": "pass_selected_review_audio_supports_http_206_byte_ranges",
+        "render_upload_read": "pass_no_render_or_upload_performed",
+        "range_server_read": "pass_http_206_partial_content_byte_range_server",
+        "browser_qa_read": "pass_source_credit_and_end_screen_runtime_qa"
+      },
+      "failures": []
+    },
+    {
+      "episode_id": "737-max",
+      "title": "737 MAX",
+      "status": "pass",
+      "review_player_url": "http://127.0.0.1:8766/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=943.585&range_guard=737-max-source-credit-gap-outro-level_20260526T031512Z_html_review",
+      "output_root": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+      "successor_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/737-max_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "successor_audio_sha256": "821057e5ec19d09da237106df5716e82db9f044e509aeab25211f833a2ff8503",
+      "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/737-max_right_rail_alignment_music_mix.wav",
+      "source_audio_sha256": "20daf1eac41a26105efbb54dc822b3d4f598adf18a8061e0c659084930a29399",
+      "review_audio_src": "audio_successor/737-max_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "root_audio_src": "audio_successor/737-max_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "review_audio_range_status": 206,
+      "gain_db_after_voice": 5,
+      "gain_ramp_start_seconds": 946.470929,
+      "gain_ramp_full_seconds": 949.470929,
+      "legal_entry_seconds": 955.766144,
+      "legal_full_opacity_seconds": 956.066144,
+      "source_credit_timing": {
+        "fade_start_seconds": 948.88526,
+        "full_opacity_seconds": 949.63526,
+        "fade_out_start_seconds": 954.83526,
+        "fade_out_end_seconds": 955.766144
+      },
+      "qa_manifest_values": {
+        "current_legal_window_mean_volume_db": -22.1,
+        "successor_legal_window_mean_volume_db": -17.1,
+        "successor_late_window_mean_volume_db": -17.2,
+        "prelap_current_mean_volume_db": -16.2,
+        "prelap_successor_mean_volume_db": -16.2,
+        "max_volume_successor_legal_window_db": -3,
+        "max_volume_successor_late_window_db": -3
+      },
+      "measured_actual_files": {
+        "source_legal_window": {
+          "start_seconds": 955.766144,
+          "duration_seconds": 10,
+          "mean_volume_db": -22.1,
+          "max_volume_db": -8
+        },
+        "successor_legal_window": {
+          "start_seconds": 955.766144,
+          "duration_seconds": 10,
+          "mean_volume_db": -17.1,
+          "max_volume_db": -3
+        },
+        "successor_late_window": {
+          "start_seconds": 962.066144,
+          "duration_seconds": 8,
+          "mean_volume_db": -16.7,
+          "max_volume_db": -3
+        },
+        "source_prelap": {
+          "start_seconds": 943.584929,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.2,
+          "max_volume_db": -1.1
+        },
+        "successor_prelap": {
+          "start_seconds": 943.584929,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.2,
+          "max_volume_db": -1.1
+        }
+      },
+      "reads": {
+        "audio_successor_read": "pass_actual_player_and_wav_use_outro_plus5db_after_vo_successor",
+        "source_audio_baseline_read": "pass_old_review_mix_was_below_standard_and_blocked",
+        "prelap_read": "pass_pre_vo_prelap_unchanged",
+        "legal_window_level_read": "pass_measured_successor_legal_window_meets_standard_threshold",
+        "late_outro_level_read": "pass_measured_successor_late_outro_meets_standard_threshold",
+        "review_player_audio_read": "pass_review_and_root_players_use_audio_successor",
+        "review_audio_range_read": "pass_selected_review_audio_supports_http_206_byte_ranges",
+        "render_upload_read": "pass_no_render_or_upload_performed",
+        "range_server_read": "pass_http_206_partial_content_byte_range_server",
+        "browser_qa_read": "pass_source_credit_and_end_screen_runtime_qa"
+      },
+      "failures": []
+    },
+    {
+      "episode_id": "titanic",
+      "title": "Titanic",
+      "status": "pass",
+      "review_player_url": "http://127.0.0.1:8766/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=741.432&range_guard=titanic-source-credit-gap-outro-level_20260526T031512Z_html_review",
+      "output_root": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z",
+      "successor_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/audio_successor/titanic_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "successor_audio_sha256": "27a7847d15dae7e58a44ae87e64b7c449352348620dd64c39c9cc1c7972dfe1f",
+      "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_rolling_caption_rail_rough_proof_20260523T144059Z/proof_assets/audio/titanic_right_rail_alignment_music_mix.wav",
+      "source_audio_sha256": "9baa472d2dc07579c238fdc52994f014d9270a714a093fb562a52ac1748442ba",
+      "review_audio_src": "audio_successor/titanic_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "root_audio_src": "audio_successor/titanic_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+      "review_audio_range_status": 206,
+      "gain_db_after_voice": 5,
+      "gain_ramp_start_seconds": 744.318004,
+      "gain_ramp_full_seconds": 747.318004,
+      "legal_entry_seconds": 753.613219,
+      "legal_full_opacity_seconds": 753.913219,
+      "source_credit_timing": {
+        "fade_start_seconds": 746.732335,
+        "full_opacity_seconds": 747.482335,
+        "fade_out_start_seconds": 752.682335,
+        "fade_out_end_seconds": 753.613219
+      },
+      "qa_manifest_values": {
+        "current_legal_window_mean_volume_db": -22.1,
+        "successor_legal_window_mean_volume_db": -17.1,
+        "successor_late_window_mean_volume_db": -17.2,
+        "prelap_current_mean_volume_db": -16.4,
+        "prelap_successor_mean_volume_db": -16.4,
+        "max_volume_successor_legal_window_db": -3,
+        "max_volume_successor_late_window_db": -3
+      },
+      "measured_actual_files": {
+        "source_legal_window": {
+          "start_seconds": 753.613219,
+          "duration_seconds": 10,
+          "mean_volume_db": -22.1,
+          "max_volume_db": -8
+        },
+        "successor_legal_window": {
+          "start_seconds": 753.613219,
+          "duration_seconds": 10,
+          "mean_volume_db": -17.1,
+          "max_volume_db": -3
+        },
+        "successor_late_window": {
+          "start_seconds": 759.913219,
+          "duration_seconds": 8,
+          "mean_volume_db": -16.7,
+          "max_volume_db": -3
+        },
+        "source_prelap": {
+          "start_seconds": 741.432004,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.4,
+          "max_volume_db": -1.1
+        },
+        "successor_prelap": {
+          "start_seconds": 741.432004,
+          "duration_seconds": 2.886,
+          "mean_volume_db": -16.4,
+          "max_volume_db": -1.1
+        }
+      },
+      "reads": {
+        "audio_successor_read": "pass_actual_player_and_wav_use_outro_plus5db_after_vo_successor",
+        "source_audio_baseline_read": "pass_old_review_mix_was_below_standard_and_blocked",
+        "prelap_read": "pass_pre_vo_prelap_unchanged",
+        "legal_window_level_read": "pass_measured_successor_legal_window_meets_standard_threshold",
+        "late_outro_level_read": "pass_measured_successor_late_outro_meets_standard_threshold",
+        "review_player_audio_read": "pass_review_and_root_players_use_audio_successor",
+        "review_audio_range_read": "pass_selected_review_audio_supports_http_206_byte_ranges",
+        "render_upload_read": "pass_no_render_or_upload_performed",
+        "range_server_read": "pass_http_206_partial_content_byte_range_server",
+        "browser_qa_read": "pass_source_credit_and_end_screen_runtime_qa"
+      },
+      "failures": []
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "summary": {
+    "episode_count": 7,
+    "pass_count": 7,
+    "fail_count": 0,
+    "review_index_url": "http://127.0.0.1:8766/other-seven-source-credit-gap-outro-level-review-20260526T031512Z.html",
+    "review_index_path": "/Users/mike/Episodes_CascadeEffects/other-seven-source-credit-gap-outro-level-review-20260526T031512Z.html",
+    "old_blocked_review_index_path": "/Users/mike/Episodes_CascadeEffects/other-seven-source-credit-gap-review-20260526T000900Z.html",
+    "old_blocked_read": "20260526T000900Z preserved quiet mixes and is blocked; use 20260526T031512Z successor review set"
+  },
+  "audit_path": "/Users/mike/Episodes_CascadeEffects/other-seven-source-credit-gap-outro-level-review-20260526T031512Z-audit.json",
+  "hash_note": "SHA-256 is recorded in the rollout manifest after audit JSON is finalized."
+}

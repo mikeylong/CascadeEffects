@@ -1,0 +1,38 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_04_exterior_restage_pass_01",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, room interior, mission control, monitor wall, control screen, generic rocket, capsule rocket, missile, conical nose rocket, nose plume, side exhaust, off-frame smoke source, fireball, debris shower, explosion spectacle, blockbuster blast bloom, painterly abstraction"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_short__beat_04a_joint_smoke_seep",
+      "archetype": "single_object_or_device",
+      "base_seed": 70901,
+      "prompt_body": "Tight documentary close-up of the Challenger solid rocket booster field joint and O-ring seat, canonical cylindrical steel geometry remains intact and legible, the framing stays aligned with the accepted field-joint band closeup, one thin pale gray smoke seep emerges from the ring interface and curls only slightly while the rest of the hardware stays calm and pre-failure, no flame, no soot streak, no cutaway diagram, no exploded view, no tools, no hands, parchment beige, muted blue, restrained industrial stillness"
+    },
+    {
+      "id": "challenger_short__beat_04b_flight_flame_visible",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 81321,
+      "prompt_body": "Exterior Space Shuttle Challenger in flight high above Earth about one minute after launch, orbiter, rust-orange external tank, and twin white boosters remain fully canonical and immediately recognizable, curved Earth and cloud field lie far below, one bright flame becomes visible again along the right booster joint path while all sustained exhaust remains aft-only and physically correct, no breakup, no detached debris, no explosion spectacle, cool upper-atmosphere blue, restrained documentary tension"
+    },
+    {
+      "id": "challenger_short__beat_04c_exact_exterior_breakup",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 81341,
+      "prompt_body": "Historically anchored exterior Challenger breakup 73 seconds after launch in a restrained telephoto documentary frame against clear daytime sky, the shuttle stack is no longer intact, the left solid rocket booster appears at far right still thrusting away, the disintegrating orbiter is enveloped by a reddish-brown nitrogen-tetroxide cloud, and the main-engine plus solid-rocket exhaust plumes entwine around a pale gas ball from the ruptured external tank, NASA-photo realism, no intact stack, no launch pad, no Earth-horizon backdrop, no mission-control framing, no poster blast, smoke white, oxidizer brown, ash gray, severe documentary stillness"
+    }
+  ]
+}

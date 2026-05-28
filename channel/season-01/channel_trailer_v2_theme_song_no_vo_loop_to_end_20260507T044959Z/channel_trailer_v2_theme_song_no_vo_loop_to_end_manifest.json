@@ -1,0 +1,459 @@
+{
+  "artifact_id": "cascade_of_effects_channel_trailer_v2_theme_song_no_vo_loop_to_end_variant",
+  "created_at": "20260507T044959Z",
+  "status": "variant_review_ready",
+  "variant_of": "channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044406Z",
+  "audio_variant": "theme_song_no_vo_loop_to_end",
+  "full_theme_end_seconds": 30.795,
+  "theme_loop_blend_seconds": [
+    28.984,
+    30.795
+  ],
+  "theme_loop_blend_beats": 4,
+  "theme_loop_beat_seconds": 0.452789,
+  "loop_to_end_seconds": [
+    28.984,
+    41.958
+  ],
+  "outro_seconds": null,
+  "outro_file_used": false,
+  "visual_stream_copied": true,
+  "revision_reason": "repair_theme_song_no_vo_beat_matched_loop_to_end_no_outro",
+  "public_release_blocked": true,
+  "public_release_blocker": "Confirm music rights and YouTube claim status before public visibility.",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "aspect_ratio": "16:9"
+  },
+  "runtime": {
+    "target_seconds": "~41.958",
+    "source_video_seconds": 41.958,
+    "actual_seconds": 41.958,
+    "source_audio_seconds": 41.958,
+    "runtime_read": "pass"
+  },
+  "timing": {
+    "theme_song_seconds": [
+      0.0,
+      30.795
+    ],
+    "full_theme_end_seconds": 30.795,
+    "theme_loop_blend_seconds": [
+      28.984,
+      30.795
+    ],
+    "theme_loop_blend_beats": 4,
+    "theme_loop_beat_seconds": 0.452789,
+    "loop_to_end_seconds": [
+      28.984,
+      41.958
+    ],
+    "loop_duration_seconds": 12.974,
+    "loop_continues_after_theme_end_seconds": [
+      30.795,
+      41.958
+    ],
+    "voiceover_seconds": null,
+    "full_theme_to_outro_crossfade_seconds": null,
+    "outro_seconds": null,
+    "padded_audio_tail_seconds": null,
+    "visual_timeline_inherited_from": "channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044406Z"
+  },
+  "audio_mix": {
+    "mix_wav_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044959Z/audio/channel_trailer_v2_theme_song_no_vo_loop_to_end_mix.wav",
+    "sha256": "96d651dfe34647cdd9cb1054c4d86d56f9f4587c3766a95e382523a575cfa61f",
+    "rebuilt_from_sources": true,
+    "duration_seconds": 41.958,
+    "audio_variant": "theme_song_no_vo_loop_to_end",
+    "theme_start_seconds": 0.0,
+    "full_theme_duration_seconds": 30.795,
+    "full_theme_played_seconds": [
+      0.0,
+      30.795
+    ],
+    "full_theme_end_seconds": 30.795,
+    "body_loop_duration_seconds": 9.601,
+    "theme_loop_blend_seconds": [
+      28.984,
+      30.795
+    ],
+    "theme_loop_blend_beats": 4,
+    "theme_loop_beat_seconds": 0.452789,
+    "loop_to_end_seconds": [
+      28.984,
+      41.958
+    ],
+    "loop_duration_seconds": 12.974,
+    "loop_continues_after_theme_end_seconds": [
+      30.795,
+      41.958
+    ],
+    "voiceover_removed": true,
+    "voiceover_source_used_in_mix": false,
+    "outro_source_used_in_mix": false,
+    "voiceover_seconds": null,
+    "full_theme_to_outro_crossfade_seconds": null,
+    "outro_start_seconds": null,
+    "outro_resolve_after_crossfade_seconds": null,
+    "outro_end_seconds": null,
+    "padded_audio_tail_seconds": null,
+    "volume_peak": {
+      "status": "pass",
+      "max_volume_db": -2.5,
+      "mean_volume_db": -17.3
+    },
+    "mix_profile": {
+      "profile_id": "paper_architecture_full_theme_loop_to_end_no_vo_variant_v1",
+      "full_theme_volume_linear": 0.76,
+      "loop_to_end_volume_linear": 0.62,
+      "loop_to_end_source": "Paper Architecture instrumental_loop.wav",
+      "beat_match_strategy": "loop_starts_four_detected_beats_before_full_theme_end",
+      "detected_loop_beat_seconds": 0.452789,
+      "theme_loop_overlap_beats": 4,
+      "theme_loop_overlap_seconds": 1.811156,
+      "final_loop_fade_seconds": 0.35,
+      "limiter": "alimiter limit=0.89 level=false",
+      "audio_tail_policy": "loop_continues_to_final_frame_no_outro_file"
+    },
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "41.957982",
+        "size": "7401546"
+      }
+    },
+    "music_track_id": "paper_architecture_theme_v1",
+    "full_theme_source": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+      "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "30.795215",
+          "size": "773136"
+        }
+      },
+      "role": "full_theme_song"
+    },
+    "loop_to_end_source": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "registry_sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "9.601451",
+          "size": "1693774"
+        }
+      },
+      "role": "body_loop",
+      "duration_seconds": 9.601
+    },
+    "body_loop_source_used": true,
+    "outro_source_used": false,
+    "v1_audio_mix_reused_unchanged": false
+  },
+  "voiceover_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v1_20260505T044755Z/work/rendered/channel_trailer_vo.wav",
+    "sha256": "1d76292dc413a3a36727b5a940b2beb8ccd9f6efc635ae106a9f298142ef38eb",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "pcm_s16le",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 1,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "23.777234",
+        "size": "2097230"
+      }
+    },
+    "duration_seconds": 23.777,
+    "used_in_mix": false,
+    "voiceover_removed": true,
+    "reference_only": true
+  },
+  "text_policy": {
+    "final_video_text": "outro_approved_title_raster_only",
+    "selected_title_scope": "outro_approved_title_raster_only",
+    "uses_episode_labels": false,
+    "uses_captions": false,
+    "uses_generated_text": false,
+    "deterministic_font_text_used_in_final": false,
+    "deterministic_text_only": [],
+    "raster_title_only": [
+      "outro_approved_website_paper_architecture_title"
+    ],
+    "removed_local_text_overlays": [
+      "cold_open_title",
+      "cold_open_subhead",
+      "voiceover_section_cue",
+      "mechanism_words",
+      "mechanism_subheads",
+      "outro_promise",
+      "outro_end_screen_labels"
+    ]
+  },
+  "inputs": {
+    "source_music_only_package": {
+      "package_id": "channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044406Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044406Z/channel_trailer_v2_theme_song_no_vo_loop_to_end_manifest.json",
+      "manifest_sha256": "b9327f025bb8e29319c085dd69e63b3e1d96400432971d91e9c857a218b42e7e",
+      "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044406Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_loop_to_end.mp4",
+      "video_sha256": "13677e3689abf6344adf2978a77d73d4a3fd946fef3e25920712900d686182ac",
+      "video_stream_sha256": "2c6d41ed0b21fc851e2c92879389ae0a2a3322325e58e2a246fad2d6f0f90ecd"
+    },
+    "music_track_registry": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json",
+      "sha256": "e8ad71cc4933eb0459814a241aff3da766c66f5c36a2f52aa9469689d833934a"
+    },
+    "full_theme_source": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+      "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "30.795215",
+          "size": "773136"
+        }
+      }
+    },
+    "loop_to_end_source": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_type": "audio",
+            "sample_rate": "44100",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0"
+          }
+        ],
+        "format": {
+          "duration": "9.601451",
+          "size": "1693774"
+        }
+      }
+    }
+  },
+  "visuals": {
+    "preserved_from": "channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044406Z",
+    "visual_stream_copied": true,
+    "video_stream_copied": true,
+    "video_stream_copy_method": "ffmpeg_mux_c_v_copy",
+    "video_stream_sha256_source": "2c6d41ed0b21fc851e2c92879389ae0a2a3322325e58e2a246fad2d6f0f90ecd",
+    "video_stream_sha256_final": "2c6d41ed0b21fc851e2c92879389ae0a2a3322325e58e2a246fad2d6f0f90ecd",
+    "video_stream_copy_read": "pass",
+    "no_intro_rerender": true,
+    "cold_open_geometry_changed": false,
+    "push_in_timeline_changed": false,
+    "right_plate_behavior_changed": false,
+    "right_plate_behavior_read": "pass_inherited_by_exact_video_stream_copy",
+    "intro_samples_match_read": "pass_by_exact_video_stream_copy",
+    "intro_sample_frame_hash_report": {
+      "sample_times_seconds": [
+        0.6,
+        2.2,
+        3.75,
+        4.0
+      ],
+      "samples": [
+        {
+          "time_seconds": 0.6,
+          "source_raw_rgb_sha256": "5d4752a7800482cd997225063156122f263313a7d4a357614cb8477d947a7373",
+          "final_raw_rgb_sha256": "5d4752a7800482cd997225063156122f263313a7d4a357614cb8477d947a7373",
+          "sample_match_read": "pass"
+        },
+        {
+          "time_seconds": 2.2,
+          "source_raw_rgb_sha256": "b032a8f20746fb139c3e36f611f18044049bbc7a5f0cf395cce820d481574e73",
+          "final_raw_rgb_sha256": "b032a8f20746fb139c3e36f611f18044049bbc7a5f0cf395cce820d481574e73",
+          "sample_match_read": "pass"
+        },
+        {
+          "time_seconds": 3.75,
+          "source_raw_rgb_sha256": "6eb6d8f0794f4f7de7273af3d04e10bcf7e6c8985d36b0a421464b1fac7dec37",
+          "final_raw_rgb_sha256": "6eb6d8f0794f4f7de7273af3d04e10bcf7e6c8985d36b0a421464b1fac7dec37",
+          "sample_match_read": "pass"
+        },
+        {
+          "time_seconds": 4.0,
+          "source_raw_rgb_sha256": "3ec28fbe61516f7fba12e3bf40b4ddceb2d0e5a5b6ede64f80e0172fad379534",
+          "final_raw_rgb_sha256": "3ec28fbe61516f7fba12e3bf40b4ddceb2d0e5a5b6ede64f80e0172fad379534",
+          "sample_match_read": "pass"
+        }
+      ],
+      "intro_sample_frame_hash_read": "pass"
+    },
+    "final_video_text_policy": "outro_approved_title_raster_only"
+  },
+  "artifacts": {
+    "output_root": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044959Z",
+    "final_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044959Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_loop_to_end.mp4",
+    "final_mp4_sha256": "1aa60e225691e2bd540a1ef5ef2566ab2277e9ec1ef5296a6358d6d2236fdf90",
+    "theme_song_no_vo_loop_to_end_audio_mix_wav": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044959Z/audio/channel_trailer_v2_theme_song_no_vo_loop_to_end_mix.wav",
+    "theme_song_no_vo_loop_to_end_audio_mix_wav_sha256": "96d651dfe34647cdd9cb1054c4d86d56f9f4587c3766a95e382523a575cfa61f",
+    "source_visual_contact_sheet": null,
+    "source_intro_preservation_reference_sheet": null,
+    "source_no_pre_outro_text_sample_sheet": null,
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_20260507T044959Z/channel_trailer_v2_theme_song_no_vo_loop_to_end_manifest.json"
+  },
+  "qa": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "41.958008",
+        "size": "16779582"
+      }
+    },
+    "decode_read": "pass",
+    "audio_variant_read": "pass_theme_song_no_vo_loop_to_end",
+    "full_theme_starts_at_0_read": "pass",
+    "loop_blends_with_theme_ending_read": "pass",
+    "loop_beat_match_read": "pass_four_beat_theme_overlap",
+    "loop_continues_to_end_read": "pass",
+    "outro_file_used_read": "pass_false",
+    "voiceover_removed_read": "pass",
+    "voiceover_source_used_in_mix_read": "pass_false",
+    "audio_volume_peak": {
+      "status": "pass",
+      "max_volume_db": -2.4,
+      "mean_volume_db": -17.3
+    },
+    "audio_mix_volume_peak": {
+      "status": "pass",
+      "max_volume_db": -2.5,
+      "mean_volume_db": -17.3
+    },
+    "no_clipping_read": "pass",
+    "video_stream_copy_read": "pass",
+    "visual_preservation_read": "pass_exact_video_stream_copy",
+    "intro_samples_match_read": "pass_by_exact_video_stream_copy",
+    "intro_sample_frame_hash_read": "pass",
+    "intro_sample_frame_hash_report": {
+      "sample_times_seconds": [
+        0.6,
+        2.2,
+        3.75,
+        4.0
+      ],
+      "samples": [
+        {
+          "time_seconds": 0.6,
+          "source_raw_rgb_sha256": "5d4752a7800482cd997225063156122f263313a7d4a357614cb8477d947a7373",
+          "final_raw_rgb_sha256": "5d4752a7800482cd997225063156122f263313a7d4a357614cb8477d947a7373",
+          "sample_match_read": "pass"
+        },
+        {
+          "time_seconds": 2.2,
+          "source_raw_rgb_sha256": "b032a8f20746fb139c3e36f611f18044049bbc7a5f0cf395cce820d481574e73",
+          "final_raw_rgb_sha256": "b032a8f20746fb139c3e36f611f18044049bbc7a5f0cf395cce820d481574e73",
+          "sample_match_read": "pass"
+        },
+        {
+          "time_seconds": 3.75,
+          "source_raw_rgb_sha256": "6eb6d8f0794f4f7de7273af3d04e10bcf7e6c8985d36b0a421464b1fac7dec37",
+          "final_raw_rgb_sha256": "6eb6d8f0794f4f7de7273af3d04e10bcf7e6c8985d36b0a421464b1fac7dec37",
+          "sample_match_read": "pass"
+        },
+        {
+          "time_seconds": 4.0,
+          "source_raw_rgb_sha256": "3ec28fbe61516f7fba12e3bf40b4ddceb2d0e5a5b6ede64f80e0172fad379534",
+          "final_raw_rgb_sha256": "3ec28fbe61516f7fba12e3bf40b4ddceb2d0e5a5b6ede64f80e0172fad379534",
+          "sample_match_read": "pass"
+        }
+      ],
+      "intro_sample_frame_hash_read": "pass"
+    },
+    "repaired_right_plate_freeze_push_in_preserved_read": "pass_inherited_by_exact_video_stream_copy",
+    "no_captions_read": "pass",
+    "no_pre_outro_local_text_read": "pass_inherited_by_exact_video_stream_copy",
+    "final_video_text_policy_read": "pass_outro_approved_title_raster_only",
+    "source_package_not_superseded_read": "pass_variant_only_no_status_mutation",
+    "deleted_duplicate_loop_file_reference_read": "pass_not_referenced"
+  }
+}

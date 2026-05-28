@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "context": "youtube_unlisted_upload_preflight",
+  "created_utc": "2026-05-27T16:53:52.336Z",
+  "episode_id": "challenger",
+  "required": true,
+  "model": "challenger_precision_matte_guard_v1",
+  "expected": {
+    "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z",
+    "mask_sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+    "precision_model": "source_pixel_gap_preserving_tower_shuttle_matte_v3",
+    "keep_receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z/review/precision_matte_keep_receipt_20260523T045650Z.json",
+    "superseded_mask_sha256": [
+      "48ebac2e7e4b8737cc56e884d902211ee574781b7363eb24c9799afa3606d208",
+      "a184e54cd698b607a2f522c6a11888c4fe55cfaad6585c0a4d249936e97bd9a4",
+      "c4e91ecde3dd7ba44b2d5c7f3f3eb2580b142773158db122b4e3861afd9e938e"
+    ]
+  },
+  "observed": {
+    "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z",
+    "root_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/rough_assembly_manifest.json",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/publish_readiness_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/player.html",
+    "assets_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/assets",
+    "assets_realpath": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z/assets",
+    "mask_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/assets/masks/foreground_occlusion_matte.png",
+    "mask_realpath": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T044315Z/assets/masks/foreground_occlusion_matte.png",
+    "mask_sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+    "manifest_mask_sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+    "manifest_precision_model": "source_pixel_gap_preserving_tower_shuttle_matte_v3",
+    "player_has_mask_cache_bust": true,
+    "player_has_data_mask_sha256": true,
+    "player_has_precision_model": true,
+    "keep_receipt_sha256": "88c55ec11ff06d51730f2eb551626042a4a4a9a44c72b7c5b4596786b1692f5d"
+  },
+  "failures": [],
+  "reads": {
+    "challenger_precision_matte_guard_read": "pass_challenger_precision_matte_v3_sha_model_receipt_and_player_metadata",
+    "challenger_precision_mask_sha_read": "pass_mask_sha_987d1a96",
+    "challenger_superseded_mask_block_read": "pass_no_superseded_challenger_mask_active",
+    "challenger_mask_lineage_read": "pass_mask_resolves_to_kept_precision_matte_root",
+    "challenger_precision_player_metadata_read": "pass_player_cache_bust_data_sha_and_precision_model_present",
+    "challenger_precision_keep_receipt_read": "pass_precision_matte_human_keep_receipt_present"
+  },
+  "receipt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/preflight/challenger_precision_matte_guard_20260527T165351Z.json",
+  "receipt_sha256": "9a4599868fc8ef540eb497b8041b6d0f41d22ae18717f5630327e81e296e8e78"
+}

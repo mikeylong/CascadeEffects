@@ -1,0 +1,109 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_seal_joint__final_upscale",
+  "base_fragment": "image_resize_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131802,
+    "selected_seed": 972054013131802,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 8,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_seal_joint/final/challenger_seal_joint_final",
+    "note_text": "Final beat 02 deliverable. Preserve the calm system frame around the impossible open seal.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "final_upscale",
+    "reference_board_dir": "references/episodes/challenger/booster_joint_evidence/selects",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "accent_palette": "beige, muted blue, charcoal, signal red",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the joint geometry above the subtitle band and leave the top UI band empty",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "booster seal ring that never quite closes",
+    "beat_id": "beat_02",
+    "historical_anchor": "solid rocket booster joint and O-ring seal geometry",
+    "surreal_breach": "the seal ring remains visibly open while the rest of the system stays calm",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_scene_plate/challenger_seal_joint/refine/challenger_seal_joint_refine_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "solid rocket booster joint rendered as a severe ring-and-gap signal object",
+    "support_fragments": [
+      "calm engineering surfaces and a single red pressure accent kept subordinate to the joint read",
+      "quiet beige field and dark seam geometry carrying the system logic"
+    ],
+    "directives": [
+      "keep the joint large enough to read on mobile",
+      "avoid literal cutaway-diagram styling"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "widgets": {
+        "upscale_method": "{{ params.upscale_method }}",
+        "scale_by": "{{ params.upscale_factor }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_seal_joint__final_upscale.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_seal_joint__final_upscale.json"
+  }
+}

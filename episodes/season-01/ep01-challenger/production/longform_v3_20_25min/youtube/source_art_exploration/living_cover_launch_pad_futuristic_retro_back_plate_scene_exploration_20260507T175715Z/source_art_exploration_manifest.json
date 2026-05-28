@@ -1,0 +1,404 @@
+{
+  "packet_id": "living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z",
+  "gate": "source_art_exploration_gate",
+  "status": "review_ready",
+  "created_utc": "2026-05-07T18:13:35Z",
+  "human_disposition": "defer",
+  "selected_variant": null,
+  "review_only": true,
+  "stills_only": true,
+  "side_exploration_only": true,
+  "concept": {
+    "name": "futuristic_retro_1980s_shuttle_challenger",
+    "description": "Futuristic retro: 1980s - Shuttle - Challenger",
+    "scope": "back plate scene rendering exploration with crew included",
+    "does_not_replace_current_source_carrier": true
+  },
+  "created_from_frozen_html_baseline": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_fixed_16x9_larger_native_rail_captions_html_rough_proof_20260507T150724Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_fixed_16x9_larger_native_rail_captions_html_rough_proof_20260507T150724Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_fixed_16x9_larger_native_rail_captions_html_rough_proof_20260507T150724Z/player.html",
+    "human_disposition": "keep",
+    "scope": "HTML rough proof baseline only"
+  },
+  "current_source_carrier_reference": {
+    "variant": "variant_c",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png",
+    "sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+    "expected_sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+    "profileId": "cascade-ink-lit-photoreal-v1",
+    "used_as_init_image": true
+  },
+  "prompt_contract": {
+    "include_exactly_seven_back_view_astronauts": true,
+    "preserve_challenger_lc39_public_anchor": true,
+    "preserve_right_rail_safe_space": true,
+    "photoreal_ink_lit_scene_rendering": true,
+    "not_paper_architecture": true,
+    "not_low_poly_or_toy_model": true,
+    "forbid_launch_ignition_smoke_fire": true,
+    "forbid_generated_text_logos_name_patches_watermarks": true,
+    "forbid_evidence_props": true,
+    "forbid_sci_fi_spacecraft": true,
+    "forbid_extra_or_missing_people": true
+  },
+  "variants": {
+    "variant_a": {
+      "label": "A",
+      "human_disposition": "defer",
+      "selected": false,
+      "direction": "Grounded 1980s NASA documentary futurism; most conservative Challenger/LC-39 read.",
+      "intent": "highest historical anchor and cleanest documentary restraint",
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/futuristic_retro_back_plate_variant_a.png",
+      "source_art_sha256": "43f7e23ab438be883892e6638bded055018eed3ece1c2f79304202ecd7ebd53c",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "raw_model_output_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/raw_model_outputs/futuristic_retro_back_plate_variant_a_raw_1920x1072.png",
+      "raw_model_output_sha256": "993b68ed3931c9a1c2c97da1da61fadbef9e6318bded0121fcd13be7e6c787c2",
+      "raw_model_output_dimensions": {
+        "width": 1920,
+        "height": 1072,
+        "note": "local generator rounded 1080 down to nearest multiple of 16"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/futuristic_retro_back_plate_variant_a_prompt.txt",
+      "prompt_sha256": "2ee8b56ab754b977cf03763da4379de02ab4fce16605a97849cedfff451094dd",
+      "negative_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/negative_prompt.txt",
+      "generation": {
+        "tool": "mflux-generate-z-image-turbo",
+        "model": "Tongyi-MAI/Z-Image-Turbo",
+        "mode": "image_to_image_from_kept_variant_c",
+        "seed": 860501,
+        "steps_requested": 10,
+        "quantize": 8,
+        "image_strength": 0.6,
+        "width_requested": 1920,
+        "height_requested": 1080,
+        "normalized_review_output": true
+      },
+      "reads": {
+        "futuristic_retro_read": "pending_human_review",
+        "1980s_shuttle_read": "pending_human_review",
+        "challenger_launch_pad_scene_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review",
+        "crew_count_read": "pending_human_review",
+        "flight_suit_period_read": "pending_human_review",
+        "generated_text_logo_watermark_read": "pending_human_review",
+        "launch_chronology_read": "pending_human_review",
+        "photoreal_scene_read": "pending_human_review",
+        "source_art_continuity_read": "pending_human_review",
+        "dimension_read": "pass"
+      },
+      "generation_provenance": {
+        "tool": "mflux_generate_z_image_turbo",
+        "model": "Tongyi-MAI/Z-Image-Turbo",
+        "model_confidence": "explicit",
+        "mode": "image_to_image",
+        "source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/raw_model_outputs/futuristic_retro_back_plate_variant_a_raw_1920x1072.png",
+        "source_generation_sha256": "993b68ed3931c9a1c2c97da1da61fadbef9e6318bded0121fcd13be7e6c787c2",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/futuristic_retro_back_plate_variant_a.png",
+        "final_asset_sha256": "43f7e23ab438be883892e6638bded055018eed3ece1c2f79304202ecd7ebd53c",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/futuristic_retro_back_plate_variant_a_prompt.txt",
+        "prompt_sha256": "2ee8b56ab754b977cf03763da4379de02ab4fce16605a97849cedfff451094dd",
+        "negative_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/negative_prompt.txt",
+        "negative_prompt_sha256": "82c7ee0eac1c7bf6271a7d75c87cbbdad016274a838a01761a9022382eea4873",
+        "init_image_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png",
+        "init_image_sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png"
+        ],
+        "generation_settings": {
+          "tool": "mflux-generate-z-image-turbo",
+          "model": "Tongyi-MAI/Z-Image-Turbo",
+          "mode": "image_to_image_from_kept_variant_c",
+          "seed": 860501,
+          "steps_requested": 10,
+          "quantize": 8,
+          "image_strength": 0.6,
+          "width_requested": 1920,
+          "height_requested": 1080,
+          "normalized_review_output": true
+        },
+        "provenance_notes": "Explicit MFLUX Z-Image-Turbo image-to-image side exploration using kept Challenger Variant C as init/reference image; normalized review asset was padded/cropped into the packet source-art still."
+      },
+      "generation_tool_provenance_read": "pass_explicit_tool_metadata"
+    },
+    "variant_b": {
+      "label": "B",
+      "human_disposition": "defer",
+      "selected": false,
+      "direction": "Stronger retro-future aerospace mood; analog-era lighting and color while staying photoreal and launch-pad authentic.",
+      "intent": "more visible futuristic-retro rendering without turning into sci-fi",
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/futuristic_retro_back_plate_variant_b.png",
+      "source_art_sha256": "4de66fbb2c4a18ac0a59b42cd75961a4deda5d0ed6d44cbd43ebf00f07aa0b8c",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "raw_model_output_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/raw_model_outputs/futuristic_retro_back_plate_variant_b_raw_1920x1072.png",
+      "raw_model_output_sha256": "a784d0e5473d9fe96b12f3461f142d2c2bb5a900a424fc4669999ebb26f4c3f9",
+      "raw_model_output_dimensions": {
+        "width": 1920,
+        "height": 1072,
+        "note": "local generator rounded 1080 down to nearest multiple of 16"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/futuristic_retro_back_plate_variant_b_prompt.txt",
+      "prompt_sha256": "02ca457dc81bf0c643e3ae0a9f9132520b754eb784dd965a54bca07521f18a16",
+      "negative_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/negative_prompt.txt",
+      "generation": {
+        "tool": "mflux-generate-z-image-turbo",
+        "model": "Tongyi-MAI/Z-Image-Turbo",
+        "mode": "image_to_image_from_kept_variant_c",
+        "seed": 860502,
+        "steps_requested": 10,
+        "quantize": 8,
+        "image_strength": 0.52,
+        "width_requested": 1920,
+        "height_requested": 1080,
+        "normalized_review_output": true
+      },
+      "reads": {
+        "futuristic_retro_read": "pending_human_review",
+        "1980s_shuttle_read": "pending_human_review",
+        "challenger_launch_pad_scene_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review",
+        "crew_count_read": "pending_human_review",
+        "flight_suit_period_read": "pending_human_review",
+        "generated_text_logo_watermark_read": "pending_human_review",
+        "launch_chronology_read": "pending_human_review",
+        "photoreal_scene_read": "pending_human_review",
+        "source_art_continuity_read": "pending_human_review",
+        "dimension_read": "pass"
+      },
+      "generation_provenance": {
+        "tool": "mflux_generate_z_image_turbo",
+        "model": "Tongyi-MAI/Z-Image-Turbo",
+        "model_confidence": "explicit",
+        "mode": "image_to_image",
+        "source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/raw_model_outputs/futuristic_retro_back_plate_variant_b_raw_1920x1072.png",
+        "source_generation_sha256": "a784d0e5473d9fe96b12f3461f142d2c2bb5a900a424fc4669999ebb26f4c3f9",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/futuristic_retro_back_plate_variant_b.png",
+        "final_asset_sha256": "4de66fbb2c4a18ac0a59b42cd75961a4deda5d0ed6d44cbd43ebf00f07aa0b8c",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/futuristic_retro_back_plate_variant_b_prompt.txt",
+        "prompt_sha256": "02ca457dc81bf0c643e3ae0a9f9132520b754eb784dd965a54bca07521f18a16",
+        "negative_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/negative_prompt.txt",
+        "negative_prompt_sha256": "82c7ee0eac1c7bf6271a7d75c87cbbdad016274a838a01761a9022382eea4873",
+        "init_image_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png",
+        "init_image_sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png"
+        ],
+        "generation_settings": {
+          "tool": "mflux-generate-z-image-turbo",
+          "model": "Tongyi-MAI/Z-Image-Turbo",
+          "mode": "image_to_image_from_kept_variant_c",
+          "seed": 860502,
+          "steps_requested": 10,
+          "quantize": 8,
+          "image_strength": 0.52,
+          "width_requested": 1920,
+          "height_requested": 1080,
+          "normalized_review_output": true
+        },
+        "provenance_notes": "Explicit MFLUX Z-Image-Turbo image-to-image side exploration using kept Challenger Variant C as init/reference image; normalized review asset was padded/cropped into the packet source-art still."
+      },
+      "generation_tool_provenance_read": "pass_explicit_tool_metadata"
+    },
+    "variant_c": {
+      "label": "C",
+      "human_disposition": "defer",
+      "selected": false,
+      "direction": "Premium heroic wide back plate; strongest right-rail negative space and cinematic composition.",
+      "intent": "premium YouTube back plate with clean right-side rail room",
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/futuristic_retro_back_plate_variant_c.png",
+      "source_art_sha256": "fcd38102afbef83bfbd88d408450aa8725f613fcebd9ba7cbef11495813a22ea",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "raw_model_output_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/raw_model_outputs/futuristic_retro_back_plate_variant_c_raw_1920x1072.png",
+      "raw_model_output_sha256": "f6c12fc7938e61bad1c404124d34b87fa110b265872dd09d6af88a25613b5c42",
+      "raw_model_output_dimensions": {
+        "width": 1920,
+        "height": 1072,
+        "note": "local generator rounded 1080 down to nearest multiple of 16"
+      },
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/futuristic_retro_back_plate_variant_c_prompt.txt",
+      "prompt_sha256": "f991703687db55782b340135445a29dddedebab320aa3eec4962872f1bc9278a",
+      "negative_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/negative_prompt.txt",
+      "generation": {
+        "tool": "mflux-generate-z-image-turbo",
+        "model": "Tongyi-MAI/Z-Image-Turbo",
+        "mode": "image_to_image_from_kept_variant_c",
+        "seed": 860503,
+        "steps_requested": 10,
+        "quantize": 8,
+        "image_strength": 0.56,
+        "width_requested": 1920,
+        "height_requested": 1080,
+        "normalized_review_output": true
+      },
+      "reads": {
+        "futuristic_retro_read": "pending_human_review",
+        "1980s_shuttle_read": "pending_human_review",
+        "challenger_launch_pad_scene_read": "pending_human_review",
+        "right_rail_safe_space_read": "pending_human_review",
+        "crew_count_read": "pending_human_review",
+        "flight_suit_period_read": "pending_human_review",
+        "generated_text_logo_watermark_read": "pending_human_review",
+        "launch_chronology_read": "pending_human_review",
+        "photoreal_scene_read": "pending_human_review",
+        "source_art_continuity_read": "pending_human_review",
+        "dimension_read": "pass"
+      },
+      "generation_provenance": {
+        "tool": "mflux_generate_z_image_turbo",
+        "model": "Tongyi-MAI/Z-Image-Turbo",
+        "model_confidence": "explicit",
+        "mode": "image_to_image",
+        "source_generation_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/raw_model_outputs/futuristic_retro_back_plate_variant_c_raw_1920x1072.png",
+        "source_generation_sha256": "f6c12fc7938e61bad1c404124d34b87fa110b265872dd09d6af88a25613b5c42",
+        "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/source_art/futuristic_retro_back_plate_variant_c.png",
+        "final_asset_sha256": "fcd38102afbef83bfbd88d408450aa8725f613fcebd9ba7cbef11495813a22ea",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/futuristic_retro_back_plate_variant_c_prompt.txt",
+        "prompt_sha256": "f991703687db55782b340135445a29dddedebab320aa3eec4962872f1bc9278a",
+        "negative_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/negative_prompt.txt",
+        "negative_prompt_sha256": "82c7ee0eac1c7bf6271a7d75c87cbbdad016274a838a01761a9022382eea4873",
+        "init_image_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png",
+        "init_image_sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+        "reference_image_paths": [
+          "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png"
+        ],
+        "generation_settings": {
+          "tool": "mflux-generate-z-image-turbo",
+          "model": "Tongyi-MAI/Z-Image-Turbo",
+          "mode": "image_to_image_from_kept_variant_c",
+          "seed": 860503,
+          "steps_requested": 10,
+          "quantize": 8,
+          "image_strength": 0.56,
+          "width_requested": 1920,
+          "height_requested": 1080,
+          "normalized_review_output": true
+        },
+        "provenance_notes": "Explicit MFLUX Z-Image-Turbo image-to-image side exploration using kept Challenger Variant C as init/reference image; normalized review asset was padded/cropped into the packet source-art still."
+      },
+      "generation_tool_provenance_read": "pass_explicit_tool_metadata"
+    }
+  },
+  "contact_sheets": {
+    "desktop": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/contact_sheet_desktop.png",
+      "sha256": "0ab247a49ea680b4e167dd91601aff57ff630bf52da6c4b2946c7dad1d148aea",
+      "bytes": 1006036
+    },
+    "320x180": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/contact_sheet_320x180.png",
+      "sha256": "5796494c341e5b11acd408d28d48238153bee8a1b4b0b38cf6fdc06eaa65fb6e",
+      "bytes": 267405
+    },
+    "168x94": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/contact_sheet_168x94.png",
+      "sha256": "13109c5ff9b0fad7adee693aedae47a27ea1253585f6de3319cc046bfef5ddd8",
+      "bytes": 76995
+    }
+  },
+  "qa": {
+    "created_utc": "2026-05-07T18:13:35Z",
+    "dimension_check": {
+      "variant_a": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "variant_b": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      },
+      "variant_c": {
+        "width": 1920,
+        "height": 1080,
+        "aspect_ratio": "16:9"
+      }
+    },
+    "all_review_stills_1920x1080": true,
+    "contact_sheets": {
+      "desktop": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/contact_sheet_desktop.png",
+        "sha256": "0ab247a49ea680b4e167dd91601aff57ff630bf52da6c4b2946c7dad1d148aea",
+        "bytes": 1006036
+      },
+      "320x180": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/contact_sheet_320x180.png",
+        "sha256": "5796494c341e5b11acd408d28d48238153bee8a1b4b0b38cf6fdc06eaa65fb6e",
+        "bytes": 267405
+      },
+      "168x94": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/contact_sheet_168x94.png",
+        "sha256": "13109c5ff9b0fad7adee693aedae47a27ea1253585f6de3319cc046bfef5ddd8",
+        "bytes": 76995
+      }
+    },
+    "raw_model_outputs_preserved": true,
+    "forbidden_media_extensions_present": [],
+    "qa_metadata_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/qa_metadata.json",
+    "source_carrier_hash_match": true,
+    "jq_validated": true
+  },
+  "reads": {
+    "futuristic_retro_read": "pending_human_review",
+    "1980s_shuttle_read": "pending_human_review",
+    "challenger_launch_pad_scene_read": "pending_human_review",
+    "right_rail_safe_space_read": "pending_human_review",
+    "crew_count_read": "pending_human_review",
+    "flight_suit_period_read": "pending_human_review",
+    "generated_text_logo_watermark_read": "pending_human_review",
+    "launch_chronology_read": "pending_human_review",
+    "photoreal_scene_read": "pending_human_review",
+    "source_art_continuity_read": "pending_human_review",
+    "source_carrier_hash_read": "pass",
+    "stills_dimension_read": "pass",
+    "contact_sheet_read": "pass",
+    "no_video_or_audio_media_created_read": "pass",
+    "generation_tool_provenance_read": "pass_explicit_tool_metadata"
+  },
+  "advancement_flags": {
+    "may_replace_source_art_carrier": false,
+    "may_create_motion_readiness_packet": false,
+    "may_create_rough_assembly_proof": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_shorts_work": false,
+    "may_advance_to_publish_readiness": false,
+    "may_youtube_action": false
+  },
+  "artifacts": {
+    "readme": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/README.md",
+      "sha256": "cb49a0be4c79a1f73ae4811dd7c67ad234c283817ec4e0c74499bb152ab84000",
+      "bytes": 2208
+    },
+    "review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/review/source_art_exploration_review_packet.md",
+      "sha256": "b57343ecda67fb7bb076d0cd54cd68fe9f5a98cccdebf52adf688f5f831ddba9",
+      "bytes": 2921
+    },
+    "qa_metadata": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/qa/qa_metadata.json",
+      "sha256": "f8f99c75bb85febc860a81ea318f276cd5aa77567a7fa84be5ee5eebf6b2f325",
+      "bytes": 1642
+    },
+    "negative_prompt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_futuristic_retro_back_plate_scene_exploration_20260507T175715Z/assets/prompts/negative_prompt.txt",
+      "sha256": "82c7ee0eac1c7bf6271a7d75c87cbbdad016274a838a01761a9022382eea4873",
+      "bytes": 900
+    }
+  },
+  "next_review_question": "Reply with exactly one response: keep A, keep B, keep C, tighten, or reject.",
+  "generation_tool_provenance_read": "pass_explicit_tool_metadata"
+}

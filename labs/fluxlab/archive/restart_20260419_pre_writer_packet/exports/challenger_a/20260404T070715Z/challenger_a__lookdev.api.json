@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "applied": {
+      "batch_size": 4,
+      "filename_prefix": "cascadeeffects_fluxlab/challenger_a/20260404T070715Z/lookdev/challenger_a",
+      "height": 1536,
+      "negative_prompt": "photorealism, documentary realism, detailed faces, busy composition, multiple focal points, clutter, visible branding, readable text, ui overlays, hard digital edges, glossy 3d render, dramatic action pose, explosion close-up, debris close-up, sensationalism",
+      "positive_prompt": "minimalist emotional surrealism, radical simplicity of form, large dominant color fields, asymmetric composition, active negative space, muted palette with one selective saturated accent, soft painterly edges, subtle pigment bleed, tactile matte surface, visual silence, stillness with implied story, symbolic environment, no literal depiction of disaster, no gore, no crowd, no text, no logos, cinematic restraint, quiet aftermath, vast ultramarine sky occupying nearly the full frame, a single thin white ascent trail rising upward and forking near the top, tiny human silhouette near the bottom edge at a distant shoreline, one faint warm orange haze at the point of separation, minimal horizon, extreme scale contrast, restrained and elegiac",
+      "seed": 41001,
+      "width": 864
+    },
+    "derived_from": {
+      "retrieved_at": "2026-04-03",
+      "template_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/image_flux2_text_to_image.json"
+    },
+    "id": "flux2_dev_text_to_image_api_template",
+    "notes": [
+      "Derived from the official ComfyUI Flux.2 Dev text-to-image workflow.",
+      "Adapted to expose negative_prompt, batch_size, seed, and filename_prefix for this lab.",
+      "The negative prompt branch is retained as an unconnected CLIPTextEncode node because the official FLUX.2 Dev text-to-image path is positive-guidance-first."
+    ],
+    "official_defaults": {
+      "clip_name": "mistral_3_small_flux2_bf16.safetensors",
+      "guidance": 4,
+      "sampler_name": "euler",
+      "steps": 20,
+      "unet_name": "flux2_dev_fp8mixed.safetensors",
+      "vae_name": "flux2-vae.safetensors"
+    },
+    "patchable_nodes": {
+      "10": [
+        "width",
+        "height",
+        "batch_size"
+      ],
+      "11": [
+        "noise_seed"
+      ],
+      "14": [
+        "filename_prefix"
+      ],
+      "3": [
+        "text"
+      ],
+      "4": [
+        "text"
+      ],
+      "9": [
+        "width",
+        "height"
+      ]
+    }
+  },
+  "prompt": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "flux2_dev_fp8mixed.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "10": {
+      "class_type": "EmptyFlux2LatentImage",
+      "inputs": {
+        "batch_size": 4,
+        "height": 1536,
+        "width": 864
+      }
+    },
+    "11": {
+      "class_type": "RandomNoise",
+      "inputs": {
+        "control_after_generate": "fixed",
+        "noise_seed": 41001
+      }
+    },
+    "12": {
+      "class_type": "SamplerCustomAdvanced",
+      "inputs": {
+        "guider": [
+          "6",
+          0
+        ],
+        "latent_image": [
+          "10",
+          0
+        ],
+        "noise": [
+          "11",
+          0
+        ],
+        "sampler": [
+          "7",
+          0
+        ],
+        "sigmas": [
+          "9",
+          0
+        ]
+      }
+    },
+    "13": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "12",
+          0
+        ],
+        "vae": [
+          "8",
+          0
+        ]
+      }
+    },
+    "14": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "filename_prefix": "cascadeeffects_fluxlab/challenger_a/20260404T070715Z/lookdev/challenger_a",
+        "images": [
+          "13",
+          0
+        ]
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "mistral_3_small_flux2_bf16.safetensors",
+        "device": "default",
+        "type": "flux2"
+      }
+    },
+    "3": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          0
+        ],
+        "text": "minimalist emotional surrealism, radical simplicity of form, large dominant color fields, asymmetric composition, active negative space, muted palette with one selective saturated accent, soft painterly edges, subtle pigment bleed, tactile matte surface, visual silence, stillness with implied story, symbolic environment, no literal depiction of disaster, no gore, no crowd, no text, no logos, cinematic restraint, quiet aftermath, vast ultramarine sky occupying nearly the full frame, a single thin white ascent trail rising upward and forking near the top, tiny human silhouette near the bottom edge at a distant shoreline, one faint warm orange haze at the point of separation, minimal horizon, extreme scale contrast, restrained and elegiac"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          0
+        ],
+        "text": "photorealism, documentary realism, detailed faces, busy composition, multiple focal points, clutter, visible branding, readable text, ui overlays, hard digital edges, glossy 3d render, dramatic action pose, explosion close-up, debris close-up, sensationalism"
+      }
+    },
+    "5": {
+      "class_type": "FluxGuidance",
+      "inputs": {
+        "conditioning": [
+          "3",
+          0
+        ],
+        "guidance": 4
+      }
+    },
+    "6": {
+      "class_type": "BasicGuider",
+      "inputs": {
+        "conditioning": [
+          "5",
+          0
+        ],
+        "model": [
+          "1",
+          0
+        ]
+      }
+    },
+    "7": {
+      "class_type": "KSamplerSelect",
+      "inputs": {
+        "sampler_name": "euler"
+      }
+    },
+    "8": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "flux2-vae.safetensors"
+      }
+    },
+    "9": {
+      "class_type": "Flux2Scheduler",
+      "inputs": {
+        "height": 1536,
+        "steps": 20,
+        "width": 864
+      }
+    }
+  }
+}

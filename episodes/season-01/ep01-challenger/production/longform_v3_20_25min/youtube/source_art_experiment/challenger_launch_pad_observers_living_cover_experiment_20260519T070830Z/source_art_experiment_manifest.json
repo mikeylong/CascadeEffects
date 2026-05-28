@@ -1,0 +1,358 @@
+{
+  "episode_id": "challenger",
+  "workflow": "long_form_video_production_v1",
+  "packet_type": "source_art_experiment",
+  "experiment_id": "challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z",
+  "created_at_utc": "2026-05-19T07:08:30Z",
+  "status": "experiment_review_ready_pending_human_keep_or_tighten",
+  "disposition": "experiment_only_not_active_source_art",
+  "experiment_only": true,
+  "blocks_current_final": false,
+  "may_replace_current_final": false,
+  "may_mark_source_art_keep": false,
+  "may_create_cue_map": false,
+  "may_start_motion_readiness": false,
+  "may_start_rough_assembly": false,
+  "may_render_final_mp4": false,
+  "may_youtube_action": false,
+  "current_final_publish_package_touched": false,
+  "source_art_lane": "cascade-ink-lit-photoreal-v1",
+  "carrier_direction": "launch_pad_observers",
+  "carrier_type": "generated_raster_source_art",
+  "generation_tool": "codex_builtin_image_gen",
+  "imagegen_skill_read": "pass_required_for_generation",
+  "source_art_generation_tool_read": "pass_codex_builtin_image_gen",
+  "target_dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "aspect_ratio": "16:9"
+  },
+  "active_episode_baseline": {
+    "baseline_index": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json",
+      "sha256": "2956ae0d591e4d42322ad58f5f33f525780bcf63af7ae53c2a3040905f84e8a3"
+    },
+    "baseline_doc": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/skills/long_form_video_production_v1/references/episode_visual_system_baselines/challenger.md",
+      "sha256": "190bec3da12a76eab1dca58aaafe4037cbe184ae490c336ff5ff594ca185035b"
+    },
+    "baseline_status": "keep_publish_readiness_active",
+    "active_source_art": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_shuttle_stack_reference_imagegen_scene_exploration_20260510T174825Z/assets/source_art/shuttle_stack_reference_variant_a.png",
+      "sha256": "981f442755441d374a6d512632572730b4edbfb5f91314c736b8e287ee65880d"
+    },
+    "source_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_exploration/living_cover_launch_pad_shuttle_stack_reference_imagegen_scene_exploration_20260510T174825Z/source_art_exploration_manifest.json",
+      "sha256": "329d6559b18ef41b5fcfed1b5ce8fe71b134ba467bce409051ff30abba04351a"
+    },
+    "inherited_required_reads": [
+      "launch_pad_scene_read",
+      "reference_anchor_read",
+      "pad_hardware_authenticity_read",
+      "website_hero_artifact_read",
+      "brand_signal_artifact_read",
+      "video_visual_style_scope_read",
+      "paper_architecture_visual_style_read",
+      "right_rail_safe_space_read"
+    ],
+    "deviation_note": "Separate experimental launch-pad observer carrier. It does not replace the active shuttle-stack Variant A source art unless a later human keep explicitly promotes it."
+  },
+  "recognizability_ladder": {
+    "public_anchor": "Space Shuttle Challenger on LC-39 at night with service structure and pad lights",
+    "human_presence": "anonymous observer/technician/press silhouettes from behind, used as public attention and anticipation",
+    "system_clue": "pad hardware readiness, practical tower lights, beacon, floodlights, crawlerway/service-road geometry, and rail-safe night sky"
+  },
+  "ambient_affordance_targets": [
+    "practical_tower_and_pad_light_glow",
+    "tower_beacon_pulse",
+    "localized_dust_or_air_particles_near_lights",
+    "damp_or_reflective_pad_surface_shimmer",
+    "distant_aircraft_navigation_points",
+    "subtle_public_scene_attention"
+  ],
+  "hard_bans": [
+    "paper_architecture_resemblance",
+    "foreground_clipboards",
+    "foreground_binders",
+    "foreground_folders",
+    "paperwork_stacks",
+    "legal_pads",
+    "document_trays",
+    "generic_evidence_table_props",
+    "admin_desks",
+    "readable_text",
+    "logos",
+    "mission_patches",
+    "ui_labels",
+    "cyan_brand_signal_artifacts",
+    "coral_brand_signal_artifacts",
+    "smoke",
+    "haze",
+    "fire",
+    "launch_exhaust",
+    "sparks",
+    "plume",
+    "explosion",
+    "launch_moment",
+    "recognizable_faces",
+    "full_frame_grain"
+  ],
+  "required_source_art_reads": [
+    "foreground_admin_prop_read",
+    "implied_action_anticipation_read",
+    "ambient_affordance_read",
+    "historical_source_reference_alignment_read",
+    "no_recognizable_faces_read",
+    "right_rail_safe_space_read",
+    "video_visual_style_scope_read",
+    "launch_pad_scene_read",
+    "reference_anchor_read",
+    "pad_hardware_authenticity_read",
+    "website_hero_artifact_read",
+    "paper_architecture_visual_style_read",
+    "brand_signal_artifact_read",
+    "generated_text_logo_read",
+    "disaster_spectacle_absence_read",
+    "source_provenance_read",
+    "rights_and_content_id_risk_read"
+  ],
+  "candidate_outputs": [
+    {
+      "candidate_id": "candidate_a_launch_pad_observers_primary",
+      "title": "Candidate A - Launch-Pad Observers Primary",
+      "status": "review_ready_pending_human_keep_or_tighten",
+      "review_recommendation": "experiment_candidate_pending_human_selection",
+      "strength": "balanced Challenger stack, observer silhouettes, practical lights, and dark right-rail sky",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0c0aa859d881968fed90e02897234d.png",
+        "source_generation_sha256": "0c10260eff2c184419057255df667dac691aa934089322a86bf2c9c1fdeece8b",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/prompts/challenger_candidate_a_launch_pad_observers_primary_prompt_20260519T070830Z.md",
+        "prompt_sha256": "21445ad7f08f42c0b4d4e212bd93b1beb9c86a1e6a4a56d1df2e9c2856c9cdd0",
+        "provenance_notes": "Built-in ImageGen output copied into a separate Challenger experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_a_launch_pad_observers_primary_raw_imagegen_20260519T070830Z.png",
+        "sha256": "0c10260eff2c184419057255df667dac691aa934089322a86bf2c9c1fdeece8b",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_a_launch_pad_observers_primary_1920x1080.png",
+        "sha256": "038c990b6b0aaa1a5f611dbb2045fd2cb3b774697e8637db9cf499c056714a50",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_a_launch_pad_observers_primary_960x540.png",
+          "sha256": "b92dcc0b70bedf53577c37cf52791ad64171f52859cb8a1c50bdf95afb174024",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_a_launch_pad_observers_primary_320x180.png",
+          "sha256": "f2169ce144da468dfb41fa0bf9d818d9975ec4fa5fe557332a198d8bc0da89b0",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_a_launch_pad_observers_primary_168x94.png",
+          "sha256": "a8521f36879b90357cc9ad54183eec6e8c3f006d70fb49a20b2729d80fa30265",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_observers_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_dust_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_faces_absent_or_unreadable",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    },
+    {
+      "candidate_id": "candidate_b_wide_right_rail_safe_observers",
+      "title": "Candidate B - Wide Rail-Safe Observers",
+      "status": "review_ready_pending_human_keep_or_tighten",
+      "review_recommendation": "experiment_candidate_pending_human_selection",
+      "strength": "widest rail-safe negative space with strong pad scale and crowd attention",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0c0aed45288196b41cd94ab46262b7.png",
+        "source_generation_sha256": "dd0b99335c99b3fb33ea1be32b121910b967d46b1344a671718a115686a7540b",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/prompts/challenger_candidate_b_wide_right_rail_safe_observers_prompt_20260519T070830Z.md",
+        "prompt_sha256": "94069acf835d274271d7d69290835399067967d7170bce64d91d0c4a0812f73c",
+        "provenance_notes": "Built-in ImageGen output copied into a separate Challenger experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_b_wide_right_rail_safe_observers_raw_imagegen_20260519T070830Z.png",
+        "sha256": "dd0b99335c99b3fb33ea1be32b121910b967d46b1344a671718a115686a7540b",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_b_wide_right_rail_safe_observers_1920x1080.png",
+        "sha256": "1a34d128cd47dfbfbc8bf8ee06b058364e18e22f4afed275d4866eb8d460440c",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_b_wide_right_rail_safe_observers_960x540.png",
+          "sha256": "2db370c7750220b48a803aa9c6dc5a7cd403e1ecc97a8f08e10e362c75fd61f7",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_b_wide_right_rail_safe_observers_320x180.png",
+          "sha256": "b31238d9c5083c80f2b0141013c69c93f7ba12823bf69e6d28e4b565f0dbb8b3",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_b_wide_right_rail_safe_observers_168x94.png",
+          "sha256": "c34a3d6fc557077bf895f2cc53c20412a0a99effd75600bf43016f332d9ffe3c",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_observers_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_dust_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_faces_absent_or_unreadable",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    },
+    {
+      "candidate_id": "candidate_c_layered_machinery_readiness_observers",
+      "title": "Candidate C - Layered Machinery Readiness",
+      "status": "review_ready_pending_human_keep_or_tighten",
+      "review_recommendation": "experiment_candidate_pending_human_selection",
+      "strength": "strongest layered depth and machinery-readiness feeling while preserving observers and rail space",
+      "generation_provenance": {
+        "tool": "codex_builtin_image_gen",
+        "model": "unknown_builtin_image_gen_model",
+        "model_confidence": "built_in_tool_does_not_expose_model_id",
+        "mode": "text_to_image",
+        "source_generation_path": "/Users/mike/.codex/generated_images/019e2a33-4c65-7a51-afaf-8d63015e0048/ig_0506854839e7f33b016a0c0bd33d7c8196a5742b91bead6806.png",
+        "source_generation_sha256": "4281b6e6161bbd65c8f46357964dc860e121bfab23c70622f1faaecb529b4e25",
+        "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/prompts/challenger_candidate_c_layered_machinery_readiness_observers_prompt_20260519T070830Z.md",
+        "prompt_sha256": "9e8b4e262fb7a1b9af92cbb8eb157168d5ca335160385b3c6e66d52a951ee2b0",
+        "provenance_notes": "Built-in ImageGen output copied into a separate Challenger experiment packet and normalized to 1920x1080 for source-art review."
+      },
+      "raw_workspace_copy": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_c_layered_machinery_readiness_observers_raw_imagegen_20260519T070830Z.png",
+        "sha256": "4281b6e6161bbd65c8f46357964dc860e121bfab23c70622f1faaecb529b4e25",
+        "width": 1672,
+        "height": 941
+      },
+      "normalized_source_art": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/assets/source_art/candidate_c_layered_machinery_readiness_observers_1920x1080.png",
+        "sha256": "6754208b25074156529c2351a9bc202a95a33b73451f097a92bd4eedce7a9056",
+        "width": 1920,
+        "height": 1080
+      },
+      "qa_previews": {
+        "preview_960x540": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_c_layered_machinery_readiness_observers_960x540.png",
+          "sha256": "2e64aa4389f500c5ecceb214c2a1a3241c02f1c5c5b73c05790858e6bbf5df47",
+          "width": 960,
+          "height": 540
+        },
+        "preview_320x180": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_c_layered_machinery_readiness_observers_320x180.png",
+          "sha256": "4135756f57bc448cd83a70facee944d009fc9d3e0fc81a9a04e2f12387324362",
+          "width": 320,
+          "height": 180
+        },
+        "preview_168x94": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/qa/candidate_c_layered_machinery_readiness_observers_168x94.png",
+          "sha256": "c5f126b5e4043d78c8a2743900f586fb4651551fa97320c1a7a4abd85d06d79f",
+          "width": 168,
+          "height": 94
+        }
+      },
+      "review_reads": {
+        "foreground_admin_prop_read": "pass_no_admin_props_visible",
+        "implied_action_anticipation_read": "pass_observers_waiting_on_lit_stack",
+        "ambient_affordance_read": "pass_practical_lights_beacon_dust_reflections_nav_points",
+        "historical_source_reference_alignment_read": "pass_for_review_lc39_challenger_night_pad_anchor",
+        "no_recognizable_faces_read": "pass_faces_absent_or_unreadable",
+        "right_rail_safe_space_read": "pass_dark_right_third_for_fixed_rail",
+        "video_visual_style_scope_read": "pass_non_paper_long_form_video_lane",
+        "launch_pad_scene_read": "pass_challenger_stack_launch_pad_scene",
+        "pad_hardware_authenticity_read": "pass_for_review_service_structure_stack_pad_lights",
+        "paper_architecture_visual_style_read": "pass_no_resemblance",
+        "brand_signal_artifact_read": "pass_no_cyan_or_coral_signal_artifacts",
+        "website_hero_artifact_read": "pass_no_homepage_hero_or_generic_brand_terrace_artifact",
+        "generated_text_logo_read": "pass_no_readable_text_or_logo",
+        "disaster_spectacle_absence_read": "pass_no_launch_fire_plume_or_explosion",
+        "source_provenance_read": "pass_codex_builtin_imagegen_recorded",
+        "rights_and_content_id_risk_read": "pass_low_generated_asset_risk"
+      }
+    }
+  ],
+  "review_packet": {
+    "contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/review/challenger_launch_pad_observers_contact_sheet.png",
+      "sha256": "de930ac3978436435f99c84f1d17f2dd5247260eaa92450bbd520b6ac7a1d830",
+      "width": 2016,
+      "height": 494
+    },
+    "right_rail_overlay_preview": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/review/challenger_launch_pad_observers_right_rail_overlay_contact_sheet.png",
+      "sha256": "124e2dc3a8005526bbda2470a97d39f5b75c922388ce4e8cba4cb22ad0ecb844",
+      "width": 2016,
+      "height": 494
+    },
+    "review_note": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/review/challenger_launch_pad_observers_source_art_experiment_review_20260519T070830Z.md",
+      "sha256": "6b95d4de864afcd1dd4c245105368ea813de9d65130dd0cc8ef32197d436c835"
+    },
+    "review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/review/review.html",
+    "review_html": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_experiment/challenger_launch_pad_observers_living_cover_experiment_20260519T070830Z/review/review.html",
+      "sha256": "f6bf860797c913940f1aaab385bcfe81268f5a9fd8ff93bdaeb004e5b72a194d"
+    }
+  },
+  "selected_review_candidate_id": "",
+  "recommended_review_candidate_id": "candidate_c_layered_machinery_readiness_observers",
+  "gate_effect": {
+    "may_mark_source_art_keep": false,
+    "may_replace_active_challenger_source_art": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "current_publish_readiness_package_unchanged": true
+  },
+  "next_action": "Human source-art review: keep one experiment candidate, tighten with exact notes, or reject. Promotion to active source art requires a later explicit human keep."
+}

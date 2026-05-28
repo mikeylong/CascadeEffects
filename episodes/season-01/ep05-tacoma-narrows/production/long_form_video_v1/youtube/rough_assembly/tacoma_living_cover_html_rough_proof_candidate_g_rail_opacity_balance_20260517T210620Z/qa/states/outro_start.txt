@@ -1,0 +1,17 @@
+### Result
+{
+  "time": 852.532245,
+  "storyTime": 842.930794,
+  "activeTitle": "How Engineering Learns",
+  "caption": "",
+  "captionEmpty": true,
+  "railOpacity": 0,
+  "endOpacity": 0,
+  "visualRoll": "0.0374deg",
+  "visualScale": "1.0210596466514434",
+  "duration": 883.321905
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => (window.__setRenderTime(852.532245))');
+```

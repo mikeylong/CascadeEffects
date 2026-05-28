@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "applied": {
+      "batch_size": 1,
+      "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_challenger_scoped_v1_high_risk_scout_pass_01/20260423T042231Z/challenger_scoped_v1__beat_07b_small_cause_process_absorption/minimal_surreal_editorial_v3/challenger_scoped_v1__beat_07b_small_cause_process_absorption__minimal_surreal_editorial_v3",
+      "height": 1024,
+      "model_filenames": {
+        "diffusion_model": "flux2-dev.safetensors",
+        "text_encoder": "mistral_3_small_flux2_bf16.safetensors",
+        "vae": "flux2-vae.safetensors"
+      },
+      "negative_prompt": "readable text, letters, numbers, logos, UI, mission patches, agency insignia, flags, shuttle markings, Challenger wordmark, NASA logo, labels, diagrams, whiteboard writing, chart text, captions, poster design, explosion, fireball, debris, bodies, small complete O-ring, tabletop full field joint, recovered hardware trophy, exact historical room, named-person likeness, copied archival image, multiple surreal events, clutter, warped geometry",
+      "positive_prompt": "restrained editorial evidence still, one clear subject, controlled light, calm frame, no spectacle, Vertical still of a small cut seal coupon visually dwarfed by blank administrative evidence carriers, the small dark seam remains the specific cause while the surrounding process absorbs it, restrained institutional light, no text, no labels, no complete O-ring, no recovered hardware, no explosion.",
+      "seed": 91204,
+      "steps": 12,
+      "width": 576
+    },
+    "derived_from": {
+      "retrieved_at": "2026-04-03",
+      "template_url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/image_flux2_text_to_image.json"
+    },
+    "id": "flux2_dev_text_to_image_api_template",
+    "notes": [
+      "Derived from the official ComfyUI Flux.2 Dev text-to-image workflow.",
+      "Adapted to expose negative_prompt, batch_size, seed, and filename_prefix for this lab.",
+      "The negative prompt branch is retained as an unconnected CLIPTextEncode node because the official FLUX.2 Dev text-to-image path is positive-guidance-first.",
+      "Export-time model loader filenames are patched from FluxLab runtime config so local-safe checkpoints can replace the official quantized default."
+    ],
+    "official_defaults": {
+      "clip_name": "mistral_3_small_flux2_bf16.safetensors",
+      "guidance": 4,
+      "sampler_name": "euler",
+      "steps": 20,
+      "unet_name": "flux2_dev_fp8mixed.safetensors",
+      "vae_name": "flux2-vae.safetensors"
+    },
+    "patchable_nodes": {
+      "1": [
+        "unet_name"
+      ],
+      "10": [
+        "width",
+        "height",
+        "batch_size"
+      ],
+      "11": [
+        "noise_seed"
+      ],
+      "14": [
+        "filename_prefix"
+      ],
+      "2": [
+        "clip_name"
+      ],
+      "3": [
+        "text"
+      ],
+      "4": [
+        "text"
+      ],
+      "8": [
+        "vae_name"
+      ],
+      "9": [
+        "width",
+        "height"
+      ]
+    }
+  },
+  "prompt": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "flux2-dev.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "10": {
+      "class_type": "EmptyFlux2LatentImage",
+      "inputs": {
+        "batch_size": 1,
+        "height": 1024,
+        "width": 576
+      }
+    },
+    "11": {
+      "class_type": "RandomNoise",
+      "inputs": {
+        "control_after_generate": "fixed",
+        "noise_seed": 91204
+      }
+    },
+    "12": {
+      "class_type": "SamplerCustomAdvanced",
+      "inputs": {
+        "guider": [
+          "6",
+          0
+        ],
+        "latent_image": [
+          "10",
+          0
+        ],
+        "noise": [
+          "11",
+          0
+        ],
+        "sampler": [
+          "7",
+          0
+        ],
+        "sigmas": [
+          "9",
+          0
+        ]
+      }
+    },
+    "13": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "12",
+          0
+        ],
+        "vae": [
+          "8",
+          0
+        ]
+      }
+    },
+    "14": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "filename_prefix": "cascadeeffects_fluxlab/proofs/minimal_surreal_v3_challenger_scoped_v1_high_risk_scout_pass_01/20260423T042231Z/challenger_scoped_v1__beat_07b_small_cause_process_absorption/minimal_surreal_editorial_v3/challenger_scoped_v1__beat_07b_small_cause_process_absorption__minimal_surreal_editorial_v3",
+        "images": [
+          "13",
+          0
+        ]
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "mistral_3_small_flux2_bf16.safetensors",
+        "device": "default",
+        "type": "flux2"
+      }
+    },
+    "3": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          0
+        ],
+        "text": "restrained editorial evidence still, one clear subject, controlled light, calm frame, no spectacle, Vertical still of a small cut seal coupon visually dwarfed by blank administrative evidence carriers, the small dark seam remains the specific cause while the surrounding process absorbs it, restrained institutional light, no text, no labels, no complete O-ring, no recovered hardware, no explosion."
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "clip": [
+          "2",
+          0
+        ],
+        "text": "readable text, letters, numbers, logos, UI, mission patches, agency insignia, flags, shuttle markings, Challenger wordmark, NASA logo, labels, diagrams, whiteboard writing, chart text, captions, poster design, explosion, fireball, debris, bodies, small complete O-ring, tabletop full field joint, recovered hardware trophy, exact historical room, named-person likeness, copied archival image, multiple surreal events, clutter, warped geometry"
+      }
+    },
+    "5": {
+      "class_type": "FluxGuidance",
+      "inputs": {
+        "conditioning": [
+          "3",
+          0
+        ],
+        "guidance": 4
+      }
+    },
+    "6": {
+      "class_type": "BasicGuider",
+      "inputs": {
+        "conditioning": [
+          "5",
+          0
+        ],
+        "model": [
+          "1",
+          0
+        ]
+      }
+    },
+    "7": {
+      "class_type": "KSamplerSelect",
+      "inputs": {
+        "sampler_name": "euler"
+      }
+    },
+    "8": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "flux2-vae.safetensors"
+      }
+    },
+    "9": {
+      "class_type": "Flux2Scheduler",
+      "inputs": {
+        "height": 1024,
+        "steps": 12,
+        "width": 576
+      }
+    }
+  }
+}

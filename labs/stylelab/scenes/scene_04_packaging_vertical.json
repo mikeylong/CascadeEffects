@@ -1,0 +1,68 @@
+{
+  "accent_strategy": {
+    "description": "One vermilion marker placed high as a small premium signal.",
+    "kind": "warning_light",
+    "placement": [
+      0.76,
+      0.21
+    ],
+    "size": 0.01
+  },
+  "aspect_mode": "vertical_9x16",
+  "beat_id": "benchmark_scene_04",
+  "caption_safe_zone": {
+    "subtitles": [
+      0.08,
+      0.74,
+      0.92,
+      0.96
+    ],
+    "top_ui": [
+      0.0,
+      0.0,
+      1.0,
+      0.12
+    ]
+  },
+  "dominant_mass_strategy": {
+    "description": "A disciplined ultramarine monolith nested on the right edge, leaving broad ivory fields for title lockups.",
+    "width_ratio": 0.3
+  },
+  "final_size": {
+    "height": 1920,
+    "width": 1080
+  },
+  "historical_anchor": {
+    "description": "A launch totem reduced to a cover-ready silhouette with clean editorial breathing room.",
+    "episode": "Challenger",
+    "topic": "Packaging frame"
+  },
+  "id": "scene_04_packaging_vertical",
+  "motion_preset": "stillness_breathe",
+  "outputs": {},
+  "prompt_overrides": {
+    "scene_intent": "Reserve generous lockup space in the upper left and lower third while keeping the style severe and calm."
+  },
+  "reflection_strategy": {
+    "description": "A soft mirrored base plane that stabilizes the frame and preserves clean lower-third breathing room.",
+    "horizon_y": 0.7,
+    "literal_water": false
+  },
+  "selected_seed": 1058,
+  "source_refs": [],
+  "style_profile": "monolith_reflection_v1",
+  "subject_anchor": {
+    "archetype": "rocket_totem",
+    "description": "A lone rocket totem held low enough to preserve clean lockup space.",
+    "placement": [
+      0.31,
+      0.55
+    ],
+    "scale": 0.34
+  },
+  "surreal_breach": {
+    "description": "A contained halo around the totem makes the frame feel unresolved without breaking the calm.",
+    "kind": "contained_glow"
+  },
+  "target_duration_seconds": 5.0
+}

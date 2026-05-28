@@ -1,0 +1,183 @@
+{
+  "$schema": "https://surfaces.systems/schemas/visual-contract-v1.json",
+  "contract_version": "1.0.0",
+  "id": "minimal-surreal-editorial",
+  "name": "Minimal Surreal Editorial Composition",
+  "intent": "Generate quiet, reduced, asymmetrical images with a single surreal breach and high thumbnail clarity.",
+  "render_targets": {
+    "aspect_ratios": [
+      "1:1",
+      "4:5",
+      "3:4",
+      "9:16",
+      "16:9"
+    ],
+    "min_resolution": {
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "global_rules": {
+    "max_subject_clusters": 3,
+    "primary_focal_points": 1,
+    "negative_space_ratio": {
+      "min": 0.6,
+      "preferred": 0.75
+    },
+    "max_palette_count": 4,
+    "max_accent_colors": 1,
+    "surreal_breach_count": 1,
+    "allow_text": false,
+    "allow_logo": false,
+    "allow_ui_artifacts": false,
+    "allow_motion_blur": false,
+    "allow_photoreal_clutter": false
+  },
+  "composition": {
+    "symmetry": {
+      "allowed": false,
+      "max_center_balance_score": 0.4
+    },
+    "weight_distribution": {
+      "required": "asymmetrical",
+      "dominant_side_required": true
+    },
+    "horizon_or_division_line": {
+      "preferred": true,
+      "required_in_patterns": [
+        "split_field_tension",
+        "floating_minimal_object"
+      ]
+    },
+    "subject_placement": {
+      "allowed_zones": [
+        "far_left",
+        "left_third",
+        "far_right",
+        "right_third",
+        "boundary_edge"
+      ],
+      "disallowed_zone": "center_mass"
+    },
+    "depth": {
+      "preferred": "shallow_to_moderate",
+      "max_layers": 4
+    }
+  },
+  "form_language": {
+    "geometry_bias": "high",
+    "detail_level": "low",
+    "edge_quality": "clean",
+    "texture_level": "minimal",
+    "micro_detail": {
+      "allowed": false
+    },
+    "human_figure_rules": {
+      "allowed": true,
+      "max_count": 1,
+      "facial_detail": "none_or_negligible",
+      "pose": "still"
+    }
+  },
+  "color": {
+    "dominant_field": {
+      "required": true,
+      "saturation": "low_to_medium"
+    },
+    "accent": {
+      "required": true,
+      "count": 1,
+      "saturation": "high",
+      "role": "semantic_signal"
+    },
+    "allowed_neutrals": [
+      "off_white",
+      "beige",
+      "gray",
+      "charcoal",
+      "muted_blue",
+      "desaturated_green"
+    ],
+    "avoid": [
+      "rainbow_palettes",
+      "multiple_competing_accents",
+      "high_frequency_color_noise"
+    ]
+  },
+  "lighting": {
+    "style": "soft_diffuse",
+    "dramatic_shadows": false,
+    "hard_rim_light": false,
+    "specular_intensity": "low",
+    "mood": "quiet_suspended_even"
+  },
+  "surrealism": {
+    "mode": "single_controlled_breach",
+    "examples": [
+      "scale slightly off",
+      "impossible environmental boundary",
+      "unnatural isolated object relationship",
+      "one semantically charged accent element"
+    ],
+    "forbidden": [
+      "stacked dream logic",
+      "melting objects",
+      "floating eyes",
+      "crowded symbolic collage",
+      "multiple impossible events"
+    ]
+  },
+  "patterns": [
+    {
+      "id": "edge_weighted_isolation",
+      "rules": {
+        "subject_position": "outer_third",
+        "empty_space_ratio": 0.7,
+        "accent_attached_to_subject": true
+      }
+    },
+    {
+      "id": "split_field_tension",
+      "rules": {
+        "frame_division_required": true,
+        "subject_at_boundary": true,
+        "field_dominance": "one_side_heavier"
+      }
+    },
+    {
+      "id": "floating_minimal_object",
+      "rules": {
+        "single_subject": true,
+        "background_uninterrupted": true,
+        "grounding_cue_required": true
+      }
+    }
+  ],
+  "output_quality": {
+    "thumbnail_readability": {
+      "required": true,
+      "min_score": 0.8
+    },
+    "focal_clarity": {
+      "required": true,
+      "min_score": 0.8
+    },
+    "visual_noise": {
+      "max_score": 0.2
+    }
+  },
+  "negative_prompt_defaults": [
+    "high detail",
+    "texture",
+    "noise",
+    "photoreal clutter",
+    "multiple subjects",
+    "complex background",
+    "dramatic lighting",
+    "motion blur",
+    "busy composition",
+    "ornate realism",
+    "dense foliage detail",
+    "cinematic action framing"
+  ]
+}

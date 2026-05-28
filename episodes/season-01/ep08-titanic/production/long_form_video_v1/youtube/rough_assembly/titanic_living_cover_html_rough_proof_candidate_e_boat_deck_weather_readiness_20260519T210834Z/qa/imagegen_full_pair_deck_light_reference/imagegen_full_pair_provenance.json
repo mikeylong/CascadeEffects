@@ -1,0 +1,75 @@
+{
+  "activation_reads": {
+    "diagnostic_overlay_absence_read": "pass_no_markers_in_player",
+    "final_render_gate_read": "blocked_review_surface_only",
+    "generated_pair_dimension_read": "pass_1920x1080_after_normalization",
+    "paper_architecture_visual_style_read": "pass_non_paper_photoreal_scene",
+    "registration_qa_read": "pass_lamp_regions_register_for_masked_flicker",
+    "right_rail_safe_space_read": "pass_preserves_right_side_open_sea_sky_area"
+  },
+  "artifact_type": "imagegen_full_pair_deck_light_generation_provenance",
+  "attempt_limit": 3,
+  "attempts": [
+    {
+      "active_assets": {
+        "lights_off": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_off_1920x1080.png",
+          "sha256": "2f9bc9c95d0aa868461bca5fd9bbc8979a14f8ad8c6fff907890d1ad42c71880"
+        },
+        "lights_on": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_on_1920x1080.png",
+          "sha256": "20c832b8fb07eaa40aa7c8420962ef068cd7c7009c38066dd3e63910f1e3b365"
+        },
+        "mask_reference": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_light_mask_1920x1080.png",
+          "sha256": "fc3486679697a70943148786aec52e6fc86d415ea244cbbeb825fad57cb094da"
+        }
+      },
+      "attempt_id": "attempt_01",
+      "attempt_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_manifest.json",
+      "attempt_manifest_sha256": "61c2db41177f156f69f55cc483520202bed3f771c5828d6d8226370672cf2fed",
+      "generated_originals": {
+        "lights_off": {
+          "path": "/Users/mike/.codex/generated_images/019e3c20-86fc-7261-82b9-8842ab1cf076/ig_0ac4e9d07bd23818016a0dd5ab09588196bf33ffbda3bfa638.png"
+        },
+        "lights_on": {
+          "path": "/Users/mike/.codex/generated_images/019e3c20-86fc-7261-82b9-8842ab1cf076/ig_0ac4e9d07bd23818016a0dd56983f48196beb41b802fcecad0.png"
+        }
+      },
+      "normalized_assets": {
+        "lights_off": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_lights_off_1920x1080.png",
+          "sha256": "2f9bc9c95d0aa868461bca5fd9bbc8979a14f8ad8c6fff907890d1ad42c71880"
+        },
+        "lights_on": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_lights_on_1920x1080.png",
+          "sha256": "20c832b8fb07eaa40aa7c8420962ef068cd7c7009c38066dd3e63910f1e3b365"
+        }
+      },
+      "prompts": {
+        "lights_off": "Use case: historical-scene\nAsset type: Cascade Effects long-form Living Cover backplate, Titanic rough review, lights-off candidate pair 01\nInput image role: the visible Candidate E Titanic boat-deck image in the conversation is the composition and style reference.\nPrimary request: Generate a full-frame 16:9 1920x1080 photorealistic historical scene matching the reference composition as closely as possible: RMS Titanic-style boat deck at dawn, lifeboats under canvas along the left half, davits and rigging repeating into depth, wet wooden deck, ocean and dawn weather on the right, right-rail-safe open sky/sea area for later text, restrained documentary color, layered depth, implied crew/passenger attention.\nLighting state: deck practical lamps are OFF/extinguished. No glowing bulbs, no warm halos from the lamps, no strong lamp reflections. Keep only residual dawn/weather light, cool ambient sky light, wet deck reflections, and very faint non-source warmth from the ship interior. The lamp fixtures must remain physically present in the same positions.\nComposition lock: keep the same camera angle, lifeboat scale, davit rhythm, rail line, horizon, ocean/right-side negative space, and human placement as the reference. No new foreground anchor, no foreground paperwork, no admin props, no text, no signage, no logos, no recognizable faces.\nStyle constraints: non-Paper-Architecture, cinematic photoreal documentary backplate, historically anchored but not archival, no illustration look, no poster text, no graphic overlays, no diagnostic markers.\nOutput: landscape 16:9, 1920x1080, no border.",
+        "lights_on": "Use case: historical-scene\nAsset type: Cascade Effects long-form Living Cover backplate, Titanic rough review, lights-on candidate pair 01\nInput image role: the visible Candidate E Titanic boat-deck image in the conversation is the composition and style reference.\nPrimary request: Generate a full-frame 16:9 1920x1080 photorealistic historical scene matching the reference composition as closely as possible: RMS Titanic-style boat deck at dawn, lifeboats under canvas along the left half, davits and rigging repeating into depth, wet wooden deck, ocean and dawn weather on the right, right-rail-safe open sky/sea area for later text, restrained documentary color, layered depth, implied crew/passenger attention.\nLighting state: deck practical lamps are visibly ON. Warm lamp bulbs and tight halos are integrated into nearby metal, canvas, white hull surfaces, and wet deck reflections. The bulbs should be clear source points, not broad bands or full-frame glow.\nComposition lock: keep the same camera angle, lifeboat scale, davit rhythm, rail line, horizon, ocean/right-side negative space, and human placement as the reference. No new foreground anchor, no foreground paperwork, no admin props, no text, no signage, no logos, no recognizable faces.\nStyle constraints: non-Paper-Architecture, cinematic photoreal documentary backplate, historically anchored but not archival, no illustration look, no poster text, no graphic overlays, no diagnostic markers.\nOutput: landscape 16:9, 1920x1080, no border."
+      },
+      "qa": {
+        "contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_contact_sheet.jpg",
+        "contact_sheet_sha256": "596f5784ac40aa6f9391de5efbf5eaecfcfeb5b81934b51f06f111988037a1b8",
+        "lamp_origin_reference_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_lamp_origin_reference_sheet.jpg",
+        "lamp_origin_reference_sheet_sha256": "e4586814b4311834e0b59473d5ba55075ef0d5ab40e8c84ac4cd1fbb602e0bc6",
+        "registration_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_registration_qa.json",
+        "registration_qa_sha256": "822af95187c35e049acd5edaad490ea07b78439e62cc020becfbd76ddb695c5e"
+      },
+      "status": "activated"
+    }
+  ],
+  "created_at": "2026-05-20T15:53:45.096250Z",
+  "episode_id": "titanic",
+  "generation_tool": "codex_builtin_image_gen",
+  "packet_id": "titanic_imagegen_full_pair_deck_light_repair_20260520",
+  "source_reference": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_1920x1080.png",
+    "role": "visible_candidate_e_composition_reference",
+    "sha256": "e5a07275f94c6af4fe374892284042a5efc1b4a932de9be437b2a40588aad38f"
+  },
+  "status": "attempt_01_activated_after_registration_qa",
+  "workflow": "long_form_video_production_v1"
+}

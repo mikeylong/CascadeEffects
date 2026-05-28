@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bad Review Chrome Fixture</title>
+  <style>
+    html.render-mode .audio-review { display: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="stage-shell">
+      <div class="stage" id="stage"></div>
+    </section>
+    <section class="controls" aria-label="Sample time controls">
+      <p>Sample cue states from the pending ambient/effects layer. Buttons seek the voiceover timing preview.</p>
+      <button type="button">00:00</button>
+    </section>
+  </main>
+  <script>
+    window.__setRenderTime = () => {};
+  </script>
+</body>
+</html>

@@ -1,0 +1,321 @@
+{
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z",
+  "episode_id": "tacoma-narrows",
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "process_version": "living_cover_ambient_effects_layer_v1",
+  "created_at": "2026-05-18T19:34:07Z",
+  "updated_at": "2026-05-18T19:57:07Z",
+  "status": "review_ready_human_keep_pending",
+  "human_disposition": "pending",
+  "lane_decision": "storm_pressure_source_integrated_ambient_v1",
+  "selected_direction": "Storm pressure",
+  "rationale": "Make the kept K3 bridge-deck shot feel wet, windy, and aerodynamically loaded while preserving the source-art carrier and avoiding diagrammatic or invented collapse geometry.",
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+    "sha256": "8f85d657d6a2573ddeaf637e468d4a8b2db4a20b2017b369591579f086e6246c",
+    "role": "kept_candidate_k3_workspace_copy",
+    "source_art_id": "candidate_k3_roadway_wide_stance",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/references/source_art_manifest.json",
+      "sha256": "3e02c5d43fd32079a34fc345d8005ba90e6fa9947cc8a3c4c998ee3962ee3acc",
+      "role": "packet_local_source_art_manifest_copy"
+    }
+  },
+  "deterministic_parameters": {
+    "seed_function": "seededUnit(index, salt)",
+    "wet_air_particle_count": 70,
+    "wind_rain_shear_count": 84,
+    "roadway_wet_sheen_count": 28,
+    "rail_exclusion_rect": [
+      1068,
+      0,
+      852,
+      1080
+    ],
+    "right_rail_review_rect": [
+      1108,
+      52,
+      760,
+      976
+    ],
+    "coordinate_space": [
+      1920,
+      1080
+    ]
+  },
+  "chapter_intensity_envelope": {
+    "bridge_already_moving": 0.54,
+    "redesign_removed_stiffness": 0.44,
+    "galloping_became_normal": 0.78,
+    "five_conditions": 0.66,
+    "air_fed_the_twist": 1,
+    "profession_changed": 0.58,
+    "model_boundary": 0.38,
+    "engineering_learns": 0.32,
+    "torsion_pressure_window_seconds": [
+      206.901,
+      599.145
+    ],
+    "end_screen_motion_policy": "ambient motion continues under static Challenger/Therac YouTube targets; story text and rail text remain suppressed"
+  },
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "type": "existing_source_safe_transform",
+      "preservation_read": "pass_preserved_from_chapter_transition_successor",
+      "source_safety": "does_not_redraw_bridge_geometry"
+    },
+    {
+      "id": "wind_rain_shear_layer",
+      "type": "seeded_diagonal_rain_wind_streaks",
+      "parameters": {
+        "count": 84,
+        "opacity_range": [
+          0.045,
+          0.16
+        ],
+        "speed_px_per_second": [
+          76,
+          150
+        ],
+        "rail_exclusion_rect": [
+          1068,
+          0,
+          852,
+          1080
+        ]
+      },
+      "masks": [
+        "open_air",
+        "water",
+        "roadway"
+      ],
+      "exclusions": [
+        "right_rail",
+        "youtube_end_screen_targets",
+        "diagnostic_overlay_surfaces"
+      ],
+      "source_safety": "additive weather streaks only; no debris, sparks, cyan traces, or geometry deformation"
+    },
+    {
+      "id": "roadway_wet_sheen",
+      "type": "low_opacity_moving_specular_streaks",
+      "parameters": {
+        "count": 28,
+        "opacity_range": [
+          0.035,
+          0.105
+        ],
+        "speed_px_per_second": [
+          18,
+          34
+        ]
+      },
+      "masks": [
+        "wet_deck_surface_band"
+      ],
+      "exclusions": [
+        "people_as_independent_motion",
+        "faces",
+        "cars_as_independent_motion",
+        "right_rail"
+      ],
+      "source_safety": "reads as wet deck shimmer, not separate vehicle or human animation"
+    },
+    {
+      "id": "torsion_pressure_envelope",
+      "type": "source_safe_transform_intensity_envelope",
+      "parameters": {
+        "active_story_window_seconds": [
+          206.901,
+          599.145
+        ],
+        "peak_chapters": [
+          "galloping_became_normal",
+          "air_fed_the_twist"
+        ],
+        "max_extra_roll_degrees": 0.22,
+        "max_extra_scale": 0.004
+      },
+      "source_safety": "intensifies existing source-safe roll and drift only; no mesh warp or redrawn bridge"
+    },
+    {
+      "id": "background_haze_pressure",
+      "type": "subtle_wet_air_contrast_haze",
+      "parameters": {
+        "opacity_range": [
+          0.015,
+          0.055
+        ],
+        "motion_clock": "playback_time_after_voice_end_for_end_screen_continuity"
+      },
+      "masks": [
+        "water",
+        "forest",
+        "open_air"
+      ],
+      "source_safety": "background atmosphere only"
+    }
+  ],
+  "hard_avoids": [
+    "cyan traces",
+    "diagnostic overlays",
+    "debris",
+    "sparks",
+    "gore",
+    "dog focus",
+    "animated people",
+    "animated cars",
+    "new collapse geometry",
+    "text outside the rail"
+  ],
+  "qa": {
+    "browser_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/browser_qa_1920x1080.json",
+      "sha256": "a2bd86db630bada6dab7cf2a1d482a6255573522322ffecc10d312299a8c50cc",
+      "role": "browser_qa_json_storm_pressure_ambient_successor",
+      "pass": true
+    },
+    "storm_pressure_ambient_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/storm_pressure_ambient_review_strip.png",
+      "sha256": "2a3d43d9ba53cb89470d87abf223d35cdf373ca49d22791e96b6696eb5948423",
+      "role": "storm_pressure_ambient_review_strip_png",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/storm_pressure_ambient_review_strip.html",
+      "html_sha256": "de3e6b909f5da751de92956e6a151c8e5ecf3a5542de74df249f8e2bb8ef05d1",
+      "sample_count": 7
+    },
+    "samples": [
+      {
+        "slug": "ambient_opening",
+        "time_seconds": 12,
+        "story_time_seconds": 2.398548999999999,
+        "storm_pressure": 0.587069481014449,
+        "active_region_alpha_sum": 92936,
+        "active_region_nonblank": 7584,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/screenshots/ambient_opening_0012000ms.png",
+          "sha256": "5e5f00364d13f61efedf2b16188002a8ff077ac2a63c0762d6d6da42bf298ec1",
+          "role": "ambient_sample_ambient_opening"
+        }
+      },
+      {
+        "slug": "ambient_galloping",
+        "time_seconds": 216.502,
+        "story_time_seconds": 206.900549,
+        "storm_pressure": 0.4949109588238693,
+        "active_region_alpha_sum": 79371,
+        "active_region_nonblank": 7372,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/screenshots/ambient_galloping_0216502ms.png",
+          "sha256": "4fe25b966a5a4d519fcc827b48e4a492cf9731411c523d0f7d5db7ee7251a53f",
+          "role": "ambient_sample_ambient_galloping"
+        }
+      },
+      {
+        "slug": "ambient_five_conditions",
+        "time_seconds": 316.442,
+        "story_time_seconds": 306.840549,
+        "storm_pressure": 0.9222738602810082,
+        "active_region_alpha_sum": 109729,
+        "active_region_nonblank": 7618,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/screenshots/ambient_five_conditions_0316442ms.png",
+          "sha256": "f7bca9c869626626adb209591ae752451abc08216167cda26aff935599a42e04",
+          "role": "ambient_sample_ambient_five_conditions"
+        }
+      },
+      {
+        "slug": "ambient_torsion_peak",
+        "time_seconds": 559.355,
+        "story_time_seconds": 549.753549,
+        "storm_pressure": 1,
+        "active_region_alpha_sum": 112932,
+        "active_region_nonblank": 7638,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/screenshots/ambient_torsion_peak_0559355ms.png",
+          "sha256": "fc9b74969e7508983f6463412ea67b0a5332a910a894c5d1a9f65526984f2218",
+          "role": "ambient_sample_ambient_torsion_peak"
+        }
+      },
+      {
+        "slug": "ambient_synthesis",
+        "time_seconds": 685.83,
+        "story_time_seconds": 676.228549,
+        "storm_pressure": 0.41305620392474257,
+        "active_region_alpha_sum": 80576,
+        "active_region_nonblank": 7396,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/screenshots/ambient_synthesis_0685830ms.png",
+          "sha256": "092ca403d2fd4a59b4055fe2d10b5005d07cedf5a6f87c3201ad13aea8a79cf8",
+          "role": "ambient_sample_ambient_synthesis"
+        }
+      },
+      {
+        "slug": "ambient_outro",
+        "time_seconds": 849.235,
+        "story_time_seconds": 839.633549,
+        "storm_pressure": 0.09414041417334978,
+        "active_region_alpha_sum": 61356,
+        "active_region_nonblank": 7068,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/screenshots/ambient_outro_0849235ms.png",
+          "sha256": "aeb8659b8fcf8b68a48733382876872650c74e485c327d2109fb4b13e0e24a13",
+          "role": "ambient_sample_ambient_outro"
+        }
+      },
+      {
+        "slug": "ambient_end_screen",
+        "time_seconds": 856.525,
+        "story_time_seconds": 839.63356,
+        "storm_pressure": 0.09414042151075452,
+        "active_region_alpha_sum": 61433,
+        "active_region_nonblank": 7077,
+        "rail_region_alpha_sum": 0,
+        "changed_over_850ms": true,
+        "screenshot": {
+          "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_storm_pressure_ambient_20260518T193407Z/qa/screenshots/ambient_end_screen_0856525ms.png",
+          "sha256": "d242e570ec11bdec193b721db70c268f66f06a6753bfb83c12823591adcbe7d1",
+          "role": "ambient_sample_ambient_end_screen"
+        }
+      }
+    ]
+  },
+  "reads": {
+    "ambient_effects_plan_read": "pass_storm_pressure_ambient_layer_declared_and_exposed",
+    "ambient_effect_lane_decision_read": "pass_storm_pressure_source_integrated_ambient_v1",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_canvas_with_right_rail_exclusion_mask",
+    "foreground_occlusion_read": "pass_no_independent_people_car_face_or_debris_motion",
+    "effect_layer_source_safety_read": "pass_preserves_k3_plate_no_new_geometry_or_diagnostic_overlay",
+    "deterministic_ambient_read": "pass_seeded_storm_pressure_parameters_declared",
+    "additive_effect_integration_read": "pass_storm_pressure_added_without_removing_prior_source_drift_or_roll",
+    "debug_overlay_absence_read": "pass_no_diagnostic_overlay_in_player_samples",
+    "ambient_effect_browser_sample_read": "pass_ambient_canvas_nonblank_and_changes_across_story_samples",
+    "range_scrub_effect_review_read": "pass_range_server_and_late_episode_ambient_samples_available",
+    "localized_particle_density_read": "pass_restrained_density_with_visible_storm_pressure",
+    "particle_foreground_leak_read": "pass_ambient_excluded_from_right_rail_and_no_independent_foreground_motion"
+  },
+  "downstream_locks": {
+    "final_assembly": "blocked_pending_human_keep_on_storm_pressure_ambient_rough_proof",
+    "final_mp4": "blocked_no_kept_storm_pressure_ambient_rough_proof",
+    "publish_readiness": "blocked_no_final_mp4",
+    "youtube_upload": "blocked_no_final_mp4_or_publish_readiness_package",
+    "public_release": "manual_youtube_studio_only"
+  }
+}

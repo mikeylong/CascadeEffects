@@ -1,0 +1,71 @@
+{
+  "created_utc": "20260512T175024Z",
+  "url": "http://127.0.0.1:8818/player.html",
+  "title": "Challenger Living Cover Intro Music Fade Tail HTML Approval Proof",
+  "http_range_probe": {
+    "status": "HTTP/1.0 206 Partial Content",
+    "content_range": "bytes 0-1023/29894991",
+    "accept_ranges": "bytes"
+  },
+  "browser_audio": {
+    "current_src": "http://127.0.0.1:8818/assets/audio/challenger_longform_hybrid_attention_rewrite_20260511T204835Z_intro_music_fade_tail_web_review.mp3",
+    "duration_seconds": 1245.553197,
+    "ready_state": 4,
+    "error": null,
+    "seek_samples": [
+      {
+        "time_seconds": 8.8,
+        "current_time_seconds": 8.8,
+        "caption_text": ""
+      },
+      {
+        "time_seconds": 9.601451,
+        "current_time_seconds": 9.601451,
+        "caption_text": ""
+      },
+      {
+        "time_seconds": 10.6,
+        "current_time_seconds": 10.6,
+        "caption_text": "At T plus 0.678 seconds, the first warning appeared."
+      },
+      {
+        "time_seconds": 11.7,
+        "current_time_seconds": 11.7,
+        "caption_text": "At T plus 0.678 seconds, the first warning appeared."
+      },
+      {
+        "time_seconds": 632,
+        "current_time_seconds": 632,
+        "caption_text": "and Morton Thyacol, the contractor that built the"
+      },
+      {
+        "time_seconds": 1215.5,
+        "current_time_seconds": 1215.5,
+        "caption_text": ""
+      }
+    ]
+  },
+  "outro_debug": {
+    "time_seconds": 1215.5,
+    "outro_opacity": 1,
+    "rail_opacity": 0,
+    "caption_text": "",
+    "is_safe_window": false
+  },
+  "visual_asset_hash_matches_predecessor": {
+    "assets/captions/recording_20260511T204835Z_hybrid_attention_rewrite.diarized.corrected.literal_rail_safe.offset_intro_9s601.vtt": true,
+    "assets/masks/foreground_occlusion_matte.png": true,
+    "assets/outro/challenger_true_left_side_3_4_source_plate.png": true,
+    "assets/outro/cascade_of_effects_imagegen_title_alpha_source.png": true,
+    "references/shuttle_stack_reference_variant_a.png": true
+  },
+  "reads": {
+    "browser_audio_source_read": "pass_new_intro_fade_tail_mp3_loaded",
+    "browser_audio_seek_read": "pass_seeked_required_review_points",
+    "caption_start_timing_read": "pass_caption_active_after_voice_start_not_before_intro",
+    "caption_outro_suppression_read": "pass",
+    "range_request_media_read": "pass_206_partial_content",
+    "visual_assets_unchanged_read": "pass",
+    "mp4_render_created_read": "pass_false"
+  }
+}

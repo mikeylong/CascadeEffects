@@ -1,0 +1,169 @@
+{
+  "episode_id": "tacoma-narrows",
+  "workflow": "long_form_video_production_v1",
+  "gate": "diagnostic_visual_system_surface",
+  "status": "diagnostic_only_superseded_by_imagegen_primary_source_art_rule",
+  "created_at": "2026-05-17",
+  "primary_review_artifact": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/visual_system_review_20260517/review.html",
+    "sha256": "56ca92170eee51794ad87b928517b117adf20ea6a23356e9c2d9b265b5192258",
+    "role": "diagnostic visual-system surface only; not an active keep/tighten/reject gate",
+    "review_surface_type": "html_inline_media_local_refs",
+    "canvas_model": "fixed_1920x1080_scaled_browser_shell"
+  },
+  "chat_preview": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/visual_system_review_20260517/preview.png",
+    "sha256": "daed21dcafd9ceab7a41ffce44c40019b01402b970b907b53aa93720577173fe",
+    "rendered_with": "Google Chrome headless",
+    "window_size": "1600x1500"
+  },
+  "audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/final/Ep5_Tacoma-Narrows.wav",
+    "sha256": "de593cc6e4a554507f45a0289177a31b321a2017caca361287315d85cca7e2bf",
+    "status": "keep"
+  },
+  "visual_system": {
+    "system_version": "living_cover_system_v1",
+    "rail_preset_id": "fixed_16x9_right_rail_v1",
+    "visual_thesis": "source-preserving Tacoma bridge motion/collapse evidence as public anchor",
+    "carrier_lane": "source_preserving_public_scene",
+    "paper_architecture_primary_backplate": false,
+    "diagnostic_overlay_allowed": false,
+    "override_status": "none",
+    "captioning_process_version": "living_cover_captioning_process_v1",
+    "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+    "caption_output_model": "dual_visible_rail_and_youtube_vtt_sidecar",
+    "caption_text_source": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/Ep5_Tacoma-Narrows.txt",
+    "caption_timing_source": "/Users/mike/Audio_CascadeEffects/tmp/ep5_tacoma_narrows_production/transcripts_mastered/Ep5_Tacoma-Narrows.whisperx.json",
+    "caption_timing_role": "timing_only_asr_text_not_used_for_output"
+  },
+  "source_art_carrier": {
+    "carrier_type": "sourced_raster_source_art",
+    "status": "diagnostic_only_not_active_source_art",
+    "dimensions_policy": "composed_into_fixed_1920x1080_canvas",
+    "historical_accuracy_context": {
+      "real_world_visual_target": "Tacoma Narrows Bridge motion and collapse evidence from sourced archival footage.",
+      "canonical_visual_facts": [
+        "suspension bridge span over Tacoma Narrows",
+        "roadway deck visible as slender flexible element",
+        "torsional bridge motion remains the central public anchor",
+        "bridge evidence comes from scoped Tacoma source footage references"
+      ],
+      "allowed_abstraction": "localized readability treatment, rail composition, restrained CRT/scanline source texture",
+      "hard_mismatch_blockers": [
+        "generic bridge or invented collapse scene",
+        "Paper Architecture backplate as primary Tacoma source",
+        "procedural diagnostic overlays over the bridge source plate",
+        "generated misleading collapse geometry"
+      ]
+    }
+  },
+  "generation_provenance": {
+    "tool": "deterministic_composition",
+    "model": "not_applicable",
+    "model_confidence": "explicit",
+    "mode": "html_css_composition_over_sourced_raster",
+    "source_generation_path": "not_applicable",
+    "prompt_path": "not_applicable",
+    "provenance_notes": "HTML/CSS composes sourced Tacoma frames, rail typography, caption preview, and review controls only. It is not generated source art and is not a rough assembly proof."
+  },
+  "required_reads": {
+    "living_cover_system_version_read": "pass",
+    "captioning_process_version_read": "pass_planned",
+    "fixed_16x9_canvas_read": "pass_fixed_1920x1080_scaled_shell",
+    "browser_shell_letterbox_read": "pass_scaled_browser_shell",
+    "imagegen_primary_source_read": "blocked_diagnostic_only_no_imagegen_source_art_candidate",
+    "imagegen_primary_source_exception_read": "missing_no_human_approved_non_imagegen_exception",
+    "source_art_carrier_read": "diagnostic_only_sourced_raster_reference",
+    "generation_tool_provenance_read": "pass_deterministic_composition_recorded",
+    "historical_accuracy_read": "pending_human_review",
+    "source_reference_alignment_read": "pending_human_review",
+    "public_anchor_geometry_read": "pending_human_review",
+    "tacoma_bridge_motion_read": "pending_human_review",
+    "bridge_deck_slenderness_read": "pending_human_review",
+    "torsional_motion_source_read": "pending_human_review",
+    "procedural_signal_overlay_read": "pass_no_signal_overlay",
+    "ambient_line_artifact_read": "pass_no_line_artifact",
+    "rail_preset_read": "pass_fixed_16x9_right_rail_v1",
+    "right_rail_safe_space_read": "review_ready",
+    "rail_panel_palette_read": "review_ready_source_harmonized",
+    "source_integrated_panel_color_read": "review_ready",
+    "full_frame_dark_overlay_read": "pass_no_full_frame_dark_overlay",
+    "localized_readability_treatment_read": "review_ready_title_region_only",
+    "caption_required_read": "pass",
+    "caption_output_model_read": "pass_planned",
+    "caption_text_source_read": "pass_locked_script",
+    "caption_timing_source_read": "pass_timing_only",
+    "caption_text_matches_script_read": "pending_future_script_locked_caption_build",
+    "caption_alignment_coverage_read": "pending_future_script_locked_caption_build",
+    "caption_asr_text_not_used_read": "planned_required",
+    "caption_known_regression_fixture_read": "pending_future_script_locked_caption_build",
+    "native_caption_behavior_read": "planned_required",
+    "no_karaoke_caption_read": "planned_required",
+    "caption_no_embellishment_read": "pass_preview_no_caption_decoration",
+    "stale_cross_episode_label_read": "pass_episode_specific_tacoma_copy",
+    "living_cover_cue_map_read": "blocked_pending_visual_system_keep",
+    "chapter_cue_coverage_read": "blocked_pending_visual_system_keep",
+    "typography_cue_read": "blocked_pending_visual_system_keep",
+    "effect_map_cue_read": "blocked_pending_visual_system_keep",
+    "source_safe_motion_read": "blocked_pending_visual_system_keep",
+    "cue_no_diagnostic_overlay_read": "planned_required",
+    "cue_map_internal_artifact_read": "planned_required",
+    "visible_cue_overlay_read": "planned_required_no_visible_cue_surface",
+    "ambient_effects_plan_read": "blocked_pending_visual_system_keep",
+    "ambient_effect_lane_decision_read": "blocked_pending_visual_system_keep",
+    "source_plate_matte_registration_read": "blocked_pending_visual_system_keep",
+    "foreground_occlusion_read": "blocked_pending_visual_system_keep",
+    "effect_layer_source_safety_read": "blocked_pending_visual_system_keep",
+    "deterministic_ambient_read": "blocked_pending_visual_system_keep",
+    "additive_effect_integration_read": "blocked_pending_visual_system_keep",
+    "debug_overlay_absence_read": "planned_required",
+    "ambient_effect_browser_sample_read": "blocked_pending_visual_system_keep",
+    "range_scrub_effect_review_read": "blocked_pending_visual_system_keep",
+    "human_presence_read": "not_applicable_source_frames_no_identifiable_human_subject",
+    "no_recognizable_faces_read": "pass_no_recognizable_faces_in_review_surface",
+    "texture_noise_read": "not_applicable_sourced_archival_plate_not_generated_paper_art",
+    "current_kept_proof_render_source_read": "pending_future_final_render",
+    "downstream_gate_read": "pass_all_downstream_actions_blocked"
+  },
+  "source_media": [
+    {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/source_clip_keyframe_contact_sheet/pass_01/frames/08_shot_08_roadway_twist__mid.jpg",
+      "sha256": "38de8b1eb13280bf3c4ec6c287ad30050382806675c31c5a64a91684c681afb0",
+      "role": "primary source plate"
+    },
+    {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/source_clip_keyframe_contact_sheet/pass_01/frames/01_shot_01_future_color_motion__mid.jpg",
+      "sha256": "dfabe885505f823cd7c6a4691ce3591223e01e857dc3db8aa1c982d023faf1e1",
+      "role": "source evidence option"
+    },
+    {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/source_clip_keyframe_contact_sheet/pass_01/frames/04_shot_04_galloping_gertie__mid.jpg",
+      "sha256": "dec5d389b3e6ffbacb7afbaba4a52a33e46587fbed6a745a142f52a9eeabefb8",
+      "role": "source evidence option"
+    },
+    {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/source_clip_keyframe_contact_sheet/pass_01/frames/07_shot_07_torsion_flexible_deck__mid.jpg",
+      "sha256": "6f4f5e7f2da487326df9769a64a433dc1b346201e52009e180ed1ae2c81c4830",
+      "role": "source evidence option"
+    },
+    {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/visual_research/strict_clean_span_pass_01/review_reel/strict_clean_span_pass_01_review_reel_no_audio.mp4",
+      "sha256": "aadf369f0190f97b002a9d4c250c900ba50543bd96a2be54e1db5dd51593ec73",
+      "role": "strict-clean archival review reel reference"
+    },
+    {
+      "path": "/Users/mike/Viz_CascadeEffects/references/episodes/tacoma-narrows/shorts/tacoma_short_scoped_v1/visual_research/strict_clean_span_pass_01/contact_sheet/strict_clean_span_pass_01_contact_sheet.jpg",
+      "sha256": "a0abac60a2d4ceedd92c2d076548fbf8eac68c1fff397a05fd89f41b48bfceb0",
+      "role": "review reel poster/contact sheet"
+    }
+  ],
+  "gate_locks": {
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_build_publish_package": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "next_required_human_decision": "generate ImageGen source-art candidates for the active long-form source-art gate, or explicitly approve a non-ImageGen source-art exception"
+}

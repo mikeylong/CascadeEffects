@@ -1,0 +1,521 @@
+{
+  "package_id": "challenger_short_minimal_surreal_v1__midjourney_v1",
+  "style_id": "minimal_surreal_editorial",
+  "surface_type": "short_beats",
+  "reference_mode": "manual_upload_local_files_with_provenance",
+  "source_documents": {
+    "short_manifest_path": "/Users/mike/Viz_CascadeEffects/references/episodes/challenger/shorts/challenger_short_minimal_surreal_v1.json",
+    "style_profile_path": "/Users/mike/Viz_CascadeEffects/workflows/style_profiles/minimal_surreal_editorial.json",
+    "source_inventory_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/source_inventory.json",
+    "sources_markdown_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/sources.md"
+  },
+  "midjourney_defaults": {
+    "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+    "negative_terms": [
+      "text",
+      "watermark",
+      "logo",
+      "crowd",
+      "poster",
+      "explosion"
+    ],
+    "manual_upload_workflow": true
+  },
+  "cover": {
+    "shot_id": "cover",
+    "preset_id": "shorts_cover_plate/challenger_thesis_cover",
+    "cue_start_seconds": null,
+    "cue_end_seconds": null,
+    "prompt_text": "Challenger launch stack as a monumental institutional warning signal at the pad. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to bone white, slate blue, charcoal, warning red, one saturated accent used as a semantic signal, exactly one subtle violation of reality, one narrow warning-red seam remains embedded inside the launch hardware while the whole scene feels fractionally too still, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+    "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+    "negative_terms": [
+      "text",
+      "watermark",
+      "logo",
+      "crowd",
+      "poster",
+      "explosion"
+    ],
+    "reference_files": [
+      "cover/references/01__opening_02.jpg",
+      "cover/references/02__act2_01.jpg",
+      "cover/references/03__act3_01.jpg",
+      "cover/references/04__act4_02.jpg"
+    ],
+    "reference_provenance": [
+      {
+        "source_id": "opening_02",
+        "candidate_label": "Challenger launch stack exterior",
+        "source_url": "https://commons.wikimedia.org/wiki/File:STS-51-L_-_Space_Shuttle_Challenger_on_the_Crawler-Transporter.jpg",
+        "source_origin": "web_fresh",
+        "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/opening_02.jpg",
+        "copied_package_path": "cover/references/01__opening_02.jpg",
+        "notes": "provider=local_commons; refreshed_from_web=2026-03-31"
+      },
+      {
+        "source_id": "act2_01",
+        "candidate_label": "Field-joint hardware section",
+        "source_url": "https://images.nasa.gov/details-8886217",
+        "source_origin": "web_fresh",
+        "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_01.jpg",
+        "copied_package_path": "cover/references/02__act2_01.jpg",
+        "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+      },
+      {
+        "source_id": "act3_01",
+        "candidate_label": "Launch-commit console hero",
+        "source_url": "https://images.nasa.gov/details-KSC-98pc969",
+        "source_origin": "web_fresh",
+        "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_01.jpg",
+        "copied_package_path": "cover/references/03__act3_01.jpg",
+        "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+      },
+      {
+        "source_id": "act4_02",
+        "candidate_label": "Booster breach signal",
+        "source_url": "https://images.nasa.gov/details-201107080006HQ",
+        "source_origin": "web_fresh",
+        "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_02.jpg",
+        "copied_package_path": "cover/references/04__act4_02.jpg",
+        "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+      }
+    ],
+    "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+    "prompt_doc_path": "cover/prompt.txt",
+    "references_manifest_path": "cover/references.json"
+  },
+  "shots": [
+    {
+      "shot_id": "beat_01",
+      "preset_id": "shorts_scene_plate/challenger_warning_cold",
+      "cue_start_seconds": 0.031,
+      "cue_end_seconds": 8.503,
+      "prompt_text": "ice-laden gantry and pipe cluster on the Challenger launch pad on the freezing morning of liftoff. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to winter blue, off-white, charcoal, signal orange, one saturated accent used as a semantic signal, exactly one subtle violation of reality, the cold boundary feels like a physical wall pressing into the frame, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+      "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+      "negative_terms": [
+        "text",
+        "watermark",
+        "logo",
+        "crowd",
+        "poster",
+        "explosion"
+      ],
+      "reference_files": [
+        "beats/beat_01/references/01__act3_06.jpg",
+        "beats/beat_01/references/02__act3_07.jpg",
+        "beats/beat_01/references/03__act3_08.jpg"
+      ],
+      "reference_provenance": [
+        {
+          "source_id": "act3_06",
+          "candidate_label": "Pad ice signal",
+          "source_url": "https://images.nasa.gov/details-KSC-2009-4648",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_06.jpg",
+          "copied_package_path": "beats/beat_01/references/01__act3_06.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act3_07",
+          "candidate_label": "Cold-weather pad materiality",
+          "source_url": "https://images.nasa.gov/details-KSC-2009-4647",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_07.jpg",
+          "copied_package_path": "beats/beat_01/references/02__act3_07.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act3_08",
+          "candidate_label": "Frost-line exterior cue",
+          "source_url": "https://images.nasa.gov/details-KSC-2009-4650",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_08.jpg",
+          "copied_package_path": "beats/beat_01/references/03__act3_08.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        }
+      ],
+      "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+      "prompt_doc_path": "beats/beat_01/prompt.txt",
+      "references_manifest_path": "beats/beat_01/references.json"
+    },
+    {
+      "shot_id": "beat_02",
+      "preset_id": "shorts_scene_plate/challenger_seal_joint",
+      "cue_start_seconds": 9.285,
+      "cue_end_seconds": 18.798,
+      "prompt_text": "solid rocket booster field joint and O-ring recovery hardware in real deck-and-water handling context after the accident. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to parchment beige, muted blue, charcoal, warning red, one saturated accent used as a semantic signal, exactly one subtle violation of reality, the warning seam remains impossibly legible inside the recovered hardware, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+      "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+      "negative_terms": [
+        "text",
+        "watermark",
+        "logo",
+        "crowd",
+        "poster",
+        "explosion"
+      ],
+      "reference_files": [
+        "beats/beat_02/references/01__act2_01.jpg",
+        "beats/beat_02/references/02__act2_05.jpg",
+        "beats/beat_02/references/03__act2_06.jpg",
+        "beats/beat_02/references/04__act2_02.jpg"
+      ],
+      "reference_provenance": [
+        {
+          "source_id": "act2_01",
+          "candidate_label": "Field-joint hardware section",
+          "source_url": "https://images.nasa.gov/details-8886217",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_01.jpg",
+          "copied_package_path": "beats/beat_02/references/01__act2_01.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act2_05",
+          "candidate_label": "Seal-path hardware closeup",
+          "source_url": "https://images.nasa.gov/details-KSC-97PC1299",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_05.jpg",
+          "copied_package_path": "beats/beat_02/references/02__act2_05.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act2_06",
+          "candidate_label": "Engineering evidence bench",
+          "source_url": "https://images.nasa.gov/details-KSC-97PC1301",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_06.jpg",
+          "copied_package_path": "beats/beat_02/references/03__act2_06.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act2_02",
+          "candidate_label": "Booster nozzle hardware",
+          "source_url": "https://images.nasa.gov/details-KSC-97PC1298",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_02.jpg",
+          "copied_package_path": "beats/beat_02/references/04__act2_02.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        }
+      ],
+      "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+      "prompt_doc_path": "beats/beat_02/prompt.txt",
+      "references_manifest_path": "beats/beat_02/references.json"
+    },
+    {
+      "shot_id": "beat_03",
+      "preset_id": "shorts_scene_plate/challenger_burden_shift",
+      "cue_start_seconds": 18.778,
+      "cue_end_seconds": 26.355,
+      "prompt_text": "NASA and Thiokol decision-space consoles and observation barrier in the launch-commit control room. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to off-white, slate blue, charcoal, signal amber, one saturated accent used as a semantic signal, exactly one subtle violation of reality, a single quiet division line slices through the room as if the burden of proof became architecture, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+      "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+      "negative_terms": [
+        "text",
+        "watermark",
+        "logo",
+        "crowd",
+        "poster",
+        "explosion"
+      ],
+      "reference_files": [
+        "beats/beat_03/references/01__act3_01.jpg",
+        "beats/beat_03/references/02__act3_02.jpg",
+        "beats/beat_03/references/03__act3_03.jpg",
+        "beats/beat_03/references/04__act3_04.jpg"
+      ],
+      "reference_provenance": [
+        {
+          "source_id": "act3_01",
+          "candidate_label": "Launch-commit console hero",
+          "source_url": "https://images.nasa.gov/details-KSC-98pc969",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_01.jpg",
+          "copied_package_path": "beats/beat_03/references/01__act3_01.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act3_02",
+          "candidate_label": "Launch-control room process",
+          "source_url": "https://images.nasa.gov/details-KSC-98pc970",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_02.jpg",
+          "copied_package_path": "beats/beat_03/references/02__act3_02.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act3_03",
+          "candidate_label": "Decision-room console bank",
+          "source_url": "https://images.nasa.gov/details-KSC-88PC-0806",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_03.jpg",
+          "copied_package_path": "beats/beat_03/references/03__act3_03.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act3_04",
+          "candidate_label": "Launch director firing room",
+          "source_url": "https://images.nasa.gov/details-05pd0359",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_04.jpg",
+          "copied_package_path": "beats/beat_03/references/04__act3_04.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        }
+      ],
+      "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+      "prompt_doc_path": "beats/beat_03/prompt.txt",
+      "references_manifest_path": "beats/beat_03/references.json"
+    },
+    {
+      "shot_id": "beat_04",
+      "preset_id": "shorts_scene_plate/challenger_ignition_smoke",
+      "cue_start_seconds": 27.577,
+      "cue_end_seconds": 31.827,
+      "prompt_text": "Challenger launch stack at ignition on the pad with service structure and exhaust field still present. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to off-white, smoke blue, charcoal, soot black, one saturated accent used as a semantic signal, exactly one subtle violation of reality, a single dark plume appears at the right booster joint while the scene stays formally calm, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+      "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+      "negative_terms": [
+        "text",
+        "watermark",
+        "logo",
+        "crowd",
+        "poster",
+        "explosion"
+      ],
+      "reference_files": [
+        "beats/beat_04/references/01__act4_01.jpg",
+        "beats/beat_04/references/02__act4_02.jpg",
+        "beats/beat_04/references/03__act4_03.jpg",
+        "beats/beat_04/references/04__act4_04.jpg"
+      ],
+      "reference_provenance": [
+        {
+          "source_id": "act4_01",
+          "candidate_label": "Challenger launch process",
+          "source_url": "https://images.nasa.gov/details-S86-38989",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_01.jpg",
+          "copied_package_path": "beats/beat_04/references/01__act4_01.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act4_02",
+          "candidate_label": "Booster breach signal",
+          "source_url": "https://images.nasa.gov/details-201107080006HQ",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_02.jpg",
+          "copied_package_path": "beats/beat_04/references/02__act4_02.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act4_03",
+          "candidate_label": "Launch stack exterior still",
+          "source_url": "https://images.nasa.gov/details-201107080005HQ",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_03.jpg",
+          "copied_package_path": "beats/beat_04/references/03__act4_03.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act4_04",
+          "candidate_label": "Breach plume tracking still",
+          "source_url": "https://images.nasa.gov/details-201107080053HQ",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_04.jpg",
+          "copied_package_path": "beats/beat_04/references/04__act4_04.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        }
+      ],
+      "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+      "prompt_doc_path": "beats/beat_04/prompt.txt",
+      "references_manifest_path": "beats/beat_04/references.json"
+    },
+    {
+      "shot_id": "beat_05",
+      "preset_id": "shorts_scene_plate/challenger_formal_break",
+      "cue_start_seconds": 32.076,
+      "cue_end_seconds": 42.929,
+      "prompt_text": "ruptured Challenger ascent plume and failing shuttle stack in open sky above the Florida coast. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to ash gray, smoke white, charcoal, signal ember, one saturated accent used as a semantic signal, exactly one subtle violation of reality, the ascent column splits into one impossible formal tear without becoming a disaster tableau, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+      "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+      "negative_terms": [
+        "text",
+        "watermark",
+        "logo",
+        "crowd",
+        "poster",
+        "explosion"
+      ],
+      "reference_files": [
+        "beats/beat_05/references/01__act4_02.jpg",
+        "beats/beat_05/references/02__act4_04.jpg",
+        "beats/beat_05/references/03__act4_06.jpg",
+        "beats/beat_05/references/04__act4_07.jpg"
+      ],
+      "reference_provenance": [
+        {
+          "source_id": "act4_02",
+          "candidate_label": "Booster breach signal",
+          "source_url": "https://images.nasa.gov/details-201107080006HQ",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_02.jpg",
+          "copied_package_path": "beats/beat_05/references/01__act4_02.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act4_04",
+          "candidate_label": "Breach plume tracking still",
+          "source_url": "https://images.nasa.gov/details-201107080053HQ",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_04.jpg",
+          "copied_package_path": "beats/beat_05/references/02__act4_04.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act4_06",
+          "candidate_label": "Restrained failure evidence frame",
+          "source_url": "https://images.nasa.gov/details-2010-3424",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_06.jpg",
+          "copied_package_path": "beats/beat_05/references/03__act4_06.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act4_07",
+          "candidate_label": "Tracking-camera abstraction",
+          "source_url": "https://images.nasa.gov/details-2010-3425",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_07.jpg",
+          "copied_package_path": "beats/beat_05/references/04__act4_07.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        }
+      ],
+      "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+      "prompt_doc_path": "beats/beat_05/prompt.txt",
+      "references_manifest_path": "beats/beat_05/references.json"
+    },
+    {
+      "shot_id": "beat_06",
+      "preset_id": "shorts_scene_plate/challenger_warning_absorbed",
+      "cue_start_seconds": 42.988,
+      "cue_end_seconds": 50.896,
+      "prompt_text": "monitoring consoles and absorbed alert traces in the mission evaluation room after the launch decision. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to pale gray, desaturated green, charcoal, warning amber, one saturated accent used as a semantic signal, exactly one subtle violation of reality, the alert trace disappears into the background logic as if the system were swallowing its own warning, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+      "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+      "negative_terms": [
+        "text",
+        "watermark",
+        "logo",
+        "crowd",
+        "poster",
+        "explosion"
+      ],
+      "reference_files": [
+        "beats/beat_06/references/01__act2_03.jpg",
+        "beats/beat_06/references/02__act2_04.jpg",
+        "beats/beat_06/references/03__act2_08.jpg",
+        "beats/beat_06/references/04__act1_05.jpg"
+      ],
+      "reference_provenance": [
+        {
+          "source_id": "act2_03",
+          "candidate_label": "Monitoring labor bank",
+          "source_url": "https://images.nasa.gov/details-jsc2009e055631",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_03.jpg",
+          "copied_package_path": "beats/beat_06/references/01__act2_03.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act2_04",
+          "candidate_label": "Flight-control process bank",
+          "source_url": "https://images.nasa.gov/details-jsc2007e108498",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_04.jpg",
+          "copied_package_path": "beats/beat_06/references/02__act2_04.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act2_08",
+          "candidate_label": "Control-room repetition cue",
+          "source_url": "https://images.nasa.gov/details-jsc2009e121511",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_08.jpg",
+          "copied_package_path": "beats/beat_06/references/03__act2_08.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act1_05",
+          "candidate_label": "Procedural console bank",
+          "source_url": "https://images.nasa.gov/details-s68-50695",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act1_05.jpg",
+          "copied_package_path": "beats/beat_06/references/04__act1_05.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        }
+      ],
+      "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+      "prompt_doc_path": "beats/beat_06/prompt.txt",
+      "references_manifest_path": "beats/beat_06/references.json"
+    },
+    {
+      "shot_id": "beat_07",
+      "preset_id": "shorts_scene_plate/challenger_thesis_close",
+      "cue_start_seconds": 51.957,
+      "cue_end_seconds": 55.502,
+      "prompt_text": "final Challenger warning seam embedded in launch-site infrastructure and institutional aftermath context. single primary subject remains dominant while support structures, workers, or surrounding equipment may remain visible for scale. minimal surreal editorial still grounded in documentary reality, asymmetrical composition, medium-close environmental framing, restrained simplification, real environment preserved around the subject, one dominant environmental field, palette limited to bone white, slate blue, charcoal, warning red, one saturated accent used as a semantic signal, exactly one subtle violation of reality, one warning seam remains visibly open inside an otherwise resolved monumental form, stillness, soft diffuse light, clean edges, moderate detail, quiet suspended atmosphere, high thumbnail readability, contemplative tone, no spectacle",
+      "parameter_suffix": "--v 7 --ar 9:16 --raw --s 75",
+      "negative_terms": [
+        "text",
+        "watermark",
+        "logo",
+        "crowd",
+        "poster",
+        "explosion"
+      ],
+      "reference_files": [
+        "beats/beat_07/references/01__act2_01.jpg",
+        "beats/beat_07/references/02__act3_01.jpg",
+        "beats/beat_07/references/03__act4_02.jpg",
+        "beats/beat_07/references/04__act2_08.jpg"
+      ],
+      "reference_provenance": [
+        {
+          "source_id": "act2_01",
+          "candidate_label": "Field-joint hardware section",
+          "source_url": "https://images.nasa.gov/details-8886217",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_01.jpg",
+          "copied_package_path": "beats/beat_07/references/01__act2_01.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act3_01",
+          "candidate_label": "Launch-commit console hero",
+          "source_url": "https://images.nasa.gov/details-KSC-98pc969",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act3_01.jpg",
+          "copied_package_path": "beats/beat_07/references/02__act3_01.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act4_02",
+          "candidate_label": "Booster breach signal",
+          "source_url": "https://images.nasa.gov/details-201107080006HQ",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_02.jpg",
+          "copied_package_path": "beats/beat_07/references/03__act4_02.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        },
+        {
+          "source_id": "act2_08",
+          "candidate_label": "Control-room repetition cue",
+          "source_url": "https://images.nasa.gov/details-jsc2009e121511",
+          "source_origin": "web_fresh",
+          "original_local_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_08.jpg",
+          "copied_package_path": "beats/beat_07/references/04__act2_08.jpg",
+          "notes": "provider=nasa; refreshed_from_web=2026-03-31"
+        }
+      ],
+      "manual_upload_instructions": "Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.",
+      "prompt_doc_path": "beats/beat_07/prompt.txt",
+      "references_manifest_path": "beats/beat_07/references.json"
+    }
+  ],
+  "shot_list_path": "shot_list.md"
+}

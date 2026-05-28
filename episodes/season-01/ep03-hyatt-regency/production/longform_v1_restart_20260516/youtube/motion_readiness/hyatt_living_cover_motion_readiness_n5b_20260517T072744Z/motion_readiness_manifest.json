@@ -1,0 +1,264 @@
+{
+  "packet_id": "hyatt_living_cover_motion_readiness_n5b_20260517T072744Z",
+  "episode_id": "hyatt-regency",
+  "phase_gate": "motion_readiness_gate",
+  "status": "keep",
+  "human_disposition": "keep",
+  "created_utc": "2026-05-17T07:27:44Z",
+  "active_restart_root": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516",
+  "may_create_html_rough_proof": true,
+  "may_advance_to_rough_assembly": true,
+  "may_advance_to_video_render": false,
+  "may_create_full_runtime_mp4_render": false,
+  "may_advance_to_final_assembly": false,
+  "may_advance_to_publish_readiness": false,
+  "may_youtube_action": false,
+  "upstream_required_keeps": {
+    "inventory": {
+      "status": "keep",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/inventory/inventory_manifest.json",
+      "manifest_sha256": "235ed90cc27580a39e31dcd1eeb36df1faa252d5b98cf2855c5cccc6ae27f068",
+      "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/gate_approvals/hyatt_inventory_episode_package_keep_20260517T072744Z.md",
+      "approval_record_sha256": "b55fdd1a41a95a293ca97a9ec549c2a9412c714261b14df810a6e60dd5db833d"
+    },
+    "episode_package": {
+      "status": "keep",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/episode_package/episode_package_manifest.json",
+      "manifest_sha256": "101396d793dbae86cbc497278bba2a7e5d405b47b2dd078b29b475f3a0595036",
+      "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/gate_approvals/hyatt_inventory_episode_package_keep_20260517T072744Z.md",
+      "approval_record_sha256": "b55fdd1a41a95a293ca97a9ec549c2a9412c714261b14df810a6e60dd5db833d"
+    },
+    "source_art": {
+      "status": "keep",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/source_art_manifest.json",
+      "manifest_sha256": "a920af1b98631285e62833a8d43b185a216a90b3c146054447271c3df10b4a9f",
+      "selected_variant_id": "n5b_plausible_table_centerpieces",
+      "human_approval_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/review/human_approval_n5b_20260517T070207Z.md",
+      "human_approval_sha256": "6b1c5057b293f7a7b48344fe83dc8e6b1f24e9a90f504da7811f331e687de308"
+    }
+  },
+  "selected_source_art": {
+    "variant_id": "n5b_plausible_table_centerpieces",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_variant_n_believable_table_bouquets_20260517T051623Z/assets/source_art/n5b_plausible_table_centerpieces_1920x1080.png",
+    "sha256": "7b6f6c5aa1970f311e01676d45e03a5bf319a11482e4d80531cfb266504b9458",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "profile_id": "cascade-ink-lit-photoreal-v1",
+    "rail_preset_id": "fixed_16x9_right_rail_v1"
+  },
+  "living_cover_system": {
+    "living_cover_system_version": "living_cover_system_v1",
+    "rail_preset_id": "fixed_16x9_right_rail_v1",
+    "captioning_process_version": "living_cover_captioning_process_v1",
+    "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+    "visual_lane": "cascade-ink-lit-photoreal-v1",
+    "source_art_carrier_policy": "approved generated raster source art; HTML/CSS/SVG/canvas may only compose over it"
+  },
+  "audio": {
+    "pipeline_dir": "/Users/mike/Audio_CascadeEffects/tmp/ep3_hyattregency_production",
+    "canonical_episode_wav_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/final/Ep3_Hyatt-Regency.wav",
+    "status": "review_ready_revalidated",
+    "duration_seconds": 833.642812,
+    "packaged_sha256": "4987c649a19cccc36f3b1c0f0cddddba535e4a877be69c562f0e91302b550929",
+    "provider": "elevenlabs",
+    "model": "eleven_multilingual_v2",
+    "voice_profile_id": "longform_mike_v1",
+    "qa_completed_at": "2026-05-16T17:16:47Z"
+  },
+  "caption_package": {
+    "vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.vtt",
+    "vtt_sha256": "c172dbcb0299e070d34e33eea680b325b09281db19727a5be4fa66058e21e945",
+    "srt_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/captions/hyatt_regency_longform.script_locked_rail_safe.srt",
+    "srt_sha256": "d1fd11d1f40cfd7cf8463133be60de8535e1de5dbe2e0f37abe1549d1817b545",
+    "qa_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/captions/hyatt_regency_longform.script_locked_caption_qa.json",
+    "qa_sha256": "6f660e7d2f606380f12549c13a9a9e740458cbf277455eda56fbb21fdbc18984",
+    "qa_reads": {
+      "caption_alignment_coverage_read": "pass",
+      "caption_asr_text_not_used_read": "pass",
+      "caption_no_caption_after_outro_start_read": "pass",
+      "caption_no_speaker_labels_read": "pass",
+      "caption_rail_safe_chunk_read": "pass",
+      "caption_text_matches_script_read": "pass"
+    },
+    "alignment_coverage": 0.9919517102615694,
+    "caption_output_model": "dual_visible_rail_and_youtube_vtt_sidecar",
+    "caption_text_source": "locked_script_only",
+    "caption_timing_source": "WhisperX_ASR_timing_only"
+  },
+  "chapters": [
+    {
+      "id": "the_tea_dance",
+      "label": "CHAPTER 01",
+      "title": "The Tea Dance",
+      "summary": "A crowded atrium event sets up the human and structural stakes.",
+      "at": 0,
+      "time_label": "00:00",
+      "duration": 82
+    },
+    {
+      "id": "the_original_load_path",
+      "label": "CHAPTER 02",
+      "title": "The Original Load Path",
+      "summary": "The original walkway support concept appears simple until the connection is examined.",
+      "at": 82,
+      "time_label": "01:22",
+      "duration": 99
+    },
+    {
+      "id": "the_revision",
+      "label": "CHAPTER 03",
+      "title": "The Revision",
+      "summary": "A shop drawing change divides the rods and changes the force path.",
+      "at": 181,
+      "time_label": "03:01",
+      "duration": 117
+    },
+    {
+      "id": "the_category_error",
+      "label": "CHAPTER 04",
+      "title": "The Category Error",
+      "summary": "The change is treated as coordination while it changes engineering responsibility.",
+      "at": 298,
+      "time_label": "04:58",
+      "duration": 177
+    },
+    {
+      "id": "the_warning_signs",
+      "label": "CHAPTER 05",
+      "title": "The Warning Signs",
+      "summary": "Prior cracks, deflection, and review signals fail to become decisive evidence.",
+      "at": 475,
+      "time_label": "07:55",
+      "duration": 278
+    },
+    {
+      "id": "everything_was_in_order",
+      "label": "CHAPTER 06",
+      "title": "Everything Was In Order",
+      "summary": "The tragedy lands in a system where each artifact appeared procedurally acceptable.",
+      "at": 753,
+      "time_label": "12:33",
+      "duration": 80.643
+    }
+  ],
+  "cue_map": {
+    "md_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/motion_readiness/hyatt_living_cover_motion_readiness_n5b_20260517T072744Z/living_cover_cue_map.md",
+    "md_sha256": "c8b5739eb7d10507c4f4078def86110ae4626610da6d87023a52faf980ced5ee",
+    "json_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/motion_readiness/hyatt_living_cover_motion_readiness_n5b_20260517T072744Z/living_cover_cue_map.json",
+    "json_sha256": "057c8181d1a78ed60c599ee22d175f93cabb70cccc576ba31f4cb21342a68729"
+  },
+  "ambient_effects_layer": {
+    "md_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/motion_readiness/hyatt_living_cover_motion_readiness_n5b_20260517T072744Z/living_cover_ambient_effects_layer.md",
+    "md_sha256": "6fafbc25c3005dd6ca61682aa8684dc7e0c742a5ef742d7ac1b1c06cd2eec112",
+    "json_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/motion_readiness/hyatt_living_cover_motion_readiness_n5b_20260517T072744Z/living_cover_ambient_effects_layer.json",
+    "json_sha256": "fe9f634a68a001444527b960f94d1941e85e3b80700de76e7c3a0dbd81d7c6d3"
+  },
+  "review_packet": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/motion_readiness/hyatt_living_cover_motion_readiness_n5b_20260517T072744Z/motion_readiness_review_packet.md",
+    "sha256": "1e70970ec836a842ba164ad102f76c89aa9a4572932aa866b93bd44a8a6bb004"
+  },
+  "review_reads": {
+    "living_cover_system_version_read": "pass",
+    "captioning_process_version_read": "pass",
+    "fixed_16x9_canvas_read": "pass_planned",
+    "browser_shell_letterbox_read": "pass_planned_localhost_review",
+    "source_art_carrier_read": "pass_n5b_human_keep",
+    "generation_tool_provenance_read": "pass",
+    "historical_accuracy_read": "pass",
+    "source_reference_alignment_read": "pass",
+    "public_anchor_geometry_read": "pass",
+    "hyatt_atrium_architecture_read": "pass",
+    "human_presence_read": "pass",
+    "no_recognizable_faces_read": "pass",
+    "tea_dance_event_specificity_read": "pass",
+    "table_balloon_bouquet_read": "pass_human_approved_n5b",
+    "procedural_signal_overlay_read": "pass_no_backplate_overlay_planned",
+    "ambient_line_artifact_read": "pass_no_cyan_lines_planned",
+    "full_frame_dark_overlay_read": "pass_localized_only",
+    "localized_readability_treatment_read": "pass_rail_local_only",
+    "living_cover_cue_map_read": "pass",
+    "chapter_cue_coverage_read": "pass",
+    "typography_cue_read": "pass",
+    "effect_map_cue_read": "pass",
+    "source_safe_motion_read": "pass",
+    "cue_no_diagnostic_overlay_read": "pass",
+    "cue_map_internal_artifact_read": "pass",
+    "visible_cue_overlay_read": "pass_no_visible_cue_ids_planned",
+    "ambient_effects_plan_read": "pass",
+    "ambient_effect_lane_decision_read": "pass_mixed_restrained_source_integrated",
+    "source_plate_matte_registration_read": "pass_planned_same_fixed_coordinate_space",
+    "foreground_occlusion_read": "pass_planned_no_new_human_detail",
+    "effect_layer_source_safety_read": "pass",
+    "deterministic_ambient_read": "pass_seeded_parameters_recorded",
+    "additive_effect_integration_read": "pass",
+    "debug_overlay_absence_read": "pass",
+    "ambient_effect_browser_sample_read": "planned_required_before_rough_keep",
+    "range_scrub_effect_review_read": "planned_required_before_rough_keep",
+    "native_caption_behavior_read": "pass_planned_browser_vtt_texttrack",
+    "caption_required_read": "pass",
+    "caption_output_model_read": "pass_dual_visible_rail_and_youtube_vtt_sidecar",
+    "caption_text_source_read": "pass_locked_script_only",
+    "caption_timing_source_read": "pass_asr_timing_only",
+    "caption_text_matches_script_read": "pass",
+    "caption_alignment_coverage_read": "pass",
+    "caption_asr_text_not_used_read": "pass",
+    "caption_phrase_level_read": "pass",
+    "no_karaoke_caption_read": "pass",
+    "caption_no_embellishment_read": "pass",
+    "caption_vtt_reference_read": "pass",
+    "caption_sidecar_preservation_read": "pass_planned",
+    "stale_cross_episode_label_read": "pass_episode_specific_hyatt_labels",
+    "rail_panel_palette_read": "pass_source_integrated_palette_planned",
+    "source_integrated_panel_color_read": "pass",
+    "end_screen_geometry_static_read": "pass_planned",
+    "youtube_target_geometry_static_read": "pass_planned",
+    "continuous_ambient_end_screen_preservation_read": "pass_planned",
+    "caption_suppression_read": "pass_planned_after_outro_start",
+    "html_rough_proof_not_created_read": "pass",
+    "mp4_render_not_created_read": "pass",
+    "publish_readiness_not_created_read": "pass",
+    "youtube_upload_not_performed_read": "pass"
+  },
+  "source_factcheck": {
+    "status": "blocked_pending_verified_fact_check_packet",
+    "status_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_factcheck/source_factcheck_status.md",
+    "status_sha256": "0b41833d86c819a9f49ef7de96a97bb381ce197b8b846045c0c6f54c748c5ad5",
+    "publish_readiness_blocker": true
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false,
+    "mp4_render_created": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false
+  },
+  "review_question": "Motion-readiness keep recorded. Review the localhost HTML rough proof next; rough-proof keep is required before final MP4 render.",
+  "kept_utc": "2026-05-17T07:43:01Z",
+  "human_approval": {
+    "disposition": "keep",
+    "applied_utc": "2026-05-17T07:43:01Z",
+    "human_message": "no, i need to review the artifact that will create the mp4",
+    "approval_record_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/gate_approvals/hyatt_motion_readiness_keep_20260517T074301Z.md",
+    "approval_record_sha256": "36c56ff0264590a2cb10683f9c8164929531d407d45e4d56977566379dd4817f",
+    "interpretation": "authorizes_html_rough_proof_creation_only",
+    "explicit_non_approvals": [
+      "rough_proof_keep",
+      "final_mp4_render",
+      "publish_readiness_keep",
+      "private_youtube_upload_approval",
+      "public_release_approval"
+    ]
+  },
+  "created_rough_assembly": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_20260517T074301Z",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_20260517T074301Z/player.html",
+    "player_sha256": "a727c0170aed09ee000694ac883886c20d3f27ddde77f9d994bbf3ffded47272",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n5b_20260517T074301Z/rough_assembly_manifest.json"
+  }
+}

@@ -1,0 +1,1639 @@
+{
+  "artifact_id": "cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_variant",
+  "created_at": "20260508T160802Z",
+  "status": "variant_review_ready",
+  "variant_of": "channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_slowdown_final_2s_20260507T171123Z",
+  "supersedes": null,
+  "audio_variant": "theme_song_no_vo_loop_to_end_end_screen_hold",
+  "visual_variant": "opening_montage_6s_near_camera_cold_open_more_settled_final_2s",
+  "audio_stream_copied_unchanged": true,
+  "music_bed_changed": false,
+  "youtube_rollout": "local_review_first_no_private_draft_update",
+  "youtube_next_up_placeholders_preserved": true,
+  "title_s_mask_repair": "bottom_right_exclusion_narrowed",
+  "title_s_occlusion_read": "pass",
+  "title_texture_strategy": "minimal_paper_texture_deterministic_sprite_cleanup",
+  "title_texture_read": "pass_minimal_paper_texture",
+  "titanic_dark_overlay_removed": true,
+  "background_visibility_read": "pass",
+  "localized_title_readability_treatment": "soft_title_alpha_wash",
+  "localized_title_readability_opacity": 0.16,
+  "full_frame_dark_overlay_used": false,
+  "youtube_shorts_cold_open_seconds": [
+    0.0,
+    6.0
+  ],
+  "challenger_two_sided_start_seconds": 6.0,
+  "cold_open_switch_strategy": "fast_then_more_settled_holds_final_2s",
+  "cold_open_slowdown_seconds": [
+    4.0,
+    6.0
+  ],
+  "cold_open_settle_seconds": [
+    4.0,
+    6.0
+  ],
+  "challenger_lock_seconds": [
+    5.5,
+    6.0
+  ],
+  "cold_open_start_quad_scale": 1.22,
+  "outro_seconds": null,
+  "outro_file_used": false,
+  "voiceover_used": false,
+  "visual_stream_copied": false,
+  "end_screen_hold_seconds": [
+    42.0,
+    48.0
+  ],
+  "hold_frame_source_seconds": 42.0,
+  "visual_fade_out_removed": true,
+  "revision_reason": "settle_cold_open_final_2s_with_longer_challenger_lock",
+  "public_release_blocked": true,
+  "public_release_blocker": "Confirm music rights and YouTube claim status before public visibility.",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "aspect_ratio": "16:9"
+  },
+  "runtime": {
+    "target_seconds": 48.0,
+    "source_video_seconds": 48.0,
+    "actual_seconds": 48.0,
+    "source_audio_seconds": 48.0,
+    "runtime_read": "pass"
+  },
+  "timing": {
+    "music_bed_changed": false,
+    "audio_timing_inherited_from": "channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold_20260507T052143Z",
+    "voiceover_seconds": null,
+    "outro_seconds": null,
+    "visual_timeline_roles": [
+      {
+        "role": "youtube_shorts_cold_open",
+        "seconds": [
+          0.0,
+          6.0
+        ]
+      },
+      {
+        "role": "right_plate_geometry_handoff",
+        "seconds": [
+          5.75,
+          6.0
+        ]
+      },
+      {
+        "role": "challenger_fade_in_bridge",
+        "seconds": [
+          5.05,
+          6.0
+        ]
+      },
+      {
+        "role": "voiceover_episode_sequence",
+        "seconds": [
+          6.0,
+          30.2
+        ]
+      },
+      {
+        "role": "outro_music_resolve",
+        "seconds": [
+          30.2,
+          37.172
+        ]
+      },
+      {
+        "role": "paper_architecture_title_end_screen",
+        "seconds": [
+          37.172,
+          42.0
+        ]
+      },
+      {
+        "role": "paper_architecture_title_end_screen_hold",
+        "seconds": [
+          42.0,
+          48.0
+        ]
+      }
+    ],
+    "visual_timeline_segments": [
+      {
+        "start": 0.0,
+        "end": 6.0,
+        "slug": "youtube-shorts-card",
+        "role": "youtube_shorts_cold_open",
+        "playback": "cold_open",
+        "source_seconds": [
+          0.0,
+          6.0
+        ]
+      },
+      {
+        "start": 6.0,
+        "end": 9.2,
+        "slug": "challenger",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_no_hold_landed",
+        "source_seconds": [
+          8.0,
+          11.2
+        ]
+      },
+      {
+        "start": 9.2,
+        "end": 12.9,
+        "slug": "hyatt-regency",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 12.9,
+        "end": 16.6,
+        "slug": "semmelweis",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 16.6,
+        "end": 20.3,
+        "slug": "tacoma-narrows",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 20.3,
+        "end": 24.0,
+        "slug": "737-max",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          3.7
+        ]
+      },
+      {
+        "start": 24.0,
+        "end": 30.2,
+        "slug": "titanic",
+        "role": "voiceover_episode_sequence",
+        "playback": "live_short_push_in_no_hold",
+        "source_seconds": [
+          0.0,
+          6.2
+        ]
+      },
+      {
+        "start": 30.2,
+        "end": 37.172,
+        "slug": "titanic",
+        "role": "outro_music_resolve",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      },
+      {
+        "start": 37.172,
+        "end": 42.0,
+        "slug": "paper-architecture-title",
+        "role": "paper_architecture_title_end_screen",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      },
+      {
+        "start": 42.0,
+        "end": 48.0,
+        "slug": "paper-architecture-title",
+        "role": "paper_architecture_title_end_screen_hold",
+        "playback": "hold",
+        "source_seconds": [
+          9.95,
+          9.95
+        ]
+      }
+    ],
+    "youtube_shorts_cold_open_seconds": [
+      0.0,
+      6.0
+    ],
+    "cold_open_switch_report": {
+      "cold_open_switch_strategy": "fast_then_more_settled_holds_final_2s",
+      "cold_open_slowdown_seconds": [
+        4.0,
+        6.0
+      ],
+      "cold_open_settle_seconds": [
+        4.0,
+        6.0
+      ],
+      "switch_windows": [
+        {
+          "seconds": [
+            0.0,
+            4.0
+          ],
+          "target_interval_seconds": 0.115,
+          "switch_count": 52
+        },
+        {
+          "seconds": [
+            4.0,
+            4.45
+          ],
+          "target": "longer_short_hold",
+          "slug": "hyatt-regency",
+          "switch_count": 1
+        },
+        {
+          "seconds": [
+            4.45,
+            4.95
+          ],
+          "target": "longer_short_hold",
+          "slug": "semmelweis",
+          "switch_count": 1
+        },
+        {
+          "seconds": [
+            4.95,
+            5.5
+          ],
+          "target": "longer_short_hold",
+          "slug": "titanic",
+          "switch_count": 1
+        },
+        {
+          "seconds": [
+            5.5,
+            6.0
+          ],
+          "target": "challenger_lock",
+          "entry_switch_count": 1,
+          "internal_switch_count": 0
+        }
+      ],
+      "sampled_switch_times_seconds": [
+        0.125,
+        0.167,
+        0.25,
+        0.292,
+        0.375,
+        0.458,
+        0.5,
+        0.583,
+        0.708,
+        0.75,
+        0.833,
+        0.875,
+        0.958,
+        1.0,
+        1.042,
+        1.167,
+        1.292,
+        1.417,
+        1.458,
+        1.5,
+        1.583,
+        1.625,
+        1.75,
+        1.875,
+        1.958,
+        2.0,
+        2.083,
+        2.167,
+        2.208,
+        2.292,
+        2.333,
+        2.417,
+        2.458,
+        2.542,
+        2.583,
+        2.667,
+        2.75,
+        2.792,
+        2.875,
+        3.0,
+        3.125,
+        3.167,
+        3.25,
+        3.292,
+        3.375,
+        3.458,
+        3.583,
+        3.708,
+        3.75,
+        3.833,
+        3.875,
+        3.917,
+        4.0,
+        4.458,
+        4.958,
+        5.5
+      ],
+      "challenger_lock_seconds": [
+        5.5,
+        6.0
+      ],
+      "challenger_lock_sample_times_seconds": [
+        5.5,
+        5.75,
+        5.958
+      ],
+      "challenger_lock_source_times_seconds": [
+        7.66,
+        7.83,
+        7.972
+      ],
+      "cold_open_slowdown_read": "pass",
+      "challenger_lock_read": "pass",
+      "challenger_lock_motion_read": "pass"
+    },
+    "cold_open_settle_seconds": [
+      4.0,
+      6.0
+    ],
+    "challenger_lock_seconds": [
+      5.5,
+      6.0
+    ],
+    "challenger_two_sided_start_seconds": 6.0,
+    "challenger_two_sided_seconds": [
+      6.0,
+      9.2
+    ],
+    "shifted_episode_sequence_seconds": [
+      6.0,
+      30.2
+    ],
+    "outro_resolve_seconds": [
+      30.2,
+      37.172
+    ],
+    "paper_architecture_title_end_screen_seconds": [
+      37.172,
+      42.0
+    ],
+    "end_screen_hold_seconds": [
+      42.0,
+      48.0
+    ],
+    "hold_frame_source_seconds": 42.0
+  },
+  "audio_mix": {
+    "rebuilt_from_sources": false,
+    "audio_stream_copied_unchanged": true,
+    "copy_method": "ffmpeg_mux_c_a_copy",
+    "source_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold_20260507T052143Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold.mp4",
+    "source_audio_stream_sha256": "c7a77f0b732cd17e3341e926e50c553cfef68bb9d604e235d11856f728634d52",
+    "final_audio_stream_sha256": "c7a77f0b732cd17e3341e926e50c553cfef68bb9d604e235d11856f728634d52",
+    "audio_stream_copy_read": "pass",
+    "music_bed_changed": false,
+    "voiceover_source_used_in_mix": false,
+    "outro_source_used": false,
+    "v1_audio_mix_reused_unchanged": false,
+    "volume_peak": {
+      "status": "pass",
+      "max_volume_db": -2.4,
+      "mean_volume_db": -17.4
+    }
+  },
+  "voiceover_source": {
+    "used_in_mix": false,
+    "voiceover_removed": true
+  },
+  "text_policy": {
+    "final_video_text": "outro_approved_title_raster_only",
+    "selected_title_scope": "outro_approved_title_raster_only",
+    "uses_episode_labels": false,
+    "uses_captions": false,
+    "uses_generated_text": false,
+    "deterministic_font_text_used_in_final": false,
+    "deterministic_text_only": [],
+    "raster_title_only": [
+      "outro_approved_website_paper_architecture_title"
+    ],
+    "removed_local_text_overlays": [
+      "cold_open_title",
+      "cold_open_subhead",
+      "voiceover_section_cue",
+      "mechanism_words",
+      "mechanism_subheads",
+      "outro_promise",
+      "outro_end_screen_labels"
+    ]
+  },
+  "title_system": {
+    "id": "outro_paper_architecture_title_v1",
+    "profile_id": "cascade-paper-architectures-ink-lit-v1",
+    "selected_title_scope": "outro_approved_title_raster_only",
+    "exact_title": "Cascade of Effects",
+    "outro_title_source_role": "approved_title_bearing_website_reference",
+    "source_path": "/Users/mike/Web_CascadeEffects/brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-desktop-source-v1.png",
+    "source_sha256": "5f9db727623e4ddfdd7daa8c577b137af4b4d8e768630d55466aa17b1322d50a",
+    "source_crop_xy": [
+      45,
+      70,
+      930,
+      550
+    ],
+    "line_regions_xy_in_crop": [
+      [
+        0,
+        88,
+        885,
+        285
+      ],
+      [
+        0,
+        245,
+        885,
+        470
+      ]
+    ],
+    "exclusion_regions_xy_in_crop": [
+      [
+        560,
+        0,
+        885,
+        150
+      ],
+      [
+        0,
+        0,
+        885,
+        84
+      ],
+      [
+        0,
+        455,
+        80,
+        480
+      ],
+      [
+        865,
+        455,
+        885,
+        480
+      ],
+      [
+        185,
+        455,
+        290,
+        480
+      ]
+    ],
+    "source_crop_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/source_art/outro_paper_architecture_title_v1_source_crop.png",
+    "source_crop_sha256": "11f7ad4163a3825f13eb9415e7d8fe9e8a2e0aa91823f9598e768ee657c033e6",
+    "sprite_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/source_art/outro_paper_architecture_title_v1_sprite.png",
+    "sprite_sha256": "1c6e29ed884298a9fbfeab474fa0b22df9a0d5c266e16418fa4db1ff78028ebe",
+    "render_sprite_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/source_art/outro_paper_architecture_title_v1_render_sprite.png",
+    "render_sprite_sha256": "1b991df457320573cced882fa03a1bf1624dd41257e6934617abea0c3ce872ca",
+    "outro_title_position_xy": [
+      112,
+      132
+    ],
+    "outro_title_rendered_size": [
+      760,
+      355
+    ],
+    "outro_title_bbox_xy": [
+      112,
+      132,
+      872,
+      487
+    ],
+    "palette_hex": {
+      "ink": "#0B1023",
+      "ink_panel": "#11172F",
+      "lavender_shadow": "#5D568E",
+      "blue_frame": "#3D4B70",
+      "cream": "#FFF8E8",
+      "secondary_text": "#CBD3E8",
+      "cyan_glow": "#78DCE8",
+      "restrained_coral": "#FF6F61"
+    },
+    "title_safe_bounds_xy": [
+      96,
+      54,
+      1824,
+      1026
+    ],
+    "raster_composition_only": true,
+    "generated_model_text_used": false,
+    "deterministic_font_text_used_in_final": false,
+    "removed_local_text_overlays": [
+      "cold_open_title",
+      "cold_open_subhead",
+      "voiceover_section_cue",
+      "mechanism_words",
+      "mechanism_subheads",
+      "outro_promise",
+      "outro_end_screen_labels"
+    ],
+    "title_texture_strategy": "minimal_paper_texture_deterministic_sprite_cleanup",
+    "title_texture_read": "pass_minimal_paper_texture",
+    "localized_title_readability_treatment": "soft_title_alpha_wash",
+    "localized_title_readability_opacity": 0.16
+  },
+  "inputs": {
+    "source_music_only_package": {
+      "package_id": "channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold_20260507T052143Z",
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold_20260507T052143Z/channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold_manifest.json",
+      "manifest_sha256": "8a04763ca5a7d9f1cd4cc044d19009d96f6bd456d379b146059c8bd4d3a66b30",
+      "video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold_20260507T052143Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_loop_to_end_end_screen_hold.mp4",
+      "video_sha256": "5738ba579b9644c7e41f79be5754b8bdd6bb47e767e97d65979c25f29e29b0f0",
+      "audio_stream_sha256": "c7a77f0b732cd17e3341e926e50c553cfef68bb9d604e235d11856f728634d52"
+    },
+    "proof_manifests": [
+      {
+        "slug": "challenger",
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/challenger_visual_proof_manifest.json",
+        "sha256": "4b5b63a55da191683f6d5c28c35cc3b6685af422ad62d6e49dc64f687fad3c3d"
+      },
+      {
+        "slug": "hyatt-regency",
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/hyatt-regency_visual_proof_v1_20260506T170958Z/hyatt-regency_visual_proof_manifest.json",
+        "sha256": "6744e8c494b443c2df9e3a6f7e3919334202ad465ce8be055c76267a2db9cef0"
+      },
+      {
+        "slug": "semmelweis",
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/semmelweis_visual_proof_v1_20260506T170958Z/semmelweis_visual_proof_manifest.json",
+        "sha256": "777912da4d9fef2db6af7899fcbba6ac4125cbbc1023978101b3eb3b162bffe5"
+      },
+      {
+        "slug": "tacoma-narrows",
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/tacoma-narrows_visual_proof_v1_20260506T170958Z/tacoma-narrows_visual_proof_manifest.json",
+        "sha256": "cbe6ad176e0900197ac66c20dfcccdeb7364bf3d368628468aa0f9a7f58dbfd4"
+      },
+      {
+        "slug": "737-max",
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/737-max_visual_proof_v1_20260506T170958Z/737-max_visual_proof_manifest.json",
+        "sha256": "acdb2ace86a28f4baad84ae017a243d0e7ff010d1108eb7d81a331dfba278bd2"
+      },
+      {
+        "slug": "titanic",
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/titanic_visual_proof_v1_20260506T170958Z/titanic_visual_proof_manifest.json",
+        "sha256": "1a44cf6c9d37265700b7159a00b27035f96161dc31ee476ea2067be4b4a1578b"
+      }
+    ]
+  },
+  "visuals": {
+    "preserved_from": "channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_slowdown_final_2s_20260507T171123Z",
+    "visual_variant": "opening_montage_6s_near_camera_cold_open_more_settled_final_2s",
+    "visual_stream_copied": false,
+    "video_stream_copy_method": null,
+    "video_stream_sha256_final": "48f6f5818777bd83310d02126e58bbae46039b9a66c76e2ab0dbe1e0dd6f5755",
+    "video_stream_copy_read": "not_applicable_visual_timing_changed",
+    "cold_open_geometry_changed": true,
+    "cold_open_start_quad_scale": 1.22,
+    "cold_open_switch_strategy": "fast_then_more_settled_holds_final_2s",
+    "cold_open_slowdown_seconds": [
+      4.0,
+      6.0
+    ],
+    "cold_open_settle_seconds": [
+      4.0,
+      6.0
+    ],
+    "challenger_lock_seconds": [
+      5.5,
+      6.0
+    ],
+    "cold_open_switch_report": {
+      "cold_open_switch_strategy": "fast_then_more_settled_holds_final_2s",
+      "cold_open_slowdown_seconds": [
+        4.0,
+        6.0
+      ],
+      "cold_open_settle_seconds": [
+        4.0,
+        6.0
+      ],
+      "switch_windows": [
+        {
+          "seconds": [
+            0.0,
+            4.0
+          ],
+          "target_interval_seconds": 0.115,
+          "switch_count": 52
+        },
+        {
+          "seconds": [
+            4.0,
+            4.45
+          ],
+          "target": "longer_short_hold",
+          "slug": "hyatt-regency",
+          "switch_count": 1
+        },
+        {
+          "seconds": [
+            4.45,
+            4.95
+          ],
+          "target": "longer_short_hold",
+          "slug": "semmelweis",
+          "switch_count": 1
+        },
+        {
+          "seconds": [
+            4.95,
+            5.5
+          ],
+          "target": "longer_short_hold",
+          "slug": "titanic",
+          "switch_count": 1
+        },
+        {
+          "seconds": [
+            5.5,
+            6.0
+          ],
+          "target": "challenger_lock",
+          "entry_switch_count": 1,
+          "internal_switch_count": 0
+        }
+      ],
+      "sampled_switch_times_seconds": [
+        0.125,
+        0.167,
+        0.25,
+        0.292,
+        0.375,
+        0.458,
+        0.5,
+        0.583,
+        0.708,
+        0.75,
+        0.833,
+        0.875,
+        0.958,
+        1.0,
+        1.042,
+        1.167,
+        1.292,
+        1.417,
+        1.458,
+        1.5,
+        1.583,
+        1.625,
+        1.75,
+        1.875,
+        1.958,
+        2.0,
+        2.083,
+        2.167,
+        2.208,
+        2.292,
+        2.333,
+        2.417,
+        2.458,
+        2.542,
+        2.583,
+        2.667,
+        2.75,
+        2.792,
+        2.875,
+        3.0,
+        3.125,
+        3.167,
+        3.25,
+        3.292,
+        3.375,
+        3.458,
+        3.583,
+        3.708,
+        3.75,
+        3.833,
+        3.875,
+        3.917,
+        4.0,
+        4.458,
+        4.958,
+        5.5
+      ],
+      "challenger_lock_seconds": [
+        5.5,
+        6.0
+      ],
+      "challenger_lock_sample_times_seconds": [
+        5.5,
+        5.75,
+        5.958
+      ],
+      "challenger_lock_source_times_seconds": [
+        7.66,
+        7.83,
+        7.972
+      ],
+      "cold_open_slowdown_read": "pass",
+      "challenger_lock_read": "pass",
+      "challenger_lock_motion_read": "pass"
+    },
+    "opening_geometry_report": {
+      "visual_variant": "opening_montage_6s_near_camera_cold_open_more_settled_final_2s",
+      "youtube_shorts_cold_open_seconds": [
+        0.0,
+        6.0
+      ],
+      "challenger_two_sided_start_seconds": 6.0,
+      "cold_open_start_quad_scale": 1.22,
+      "original_start_quad_area_px": 4510160,
+      "immersive_start_quad_area_px": 6716164,
+      "immersive_area_ratio": 1.4891,
+      "cold_open_start_quad_xy": [
+        [
+          -115.0,
+          -1236.0
+        ],
+        [
+          1772.0,
+          -1160.0
+        ],
+        [
+          1872.0,
+          2273.0
+        ],
+        [
+          -159.0,
+          2190.0
+        ]
+      ],
+      "cold_open_end_quad_xy": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "two_sided_right_media_plate_quad_xy": [
+        [
+          1202.0,
+          104.0
+        ],
+        [
+          1760.0,
+          64.0
+        ],
+        [
+          1760.0,
+          1018.0
+        ],
+        [
+          1214.0,
+          970.0
+        ]
+      ],
+      "cold_open_start_center_xy": [
+        842.5,
+        516.75
+      ],
+      "cold_open_end_center_xy": [
+        1484.0,
+        539.0
+      ],
+      "two_sided_right_media_plate_center_xy": [
+        1484.0,
+        539.0
+      ],
+      "closer_to_camera_read": "pass",
+      "cold_open_end_geometry": "matches_two_sided_right_media_plate",
+      "handoff_quad_delta_px": 0.0,
+      "handoff_center_delta_px": 0.0,
+      "right_plate_geometry_handoff_read": "pass_by_shared_end_quad",
+      "no_geometry_jump_at_6s_read": "pass_by_shared_end_quad"
+    },
+    "push_in_timeline_changed": false,
+    "right_plate_behavior_changed": false,
+    "right_plate_behavior_read": "pass",
+    "right_plate_freeze_report": {
+      "crop_xy": [
+        1184,
+        46,
+        1778,
+        1036
+      ],
+      "segments": [
+        {
+          "slug": "challenger",
+          "sample_times_seconds": [
+            8.65,
+            9.02
+          ],
+          "right_plate_luma_delta": 0.627,
+          "right_media_freeze_read": "pass"
+        },
+        {
+          "slug": "hyatt-regency",
+          "sample_times_seconds": [
+            12.35,
+            12.72
+          ],
+          "right_plate_luma_delta": 33.339,
+          "right_media_freeze_read": "pass"
+        },
+        {
+          "slug": "semmelweis",
+          "sample_times_seconds": [
+            16.05,
+            16.42
+          ],
+          "right_plate_luma_delta": 4.123,
+          "right_media_freeze_read": "pass"
+        },
+        {
+          "slug": "tacoma-narrows",
+          "sample_times_seconds": [
+            19.75,
+            20.12
+          ],
+          "right_plate_luma_delta": 1.99,
+          "right_media_freeze_read": "pass"
+        },
+        {
+          "slug": "737-max",
+          "sample_times_seconds": [
+            23.45,
+            23.82
+          ],
+          "right_plate_luma_delta": 1.958,
+          "right_media_freeze_read": "pass"
+        },
+        {
+          "slug": "titanic",
+          "sample_times_seconds": [
+            29.65,
+            30.02
+          ],
+          "right_plate_luma_delta": 3.409,
+          "right_media_freeze_read": "pass"
+        }
+      ],
+      "right_media_freeze_read": "pass",
+      "movement_threshold_luma_delta": 0.2
+    },
+    "episode_push_in_report": {
+      "challenger_handoff_strategy": "keep_landed_right_plate_no_restart",
+      "episode_push_in_strategy": "post_handoff_segments_start_quad_to_end_quad_1_25s",
+      "animation_origin_xy": [
+        1484.0,
+        539.0
+      ],
+      "right_plate_center_delta_px": 0.0,
+      "segments": [
+        {
+          "slug": "hyatt-regency",
+          "push_in_seconds": 1.25,
+          "start_quad_xy": [
+            [
+              1292.2,
+              243.2
+            ],
+            [
+              1671.7,
+              216.0
+            ],
+            [
+              1671.7,
+              864.7
+            ],
+            [
+              1300.4,
+              832.1
+            ]
+          ],
+          "end_quad_xy": [
+            [
+              1202.0,
+              104.0
+            ],
+            [
+              1760.0,
+              64.0
+            ],
+            [
+              1760.0,
+              1018.0
+            ],
+            [
+              1214.0,
+              970.0
+            ]
+          ],
+          "start_area_px": 232286,
+          "end_area_px": 502296,
+          "center_xy": [
+            1484.0,
+            539.0
+          ],
+          "area_growth_read": "pass",
+          "center_stability_read": "pass",
+          "final_quad_read": "pass"
+        },
+        {
+          "slug": "semmelweis",
+          "push_in_seconds": 1.25,
+          "start_quad_xy": [
+            [
+              1292.2,
+              243.2
+            ],
+            [
+              1671.7,
+              216.0
+            ],
+            [
+              1671.7,
+              864.7
+            ],
+            [
+              1300.4,
+              832.1
+            ]
+          ],
+          "end_quad_xy": [
+            [
+              1202.0,
+              104.0
+            ],
+            [
+              1760.0,
+              64.0
+            ],
+            [
+              1760.0,
+              1018.0
+            ],
+            [
+              1214.0,
+              970.0
+            ]
+          ],
+          "start_area_px": 232286,
+          "end_area_px": 502296,
+          "center_xy": [
+            1484.0,
+            539.0
+          ],
+          "area_growth_read": "pass",
+          "center_stability_read": "pass",
+          "final_quad_read": "pass"
+        },
+        {
+          "slug": "tacoma-narrows",
+          "push_in_seconds": 1.25,
+          "start_quad_xy": [
+            [
+              1292.2,
+              243.2
+            ],
+            [
+              1671.7,
+              216.0
+            ],
+            [
+              1671.7,
+              864.7
+            ],
+            [
+              1300.4,
+              832.1
+            ]
+          ],
+          "end_quad_xy": [
+            [
+              1202.0,
+              104.0
+            ],
+            [
+              1760.0,
+              64.0
+            ],
+            [
+              1760.0,
+              1018.0
+            ],
+            [
+              1214.0,
+              970.0
+            ]
+          ],
+          "start_area_px": 232286,
+          "end_area_px": 502296,
+          "center_xy": [
+            1484.0,
+            539.0
+          ],
+          "area_growth_read": "pass",
+          "center_stability_read": "pass",
+          "final_quad_read": "pass"
+        },
+        {
+          "slug": "737-max",
+          "push_in_seconds": 1.25,
+          "start_quad_xy": [
+            [
+              1292.2,
+              243.2
+            ],
+            [
+              1671.7,
+              216.0
+            ],
+            [
+              1671.7,
+              864.7
+            ],
+            [
+              1300.4,
+              832.1
+            ]
+          ],
+          "end_quad_xy": [
+            [
+              1202.0,
+              104.0
+            ],
+            [
+              1760.0,
+              64.0
+            ],
+            [
+              1760.0,
+              1018.0
+            ],
+            [
+              1214.0,
+              970.0
+            ]
+          ],
+          "start_area_px": 232286,
+          "end_area_px": 502296,
+          "center_xy": [
+            1484.0,
+            539.0
+          ],
+          "area_growth_read": "pass",
+          "center_stability_read": "pass",
+          "final_quad_read": "pass"
+        },
+        {
+          "slug": "titanic",
+          "push_in_seconds": 1.25,
+          "start_quad_xy": [
+            [
+              1292.2,
+              243.2
+            ],
+            [
+              1671.7,
+              216.0
+            ],
+            [
+              1671.7,
+              864.7
+            ],
+            [
+              1300.4,
+              832.1
+            ]
+          ],
+          "end_quad_xy": [
+            [
+              1202.0,
+              104.0
+            ],
+            [
+              1760.0,
+              64.0
+            ],
+            [
+              1760.0,
+              1018.0
+            ],
+            [
+              1214.0,
+              970.0
+            ]
+          ],
+          "start_area_px": 232286,
+          "end_area_px": 502296,
+          "center_xy": [
+            1484.0,
+            539.0
+          ],
+          "area_growth_read": "pass",
+          "center_stability_read": "pass",
+          "final_quad_read": "pass"
+        }
+      ],
+      "episode_push_in_read": "pass",
+      "right_plate_center_stability_read": "pass",
+      "no_lateral_slide_read": "pass"
+    },
+    "end_screen_hold_report": {
+      "hold_frame_source_seconds": 42.0,
+      "end_screen_hold_seconds": [
+        42.0,
+        48.0
+      ],
+      "hold_frame_raw_rgb_sha256": "cf76956e6877137d5cd15cc699e62a309daf514417fe66530fafe08cc5339eab",
+      "hold_frame_mean_luma": 38.0447,
+      "hold_match_luma_delta_threshold": 0.15,
+      "samples": [
+        {
+          "time_seconds": 42.0,
+          "raw_rgb_sha256": "cf76956e6877137d5cd15cc699e62a309daf514417fe66530fafe08cc5339eab",
+          "raw_hash_match": true,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0447,
+          "mean_luma_delta_from_hold": 0.0,
+          "luma_drop_from_hold": 0.0
+        },
+        {
+          "time_seconds": 45.0,
+          "raw_rgb_sha256": "1c0a96ea5854d0aa65e782bca3d9d788347510967d27f794ac0dfaaa55bdcbe0",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0447,
+          "mean_luma_delta_from_hold": 0.0015,
+          "luma_drop_from_hold": -0.0
+        },
+        {
+          "time_seconds": 46.0,
+          "raw_rgb_sha256": "434789289b00b9d57066bd3615b15d9e840658bd44d970a16b18bcdfd1c9c476",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0427,
+          "mean_luma_delta_from_hold": 0.0979,
+          "luma_drop_from_hold": 0.002
+        },
+        {
+          "time_seconds": 47.9,
+          "raw_rgb_sha256": "9a86601a7b62a897f1ad0362e04264895aa7b26a79dca870e25d4277c736f050",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0429,
+          "mean_luma_delta_from_hold": 0.0977,
+          "luma_drop_from_hold": 0.0018
+        }
+      ],
+      "held_frame_match_read": "pass",
+      "final_frame_luma_read": "pass",
+      "visual_fade_out_removed_read": "pass"
+    },
+    "hold_frame_source_seconds": 42.0,
+    "end_screen_hold_seconds": [
+      42.0,
+      48.0
+    ],
+    "visual_fade_out_removed": true,
+    "youtube_next_up_placeholders_preserved": true,
+    "title_s_mask_repair": "bottom_right_exclusion_narrowed",
+    "title_s_occlusion_read": "pass",
+    "title_texture_strategy": "minimal_paper_texture_deterministic_sprite_cleanup",
+    "title_texture_read": "pass_minimal_paper_texture",
+    "titanic_dark_overlay_removed": true,
+    "background_visibility_read": "pass",
+    "localized_title_readability_treatment": "soft_title_alpha_wash",
+    "localized_title_readability_read": "pass_subtle_non_rectangular_title_backing",
+    "full_frame_dark_overlay_used": false,
+    "final_video_text_policy": "outro_approved_title_raster_only"
+  },
+  "artifacts": {
+    "output_root": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z",
+    "final_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s.mp4",
+    "final_mp4_sha256": "326d7d72055308464369ba83ae435839cfc6844508189b5e50faa5d3bb2fd9d0",
+    "silent_video": {
+      "silent_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/video/cascade_of_effects_channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_silent.mp4",
+      "silent_video_sha256": "c260022be8c0ff5842e02700309bf158accfe051d280dd4efac4abc979f74f1d",
+      "opening_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/work/opening_montage_0_to_6s.mp4",
+      "opening_video_sha256": "3376d4ca76b9f3fdfd9c073cc3c230581b936d80999767a03d801d3cb289d5c8",
+      "shifted_body_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/work/source_visual_4_to_28p2_shifted_to_6_to_30p2.mp4",
+      "shifted_body_video_sha256": "0254da2e04a50ec7d8cd9a585d360e1b3936f9b72cdf542002bef2205ae57dfd",
+      "clean_outro_video_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/work/clean_outro_title_30p2_to_48s.mp4",
+      "clean_outro_video_sha256": "07da7d88b907555d1546bbf2d07bce3cd9cf47df2e119038b189a67a0c803155",
+      "source_segment_seconds": [
+        4.0,
+        28.2
+      ],
+      "shifted_body_seconds": [
+        6.0,
+        30.2
+      ],
+      "clean_outro_seconds": [
+        30.2,
+        48.0
+      ],
+      "end_screen_hold_seconds": [
+        42.0,
+        48.0
+      ],
+      "title_s_mask_repair_seconds": [
+        30.2,
+        48.0
+      ],
+      "title_s_mask_repair_method": "narrow_bottom_right_title_exclusion_and_restore_next_up_placeholders",
+      "duration_seconds": 48.0,
+      "method": "render_new_0_to_6_opening_reencode_source_4_to_28p2_as_shifted_body_render_clean_outro_title_and_hold"
+    },
+    "opening_frame_render": {
+      "frame_count": 144,
+      "duration_seconds": 6.0,
+      "sampled_frames": [
+        {
+          "index": 0,
+          "time_seconds": 0.0,
+          "segment_role": "youtube_shorts_cold_open"
+        },
+        {
+          "index": 36,
+          "time_seconds": 1.5,
+          "segment_role": "youtube_shorts_cold_open"
+        },
+        {
+          "index": 72,
+          "time_seconds": 3.0,
+          "segment_role": "youtube_shorts_cold_open"
+        },
+        {
+          "index": 108,
+          "time_seconds": 4.5,
+          "segment_role": "youtube_shorts_cold_open"
+        },
+        {
+          "index": 143,
+          "time_seconds": 5.958,
+          "segment_role": "youtube_shorts_cold_open"
+        }
+      ],
+      "render_strategy": "render_new_extended_opening_only_then_shift_prior_accepted_visual_segment"
+    },
+    "clean_outro_frame_render": {
+      "frame_count": 427,
+      "duration_seconds": 17.792,
+      "sampled_frames": [
+        {
+          "index": 0,
+          "time_seconds": 30.2,
+          "segment_role": "clean_outro_title"
+        },
+        {
+          "index": 106,
+          "time_seconds": 34.617,
+          "segment_role": "clean_outro_title"
+        },
+        {
+          "index": 213,
+          "time_seconds": 39.075,
+          "segment_role": "clean_outro_title"
+        },
+        {
+          "index": 320,
+          "time_seconds": 43.533,
+          "segment_role": "clean_outro_title"
+        },
+        {
+          "index": 426,
+          "time_seconds": 47.95,
+          "segment_role": "clean_outro_title"
+        }
+      ],
+      "render_strategy": "clean_outro_title_and_hold_from_titanic_base_plate_with_restored_next_up_placeholders_and_repaired_title_s_mask"
+    },
+    "opening_montage_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/qa/opening_montage_6s_contact_sheet.jpg",
+      "sha256": "2599e35541c9259a4e08b9e5dee99dc645038f0938e5288f442d29056905ffb9",
+      "samples": [
+        {
+          "label": "near-camera start",
+          "time_seconds": 0.1
+        },
+        {
+          "label": "rapid switch",
+          "time_seconds": 0.6
+        },
+        {
+          "label": "extended montage",
+          "time_seconds": 2.2
+        },
+        {
+          "label": "still montage",
+          "time_seconds": 4.2
+        },
+        {
+          "label": "handoff approach",
+          "time_seconds": 5.75
+        },
+        {
+          "label": "challenger two-sided",
+          "time_seconds": 6.0
+        },
+        {
+          "label": "hyatt shifted",
+          "time_seconds": 9.2
+        },
+        {
+          "label": "outro resolve",
+          "time_seconds": 30.2
+        },
+        {
+          "label": "title end-screen",
+          "time_seconds": 37.172
+        },
+        {
+          "label": "held end-screen",
+          "time_seconds": 47.9
+        }
+      ]
+    },
+    "opening_handoff_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/qa/opening_handoff_5p75_6p00_contact_sheet.jpg",
+      "sha256": "4793a5a75d633633b42cc0590c18a0121fb57996753c2df4268572131aac7fa4",
+      "samples": [
+        {
+          "label": "approach",
+          "time_seconds": 5.75
+        },
+        {
+          "label": "pre-handoff",
+          "time_seconds": 5.958
+        },
+        {
+          "label": "landed",
+          "time_seconds": 6.0
+        },
+        {
+          "label": "after handoff",
+          "time_seconds": 6.042
+        }
+      ]
+    },
+    "shifted_episode_starts_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/qa/shifted_episode_starts_contact_sheet.jpg",
+      "sha256": "524f027ce36892b0307cfcfd96ea8565170837cf8e12a69675ef62157b3cbbb8",
+      "samples": [
+        {
+          "label": "challenger",
+          "time_seconds": 6.0
+        },
+        {
+          "label": "hyatt",
+          "time_seconds": 9.2
+        },
+        {
+          "label": "semmelweis",
+          "time_seconds": 12.9
+        },
+        {
+          "label": "tacoma",
+          "time_seconds": 16.6
+        },
+        {
+          "label": "737 max",
+          "time_seconds": 20.3
+        },
+        {
+          "label": "titanic",
+          "time_seconds": 24.0
+        },
+        {
+          "label": "pre-outro",
+          "time_seconds": 30.0
+        }
+      ]
+    },
+    "outro_title_hold_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/qa/outro_title_hold_contact_sheet.jpg",
+      "sha256": "97dc719f4987aa4630bd5e56f6e2c6f3f75b42725747b142db6a3816ddc80691",
+      "samples": [
+        {
+          "label": "outro resolve",
+          "time_seconds": 30.2
+        },
+        {
+          "label": "title end-screen",
+          "time_seconds": 37.172
+        },
+        {
+          "label": "hold starts",
+          "time_seconds": 42.0
+        },
+        {
+          "label": "hold tail",
+          "time_seconds": 47.9
+        }
+      ]
+    },
+    "source_no_pre_outro_text_sample_sheet": null,
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_manifest.json",
+    "cold_open_settle_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_trailer_v2_theme_song_no_vo_opening_montage_6s_near_camera_cold_open_more_settled_final_2s_20260508T160802Z/qa/cold_open_more_settled_4_to_6s_contact_sheet.jpg",
+      "sha256": "39f2294b61690735e29be278ec62afaa223bb9297aece6b510df25cdd33ae344",
+      "samples": [
+        {
+          "label": "settle starts",
+          "time_seconds": 4.0
+        },
+        {
+          "label": "hyatt hold",
+          "time_seconds": 4.25
+        },
+        {
+          "label": "semmelweis switch",
+          "time_seconds": 4.458
+        },
+        {
+          "label": "semmelweis hold",
+          "time_seconds": 4.75
+        },
+        {
+          "label": "titanic switch",
+          "time_seconds": 4.958
+        },
+        {
+          "label": "titanic hold",
+          "time_seconds": 5.25
+        },
+        {
+          "label": "challenger lock",
+          "time_seconds": 5.5
+        },
+        {
+          "label": "handoff approach",
+          "time_seconds": 5.75
+        },
+        {
+          "label": "pre-handoff",
+          "time_seconds": 5.958
+        },
+        {
+          "label": "landed",
+          "time_seconds": 6.0
+        }
+      ]
+    }
+  },
+  "qa": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "48.000000",
+        "size": "17786311"
+      }
+    },
+    "decode_read": "pass",
+    "audio_variant_read": "pass_audio_stream_copied_unchanged",
+    "audio_stream_copy_read": "pass",
+    "music_bed_changed_read": "pass_false",
+    "outro_file_used_read": "pass_false",
+    "voiceover_removed_read": "pass",
+    "voiceover_source_used_in_mix_read": "pass_false",
+    "audio_volume_peak": {
+      "status": "pass",
+      "max_volume_db": -2.4,
+      "mean_volume_db": -17.4
+    },
+    "no_clipping_read": "pass",
+    "runtime_read": "pass",
+    "video_stream_copy_read": "not_applicable_extended_runtime_end_screen_hold",
+    "visual_variant_read": "pass_opening_montage_6s_near_camera_cold_open_more_settled_final_2s",
+    "cold_open_switch_strategy_read": "pass_fast_then_more_settled_holds_final_2s",
+    "cold_open_slowdown_read": "pass",
+    "challenger_lock_read": "pass",
+    "challenger_lock_motion_read": "pass",
+    "youtube_next_up_placeholders_preserved_read": "pass",
+    "title_s_mask_repair_read": "pass_bottom_right_exclusion_narrowed",
+    "title_s_occlusion_read": "pass",
+    "title_texture_read": "pass_minimal_paper_texture",
+    "titanic_dark_overlay_removed_read": "pass",
+    "background_visibility_read": "pass",
+    "localized_title_readability_read": "pass_subtle_non_rectangular_title_backing",
+    "full_frame_dark_overlay_used_read": "pass_false",
+    "opening_card_closer_to_camera_read": "pass",
+    "right_plate_geometry_handoff_read": "pass_by_shared_end_quad",
+    "no_geometry_jump_at_6s_read": "pass_by_shared_end_quad",
+    "right_media_freeze_read": "pass",
+    "episode_push_in_read": "pass",
+    "right_plate_center_stability_read": "pass",
+    "no_lateral_slide_read": "pass",
+    "visual_motion_read": "pass",
+    "hold_frame_source_seconds": 42.0,
+    "end_screen_hold_seconds": [
+      42.0,
+      48.0
+    ],
+    "end_screen_hold_report": {
+      "hold_frame_source_seconds": 42.0,
+      "end_screen_hold_seconds": [
+        42.0,
+        48.0
+      ],
+      "hold_frame_raw_rgb_sha256": "cf76956e6877137d5cd15cc699e62a309daf514417fe66530fafe08cc5339eab",
+      "hold_frame_mean_luma": 38.0447,
+      "hold_match_luma_delta_threshold": 0.15,
+      "samples": [
+        {
+          "time_seconds": 42.0,
+          "raw_rgb_sha256": "cf76956e6877137d5cd15cc699e62a309daf514417fe66530fafe08cc5339eab",
+          "raw_hash_match": true,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0447,
+          "mean_luma_delta_from_hold": 0.0,
+          "luma_drop_from_hold": 0.0
+        },
+        {
+          "time_seconds": 45.0,
+          "raw_rgb_sha256": "1c0a96ea5854d0aa65e782bca3d9d788347510967d27f794ac0dfaaa55bdcbe0",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0447,
+          "mean_luma_delta_from_hold": 0.0015,
+          "luma_drop_from_hold": -0.0
+        },
+        {
+          "time_seconds": 46.0,
+          "raw_rgb_sha256": "434789289b00b9d57066bd3615b15d9e840658bd44d970a16b18bcdfd1c9c476",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0427,
+          "mean_luma_delta_from_hold": 0.0979,
+          "luma_drop_from_hold": 0.002
+        },
+        {
+          "time_seconds": 47.9,
+          "raw_rgb_sha256": "9a86601a7b62a897f1ad0362e04264895aa7b26a79dca870e25d4277c736f050",
+          "raw_hash_match": false,
+          "matches_hold_frame_read": "pass",
+          "mean_luma": 38.0429,
+          "mean_luma_delta_from_hold": 0.0977,
+          "luma_drop_from_hold": 0.0018
+        }
+      ],
+      "held_frame_match_read": "pass",
+      "final_frame_luma_read": "pass",
+      "visual_fade_out_removed_read": "pass"
+    },
+    "held_frame_match_read": "pass",
+    "visual_fade_out_removed_read": "pass",
+    "final_frame_luma_read": "pass",
+    "no_captions_read": "pass",
+    "no_pre_outro_local_text_read": "pass_inherited_by_exact_video_stream_copy",
+    "final_video_text_policy_read": "pass_outro_approved_title_raster_only",
+    "source_package_not_superseded_read": "pass_variant_only_no_status_mutation",
+    "deleted_duplicate_loop_file_reference_read": "pass_not_referenced"
+  }
+}

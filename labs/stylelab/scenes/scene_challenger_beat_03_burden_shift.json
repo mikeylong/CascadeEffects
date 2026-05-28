@@ -1,0 +1,89 @@
+{
+  "accent_strategy": {
+    "description": "One disciplined vermilion status lamp held inside the decision space.",
+    "kind": "warning_light",
+    "placement": [
+      0.79,
+      0.4
+    ],
+    "size": 0.008
+  },
+  "aspect_mode": "vertical_9x16",
+  "beat_id": "beat_03",
+  "caption_safe_zone": {
+    "subtitles": [
+      0.08,
+      0.74,
+      0.92,
+      0.96
+    ],
+    "top_ui": [
+      0.0,
+      0.0,
+      1.0,
+      0.12
+    ]
+  },
+  "dominant_mass_strategy": {
+    "description": "A dark institutional wall sealing the right third like management certainty.",
+    "width_ratio": 0.35
+  },
+  "final_size": {
+    "height": 1920,
+    "width": 1080
+  },
+  "historical_anchor": {
+    "description": "A quiet control bay standing in for the room where proof requirements were reversed.",
+    "episode": "Challenger",
+    "topic": "Burden-of-proof reversal"
+  },
+  "id": "scene_challenger_beat_03_burden_shift",
+  "motion_preset": "vertical_glide",
+  "outputs": {
+    "final": {
+      "generated_at": "20260404T191153Z",
+      "image_path": "/Users/mike/StyleLab_CascadeEffects/renders/scene_challenger_beat_03_burden_shift/20260404T191153Z__final.png",
+      "manifest_path": "/Users/mike/StyleLab_CascadeEffects/renders/scene_challenger_beat_03_burden_shift/20260404T191153Z__final.json",
+      "model_family": "flux2_dev_reference_contract",
+      "negative_prompt": "high detail, texture, noise, photoreal clutter, multiple subjects, complex background, dramatic lighting, motion blur, busy composition, ornate realism, dense foliage detail, complex sky, center-weighted composition, symmetrical layout, multiple bright accents, text, watermark, logo, ui overlay",
+      "prompt": "Minimal surreal editorial composition. Quiet, reduced, asymmetrical image with one subtle breach in reality and high thumbnail clarity. The frame should feel paused, suspended, and slightly unresolved. The historical subject must remain legible but reduced to an emblematic silhouette. Strip forms to simple silhouettes and essential geometry only. Use one dominant environmental color field and keep every secondary tone muted or neutral. One side must carry the visual weight while the opposite side stays mostly empty. Reserve one saturated accent as a semantic signal rather than decoration. Keep surfaces quiet with only slight painterly bleed at edges. Hold the image in stillness so it feels like a paused system state with implied consequence. Maintain at least 60% negative space with an asymmetrical focal mass. Use no more than 4 colors and only 1 saturated accent. Allow exactly 1 surreal breach and keep everything else coherent. Lighting must remain soft diffuse. Do not include text, logo, ui_artifacts, motion_blur, photoreal_clutter. Editorial finish pass. Keep the scene calm, legible, and emotionally compressed without adding detail. Historical anchor: A quiet control bay standing in for the room where proof requirements were reversed.. Historical topic: Burden-of-proof reversal. Single surreal breach: A frame division line cuts through the decision space like a threshold everyone pretends not to see.. Caption safety: keep the top UI band clear at x=0.00-1.00, y=0.00-0.12 and keep critical subject matter out of the subtitle band at x=0.08-0.92, y=0.74-0.96. Hero subject: A reduced control bay silhouette with implied human presence but no readable faces.. Subject archetype: control_bay. Dominant mass: A dark institutional wall sealing the right third like management certainty.. Accent: One disciplined vermilion status lamp held inside the decision space.. Reflection: A darkened reflective floor that doubles the room without adding new detail.. Single subject in mind only; no source references are used. Scene intent: Make the room feel procedural and calm while the visible threshold line quietly carries the real violence.."
+    },
+    "motion": {
+      "vertical_glide": {
+        "duration_seconds": 8.791666666666666,
+        "fps": 24,
+        "generated_at": "20260404T191153Z",
+        "manifest_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_03_burden_shift/20260404T191153Z__vertical_glide.json",
+        "output_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_03_burden_shift/20260404T191153Z__vertical_glide.mp4",
+        "poster_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_03_burden_shift/20260404T191153Z__vertical_glide.poster.png",
+        "still_path": "/Users/mike/StyleLab_CascadeEffects/exports/scene_challenger_beat_03_burden_shift/20260404T191153Z__vertical_glide.still.png",
+        "target_duration_seconds": 8.799
+      }
+    }
+  },
+  "prompt_overrides": {
+    "scene_intent": "Make the room feel procedural and calm while the visible threshold line quietly carries the real violence."
+  },
+  "reflection_strategy": {
+    "description": "A darkened reflective floor that doubles the room without adding new detail.",
+    "horizon_y": 0.69,
+    "literal_water": false
+  },
+  "selected_seed": 4103,
+  "source_refs": [],
+  "style_profile": "minimal_surreal_editorial_v1",
+  "subject_anchor": {
+    "archetype": "control_bay",
+    "description": "A reduced control bay silhouette with implied human presence but no readable faces.",
+    "placement": [
+      0.3,
+      0.55
+    ],
+    "scale": 0.4
+  },
+  "surreal_breach": {
+    "description": "A frame division line cuts through the decision space like a threshold everyone pretends not to see.",
+    "kind": "threshold_division"
+  },
+  "target_duration_seconds": 8.799
+}

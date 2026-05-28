@@ -1,0 +1,39 @@
+{
+  "model": "other_seven_selected_review_audio_hash_loudness_guard_v1",
+  "episode_id": "therac-25",
+  "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac-25_rolling_caption_rail_rough_proof_20260523T182309Z/proof_assets/audio/therac-25_right_rail_alignment_music_mix.wav",
+  "source_audio_sha256": "4b5aa18583331173df872c3663006bc633ec3656f0f121602e8c54d75d2900c5",
+  "source_audio_duration_seconds": 1114.157074,
+  "observed_audio_duration_seconds": 1114.151519,
+  "fade_start_seconds": 1094.157074,
+  "full_file_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -15.2,
+    "max_volume_db": -1
+  },
+  "pre_entry_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.1,
+    "max_volume_db": -8
+  },
+  "post_entry_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.5,
+    "max_volume_db": -8
+  },
+  "late_outro_window_volumedetect": {
+    "command_status": 0,
+    "mean_volume_db": -22.7,
+    "max_volume_db": -8
+  },
+  "source_mix_changed": false,
+  "remix_performed": false,
+  "failures": [],
+  "passed": true,
+  "reads": {
+    "source_audio_hash_read": "pass_selected_review_audio_sha_preserved",
+    "clipping_read": "pass_no_clipping_detected_by_volumedetect",
+    "outro_loudness_regression_read": "pass_same_selected_review_mix_no_loudness_regression_possible",
+    "remix_read": "pass_no_remix_performed"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "packet_id": "long_form_living_cover_motion_readiness_20260504T033500Z",
+  "gate": "long_form_living_cover_motion_readiness",
+  "status": "keep_direction_blocked_pending_ink_lit_source_art_keep",
+  "human_disposition": "keep",
+  "created_from_gate": "visual_system_gate",
+  "selected_direction": "living_cover",
+  "selected_direction_disposition": "keep",
+  "may_advance_to_rough_assembly": false,
+  "rough_assembly_authorized_scope": "representative_decision_chain_right_rail_rough_only",
+  "rough_assembly_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_decision_chain_rough_assembly_20260504T040000Z",
+  "rough_assembly_blocked_until_human_motion_readiness_keep": false,
+  "rough_assembly_blocked_until_clean_source_art_keep": false,
+  "rough_assembly_blocked_until_ink_lit_source_art_keep": true,
+  "source_art_repair_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_texture_repair_20260504T043512Z",
+  "ink_lit_source_art_repair_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_ink_lit_repair_20260504T061353Z",
+  "dry_signal_source_art_repair_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_dry_signal_repair_20260504T163347Z",
+  "asset_regeneration_in_scope": true,
+  "video_render_in_scope": false,
+  "approved_audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/audio/recording_20260501_v3_20_25min/challenger_longform_v3_20_25min_recording_review.wav",
+    "sha256": "9cf03a2fecec33bdc42b2074babf741da995f1038166651f9e863bff87219000",
+    "duration_seconds": 1289.131247,
+    "duration_display": "00:21:29.131"
+  },
+  "source_visual": {
+    "carrier": "generated_raster_source_art",
+    "direction": "living_cover",
+    "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_texture_repair_20260504T043512Z/assets/source_art/living_cover_clean_variant_b.png",
+    "source_art_sha256": "bdbcba3549323e3fd702fc7404acd43a7431212a800b2fbfa76381077602fdd0",
+    "source_generation_path": "/Users/mike/.codex/generated_images/019def77-2546-7232-9dac-da1738d6d468/ig_0f649fdb28c491290169f8217da3948197ab264e7078c224a1.png",
+    "source_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_texture_repair_20260504T043512Z/assets/prompts/living_cover_clean_variant_b_prompt.txt",
+    "selected_repair_variant": "variant_b",
+    "texture_noise_read": "pass",
+    "visual_profile_read": "tighten_stale_daylight_profile",
+    "waterfall_read": "not_applicable_daylight_reference_only",
+    "source_art_disposition": "keep",
+    "source_art_role": "composition_reference_only_until_ink_lit_replacement_keep",
+    "profile_blocker": "Selected Variant B was generated from daylight/peach/mint prompt language before cascade-paper-architectures-ink-lit-v1 became active.",
+    "generation_provenance": {
+      "tool": "codex_builtin_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_path",
+      "mode": "text_to_image",
+      "source_generation_path": "/Users/mike/.codex/generated_images/019def77-2546-7232-9dac-da1738d6d468/ig_0f649fdb28c491290169f8217da3948197ab264e7078c224a1.png",
+      "source_generation_sha256": "bdbcba3549323e3fd702fc7404acd43a7431212a800b2fbfa76381077602fdd0",
+      "final_asset_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_texture_repair_20260504T043512Z/assets/source_art/living_cover_clean_variant_b.png",
+      "final_asset_sha256": "bdbcba3549323e3fd702fc7404acd43a7431212a800b2fbfa76381077602fdd0",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_texture_repair_20260504T043512Z/assets/prompts/living_cover_clean_variant_b_prompt.txt",
+      "prompt_sha256": "20cb8116e2d33db029af80a1fe633533d1baccb2265a1073724dc3e68d6a5732",
+      "init_image_path": "not_applicable",
+      "init_image_sha256": "not_applicable",
+      "reference_image_paths": [],
+      "provenance_notes": "Tool family inferred from /Users/mike/.codex/generated_images/.../ig_*.png provenance recorded in the existing packet; exact backend model was not recorded."
+    },
+    "generation_tool_provenance_read": "pass_inferred_from_existing_manifest_paths"
+  },
+  "source_ab_proof": {
+    "proof_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/proofs/challenger_longform_ab_visual_system_proof_v2_20260503T211500Z",
+    "proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/proofs/challenger_longform_ab_visual_system_proof_v2_20260503T211500Z/proof_manifest.json",
+    "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/proofs/challenger_longform_ab_visual_system_proof_v2_20260503T211500Z/review/ab_review_packet.md",
+    "selected_player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/proofs/challenger_longform_ab_visual_system_proof_v2_20260503T211500Z/living_cover/player.html"
+  },
+  "duration_exception": {
+    "shared_excerpt_start_seconds": 677.275,
+    "shared_excerpt_end_seconds": 807.975,
+    "shared_excerpt_duration_seconds": 130.7,
+    "original_target_seconds": "90-120",
+    "read": "keep_duration_exception_acknowledged_exact_phrase_boundary_preserved",
+    "acknowledged": true,
+    "reason": "The phrase-bounded approved-audio excerpt is more specific than the original 90-120s proof target."
+  },
+  "motion_approach": {
+    "base_layer": "one evolving Paper Architecture Challenger scene",
+    "ambient_motion": "slow camera drift over generated raster/source art",
+    "chapter_state": "chapter-state lighting shifts every major section",
+    "typography": "sparse deterministic local typography only",
+    "diagram_punctuation": "occasional evidence-diagram punctuation using deferred Evidence Table logic; keep it subordinate to the Living Cover base",
+    "full_runtime_loop_policy": "no unchanging full-runtime loop; motion state must vary by chapter and narration support"
+  },
+  "blocker_reads": {
+    "texture_noise_read": "pass",
+    "visual_profile_read": "tighten_stale_daylight_profile",
+    "waterfall_read": "tighten_prior_ink_lit_variants_blocked",
+    "css_procedural_carrier_read": "pass",
+    "static_thumbnail_read": "pass",
+    "full_runtime_loop_read": "pass_with_required_chapter_state_variation",
+    "fatigue_risk_read": "pass",
+    "diagram_readability_read": "pass_with_required_sparse_evidence_punctuation",
+    "public_anchor_stability_read": "pass",
+    "rough_assembly_render_read": "blocked_pending_dry_signal_source_art_keep",
+    "dry_signal_source_art_read": "blocked_pending_human_keep"
+  },
+  "inactive_or_blocked_inputs": {
+    "evidence_table": {
+      "disposition": "defer",
+      "role": "reference_only_for_later_evidence_diagram_punctuation",
+      "may_advance_to_motion_readiness": false,
+      "may_serve_as_rough_assembly_baseline": false
+    }
+  },
+  "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/motion_readiness/long_form_living_cover_motion_readiness_20260504T033500Z/review/motion_readiness_review_packet.md",
+  "generation_tool_provenance_read": "pass_inferred_from_existing_manifest_paths"
+}

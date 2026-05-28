@@ -1,0 +1,82 @@
+{
+  "packet_id": "fixture_publish_readiness_pass",
+  "lifecycle_stage": "publish_readiness",
+  "primary_review_artifact": {
+    "path": "review.html"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false
+  },
+  "required_reads": [
+    "final_assembly_human_keep_read",
+    "vo_outro_blend_plan_read",
+    "vo_outro_music_blend_read",
+    "vo_outro_perceptual_review_read",
+    "outro_transition_review_sample_read",
+    "outro_entry_level_match_read",
+    "outro_under_vo_masking_read",
+    "outro_target_after_voice_read",
+    "outro_prelap_source_read",
+    "outro_prelap_start_read",
+    "outro_no_restart_at_voice_end_read",
+    "outro_source_continuity_read",
+    "music_contract_regression_read"
+  ],
+  "media": {
+    "transition_samples": [
+      {
+        "label": "VO/outro transition review sample",
+        "path": "sample.mp3"
+      }
+    ]
+  },
+  "end_screen_palette_contract": {
+    "contract_id": "living_cover_end_screen_palette_contract_v1",
+    "status": "pass",
+    "required": true,
+    "required_for_gates": ["visual_system", "rough_assembly", "final_assembly", "publish_readiness"],
+    "palette_source": "sampled_episode_backplate",
+    "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+    "sample_model": "fixture_average_rgb_v1",
+    "approved_backplate": {
+      "path": "sample_backplate.ppm",
+      "sha256": "1ff50809b9c708917f5753fb251039d510fd47568fca3971eb5507c6621788ee",
+      "role": "approved_living_cover_source_art_backplate"
+    },
+    "colors": {
+      "video_target_fill_rgba": "rgba(28, 24, 25, 0.42)",
+      "video_target_border_rgba": "rgba(188, 151, 111, 0.76)",
+      "video_target_secondary_border_rgba": "rgba(172, 146, 119, 0.70)",
+      "subscribe_ring_rgba": "rgba(223, 187, 135, 0.88)",
+      "muted_rail_text_hex": "#d8c19b",
+      "small_accent_hex": "#f6d37d"
+    },
+    "reads": {
+      "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+      "end_screen_target_fill_palette_read": "pass_target_fill_harmonized_with_backplate_sample",
+      "end_screen_target_contrast_read": "pass_muted_text_and_accent_contrast_preserved",
+      "rail_panel_palette_read": "pass_source_aware_end_screen_palette_contract",
+      "source_integrated_panel_color_read": "pass_no_fixed_cross_episode_panel_color",
+      "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors"
+    }
+  },
+  "reads": {
+    "final_assembly_human_keep_read": "pass",
+    "vo_outro_blend_plan_read": "pass",
+    "vo_outro_music_blend_read": "pass",
+    "vo_outro_perceptual_review_read": "pass",
+    "outro_transition_review_sample_read": "pass",
+    "outro_entry_level_match_read": "pass",
+    "outro_under_vo_masking_read": "pass",
+    "outro_target_after_voice_read": "pass",
+    "outro_prelap_source_read": "pass",
+    "outro_prelap_start_read": "pass",
+    "outro_no_restart_at_voice_end_read": "pass",
+    "outro_source_continuity_read": "pass",
+    "music_contract_regression_read": "pass"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "challenger_precision_matte_guard": {
+    "ok": true,
+    "reads": {
+      "challenger_precision_matte_guard_read": "not_applicable_non_challenger_episode"
+    },
+    "required": false
+  },
+  "created_at": "2026-05-27T07:16:38Z",
+  "episode_id": "piltdown-man",
+  "human_publish_readiness_keep_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "human_upload_approval_read": "pass_user_requested_generate_mp4s_and_publish_all_unlisted_2026_05_23",
+  "known_post_upload_blockers": [
+    "Review YouTube Studio copyright and Content ID checks before public release.",
+    "Confirm altered-content disclosure in YouTube Studio for realistic generated or source-derived episode visuals.",
+    "Verify uploaded captions or automatic captions in YouTube Studio so they do not conflict with burned-in rail captions.",
+    "Configure final YouTube Studio end-screen elements for the baked three-target end-screen geometry.",
+    "Public release remains manual and must not be performed by this upload step."
+  ],
+  "mp4_visual_guard": {
+    "created_at": "2026-05-27T07:16:38Z",
+    "episode_id": "piltdown-man",
+    "model": "youtube_upload_mp4_black_screen_guard_v1",
+    "ok": true,
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/preflight/piltdown-man_mp4_visual_guard_20260527T071638Z.json",
+    "reads": {
+      "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+      "youtube_upload_black_screen_block_read": "pass_black_screen_upload_preflight"
+    },
+    "samples": [
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "start",
+        "passed": true,
+        "seconds": 1.0,
+        "stats": {
+          "max_luma": 231.554,
+          "mean_luma": 34.701,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.829167,
+          "pixel_count": 14400,
+          "std_luma": 32.329
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "quarter",
+        "passed": true,
+        "seconds": 218.468,
+        "stats": {
+          "max_luma": 229.201,
+          "mean_luma": 36.426,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.831111,
+          "pixel_count": 14400,
+          "std_luma": 33.357
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "half",
+        "passed": true,
+        "seconds": 436.935,
+        "stats": {
+          "max_luma": 230.554,
+          "mean_luma": 36.789,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.834792,
+          "pixel_count": 14400,
+          "std_luma": 33.401
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "three_quarter",
+        "passed": true,
+        "seconds": 655.403,
+        "stats": {
+          "max_luma": 229.911,
+          "mean_luma": 35.851,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.829514,
+          "pixel_count": 14400,
+          "std_luma": 33.023
+        }
+      },
+      {
+        "classification": {
+          "passed": true,
+          "reason": "pass_luma_variance_nonblack_floor"
+        },
+        "name": "final_second",
+        "passed": true,
+        "seconds": 872.871,
+        "stats": {
+          "max_luma": 230.554,
+          "mean_luma": 35.683,
+          "min_luma": 0.0,
+          "nonblack_fraction": 0.865486,
+          "pixel_count": 14400,
+          "std_luma": 29.817
+        }
+      }
+    ],
+    "sha256": "d849b248e68ee568579a085454d6368f549133ab3451cd30630bcef52763cb49",
+    "thresholds": {
+      "dark_scene_min_mean_luma": 16.0,
+      "dark_scene_min_nonblack_fraction": 0.3,
+      "dark_scene_min_std_luma": 16.0,
+      "min_mean_luma": 20.0,
+      "min_nonblack_fraction": 0.08,
+      "min_std_luma": 8.0
+    },
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/media/piltdown-man_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "bb97fb5040962c096edd5ae80163e849acf7737f55f8f2959c1e8de3cab265a2"
+  },
+  "notify_subscribers": false,
+  "privacy": "unlisted",
+  "public_release": "manual_youtube_studio_only",
+  "source_publish_readiness_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/publish_readiness_manifest.json",
+  "source_publish_readiness_manifest_sha256": "ccec8f3e5188fd08070b429f3ea412755b2f63a0cacb2681bae6763a480a76e5",
+  "target": "youtube_longform_unlisted_review",
+  "upload_assets": {
+    "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/captions/piltdown_longform.script_locked_rail_safe.offset_intro_3s601.srt",
+    "caption_srt_sha256": "076877dd049b8ec4642bfa6b58fb481e9013fa42562c107c9e09068a4890e8db",
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/captions/piltdown_longform.script_locked_rail_safe.offset_intro_3s601.vtt",
+    "caption_vtt_sha256": "d9df8efc2a02fbdf224b6053ace0f1a28f3fbcd8726724398945aed8ed53db03",
+    "probe": {
+      "format": {
+        "bit_rate": "1293541",
+        "duration": "873.870998",
+        "size": "141298598"
+      },
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "avg_frame_rate": "24/1",
+          "codec_name": "h264",
+          "codec_type": "video",
+          "duration": "873.791667",
+          "height": 1080,
+          "index": 0,
+          "side_data_list": [
+            {}
+          ],
+          "width": 1920
+        },
+        {
+          "avg_frame_rate": "0/0",
+          "channels": 2,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "duration": "873.870998",
+          "index": 1,
+          "sample_rate": "44100"
+        }
+      ]
+    },
+    "thumbnail_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/thumbnail/piltdown-man_thumbnail_candidate.jpg",
+    "thumbnail_sha256": "3f33a0bce30bedca2d2851f04b13eaeb23f503f4ed4d1ae489db82dc66e33fbb",
+    "thumbnail_source_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/thumbnail/piltdown-man_thumbnail_candidate.jpg",
+    "thumbnail_source_sha256": "3f33a0bce30bedca2d2851f04b13eaeb23f503f4ed4d1ae489db82dc66e33fbb",
+    "video_path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/publish_readiness/piltdown-man_publish_readiness_20260526T203119Z/media/piltdown-man_living_cover_final_review_1080p24.mp4",
+    "video_sha256": "bb97fb5040962c096edd5ae80163e849acf7737f55f8f2959c1e8de3cab265a2"
+  },
+  "youtube_metadata": {
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description": "Piltdown Man is a Cascade Effects episode about how small signals become system consequences.\n\nA scientific certainty held together by prestige and expectation collapsed when the evidence was finally tested.\n\nRuntime: about 15 minutes.\n\nCascade Effects traces failures through mechanism, incentives, and institutional blind spots.\n\nChapters:\n0:00 The fossil Britain wanted\n1:55 The story fit too precisely\n3:23 Objections did not prevail\n4:35 Prestige protects the flattering lie\n6:37 Weak evidence gets buried\n8:51 The tests break the story\n9:47 The system was disposed to accept it\n12:34 The record shows the mechanism\n\n#CascadeEffects",
+    "self_declared_made_for_kids": false,
+    "tags": [
+      "Cascade Effects",
+      "Piltdown Man",
+      "documentary",
+      "forgery",
+      "paleoanthropology",
+      "scientific fraud",
+      "systems failure"
+    ],
+    "title": "Piltdown Man"
+  }
+}

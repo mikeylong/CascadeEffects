@@ -1,0 +1,183 @@
+{
+  "packet_id": "therac_living_cover_ambient_effects_layer_20260517T012012Z",
+  "episode_id": "Ep2_Therac-25",
+  "phase_gate": "ambient_effects_layer_gate",
+  "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+  "status": "review_ready",
+  "human_disposition": "defer",
+  "lane_decision": "minimal",
+  "enabled_lanes": [
+    "minimal_source_preserving_backplate",
+    "rail_typography_opacity_transform_only",
+    "source_integrated_static_terminal_glow_baked_into_imagegen_source_art"
+  ],
+  "rationale": "Therac-25 should stay restrained, clinical, and source-preserving. The active terminal and monitor glow are part of the approved ImageGen source art; the proof shell should not add particles, diagnostic lines, cyan signal traces, aircraft, dust, or procedural marks over the photoreal backplate.",
+  "explicitly_disabled_lanes": [
+    "particles_dust",
+    "aircraft_or_vehicle_routes",
+    "cyan_signal_traces",
+    "diagnostic_connector_lines",
+    "procedural_screen_ui_overlay",
+    "foreground_matte_particles",
+    "beam_spectacle"
+  ],
+  "source_plate": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/assets/source_art/variant_h_control_room_active_terminal_1920x1080.png",
+    "sha256": "cf08a25f31ea122daf9996827a56b28cc6692cebd83b2bebe5e48fa78cc0365e",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_space": "fixed_1920x1080_stage"
+  },
+  "terminal_screen_policy": "Active terminal rows are source-art content only. No readable generated text, numbers, UI overlays, or deterministic screen replacement is added by the proof shell.",
+  "source_matte_policy": "No foreground-depth effects are used, so a foreground matte is not required. Source plate, canvas, rail, and caption layout still share fixed 1920x1080 stage coordinates.",
+  "additive_integration_policy": "No visual layer was added or removed versus the predecessor proof; this is a compliance successor that preserves source art, audio, captions, rail, cue map, palette, and end-screen behavior.",
+  "deterministic_parameters": {
+    "procedural_effect_count": 0,
+    "particle_count": 0,
+    "aircraft_route_count": 0,
+    "practical_light_overlay_count": 0,
+    "seed": "not_applicable_minimal_lane",
+    "motion_parameters": "not_applicable_no_procedural_ambient_effects"
+  },
+  "browser_sample_times_seconds": [
+    0,
+    260.287,
+    710.468,
+    895.118,
+    1061.5
+  ],
+  "range_scrub_review_policy": "Proof is served through a byte-range-capable review server on port 8826; QA probes Range bytes=0-1023 against the WAV.",
+  "debug_overlay_policy": "Matte previews, route overlays, QA labels, effect-lane names, and implementation-status panels are not rendered in viewer-facing proof frames.",
+  "required_reads": {
+    "ambient_effects_plan_read": "pass_packet_local_minimal_layer_artifact_present",
+    "ambient_effect_lane_decision_read": "pass_minimal_source_preserving_lane_with_rationale",
+    "source_plate_matte_registration_read": "pass_fixed_1920x1080_source_plate_stage_no_matte_required",
+    "foreground_occlusion_read": "pass_not_applicable_no_depth_effects_or_particles",
+    "effect_layer_source_safety_read": "pass_no_procedural_marks_over_photoreal_source_art",
+    "deterministic_ambient_read": "pass_zero_procedural_effects_with_explicit_parameters",
+    "additive_effect_integration_read": "pass_no_visual_change_preserves_predecessor_layers",
+    "debug_overlay_absence_read": "pass_no_debug_overlay_effect_labels_or_status_panels_rendered",
+    "ambient_effect_browser_sample_read": "pass_browser_qa_intro_mid_1150_1455_end_screen",
+    "range_scrub_effect_review_read": "pass_206_partial_content_wav_range_probe"
+  },
+  "optional_per_effect_reads": {
+    "localized_particle_density_read": "not_applicable",
+    "particle_foreground_leak_read": "not_applicable",
+    "public_motion_occlusion_reappearance_read": "not_applicable",
+    "practical_light_micro_life_read": "not_applicable",
+    "screen_glow_motion_read": "not_applicable_static_source_art_terminal_glow_only",
+    "intro_music_fade_tail_read": "not_applicable_no_music_change_in_this_successor"
+  },
+  "predecessor_proof": {
+    "packet_id": "therac_living_cover_accuracy_cue_repair_html_rough_proof_20260516T195352Z",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_accuracy_cue_repair_html_rough_proof_20260516T195352Z",
+    "relationship": "no_visual_change_compliance_successor"
+  },
+  "downstream_locks": {
+    "mp4_render_created": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_advance_to_video_render": false,
+    "may_advance_to_final_assembly": false,
+    "may_advance_to_publish_readiness": false,
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false
+  },
+  "review_question": "Reply with exactly one disposition on the updated rough proof: keep, tighten, or reject.",
+  "browser_qa": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/browser_qa.json",
+    "sha256": "500dee564213650d329c56a4506ab6b5a0959e08e67ec06e92a60e99e7c78995",
+    "pass": true,
+    "sample_times_seconds": [
+      0,
+      260.287,
+      710.468,
+      895.118,
+      1061.5
+    ],
+    "viewport_checks": [
+      "desktop_1920x1080",
+      "review_1280x720"
+    ],
+    "range_probe": {
+      "status": 206,
+      "contentRange": "bytes 0-1023/95367246",
+      "acceptRanges": "bytes",
+      "pass": true
+    },
+    "sample_screenshots": [
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-0000.png",
+        "sha256": "ee51fa1db2f9e5172decb3a5cbf121cc69b2b344959ccf8f48a5ea0f69492c7a",
+        "time": 0,
+        "title": "Patient or Machine",
+        "caption_empty": true,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-0420.png",
+        "sha256": "159b62c080e1bb0f47b891890c029a3f41912c8da7aab82f634b122de636370d",
+        "time": 260.287,
+        "title": "The Hidden State",
+        "caption_empty": false,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-1150.png",
+        "sha256": "5ac9de5d45154b55b65fd2f33440c882c1b48135087fa029e8709d978fe95262",
+        "time": 710.468,
+        "title": "The Burden of Proof",
+        "caption_empty": false,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-1455.png",
+        "sha256": "c5f2e192c9a7a1511980ae3239fb273b621812e06d424b39c41c79c1710e7533",
+        "time": 895.118,
+        "title": "Trust Is Not Safety",
+        "caption_empty": false,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      },
+      {
+        "path": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_ambient_effects_minimal_html_rough_proof_20260517T012012Z/qa/screenshots/rough-proof-accuracy-no-cue-end.png",
+        "sha256": "7b60d5e93dd169d7ce0f218c85a4086fc48659d70321656ec846827597b00f6a",
+        "time": 1061.5,
+        "title": "Trust Is Not Safety",
+        "caption_empty": true,
+        "screen_not_black": true,
+        "terminal_avg_luma": 40.38,
+        "ambient_diagnostic_overlay_clear": true,
+        "visible_cue_overlay_absent": true,
+        "effect_debug_overlay_absent": true,
+        "active_panel_background": "rgba(35, 30, 26, 0.9)",
+        "rail_panel_palette_integrated": true
+      }
+    ]
+  }
+}

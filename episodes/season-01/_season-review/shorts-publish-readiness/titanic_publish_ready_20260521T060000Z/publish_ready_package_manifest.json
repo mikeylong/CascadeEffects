@@ -1,0 +1,112 @@
+{
+  "bridge_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/bridge_final_export__proof.json",
+  "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/titanic_captions.srt",
+  "caption_srt_sha256": "52aa4dd1b22758193bc83b34320373e07899a4cfd0ea2764797abd269367e5e5",
+  "captioned_mp4_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/titanic_theme_intro_captioned_youtube_short.mp4",
+  "captioned_mp4_sha256": "4aaff2a947b0878bd20dafdecbaf2715978a839c5102356b126cc1a1b6671f48",
+  "created_at": "2026-05-21T06:18:26.013450Z",
+  "episode_label": "Titanic",
+  "final_export_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/final_export_manifest.json",
+  "final_export_manifest_sha256": "9061a270f8b9cd2a8d0cd60ff23d191147d81970dbf3ff7c95df35dcab8d0496",
+  "no_youtube_action": true,
+  "package_type": "all_eight_theme_intro_publish_ready_final",
+  "public_release_boundary": "manual_youtube_studio_only",
+  "publish_package_validation_ok": true,
+  "publish_package_validation_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/publish_package_validation.json",
+  "qa": {
+    "audio_peak_dbfs": -4.3,
+    "audio_peak_read": "pass",
+    "caption_source_path": "/Users/mike/Audio_CascadeEffects/tmp/ep8_titanic_short_scoped_v1/transcripts_mastered/titanic_short_scoped_v1.diarized.txt",
+    "caption_text_read": {
+      "caption_word_count": 111,
+      "normalized_exact_match": true,
+      "read": "pass",
+      "transcript_word_count": 111
+    },
+    "comparison_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/titanic_theme_intro_hook_20260520T184323Z/side_by_side_current_vs_titanic_theme_hook_first_10s.mp4",
+      "read": "pass",
+      "returncode": 0,
+      "stderr": ""
+    },
+    "final8_freezedetect": {
+      "event_count": 0,
+      "events": [],
+      "read": "pass",
+      "window_start_seconds": 58.867
+    },
+    "final_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/titanic_theme_intro_captioned_youtube_short.mp4",
+      "read": "pass",
+      "returncode": 0,
+      "stderr": ""
+    },
+    "fresh_transcription_srt_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/transcripts_20260521/titanic_short_scoped_v1.diarized.srt",
+    "fresh_transcription_verification_read": {
+      "caption_word_count": 111,
+      "normalized_exact_match": false,
+      "read": "pass_review_required",
+      "transcript_word_count": 111
+    },
+    "proof_decode": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/titanic_theme_intro_hook_20260520T184323Z/titanic_theme_intro_hook_review_proof.mp4",
+      "read": "pass",
+      "returncode": 0,
+      "stderr": ""
+    },
+    "publish_package_check": {
+      "issues": [],
+      "manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/youtube_upload_manifest.json",
+      "ok": true,
+      "probe": {
+        "audio_channels": 2,
+        "audio_codec": "aac",
+        "audio_sample_rate_hz": 48000,
+        "duration_seconds": 66.866667,
+        "frame_rate": "30/1",
+        "height": 1920,
+        "video_codec": "h264",
+        "width": 1080
+      },
+      "resolved_paths": {
+        "caption_overlay_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/caption_overlay_manifest.json",
+        "caption_srt_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/titanic_captions.srt",
+        "caption_timing_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/caption_timing.json",
+        "description_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/youtube_description.txt",
+        "final_export_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/final_export_manifest.json",
+        "final_review_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/final_qa_review_note.md",
+        "metadata_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/youtube_metadata.md",
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/titanic_theme_intro_captioned_youtube_short.mp4",
+        "proof_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/titanic_theme_intro_hook_20260520T184323Z/titanic_theme_intro_hook_review_proof.mp4",
+        "source_duplicate_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/titanic_theme_intro_captioned_youtube_short.mp4",
+        "source_theme_hook_proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/titanic_theme_intro_hook_20260520T184323Z/titanic_theme_intro_hook_manifest.json",
+        "suggested_cover_frame_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/suggested_shorts_cover_frame.png",
+        "tags_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/youtube_tags.txt",
+        "title_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/youtube_title.txt",
+        "upload_checklist_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/upload_checklist.md",
+        "video_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/titanic_theme_intro_captioned_youtube_short.mp4"
+      },
+      "target": "youtube_shorts",
+      "warnings": [
+        "Manual YouTube copyright/Content ID and source-footage review required before public release."
+      ]
+    },
+    "technical_read": {
+      "audio_channels": 2,
+      "audio_codec": "aac",
+      "audio_sample_rate_hz": 48000,
+      "bit_rate": 6107225,
+      "duration_seconds": 66.866667,
+      "frame_rate": "30/1",
+      "height": 1920,
+      "size_bytes": 51046223,
+      "video_codec": "h264",
+      "width": 1080
+    },
+    "voice_delay_seconds": 3.0
+  },
+  "source_theme_hook_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/titanic_theme_intro_hook_20260520T184323Z/titanic_theme_intro_hook_manifest.json",
+  "source_theme_hook_package": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/titanic_theme_intro_hook_20260520T184323Z",
+  "youtube_upload_manifest_path": "/Users/mike/Episodes_CascadeEffects/Shorts_Publish_Readiness/titanic_publish_ready_20260521T060000Z/youtube_upload_manifest.json",
+  "youtube_upload_manifest_sha256": "d719d204ff2126b7320043b15dc0b1411ba7bd9d23ae2eab8ed3dcdc607d3a25"
+}

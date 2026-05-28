@@ -1,0 +1,2405 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cascade Effects Signal Style System",
+  "type": "object",
+  "required": [
+    "$schema",
+    "$description",
+    "$extensions",
+    "color",
+    "fontFamily",
+    "fontWeight",
+    "size",
+    "number",
+    "layout",
+    "typography",
+    "duration",
+    "cubicBezier",
+    "transition",
+    "strokeStyle",
+    "border",
+    "shadow",
+    "semantic",
+    "component"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "const": "./cascade-effects-signal.style-system.schema.json"
+    },
+    "$description": {
+      "type": "string"
+    },
+    "$extensions": {
+      "$ref": "#/$defs/extensions"
+    },
+    "color": {
+      "$ref": "#/$defs/colorGroup"
+    },
+    "fontFamily": {
+      "$ref": "#/$defs/fontFamilyGroup"
+    },
+    "fontWeight": {
+      "$ref": "#/$defs/fontWeightGroup"
+    },
+    "size": {
+      "$ref": "#/$defs/sizeGroup"
+    },
+    "number": {
+      "$ref": "#/$defs/numberGroup"
+    },
+    "layout": {
+      "$ref": "#/$defs/layoutGroup"
+    },
+    "typography": {
+      "$ref": "#/$defs/typographyGroup"
+    },
+    "duration": {
+      "$ref": "#/$defs/durationGroup"
+    },
+    "cubicBezier": {
+      "$ref": "#/$defs/cubicBezierGroup"
+    },
+    "transition": {
+      "$ref": "#/$defs/transitionGroup"
+    },
+    "strokeStyle": {
+      "$ref": "#/$defs/strokeStyleGroup"
+    },
+    "border": {
+      "$ref": "#/$defs/borderGroup"
+    },
+    "shadow": {
+      "$ref": "#/$defs/shadowGroup"
+    },
+    "semantic": {
+      "$ref": "#/$defs/semanticGroup"
+    },
+    "component": {
+      "$ref": "#/$defs/componentGroup"
+    }
+  },
+  "$defs": {
+    "extensions": {
+      "type": "object"
+    },
+    "referenceString": {
+      "type": "string",
+      "pattern": "^\\{[A-Za-z0-9._-]+\\}$"
+    },
+    "colorValue": {
+      "type": "object",
+      "required": [
+        "colorSpace",
+        "components",
+        "alpha",
+        "hex"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "colorSpace": {
+          "const": "srgb"
+        },
+        "components": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "alpha": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "hex": {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        }
+      }
+    },
+    "dimensionValue": {
+      "type": "object",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "const": "px"
+        }
+      }
+    },
+    "durationValue": {
+      "type": "object",
+      "required": [
+        "value",
+        "unit"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "number",
+          "minimum": 0
+        },
+        "unit": {
+          "enum": [
+            "ms",
+            "s"
+          ]
+        }
+      }
+    },
+    "typographyValue": {
+      "type": "object",
+      "required": [
+        "fontFamily",
+        "fontSize",
+        "fontWeight",
+        "letterSpacing",
+        "lineHeight"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "fontFamily": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "fontSize": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "fontWeight": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "letterSpacing": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "lineHeight": {
+          "$ref": "#/$defs/referenceString"
+        }
+      }
+    },
+    "transitionValue": {
+      "type": "object",
+      "required": [
+        "duration",
+        "delay",
+        "timingFunction"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "duration": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "delay": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "timingFunction": {
+          "$ref": "#/$defs/referenceString"
+        }
+      }
+    },
+    "strokeStyleValue": {
+      "oneOf": [
+        {
+          "const": "solid"
+        },
+        {
+          "type": "object",
+          "required": [
+            "dashArray",
+            "lineCap"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "dashArray": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "$ref": "#/$defs/referenceString"
+              }
+            },
+            "lineCap": {
+              "enum": [
+                "butt",
+                "round",
+                "square"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "borderValue": {
+      "type": "object",
+      "required": [
+        "color",
+        "width",
+        "style"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "width": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "style": {
+          "$ref": "#/$defs/referenceString"
+        }
+      }
+    },
+    "shadowValue": {
+      "type": "object",
+      "required": [
+        "color",
+        "offsetX",
+        "offsetY",
+        "blur",
+        "spread"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "color": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "offsetX": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "offsetY": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "blur": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "spread": {
+          "$ref": "#/$defs/referenceString"
+        }
+      }
+    },
+    "colorLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "color"
+        },
+        "$value": {
+          "$ref": "#/$defs/colorValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "colorAliasToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "color"
+        },
+        "$value": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "colorToken": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        {
+          "$ref": "#/$defs/colorAliasToken"
+        }
+      ]
+    },
+    "fontFamilyLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "fontFamily"
+        },
+        "$value": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "fontWeightLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "fontWeight"
+        },
+        "$value": {
+          "type": "number",
+          "minimum": 1
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "dimensionLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "dimension"
+        },
+        "$value": {
+          "$ref": "#/$defs/dimensionValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "dimensionAliasToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "dimension"
+        },
+        "$value": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "dimensionToken": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        {
+          "$ref": "#/$defs/dimensionAliasToken"
+        }
+      ]
+    },
+    "numberLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "number"
+        },
+        "$value": {
+          "type": "number"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "numberAliasToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "number"
+        },
+        "$value": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "numberToken": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        {
+          "$ref": "#/$defs/numberAliasToken"
+        }
+      ]
+    },
+    "typographyLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "typography"
+        },
+        "$value": {
+          "$ref": "#/$defs/typographyValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "typographyAliasToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "typography"
+        },
+        "$value": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "typographyToken": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        {
+          "$ref": "#/$defs/typographyAliasToken"
+        }
+      ]
+    },
+    "durationLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "duration"
+        },
+        "$value": {
+          "$ref": "#/$defs/durationValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "cubicBezierLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "cubicBezier"
+        },
+        "$value": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "type": "number"
+          }
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "transitionLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "transition"
+        },
+        "$value": {
+          "$ref": "#/$defs/transitionValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "strokeStyleLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "strokeStyle"
+        },
+        "$value": {
+          "$ref": "#/$defs/strokeStyleValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "strokeStyleAliasToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "strokeStyle"
+        },
+        "$value": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "strokeStyleToken": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/strokeStyleLiteralToken"
+        },
+        {
+          "$ref": "#/$defs/strokeStyleAliasToken"
+        }
+      ]
+    },
+    "borderLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "border"
+        },
+        "$value": {
+          "$ref": "#/$defs/borderValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "borderAliasToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "border"
+        },
+        "$value": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "borderToken": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/borderLiteralToken"
+        },
+        {
+          "$ref": "#/$defs/borderAliasToken"
+        }
+      ]
+    },
+    "shadowLiteralToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "shadow"
+        },
+        "$value": {
+          "$ref": "#/$defs/shadowValue"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "shadowAliasToken": {
+      "type": "object",
+      "required": [
+        "$type",
+        "$value"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$type": {
+          "const": "shadow"
+        },
+        "$value": {
+          "$ref": "#/$defs/referenceString"
+        },
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        }
+      }
+    },
+    "shadowToken": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/shadowLiteralToken"
+        },
+        {
+          "$ref": "#/$defs/shadowAliasToken"
+        }
+      ]
+    },
+    "colorBaseGroup": {
+      "type": "object",
+      "required": [
+        "ink",
+        "inkPanel",
+        "overlaySlate",
+        "panelFrame",
+        "white",
+        "secondaryText"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "ink": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "inkPanel": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "overlaySlate": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "panelFrame": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "white": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "secondaryText": {
+          "$ref": "#/$defs/colorLiteralToken"
+        }
+      }
+    },
+    "colorAccentGroup": {
+      "type": "object",
+      "required": [
+        "signal",
+        "alert"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "signal": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "alert": {
+          "$ref": "#/$defs/colorLiteralToken"
+        }
+      }
+    },
+    "colorAlphaGroup": {
+      "type": "object",
+      "required": [
+        "white12",
+        "white24",
+        "white40",
+        "white72",
+        "ink08",
+        "ink12",
+        "ink24",
+        "ink72",
+        "signal16",
+        "signal32",
+        "alert16",
+        "alert32"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "white12": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "white24": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "white40": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "white72": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "ink08": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "ink12": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "ink24": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "ink72": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "signal16": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "signal32": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "alert16": {
+          "$ref": "#/$defs/colorLiteralToken"
+        },
+        "alert32": {
+          "$ref": "#/$defs/colorLiteralToken"
+        }
+      }
+    },
+    "colorGroup": {
+      "type": "object",
+      "required": [
+        "base",
+        "accent",
+        "alpha"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "base": {
+          "$ref": "#/$defs/colorBaseGroup"
+        },
+        "accent": {
+          "$ref": "#/$defs/colorAccentGroup"
+        },
+        "alpha": {
+          "$ref": "#/$defs/colorAlphaGroup"
+        }
+      }
+    },
+    "fontFamilyGroup": {
+      "type": "object",
+      "required": [
+        "display",
+        "body",
+        "ui"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "display": {
+          "$ref": "#/$defs/fontFamilyLiteralToken"
+        },
+        "body": {
+          "$ref": "#/$defs/fontFamilyLiteralToken"
+        },
+        "ui": {
+          "$ref": "#/$defs/fontFamilyLiteralToken"
+        }
+      }
+    },
+    "fontWeightGroup": {
+      "type": "object",
+      "required": [
+        "display",
+        "regular",
+        "medium",
+        "semibold",
+        "bold"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "display": {
+          "$ref": "#/$defs/fontWeightLiteralToken"
+        },
+        "regular": {
+          "$ref": "#/$defs/fontWeightLiteralToken"
+        },
+        "medium": {
+          "$ref": "#/$defs/fontWeightLiteralToken"
+        },
+        "semibold": {
+          "$ref": "#/$defs/fontWeightLiteralToken"
+        },
+        "bold": {
+          "$ref": "#/$defs/fontWeightLiteralToken"
+        }
+      }
+    },
+    "sizeSpaceGroup": {
+      "type": "object",
+      "required": [
+        "xxs",
+        "xs",
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "xxl",
+        "xxxl"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "xxs": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "xs": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "sm": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "md": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "lg": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "xl": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "xxl": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "xxxl": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "sizeFontGroup": {
+      "type": "object",
+      "required": [
+        "caption",
+        "label",
+        "body",
+        "bodyLg",
+        "cardTitle",
+        "section",
+        "display",
+        "thumbnail",
+        "hero",
+        "monogram"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "caption": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "label": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "body": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "bodyLg": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "cardTitle": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "section": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "display": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "thumbnail": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "hero": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "monogram": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "sizeTrackingGroup": {
+      "type": "object",
+      "required": [
+        "tight",
+        "normal",
+        "ui",
+        "caps",
+        "wide"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "tight": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "normal": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "ui": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "caps": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "wide": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "sizeRadiusGroup": {
+      "type": "object",
+      "required": [
+        "sm",
+        "md",
+        "lg",
+        "xl",
+        "pill"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "sm": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "md": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "lg": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "xl": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "pill": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "sizeStrokeGroup": {
+      "type": "object",
+      "required": [
+        "hairline",
+        "thin",
+        "regular",
+        "emphasis"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "hairline": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "thin": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "regular": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "emphasis": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "sizeShadowGroup": {
+      "type": "object",
+      "required": [
+        "none",
+        "panelOffsetY",
+        "panelBlur",
+        "slabOffsetY",
+        "slabBlur"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "none": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "panelOffsetY": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "panelBlur": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "slabOffsetY": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "slabBlur": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "sizeMarkerGroup": {
+      "type": "object",
+      "required": [
+        "node",
+        "nodeSm"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "node": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "nodeSm": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "sizeGroup": {
+      "type": "object",
+      "required": [
+        "space",
+        "font",
+        "tracking",
+        "radius",
+        "stroke",
+        "shadow",
+        "marker"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "space": {
+          "$ref": "#/$defs/sizeSpaceGroup"
+        },
+        "font": {
+          "$ref": "#/$defs/sizeFontGroup"
+        },
+        "tracking": {
+          "$ref": "#/$defs/sizeTrackingGroup"
+        },
+        "radius": {
+          "$ref": "#/$defs/sizeRadiusGroup"
+        },
+        "stroke": {
+          "$ref": "#/$defs/sizeStrokeGroup"
+        },
+        "shadow": {
+          "$ref": "#/$defs/sizeShadowGroup"
+        },
+        "marker": {
+          "$ref": "#/$defs/sizeMarkerGroup"
+        }
+      }
+    },
+    "lineHeightGroup": {
+      "type": "object",
+      "required": [
+        "tight",
+        "snug",
+        "compact",
+        "reading"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "tight": {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        "snug": {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        "compact": {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        "reading": {
+          "$ref": "#/$defs/numberLiteralToken"
+        }
+      }
+    },
+    "ratioGroup": {
+      "type": "object",
+      "required": [
+        "thumbnailTitleSlab",
+        "thumbnailArtifactPanel"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "thumbnailTitleSlab": {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        "thumbnailArtifactPanel": {
+          "$ref": "#/$defs/numberLiteralToken"
+        }
+      }
+    },
+    "rulesGroup": {
+      "type": "object",
+      "required": [
+        "headlineWordsMin",
+        "headlineWordsMax",
+        "accentWordsMax"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "headlineWordsMin": {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        "headlineWordsMax": {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        "accentWordsMax": {
+          "$ref": "#/$defs/numberLiteralToken"
+        }
+      }
+    },
+    "opacityGroup": {
+      "type": "object",
+      "required": [
+        "filmGrain",
+        "artifactOverlay"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "filmGrain": {
+          "$ref": "#/$defs/numberLiteralToken"
+        },
+        "artifactOverlay": {
+          "$ref": "#/$defs/numberLiteralToken"
+        }
+      }
+    },
+    "numberGroup": {
+      "type": "object",
+      "required": [
+        "lineHeight",
+        "ratio",
+        "rules",
+        "opacity"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "lineHeight": {
+          "$ref": "#/$defs/lineHeightGroup"
+        },
+        "ratio": {
+          "$ref": "#/$defs/ratioGroup"
+        },
+        "rules": {
+          "$ref": "#/$defs/rulesGroup"
+        },
+        "opacity": {
+          "$ref": "#/$defs/opacityGroup"
+        }
+      }
+    },
+    "layoutGroup": {
+      "type": "object",
+      "required": [
+        "cardPadding",
+        "panelGap",
+        "sectionGap",
+        "thumbnailSafeInsetX",
+        "thumbnailSafeInsetY",
+        "thumbnailOuterFramePadding",
+        "thumbnailPanelGap",
+        "titleSlabPaddingX",
+        "titleSlabPaddingY",
+        "calloutGap",
+        "lowerThirdPaddingX",
+        "lowerThirdPaddingY"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "cardPadding": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "panelGap": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "sectionGap": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "thumbnailSafeInsetX": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "thumbnailSafeInsetY": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "thumbnailOuterFramePadding": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "thumbnailPanelGap": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "titleSlabPaddingX": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "titleSlabPaddingY": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "calloutGap": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "lowerThirdPaddingX": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        },
+        "lowerThirdPaddingY": {
+          "$ref": "#/$defs/dimensionLiteralToken"
+        }
+      }
+    },
+    "typographyGroup": {
+      "type": "object",
+      "required": [
+        "wordmark",
+        "hero",
+        "thumbnail",
+        "monogram",
+        "sectionTitle",
+        "cardTitle",
+        "body",
+        "bodySmall",
+        "uiLabel",
+        "seriesTag",
+        "callout",
+        "lowerThirdTitle",
+        "lowerThirdMeta"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "wordmark": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "hero": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "thumbnail": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "monogram": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "sectionTitle": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "cardTitle": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "body": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "bodySmall": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "uiLabel": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "seriesTag": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "callout": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "lowerThirdTitle": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        },
+        "lowerThirdMeta": {
+          "$ref": "#/$defs/typographyLiteralToken"
+        }
+      }
+    },
+    "durationGroup": {
+      "type": "object",
+      "required": [
+        "instant",
+        "fast",
+        "base",
+        "build",
+        "slow",
+        "slowPan"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "instant": {
+          "$ref": "#/$defs/durationLiteralToken"
+        },
+        "fast": {
+          "$ref": "#/$defs/durationLiteralToken"
+        },
+        "base": {
+          "$ref": "#/$defs/durationLiteralToken"
+        },
+        "build": {
+          "$ref": "#/$defs/durationLiteralToken"
+        },
+        "slow": {
+          "$ref": "#/$defs/durationLiteralToken"
+        },
+        "slowPan": {
+          "$ref": "#/$defs/durationLiteralToken"
+        }
+      }
+    },
+    "cubicBezierGroup": {
+      "type": "object",
+      "required": [
+        "standard",
+        "decelerate",
+        "reveal",
+        "linear"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "standard": {
+          "$ref": "#/$defs/cubicBezierLiteralToken"
+        },
+        "decelerate": {
+          "$ref": "#/$defs/cubicBezierLiteralToken"
+        },
+        "reveal": {
+          "$ref": "#/$defs/cubicBezierLiteralToken"
+        },
+        "linear": {
+          "$ref": "#/$defs/cubicBezierLiteralToken"
+        }
+      }
+    },
+    "transitionGroup": {
+      "type": "object",
+      "required": [
+        "subtleShift",
+        "calloutReveal",
+        "diagramBuild",
+        "slowPan"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "subtleShift": {
+          "$ref": "#/$defs/transitionLiteralToken"
+        },
+        "calloutReveal": {
+          "$ref": "#/$defs/transitionLiteralToken"
+        },
+        "diagramBuild": {
+          "$ref": "#/$defs/transitionLiteralToken"
+        },
+        "slowPan": {
+          "$ref": "#/$defs/transitionLiteralToken"
+        }
+      }
+    },
+    "strokeStyleGroup": {
+      "type": "object",
+      "required": [
+        "solid",
+        "annotation",
+        "breakage"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "solid": {
+          "$ref": "#/$defs/strokeStyleLiteralToken"
+        },
+        "annotation": {
+          "$ref": "#/$defs/strokeStyleLiteralToken"
+        },
+        "breakage": {
+          "$ref": "#/$defs/strokeStyleLiteralToken"
+        }
+      }
+    },
+    "borderGroup": {
+      "type": "object",
+      "required": [
+        "subtleLight",
+        "subtleDark",
+        "panel",
+        "signal",
+        "annotation",
+        "alert"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "subtleLight": {
+          "$ref": "#/$defs/borderLiteralToken"
+        },
+        "subtleDark": {
+          "$ref": "#/$defs/borderLiteralToken"
+        },
+        "panel": {
+          "$ref": "#/$defs/borderLiteralToken"
+        },
+        "signal": {
+          "$ref": "#/$defs/borderLiteralToken"
+        },
+        "annotation": {
+          "$ref": "#/$defs/borderLiteralToken"
+        },
+        "alert": {
+          "$ref": "#/$defs/borderLiteralToken"
+        }
+      }
+    },
+    "shadowGroup": {
+      "type": "object",
+      "required": [
+        "panel",
+        "thumbnailSlab"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "panel": {
+          "$ref": "#/$defs/shadowLiteralToken"
+        },
+        "thumbnailSlab": {
+          "$ref": "#/$defs/shadowLiteralToken"
+        }
+      }
+    },
+    "semanticSurfaceGroup": {
+      "type": "object",
+      "required": [
+        "page",
+        "card",
+        "ink",
+        "thumbnailFrame",
+        "titleSlab",
+        "artifactPanel",
+        "artifactOverlay",
+        "signalChip",
+        "failureChip"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "page": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "card": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "ink": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "thumbnailFrame": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "titleSlab": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "artifactPanel": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "artifactOverlay": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "signalChip": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "failureChip": {
+          "$ref": "#/$defs/colorToken"
+        }
+      }
+    },
+    "semanticTextGroup": {
+      "type": "object",
+      "required": [
+        "primaryOnLight",
+        "secondaryOnLight",
+        "primaryOnDark",
+        "secondaryOnDark",
+        "chipOnSignal",
+        "chipOnFailure",
+        "accent",
+        "failure"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "primaryOnLight": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "secondaryOnLight": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "primaryOnDark": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "secondaryOnDark": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "chipOnSignal": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "chipOnFailure": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "accent": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "failure": {
+          "$ref": "#/$defs/colorToken"
+        }
+      }
+    },
+    "semanticAccentGroup": {
+      "type": "object",
+      "required": [
+        "primary",
+        "wash",
+        "failure",
+        "failureWash"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "primary": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "wash": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "failure": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "failureWash": {
+          "$ref": "#/$defs/colorToken"
+        }
+      }
+    },
+    "semanticTypographyGroup": {
+      "type": "object",
+      "required": [
+        "wordmark",
+        "hero",
+        "thumbnail",
+        "monogram",
+        "sectionTitle",
+        "cardTitle",
+        "body",
+        "bodySmall",
+        "uiLabel",
+        "seriesTag",
+        "callout",
+        "lowerThirdTitle",
+        "lowerThirdMeta"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "wordmark": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "hero": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "thumbnail": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "monogram": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "sectionTitle": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "cardTitle": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "body": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "bodySmall": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "uiLabel": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "seriesTag": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "callout": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "lowerThirdTitle": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "lowerThirdMeta": {
+          "$ref": "#/$defs/typographyToken"
+        }
+      }
+    },
+    "semanticBorderGroup": {
+      "type": "object",
+      "required": [
+        "subtleLight",
+        "subtleDark",
+        "panel",
+        "signal",
+        "annotation",
+        "alert"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "subtleLight": {
+          "$ref": "#/$defs/borderToken"
+        },
+        "subtleDark": {
+          "$ref": "#/$defs/borderToken"
+        },
+        "panel": {
+          "$ref": "#/$defs/borderToken"
+        },
+        "signal": {
+          "$ref": "#/$defs/borderToken"
+        },
+        "annotation": {
+          "$ref": "#/$defs/borderToken"
+        },
+        "alert": {
+          "$ref": "#/$defs/borderToken"
+        }
+      }
+    },
+    "semanticShadowGroup": {
+      "type": "object",
+      "required": [
+        "panel",
+        "thumbnailSlab"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "panel": {
+          "$ref": "#/$defs/shadowToken"
+        },
+        "thumbnailSlab": {
+          "$ref": "#/$defs/shadowToken"
+        }
+      }
+    },
+    "semanticGroup": {
+      "type": "object",
+      "required": [
+        "surface",
+        "text",
+        "accent",
+        "typography",
+        "border",
+        "shadow"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "surface": {
+          "$ref": "#/$defs/semanticSurfaceGroup"
+        },
+        "text": {
+          "$ref": "#/$defs/semanticTextGroup"
+        },
+        "accent": {
+          "$ref": "#/$defs/semanticAccentGroup"
+        },
+        "typography": {
+          "$ref": "#/$defs/semanticTypographyGroup"
+        },
+        "border": {
+          "$ref": "#/$defs/semanticBorderGroup"
+        },
+        "shadow": {
+          "$ref": "#/$defs/semanticShadowGroup"
+        }
+      }
+    },
+    "componentThumbnailGroup": {
+      "type": "object",
+      "required": [
+        "outerFrameColor",
+        "titleSlabColor",
+        "artifactPanelColor",
+        "artifactOverlayColor",
+        "headlineColor",
+        "headlineAccentColor",
+        "seriesTagBackground",
+        "seriesTagTextColor",
+        "headlineType",
+        "seriesTagType",
+        "outerFramePadding",
+        "panelGap",
+        "safeInsetX",
+        "safeInsetY",
+        "titleSlabPaddingX",
+        "titleSlabPaddingY",
+        "frameRadius",
+        "panelRadius",
+        "titleSlabRatio",
+        "artifactPanelRatio",
+        "headlineWordsMin",
+        "headlineWordsMax",
+        "accentWordsMax",
+        "filmGrainOpacity",
+        "artifactOverlayOpacity",
+        "shadow"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "outerFrameColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "titleSlabColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "artifactPanelColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "artifactOverlayColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "headlineColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "headlineAccentColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "seriesTagBackground": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "seriesTagTextColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "headlineType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "seriesTagType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "outerFramePadding": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "panelGap": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "safeInsetX": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "safeInsetY": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "titleSlabPaddingX": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "titleSlabPaddingY": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "frameRadius": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "panelRadius": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "titleSlabRatio": {
+          "$ref": "#/$defs/numberToken"
+        },
+        "artifactPanelRatio": {
+          "$ref": "#/$defs/numberToken"
+        },
+        "headlineWordsMin": {
+          "$ref": "#/$defs/numberToken"
+        },
+        "headlineWordsMax": {
+          "$ref": "#/$defs/numberToken"
+        },
+        "accentWordsMax": {
+          "$ref": "#/$defs/numberToken"
+        },
+        "filmGrainOpacity": {
+          "$ref": "#/$defs/numberToken"
+        },
+        "artifactOverlayOpacity": {
+          "$ref": "#/$defs/numberToken"
+        },
+        "shadow": {
+          "$ref": "#/$defs/shadowToken"
+        }
+      }
+    },
+    "componentPanelGroup": {
+      "type": "object",
+      "required": [
+        "surfaceColor",
+        "border",
+        "radius",
+        "padding",
+        "shadow",
+        "titleType",
+        "bodyType",
+        "titleColor",
+        "bodyColor"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "surfaceColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "border": {
+          "$ref": "#/$defs/borderToken"
+        },
+        "radius": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "padding": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "shadow": {
+          "$ref": "#/$defs/shadowToken"
+        },
+        "titleType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "bodyType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "titleColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "bodyColor": {
+          "$ref": "#/$defs/colorToken"
+        }
+      }
+    },
+    "componentCalloutGroup": {
+      "type": "object",
+      "required": [
+        "labelType",
+        "labelColor",
+        "lineColor",
+        "alertLineColor",
+        "lineStyle",
+        "alertLineStyle",
+        "lineWidth",
+        "nodeSize",
+        "nodeColor"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "labelType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "labelColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "lineColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "alertLineColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "lineStyle": {
+          "$ref": "#/$defs/strokeStyleToken"
+        },
+        "alertLineStyle": {
+          "$ref": "#/$defs/strokeStyleToken"
+        },
+        "lineWidth": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "nodeSize": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "nodeColor": {
+          "$ref": "#/$defs/colorToken"
+        }
+      }
+    },
+    "componentLowerThirdGroup": {
+      "type": "object",
+      "required": [
+        "surfaceColor",
+        "border",
+        "radius",
+        "paddingX",
+        "paddingY",
+        "titleType",
+        "metaType",
+        "titleColor",
+        "metaColor"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "surfaceColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "border": {
+          "$ref": "#/$defs/borderToken"
+        },
+        "radius": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "paddingX": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "paddingY": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "titleType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "metaType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "titleColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "metaColor": {
+          "$ref": "#/$defs/colorToken"
+        }
+      }
+    },
+    "componentAvatarGroup": {
+      "type": "object",
+      "required": [
+        "backgroundColor",
+        "foregroundColor",
+        "accentColor",
+        "type",
+        "radius"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "backgroundColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "foregroundColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "accentColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "type": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "radius": {
+          "$ref": "#/$defs/dimensionToken"
+        }
+      }
+    },
+    "componentBannerGroup": {
+      "type": "object",
+      "required": [
+        "backgroundColor",
+        "motifLineColor",
+        "motifNodeColor",
+        "motifLineWidth",
+        "headlineType",
+        "headlineColor",
+        "metaColor"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "backgroundColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "motifLineColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "motifNodeColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "motifLineWidth": {
+          "$ref": "#/$defs/dimensionToken"
+        },
+        "headlineType": {
+          "$ref": "#/$defs/typographyToken"
+        },
+        "headlineColor": {
+          "$ref": "#/$defs/colorToken"
+        },
+        "metaColor": {
+          "$ref": "#/$defs/colorToken"
+        }
+      }
+    },
+    "componentGroup": {
+      "type": "object",
+      "required": [
+        "thumbnail",
+        "panel",
+        "callout",
+        "lowerThird",
+        "avatar",
+        "banner"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "$description": {
+          "type": "string"
+        },
+        "$extensions": {
+          "$ref": "#/$defs/extensions"
+        },
+        "thumbnail": {
+          "$ref": "#/$defs/componentThumbnailGroup"
+        },
+        "panel": {
+          "$ref": "#/$defs/componentPanelGroup"
+        },
+        "callout": {
+          "$ref": "#/$defs/componentCalloutGroup"
+        },
+        "lowerThird": {
+          "$ref": "#/$defs/componentLowerThirdGroup"
+        },
+        "avatar": {
+          "$ref": "#/$defs/componentAvatarGroup"
+        },
+        "banner": {
+          "$ref": "#/$defs/componentBannerGroup"
+        }
+      }
+    }
+  }
+}

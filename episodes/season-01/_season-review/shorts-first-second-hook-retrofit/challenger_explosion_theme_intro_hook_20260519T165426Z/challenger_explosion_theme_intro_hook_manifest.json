@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "stage": "first-second hook review",
+  "prototype_id": "challenger_explosion_theme_intro_hook_20260519T165426Z",
+  "local_only_no_youtube_action": true,
+  "episode_id": "challenger",
+  "short_id": "challenger_short_scoped_v1",
+  "current_latest_publish_mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/publish/youtube_20260516T172449Z_script_locked_captions/challenger_script_locked_captions_youtube_short.mp4",
+  "current_latest_publish_mp4_sha256": "983fe2c90a0c7fe8c09a1b2a033faed06fa230548aee080e010526c692b1769d",
+  "proof_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/challenger_explosion_theme_intro_hook_review_proof.mp4",
+  "proof_sha256": "482ed963d0b6a95a007934e25914863d563c24858c10b5ad92c27cdf508ebb3d",
+  "comparison_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/side_by_side_current_vs_explosion_theme_hook_first_10s.mp4",
+  "comparison_sha256": "5f39f598f62bd8fa9770c86981c367825138e11efeeb02138156296ca778da47",
+  "frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/opening_frame_strip.jpg",
+  "frame_strip_sha256": "270ea35c9a4c78d5bd7f40ffff7b3d88eb0fffc072c94e626c83d56bc6a04ac9",
+  "outro_frame_strip_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/outro_frame_strip.jpg",
+  "outro_frame_strip_sha256": "9dde12bf0d1018019949c091d7f98bdad339a3e77f3e0ebdf60a886befc14789",
+  "waveform_path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/first_10s_waveform.png",
+  "waveform_sha256": "24baeff6fdb91c3dcbfc16c88f762b95990ec228796441c6aeb218a6e79ba9aa",
+  "visual_extension_mode": "source_motion_tail",
+  "cloned_frame_padding_used": false,
+  "source_motion_tail": {
+    "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/publish/youtube_20260516T172449Z_script_locked_captions/work/script_locked_no_caption_picture_extended.mp4",
+    "source_sha256": "9a23311d445cc240589c8381a90793c0170148cea50940f0516fc7e0e6371330",
+    "source_start_seconds": 57.0,
+    "duration_seconds": 3.28,
+    "description": "moving no-caption Challenger explosion/cloud source motion for the outro tail"
+  },
+  "body_source_duration_seconds": 62.833008,
+  "body_used_duration_seconds": 61.3,
+  "body_trimmed_for_tail_motion_seconds": 1.533008,
+  "tail_gap_seconds": 3.28,
+  "freeze_tail_read": "pass",
+  "freeze_tail_evidence": {
+    "window_start_seconds": 59.58,
+    "window_duration_seconds": 8.0,
+    "threshold_db": -60,
+    "min_freeze_duration_seconds": 0.5,
+    "freeze_events": [],
+    "freeze_tail_read": "pass"
+  },
+  "visual_strategy": {
+    "hook_visual": "no-caption Challenger explosion/fireball excerpt moved to the front",
+    "hook_source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/publish/youtube_20260516T172449Z_script_locked_captions/work/script_locked_no_caption_picture_extended.mp4",
+    "hook_source_start_seconds": 57.0,
+    "hook_duration_seconds": 3.0,
+    "body_after_hook": "existing script-locked captioned current Short body starts at original t=0 after hook",
+    "visual_extension_mode": "source_motion_tail",
+    "cloned_frame_padding_used": false,
+    "source_motion_tail": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/publish/youtube_20260516T172449Z_script_locked_captions/work/script_locked_no_caption_picture_extended.mp4",
+      "source_sha256": "9a23311d445cc240589c8381a90793c0170148cea50940f0516fc7e0e6371330",
+      "source_start_seconds": 57.0,
+      "duration_seconds": 3.28,
+      "description": "moving no-caption Challenger explosion/cloud source motion for the outro tail"
+    }
+  },
+  "music_strategy": {
+    "full_theme_intro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "full_theme_intro_sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "theme_intro_start_seconds": 0.0,
+    "theme_intro_duration_seconds": 3.0,
+    "theme_intro_volume": 0.78,
+    "loop_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop_60s.wav",
+    "loop_sha256": "3f8751c4ad66d51c6dd1b483c51cc394f63925cb97d54e526dfda8469c7e038e",
+    "loop_start_seconds": 2.25,
+    "loop_crossfade_seconds": 0.75,
+    "loop_volume_under_voice": 0.14,
+    "outro_path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture outro.m4a",
+    "outro_sha256": "03734595354c2ca8e2b513dd00ef181b002e8e8009844d499682383422eb9860",
+    "outro_start_seconds": 60.6,
+    "outro_volume": 0.76,
+    "limiter": "post-mix volume=0.62, alimiter=limit=0.62:level=false"
+  },
+  "voice_strategy": {
+    "voice_wav_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/selected/challenger_short_restart_v1_ending_cadence_pass_01.wav",
+    "voice_wav_sha256": "1d512cb3ce4ad0665c6ed699e5aaa4cea7b74d3db240c069b3ab3e17e24a92d7",
+    "voice_delay_seconds": 3.0,
+    "voice_volume": 1.0,
+    "voice_last_audible_seconds_source": 57.5
+  },
+  "media_summary": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/challenger_explosion_theme_intro_hook_review_proof.mp4",
+    "sha256": "482ed963d0b6a95a007934e25914863d563c24858c10b5ad92c27cdf508ebb3d",
+    "duration_seconds": 67.6,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "frame_rate": "30/1",
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "audio_evidence": {
+    "first_3s": {
+      "window_seconds": 3.0,
+      "peak_dbfs": -3.692,
+      "rms_dbfs": -15.903,
+      "sample_count": 144000
+    },
+    "first_10s": {
+      "window_seconds": 10.0,
+      "peak_dbfs": -2.093,
+      "rms_dbfs": -16.309,
+      "sample_count": 480000
+    },
+    "full_proof": {
+      "window_seconds": 67.58,
+      "peak_dbfs": -1.633,
+      "rms_dbfs": -17.352,
+      "sample_count": 3243008
+    }
+  },
+  "frame_samples": {
+    "opening": [
+      {
+        "seconds": 0.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_000.000.jpg",
+        "sha256": "584c66703708677f037b42971cfbee23b9809d303d04703a908fbb7a53e86d8b"
+      },
+      {
+        "seconds": 0.5,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_000.500.jpg",
+        "sha256": "674ec0916c8b5e6a05e4a40f514894cccfab983d01690e7e521965d65fdf1cd1"
+      },
+      {
+        "seconds": 1.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_001.000.jpg",
+        "sha256": "ed8bc8e5c8da523d1dc1323e4e9de6e7e515cf4091778280e3274c787e032d55"
+      },
+      {
+        "seconds": 2.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_002.000.jpg",
+        "sha256": "cf3b7ecc062b444341cdd5ff22d11fb8b182d3bf6b8567b7ee8e4a48d2976446"
+      },
+      {
+        "seconds": 3.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_003.000.jpg",
+        "sha256": "453b273f9c2656a9a71ff788182375890a55dabe1f71136a74d9bfa4e7ad1fc2"
+      },
+      {
+        "seconds": 4.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_004.000.jpg",
+        "sha256": "eac0a99635eac92e95d9d1ae23f84a362def8a465a7cd3244946e0314c989220"
+      },
+      {
+        "seconds": 6.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_006.000.jpg",
+        "sha256": "b9dabf7b90759e7734fa5a381026925e596ea00fc7f9663f4f9962c1e823d302"
+      },
+      {
+        "seconds": 10.0,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_010.000.jpg",
+        "sha256": "651a3b9dcc0bdc3e486d083d543912673e2e6358503b154194ed7a34f6f7c7fb"
+      }
+    ],
+    "outro": [
+      {
+        "seconds": 60.1,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_060.100.jpg",
+        "sha256": "7b0378f422c42f3b42054b65e0d82aa0c442760552aee363db6295aaf0b712a8"
+      },
+      {
+        "seconds": 60.6,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_060.600.jpg",
+        "sha256": "e21bc33f3f25285c35ec801621b541fdc3b8cda88b5be35382affbd46aa26fee"
+      },
+      {
+        "seconds": 62.1,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_062.100.jpg",
+        "sha256": "28716064258af049e6af8f8c8110925cfebf3cce4a9b04a6de8b2f178994a7ee"
+      },
+      {
+        "seconds": 67.08,
+        "path": "/Users/mike/Episodes_CascadeEffects/Shorts_First_Second_Hook_Retrofit/challenger_explosion_theme_intro_hook_20260519T165426Z/evidence/frame_067.080.jpg",
+        "sha256": "008326ba95792ee4d1d57439b18ab2538e3b778bff15ad736b69baf4a380068c"
+      }
+    ]
+  },
+  "first_second_hook_read": "keep",
+  "review_request": "Judge whether the explosion-first visual plus full theme intro punch works better than the previous cold-flash prebeat, and whether the 2-3s transition into the loop feels natural before voice starts.",
+  "human_review_disposition": "keep",
+  "human_review_note": "Mike marked the latest Challenger explosion/theme hook proof keep: \"also keep the last semmelweis and last challenger\"."
+}

@@ -1,0 +1,270 @@
+{
+  "packet_id": "semmelweis_living_cover_cue_map_candidate_f_candidate_c_composition_texture_repair_20260519",
+  "episode_id": "semmelweis",
+  "workflow": "long_form_video_production_v1",
+  "artifact_type": "living_cover_cue_map",
+  "created_at": "2026-05-19T17:45:24Z",
+  "status": "review_ready_pending_human_keep",
+  "human_disposition": "pending",
+  "may_advance": false,
+  "living_cover_system_version": "living_cover_system_v1",
+  "rail_preset_id": "fixed_16x9_right_rail_v1",
+  "source_art": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/source_art/candidates/semmelweis_living_cover_source_art_candidate_f_candidate_c_composition_texture_repair_20260519.png",
+    "sha256": "9399f6e0aa51cbf649279a101e1e97ba3931fc8ea4838d31bd7601e535d3fb6d",
+    "width": 1920,
+    "height": 1080,
+    "role": "kept_candidate_f_living_cover_source_art_backplate"
+  },
+  "source_art_keep": {
+    "human_keep_note": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/source_art/review/human_source_art_keep_candidate_f_candidate_c_composition_texture_repair_20260519.md",
+      "sha256": "582a6c1ede1a93fcee9dfee4acb08863a2fa4e9bde98d43d07b3c2f30effa5ae"
+    },
+    "keep_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/source_art/source_art_candidate_f_candidate_c_composition_texture_repair_keep_manifest_20260519.json",
+      "sha256": "5ab9e9613a0c143fb7df89526dd58addcbf8c5f2f47c388fd620261d80c2fcc0"
+    }
+  },
+  "audio_and_caption_sources": {
+    "audio_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/final/Ep4_Semmelweis.wav",
+      "sha256": "bf7562029466226f6bf33d64829ea41712220e63e4c5f37918cff53ec0fa1ebf",
+      "duration_seconds": 850.825578
+    },
+    "caption_text_source": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/Ep4_Semmelweis.txt",
+      "sha256": "2bca08c0899da81a909d550a76dc0e2cb6ddccaa764b8c45ad9298c918276d68",
+      "role": "locked_script_visible_caption_text_source"
+    },
+    "caption_timing_sources": {
+      "srt": {
+        "path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_longform_20260518T193358Z/transcripts_mastered/Ep4_Semmelweis.diarized.srt",
+        "sha256": "f09cae647f2aadfc6354bd6cc04c23630e8464cb73ea07ae155536c08ad6f0e4",
+        "role": "timing_only"
+      },
+      "vtt": {
+        "path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_longform_20260518T193358Z/transcripts_mastered/Ep4_Semmelweis.diarized.vtt",
+        "sha256": "d0b7e6d58a5a2feeff52200e5af72b448a93846c78c85a998b05351406fafd58",
+        "role": "timing_only"
+      },
+      "whisperx_json": {
+        "path": "/Users/mike/Audio_CascadeEffects/tmp/ep4_semmelweis_longform_20260518T193358Z/transcripts_mastered/Ep4_Semmelweis.whisperx.json",
+        "sha256": "a23e2ab9bf8e113d528ad8504ad20bd55c0bf74a70a2b3de299591f93b6dd03d",
+        "role": "timing_only"
+      }
+    },
+    "caption_output_model": "dual_visible_rail_and_youtube_vtt_sidecar",
+    "caption_text_policy": "Visible rail captions and YouTube sidecars must be generated from the locked script text. ASR, SRT, VTT, and WhisperX artifacts may supply timing only."
+  },
+  "story_time_model": {
+    "current_voice_start_offset_seconds": 0.0,
+    "story_time_at_current_audio_time": "audio_time_seconds",
+    "music_contract_retime_note": "A later music integration contract may add an intro voice-start offset; proof times and caption sidecars must be retimed there before rough assembly."
+  },
+  "rail_text_model": {
+    "rail_copy_source": "episode_specific_chapter_spine_from_kept_visual_system_plan_and_locked_script",
+    "viewer_text_surface": "fixed_16x9_right_rail_v1_only",
+    "active_panel": "major chapter label, semantic active title, one short summary",
+    "context_rows": "nearby previous/upcoming semantic chapter titles only",
+    "caption_slot": "native_rail_caption_slot_v1",
+    "ordinal_labels": "blocked_for_viewer_facing_output",
+    "out_of_rail_text": "blocked_for_viewer_facing_output",
+    "cue_ids_visible": false,
+    "diagnostic_labels_visible": false
+  },
+  "rail_palette_intent": {
+    "source_aware_palette": "warm lamp amber, gray plaster and tile, worn wood doorway shadow, muted cream caption text, restrained hospital daylight",
+    "cross_episode_default_panel_color": "blocked",
+    "readability_strategy": "localized active-panel fill and caption softener only; no broad full-frame dark veil and no full-height opaque right-column panel"
+  },
+  "chapters": [
+    {
+      "id": "measure_without_explanation",
+      "title": "Measured, Not Explained",
+      "story_start_seconds": 0.0,
+      "story_end_seconds": 77.856,
+      "story_start_timecode": "00:00:00.000",
+      "story_end_timecode": "00:01:17.856",
+      "rail_summary": "The episode opens on a documented mortality gap that the institution could see but could not explain.",
+      "story_anchor": "Vienna mortality gap, First Division danger, Second Division contrast, and Semmelweis finding and proving the cause.",
+      "visual_behavior": "Start on the kept threshold plate with a settled rail state; basin and ward doorway hold the central question without charts or ledgers."
+    },
+    {
+      "id": "two_wards_same_roof",
+      "title": "Two Wards, Same Roof",
+      "story_start_seconds": 77.856,
+      "story_end_seconds": 175.201,
+      "story_start_timecode": "00:01:17.856",
+      "story_end_timecode": "00:02:55.201",
+      "rail_summary": "The First and Second Divisions create the controlled contrast: physicians/students versus midwives.",
+      "story_anchor": "Teaching hospital structure, physicians and students in the First Division, midwives in the Second, and leadership explanations that failed.",
+      "visual_behavior": "Rail language carries the comparison; source plate stays at the threshold and avoids ledger, chart, or paperwork visuals."
+    },
+    {
+      "id": "autopsy_to_ward_pathway",
+      "title": "Autopsy To Ward",
+      "story_start_seconds": 175.201,
+      "story_end_seconds": 275.702,
+      "story_start_timecode": "00:02:55.201",
+      "story_end_timecode": "00:04:35.702",
+      "rail_summary": "Kolletschka's death makes the transfer path visible, and the chloride-of-lime basin becomes the intervention.",
+      "story_anchor": "Teaching autopsy injury, sepsis resemblance, physicians moving from autopsy room to maternity ward, and chloride-of-lime washing.",
+      "visual_behavior": "Source attention follows the existing left autopsy-room context, basin threshold, and ward depth with no arrows, labels, or gore."
+    },
+    {
+      "id": "evidence_had_layers",
+      "title": "The Evidence Had Layers",
+      "story_start_seconds": 275.702,
+      "story_end_seconds": 400.994,
+      "story_start_timecode": "00:04:35.702",
+      "story_end_timecode": "00:06:40.994",
+      "rail_summary": "Data, contact pathway, and intervention results stack into a case the profession should have acted on.",
+      "story_anchor": "Two ward mortality records, autopsy contact pathway, handwashing result, and the decisive point where data-driven medicine should have moved.",
+      "visual_behavior": "Semantic right-rail progression carries the layers; no ordinal-only viewer labels, mortality graph, table, or admin evidence prop appears."
+    },
+    {
+      "id": "mechanism_gap_became_accusation",
+      "title": "The Result Became An Accusation",
+      "story_start_seconds": 400.994,
+      "story_end_seconds": 516.678,
+      "story_start_timecode": "00:06:40.994",
+      "story_end_timecode": "00:08:36.678",
+      "rail_summary": "The missing germ-theory framework gives critics cover while the evidence points at physicians themselves.",
+      "story_anchor": "Unexplained mechanism, lack of germ theory, technical skepticism, and the identity-level implication that physicians were carrying disease.",
+      "visual_behavior": "Plate settles darker and quieter while rail names the accusation; no germ icons, face-forward blame, or explanatory diagram overlays."
+    },
+    {
+      "id": "resistance_hardened",
+      "title": "Resistance Hardened",
+      "story_start_seconds": 516.678,
+      "story_end_seconds": 619.001,
+      "story_start_timecode": "00:08:36.678",
+      "story_end_timecode": "00:10:19.001",
+      "rail_summary": "The intervention holds, but criticism and institutional rejection persist until Semmelweis's death.",
+      "story_anchor": "Critics, persistent resistance, repeated intervention results, open letters, institutional commitment, and death before germ theory acceptance.",
+      "visual_behavior": "Rail cadence slows for resistance and death; source plate remains respectful and avoids asylum, wound, deathbed, or horror imagery."
+    },
+    {
+      "id": "wrong_in_a_structural_way",
+      "title": "Wrong In A Structural Way",
+      "story_start_seconds": 619.001,
+      "story_end_seconds": 744.522,
+      "story_start_timecode": "00:10:19.001",
+      "story_end_timecode": "00:12:24.522",
+      "rail_summary": "The standard hero-story frame opens into professional identity, accusation, and the later reframing supplied by germ theory.",
+      "story_anchor": "Profession organized skepticism around a damaging conclusion, evidence as accusation, identity conflict, and germ theory reframing.",
+      "visual_behavior": "Source-art motion calms while rail moves from individual hero story to structural identity; no new laboratory scene or microbe animation."
+    },
+    {
+      "id": "data_was_always_sufficient",
+      "title": "The Data Was Always Sufficient",
+      "story_start_seconds": 744.522,
+      "story_end_seconds": 850.825578,
+      "story_start_timecode": "00:12:24.522",
+      "story_end_timecode": "00:14:10.826",
+      "rail_summary": "The closing synthesis names a system that could not afford to believe the evidence until the story around it changed.",
+      "story_anchor": "Semmelweis by 1865, antiseptic practice by the 1880s, evidence sufficient by 1848, institutional cost of belief, and series motif.",
+      "visual_behavior": "Rail energy narrows into synthesis and suppresses story text before the future end-screen handoff."
+    }
+  ],
+  "typography_cues": [
+    {"id": "measure_not_explain", "story_time_seconds": 0.031, "story_timecode": "00:00:00.031", "trigger": "a problem it could measure but not explain", "treatment": "opening right-rail active title emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "difference_documented", "story_time_seconds": 36.128, "story_timecode": "00:00:36.128", "trigger": "The difference was documented.", "treatment": "brief rail summary weight shift", "viewer_surface": "right_rail_only"},
+    {"id": "establishment_rejected", "story_time_seconds": 59.718, "story_timecode": "00:00:59.718", "trigger": "Much of the medical establishment rejected him.", "treatment": "first contradiction emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "story_no_one_wanted", "story_time_seconds": 101.415, "story_timecode": "00:01:41.415", "trigger": "The death rates told a story no one wanted to read.", "treatment": "semantic title/summary transition", "viewer_surface": "right_rail_only"},
+    {"id": "explanations_failed", "story_time_seconds": 168.072, "story_timecode": "00:02:48.072", "trigger": "None of these explanations survived contact with the data.", "treatment": "rail-only compression of failed explanations", "viewer_surface": "right_rail_only"},
+    {"id": "autopsy_to_ward_line", "story_time_seconds": 202.205, "story_timecode": "00:03:22.205", "trigger": "moved between the autopsy room and the maternity ward", "treatment": "threshold source-attention cue plus right-rail title shift", "viewer_surface": "right_rail_only"},
+    {"id": "hands_conducting_exams", "story_time_seconds": 233.86, "story_timecode": "00:03:53.860", "trigger": "the hands of the people conducting examinations", "treatment": "rail phrase emphasis, no hand close-up", "viewer_surface": "right_rail_only"},
+    {"id": "chloride_lime_solution", "story_time_seconds": 240.447, "story_timecode": "00:04:00.447", "trigger": "wash their hands in a chloride of lime solution", "treatment": "basin/source highlight cue with no new demonstration", "viewer_surface": "right_rail_only"},
+    {"id": "results_immediate", "story_time_seconds": 260.192, "story_timecode": "00:04:20.192", "trigger": "The results were immediate.", "treatment": "brief rail active panel lift", "viewer_surface": "right_rail_only"},
+    {"id": "required_profession_believe", "story_time_seconds": 275.702, "story_timecode": "00:04:35.702", "trigger": "what the evidence actually required the profession to believe", "treatment": "chapter transition into evidence layers", "viewer_surface": "right_rail_only"},
+    {"id": "physician_contact_after_autopsies", "story_time_seconds": 321.735, "story_timecode": "00:05:21.735", "trigger": "physician contact after autopsies", "treatment": "rail summary shift toward pathway", "viewer_surface": "right_rail_only"},
+    {"id": "handwashing_reduced_mortality", "story_time_seconds": 363.045, "story_timecode": "00:06:03.045", "trigger": "hand-washing sharply reduced mortality", "treatment": "right-rail proof point emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "evidence_not_ambiguous", "story_time_seconds": 398.629, "story_timecode": "00:06:38.629", "trigger": "The evidence was not ambiguous.", "treatment": "hard pause before mechanism gap", "viewer_surface": "right_rail_only"},
+    {"id": "accusing_physicians", "story_time_seconds": 449.447, "story_timecode": "00:07:29.447", "trigger": "accepting the evidence meant accusing the physicians themselves", "treatment": "largest mid-episode rail emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "pointed_at_themselves", "story_time_seconds": 514.235, "story_timecode": "00:08:34.235", "trigger": "what it pointed at was themselves", "treatment": "rail contrast lift, no visual blame marker", "viewer_surface": "right_rail_only"},
+    {"id": "actively_resisted", "story_time_seconds": 516.678, "story_timecode": "00:08:36.678", "trigger": "He was actively resisted.", "treatment": "chapter transition into resistance", "viewer_surface": "right_rail_only"},
+    {"id": "results_held", "story_time_seconds": 563.188, "story_timecode": "00:09:23.188", "trigger": "The results held.", "treatment": "short proof-stability emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "one_man_profession_wrong", "story_time_seconds": 619.001, "story_timecode": "00:10:19.001", "trigger": "one man who was right and a profession that was wrong", "treatment": "synthesis chapter title transition", "viewer_surface": "right_rail_only"},
+    {"id": "structural_wrongness", "story_time_seconds": 641.551, "story_timecode": "00:10:41.551", "trigger": "wrong in a specific, structural way", "treatment": "semantic active-title emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "it_was_an_accusation", "story_time_seconds": 675.432, "story_timecode": "00:11:15.432", "trigger": "it was an accusation", "treatment": "right-rail contrast peak", "viewer_surface": "right_rail_only"},
+    {"id": "germ_theory_framework", "story_time_seconds": 716.408, "story_timecode": "00:11:56.408", "trigger": "Germ theory, when it arrived, provided that framework.", "treatment": "reframing rail summary transition", "viewer_surface": "right_rail_only"},
+    {"id": "evidence_did_not_change", "story_time_seconds": 739.456, "story_timecode": "00:12:19.456", "trigger": "The evidence did not change.", "treatment": "brief rail synthesis phrase", "viewer_surface": "right_rail_only"},
+    {"id": "not_better_data", "story_time_seconds": 765.36, "story_timecode": "00:12:45.360", "trigger": "not better data", "treatment": "final act active-panel emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "not_failure_evidence", "story_time_seconds": 825.59, "story_timecode": "00:13:45.590", "trigger": "That is not a failure of evidence.", "treatment": "final synthesis rail emphasis", "viewer_surface": "right_rail_only"},
+    {"id": "cause_chain_longer", "story_time_seconds": 839.062, "story_timecode": "00:13:59.062", "trigger": "The cause chain was longer.", "treatment": "series motif emphasis before outro handoff", "viewer_surface": "right_rail_only"}
+  ],
+  "effect_moments": [
+    {"id": "threshold_settle", "story_time_seconds": 0.0, "story_timecode": "00:00:00.000", "trigger": "opening measured problem", "treatment": "settled Candidate F plate, right rail enters cleanly over quiet right wall, basin visible as dormant hinge", "layer": "source_transform_and_rail", "qa_read": "source_safe_motion_read"},
+    {"id": "division_gap_visible", "story_time_seconds": 77.856, "story_timecode": "00:01:17.856", "trigger": "Vienna hospital two divisions", "treatment": "rail shifts to two-division contrast while source plate holds autopsy-room/ward threshold", "layer": "rail", "qa_read": "right_rail_text_boundary_read"},
+    {"id": "false_explanations_dismissed", "story_time_seconds": 144.346, "story_timecode": "00:02:24.346", "trigger": "leadership explanations", "treatment": "rail-only compression of false explanations; no bell, miasma effect, or horror treatment", "layer": "rail", "qa_read": "cue_no_diagnostic_overlay_read"},
+    {"id": "kolletschka_pathway", "story_time_seconds": 175.201, "story_timecode": "00:02:55.201", "trigger": "Kolletschka death", "treatment": "attention drift favors left autopsy-room context and doorway path, preserving anonymous figures and avoiding gore", "layer": "source_transform", "qa_read": "no_gore_or_medical_horror_read"},
+    {"id": "autopsy_to_ward_transfer", "story_time_seconds": 202.205, "story_timecode": "00:03:22.205", "trigger": "autopsy room to maternity ward routine", "treatment": "subtle depth emphasis along corridor from autopsy context toward maternity ward; no arrows or labels", "layer": "source_transform", "qa_read": "visible_cue_overlay_read"},
+    {"id": "basin_intervention", "story_time_seconds": 240.447, "story_timecode": "00:04:00.447", "trigger": "chloride-of-lime wash", "treatment": "source-safe highlight around basin, porcelain, metal vessel, and practical lamp", "layer": "source_light", "qa_read": "chloride_of_lime_basin_read"},
+    {"id": "mortality_drop_without_graph", "story_time_seconds": 260.192, "story_timecode": "00:04:20.192", "trigger": "results were immediate", "treatment": "rail language carries mortality drop; no chart, table, ledger, or admin prop", "layer": "rail", "qa_read": "foreground_admin_prop_read"},
+    {"id": "evidence_layers_stack", "story_time_seconds": 282.62, "story_timecode": "00:04:42.620", "trigger": "first evidence layer", "treatment": "right rail progresses through evidence layers using semantic titles only", "layer": "rail", "qa_read": "ordinal_chapter_label_read"},
+    {"id": "theory_gap", "story_time_seconds": 400.994, "story_timecode": "00:06:40.994", "trigger": "mechanism not yet understood", "treatment": "rail contrast narrows around missing mechanism; no germ icons or microscope graphics", "layer": "rail", "qa_read": "out_of_rail_text_read"},
+    {"id": "accusation_turn", "story_time_seconds": 449.447, "story_timecode": "00:07:29.447", "trigger": "evidence as accusation", "treatment": "plate settles darker and quieter while rail names accusation; no visual blame marker", "layer": "source_transform_and_rail", "qa_read": "no_recognizable_faces_read"},
+    {"id": "resistance_hardens", "story_time_seconds": 516.678, "story_timecode": "00:08:36.678", "trigger": "active resistance", "treatment": "rail cadence slows for criticism and resistance; source plate stays institutional and restrained", "layer": "rail", "qa_read": "chapter_cue_coverage_read"},
+    {"id": "death_and_aftermath", "story_time_seconds": 587.145, "story_timecode": "00:09:47.145", "trigger": "Semmelweis committed and dies", "treatment": "minimal respectful source settling; no asylum imagery, wound close-up, deathbed visual, or horror imagery", "layer": "source_transform", "qa_read": "no_gore_or_medical_horror_read"},
+    {"id": "structural_wrongness", "story_time_seconds": 619.001, "story_timecode": "00:10:19.001", "trigger": "standard story not sufficient", "treatment": "rail reframes from hero story to system identity; source-art motion calms", "layer": "rail_and_source_transform", "qa_read": "chapter_cue_coverage_read"},
+    {"id": "germ_theory_reframe", "story_time_seconds": 716.408, "story_timecode": "00:11:56.408", "trigger": "germ theory framework", "treatment": "subtle daylight/practical-light shift may support reframing; no microbe animation or explanatory diagram", "layer": "source_light_and_rail", "qa_read": "cue_no_diagnostic_overlay_read"},
+    {"id": "evidence_sufficient", "story_time_seconds": 765.36, "story_timecode": "00:12:45.360", "trigger": "not better data", "treatment": "rail synthesis emphasizes sufficiency of original data; plate remains same kept threshold", "layer": "rail", "qa_read": "source_safe_motion_read"},
+    {"id": "outro_handoff_planned", "story_time_seconds": 850.825578, "story_timecode": "00:14:10.826", "trigger": "voice end after next-time line", "treatment": "suppress captions and rail story text before future static YouTube end-screen target geometry", "layer": "rail_and_captions", "qa_read": "end_screen_text_boundary_read"}
+  ],
+  "source_safe_motion_policy": {
+    "allowed_in_cue_map": [
+      "source-art transform, crop, opacity, localized readability treatment, rail transition, rail typography, caption timing, end-screen text suppression"
+    ],
+    "blocked_in_cue_map": [
+      "diagnostic overlays",
+      "cue labels in viewer proof",
+      "cyan signal traces",
+      "connector lines",
+      "out-of-rail text cards",
+      "generated UI paths",
+      "foreground administrative props",
+      "ledgers or mortality charts",
+      "gore or medical horror",
+      "close-up mothers or babies",
+      "recognizable faces",
+      "germ cartoons",
+      "modern microscope graphics"
+    ]
+  },
+  "reads": {
+    "living_cover_cue_map_read": "pass_review_ready_packet_local_artifact_created",
+    "chapter_cue_coverage_read": "pass_8_semantic_sections_plus_outro_handoff",
+    "typography_cue_read": "pass_right_rail_only_semantic_episode_copy",
+    "effect_map_cue_read": "pass_15_source_safe_moments_no_diagnostic_overlay",
+    "source_safe_motion_read": "pass_planned_transform_opacity_crop_rail_only_over_kept_plate",
+    "cue_no_diagnostic_overlay_read": "pass_no_cue_ids_or_overlay_marks_in_viewer_proof_plan",
+    "cue_map_internal_artifact_read": "pass_internal_json_md_only",
+    "visible_cue_overlay_read": "pass_blocked_for_viewer_facing_output",
+    "viewer_text_surface_inventory_read": "pass_planned_right_rail_captions_chapters_only",
+    "right_rail_text_boundary_read": "pass_fixed_16x9_right_rail_v1_only",
+    "out_of_rail_text_read": "pass_blocked_except_review_diagnostics_not_viewer_proof",
+    "ordinal_chapter_label_read": "pass_no_ordinal_only_viewer_labels",
+    "end_screen_text_boundary_read": "pass_story_text_suppressed_before_end_screen",
+    "caption_text_source_read": "pass_locked_script_named_for_visible_caption_text",
+    "caption_timing_source_read": "pass_srt_vtt_whisperx_timing_sources_declared",
+    "caption_asr_text_not_used_read": "pass_planned_for_caption_builder_asr_timing_only",
+    "video_visual_style_scope_read": "pass_long_form_video_asset_non_paper",
+    "paper_architecture_visual_style_read": "pass_no_resemblance",
+    "foreground_admin_prop_read": "pass_no_admin_anchor_added_by_cue_map",
+    "implied_action_anticipation_read": "pass_cues_preserve_paused_before_wash_and_ward_transfer",
+    "ambient_affordance_read": "pass_cues_preserve_lamp_window_basin_glass_cloth_floor_depth_affordances_for_later_layer"
+  },
+  "advance_flags": {
+    "may_mark_living_cover_cue_map_keep": false,
+    "may_create_ambient_effects_layer": false,
+    "may_create_music_integration_contract": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "next_action": "Human review must mark this cue map keep, tighten, or reject. A keep may open the living_cover_ambient_effects_layer gate."
+}

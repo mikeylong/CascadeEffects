@@ -1,0 +1,1010 @@
+{
+  "kind": "exploratory_mockup_package",
+  "id": "youtube_brand_mockups_imagegen_challenger_20260513T205654Z",
+  "status": "exploratory_mockup_ready",
+  "created_utc": "20260513T205654Z",
+  "summary": "Image_gen-first exploratory YouTube mockup package for Cascade Effects channel surfaces and Challenger episode thumbnail/Shorts cover directions.",
+  "supersedes": null,
+  "related_packages": {
+    "approved_profile_icon": "youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z",
+    "contract_repair_package": "youtube_channel_brand_assets_repair_20260513T193457Z"
+  },
+  "generation_policy": {
+    "visual_core_generation": "built_in_image_gen_only",
+    "local_processing_allowed": [
+      "copy generated outputs",
+      "crop/resize normalized review derivatives",
+      "safe-zone overlays",
+      "small-size previews",
+      "contact sheets",
+      "hashes",
+      "manifest",
+      "README"
+    ],
+    "local_processing_forbidden": [
+      "procedural/Pillow-drawn core artwork",
+      "deterministic title replacement",
+      "logo redesign",
+      "publish mutation"
+    ],
+    "generated_text_policy": "exploratory_image_gen_text_review_only; exact typography may be repaired later"
+  },
+  "episode_pool": "Challenger first",
+  "directions_per_surface": 3,
+  "surfaces": {
+    "channel-banner": {
+      "role": "channel identity mockup",
+      "title_policy": "title-bearing generated text Cascade of Effects",
+      "normalized_size": [
+        2560,
+        1440
+      ]
+    },
+    "youtube-podcast-playlist": {
+      "role": "channel/podcast identity mockup",
+      "title_policy": "title-bearing generated text Cascade of Effects",
+      "normalized_size": [
+        1280,
+        1280
+      ]
+    },
+    "video-thumbnail": {
+      "role": "Challenger episode thumbnail mockup",
+      "title_policy": "episode hook only; no generic channel title/logo",
+      "normalized_size": [
+        3840,
+        2160
+      ]
+    },
+    "shorts-cover-frame": {
+      "role": "Challenger episode Shorts cover frame mockup",
+      "title_policy": "episode hook only; no generic channel title/logo",
+      "normalized_size": [
+        1080,
+        1920
+      ]
+    }
+  },
+  "reference_inputs": {
+    "approved_profile_icon": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_ink_lit_alpha_circle_20260513T184427Z/assets/profile-icon-800x800.png",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/approved_profile_icon.png",
+      "sha256": "79e2decf4145a9465ec4265c4158715d0728a37ead218e173a94d1ccbea37124",
+      "bytes": 762041
+    },
+    "homepage_dark_desktop": {
+      "source_path": "/Users/mike/Web_CascadeEffects/brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-desktop-source-v1.png",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/homepage_dark_desktop.png",
+      "sha256": "5f9db727623e4ddfdd7daa8c577b137af4b4d8e768630d55466aa17b1322d50a",
+      "bytes": 2235369
+    },
+    "homepage_dark_mobile": {
+      "source_path": "/Users/mike/Web_CascadeEffects/brand/assets/reference-renders/paper-architectures-v1/homepage-hero-dark-adapted-mobile-source-v1.png",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/homepage_dark_mobile.png",
+      "sha256": "af47b981befa7675792e2acc7dc9f9507cf13d12d9720323c15423698e88646f",
+      "bytes": 2091495
+    },
+    "challenger_visual_proof_still": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/challenger_visual_proof_v1_20260506T183725Z/still/challenger_visual_proof_v1_still.png",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/challenger_visual_proof_still.png",
+      "sha256": "2c918f5a573e3e697ce965610130bb47fe07cf076561252165f5330e5cd8a4dc",
+      "bytes": 315501
+    },
+    "challenger_current_shorts_cover": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/publish/youtube_20260501T022849Z_house_crt_visible_scanline_final_gate_pass01/suggested_shorts_cover_frame.png",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/challenger_current_shorts_cover.png",
+      "sha256": "d9d966640d7d949298dda1796444f14567adbfe21c3ec2c57f71c5f92d7ef225",
+      "bytes": 603432
+    },
+    "challenger_launch_stack_reference": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act4_03.jpg",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/challenger_launch_stack_reference.jpg",
+      "sha256": "e0cd09edda050ca86fe9feba6dc8a16d743c7dfb2d18525bd082759ae044cd6b",
+      "bytes": 172034
+    },
+    "challenger_launch_control_reference": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act1_03.jpg",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/challenger_launch_control_reference.jpg",
+      "sha256": "2b83fbbf9e18d5d0c940e6b72abb23bfa6a70f6df0069449ae02f39a929e4126",
+      "bytes": 4620211
+    },
+    "challenger_seal_path_hardware_reference": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/research_assets/act2_05.jpg",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/challenger_seal_path_hardware_reference.jpg",
+      "sha256": "737816515ae30c8b8735b3832db739f790576ed411e0ef287ea289c9d6e8174b",
+      "bytes": 820152
+    },
+    "challenger_source_inventory": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/visual_research/source_inventory.json",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/challenger_source_inventory.json",
+      "sha256": "5121ab094c840c00683e764969a1a69f965f009cc37431d6c05a8c7342d03358",
+      "bytes": 36118
+    },
+    "youtube_package_contract": {
+      "source_path": "/Users/mike/Web_CascadeEffects/brand/packages/youtube-channel.package.json",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/youtube_package_contract.json",
+      "sha256": "87630197924d23f9392adf5e30bcf41f9979ae221e8a5d58854340ba3c3773c9",
+      "bytes": 12004
+    },
+    "previous_repair_manifest": {
+      "source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_brand_assets_repair_20260513T193457Z/manifest.json",
+      "package_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/source/references/previous_repair_manifest.json",
+      "sha256": "b31d916cc9f45626e5eb9bf4812b9c1407a402dd5639b94841417b6ea27462b2",
+      "bytes": 17597
+    }
+  },
+  "prompts": {
+    "prompts/channel-banner/A.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/channel-banner/A.txt",
+      "sha256": "d87e02bddf9ad813cb99fc2eba40772f75db7ed6af7cb36a1fbbeb53c166e8c6",
+      "bytes": 1533
+    },
+    "prompts/channel-banner/B.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/channel-banner/B.txt",
+      "sha256": "9c91e4d64f73a2020c4068a6649fcfdd0fa887fffe8fb7e9bbe5f28acdd5cab5",
+      "bytes": 1373
+    },
+    "prompts/channel-banner/C.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/channel-banner/C.txt",
+      "sha256": "028c1b54480525c99d51c45346076d4868a6e5e58683a67a5edb64f4a1768002",
+      "bytes": 1260
+    },
+    "prompts/shorts-cover-frame/A.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/shorts-cover-frame/A.txt",
+      "sha256": "be9d8c28334e9984f079e2af5c652716249a0e310f30260cc218cc414666396a",
+      "bytes": 1353
+    },
+    "prompts/shorts-cover-frame/B.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/shorts-cover-frame/B.txt",
+      "sha256": "9ca708b45a0c7787f6a19227ec987a6fd23b65f88e7150e6a9101e666d102b9f",
+      "bytes": 1216
+    },
+    "prompts/shorts-cover-frame/C.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/shorts-cover-frame/C.txt",
+      "sha256": "1f775216e51559e56d6f381782a4733470fa1a0577daededf8a1e5f0f8c10af0",
+      "bytes": 1280
+    },
+    "prompts/video-thumbnail/A.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/video-thumbnail/A.txt",
+      "sha256": "8abc8b29b92c900c8971d259354c1eccd176b4652a384fca094b8a0815c32b2a",
+      "bytes": 1608
+    },
+    "prompts/video-thumbnail/B.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/video-thumbnail/B.txt",
+      "sha256": "4f82ca524123cd212408eac3769037fa31858d1e70288d73da7c2fc9b3d3b315",
+      "bytes": 1343
+    },
+    "prompts/video-thumbnail/C.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/video-thumbnail/C.txt",
+      "sha256": "f25bc629d05d797944c4b5435b76722906ed9b7dddff2174be1a5611f363df77",
+      "bytes": 1320
+    },
+    "prompts/youtube-podcast-playlist/A.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/youtube-podcast-playlist/A.txt",
+      "sha256": "f7181bd96cd920aafa6f734dd94f279efb3ddb77b86411ffd0a0ecb4c4a49548",
+      "bytes": 1230
+    },
+    "prompts/youtube-podcast-playlist/B.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/youtube-podcast-playlist/B.txt",
+      "sha256": "c1b1fe7cd5c1b585866348354974ddb872f6e8f04dc5b8353e5903cc437ff64b",
+      "bytes": 1111
+    },
+    "prompts/youtube-podcast-playlist/C.txt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/youtube-podcast-playlist/C.txt",
+      "sha256": "395c69e5df3bd6c64a77b02b96fa4b3ce8a6fc851230e13c6762f3c8f238f1a1",
+      "bytes": 1177
+    }
+  },
+  "generation_provenance": [
+    {
+      "asset_id": "channel-banner-A",
+      "surface": "channel-banner",
+      "variant": "A",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/channel-banner/A.txt",
+      "prompt_sha256": "d87e02bddf9ad813cb99fc2eba40772f75db7ed6af7cb36a1fbbeb53c166e8c6",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e642f424819697aa4f1c6c8c6f61.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-A-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-A-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "channel-banner-B",
+      "surface": "channel-banner",
+      "variant": "B",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/channel-banner/B.txt",
+      "prompt_sha256": "9c91e4d64f73a2020c4068a6649fcfdd0fa887fffe8fb7e9bbe5f28acdd5cab5",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e69a54d48196a4cb1abde37c8575.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-B-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-B-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "channel-banner-C",
+      "surface": "channel-banner",
+      "variant": "C",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/channel-banner/C.txt",
+      "prompt_sha256": "028c1b54480525c99d51c45346076d4868a6e5e58683a67a5edb64f4a1768002",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e6e1c5dc8196bd38de948f68a192.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-C-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-C-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "youtube-podcast-playlist-A",
+      "surface": "youtube-podcast-playlist",
+      "variant": "A",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/youtube-podcast-playlist/A.txt",
+      "prompt_sha256": "f7181bd96cd920aafa6f734dd94f279efb3ddb77b86411ffd0a0ecb4c4a49548",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e730418881969ae09e028fb9848e.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-A-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-A-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "youtube-podcast-playlist-B",
+      "surface": "youtube-podcast-playlist",
+      "variant": "B",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/youtube-podcast-playlist/B.txt",
+      "prompt_sha256": "c1b1fe7cd5c1b585866348354974ddb872f6e8f04dc5b8353e5903cc437ff64b",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e78e1f408196a8d293fee742b867.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-B-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-B-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "youtube-podcast-playlist-C",
+      "surface": "youtube-podcast-playlist",
+      "variant": "C",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/youtube-podcast-playlist/C.txt",
+      "prompt_sha256": "395c69e5df3bd6c64a77b02b96fa4b3ce8a6fc851230e13c6762f3c8f238f1a1",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e7eec2988196ac0c640e7e98924f.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-C-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-C-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "video-thumbnail-A",
+      "surface": "video-thumbnail",
+      "variant": "A",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/video-thumbnail/A.txt",
+      "prompt_sha256": "8abc8b29b92c900c8971d259354c1eccd176b4652a384fca094b8a0815c32b2a",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e854fc0c8196926db065a702d114.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-A-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-A-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "video-thumbnail-B",
+      "surface": "video-thumbnail",
+      "variant": "B",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/video-thumbnail/B.txt",
+      "prompt_sha256": "4f82ca524123cd212408eac3769037fa31858d1e70288d73da7c2fc9b3d3b315",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e8a86c548196bcc4fae8d0589eeb.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-B-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-B-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "video-thumbnail-C",
+      "surface": "video-thumbnail",
+      "variant": "C",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/video-thumbnail/C.txt",
+      "prompt_sha256": "f25bc629d05d797944c4b5435b76722906ed9b7dddff2174be1a5611f363df77",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e8f55f7c8196a8f7827c73796e02.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-C-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-C-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "shorts-cover-frame-A",
+      "surface": "shorts-cover-frame",
+      "variant": "A",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/shorts-cover-frame/A.txt",
+      "prompt_sha256": "be9d8c28334e9984f079e2af5c652716249a0e310f30260cc218cc414666396a",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e948c2f48196893688d02c6377ef.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-A-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-A-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "shorts-cover-frame-B",
+      "surface": "shorts-cover-frame",
+      "variant": "B",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/shorts-cover-frame/B.txt",
+      "prompt_sha256": "9ca708b45a0c7787f6a19227ec987a6fd23b65f88e7150e6a9101e666d102b9f",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04e9c835688196a856b2ec2454bb55.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-B-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-B-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    },
+    {
+      "asset_id": "shorts-cover-frame-C",
+      "surface": "shorts-cover-frame",
+      "variant": "C",
+      "tool": "built_in_image_gen",
+      "model": "unknown_builtin_image_gen_model",
+      "model_confidence": "inferred_from_builtin_tool_path",
+      "mode": "generate_with_visible_references",
+      "prompt_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/prompts/shorts-cover-frame/C.txt",
+      "prompt_sha256": "1f775216e51559e56d6f381782a4733470fa1a0577daededf8a1e5f0f8c10af0",
+      "generated_default_path": "/Users/mike/.codex/generated_images/019e22a2-ff68-70c0-89d0-e9fb17a58f02/ig_0124924a8403ff1b016a04ea223e9c819698bcfeb420818275.png",
+      "package_source_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-C-imagegen-source.png",
+      "normalized_review_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-C-normalized.png",
+      "reference_image_keys": [
+        "approved_profile_icon",
+        "homepage_dark_desktop",
+        "homepage_dark_mobile",
+        "challenger_visual_proof_still",
+        "challenger_current_shorts_cover",
+        "challenger_launch_stack_reference",
+        "challenger_launch_control_reference",
+        "challenger_seal_path_hardware_reference"
+      ]
+    }
+  ],
+  "deliverables": {
+    "generated_sources": {
+      "channel-banner-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-A-imagegen-source.png",
+        "sha256": "2751bcde3978d9564284afe10224a675cf754280ab72015f0bce89c347711dfa",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 1940236
+      },
+      "channel-banner-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-B-imagegen-source.png",
+        "sha256": "219931b1d00b816c044ddd50b7a729f7f2568b6197750dde89c5deb59b9308cc",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2307769
+      },
+      "channel-banner-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-C-imagegen-source.png",
+        "sha256": "b68de07fa732ca2999109b528d227382539c88e6290b013ac9355630a51e943f",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2629318
+      },
+      "youtube-podcast-playlist-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-A-imagegen-source.png",
+        "sha256": "d05db21278d4e9c75d1594acd97b623f3e536fe026dfd17762d8b8b7001887ef",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "bytes": 2151747
+      },
+      "youtube-podcast-playlist-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-B-imagegen-source.png",
+        "sha256": "f44f0c154ca3d245f409aa70eb175746f992ad8cb34c1012dd81a5c46e641a9c",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "bytes": 2121800
+      },
+      "youtube-podcast-playlist-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-C-imagegen-source.png",
+        "sha256": "3ac68b97774b29050aa4f8ccd63e120270864533e38569331b22e1a25e738340",
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGB",
+        "bytes": 2223054
+      },
+      "video-thumbnail-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-A-imagegen-source.png",
+        "sha256": "1adb0a5908dbe6812cda477a14b78a6fb5511d7c466f4d710154f6f6577aee21",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2373468
+      },
+      "video-thumbnail-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-B-imagegen-source.png",
+        "sha256": "2a96082b10114daa97ceee6d4a55103203142a70962d865a90a1567ee4dc5978",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2469555
+      },
+      "video-thumbnail-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-C-imagegen-source.png",
+        "sha256": "9b00e25a5a84b4cb0f54a16061a78a8649c081addc610f49eba46054ad0c4e65",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 2601483
+      },
+      "shorts-cover-frame-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-A-imagegen-source.png",
+        "sha256": "b99faeffccc24145d9fe5468604db080cae111a0393e7281c6b8a91155884f3d",
+        "width": 941,
+        "height": 1672,
+        "mode": "RGB",
+        "bytes": 2149898
+      },
+      "shorts-cover-frame-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-B-imagegen-source.png",
+        "sha256": "7e6ccdd92e13c38a0c3d17839967dce7c5ea1b7f2a116713dfe2e05da5051aa7",
+        "width": 941,
+        "height": 1672,
+        "mode": "RGB",
+        "bytes": 2396264
+      },
+      "shorts-cover-frame-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-C-imagegen-source.png",
+        "sha256": "d3889fd0416a90e8b9edf18c424031fc22e5be2dfc970ee3c2e72035accea79e",
+        "width": 941,
+        "height": 1672,
+        "mode": "RGB",
+        "bytes": 2350816
+      }
+    },
+    "normalized_mockups": {
+      "channel-banner-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-A-normalized.png",
+        "sha256": "8acb996d38d1d6d0d5944d5e165442e4e33292dc15e79934abc2f25cb8c4e8ef",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 3495581
+      },
+      "channel-banner-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-B-normalized.png",
+        "sha256": "c7132b02e134d060cb2d76395287e9e56c5c9e36ff923caf6ed5a428d1ea3bdc",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 4303601
+      },
+      "channel-banner-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/channel-banner/channel-banner-C-normalized.png",
+        "sha256": "e1bf50e0a8065c5654d1b89e5a54ea964f8cc9572d6fc4f29e44468d553289a6",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 5002696
+      },
+      "youtube-podcast-playlist-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-A-normalized.png",
+        "sha256": "b49b633f102340ce6ae6876f42707203f3e94dec12ede62d447899410589e6db",
+        "width": 1280,
+        "height": 1280,
+        "mode": "RGB",
+        "bytes": 2140029
+      },
+      "youtube-podcast-playlist-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-B-normalized.png",
+        "sha256": "1c0d56a8a2181b19ad623a828e58993f6734fe66c23c5e6e36fa6f6a1396cbea",
+        "width": 1280,
+        "height": 1280,
+        "mode": "RGB",
+        "bytes": 2123053
+      },
+      "youtube-podcast-playlist-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/youtube-podcast-playlist/youtube-podcast-playlist-C-normalized.png",
+        "sha256": "3e456ef748cbe16847c1f596e6d6e3fad11b8fe738f36bb6fd7d408ef8217359",
+        "width": 1280,
+        "height": 1280,
+        "mode": "RGB",
+        "bytes": 2215262
+      },
+      "video-thumbnail-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-A-normalized.png",
+        "sha256": "0b79f830967d42fc87ba37fe7a99f213a30642c8791504e4bb18337d936ad314",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGB",
+        "bytes": 7823712
+      },
+      "video-thumbnail-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-B-normalized.png",
+        "sha256": "823d0a00211ef79e477b5dc7788edeed3818aaa4dd491b61f812f12265c1e17b",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGB",
+        "bytes": 8231521
+      },
+      "video-thumbnail-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/video-thumbnail/video-thumbnail-C-normalized.png",
+        "sha256": "db43cd9611f85a8c2d6d77389955e06c98d1f3868f22ccfd9de8f65c1a2bce70",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGB",
+        "bytes": 8783442
+      },
+      "shorts-cover-frame-A": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-A-normalized.png",
+        "sha256": "00a50a6f29fdb33c832d492d27fbf602950a36a0a077f4c0df968330ca2cf8bd",
+        "width": 1080,
+        "height": 1920,
+        "mode": "RGB",
+        "bytes": 2571762
+      },
+      "shorts-cover-frame-B": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-B-normalized.png",
+        "sha256": "717c3f5612f8539435ec9a3e0ea937f1c9af668f294d615aed3248ffe644d3ef",
+        "width": 1080,
+        "height": 1920,
+        "mode": "RGB",
+        "bytes": 2855894
+      },
+      "shorts-cover-frame-C": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/mockups/shorts-cover-frame/shorts-cover-frame-C-normalized.png",
+        "sha256": "4c13919dac148df7888b0840abdc1322f378d380c1632541857167ca4a881dad",
+        "width": 1080,
+        "height": 1920,
+        "mode": "RGB",
+        "bytes": 2823788
+      }
+    },
+    "previews": {
+      "previews/channel-banner-A-preview-1280x720.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/channel-banner-A-preview-1280x720.png",
+        "sha256": "aa7f603b08a2d567dd36e68f29216fce549bb5e7a6b4590043c5419052697102",
+        "width": 1280,
+        "height": 720,
+        "mode": "RGB",
+        "bytes": 1122656
+      },
+      "previews/channel-banner-A-safe-zone-overlay-2560x1440.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/channel-banner-A-safe-zone-overlay-2560x1440.png",
+        "sha256": "db89f04b4457225cb5d651667637d398e2522cd4f794dbcce39b05992487f0ce",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 3471981
+      },
+      "previews/channel-banner-B-preview-1280x720.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/channel-banner-B-preview-1280x720.png",
+        "sha256": "9eb20334d520f1cbd09792bd2dc566ec8ab0fc832bb96fe0dd6f024a0071d958",
+        "width": 1280,
+        "height": 720,
+        "mode": "RGB",
+        "bytes": 1343465
+      },
+      "previews/channel-banner-B-safe-zone-overlay-2560x1440.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/channel-banner-B-safe-zone-overlay-2560x1440.png",
+        "sha256": "e8af5609434be0950e04285ca211012cd8d086af9416a5151b8ed9f19425b49f",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 4276007
+      },
+      "previews/channel-banner-C-preview-1280x720.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/channel-banner-C-preview-1280x720.png",
+        "sha256": "e79bb79f79e20ad6c906fdc6a13fc76388163f022fdc2c026de96bddf0e6e783",
+        "width": 1280,
+        "height": 720,
+        "mode": "RGB",
+        "bytes": 1542753
+      },
+      "previews/channel-banner-C-safe-zone-overlay-2560x1440.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/channel-banner-C-safe-zone-overlay-2560x1440.png",
+        "sha256": "c2ede2024208d935277e3ecb4239b07b02d67c856ed42c84fc7acaba981abe1d",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 4964124
+      },
+      "previews/shorts-cover-frame-A-preview-270x480.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/shorts-cover-frame-A-preview-270x480.png",
+        "sha256": "b05387a278e287076f4ac0be6febf8e163b347fbcd6879f32f94d56a643df572",
+        "width": 270,
+        "height": 480,
+        "mode": "RGB",
+        "bytes": 160792
+      },
+      "previews/shorts-cover-frame-A-safe-zone-overlay-1080x1920.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/shorts-cover-frame-A-safe-zone-overlay-1080x1920.png",
+        "sha256": "6256da2e9ce7888d4e5af5a8fc80e9766bacd0470a44ef3f74855c8b9d6d1256",
+        "width": 1080,
+        "height": 1920,
+        "mode": "RGB",
+        "bytes": 2564704
+      },
+      "previews/shorts-cover-frame-B-preview-270x480.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/shorts-cover-frame-B-preview-270x480.png",
+        "sha256": "ccbbf7b80965380f3ddf2be0f3bb21b6e75455860701a3388e510b6c92ccb412",
+        "width": 270,
+        "height": 480,
+        "mode": "RGB",
+        "bytes": 195629
+      },
+      "previews/shorts-cover-frame-B-safe-zone-overlay-1080x1920.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/shorts-cover-frame-B-safe-zone-overlay-1080x1920.png",
+        "sha256": "744b8a326eb6c00eaab8f487f2a2dce075c6fe2a84e45e2fb31e93d9362c3ce5",
+        "width": 1080,
+        "height": 1920,
+        "mode": "RGB",
+        "bytes": 2848954
+      },
+      "previews/shorts-cover-frame-C-preview-270x480.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/shorts-cover-frame-C-preview-270x480.png",
+        "sha256": "680d438f4fac52398b1b9a450c5563102bf7c97d47de7af356a3ffede589f9ca",
+        "width": 270,
+        "height": 480,
+        "mode": "RGB",
+        "bytes": 191981
+      },
+      "previews/shorts-cover-frame-C-safe-zone-overlay-1080x1920.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/shorts-cover-frame-C-safe-zone-overlay-1080x1920.png",
+        "sha256": "fddce0453f6e7cad0b2ffe42ef242749c710dfe1511ed40dd2b4bb90b93308d9",
+        "width": 1080,
+        "height": 1920,
+        "mode": "RGB",
+        "bytes": 2815195
+      },
+      "previews/video-thumbnail-A-preview-168x94.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-A-preview-168x94.png",
+        "sha256": "e4676fd0cbc643ea69caff97a30f9624a7e3120936e5eb34b7adc2b0be9af7d3",
+        "width": 168,
+        "height": 94,
+        "mode": "RGB",
+        "bytes": 31341
+      },
+      "previews/video-thumbnail-A-preview-320x180.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-A-preview-320x180.png",
+        "sha256": "d719aaa335acc1557b36fa1173bbb48abf6977ee98e3e03a07e15c09be7ef769",
+        "width": 320,
+        "height": 180,
+        "mode": "RGB",
+        "bytes": 97577
+      },
+      "previews/video-thumbnail-A-safe-zone-overlay-3840x2160.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-A-safe-zone-overlay-3840x2160.png",
+        "sha256": "98beee9abd4f867ed823aba0c6f03b819029cd2b9911d6d0f3d0228904c2f6b2",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGB",
+        "bytes": 7754582
+      },
+      "previews/video-thumbnail-B-preview-168x94.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-B-preview-168x94.png",
+        "sha256": "5664cf1137b96e9b09e6dbfc67408482491fef9a102d6079732672c3fd8a7ce5",
+        "width": 168,
+        "height": 94,
+        "mode": "RGB",
+        "bytes": 29975
+      },
+      "previews/video-thumbnail-B-preview-320x180.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-B-preview-320x180.png",
+        "sha256": "1e52ff4d0795c2ecb0bbe94000f4441d14572c943706a541b512c9ecba5c54ca",
+        "width": 320,
+        "height": 180,
+        "mode": "RGB",
+        "bytes": 94171
+      },
+      "previews/video-thumbnail-B-safe-zone-overlay-3840x2160.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-B-safe-zone-overlay-3840x2160.png",
+        "sha256": "5392bfeefcf62909cd06421e9a7d4e885fca1ddaea27c48eb9ded04cbd96006d",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGB",
+        "bytes": 8152553
+      },
+      "previews/video-thumbnail-C-preview-168x94.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-C-preview-168x94.png",
+        "sha256": "f2aa8288291285e4a143e5a8de9b383e86b1bf65c532c94544eb12d6ba76c33b",
+        "width": 168,
+        "height": 94,
+        "mode": "RGB",
+        "bytes": 31130
+      },
+      "previews/video-thumbnail-C-preview-320x180.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-C-preview-320x180.png",
+        "sha256": "5ae3802dc5ca1f13834ef7632f46137a48fabf84e4a803b07922217598d54190",
+        "width": 320,
+        "height": 180,
+        "mode": "RGB",
+        "bytes": 99033
+      },
+      "previews/video-thumbnail-C-safe-zone-overlay-3840x2160.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/video-thumbnail-C-safe-zone-overlay-3840x2160.png",
+        "sha256": "85db25f24f71b3699c5925b0c7c3b276a599a59264b6d95a31aaa4e7efed724a",
+        "width": 3840,
+        "height": 2160,
+        "mode": "RGB",
+        "bytes": 8713654
+      },
+      "previews/youtube-podcast-playlist-A-preview-168x168.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-A-preview-168x168.png",
+        "sha256": "73f285ab097934d18f9a061407947233c7fe3e9db4370bc53694d5aefbb0f5af",
+        "width": 168,
+        "height": 168,
+        "mode": "RGB",
+        "bytes": 47903
+      },
+      "previews/youtube-podcast-playlist-A-preview-320x320.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-A-preview-320x320.png",
+        "sha256": "bbeec0eeff500970d1512be72377ea60c0d0c6de546a5c1381a86fc695265325",
+        "width": 320,
+        "height": 320,
+        "mode": "RGB",
+        "bytes": 149084
+      },
+      "previews/youtube-podcast-playlist-A-safe-zone-overlay-1280x1280.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-A-safe-zone-overlay-1280x1280.png",
+        "sha256": "2b5ee7c9d0d164db8b429eebda607016c4d7f4f3ddba5cb38d91019bceea8eb3",
+        "width": 1280,
+        "height": 1280,
+        "mode": "RGB",
+        "bytes": 2136700
+      },
+      "previews/youtube-podcast-playlist-B-preview-168x168.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-B-preview-168x168.png",
+        "sha256": "dfd1edbe3f0ac012a0c5b753ef07986ddc77759c0bd0c0f96036f3f228264755",
+        "width": 168,
+        "height": 168,
+        "mode": "RGB",
+        "bytes": 45582
+      },
+      "previews/youtube-podcast-playlist-B-preview-320x320.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-B-preview-320x320.png",
+        "sha256": "7777f062de45a6e2a4d777be76ab3b6b622151609aa7965c9ea84e0790485706",
+        "width": 320,
+        "height": 320,
+        "mode": "RGB",
+        "bytes": 141848
+      },
+      "previews/youtube-podcast-playlist-B-safe-zone-overlay-1280x1280.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-B-safe-zone-overlay-1280x1280.png",
+        "sha256": "0fc6688bc5740a8678f3f0c839a3a5f8e0304f79462d5551fd3849110d7d2808",
+        "width": 1280,
+        "height": 1280,
+        "mode": "RGB",
+        "bytes": 2104689
+      },
+      "previews/youtube-podcast-playlist-C-preview-168x168.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-C-preview-168x168.png",
+        "sha256": "dabda9130bad34f22a7bb224bf06cfd4d8f2a2985dd8c90ca74c991f4a3d6c0c",
+        "width": 168,
+        "height": 168,
+        "mode": "RGB",
+        "bytes": 47576
+      },
+      "previews/youtube-podcast-playlist-C-preview-320x320.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-C-preview-320x320.png",
+        "sha256": "f1cda5f4a7179b61e7545293294e9065f9fc04d18152f443749e4b8e0aa7f5a1",
+        "width": 320,
+        "height": 320,
+        "mode": "RGB",
+        "bytes": 150544
+      },
+      "previews/youtube-podcast-playlist-C-safe-zone-overlay-1280x1280.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/previews/youtube-podcast-playlist-C-safe-zone-overlay-1280x1280.png",
+        "sha256": "04a797394a42e9e12ef8c021344b6c0ddb31689ba11cc6d6f9af179679c88cec",
+        "width": 1280,
+        "height": 1280,
+        "mode": "RGB",
+        "bytes": 2207675
+      }
+    },
+    "qa": {
+      "qa/channel-banner-abc-contact-sheet.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/qa/channel-banner-abc-contact-sheet.png",
+        "sha256": "fbb37d0aaa93e5856a88cee37483856afde7b88fc6562388c1acc1ffae8f8ce7",
+        "width": 1800,
+        "height": 900,
+        "mode": "RGB",
+        "bytes": 671894
+      },
+      "qa/shorts-cover-frame-abc-contact-sheet.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/qa/shorts-cover-frame-abc-contact-sheet.png",
+        "sha256": "2f1645d2ee261752cf54e6379e88622a821536848feb67cb5ab0767a9b54d4dd",
+        "width": 1800,
+        "height": 900,
+        "mode": "RGB",
+        "bytes": 862088
+      },
+      "qa/video-thumbnail-abc-contact-sheet.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/qa/video-thumbnail-abc-contact-sheet.png",
+        "sha256": "7254d7dd400a790085528d3786dd1708b7e0fd075f441f90282885a1b1ccf00e",
+        "width": 1800,
+        "height": 900,
+        "mode": "RGB",
+        "bytes": 707566
+      },
+      "qa/youtube-brand-imagegen-challenger-master-contact-sheet.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/qa/youtube-brand-imagegen-challenger-master-contact-sheet.png",
+        "sha256": "60ebb55af167fc7476ca160e0f127bd5b5fd2fd77c4079ba930d9a264b9b476f",
+        "width": 2100,
+        "height": 2600,
+        "mode": "RGB",
+        "bytes": 3398421
+      },
+      "qa/youtube-podcast-playlist-abc-contact-sheet.png": {
+        "path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_brand_mockups_imagegen_challenger_20260513T205654Z/qa/youtube-podcast-playlist-abc-contact-sheet.png",
+        "sha256": "5b4e3ef866b6f5436bf59555ca16793f28a3d937e3b7d9e0148427a660981edc",
+        "width": 1800,
+        "height": 900,
+        "mode": "RGB",
+        "bytes": 1095336
+      }
+    }
+  },
+  "qa_reads": {
+    "image_gen_tool_provenance_read": "pass",
+    "reference_paths_read": "pass",
+    "generated_visual_count_read": "pass_12_generated_visuals",
+    "channel_banner_mockup_count_read": "pass_3_variants",
+    "podcast_playlist_mockup_count_read": "pass_3_variants",
+    "video_thumbnail_mockup_count_read": "pass_3_variants",
+    "shorts_cover_frame_mockup_count_read": "pass_3_variants",
+    "channel_banner_dimensions_read": "pass_2560x1440_normalized",
+    "podcast_playlist_square_read": "pass_1280x1280_normalized",
+    "video_thumbnail_dimensions_read": "pass_3840x2160_normalized",
+    "video_thumbnail_320_read": "pass_previews_generated",
+    "video_thumbnail_168_read": "pass_previews_generated",
+    "shorts_cover_frame_dimensions_read": "pass_1080x1920_normalized",
+    "shorts_phone_safe_overlay_read": "pass_previews_generated",
+    "generated_text_review_read": "pass_review_required_not_publish_exact",
+    "thumbnail_channel_title_logo_absence_read": "pass_no_cascade_effects_or_ce_logo_requested_or_observed_in_episode_mockups",
+    "shorts_channel_title_logo_absence_read": "pass_no_cascade_effects_or_ce_logo_requested_or_observed_in_episode_mockups",
+    "brand_style_alignment_read": "pass_exploratory_ink_lit_paper_architecture",
+    "waterfall_liquid_path_read": "pass_no_literal_water_signal_paths_observed",
+    "texture_noise_read": "pass_exploratory_clean_surface_read",
+    "generic_homepage_crop_reuse_read": "pass_generated_new_mockups_not_homepage_crops",
+    "youtube_upload_mutation_read": "pass_no_upload"
+  },
+  "review_notes": [
+    "This package is exploratory and not a publish candidate.",
+    "Generated text appears generally readable in review sheets, but exact title/hook typography remains image_gen text and must be rechecked or repaired before any publish package.",
+    "Thumbnail and Shorts directions are Challenger episode-content-led and intentionally omit generic channel title/logo treatment.",
+    "Channel banner and podcast variants are title-bearing channel identity mockups; some variants include broader channel-symbol subjects and should be selected or tightened by human review."
+  ],
+  "rollout": {
+    "youtube_channel_updated": false,
+    "youtube_banner_updated": false,
+    "youtube_thumbnail_updated": false,
+    "youtube_shorts_cover_updated": false,
+    "youtube_podcast_playlist_updated": false,
+    "youtube_watermark_updated": false,
+    "mp4_updated": false,
+    "manual_youtube_studio_upload_required": false
+  }
+}

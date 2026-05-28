@@ -1,0 +1,796 @@
+{
+  "url": "http://127.0.0.1:8826/player.html",
+  "samples": [
+    {
+      "title": "Patient or Machine",
+      "caption": "",
+      "captionEmpty": "true",
+      "staleLabelDetected": false,
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "visibleCueOverlayAbsent": true,
+      "effectDebugOverlayAbsent": true,
+      "activePanelBackground": "rgba(35, 30, 26, 0.88)",
+      "railPanelPaletteIntegrated": true,
+      "endOpacity": "0",
+      "railOpacity": "1",
+      "time": 0,
+      "ambientCanvasNonBlankPixels": 1023,
+      "cyanDiagnosticPixelCount": 0,
+      "regionReads": {
+        "crt": {
+          "before": {
+            "alphaPixels": 14577,
+            "brightPixels": 13758,
+            "alphaSum": 317467,
+            "lumaSum": 186661,
+            "maxAlpha": 59
+          },
+          "after": {
+            "alphaPixels": 15010,
+            "brightPixels": 13644,
+            "alphaSum": 333403,
+            "lumaSum": 192787,
+            "maxAlpha": 48
+          },
+          "delta": {
+            "changedPixels": 8562,
+            "totalAbs": 662198,
+            "meanAbs": 21.62,
+            "maxAbs": 767
+          }
+        },
+        "crt_spill_guard": {
+          "before": {
+            "alphaPixels": 142,
+            "brightPixels": 9,
+            "alphaSum": 857,
+            "lumaSum": 344,
+            "maxAlpha": 10
+          },
+          "after": {
+            "alphaPixels": 48,
+            "brightPixels": 0,
+            "alphaSum": 298,
+            "lumaSum": 121,
+            "maxAlpha": 5
+          },
+          "delta": {
+            "changedPixels": 180,
+            "totalAbs": 35503,
+            "meanAbs": 2.29,
+            "maxAbs": 767
+          }
+        },
+        "control_lights": {
+          "before": {
+            "alphaPixels": 27178,
+            "brightPixels": 16525,
+            "alphaSum": 374949,
+            "lumaSum": 208097,
+            "maxAlpha": 62
+          },
+          "after": {
+            "alphaPixels": 26153,
+            "brightPixels": 16038,
+            "alphaSum": 380197,
+            "lumaSum": 212431,
+            "maxAlpha": 77
+          },
+          "delta": {
+            "changedPixels": 31172,
+            "totalAbs": 3878380,
+            "meanAbs": 65.18,
+            "maxAbs": 767
+          }
+        },
+        "top_left_monitor": {
+          "before": {
+            "alphaPixels": 7841,
+            "brightPixels": 7661,
+            "alphaSum": 192356,
+            "lumaSum": 98101,
+            "maxAlpha": 71
+          },
+          "after": {
+            "alphaPixels": 7823,
+            "brightPixels": 7096,
+            "alphaSum": 115227,
+            "lumaSum": 56752,
+            "maxAlpha": 30
+          },
+          "delta": {
+            "changedPixels": 7101,
+            "totalAbs": 308571,
+            "meanAbs": 12.97,
+            "maxAbs": 430
+          }
+        },
+        "machine_to_patient": {
+          "before": {
+            "alphaPixels": 20971,
+            "brightPixels": 18525,
+            "alphaSum": 1256778,
+            "lumaSum": 1142951,
+            "maxAlpha": 162
+          },
+          "after": {
+            "alphaPixels": 21003,
+            "brightPixels": 18572,
+            "alphaSum": 1266170,
+            "lumaSum": 1151085,
+            "maxAlpha": 159
+          },
+          "delta": {
+            "changedPixels": 3932,
+            "totalAbs": 290541,
+            "meanAbs": 9.27,
+            "maxAbs": 382
+          }
+        }
+      },
+      "userDirectedEffectsVisible": {
+        "crt_screen_full_runtime_activity_read": true,
+        "crt_mask_tightness_read": true,
+        "control_panel_light_blink_read": true,
+        "top_left_monitor_flicker_read": true,
+        "machine_to_patient_action_effect_read": true
+      },
+      "effectVisibilityRead": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/qa/screenshots/rough-proof-music-mix-0000.png"
+    },
+    {
+      "title": "The Hidden State",
+      "caption": "The Therac-25's software had a flaw that only appeared under",
+      "captionEmpty": "false",
+      "staleLabelDetected": false,
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "visibleCueOverlayAbsent": true,
+      "effectDebugOverlayAbsent": true,
+      "activePanelBackground": "rgba(35, 30, 26, 0.88)",
+      "railPanelPaletteIntegrated": true,
+      "endOpacity": "0",
+      "railOpacity": "1",
+      "time": 260.287,
+      "ambientCanvasNonBlankPixels": 1082,
+      "cyanDiagnosticPixelCount": 0,
+      "regionReads": {
+        "crt": {
+          "before": {
+            "alphaPixels": 15040,
+            "brightPixels": 14369,
+            "alphaSum": 353179,
+            "lumaSum": 206604,
+            "maxAlpha": 63
+          },
+          "after": {
+            "alphaPixels": 15485,
+            "brightPixels": 13911,
+            "alphaSum": 320181,
+            "lumaSum": 187563,
+            "maxAlpha": 48
+          },
+          "delta": {
+            "changedPixels": 9667,
+            "totalAbs": 864390,
+            "meanAbs": 28.22,
+            "maxAbs": 767
+          }
+        },
+        "crt_spill_guard": {
+          "before": {
+            "alphaPixels": 0,
+            "brightPixels": 0,
+            "alphaSum": 37,
+            "lumaSum": 13,
+            "maxAlpha": 1
+          },
+          "after": {
+            "alphaPixels": 6,
+            "brightPixels": 0,
+            "alphaSum": 87,
+            "lumaSum": 31,
+            "maxAlpha": 4
+          },
+          "delta": {
+            "changedPixels": 32,
+            "totalAbs": 9143,
+            "meanAbs": 0.59,
+            "maxAbs": 766
+          }
+        },
+        "control_lights": {
+          "before": {
+            "alphaPixels": 25570,
+            "brightPixels": 13772,
+            "alphaSum": 274815,
+            "lumaSum": 151483,
+            "maxAlpha": 52
+          },
+          "after": {
+            "alphaPixels": 28910,
+            "brightPixels": 20259,
+            "alphaSum": 448516,
+            "lumaSum": 250173,
+            "maxAlpha": 72
+          },
+          "delta": {
+            "changedPixels": 32394,
+            "totalAbs": 4030035,
+            "meanAbs": 67.73,
+            "maxAbs": 767
+          }
+        },
+        "top_left_monitor": {
+          "before": {
+            "alphaPixels": 7952,
+            "brightPixels": 7430,
+            "alphaSum": 128200,
+            "lumaSum": 64266,
+            "maxAlpha": 35
+          },
+          "after": {
+            "alphaPixels": 7952,
+            "brightPixels": 7462,
+            "alphaSum": 129164,
+            "lumaSum": 65209,
+            "maxAlpha": 33
+          },
+          "delta": {
+            "changedPixels": 548,
+            "totalAbs": 46463,
+            "meanAbs": 1.95,
+            "maxAbs": 265
+          }
+        },
+        "machine_to_patient": {
+          "before": {
+            "alphaPixels": 20876,
+            "brightPixels": 18595,
+            "alphaSum": 1275999,
+            "lumaSum": 1160140,
+            "maxAlpha": 161
+          },
+          "after": {
+            "alphaPixels": 20817,
+            "brightPixels": 18504,
+            "alphaSum": 1242388,
+            "lumaSum": 1130040,
+            "maxAlpha": 166
+          },
+          "delta": {
+            "changedPixels": 5136,
+            "totalAbs": 394184,
+            "meanAbs": 12.57,
+            "maxAbs": 510
+          }
+        }
+      },
+      "userDirectedEffectsVisible": {
+        "crt_screen_full_runtime_activity_read": true,
+        "crt_mask_tightness_read": true,
+        "control_panel_light_blink_read": true,
+        "top_left_monitor_flicker_read": true,
+        "machine_to_patient_action_effect_read": true
+      },
+      "effectVisibilityRead": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/qa/screenshots/rough-proof-music-mix-0420.png"
+    },
+    {
+      "title": "The Burden of Proof",
+      "caption": "The investigation that finally exposed the full scope of the",
+      "captionEmpty": "false",
+      "staleLabelDetected": false,
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "visibleCueOverlayAbsent": true,
+      "effectDebugOverlayAbsent": true,
+      "activePanelBackground": "rgba(35, 30, 26, 0.88)",
+      "railPanelPaletteIntegrated": true,
+      "endOpacity": "0",
+      "railOpacity": "1",
+      "time": 710.468,
+      "ambientCanvasNonBlankPixels": 984,
+      "cyanDiagnosticPixelCount": 0,
+      "regionReads": {
+        "crt": {
+          "before": {
+            "alphaPixels": 14741,
+            "brightPixels": 13730,
+            "alphaSum": 328148,
+            "lumaSum": 189926,
+            "maxAlpha": 53
+          },
+          "after": {
+            "alphaPixels": 14798,
+            "brightPixels": 13886,
+            "alphaSum": 328402,
+            "lumaSum": 193024,
+            "maxAlpha": 56
+          },
+          "delta": {
+            "changedPixels": 7473,
+            "totalAbs": 451916,
+            "meanAbs": 14.76,
+            "maxAbs": 766
+          }
+        },
+        "crt_spill_guard": {
+          "before": {
+            "alphaPixels": 132,
+            "brightPixels": 0,
+            "alphaSum": 725,
+            "lumaSum": 295,
+            "maxAlpha": 8
+          },
+          "after": {
+            "alphaPixels": 0,
+            "brightPixels": 0,
+            "alphaSum": 75,
+            "lumaSum": 28,
+            "maxAlpha": 2
+          },
+          "delta": {
+            "changedPixels": 220,
+            "totalAbs": 69239,
+            "meanAbs": 4.47,
+            "maxAbs": 766
+          }
+        },
+        "control_lights": {
+          "before": {
+            "alphaPixels": 26770,
+            "brightPixels": 16126,
+            "alphaSum": 340747,
+            "lumaSum": 189123,
+            "maxAlpha": 60
+          },
+          "after": {
+            "alphaPixels": 23932,
+            "brightPixels": 12817,
+            "alphaSum": 282188,
+            "lumaSum": 156945,
+            "maxAlpha": 56
+          },
+          "delta": {
+            "changedPixels": 26314,
+            "totalAbs": 2946004,
+            "meanAbs": 49.51,
+            "maxAbs": 767
+          }
+        },
+        "top_left_monitor": {
+          "before": {
+            "alphaPixels": 7882,
+            "brightPixels": 7185,
+            "alphaSum": 113589,
+            "lumaSum": 56065,
+            "maxAlpha": 30
+          },
+          "after": {
+            "alphaPixels": 7882,
+            "brightPixels": 7178,
+            "alphaSum": 113484,
+            "lumaSum": 55948,
+            "maxAlpha": 29
+          },
+          "delta": {
+            "changedPixels": 393,
+            "totalAbs": 30762,
+            "meanAbs": 1.29,
+            "maxAbs": 283
+          }
+        },
+        "machine_to_patient": {
+          "before": {
+            "alphaPixels": 20594,
+            "brightPixels": 18026,
+            "alphaSum": 1043551,
+            "lumaSum": 945358,
+            "maxAlpha": 143
+          },
+          "after": {
+            "alphaPixels": 20748,
+            "brightPixels": 18231,
+            "alphaSum": 1130716,
+            "lumaSum": 1026644,
+            "maxAlpha": 153
+          },
+          "delta": {
+            "changedPixels": 7066,
+            "totalAbs": 566093,
+            "meanAbs": 18.06,
+            "maxAbs": 511
+          }
+        }
+      },
+      "userDirectedEffectsVisible": {
+        "crt_screen_full_runtime_activity_read": true,
+        "crt_mask_tightness_read": true,
+        "control_panel_light_blink_read": true,
+        "top_left_monitor_flicker_read": true,
+        "machine_to_patient_action_effect_read": true
+      },
+      "effectVisibilityRead": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/qa/screenshots/rough-proof-music-mix-1150.png"
+    },
+    {
+      "title": "Trust Is Not Safety",
+      "caption": "The Therac-25 is now one of the most cited case",
+      "captionEmpty": "false",
+      "staleLabelDetected": false,
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "visibleCueOverlayAbsent": true,
+      "effectDebugOverlayAbsent": true,
+      "activePanelBackground": "rgba(35, 30, 26, 0.88)",
+      "railPanelPaletteIntegrated": true,
+      "endOpacity": "0",
+      "railOpacity": "1",
+      "time": 895.118,
+      "ambientCanvasNonBlankPixels": 1029,
+      "cyanDiagnosticPixelCount": 0,
+      "regionReads": {
+        "crt": {
+          "before": {
+            "alphaPixels": 15656,
+            "brightPixels": 14290,
+            "alphaSum": 354197,
+            "lumaSum": 206798,
+            "maxAlpha": 59
+          },
+          "after": {
+            "alphaPixels": 15297,
+            "brightPixels": 13727,
+            "alphaSum": 316470,
+            "lumaSum": 183082,
+            "maxAlpha": 49
+          },
+          "delta": {
+            "changedPixels": 9421,
+            "totalAbs": 707274,
+            "meanAbs": 23.09,
+            "maxAbs": 767
+          }
+        },
+        "crt_spill_guard": {
+          "before": {
+            "alphaPixels": 2,
+            "brightPixels": 0,
+            "alphaSum": 30,
+            "lumaSum": 10,
+            "maxAlpha": 3
+          },
+          "after": {
+            "alphaPixels": 226,
+            "brightPixels": 16,
+            "alphaSum": 1373,
+            "lumaSum": 575,
+            "maxAlpha": 10
+          },
+          "delta": {
+            "changedPixels": 316,
+            "totalAbs": 104978,
+            "meanAbs": 6.77,
+            "maxAbs": 766
+          }
+        },
+        "control_lights": {
+          "before": {
+            "alphaPixels": 28666,
+            "brightPixels": 18987,
+            "alphaSum": 488254,
+            "lumaSum": 274014,
+            "maxAlpha": 89
+          },
+          "after": {
+            "alphaPixels": 25747,
+            "brightPixels": 17472,
+            "alphaSum": 419239,
+            "lumaSum": 234213,
+            "maxAlpha": 78
+          },
+          "delta": {
+            "changedPixels": 30025,
+            "totalAbs": 3361531,
+            "meanAbs": 56.5,
+            "maxAbs": 767
+          }
+        },
+        "top_left_monitor": {
+          "before": {
+            "alphaPixels": 7922,
+            "brightPixels": 7317,
+            "alphaSum": 118980,
+            "lumaSum": 60561,
+            "maxAlpha": 35
+          },
+          "after": {
+            "alphaPixels": 7922,
+            "brightPixels": 7314,
+            "alphaSum": 118947,
+            "lumaSum": 60449,
+            "maxAlpha": 36
+          },
+          "delta": {
+            "changedPixels": 637,
+            "totalAbs": 38139,
+            "meanAbs": 1.6,
+            "maxAbs": 208
+          }
+        },
+        "machine_to_patient": {
+          "before": {
+            "alphaPixels": 20597,
+            "brightPixels": 18078,
+            "alphaSum": 1059684,
+            "lumaSum": 960749,
+            "maxAlpha": 139
+          },
+          "after": {
+            "alphaPixels": 20708,
+            "brightPixels": 18252,
+            "alphaSum": 1128029,
+            "lumaSum": 1023820,
+            "maxAlpha": 152
+          },
+          "delta": {
+            "changedPixels": 6447,
+            "totalAbs": 512114,
+            "meanAbs": 16.34,
+            "maxAbs": 511
+          }
+        }
+      },
+      "userDirectedEffectsVisible": {
+        "crt_screen_full_runtime_activity_read": true,
+        "crt_mask_tightness_read": true,
+        "control_panel_light_blink_read": true,
+        "top_left_monitor_flicker_read": true,
+        "machine_to_patient_action_effect_read": true
+      },
+      "effectVisibilityRead": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/qa/screenshots/rough-proof-music-mix-1455.png"
+    },
+    {
+      "title": "Trust Is Not Safety",
+      "caption": "",
+      "captionEmpty": "true",
+      "staleLabelDetected": false,
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "visibleCueOverlayAbsent": true,
+      "effectDebugOverlayAbsent": true,
+      "activePanelBackground": "rgba(35, 30, 26, 0.88)",
+      "railPanelPaletteIntegrated": true,
+      "endOpacity": "1",
+      "railOpacity": ".08",
+      "time": 1082.26,
+      "ambientCanvasNonBlankPixels": 1045,
+      "cyanDiagnosticPixelCount": 0,
+      "regionReads": {
+        "crt": {
+          "before": {
+            "alphaPixels": 15626,
+            "brightPixels": 13506,
+            "alphaSum": 286860,
+            "lumaSum": 168533,
+            "maxAlpha": 53
+          },
+          "after": {
+            "alphaPixels": 15148,
+            "brightPixels": 14249,
+            "alphaSum": 350229,
+            "lumaSum": 200858,
+            "maxAlpha": 53
+          },
+          "delta": {
+            "changedPixels": 11622,
+            "totalAbs": 770025,
+            "meanAbs": 25.14,
+            "maxAbs": 766
+          }
+        },
+        "crt_spill_guard": {
+          "before": {
+            "alphaPixels": 19,
+            "brightPixels": 0,
+            "alphaSum": 119,
+            "lumaSum": 42,
+            "maxAlpha": 5
+          },
+          "after": {
+            "alphaPixels": 47,
+            "brightPixels": 0,
+            "alphaSum": 380,
+            "lumaSum": 149,
+            "maxAlpha": 6
+          },
+          "delta": {
+            "changedPixels": 157,
+            "totalAbs": 51124,
+            "meanAbs": 3.3,
+            "maxAbs": 766
+          }
+        },
+        "control_lights": {
+          "before": {
+            "alphaPixels": 27594,
+            "brightPixels": 19547,
+            "alphaSum": 460731,
+            "lumaSum": 257434,
+            "maxAlpha": 84
+          },
+          "after": {
+            "alphaPixels": 27195,
+            "brightPixels": 19277,
+            "alphaSum": 430868,
+            "lumaSum": 239299,
+            "maxAlpha": 69
+          },
+          "delta": {
+            "changedPixels": 28328,
+            "totalAbs": 3257442,
+            "meanAbs": 54.75,
+            "maxAbs": 767
+          }
+        },
+        "top_left_monitor": {
+          "before": {
+            "alphaPixels": 7922,
+            "brightPixels": 7321,
+            "alphaSum": 129187,
+            "lumaSum": 65486,
+            "maxAlpha": 40
+          },
+          "after": {
+            "alphaPixels": 7931,
+            "brightPixels": 7831,
+            "alphaSum": 192612,
+            "lumaSum": 100797,
+            "maxAlpha": 71
+          },
+          "delta": {
+            "changedPixels": 6408,
+            "totalAbs": 285769,
+            "meanAbs": 12.01,
+            "maxAbs": 374
+          }
+        },
+        "machine_to_patient": {
+          "before": {
+            "alphaPixels": 20544,
+            "brightPixels": 17980,
+            "alphaSum": 1028275,
+            "lumaSum": 932452,
+            "maxAlpha": 144
+          },
+          "after": {
+            "alphaPixels": 20780,
+            "brightPixels": 18337,
+            "alphaSum": 1151853,
+            "lumaSum": 1045185,
+            "maxAlpha": 147
+          },
+          "delta": {
+            "changedPixels": 9668,
+            "totalAbs": 723804,
+            "meanAbs": 23.09,
+            "maxAbs": 512
+          }
+        }
+      },
+      "userDirectedEffectsVisible": {
+        "crt_screen_full_runtime_activity_read": true,
+        "crt_mask_tightness_read": true,
+        "control_panel_light_blink_read": true,
+        "top_left_monitor_flicker_read": true,
+        "machine_to_patient_action_effect_read": true
+      },
+      "effectVisibilityRead": true,
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep2_Therac-25/production/longform_v1/youtube/rough_assembly/therac_living_cover_music_mix_html_rough_proof_20260517T071901Z/qa/screenshots/rough-proof-music-mix-end.png"
+    }
+  ],
+  "viewportChecks": [
+    {
+      "label": "desktop_1920x1080",
+      "stage": {
+        "width": 1920,
+        "height": 1080
+      },
+      "frame": {
+        "width": 1920,
+        "height": 1080
+      },
+      "rail": {
+        "width": 760,
+        "height": 976
+      },
+      "frameAspectPass": true,
+      "visibleCueOverlayAbsent": true
+    },
+    {
+      "label": "review_1280x720",
+      "stage": {
+        "width": 1280,
+        "height": 720
+      },
+      "frame": {
+        "width": 1280,
+        "height": 720
+      },
+      "rail": {
+        "width": 507,
+        "height": 651
+      },
+      "frameAspectPass": true,
+      "visibleCueOverlayAbsent": true
+    }
+  ],
+  "consoleErrors": [],
+  "responses": [
+    {
+      "path": "player.html",
+      "status": 200
+    },
+    {
+      "path": "assets/source_art/variant_h_control_room_active_terminal_1920x1080.png",
+      "status": 200
+    },
+    {
+      "path": "assets/audio/Ep2_Therac-25.wav",
+      "status": 200
+    },
+    {
+      "path": "assets/captions/therac25_longform_script_locked.vtt",
+      "status": 200
+    },
+    {
+      "path": "references/living_cover_cue_map.json",
+      "status": 200
+    },
+    {
+      "path": "references/living_cover_ambient_effects_layer.json",
+      "status": 200
+    }
+  ],
+  "rangeProbe": {
+    "status": 206,
+    "contentRange": "bytes 0-1023/193380350",
+    "acceptRanges": "bytes",
+    "pass": true
+  },
+  "failedResponses": [],
+  "pass": true
+}

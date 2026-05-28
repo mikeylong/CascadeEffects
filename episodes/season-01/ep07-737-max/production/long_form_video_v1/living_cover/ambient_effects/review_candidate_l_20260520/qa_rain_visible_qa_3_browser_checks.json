@@ -1,0 +1,103 @@
+{
+  "qa_id": "737_max_rain_visible_qa_3",
+  "review_url": "http://127.0.0.1:8872/review.html?v=rain-visible-qa-3",
+  "sample_time_seconds": 120,
+  "viewport": [
+    1280,
+    720
+  ],
+  "rain_layer_implementation": {
+    "source_transform_registered_read": "pass_glass_canvas_uses_same_drift_scale_as_source_plate",
+    "runner_count": 112,
+    "pin_bead_count": 168,
+    "runner_speed_px_per_second": [
+      18,
+      52
+    ],
+    "runner_length_px": [
+      42,
+      132
+    ],
+    "runner_width_px": [
+      1.35,
+      3.65
+    ],
+    "runner_alpha": [
+      0.2,
+      0.44
+    ],
+    "pin_bead_alpha": [
+      0.055,
+      0.15
+    ],
+    "glass_runner_opacity": 0.98,
+    "accepted_occlusion_mask_preserved": true
+  },
+  "screenshot_delta_qa": {
+    "visible_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/ambient_effects/review_candidate_l_20260520/qa_rain_visible_qa_3_on_120s.png",
+    "hidden_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/ambient_effects/review_candidate_l_20260520/qa_rain_visible_qa_3_off_120s.png",
+    "delta_x8_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/living_cover/ambient_effects/review_candidate_l_20260520/qa_rain_visible_qa_3_delta_x8_120s.png",
+    "summary": {
+      "size": [
+        1280,
+        720
+      ],
+      "mean": [
+        0.172,
+        0.166,
+        0.158
+      ],
+      "rms": [
+        1.171,
+        1.23,
+        1.34
+      ],
+      "max": 74,
+      "counts": {
+        "1": 92206,
+        "2": 24397,
+        "4": 13855,
+        "8": 6077,
+        "12": 3334,
+        "16": 1948,
+        "24": 841,
+        "32": 274,
+        "48": 20,
+        "64": 3
+      }
+    },
+    "visibility_delta_read": "pass_viewport_on_off_delta_exceeds_visible_threshold",
+    "visibility_threshold": "max_diff >= 48 and pixels_delta_ge_8 >= 5000",
+    "visibility_result": "pass"
+  },
+  "canvas_motion_qa": {
+    "sample_times_seconds": [
+      0,
+      120,
+      121.5,
+      300,
+      820
+    ],
+    "canvas_motion_delta_120_to_121_5": {
+      "max_diff": 255,
+      "pixels_delta_ge_8": 67867,
+      "pixels_delta_ge_16": 63991,
+      "pixels_delta_ge_32": 51604
+    },
+    "motion_read": "pass_canvas_pixels_change_substantially_between_120s_and_121_5s"
+  },
+  "viewer_text_regression_qa": {
+    "caption_eyebrow_visible_read": "pass_absent",
+    "speaker_labels_visible_read": "pass_absent",
+    "debug_overlay_absence_read": "pass_no_debug_overlay_or_effect_labels_in_frame"
+  },
+  "gate_locks": {
+    "current_gate": "living_cover_ambient_effects_layer_keep",
+    "may_create_music_integration_contract": false,
+    "may_start_motion_readiness": false,
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  }
+}

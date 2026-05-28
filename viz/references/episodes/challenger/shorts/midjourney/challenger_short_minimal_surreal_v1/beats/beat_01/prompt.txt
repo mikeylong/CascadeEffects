@@ -1,0 +1,16 @@
+Midjourney reference upload order:
+1. beats/beat_01/references/01__act3_06.jpg
+2. beats/beat_01/references/02__act3_07.jpg
+3. beats/beat_01/references/03__act3_08.jpg
+
+Text prompt:
+ice on the pad and gantry steel on the Challenger launch morning. single off-center ice-laden gantry and pipe cluster occupying the left third against a winter field. left-third composition, one dominant subject, large empty field, vertical 9:16 frame. Palette limited to winter blue, off-white, charcoal, signal orange. the cold boundary presses into the frame as if it were a physical wall. Stillness, soft diffuse light, quiet suspended atmosphere.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

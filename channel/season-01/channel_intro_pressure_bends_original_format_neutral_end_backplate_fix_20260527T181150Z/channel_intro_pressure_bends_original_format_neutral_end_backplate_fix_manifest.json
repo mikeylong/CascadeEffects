@@ -1,0 +1,123 @@
+{
+  "artifact_id": "channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z",
+  "workflow": "channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_v1",
+  "created_at_utc": "2026-05-27T18:12:34Z",
+  "status": "local_review_auto_selected_backplate_candidate",
+  "lineage": {
+    "predecessor_package": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_piltdown_uncut_plate_fix_20260527T170946Z",
+    "predecessor_manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_piltdown_uncut_plate_fix_20260527T170946Z/channel_intro_pressure_bends_original_format_piltdown_uncut_plate_fix_manifest.json",
+    "predecessor_manifest_sha256": "ed79aa6779ce8340ed44d7973977a477425e2157f2e15407187115cbaaa07779",
+    "options_package_manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_end_screen_neutral_backplate_imagegen_options_20260527T180632Z/channel_intro_end_screen_neutral_backplate_imagegen_options_manifest.json",
+    "options_package_manifest_sha256": "947104ab522bbaf10a5fd3ece37f932a505f25674d0f09b1e0d25477c59bec96",
+    "selected_option_slug": "01_empty_evidence_stage",
+    "selected_option_label": "Empty Evidence Stage",
+    "selection_basis": "auto-selected strongest option by target-zone calmness; local review candidate only"
+  },
+  "selected_backplate": {
+    "source_option_slug": "01_empty_evidence_stage",
+    "source_option_label": "Empty Evidence Stage",
+    "backplate_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/source_art/selected_option_01_empty_evidence_stage_backplate_1920x1080.png",
+    "backplate_sha256": "57b24eaf40f1ed16efd80a77001bf01cb4d1e1e0afbf3ddcc1f8276c1443555f",
+    "adaptive_preview_path": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/images/selected_option_01_empty_evidence_stage_adaptive_borderless_preview.png",
+    "adaptive_preview_sha256": "a2946bb5e0283475d412b23e762464f041fea71db7971572609c9d8f335f9171",
+    "source_option_target_complexity_mean": 2.81,
+    "source_option_target_region_average_hex": {
+      "left_video": "#070d26",
+      "right_video": "#10112a",
+      "center_subscribe": "#020920"
+    }
+  },
+  "timeline": {
+    "fps": 24,
+    "total_frames": 1399,
+    "output_duration_seconds": 58.291666666666664,
+    "body_preserved_frames": [
+      0,
+      919
+    ],
+    "body_preserved_seconds": [
+      0.0,
+      38.291666666666664
+    ],
+    "end_screen_frames": [
+      919,
+      1399
+    ],
+    "end_screen_seconds": [
+      38.291666666666664,
+      58.291666666666664
+    ],
+    "end_screen_duration_seconds": 20.0
+  },
+  "inputs": {
+    "predecessor_final_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_piltdown_uncut_plate_fix_20260527T170946Z/video/cascade_of_effects_channel_intro_pressure_bends_original_format_piltdown_uncut_plate_fix_1080p24.mp4",
+    "predecessor_final_mp4_sha256": "6b31114df37784a30cde343f11c5465c43771c5d00b9c96a917e1f68237320f2",
+    "selected_end_screen_preview": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/images/selected_option_01_empty_evidence_stage_adaptive_borderless_preview.png",
+    "selected_end_screen_preview_sha256": "a2946bb5e0283475d412b23e762464f041fea71db7971572609c9d8f335f9171"
+  },
+  "outputs": {
+    "package_dir": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z",
+    "review_html": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/review.html",
+    "final_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/video/cascade_of_effects_channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_1080p24.mp4",
+    "silent_mp4": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/video/cascade_of_effects_channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_silent.mp4",
+    "manifest": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_manifest.json",
+    "final_mp4_sha256": "04a50d87a29b081c97b46ca0f03bfb145dee48e32587fb2c3f46f7d6ecd03c9b",
+    "silent_mp4_sha256": "d546b4ef9ab1187c4f7d8605e96b8a7f7e598d7227581fbfd2f66c22d14f435e",
+    "sample_sheet": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/qa/neutral_end_backplate_final_sample_sheet.jpg",
+    "sample_sheet_sha256": "b34d524f563ef7179b7d85e2eb7e5996958b21b70182f0f993414bd9d806cc56",
+    "review_html_sha256": "5d5afc5248b4203d0913f80883979d86ead0e841067b4c8a596b091459d0e0da",
+    "range_server_probe": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/channel_intro_pressure_bends_original_format_neutral_end_backplate_fix_20260527T181150Z/qa/range_server_probe_8767.json",
+    "range_server_probe_sha256": "ea964cb5fde8e927764c372e4643255dcc904eb6342c432abc6b922a986ceeb4"
+  },
+  "reads": {
+    "neutral_non_episode_end_backplate_read": "pass_option_01_empty_evidence_stage_selected",
+    "no_titanic_end_screen_backplate_read": "pass_selected_backplate_contains_no_requested_titanic_ship_or_episode_object",
+    "approved_borderless_placeholder_method_read": "pass_youtube_placeholder_borderless_underlay_v1_reused",
+    "only_final_20s_backplate_changed_read": "pass_body_0_to_38_291667s_preserved_from_predecessor",
+    "youtube_uploaded": false,
+    "youtube_channel_trailer_replaced": false,
+    "format_decode_read": "pass_ffprobe_and_full_decode",
+    "safe_audio_retained_read": "pass_predecessor_aac_stream_copied_minus14_8_lufs_minus1_6_dbfs_true_peak",
+    "local_review_candidate_read": "pass_no_upload_no_channel_replacement"
+  },
+  "qa": {
+    "ffprobe_read": "pass_1920x1080_24fps_h264_stereo_aac_58_291667s",
+    "full_decode_read": "pass_ffmpeg_v_error_null_decode",
+    "audio_loudness_read": "pass_audio_stream_copied_safe_minus14_8_lufs_minus1_6_dbfs_true_peak",
+    "body_preservation_sample_read": "pass_pre_end_screen_body_matches_predecessor_with_reencode_tolerance",
+    "body_preservation_samples": [
+      {
+        "sample": "body_challenger",
+        "time_seconds": 8.0,
+        "mean_abs_luma_delta": 0.322,
+        "max_luma_delta": 7
+      },
+      {
+        "sample": "body_semmelweis",
+        "time_seconds": 20.0,
+        "mean_abs_luma_delta": 0.257,
+        "max_luma_delta": 8
+      },
+      {
+        "sample": "body_piltdown",
+        "time_seconds": 28.0,
+        "mean_abs_luma_delta": 0.351,
+        "max_luma_delta": 8
+      },
+      {
+        "sample": "body_titanic",
+        "time_seconds": 36.0,
+        "mean_abs_luma_delta": 0.422,
+        "max_luma_delta": 11
+      }
+    ],
+    "end_screen_sample_read": "pass_final_20s_uses_selected_neutral_backplate_preview",
+    "sample_times_seconds": [
+      38.0,
+      38.292,
+      48.292,
+      58.0
+    ],
+    "range_server_read": "pass_http_206_partial_content"
+  }
+}

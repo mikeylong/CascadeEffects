@@ -1,0 +1,32 @@
+{
+  "model": "challenger_borderless_end_screen_html_static_qa_v1",
+  "created_utc": "2026-05-25T22:43:49.987Z",
+  "placeholder_style_model": "youtube_placeholder_borderless_underlay_v1",
+  "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_borderless_successor_20260525T223138Z/rough_assembly_manifest.json",
+  "canonical_player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_borderless_successor_20260525T223138Z/player.html",
+  "review_player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_borderless_successor_20260525T223138Z/html_review/borderless_youtube_geometry/player.html",
+  "review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_borderless_successor_20260525T223138Z/review/challenger_borderless_end_screen_html_review.html",
+  "source_root": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_geometry_successor_20260525T204301Z",
+  "source_audio_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_outro_level_successor_20260525T203318Z/audio_successor/challenger_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+  "expected_audio_sha256": "81174cc27fcbfc67f006dda89c9cf0c467103203a88f6faab2ba97e6209eebca",
+  "observed_audio_sha256": "81174cc27fcbfc67f006dda89c9cf0c467103203a88f6faab2ba97e6209eebca",
+  "fade_start_seconds": 1191.680884,
+  "full_opacity_seconds": 1191.980884,
+  "removed": [
+    "css_border",
+    "outer_glow_ring",
+    "inset_glow_ring",
+    "subscribe_inner_ring"
+  ],
+  "failures": [],
+  "passed": true,
+  "reads": {
+    "end_screen_placeholder_style_read": "pass_youtube_placeholder_borderless_underlay_v1",
+    "end_screen_outline_removal_read": "pass_borders_glow_rings_inset_rings_and_subscribe_inner_ring_removed",
+    "end_screen_fill_preservation_read": "pass_translucent_target_fills_preserved",
+    "end_screen_geometry_preservation_read": "pass_tight_geometry_unchanged",
+    "end_screen_legal_timing_preservation_read": "pass_youtube_legal_window_entry_v1_unchanged",
+    "challenger_audio_regression_guard_read": "pass_plus5db_successor_audio_sha_preserved_no_remix",
+    "youtube_action_read": "blocked_no_upload_or_visibility_change_performed"
+  }
+}

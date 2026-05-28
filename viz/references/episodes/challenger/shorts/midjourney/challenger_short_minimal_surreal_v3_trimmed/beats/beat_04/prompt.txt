@@ -1,0 +1,17 @@
+Midjourney reference upload order:
+1. beats/beat_04/references/01__act4_01.jpg
+2. beats/beat_04/references/02__act4_02.jpg
+3. beats/beat_04/references/03__act4_04.jpg
+4. beats/beat_04/references/04__act4_06.jpg
+
+Text prompt:
+the Space Shuttle Challenger visible failure sequence with correct orbiter wings, rust-orange external tank, and twin white solid rocket boosters. accurate Shuttle stack held legibly in a restrained high-sky failure frame. off-center composition, one dominant subject, large empty field, vertical 9:16 frame. Palette limited to ash gray, smoke white, charcoal, warning ember. smoke at the right booster joint becomes flame and breakup while all exhaust stays confined to aft propulsion geometry, never the nose, side, or an off-frame source. Stillness, soft diffuse light, quiet suspended atmosphere.
+
+Parameter suffix:
+--v 7 --ar 9:16 --raw --s 75
+
+Curated --no terms:
+text, watermark, logo, crowd, poster, explosion
+
+How to run:
+Upload the reference files in the listed order, attach them first in Midjourney, then append the text prompt and `--v 7 --ar 9:16 --raw --s 75`. Add `--no text, watermark, logo, crowd, poster, explosion` after the suffix if the generation starts drifting into text, poster framing, or spectacle.

@@ -1,0 +1,107 @@
+{
+  "created_at": "2026-05-27T16:53:53Z",
+  "episode_id": "challenger",
+  "model": "youtube_upload_mp4_black_screen_guard_v1",
+  "ok": true,
+  "reads": {
+    "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+    "youtube_upload_black_screen_block_read": "pass_black_screen_upload_preflight"
+  },
+  "samples": [
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_dark_scene_high_variance_nonblack_source_visible"
+      },
+      "name": "start",
+      "passed": true,
+      "seconds": 1.0,
+      "stats": {
+        "max_luma": 241.566,
+        "mean_luma": 19.471,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.484444,
+        "pixel_count": 14400,
+        "std_luma": 25.109
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "quarter",
+      "passed": true,
+      "seconds": 302.919,
+      "stats": {
+        "max_luma": 241.063,
+        "mean_luma": 20.98,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.511528,
+        "pixel_count": 14400,
+        "std_luma": 26.237
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "half",
+      "passed": true,
+      "seconds": 605.838,
+      "stats": {
+        "max_luma": 241.566,
+        "mean_luma": 20.862,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.509653,
+        "pixel_count": 14400,
+        "std_luma": 26.109
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "three_quarter",
+      "passed": true,
+      "seconds": 908.756,
+      "stats": {
+        "max_luma": 241.566,
+        "mean_luma": 20.426,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.5075,
+        "pixel_count": 14400,
+        "std_luma": 25.285
+      }
+    },
+    {
+      "classification": {
+        "passed": true,
+        "reason": "pass_luma_variance_nonblack_floor"
+      },
+      "name": "final_second",
+      "passed": true,
+      "seconds": 1210.675,
+      "stats": {
+        "max_luma": 241.566,
+        "mean_luma": 20.789,
+        "min_luma": 0.0,
+        "nonblack_fraction": 0.584861,
+        "pixel_count": 14400,
+        "std_luma": 22.74
+      }
+    }
+  ],
+  "thresholds": {
+    "dark_scene_min_mean_luma": 16.0,
+    "dark_scene_min_nonblack_fraction": 0.3,
+    "dark_scene_min_std_luma": 16.0,
+    "min_mean_luma": 20.0,
+    "min_nonblack_fraction": 0.08,
+    "min_std_luma": 8.0
+  },
+  "video_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/publish_readiness/challenger_publish_readiness_20260526T213000Z/media/challenger_living_cover_final_review_1080p24.mp4",
+  "video_sha256": "2f7d8afdb9a204cec7aa2570bff9c9b23e133c67679dfb3c0c63afe91ad53bbd"
+}

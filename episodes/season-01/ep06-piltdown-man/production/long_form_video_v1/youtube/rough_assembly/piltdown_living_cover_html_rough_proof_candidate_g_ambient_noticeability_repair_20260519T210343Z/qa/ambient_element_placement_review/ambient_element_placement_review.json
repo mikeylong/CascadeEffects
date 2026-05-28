@@ -1,0 +1,232 @@
+{
+  "review_id": "ambient_element_placement_review_candidate_g_repair_20260520",
+  "scope": "diagnostic_review_only_not_viewer_facing_not_gate_advancing",
+  "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z",
+  "source_backplate": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z/assets/source_art/candidate_g_active_microscope_analysis_1920x1080.png",
+    "sha256": "4615cff276f95e544aa8a21004f8c520cb190860d04860f1bed9d5ae7a22a7a0"
+  },
+  "annotated_overlay": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z/qa/ambient_element_placement_review/ambient_element_placement_backplate_overlay.png",
+    "sha256": "154a29eec3ac46dce7323769cb6a3e973181d5753859e9bd17f2678aa923ee5b",
+    "dimensions": [
+      1920,
+      1252
+    ]
+  },
+  "coordinate_overlay": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep6_Piltdown-Man/production/long_form_video_v1/youtube/rough_assembly/piltdown_living_cover_html_rough_proof_candidate_g_ambient_noticeability_repair_20260519T210343Z/qa/ambient_element_placement_review/ambient_element_placement_backplate_overlay_1920x1080.png",
+    "sha256": "f05fe84cc0db6c62d6a404c36af8b6a73cdf59559fbbf418cb2634c75ac607f1",
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  "regions": {
+    "lamp_warm_flicker_roi": {
+      "box": [
+        260,
+        40,
+        760,
+        670
+      ],
+      "color": [
+        255,
+        184,
+        78
+      ],
+      "fill": [
+        255,
+        184,
+        78,
+        38
+      ],
+      "label": "lamp warm flicker ROI"
+    },
+    "lamp_hotspot_roi": {
+      "box": [
+        385,
+        135,
+        380,
+        290
+      ],
+      "color": [
+        255,
+        225,
+        145
+      ],
+      "fill": [
+        255,
+        225,
+        145,
+        34
+      ],
+      "label": "lamp hotspot"
+    },
+    "microscope_stage_glint_roi": {
+      "box": [
+        420,
+        455,
+        360,
+        160
+      ],
+      "color": [
+        120,
+        210,
+        255
+      ],
+      "fill": [
+        120,
+        210,
+        255,
+        42
+      ],
+      "label": "microscope + glass glints"
+    },
+    "dust_motion_envelope": {
+      "box": [
+        350,
+        205,
+        630,
+        440
+      ],
+      "color": [
+        245,
+        226,
+        177
+      ],
+      "fill": [
+        245,
+        226,
+        177,
+        30
+      ],
+      "label": "dust motion envelope"
+    },
+    "dust_exclusion_cranium_hand": {
+      "box": [
+        375,
+        430,
+        265,
+        220
+      ],
+      "color": [
+        255,
+        92,
+        92
+      ],
+      "fill": [
+        255,
+        92,
+        92,
+        34
+      ],
+      "label": "dust exclusion: foreground specimen/hand"
+    },
+    "dust_exclusion_jaw": {
+      "box": [
+        675,
+        505,
+        160,
+        175
+      ],
+      "color": [
+        255,
+        92,
+        92
+      ],
+      "fill": [
+        255,
+        92,
+        92,
+        34
+      ],
+      "label": "dust exclusion: jaw/specimen"
+    },
+    "right_rail_story_text_safe_zone": {
+      "box": [
+        1108,
+        52,
+        760,
+        976
+      ],
+      "color": [
+        180,
+        154,
+        255
+      ],
+      "fill": [
+        80,
+        58,
+        160,
+        38
+      ],
+      "label": "fixed right rail text zone"
+    }
+  },
+  "glass_shimmer_ellipses": [
+    {
+      "ellipse_box": [
+        610,
+        420,
+        170,
+        320
+      ],
+      "label": "glass shimmer"
+    },
+    {
+      "ellipse_box": [
+        840,
+        420,
+        220,
+        330
+      ],
+      "label": "glass shimmer"
+    },
+    {
+      "ellipse_box": [
+        1110,
+        520,
+        180,
+        310
+      ],
+      "label": "under-rail glass shimmer"
+    }
+  ],
+  "glint_centers": [
+    {
+      "xy": [
+        485,
+        530
+      ],
+      "role": "microscope stage glint"
+    },
+    {
+      "xy": [
+        535,
+        500
+      ],
+      "role": "microscope upper glint"
+    },
+    {
+      "xy": [
+        715,
+        510
+      ],
+      "role": "glass highlight glint"
+    }
+  ],
+  "reads": {
+    "diagnostic_overlay_absence_in_viewer_proof_read": "pass_overlay_review_artifact_only_not_loaded_by_player",
+    "dust_foreground_exclusion_read": "pass_dust_motes_rejected_inside_two_foreground_masks_in_player_code",
+    "right_rail_safe_space_read": "pass_story_text_zone_identified_and_viewer_text_remains_right_rail_only",
+    "modern_screen_glow_read": "pass_no_screen_tablet_ui_led_or_cool_glow_region_defined",
+    "source_art_pointer_read": "pass_candidate_g_backplate_only"
+  },
+  "downstream_locks": {
+    "final_mp4": false,
+    "publish_readiness": false,
+    "youtube_action": false,
+    "public_release": false
+  }
+}

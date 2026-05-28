@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "family": "shorts_cover_plate",
+      "preset": "signal_object_portrait",
+      "canonical_seed": 550128311,
+      "governance_class": "strict_zero_letter",
+      "source_text_repair_mode": "auto",
+      "typography_mode": "off",
+      "handoff_probe": "none",
+      "handoff_frames": 9,
+      "width": 640,
+      "height": 384,
+      "expected_typography_metadata": false
+    },
+    {
+      "family": "evidence_card_plate",
+      "preset": "redacted_memo",
+      "canonical_seed": 90341172,
+      "governance_class": "controlled_text",
+      "source_text_repair_mode": "auto",
+      "typography_mode": "force",
+      "handoff_probe": "none",
+      "handoff_frames": 9,
+      "width": 640,
+      "height": 384,
+      "expected_typography_metadata": false
+    },
+    {
+      "family": "thumbnail_plate",
+      "preset": "one_red_flag",
+      "canonical_seed": 18700451,
+      "governance_class": "negative_control",
+      "source_text_repair_mode": "off",
+      "typography_mode": "off",
+      "handoff_probe": "none",
+      "handoff_frames": 9,
+      "width": 640,
+      "height": 384,
+      "expected_typography_metadata": false
+    }
+  ]
+}

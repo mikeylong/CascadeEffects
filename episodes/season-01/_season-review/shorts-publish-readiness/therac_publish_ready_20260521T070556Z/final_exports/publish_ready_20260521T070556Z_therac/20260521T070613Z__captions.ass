@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DocumentaryLowerThird,Arial,82,&H004AD5FF,&H000000FF,&HAA0E1116,&H00000000,-1,0,0,0,100,100,0,0,1,4,2,2,110,110,340,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.03,0:00:05.15,DocumentaryLowerThird,,0,0,0,,A radiation machine gave\None patient roughly
+Dialogue: 0,0:00:05.15,0:00:07.28,DocumentaryLowerThird,,0,0,0,,100 times the intended\Ndose.
+Dialogue: 0,0:00:08.26,0:00:10.34,DocumentaryLowerThird,,0,0,0,,The manufacturer said it\Nwas impossible.
+Dialogue: 0,0:00:11.22,0:00:12.10,DocumentaryLowerThird,,0,0,0,,Then it happened again.
+Dialogue: 0,0:00:12.15,0:00:14.85,DocumentaryLowerThird,,0,0,0,,The Therac-25 replaced\Nphysical safety interlocks
+Dialogue: 0,0:00:14.85,0:00:17.56,DocumentaryLowerThird,,0,0,0,,with software checks.
+Dialogue: 0,0:00:18.44,0:00:20.61,DocumentaryLowerThird,,0,0,0,,During fast data entry, a\Nrace condition
+Dialogue: 0,0:00:20.61,0:00:22.78,DocumentaryLowerThird,,0,0,0,,could leave the machine in\Nthe wrong
+Dialogue: 0,0:00:22.78,0:00:24.96,DocumentaryLowerThird,,0,0,0,,state and fire a full\Npower beam
+Dialogue: 0,0:00:24.96,0:00:27.13,DocumentaryLowerThird,,0,0,0,,with no filter.
+Dialogue: 0,0:00:27.11,0:00:29.18,DocumentaryLowerThird,,0,0,0,,Nobody caught it because\Nthe code had
+Dialogue: 0,0:00:29.18,0:00:31.24,DocumentaryLowerThird,,0,0,0,,been reused from older\Nmachines, and reused
+Dialogue: 0,0:00:31.24,0:00:33.30,DocumentaryLowerThird,,0,0,0,,code felt like tested\Ncode.
+Dialogue: 0,0:00:34.25,0:00:35.71,DocumentaryLowerThird,,0,0,0,,Operators reported errors.
+Dialogue: 0,0:00:36.61,0:00:39.84,DocumentaryLowerThird,,0,0,0,,The manufacturer insisted\Nthe machine was safe.
+Dialogue: 0,0:00:39.94,0:00:41.54,DocumentaryLowerThird,,0,0,0,,More patients were burned\Nbefore the pattern
+Dialogue: 0,0:00:41.54,0:00:43.15,DocumentaryLowerThird,,0,0,0,,was treated as real.
+Dialogue: 0,0:00:43.18,0:00:46.22,DocumentaryLowerThird,,0,0,0,,The disaster was not just\Nbad code.
+Dialogue: 0,0:00:46.90,0:00:48.79,DocumentaryLowerThird,,0,0,0,,It was a system with no\Nindependent
+Dialogue: 0,0:00:48.79,0:00:50.68,DocumentaryLowerThird,,0,0,0,,safety layer, no quick way\Nto believe
+Dialogue: 0,0:00:50.68,0:00:52.57,DocumentaryLowerThird,,0,0,0,,field reports, and no\Ndesign for software
+Dialogue: 0,0:00:52.57,0:00:54.46,DocumentaryLowerThird,,0,0,0,,being wrong.
+Dialogue: 0,0:00:55.60,0:00:57.51,DocumentaryLowerThird,,0,0,0,,That is how small causes\Nbecome massive
+Dialogue: 0,0:00:57.51,0:00:59.41,DocumentaryLowerThird,,0,0,0,,consequences.

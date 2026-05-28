@@ -1,0 +1,673 @@
+{
+  "packet_id": "living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z",
+  "gate": "rough_assembly_gate",
+  "status": "tighten_staged_rail_transition_html_proof_created",
+  "human_disposition": "tighten",
+  "created_utc": "2026-05-05T16:24:48Z",
+  "created_from_disposition": "tighten",
+  "tightened_youtube_legibility_html_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_youtube_legibility_html_rough_proof_20260505T070410Z",
+  "tightened_youtube_legibility_html_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_youtube_legibility_html_rough_proof_20260505T070410Z/rough_assembly_manifest.json",
+  "tightened_youtube_legibility_mp4_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_youtube_legibility_html_rough_proof_20260505T070410Z/video_render/html_youtube_legibility_full_runtime_video_proof_20260505T074202Z",
+  "tightened_youtube_legibility_mp4_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_youtube_legibility_html_rough_proof_20260505T070410Z/video_render/html_youtube_legibility_full_runtime_video_proof_20260505T074202Z/render_manifest.json",
+  "tightened_youtube_legibility_mp4_human_disposition": "tighten",
+  "reviewer_feedback": {
+    "baked_progress_ui_failure": true,
+    "top_right_progress_bar_unwanted": true,
+    "bottom_progress_bar_unwanted": true,
+    "gradients_and_vignette_unwanted": true,
+    "chapter_transition_too_slow_or_jittery": true,
+    "requested_transition_duration_ms": 600,
+    "reviewer_text": "The MP4 proof has two baked progress bars, gradient/vignette treatment around the video and rail, and chapter transitions that are too slow and reveal jitter. Remove progress UI, remove gradients/vignettes, and make chapter transitions about 600ms."
+  },
+  "selected_direction": "living_cover",
+  "full_runtime_rough": true,
+  "html_proof_only": true,
+  "mp4_render_created": false,
+  "review_only": true,
+  "profileId": "cascade-ink-lit-photoreal-v1",
+  "source_visual": {
+    "carrier": "generated_raster_source_art",
+    "direction": "living_cover",
+    "selected_repair_variant": "variant_c",
+    "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/source_art/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c.png",
+    "source_art_sha256": "52f94150037d5aa40633d34b29c137c59c5868e987bc5f8b7f80903f6bc2ac8a",
+    "source_prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/source_art_repair/living_cover_launch_pad_photoreal_ink_lit_crew_foreground_repair_20260504T215400Z/assets/prompts/living_cover_launch_pad_photoreal_ink_lit_crew_variant_c_prompt.txt",
+    "source_prompt_sha256": "64b7794ad52fefa368dfc2fcec977b66369bcfc6cbb94f8a92bf7c0c113c01f3",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "right_rail_safe_space_read": "pass",
+    "selected_variant_reads": {
+      "texture_noise_read": "pass",
+      "texture_detail_creep_read": "pass",
+      "visual_profile_read": "pass",
+      "photorealistic_scene_read": "pass",
+      "ink_lit_atmosphere_read": "pass",
+      "paper_architecture_absence_read": "pass",
+      "low_poly_absence_read": "pass",
+      "waterfall_read": "pass",
+      "launch_pad_scene_read": "pass",
+      "website_hero_artifact_read": "pass",
+      "reference_anchor_read": "pass",
+      "brand_signal_artifact_read": "pass",
+      "pad_hardware_authenticity_read": "pass",
+      "generated_text_logo_watermark_read": "pass",
+      "right_rail_safe_space_read": "pass",
+      "foreground_crew_read": "pass",
+      "crew_count_read": "pass",
+      "human_anatomy_read": "pass",
+      "flight_suit_period_read": "pass",
+      "crew_photoreal_read": "pass",
+      "foreground_evidence_prop_read": "pass"
+    }
+  },
+  "approved_audio": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/audio/recording_20260501_v3_20_25min/challenger_longform_v3_20_25min_recording_review.wav",
+    "sha256": "9cf03a2fecec33bdc42b2074babf741da995f1038166651f9e863bff87219000",
+    "duration_seconds": 1289.131247,
+    "duration_display": "00:21:29.131",
+    "media_referenced_only": true,
+    "media_copied_or_modified": false
+  },
+  "full_timeline": {
+    "caption_vtt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/proofs/challenger_longform_ab_visual_system_proof_v2_20260503T211500Z/transcript_source/challenger_longform_v3_20_25min_recording_review.diarized.vtt",
+    "caption_vtt_sha256": "32afb56bafe9adc522b805a291cf386894b5ca27248d6d6c6a260fdf5eaf24e7",
+    "transcript_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/proofs/challenger_longform_ab_visual_system_proof_v2_20260503T211500Z/transcript_source/challenger_longform_v3_20_25min_recording_review.diarized.srt",
+    "transcript_srt_sha256": "3a57a5d00f1b1ff0edfc35103918b7b7f2e3e00b5760f9c7057cabfe092e3a6b",
+    "media_referenced_only": true,
+    "media_copied_or_modified": false,
+    "section_count": 8,
+    "sections": [
+      {
+        "at": 0,
+        "title": "First Warning",
+        "summary": "A small clue becomes the entry point.",
+        "visual": {
+          "x": -1.2,
+          "y": -0.4,
+          "scale": 1.028,
+          "warmth": 0.02
+        },
+        "beats": [
+          {
+            "at": 0.031,
+            "label": "Smoke appears"
+          },
+          {
+            "at": 40.555,
+            "label": "Accurate, but too small"
+          },
+          {
+            "at": 61.893,
+            "label": "Physical chain"
+          },
+          {
+            "at": 72.513,
+            "label": "Warning becomes the question"
+          }
+        ]
+      },
+      {
+        "at": 89.384,
+        "title": "Cold Joint",
+        "summary": "Cold changes how the seal responds.",
+        "visual": {
+          "x": -0.6,
+          "y": -0.9,
+          "scale": 1.035,
+          "warmth": -0.04
+        },
+        "beats": [
+          {
+            "at": 89.384,
+            "label": "Right SRB joint"
+          },
+          {
+            "at": 105.332,
+            "label": "36 F launch"
+          },
+          {
+            "at": 129.379,
+            "label": "Timing was not a detail"
+          },
+          {
+            "at": 134.185,
+            "label": "System had seen risk"
+          }
+        ]
+      },
+      {
+        "at": 183.497,
+        "title": "Joint Problem",
+        "summary": "Known damage becomes operating history.",
+        "visual": {
+          "x": -0.1,
+          "y": -1.2,
+          "scale": 1.042,
+          "warmth": -0.02
+        },
+        "beats": [
+          {
+            "at": 183.497,
+            "label": "Segmented booster"
+          },
+          {
+            "at": 199.064,
+            "label": "Tang and clevis"
+          },
+          {
+            "at": 250.34,
+            "label": "Cold slows resiliency"
+          },
+          {
+            "at": 315.964,
+            "label": "Prior O-ring damage"
+          }
+        ]
+      },
+      {
+        "at": 338.105,
+        "title": "Warning Becomes Process",
+        "summary": "Damage is translated into procedure.",
+        "visual": {
+          "x": 0.35,
+          "y": -0.65,
+          "scale": 1.033,
+          "warmth": 0.03
+        },
+        "beats": [
+          {
+            "at": 338.105,
+            "label": "Primary erosion"
+          },
+          {
+            "at": 358.055,
+            "label": "Reporting gap"
+          },
+          {
+            "at": 422.259,
+            "label": "Repeated damage"
+          },
+          {
+            "at": 464.987,
+            "label": "Constraint becomes negotiable"
+          }
+        ]
+      },
+      {
+        "at": 519.158,
+        "title": "Processed Warning",
+        "summary": "Familiar risk starts to feel normal.",
+        "visual": {
+          "x": 0.65,
+          "y": -0.2,
+          "scale": 1.037,
+          "warmth": 0.05
+        },
+        "beats": [
+          {
+            "at": 519.158,
+            "label": "Already processed"
+          },
+          {
+            "at": 540.566,
+            "label": "Memo, not hindsight"
+          },
+          {
+            "at": 577.543,
+            "label": "Full flight history"
+          },
+          {
+            "at": 598.705,
+            "label": "Survived flight ambiguity"
+          }
+        ]
+      },
+      {
+        "at": 629,
+        "title": "Launch-Night Decision",
+        "summary": "Evidence must prove more than concern.",
+        "visual": {
+          "x": 0.15,
+          "y": -0.85,
+          "scale": 1.046,
+          "warmth": 0
+        },
+        "beats": [
+          {
+            "at": 629,
+            "label": "Low-temperature concern"
+          },
+          {
+            "at": 677.274,
+            "label": "Charts as last formal shape"
+          },
+          {
+            "at": 722.085,
+            "label": "No-launch below 53"
+          },
+          {
+            "at": 748.716,
+            "label": "Burden shifts"
+          },
+          {
+            "at": 797.299,
+            "label": "Prove absolute failure"
+          }
+        ]
+      },
+      {
+        "at": 808,
+        "title": "Recommendation Reversal",
+        "summary": "The same chain returns a new answer.",
+        "visual": {
+          "x": -0.35,
+          "y": -0.35,
+          "scale": 1.038,
+          "warmth": 0.08
+        },
+        "beats": [
+          {
+            "at": 808,
+            "label": "Same chain, new answer"
+          },
+          {
+            "at": 836.138,
+            "label": "Public did not see refusal"
+          },
+          {
+            "at": 890.272,
+            "label": "Warning has to travel"
+          },
+          {
+            "at": 961.078,
+            "label": "Weak reporting and trend analysis"
+          },
+          {
+            "at": 1014.346,
+            "label": "Launch morning chain"
+          }
+        ]
+      },
+      {
+        "at": 1082.561,
+        "title": "Routine Pressure",
+        "summary": "Memory loses control over behavior.",
+        "visual": {
+          "x": -0.8,
+          "y": -0.1,
+          "scale": 1.031,
+          "warmth": 0.12
+        },
+        "beats": [
+          {
+            "at": 1082.561,
+            "label": "Administrative pattern"
+          },
+          {
+            "at": 1156.259,
+            "label": "Anomaly to accepted risk"
+          },
+          {
+            "at": 1168.991,
+            "label": "Flight-rate pressure"
+          },
+          {
+            "at": 1249.115,
+            "label": "Internal momentum"
+          },
+          {
+            "at": 1267.992,
+            "label": "Next case: Therac-25"
+          }
+        ]
+      }
+    ]
+  },
+  "player": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/player.html",
+    "sha256": "501cc2854074486fa1e56ad9dd995e07b040203f6cabd6e164840fe7c71a57c1",
+    "render_url": "file:///Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/player.html?render=1",
+    "render_mode_note": "Render mode hides interactive controls and exposes window.__setRenderTime for deterministic screenshot capture and future render tests."
+  },
+  "layout_revision": {
+    "model": "full_runtime_clean_rail_fast_transition_sequence_rail",
+    "top_right_timecode_removed": true,
+    "baked_top_right_progress_bar_removed": true,
+    "baked_bottom_progress_bar_removed": true,
+    "global_gradient_vignette_removed": true,
+    "rail_gradient_removed": true,
+    "major_section_rows": 8,
+    "active_section_expands_to_subbeats": true,
+    "inactive_sections_compact": true,
+    "baked_progress_signal_visible": false,
+    "right_rail_preserved": true,
+    "subject_occlusion_policy": "right rail and overlays stay out of shuttle and crew subject area",
+    "video_first_copy_density": "active box uses one short summary and one dominant current subbeat; adjacent subbeats appear only when they fit at legible size"
+  },
+  "legibility_revision": {
+    "target_context": "YouTube 1080p video playback, not interactive web-app reading",
+    "title_policy": "title remains roughly the prior active scale",
+    "minimum_active_summary_font_px_1080p": 22,
+    "minimum_active_current_subbeat_font_px_1080p": 22,
+    "active_summary_font_px_1080p": 22,
+    "active_current_subbeat_font_px_1080p": 25,
+    "inactive_text_policy": "compact context only; not relied on for critical reading",
+    "small_preview_policy": "hide small subtext at tiny preview sizes instead of creating unreadable/dithered text",
+    "computed_style_audit": {
+      "audit_viewport": "1920x1080",
+      "audit_time_seconds": 748.716,
+      "minimum_required_active_text_px": 22,
+      "active_title": {
+        "text": "Launch-Night Decision",
+        "font_size_px": 38,
+        "line_height_px": 36.48,
+        "opacity": 1,
+        "rect": {
+          "x": 1272,
+          "y": 605.546875,
+          "width": 582,
+          "height": 36.46875
+        }
+      },
+      "active_summary": {
+        "text": "Evidence must prove more than concern.",
+        "font_size_px": 22,
+        "line_height_px": 25.52,
+        "opacity": 1,
+        "rect": {
+          "x": 1272,
+          "y": 652.015625,
+          "width": 582,
+          "height": 25.515625
+        }
+      },
+      "active_current_subbeat": {
+        "text": "Burden shifts",
+        "font_size_px": 25,
+        "line_height_px": 28,
+        "opacity": 1,
+        "rect": {
+          "x": 1272,
+          "y": 725.15625,
+          "width": 582,
+          "height": 28
+        }
+      },
+      "visible_subbeat_count": 3,
+      "active_card_inside_rail": true,
+      "rail_inside_stage": true,
+      "active_summary_pass": true,
+      "active_current_subbeat_pass": true,
+      "overall_pass": true
+    }
+  },
+  "transition_model": {
+    "requested_total_visual_crossover_ms": 600,
+    "smoothstep_window_seconds_each_side": 0.3,
+    "css_transition_cap_ms": 600,
+    "typography_scale_transition": "eased active-row growth and opacity transition around section changes, capped at 600ms",
+    "rail_crossfade_transition": "section cards interpolate active/near weights over a 0.3s pre/post smoothstep window",
+    "visual_transition": "source-art drift, scale, and brightness interpolate across section boundaries without added vignette",
+    "deterministic_render_support": "window.__setRenderTime preserved"
+  },
+  "rough_assembly_reads": {
+    "stale_youtube_legibility_mp4_disposition_read": "pass_tighten_recorded",
+    "audio_provenance_read": "pass_reference_existing_full_approved_audio",
+    "audio_copy_read": "pass_no_new_audio_media_created",
+    "caption_copy_read": "pass_no_new_caption_media_created",
+    "transcript_copy_read": "pass_no_new_transcript_media_created",
+    "source_art_hash_read": "pass",
+    "visual_carrier_read": "pass_variant_c_photoreal_ink_lit",
+    "full_runtime_structure_read": "pass_eight_major_sections_with_active_subbeats",
+    "top_timecode_read": "pass_removed",
+    "baked_progress_bar_read": "pass_no_rail_signal_or_bottom_progress_dom_css",
+    "gradient_vignette_read": "pass_no_linear_radial_gradient_or_atmosphere_layer",
+    "transition_speed_read": "pass_600ms_css_cap_and_0_3s_pre_post_window",
+    "transition_read": "tighten_too_many_simultaneous_changes",
+    "right_rail_layout_read": "pass",
+    "subject_occlusion_read": "pass",
+    "render_mode_read": "pass_window_setRenderTime_preserved",
+    "youtube_legibility_read": "defer_pending_human_review",
+    "active_summary_legibility_read": "defer_pending_human_review",
+    "active_subbeat_legibility_read": "defer_pending_human_review",
+    "compression_resilience_read": "defer_pending_human_review",
+    "computed_style_minimum_read": "pass",
+    "texture_noise_read": "pass",
+    "waterfall_read": "pass",
+    "generated_text_logo_watermark_read": "pass_source_art_no_generated_text",
+    "render_output_read": "blocked_no_mp4_or_mov_authorized",
+    "staged_transition_read": "tighten_missing_multi_build_sequence",
+    "layout_reflow_jitter_read": "tighten",
+    "multi_build_sequence_read": "tighten"
+  },
+  "qa_screenshots": {
+    "desktop_1920x1080_000000.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_000000.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 0,
+      "sha256": "6d8eb36a7f3c40d679aa87819016ecd4be4ff4b1701d0d7d5651b22335ca793e"
+    },
+    "desktop_1920x1080_000890_transition_start.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_000890_transition_start.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 89.084,
+      "sha256": "07b3a21827f54c6404d51a83dd07dcf2175f39cb0d72175204199ac70c319b47"
+    },
+    "desktop_1920x1080_000890_transition_mid.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_000890_transition_mid.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 89.384,
+      "sha256": "3c11db5d5c2e06499f51456ce1b988d30203e32ef63daa35bb1a6371c79d8b5f"
+    },
+    "desktop_1920x1080_000890_transition_end.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_000890_transition_end.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 89.684,
+      "sha256": "1b7f47f688e9202182f7d029ff3bc4d7ce04797f1dfba59bce658a46aaf47240"
+    },
+    "desktop_1920x1080_030349.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_030349.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 183.497,
+      "sha256": "783500bf68932070850195b74b5eb2aa200b4affea5d8ab0c2d03d06d40d7e76"
+    },
+    "desktop_1920x1080_053810.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_053810.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 338.105,
+      "sha256": "e2f3776fce5970f506a28dbc3602e72e0e3d01b187aec5c5720b7795aeaf7e24"
+    },
+    "desktop_1920x1080_083915.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_083915.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 519.158,
+      "sha256": "c1064925e00518801a0a7d5de85f27faaf11cf142d9f5c8b29090b42fb3e09df"
+    },
+    "desktop_1920x1080_104900_transition_start.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_104900_transition_start.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 628.7,
+      "sha256": "990cbe0862a085fd9e5619d7d807dd3963165b95a073ab4617e38544cd300547"
+    },
+    "desktop_1920x1080_104900_transition_mid.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_104900_transition_mid.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 629,
+      "sha256": "e17d28e65087b29d17f518237e4a2c287c3747ffb87103b20b5e1c5dada1bbfc"
+    },
+    "desktop_1920x1080_104900_transition_end.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_104900_transition_end.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 629.3,
+      "sha256": "edbe9c2ed2c9a85ffb90c9dce3380038adeb2a923719af3181e68c1152211680"
+    },
+    "desktop_1920x1080_112727.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_112727.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 677.274,
+      "sha256": "85e0de8bc376d106e1fd1fe17ea3359946366afe5b327ad2169007a725312418"
+    },
+    "desktop_1920x1080_124871.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_124871.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 748.716,
+      "sha256": "7b5c762c5cb7d4ba0fa9594960c03ed10fa417a39133517434253847bcfc51dc"
+    },
+    "desktop_1920x1080_132800_transition_start.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_132800_transition_start.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 807.7,
+      "sha256": "12f703cc3017508c6e4511b7a13590943ded4819c50e6943c7088af43f572ca7"
+    },
+    "desktop_1920x1080_132800_transition_mid.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_132800_transition_mid.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 808,
+      "sha256": "ef130e0e6e5a6e015461f149ed2bf5025683750a37e380742e4bd5453db80c62"
+    },
+    "desktop_1920x1080_132800_transition_end.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_132800_transition_end.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 808.3,
+      "sha256": "f150491b894860e63c79fa8cfe563d2341d4612678b9eeb8a2ae08e667aa4d75"
+    },
+    "desktop_1920x1080_180256.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_180256.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 1082.561,
+      "sha256": "4000758ba670354d8a0df6875095013e82dba29f4dbaa6678434eb01a4249ebf"
+    },
+    "desktop_1920x1080_210799.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_210799.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 1267.992,
+      "sha256": "402fcbcfb4fb8a64e3dd07b594f0ccf9e61cac5d13bad35c2dde22ec6a82af05"
+    },
+    "desktop_1920x1080_212500_end.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1920x1080_212500_end.png",
+      "viewport": "1920x1080",
+      "player_time_seconds": 1285,
+      "sha256": "402fcbcfb4fb8a64e3dd07b594f0ccf9e61cac5d13bad35c2dde22ec6a82af05"
+    },
+    "desktop_1280x720_000000.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1280x720_000000.png",
+      "viewport": "1280x720",
+      "player_time_seconds": 0,
+      "sha256": "d518a8adf7709f722f346f52f614edd76f4f33e96ddc11256a112959cd92a59c"
+    },
+    "desktop_1280x720_124871.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1280x720_124871.png",
+      "viewport": "1280x720",
+      "player_time_seconds": 748.716,
+      "sha256": "235e43e84ccca83a0d05ef98641cba69bcba7d7d2ff5b3ff8a8a8aa4a0276e2d"
+    },
+    "desktop_1280x720_212500_end.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/desktop_1280x720_212500_end.png",
+      "viewport": "1280x720",
+      "player_time_seconds": 1285,
+      "sha256": "5f27d35a6a4f8b0ac114a65249a578cccb4b4c35c12492aeac0a92cb4fbce21e"
+    },
+    "preview_320x180_124871.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/preview_320x180_124871.png",
+      "viewport": "320x180",
+      "player_time_seconds": 748.716,
+      "sha256": "c8eed9d952f036de7f39be395a035efbfad810dad01b70840795197bde6bee3d"
+    },
+    "preview_168x94_124871.png": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/preview_168x94_124871.png",
+      "viewport": "168x94",
+      "player_time_seconds": 748.716,
+      "sha256": "0ebbb89f4d490485814cdf72f9e359d8a79fb917e7945f16fbe22989fc6222c6"
+    }
+  },
+  "qa_static_clean_rail_audit": {
+    "has_rail_signal_class": false,
+    "has_bottom_progress_class": false,
+    "has_linear_gradient": false,
+    "has_radial_gradient": false,
+    "has_atmosphere_layer": false,
+    "has_progress_variable_or_update": false,
+    "transition_window_seconds": 0.3,
+    "max_css_transition_ms": 600,
+    "css_transition_values_ms": [
+      600
+    ],
+    "overall_pass": true
+  },
+  "artifacts": {
+    "player": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/player.html",
+      "sha256": "501cc2854074486fa1e56ad9dd995e07b040203f6cabd6e164840fe7c71a57c1",
+      "bytes": 19220
+    },
+    "readme": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/README.md",
+      "sha256": "08db2da94f9ff48f79bf2ebfeb2ebc294cc6f7f5db840d4d1f1b09c0692fc329",
+      "bytes": 4959
+    },
+    "review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/review/rough_assembly_review_packet.md",
+      "sha256": "79d66a1da8e04a72b3ade2d214409bb15349e4ad817118a78d69aa92a0c81c7e",
+      "bytes": 3429
+    },
+    "qa_script": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/scripts/capture_full_runtime_qa.mjs",
+      "sha256": "7c7b5b729826e5e3121ec2f2c294ac7b36127e7d5a80c497e91d1a432ede20ed",
+      "bytes": 10875
+    },
+    "screenshot_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/screenshots/screenshot_manifest.json",
+      "sha256": "ccbd322249354c5e004e94dcd7893c6f08442739ac2f10373dc316624ccde2d3",
+      "bytes": 10753
+    },
+    "legibility_audit": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/legibility_audit.json",
+      "sha256": "e6900ee60ef59f2838a7a0419cd58df610ddb1ee69c6b4dbe4178dc5b49cc66c",
+      "bytes": 1024
+    },
+    "static_clean_rail_audit": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_clean_rail_fast_transition_html_rough_proof_20260505T162448Z/qa/static_clean_rail_audit.json",
+      "sha256": "57698960d0ec7ebf472dbe92e61d6606abf4a232dc4619e7d872ec34d17a3c29",
+      "bytes": 353
+    }
+  },
+  "may_advance_to_video_render": false,
+  "may_create_full_runtime_mp4_render": false,
+  "may_advance_to_final_assembly": false,
+  "may_advance_to_shorts_work": false,
+  "may_advance_to_publish_readiness": false,
+  "may_youtube_action": false,
+  "next_review_question": "Review the new staged-rail-transition full-runtime HTML proof; the tightened clean-rail fast-transition proof is not an advancement source.",
+  "staged_rail_transition_tighten_record": {
+    "disposition": "tighten",
+    "disposition_utc": "2026-05-05T16:40:49Z",
+    "reviewer_text": "The clean-rail fast-transition proof still feels jumpy or rough because too many layout, typography, detail, and source-art changes happen at once.",
+    "required_changes": [
+      "keep total crossover near 600ms",
+      "stage outgoing detail, title/accent, and summary/subbeat in separate phases",
+      "remove animated layout reflow for font size, max height, display, and active-card padding",
+      "use stable rail slots with a constant-size active detail layer",
+      "delay source-art drift until after the outgoing-detail settle phase",
+      "create a new HTML-only review proof before any replacement MP4 render"
+    ]
+  },
+  "staged_rail_transition_html_proof": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z/player.html",
+    "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z/review/rough_assembly_review_packet.md",
+    "human_disposition": "defer",
+    "created_utc": "2026-05-05T16:40:49Z"
+  },
+  "staged_rail_transition_successor": {
+    "packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z/rough_assembly_manifest.json",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z/player.html",
+    "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_photoreal_ink_lit_full_runtime_staged_rail_transition_html_rough_proof_20260505T164049Z/review/rough_assembly_review_packet.md",
+    "human_disposition": "defer",
+    "created_utc": "2026-05-05T16:40:49Z"
+  }
+}

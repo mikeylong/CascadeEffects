@@ -1,0 +1,45 @@
+{
+  "packet_id": "living_cover_launch_pad_image1_crew_count_repair_imagegen_scene_exploration_20260507T231826Z",
+  "created_utc": "20260507T231826Z",
+  "precheck_basis": "manual visual precheck after built-in image_gen repair pass",
+  "precheck_result": "three packaged variants appear to show exactly seven foreground crew and no extra/partial humans; human reads remain pending",
+  "source_art_dimensions": {
+    "variant_a": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "variant_b": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "variant_c": {
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    }
+  },
+  "contact_sheet_dimensions": {
+    "desktop": [
+      1920,
+      448
+    ],
+    "320x180": [
+      320,
+      180
+    ],
+    "168x94": [
+      168,
+      94
+    ]
+  },
+  "forbidden_media_scan_expected_empty": [
+    "*.mp4",
+    "*.mov",
+    "*.wav",
+    "*.mp3",
+    "*.srt",
+    "*.vtt"
+  ]
+}

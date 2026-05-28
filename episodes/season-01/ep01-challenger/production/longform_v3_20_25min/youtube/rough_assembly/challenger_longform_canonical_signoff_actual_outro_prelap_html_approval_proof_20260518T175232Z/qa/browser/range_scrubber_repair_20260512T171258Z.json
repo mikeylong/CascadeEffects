@@ -1,0 +1,50 @@
+{
+  "created_utc": "20260512T171258Z",
+  "review_url": "http://127.0.0.1:8818/player.html",
+  "issue_reported": "timeline scrubber stopped working during local HTTP review",
+  "root_cause_read": "plain python http.server answered MP3 Range requests with HTTP 200 full-file responses instead of HTTP 206 partial content; native media scrubbers rely on byte-range seeking for this large review audio file",
+  "repair": {
+    "server_script_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/living_cover_shuttle_stack_reference_variant_a_full_runtime_hybrid_attention_rewrite_music_only_intro_outro_outro_screen_literal_rail_captions_precise_matte_visibility_repair_html_approval_proof_20260512T163537Z/scripts/range_review_server.py",
+    "server_script_sha256": "868feb6c763435c2f5e5c31111958578b0e85240a9fbfde5b5044a4d749c4d11",
+    "server_script_bytes": 4848,
+    "server_command": "python3 scripts/range_review_server.py --host 127.0.0.1 --port 8818 --directory .",
+    "serving_url": "http://127.0.0.1:8818/player.html",
+    "range_support_read": "pass_206_partial_content"
+  },
+  "http_header_qa": {
+    "range_probe": {
+      "request": "Range: bytes=0-1023",
+      "status": "HTTP/1.0 206 Partial Content",
+      "content_range": "bytes 0-1023/29894991",
+      "content_length": "1024",
+      "accept_ranges": "bytes"
+    },
+    "full_probe": {
+      "status": "HTTP/1.0 200 OK",
+      "content_length": "29894991",
+      "accept_ranges": "bytes"
+    }
+  },
+  "browser_seek_qa": {
+    "tool": "playwright-cli session challenger_scrubber",
+    "page_title": "Challenger Living Cover Precise Matte Visibility Repair HTML Approval Proof",
+    "duration_seconds": 1245.553197,
+    "seekable_before_seconds": [
+      0,
+      1245.553197
+    ],
+    "seek_to_seconds": 632,
+    "seeked_current_time_seconds": 632,
+    "ready_state_after_seek": 4,
+    "network_state_after_seek": 1,
+    "error_after_seek": null,
+    "read": "pass_audio_currentTime_seeked_to_632s"
+  },
+  "non_changes": {
+    "audio_assets_changed": false,
+    "caption_assets_changed": false,
+    "matte_assets_changed": false,
+    "player_html_changed": false,
+    "mp4_render_created": false
+  }
+}

@@ -1,0 +1,2485 @@
+{
+  "qa_id": "hyatt_n6_challenger_music_browser_qa_1920x1080",
+  "created_utc": "2026-05-17T09:05:31.891Z",
+  "url": "http://127.0.0.1:8844/player.html",
+  "viewport": {
+    "width": 1920,
+    "height": 1080,
+    "deviceScaleFactor": 1
+  },
+  "sample_times_seconds": [
+    0,
+    5,
+    9.601451,
+    12,
+    91.601451,
+    103.601451,
+    190.601451,
+    214.601451,
+    307.601451,
+    484.601451,
+    501.601451,
+    762.601451,
+    843.244263,
+    854.033923,
+    873.033923
+  ],
+  "status": "pass",
+  "failures": [],
+  "reads": {
+    "browser_qa_read": "pass",
+    "stage_dimension_read": "pass",
+    "source_art_loaded_read": "pass",
+    "viewer_text_surface_inventory_read": "pass",
+    "right_rail_text_boundary_read": "pass",
+    "out_of_rail_text_read": "pass_no_visible_out_of_rail_text",
+    "ordinal_chapter_label_read": "pass_no_visible_ordinal_chapter_labels",
+    "end_screen_text_boundary_read": "pass_no_end_screen_text_outside_rail",
+    "music_intro_caption_suppression_read": "pass_no_captions_before_voice_start",
+    "story_time_shift_read": "pass_window_story_time_available",
+    "html_range_server_read": "pass_206_partial_content",
+    "range_scrub_effect_review_read": "pass_206_partial_content"
+  },
+  "range_request": {
+    "url": "http://127.0.0.1:8844/assets/audio/Ep3-Hyatt-Regency.challenger_music_web_review.mp3",
+    "request_header": "Range: bytes=0-99",
+    "status": 206,
+    "content_range": "bytes 0-99/20978668",
+    "content_length": "100",
+    "received_bytes": 100
+  },
+  "screenshots": [
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0000000ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0005000ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0009601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0012000ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0091601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0103601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0190601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0214601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0307601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0484601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0501601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0762601ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0843244ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0854034ms.png",
+    "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0873034ms.png"
+  ],
+  "samples": [
+    {
+      "time": 0,
+      "storyTime": 0,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Tea Dance",
+      "activeTitle": "A party under suspended walkways",
+      "captionText": "",
+      "endOpacity": "0",
+      "visibleTextCount": 8,
+      "visibleTexts": [
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1372,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A party under  u pended walkway",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1578,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1812,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A public celebration fill  the atrium below  u pended walkway .",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1586,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1538,
+              "bottom": 350
+            },
+            {
+              "left": 1152,
+              "top": 347,
+              "right": 1315,
+              "bottom": 388
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1449,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1319,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0000000ms.png"
+    },
+    {
+      "time": 5,
+      "storyTime": 0,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Tea Dance",
+      "activeTitle": "A party under suspended walkways",
+      "captionText": "",
+      "endOpacity": "0",
+      "visibleTextCount": 8,
+      "visibleTexts": [
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1372,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A party under  u pended walkway",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1578,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1812,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A public celebration fill  the atrium below  u pended walkway .",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1586,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1538,
+              "bottom": 350
+            },
+            {
+              "left": 1152,
+              "top": 347,
+              "right": 1315,
+              "bottom": 388
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1449,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1319,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0005000ms.png"
+    },
+    {
+      "time": 9.601451,
+      "storyTime": 0,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Tea Dance",
+      "activeTitle": "A party under suspended walkways",
+      "captionText": "",
+      "endOpacity": "0",
+      "visibleTextCount": 8,
+      "visibleTexts": [
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1372,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A party under  u pended walkway",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1578,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1812,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A public celebration fill  the atrium below  u pended walkway .",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1586,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1538,
+              "bottom": 350
+            },
+            {
+              "left": 1152,
+              "top": 347,
+              "right": 1315,
+              "bottom": 388
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1449,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1319,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0009601ms.png"
+    },
+    {
+      "time": 12,
+      "storyTime": 2.398548999999999,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Tea Dance",
+      "activeTitle": "A party under suspended walkways",
+      "captionText": "1981, about 1,600 people gathered in the atrium",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 83,
+              "right": 1364,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A party under  u pended walkway",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 119,
+              "right": 1560,
+              "bottom": 196
+            },
+            {
+              "left": 1144,
+              "top": 179,
+              "right": 1794,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A public celebration fill  the atrium below  u pended walkway .",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 263,
+              "right": 1578,
+              "bottom": 304
+            },
+            {
+              "left": 1144,
+              "top": 301,
+              "right": 1530,
+              "bottom": 342
+            },
+            {
+              "left": 1144,
+              "top": 339,
+              "right": 1307,
+              "bottom": 380
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1449,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1319,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "1981, about 1,600 people gathered in the atrium",
+          "rects": [
+            {
+              "left": 1201,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            },
+            {
+              "left": 1678,
+              "top": 978,
+              "right": 1868,
+              "bottom": 1027
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0012000ms.png"
+    },
+    {
+      "time": 91.601451,
+      "storyTime": 82,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Original Load Path",
+      "activeTitle": "One rod, one carried floor",
+      "captionText": "as one. The Hyatt Regency Kansas City opened",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1505,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "One rod, one carried floor",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1769,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1305,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The original  upport concept carrie  both walkway  through one continuou  hanger rod.",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1604,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1635,
+              "bottom": 350
+            },
+            {
+              "left": 1152,
+              "top": 347,
+              "right": 1581,
+              "bottom": 388
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1344,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1319,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "a  one. The Hyatt Regency Kan a  City opened",
+          "rects": [
+            {
+              "left": 1235,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            },
+            {
+              "left": 1643,
+              "top": 978,
+              "right": 1868,
+              "bottom": 1027
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0091601ms.png"
+    },
+    {
+      "time": 103.601451,
+      "storyTime": 94,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Original Load Path",
+      "activeTitle": "One rod, one carried floor",
+      "captionText": "117 feet wide, and 50 feet high.",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 83,
+              "right": 1497,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "One rod, one carried floor",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 119,
+              "right": 1751,
+              "bottom": 196
+            },
+            {
+              "left": 1144,
+              "top": 179,
+              "right": 1287,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The original  upport concept carrie  both walkway  through one continuou  hanger rod.",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 263,
+              "right": 1596,
+              "bottom": 304
+            },
+            {
+              "left": 1144,
+              "top": 301,
+              "right": 1627,
+              "bottom": 342
+            },
+            {
+              "left": 1144,
+              "top": 339,
+              "right": 1573,
+              "bottom": 380
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1344,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1319,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "117 feet wide, and 50 feet high.",
+          "rects": [
+            {
+              "left": 1308,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0103601ms.png"
+    },
+    {
+      "time": 190.601451,
+      "storyTime": 181,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Revision",
+      "activeTitle": "Two rods, twice the demand",
+      "captionText": "During the shop drawing phase the period when",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1345,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Two rod , twice the demand",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1749,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1409,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The  hop drawing  plit the rod and changed what the fourth-floor box beam had to carry.",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1626,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1621,
+              "bottom": 350
+            },
+            {
+              "left": 1152,
+              "top": 347,
+              "right": 1587,
+              "bottom": 388
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1344,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1449,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "During the  hop drawing pha e the period when",
+          "rects": [
+            {
+              "left": 1226,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            },
+            {
+              "left": 1639,
+              "top": 978,
+              "right": 1868,
+              "bottom": 1027
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0190601ms.png"
+    },
+    {
+      "time": 214.601451,
+      "storyTime": 205,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Revision",
+      "activeTitle": "Two rods, twice the demand",
+      "captionText": "Threading a long rod is difficult.",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 83,
+              "right": 1337,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Two rod , twice the demand",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 119,
+              "right": 1731,
+              "bottom": 196
+            },
+            {
+              "left": 1144,
+              "top": 179,
+              "right": 1391,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The  hop drawing  plit the rod and changed what the fourth-floor box beam had to carry.",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 263,
+              "right": 1618,
+              "bottom": 304
+            },
+            {
+              "left": 1144,
+              "top": 301,
+              "right": 1613,
+              "bottom": 342
+            },
+            {
+              "left": 1144,
+              "top": 339,
+              "right": 1579,
+              "bottom": 380
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1344,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1449,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1404,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Threading a long rod i  difficult.",
+          "rects": [
+            {
+              "left": 1289,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0214601ms.png"
+    },
+    {
+      "time": 307.601451,
+      "storyTime": 298,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Category Error",
+      "activeTitle": "A detail treated as paperwork",
+      "captionText": "To understand how this happened,",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1463,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A detail treated a  paperwork",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1713,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1493,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "A  tructural change pa e  through the proce  a  if it were coordination.",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1581,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1655,
+              "bottom": 350
+            },
+            {
+              "left": 1152,
+              "top": 347,
+              "right": 1359,
+              "bottom": 388
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1344,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1449,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1319,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1400,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "To under tand how thi  happened,",
+          "rects": [
+            {
+              "left": 1233,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0307601ms.png"
+    },
+    {
+      "time": 484.601451,
+      "storyTime": 475,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Warning Signs",
+      "activeTitle": "Deflection before failure",
+      "captionText": "verification. The fourth: earlier warning signs during",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1439,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Deflection before failure",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1690,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1356,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Crack , deflection, and in pection  never become deci ive evidence.",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1510,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1565,
+              "bottom": 350
+            },
+            {
+              "left": 1152,
+              "top": 347,
+              "right": 1441,
+              "bottom": 388
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1344,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1449,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1319,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1404,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "verification. The fourth: earlier warning  ign  during",
+          "rects": [
+            {
+              "left": 1312,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            },
+            {
+              "left": 1482,
+              "top": 978,
+              "right": 1868,
+              "bottom": 1027
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0484601ms.png"
+    },
+    {
+      "time": 501.601451,
+      "storyTime": 492,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "The Warning Signs",
+      "activeTitle": "Deflection before failure",
+      "captionText": "and addressed. Construction continued.",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 83,
+              "right": 1431,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Deflection before failure",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 119,
+              "right": 1672,
+              "bottom": 196
+            },
+            {
+              "left": 1144,
+              "top": 179,
+              "right": 1338,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Crack , deflection, and in pection  never become deci ive evidence.",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 263,
+              "right": 1502,
+              "bottom": 304
+            },
+            {
+              "left": 1144,
+              "top": 301,
+              "right": 1557,
+              "bottom": 342
+            },
+            {
+              "left": 1144,
+              "top": 339,
+              "right": 1433,
+              "bottom": 380
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 445,
+              "right": 1344,
+              "bottom": 479
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 498,
+              "right": 1449,
+              "bottom": 532
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 551,
+              "right": 1319,
+              "bottom": 585
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 604,
+              "right": 1404,
+              "bottom": 638
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 657,
+              "right": 1472,
+              "bottom": 691
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "and addre ed. Con truction continued.",
+          "rects": [
+            {
+              "left": 1334,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            },
+            {
+              "left": 1672,
+              "top": 978,
+              "right": 1868,
+              "bottom": 1027
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0501601ms.png"
+    },
+    {
+      "time": 762.601451,
+      "storyTime": 753,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "Everything Was In Order",
+      "activeTitle": "The system accepted the wrong load path",
+      "captionText": "to know otherwise. Fourteen months after the hotel",
+      "endOpacity": "0",
+      "visibleTextCount": 9,
+      "visibleTexts": [
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 83,
+              "right": 1536,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The  y tem accepted the wrong load path",
+          "rects": [
+            {
+              "left": 1162,
+              "top": 119,
+              "right": 1813,
+              "bottom": 196
+            },
+            {
+              "left": 1162,
+              "top": 179,
+              "right": 1765,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The document  look orderly after the load path ha  changed.",
+          "rects": [
+            {
+              "left": 1152,
+              "top": 271,
+              "right": 1672,
+              "bottom": 312
+            },
+            {
+              "left": 1152,
+              "top": 309,
+              "right": 1574,
+              "bottom": 350
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 407,
+              "right": 1344,
+              "bottom": 441
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 460,
+              "right": 1449,
+              "bottom": 494
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 513,
+              "right": 1319,
+              "bottom": 547
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 566,
+              "right": 1404,
+              "bottom": 600
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 619,
+              "right": 1400,
+              "bottom": 653
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "to know otherwi e. Fourteen month  after the hotel",
+          "rects": [
+            {
+              "left": 1192,
+              "top": 933,
+              "right": 1868,
+              "bottom": 982
+            },
+            {
+              "left": 1610,
+              "top": 978,
+              "right": 1868,
+              "bottom": 1027
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0762601ms.png"
+    },
+    {
+      "time": 843.244263,
+      "storyTime": 833.642812,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "Everything Was In Order",
+      "activeTitle": "The system accepted the wrong load path",
+      "captionText": "",
+      "endOpacity": "0",
+      "visibleTextCount": 8,
+      "visibleTexts": [
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 83,
+              "right": 1528,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The  y tem accepted the wrong load path",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 119,
+              "right": 1795,
+              "bottom": 196
+            },
+            {
+              "left": 1144,
+              "top": 179,
+              "right": 1747,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The document  look orderly after the load path ha  changed.",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 263,
+              "right": 1664,
+              "bottom": 304
+            },
+            {
+              "left": 1144,
+              "top": 301,
+              "right": 1566,
+              "bottom": 342
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 407,
+              "right": 1344,
+              "bottom": 441
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 460,
+              "right": 1449,
+              "bottom": 494
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 513,
+              "right": 1319,
+              "bottom": 547
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 566,
+              "right": 1404,
+              "bottom": 600
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 619,
+              "right": 1400,
+              "bottom": 653
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0843244ms.png"
+    },
+    {
+      "time": 854.033923,
+      "storyTime": 833.642812,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "Everything Was In Order",
+      "activeTitle": "The system accepted the wrong load path",
+      "captionText": "",
+      "endOpacity": "0.6446",
+      "visibleTextCount": 8,
+      "visibleTexts": [
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 83,
+              "right": 1528,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The  y tem accepted the wrong load path",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 119,
+              "right": 1795,
+              "bottom": 196
+            },
+            {
+              "left": 1144,
+              "top": 179,
+              "right": 1747,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The document  look orderly after the load path ha  changed.",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 263,
+              "right": 1664,
+              "bottom": 304
+            },
+            {
+              "left": 1144,
+              "top": 301,
+              "right": 1566,
+              "bottom": 342
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 407,
+              "right": 1344,
+              "bottom": 441
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 460,
+              "right": 1449,
+              "bottom": 494
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 513,
+              "right": 1319,
+              "bottom": 547
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 566,
+              "right": 1404,
+              "bottom": 600
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 619,
+              "right": 1400,
+              "bottom": 653
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0854034ms.png"
+    },
+    {
+      "time": 873.033923,
+      "storyTime": 833.642812,
+      "voiceTiming": {
+        "voiceStart": 9.601451,
+        "voiceDuration": 833.642812,
+        "voiceEnd": 843.244263,
+        "outroStart": 843.244263,
+        "totalDuration": 874.033923,
+        "endScreenSafeWindowStart": 854.033923
+      },
+      "railRect": {
+        "left": 1108,
+        "top": 52,
+        "right": 1868,
+        "bottom": 1028
+      },
+      "stageRect": {
+        "left": 0,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      },
+      "sourceArt": {
+        "complete": true,
+        "naturalWidth": 1920,
+        "naturalHeight": 1080
+      },
+      "activeChapter": "Everything Was In Order",
+      "activeTitle": "The system accepted the wrong load path",
+      "captionText": "",
+      "endOpacity": "1",
+      "visibleTextCount": 8,
+      "visibleTexts": [
+        {
+          "text": "Everything Wa  In Order",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 83,
+              "right": 1528,
+              "bottom": 114
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The  y tem accepted the wrong load path",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 119,
+              "right": 1795,
+              "bottom": 196
+            },
+            {
+              "left": 1144,
+              "top": 179,
+              "right": 1747,
+              "bottom": 256
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The document  look orderly after the load path ha  changed.",
+          "rects": [
+            {
+              "left": 1144,
+              "top": 263,
+              "right": 1664,
+              "bottom": 304
+            },
+            {
+              "left": 1144,
+              "top": 301,
+              "right": 1566,
+              "bottom": 342
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Tea Dance",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 407,
+              "right": 1344,
+              "bottom": 441
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Original Load Path",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 460,
+              "right": 1449,
+              "bottom": 494
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Revi ion",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 513,
+              "right": 1319,
+              "bottom": 547
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Category Error",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 566,
+              "right": 1404,
+              "bottom": 600
+            }
+          ],
+          "insideRail": true
+        },
+        {
+          "text": "The Warning Sign",
+          "rects": [
+            {
+              "left": 1148,
+              "top": 619,
+              "right": 1400,
+              "bottom": 653
+            }
+          ],
+          "insideRail": true
+        }
+      ],
+      "outOfRail": [],
+      "ordinal": [],
+      "screenshot": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_challenger_music_20260517T090253Z/qa/screenshots/music_sample_0873034ms.png"
+    }
+  ]
+}

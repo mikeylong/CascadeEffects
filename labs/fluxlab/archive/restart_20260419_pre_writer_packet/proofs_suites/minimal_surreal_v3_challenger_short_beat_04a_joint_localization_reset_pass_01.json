@@ -1,0 +1,38 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_04a_joint_localization_reset_pass_01",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, off-pad ascent, shuttle already airborne, climbing rocket, whole-stack hero shot, full shuttle portrait, upper-stack portrait, full tower portrait, tower arm in frame, inherited launch-plume read, detached gantry, broad platform cloud, thick dark spill-out plume, site-wide smoke sheet, detached smoke graphics, explosion, fireball, debris, breakup, painterly abstraction, generic rocket, malformed shuttle, missing orbiter wings, missing orange tank, single-stick rocket body"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_short__beat_04a_right_joint_platform_crop",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 81101,
+      "prompt_body": "Subsystem-led Challenger ignition crop anchored on the lower right booster aft field-joint seam and adjacent launch-platform hardware, only a narrow slice of the orange tank base and orbiter aft belly edge stay visible to confirm identity, the vehicle remains fully planted on the pad, bright ignition light rises from below, one thin pale gray smoke seep escapes directly from the joint seam and curls only slightly while staying attached and smaller than the booster body, no tower arm, no whole-stack portrait, no ascent, restrained cool dawn documentary light"
+    },
+    {
+      "id": "challenger_short__beat_04a_right_joint_orthographic",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 81121,
+      "prompt_body": "Orthographic lower-right booster joint study at Challenger ignition, the aft field-joint seam is the dominant subject while a small portion of the orange tank base, orbiter aft underside edge, and fixed platform relation confirm the stack, one narrow light-gray smoke thread marks the seam and bends slightly with ignition airflow while staying source-localized, early ignition glow remains below the vehicle, no liftoff, no detached puff, no platform-wide smoke, no hero framing, restrained blue-gray dawn light"
+    },
+    {
+      "id": "challenger_short__beat_04a_joint_platform_seam",
+      "archetype": "vehicle_vessel_or_aircraft",
+      "base_seed": 81141,
+      "prompt_body": "Pad-seam subsystem view of Challenger at initial ignition, the lower right booster aft joint and nearby hold-down platform hardware carry the frame while only enough orange tank lower section and orbiter aft underside remain visible to keep Challenger canonical, ignition glow stays below the stack, one thin localized smoke emergence starts at the joint and stays attached, no tower arm, no whole-stack ascent read, no broad cloud, restrained cool documentary light"
+    }
+  ]
+}

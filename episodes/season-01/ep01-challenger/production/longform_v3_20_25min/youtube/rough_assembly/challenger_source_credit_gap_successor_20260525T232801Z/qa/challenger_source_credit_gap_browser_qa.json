@@ -1,0 +1,126 @@
+{
+  "model": "challenger_source_credit_gap_browser_qa_v1",
+  "status": "pass",
+  "created_utc": "2026-05-25T23:29:42.746Z",
+  "url": "http://127.0.0.1:8766/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/html_review/source_credit_gap/player.html?range_guard=20260525T2328Z",
+  "qa": {
+    "model": "challenger_center_source_credit_gap_v1",
+    "source_text": [
+      "Presidential Commission on the Space Shuttle Challenger Accident",
+      "NASA Rogers Commission hearing record",
+      "Diane Vaughan, The Challenger Launch Decision"
+    ],
+    "expected_sources": [
+      "Presidential Commission on the Space Shuttle Challenger Accident",
+      "NASA Rogers Commission hearing record",
+      "Diane Vaughan, The Challenger Launch Decision"
+    ],
+    "rect": {
+      "left": 702.2890625,
+      "top": 367.7021789550781,
+      "width": 515.4072265625,
+      "height": 258.5951843261719,
+      "center_x": 959.99267578125,
+      "center_y": 496.99977111816406
+    },
+    "stage_rect": {
+      "left": 76.4375,
+      "top": 0,
+      "width": 1767.1103515625,
+      "height": 993.9995727539062,
+      "center_x": 959.99267578125,
+      "center_y": 496.9997863769531
+    },
+    "samples": {
+      "1196": {
+        "source_opacity": 0,
+        "computed_source_opacity": 0,
+        "source_active": false,
+        "end_screen_opacity": 1,
+        "rail_opacity": 0,
+        "is_safe_window": true
+      },
+      "1184.7": {
+        "source_opacity": 0,
+        "computed_source_opacity": 0,
+        "source_active": false,
+        "end_screen_opacity": 0,
+        "rail_opacity": 1,
+        "is_safe_window": false
+      },
+      "1184.8": {
+        "source_opacity": 0,
+        "computed_source_opacity": 0,
+        "source_active": false,
+        "end_screen_opacity": 0,
+        "rail_opacity": 1,
+        "is_safe_window": false
+      },
+      "1185.2": {
+        "source_opacity": 0.5499259259261069,
+        "computed_source_opacity": 0.5499,
+        "source_active": true,
+        "end_screen_opacity": 0,
+        "rail_opacity": 1,
+        "is_safe_window": false
+      },
+      "1185.55": {
+        "source_opacity": 1,
+        "computed_source_opacity": 1,
+        "source_active": true,
+        "end_screen_opacity": 0,
+        "rail_opacity": 1,
+        "is_safe_window": false
+      },
+      "1190.75": {
+        "source_opacity": 1,
+        "computed_source_opacity": 1,
+        "source_active": true,
+        "end_screen_opacity": 0,
+        "rail_opacity": 1,
+        "is_safe_window": false
+      },
+      "1191.2": {
+        "source_opacity": 0.5248736699293687,
+        "computed_source_opacity": 0.5249,
+        "source_active": true,
+        "end_screen_opacity": 0,
+        "rail_opacity": 1,
+        "is_safe_window": false
+      },
+      "1191.680884": {
+        "source_opacity": 0,
+        "computed_source_opacity": 0,
+        "source_active": false,
+        "end_screen_opacity": 0,
+        "rail_opacity": 0,
+        "is_safe_window": true
+      },
+      "1191.980884": {
+        "source_opacity": 0,
+        "computed_source_opacity": 0,
+        "source_active": false,
+        "end_screen_opacity": 1,
+        "rail_opacity": 0,
+        "is_safe_window": true
+      }
+    },
+    "mask": {
+      "sha": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+      "src": "http://127.0.0.1:8766/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/html_review/source_credit_gap/assets/masks/foreground_occlusion_matte.png?v=987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857"
+    },
+    "audio_src": "http://127.0.0.1:8766/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/html_review/source_credit_gap/audio_successor/challenger_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav"
+  },
+  "failures": [],
+  "reads": {
+    "source_credit_gap_runtime_read": "pass_source_credit_gap_browser_qa",
+    "source_credit_centering_read": "pass_source_credit_centered_in_16x9_stage",
+    "source_credit_timing_read": "pass_source_credits_visible_in_gap_and_clear_at_legal_entry",
+    "end_screen_legal_timing_read": "pass_end_screen_legal_timing_unchanged",
+    "precision_matte_runtime_read": "pass_v3_precision_matte_runtime",
+    "audio_source_runtime_read": "pass_approved_plus5db_audio_runtime_source"
+  },
+  "artifacts": {
+    "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/qa/challenger_source_credit_gap_t1185p55.png"
+  }
+}

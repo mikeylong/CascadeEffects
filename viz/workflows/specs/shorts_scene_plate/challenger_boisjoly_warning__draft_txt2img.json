@@ -1,0 +1,196 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "challenger_boisjoly_warning__draft_txt2img",
+  "base_fragment": "minimal_surreal_flux_midjourney_grid_draft_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no fireball, no ignition plume, no launch already in progress, no explosion imagery, no second tower as hero, no roadway as subject, no poster composition, no multi-object launch complex",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 972054013131801,
+    "selected_seed": 972054013131801,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 24,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/challenger_boisjoly_warning/draft/challenger_boisjoly_warning_draft",
+    "note_text": "Minimal-surreal Challenger v3 beat 01. Hold the documented prelaunch warning inside the frozen pad environment with moral pressure but no spectacle.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "draft_txt2img",
+    "reference_board_dir": "references/challenger_episode_acts/board",
+    "style_profile": "minimal_surreal_editorial",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "accent_palette": "winter blue, off-white, charcoal, signal orange",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the frozen gantry evidence and any witness trace above the subtitle band and preserve the top UI band as cold empty air",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "documented prelaunch warning held in frozen gantry steel and pad ice before Challenger flies",
+    "beat_id": "beat_01",
+    "historical_anchor": "Roger Boisjoly's warning held against the frozen Challenger launch pad before liftoff",
+    "surreal_breach": "the cold air seems to hold the warning in place as if the launch were already morally overdue",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "references/episodes/challenger/subject_reference_plates/generated/challenger_warning_cold.png",
+    "reference_mode": "midjourney_package_grid",
+    "midjourney_package_path": "references/episodes/challenger/shorts/midjourney/challenger_short_minimal_surreal_v3_trimmed/package.manifest.json",
+    "midjourney_shot_id": "beat_01"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "frozen gantry steel, pad ice, and one implied human warning compressed into a single prelaunch evidence frame",
+    "support_fragments": [
+      "real launch hardware and one witness-scale trace held subordinate to the warning atmosphere",
+      "cold pad air and brittle frost lines carrying the documented pressure before flight"
+    ],
+    "directives": [
+      "keep the frame prelaunch and documentary, not explosive",
+      "allow one witness trace without turning the image into a crowd scene",
+      "keep the warning pressure immediate at thumbnail size"
+    ],
+    "draft_directives": [
+      "keep the launch environment above the subtitle band",
+      "no fireball, blast plume, or already-launched shuttle",
+      "no collage panels or pasted source fragments"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "negative_prompt",
+      "widgets": {
+        "text": "{{ params.negative_prompt }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.denoise }}"
+      }
+    },
+    {
+      "key": "flux_guidance",
+      "widgets": {
+        "guidance": "{{ params.guidance }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    },
+    {
+      "key": "load_subject_reference",
+      "widgets": {
+        "image": "{{ params.subject_reference_runtime_image }}"
+      }
+    },
+    {
+      "key": "clip_vision_loader",
+      "widgets": {
+        "clip_name": "{{ params.subject_reference_clip_vision_model }}"
+      }
+    },
+    {
+      "key": "clip_vision_encode",
+      "widgets": {
+        "crop": "{{ params.subject_reference_crop }}"
+      }
+    },
+    {
+      "key": "subject_reference_conditioning",
+      "widgets": {
+        "strength": "{{ params.subject_reference_strength }}",
+        "noise_augmentation": "{{ params.subject_reference_noise_augmentation }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__challenger_boisjoly_warning__draft_txt2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__challenger_boisjoly_warning__draft_txt2img.json"
+  }
+}

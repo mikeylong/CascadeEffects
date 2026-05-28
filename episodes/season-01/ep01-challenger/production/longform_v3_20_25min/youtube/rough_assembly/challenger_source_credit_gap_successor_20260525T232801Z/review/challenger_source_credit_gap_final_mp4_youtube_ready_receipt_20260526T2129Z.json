@@ -1,0 +1,131 @@
+{
+  "receipt_type": "human_final_assembly_keep_and_unlisted_review_upload_authorization",
+  "schema_version": "cascade_effects_human_gate_receipt_v1",
+  "created_utc": "2026-05-26T21:29:17.568Z",
+  "episode_id": "challenger",
+  "source_proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/rough_assembly_manifest.json",
+  "source_proof_manifest_sha256_before": "291b9e32b7e390ab214163491527c3f4b6ee95244085be538c098d73f6a8511e",
+  "render_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/video_render/challenger_rolling_caption_rail_final_mp4_20260526T212342Z/render_manifest.json",
+  "render_manifest_sha256_before": "c0a894cfc75a08707ea81e0b6ce3a01d4816287fd1140e96e2fa9ad0b43129b8",
+  "html_review_path": "",
+  "mp4_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/video_render/challenger_rolling_caption_rail_final_mp4_20260526T212342Z/challenger_living_cover_final_review_1080p24.mp4",
+  "mp4_sha256": "2f7d8afdb9a204cec7aa2570bff9c9b23e133c67679dfb3c0c63afe91ad53bbd",
+  "mp4_bytes": 211716100,
+  "human_approval_basis": [
+    "User approved the Challenger source-credit-gap proof and asked to mark it ready for YouTube upload.",
+    "User approved the other seven videos and then requested all eight ready for YouTube upload after 12 am."
+  ],
+  "approved_changes": [
+    "center_source_credit_gap_v1",
+    "youtube_placeholder_borderless_underlay_v1",
+    "youtube_legal_window_end_screen_entry_v1",
+    "youtube_element_tight_geometry_v1",
+    "approved_challenger_outro_plus5db_audio",
+    "challenger_precision_matte_v3"
+  ],
+  "qa_reads": {
+    "mp4_created_read": "pass",
+    "video_stream_read": "pass_h264_present",
+    "audio_stream_read": "pass_aac_audio_present",
+    "audio_source_encode_read": "pass_aac_encoded_from_kept_right_rail_alignment_music_mix_wav",
+    "audio_stream_copy_read": "not_applicable_source_wav_encoded_to_aac_for_mp4_container",
+    "duration_read": "pass",
+    "dimensions_read": "pass",
+    "fps_read": "pass",
+    "full_decode_read": "pass",
+    "caption_sidecar_read": "pass",
+    "visible_rail_captions_burned_in_read": "pass_rendered_from_browser_rail_caption_layer",
+    "caption_suppression_read": "pass",
+    "render_mode_stage_only_read": "pass_stage_rect_matches_1920x1080_viewport",
+    "render_mode_ui_chrome_absence_read": "pass_no_visible_review_chrome_controls",
+    "forbidden_review_chrome_text_read": "pass_no_forbidden_review_ui_text_in_render_mode",
+    "visible_form_controls_absence_read": "pass_no_visible_audio_form_controls_in_render_mode",
+    "render_viewport_overflow_read": "pass_no_render_mode_viewport_overflow",
+    "end_screen_text_artifact_read": "pass_no_viewer_text_visible_or_faint_in_end_screen_window",
+    "viewer_text_suppression_read": "pass",
+    "youtube_target_geometry_static_read": "pass_static_overlay_boxes",
+    "end_screen_hold_read": "pass_static_youtube_target_geometry_background_expected_to_move",
+    "final_luma_drop_read": "pass_review_samples_extracted",
+    "mp4_black_frame_guard_read": "pass_mp4_sample_frames_nonblack_with_luma_variance",
+    "visual_nonblack_stage_read": "pass_stage_screenshots_nonblack_with_luma_variance",
+    "source_art_visibility_read": "pass_source_art_visible_in_render_mode",
+    "browser_screenshot_byte_size_read": "pass_browser_screenshots_above_blank_size_floor",
+    "stage_luma_variance_read": "pass_stage_dark_scene_high_variance_nonblack_source_visible",
+    "youtube_upload_black_screen_block_read": "pass_black_screen_preflight_allows_render_continuation",
+    "semmelweis_deterministic_ambient_read": "not_applicable_non_semmelweis_episode",
+    "youtube_end_screen_safe_zone_read": "pass_targets_in_static_layout_from_kept_html_proof",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "post_change_regression_read": "pass_rendered_from_current_kept_html_proof_challenger",
+    "music_contract_regression_read": "pass_kept_music_mix_manifest_used",
+    "challenger_precision_matte_guard_read": "pass_challenger_precision_matte_v3_sha_model_receipt_and_player_metadata",
+    "challenger_precision_mask_sha_read": "pass_mask_sha_987d1a96",
+    "challenger_superseded_mask_block_read": "pass_no_superseded_challenger_mask_active",
+    "downstream_gate_read": "pass_final_mp4_created_publish_and_youtube_flags_false",
+    "final_assembly_human_keep_read": "pass_user_approved_exact_challenger_source_credit_gap_render_for_youtube_upload",
+    "youtube_action_read": "blocked_pending_publish_readiness_package_keep_and_after_midnight_upload_window"
+  },
+  "audio_source": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_legal_end_screen_outro_level_successor_20260525T203318Z/audio_successor/challenger_right_rail_alignment_music_mix_outro_plus5db_after_vo.wav",
+    "sha256": "81174cc27fcbfc67f006dda89c9cf0c467103203a88f6faab2ba97e6209eebca",
+    "bytes": 213739606,
+    "role": "kept_right_rail_alignment_music_mix_wav",
+    "encode_policy": "encoded_to_aac_for_mp4_container"
+  },
+  "visual_guard": {
+    "browser": {
+      "narrative_sample_count": 5,
+      "failing_visual_samples": [],
+      "accepted_dark_scene_samples": [
+        {
+          "name": "start",
+          "time": 1,
+          "stats": {
+            "pixel_count": 14400,
+            "mean_luma": 19.454,
+            "std_luma": 25.108,
+            "min_luma": 0,
+            "max_luma": 241.566,
+            "nonblack_fraction": 0.484167
+          },
+          "reason": "dark visible scene: source art is nonblack with high variance"
+        }
+      ],
+      "tiny_screenshot_samples": [],
+      "hidden_source_art_samples": [],
+      "passed": true
+    },
+    "mp4": {
+      "narrative_sample_count": 5,
+      "failing_visual_samples": [],
+      "accepted_dark_scene_samples": [
+        {
+          "name": "start",
+          "time": 1,
+          "stats": {
+            "pixel_count": 14400,
+            "mean_luma": 19.459,
+            "std_luma": 25.112,
+            "min_luma": 0.144,
+            "max_luma": 240.923,
+            "nonblack_fraction": 0.484653
+          },
+          "reason": "dark visible scene: source art is nonblack with high variance"
+        }
+      ],
+      "tiny_screenshot_samples": [],
+      "hidden_source_art_samples": [],
+      "passed": true
+    },
+    "contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_source_credit_gap_successor_20260525T232801Z/video_render/challenger_rolling_caption_rail_final_mp4_20260526T212342Z/qa/frames/visual_guard_contact_sheet.html",
+      "sha256": "486ce5ac484bc137541eb13a061eea1917f05bfc137020d2da64ad72d5ed63ad",
+      "bytes": 1606
+    }
+  },
+  "upload_scope": "unlisted_review_upload_after_midnight_only",
+  "public_release_ready": false,
+  "upload_performed": false,
+  "source_proof_manifest_sha256_after": "4b58df2441a78ab333f6ba60d838f88dc63afaac14947525c9ba989715010774",
+  "render_manifest_sha256_after": "28bbc250d912824986e666a1aa28137f3a02d602e4286874a9f5d034f04b7a27"
+}

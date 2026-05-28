@@ -1,0 +1,112 @@
+{
+  "packet_id": "tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z",
+  "episode_id": "tacoma-narrows",
+  "artifact_type": "music_integration_contract",
+  "created_at": "2026-05-17T16:33:17Z",
+  "status": "review_ready_human_keep_pending",
+  "human_disposition": "pending",
+  "lane": "challenger_style_intro_outro",
+  "contract_basis": "Challenger long-form precedent: music-only intro, voice after lead-in, 2s fade tail, full Paper Architecture outro through end-screen.",
+  "sources": {
+    "registry": {
+      "path": "/Users/mike/Agents_CascadeEffects/references/shorts/music_track_registry.json",
+      "sha256": "e8ad71cc4933eb0459814a241aff3da766c66f5c36a2f52aa9469689d833934a",
+      "role": "music_track_registry"
+    },
+    "intro_loop": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+      "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818",
+      "role": "paper_architecture_instrumental_loop",
+      "duration_seconds": 9.601451,
+      "codec_name": "pcm_s16le",
+      "sample_rate": 44100,
+      "channels": 2,
+      "bits_per_sample": 16
+    },
+    "outro_full": {
+      "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+      "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+      "role": "paper_architecture_full_outro",
+      "duration_seconds": 30.795215,
+      "codec_name": "aac",
+      "sample_rate": 44100,
+      "channels": 2
+    },
+    "voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/final/Ep5_Tacoma-Narrows.wav",
+      "sha256": "de593cc6e4a554507f45a0289177a31b321a2017caca361287315d85cca7e2bf",
+      "role": "kept_long_form_voice_master",
+      "duration_seconds": 842.930794,
+      "codec_name": "pcm_s16le",
+      "sample_rate": 44100,
+      "channels": 1,
+      "bits_per_sample": 16
+    }
+  },
+  "timing": {
+    "intro_music_only_start_seconds": 0.0,
+    "voice_start_offset_seconds": 9.601451,
+    "intro_fade_tail_start_seconds": 9.601451,
+    "intro_fade_tail_end_seconds": 11.601451,
+    "voice_duration_seconds": 842.930794,
+    "voice_end_outro_start_seconds": 852.532245,
+    "outro_duration_seconds": 30.795215,
+    "total_planned_duration_seconds": 883.32746,
+    "end_screen_start_seconds": 863.32746,
+    "end_screen_end_seconds": 883.32746
+  },
+  "caption_retiming": {
+    "offset_seconds": 9.601451,
+    "offset_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.vtt",
+      "sha256": "3eaa19c54d44bd656df934deb4610725f330d9492d2c04ff8a476debc32d7bc5",
+      "role": "script_locked_offset_vtt"
+    },
+    "offset_srt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.offset_intro_9s601.srt",
+      "sha256": "a4fd26996be92952020b75b86dd9ee7e85d2afa3322233d7f002c0460947ef63",
+      "role": "script_locked_offset_srt"
+    },
+    "story_vtt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.vtt",
+      "sha256": "c1b38aa34e0f6ab221a0fe7f9947a7eee08197d8dd009de70cdca62bf77bf779",
+      "role": "script_locked_story_vtt"
+    },
+    "story_srt": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_rail_safe.srt",
+      "sha256": "da05677de993cad988c85e332236275bd8b9a68d9787bdf52538198770e5fc39",
+      "role": "script_locked_story_srt"
+    },
+    "caption_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/motion_readiness/tacoma_living_cover_motion_readiness_candidate_g_20260517T163317Z/assets/captions/tacoma_narrows_longform.script_locked_caption_qa.json",
+      "sha256": "f0c6643a90b1ee1542a9a6accb68718cf6b4713f6e05b50c8f6f4a1574d08983",
+      "role": "script_locked_caption_qa"
+    }
+  },
+  "level_targets": {
+    "voice_peak_target": "defer_to_rough_mix_qa",
+    "music_intro_lufs_target": "series_precedent_match_by_ear_and_meter_before_rough_keep",
+    "ducking_under_opening_voice": "2s fade tail only, not an under-opening bed"
+  },
+  "rights_notes": "Registered local Paper Architecture theme assets are used for review planning; run YouTube/Content ID and rights check before public release.",
+  "reads": {
+    "music_integration_plan_read": "pass_packet_local_contract_created",
+    "series_music_contract_read": "pass_challenger_style_intro_outro_default",
+    "approved_music_source_read": "pass_registered_paper_architecture_theme_assets_recorded",
+    "intro_music_contract_read": "pass_music_only_intro_plus_2s_fade_tail_under_opening_voice",
+    "voice_start_offset_read": "pass_9_601451s",
+    "caption_timing_shift_read": "pass_offset_sidecars_generated_from_locked_script",
+    "full_outro_music_read": "pass_30_795215s_full_outro_after_voice",
+    "end_screen_music_handoff_read": "pass_outro_carries_through_20s_static_target_window",
+    "audio_level_mix_read": "planned_required_before_rough_keep",
+    "music_rights_read": "review_warning_registered_theme_assets_content_id_check_before_public_release",
+    "music_contract_regression_read": "pass_no_under_opening_voice_bed_plus_short_tail",
+    "no_music_or_temp_music_waiver_read": "not_applicable_no_waiver_requested"
+  },
+  "advance_flags": {
+    "may_start_rough_assembly": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  }
+}

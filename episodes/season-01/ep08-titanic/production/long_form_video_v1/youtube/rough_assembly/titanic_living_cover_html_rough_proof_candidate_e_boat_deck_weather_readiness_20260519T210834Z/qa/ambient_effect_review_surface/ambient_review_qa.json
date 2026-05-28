@@ -1,0 +1,215 @@
+{
+  "ambientReviewClass": true,
+  "ambientReviewVar": "1",
+  "browser_eval_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/player_browser_eval.json",
+  "browser_eval_sha256": "f56f698232a55a256f7c4d98bbf010f487c6a9434835ee7290e321de3a87f763",
+  "candidate_e_visible": true,
+  "deckLightCount": 9,
+  "deckLightElementCount": 0,
+  "deck_light_flicker_layer_read": "pass_ship_matte_canvas_light_cast_compositor_active",
+  "deck_light_state_samples": [
+    {
+      "t": 0.0,
+      "active_light_count": 9,
+      "off_light_count": 0,
+      "off_ids": []
+    },
+    {
+      "t": 6.562,
+      "active_light_count": 8,
+      "off_light_count": 1,
+      "off_ids": [
+        "L03"
+      ]
+    },
+    {
+      "t": 7.016,
+      "active_light_count": 8,
+      "off_light_count": 1,
+      "off_ids": [
+        "L08"
+      ]
+    },
+    {
+      "t": 7.747,
+      "active_light_count": 8,
+      "off_light_count": 1,
+      "off_ids": [
+        "L07"
+      ]
+    },
+    {
+      "t": 10.917,
+      "active_light_count": 8,
+      "off_light_count": 1,
+      "off_ids": [
+        "L01"
+      ]
+    }
+  ],
+  "diagnosticMarkerCount": 0,
+  "diagnostic_overlay_absence_read": "pass_no_marker_or_deck_light_elements_in_viewer_player",
+  "flicker_not_fade_read": "pass_no_css_transition_canvas_state_flips_hard",
+  "human_feedback_repair": {
+    "disposition": "tighten",
+    "issue": "local_pixel_retouched_pair_did_not_read_as_realistic_enough_for_deck_light_flicker",
+    "repair": "activated_full_scene_imagegen_lights_off_base_plus_masked_lights_on_plate_after_registration_qa",
+    "source": "in_app_browser_user_review_2026_05_20"
+  },
+  "image_src": "http://127.0.0.1:8871/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_off_1920x1080.png",
+  "imagegen_full_pair_reference": {
+    "activation_read": "pass_player_assets_replaced_with_imagegen_full_pair",
+    "attempt_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_manifest.json",
+    "attempt_manifest_sha256": "61c2db41177f156f69f55cc483520202bed3f771c5828d6d8226370672cf2fed",
+    "contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_contact_sheet.jpg",
+    "contact_sheet_sha256": "596f5784ac40aa6f9391de5efbf5eaecfcfeb5b81934b51f06f111988037a1b8",
+    "diagnostic_only": true,
+    "lamp_origin_reference_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_lamp_origin_reference_sheet.jpg",
+    "lamp_origin_reference_sheet_sha256": "e4586814b4311834e0b59473d5ba55075ef0d5ab40e8c84ac4cd1fbb602e0bc6",
+    "provenance_note_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/imagegen_full_pair_provenance.md",
+    "provenance_note_sha256": "fb2aad5826bbd82e4eeb9b7d8feb715c00a9e064f43144175d0327bc4a898fa8",
+    "provenance_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/imagegen_full_pair_provenance.json",
+    "provenance_sha256": "8a31cf3b3c4a992a54384fcad6b2c297478e79ecbb4559723f8480c7c8bf34c5",
+    "registration_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/imagegen_full_pair_deck_light_reference/attempt_01/attempt_01_registration_qa.json",
+    "registration_qa_sha256": "822af95187c35e049acd5edaad490ea07b78439e62cc020becfbd76ddb695c5e",
+    "review_url": "http://127.0.0.1:8871/qa/deck_light_flicker_reference/reference.html",
+    "status": "pass_attempt_01_activated_after_registration_qa"
+  },
+  "layerStyles": [
+    {
+      "animationName": "none",
+      "read": "pass_no_lamp_breath_slow_fade",
+      "selector": ".weather-tint"
+    },
+    {
+      "read": "pass_no_fade_on_masked_lights_on_plate",
+      "selector": ".plate-on",
+      "transitionDuration": "0s"
+    }
+  ],
+  "lightsOnPlateComplete": true,
+  "lightsOnPlateSrc": "http://127.0.0.1:8871/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_on_1920x1080.png",
+  "lights_on_image_src": "http://127.0.0.1:8871/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_on_1920x1080.png",
+  "reads": {
+    "ambient_review_mode_read": "pass",
+    "audio_source_read": "pass",
+    "broad_band_artifact_read": "pass_no_broad_veil_in_browser_screenshot",
+    "caption_track_read": "pass",
+    "deck_light_flicker_visibility_read": "pass_restrained_distress_v2_visible_sparse_localized_bulb_dropouts",
+    "deck_light_origin_map_read": "pass_imagegen_pair_pixel_reference_created",
+    "default_playback_ambient_restraint_read": "pass_normal_playback_max_one_off_lamp_and_trimmed_mask_strength",
+    "diagnostic_overlay_absence_read": "pass_no_reference_markers_or_deck_light_elements_in_viewer_player",
+    "final_render_gate_read": "blocked_review_surface_only",
+    "flicker_not_fade_read": "pass_no_css_transition_canvas_sparse_hard_step_mask_switches",
+    "imagegen_full_pair_attempt_read": "pass_attempt_01_activated",
+    "independent_interval_read": "pass_sampled_state_changes_are_not_synchronized",
+    "lights_off_plate_read": "pass_imagegen_full_scene_off_state_plate_active_as_base",
+    "masked_lights_on_plate_read": "pass_imagegen_full_scene_on_state_visible_only_through_per_light_css_masks",
+    "plate_transition_tween_read": "pass_smoothstep_boundary_tween",
+    "player_scrubber_read": "pass",
+    "practical_lamp_micro_life_read": "pass_repaired_to_imagegen_two_plate_hard_step_deck_light_flicker",
+    "previous_overlay_flicker_read": "superseded_tighten_by_user_imagegen_full_pair_request",
+    "procedural_stripe_artifact_read": "pass_no_repeating_stripe_overlay_in_browser_screenshot",
+    "rope_fall_tension_read": "pass_existing_localized_layer_preserved",
+    "sea_dawn_air_read": "pass_restrained_no_full_frame_veil",
+    "two_plate_registration_read": "pass_attempt_01_lamp_regions_register_for_masked_flicker",
+    "viewer_safe_visual_read": "pass_browser_screenshot_clean_after_restrained_distress_v2_repair",
+    "wet_deck_shimmer_read": "pass_existing_localized_layer_preserved",
+    "deck_light_cadence_read": "pass_review_average_off_count_low_and_max_two_off_lamps",
+    "human_ambient_keep_read": "pass_keep_restrained_distress_v2_ambient_light_behavior"
+  },
+  "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/browser_qa_1920x1080.png",
+  "screenshot_sha256": "c881a7db1393092c286af088568a19c418ebed4970de87db83681406ecdc2346",
+  "ship_matte_canvas_compositor_read": "pass_canvas_overlay_uses_lights_off_base_lights_on_source_per_light_masks_times_ship_matte",
+  "ship_matte_light_cast_reference": {
+    "compositor_version": "ship_matte_canvas_light_cast_v1",
+    "diagnostic_reference_url": "http://127.0.0.1:8871/qa/ship_matte_light_cast/reference.html",
+    "flicker_not_fade_read": "pass_canvas_transition_none_and_hard_step_schedule_flips",
+    "manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/ship_matte_light_cast_manifest.json",
+    "manifest_sha256": "49db47d8f88184519f48aa11e0b9c5f4540d8c3f8e65cf92b22141c335586a51",
+    "matte_preview_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/ship_deck_people_matte_alpha_preview.png",
+    "matte_preview_sha256": "416892987fd8f092ffff25cb28def91b97f47400606dfe0e991b9932e30a934a",
+    "player_browser_eval_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/player_browser_eval.json",
+    "player_browser_eval_sha256": "f56f698232a55a256f7c4d98bbf010f487c6a9434835ee7290e321de3a87f763",
+    "player_screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/player_ambient_review_ship_matte_browser.png",
+    "player_screenshot_sha256": "c881a7db1393092c286af088568a19c418ebed4970de87db83681406ecdc2346",
+    "qa_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/ship_matte_light_cast_qa.json",
+    "qa_sha256": "b839b33f54b8ef0fe334ba355036123c4b3df46065290ab8873eafd0da783268",
+    "reference_html_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/reference.html",
+    "reference_html_sha256": "47383abd43df33ced32a08caa309d7dbf2e70b1d22da4ae38f21e338570ba3fd",
+    "reference_screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/reference_browser.png",
+    "reference_screenshot_sha256": "d74f46c5ff5a96d3fbf4b2ff2d525d3ea6fa33a9d21bbe07c2fe2bb3a2e63f9a",
+    "reference_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/ship_matte_light_cast_reference_sheet.jpg",
+    "reference_sheet_sha256": "bd1ea7d07c2ea1fe1eff441bbf9c79f348216fdd5fec0aed743bcbb33e46d83d",
+    "review_url": "http://127.0.0.1:8871/player.html?ambientReview=1",
+    "ship_deck_people_matte_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_ship_deck_people_matte_1920x1080.png",
+    "ship_deck_people_matte_sha256": "a5b2a7c015e48094acfd00872e7f9dada971f7e597bad33f3d78fe007482aa4d",
+    "sky_water_lock_read": "pass_on_plate_canvas_alpha_zero_in_sky_ocean_horizon_and_negative_space_probes",
+    "status": "keep_restrained_distress_v2_human_ambient_keep"
+  },
+  "ship_matte_sky_water_lock_read": "pass_on_plate_canvas_alpha_zero_in_sky_ocean_horizon_and_negative_space_probes",
+  "sourcePlateComplete": true,
+  "sourcePlateSrc": "http://127.0.0.1:8871/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_off_1920x1080.png",
+  "transportPresent": true,
+  "two_plate_assets": {
+    "light_mask_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_light_mask_1920x1080.png",
+      "role": "active_radial_light_mask_reference",
+      "sha256": "fc3486679697a70943148786aec52e6fc86d415ea244cbbeb825fad57cb094da"
+    },
+    "lights_off_plate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_off_1920x1080.png",
+      "role": "imagegen_full_scene_lights_off_active_base",
+      "sha256": "2f9bc9c95d0aa868461bca5fd9bbc8979a14f8ad8c6fff907890d1ad42c71880"
+    },
+    "lights_on_plate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_lights_on_1920x1080.png",
+      "role": "imagegen_full_scene_lights_on_active_overlay",
+      "sha256": "20c832b8fb07eaa40aa7c8420962ef068cd7c7009c38066dd3e63910f1e3b365"
+    },
+    "source_original": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/assets/source_art/candidate_e_boat_deck_weather_readiness_1920x1080.png",
+      "role": "kept_candidate_e_reference_for_imagegen_full_pair",
+      "sha256": "e5a07275f94c6af4fe374892284042a5efc1b4a932de9be437b2a40588aad38f"
+    }
+  },
+  "updated_at": "2026-05-20T17:43:02Z",
+  "url": "http://127.0.0.1:8871/player.html?ambientReview=1",
+  "deck_light_cadence_reduction": {
+    "cadence_id": "restrained_distress_v2",
+    "qa_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/deck_light_cadence_reduction_qa.json",
+    "qa_sha256": "102121064e793cca7665662cd57b57b944e2e175eab65d5a76c62009b8bee40c",
+    "contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/deck_light_cadence_reduction_contact_sheet.png",
+    "contact_sheet_sha256": "02fc604e13e5ac5d076d4f32069bed2c7407988dbe85dc992cf04a17fb7541f5",
+    "frames_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/deck_light_cadence_reduction_frames/frames_manifest.json",
+    "frames_manifest_sha256": "58ba422431c0947d8804f403e7b8a6d70fdb660609f0008222a4d1bf403f170a",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/player.html",
+    "player_sha256": "73e4427874bb3f3a4d26836cb5441ed9b6ddf8b107f110bda24ec976e48b1911",
+    "player_browser_eval_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/player_browser_eval.json",
+    "player_browser_eval_sha256": "f56f698232a55a256f7c4d98bbf010f487c6a9434835ee7290e321de3a87f763",
+    "player_screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/qa/ship_matte_light_cast/player_ambient_review_ship_matte_browser.png",
+    "player_screenshot_sha256": "c881a7db1393092c286af088568a19c418ebed4970de87db83681406ecdc2346",
+    "review_url": "http://127.0.0.1:8871/player.html?ambientReview=1",
+    "status": "keep_restrained_distress_v2_human_ambient_keep"
+  },
+  "updated_utc": "2026-05-20T19:30:00Z",
+  "human_ambient_keep": {
+    "disposition": "keep",
+    "reviewer": "human_mike",
+    "recorded_at": "2026-05-20",
+    "scope": "ambient_light_behavior_only",
+    "review_url": "http://127.0.0.1:8871/player.html?ambientReview=1",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep8_Titanic/production/long_form_video_v1/youtube/rough_assembly/titanic_living_cover_html_rough_proof_candidate_e_boat_deck_weather_readiness_20260519T210834Z/review/human_ambient_keep_restrained_distress_v2_20260520.md",
+    "sha256": "902f2d0ff2c61e389ff22c7b1d3c39bdd79dac672dc9ec301bb688b3cea7f281",
+    "rough_assembly_keep_read": "not_granted_by_this_keep",
+    "current_gate": "rough_assembly_keep",
+    "next_required_gate": "human_rough_assembly_keep_or_tighten_reject",
+    "downstream_gates": {
+      "may_render_final_mp4": false,
+      "may_start_upload_prep": false,
+      "may_youtube_action": false,
+      "public_release_ready": false
+    }
+  },
+  "status": "keep_restrained_distress_v2_human_ambient_keep"
+}

@@ -1,0 +1,11 @@
+# semmelweis final MP4 assembly review
+
+- Gate: final assembly / MP4 upload-artifact review
+- Disposition: review_ready_pending_human_final_assembly_disposition
+- Source proof: `/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260522T223902Z`
+- Final MP4: `/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260523T063552Z/semmelweis_living_cover_final_review_1080p24.mp4`
+- Render manifest: `/Users/mike/Episodes_CascadeEffects/Ep4_Semmelweis/production/long_form_video_v1/youtube/rough_assembly/semmelweis_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/semmelweis_rolling_caption_rail_final_mp4_20260523T063552Z/render_manifest.json`
+- Upload allowed: `false`
+
+Review question: reply with exactly one disposition for this MP4 assembly: keep, tighten, or reject.
+

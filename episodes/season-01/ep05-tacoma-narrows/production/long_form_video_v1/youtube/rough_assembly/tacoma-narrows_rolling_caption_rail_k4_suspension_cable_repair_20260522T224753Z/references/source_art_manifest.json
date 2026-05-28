@@ -1,0 +1,348 @@
+{
+  "packet_id": "tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z",
+  "episode_id": "Ep5_Tacoma-Narrows",
+  "workflow": "long_form_video_production_v1",
+  "phase_gate": "source_art_gate",
+  "status": "review_ready_pending_human_keep_candidate_k4_suspension_cable_repair",
+  "created_at_utc": "2026-05-22T22:47:53Z",
+  "package_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z",
+  "visual_lane": "generated_raster_source_art",
+  "carrier_type": "generated_raster_source_art",
+  "profile_id": "cascade-ink-lit-photoreal-v1",
+  "selected_candidate_id": "candidate_k4_suspension_cable_repair",
+  "selected_candidate_recommendation": "candidate_k4_suspension_cable_repair",
+  "human_disposition": "pending",
+  "generation_provenance": {
+    "tool": "codex_builtin_image_gen",
+    "model": "unknown_builtin_image_gen_model",
+    "generation_mode": "prompted_regeneration_then_ffmpeg_normalize_to_1920x1080",
+    "imagegen_skill_read": "pass",
+    "source_art_generation_tool_read": "pass_imagegen_primary_source",
+    "local_rendered_backplate_read": "pass_local_tools_only_normalized_and_packaged_imagegen_assets",
+    "source_art_workspace_copy_read": "pass_workspace_copy_present",
+    "no_rotoscope_or_local_paint_read": "pass_no_local_paint_mask_or_composite_used_for_backplate_content"
+  },
+  "supersedes": [
+    {
+      "packet_id": "tacoma_living_cover_bridge_deck_story_imagegen_20260517",
+      "source_art_id": "candidate_g_higher_wave_downshot",
+      "new_status": "tighten_superseded_by_candidate_k4_suspension_cable_geometry_repair",
+      "reason": "Left-side suspension hangers read as detached/free-floating bars or incorrectly anchored foreground members."
+    },
+    {
+      "packet_id": "tacoma_living_cover_bridge_deck_wide_stance_imagegen_keep_20260517T225428Z",
+      "source_art_id": "candidate_k3_roadway_wide_stance",
+      "new_status": "tighten_superseded_by_candidate_k4_suspension_cable_geometry_repair",
+      "reason": "K3 successor preserves the same left-side suspension-cable geometry defect class."
+    }
+  ],
+  "candidate": {
+    "id": "candidate_k4_suspension_cable_repair",
+    "label": "Suspension Cable Geometry Repair",
+    "source_generation_path": "/Users/mike/.codex/generated_images/019e51ce-abca-7870-add3-ad7b87e740fe/ig_02117430eccbe844016a10dbeb405881938a57444f6ef4076c.png",
+    "source_generation_sha256": "39e075a2cbb6ce91514cb5bf072aa22bd15cc5440de1db65fd7311e7fc97a89a",
+    "workspace_original_copy_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/source_art/candidate_k4_suspension_cable_repair_original.png",
+    "workspace_original_copy_sha256": "39e075a2cbb6ce91514cb5bf072aa22bd15cc5440de1db65fd7311e7fc97a89a",
+    "workspace_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/source_art/candidate_k4_suspension_cable_repair_1920x1080.png",
+    "workspace_sha256": "afa4f88d1a5477082e29dbc607f6580199a28b0518f0aae4f9b393c936c89a43",
+    "prompt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/prompts/candidate_k4_suspension_cable_repair_prompt.txt",
+    "prompt_sha256": "20cd107a911ef66506611110fe21d37e01c95711f15a734818ccfc53742770b8",
+    "dimensions": {
+      "width": 1920,
+      "height": 1080
+    },
+    "reads": {
+      "historical_accuracy_read": "pass_1940_tacoma_narrows_period_bridge_scene_no_modern_objects",
+      "source_reference_alignment_read": "pass_same_living_cover_bridge_deck_direction_regenerated_for_geometry_repair",
+      "public_anchor_geometry_read": "pass_tacoma_suspension_bridge_tower_deck_and_cable_system_readable",
+      "suspension_cable_geometry_read": "pass_left_and_right_suspenders_attach_to_main_cables_and_deck_edges_no_free_floating_foreground_bars",
+      "left_hand_cable_crop_read": "pass_left_crop_reviewed_for_clean_cable_to_deck_attachment",
+      "right_rail_safe_space_read": "pass_revalidated_right_rail_crop_created_for_review",
+      "period_vehicle_read": "pass",
+      "human_presence_read": "pass_anonymous_witnesses_present",
+      "no_recognizable_faces_read": "pass",
+      "procedural_signal_overlay_read": "pass_no_overlay",
+      "texture_noise_read": "pass_restrained_photoreal_documentary_texture",
+      "paper_architecture_visual_style_read": "pass_not_paper_architecture",
+      "no_rotoscope_or_local_paint_read": "pass"
+    },
+    "status": "review_ready_pending_human_keep"
+  },
+  "qa": {
+    "full_frame_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/source_art/candidate_k4_suspension_cable_repair_1920x1080.png",
+    "left_cable_crop": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/qa/candidate_k4_suspension_cable_repair_left_cable_crop.png",
+      "sha256": "edc6abf55a6de35db3206ad2f8927e06ff0a9631cbc8f790ee4bf9781004f01d",
+      "role": "left_side_suspension_cable_geometry_crop"
+    },
+    "right_rail_crop": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/qa/candidate_k4_suspension_cable_repair_right_rail_crop.png",
+      "sha256": "6905037fd9279d662bc5ffc9dab67603da8383930decc28999e7a5f98b75fa75",
+      "role": "right_rail_safe_space_crop"
+    }
+  },
+  "end_screen_palette": {
+    "model_id": "backplate_sampled_youtube_end_screen_palette_v1",
+    "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+    "palette_source": "sampled_episode_backplate",
+    "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/source_art/candidate_k4_suspension_cable_repair_1920x1080.png",
+    "source_art_sha256": "afa4f88d1a5477082e29dbc607f6580199a28b0518f0aae4f9b393c936c89a43",
+    "target_count": 3,
+    "targets": {
+      "left_video": {
+        "role": "suggested_video",
+        "sample_bbox_xy": [
+          78,
+          382,
+          758,
+          765
+        ],
+        "sample_hex": "#484c4e",
+        "fill_rgba": "rgba(40, 51, 57, 0.360)",
+        "border_rgba": "rgba(122, 163, 184, 0.740)",
+        "ring_rgba": "rgba(91, 129, 149, 0.180)",
+        "inner_ring_rgba": "rgba(134, 169, 187, 0.460)",
+        "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+        "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+        "source_hue_degrees": 200,
+        "source_saturation": 0.04,
+        "derived_saturation": 0.22,
+        "perceptual_variability_score": 61,
+        "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+        "hue_shift_applied": false,
+        "sample_read": "pass_backplate_region_average"
+      },
+      "right_video": {
+        "role": "watch_next_video",
+        "sample_bbox_xy": [
+          1162,
+          382,
+          1842,
+          765
+        ],
+        "sample_hex": "#575d62",
+        "fill_rgba": "rgba(41, 51, 59, 0.360)",
+        "border_rgba": "rgba(122, 156, 184, 0.740)",
+        "ring_rgba": "rgba(91, 122, 149, 0.180)",
+        "inner_ring_rgba": "rgba(134, 163, 187, 0.460)",
+        "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+        "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+        "source_hue_degrees": 207,
+        "source_saturation": 0.059,
+        "derived_saturation": 0.22,
+        "perceptual_variability_score": 61,
+        "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+        "hue_shift_applied": false,
+        "sample_read": "pass_backplate_region_average"
+      },
+      "center_subscribe": {
+        "role": "subscribe",
+        "sample_bbox_xy": [
+          814,
+          429,
+          1106,
+          721
+        ],
+        "sample_hex": "#3e4243",
+        "fill_rgba": "rgba(43, 60, 64, 0.340)",
+        "border_rgba": "rgba(144, 187, 198, 0.840)",
+        "ring_rgba": "rgba(105, 157, 171, 0.200)",
+        "inner_ring_rgba": "rgba(134, 177, 187, 0.460)",
+        "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+        "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+        "source_hue_degrees": 192,
+        "source_saturation": 0.039,
+        "derived_saturation": 0.24,
+        "perceptual_variability_score": 54,
+        "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+        "hue_shift_applied": false,
+        "sample_read": "pass_backplate_region_average"
+      }
+    },
+    "sample_read": "pass_source_backplate_sampled",
+    "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+    "perceptual_variability_min_score": 54,
+    "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+    "adaptive_context_read": "pass_local_target_regions_sampled_with_perceptual_backplate_variability",
+    "fixed_cross_episode_color_read": "pass_no_challenger_default_color_reuse_with_visible_episode_variability"
+  },
+  "end_screen_palette_contract": {
+    "contract_id": "living_cover_end_screen_palette_contract_v1",
+    "status": "pass",
+    "required": true,
+    "required_for_gates": [
+      "visual_system",
+      "rough_assembly",
+      "final_assembly",
+      "publish_readiness"
+    ],
+    "palette_source": "sampled_episode_backplate",
+    "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+    "sample_model": "ffmpeg_target_region_average_rgb_v1",
+    "approved_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/source_art/candidate_k4_suspension_cable_repair_1920x1080.png",
+      "sha256": "afa4f88d1a5477082e29dbc607f6580199a28b0518f0aae4f9b393c936c89a43",
+      "role": "approved_living_cover_source_art_backplate"
+    },
+    "sampled_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/source_art/candidate_k4_suspension_cable_repair_1920x1080.png",
+      "sha256": "afa4f88d1a5477082e29dbc607f6580199a28b0518f0aae4f9b393c936c89a43",
+      "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+      "target_samples": {
+        "left_video": {
+          "bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ],
+          "sample_hex": "#484c4e",
+          "sample_read": "pass_backplate_region_average"
+        },
+        "right_video": {
+          "bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ],
+          "sample_hex": "#575d62",
+          "sample_read": "pass_backplate_region_average"
+        },
+        "center_subscribe": {
+          "bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ],
+          "sample_hex": "#3e4243",
+          "sample_read": "pass_backplate_region_average"
+        }
+      }
+    },
+    "colors": {
+      "video_target_fill_rgba": "rgba(40, 51, 57, 0.360)",
+      "video_target_border_rgba": "rgba(122, 163, 184, 0.740)",
+      "video_target_secondary_border_rgba": "rgba(122, 156, 184, 0.740)",
+      "subscribe_ring_rgba": "rgba(144, 187, 198, 0.840)",
+      "muted_rail_text_hex": "#575d62",
+      "small_accent_hex": "#3e4243"
+    },
+    "css_variables": {
+      "--ce-end-screen-target-fill": "rgba(40, 51, 57, 0.360)",
+      "--ce-end-screen-video-border": "rgba(122, 163, 184, 0.740)",
+      "--ce-end-screen-video-border-secondary": "rgba(122, 156, 184, 0.740)",
+      "--ce-end-screen-subscribe-ring": "rgba(144, 187, 198, 0.840)",
+      "--ce-end-screen-muted-text": "#575d62",
+      "--ce-end-screen-small-accent": "#3e4243"
+    },
+    "reads": {
+      "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+      "end_screen_target_fill_palette_read": "pass_local_target_fills_sampled_from_backplate_regions",
+      "end_screen_target_contrast_read": "pass_local_target_borders_visible_without_challenger_hue_shift",
+      "rail_panel_palette_read": "pass_adaptive_end_screen_targets_use_source_aware_palette",
+      "source_integrated_panel_color_read": "pass_perceptual_episode_backplate_colors_visible_in_end_screen",
+      "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors_with_visible_variability",
+      "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets"
+    },
+    "target_palette": {
+      "model_id": "backplate_sampled_youtube_end_screen_palette_v1",
+      "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+      "palette_source": "sampled_episode_backplate",
+      "source_art_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/assets/source_art/candidate_k4_suspension_cable_repair_1920x1080.png",
+      "source_art_sha256": "afa4f88d1a5477082e29dbc607f6580199a28b0518f0aae4f9b393c936c89a43",
+      "target_count": 3,
+      "targets": {
+        "left_video": {
+          "role": "suggested_video",
+          "sample_bbox_xy": [
+            78,
+            382,
+            758,
+            765
+          ],
+          "sample_hex": "#484c4e",
+          "fill_rgba": "rgba(40, 51, 57, 0.360)",
+          "border_rgba": "rgba(122, 163, 184, 0.740)",
+          "ring_rgba": "rgba(91, 129, 149, 0.180)",
+          "inner_ring_rgba": "rgba(134, 169, 187, 0.460)",
+          "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+          "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+          "source_hue_degrees": 200,
+          "source_saturation": 0.04,
+          "derived_saturation": 0.22,
+          "perceptual_variability_score": 61,
+          "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+          "hue_shift_applied": false,
+          "sample_read": "pass_backplate_region_average"
+        },
+        "right_video": {
+          "role": "watch_next_video",
+          "sample_bbox_xy": [
+            1162,
+            382,
+            1842,
+            765
+          ],
+          "sample_hex": "#575d62",
+          "fill_rgba": "rgba(41, 51, 59, 0.360)",
+          "border_rgba": "rgba(122, 156, 184, 0.740)",
+          "ring_rgba": "rgba(91, 122, 149, 0.180)",
+          "inner_ring_rgba": "rgba(134, 163, 187, 0.460)",
+          "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+          "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+          "source_hue_degrees": 207,
+          "source_saturation": 0.059,
+          "derived_saturation": 0.22,
+          "perceptual_variability_score": 61,
+          "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+          "hue_shift_applied": false,
+          "sample_read": "pass_backplate_region_average"
+        },
+        "center_subscribe": {
+          "role": "subscribe",
+          "sample_bbox_xy": [
+            814,
+            429,
+            1106,
+            721
+          ],
+          "sample_hex": "#3e4243",
+          "fill_rgba": "rgba(43, 60, 64, 0.340)",
+          "border_rgba": "rgba(144, 187, 198, 0.840)",
+          "ring_rgba": "rgba(105, 157, 171, 0.200)",
+          "inner_ring_rgba": "rgba(134, 177, 187, 0.460)",
+          "palette_treatment_model": "local_backplate_perceptual_target_palette_v3",
+          "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+          "source_hue_degrees": 192,
+          "source_saturation": 0.039,
+          "derived_saturation": 0.24,
+          "perceptual_variability_score": 54,
+          "perceptual_variability_read": "pass_backplate_hue_visible_in_end_screen_target",
+          "hue_shift_applied": false,
+          "sample_read": "pass_backplate_region_average"
+        }
+      },
+      "sample_read": "pass_source_backplate_sampled",
+      "adaptive_variability_model": "backplate_hue_preserved_perceptual_variability_v1",
+      "perceptual_variability_min_score": 54,
+      "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+      "adaptive_context_read": "pass_local_target_regions_sampled_with_perceptual_backplate_variability",
+      "fixed_cross_episode_color_read": "pass_no_challenger_default_color_reuse_with_visible_episode_variability"
+    }
+  },
+  "gate_locks": {
+    "may_rebuild_rough_proof": true,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "next_required_action": "Human review of candidate_k4 full frame and left-cable crop, then rough proof keep before any final render.",
+  "primary_review_artifact": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/review/source_art_review_candidate_k4_suspension_cable_repair_20260522T224753Z.md",
+    "sha256": "5457c573fe9f4989a53ffbbb7120ec9a949c93dffab8e46294205b455d975032",
+    "role": "source_art_review_note",
+    "review_html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_suspension_cable_repair_imagegen_candidate_k4_20260522T224753Z/review.html"
+  }
+}

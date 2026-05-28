@@ -1,0 +1,131 @@
+{
+  "episode_id": "tacoma-narrows",
+  "workflow": "long_form_video_production_v1",
+  "artifact_type": "living_cover_source_art_review_candidate",
+  "candidate_id": "candidate_k3_b3_failure_in_progress_snapped_suspenders",
+  "status": "review_ready_pending_human_keep_candidate_k3_b3_failure_in_progress_snapped_suspenders",
+  "human_disposition": "pending",
+  "created_at_utc": "20260523T020003Z",
+  "source_of_truth": {
+    "label": "Option B / Candidate K3 original, unflipped",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+    "sha256": "8f85d657d6a2573ddeaf637e468d4a8b2db4a20b2017b369591579f086e6246c",
+    "required_orientation_read": "pass_unflipped_option_b_selected_by_human"
+  },
+  "target_region": {
+    "description": "right-hand far-span/tower suspension-cable geometry inside the user-drawn magenta box",
+    "bbox_xyxy_1920x1080": [
+      1028,
+      160,
+      1391,
+      916
+    ],
+    "target_overlay_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_failure_in_progress_target_overlay.png",
+    "target_crop_before_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_source_target_crop.png",
+    "target_crop_raw_candidate_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_raw_candidate_target_crop.png",
+    "target_crop_box_composite_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_box_composite_target_crop.png"
+  },
+  "direction": {
+    "repair_model": "failure_in_progress_snapped_suspenders_not_clean_cable_repair",
+    "story_intent": "imminent collapse tension while preserving K3 wet roadway, car, foreground bracing witness, deck torsion, tower, rain, water, forest, and 1940s mood",
+    "hard_constraints": [
+      "main suspension cables must remain continuous",
+      "snapped/slack elements must read as suspenders or deck-edge hanger attachments",
+      "no severed main suspension cable",
+      "no explosion, fire, smoke, debris cloud, added people, added vehicles, UI, text, labels, or magenta box",
+      "no cables landing on cars, roadway center, water, sky, or unrelated planes"
+    ]
+  },
+  "generation_provenance": {
+    "tool": "Codex built-in image_gen",
+    "input_target_image": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+    "input_target_region_reference": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_failure_in_progress_target_overlay.png",
+    "mode": "full_frame_image_edit_with_target_region_instruction",
+    "default_generated_output_path": "/Users/mike/.codex/generated_images/019e51ce-abca-7870-add3-ad7b87e740fe/ig_00abc4e94e659d1f016a11091c34388193913dae92bb58060c.png",
+    "default_generated_output_sha256": "588a62ab36a0aae9363d7c5c196d22b8e41e155e4913b115efa7ecb68aec5d80",
+    "prompt_summary": "localized far-span/right tower failure-in-progress snapped/slack suspenders and torn deck-edge hanger attachments; continuous main cables; preserve K3 story beats and 1940s storm mood."
+  },
+  "candidate_outputs": {
+    "primary_review_candidate_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_1920x1080.png",
+    "primary_review_candidate_sha256": "580e69bea2f7d278f2aed000ccf669cfaa45fcbf562238694085809eac4363b8",
+    "raw_full_frame_candidate_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_imagegen_raw_normalized_1920x1080.png",
+    "raw_full_frame_candidate_sha256": "580e69bea2f7d278f2aed000ccf669cfaa45fcbf562238694085809eac4363b8",
+    "raw_full_frame_original_size_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_imagegen_raw_1672x941.png",
+    "raw_full_frame_original_size_sha256": "588a62ab36a0aae9363d7c5c196d22b8e41e155e4913b115efa7ecb68aec5d80",
+    "box_limited_composite_attempt_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/assets/source_art/candidate_k3_b3_failure_in_progress_snapped_suspenders_box_composite_1920x1080.png",
+    "box_limited_composite_attempt_sha256": "005d6bd640e5b5425ab8a9661f38e0f3fa939068876d81fbfc161551f658b7fc",
+    "box_limited_composite_advance_status": "review_artifact_only_pending_alignment_human_keep"
+  },
+  "qa_artifacts": {
+    "target_overlay": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_failure_in_progress_target_overlay.png",
+    "full_frame_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_failure_in_progress_full_frame_contact_sheet.png",
+    "boxed_region_contact_sheet": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_failure_in_progress_boxed_region_contact_sheet.png",
+    "diff_heatmap": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b3_failure_in_progress_snapped_suspenders_20260523T020003Z/qa/candidate_k3_b3_box_composite_difference_heatmap.png"
+  },
+  "source_art_reads": {
+    "failure_in_progress_story_read": "review_required_visible_snapped_slack_suspenders_inside_target_region",
+    "main_cable_continuity_read": "review_required_main_cables_appear_continuous_not_severed",
+    "snapped_suspender_read": "review_required_failed_elements_read_as_suspenders_or_hanger_attachments",
+    "deck_edge_attachment_failure_read": "review_required_failed_elements_terminate_near_plausible_deck_edge_attachment_points",
+    "no_main_cable_sever_read": "review_required_no_main_suspension_cable_cut_or_break",
+    "suspension_cable_geometry_read": "review_required_no_free_floating_foreground_bars_or_cable_landings_on_cars_roadway_water_sky",
+    "visual_story_continuity_read": "review_required_raw_candidate_preserves_story_but_full_frame_imagegen_changes_exist",
+    "deck_torsion_story_read": "review_required",
+    "human_witness_bracing_read": "review_required",
+    "weather_and_roadway_mood_read": "review_required",
+    "historical_plausibility_read": "review_required_suspenders_attachment_failure_only_not_main_cable_sever",
+    "paper_architecture_visual_style_read": "pass_no_paper_architecture_style_observed_in_generation_prompt_or_candidate",
+    "texture_noise_read": "review_required",
+    "pixel_diff_nonmask_read": "tighten_raw_full_frame_changes_detected_composite_attempt_created_for_controlled_region_review",
+    "box_composite_alignment_read": "review_required_do_not_advance_composite_without_human_alignment_keep",
+    "generation_tool_provenance_read": "pass_codex_builtin_image_gen_recorded"
+  },
+  "diff_report": {
+    "raw_candidate_nonmask_mean_rgb_delta": [
+      5.666658695076672,
+      5.543801291620042,
+      5.300173187427283
+    ],
+    "raw_candidate_box_mean_rgb_delta": [
+      7.326981143031341,
+      7.405178045204465,
+      7.049221914149259
+    ],
+    "box_composite_nonmask_mean_rgb_delta": [
+      0.04385690736419191,
+      0.04384022264094698,
+      0.04222069217130539
+    ],
+    "box_composite_box_mean_rgb_delta": [
+      7.066195363421255,
+      7.146319334562399,
+      6.802513536661489
+    ],
+    "interpretation": "raw full-frame candidate changes non-target areas; box composite confines most pixel change to target mask but requires visual alignment review before use."
+  },
+  "gate_locks": {
+    "may_rebuild_rough_proof": false,
+    "may_render_final_mp4": false,
+    "may_youtube_action": false,
+    "public_release_ready": false
+  },
+  "downstream_policy": {
+    "rough_proof_rebuild": "blocked_pending_human_source_art_keep",
+    "preserve_after_keep": [
+      "captions",
+      "rail timing",
+      "audio",
+      "music",
+      "intro/outro",
+      "end-screen timing"
+    ],
+    "allowed_after_keep": [
+      "recompute backplate-sampled palette only"
+    ]
+  },
+  "supersedes": {
+    "candidate_k3_b2_boxed_cable_repair": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/source_art/tacoma_living_cover_candidate_k3_b2_boxed_cable_repair_20260523T001446Z",
+    "candidate_k3_g2_right_cable_microrepair_status": "reject_wrong_target_do_not_advance"
+  },
+  "next_required_action": "human source-art review: keep, tighten, or reject candidate_k3_b3_failure_in_progress_snapped_suspenders before rough proof rebuild"
+}

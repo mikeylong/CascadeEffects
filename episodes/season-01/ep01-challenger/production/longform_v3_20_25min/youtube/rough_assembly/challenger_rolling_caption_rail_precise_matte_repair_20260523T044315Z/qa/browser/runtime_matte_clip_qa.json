@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "created_utc": "2026-05-23T04:47:59Z",
+  "player_url": "http://127.0.0.1:8798/player.html?v=source_pixel_gap_preserving_tower_shuttle_matte_v3_987d1a96",
+  "mask": {
+    "src": "http://127.0.0.1:8798/assets/masks/foreground_occlusion_matte.png?v=987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+    "sha256": "987d1a96d51dd5c94acdc94a833a92ad9d9b4866ceb80dda539ed27084d5b857",
+    "complete": true,
+    "natural_width": 1920,
+    "natural_height": 1080
+  },
+  "runtime_probe_alpha": {
+    "service_arm_open_gap_upper": 1.0,
+    "service_arm_open_gap_lower": 1.0,
+    "right_booster_side_sky": 1.0,
+    "right_booster_lower_side_sky": 1.0,
+    "upper_service_arm_visible_hardware": 0.0,
+    "lower_service_arm_visible_hardware": 0.0,
+    "external_tank": 0.0,
+    "orbiter_body": 0.0,
+    "right_booster": 0.0
+  },
+  "aircraft_route0_runtime_samples": {
+    "66": {
+      "xy": [620.404, 282.656],
+      "sky_alpha": 0.0,
+      "visible": false
+    },
+    "68": {
+      "xy": [567.126, 289.976],
+      "sky_alpha": 0.0,
+      "visible": false
+    },
+    "70": {
+      "xy": [515.38, 297.085],
+      "sky_alpha": 1.0,
+      "visible": true
+    },
+    "72": {
+      "xy": [465.385, 303.954],
+      "sky_alpha": 1.0,
+      "visible": true
+    },
+    "74": {
+      "xy": [417.362, 310.552],
+      "sky_alpha": 0.0,
+      "visible": false
+    },
+    "76": {
+      "xy": [371.528, 316.849],
+      "sky_alpha": 0.0,
+      "visible": false
+    },
+    "78": {
+      "xy": [328.102, 322.815],
+      "sky_alpha": 0.0,
+      "visible": false
+    },
+    "80": {
+      "xy": [287.304, 328.42],
+      "sky_alpha": 1.0,
+      "visible": true
+    }
+  },
+  "read": "the current browser runtime is loading the cache-busted v3 source-pixel matte; the two reported false-positive sky/gap regions are fully open while visible service-arm/shuttle/booster hardware remains blocked"
+}

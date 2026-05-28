@@ -1,0 +1,104 @@
+{
+  "family": "shorts_scene_plate",
+  "preset": "hyatt_story_still_v2_base__refine_img2img",
+  "base_fragment": "flux_full_refine_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "minimal surreal editorial vertical still, anchor fragment: restrained documentary-surreal Hyatt Regency story plate, layered support fragments: institutional handoff scene and quiet wrong-state cue, historical anchor: routine-looking change moved through normal project channels, surreal breach: one ordinary institutional scene contains one wrong-state cue, one clear subject, negative space occupies at least 60% of the frame, off-center focal mass, one dominant field color, one saturated accent element, exactly one surreal breach, soft diffuse lighting, no text, logo, or ui artifacts",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no labels, no logos, no brand marks, no signage, no detailed faces, no gore, no bodies, no collapse reenactment, no disaster spectacle, no rods or nuts as the dominant subject",
+    "width": 1024,
+    "height": 1792,
+    "batch_size": 1,
+    "seed": 918401000,
+    "selected_seed": 918401000,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 8,
+    "guidance": 4.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.18,
+    "upscale_factor": 2.0,
+    "filename_prefix": "cascadeeffects/shorts_scene_plate/hyatt_story_still_v2_base/refine/hyatt_story_still_v2_base_refine",
+    "note_text": "Refine Hyatt story-still v2 base plate.",
+    "output_intent": "shorts_scene_plate",
+    "stage": "refine_img2img",
+    "reference_board_dir": "references/episodes/hyatt-regency/shorts/hyatt_short_minimal_surreal_v3_still_sequence_v1",
+    "style_profile": "minimal_surreal_editorial_v3_no_ref",
+    "temperature": "restrained",
+    "palette_policy": "contract-limited",
+    "accent_palette": "warm concrete, muted brass, pale gray, desaturated civic green, charcoal",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "keep the primary subject readable above the subtitle band; leave top UI band quiet",
+    "post_work": "typography-later",
+    "safe_zone": "top-ui-and-subtitle-keep-out",
+    "signal_anchor": "Hyatt Regency story-led still plate",
+    "beat_id": "hyatt_story_still_v2_base",
+    "historical_anchor": "The Hyatt Regency walkway collapse was caused by a routine-looking change that moved through normal project channels",
+    "surreal_breach": "one ordinary institutional scene contains one wrong-state cue showing accountability failure",
+    "caption_safe_zone": {
+      "top_ui": [
+        0.0,
+        0.0,
+        1.0,
+        0.12
+      ],
+      "subtitles": [
+        0.08,
+        0.74,
+        0.92,
+        0.96
+      ]
+    },
+    "source_image": "cascadeeffects/shorts_scene_plate/hyatt_story_still_v2_base/draft/hyatt_story_still_v2_base_draft_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos",
+    "subject_reference_image": "/Users/mike/Viz_CascadeEffects/references/episodes/hyatt-regency/shorts/hyatt_short_minimal_surreal_v3_still_sequence_v1/stills/beat_01a__atrium_context.png",
+    "subject_reference_strength": 0.08,
+    "subject_reference_noise_augmentation": 0.0,
+    "subject_reference_crop": "none"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 4,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.18,
+    "semantic_qc_profile": "shorts_scene_default"
+  },
+  "nodes": [],
+  "links": [],
+  "output": {
+    "intent": "shorts_scene_plate",
+    "generated_filename": "ce_shorts_scene_plate__hyatt_story_still_v2_base__refine_img2img.workflow.json",
+    "sync_filename": "ce_shorts_scene_plate__hyatt_story_still_v2_base__refine_img2img.json"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "Hyatt Regency story-led still plate",
+    "support_fragments": [
+      "The Hyatt Regency walkway collapse was caused by a routine-looking change that moved through normal project channels",
+      "one ordinary institutional scene contains one wrong-state cue showing accountability failure"
+    ],
+    "directives": [
+      "negative space occupies at least 60% of the frame",
+      "off-center focal mass",
+      "one dominant field color",
+      "one saturated accent element",
+      "exactly one surreal breach",
+      "soft diffuse lighting",
+      "no text, logo, or ui artifacts",
+      "single evidence frame, not a collage, diptych, or composite",
+      "keep the Hyatt structural subject concrete and mobile-legible"
+    ],
+    "refine_directives": [
+      "preserve the same Hyatt structural subject and single accountability/load-path contradiction",
+      "do not introduce diagrams, text panels, or new secondary scenes"
+    ]
+  }
+}

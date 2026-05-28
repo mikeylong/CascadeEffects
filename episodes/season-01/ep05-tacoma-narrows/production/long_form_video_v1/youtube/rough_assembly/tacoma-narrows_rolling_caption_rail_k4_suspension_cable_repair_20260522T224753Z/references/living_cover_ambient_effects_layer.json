@@ -1,0 +1,359 @@
+{
+  "packet_id": "tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z",
+  "episode_id": "tacoma-narrows",
+  "artifact_type": "living_cover_ambient_effects_layer",
+  "process_version": "living_cover_ambient_effects_layer_v1",
+  "created_at": "2026-05-20T01:06:51Z",
+  "updated_at": "2026-05-20T15:34:26Z",
+  "status": "keep_tail_light_removed_rough_proof_approved_for_final_render",
+  "human_disposition": "keep",
+  "lane_decision": "foreground_glass_rain_weather_app_full_surface_v10_tail_light_ambient_removed_v1",
+  "selected_direction": "tail_light_ambient_effect_removed_preserve_bottom_refraction_glass_rain",
+  "rationale": "Human requested removal of the tail/brake-light ambient effect; preserve the current best glass-rain treatment and all rough-proof systems.",
+  "reference_evidence": {
+    "user_reference_recording": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/reference/reference_weather_glass_recording.mov",
+      "sha256": "7672133d32ae39efd171492b255b1bd56054e721772ec87a24dc774575e884e3",
+      "role": "user_supplied_weather_app_glass_rain_reference_video_no_audio_stream"
+    },
+    "reference_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/reference/reference_screen_recording_contact_sheet.png",
+      "sha256": "e4623fecc7e60b8dd09a51a2ebf5e98e1a603e4bc68dfe666a89b71772a2fc90",
+      "role": "weather_app_reference_contact_sheet"
+    },
+    "transcript_log": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/reference/transcribe_no_audio_log.txt",
+      "sha256": "83ad8c7bcb7716b33742752068620fbe5f8e1ead1d30370ff53d5e339a9df1d8",
+      "role": "transcribe_attempt_log_no_audio_stream"
+    },
+    "no_audio_stream_read": "pass_ffprobe_video_only_reference_recording"
+  },
+  "source_art": {
+    "flipped_k3_backplate": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/source_art/candidate_k3_roadway_wide_stance_flipped_1920x1080.png",
+      "sha256": "b2b4411de556d2e202ac672fa435f961e7369c0093dcc61ef0c827c75f178b2f",
+      "role": "deterministic_horizontal_flip_of_kept_k3_source_art_for_layout_review",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "unflipped_k3_reference": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/assets/source_art/candidate_k3_roadway_wide_stance_1920x1080.png",
+      "sha256": "8f85d657d6a2573ddeaf637e468d4a8b2db4a20b2017b369591579f086e6246c",
+      "role": "kept_k3_source_art_local_copy_unflipped_reference",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "source_art_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/references/source_art_manifest.json",
+      "sha256": "3e02c5d43fd32079a34fc345d8005ba90e6fa9947cc8a3c4c998ee3962ee3acc",
+      "role": "packet_local_source_art_manifest_copy"
+    },
+    "source_plate_geometry_preservation_read": "pass_no_source_plate_geometry_change_from_glass_rain_layer"
+  },
+  "deterministic_parameters": {
+    "source_type": "deterministic_weather_app_glass_layer",
+    "motion_clock": "audio_time_from_zero",
+    "seed": 27190419,
+    "glass_mask_rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "glass_rail_exclusion_rect": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "right_rail_coverage_policy": "user_requested_full_surface_weather_coverage",
+    "typical_bead_diameter_px": [
+      6,
+      18
+    ],
+    "rare_accent_diameter_px": [
+      22,
+      34
+    ],
+    "macro_drop_policy": "forbidden_above_36px",
+    "bead_count": 360,
+    "moving_bead_share": 0.2,
+    "runner_count": 20,
+    "runner_length_px": [
+      24,
+      90
+    ],
+    "runner_width_px": [
+      1.6,
+      4.2
+    ],
+    "fine_streak_count": 150,
+    "fine_streak_width_px": [
+      1,
+      3
+    ],
+    "whole_overlay_scroll_policy": "forbidden",
+    "low_wetness_policy": "weather_app_nuance_not_soaked_screen",
+    "highlight_policy": "stronger small rim highlights and soft foreground lensing without bubble shading",
+    "protected_glass_rain_lane": "foreground_glass_rain_weather_app_full_surface_v10",
+    "protected_glass_rain_change_policy": "unchanged_from_bottom_refraction_angle_predecessor",
+    "brake_lamps": {
+      "lane": "disabled_tail_light_ambient_removed_v1",
+      "source_type": "disabled_practical_light_overlay",
+      "visibility_policy": "no_tail_or_brake_lights_rendered",
+      "allowed_vehicle_origins": [],
+      "excluded_regions": [],
+      "pulse_model": "none_tail_light_ambient_removed",
+      "active_count": 0,
+      "removal_scope": "tail_light_ambient_lane_only",
+      "protected_glass_rain_change_policy": "unchanged_from_bottom_refraction_angle_predecessor"
+    }
+  },
+  "layers": [
+    {
+      "id": "source_plate_drift",
+      "type": "existing_source_safe_transform",
+      "preservation_read": "pass_preserved_from_chapter_transition_successor"
+    },
+    {
+      "id": "foreground_glass_rain_weather_app_full_surface_v10",
+      "type": "deterministic_canvas_weather_app_glass_layer",
+      "source_safety": "full-stage viewer-facing overlay; no source plate geometry, people, vehicle, or bridge animation",
+      "rail_policy": "covers right rail by user request; QA checks rail coverage and text/caption readability"
+    },
+    {
+      "id": "disabled_tail_light_ambient_removed_v1",
+      "status": "removed_by_human_request",
+      "source_type": "disabled_practical_light_overlay",
+      "viewer_facing_render": false,
+      "allowed_vehicle_origins": [],
+      "active_count": 0,
+      "preserve_glass_rain_read": "pass"
+    }
+  ],
+  "qa": {
+    "browser_qa": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/browser_qa_1920x1080.json",
+      "sha256": "46c1839650e1e2657d241816f350c4414a4a4bc6b1fc723d7946e86cb33e3319",
+      "pass": true
+    },
+    "glass_rain_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/glass_rain_review_strip.png",
+      "sha256": "b8f3eb0344bf93faa37bd0cb24eb0d17ce1df50b094679d668a45c54e1503ace",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/glass_rain_review_strip.html",
+      "html_sha256": "955eb1b7d0a13a89869e34e812e7ab21dbe0e7dce2a15cf0f8e97be1c463bb54"
+    },
+    "full_surface_reference_comparison_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/weather_app_nuance_reference_comparison_strip.png",
+      "sha256": "6e69ca0a393c512d2837288916f8c266d4bff7d54e95e17b035db3918eacf5ca",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/weather_app_nuance_reference_comparison_strip.html",
+      "html_sha256": "9dd4a0bdb9b90875c862a23c44b25589210b386ed93b3117bf625946e622a1a0"
+    },
+    "full_surface_motion_crop_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/weather_app_nuance_motion_crop_strip.png",
+      "sha256": "e7fd9d7b9ce81578cf04db3091b2f06178d3d62e10a5f8ba3e8038c519782e7c",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/weather_app_nuance_motion_crop_strip.html",
+      "html_sha256": "9ed983b3634773707ae581974096e3d73b6c9bf1afc4e81feab213347bcf61f9"
+    },
+    "focused_transition_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/focused_transition_review_strip.png",
+      "sha256": "581c511854cdf5786d6a8bc7b7c9aa083abbef0c6fbca03dc1e84047183e81d3",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/focused_transition_review_strip.html",
+      "html_sha256": "63df6c76aae895a889fb79aafa8fe8293b605132f7ff361e993864c1fd1afb5a"
+    },
+    "browser_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/browser_qa_1920x1080.json",
+    "browser_qa_sha256": "661a988a08d0380b3d7375cd4883e0e85d37f3bd07942a0e113f2a30709a9379",
+    "browser_qa_pass": true,
+    "bottom_refraction_angle_read": "pass",
+    "brake_lamps_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamps_review_strip.png",
+      "sha256": "724d915b9e348ae71d9fa7fb12a9196befa15f791f605f6c038d9da9b72303b6",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamps_review_strip.html",
+      "html_sha256": "be054eacd7bec8d11e29d34ecd42319b3240a3264a3cebb9f960fd38d6cf90e4"
+    },
+    "rough_assembly_review_packet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/review/rough_assembly_review_packet.md",
+      "sha256": "f941e9316f1c0ec4a487e91027e37b37a18eff7630a60c0d2c636b51c09ba074"
+    },
+    "brake_lamp_rapid_pulse_contact_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamp_rapid_pulse_contact_strip.png",
+      "sha256": "75b6838835df30d99d445cfdc6b7bdf46089070d90fbd825a1b44a7888c1fa6b",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamp_rapid_pulse_contact_strip.html",
+      "html_sha256": "a98bca02e1cb2e62d6ce9d1472d74fe16d9e881b68f78a76cc293e3eed8617d8"
+    },
+    "visible_rear_brake_lamp_origin_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/visible_rear_brake_lamp_origin_strip.png",
+      "sha256": "c29ba2fb664a17f8014ab5498a292f6caab9766a8286e3ec92a5ac6e1feaae46",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/visible_rear_brake_lamp_origin_strip.html",
+      "html_sha256": "23784fe14bbab5e48d950dd3caf7faffcca2360fa98306a9259eade8a181e38f"
+    },
+    "rear_lamp_alignment_contact_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/rear_lamp_alignment_contact_sheet.png",
+      "sha256": "43470b5f85d232f6fd696d97d83edb6bb93733f9eba96fad1f6cc3ae485bbe9b",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/rear_lamp_alignment_contact_sheet.html",
+      "html_sha256": "a30c4d0f755bf504756a879e89ab206d7586e5c3760fafcf3b9f06af5ad6ac56"
+    },
+    "rear_lamp_alignment_calibration_sheet": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/rear_lamp_alignment_calibration_sheet.png",
+      "sha256": "b4f6bed11feb6e10daaab9d71f5e5520c7ab73ba69c7e606cae20963457f497c",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/rear_lamp_alignment_calibration_sheet.html",
+      "html_sha256": "e9c2ea2654ae453f7fa678b0ebb54c4869c4dbe5ba9343d9609aeb6c5fb3f1c6"
+    },
+    "vehicle_rear_origin_map": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/references/vehicle_rear_origin_map.json",
+      "sha256": "b55967844bc9953e0602a414b539dc6fa1460c580430bb8cdc8b4ba0e18e2434"
+    },
+    "micro_rear_lamp_precision_contact_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/micro_rear_lamp_precision_contact_sheet.png",
+    "micro_rear_lamp_precision_contact_sheet_sha256": "e736a134be2d86e049b84cde2dae769b524e2309e02fb8bd83157dd8f284c111",
+    "micro_rear_lamp_precision_calibration_sheet_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/micro_rear_lamp_precision_calibration_sheet.png",
+    "micro_rear_lamp_precision_calibration_sheet_sha256": "cc849f76e146583e7a369fc8dd4e707dfd1d55eac35103f5040aea75d87b9a1d",
+    "vehicle_rear_light_pixel_map_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/references/vehicle_rear_light_pixel_map.json",
+    "vehicle_rear_light_pixel_map_sha256": "703630c6ba91b391e554cfe763b8a7b5132dc144dac9487bb08db611f8ec7d07",
+    "removed_tail_light_review_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamps_review_strip.png",
+      "sha256": "a71a1d090ff4b07dd6bce3111c7a72e216ed2f003e26acdc99dc437b7721d8ca",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamps_review_strip.html",
+      "html_sha256": "1884e4e7081475b50656ad7153534a554c064792f67ac2462d49c2a77bc08012",
+      "role": "review_strip_showing_no_active_tail_or_brake_lamp_origins"
+    },
+    "removed_tail_light_pulse_strip": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamp_rapid_pulse_contact_strip.png",
+      "sha256": "55b993b9f62cc648a48193989deef3fe6f29b35d222aa59329740fa7b210de76",
+      "html_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/brake_lamp_rapid_pulse_contact_strip.html",
+      "html_sha256": "a2cb3dbfe6d9bde1526520ec79b8910a15bebf2cdf53a6e5ed0a63bf5358e0c8",
+      "role": "former_pulse_windows_now_no_active_lamp_origins"
+    }
+  },
+  "reads": {
+    "k3_loaded_read": "pass",
+    "backplate_horizontal_flip_read": "pass",
+    "right_rail_story_space_read": "pass",
+    "candidate_g_runtime_reference_absent_read": "pass",
+    "youtube_end_screen_template_read": "pass",
+    "youtube_target_geometry_static_read": "pass",
+    "fixed_canvas_read": "pass",
+    "visual_state_debug_hook_read": "pass",
+    "challenger_staged_transition_model_read": "pass",
+    "first_chapter_boundary_visual_ease_read": "pass",
+    "chapter_boundary_hard_shift_read": "pass",
+    "focused_transition_review_strip_read": "pass",
+    "weather_app_nuance_reference_read": "pass",
+    "droplet_scale_not_macro_read": "pass",
+    "small_bead_density_low_wetness_read": "pass",
+    "heterogeneous_motion_read": "pass",
+    "no_whole_overlay_scroll_read": "pass",
+    "fine_falling_streak_read": "pass",
+    "short_runner_rarity_read": "pass",
+    "glass_rain_intro_motion_read": "pass",
+    "glass_rain_motion_clock_read": "pass",
+    "glass_rain_image_only_mask_read": "pass",
+    "glass_rain_motion_read": "pass",
+    "deterministic_glass_rain_read": "pass",
+    "source_plate_geometry_preservation_read": "pass_no_source_plate_geometry_change_from_tail_light_removal",
+    "right_rail_exclusion_read": "pass",
+    "caption_legibility_preservation_read": "pass",
+    "range_scrub_effect_review_read": "pass",
+    "player_activated_caption_track_read": "pass",
+    "weather_app_nuance_motion_crop_strip_read": "pass",
+    "weather_app_nuance_comparison_strip_read": "pass",
+    "intro_rail_readiness_read": "pass",
+    "eyebrow_title_distinct_read": "pass",
+    "right_rail_opacity_balance_read": "pass",
+    "captions_inside_right_rail_read": "pass",
+    "out_of_rail_text_read": "pass",
+    "diagnostic_overlay_absence_read": "pass_no_diagnostic_overlay_in_player_samples",
+    "end_screen_target_read": "pass",
+    "final_20s_end_screen_window_read": "pass",
+    "rail_end_screen_handoff_read": "pass",
+    "vo_outro_prelap_read": "pass",
+    "end_screen_text_artifact_read": "pass",
+    "byte_range_read": "pass",
+    "stale_cross_episode_label_read": "pass",
+    "ordinal_chapter_label_read": "pass",
+    "response_read": "pass",
+    "console_error_read": "pass",
+    "weather_app_foreground_readability_read": "pass",
+    "foreground_glass_scale_read": "pass_dominant_6_18px_rare_22_34px_macro_above_36px_forbidden",
+    "full_surface_weather_coverage_read": "pass",
+    "right_rail_weather_coverage_read": "pass",
+    "glass_rain_bottom_refraction_angle_read": "pass",
+    "unchanged_scale_density_alpha_motion_clock_read": "pass_no_scale_density_opacity_motion_or_coverage_change_from_restored_full_surface_state",
+    "right_rail_hidden_car_exclusion_read": "pass_foreground_right_rail_side_car_and_fixed_right_rail_region_excluded_as_lamp_origins",
+    "wet_deck_reflection_read": "pass",
+    "glass_rain_unchanged_read": "pass_protected_bottom_refraction_full_surface_glass_rain_preserved",
+    "wet_deck_reflection_pulse_sync_read": "pass",
+    "red_flash_pixel_delta_read": "pass_active_flash_red_signal_exceeds_inactive_baseline",
+    "rapid_blink_visible_at_review_scale_read": "pass_visible_rear_lamp_contact_strip_generated",
+    "final_assembly_read": "open_create_final_assembly_from_kept_tail_light_removed_rough_proof",
+    "final_render_read": "open_final_mp4_render_creation_from_kept_html_proof",
+    "publish_readiness_read": "blocked_pending_final_assembly_render_and_human_keep",
+    "youtube_upload_read": "blocked_no_publish_readiness_keep_or_upload_approval",
+    "may_youtube_action_read": "blocked_no_publish_readiness_keep_or_upload_approval",
+    "public_release_read": "blocked_manual_youtube_studio_only",
+    "no_large_alignment_dot_occlusion_read": "pass",
+    "tail_light_ambient_removed_read": "pass_removed_by_human_request",
+    "brake_lamp_lane_removed_read": "pass_disabled_tail_light_ambient_removed_v1",
+    "no_tail_light_active_origins_read": "pass_zero_active_lamp_origins_across_browser_samples",
+    "no_tail_light_overlay_pixel_read": "pass_no_tail_or_brake_light_overlay_cores_rendered",
+    "removed_tail_light_review_strip_read": "pass_review_strip_generated_with_no_active_lamp_origins",
+    "rough_assembly_human_keep_read": "pass_keep_tail_light_removed_rough_proof_approved_for_final_render_only",
+    "current_kept_proof_render_source_read": "pass_current_tail_light_removed_html_proof_path_and_hash_recorded_for_final_render",
+    "final_render_gate_read": "pass_open_final_mp4_render_only",
+    "downstream_gate_read": "pass_final_render_only_open_publish_upload_public_release_locked"
+  },
+  "locks": {
+    "final_assembly": "open_create_final_assembly_from_kept_tail_light_removed_rough_proof",
+    "final_mp4": "open_final_mp4_render_creation_from_kept_html_proof",
+    "publish_readiness": "blocked_pending_final_assembly_render_and_human_keep",
+    "youtube_upload": false,
+    "public_release": false
+  },
+  "predecessor": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_audited_rear_brake_lamp_alignment_20260520T015120Z",
+    "status": "tighten_superseded_by_micro_rear_brake_lamp_precision_successor"
+  },
+  "refraction_angle_adjustment": {
+    "status": "review_ready_human_keep_pending",
+    "scope": "bottom_oriented_shimmer_angle_only",
+    "source_packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_full_surface_weather_glass_rain_20260519T191532Z",
+    "source_player_sha256": "087e342bbbedf29fb03b6dd152aa253686a905f95551dc96d1de8877544271ad",
+    "successor_player_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/player.html",
+    "successor_player_sha256": "e7fba01b9cd9fd926b9aabc0266c151758d1479715ac76c4bc092995e307f27d",
+    "unchanged_parameters_read": "pass_seed_density_scale_opacity_speed_motion_clock_coverage_backplate_audio_captions_rail_transitions_end_screen_unchanged",
+    "hotspot_before": "ctx.createRadialGradient(-r * 0.32, -r * 0.38, 0, 0, 0, r * 1.1)",
+    "hotspot_after": "ctx.createRadialGradient(0, r * 0.38, 0, 0, 0, r * 1.1)",
+    "highlight_arc_before": "ctx.arc(-r * 0.08, -r * 0.08, r * 0.68, Math.PI * 1.08, Math.PI * 1.72)",
+    "highlight_arc_after": "ctx.arc(-r * 0.08, -r * 0.08, r * 0.68, Math.PI * 0.08, Math.PI * 0.92)"
+  },
+  "downstream_locks": {
+    "final_assembly": "open_create_final_assembly_from_kept_tail_light_removed_rough_proof",
+    "final_mp4": "open_final_mp4_render_creation_from_kept_html_proof",
+    "publish_readiness": "blocked_pending_final_assembly_render_and_human_keep",
+    "youtube_upload": false,
+    "public_release": false
+  },
+  "supersedes_packet": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_micro_rear_brake_lamp_precision_20260520T023836Z",
+  "predecessor_status": "tighten_superseded_by_tail_light_ambient_removed_successor",
+  "paths": {
+    "packet_root": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z",
+    "player_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/player.html",
+    "review_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/review/rough_assembly_review_packet.md",
+    "browser_qa_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/qa/browser_qa_1920x1080.json",
+    "ambient_effects_layer_path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/references/living_cover_ambient_effects_layer.json"
+  },
+  "additive_ambient_effects_lane": "none_tail_light_ambient_removed",
+  "protected_ambient_effects_lane": "foreground_glass_rain_weather_app_full_surface_v10",
+  "active_ambient_effects_lane": "foreground_glass_rain_weather_app_full_surface_v10_tail_light_ambient_removed_v1",
+  "human_disposition_utc": "2026-05-20T15:34:26Z",
+  "human_keep": {
+    "status": "keep",
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep5_Tacoma-Narrows/production/long_form_video_v1/youtube/rough_assembly/tacoma_living_cover_html_rough_proof_candidate_k3_tail_lights_removed_20260520T054440Z/review/human_keep_tail_light_removed_20260520T153426Z.md",
+    "sha256": "53df0b9159519f10e08a5dbdc86ee9de5d60776c97daa2f4f2d30780be917c9c",
+    "recorded_utc": "2026-05-20T15:34:26Z",
+    "scope": "tail_light_removed_rough_proof_keep_preserve_glass_rain"
+  }
+}

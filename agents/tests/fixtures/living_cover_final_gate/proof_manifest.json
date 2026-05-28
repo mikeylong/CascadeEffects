@@ -1,0 +1,83 @@
+{
+  "music_integration_contract": {
+    "reads": {
+      "vo_outro_blend_plan_read": "pass",
+      "vo_outro_music_blend_read": "pass",
+      "vo_outro_perceptual_review_read": "pass",
+      "outro_transition_review_sample_read": "pass",
+      "outro_entry_level_match_read": "pass",
+      "outro_under_vo_masking_read": "pass",
+      "outro_target_after_voice_read": "pass",
+      "outro_prelap_source_read": "pass",
+      "outro_prelap_start_read": "pass",
+      "outro_no_restart_at_voice_end_read": "pass",
+      "outro_source_continuity_read": "pass",
+      "music_contract_regression_read": "pass"
+    }
+  },
+  "end_screen_context": {
+    "end_screen_palette_contract": {
+      "contract_id": "living_cover_end_screen_palette_contract_v1",
+      "status": "pass",
+      "required": true,
+      "required_for_gates": ["visual_system", "rough_assembly", "final_assembly", "publish_readiness"],
+      "palette_source": "sampled_episode_backplate",
+      "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+      "sample_model": "fixture_average_rgb_v1",
+      "approved_backplate": {
+        "path": "sample_backplate.ppm",
+        "sha256": "1ff50809b9c708917f5753fb251039d510fd47568fca3971eb5507c6621788ee",
+        "role": "approved_living_cover_source_art_backplate"
+      },
+      "sampled_backplate": {
+        "path": "sample_backplate.ppm",
+        "sha256": "1ff50809b9c708917f5753fb251039d510fd47568fca3971eb5507c6621788ee",
+        "average_rgb": [78, 61, 46],
+        "average_hex": "#4e3d2e"
+      },
+      "colors": {
+        "video_target_fill_rgba": "rgba(28, 24, 25, 0.42)",
+        "video_target_border_rgba": "rgba(188, 151, 111, 0.76)",
+        "video_target_secondary_border_rgba": "rgba(172, 146, 119, 0.70)",
+        "subscribe_ring_rgba": "rgba(223, 187, 135, 0.88)",
+        "muted_rail_text_hex": "#d8c19b",
+        "small_accent_hex": "#f6d37d"
+      },
+      "contrast": {
+        "muted_text_on_target_fill": 8.1,
+        "accent_on_target_fill": 10.3
+      },
+      "css_variables": {
+        "--ce-end-screen-target-fill": "rgba(28, 24, 25, 0.42)",
+        "--ce-end-screen-video-border": "rgba(188, 151, 111, 0.76)",
+        "--ce-end-screen-video-border-secondary": "rgba(172, 146, 119, 0.70)",
+        "--ce-end-screen-subscribe-ring": "rgba(223, 187, 135, 0.88)",
+        "--ce-end-screen-muted-text": "#d8c19b",
+        "--ce-end-screen-small-accent": "#f6d37d"
+      },
+      "reads": {
+        "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+        "end_screen_target_fill_palette_read": "pass_target_fill_harmonized_with_backplate_sample",
+        "end_screen_target_contrast_read": "pass_muted_text_and_accent_contrast_preserved",
+        "rail_panel_palette_read": "pass_source_aware_end_screen_palette_contract",
+        "source_integrated_panel_color_read": "pass_no_fixed_cross_episode_panel_color",
+        "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors"
+      }
+    },
+    "youtube_end_screen_template_id": "challenger_titleless_end_screen_overlay_on_living_cover_v1",
+    "youtube_end_screen_targets": {
+      "left_video": {
+        "role": "suggested_video",
+        "bbox_xy": [78, 382, 758, 765]
+      },
+      "right_video": {
+        "role": "watch_next_video",
+        "bbox_xy": [1162, 382, 1842, 765]
+      },
+      "center_subscribe": {
+        "role": "subscribe",
+        "bbox_xy": [814, 429, 1106, 721]
+      }
+    }
+  }
+}

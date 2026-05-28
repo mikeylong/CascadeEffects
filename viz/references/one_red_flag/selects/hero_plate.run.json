@@ -1,0 +1,38 @@
+{
+  "run_id": "9ba6cf29-d7a4-4352-9a91-c511da283bd1",
+  "created_at": "2026-03-27T17:23:31Z",
+  "invocation": "stage",
+  "pipeline_id": null,
+  "family": "thumbnail_plate",
+  "preset": "one_red_flag",
+  "spec_preset": "one_red_flag__draft_txt2img",
+  "stage": "draft_txt2img",
+  "prompt_id": "6919a0ea-9158-4110-8d33-b5d222d6b056",
+  "server_url": "http://127.0.0.1:8188",
+  "selected_seed": 18700456,
+  "seed": 18700456,
+  "variant_count": 1,
+  "source_image": "",
+  "artifact_paths": {
+    "workflow": "/Users/mike/Viz_CascadeEffects/workflows/generated/thumbnail_plate/ce_thumbnail_plate__one_red_flag__draft_txt2img.workflow.json",
+    "prompt": "/Users/mike/Viz_CascadeEffects/workflows/generated/thumbnail_plate/ce_thumbnail_plate__one_red_flag__draft_txt2img.prompt.json",
+    "manifest": "/Users/mike/Viz_CascadeEffects/workflows/generated/thumbnail_plate/ce_thumbnail_plate__one_red_flag__draft_txt2img.manifest.json",
+    "sync_target": "/Users/mike/AI/comfy/user/default/workflows/ce_thumbnail_plate__one_red_flag__draft_txt2img.json"
+  },
+  "output_files": [
+    "/Users/mike/AI/comfy/output/cascadeeffects/thumbnail_plate/one_red_flag/draft/one_red_flag_draft_00023_.png"
+  ],
+  "dimensions": {
+    "width": 1280,
+    "height": 720
+  },
+  "checkpoint": "",
+  "positive_prompt": "systems-failure key art, symbolic and object-led, mechanism-first storytelling, investigative editorial tone, non-typographic image logic, one dominant clue, at most two supporting elements, industrial textures, monitor glow, hazard accents, serious and restrained, no clear human figures, no scenic room overview, no cyberpunk, no glossy sci-fi, no horror poster, no conspiracy-board clutter, hotter than scene stills, nearly finished plate, safe zone preserved inside the composition, stronger anomaly emphasis, high thumbnail legibility, still serious and non-lurid, build around bare mechanisms and hazard hardware, label-free surfaces, no panel faces, no screens, no paper-carried clues, landscape packaging plate, dominant anomaly on the right or center-right, cleaner title band, brutal crop, bold negative space, strong silhouette, broad anomaly object, at most one small support fragment, single dominant failure cluster: one warning beacon locked over a jammed cutoff lever inside a bare steel housing, one strained cable loop and one bent retaining bracket, dark field, hard shadow, one hazard accent, accent palette alarm red, amber spill, gunmetal black, safe-zone intent left third stays clear enough for title lockup without becoming empty",
+  "negative_prompt": "",
+  "legacy_comfy_history_removed": true,
+  "legacy_comfy_history_removed_reason": "Removed retired scene-still Comfy prompt graph before local Flux1 artifact purge.",
+  "legacy_workflow_retired": true,
+  "legacy_workflow_family": "scene-still",
+  "legacy_workflow_note": "Retired local scene-still workflow metadata was rewritten to reference canonical/reference-local assets.",
+  "canonical_reference_asset": "/Users/mike/Viz_CascadeEffects/references/one_red_flag/selects/hero_plate.png"
+}

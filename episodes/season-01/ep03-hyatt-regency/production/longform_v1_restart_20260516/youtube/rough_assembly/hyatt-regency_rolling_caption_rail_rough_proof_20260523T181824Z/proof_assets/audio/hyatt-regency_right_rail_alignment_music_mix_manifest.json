@@ -1,0 +1,217 @@
+{
+  "packet_id": "hyatt-regency_right_rail_alignment_contract_music_mix_20260523T181824Z",
+  "model": "contract_timed_intro_voice_outro_mix_v1",
+  "status": "contract_timed_review_mix_pending_human_keep_not_final_mix_keep",
+  "created_utc": "2026-05-20T23:30:00Z",
+  "intro_trim_model": "first_eight_intro_trim_6s_v1",
+  "intro_trim_seconds": 6,
+  "previous_voice_start_offset_seconds": 9.601451,
+  "voice_audio_defect_repair_model": "kept_hyatt_live_load_blip_repair_v1",
+  "voice_audio_defect_repair_read": "pass_kept_hyatt_live_load_blip_repair_v1_used_for_review_mix",
+  "audio_defect_repair": {
+    "model": "kept_hyatt_live_load_blip_repair_v1",
+    "status": "kept_audio_defect_repair_restored_for_rolling_caption_review_mix",
+    "repair_manifest": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/blip_repair_manifest.json",
+      "sha256": "06965fb2f5b0aa913684758b9151c31dd8dfad810f467e518cca8a1c282397fb"
+    },
+    "superseded_defective_voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_repair_20260517T204138Z/masters/Ep3-Hyatt-Regency.live_load_long_i_voice_master.wav",
+      "sha256": "7fc8f63aa8ef6f05ba5daa6648c417bf2e6a1f99eee854b0843045f64358c905",
+      "duration_seconds": 833.642812,
+      "size_bytes": 73527374,
+      "codec_name": "pcm_s16le",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bits_per_sample": 0,
+      "bit_rate": 705600
+    },
+    "superseded_defective_voice_master_reason": "Older live_load_long_i voice master contains the known low-level live-load blip/drop repair defect around the 2:44-2:50 proof-time window.",
+    "repaired_voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/masters/Ep3-Hyatt-Regency.live_load_long_i_blip_repaired_voice_master.wav",
+      "sha256": "e269d3d3c8f9bac59b73c03d0fb65a1fd7798cfc004df917769efbf72cdb5b60",
+      "duration_seconds": 833.642812,
+      "size_bytes": 73527340,
+      "codec_name": "pcm_s16le",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bits_per_sample": 0,
+      "bit_rate": 705600
+    },
+    "repaired_voice_master_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/masters/Ep3-Hyatt-Regency.live_load_long_i_blip_repaired_voice_master.wav",
+    "defect_windows_voice_seconds": [
+      [
+        161.271,
+        166.978
+      ],
+      [
+        430.723,
+        436.911
+      ]
+    ],
+    "defect_windows_proof_seconds": [
+      [
+        164.872451,
+        170.579451
+      ],
+      [
+        434.324451,
+        440.512451
+      ]
+    ],
+    "voice_audio_defect_repair_read": "pass_kept_hyatt_live_load_blip_repair_v1_used_for_review_mix"
+  },
+  "contract_json_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt_living_cover_html_rough_proof_n6_period_camera_flash_20260520T192604Z/references/audio_mix_manifest.json",
+  "contract_json_sha256": "a2512baf2c808a5999138dd7b2dfa3aa19f2fb8433a2da808b9f7965b5b036eb",
+  "source_voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/masters/Ep3-Hyatt-Regency.live_load_long_i_blip_repaired_voice_master.wav",
+    "sha256": "e269d3d3c8f9bac59b73c03d0fb65a1fd7798cfc004df917769efbf72cdb5b60",
+    "duration_seconds": 833.642812
+  },
+  "voice_master": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/masters/Ep3-Hyatt-Regency.live_load_long_i_blip_repaired_voice_master.wav",
+    "sha256": "e269d3d3c8f9bac59b73c03d0fb65a1fd7798cfc004df917769efbf72cdb5b60",
+    "duration_seconds": 833.642812
+  },
+  "voice_loudness_alignment": {
+    "model": "voice_loudness_alignment_v1",
+    "status": "not_needed_source_within_tolerance",
+    "source_voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/masters/Ep3-Hyatt-Regency.live_load_long_i_blip_repaired_voice_master.wav",
+      "sha256": "e269d3d3c8f9bac59b73c03d0fb65a1fd7798cfc004df917769efbf72cdb5b60",
+      "duration_seconds": 833.642812,
+      "size_bytes": 73527340,
+      "codec_name": "pcm_s16le",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bits_per_sample": 0,
+      "bit_rate": 705600
+    },
+    "mix_voice_master_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/masters/Ep3-Hyatt-Regency.live_load_long_i_blip_repaired_voice_master.wav",
+    "mix_voice_master": {
+      "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/audio_repairs/live_load_long_i_blip_repair_20260519T184526Z/masters/Ep3-Hyatt-Regency.live_load_long_i_blip_repaired_voice_master.wav",
+      "sha256": "e269d3d3c8f9bac59b73c03d0fb65a1fd7798cfc004df917769efbf72cdb5b60",
+      "duration_seconds": 833.642812,
+      "size_bytes": 73527340,
+      "codec_name": "pcm_s16le",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bits_per_sample": 0,
+      "bit_rate": 705600
+    },
+    "target": {
+      "integrated_lufs": -14,
+      "true_peak_dbtp": -1,
+      "loudness_range_lra": 11,
+      "tolerance_db": 1.5
+    },
+    "source_loudnorm_scan": {
+      "input_i": "-14.28",
+      "input_tp": "-0.44",
+      "input_lra": "3.30",
+      "input_thresh": "-24.80",
+      "output_i": "-14.09",
+      "output_tp": "-1.00",
+      "output_lra": "3.20",
+      "output_thresh": "-24.61",
+      "normalization_type": "dynamic",
+      "target_offset": "0.09"
+    },
+    "source_window_volumedetect": {
+      "mean_volume_db": -15,
+      "max_volume_db": -1
+    },
+    "output_loudnorm_scan": {
+      "input_i": "-14.28",
+      "input_tp": "-0.44",
+      "input_lra": "3.30",
+      "input_thresh": "-24.80",
+      "output_i": "-14.09",
+      "output_tp": "-1.00",
+      "output_lra": "3.20",
+      "output_thresh": "-24.61",
+      "normalization_type": "dynamic",
+      "target_offset": "0.09"
+    },
+    "output_window_volumedetect": {
+      "mean_volume_db": -15,
+      "max_volume_db": -1
+    },
+    "voice_master_used_for_mix_read": "pass_source_voice_master_within_series_loudness_tolerance"
+  },
+  "intro_music_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture instrumental_loop.wav",
+    "sha256": "b26f01b5397398e20f24a2e5396221f5e5a1c3b9672baf9e37cb20adda982818"
+  },
+  "full_outro_source": {
+    "path": "/Users/mike/CascadeEffects_LocalArchive/Audio_CascadeEffects/2026-04-18/themesong/Paper Architecture.m4a",
+    "sha256": "d71785b8b28691260ca55fe5de1657ff5e6b69cd986dc04cfe09a1967c67b365",
+    "duration_seconds": 30.795215
+  },
+  "output_path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/rough_assembly/hyatt-regency_rolling_caption_rail_rough_proof_20260523T181824Z/proof_assets/audio/hyatt-regency_right_rail_alignment_music_mix.wav",
+  "output_sha256": "f5351038cee89b037c5457802da0c64dc0f550c26388e873f306930ea911a5f3",
+  "output_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "duration": "866.533923"
+      }
+    ],
+    "format": {
+      "format_name": "wav",
+      "duration": "866.533923",
+      "size": "152856662",
+      "bit_rate": "1411200"
+    }
+  },
+  "output_duration_seconds": 866.533923,
+  "expected_total_duration_seconds": 866.539478,
+  "duration_delta_seconds": -0.005555,
+  "timing": {
+    "intro_trim_model": "first_eight_intro_trim_6s_v1",
+    "intro_trim_seconds": 6,
+    "previous_voice_start_offset_seconds": 9.601451,
+    "voice_start_seconds": 3.601451,
+    "voice_duration_seconds": 833.642812,
+    "voice_end_seconds": 837.244263,
+    "intro_music_only_start_seconds": 0,
+    "intro_music_only_end_seconds": 3.601451,
+    "intro_fade_tail_duration_seconds": 2,
+    "intro_fade_tail_end_seconds": 5.601451,
+    "full_outro_start_seconds": 835.744263,
+    "outro_prelap_seconds": 1.5,
+    "outro_under_vo_gain_linear": 0.1,
+    "outro_target_gain_linear": 0.42,
+    "outro_reaches_target_at_seconds": 840.244263,
+    "outro_policy": "subtle_tail_outro_v1",
+    "outro_target_after_voice_seconds": 3,
+    "outro_target_margin_db": 12,
+    "end_screen_start_seconds": 846.539478,
+    "end_screen_end_seconds": 866.539478
+  },
+  "reads": {
+    "review_audio_mix_model_read": "pass_contract_timed_intro_voice_outro_mix_v1",
+    "intro_trim_read": "pass_first_eight_intro_trim_6s_v1",
+    "intro_music_applied_read": "pass_music_only_intro_applied_from_registered_intro_loop",
+    "intro_fade_tail_under_opening_voice_read": "pass_2s_intro_fade_tail_under_opening_voice",
+    "voice_start_offset_read": "pass_3.601451s",
+    "full_outro_music_applied_read": "pass_full_outro_source_applied",
+    "outro_prelap_start_read": "pass_full_outro_starts_1p5s_before_voice_end",
+    "outro_no_restart_at_voice_end_read": "pass_full_outro_continues_without_restart",
+    "outro_target_after_voice_read": "pass_target_gain_after_voice_end",
+    "outro_under_vo_masking_read": "pass_target_margin_at_least_12db",
+    "vo_outro_blend_read": "pass_subtle_tail_outro_v1_timing_contract",
+    "end_screen_music_handoff_read": "pass_full_outro_carries_youtube_end_screen_window",
+    "review_mix_duration_read": "pass_duration_delta_-0.006s",
+    "final_mix_approval_read": "blocked_pending_human_rough_proof_keep_and_later_final_mix_review",
+    "voice_loudness_alignment_read": "pass_source_voice_master_within_series_loudness_tolerance",
+    "voice_master_used_for_mix_read": "pass_source_voice_master_within_series_loudness_tolerance",
+    "voice_audio_defect_repair_read": "pass_kept_hyatt_live_load_blip_repair_v1_used_for_review_mix"
+  }
+}

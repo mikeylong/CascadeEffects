@@ -1,0 +1,17 @@
+{
+  "name": "cascade-effects-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "npm@11.6.2",
+  "workspaces": [
+    "apps/web"
+  ],
+  "scripts": {
+    "ce": "bin/ce",
+    "doctor": "bin/ce doctor",
+    "status": "bin/ce status",
+    "validate": "bin/ce validate",
+    "web:lint": "npm --prefix apps/web run lint",
+    "web:build": "npm --prefix apps/web run build"
+  }
+}

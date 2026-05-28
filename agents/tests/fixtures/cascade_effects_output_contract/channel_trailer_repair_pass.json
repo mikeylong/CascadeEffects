@@ -1,0 +1,80 @@
+{
+  "production_contract": {
+    "contract_id": "channel-trailer-v1",
+    "intent": "repair",
+    "youtube_action_approval_read": "blocked_local_review_only"
+  },
+  "allowed_delta": {
+    "allowed_time_ranges_seconds": [[30.2, 48.0]],
+    "allowed_pixel_regions": [[0, 0, 1920, 410]],
+    "allowed_stream_changes": ["video"],
+    "unchanged_streams": ["audio"]
+  },
+  "timeline": {
+    "youtube_end_screen_template_id": "adaptive_titleless_youtube_end_screen_overlay_on_living_cover_v1"
+  },
+  "end_screen_palette_contract": {
+    "contract_id": "living_cover_end_screen_palette_contract_v1",
+    "status": "pass",
+    "required": true,
+    "required_for_gates": ["channel_trailer_review", "local_review"],
+    "palette_source": "sampled_episode_backplate",
+    "derivation_model": "backplate_sampled_youtube_end_screen_palette_v1",
+    "sample_model": "pillow_target_region_average_rgb_v1",
+    "approved_backplate": {
+      "path": "../living_cover_final_gate/sample_backplate.ppm",
+      "sha256": "1ff50809b9c708917f5753fb251039d510fd47568fca3971eb5507c6621788ee",
+      "role": "channel_trailer_end_screen_backplate_fixture"
+    },
+    "sampled_backplate": {
+      "path": "../living_cover_final_gate/sample_backplate.ppm",
+      "sha256": "1ff50809b9c708917f5753fb251039d510fd47568fca3971eb5507c6621788ee"
+    },
+    "colors": {
+      "video_target_fill_rgba": "rgba(36, 46, 58, 0.360)",
+      "video_target_border_rgba": "rgba(130, 166, 198, 0.740)",
+      "video_target_secondary_border_rgba": "rgba(152, 174, 202, 0.740)",
+      "subscribe_ring_rgba": "rgba(184, 158, 126, 0.840)",
+      "muted_rail_text_hex": "#9fb3c9",
+      "small_accent_hex": "#b89e7e"
+    },
+    "css_variables": {
+      "--ce-end-screen-target-fill": "rgba(36, 46, 58, 0.360)",
+      "--ce-end-screen-video-border": "rgba(130, 166, 198, 0.740)",
+      "--ce-end-screen-video-border-secondary": "rgba(152, 174, 202, 0.740)",
+      "--ce-end-screen-subscribe-ring": "rgba(184, 158, 126, 0.840)",
+      "--ce-end-screen-muted-text": "#9fb3c9",
+      "--ce-end-screen-small-accent": "#b89e7e"
+    },
+    "reads": {
+      "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+      "end_screen_target_geometry_read": "pass_titleless_two_video_subscribe_safe_zone_geometry",
+      "end_screen_target_fill_palette_read": "pass_local_target_fills_sampled_from_backplate_regions",
+      "end_screen_target_contrast_read": "pass_local_target_borders_visible_without_challenger_hue_shift",
+      "rail_panel_palette_read": "pass_adaptive_end_screen_targets_use_source_aware_palette",
+      "source_integrated_panel_color_read": "pass_perceptual_episode_backplate_colors_visible_in_end_screen",
+      "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors_with_visible_variability",
+      "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets"
+    },
+    "target_palette": {
+      "palette_treatment_model": "local_backplate_perceptual_target_palette_v3"
+    }
+  },
+  "reads": {
+    "repair_scope_read": "pass_end_screen_only_picture_change",
+    "intro_rollback_read": "pass_original_intro_picture_preserved",
+    "body_rollback_read": "pass_original_trailer_body_picture_preserved_until_end_screen",
+    "end_screen_title_image_absence_read": "pass_no_cascade_of_effects_title_image_on_end_screen",
+    "end_screen_palette_contract_read": "pass_backplate_sampled_palette_contract_present",
+    "end_screen_target_fill_palette_read": "pass_local_target_fills_sampled_from_backplate_regions",
+    "end_screen_target_contrast_read": "pass_local_target_borders_visible_without_challenger_hue_shift",
+    "rail_panel_palette_read": "pass_adaptive_end_screen_targets_use_source_aware_palette",
+    "source_integrated_panel_color_read": "pass_perceptual_episode_backplate_colors_visible_in_end_screen",
+    "no_cross_episode_default_palette_read": "pass_no_challenger_default_target_colors_with_visible_variability",
+    "end_screen_adaptive_perceptual_variability_read": "pass_backplate_hue_visible_across_end_screen_targets",
+    "audio_stream_copy_read": "pass",
+    "format_read": "pass",
+    "full_decode_read": "pass",
+    "youtube_action_read": "blocked_local_review_only"
+  }
+}

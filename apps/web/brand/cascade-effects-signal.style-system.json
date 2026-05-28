@@ -1,0 +1,1687 @@
+{
+  "$schema": "./cascade-effects-signal.style-system.schema.json",
+  "$description": "Cascade Effects active design tokens for cascade-paper-architectures-ink-lit-v1. The canonical visual direction is ink-lit folded-paper architectural editorial art: deep ink-blue fields, cream paper forms, lavender shadows, cyan vellum glow, restrained coral accents, controlled model lighting, deterministic title policy, and recognizable subject anchors.",
+  "$extensions": {
+    "com.cascadeeffects": {
+      "source": {
+        "primarySpec": "Cascade Effects Asset Rule System / cascade-paper-architectures-ink-lit-v1 / May 2026",
+        "illustrationContract": "brand/contracts/illustration.contract.json",
+        "designSystemContract": "brand/contracts/design-system.contract.json"
+      },
+      "profile": {
+        "id": "cascade-paper-architectures-ink-lit-v1",
+        "status": "active",
+        "replaces": "cascade-paper-architectures-v1"
+      },
+      "implementationNotes": {
+        "explicitBrandColorsExact": true,
+        "supportingSurfaceColorsInferred": false,
+        "fontStacksAlignedToRecommendedPairing": true,
+        "typeScaleInferred": true,
+        "spacingInferred": true,
+        "layoutRatiosInferred": true,
+        "shadowInferred": true,
+        "motionInferred": true
+      },
+      "guidance": {
+        "brandShorthand": "Ink-lit folded paper architectures make hidden system failures visible",
+        "positioningLine": "Luminous, model-lit system-failure storytelling built from cream paper structures, ink fields, cyan cascade glow, and recognizable subjects",
+        "toneAndMood": [
+          "Systemic",
+          "Luminous",
+          "Editorial",
+          "Tactile",
+          "Architectural",
+          "Clear",
+          "Controlled"
+        ],
+        "thumbnailFormula": "One dominant ink-lit paper-built public subject, clean model shadows, and no generated text inside the episode thumbnail frame",
+        "thumbnailTextWordsMin": 2,
+        "thumbnailTextWordsMax": 4,
+        "thumbnailAccentWordsMax": 0,
+        "thumbnailAllCaps": false,
+        "thumbnailOneImageOnly": true,
+        "evidenceIntegrityRule": "Artifacts must be recognizable system-failure cues and must not imply a source document or logo that is not actually present",
+        "imageryVocabulary": [
+          "deep ink-blue fields",
+          "cream folded paper forms",
+          "lavender paper shadows",
+          "cyan vellum cascade glow",
+          "paper terraces",
+          "foam-core surfaces",
+          "scored seams",
+          "visible cut edges",
+          "gouache pigment",
+          "controlled model lighting",
+          "recognizable public anchors"
+        ],
+        "motionLanguage": [
+          "simple stepped camera moves",
+          "subtle parallax",
+          "paper-layer reveals",
+          "vellum cascade movement",
+          "clean title holds",
+          "low visual noise"
+        ],
+        "guardrails": [
+          "Do not use generated text inside episode or package source artwork unless an approved title-bearing identity manifest explicitly permits it",
+          "Do not use logos, labels, watermarks, or readable marks",
+          "Do not use bright/daylight Paper Architectures as active default unless explicitly marked legacy/reference",
+          "Do not use dark documentary, noir, smoke, gritty texture, or evidence-board defaults",
+          "Do not use dense debris, explosions, horror, gore, or disaster spectacle",
+          "Do not use plastic toy gloss, mascot, kawaii, flat icon, or CSS placeholder language"
+        ]
+      }
+    }
+  },
+  "color": {
+    "$description": "Primitive colors for the ink-lit Paper Architectures direction, plus alpha variants for implementation.",
+    "base": {
+      "ink": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0431,
+            0.0627,
+            0.1373
+          ],
+          "alpha": 1,
+          "hex": "#0B1023"
+        },
+        "$description": "Deep ink-blue field for page backgrounds, title shadows, and structural darkness."
+      },
+      "inkPanel": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0667,
+            0.0902,
+            0.1843
+          ],
+          "alpha": 1,
+          "hex": "#11172F"
+        },
+        "$description": "Raised dark panel surface for ink-lit UI glass and metadata chips."
+      },
+      "overlaySlate": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3647,
+            0.3373,
+            0.5569
+          ],
+          "alpha": 1,
+          "hex": "#5D568E"
+        },
+        "$description": "Muted lavender for paper shadows, depth planes, and secondary model-light overlays."
+      },
+      "panelFrame": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2392,
+            0.2941,
+            0.4392
+          ],
+          "alpha": 1,
+          "hex": "#3D4B70"
+        },
+        "$description": "Blue-lavender frame color for dark UI borders, metadata panels, and channel art support surfaces."
+      },
+      "white": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.9725,
+            0.9098
+          ],
+          "alpha": 1,
+          "hex": "#FFF8E8"
+        },
+        "$description": "Warm cream paper surface and light title fill on deep ink fields."
+      },
+      "secondaryText": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7961,
+            0.8275,
+            0.9098
+          ],
+          "alpha": 1,
+          "hex": "#CBD3E8"
+        },
+        "$description": "Muted cream-blue for secondary UI copy on ink-lit surfaces."
+      }
+    },
+    "accent": {
+      "signal": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4706,
+            0.8627,
+            0.9098
+          ],
+          "alpha": 1,
+          "hex": "#78DCE8"
+        },
+        "$description": "Powder-cyan cascade accent for water, active signals, and primary highlights."
+      },
+      "alert": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.4353,
+            0.3804
+          ],
+          "alpha": 1,
+          "hex": "#FF6F61"
+        },
+        "$description": "Pastel coral alert for warning lights, breakage, and small failure cues."
+      }
+    },
+    "alpha": {
+      "white12": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.12,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Subtle border or divider on deep ink and saturated pastel surfaces."
+      },
+      "white24": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.24,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Elevated border or overlay on deep ink and saturated pastel surfaces."
+      },
+      "white40": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.4,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Muted mark or metadata on deep ink and saturated pastel surfaces."
+      },
+      "white72": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.72,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Strong but softened text on deep ink and saturated pastel surfaces."
+      },
+      "ink08": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0431,
+            0.0627,
+            0.1373
+          ],
+          "alpha": 0.08,
+          "hex": "#0B1023"
+        },
+        "$description": "Hairline dark wash for shadows and paper-depth edges."
+      },
+      "ink12": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0431,
+            0.0627,
+            0.1373
+          ],
+          "alpha": 0.12,
+          "hex": "#0B1023"
+        },
+        "$description": "Subtle dark divider for light paper forms and fallback assets."
+      },
+      "ink24": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0431,
+            0.0627,
+            0.1373
+          ],
+          "alpha": 0.24,
+          "hex": "#0B1023"
+        },
+        "$description": "Panel shadow or stronger depth edge."
+      },
+      "ink72": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0431,
+            0.0627,
+            0.1373
+          ],
+          "alpha": 0.72,
+          "hex": "#0B1023"
+        },
+        "$description": "Strong ink text or shadow on light paper forms."
+      },
+      "signal16": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4706,
+            0.8627,
+            0.9098
+          ],
+          "alpha": 0.16,
+          "hex": "#78DCE8"
+        },
+        "$description": "Cyan cascade highlight wash."
+      },
+      "signal32": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4706,
+            0.8627,
+            0.9098
+          ],
+          "alpha": 0.32,
+          "hex": "#78DCE8"
+        },
+        "$description": "Stronger cyan cascade chip / wash."
+      },
+      "alert16": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.4353,
+            0.3804
+          ],
+          "alpha": 0.16,
+          "hex": "#FF6F61"
+        },
+        "$description": "Pastel failure-state wash."
+      },
+      "alert32": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.4353,
+            0.3804
+          ],
+          "alpha": 0.32,
+          "hex": "#FF6F61"
+        },
+        "$description": "Stronger pastel failure-state wash."
+      }
+    }
+  },
+  "fontFamily": {
+    "$description": "Paper Architectures profile font stacks. Display uses a bold Inter-based block treatment; mono stays available for technical labels.",
+    "display": {
+      "$type": "fontFamily",
+      "$value": [
+        "Inter",
+        "Arial Black",
+        "Helvetica Neue",
+        "sans-serif"
+      ]
+    },
+    "body": {
+      "$type": "fontFamily",
+      "$value": [
+        "Inter",
+        "Source Sans 3",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "ui": {
+      "$type": "fontFamily",
+      "$value": [
+        "Inter",
+        "Source Sans 3",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ]
+    }
+  },
+  "fontWeight": {
+    "display": {
+      "$type": "fontWeight",
+      "$value": 800
+    },
+    "regular": {
+      "$type": "fontWeight",
+      "$value": 400
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": 500
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$value": 600
+    },
+    "bold": {
+      "$type": "fontWeight",
+      "$value": 700
+    }
+  },
+  "size": {
+    "$description": "Dimensions for spacing, type sizes, tracking, radii, strokes, shadows, and markers. These are starter implementation values.",
+    "space": {
+      "xxs": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        }
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        }
+      },
+      "xxl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 40,
+          "unit": "px"
+        }
+      },
+      "xxxl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 56,
+          "unit": "px"
+        }
+      }
+    },
+    "font": {
+      "caption": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "label": {
+        "$type": "dimension",
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "body": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "bodyLg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 18,
+          "unit": "px"
+        }
+      },
+      "cardTitle": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        }
+      },
+      "section": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        }
+      },
+      "display": {
+        "$type": "dimension",
+        "$value": {
+          "value": 56,
+          "unit": "px"
+        }
+      },
+      "thumbnail": {
+        "$type": "dimension",
+        "$value": {
+          "value": 64,
+          "unit": "px"
+        }
+      },
+      "hero": {
+        "$type": "dimension",
+        "$value": {
+          "value": 72,
+          "unit": "px"
+        }
+      },
+      "monogram": {
+        "$type": "dimension",
+        "$value": {
+          "value": 36,
+          "unit": "px"
+        }
+      }
+    },
+    "tracking": {
+      "tight": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "normal": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "ui": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.2,
+          "unit": "px"
+        }
+      },
+      "caps": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.8,
+          "unit": "px"
+        }
+      },
+      "wide": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1.2,
+          "unit": "px"
+        }
+      }
+    },
+    "radius": {
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 28,
+          "unit": "px"
+        }
+      },
+      "pill": {
+        "$type": "dimension",
+        "$value": {
+          "value": 999,
+          "unit": "px"
+        }
+      }
+    },
+    "stroke": {
+      "hairline": {
+        "$type": "dimension",
+        "$value": {
+          "value": 1,
+          "unit": "px"
+        }
+      },
+      "thin": {
+        "$type": "dimension",
+        "$value": {
+          "value": 2,
+          "unit": "px"
+        }
+      },
+      "regular": {
+        "$type": "dimension",
+        "$value": {
+          "value": 3,
+          "unit": "px"
+        }
+      },
+      "emphasis": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        }
+      }
+    },
+    "shadow": {
+      "none": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "panelOffsetY": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        }
+      },
+      "panelBlur": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        }
+      },
+      "slabOffsetY": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "slabBlur": {
+        "$type": "dimension",
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        }
+      }
+    },
+    "marker": {
+      "node": {
+        "$type": "dimension",
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "nodeSm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 10,
+          "unit": "px"
+        }
+      }
+    }
+  },
+  "number": {
+    "lineHeight": {
+      "tight": {
+        "$type": "number",
+        "$value": 0.95
+      },
+      "snug": {
+        "$type": "number",
+        "$value": 1.05
+      },
+      "compact": {
+        "$type": "number",
+        "$value": 1.25
+      },
+      "reading": {
+        "$type": "number",
+        "$value": 1.45
+      }
+    },
+    "ratio": {
+      "thumbnailTitleSlab": {
+        "$type": "number",
+        "$value": 0.44
+      },
+      "thumbnailArtifactPanel": {
+        "$type": "number",
+        "$value": 0.56
+      }
+    },
+    "rules": {
+      "headlineWordsMin": {
+        "$type": "number",
+        "$value": 2
+      },
+      "headlineWordsMax": {
+        "$type": "number",
+        "$value": 4
+      },
+      "accentWordsMax": {
+        "$type": "number",
+        "$value": 0
+      }
+    },
+    "opacity": {
+      "filmGrain": {
+        "$type": "number",
+        "$value": 0
+      },
+      "artifactOverlay": {
+        "$type": "number",
+        "$value": 0.22
+      }
+    }
+  },
+  "layout": {
+    "$description": "Starter layout tokens for Paper Architectures packaging, title overlays, callouts, and compact web UI.",
+    "cardPadding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "panelGap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "sectionGap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      }
+    },
+    "thumbnailSafeInsetX": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      }
+    },
+    "thumbnailSafeInsetY": {
+      "$type": "dimension",
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      }
+    },
+    "thumbnailOuterFramePadding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      }
+    },
+    "thumbnailPanelGap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      }
+    },
+    "titleSlabPaddingX": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "titleSlabPaddingY": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      }
+    },
+    "calloutGap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "lowerThirdPaddingX": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "lowerThirdPaddingY": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    }
+  },
+  "typography": {
+    "$description": "Composite typography tokens aligned to the Paper Architectures profile title treatment and readable UI copy.",
+    "wordmark": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "{size.font.display}",
+        "fontWeight": "{fontWeight.display}",
+        "letterSpacing": "{size.tracking.caps}",
+        "lineHeight": "{number.lineHeight.tight}"
+      }
+    },
+    "hero": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "{size.font.hero}",
+        "fontWeight": "{fontWeight.display}",
+        "letterSpacing": "{size.tracking.caps}",
+        "lineHeight": "{number.lineHeight.tight}"
+      }
+    },
+    "thumbnail": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "{size.font.thumbnail}",
+        "fontWeight": "{fontWeight.display}",
+        "letterSpacing": "{size.tracking.caps}",
+        "lineHeight": "{number.lineHeight.tight}"
+      }
+    },
+    "monogram": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.display}",
+        "fontSize": "{size.font.monogram}",
+        "fontWeight": "{fontWeight.display}",
+        "letterSpacing": "{size.tracking.caps}",
+        "lineHeight": "{number.lineHeight.tight}"
+      }
+    },
+    "sectionTitle": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.body}",
+        "fontSize": "{size.font.section}",
+        "fontWeight": "{fontWeight.bold}",
+        "letterSpacing": "{size.tracking.normal}",
+        "lineHeight": "{number.lineHeight.snug}"
+      }
+    },
+    "cardTitle": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.body}",
+        "fontSize": "{size.font.cardTitle}",
+        "fontWeight": "{fontWeight.semibold}",
+        "letterSpacing": "{size.tracking.normal}",
+        "lineHeight": "{number.lineHeight.snug}"
+      }
+    },
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.body}",
+        "fontSize": "{size.font.body}",
+        "fontWeight": "{fontWeight.regular}",
+        "letterSpacing": "{size.tracking.normal}",
+        "lineHeight": "{number.lineHeight.reading}"
+      }
+    },
+    "bodySmall": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.body}",
+        "fontSize": "{size.font.label}",
+        "fontWeight": "{fontWeight.regular}",
+        "letterSpacing": "{size.tracking.ui}",
+        "lineHeight": "{number.lineHeight.compact}"
+      }
+    },
+    "uiLabel": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.ui}",
+        "fontSize": "{size.font.label}",
+        "fontWeight": "{fontWeight.medium}",
+        "letterSpacing": "{size.tracking.ui}",
+        "lineHeight": "{number.lineHeight.compact}"
+      }
+    },
+    "seriesTag": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.ui}",
+        "fontSize": "{size.font.label}",
+        "fontWeight": "{fontWeight.bold}",
+        "letterSpacing": "{size.tracking.ui}",
+        "lineHeight": "{number.lineHeight.tight}"
+      }
+    },
+    "callout": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.ui}",
+        "fontSize": "{size.font.label}",
+        "fontWeight": "{fontWeight.medium}",
+        "letterSpacing": "{size.tracking.ui}",
+        "lineHeight": "{number.lineHeight.compact}"
+      }
+    },
+    "lowerThirdTitle": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.ui}",
+        "fontSize": "{size.font.body}",
+        "fontWeight": "{fontWeight.semibold}",
+        "letterSpacing": "{size.tracking.normal}",
+        "lineHeight": "{number.lineHeight.compact}"
+      }
+    },
+    "lowerThirdMeta": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{fontFamily.ui}",
+        "fontSize": "{size.font.caption}",
+        "fontWeight": "{fontWeight.regular}",
+        "letterSpacing": "{size.tracking.ui}",
+        "lineHeight": "{number.lineHeight.compact}"
+      }
+    }
+  },
+  "duration": {
+    "instant": {
+      "$type": "duration",
+      "$value": {
+        "value": 0,
+        "unit": "ms"
+      }
+    },
+    "fast": {
+      "$type": "duration",
+      "$value": {
+        "value": 120,
+        "unit": "ms"
+      }
+    },
+    "base": {
+      "$type": "duration",
+      "$value": {
+        "value": 220,
+        "unit": "ms"
+      }
+    },
+    "build": {
+      "$type": "duration",
+      "$value": {
+        "value": 360,
+        "unit": "ms"
+      }
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": {
+        "value": 500,
+        "unit": "ms"
+      }
+    },
+    "slowPan": {
+      "$type": "duration",
+      "$value": {
+        "value": 900,
+        "unit": "ms"
+      }
+    }
+  },
+  "cubicBezier": {
+    "standard": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.2,
+        0,
+        0,
+        1
+      ]
+    },
+    "decelerate": {
+      "$type": "cubicBezier",
+      "$value": [
+        0,
+        0,
+        0.2,
+        1
+      ]
+    },
+    "reveal": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.16,
+        1,
+        0.3,
+        1
+      ]
+    },
+    "linear": {
+      "$type": "cubicBezier",
+      "$value": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "transition": {
+    "$description": "Minimal motion defaults for simple console-style camera moves, parallax, and clean callout reveals.",
+    "subtleShift": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.fast}",
+        "delay": "{duration.instant}",
+        "timingFunction": "{cubicBezier.standard}"
+      }
+    },
+    "calloutReveal": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.base}",
+        "delay": "{duration.instant}",
+        "timingFunction": "{cubicBezier.reveal}"
+      }
+    },
+    "diagramBuild": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.build}",
+        "delay": "{duration.instant}",
+        "timingFunction": "{cubicBezier.standard}"
+      }
+    },
+    "slowPan": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.slowPan}",
+        "delay": "{duration.instant}",
+        "timingFunction": "{cubicBezier.decelerate}"
+      }
+    }
+  },
+  "strokeStyle": {
+    "solid": {
+      "$type": "strokeStyle",
+      "$value": "solid"
+    },
+    "annotation": {
+      "$type": "strokeStyle",
+      "$value": {
+        "dashArray": [
+          "{size.space.sm}",
+          "{size.space.xs}"
+        ],
+        "lineCap": "round"
+      }
+    },
+    "breakage": {
+      "$type": "strokeStyle",
+      "$value": {
+        "dashArray": [
+          "{size.space.xs}",
+          "{size.space.xs}"
+        ],
+        "lineCap": "butt"
+      }
+    }
+  },
+  "border": {
+    "$description": "Reusable border tokens for pastel panels, callouts, and failure annotations.",
+    "subtleLight": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.alpha.ink12}",
+        "width": "{size.stroke.hairline}",
+        "style": "{strokeStyle.solid}"
+      }
+    },
+    "subtleDark": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.alpha.white12}",
+        "width": "{size.stroke.hairline}",
+        "style": "{strokeStyle.solid}"
+      }
+    },
+    "panel": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.base.panelFrame}",
+        "width": "{size.stroke.hairline}",
+        "style": "{strokeStyle.solid}"
+      }
+    },
+    "signal": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.accent.signal}",
+        "width": "{size.stroke.regular}",
+        "style": "{strokeStyle.solid}"
+      }
+    },
+    "annotation": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.accent.signal}",
+        "width": "{size.stroke.thin}",
+        "style": "{strokeStyle.annotation}"
+      }
+    },
+    "alert": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.accent.alert}",
+        "width": "{size.stroke.regular}",
+        "style": "{strokeStyle.breakage}"
+      }
+    }
+  },
+  "shadow": {
+    "$description": "Subtle, low-noise layer styles for ink-lit panels, paper slabs, and model-lit cards.",
+    "panel": {
+      "$type": "shadow",
+      "$value": {
+        "color": "{color.alpha.ink08}",
+        "offsetX": "{size.shadow.none}",
+        "offsetY": "{size.shadow.panelOffsetY}",
+        "blur": "{size.shadow.panelBlur}",
+        "spread": "{size.shadow.none}"
+      }
+    },
+    "thumbnailSlab": {
+      "$type": "shadow",
+      "$value": {
+        "color": "{color.alpha.ink24}",
+        "offsetX": "{size.shadow.none}",
+        "offsetY": "{size.shadow.slabOffsetY}",
+        "blur": "{size.shadow.slabBlur}",
+        "spread": "{size.shadow.none}"
+      }
+    }
+  },
+  "semantic": {
+    "$description": "Default semantic tokens for the active cascade-paper-architectures-ink-lit-v1 brand.",
+    "surface": {
+      "page": {
+        "$type": "color",
+        "$value": "{color.base.ink}"
+      },
+      "card": {
+        "$type": "color",
+        "$value": "{color.base.inkPanel}"
+      },
+      "ink": {
+        "$type": "color",
+        "$value": "{color.base.ink}"
+      },
+      "thumbnailFrame": {
+        "$type": "color",
+        "$value": "{color.base.panelFrame}"
+      },
+      "titleSlab": {
+        "$type": "color",
+        "$value": "{color.base.ink}"
+      },
+      "artifactPanel": {
+        "$type": "color",
+        "$value": "{color.base.inkPanel}"
+      },
+      "artifactOverlay": {
+        "$type": "color",
+        "$value": "{color.base.overlaySlate}"
+      },
+      "signalChip": {
+        "$type": "color",
+        "$value": "{color.accent.signal}"
+      },
+      "failureChip": {
+        "$type": "color",
+        "$value": "{color.accent.alert}"
+      }
+    },
+    "text": {
+      "primaryOnLight": {
+        "$type": "color",
+        "$value": "{color.base.ink}"
+      },
+      "secondaryOnLight": {
+        "$type": "color",
+        "$value": "{color.alpha.ink72}"
+      },
+      "primaryOnDark": {
+        "$type": "color",
+        "$value": "{color.base.white}"
+      },
+      "secondaryOnDark": {
+        "$type": "color",
+        "$value": "{color.base.secondaryText}"
+      },
+      "chipOnSignal": {
+        "$type": "color",
+        "$value": "{color.base.ink}"
+      },
+      "chipOnFailure": {
+        "$type": "color",
+        "$value": "{color.base.white}"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{color.accent.signal}"
+      },
+      "failure": {
+        "$type": "color",
+        "$value": "{color.accent.alert}"
+      }
+    },
+    "accent": {
+      "primary": {
+        "$type": "color",
+        "$value": "{color.accent.signal}"
+      },
+      "wash": {
+        "$type": "color",
+        "$value": "{color.alpha.signal16}"
+      },
+      "failure": {
+        "$type": "color",
+        "$value": "{color.accent.alert}"
+      },
+      "failureWash": {
+        "$type": "color",
+        "$value": "{color.alpha.alert16}"
+      }
+    },
+    "typography": {
+      "wordmark": {
+        "$type": "typography",
+        "$value": "{typography.wordmark}"
+      },
+      "hero": {
+        "$type": "typography",
+        "$value": "{typography.hero}"
+      },
+      "thumbnail": {
+        "$type": "typography",
+        "$value": "{typography.thumbnail}"
+      },
+      "monogram": {
+        "$type": "typography",
+        "$value": "{typography.monogram}"
+      },
+      "sectionTitle": {
+        "$type": "typography",
+        "$value": "{typography.sectionTitle}"
+      },
+      "cardTitle": {
+        "$type": "typography",
+        "$value": "{typography.cardTitle}"
+      },
+      "body": {
+        "$type": "typography",
+        "$value": "{typography.body}"
+      },
+      "bodySmall": {
+        "$type": "typography",
+        "$value": "{typography.bodySmall}"
+      },
+      "uiLabel": {
+        "$type": "typography",
+        "$value": "{typography.uiLabel}"
+      },
+      "seriesTag": {
+        "$type": "typography",
+        "$value": "{typography.seriesTag}"
+      },
+      "callout": {
+        "$type": "typography",
+        "$value": "{typography.callout}"
+      },
+      "lowerThirdTitle": {
+        "$type": "typography",
+        "$value": "{typography.lowerThirdTitle}"
+      },
+      "lowerThirdMeta": {
+        "$type": "typography",
+        "$value": "{typography.lowerThirdMeta}"
+      }
+    },
+    "border": {
+      "subtleLight": {
+        "$type": "border",
+        "$value": "{border.subtleLight}"
+      },
+      "subtleDark": {
+        "$type": "border",
+        "$value": "{border.subtleDark}"
+      },
+      "panel": {
+        "$type": "border",
+        "$value": "{border.panel}"
+      },
+      "signal": {
+        "$type": "border",
+        "$value": "{border.signal}"
+      },
+      "annotation": {
+        "$type": "border",
+        "$value": "{border.annotation}"
+      },
+      "alert": {
+        "$type": "border",
+        "$value": "{border.alert}"
+      }
+    },
+    "shadow": {
+      "panel": {
+        "$type": "shadow",
+        "$value": "{shadow.panel}"
+      },
+      "thumbnailSlab": {
+        "$type": "shadow",
+        "$value": "{shadow.thumbnailSlab}"
+      }
+    }
+  },
+  "component": {
+    "$description": "Ready-to-apply aliases for the active ink-lit Paper Architectures package system.",
+    "thumbnail": {
+      "$description": "Default thumbnail package for ink-lit Paper Architectures channel and episode art.",
+      "$extensions": {
+        "com.cascadeeffects": {
+          "formula": "One dominant ink-lit paper-built subject or folded cascade model, deterministic local title only when the deliverable requires it, and no generated text inside episode source artwork",
+          "headlineAllCaps": false,
+          "recommendedTextWordsMin": 2,
+          "recommendedTextWordsMax": 4,
+          "accentWordLimit": 0,
+          "oneImageOnly": true,
+          "evidenceIntegrityRule": "Use recognizable artifacts as system-failure cues without implying source documents, logos, or readable text that are not present",
+          "notes": [
+            "Use no generated text inside episode source artwork unless a package manifest explicitly permits approved title-bearing identity art",
+            "Keep public anchors large and recognizable at thumbnail size",
+            "Use deep ink-blue fields, cream folded paper, cyan vellum glow, lavender shadows, foam-core, gouache, and controlled model lighting",
+            "Use coral only for warning or failure cues"
+          ]
+        }
+      },
+      "outerFrameColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.thumbnailFrame}"
+      },
+      "titleSlabColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.titleSlab}"
+      },
+      "artifactPanelColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.artifactPanel}"
+      },
+      "artifactOverlayColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.artifactOverlay}"
+      },
+      "headlineColor": {
+        "$type": "color",
+        "$value": "{semantic.text.primaryOnDark}"
+      },
+      "headlineAccentColor": {
+        "$type": "color",
+        "$value": "{semantic.accent.primary}"
+      },
+      "seriesTagBackground": {
+        "$type": "color",
+        "$value": "{semantic.surface.signalChip}"
+      },
+      "seriesTagTextColor": {
+        "$type": "color",
+        "$value": "{semantic.text.chipOnSignal}"
+      },
+      "headlineType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.thumbnail}"
+      },
+      "seriesTagType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.seriesTag}"
+      },
+      "outerFramePadding": {
+        "$type": "dimension",
+        "$value": "{layout.thumbnailOuterFramePadding}"
+      },
+      "panelGap": {
+        "$type": "dimension",
+        "$value": "{layout.thumbnailPanelGap}"
+      },
+      "safeInsetX": {
+        "$type": "dimension",
+        "$value": "{layout.thumbnailSafeInsetX}"
+      },
+      "safeInsetY": {
+        "$type": "dimension",
+        "$value": "{layout.thumbnailSafeInsetY}"
+      },
+      "titleSlabPaddingX": {
+        "$type": "dimension",
+        "$value": "{layout.titleSlabPaddingX}"
+      },
+      "titleSlabPaddingY": {
+        "$type": "dimension",
+        "$value": "{layout.titleSlabPaddingY}"
+      },
+      "frameRadius": {
+        "$type": "dimension",
+        "$value": "{size.radius.xl}"
+      },
+      "panelRadius": {
+        "$type": "dimension",
+        "$value": "{size.radius.lg}"
+      },
+      "titleSlabRatio": {
+        "$type": "number",
+        "$value": "{number.ratio.thumbnailTitleSlab}"
+      },
+      "artifactPanelRatio": {
+        "$type": "number",
+        "$value": "{number.ratio.thumbnailArtifactPanel}"
+      },
+      "headlineWordsMin": {
+        "$type": "number",
+        "$value": "{number.rules.headlineWordsMin}"
+      },
+      "headlineWordsMax": {
+        "$type": "number",
+        "$value": "{number.rules.headlineWordsMax}"
+      },
+      "accentWordsMax": {
+        "$type": "number",
+        "$value": "{number.rules.accentWordsMax}"
+      },
+      "filmGrainOpacity": {
+        "$type": "number",
+        "$value": "{number.opacity.filmGrain}"
+      },
+      "artifactOverlayOpacity": {
+        "$type": "number",
+        "$value": "{number.opacity.artifactOverlay}"
+      },
+      "shadow": {
+        "$type": "shadow",
+        "$value": "{semantic.shadow.thumbnailSlab}"
+      }
+    },
+    "panel": {
+      "surfaceColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.card}"
+      },
+      "border": {
+        "$type": "border",
+        "$value": "{semantic.border.panel}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{size.radius.lg}"
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "{layout.cardPadding}"
+      },
+      "shadow": {
+        "$type": "shadow",
+        "$value": "{semantic.shadow.panel}"
+      },
+      "titleType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.cardTitle}"
+      },
+      "bodyType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.body}"
+      },
+      "titleColor": {
+        "$type": "color",
+        "$value": "{semantic.text.primaryOnLight}"
+      },
+      "bodyColor": {
+        "$type": "color",
+        "$value": "{semantic.text.secondaryOnLight}"
+      }
+    },
+    "callout": {
+      "labelType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.callout}"
+      },
+      "labelColor": {
+        "$type": "color",
+        "$value": "{semantic.text.primaryOnDark}"
+      },
+      "lineColor": {
+        "$type": "color",
+        "$value": "{semantic.accent.primary}"
+      },
+      "alertLineColor": {
+        "$type": "color",
+        "$value": "{semantic.accent.failure}"
+      },
+      "lineStyle": {
+        "$type": "strokeStyle",
+        "$value": "{strokeStyle.solid}"
+      },
+      "alertLineStyle": {
+        "$type": "strokeStyle",
+        "$value": "{strokeStyle.breakage}"
+      },
+      "lineWidth": {
+        "$type": "dimension",
+        "$value": "{size.stroke.emphasis}"
+      },
+      "nodeSize": {
+        "$type": "dimension",
+        "$value": "{size.marker.node}"
+      },
+      "nodeColor": {
+        "$type": "color",
+        "$value": "{semantic.accent.primary}"
+      }
+    },
+    "lowerThird": {
+      "surfaceColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.ink}"
+      },
+      "border": {
+        "$type": "border",
+        "$value": "{semantic.border.subtleDark}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{size.radius.md}"
+      },
+      "paddingX": {
+        "$type": "dimension",
+        "$value": "{layout.lowerThirdPaddingX}"
+      },
+      "paddingY": {
+        "$type": "dimension",
+        "$value": "{layout.lowerThirdPaddingY}"
+      },
+      "titleType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.lowerThirdTitle}"
+      },
+      "metaType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.lowerThirdMeta}"
+      },
+      "titleColor": {
+        "$type": "color",
+        "$value": "{semantic.text.primaryOnDark}"
+      },
+      "metaColor": {
+        "$type": "color",
+        "$value": "{semantic.text.secondaryOnDark}"
+      }
+    },
+    "avatar": {
+      "$extensions": {
+        "com.cascadeeffects": {
+          "direction": "Circle-safe Paper Architectures mark or folded cascade tile; no full title at small sizes"
+        }
+      },
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.ink}"
+      },
+      "foregroundColor": {
+        "$type": "color",
+        "$value": "{semantic.text.primaryOnDark}"
+      },
+      "accentColor": {
+        "$type": "color",
+        "$value": "{semantic.accent.primary}"
+      },
+      "type": {
+        "$type": "typography",
+        "$value": "{semantic.typography.monogram}"
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{size.radius.xl}"
+      }
+    },
+    "banner": {
+      "$extensions": {
+        "com.cascadeeffects": {
+          "direction": "Paper Architectures folded cascade scene with title locked inside calm paper safe zones"
+        }
+      },
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{semantic.surface.ink}"
+      },
+      "motifLineColor": {
+        "$type": "color",
+        "$value": "{semantic.accent.primary}"
+      },
+      "motifNodeColor": {
+        "$type": "color",
+        "$value": "{semantic.accent.primary}"
+      },
+      "motifLineWidth": {
+        "$type": "dimension",
+        "$value": "{size.stroke.regular}"
+      },
+      "headlineType": {
+        "$type": "typography",
+        "$value": "{semantic.typography.hero}"
+      },
+      "headlineColor": {
+        "$type": "color",
+        "$value": "{semantic.text.primaryOnDark}"
+      },
+      "metaColor": {
+        "$type": "color",
+        "$value": "{semantic.text.secondaryOnDark}"
+      }
+    }
+  }
+}

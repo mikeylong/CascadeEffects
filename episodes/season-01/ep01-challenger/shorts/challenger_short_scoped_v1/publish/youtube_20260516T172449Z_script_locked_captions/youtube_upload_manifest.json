@@ -1,0 +1,144 @@
+{
+  "caption_context": {
+    "canonical_script_path": "/Users/mike/Audio_CascadeEffects/tmp/ep1_challenger_ending_cadence_pass_01/challenger_short_restart_v1_ending_cadence_script.txt",
+    "canonical_script_sha256": "af5de8b3748b953e49bc110c4feb0e69ca02c5135cc8f20d09c4d551965f6c2f",
+    "caption_diff_report_path": "script_locked_caption_diff_report.md",
+    "caption_diff_report_sha256": "21b0a42bfc6c3d48ea00894c4a43526c46048e076dab053dd89eb6e3fe618ec2",
+    "caption_manifest_path": "script_locked_caption_manifest.json",
+    "caption_manifest_sha256": "37c729e2e68e83948edbbcc112947e239e2150108ec69e8d23ffbe0580ae846b",
+    "caption_strategy": "script_locked_canonical_text_timing_from_existing_srt_v1",
+    "text_gate": {
+      "forbidden_hits": [],
+      "forbidden_phonetic_typos_read": "pass",
+      "forbidden_terms": [
+        "hot gas pass",
+        "hot gas passed",
+        "24 times",
+        "73 seconds"
+      ],
+      "script_exact_text_read": "pass"
+    },
+    "timing_source_srt_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/publish/youtube_20260501T022849Z_house_crt_visible_scanline_final_gate_pass01/challenger_warning_softening_captions.srt",
+    "timing_source_srt_sha256": "ee5907856ea7cd4dcd0d9686c9e965ac0129cb3f82de063a5ecc46ae3220b384"
+  },
+  "created_utc": "20260516T172449Z",
+  "episode_id": "challenger",
+  "final_music_context": {
+    "motif_outro_mix_used": true,
+    "music_policy": "canonical_default",
+    "music_rights_check_status": "pending_youtube_upload_check",
+    "music_track_id": "paper_architecture_theme_v1"
+  },
+  "kind": "youtube_shorts_publish_package",
+  "package_id": "youtube_20260516T172449Z_script_locked_captions",
+  "private_upload": {
+    "command": "/Users/mike/Viz_CascadeEffects/bin/ce orchestrate publish-package-upload /Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/publish/youtube_20260516T172449Z_script_locked_captions/youtube_upload_manifest.json --privacy private",
+    "performed": false,
+    "previous_private_video_action": "leave_untouched",
+    "previous_private_video_id": "I4fvoWOjrIo",
+    "requires_explicit_user_confirmation": true
+  },
+  "public_release": {
+    "boundary": "manual_youtube_studio_only",
+    "ready": false
+  },
+  "public_release_boundary": "manual_youtube_studio_only",
+  "publication_readiness": "ready_for_private_review_upload_pending_manual_studio_checks",
+  "rights_and_claims": {
+    "altered_content_disclosure_required": true,
+    "claim_risk": "Manual Studio review required before public release: archival/source footage, source-derived event visuals, and Paper Architecture music may trigger copyright, Content ID, altered-content, or cover-frame checks.",
+    "music_bed_used": true,
+    "music_policy": "canonical_default",
+    "music_rights_check_status": "pending_youtube_upload_check",
+    "music_track_id": "paper_architecture_theme_v1",
+    "source_footage_role": "source-derived archival/event visuals"
+  },
+  "short_id": "challenger_short_scoped_v1",
+  "source_final": {
+    "caption_burn_read": "pass",
+    "disposition": "keep",
+    "final_export_manifest_path": "final_export_provenance_manifest.json",
+    "final_export_manifest_sha256": "d94f6a6b7f897b22a72ec489f0390d75303d97f1bfafcbe8e2c484d3a2c79ae6",
+    "final_review_path": "final_export_review.md",
+    "final_review_sha256": "91949422149f7c720df278711cbcb588fd8bf71c47652cef8c0047d1a7ffc1f7",
+    "house_crt_texture_read": "pass",
+    "may_publish": true,
+    "music_policy": "canonical_default",
+    "music_rights_check_status": "pending_youtube_upload_check",
+    "music_track_id": "paper_architecture_theme_v1",
+    "path": "challenger_script_locked_captions_youtube_short.mp4",
+    "previous_private_video_action": "left_untouched_for_manual_comparison",
+    "previous_private_video_id": "I4fvoWOjrIo",
+    "reel_class": "keeper short",
+    "script_locked_caption_text_read": "pass",
+    "sha256": "983fe2c90a0c7fe8c09a1b2a033faed06fa230548aee080e010526c692b1769d",
+    "signal_interruption_read": "pass",
+    "source_duplicate_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/shorts/challenger_short_scoped_v1/final/challenger_short_scoped_v1_video_final_script_locked_captions_20260516T172449Z.mp4",
+    "source_duplicate_sha256": "983fe2c90a0c7fe8c09a1b2a033faed06fa230548aee080e010526c692b1769d"
+  },
+  "studio_checks_required": [
+    "copyright_and_content_id",
+    "paper_architecture_music_claim_state",
+    "altered_content_disclosure_yes_for_realistic_generated_or_source_derived_event_visuals",
+    "burned_in_caption_duplicate_caption_track_check",
+    "shorts_cover_frame_check",
+    "audience_category_visibility_metadata_check"
+  ],
+  "target": "youtube_shorts",
+  "technical_read": {
+    "audio_channels": 1,
+    "audio_codec": "aac",
+    "audio_copy_read": "pass",
+    "audio_sample_rate_hz": 44100,
+    "codec_read": "pass",
+    "container": "mp4",
+    "duration_seconds": 62.833008,
+    "frame_rate": "30/1",
+    "height": 1920,
+    "script_locked_caption_text_read": "pass",
+    "vertical_shorts_geometry_read": "pass",
+    "video_codec": "h264",
+    "width": 1080
+  },
+  "upload_assets": {
+    "caption_diff_report_path": "script_locked_caption_diff_report.md",
+    "caption_diff_report_sha256": "21b0a42bfc6c3d48ea00894c4a43526c46048e076dab053dd89eb6e3fe618ec2",
+    "caption_manifest_path": "script_locked_caption_manifest.json",
+    "caption_manifest_sha256": "37c729e2e68e83948edbbcc112947e239e2150108ec69e8d23ffbe0580ae846b",
+    "caption_srt_path": "script_locked_captions.srt",
+    "caption_srt_sha256": "eb1742a57b0af914749936094949904a538c9f63184b896bb28fccdaaa59b879",
+    "description_path": "challenger_warning_softening_description.txt",
+    "description_sha256": "3adac332c65977b5a94b23632616a462f4347df05b221242c008c37b86474f00",
+    "metadata_path": "youtube_metadata_copy_packet.md",
+    "metadata_sha256": "75b09c7a025613fc2254fbd873503df3a05ef34976f70f9c6c0605199b481248",
+    "suggested_cover_frame_path": "suggested_shorts_cover_frame.png",
+    "suggested_cover_frame_sha256": "d9d966640d7d949298dda1796444f14567adbfe21c3ec2c57f71c5f92d7ef225",
+    "tags_path": "challenger_warning_softening_tags.txt",
+    "tags_sha256": "c2af818910941cb5f1032243e47fd3419b9344c8d3cb194ef5798e655a50b73b",
+    "title_path": "challenger_warning_softening_title.txt",
+    "title_sha256": "24723092bbc018e56c1ff0d9b7774d98bd23505e9544ac0c01a4ad02e62a5255",
+    "upload_checklist_path": "upload_checklist.md",
+    "upload_checklist_sha256": "bdc1fc16e208bcef6bed5d5f596a5e2eb9682eb8ba87a4b6abb370156b6b3f24",
+    "video_path": "challenger_script_locked_captions_youtube_short.mp4",
+    "video_sha256": "983fe2c90a0c7fe8c09a1b2a033faed06fa230548aee080e010526c692b1769d"
+  },
+  "youtube_metadata": {
+    "audience": "not_made_for_kids",
+    "category_id": "27",
+    "default_audio_language": "en",
+    "default_language": "en",
+    "description_path": "challenger_warning_softening_description.txt",
+    "hashtags": [
+      "#Challenger",
+      "#NASA",
+      "#Shorts"
+    ],
+    "metadata_copy_packet_path": "youtube_metadata_copy_packet.md",
+    "metadata_human_keep_read": "pending_human_review",
+    "privacy": "private",
+    "tags": [
+      "Challenger disaster\nSpace Shuttle Challenger\nNASA\nO-ring\nsolid rocket booster\ncold weather\nRogers Commission\nnormalization of deviance\nspace shuttle\nSTS-51-L"
+    ],
+    "title": "The Challenger Warning That Stopped Working #Shorts"
+  }
+}

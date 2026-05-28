@@ -1,0 +1,23 @@
+{
+  "packet_id": "fixture_lifecycle_in_progress_pass",
+  "lifecycle_stage": "in_progress",
+  "stage": "publish_readiness_lifecycle_review",
+  "current_gate": "final_assembly_review",
+  "status": "in_progress_blocked_pending_final_assembly_keep",
+  "final_assembly_disposition": "pending",
+  "primary_review_artifact": {
+    "path": "lifecycle_review.html"
+  },
+  "upload_locks": {
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "public_release_ready": false,
+    "may_youtube_action": false,
+    "upload_performed": false
+  },
+  "reads": {
+    "lifecycle_review_html_read": "pass",
+    "lifecycle_upload_lock_read": "pass",
+    "final_assembly_human_keep_read": "blocked_pending_final_assembly_keep"
+  }
+}

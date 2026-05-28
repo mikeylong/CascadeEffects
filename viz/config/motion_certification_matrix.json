@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "episode_id": "challenger",
+      "motion_item_id": "launch_commit_dolly",
+      "preset_id": "retired-scene-still/challenger_mission_control",
+      "still_path": "/Users/mike/Viz_CascadeEffects/references/challenger_mission_control/selects/hero_still.png",
+      "prompt": "Slow documentary dolly through the room, subtle CRT flicker, restrained camera move.",
+      "frames": 121,
+      "width": 640,
+      "height": 384,
+      "pipeline": "distilled",
+      "typography_intent_path": "workflows/typography/shared/challenger_mission_control_handoff_asset.intent.json",
+      "expected_typography_metadata": true,
+      "min_duration_seconds": 5.0
+    },
+    {
+      "episode_id": "therac-25",
+      "motion_item_id": "console_alarm_push",
+      "preset_id": "retired-scene-still/therac25_console_alarm",
+      "still_path": "/Users/mike/Viz_CascadeEffects/references/therac25_console_alarm/selects/hero_still.png",
+      "prompt": "Slow documentary push toward the console, restrained phosphor flicker, quiet room tone.",
+      "frames": 121,
+      "width": 640,
+      "height": 384,
+      "pipeline": "distilled",
+      "typography_intent_path": "",
+      "expected_typography_metadata": false,
+      "min_duration_seconds": 5.0
+    }
+  ]
+}

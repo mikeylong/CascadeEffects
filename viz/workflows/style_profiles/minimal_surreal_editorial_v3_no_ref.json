@@ -1,0 +1,90 @@
+{
+  "name": "minimal_surreal_editorial_v3_no_ref",
+  "defaults": {
+    "style_profile": "minimal_surreal_editorial_v3_no_ref",
+    "temperature": "restrained",
+    "palette_policy": "controlled",
+    "human_presence": "traces-only",
+    "post_work": "typography-later"
+  },
+  "negative_prompt_defaults": [
+    "text",
+    "watermark",
+    "logo",
+    "ui overlay",
+    "crowded scene",
+    "many small objects",
+    "unreadable background detail",
+    "motion blur",
+    "action pose",
+    "blockbuster cinematic lighting",
+    "poster design",
+    "collage fragments",
+    "multiple surreal events",
+    "competing bright accents"
+  ],
+  "contract_metrics": {
+    "evaluation_version": "1.0.0",
+    "style_id": "minimal_surreal_editorial_v3_no_ref",
+    "metrics": [
+      {
+        "id": "asymmetry_ratio",
+        "weight": 0.12,
+        "pass_threshold": 0.45
+      },
+      {
+        "id": "palette_discipline",
+        "weight": 0.2,
+        "pass_threshold": 0.7
+      },
+      {
+        "id": "focal_clarity",
+        "weight": 0.43,
+        "pass_threshold": 0.78
+      },
+      {
+        "id": "visual_noise",
+        "weight": 0.25,
+        "pass_threshold": 0.65
+      }
+    ],
+    "overall_pass_threshold": 0.74,
+    "hard_fail_checks": [
+      "detected_text",
+      "control_asset_leakage",
+      "subject_count_exceeds_limit"
+    ]
+  },
+  "caption_safe_defaults": {
+    "top_ui": [0.0, 0.0, 1.0, 0.12],
+    "subtitles": [0.08, 0.74, 0.92, 0.96]
+  },
+  "subject_reference_defaults": {
+    "enabled": false,
+    "clip_vision_model_env": "CE_COMFY_CLIP_VISION_MODEL",
+    "draft_strength": 0.01,
+    "refine_strength": 0.01,
+    "noise_augmentation": 0.0,
+    "crop": "none"
+  },
+  "plate_seed_defaults": {
+    "enabled": false,
+    "draft_denoise": 0.5
+  },
+  "source_package": {
+    "root": "references/style_packages/minimal_surreal_editorial_v3",
+    "visual_contract": "references/style_packages/minimal_surreal_editorial_v3/visual.contract.json",
+    "evaluator_spec": "references/style_packages/minimal_surreal_editorial_v3/eval/evaluator-spec.json",
+    "workflow_spec": "references/style_packages/minimal_surreal_editorial_v3/comfyui/workflow-spec.md"
+  },
+  "prompts": {
+    "global_base": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+    "scene_base": "concrete subject first, preserve what the thing is, simplify without abstracting away identity, let one wrong condition carry the image",
+    "shorts_scene_base": "portrait beat plate for vertical shorts, readable subject scale, concrete subject first, stillness over action, one anomaly only",
+    "packaging_base": "minimal-surreal packaging plate, high small-size clarity, one dominant anchor subject or scene state, reduction without forced emptiness",
+    "thumbnail_base": "landscape packaging plate, broad readable silhouette, one dominant anchor subject or scene state, avoid clutter",
+    "shorts_base": "portrait packaging plate, readable dominant anchor, controlled reduction, calm frame, no forced empty thirds",
+    "refine_base": "preserve subject identity, preserve the dominant anomaly, add clarity without adding poster graphics, clutter, or realism drift",
+    "final_base": "canonical final deliverable, preserve the dominant read, preserve the dominant anomaly, preserve palette control, preserve clarity without reintroducing clutter"
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "kind": "local_review_asset_package",
+  "id": "youtube_channel_brand_assets_advanced_features_20260520T192751Z",
+  "status": "review_required",
+  "may_advance": false,
+  "youtube_studio_updated": false,
+  "created_utc": "2026-05-20T19:27:51Z",
+  "asset_role": "youtube_channel_brand_assets_advanced_features",
+  "visual_profile": "cascade-paper-architectures-ink-lit-v1",
+  "summary": "Cascade Effects YouTube channel banner, profile-image derivative, and watermark review/spec package for advanced YouTube features.",
+  "official_sources": [
+    "https://support.google.com/youtube/answer/10456525?co=GENIE.Platform%3DDesktop&hl=en",
+    "https://support.google.com/youtube/answer/12950272?hl=en",
+    "https://support.google.com/youtube/answer/3027950?hl=en"
+  ],
+  "official_requirements": {
+    "banner_minimum_px": [
+      2048,
+      1152
+    ],
+    "banner_recommended_px": [
+      2560,
+      1440
+    ],
+    "banner_min_safe_area_px": [
+      1235,
+      338
+    ],
+    "banner_recommended_safe_area_px": [
+      1544,
+      423
+    ],
+    "banner_file_limit_bytes": 6291456,
+    "profile_formats": [
+      "JPG",
+      "GIF",
+      "BMP",
+      "PNG"
+    ],
+    "profile_file_limit_bytes": 15728640,
+    "profile_render_px": [
+      98,
+      98
+    ],
+    "watermark_minimum_px": [
+      150,
+      150
+    ],
+    "watermark_file_limit_bytes": 1048576
+  },
+  "deliverables": {
+    "primary_assets": {
+      "banner_visible_strip": {
+        "path": "assets/channel-banner-strip-2048x340.png",
+        "sha256": "4a2f1bd5d457421e1959ca7ea168e6addbb288748261ac14b063d48a14faa030",
+        "width": 2048,
+        "height": 340,
+        "mode": "RGB",
+        "bytes": 82890
+      },
+      "banner_upload_2048": {
+        "path": "assets/channel-banner-upload-2048x1152.png",
+        "sha256": "31e28f3d1ed8bae98af1ce4c273dabcccdec486ea91781542155c764c98dc0d2",
+        "width": 2048,
+        "height": 1152,
+        "mode": "RGB",
+        "bytes": 152144
+      },
+      "banner_upload_2560": {
+        "path": "assets/channel-banner-upload-2560x1440.png",
+        "sha256": "7ef4caa7a68644c75eb9e52c4138e8bc23a58b61e23eb527f1b449435aa92854",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 319684
+      },
+      "profile_upload": {
+        "path": "assets/profile-icon-800x800-square-clean-edge-no-alpha.png",
+        "sha256": "70241387993a387be780d3aa7380103eed7f4e283b54ad736ff7e82f603b8e70",
+        "width": 800,
+        "height": 800,
+        "mode": "RGB",
+        "bytes": 542628
+      },
+      "watermark_800": {
+        "path": "assets/video-watermark-800x800.png",
+        "sha256": "049752a54f025616d6e7ebb1f64b31198be7592de2de35eabbd56149a101ac2a",
+        "width": 800,
+        "height": 800,
+        "mode": "RGBA",
+        "bytes": 624474
+      },
+      "watermark_150": {
+        "path": "assets/video-watermark-150x150.png",
+        "sha256": "ecce75848306fed2a4491eb80bd25210bae1ebede20f6b0f6a8d9dea0c7f67ed",
+        "width": 150,
+        "height": 150,
+        "mode": "RGBA",
+        "bytes": 28527
+      }
+    },
+    "previews": {
+      "banner_safe_overlay": {
+        "path": "previews/channel-banner-safe-zone-overlay-2560x1440.png",
+        "sha256": "ca800c1abbff10f8004d11a998dd4f7b2baeeebd3e28b0d90098161203c758d3",
+        "width": 2560,
+        "height": 1440,
+        "mode": "RGB",
+        "bytes": 290985
+      },
+      "banner_strip_overlay": {
+        "path": "previews/channel-banner-strip-safe-zone-overlay-2048x340.png",
+        "sha256": "4f91997291090c98a1fce8021bb45f134289371bc0cd7d486a7e5e3a54cdd7b7",
+        "width": 2048,
+        "height": 340,
+        "mode": "RGB",
+        "bytes": 82461
+      },
+      "banner_title_safe_crop": {
+        "path": "previews/channel-banner-title-safe-crop-1544x423.png",
+        "sha256": "3c5b5b30cff8c6afa2ef18dc4fba6b14ed45f58546b0f18c7e7d42d018d8f8e6",
+        "width": 1544,
+        "height": 423,
+        "mode": "RGB",
+        "bytes": 162829
+      },
+      "banner_tv_preview": {
+        "path": "previews/channel-banner-tv-preview-1280x720.png",
+        "sha256": "1a4424961e6c1ba8e3aefa0c4668c837e2c9d206d609931dbe998a97e3806f2e",
+        "width": 1280,
+        "height": 720,
+        "mode": "RGB",
+        "bytes": 137218
+      },
+      "profile_98_dark": {
+        "path": "previews/profile-icon-youtube-circle-98px-dark.png",
+        "sha256": "658b0c599daf57b9fac11bb789fcfb339fe2438ef1654f18b6a62570f0d77074",
+        "width": 98,
+        "height": 98,
+        "mode": "RGB",
+        "bytes": 10853
+      },
+      "profile_176_dark": {
+        "path": "previews/profile-icon-youtube-circle-176px-dark.png",
+        "sha256": "2a8fb0f4d2c5be72ffad2c28fcf82c2690f954dd75766a784aafa57cdf828d71",
+        "width": 176,
+        "height": 176,
+        "mode": "RGB",
+        "bytes": 29047
+      },
+      "profile_320_dark": {
+        "path": "previews/profile-icon-youtube-circle-320px-dark.png",
+        "sha256": "8037f4acbd4a5e93a31e36040fc6a6aca0bfa90a99843c58e29c12ee3807d0c4",
+        "width": 320,
+        "height": 320,
+        "mode": "RGB",
+        "bytes": 87494
+      },
+      "watermark_overlay_1280": {
+        "path": "previews/video-watermark-overlay-preview-1280x720.png",
+        "sha256": "8b3f3fd73175dfece2b51c5f58c31816a908092d39a5abdb4f56120b4c6587fc",
+        "width": 1280,
+        "height": 720,
+        "mode": "RGB",
+        "bytes": 72100
+      },
+      "watermark_overlay_1920": {
+        "path": "previews/video-watermark-overlay-preview-1920x1080.png",
+        "sha256": "21dddbc125852734a5c39104b7fedf4f19bddcb6a0c2ebdadd085a000bddb678",
+        "width": 1920,
+        "height": 1080,
+        "mode": "RGB",
+        "bytes": 126033
+      }
+    },
+    "qa_contact_sheet": {
+      "path": "qa/youtube-channel-branding-advanced-features-contact-sheet.png",
+      "sha256": "0b39a8091fa228a26c7db08f3970a7c757c713605d654532ca8dd7f640b92361",
+      "width": 2400,
+      "height": 1600,
+      "mode": "RGB",
+      "bytes": 752480
+    }
+  },
+  "web_public_paths": {
+    "bannerStrip": "/brand/youtube-channel/advanced-features-20260520T192751Z/channel-banner-strip-2048x340.png",
+    "bannerUpload2048": "/brand/youtube-channel/advanced-features-20260520T192751Z/channel-banner-upload-2048x1152.png",
+    "bannerUpload2560": "/brand/youtube-channel/advanced-features-20260520T192751Z/channel-banner-upload-2560x1440.png",
+    "bannerSafeOverlay": "/brand/youtube-channel/advanced-features-20260520T192751Z/channel-banner-safe-zone-overlay-2560x1440.png",
+    "bannerTitleSafeCrop": "/brand/youtube-channel/advanced-features-20260520T192751Z/channel-banner-title-safe-crop-1544x423.png",
+    "profileUpload": "/brand/youtube-channel/advanced-features-20260520T192751Z/profile-icon-800x800-square-clean-edge-no-alpha.png",
+    "profilePreview98": "/brand/youtube-channel/advanced-features-20260520T192751Z/profile-icon-youtube-circle-98px-dark.png",
+    "profilePreview176": "/brand/youtube-channel/advanced-features-20260520T192751Z/profile-icon-youtube-circle-176px-dark.png",
+    "profilePreview320": "/brand/youtube-channel/advanced-features-20260520T192751Z/profile-icon-youtube-circle-320px-dark.png",
+    "watermark800": "/brand/youtube-channel/advanced-features-20260520T192751Z/video-watermark-800x800.png",
+    "watermark150": "/brand/youtube-channel/advanced-features-20260520T192751Z/video-watermark-150x150.png",
+    "watermarkOverlay1280": "/brand/youtube-channel/advanced-features-20260520T192751Z/video-watermark-overlay-preview-1280x720.png",
+    "watermarkOverlay1920": "/brand/youtube-channel/advanced-features-20260520T192751Z/video-watermark-overlay-preview-1920x1080.png",
+    "contactSheet": "/brand/youtube-channel/advanced-features-20260520T192751Z/youtube-channel-branding-advanced-features-contact-sheet.png"
+  },
+  "source_paths": {
+    "profile_clean_edge_package": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_clean_edge_repair_20260519T002930Z",
+    "profile_clean_edge_asset": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_profile_icon_clean_edge_repair_20260519T002930Z/assets/profile-icon-800x800-square-clean-edge-no-alpha.png",
+    "official_guidance_snapshot": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_brand_assets_advanced_features_20260520T192751Z/source/official_youtube_channel_branding_guidance_2026-05-17.md",
+    "youtube_channel_branding_skill_snapshot": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_brand_assets_advanced_features_20260520T192751Z/source/youtube_channel_branding_v1_SKILL_snapshot.md",
+    "paper_architectures_skill_snapshot": "/Users/mike/Episodes_CascadeEffects/Channel_Trailer/youtube_channel_brand_assets_advanced_features_20260520T192751Z/source/cascade_paper_architectures_SKILL_snapshot.md"
+  },
+  "composition": {
+    "banner_candidate_lane": [
+      "website_hero_clean_identity",
+      "folded_cascade_world",
+      "title_bearing_safe_area"
+    ],
+    "source_art_method": "deterministic_local_review_mockup_plus_production_prompt",
+    "title_policy": "deterministic_local_exact_title",
+    "exact_title": "Cascade of Effects",
+    "generated_title_text_used": false,
+    "profile_policy": "clean_edge_square_rgb_no_alpha_upload",
+    "watermark_policy": "transparent_square_channel_mark"
+  },
+  "safe_zones": {
+    "banner_2560": {
+      "x": 508,
+      "y": 509,
+      "width": 1544,
+      "height": 423
+    },
+    "banner_2048": {
+      "x": 406,
+      "y": 407,
+      "width": 1235,
+      "height": 338
+    },
+    "visible_strip": {
+      "width": 2048,
+      "height": 340
+    }
+  },
+  "qa_reads": {
+    "official_requirements_read": "pass",
+    "skill_workflow_read": "pass",
+    "display_strip_target_read": "pass",
+    "dimensions_read": "pass",
+    "upload_canvas_read": "pass",
+    "file_size_read": "pass",
+    "safe_area_read": "pass",
+    "crop_resilience_read": "pass",
+    "profile_icon_alignment_read": "pass",
+    "website_hero_alignment_read": "pass",
+    "exact_title_spelling_read": "pass",
+    "final_embellishment_read": "pass",
+    "generated_text_read": "pass_no_generated_title_text",
+    "waterfall_read": "pass",
+    "texture_noise_read": "pass_for_deterministic_review_mockup_recheck_required_for_generated_replacement",
+    "judgmentkit_preimplementation_contract_read": "pass",
+    "judgmentkit_implementation_review_read": "deferred_non_pass_static_enforcement_evidence_not_accepted_by_tool",
+    "youtube_studio_updated": false
+  },
+  "rollout": {
+    "youtube_channel_updated": false,
+    "youtube_banner_updated": false,
+    "youtube_profile_updated": false,
+    "youtube_watermark_updated": false,
+    "manual_youtube_studio_upload_required": true
+  },
+  "judgmentkit_review": {
+    "status": "deferred_non_pass",
+    "review_attempts": 4,
+    "passed_checks": [
+      "raw_controls",
+      "approved_primitives",
+      "browser_qa",
+      "modal_actions",
+      "state_coverage_on_static_contract"
+    ],
+    "non_pass_checks": [
+      "static_enforcement_evidence_not_accepted_by_tool"
+    ],
+    "deferral_reason": "The public page and browser QA satisfy the implementation contract intent, but JudgmentKit review_ui_implementation_candidate continued returning empty static_enforcement evidence. Package remains review_required and may_advance false until human review.",
+    "browser_evidence": {
+      "desktop_screenshot": "/Users/mike/Web_CascadeEffects/output/playwright/youtube-brand-page-desktop.png",
+      "mobile_screenshot": "/Users/mike/Web_CascadeEffects/output/playwright/youtube-brand-page-mobile.png",
+      "desktop": {
+        "badImages": [],
+        "horizontalOverflow": 0,
+        "wideText": []
+      },
+      "mobile": {
+        "badImages": [],
+        "horizontalOverflow": 0,
+        "wideText": []
+      }
+    }
+  },
+  "web_publish": {
+    "route": "/brand",
+    "local_url": "http://localhost:3017/brand",
+    "target_url": "https://cascadeeffects.tv/brand",
+    "local_build_status": "pass",
+    "browser_qa_status": "pass",
+    "vercel_deploy_status": "blocked_network_upload_error",
+    "deploy_attempts": [
+      {
+        "command": "npx vercel deploy --prod --yes",
+        "result": "failed",
+        "reason": "EPIPE during Vercel file upload"
+      },
+      {
+        "command": "npx vercel deploy --prod --yes --archive=tgz",
+        "result": "failed",
+        "reason": "EPIPE during Vercel file upload"
+      },
+      {
+        "command": "npx vercel build --prod",
+        "result": "passed",
+        "outputDir": "/Users/mike/Web_CascadeEffects/.vercel/output"
+      },
+      {
+        "command": "npx vercel deploy --prebuilt --prod --yes",
+        "result": "failed",
+        "reason": "EPIPE/socket hang up during Vercel file upload"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "family": "evidence_card_plate",
+  "preset": "redacted_memo__final_upscale",
+  "base_fragment": "image_resize_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "{{ style.prompts.final_base }}, preserve the anchor fragment: redacted memo dossier clipped into a desk-top evidence plate, preserve the layered support fragments: black redaction bars, clipped annotation flags, underlined sentence band, paper fibers, torn paper, ripped seams, schematic overlay, circuit traces, halftone, photocopy grain, accent palette {{ params.accent_palette }}, preserve the memo header band and marked sentence band as blank replacement surfaces for controlled text",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui, no typed paragraphs, no signatures, no handwriting, no dates, no memo copy, no visible paper copy",
+    "width": 1080,
+    "height": 1350,
+    "batch_size": 1,
+    "seed": 90341172,
+    "selected_seed": 90341172,
+    "seed_mode": "fixed",
+    "variant_count": 1,
+    "steps": 6,
+    "guidance": 3.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.28,
+    "upscale_factor": 1.0,
+    "filename_prefix": "cascadeeffects/evidence_card_plate/redacted_memo/final/redacted_memo_final",
+    "note_text": "Canonical final evidence-card plate. Point source_image at the chosen refined memo before the upscale stage.",
+    "output_intent": "evidence_card_plate",
+    "stage": "final_upscale",
+    "reference_board_dir": "references/redacted_memo/board",
+    "style_profile": "systems_failure_collage",
+    "temperature": "restrained",
+    "palette_policy": "episode-specific",
+    "accent_palette": "aged cream, charcoal black, oxidized teal, muted red underline, graphite gray",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "lower band stays calm enough for later typography without flattening the memo plate",
+    "post_work": "typography-later",
+    "safe_zone": "bottom-quarter-caption-band",
+    "signal_anchor": "red-underlined sentence",
+    "source_image": "cascadeeffects/evidence_card_plate/redacted_memo/refine/redacted_memo_refine_00001_.png",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "nodes": [
+    {
+      "key": "load_source_image",
+      "widgets": {
+        "image": "{{ params.source_image }}"
+      }
+    },
+    {
+      "key": "image_scale_by",
+      "widgets": {
+        "upscale_method": "{{ params.upscale_method }}",
+        "scale_by": "{{ params.upscale_factor }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "evidence_card_plate",
+    "generated_filename": "ce_evidence_card_plate__redacted_memo__final_upscale.workflow.json",
+    "sync_filename": "ce_evidence_card_plate__redacted_memo__final_upscale.json"
+  }
+}

@@ -1,0 +1,1215 @@
+1
+00:00:03,632 --> 00:00:08,277
+In October 2018, Lion Air Flight 610 departed
+
+2
+00:00:08,337 --> 00:00:11,721
+Jakarta and crashed into the Java Sea thirteen
+
+3
+00:00:11,721 --> 00:00:16,046
+minutes after takeoff. All 189 people on board
+
+4
+00:00:16,126 --> 00:00:18,568
+were killed. Five months later,
+
+5
+00:00:18,608 --> 00:00:25,216
+in March 2019, Ethiopian Airlines Flight 302 departed
+
+6
+00:00:25,336 --> 00:00:30,061
+Addis Ababa and crashed six minutes after takeoff.
+
+7
+00:00:30,061 --> 00:00:33,189
+All 157 people on board were killed.
+
+8
+00:00:34,072 --> 00:00:38,443
+Both aircraft were Boeing 737 MAX 8s.
+
+9
+00:00:38,443 --> 00:00:40,870
+Both crews had fought the same automated system.
+
+10
+00:00:41,772 --> 00:00:44,580
+Both had lost. In the months that followed,
+
+11
+00:00:45,282 --> 00:00:48,569
+investigators, regulators, and a congressional
+
+12
+00:00:48,629 --> 00:00:51,555
+committee examined how two brand-new aircraft from the
+
+13
+00:00:51,615 --> 00:00:54,321
+world's most experienced commercial aviation
+
+14
+00:00:54,381 --> 00:00:57,126
+manufacturer had been delivered to airlines with a
+
+15
+00:00:57,186 --> 00:01:00,132
+flight control system that could overpower the pilots,
+
+16
+00:01:00,854 --> 00:01:02,858
+that depended on a single sensor for its
+
+17
+00:01:02,938 --> 00:01:05,886
+inputs, and that had not been fully described
+
+18
+00:01:06,347 --> 00:01:08,211
+in the flight manuals the pilots were trained
+
+19
+00:01:08,331 --> 00:01:11,537
+on. This episode is not about one faulty
+
+20
+00:01:11,618 --> 00:01:14,042
+sensor. It is about what happens when a
+
+21
+00:01:14,082 --> 00:01:16,046
+company tries to preserve the appearance of the
+
+22
+00:01:16,106 --> 00:01:19,112
+old system while redesigning around a new physical
+
+23
+00:01:19,192 --> 00:01:22,707
+reality and resolves the contradiction in software the
+
+24
+00:01:22,767 --> 00:01:24,148
+pilot cannot clearly see.
+
+25
+00:01:24,208 --> 00:01:28,412
+The Boeing 737 first flew in 1967.
+
+26
+00:01:28,833 --> 00:01:31,555
+Over the following five decades it became the
+
+27
+00:01:31,595 --> 00:01:35,299
+world's bestselling jetliner, accumulated an enormous
+
+28
+00:01:35,379 --> 00:01:37,541
+global maintenance and training infrastructure,
+
+29
+00:01:38,401 --> 00:01:41,384
+and underwent continuous revision and modernization
+
+30
+00:01:42,065 --> 00:01:44,727
+while retaining enough commonality across variants
+
+31
+00:01:44,807 --> 00:01:47,790
+that pilots could transition between versions with
+
+32
+00:01:47,830 --> 00:01:51,495
+limited additional training. That commonality was not
+
+33
+00:01:51,555 --> 00:01:54,440
+incidental. It was commercially valuable.
+
+34
+00:01:55,402 --> 00:01:59,310
+Airlines operating mixed fleets of 737 variants could
+
+35
+00:01:59,350 --> 00:02:01,554
+schedule pilots across aircraft types,
+
+36
+00:02:02,195 --> 00:02:05,121
+reduce training costs, and avoid the expense of
+
+37
+00:02:05,121 --> 00:02:06,664
+full type rating transitions.
+
+38
+00:02:07,766 --> 00:02:10,651
+The 737's longevity was inseparable from its
+
+39
+00:02:10,731 --> 00:02:14,384
+reputation for consistency. In December 2010,
+
+40
+00:02:15,306 --> 00:02:18,189
+Boeing's primary competitor launched the A320neo
+
+41
+00:02:18,269 --> 00:02:21,033
+program, featuring more fuel-efficient engines.
+
+42
+00:02:22,034 --> 00:02:24,517
+The announcement was a significant competitive event.
+
+43
+00:02:25,498 --> 00:02:27,141
+Airlines responded with interest.
+
+44
+00:02:28,002 --> 00:02:31,106
+Boeing faced a choice: develop an entirely new
+
+45
+00:02:31,206 --> 00:02:34,049
+aircraft, which would take years and cost billions,
+
+46
+00:02:34,790 --> 00:02:36,713
+or modernize the 737 again.
+
+47
+00:02:36,753 --> 00:02:40,117
+Boeing chose to modernize.
+
+48
+00:02:40,299 --> 00:02:42,642
+The result was the 737 MAX.
+
+49
+00:02:43,684 --> 00:02:46,488
+The MAX used a new engine the CFM
+
+50
+00:02:46,548 --> 00:02:49,392
+LEAP that was larger and more fuel-efficient than
+
+51
+00:02:49,453 --> 00:02:52,898
+its predecessor. The engine's size required it to
+
+52
+00:02:52,958 --> 00:02:54,420
+be mounted differently on the wing:
+
+53
+00:02:55,061 --> 00:02:57,565
+further forward and higher up than on earlier
+
+54
+00:02:57,585 --> 00:03:01,851
+737 variants. That repositioning changed the
+
+55
+00:03:01,931 --> 00:03:04,936
+aircraft's aerodynamic behavior at high angles of
+
+56
+00:03:04,976 --> 00:03:10,003
+attack. Specifically, under certain conditions,
+
+57
+00:03:10,003 --> 00:03:12,167
+the new engine placement caused the nose to
+
+58
+00:03:12,228 --> 00:03:14,051
+pitch up more than it had on previous
+
+59
+00:03:14,111 --> 00:03:17,498
+variants. This was a handling difference that could,
+
+60
+00:03:17,559 --> 00:03:21,366
+in principle, require pilots to learn new procedures
+
+61
+00:03:21,386 --> 00:03:23,411
+or require a new type rating.
+
+62
+00:03:24,413 --> 00:03:27,519
+Either outcome would erode the commonality argument.
+
+63
+00:03:27,519 --> 00:03:30,544
+The training cost advantage one of the central
+
+64
+00:03:30,604 --> 00:03:34,370
+commercial justifications for the MAX program depended
+
+65
+00:03:34,450 --> 00:03:36,433
+on the MAX flying like a 737.
+
+66
+00:03:36,773 --> 00:03:40,379
+So Boeing designed a software system to make
+
+67
+00:03:40,439 --> 00:03:41,220
+it fly like one.
+
+68
+00:03:42,382 --> 00:03:45,146
+The Maneuvering Characteristics Augmentation System
+
+69
+00:03:46,128 --> 00:03:49,693
+MCAS was introduced to compensate for the MAX's
+
+70
+00:03:49,833 --> 00:03:53,439
+changed pitch behavior at high angles of attack.
+
+71
+00:03:54,009 --> 00:03:56,233
+When the system detected conditions that could lead
+
+72
+00:03:56,294 --> 00:03:59,580
+to a nose-high attitude, it automatically pushed the
+
+73
+00:03:59,640 --> 00:04:02,686
+nose down by trimming the horizontal stabilizer.
+
+74
+00:04:03,708 --> 00:04:06,815
+In its original design, MCAS was a relatively
+
+75
+00:04:06,915 --> 00:04:10,191
+limited system. It operated in a narrow flight
+
+76
+00:04:10,252 --> 00:04:13,256
+envelope, moved the stabilizer a modest amount,
+
+77
+00:04:13,957 --> 00:04:16,401
+and was not considered significant enough to require
+
+78
+00:04:16,521 --> 00:04:19,326
+prominent disclosure in the flight crew operations
+
+79
+00:04:19,406 --> 00:04:22,871
+manual. The FAA's certification process,
+
+80
+00:04:22,931 --> 00:04:25,716
+which delegated substantial technical review authority
+
+81
+00:04:26,236 --> 00:04:28,800
+to Boeing's own engineers, did not flag it
+
+82
+00:04:28,861 --> 00:04:31,465
+as a major new system requiring special pilot
+
+83
+00:04:31,485 --> 00:04:34,049
+awareness. Then the design changed.
+
+84
+00:04:35,050 --> 00:04:38,235
+As flight testing proceeded, the parameters of MCAS
+
+85
+00:04:38,275 --> 00:04:41,379
+were expanded. The system was authorized to move
+
+86
+00:04:41,400 --> 00:04:44,925
+the stabilizer more up to 2.5 degrees per
+
+87
+00:04:45,005 --> 00:04:48,570
+activation, compared to the original 0.6 degrees.
+
+88
+00:04:49,652 --> 00:04:52,396
+It was authorized to activate repeatedly if the
+
+89
+00:04:52,436 --> 00:04:55,712
+triggering conditions persisted. And it continued to
+
+90
+00:04:55,752 --> 00:04:58,658
+rely on input from a single angle-of-attack sensor.
+
+91
+00:04:59,861 --> 00:05:02,827
+A single sensor. On an aircraft where the
+
+92
+00:05:02,907 --> 00:05:04,992
+system that read that sensor could push the
+
+93
+00:05:05,052 --> 00:05:07,377
+nose toward the ground with enough authority to
+
+94
+00:05:07,457 --> 00:05:09,261
+overpower a crew that did not know what
+
+95
+00:05:09,301 --> 00:05:12,047
+was happening, or was not clearly prepared for
+
+96
+00:05:12,087 --> 00:05:14,512
+the precise sequence of actions needed to stop
+
+97
+00:05:14,532 --> 00:05:17,977
+it. When the 737 MAX entered service,
+
+98
+00:05:18,638 --> 00:05:21,261
+pilots were not told MCAS existed by name.
+
+99
+00:05:22,002 --> 00:05:24,004
+The system was not described in the standard
+
+100
+00:05:24,084 --> 00:05:25,926
+flight crew operations manual.
+
+101
+00:05:26,727 --> 00:05:29,010
+The training materials that accompanied the MAX's
+
+102
+00:05:29,050 --> 00:05:31,012
+entry into service were designed around the
+
+103
+00:05:31,072 --> 00:05:34,396
+commonality argument the MAX was presented as a
+
+104
+00:05:34,476 --> 00:05:36,479
+familiar aircraft with improved engines,
+
+105
+00:05:37,219 --> 00:05:39,362
+not as an aircraft with a new automated
+
+106
+00:05:39,422 --> 00:05:42,145
+flight control system that behaved in ways previous
+
+107
+00:05:42,165 --> 00:05:46,371
+737s had not. The rationale was coherent within
+
+108
+00:05:46,431 --> 00:05:49,896
+its own logic. MCAS was designed to make
+
+109
+00:05:49,916 --> 00:05:51,499
+the MAX handle like a 737.
+
+110
+00:05:53,061 --> 00:05:54,163
+If it worked as intended,
+
+111
+00:05:54,704 --> 00:05:56,286
+pilots would never know it was there.
+
+112
+00:05:56,326 --> 00:05:59,892
+Describing a transparent background system in detail
+
+113
+00:05:59,932 --> 00:06:01,875
+would raise questions about why it was needed,
+
+114
+00:06:02,576 --> 00:06:04,619
+which would raise questions about how different the
+
+115
+00:06:04,679 --> 00:06:07,523
+MAX actually was, which would undermine the
+
+116
+00:06:07,583 --> 00:06:09,927
+commonality argument that justified the limited
+
+117
+00:06:09,987 --> 00:06:13,516
+training program. The system was hidden from pilots
+
+118
+00:06:13,636 --> 00:06:17,001
+not through malice, but because its visibility would
+
+119
+00:06:17,041 --> 00:06:18,002
+have cost too much.
+
+120
+00:06:19,344 --> 00:06:23,329
+On October 29, 2018, the crew of Lion
+
+121
+00:06:23,329 --> 00:06:26,633
+Air 610 encountered repeated uncommanded nose-down
+
+122
+00:06:26,693 --> 00:06:28,716
+inputs beginning shortly after takeoff.
+
+123
+00:06:29,637 --> 00:06:32,661
+The aircraft's angle-of-attack sensor the left one,
+
+124
+00:06:33,062 --> 00:06:36,426
+which fed MCAS had been providing erroneous readings
+
+125
+00:06:36,486 --> 00:06:38,088
+since a previous flight.
+
+126
+00:06:38,507 --> 00:06:39,789
+The crew fought the inputs.
+
+127
+00:06:40,410 --> 00:06:41,491
+The aircraft pitched down.
+
+128
+00:06:42,453 --> 00:06:44,255
+It entered the Java Sea at high speed.
+
+129
+00:06:45,377 --> 00:06:47,480
+The flight data recorder from Lion Air 610
+
+130
+00:06:48,542 --> 00:06:50,064
+showed clearly what had happened.
+
+131
+00:06:50,845 --> 00:06:53,248
+Boeing and the FAA were informed.
+
+132
+00:06:54,130 --> 00:06:57,174
+An emergency airworthiness directive was issued.
+
+133
+00:06:57,323 --> 00:07:00,146
+It described a runaway stabilizer condition and
+
+134
+00:07:00,186 --> 00:07:02,869
+directed pilots to follow existing procedures for
+
+135
+00:07:02,929 --> 00:07:05,591
+handling it. It did not name MCAS.
+
+136
+00:07:06,492 --> 00:07:12,799
+Ethiopian Airlines Flight 302 departed Addis Ababa on
+
+137
+00:07:12,859 --> 00:07:17,423
+March 10, 2019, four months after Lion Air
+
+138
+00:07:17,423 --> 00:07:21,427
+610. The crew encountered the same system,
+
+139
+00:07:21,848 --> 00:07:24,290
+the same failure mode, the same inputs.
+
+140
+00:07:25,071 --> 00:07:27,093
+They had been issued the directive.
+
+141
+00:07:27,394 --> 00:07:29,616
+They attempted the runaway-stabilizer response
+
+142
+00:07:29,696 --> 00:07:31,098
+described after Lion Air.
+
+143
+00:07:31,939 --> 00:07:34,101
+It was not sufficient to save the aircraft.
+
+144
+00:07:34,121 --> 00:07:40,267
+157 people died. The 737 MAX was grounded
+
+145
+00:07:40,367 --> 00:07:42,089
+worldwide two days later.
+
+146
+00:07:42,109 --> 00:07:44,631
+To understand how this happened,
+
+147
+00:07:45,092 --> 00:07:47,234
+you have to trace five conditions that were
+
+148
+00:07:47,314 --> 00:07:49,736
+present long before either aircraft took off.
+
+149
+00:07:50,797 --> 00:07:53,921
+The first: a competitive business pressure became a
+
+150
+00:07:54,041 --> 00:07:57,075
+design requirement. The decision to match the
+
+151
+00:07:57,176 --> 00:08:01,745
+A320neo's timeline by extending the 737 rather than
+
+152
+00:08:01,805 --> 00:08:05,213
+developing a new aircraft placed a specific constraint
+
+153
+00:08:05,573 --> 00:08:08,339
+on the MAX program: the result had to
+
+154
+00:08:08,379 --> 00:08:10,704
+be certifiable as a variant of an existing
+
+155
+00:08:10,784 --> 00:08:13,875
+type, with training differences that airlines could
+
+156
+00:08:13,955 --> 00:08:17,480
+manage within their existing 737 programs.
+
+157
+00:08:18,662 --> 00:08:21,145
+That constraint was not an engineering requirement.
+
+158
+00:08:21,846 --> 00:08:22,928
+It was a commercial one.
+
+159
+00:08:23,869 --> 00:08:26,473
+But it shaped every subsequent engineering decision,
+
+160
+00:08:27,314 --> 00:08:29,537
+because any outcome that threatened the commonality
+
+161
+00:08:29,618 --> 00:08:32,281
+argument threatened the program's competitive
+
+162
+00:08:32,361 --> 00:08:37,693
+rationale. The second: MCAS grew in authority during
+
+163
+00:08:37,733 --> 00:08:41,017
+development. The system that entered service was not
+
+164
+00:08:41,037 --> 00:08:42,598
+the system originally designed.
+
+165
+00:08:43,419 --> 00:08:47,082
+The expansion of MCAS's authority more stabilizer
+
+166
+00:08:47,122 --> 00:08:50,986
+movement, repeated activations, the same single-sensor
+
+167
+00:08:50,986 --> 00:08:53,809
+input was driven by flight test results that
+
+168
+00:08:53,869 --> 00:08:56,371
+required more compensation than the original design
+
+169
+00:08:56,411 --> 00:08:59,994
+had provided. Each expansion was reviewed and accepted
+
+170
+00:09:00,054 --> 00:09:03,559
+within the program. None triggered a reassessment of
+
+171
+00:09:03,639 --> 00:09:06,604
+whether the system had become something qualitatively
+
+172
+00:09:06,684 --> 00:09:09,448
+different from what had originally been certified.
+
+173
+00:09:10,510 --> 00:09:12,493
+A system that started as a background trim
+
+174
+00:09:12,553 --> 00:09:14,797
+function had become, by the time it reached
+
+175
+00:09:14,857 --> 00:09:19,525
+service, a powerful automated input capable of forcing
+
+176
+00:09:19,565 --> 00:09:20,987
+the aircraft into a dive.
+
+177
+00:09:21,968 --> 00:09:24,613
+The process that evaluated it was calibrated to
+
+178
+00:09:24,653 --> 00:09:27,918
+the system's origin, not its final state.
+
+179
+00:09:28,354 --> 00:09:32,459
+The third: single-sensor dependency was accepted as
+
+180
+00:09:32,519 --> 00:09:36,683
+sufficient. MCAS relied on one angle-of-attack sensor.
+
+181
+00:09:37,444 --> 00:09:39,526
+A single point of failure in a system
+
+182
+00:09:39,586 --> 00:09:43,050
+with the authority to override pilot inputs.
+
+183
+00:09:43,070 --> 00:09:46,174
+The rationale, as documented in the subsequent
+
+184
+00:09:46,214 --> 00:09:50,138
+investigations, was that MCAS was intended as a
+
+185
+00:09:50,218 --> 00:09:53,862
+supplement to existing protections that other systems
+
+186
+00:09:53,922 --> 00:09:56,405
+and procedures would catch a sensor failure before
+
+187
+00:09:56,565 --> 00:10:00,614
+MCAS became dangerous. That assumption required pilots
+
+188
+00:10:00,675 --> 00:10:02,979
+to recognize a failure mode that had not
+
+189
+00:10:03,019 --> 00:10:05,585
+been described to them, in an aircraft they
+
+190
+00:10:05,625 --> 00:10:07,048
+had been told was like the one they
+
+191
+00:10:07,108 --> 00:10:09,953
+already knew, under high workload conditions,
+
+192
+00:10:10,555 --> 00:10:12,198
+in the seconds after takeoff.
+
+193
+00:10:13,140 --> 00:10:16,165
+The fourth: pilot knowledge and training were limited
+
+194
+00:10:16,185 --> 00:10:18,028
+to preserve aircraft commonality.
+
+195
+00:10:18,048 --> 00:10:21,072
+The decision not to name or describe MCAS
+
+196
+00:10:21,072 --> 00:10:23,756
+in standard training materials was a product of
+
+197
+00:10:23,796 --> 00:10:25,719
+the same logic that drove the program from
+
+198
+00:10:25,759 --> 00:10:29,024
+the beginning. Disclosing the system meant explaining
+
+199
+00:10:29,044 --> 00:10:33,095
+why it existed. Explaining why it existed meant
+
+200
+00:10:33,155 --> 00:10:35,520
+acknowledging that the MAX handled differently from
+
+201
+00:10:35,600 --> 00:10:39,147
+previous 737s under certain conditions.
+
+202
+00:10:40,250 --> 00:10:43,456
+Acknowledging that meant undermining the commonality
+
+203
+00:10:43,516 --> 00:10:46,912
+claim. The training omission was not the result
+
+204
+00:10:46,972 --> 00:10:48,995
+of someone deciding that pilot knowledge was
+
+205
+00:10:49,015 --> 00:10:51,999
+unimportant. It was the result of a system
+
+206
+00:10:52,059 --> 00:10:54,783
+in which the commercial argument and the safety
+
+207
+00:10:54,864 --> 00:10:58,509
+argument were never clearly separated and in which
+
+208
+00:10:58,589 --> 00:11:01,273
+the commercial argument had structural priority.
+
+209
+00:11:02,775 --> 00:11:05,259
+The fifth: after the first crash,
+
+210
+00:11:06,060 --> 00:11:08,984
+the system was defended as procedure before it
+
+211
+00:11:09,044 --> 00:11:11,548
+was admitted as architecture.
+
+212
+00:11:11,865 --> 00:11:14,608
+The response to Lion Air 610 was framed
+
+213
+00:11:14,688 --> 00:11:16,370
+around pilot training and procedure:
+
+214
+00:11:17,211 --> 00:11:19,813
+the existing runaway stabilizer procedure covered the
+
+215
+00:11:19,853 --> 00:11:22,856
+scenario, pilots needed to know to apply it,
+
+216
+00:11:23,457 --> 00:11:25,679
+the airworthiness directive would address the gap.
+
+217
+00:11:26,720 --> 00:11:28,863
+That framing was technically defensible.
+
+218
+00:11:29,844 --> 00:11:31,385
+The procedure did exist.
+
+219
+00:11:32,186 --> 00:11:33,868
+It was theoretically applicable.
+
+220
+00:11:34,849 --> 00:11:36,931
+What the framing avoided was the architectural
+
+221
+00:11:37,011 --> 00:11:40,431
+question: whether a system with MCAS's authority,
+
+222
+00:11:41,012 --> 00:11:42,336
+fed by a single sensor,
+
+223
+00:11:42,397 --> 00:11:47,191
+undisclosed to pilots, represented a design that
+
+224
+00:11:47,231 --> 00:11:50,461
+should require a different response than a procedural
+
+225
+00:11:50,501 --> 00:11:56,395
+reminder. Ethiopian Airlines 302 answered that
+
+226
+00:11:56,475 --> 00:11:59,558
+question. The congressional investigation that
+
+227
+00:11:59,638 --> 00:12:01,480
+followed produced some of the most direct
+
+228
+00:12:01,540 --> 00:12:03,242
+documentation of the failure mode.
+
+229
+00:12:04,283 --> 00:12:07,186
+Internal Boeing communications showed employees
+
+230
+00:12:07,246 --> 00:12:10,930
+expressing concern about MCAS, about pressure to limit
+
+231
+00:12:10,970 --> 00:12:13,993
+simulator training, about the distance between what
+
+232
+00:12:14,093 --> 00:12:17,917
+pilots knew and what the aircraft could do.
+
+233
+00:12:17,917 --> 00:12:22,303
+One message, from 2017, described the aircraft as
+
+234
+00:12:22,383 --> 00:12:25,046
+designed by clowns supervised by monkeys.
+
+235
+00:12:25,867 --> 00:12:27,469
+It was written by a Boeing employee.
+
+236
+00:12:28,170 --> 00:12:29,912
+It was not shared with the FAA during
+
+237
+00:12:29,993 --> 00:12:33,477
+certification. The investigations found systemic
+
+238
+00:12:33,577 --> 00:12:36,841
+failures at Boeing and at the FAA's oversight
+
+239
+00:12:36,881 --> 00:12:40,049
+structure. The delegation of certification authority
+
+240
+00:12:40,109 --> 00:12:42,838
+to Boeing's own engineers, which had been standard
+
+241
+00:12:42,898 --> 00:12:45,707
+practice for decades, had not been matched with
+
+242
+00:12:45,767 --> 00:12:48,737
+sufficient independent review of systems whose scope
+
+243
+00:12:48,797 --> 00:12:51,144
+and authority had changed during development.
+
+244
+00:12:52,440 --> 00:12:55,344
+The 737 MAX returned to service in November
+
+245
+00:12:55,364 --> 00:12:58,990
+2020, after extensive redesign of MCAS,
+
+246
+00:12:59,651 --> 00:13:02,335
+new pilot training requirements that explicitly named
+
+247
+00:13:02,395 --> 00:13:05,159
+and described the system, and revised sensor
+
+248
+00:13:05,239 --> 00:13:07,302
+architecture requiring inputs from both
+
+249
+00:13:07,302 --> 00:13:11,428
+angle-of-attack sensors before MCAS could activate.
+
+250
+00:13:11,863 --> 00:13:14,291
+The aircraft that returned to service was meaningfully
+
+251
+00:13:14,391 --> 00:13:16,397
+different from the one that had been certified.
+
+252
+00:13:17,200 --> 00:13:19,005
+Which meant the one that had been certified
+
+253
+00:13:19,025 --> 00:13:22,075
+had been meaningfully different from what pilots had
+
+254
+00:13:22,095 --> 00:13:23,038
+been told it was.
+
+255
+00:13:24,199 --> 00:13:27,385
+The standard telling of the 737 MAX story
+
+256
+00:13:28,107 --> 00:13:31,514
+reaches for individual villains executives who
+
+257
+00:13:31,514 --> 00:13:34,740
+prioritized profit, engineers who stayed quiet,
+
+258
+00:13:35,622 --> 00:13:37,045
+regulators who looked away.
+
+259
+00:13:38,147 --> 00:13:40,191
+Those individuals exist in the record,
+
+260
+00:13:40,873 --> 00:13:42,596
+and their choices matter.
+
+261
+00:13:43,099 --> 00:13:46,704
+But the mechanism that produced two crashes was
+
+262
+00:13:46,744 --> 00:13:49,708
+not a conspiracy. It was a system.
+
+263
+00:13:50,729 --> 00:13:53,313
+A commercial constraint became a design requirement.
+
+264
+00:13:54,374 --> 00:13:57,278
+A design requirement shaped what could be disclosed.
+
+265
+00:13:58,079 --> 00:14:01,163
+What could be disclosed shaped what pilots knew.
+
+266
+00:14:01,223 --> 00:14:04,207
+What pilots knew determined what they could do
+
+267
+00:14:04,247 --> 00:14:06,029
+when the system activated.
+
+268
+00:14:06,810 --> 00:14:08,733
+And the system that activated had grown,
+
+269
+00:14:08,773 --> 00:14:12,618
+incrementally, into something that the process
+
+270
+00:14:12,678 --> 00:14:16,321
+evaluating it had not been recalibrated to assess.
+
+271
+00:14:17,442 --> 00:14:20,625
+Each step was taken inside a normal process
+
+272
+00:14:20,705 --> 00:14:22,707
+by people who had reviewed the step before
+
+273
+00:14:22,787 --> 00:14:25,389
+it. No single decision looks,
+
+274
+00:14:25,930 --> 00:14:28,832
+in isolation, like the choice to put 346
+
+275
+00:14:29,253 --> 00:14:32,376
+people at fatal risk.
+
+276
+00:14:32,396 --> 00:14:34,377
+The chain only becomes visible when you look
+
+277
+00:14:34,417 --> 00:14:34,938
+at all of it.
+
+278
+00:14:35,699 --> 00:14:38,221
+That is always how these chains work.
+
+279
+00:14:38,241 --> 00:14:39,602
+That is why they are so hard to
+
+280
+00:14:39,662 --> 00:14:44,030
+stop. The 737 MAX was certified as a
+
+281
+00:14:44,170 --> 00:14:47,253
+familiar aircraft. It was sold as a familiar
+
+282
+00:14:47,334 --> 00:14:50,457
+aircraft. It was trained as a familiar aircraft.
+
+283
+00:14:51,499 --> 00:14:53,101
+The pilots who flew it in its first
+
+284
+00:14:53,141 --> 00:14:54,542
+year of service had been told,
+
+285
+00:14:55,243 --> 00:14:58,948
+implicitly and explicitly, that what they already knew
+
+286
+00:14:58,988 --> 00:15:02,412
+would be sufficient. It was not sufficient.
+
+287
+00:15:03,413 --> 00:15:04,955
+What failed was not the sensor,
+
+288
+00:15:05,456 --> 00:15:07,258
+though the sensor failed.
+
+289
+00:15:07,258 --> 00:15:09,562
+What failed was the architecture of a system
+
+290
+00:15:09,622 --> 00:15:11,666
+in which a competitive argument had been allowed
+
+291
+00:15:11,706 --> 00:15:14,431
+to function as a safety argument in which
+
+292
+00:15:14,491 --> 00:15:16,795
+the demonstration that training costs could be kept
+
+293
+00:15:16,835 --> 00:15:19,219
+low had been allowed to stand in for
+
+294
+00:15:19,259 --> 00:15:21,363
+the demonstration that pilots had been given what
+
+295
+00:15:21,403 --> 00:15:24,489
+they needed. The system pushed the nose down.
+
+296
+00:15:24,529 --> 00:15:26,151
+The pilots fought it.
+
+297
+00:15:26,913 --> 00:15:28,215
+They had not been given a full,
+
+298
+00:15:28,315 --> 00:15:30,599
+explicit account of the failure mode they were
+
+299
+00:15:30,680 --> 00:15:33,275
+fighting. They had been told there was little
+
+300
+00:15:33,355 --> 00:15:35,564
+new to know. The failure was real.
+
+301
+00:15:36,187 --> 00:15:37,552
+The cause chain was longer.
+
+302
+00:15:38,556 --> 00:15:41,348
+Next time: another design failure.
+
+303
+00:15:42,352 --> 00:15:44,902
+Another system that taught itself to ignore what
+
+304
+00:15:44,963 --> 00:15:46,509
+it already knew.

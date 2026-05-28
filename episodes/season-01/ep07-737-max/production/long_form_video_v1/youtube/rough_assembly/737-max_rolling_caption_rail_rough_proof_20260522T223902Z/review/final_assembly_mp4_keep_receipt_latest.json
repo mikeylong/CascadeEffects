@@ -1,0 +1,39 @@
+{
+  "receipt_id": "737-max_final_assembly_mp4_keep_receipt_20260523T141903Z",
+  "episode_id": "737-max",
+  "recorded_utc": "2026-05-23T14:19:03.541Z",
+  "source": "user_message_2026-05-23_keep_all_after_embedded_current_long_form_mp4_review",
+  "user_disposition_text": "keep all",
+  "interpreted_disposition": "final_assembly_mp4_keep",
+  "scope": "first_eight_current_long_form_rolling_caption_rail_mp4_final_assembly_review",
+  "proof_root": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z",
+  "proof_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/rough_assembly_manifest.json",
+  "render_packet_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/737-max_rolling_caption_rail_final_mp4_20260523T074143Z",
+  "render_manifest_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/737-max_rolling_caption_rail_final_mp4_20260523T074143Z/render_manifest.json",
+  "player_html_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/player.html",
+  "player_html_sha256": "2d784a3f4dc33873dd56efd87dfb19e0f87ea24c0f55ed998489a7d72d6905b3",
+  "mp4": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_rolling_caption_rail_rough_proof_20260522T223902Z/video_render/737-max_rolling_caption_rail_final_mp4_20260523T074143Z/737-max_living_cover_final_review_1080p24.mp4",
+    "sha256": "7dd15dbf2c614f4b6ccae372ff37b43c8f32a085e9c9dbe5ea983b6026cb9959",
+    "bytes": 256979975
+  },
+  "render_output_sha256": "7dd15dbf2c614f4b6ccae372ff37b43c8f32a085e9c9dbe5ea983b6026cb9959",
+  "qa_reads": {
+    "full_decode_read": "pass",
+    "visual_freeze_read": "pass_safe_window_frames_differ",
+    "proof_speedup_read": "pass_duration_and_fps_match",
+    "downstream_gate_read": "pass_final_mp4_created_publish_and_youtube_flags_false",
+    "current_html_proof_render_source_read": "pass_current_html_proof_used_as_final_render_source"
+  },
+  "gate_effect": {
+    "final_assembly_mp4_human_keep_recorded": true,
+    "may_advance_to_publish_readiness": true,
+    "publish_ready": false,
+    "youtube_upload_ready": false,
+    "may_youtube_action": false,
+    "upload_allowed": false,
+    "upload_performed": false,
+    "public_release_ready": false,
+    "note": "Final assembly MP4 keep opens HTML-first publish-readiness package creation only. Publish-readiness package keep and explicit upload approval remain required before YouTube action."
+  }
+}

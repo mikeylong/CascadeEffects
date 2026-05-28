@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "browser_runtime_matte_clip_read": "pass_runtime_probes_and_crossing_samples",
+  "player_html_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T033521Z/player.html",
+  "matte_policy": "tower_shuttle_only_no_light_or_right_rail_mask",
+  "matte_precision_model": "source_pixel_tight_tower_shuttle_matte_v2",
+  "runtime_probe_alpha": {
+    "tower": 0,
+    "service_arm": 0,
+    "shuttle": 0,
+    "mid_pad_floodlight": 1,
+    "right_rail": 1,
+    "sky": 1,
+    "wet_ground": 1
+  },
+  "route0_crossing_samples": [
+    {
+      "time_seconds": 58,
+      "x": 844,
+      "y": 252,
+      "alpha": 1,
+      "visible": true
+    },
+    {
+      "time_seconds": 62,
+      "x": 731,
+      "y": 268,
+      "alpha": 1,
+      "visible": true
+    },
+    {
+      "time_seconds": 65.5,
+      "x": 634,
+      "y": 281,
+      "alpha": 1,
+      "visible": true
+    },
+    {
+      "time_seconds": 68,
+      "x": 567,
+      "y": 290,
+      "alpha": 0,
+      "visible": false
+    },
+    {
+      "time_seconds": 70,
+      "x": 515,
+      "y": 297,
+      "alpha": 0,
+      "visible": false
+    },
+    {
+      "time_seconds": 72,
+      "x": 465,
+      "y": 304,
+      "alpha": 1,
+      "visible": true
+    },
+    {
+      "time_seconds": 75,
+      "x": 394,
+      "y": 314,
+      "alpha": 0,
+      "visible": false
+    },
+    {
+      "time_seconds": 78,
+      "x": 328,
+      "y": 323,
+      "alpha": 0,
+      "visible": false
+    },
+    {
+      "time_seconds": 82,
+      "x": 249,
+      "y": 334,
+      "alpha": 1,
+      "visible": true
+    }
+  ],
+  "render_mode_screenshot_70s_path": "/Users/mike/Episodes_CascadeEffects/Ep1_Challenger/production/longform_v3_20_25min/youtube/rough_assembly/challenger_rolling_caption_rail_precise_matte_repair_20260523T033521Z/qa/browser/runtime_matte_clip_70s.png",
+  "render_mode_screenshot_70s_sha256": "5d7406b8a0705d8943d6add5124d761d334908cb0dcec72bd41d7446b0c7c26d",
+  "reads": {
+    "blocked_surface_runtime_probe_read": "pass",
+    "allowed_light_right_rail_runtime_probe_read": "pass",
+    "aircraft_shuttle_crossing_center_suppression_read": "pass",
+    "aircraft_open_gap_visibility_read": "pass"
+  }
+}

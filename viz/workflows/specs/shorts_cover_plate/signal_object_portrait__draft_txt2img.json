@@ -1,0 +1,148 @@
+{
+  "family": "shorts_cover_plate",
+  "preset": "signal_object_portrait__draft_txt2img",
+  "base_fragment": "flux_full_txt2img_base",
+  "params": {
+    "checkpoint": "",
+    "positive_prompt": "",
+    "negative_prompt": "no text, no words, no letters, no numbers, no digits, no labels, no stickers, no decals, no placards, no serial tags, no serial plates, no engraved plates, no warning signs, no warning plates, no stamped markings, no screen digits, no icon plates, no symbol plates, no interface readouts, no readable ui",
+    "width": 1080,
+    "height": 1920,
+    "batch_size": 1,
+    "seed": 550128311,
+    "selected_seed": 550128311,
+    "seed_mode": "search",
+    "variant_count": 1,
+    "steps": 18,
+    "guidance": 3.5,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "refine_denoise": 0.2,
+    "upscale_factor": 1.0,
+    "filename_prefix": "cascadeeffects/shorts_cover_plate/signal_object_portrait/draft/signal_object_portrait_draft",
+    "note_text": "Draft Shorts cover plate. Keep the lever-and-bracket anchor centered and mobile-legible while controlled collage layers build around it.",
+    "output_intent": "shorts_cover_plate",
+    "stage": "draft_txt2img",
+    "reference_board_dir": "references/signal_object_portrait/board",
+    "style_profile": "systems_failure_collage",
+    "temperature": "bold",
+    "palette_policy": "episode-specific",
+    "accent_palette": "signal green, hot amber, charcoal black, oxidized teal, pale lilac",
+    "human_presence": "traces-only",
+    "safe_zone_intent": "upper band stays readable for Shorts packaging without weakening the central object",
+    "post_work": "typography-later",
+    "safe_zone": "upper-third-header-band",
+    "signal_anchor": "jammed switch lever and bracket anchor fragment",
+    "source_image": "",
+    "full_unet_name": "flux2-dev.safetensors",
+    "full_vae_name": "flux2-vae.safetensors",
+    "full_text_encoder_primary": "mistral_3_small_flux2_bf16.safetensors",
+    "full_text_encoder_secondary": "clip_l.safetensors",
+    "full_weight_dtype": "default",
+    "upscale_model_name": "RealESRGAN_x4plus.pth",
+    "upscale_method": "lanczos"
+  },
+  "pipeline_strategy": {
+    "seed_policy": "search",
+    "draft_candidate_count": 6,
+    "hero_model": "flux2-dev",
+    "hero_refine_denoise": 0.2,
+    "semantic_qc_profile": "packaging_default"
+  },
+  "prompt_fragments": {
+    "anchor_fragment": "jammed switch lever bolted to a steel bracket",
+    "support_fragments": [
+      "severed cable loop and warning-lamp flare kept subordinate to the anchor",
+      "torn paper, soft paper seams, mechanical silhouette fragments, and poster montage"
+    ]
+  },
+  "nodes": [
+    {
+      "key": "unet_loader",
+      "widgets": {
+        "unet_name": "{{ params.full_unet_name }}",
+        "weight_dtype": "{{ params.full_weight_dtype }}"
+      }
+    },
+    {
+      "key": "dual_clip_loader",
+      "widgets": {
+        "clip_name1": "{{ params.full_text_encoder_primary }}",
+        "clip_name2": "{{ params.full_text_encoder_secondary }}",
+        "type": "flux"
+      }
+    },
+    {
+      "key": "vae_loader",
+      "widgets": {
+        "vae_name": "{{ params.full_vae_name }}"
+      }
+    },
+    {
+      "key": "positive_prompt",
+      "widgets": {
+        "text": "{{ params.positive_prompt }}"
+      }
+    },
+    {
+      "key": "negative_prompt",
+      "widgets": {
+        "text": "{{ params.negative_prompt }}"
+      }
+    },
+    {
+      "key": "latent",
+      "widgets": {
+        "width": "{{ params.width }}",
+        "height": "{{ params.height }}",
+        "batch_size": "{{ params.batch_size }}"
+      }
+    },
+    {
+      "key": "random_noise",
+      "widgets": {
+        "noise_seed": "{{ params.selected_seed }}"
+      }
+    },
+    {
+      "key": "sampler_select",
+      "widgets": {
+        "sampler_name": "{{ params.sampler_name }}"
+      }
+    },
+    {
+      "key": "scheduler",
+      "widgets": {
+        "scheduler": "{{ params.scheduler }}",
+        "steps": "{{ params.steps }}",
+        "denoise": "{{ params.denoise }}"
+      }
+    },
+    {
+      "key": "flux_guidance",
+      "widgets": {
+        "guidance": "{{ params.guidance }}"
+      }
+    },
+    {
+      "key": "save_image",
+      "widgets": {
+        "filename_prefix": "{{ params.filename_prefix }}"
+      }
+    },
+    {
+      "key": "workflow_note",
+      "widgets": {
+        "text": "{{ params.note_text }}"
+      }
+    }
+  ],
+  "links": [],
+  "output": {
+    "intent": "shorts_cover_plate",
+    "generated_filename": "ce_shorts_cover_plate__signal_object_portrait__draft_txt2img.workflow.json",
+    "sync_filename": "ce_shorts_cover_plate__signal_object_portrait__draft_txt2img.json"
+  }
+}

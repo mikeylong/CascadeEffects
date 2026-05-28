@@ -1,0 +1,764 @@
+{
+  "packet_id": "hyatt_living_cover_ambient_effects_layer_n6_intro_rail_readability_20260517T183029Z",
+  "episode_id": "hyatt-regency",
+  "created_utc": "2026-05-17T18:30:29.625Z",
+  "phase_gate": "rough_assembly_gate_input",
+  "status": "review_ready_internal_artifact_preserved_for_intro_rail_readability_successor",
+  "human_disposition": "pending",
+  "ambient_effects_process_version": "living_cover_ambient_effects_layer_v1",
+  "selected_lanes": [
+    "event_life_camera_flashes",
+    "rare_single_balloon_off_frame_rises",
+    "source_drift_lighting",
+    "music_visual_handoff"
+  ],
+  "source_plate": {
+    "path": "/Users/mike/Episodes_CascadeEffects/Ep3_Hyatt-Regency/production/longform_v1_restart_20260516/youtube/source_art/hyatt_living_cover_n6_architecture_crowd_density_20260517T083750Z/assets/source_art/n6_architecture_crowd_density_1920x1080.png",
+    "sha256": "1bbdebe0fdc425f387f2f218633501ab3ce7d5fa5bad8b9a36f989b6eb30bae4",
+    "width": 1920,
+    "height": 1080,
+    "coordinate_space": "fixed_1920x1080"
+  },
+  "effect_parameters": {
+    "deterministic_seed": 8171981,
+    "clock": "audio_time_for_ambient_effects_story_time_for_rail_captions",
+    "camera_flashes": [
+      {
+        "id": "flash_intro_left_walkway",
+        "time_seconds": 3.2,
+        "x": 486,
+        "y": 392,
+        "radius_px": 48,
+        "strength": 0.38,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_intro_main_floor",
+        "time_seconds": 7.35,
+        "x": 742,
+        "y": 884,
+        "radius_px": 62,
+        "strength": 0.46,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_01_main_floor",
+        "time_seconds": 19.959,
+        "x": 336,
+        "y": 917,
+        "radius_px": 46,
+        "strength": 0.5,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_02_upper_left_walkways",
+        "time_seconds": 39.36,
+        "x": 190,
+        "y": 233,
+        "radius_px": 48,
+        "strength": 0.383,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_03_rear_balconies",
+        "time_seconds": 56.983,
+        "x": 943,
+        "y": 385,
+        "radius_px": 33,
+        "strength": 0.304,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_04_far_atrium_floor",
+        "time_seconds": 73.567,
+        "x": 1050,
+        "y": 810,
+        "radius_px": 51,
+        "strength": 0.254,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_05_main_floor",
+        "time_seconds": 92.19,
+        "x": 451,
+        "y": 718,
+        "radius_px": 50,
+        "strength": 0.557,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_06_upper_left_walkways",
+        "time_seconds": 107.404,
+        "x": 314,
+        "y": 399,
+        "radius_px": 51,
+        "strength": 0.428,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_07_rear_balconies",
+        "time_seconds": 125.422,
+        "x": 1036,
+        "y": 512,
+        "radius_px": 35,
+        "strength": 0.344,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_08_far_atrium_floor",
+        "time_seconds": 139.629,
+        "x": 1112,
+        "y": 709,
+        "radius_px": 53,
+        "strength": 0.294,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_09_main_floor",
+        "time_seconds": 160.427,
+        "x": 566,
+        "y": 835,
+        "radius_px": 53,
+        "strength": 0.385,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_10_upper_left_walkways",
+        "time_seconds": 175.78,
+        "x": 439,
+        "y": 566,
+        "radius_px": 53,
+        "strength": 0.474,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_11_rear_balconies",
+        "time_seconds": 190.741,
+        "x": 1130,
+        "y": 295,
+        "radius_px": 38,
+        "strength": 0.384,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_12_far_atrium_floor",
+        "time_seconds": 211.148,
+        "x": 1173,
+        "y": 768,
+        "radius_px": 56,
+        "strength": 0.334,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_13_main_floor",
+        "time_seconds": 224.579,
+        "x": 681,
+        "y": 951,
+        "radius_px": 57,
+        "strength": 0.443,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_14_upper_left_walkways",
+        "time_seconds": 243.479,
+        "x": 563,
+        "y": 282,
+        "radius_px": 55,
+        "strength": 0.339,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_15_rear_balconies",
+        "time_seconds": 259.982,
+        "x": 1223,
+        "y": 423,
+        "radius_px": 40,
+        "strength": 0.264,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_16_far_atrium_floor",
+        "time_seconds": 280.04,
+        "x": 1235,
+        "y": 827,
+        "radius_px": 59,
+        "strength": 0.375,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_17_main_floor",
+        "time_seconds": 292.811,
+        "x": 796,
+        "y": 753,
+        "radius_px": 60,
+        "strength": 0.5,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_18_upper_left_walkways",
+        "time_seconds": 315.082,
+        "x": 688,
+        "y": 449,
+        "radius_px": 58,
+        "strength": 0.384,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_19_rear_balconies",
+        "time_seconds": 331.848,
+        "x": 1317,
+        "y": 550,
+        "radius_px": 42,
+        "strength": 0.305,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_20_far_atrium_floor",
+        "time_seconds": 349.032,
+        "x": 1296,
+        "y": 726,
+        "radius_px": 35,
+        "strength": 0.255,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_21_main_floor",
+        "time_seconds": 362.549,
+        "x": 911,
+        "y": 869,
+        "radius_px": 63,
+        "strength": 0.558,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_22_upper_left_walkways",
+        "time_seconds": 379.02,
+        "x": 812,
+        "y": 615,
+        "radius_px": 36,
+        "strength": 0.429,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_23_rear_balconies",
+        "time_seconds": 396.816,
+        "x": 1410,
+        "y": 333,
+        "radius_px": 45,
+        "strength": 0.345,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_24_far_atrium_floor",
+        "time_seconds": 414.05,
+        "x": 1357,
+        "y": 786,
+        "radius_px": 38,
+        "strength": 0.295,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_25_main_floor",
+        "time_seconds": 435.079,
+        "x": 1026,
+        "y": 986,
+        "radius_px": 67,
+        "strength": 0.386,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_26_upper_left_walkways",
+        "time_seconds": 447.443,
+        "x": 157,
+        "y": 332,
+        "radius_px": 39,
+        "strength": 0.474,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_27_rear_balconies",
+        "time_seconds": 468.536,
+        "x": 918,
+        "y": 460,
+        "radius_px": 47,
+        "strength": 0.385,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_28_far_atrium_floor",
+        "time_seconds": 483.448,
+        "x": 1034,
+        "y": 845,
+        "radius_px": 40,
+        "strength": 0.335,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_29_main_floor",
+        "time_seconds": 498.714,
+        "x": 421,
+        "y": 787,
+        "radius_px": 70,
+        "strength": 0.443,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_30_upper_left_walkways",
+        "time_seconds": 519.391,
+        "x": 281,
+        "y": 498,
+        "radius_px": 41,
+        "strength": 0.339,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_31_rear_balconies",
+        "time_seconds": 533.541,
+        "x": 1012,
+        "y": 588,
+        "radius_px": 50,
+        "strength": 0.265,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_32_far_atrium_floor",
+        "time_seconds": 553.154,
+        "x": 1095,
+        "y": 744,
+        "radius_px": 43,
+        "strength": 0.375,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_33_main_floor",
+        "time_seconds": 567.999,
+        "x": 536,
+        "y": 904,
+        "radius_px": 73,
+        "strength": 0.501,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_34_upper_left_walkways",
+        "time_seconds": 589.537,
+        "x": 406,
+        "y": 215,
+        "radius_px": 43,
+        "strength": 0.384,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_35_rear_balconies",
+        "time_seconds": 604.636,
+        "x": 1105,
+        "y": 371,
+        "radius_px": 52,
+        "strength": 0.305,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_36_far_atrium_floor",
+        "time_seconds": 620.174,
+        "x": 1157,
+        "y": 803,
+        "radius_px": 45,
+        "strength": 0.255,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_37_main_floor",
+        "time_seconds": 641.031,
+        "x": 651,
+        "y": 706,
+        "radius_px": 77,
+        "strength": 0.559,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_38_upper_left_walkways",
+        "time_seconds": 653.304,
+        "x": 530,
+        "y": 381,
+        "radius_px": 46,
+        "strength": 0.43,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_39_rear_balconies",
+        "time_seconds": 670.489,
+        "x": 1199,
+        "y": 498,
+        "radius_px": 30,
+        "strength": 0.345,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_40_far_atrium_floor",
+        "time_seconds": 688.625,
+        "x": 1218,
+        "y": 702,
+        "radius_px": 48,
+        "strength": 0.295,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_41_main_floor",
+        "time_seconds": 708.257,
+        "x": 766,
+        "y": 822,
+        "radius_px": 46,
+        "strength": 0.386,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_42_upper_left_walkways",
+        "time_seconds": 725.319,
+        "x": 655,
+        "y": 548,
+        "radius_px": 48,
+        "strength": 0.475,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_43_rear_balconies",
+        "time_seconds": 740.305,
+        "x": 1292,
+        "y": 281,
+        "radius_px": 33,
+        "strength": 0.385,
+        "region": "rear_balconies",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_44_far_atrium_floor",
+        "time_seconds": 756.247,
+        "x": 1280,
+        "y": 761,
+        "radius_px": 51,
+        "strength": 0.335,
+        "region": "far_atrium_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_45_main_floor",
+        "time_seconds": 774.724,
+        "x": 881,
+        "y": 939,
+        "radius_px": 50,
+        "strength": 0.444,
+        "region": "main_floor",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      },
+      {
+        "id": "flash_46_upper_left_walkways",
+        "time_seconds": 792.315,
+        "x": 780,
+        "y": 264,
+        "radius_px": 51,
+        "strength": 0.34,
+        "region": "upper_left_walkways",
+        "duration_seconds": 0.46,
+        "role": "brief_camera_flash_from_crowd_or_walkway"
+      }
+    ],
+    "balloon_rises": [
+      {
+        "id": "balloon_rise_main_floor_01",
+        "start_seconds": 54.5,
+        "duration_seconds": 112,
+        "x": 760,
+        "y": 914,
+        "exit_y": -122,
+        "drift_px": 58,
+        "radius_px": 10,
+        "color": "#c79a66",
+        "palette_key": "champagne_gold",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade"
+      },
+      {
+        "id": "balloon_rise_main_floor_02",
+        "start_seconds": 166.8,
+        "duration_seconds": 118,
+        "x": 946,
+        "y": 822,
+        "exit_y": -118,
+        "drift_px": -48,
+        "radius_px": 10,
+        "color": "#a997bd",
+        "palette_key": "dusty_lavender",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade"
+      },
+      {
+        "id": "balloon_rise_far_floor_03",
+        "start_seconds": 291.6,
+        "duration_seconds": 105,
+        "x": 1058,
+        "y": 780,
+        "exit_y": -116,
+        "drift_px": 36,
+        "radius_px": 9,
+        "color": "#d0b890",
+        "palette_key": "ivory_tan",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade"
+      },
+      {
+        "id": "balloon_rise_table_04",
+        "start_seconds": 438.2,
+        "duration_seconds": 128,
+        "x": 842,
+        "y": 935,
+        "exit_y": -124,
+        "drift_px": -62,
+        "radius_px": 11,
+        "color": "#bb7d8e",
+        "palette_key": "tea_rose",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade"
+      },
+      {
+        "id": "balloon_rise_table_05",
+        "start_seconds": 612.4,
+        "duration_seconds": 120,
+        "x": 1010,
+        "y": 872,
+        "exit_y": -120,
+        "drift_px": 44,
+        "radius_px": 10,
+        "color": "#b9825f",
+        "palette_key": "peach_coral",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade"
+      },
+      {
+        "id": "balloon_rise_outro_06",
+        "start_seconds": 790,
+        "duration_seconds": 82,
+        "x": 720,
+        "y": 895,
+        "exit_y": -122,
+        "drift_px": 42,
+        "radius_px": 9,
+        "color": "#8f789d",
+        "palette_key": "muted_plum",
+        "string_length_px": 56,
+        "opacity": 0.62,
+        "role": "rare_single_balloon_rises_from_table_area_and_exits_frame_without_fade"
+      }
+    ],
+    "source_drift": {
+      "max_translate_px": 18,
+      "max_scale_delta": 0.018,
+      "cycle_seconds": 180,
+      "easing": "sine_in_out"
+    },
+    "lighting": {
+      "warm_glow_opacity_range": [
+        0.05,
+        0.12
+      ],
+      "cycle_seconds": 97,
+      "rail_localization": true
+    },
+    "balloon_palette": {
+      "source": "N6 Hyatt source-art table bouquet colors, muted by warm atrium light",
+      "colors": [
+        {
+          "key": "champagne_gold",
+          "hex": "#c79a66",
+          "reference": "warm amber/gold table bouquet balloons"
+        },
+        {
+          "key": "dusty_lavender",
+          "hex": "#a997bd",
+          "reference": "muted lavender bouquet balloons"
+        },
+        {
+          "key": "tea_rose",
+          "hex": "#bb7d8e",
+          "reference": "soft rose-purple bouquet balloons"
+        },
+        {
+          "key": "peach_coral",
+          "hex": "#b9825f",
+          "reference": "peach/coral table balloons under atrium light"
+        },
+        {
+          "key": "ivory_tan",
+          "hex": "#d0b890",
+          "reference": "champagne ivory balloons in the table clusters"
+        },
+        {
+          "key": "muted_plum",
+          "hex": "#8f789d",
+          "reference": "shadowed purple balloons in the right-side bouquets"
+        }
+      ]
+    }
+  },
+  "source_safety": {
+    "source_plate_matte_registration_read": "pass_same_fixed_coordinate_space",
+    "foreground_occlusion_read": "pass_no_new_people_or_face_detail",
+    "effect_layer_source_safety_read": "pass_no_public_anchor_redraw",
+    "procedural_signal_overlay_read": "pass_no_cyan_lines_or_load_path_overlay_on_plate",
+    "debug_overlay_absence_read": "pass_viewer_output_contains_no_debug_layers",
+    "no_new_people_faces_or_collapse_read": "pass_effects_are_light_and_balloon_only",
+    "balloon_palette_match_read": "pending_browser_qa",
+    "balloon_exit_frame_read": "pending_browser_qa"
+  },
+  "browser_qa_plan": {
+    "required_before_rough_keep": true,
+    "samples_seconds": [
+      0,
+      3.2,
+      7.35,
+      9.601451,
+      12,
+      91.601451,
+      92.19,
+      93.7,
+      107.404,
+      125.422,
+      139.629,
+      166.3,
+      190.601451,
+      208.1,
+      284.6,
+      307.601451,
+      328.35,
+      396.4,
+      483,
+      484.601451,
+      566,
+      654.4,
+      732.2,
+      762.601451,
+      818.7,
+      843.244263,
+      854.033923,
+      871.8,
+      873.033923
+    ],
+    "range_scrub_required": true,
+    "localhost_required_for_review": true
+  },
+  "required_reads": {
+    "ambient_effects_plan_read": "pass_event_life_successor_plan_recorded",
+    "ambient_effect_lane_decision_read": "pass_event_life_camera_flashes_and_rare_balloon_rises",
+    "visible_ambient_effect_read": "pending_browser_qa",
+    "camera_flash_presence_read": "pending_browser_qa",
+    "balloon_rise_presence_read": "pending_browser_qa",
+    "ambient_effect_subtlety_read": "pending_browser_qa",
+    "source_safe_effect_integration_read": "pending_browser_qa",
+    "debug_overlay_absence_read": "pass",
+    "balloon_exit_frame_read": "pending_browser_qa",
+    "balloon_fade_out_absence_read": "pending_browser_qa",
+    "balloon_palette_match_read": "pending_browser_qa"
+  },
+  "downstream_locks": {
+    "may_advance_to_video_render": false,
+    "may_create_full_runtime_mp4_render": false,
+    "may_advance_to_publish_readiness": false,
+    "may_youtube_action": false
+  },
+  "preserved_from_packet_id": "hyatt_living_cover_ambient_effects_layer_n6_balloon_exit_palette_20260517T162532Z",
+  "preserves_effect_parameters": true
+}

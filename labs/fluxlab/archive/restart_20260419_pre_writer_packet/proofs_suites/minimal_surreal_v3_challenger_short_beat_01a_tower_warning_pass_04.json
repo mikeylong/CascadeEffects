@@ -1,0 +1,32 @@
+{
+  "suite_id": "minimal_surreal_v3_challenger_short_beat_01a_tower_warning_pass_04",
+  "render_overrides": {
+    "width": 576,
+    "height": 1024,
+    "batch_size": 1,
+    "steps": 12
+  },
+  "styles": [
+    {
+      "id": "minimal_surreal_editorial_v3",
+      "source_master_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/master_prompt.txt",
+      "source_negative_prompt_path": "/Users/mike/Viz_CascadeEffects/references/style_packages/minimal_surreal_editorial_v3/prompts/negatives.txt",
+      "positive_style_prompt": "restrained documentary-surreal image, one clear subject or scene, subject remains recognizable after simplification, one dominant anomaly or contradiction, controlled palette, restrained lighting, clear silhouette, low clutter, non-spectacular tension",
+      "negative_prompt": "text, watermark, logo, ui overlay, crowded scene, many small objects, unreadable background detail, motion blur, action pose, blockbuster cinematic lighting, poster design, collage fragments, multiple surreal events, competing bright accents, second worker, crowd, meeting room, enclosed office bay, full shuttle hero, full stack portrait, giant monitor hero, close face portrait, snow, icicles, launch already in progress, explosion imagery, white booster slice, visible booster, sky gap, blue sky background, exterior horizon"
+    }
+  ],
+  "cases": [
+    {
+      "id": "challenger_short__beat_01a_tank_only_warning",
+      "archetype": "single_human_figure",
+      "base_seed": 71801,
+      "prompt_body": "High launch-tower service level before dawn, one engineer proxy in a weather jacket stands at a side-mounted terminal inside open steel, the rust-orange external tank fills the entire exterior background behind him, no visible white booster, no visible sky, no full shuttle body, terminal screen unreadable and dim, catwalk altitude obvious, cold damp air, sodium work lights, restrained documentary tension"
+    },
+    {
+      "id": "challenger_short__beat_01a_full_tank_background",
+      "archetype": "single_human_figure",
+      "base_seed": 71821,
+      "prompt_body": "Upper launch-tower warning shot, one lone technical worker at a compact side console inside the tower, steel lattice and catwalk remain obvious, the background outside the tower is entirely occupied by the orange external tank surface with no white booster and no sky visible anywhere, unreadable terminal glow, cold prelaunch air, procedural stillness"
+    }
+  ]
+}

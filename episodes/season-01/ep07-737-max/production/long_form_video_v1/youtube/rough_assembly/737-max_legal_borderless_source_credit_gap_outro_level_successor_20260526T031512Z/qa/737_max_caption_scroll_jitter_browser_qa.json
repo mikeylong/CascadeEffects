@@ -1,0 +1,457 @@
+{
+  "model": "737_max_caption_scroll_jitter_browser_qa_v1",
+  "created_utc": "2026-05-26T04:58:14.862Z",
+  "review_url": "http://127.0.0.1:8766/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/html_review/source_credit_gap/player.html?t=27.632&range_guard=737_max_caption_virtualizer_qa_v2",
+  "status": "pass",
+  "passed": true,
+  "prior_qa_issue": {
+    "previous_max_frame_gap_ms": [
+      158.4,
+      166.6
+    ],
+    "previous_read": "pass_caption_scroll_frame_deltas_smooth",
+    "corrected_interpretation": "jittery_frame_pacing_not_acceptable"
+  },
+  "repair_models": [
+    "visible_window_caption_virtualization_v1",
+    "caption_repaint_throttle_for_737max_heavy_ambient_v1",
+    "737_max_visible_caption_transform_interpolation_v1"
+  ],
+  "samples": [
+    {
+      "time": 27.632,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 7,
+        "visible_indexes": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "translate_y_px": -1053.128,
+        "time_seconds": 27.632
+      },
+      "rail_caption_state": {
+        "captionVirtualizerModel": "visible_window_caption_virtualization_v1",
+        "activeChunkId": "cue_006_chunk_01",
+        "activeChunkText": "Addis Ababa and crashed six minutes after",
+        "visibleCaptionLineCount": 5,
+        "maxVisibleCaptionOpacity": 0.94
+      },
+      "visible_count": 7,
+      "visible_rows": [
+        {
+          "index": 3,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -394.328,
+          "transition": "none 0s",
+          "text": "All 189 people on boardwere killed. Fivemonths later, in March2019, Ethiopian AirlinesFlight 302"
+        },
+        {
+          "index": 4,
+          "opacity": 0.1857,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 73.972,
+          "transition": "none 0s",
+          "text": "departed"
+        },
+        {
+          "index": 5,
+          "opacity": 0.6845,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 216.872,
+          "transition": "none 0s",
+          "text": "Addis Ababa andcrashed six minutesafter"
+        },
+        {
+          "index": 6,
+          "opacity": 0.94,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 386.472,
+          "transition": "none 0s",
+          "text": "takeoff."
+        },
+        {
+          "index": 7,
+          "opacity": 0.9307,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 493.072,
+          "transition": "none 0s",
+          "text": "All 157 people on boardwere killed."
+        },
+        {
+          "index": 8,
+          "opacity": 0.1741,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 709.672,
+          "transition": "none 0s",
+          "text": "Both aircraft wereBoeing 737 MAX 8s."
+        },
+        {
+          "index": 9,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 924.672,
+          "transition": "none 0s",
+          "text": "Both crews had foughtthe same automatedsystem."
+        }
+      ],
+      "stack": {
+        "height": "844px",
+        "minHeight": "844px",
+        "transform": "none",
+        "transition": "none",
+        "willChange": "auto"
+      },
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/qa/737_max_caption_virtualizer_screenshots/737_max_caption_virtualizer_t27_632.png",
+      "screenshot_sha256": "7461f71520e3daa41af07f5d986035679a41e1424829d81b5cb97f7ca2251da0"
+    },
+    {
+      "time": 493.928,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 6,
+        "visible_indexes": [
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "translate_y_px": -26233.112,
+        "time_seconds": 493.928
+      },
+      "rail_caption_state": {
+        "captionVirtualizerModel": "visible_window_caption_virtualization_v1",
+        "activeChunkId": "cue_155_chunk_02__cue_156_chunk_01",
+        "activeChunkText": "could manage within their existing 737 programs.",
+        "visibleCaptionLineCount": 3,
+        "maxVisibleCaptionOpacity": 0.9365
+      },
+      "visible_count": 6,
+      "visible_rows": [
+        {
+          "index": 122,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -313.712,
+          "transition": "none 0s",
+          "text": "developing a newaircraft placed aspecific constraint"
+        },
+        {
+          "index": 123,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -89.312,
+          "transition": "none 0s",
+          "text": "on the MAX program:the result had to"
+        },
+        {
+          "index": 124,
+          "opacity": 0.3471,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 34.688,
+          "transition": "none 0s",
+          "text": "be certifiable as avariant of an existingtype, with trainingdifferences thatairlines"
+        },
+        {
+          "index": 125,
+          "opacity": 0.9365,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 284.688,
+          "transition": "none 0s",
+          "text": "could manage withintheir existing 737programs."
+        },
+        {
+          "index": 126,
+          "opacity": 0.4347,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 533.488,
+          "transition": "none 0s",
+          "text": "That constraint wasnot an engineeringrequirement. It was acommercial one. But itshaped everysubs"
+        },
+        {
+          "index": 127,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 884.988,
+          "transition": "none 0s",
+          "text": "decision, because anyoutcome thatthreatened thecommonality argumentthreatened theprogram's compe"
+        }
+      ],
+      "stack": {
+        "height": "844px",
+        "minHeight": "844px",
+        "transform": "none",
+        "transition": "none",
+        "willChange": "auto"
+      },
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/qa/737_max_caption_virtualizer_screenshots/737_max_caption_virtualizer_t493_928.png",
+      "screenshot_sha256": "0a16e2299736cdae44db73e5f96d6bdba78ecc5a96966e7c2436480404798a5d"
+    },
+    {
+      "time": 943.585,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 5,
+        "visible_indexes": [
+          231,
+          232,
+          233,
+          234,
+          235
+        ],
+        "translate_y_px": -50514.59,
+        "time_seconds": 943.585
+      },
+      "rail_caption_state": {
+        "captionVirtualizerModel": "visible_window_caption_virtualization_v1",
+        "activeChunkId": "cue_303_chunk_01",
+        "activeChunkText": "Another system that taught itself to ignore what",
+        "visibleCaptionLineCount": 3,
+        "maxVisibleCaptionOpacity": 0.94
+      },
+      "visible_count": 5,
+      "visible_rows": [
+        {
+          "index": 231,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -190.49,
+          "transition": "none 0s",
+          "text": "new to know. Thefailure was real."
+        },
+        {
+          "index": 232,
+          "opacity": 0.0004,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -37.59,
+          "transition": "none 0s",
+          "text": "The cause chain waslonger."
+        },
+        {
+          "index": 233,
+          "opacity": 0.3234,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 90.31,
+          "transition": "none 0s",
+          "text": "Next time: anotherdesign failure."
+        },
+        {
+          "index": 234,
+          "opacity": 0.9205,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 274.31,
+          "transition": "none 0s",
+          "text": "Another system thattaught itself to ignorewhat"
+        },
+        {
+          "index": 235,
+          "opacity": 0.94,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 457.31,
+          "transition": "none 0s",
+          "text": "it already knew."
+        }
+      ],
+      "stack": {
+        "height": "844px",
+        "minHeight": "844px",
+        "transform": "none",
+        "transition": "none",
+        "willChange": "auto"
+      },
+      "screenshot_path": null,
+      "screenshot_sha256": null
+    },
+    {
+      "time": 949.635,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 3,
+        "visible_indexes": [
+          233,
+          234,
+          235
+        ],
+        "translate_y_px": -50841.29,
+        "time_seconds": 949.635
+      },
+      "rail_caption_state": {
+        "captionVirtualizerModel": "visible_window_caption_virtualization_v1",
+        "activeChunkId": "cue_304_chunk_01",
+        "activeChunkText": "it already knew.",
+        "visibleCaptionLineCount": 1,
+        "maxVisibleCaptionOpacity": 0.379
+      },
+      "visible_count": 3,
+      "visible_rows": [
+        {
+          "index": 233,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -236.39,
+          "transition": "none 0s",
+          "text": "Next time: anotherdesign failure."
+        },
+        {
+          "index": 234,
+          "opacity": 0.0023,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -52.39,
+          "transition": "none 0s",
+          "text": "Another system thattaught itself to ignorewhat"
+        },
+        {
+          "index": 235,
+          "opacity": 0.379,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": 130.61,
+          "transition": "none 0s",
+          "text": "it already knew."
+        }
+      ],
+      "stack": {
+        "height": "844px",
+        "minHeight": "844px",
+        "transform": "none",
+        "transition": "none",
+        "willChange": "auto"
+      },
+      "screenshot_path": "/Users/mike/Episodes_CascadeEffects/Ep7_737-MAX/production/long_form_video_v1/youtube/rough_assembly/737-max_legal_borderless_source_credit_gap_outro_level_successor_20260526T031512Z/qa/737_max_caption_virtualizer_screenshots/737_max_caption_virtualizer_t949_635.png",
+      "screenshot_sha256": "f2167e9028793376058bf8193a99c270eb53357d5b6cb9e32077617d34e49a42"
+    },
+    {
+      "time": 955.766,
+      "virtualizer": {
+        "model": "visible_window_caption_virtualization_v1",
+        "visible_count": 1,
+        "visible_indexes": [
+          235
+        ],
+        "translate_y_px": -51172.364,
+        "time_seconds": 955.766
+      },
+      "rail_caption_state": {
+        "captionVirtualizerModel": "visible_window_caption_virtualization_v1",
+        "activeChunkId": "cue_304_chunk_01",
+        "activeChunkText": "it already knew.",
+        "visibleCaptionLineCount": 0,
+        "maxVisibleCaptionOpacity": 0
+      },
+      "visible_count": 1,
+      "visible_rows": [
+        {
+          "index": 235,
+          "opacity": 0,
+          "display": "block",
+          "top_style": "0px",
+          "transform_y_px": -200.464,
+          "transition": "none 0s",
+          "text": "it already knew."
+        }
+      ],
+      "stack": {
+        "height": "844px",
+        "minHeight": "844px",
+        "transform": "none",
+        "transition": "none",
+        "willChange": "auto"
+      },
+      "screenshot_path": null,
+      "screenshot_sha256": null
+    }
+  ],
+  "playback_sample": {
+    "frame_count": 11,
+    "max_frame_gap_ms": 108.3,
+    "transition_rows": [
+      {
+        "index": 3,
+        "transition": "transform, opacity 0.11s, 0.11s",
+        "transform": "matrix(1, 0, 0, 1, 0, -404.676)",
+        "opacity": 0
+      },
+      {
+        "index": 4,
+        "transition": "transform, opacity 0.11s, 0.11s",
+        "transform": "matrix(1, 0, 0, 1, 0, 63.6239)",
+        "opacity": 0.14905
+      },
+      {
+        "index": 5,
+        "transition": "transform, opacity 0.11s, 0.11s",
+        "transform": "matrix(1, 0, 0, 1, 0, 206.524)",
+        "opacity": 0.631639
+      },
+      {
+        "index": 6,
+        "transition": "transform, opacity 0.11s, 0.11s",
+        "transform": "matrix(1, 0, 0, 1, 0, 376.124)",
+        "opacity": 0.94
+      }
+    ],
+    "first": {
+      "t": 4285.6,
+      "visible_count": 7,
+      "translate_y_px": -1074.836
+    },
+    "last": {
+      "t": 5293.2,
+      "visible_count": 7,
+      "translate_y_px": -1128.027
+    },
+    "virtualizer": {
+      "model": "visible_window_caption_virtualization_v1",
+      "visible_count": 7,
+      "visible_indexes": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "translate_y_px": -1128.027,
+      "time_seconds": 29.019
+    }
+  },
+  "console_messages": [],
+  "reads": {
+    "caption_virtualizer_model_read": "pass_visible_window_caption_virtualization_v1",
+    "visible_caption_window_read": "pass_only_visible_caption_lines_are_painted",
+    "full_stack_drag_read": "pass_full_episode_caption_stack_not_dragged",
+    "line_motion_interpolation_read": "pass_visible_lines_use_transform_interpolation_during_playback",
+    "source_credit_runtime_read": "pass_source_credit_gap_runtime_qa_reran_after_repair",
+    "audio_and_upload_read": "pass_audio_unchanged_no_render_no_upload",
+    "stale_warning_read": "pass_repaired_review_player_contains_virtualizer"
+  }
+}
