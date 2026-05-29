@@ -1,17 +1,13 @@
 'use client';
 
 import Image from 'next/image';
-import { useMemo, useState } from 'react';
 
-import type { ChannelPillar, ChannelPillarId, LaunchEpisode } from '@/lib/site-facts';
+import type { LaunchEpisode } from '@/lib/site-facts';
 
 import styles from './signal-homepage.module.css';
 
-type EpisodeFilter = 'all' | ChannelPillarId;
-
 type SignalHomepageFeedProps = {
   episodes: LaunchEpisode[];
-  pillars: ChannelPillar[];
 };
 
 function StoryThumbnail({ episode }: { episode: LaunchEpisode }) {
@@ -63,18 +59,8 @@ function StoryThumbnail({ episode }: { episode: LaunchEpisode }) {
 
 export function SignalHomepageFeed({
   episodes,
-  pillars,
 }: SignalHomepageFeedProps) {
-  const [selectedFilter, setSelectedFilter] = useState<EpisodeFilter>('all');
-  const selectedPillar = pillars.find((pillar) => pillar.id === selectedFilter);
-  const visibleEpisodes = useMemo(
-    () => (
-      selectedFilter === 'all'
-        ? episodes
-        : episodes.filter((episode) => episode.pillarId === selectedFilter)
-    ),
-    [episodes, selectedFilter],
-  );
+  const visibleEpisodes = episodes.filter((episode) => episode.seasonId === 'season-1');
 
   return (
     <div className={styles.storyFeed}>
@@ -82,34 +68,13 @@ export function SignalHomepageFeed({
         <button
           type="button"
           className={styles.filterButton}
-          data-state={selectedFilter === 'all' ? 'active' : 'idle'}
-          aria-pressed={selectedFilter === 'all'}
-          onClick={() => setSelectedFilter('all')}
+          data-state="active"
+          aria-pressed={true}
+          aria-label="Season 1 filter is selected"
         >
-          All
+          Season 1
         </button>
-
-        {pillars.map((pillar) => (
-          <button
-            key={pillar.id}
-            type="button"
-            className={styles.filterButton}
-            data-accent={pillar.accent}
-            data-state={selectedFilter === pillar.id ? 'active' : 'idle'}
-            aria-pressed={selectedFilter === pillar.id}
-            onClick={() => setSelectedFilter(pillar.id)}
-          >
-            {pillar.title}
-          </button>
-        ))}
       </div>
-
-      {selectedPillar ? (
-        <div className={styles.filterDescription} data-accent={selectedPillar.accent}>
-          <h2 className={styles.filterDescriptionTitle}>{selectedPillar.title}</h2>
-          <p className={styles.filterDescriptionSummary}>{selectedPillar.summary}</p>
-        </div>
-      ) : null}
 
       <div className={styles.storyList}>
         {visibleEpisodes.map((episode) => {

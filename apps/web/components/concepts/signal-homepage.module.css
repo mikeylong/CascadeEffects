@@ -265,19 +265,7 @@
   gap: 0.65rem;
   margin-right: calc(clamp(1rem, 5vw, 4rem) * -1);
   margin-left: calc(clamp(1rem, 5vw, 4rem) * -1);
-  overflow-x: auto;
-  overflow-y: hidden;
   padding: 0.125rem clamp(1rem, 5vw, 4rem) 0.35rem;
-  scroll-padding-inline: clamp(1rem, 5vw, 4rem);
-  scroll-snap-type: x proximity;
-  scrollbar-width: none;
-  white-space: nowrap;
-  -ms-overflow-style: none;
-  -webkit-overflow-scrolling: touch;
-}
-
-.filterBar::-webkit-scrollbar {
-  display: none;
 }
 
 .filterButton {
@@ -290,6 +278,9 @@
   padding: 0.65rem 0.78rem;
   border: 1px solid var(--home-color-border);
   border-radius: 8px;
+}
+
+.filterButton {
   background:
     linear-gradient(140deg, rgba(38, 50, 74, 0.9), rgba(55, 68, 101, 0.78)),
     var(--home-color-surface);
@@ -300,19 +291,16 @@
   line-height: var(--line-snug);
   text-align: center;
   text-wrap: balance;
-  scroll-snap-align: start;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 14px 32px rgba(9, 13, 27, 0.24);
-  cursor: pointer;
+  cursor: default;
   transition:
     border-color var(--motion-fast) var(--ease-standard),
     background-color var(--motion-fast) var(--ease-standard),
-    color var(--motion-fast) var(--ease-standard),
-    transform var(--motion-fast) var(--ease-standard);
+    color var(--motion-fast) var(--ease-standard);
 }
 
 .filterButton:hover {
-  border-color: rgba(255, 248, 232, 0.46);
-  transform: translateY(-1px);
+  border-color: var(--home-color-border);
 }
 
 .filterButton[data-state="active"] {
@@ -322,60 +310,6 @@
     var(--home-color-surface);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14), 0 14px 34px rgba(9, 13, 27, 0.3);
   color: var(--color-white);
-}
-
-.filterButton[data-accent="amber"][data-state="active"] {
-  background:
-    linear-gradient(135deg, rgba(116, 83, 74, 0.94), rgba(61, 75, 112, 0.86)),
-    var(--home-color-surface);
-}
-
-.filterButton[data-accent="blueprint"][data-state="active"] {
-  background:
-    linear-gradient(135deg, rgba(83, 81, 132, 0.94), rgba(54, 91, 118, 0.86)),
-    var(--home-color-surface);
-}
-
-.filterDescription {
-  display: grid;
-  grid-template-columns: minmax(12rem, 22rem) minmax(0, 1fr);
-  gap: clamp(1rem, 3vw, 2rem);
-  align-items: center;
-  padding: 1rem;
-  border: 1px solid var(--home-color-border);
-  border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(38, 50, 74, 0.9), rgba(55, 68, 101, 0.72)),
-    var(--home-color-panel);
-}
-
-.filterDescription[data-accent="amber"] {
-  background:
-    linear-gradient(135deg, rgba(116, 83, 74, 0.74), rgba(38, 50, 74, 0.9)),
-    var(--home-color-panel);
-}
-
-.filterDescription[data-accent="blueprint"] {
-  background:
-    linear-gradient(135deg, rgba(83, 81, 132, 0.74), rgba(54, 91, 118, 0.8)),
-    var(--home-color-panel);
-}
-
-.filterDescriptionTitle {
-  margin: 0;
-  color: var(--home-color-text-primary);
-  font-size: 1.35rem;
-  font-weight: 800;
-  letter-spacing: 0;
-  line-height: var(--line-snug);
-  text-wrap: balance;
-}
-
-.filterDescriptionSummary {
-  margin: 0;
-  color: var(--home-color-text-secondary);
-  font-size: var(--type-home-body);
-  line-height: var(--line-reading);
 }
 
 .storyList {
@@ -639,10 +573,6 @@
 
   .heroContent {
     max-width: 42rem;
-  }
-
-  .filterDescription {
-    grid-template-columns: 1fr;
   }
 }
 

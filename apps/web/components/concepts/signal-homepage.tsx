@@ -2,7 +2,6 @@ import type { ThemeDefinition } from '@/lib/brand-tokens';
 import { resolveThemeVariables } from '@/lib/brand-tokens';
 import type { SignalContent } from '@/lib/concepts/signal-content';
 import {
-  channelPillars,
   launchEpisodes,
   siteIdentity,
 } from '@/lib/site-facts';
@@ -73,7 +72,6 @@ export function SignalHomepage({ theme, content }: SignalHomepageProps) {
       <section id="episodes" className={styles.section}>
         <SignalHomepageFeed
           episodes={homepageEpisodes}
-          pillars={channelPillars}
         />
 
         <div className={styles.feedbackPanel}>

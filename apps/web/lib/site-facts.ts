@@ -1,6 +1,7 @@
 export type AccentKey = 'signal' | 'amber' | 'blueprint';
 export type EpisodeStatus = 'recorded' | 'launchingSoon';
 export type ChannelPillarId = 'one-decision' | 'receipts' | 'design-failures';
+export type SeasonId = 'season-1';
 
 export type LaunchEpisode = {
   id: string;
@@ -8,6 +9,7 @@ export type LaunchEpisode = {
   subject: string;
   status: EpisodeStatus;
   pillarId: ChannelPillarId;
+  seasonId?: SeasonId;
   label: string;
   summary: string;
   scheduleLabel: string;
@@ -44,10 +46,11 @@ export const siteIdentity = {
 } as const;
 
 const seasonOnePlaylistId = 'PLYYmvm5t-VZZ3s7S_GKnHByJZW_JYWBXh';
+const seasonOneId: SeasonId = 'season-1';
 const seasonOneEpisodeUrl = (videoId: string, index: number) =>
   `https://www.youtube.com/watch?v=${videoId}&list=${seasonOnePlaylistId}&index=${index}`;
 
-export const launchEpisodes: LaunchEpisode[] = [
+const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
   {
     id: 'challenger',
     title: 'The Warning That Stopped Working',
@@ -193,6 +196,11 @@ export const launchEpisodes: LaunchEpisode[] = [
     youtubeUrl: seasonOneEpisodeUrl('yqcaIX9Lnws', 9),
   },
 ];
+
+export const launchEpisodes: LaunchEpisode[] = launchEpisodesWithoutSeason.map((episode) => ({
+  ...episode,
+  seasonId: seasonOneId,
+}));
 
 export const channelPillars: ChannelPillar[] = [
   {
