@@ -46,6 +46,7 @@ from orchestration.publish import (
 )
 from orchestration.research_sources import process_research_source_inventory
 from orchestration.review import build_review_episode_detail
+from orchestration.review_bridge import review_cli_environment, review_cli_helper_path
 from orchestration.shorts_audio import (
     run_shorts_audio_audit,
     sync_shorts_audio_lane,
@@ -551,7 +552,7 @@ def command_source_media_install_hooks(context: Context, args: argparse.Namespac
 
 
 def inbox_helper_path() -> Path:
-    return ROOT_DIR.parent / "Inbox_CascadeEffects" / "bin" / "ce-inbox"
+    return review_cli_helper_path()
 
 
 def _run_inbox_cli(command: list[str]) -> int:
@@ -560,7 +561,11 @@ def _run_inbox_cli(command: list[str]) -> int:
         raise SystemExit(f"Inbox helper is missing: {helper}")
     if not os.access(helper, os.X_OK):
         raise SystemExit(f"Inbox helper is not executable: {helper}")
-    completed = subprocess.run([str(helper), *command], check=False)
+    completed = subprocess.run(
+        [str(helper), *command],
+        check=False,
+        env=review_cli_environment(),
+    )
     return int(completed.returncode)
 
 
