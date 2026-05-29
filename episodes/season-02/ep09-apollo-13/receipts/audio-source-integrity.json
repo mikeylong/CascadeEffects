@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep09-apollo-13",
+  "gate": "script_audio_source_integrity",
+  "status": "pass",
+  "source_script_path": "episodes/season-02/ep09-apollo-13/source/longform-script.md",
+  "source_script_sha256": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+  "approval_receipt_path": "episodes/season-02/ep09-apollo-13/receipts/human-script-approval-for-audio.json",
+  "approval_script_sha256_reviewed": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+  "preflight_path": "episodes/season-02/ep09-apollo-13/source/elevenlabs-preflight.md",
+  "preflight_sha256": "89e7a7ae9d582974ba0d70fbde3b9a53cd9f800ff8bc003f36c60521d898e8ff",
+  "effective_manifest_path": ".artifacts/season-02/ep09-apollo-13/audio/e0c96b031205/manifests/elevenlabs-effective.jsonl",
+  "effective_manifest_sha256": "46022f5f0131a3805198dfd075a82f18848d7533b36fc7f1d59cd2b5c53ed25e",
+  "audio_package_path": ".artifacts/season-02/ep09-apollo-13/audio/e0c96b031205/audio-package.json",
+  "audio_package_sha256": "4e1e01fa5b2045a9bb033814fe1ed0cf28d67f9054a072493ad1396e1d2d0b25",
+  "master_audio_path": ".artifacts/season-02/ep09-apollo-13/audio/e0c96b031205/longform-narration.wav",
+  "master_audio_sha256": "391ff52920bb930aff06da513afaf5407cbc5718d791cda3bd92ebbd9ee4f0c2",
+  "transcript_txt_path": ".artifacts/season-02/ep09-apollo-13/audio/e0c96b031205/transcript-qa/longform-narration.diarized.txt",
+  "transcript_txt_sha256": "648c56fbb6f1f4e4aba43035a4d0717406e5b9388542561cfad1e5e184418a96",
+  "assertions": {
+    "approval_hash_matches_current_script": true,
+    "preflight_references_current_script_hash": true,
+    "audio_artifacts_under_dot_artifacts": true,
+    "no_generated_media_written_to_episode_folder": true,
+    "review_notes_and_workflow_metadata_excluded_from_render_manifest": true,
+    "all_manifest_chunks_have_render_metadata": true,
+    "transcript_qa_completed": true,
+    "audio_review_passed": true
+  },
+  "qa": {
+    "duration_min": 15.62,
+    "chunks": 6,
+    "provider_aliases": 1,
+    "ref_words": 2220,
+    "transcript_words": 2223,
+    "wer_estimate": 0.0045
+  },
+  "provider_local_aliases": [
+    {
+      "source": "could weld closed",
+      "replacement": "could weld itself closed",
+      "note": "clarify weld-closed pronunciation after transcript heard \"well closed\""
+    }
+  ],
+  "chunk_count": 6,
+  "next_gate": "visual_system_plan"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep10-citicorp-center",
+  "gate": "audio_keep",
+  "status": "keep",
+  "disposition": "keep",
+  "reviewer": "Agent Mike",
+  "human_gate_delegation": "Agent Mike per user instruction",
+  "audio_package_path": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/audio-package.json",
+  "audio_package_sha256": "eb3e975d1eb79200ed8cb78c1ac60e22b36a6729259f64ec0d62d7bb619bf1e3",
+  "master_audio_path": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/longform-narration.wav",
+  "master_audio_sha256": "986b24cb87cccc16f3ce739496bb3482073f05537fc2da99bc4977550ef8628d",
+  "source_integrity_receipt_path": "episodes/season-02/ep10-citicorp-center/receipts/audio-source-integrity.json",
+  "source_integrity_status": "pass",
+  "qa": {
+    "duration_min": 16.49,
+    "chunks": 7,
+    "provider_aliases": 0,
+    "ref_words": 2321,
+    "transcript_words": 2333,
+    "wer_estimate": 0.0159
+  },
+  "checks": {
+    "approved_script_hash_verified": true,
+    "elevenlabs_preflight_used": true,
+    "transcript_qa_reviewed": true,
+    "pronunciation_red_flags_repaired": true,
+    "pacing_or_cadence_blocker_found": false,
+    "review_note_leakage_found_in_final_audio": false
+  },
+  "repair_notes": [
+    "Initial transcript QA caught review-note/front-matter leakage in several render manifests; final manifests strip those sections.",
+    "Provider-local aliases were applied where transcript QA exposed likely pronunciation or numeric-read risks."
+  ],
+  "blockers": [],
+  "next_gate": "visual_system_plan"
+}

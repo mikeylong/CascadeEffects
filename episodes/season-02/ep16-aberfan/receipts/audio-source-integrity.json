@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep16-aberfan",
+  "gate": "script_audio_source_integrity",
+  "status": "pass",
+  "source_script_path": "episodes/season-02/ep16-aberfan/source/longform-script.md",
+  "source_script_sha256": "3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c",
+  "approval_receipt_path": "episodes/season-02/ep16-aberfan/receipts/human-script-approval-for-audio.json",
+  "approval_script_sha256_reviewed": "3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c",
+  "preflight_path": "episodes/season-02/ep16-aberfan/source/elevenlabs-preflight.md",
+  "preflight_sha256": "1ea45f4f19231ef0bb584b142f3f6bafc42d9fe5f4521d4308c4751ca0fa942f",
+  "effective_manifest_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/manifests/elevenlabs-effective.jsonl",
+  "effective_manifest_sha256": "5b911a3a69dd12ce1b698e175206fa8affbadf8fa00ad370df43b3fee46b406a",
+  "audio_package_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/audio-package.json",
+  "audio_package_sha256": "55b92d985c81b2a8a82b0bc38ac1bae8c1fe40a3adbcde0679bb4779afc5d8b4",
+  "master_audio_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/longform-narration.wav",
+  "master_audio_sha256": "b646f56850878aa2a8d909c47aafb3d04627be92b756e7457b3318796d28d77e",
+  "transcript_txt_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/transcript-qa/longform-narration.diarized.txt",
+  "transcript_txt_sha256": "e5cb2f23cb019b0555f24ffb72c9a573c762865d99695d9e03bd0a923e5f74c8",
+  "assertions": {
+    "approval_hash_matches_current_script": true,
+    "preflight_references_current_script_hash": true,
+    "audio_artifacts_under_dot_artifacts": true,
+    "no_generated_media_written_to_episode_folder": true,
+    "review_notes_and_workflow_metadata_excluded_from_render_manifest": true,
+    "all_manifest_chunks_have_render_metadata": true,
+    "transcript_qa_completed": true,
+    "audio_review_passed": true
+  },
+  "qa": {
+    "duration_min": 15.03,
+    "chunks": 6,
+    "provider_aliases": 2,
+    "ref_words": 2126,
+    "transcript_words": 2123,
+    "wer_estimate": 0.0085
+  },
+  "provider_local_aliases": [
+    {
+      "source": "Pantglas Junior School",
+      "replacement": "Pant-glas Junior School",
+      "note": "carry preflight Pantglas pronunciation guidance into render text"
+    },
+    {
+      "source": "Pantglas Junior School",
+      "replacement": "Pant-glas Junior School",
+      "note": "carry preflight Pantglas pronunciation guidance into render text"
+    }
+  ],
+  "chunk_count": 6,
+  "next_gate": "visual_system_plan"
+}

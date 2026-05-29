@@ -1,6 +1,63 @@
 {
   "schema_version": 1,
   "episode": "ep13-uss-thresher",
-  "generated_at": "2026-05-28T22:40:19Z",
-  "artifacts": []
+  "generated_at": "2026-05-29T04:12:59Z",
+  "artifacts": [
+    {
+      "id": "ep13-uss-thresher:audio_keep:longform-narration.wav",
+      "kind": "longform_narration_wav",
+      "status": "keep_artifact",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/longform-narration.wav",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/longform-narration.wav",
+      "sha256": "de50d4204ce5dcecc26309c97c992e43bcbda5e852114d68923ae563f17d8228",
+      "bytes": 82493518,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep13-uss-thresher",
+      "source_manifest": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep13-uss-thresher:audio_keep:audio-package.json",
+      "kind": "audio_package_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/audio-package.json",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/audio-package.json",
+      "sha256": "67e04388b2a64eeec81c056824dab7f3a7692e8266e8db66611ce9300541a60b",
+      "bytes": 6463,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep13-uss-thresher",
+      "source_manifest": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep13-uss-thresher:audio_keep:elevenlabs-effective.jsonl",
+      "kind": "audio_effective_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/manifests/elevenlabs-effective.jsonl",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/manifests/elevenlabs-effective.jsonl",
+      "sha256": "796bf6a8df2a947195381d27418d059c89693dcb8ffabef31852210a039e7b59",
+      "bytes": 52437,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep13-uss-thresher",
+      "source_manifest": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep13-uss-thresher:audio_keep:longform-narration.diarized.srt",
+      "kind": "audio_qa_transcript_srt",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/transcript-qa/longform-narration.diarized.srt",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/transcript-qa/longform-narration.diarized.srt",
+      "sha256": "957a7206e5851dabda07b069854e0fda25df2e94f1ab8fd106619a7feb3fb203",
+      "bytes": 21089,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep13-uss-thresher",
+      "source_manifest": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/manifests/elevenlabs-effective.jsonl"
+    }
+  ]
 }

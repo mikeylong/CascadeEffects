@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep15-texas-city-1947",
+  "gate": "script_audio_source_integrity",
+  "status": "pass",
+  "source_script_path": "episodes/season-02/ep15-texas-city-1947/source/longform-script.md",
+  "source_script_sha256": "76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2",
+  "approval_receipt_path": "episodes/season-02/ep15-texas-city-1947/receipts/human-script-approval-for-audio.json",
+  "approval_script_sha256_reviewed": "76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2",
+  "preflight_path": "episodes/season-02/ep15-texas-city-1947/source/elevenlabs-preflight.md",
+  "preflight_sha256": "6d74ac21be95bec9173e6a3a2b0adad5084bab8313011cd58c933681ded6d08d",
+  "effective_manifest_path": ".artifacts/season-02/ep15-texas-city-1947/audio/76b2a765b2a4/manifests/elevenlabs-effective.jsonl",
+  "effective_manifest_sha256": "fc778a48bcd4afa5cbb5042235dcaba962b4124b36ecc0f7b3d5376c72e34d71",
+  "audio_package_path": ".artifacts/season-02/ep15-texas-city-1947/audio/76b2a765b2a4/audio-package.json",
+  "audio_package_sha256": "e344a98096f2275acea7b72bc006486e7f4354e803f13596125d8218cfb006f6",
+  "master_audio_path": ".artifacts/season-02/ep15-texas-city-1947/audio/76b2a765b2a4/longform-narration.wav",
+  "master_audio_sha256": "130d1d9a0474d7a3182612dddff33f57a2f5dc78c2016a1fb3dfe15439f52971",
+  "transcript_txt_path": ".artifacts/season-02/ep15-texas-city-1947/audio/76b2a765b2a4/transcript-qa/longform-narration.diarized.txt",
+  "transcript_txt_sha256": "f96f28e13f99de70a501f4573fde0f7bf3a92fc185181f218f15712468a49079",
+  "assertions": {
+    "approval_hash_matches_current_script": true,
+    "preflight_references_current_script_hash": true,
+    "audio_artifacts_under_dot_artifacts": true,
+    "no_generated_media_written_to_episode_folder": true,
+    "review_notes_and_workflow_metadata_excluded_from_render_manifest": true,
+    "all_manifest_chunks_have_render_metadata": true,
+    "transcript_qa_completed": true,
+    "audio_review_passed": true
+  },
+  "qa": {
+    "duration_min": 17.56,
+    "chunks": 7,
+    "provider_aliases": 0,
+    "ref_words": 2428,
+    "transcript_words": 2438,
+    "wer_estimate": 0.0091
+  },
+  "provider_local_aliases": [],
+  "chunk_count": 7,
+  "next_gate": "visual_system_plan"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep13-uss-thresher",
+  "gate": "audio_keep",
+  "status": "keep",
+  "disposition": "keep",
+  "reviewer": "Agent Mike",
+  "human_gate_delegation": "Agent Mike per user instruction",
+  "audio_package_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/audio-package.json",
+  "audio_package_sha256": "67e04388b2a64eeec81c056824dab7f3a7692e8266e8db66611ce9300541a60b",
+  "master_audio_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/longform-narration.wav",
+  "master_audio_sha256": "de50d4204ce5dcecc26309c97c992e43bcbda5e852114d68923ae563f17d8228",
+  "source_integrity_receipt_path": "episodes/season-02/ep13-uss-thresher/receipts/audio-source-integrity.json",
+  "source_integrity_status": "pass",
+  "qa": {
+    "duration_min": 15.59,
+    "chunks": 6,
+    "provider_aliases": 0,
+    "ref_words": 2176,
+    "transcript_words": 2178,
+    "wer_estimate": 0.0078
+  },
+  "checks": {
+    "approved_script_hash_verified": true,
+    "elevenlabs_preflight_used": true,
+    "transcript_qa_reviewed": true,
+    "pronunciation_red_flags_repaired": true,
+    "pacing_or_cadence_blocker_found": false,
+    "review_note_leakage_found_in_final_audio": false
+  },
+  "repair_notes": [
+    "Initial transcript QA caught review-note/front-matter leakage in several render manifests; final manifests strip those sections.",
+    "Provider-local aliases were applied where transcript QA exposed likely pronunciation or numeric-read risks."
+  ],
+  "blockers": [],
+  "next_gate": "visual_system_plan"
+}

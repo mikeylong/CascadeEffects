@@ -1,6 +1,63 @@
 {
   "schema_version": 1,
   "episode": "ep10-citicorp-center",
-  "generated_at": "2026-05-28T22:40:19Z",
-  "artifacts": []
+  "generated_at": "2026-05-29T04:12:59Z",
+  "artifacts": [
+    {
+      "id": "ep10-citicorp-center:audio_keep:longform-narration.wav",
+      "kind": "longform_narration_wav",
+      "status": "keep_artifact",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/longform-narration.wav",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/longform-narration.wav",
+      "sha256": "986b24cb87cccc16f3ce739496bb3482073f05537fc2da99bc4977550ef8628d",
+      "bytes": 87265358,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep10-citicorp-center",
+      "source_manifest": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep10-citicorp-center:audio_keep:audio-package.json",
+      "kind": "audio_package_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/audio-package.json",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/audio-package.json",
+      "sha256": "eb3e975d1eb79200ed8cb78c1ac60e22b36a6729259f64ec0d62d7bb619bf1e3",
+      "bytes": 7151,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep10-citicorp-center",
+      "source_manifest": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep10-citicorp-center:audio_keep:elevenlabs-effective.jsonl",
+      "kind": "audio_effective_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/manifests/elevenlabs-effective.jsonl",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/manifests/elevenlabs-effective.jsonl",
+      "sha256": "63c2a6338825806091d0575420f6de5e06aae5f0127e65d0b8944a2cc939b409",
+      "bytes": 58778,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep10-citicorp-center",
+      "source_manifest": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep10-citicorp-center:audio_keep:longform-narration.diarized.srt",
+      "kind": "audio_qa_transcript_srt",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/transcript-qa/longform-narration.diarized.srt",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/transcript-qa/longform-narration.diarized.srt",
+      "sha256": "22b4fcf377ea4d5922564f1009d16c44fa291fe17e8c9b0f9a3585a726dc97ba",
+      "bytes": 23826,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep10-citicorp-center",
+      "source_manifest": ".artifacts/season-02/ep10-citicorp-center/audio/3353f2961ffd/manifests/elevenlabs-effective.jsonl"
+    }
+  ]
 }

@@ -1,6 +1,63 @@
 {
   "schema_version": 1,
   "episode": "ep14-hindenburg",
-  "generated_at": "2026-05-28T22:40:19Z",
-  "artifacts": []
+  "generated_at": "2026-05-29T04:12:59Z",
+  "artifacts": [
+    {
+      "id": "ep14-hindenburg:audio_keep:longform-narration.wav",
+      "kind": "longform_narration_wav",
+      "status": "keep_artifact",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/longform-narration.wav",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/longform-narration.wav",
+      "sha256": "1a303358a60b5f499beed2890d8bc4f6aca0c3b0c76e0f0db619e7b32b6d6419",
+      "bytes": 84349006,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep14-hindenburg",
+      "source_manifest": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep14-hindenburg:audio_keep:audio-package.json",
+      "kind": "audio_package_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/audio-package.json",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/audio-package.json",
+      "sha256": "7d65c560b32e84b1aff022839cbf966c4ee3011b29fab41e258ff168c9f17f43",
+      "bytes": 7693,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep14-hindenburg",
+      "source_manifest": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep14-hindenburg:audio_keep:elevenlabs-effective.jsonl",
+      "kind": "audio_effective_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/manifests/elevenlabs-effective.jsonl",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/manifests/elevenlabs-effective.jsonl",
+      "sha256": "5cc696429207c92d0da9df02a8e698b4f598a9c04ea0f2e4e3b8fffbc458c974",
+      "bytes": 54661,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep14-hindenburg",
+      "source_manifest": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep14-hindenburg:audio_keep:longform-narration.diarized.srt",
+      "kind": "audio_qa_transcript_srt",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/transcript-qa/longform-narration.diarized.srt",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/transcript-qa/longform-narration.diarized.srt",
+      "sha256": "8cbc1b508dd2dc7c757a06ea9eb71a6478a3f32329c449b8bf958734c27b6104",
+      "bytes": 22577,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep14-hindenburg",
+      "source_manifest": ".artifacts/season-02/ep14-hindenburg/audio/a641cc87718d/manifests/elevenlabs-effective.jsonl"
+    }
+  ]
 }

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep11-air-france-447",
+  "gate": "script_audio_source_integrity",
+  "status": "pass",
+  "source_script_path": "episodes/season-02/ep11-air-france-447/source/longform-script.md",
+  "source_script_sha256": "eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e",
+  "approval_receipt_path": "episodes/season-02/ep11-air-france-447/receipts/human-script-approval-for-audio.json",
+  "approval_script_sha256_reviewed": "eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e",
+  "preflight_path": "episodes/season-02/ep11-air-france-447/source/elevenlabs-preflight.md",
+  "preflight_sha256": "196e58fb926f958216f9d82fce79f2ffab0cca347efa259840b2613c4c596ca7",
+  "effective_manifest_path": ".artifacts/season-02/ep11-air-france-447/audio/eb10ed79b19e/manifests/elevenlabs-effective.jsonl",
+  "effective_manifest_sha256": "728c5d7b673314b7988300ef76b59186930b3a279d22f80316b620136402adb7",
+  "audio_package_path": ".artifacts/season-02/ep11-air-france-447/audio/eb10ed79b19e/audio-package.json",
+  "audio_package_sha256": "3dba6ab2c69c95f3152d3171928df12382764797457194faab5548eb7e005884",
+  "master_audio_path": ".artifacts/season-02/ep11-air-france-447/audio/eb10ed79b19e/longform-narration.wav",
+  "master_audio_sha256": "022f05b4fc58e481486ae06203c09921163b270ba0aa32ff5ad6f32b35e73408",
+  "transcript_txt_path": ".artifacts/season-02/ep11-air-france-447/audio/eb10ed79b19e/transcript-qa/longform-narration.diarized.txt",
+  "transcript_txt_sha256": "d33cbf27b3e277ad06a0221b2bb8a85b444670fceff3868a73561880face8766",
+  "assertions": {
+    "approval_hash_matches_current_script": true,
+    "preflight_references_current_script_hash": true,
+    "audio_artifacts_under_dot_artifacts": true,
+    "no_generated_media_written_to_episode_folder": true,
+    "review_notes_and_workflow_metadata_excluded_from_render_manifest": true,
+    "all_manifest_chunks_have_render_metadata": true,
+    "transcript_qa_completed": true,
+    "audio_review_passed": true
+  },
+  "qa": {
+    "duration_min": 18.56,
+    "chunks": 7,
+    "provider_aliases": 22,
+    "ref_words": 2588,
+    "transcript_words": 2598,
+    "wer_estimate": 0.0151
+  },
+  "provider_local_aliases": [
+    {
+      "source": "Air France Flight 447",
+      "replacement": "Air France Flight four forty-seven",
+      "note": "preflight numeric flight identifier alias"
+    },
+    {
+      "source": "Air France 447",
+      "replacement": "Air France four forty-seven",
+      "note": "preflight numeric flight identifier alias"
+    },
+    {
+      "source": "AF447",
+      "replacement": "A F four forty-seven",
+      "note": "preflight AF447 alias"
+    },
+    {
+      "source": "Airbus A330-203",
+      "replacement": "Airbus A three thirty dash two oh three",
+      "note": "preflight aircraft model alias"
+    },
+    {
+      "source": "F-GZCP",
+      "replacement": "F G Z C P",
+      "note": "preflight registration alias"
+    },
+    {
+      "source": "Pitot",
+      "replacement": "pee-toh",
+      "note": "preflight Pitot alias"
+    },
+    {
+      "source": "Air France Flight four forty-seven",
+      "replacement": "Air France Flight four four seven",
+      "note": "repair title-line numeric clipping in transcript QA"
+    },
+    {
+      "source": "AF447",
+      "replacement": "A F four forty-seven",
+      "note": "preflight AF447 alias"
+    },
+    {
+      "source": "Pitot",
+      "replacement": "pee-toh",
+      "note": "preflight Pitot alias"
+    },
+    {
+      "source": "BEA",
+      "replacement": "B E A",
+      "note": "preflight agency initialism alias"
+    },
+    {
+      "source": "CVR",
+      "replacement": "C V R",
+      "note": "preflight recorder initialism alias"
+    },
+    {
+      "source": "FDR",
+      "replacement": "F D R",
+      "note": "preflight recorder initialism alias"
+    },
+    {
+      "source": "AF447",
+      "replacement": "A F four forty-seven",
+      "note": "preflight AF447 alias"
+    },
+    {
+      "source": "Pitot",
+      "replacement": "pee-toh",
+      "note": "preflight Pitot alias"
+    },
+    {
+      "source": "AF447",
+      "replacement": "A F four forty-seven",
+      "note": "preflight AF447 alias"
+    },
+    {
+      "source": "BEA",
+      "replacement": "B E A",
+      "note": "preflight agency initialism alias"
+    },
+    {
+      "source": "AF447",
+      "replacement": "A F four forty-seven",
+      "note": "preflight AF447 alias"
+    },
+    {
+      "source": "AF447",
+      "replacement": "A F four forty-seven",
+      "note": "preflight AF447 alias"
+    },
+    {
+      "source": "BEA",
+      "replacement": "B E A",
+      "note": "preflight agency initialism alias"
+    },
+    {
+      "source": "Air France 447",
+      "replacement": "Air France four forty-seven",
+      "note": "preflight numeric flight identifier alias"
+    },
+    {
+      "source": "Flight 447",
+      "replacement": "Flight four forty-seven",
+      "note": "preflight numeric flight identifier alias"
+    },
+    {
+      "source": "AF447",
+      "replacement": "A F four forty-seven",
+      "note": "preflight AF447 alias"
+    }
+  ],
+  "chunk_count": 7,
+  "next_gate": "visual_system_plan"
+}

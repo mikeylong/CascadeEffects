@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep13-uss-thresher",
+  "gate": "script_audio_source_integrity",
+  "status": "pass",
+  "source_script_path": "episodes/season-02/ep13-uss-thresher/source/longform-script.md",
+  "source_script_sha256": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+  "approval_receipt_path": "episodes/season-02/ep13-uss-thresher/receipts/human-script-approval-for-audio.json",
+  "approval_script_sha256_reviewed": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+  "preflight_path": "episodes/season-02/ep13-uss-thresher/source/elevenlabs-preflight.md",
+  "preflight_sha256": "63cf67683cc9f0a816d88308d6adab3cad515c709284b37a9bcea1ede5437e2e",
+  "effective_manifest_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/manifests/elevenlabs-effective.jsonl",
+  "effective_manifest_sha256": "796bf6a8df2a947195381d27418d059c89693dcb8ffabef31852210a039e7b59",
+  "audio_package_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/audio-package.json",
+  "audio_package_sha256": "67e04388b2a64eeec81c056824dab7f3a7692e8266e8db66611ce9300541a60b",
+  "master_audio_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/longform-narration.wav",
+  "master_audio_sha256": "de50d4204ce5dcecc26309c97c992e43bcbda5e852114d68923ae563f17d8228",
+  "transcript_txt_path": ".artifacts/season-02/ep13-uss-thresher/audio/cdb34f76e2eb/transcript-qa/longform-narration.diarized.txt",
+  "transcript_txt_sha256": "7d8bf8299a1c4670b1665ba4cfdd73be99837352a157e80011880966a4dbbb1a",
+  "assertions": {
+    "approval_hash_matches_current_script": true,
+    "preflight_references_current_script_hash": true,
+    "audio_artifacts_under_dot_artifacts": true,
+    "no_generated_media_written_to_episode_folder": true,
+    "review_notes_and_workflow_metadata_excluded_from_render_manifest": true,
+    "all_manifest_chunks_have_render_metadata": true,
+    "transcript_qa_completed": true,
+    "audio_review_passed": true
+  },
+  "qa": {
+    "duration_min": 15.59,
+    "chunks": 6,
+    "provider_aliases": 0,
+    "ref_words": 2176,
+    "transcript_words": 2178,
+    "wer_estimate": 0.0078
+  },
+  "provider_local_aliases": [],
+  "chunk_count": 6,
+  "next_gate": "visual_system_plan"
+}

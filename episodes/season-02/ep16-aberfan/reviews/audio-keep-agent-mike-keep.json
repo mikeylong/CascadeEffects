@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T04:12:59Z",
+  "episode_id": "ep16-aberfan",
+  "gate": "audio_keep",
+  "status": "keep",
+  "disposition": "keep",
+  "reviewer": "Agent Mike",
+  "human_gate_delegation": "Agent Mike per user instruction",
+  "audio_package_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/audio-package.json",
+  "audio_package_sha256": "55b92d985c81b2a8a82b0bc38ac1bae8c1fe40a3adbcde0679bb4779afc5d8b4",
+  "master_audio_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/longform-narration.wav",
+  "master_audio_sha256": "b646f56850878aa2a8d909c47aafb3d04627be92b756e7457b3318796d28d77e",
+  "source_integrity_receipt_path": "episodes/season-02/ep16-aberfan/receipts/audio-source-integrity.json",
+  "source_integrity_status": "pass",
+  "qa": {
+    "duration_min": 15.03,
+    "chunks": 6,
+    "provider_aliases": 2,
+    "ref_words": 2126,
+    "transcript_words": 2123,
+    "wer_estimate": 0.0085
+  },
+  "checks": {
+    "approved_script_hash_verified": true,
+    "elevenlabs_preflight_used": true,
+    "transcript_qa_reviewed": true,
+    "pronunciation_red_flags_repaired": true,
+    "pacing_or_cadence_blocker_found": false,
+    "review_note_leakage_found_in_final_audio": false
+  },
+  "repair_notes": [
+    "Initial transcript QA caught review-note/front-matter leakage in several render manifests; final manifests strip those sections.",
+    "Provider-local aliases were applied where transcript QA exposed likely pronunciation or numeric-read risks."
+  ],
+  "blockers": [],
+  "next_gate": "visual_system_plan"
+}

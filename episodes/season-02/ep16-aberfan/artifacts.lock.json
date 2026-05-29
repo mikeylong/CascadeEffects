@@ -1,6 +1,63 @@
 {
   "schema_version": 1,
   "episode": "ep16-aberfan",
-  "generated_at": "2026-05-28T22:40:19Z",
-  "artifacts": []
+  "generated_at": "2026-05-29T04:12:59Z",
+  "artifacts": [
+    {
+      "id": "ep16-aberfan:audio_keep:longform-narration.wav",
+      "kind": "longform_narration_wav",
+      "status": "keep_artifact",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/longform-narration.wav",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/longform-narration.wav",
+      "sha256": "b646f56850878aa2a8d909c47aafb3d04627be92b756e7457b3318796d28d77e",
+      "bytes": 79540302,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep16-aberfan",
+      "source_manifest": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep16-aberfan:audio_keep:audio-package.json",
+      "kind": "audio_package_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/audio-package.json",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/audio-package.json",
+      "sha256": "55b92d985c81b2a8a82b0bc38ac1bae8c1fe40a3adbcde0679bb4779afc5d8b4",
+      "bytes": 6648,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep16-aberfan",
+      "source_manifest": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep16-aberfan:audio_keep:elevenlabs-effective.jsonl",
+      "kind": "audio_effective_manifest",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/manifests/elevenlabs-effective.jsonl",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/manifests/elevenlabs-effective.jsonl",
+      "sha256": "5b911a3a69dd12ce1b698e175206fa8affbadf8fa00ad370df43b3fee46b406a",
+      "bytes": 51362,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep16-aberfan",
+      "source_manifest": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/manifests/elevenlabs-effective.jsonl"
+    },
+    {
+      "id": "ep16-aberfan:audio_keep:longform-narration.diarized.srt",
+      "kind": "audio_qa_transcript_srt",
+      "status": "production_receipt",
+      "repo_path": null,
+      "artifact_path": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/transcript-qa/longform-narration.diarized.srt",
+      "original_path": "/Users/mike/CascadeEffects/.artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/transcript-qa/longform-narration.diarized.srt",
+      "sha256": "9beb62f393c25e24fc7e54642dfc2a4c0070c687392e8299f1df4592a57f703f",
+      "bytes": 21655,
+      "created_at": "2026-05-29T04:12:59Z",
+      "source_stage": "audio_keep",
+      "episode": "ep16-aberfan",
+      "source_manifest": ".artifacts/season-02/ep16-aberfan/audio/3a2ae8e1c446/manifests/elevenlabs-effective.jsonl"
+    }
+  ]
 }
