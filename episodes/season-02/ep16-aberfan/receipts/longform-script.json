@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-29T00:23:03Z",
-  "updated_at": "2026-05-29T00:49:07Z",
+  "updated_at": "2026-05-29T01:18:32Z",
   "episode_id": "ep16-aberfan",
   "gate": "longform_script",
   "status": "review_ready",
@@ -23,16 +23,12 @@
     "receipts/critique-integration.json"
   ],
   "review_note_source": "reviews/writer-packet-keep.json",
-  "audio_render_authorized": false,
+  "audio_render_authorized": true,
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "next_gate": "elevenlabs_preflight",
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "human_script_approval_for_audio_read=pending",
-    "audio_render_authorized=false"
-  ],
+  "human_script_approval_for_audio_read": "pass",
+  "next_gate": "audio_keep",
+  "blockers": [],
   "notes": [
     "Script uses Mike's title direction: Aberfan: The Hill Everyone Could See.",
     "Script keeps the mechanism as visible industrial risk failing to become institutional urgency.",
@@ -41,5 +37,7 @@
     "Direct tribunal chronology and named-warning detail remain for a later fact-check pass if the tribunal report text is recovered."
   ],
   "script_sha256_current": "3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c",
-  "elevenlabs_preflight_read": "pending"
+  "elevenlabs_preflight_read": "pass",
+  "elevenlabs_preflight_path": "episodes/season-02/ep16-aberfan/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt": "episodes/season-02/ep16-aberfan/receipts/elevenlabs-preflight.json"
 }

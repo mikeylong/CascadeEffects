@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:17:33Z",
+  "episode_id": "ep13-uss-thresher",
+  "gate": "human_script_approval_for_audio",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "script_path": "episodes/season-02/ep13-uss-thresher/source/longform-script.md",
+  "script_sha256_reviewed": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+  "review_path": "episodes/season-02/ep13-uss-thresher/reviews/human-script-approval-for-audio-keep.json",
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "audio_render_authorized": true,
+  "blockers": [],
+  "next_gate": "audio_keep",
+  "note": "This authorizes audio render for exact script hash cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107 but does not mark audio_keep pass."
+}

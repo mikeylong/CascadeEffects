@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:02:01Z",
+  "episode_id": "ep10-citicorp-center",
+  "gate": "elevenlabs_preflight",
+  "status": "pass",
+  "elevenlabs_preflight_status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep10-citicorp-center/source/longform-script.md",
+  "script_sha256_reviewed": "3353f2961ffddd6c24ffcfd6bc3ccec598a06b01126fc6e9decc507d7b74cd47",
+  "script_revision_context": "post-critique-integration longform script",
+  "preflight_path": "episodes/season-02/ep10-citicorp-center/source/elevenlabs-preflight.md",
+  "template_path": "ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md",
+  "helper": {
+    "path": "packages/media-pipeline/audio/scripts/pronunciation_preflight.py",
+    "command": "scan",
+    "manifest": "compact_jsonl_process_substitution",
+    "text_key": "input",
+    "job_count": 1,
+    "matched_job_count": 1,
+    "jobs": [
+      {
+        "job_index": 1,
+        "out": "episodes/season-02/ep10-citicorp-center/source/longform-script.md",
+        "required_rule_ids": [
+          "wind_tunnel_hyphen_air_noun"
+        ],
+        "review_rule_ids": [
+          "wind_tunnel_air_noun_review"
+        ],
+        "would_change_text": true
+      }
+    ],
+    "blockers": []
+  },
+  "lexicon": {
+    "path": "packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json",
+    "sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "rule_count": 11,
+    "known_risk_matches": [
+      {
+        "rule_id": "wind_tunnel_hyphen_air_noun",
+        "severity": "required",
+        "mode": "local_alias",
+        "token": "wind-tunnel",
+        "handling_plan": "Apply approved render-side local alias so ElevenLabs text reads wind tunnel; locked script and captions remain unchanged.",
+        "status": "pass"
+      },
+      {
+        "rule_id": "wind_tunnel_air_noun_review",
+        "severity": "review",
+        "mode": "review_marker",
+        "token": "wind tunnel",
+        "handling_plan": "Listen-check wind as the air noun with short i.",
+        "status": "pass"
+      }
+    ]
+  },
+  "reads": {
+    "script_hash_match_read": "pass",
+    "pronunciation_ledger_read": "pass",
+    "acronym_initialism_read": "pass",
+    "names_places_entities_read": "pass",
+    "numbers_dates_units_read": "pass",
+    "homograph_ambiguity_read": "pass",
+    "technical_mouthful_read": "pass",
+    "punctuation_pause_breath_read": "pass",
+    "repeated_cadence_read": "pass",
+    "elevenlabs_rework_risk_read": "pass",
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "pronunciation_sensitive_tokens": [
+    {
+      "token": "Citicorp Center",
+      "intended_read": "City-corp Center",
+      "status": "pass"
+    },
+    {
+      "token": "St. Peter's church",
+      "intended_read": "Saint Peter's church",
+      "status": "pass"
+    },
+    {
+      "token": "Lexington Avenue",
+      "intended_read": "Lexington Avenue",
+      "status": "pass"
+    },
+    {
+      "token": "chevron bracing",
+      "intended_read": "shev-ron bracing",
+      "status": "pass"
+    },
+    {
+      "token": "tuned mass damper",
+      "intended_read": "tuned mass damper",
+      "status": "pass"
+    },
+    {
+      "token": "wind / wind-driven / wind-load",
+      "intended_read": "wind with short i",
+      "status": "pass"
+    },
+    {
+      "token": "quartering wind / quartering-wind",
+      "intended_read": "quartering wind",
+      "status": "pass"
+    },
+    {
+      "token": "wind-tunnel report",
+      "intended_read": "wind tunnel report",
+      "status": "pass"
+    },
+    {
+      "token": "bolted rather than welded",
+      "intended_read": "bolted rather than welded",
+      "status": "pass"
+    },
+    {
+      "token": "William LeMessurier",
+      "intended_read": "William luh-MESH-ur-ee-er",
+      "status": "pass"
+    },
+    {
+      "token": "NIST",
+      "intended_read": "N I S T",
+      "status": "pass"
+    },
+    {
+      "token": "ASCE",
+      "intended_read": "A S C E",
+      "status": "pass"
+    },
+    {
+      "token": "Project SERENE",
+      "intended_read": "Project Serene",
+      "status": "pass"
+    },
+    {
+      "token": "public-risk / public-disclosure",
+      "intended_read": "public risk / public disclosure",
+      "status": "pass"
+    },
+    {
+      "token": "post-completion wind-load assumption",
+      "intended_read": "post completion wind load assumption",
+      "status": "pass"
+    },
+    {
+      "token": "record / object / close",
+      "intended_read": "noun record, noun object, close as ending",
+      "status": "pass"
+    },
+    {
+      "token": "The legend fades. The receipts remain.",
+      "intended_read": "two short declarative beats",
+      "status": "pass"
+    }
+  ],
+  "risks_count": 31,
+  "risk_counts": {
+    "pronunciation_ledger_items": 31,
+    "helper_known_risk_matches": 2,
+    "preflight_blockers": 0,
+    "remaining_risks": 0
+  },
+  "script_changes": [],
+  "remaining_risks": [],
+  "preflight_blockers": [],
+  "blockers": [],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "elevenlabs_preflight_read": "pass",
+  "updated_at": "2026-05-29T01:17:40Z",
+  "human_script_approval_for_audio_read": "pass",
+  "human_script_approval_for_audio_review_path": "episodes/season-02/ep10-citicorp-center/reviews/human-script-approval-for-audio-keep.json",
+  "human_script_approval_for_audio_receipt_path": "episodes/season-02/ep10-citicorp-center/receipts/human-script-approval-for-audio.json"
+}

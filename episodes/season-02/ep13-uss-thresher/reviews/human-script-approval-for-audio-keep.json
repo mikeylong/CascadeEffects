@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-05-29T01:17:33Z",
+  "episode_id": "ep13-uss-thresher",
+  "gate": "human_script_approval_for_audio",
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "disposition": "keep",
+  "may_advance": true,
+  "script_path": "episodes/season-02/ep13-uss-thresher/source/longform-script.md",
+  "script_sha256_reviewed": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+  "prerequisites": {
+    "frontier_model_script_critique": {
+      "status": "pass",
+      "script_sha256_current": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+      "receipt_path": "episodes/season-02/ep13-uss-thresher/receipts/frontier-model-script-critique.json"
+    },
+    "critique_integration": {
+      "status": "pass",
+      "script_sha256_integrated": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+      "receipt_path": "episodes/season-02/ep13-uss-thresher/receipts/critique-integration.json"
+    },
+    "elevenlabs_preflight": {
+      "status": "pass",
+      "script_sha256_reviewed": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+      "receipt_path": "episodes/season-02/ep13-uss-thresher/receipts/elevenlabs-preflight.json"
+    }
+  },
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "review_notes": "Agent Mike delegated approval: the integrated script is source-cautious, the critique changes are integrated, and the ElevenLabs preflight has no unresolved rework risks. No blockers remain besides the approval gate now recorded here; audio render is authorized only for this exact script hash."
+}

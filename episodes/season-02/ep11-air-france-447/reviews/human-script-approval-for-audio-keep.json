@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-05-29T01:18:30Z",
+  "episode_id": "ep11-air-france-447",
+  "gate": "human_script_approval_for_audio",
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "disposition": "keep",
+  "may_advance": true,
+  "script_path": "episodes/season-02/ep11-air-france-447/source/longform-script.md",
+  "script_sha256_reviewed": "eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e",
+  "prerequisites": {
+    "frontier_model_script_critique": "pass",
+    "critique_integration": "pass",
+    "elevenlabs_preflight": "pass"
+  },
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "review_notes": "Agent Mike audio-script review accepts the post-integration Air France 447 script for render prep. Critique, integration, and ElevenLabs preflight are pass for the exact script hash; no unresolved blockers remain. Preserve the preflight pronunciation aliases and strip markdown metadata before TTS render."
+}

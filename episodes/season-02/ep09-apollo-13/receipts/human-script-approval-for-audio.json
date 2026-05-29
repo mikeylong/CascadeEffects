@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:17:40Z",
+  "episode_id": "ep09-apollo-13",
+  "gate": "human_script_approval_for_audio",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "script_path": "episodes/season-02/ep09-apollo-13/source/longform-script.md",
+  "script_sha256_reviewed": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+  "review_path": "episodes/season-02/ep09-apollo-13/reviews/human-script-approval-for-audio-keep.json",
+  "prerequisites": {
+    "frontier_model_script_critique": "pass",
+    "critique_integration": "pass",
+    "elevenlabs_preflight": "pass"
+  },
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "elevenlabs_preflight_read": "pass",
+  "human_script_approval_for_audio_read": "pass",
+  "audio_render_authorized": true,
+  "blockers": [],
+  "next_gate": "audio_keep",
+  "note": "This authorizes audio render for the exact script hash but does not mark audio_keep pass."
+}

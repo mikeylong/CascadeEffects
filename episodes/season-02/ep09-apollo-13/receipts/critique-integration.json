@@ -25,19 +25,17 @@
     }
   ],
   "deferred_changes": [],
-  "blockers": [
-    "human_script_approval_for_audio_read is pending; audio render is not authorized until Mike/human approval is recorded for script sha256 e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
-    "human_script_approval_for_audio_read is pending",
-    "audio render is not authorized"
-  ],
+  "blockers": [],
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "audio_render_authorized": false,
-  "updated_at": "2026-05-29T00:56:17Z",
+  "human_script_approval_for_audio_read": "pass",
+  "audio_render_authorized": true,
+  "updated_at": "2026-05-29T01:17:40Z",
   "script_sha256_current": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
   "elevenlabs_preflight_read": "pass",
-  "next_gate": "human_script_approval_for_audio",
+  "next_gate": "audio_keep",
   "elevenlabs_preflight_path": "episodes/season-02/ep09-apollo-13/source/elevenlabs-preflight.md",
-  "elevenlabs_preflight_receipt": "episodes/season-02/ep09-apollo-13/receipts/elevenlabs-preflight.json"
+  "elevenlabs_preflight_receipt": "episodes/season-02/ep09-apollo-13/receipts/elevenlabs-preflight.json",
+  "human_script_approval_for_audio_review_path": "episodes/season-02/ep09-apollo-13/reviews/human-script-approval-for-audio-keep.json",
+  "human_script_approval_for_audio_receipt_path": "episodes/season-02/ep09-apollo-13/receipts/human-script-approval-for-audio.json"
 }

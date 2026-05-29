@@ -8,7 +8,7 @@
   "human_gate_required": true,
   "script_path": "episodes/season-02/ep14-hindenburg/source/longform-script.md",
   "script_sha256": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
-  "updated_at": "2026-05-29T00:49:07Z",
+  "updated_at": "2026-05-29T01:17:33Z",
   "source_inputs": [
     "episodes/season-02/ep14-hindenburg/episode.toml",
     "episodes/season-02/ep14-hindenburg/source/source-audit.md",
@@ -19,15 +19,12 @@
     "/Users/mike/.codex/skills/write-like-mike/references/style-profile.md"
   ],
   "review_note_source": "episodes/season-02/ep14-hindenburg/reviews/writer-packet-keep.json",
-  "audio_render_authorized": false,
+  "audio_render_authorized": true,
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "next_gate": "elevenlabs_preflight",
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "human_script_approval_for_audio_read is pending; audio render is not authorized until Mike/human approval is recorded for script sha256 a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839"
-  ],
+  "human_script_approval_for_audio_read": "pass",
+  "next_gate": "audio_keep",
+  "blockers": [],
   "frontier_model_script_critique_path": "episodes/season-02/ep14-hindenburg/source/frontier-model-script-critique.md",
   "critique_integration_path": "episodes/season-02/ep14-hindenburg/source/critique-integration-note.md",
   "script_sha256_reviewed_before_integration": "6ad14e218c95e6124a42ede3367ffcf849bb5f549c73198a6af9bf09f07f6877",
@@ -46,5 +43,16 @@
     "Avoids exact minute-by-minute timing until the landing timeline is source-locked."
   ],
   "script_sha256_current": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
-  "elevenlabs_preflight_read": "pending"
+  "elevenlabs_preflight_read": "pass",
+  "elevenlabs_preflight_path": "episodes/season-02/ep14-hindenburg/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt": "episodes/season-02/ep14-hindenburg/receipts/elevenlabs-preflight.json",
+  "human_script_approval_for_audio_review": "episodes/season-02/ep14-hindenburg/reviews/human-script-approval-for-audio-keep.json",
+  "human_script_approval_for_audio_receipt": "episodes/season-02/ep14-hindenburg/receipts/human-script-approval-for-audio.json",
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  }
 }

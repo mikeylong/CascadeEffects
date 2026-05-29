@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-05-29T01:18:30Z",
+  "episode_id": "ep12-tenerife",
+  "gate": "human_script_approval_for_audio",
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "disposition": "keep",
+  "may_advance": true,
+  "script_path": "episodes/season-02/ep12-tenerife/source/longform-script.md",
+  "script_sha256_reviewed": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
+  "prerequisites": {
+    "frontier_model_script_critique": "pass",
+    "critique_integration": "pass",
+    "elevenlabs_preflight": "pass"
+  },
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "review_notes": "Agent Mike audio-script review accepts the post-integration Tenerife script for render prep. Critique, integration, and ElevenLabs preflight are pass for the exact script hash; no unresolved blockers remain. Preserve the clearance-language caution, pronunciation ledger, and exclude review notes or metadata from provider text."
+}

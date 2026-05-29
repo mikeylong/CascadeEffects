@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:02:22Z",
+  "episode_id": "ep13-uss-thresher",
+  "gate": "elevenlabs_preflight",
+  "status": "pass",
+  "elevenlabs_preflight_read": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep13-uss-thresher/source/longform-script.md",
+  "script_sha256_reviewed": "cdb34f76e2ebb229786449907d15f53722f49ab0ceb3745c36011f4aaee26107",
+  "script_revision_context": "post-critique-integration longform script",
+  "preflight_path": "episodes/season-02/ep13-uss-thresher/source/elevenlabs-preflight.md",
+  "template_path": "ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md",
+  "helper": {
+    "path": "packages/media-pipeline/audio/scripts/pronunciation_preflight.py",
+    "command": "scan",
+    "job_count": 1,
+    "matched_job_count": 0,
+    "blockers": []
+  },
+  "lexicon": {
+    "path": "packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json",
+    "sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "rule_count": 11
+  },
+  "reads": {
+    "script_hash_match_read": "pass",
+    "pronunciation_ledger_read": "pass",
+    "acronym_initialism_read": "pass",
+    "names_places_entities_read": "pass",
+    "numbers_dates_units_read": "pass",
+    "homograph_ambiguity_read": "pass",
+    "technical_mouthful_read": "pass",
+    "punctuation_pause_breath_read": "pass",
+    "repeated_cadence_read": "pass",
+    "elevenlabs_rework_risk_read": "pass",
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "pronunciation_sensitive_tokens": [
+    {
+      "token": "USS Thresher / Thresher",
+      "intended_read": "U S S THRESH-er / THRESH-er",
+      "status": "pass"
+    },
+    {
+      "token": "USS",
+      "intended_read": "U S S",
+      "status": "pass"
+    },
+    {
+      "token": "SUBSAFE",
+      "intended_read": "sub-safe",
+      "status": "pass"
+    },
+    {
+      "token": "Skylark",
+      "intended_read": "SKY-lark",
+      "status": "pass"
+    },
+    {
+      "token": "Cape Cod",
+      "intended_read": "Cape Cod",
+      "status": "pass"
+    },
+    {
+      "token": "Court of Inquiry",
+      "intended_read": "Court of Inquiry",
+      "status": "pass"
+    },
+    {
+      "token": "Cascade Effects",
+      "intended_read": "Cascade Effects",
+      "status": "pass"
+    },
+    {
+      "token": "Navy",
+      "intended_read": "Navy",
+      "status": "pass"
+    },
+    {
+      "token": "April 10, 1963",
+      "intended_read": "April tenth, nineteen sixty-three",
+      "status": "pass"
+    },
+    {
+      "token": "220 miles",
+      "intended_read": "two hundred twenty miles",
+      "status": "pass"
+    },
+    {
+      "token": "129 people / 129 aboard",
+      "intended_read": "one hundred twenty-nine people / one hundred twenty-nine aboard",
+      "status": "pass"
+    },
+    {
+      "token": "\"900\" reference",
+      "intended_read": "nine hundred reference",
+      "status": "pass"
+    },
+    {
+      "token": "post-overhaul",
+      "intended_read": "post overhaul",
+      "status": "pass"
+    },
+    {
+      "token": "deep-dive / deep-dive trials",
+      "intended_read": "deep dive / deep dive trials",
+      "status": "pass"
+    },
+    {
+      "token": "seawater intrusion",
+      "intended_read": "seawater intrusion",
+      "status": "pass"
+    },
+    {
+      "token": "electrical or propulsion loss",
+      "intended_read": "electrical or propulsion loss",
+      "status": "pass"
+    },
+    {
+      "token": "emergency blow / ballast blow",
+      "intended_read": "emergency blow / ballast blow",
+      "status": "pass"
+    },
+    {
+      "token": "trim",
+      "intended_read": "trim",
+      "status": "pass"
+    },
+    {
+      "token": "collapse-depth / collapse-depth conditions",
+      "intended_read": "collapse depth / collapse depth conditions",
+      "status": "pass"
+    },
+    {
+      "token": "brazed-joint / brazed joint",
+      "intended_read": "brayzd joint",
+      "status": "pass"
+    },
+    {
+      "token": "recovery-critical",
+      "intended_read": "recovery critical",
+      "status": "pass"
+    },
+    {
+      "token": "quality assurance",
+      "intended_read": "quality assurance",
+      "status": "pass"
+    },
+    {
+      "token": "boundary-control / boundary control",
+      "intended_read": "boundary control",
+      "status": "pass"
+    },
+    {
+      "token": "live condition",
+      "intended_read": "lyve condition",
+      "status": "pass"
+    },
+    {
+      "token": "final communications",
+      "intended_read": "final communications",
+      "status": "pass"
+    },
+    {
+      "token": "source audit",
+      "intended_read": "source audit",
+      "status": "pass"
+    }
+  ],
+  "risks_count": 26,
+  "script_changes": [],
+  "remaining_risks": [],
+  "blockers": [],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "human_script_approval_for_audio_read": "pass",
+  "human_script_approval_for_audio_review": "episodes/season-02/ep13-uss-thresher/reviews/human-script-approval-for-audio-keep.json",
+  "human_script_approval_for_audio_receipt": "episodes/season-02/ep13-uss-thresher/receipts/human-script-approval-for-audio.json",
+  "updated_at": "2026-05-29T01:17:33Z"
+}

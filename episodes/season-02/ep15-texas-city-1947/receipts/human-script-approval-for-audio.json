@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:18:32Z",
+  "episode_id": "ep15-texas-city-1947",
+  "gate": "human_script_approval_for_audio",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "script_path": "episodes/season-02/ep15-texas-city-1947/source/longform-script.md",
+  "script_sha256_reviewed": "76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2",
+  "review_path": "episodes/season-02/ep15-texas-city-1947/reviews/human-script-approval-for-audio-keep.json",
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "blockers": [],
+  "next_gate": "audio_keep",
+  "note": "This authorizes audio render for script sha256 76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2; it does not mark audio_keep pass.",
+  "audio_render_authorized": true
+}

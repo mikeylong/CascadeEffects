@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-05-29T01:18:32Z",
+  "episode_id": "ep16-aberfan",
+  "gate": "human_script_approval_for_audio",
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "disposition": "keep",
+  "may_advance": true,
+  "script_path": "episodes/season-02/ep16-aberfan/source/longform-script.md",
+  "script_sha256_reviewed": "3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c",
+  "prerequisites": {
+    "frontier_model_script_critique": "pass",
+    "critique_integration": "pass",
+    "elevenlabs_preflight": "pass",
+    "script_hash_match": "pass"
+  },
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "review_notes": "Agent Mike approves the post-integration Aberfan script for audio. Frontier critique, critique integration, and ElevenLabs preflight are pass for this exact script hash; no unresolved audio blockers remain beyond the delegated approval now recorded."
+}

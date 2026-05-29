@@ -26,22 +26,21 @@
     "automation_mode_primer": "included a short automation-mode primer in Chapter 3",
     "cvr_guardrails": "script uses CVR only as sequence evidence and avoids cockpit-dialogue spectacle"
   },
-  "audio_render_authorized": false,
+  "audio_render_authorized": true,
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "next_gate": "elevenlabs_preflight",
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "Mike/human script approval for audio has not been granted for the exact post-integration script revision."
-  ],
+  "human_script_approval_for_audio_read": "pass",
+  "next_gate": "audio_keep",
+  "blockers": [],
   "guardrails": [
     "Do not flatten the accident into pilot error or weather.",
     "Treat CVR material as sequence support, not spectacle or character psychology.",
     "Keep legal context separate from BEA technical findings unless Mike explicitly requests an end-note.",
-    "Do not authorize audio render until frontier critique, critique integration, and human script approval gates are complete."
+    "Do not authorize audio render until frontier critique, critique integration, ElevenLabs preflight, and human script approval gates are complete."
   ],
-  "updated_at": "2026-05-29T00:49:07Z",
+  "updated_at": "2026-05-29T01:18:30Z",
   "script_sha256_current": "eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e",
-  "elevenlabs_preflight_read": "pending"
+  "elevenlabs_preflight_read": "pass",
+  "elevenlabs_preflight_path": "episodes/season-02/ep11-air-france-447/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt_path": "episodes/season-02/ep11-air-france-447/receipts/elevenlabs-preflight.json"
 }

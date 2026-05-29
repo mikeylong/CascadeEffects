@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-05-29T01:17:33Z",
+  "episode_id": "ep14-hindenburg",
+  "gate": "human_script_approval_for_audio",
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "disposition": "keep",
+  "may_advance": true,
+  "script_path": "episodes/season-02/ep14-hindenburg/source/longform-script.md",
+  "script_sha256_reviewed": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
+  "prerequisites": {
+    "frontier_model_script_critique": {
+      "status": "pass",
+      "script_sha256_current": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
+      "receipt_path": "episodes/season-02/ep14-hindenburg/receipts/frontier-model-script-critique.json"
+    },
+    "critique_integration": {
+      "status": "pass",
+      "script_sha256_integrated": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
+      "receipt_path": "episodes/season-02/ep14-hindenburg/receipts/critique-integration.json"
+    },
+    "elevenlabs_preflight": {
+      "status": "pass",
+      "script_sha256_reviewed": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
+      "receipt_path": "episodes/season-02/ep14-hindenburg/receipts/elevenlabs-preflight.json"
+    }
+  },
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "review_notes": "Agent Mike delegated approval: the integrated script keeps the official mechanism cautious, bounds alternate theories, and the ElevenLabs preflight has no unresolved rework risks. Render narration text only, excluding production metadata and Review Notes; audio render is authorized only for this exact script hash."
+}

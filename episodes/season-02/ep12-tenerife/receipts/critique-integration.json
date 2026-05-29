@@ -46,24 +46,22 @@
       "rationale": "This is a human-review style preference, not a source or gate blocker."
     }
   ],
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "Human/Mike script approval for audio remains pending.",
-    "Audio render is not authorized."
-  ],
+  "blockers": [],
   "reads": {
     "frontier_model_script_critique_read": "pass",
     "critique_integration_read": "pass",
-    "human_script_approval_for_audio_read": "pending",
-    "audio_render_authorized": false,
-    "elevenlabs_preflight_read": "pending"
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true,
+    "elevenlabs_preflight_read": "pass"
   },
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "audio_render_authorized": false,
-  "updated_at": "2026-05-29T00:49:07Z",
+  "human_script_approval_for_audio_read": "pass",
+  "audio_render_authorized": true,
+  "updated_at": "2026-05-29T01:18:30Z",
   "script_sha256_current": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
-  "elevenlabs_preflight_read": "pending",
-  "next_gate": "elevenlabs_preflight"
+  "elevenlabs_preflight_read": "pass",
+  "next_gate": "audio_keep",
+  "elevenlabs_preflight_path": "episodes/season-02/ep12-tenerife/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt": "episodes/season-02/ep12-tenerife/receipts/elevenlabs-preflight.json"
 }

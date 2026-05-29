@@ -23,24 +23,22 @@
     "Direct tribunal wording, named-warning chronology, and exact local-council detail remain deferred pending direct tribunal text recovery.",
     "Series sign-off choice remains available for human review; no change was required for this pass."
   ],
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "human_script_approval_for_audio_read=pending",
-    "audio_render_authorized=false"
-  ],
+  "blockers": [],
   "reads": {
     "frontier_model_script_critique_read": "pass",
     "critique_integration_read": "pass",
-    "human_script_approval_for_audio_read": "pending",
-    "audio_render_authorized": false,
-    "elevenlabs_preflight_read": "pending"
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true,
+    "elevenlabs_preflight_read": "pass"
   },
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "audio_render_authorized": false,
-  "updated_at": "2026-05-29T00:49:07Z",
+  "human_script_approval_for_audio_read": "pass",
+  "audio_render_authorized": true,
+  "updated_at": "2026-05-29T01:18:32Z",
   "script_sha256_current": "3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c",
-  "elevenlabs_preflight_read": "pending",
-  "next_gate": "elevenlabs_preflight"
+  "elevenlabs_preflight_read": "pass",
+  "next_gate": "audio_keep",
+  "elevenlabs_preflight_path": "episodes/season-02/ep16-aberfan/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt": "episodes/season-02/ep16-aberfan/receipts/elevenlabs-preflight.json"
 }

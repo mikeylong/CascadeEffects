@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-29T00:21:02Z",
-  "updated_at": "2026-05-29T00:49:07Z",
+  "updated_at": "2026-05-29T01:18:30Z",
   "episode_id": "ep12-tenerife",
   "gate": "longform_script",
   "status": "review_ready",
@@ -36,16 +36,14 @@
     "Use KLM refueling and duty-time pressure only as sourced context if final fact pass supports them.",
     "Avoid claiming Tenerife single-handedly created modern CRM."
   ],
-  "audio_render_authorized": false,
+  "audio_render_authorized": true,
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "next_gate": "elevenlabs_preflight",
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "Human/Mike script approval for audio has not been granted for the post-integration script revision.",
-    "Audio render is not authorized until explicit human approval passes."
-  ],
+  "human_script_approval_for_audio_read": "pass",
+  "next_gate": "audio_keep",
+  "blockers": [],
   "script_sha256_current": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
-  "elevenlabs_preflight_read": "pending"
+  "elevenlabs_preflight_read": "pass",
+  "elevenlabs_preflight_path": "episodes/season-02/ep12-tenerife/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt": "episodes/season-02/ep12-tenerife/receipts/elevenlabs-preflight.json"
 }

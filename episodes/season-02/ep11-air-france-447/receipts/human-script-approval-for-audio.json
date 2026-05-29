@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:18:30Z",
+  "episode_id": "ep11-air-france-447",
+  "gate": "human_script_approval_for_audio",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "script_path": "episodes/season-02/ep11-air-france-447/source/longform-script.md",
+  "script_sha256_reviewed": "eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e",
+  "review_path": "episodes/season-02/ep11-air-france-447/reviews/human-script-approval-for-audio-keep.json",
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "elevenlabs_preflight_read": "pass",
+  "human_script_approval_for_audio_read": "pass",
+  "audio_render_authorized": true,
+  "blockers": [],
+  "next_gate": "audio_keep",
+  "note": "This authorizes audio render for the exact script hash reviewed here; it does not mark audio_keep pass."
+}

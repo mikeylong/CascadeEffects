@@ -38,23 +38,22 @@
       "rationale": "CVR guardrails are already sufficient and transcript excerpts would increase psychology/spectacle risk."
     }
   ],
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "Human script approval for audio remains pending."
-  ],
+  "blockers": [],
   "reads": {
     "frontier_model_script_critique_read": "pass",
     "critique_integration_read": "pass",
-    "human_script_approval_for_audio_read": "pending",
-    "audio_render_authorized": false,
-    "elevenlabs_preflight_read": "pending"
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true,
+    "elevenlabs_preflight_read": "pass"
   },
-  "audio_render_authorized": false,
-  "next_gate": "elevenlabs_preflight",
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "updated_at": "2026-05-29T00:49:07Z",
+  "human_script_approval_for_audio_read": "pass",
+  "updated_at": "2026-05-29T01:18:30Z",
   "script_sha256_current": "eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e",
-  "elevenlabs_preflight_read": "pending"
+  "elevenlabs_preflight_read": "pass",
+  "elevenlabs_preflight_path": "episodes/season-02/ep11-air-france-447/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt_path": "episodes/season-02/ep11-air-france-447/receipts/elevenlabs-preflight.json"
 }

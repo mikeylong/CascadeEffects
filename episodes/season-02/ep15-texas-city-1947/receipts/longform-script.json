@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-05-29T00:24:56Z",
-  "updated_at": "2026-05-29T00:49:07Z",
+  "updated_at": "2026-05-29T01:18:32Z",
   "episode_id": "ep15-texas-city-1947",
   "gate": "longform_script",
   "status": "review_ready",
@@ -18,22 +18,19 @@
   "review_note_source": "episodes/season-02/ep15-texas-city-1947/reviews/writer-packet-keep.json",
   "title": "Texas City 1947: Not Just a Fertilizer Explosion",
   "mechanism": "hazard communication / emergency response mismatch",
-  "audio_render_authorized": false,
+  "audio_render_authorized": true,
   "frontier_model_script_critique_read": "pass",
   "critique_integration_read": "pass",
-  "human_script_approval_for_audio_read": "pending",
-  "next_gate": "elevenlabs_preflight",
+  "human_script_approval_for_audio_read": "pass",
+  "next_gate": "audio_keep",
   "frontier_model_script_critique_path": "episodes/season-02/ep15-texas-city-1947/source/frontier-model-script-critique.md",
   "critique_integration_note_path": "episodes/season-02/ep15-texas-city-1947/source/critique-integration-note.md",
-  "blockers": [
-    "elevenlabs_preflight_read is pending for script sha256 76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2; run TTS/ElevenLabs preflight before Mike/human audio approval.",
-    "Mike/human approval for audio is pending for the exact post-integration script revision"
-  ],
+  "blockers": [],
   "notes": [
     "Draft preserves Mike's keep notes: approved cold open, hazard communication / emergency response mismatch, legal aftermath as context only, and requested title.",
     "Post-integration draft avoids settled ignition-cause claims and uses cautious death-toll wording pending final fact-check.",
     "Frontier-model critique and integration were performed by a Codex subagent substitution because Claude was unavailable in the current tool context."
   ],
   "script_sha256_current": "76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2",
-  "elevenlabs_preflight_read": "pending"
+  "elevenlabs_preflight_read": "pass"
 }

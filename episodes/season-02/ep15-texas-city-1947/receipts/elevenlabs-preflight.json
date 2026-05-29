@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:04:01Z",
+  "episode_id": "ep15-texas-city-1947",
+  "gate": "elevenlabs_preflight",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep15-texas-city-1947/source/longform-script.md",
+  "script_sha256_reviewed": "76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2",
+  "script_sha256_current": "76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2",
+  "script_revision_context": "post-critique-integration longform script",
+  "preflight_path": "episodes/season-02/ep15-texas-city-1947/source/elevenlabs-preflight.md",
+  "template_path": "ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md",
+  "helper": {
+    "path": "packages/media-pipeline/audio/scripts/pronunciation_preflight.py",
+    "command": "scan",
+    "manifest_method": "compact JSONL process substitution from script text",
+    "job_count": 1,
+    "matched_job_count": 0,
+    "blockers": []
+  },
+  "lexicon": {
+    "path": "packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json",
+    "sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "rule_count": 11
+  },
+  "reads": {
+    "script_hash_match_read": "pass",
+    "pronunciation_ledger_read": "pass",
+    "acronym_initialism_read": "pass",
+    "names_places_entities_read": "pass",
+    "numbers_dates_units_read": "pass",
+    "homograph_ambiguity_read": "pass",
+    "technical_mouthful_read": "pass",
+    "punctuation_pause_breath_read": "pass",
+    "repeated_cadence_read": "pass",
+    "elevenlabs_rework_risk_read": "pass",
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "risks_count": 26,
+  "pronunciation_sensitive_tokens": [
+    {
+      "token": "Texas City 1947",
+      "intended_read": "Texas City nineteen forty-seven",
+      "status": "pass"
+    },
+    {
+      "token": "April 16, 1947",
+      "intended_read": "April sixteenth, nineteen forty-seven",
+      "status": "pass"
+    },
+    {
+      "token": "SS Grandcamp",
+      "intended_read": "S S Grandcamp",
+      "status": "pass"
+    },
+    {
+      "token": "Grandcamp",
+      "intended_read": "GRAND-camp",
+      "status": "pass"
+    },
+    {
+      "token": "SS High Flyer",
+      "intended_read": "S S High Flyer",
+      "status": "pass"
+    },
+    {
+      "token": "High Flyer",
+      "intended_read": "High Flyer",
+      "status": "pass"
+    },
+    {
+      "token": "ammonium nitrate",
+      "intended_read": "uh-MOH-nee-um NYE-trayt",
+      "status": "pass"
+    },
+    {
+      "token": "fertilizer",
+      "intended_read": "fertilizer",
+      "status": "pass"
+    },
+    {
+      "token": "port-industrial",
+      "intended_read": "port industrial",
+      "status": "pass"
+    },
+    {
+      "token": "shipboard fire",
+      "intended_read": "shipboard fire",
+      "status": "pass"
+    },
+    {
+      "token": "hazard communication",
+      "intended_read": "hazard communication",
+      "status": "pass"
+    },
+    {
+      "token": "emergency response",
+      "intended_read": "emergency response",
+      "status": "pass"
+    },
+    {
+      "token": "heat and confinement",
+      "intended_read": "heat and confinement",
+      "status": "pass"
+    },
+    {
+      "token": "explosion hazard",
+      "intended_read": "explosion hazard",
+      "status": "pass"
+    },
+    {
+      "token": "Cascade Effects",
+      "intended_read": "Cascade Effects",
+      "status": "pass"
+    },
+    {
+      "token": "nearly 600",
+      "intended_read": "nearly six hundred",
+      "status": "pass"
+    },
+    {
+      "token": "U.S. Coast Guard",
+      "intended_read": "U S Coast Guard",
+      "status": "pass"
+    },
+    {
+      "token": "Bureau of Mines",
+      "intended_read": "Bureau of Mines",
+      "status": "pass"
+    },
+    {
+      "token": "City of Texas City",
+      "intended_read": "City of Texas City",
+      "status": "pass"
+    },
+    {
+      "token": "Dalehite",
+      "intended_read": "DAYL-hite",
+      "status": "pass"
+    },
+    {
+      "token": "Texas State Historical Association",
+      "intended_read": "Texas State Historical Association",
+      "status": "pass"
+    },
+    {
+      "token": "official-source stack",
+      "intended_read": "official source stack",
+      "status": "pass"
+    },
+    {
+      "token": "ignition-cause story",
+      "intended_read": "ignition cause story",
+      "status": "pass"
+    },
+    {
+      "token": "legal-accountability branch",
+      "intended_read": "legal accountability branch",
+      "status": "pass"
+    },
+    {
+      "token": "first catastrophic explosion",
+      "intended_read": "first catastrophic explosion",
+      "status": "pass"
+    },
+    {
+      "token": "The legend fades. The receipts remain.",
+      "intended_read": "The legend fades. The receipts remain.",
+      "status": "pass"
+    }
+  ],
+  "acronyms_initialisms": [
+    {
+      "token": "SS",
+      "intended_read": "S S",
+      "status": "pass"
+    },
+    {
+      "token": "U.S.",
+      "intended_read": "U S",
+      "status": "pass"
+    }
+  ],
+  "names_places_entities": [
+    "Texas City",
+    "SS Grandcamp",
+    "SS High Flyer",
+    "Bureau of Mines",
+    "City of Texas City",
+    "Dalehite",
+    "U.S. Coast Guard",
+    "Texas State Historical Association",
+    "Cascade Effects"
+  ],
+  "numbers_dates_units": [
+    {
+      "token": "1947",
+      "intended_read": "nineteen forty-seven",
+      "status": "pass"
+    },
+    {
+      "token": "April 16, 1947",
+      "intended_read": "April sixteenth, nineteen forty-seven",
+      "status": "pass"
+    },
+    {
+      "token": "nearly 600",
+      "intended_read": "nearly six hundred",
+      "status": "pass"
+    }
+  ],
+  "homographs_ambiguities": [
+    {
+      "token": "close",
+      "intended_read": "near or finish, resolved by local context",
+      "status": "pass"
+    },
+    {
+      "token": "record",
+      "intended_read": "noun record, resolved by local context",
+      "status": "pass"
+    },
+    {
+      "token": "object",
+      "intended_read": "noun object",
+      "status": "pass"
+    }
+  ],
+  "technical_mouthfuls": [
+    "ammonium nitrate fertilizer under heat and confinement",
+    "hazard communication / emergency response mismatch",
+    "material risk did not become operational distance fast enough",
+    "urgent exclusion, evacuation, or containment choices",
+    "shrapnel, blast force, fire, infrastructure damage, and mass casualties"
+  ],
+  "punctuation_pause_breathing_cadence": {
+    "status": "pass",
+    "notes": [
+      "Long sentences are punctuated with commas, colons, or sentence breaks.",
+      "Short rhetorical sentence clusters are intentional and should be preserved.",
+      "The final sign-off should stay as two separate sentences."
+    ]
+  },
+  "narration_boundary": {
+    "status": "pass",
+    "spoken_body": "essay body through `The legend fades. The receipts remain.`",
+    "non_spoken_notes": [
+      "top-of-file metadata",
+      "Review Notes For Final Fact-Check"
+    ],
+    "render_manifest_instruction": "Do not compile production notes into ElevenLabs spoken input."
+  },
+  "script_changes": [],
+  "remaining_risks": [],
+  "blockers": [],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "elevenlabs_preflight_read": "pass",
+  "updated_at": "2026-05-29T01:18:32Z",
+  "human_script_approval_for_audio_read": "pass"
+}

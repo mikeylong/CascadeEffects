@@ -37,26 +37,68 @@
     "frontier_model_script_critique_read": "pass",
     "critique_integration_read": "pass",
     "elevenlabs_preflight_read": "pass",
-    "human_script_approval_for_audio_read": "pending"
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
   },
   "pronunciation_sensitive_tokens": [
-    {"token": "Apollo 13", "intended_read": "Apollo thirteen", "status": "pass"},
-    {"token": "Apollo 10", "intended_read": "Apollo ten", "status": "pass"},
-    {"token": "oxygen tank 2 / tank 2", "intended_read": "oxygen tank two / tank two", "status": "pass"},
-    {"token": "NASA", "intended_read": "N A S A", "status": "pass"},
-    {"token": "Mission Control", "intended_read": "Mission Control", "status": "pass"},
-    {"token": "detanking / detanked", "intended_read": "dee-tanking / dee-tanked", "status": "pass"},
-    {"token": "Teflon", "intended_read": "TEF-lon", "status": "pass"},
-    {"token": "cryogenic tanks", "intended_read": "cryogenic tanks", "status": "pass"},
-    {"token": "fan-stir command / fan stir", "intended_read": "fan stir", "status": "pass"},
-    {"token": "fuel cells / fuel-cell loss", "intended_read": "fuel cells / fuel cell loss", "status": "pass"}
+    {
+      "token": "Apollo 13",
+      "intended_read": "Apollo thirteen",
+      "status": "pass"
+    },
+    {
+      "token": "Apollo 10",
+      "intended_read": "Apollo ten",
+      "status": "pass"
+    },
+    {
+      "token": "oxygen tank 2 / tank 2",
+      "intended_read": "oxygen tank two / tank two",
+      "status": "pass"
+    },
+    {
+      "token": "NASA",
+      "intended_read": "N A S A",
+      "status": "pass"
+    },
+    {
+      "token": "Mission Control",
+      "intended_read": "Mission Control",
+      "status": "pass"
+    },
+    {
+      "token": "detanking / detanked",
+      "intended_read": "dee-tanking / dee-tanked",
+      "status": "pass"
+    },
+    {
+      "token": "Teflon",
+      "intended_read": "TEF-lon",
+      "status": "pass"
+    },
+    {
+      "token": "cryogenic tanks",
+      "intended_read": "cryogenic tanks",
+      "status": "pass"
+    },
+    {
+      "token": "fan-stir command / fan stir",
+      "intended_read": "fan stir",
+      "status": "pass"
+    },
+    {
+      "token": "fuel cells / fuel-cell loss",
+      "intended_read": "fuel cells / fuel cell loss",
+      "status": "pass"
+    }
   ],
   "script_changes": [],
   "remaining_risks": [],
-  "blockers": [
-    "human_script_approval_for_audio_read is pending",
-    "audio render is not authorized until Mike/human approval is recorded for script sha256 e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704"
-  ],
-  "audio_render_authorized": false,
-  "next_gate": "human_script_approval_for_audio"
+  "blockers": [],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "updated_at": "2026-05-29T01:17:40Z",
+  "human_script_approval_for_audio_read": "pass",
+  "human_script_approval_for_audio_review_path": "episodes/season-02/ep09-apollo-13/reviews/human-script-approval-for-audio-keep.json",
+  "human_script_approval_for_audio_receipt_path": "episodes/season-02/ep09-apollo-13/receipts/human-script-approval-for-audio.json"
 }

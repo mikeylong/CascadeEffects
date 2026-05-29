@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-05-29T01:17:40Z",
+  "episode_id": "ep10-citicorp-center",
+  "gate": "human_script_approval_for_audio",
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "disposition": "keep",
+  "may_advance": true,
+  "script_path": "episodes/season-02/ep10-citicorp-center/source/longform-script.md",
+  "script_sha256_reviewed": "3353f2961ffddd6c24ffcfd6bc3ccec598a06b01126fc6e9decc507d7b74cd47",
+  "prerequisites": {
+    "frontier_model_script_critique": "pass",
+    "critique_integration": "pass",
+    "elevenlabs_preflight": "pass",
+    "script_hash_match": "pass"
+  },
+  "prerequisite_receipts": [
+    "episodes/season-02/ep10-citicorp-center/receipts/frontier-model-script-critique.json",
+    "episodes/season-02/ep10-citicorp-center/receipts/critique-integration.json",
+    "episodes/season-02/ep10-citicorp-center/receipts/elevenlabs-preflight.json"
+  ],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "review_notes": "Reviewed locked post-integration Citicorp Center script plus critique, integration, and ElevenLabs preflight receipts. The approved wind-tunnel render-side alias remains the only provider handling note; audio render is authorized only for the reviewed script hash."
+}

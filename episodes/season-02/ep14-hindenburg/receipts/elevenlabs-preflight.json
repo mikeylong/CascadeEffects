@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:03:28Z",
+  "episode_id": "ep14-hindenburg",
+  "gate": "elevenlabs_preflight",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep14-hindenburg/source/longform-script.md",
+  "script_sha256_reviewed": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
+  "script_revision_context": "post-critique-integration longform script",
+  "preflight_path": "episodes/season-02/ep14-hindenburg/source/elevenlabs-preflight.md",
+  "template_path": "ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md",
+  "helper": {
+    "path": "packages/media-pipeline/audio/scripts/pronunciation_preflight.py",
+    "command": "scan",
+    "job_count": 1,
+    "matched_job_count": 0,
+    "blockers": []
+  },
+  "lexicon": {
+    "path": "packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json",
+    "sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "rule_count": 11
+  },
+  "reads": {
+    "script_hash_match_read": "pass",
+    "pronunciation_ledger_read": "pass",
+    "acronym_initialism_read": "pass",
+    "names_places_entities_read": "pass",
+    "numbers_dates_units_read": "pass",
+    "homograph_ambiguity_read": "pass",
+    "technical_mouthful_read": "pass",
+    "punctuation_pause_breath_read": "pass",
+    "repeated_cadence_read": "pass",
+    "elevenlabs_rework_risk_read": "pass",
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "pronunciation_sensitive_tokens": [
+    {
+      "token": "Hindenburg",
+      "intended_read": "HIN-den-burg",
+      "status": "pass"
+    },
+    {
+      "token": "Lakehurst",
+      "intended_read": "Lake-hurst",
+      "status": "pass"
+    },
+    {
+      "token": "May 6, 1937",
+      "intended_read": "May sixth, nineteen thirty-seven",
+      "status": "pass"
+    },
+    {
+      "token": "Atlantic",
+      "intended_read": "Atlantic",
+      "status": "pass"
+    },
+    {
+      "token": "hydrogen",
+      "intended_read": "HY-dro-jen",
+      "status": "pass"
+    },
+    {
+      "token": "hydrogen-air mixture",
+      "intended_read": "hydrogen air mixture",
+      "status": "pass"
+    },
+    {
+      "token": "rear gas cells",
+      "intended_read": "rear gas cells",
+      "status": "pass"
+    },
+    {
+      "token": "gas-cell integrity / gas-cell issue",
+      "intended_read": "gas cell integrity / gas cell issue",
+      "status": "pass"
+    },
+    {
+      "token": "cells 4 and 5",
+      "intended_read": "cells four and five",
+      "status": "pass"
+    },
+    {
+      "token": "electrical discharge",
+      "intended_read": "electrical discharge",
+      "status": "pass"
+    },
+    {
+      "token": "landing and grounding conditions",
+      "intended_read": "landing and grounding conditions",
+      "status": "pass"
+    },
+    {
+      "token": "mooring / mooring mast / mooring procedure",
+      "intended_read": "MOOR-ing / MOOR-ing mast / MOOR-ing procedure",
+      "status": "pass"
+    },
+    {
+      "token": "rope handling",
+      "intended_read": "rope handling",
+      "status": "pass"
+    },
+    {
+      "token": "operating envelope / landing envelope",
+      "intended_read": "operating envelope / landing envelope",
+      "status": "pass"
+    },
+    {
+      "token": "fabric and covering system",
+      "intended_read": "fabric and covering system",
+      "status": "pass"
+    },
+    {
+      "token": "material and coating theories / coating debate",
+      "intended_read": "material and coating theories / coating debate",
+      "status": "pass"
+    },
+    {
+      "token": "paint-only / coating-only",
+      "intended_read": "paint only / coating only",
+      "status": "pass"
+    },
+    {
+      "token": "sabotage",
+      "intended_read": "SAB-uh-tazh",
+      "status": "pass"
+    },
+    {
+      "token": "public confidence",
+      "intended_read": "public confidence",
+      "status": "pass"
+    },
+    {
+      "token": "coupled failure / coupled system",
+      "intended_read": "coupled failure / coupled system",
+      "status": "pass"
+    },
+    {
+      "token": "mixture ratios",
+      "intended_read": "mixture ratios",
+      "status": "pass"
+    },
+    {
+      "token": "ship-and-ground system",
+      "intended_read": "ship and ground system",
+      "status": "pass"
+    },
+    {
+      "token": "changed-first frame",
+      "intended_read": "changed first frame",
+      "status": "pass"
+    },
+    {
+      "token": "mechanism-led story",
+      "intended_read": "mechanism led story",
+      "status": "pass"
+    },
+    {
+      "token": "point of no return",
+      "intended_read": "point of no return",
+      "status": "pass"
+    },
+    {
+      "token": "Thirty-five of the ninety-seven people aboard",
+      "intended_read": "thirty-five of the ninety-seven people aboard",
+      "status": "pass"
+    },
+    {
+      "token": "one member / one person of the ground crew",
+      "intended_read": "one member / one person of the ground crew",
+      "status": "pass"
+    },
+    {
+      "token": "Cascade Effects",
+      "intended_read": "Cascade Effects",
+      "status": "pass"
+    },
+    {
+      "token": "CAA / Bureau of Air Commerce",
+      "intended_read": "C A A / Bureau of Air Commerce",
+      "status": "pass"
+    },
+    {
+      "token": "Smithsonian",
+      "intended_read": "Smithsonian",
+      "status": "pass"
+    },
+    {
+      "token": "German investigation records",
+      "intended_read": "German investigation records",
+      "status": "pass"
+    },
+    {
+      "token": "minute-by-minute timing",
+      "intended_read": "minute by minute timing",
+      "status": "pass"
+    }
+  ],
+  "risks_count": 32,
+  "script_changes": [],
+  "remaining_risks": [],
+  "blockers": [],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "elevenlabs_preflight_read": "pass",
+  "human_script_approval_for_audio_read": "pass",
+  "human_script_approval_for_audio_review": "episodes/season-02/ep14-hindenburg/reviews/human-script-approval-for-audio-keep.json",
+  "human_script_approval_for_audio_receipt": "episodes/season-02/ep14-hindenburg/receipts/human-script-approval-for-audio.json",
+  "updated_at": "2026-05-29T01:17:33Z"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-05-29T01:17:40Z",
+  "episode_id": "ep09-apollo-13",
+  "gate": "human_script_approval_for_audio",
+  "reviewer": "Agent Mike",
+  "source": "chat instruction: okay, continue to next phase with subagents",
+  "disposition": "keep",
+  "may_advance": true,
+  "script_path": "episodes/season-02/ep09-apollo-13/source/longform-script.md",
+  "script_sha256_reviewed": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+  "prerequisites": {
+    "frontier_model_script_critique": "pass",
+    "critique_integration": "pass",
+    "elevenlabs_preflight": "pass",
+    "script_hash_match": "pass"
+  },
+  "prerequisite_receipts": [
+    "episodes/season-02/ep09-apollo-13/receipts/frontier-model-script-critique.json",
+    "episodes/season-02/ep09-apollo-13/receipts/critique-integration.json",
+    "episodes/season-02/ep09-apollo-13/receipts/elevenlabs-preflight.json"
+  ],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "review_notes": "Reviewed locked post-integration Apollo 13 script plus critique, integration, and ElevenLabs preflight receipts. No unresolved blockers remain beyond this approval; audio render is authorized only for the reviewed script hash."
+}

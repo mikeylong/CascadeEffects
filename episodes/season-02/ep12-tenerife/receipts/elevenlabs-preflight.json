@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:02:50Z",
+  "episode_id": "ep12-tenerife",
+  "gate": "elevenlabs_preflight",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep12-tenerife/source/longform-script.md",
+  "script_sha256_reviewed": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
+  "script_revision_context": "post-critique-integration longform script",
+  "preflight_path": "episodes/season-02/ep12-tenerife/source/elevenlabs-preflight.md",
+  "template_path": "ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md",
+  "helper": {
+    "path": "packages/media-pipeline/audio/scripts/pronunciation_preflight.py",
+    "command": "scan",
+    "job_count": 1,
+    "matched_job_count": 1,
+    "required_rule_ids": [
+      "faa_letters"
+    ],
+    "review_rule_ids": [],
+    "would_change_text": true,
+    "blockers": []
+  },
+  "lexicon": {
+    "path": "packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json",
+    "sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "rule_count": 11
+  },
+  "reads": {
+    "script_hash_match_read": "pass",
+    "pronunciation_ledger_read": "pass",
+    "acronym_initialism_read": "pass",
+    "names_places_entities_read": "pass",
+    "numbers_dates_units_read": "pass",
+    "homograph_ambiguity_read": "pass",
+    "technical_mouthful_read": "pass",
+    "punctuation_pause_breath_read": "pass",
+    "repeated_cadence_read": "pass",
+    "elevenlabs_rework_risk_read": "pass",
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pass",
+    "audio_render_authorized": true
+  },
+  "risks_count": 25,
+  "pronunciation_sensitive_tokens": [
+    {
+      "token": "Tenerife",
+      "intended_read": "ten-uh-REEF",
+      "status": "pass"
+    },
+    {
+      "token": "Los Rodeos",
+      "intended_read": "lohs roh-DAY-ohs",
+      "status": "pass"
+    },
+    {
+      "token": "KLM",
+      "intended_read": "K L M",
+      "status": "pass"
+    },
+    {
+      "token": "KLM 4805",
+      "intended_read": "K L M four eight zero five",
+      "status": "pass"
+    },
+    {
+      "token": "Pan Am",
+      "intended_read": "Pan Am",
+      "status": "pass"
+    },
+    {
+      "token": "Pan Am 1736",
+      "intended_read": "Pan Am seventeen thirty-six",
+      "status": "pass"
+    },
+    {
+      "token": "March 27, 1977",
+      "intended_read": "March twenty-seventh, nineteen seventy-seven",
+      "status": "pass"
+    },
+    {
+      "token": "747s",
+      "intended_read": "seven forty-sevens",
+      "status": "pass"
+    },
+    {
+      "token": "Las Palmas",
+      "intended_read": "lahs PAL-mahs",
+      "status": "pass"
+    },
+    {
+      "token": "ATC",
+      "intended_read": "A T C",
+      "status": "pass"
+    },
+    {
+      "token": "route clearance",
+      "intended_read": "route clearance",
+      "status": "pass"
+    },
+    {
+      "token": "takeoff clearance",
+      "intended_read": "takeoff clearance",
+      "status": "pass"
+    },
+    {
+      "token": "runway backtracking",
+      "intended_read": "runway backtracking",
+      "status": "pass"
+    },
+    {
+      "token": "runway occupancy / runway-occupancy",
+      "intended_read": "runway occupancy",
+      "status": "pass"
+    },
+    {
+      "token": "phraseology / nonstandard phraseology",
+      "intended_read": "fray-zee-AH-luh-jee / nonstandard fray-zee-AH-luh-jee",
+      "status": "pass"
+    },
+    {
+      "token": "simultaneous transmissions",
+      "intended_read": "simultaneous transmissions",
+      "status": "pass"
+    },
+    {
+      "token": "Crew Resource Management",
+      "intended_read": "Crew Resource Management",
+      "status": "pass"
+    },
+    {
+      "token": "CRM",
+      "intended_read": "C R M",
+      "status": "pass"
+    },
+    {
+      "token": "authority gradient",
+      "intended_read": "authority gradient",
+      "status": "pass"
+    },
+    {
+      "token": "flight engineer",
+      "intended_read": "flight engineer",
+      "status": "pass"
+    },
+    {
+      "token": "KLM refueling",
+      "intended_read": "K L M re-FYOO-uh-ling",
+      "status": "pass"
+    },
+    {
+      "token": "duty-time pressure",
+      "intended_read": "duty time pressure",
+      "status": "pass"
+    },
+    {
+      "token": "FAA",
+      "intended_read": "F A A",
+      "status": "pass"
+    },
+    {
+      "token": "CVR",
+      "intended_read": "C V R",
+      "status": "pass"
+    },
+    {
+      "token": "C-3/C-4",
+      "intended_read": "C three / C four",
+      "status": "pass"
+    }
+  ],
+  "script_changes": [],
+  "remaining_risks": [],
+  "blockers": [],
+  "audio_render_authorized": true,
+  "next_gate": "audio_keep",
+  "elevenlabs_preflight_read": "pass",
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pass",
+  "updated_at": "2026-05-29T01:18:30Z"
+}
