@@ -19,6 +19,79 @@ from inbox_app.review import (
 from inbox_app.review_brand import BrandTheme, load_signal_brand_theme
 
 
+ASSET_CHUNK_SIZE = 1024 * 1024
+
+REVIEW_NEUTRAL_THEME_OVERRIDES = {
+    "--alert": "#E8E8E8",
+    "--alert-soft": "rgba(232, 232, 232, 0.12)",
+    "--body-bg": "linear-gradient(180deg, #0E0E0E 0%, #191919 60%, #0E0E0E 100%)",
+    "--charcoal": "#4F4F4F",
+    "--ink": "#0E0E0E",
+    "--line": "rgba(255, 255, 255, 0.14)",
+    "--line-strong": "rgba(255, 255, 255, 0.28)",
+    "--muted": "#C7C7C7",
+    "--muted-soft": "#AFAFAF",
+    "--paper": "#171717",
+    "--paper-soft": "rgba(48, 48, 48, 0.94)",
+    "--paper-strong": "rgba(62, 62, 62, 0.98)",
+    "--parchment": "#242424",
+    "--signal": "#D8D8D8",
+    "--signal-soft": "rgba(216, 216, 216, 0.14)",
+    "--signal-wash": "rgba(216, 216, 216, 0.14)",
+    "--stage-bg": "linear-gradient(180deg, #353535 0%, #0E0E0E 100%)",
+    "--stage-line": "rgba(255, 255, 255, 0.12)",
+    "--text-inverse": "#F4F4F4",
+    "--text-primary": "#F4F4F4",
+    "--text-secondary-dark": "#CFCFCF",
+    "--white-12": "rgba(255, 255, 255, 0.12)",
+    "--white-24": "rgba(255, 255, 255, 0.24)",
+    "--white-60": "#CFCFCF",
+}
+
+
+class UnsatisfiableRange(ValueError):
+    pass
+
+
+def _parse_byte_range(range_header: str | None, file_size: int) -> tuple[int, int] | None:
+    if not range_header:
+        return None
+    unit, separator, raw_spec = range_header.partition("=")
+    if separator != "=" or unit.strip().lower() != "bytes":
+        return None
+    spec = raw_spec.strip()
+    if not spec or "," in spec:
+        return None
+    raw_start, dash, raw_end = spec.partition("-")
+    if dash != "-":
+        return None
+    start_text = raw_start.strip()
+    end_text = raw_end.strip()
+    if not start_text:
+        if not end_text.isdigit():
+            return None
+        suffix_length = int(end_text)
+        if suffix_length <= 0 or file_size <= 0:
+            raise UnsatisfiableRange
+        if suffix_length >= file_size:
+            return (0, file_size - 1)
+        return (file_size - suffix_length, file_size - 1)
+    if not start_text.isdigit():
+        return None
+    start = int(start_text)
+    if end_text:
+        if not end_text.isdigit():
+            return None
+        end = int(end_text)
+        if end < start:
+            raise UnsatisfiableRange
+    else:
+        end = file_size - 1
+    if file_size <= 0 or start >= file_size:
+        raise UnsatisfiableRange
+    return (start, min(end, file_size - 1))
+
+
 def _optional_request_text(value: Any) -> str | None:
     if value is None:
         return None
@@ -49,23 +122,14 @@ def _render_css_variables(css_variables: dict[str, str], *, indent: str = "     
 
 
 def _render_theme_styles(theme: BrandTheme) -> str:
+    base_variables = (theme.dark_css_variables or theme.css_variables) | REVIEW_NEUTRAL_THEME_OVERRIDES
+    color_scheme = "dark" if theme.dark_css_variables else "light"
     sections = [
         "    :root {",
-        _render_css_variables(theme.css_variables),
-        "      color-scheme: light;",
+        _render_css_variables(base_variables),
+        f"      color-scheme: {color_scheme};",
         "    }",
     ]
-    if theme.dark_css_variables:
-        sections.extend(
-            [
-                "    @media (prefers-color-scheme: dark) {",
-                "      :root {",
-                _render_css_variables(theme.dark_css_variables, indent="        "),
-                "        color-scheme: dark;",
-                "      }",
-                "    }",
-            ]
-        )
     return "\n".join(sections)
 
 
@@ -376,6 +440,21 @@ __THEME_STYLES__
     }
     .rail-empty {
       padding: 18px 16px;
+    }
+    .state-panel {
+      display: grid;
+      gap: 8px;
+      align-content: start;
+      max-width: 42rem;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--paper-strong);
+      color: var(--text-primary);
+      box-shadow: var(--shadow-panel);
+    }
+    .state-panel p {
+      margin: 0;
     }
     .phase-group {
       display: grid;
@@ -1348,6 +1427,48 @@ __THEME_STYLES__
       });
     }
 
+    function statePanelMarkup(title, message, role = "status") {
+      return `
+        <div class="state-panel" role="${escapeHtml(role)}">
+          <h2>${escapeHtml(title)}</h2>
+          <p class="empty">${escapeHtml(message)}</p>
+        </div>
+      `;
+    }
+
+    function renderRailStatus(message) {
+      setWorkspace();
+      railRoot.innerHTML = `
+        <div class="rail-header">
+          <p class="eyebrow">Review desk</p>
+          <h2>Inbox</h2>
+        </div>
+        <div class="rail-list">
+          <div class="rail-empty empty">${escapeHtml(message)}</div>
+        </div>
+      `;
+    }
+
+    function renderLoadingState() {
+      renderRailStatus("Loading review inbox...");
+      detailRoot.innerHTML = statePanelMarkup(
+        "Loading review inbox",
+        "Review gates and approval items will appear here once the inbox loads.",
+      );
+      renderHistory(null);
+    }
+
+    function renderLoadError(error) {
+      const message = error && error.message ? error.message : "Unable to load the review inbox.";
+      renderRailStatus("Review inbox failed to load.");
+      detailRoot.innerHTML = statePanelMarkup(
+        "Review inbox failed to load",
+        message,
+        "alert",
+      );
+      renderHistory(null);
+    }
+
     function captureRailScrollState() {
       const railList = railRoot ? railRoot.querySelector(".rail-list") : null;
       if (!railList) {
@@ -1787,7 +1908,11 @@ __THEME_STYLES__
 
     function detailMarkup(detail, previousMessageId) {
       if (!detail || !detail.message) {
-        return `<div class="empty">${escapeHtml(detail && detail.emptyMessage ? detail.emptyMessage : "No messages")}</div>`;
+        const title = detail && detail.emptyMessage ? detail.emptyMessage : "No messages";
+        const message = currentInbox && currentInbox.messages && currentInbox.messages.length
+          ? "No review items match the current filters."
+          : "Review items will appear here when an episode gate is ready.";
+        return statePanelMarkup(title, message);
       }
       const message = detail.message;
       const reviewContext = reviewContextMarkup(message);
@@ -2105,8 +2230,15 @@ __THEME_STYLES__
 
     async function loadInbox(preferredMessageId, pushHistory) {
       setWorkspace();
-      currentInbox = await fetchJson("/api/review/inbox");
-      await syncInboxView(preferredMessageId, selectedEpisodeIdFromUrl(), selectedStatusFilterFromUrl(), pushHistory, true);
+      renderLoadingState();
+      try {
+        currentInbox = await fetchJson("/api/review/inbox");
+        await syncInboxView(preferredMessageId, selectedEpisodeIdFromUrl(), selectedStatusFilterFromUrl(), pushHistory, true);
+      } catch (error) {
+        currentInbox = null;
+        syncViewState("", "all", "all", false);
+        renderLoadError(error);
+      }
     }
 
     async function submitAction(form, decision) {
@@ -2331,6 +2463,17 @@ def make_review_handler(
             self.send_header("Cache-Control", "no-store")
             self.end_headers()
 
+        def _write_file_bytes(self, path: Path, start: int, length: int) -> None:
+            remaining = length
+            with path.open("rb") as handle:
+                handle.seek(start)
+                while remaining > 0:
+                    chunk = handle.read(min(ASSET_CHUNK_SIZE, remaining))
+                    if not chunk:
+                        return
+                    self.wfile.write(chunk)
+                    remaining -= len(chunk)
+
         def _serve_asset(self, path_value: str) -> None:
             try:
                 path = ensure_allowed_asset_path(context, path_value)
@@ -2345,13 +2488,37 @@ def make_review_handler(
                 self._send_html(render_markdown_html(path.read_text(encoding="utf-8"), title=path.name, theme=theme))
                 return
             content_type, _encoding = mimetypes.guess_type(str(path))
-            body = path.read_bytes()
-            self.send_response(HTTPStatus.OK)
+            file_size = path.stat().st_size
+            try:
+                byte_range = _parse_byte_range(self.headers.get("Range"), file_size)
+            except UnsatisfiableRange:
+                self.send_response(HTTPStatus.REQUESTED_RANGE_NOT_SATISFIABLE)
+                self.send_header("Content-Type", content_type or "application/octet-stream")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Accept-Ranges", "bytes")
+                self.send_header("Content-Range", f"bytes */{file_size}")
+                self.send_header("Content-Length", "0")
+                self.end_headers()
+                return
+            if byte_range is None:
+                self.send_response(HTTPStatus.OK)
+                self.send_header("Content-Type", content_type or "application/octet-stream")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Accept-Ranges", "bytes")
+                self.send_header("Content-Length", str(file_size))
+                self.end_headers()
+                self._write_file_bytes(path, 0, file_size)
+                return
+            start, end = byte_range
+            content_length = end - start + 1
+            self.send_response(HTTPStatus.PARTIAL_CONTENT)
             self.send_header("Content-Type", content_type or "application/octet-stream")
             self.send_header("Cache-Control", "no-store")
-            self.send_header("Content-Length", str(len(body)))
+            self.send_header("Accept-Ranges", "bytes")
+            self.send_header("Content-Range", f"bytes {start}-{end}/{file_size}")
+            self.send_header("Content-Length", str(content_length))
             self.end_headers()
-            self.wfile.write(body)
+            self._write_file_bytes(path, start, content_length)
 
         def do_GET(self) -> None:
             parsed = urlparse(self.path)
