@@ -50,15 +50,16 @@ const seasonOneEpisodeUrl = (videoId: string, index: number) =>
 export const launchEpisodes: LaunchEpisode[] = [
   {
     id: 'challenger',
-    title: 'How the Warnings Stopped Working',
+    title: 'The Warning That Stopped Working',
     subject: 'Challenger',
     status: 'recorded',
     pillarId: 'one-decision',
     label: 'Design Failures · Launch Episode 01',
     summary:
-      'A chain of engineering warnings, schedule pressure, and normalized cold-weather risk turned one launch decision into catastrophe.',
+      'Repeated O-ring warnings became accepted operating history, so cold-weather risk shifted from a reason to stop into a burden the engineers had to prove.',
     scheduleLabel: 'Release date',
     scheduleValue: 'To be announced',
+    thumbnailCopy: 'WARNING IGNORED',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/challenger-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
@@ -67,15 +68,16 @@ export const launchEpisodes: LaunchEpisode[] = [
   },
   {
     id: 'therac-25',
-    title: 'The Machine That Was Trusted Too Early',
+    title: 'The Machine That Killed Without Warning',
     subject: 'Therac-25',
     status: 'launchingSoon',
     pillarId: 'design-failures',
     label: 'Design Failures · Launch Episode 02',
     summary:
-      'Software assumptions, interface design, and institutional disbelief combined to let lethal radiation overdoses repeat.',
+      'Software control, missing hardware interlocks, and institutional disbelief left a medical machine able to repeat lethal overdoses without an obvious warning.',
     scheduleLabel: 'Expected release',
     scheduleValue: 'To be announced',
+    thumbnailCopy: 'NO SAFETY LEFT',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/therac-25-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
@@ -90,9 +92,10 @@ export const launchEpisodes: LaunchEpisode[] = [
     pillarId: 'design-failures',
     label: 'Design Failures · Launch Episode 03',
     summary:
-      'A shop-drawing revision doubled the load on an already weak walkway connection, turning a routine fabrication change into catastrophe.',
+      'A shop-drawing revision looked like fabrication detail, but in the load path it doubled the force on a connection that was already too weak.',
     scheduleLabel: 'Expected release',
     scheduleValue: 'To be announced',
+    thumbnailCopy: 'DOUBLED THE LOAD',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/hyatt-regency-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
@@ -101,15 +104,16 @@ export const launchEpisodes: LaunchEpisode[] = [
   },
   {
     id: 'semmelweis',
-    title: 'The Evidence Medicine Rejected',
+    title: 'He Proved It. They Rejected It.',
     subject: 'Semmelweis',
     status: 'launchingSoon',
     pillarId: 'one-decision',
     label: 'One Decision · Launch Episode 04',
     summary:
-      'Hospital mortality ledgers exposed the cause chain, but the profession resisted what the evidence implied about its own routines.',
+      "The mortality evidence pointed back at doctors' own routines, so the proof threatened professional identity before medicine had a theory ready to absorb it.",
     scheduleLabel: 'Expected release',
     scheduleValue: 'To be announced',
+    thumbnailCopy: 'PROVED. REJECTED.',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/semmelweis-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
@@ -118,15 +122,16 @@ export const launchEpisodes: LaunchEpisode[] = [
   },
   {
     id: 'tacoma-narrows',
-    title: 'The Bridge That Lost Its Margin',
+    title: 'The Bridge That Taught Itself to Fly',
     subject: 'Tacoma Narrows',
     status: 'launchingSoon',
     pillarId: 'design-failures',
     label: 'Design Failures · Launch Episode 05',
     summary:
-      'A wind-structure feedback loop the design process had not accounted for turned visible oscillation into collapse.',
+      'The bridge did not need an extraordinary storm; its slender deck turned ordinary wind into motion the design process had not modeled.',
     scheduleLabel: 'Expected release',
     scheduleValue: 'To be announced',
+    thumbnailCopy: 'IT STARTED TO TWIST',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/tacoma-narrows-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
@@ -135,15 +140,16 @@ export const launchEpisodes: LaunchEpisode[] = [
   },
   {
     id: 'piltdown-man',
-    title: 'The Fossil That Flattered Authority',
+    title: 'The Perfect Hoax',
     subject: 'Piltdown Man',
     status: 'launchingSoon',
     pillarId: 'receipts',
     label: 'Receipts · Launch Episode 06',
     summary:
-      'A flattering fossil story survived because authority, expectation, and weak scrutiny protected the lie.',
+      'A fossil story survived because it flattered expectation, prestige limited scrutiny, and institutions accepted evidence that told them they were right.',
     scheduleLabel: 'Expected release',
     scheduleValue: 'To be announced',
+    thumbnailCopy: '41 YEARS WRONG',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/piltdown-man-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
@@ -152,15 +158,16 @@ export const launchEpisodes: LaunchEpisode[] = [
   },
   {
     id: '737-max',
-    title: 'The Hidden System That Moved the Risk',
+    title: 'The System That Fought the Pilot',
     subject: '737 MAX',
     status: 'launchingSoon',
     pillarId: 'design-failures',
     label: 'Design Failures · Launch Episode 07',
     summary:
-      'A hidden flight-control behavior moved risk onto crews who had been trained to believe the aircraft was familiar.',
+      'A hidden control behavior moved risk onto crews who had been trained to treat the aircraft as familiar, even after the system had changed.',
     scheduleLabel: 'Expected release',
     scheduleValue: 'To be announced',
+    thumbnailCopy: 'HIDDEN FROM PILOTS',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/737-max-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
@@ -169,15 +176,16 @@ export const launchEpisodes: LaunchEpisode[] = [
   },
   {
     id: 'titanic',
-    title: 'Legal, Compliant, and Not Safe',
+    title: 'The Law Said It Was Safe',
     subject: 'Titanic',
     status: 'launchingSoon',
     pillarId: 'receipts',
     label: 'Mystery That Has Receipts · Launch Episode 08',
     summary:
-      'A ship could be legal, compliant, and still unsafe when lifeboat regulation lagged behind scale.',
+      'Titanic satisfied the lifeboat rules, but the rules had not kept up with scale, turning compliance into a false safety signal.',
     scheduleLabel: 'Expected release',
     scheduleValue: 'To be announced',
+    thumbnailCopy: 'LEGAL. NOT SAFE.',
     thumbnailSrc:
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/titanic-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
