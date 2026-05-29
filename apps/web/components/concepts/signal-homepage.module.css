@@ -105,7 +105,8 @@
 }
 
 .headerLink:hover,
-.footerHandle:hover {
+.footerHandle:hover,
+.footerLink:hover {
   color: color-mix(in srgb, var(--color-white) 68%, var(--color-signal));
 }
 
@@ -188,7 +189,8 @@
     clamp(2.4rem, 7vw, 4.75rem);
 }
 
-.footerHandle {
+.footerHandle,
+.footerLink {
   margin: 0;
   color: var(--home-color-muted);
   font-family: var(--font-mono), var(--font-ui-family), monospace;
@@ -617,7 +619,8 @@
   border-top: 1px solid var(--home-color-border);
 }
 
-.footerHandle {
+.footerHandle,
+.footerLink {
   display: inline-flex;
   color: var(--home-color-text-primary);
 }

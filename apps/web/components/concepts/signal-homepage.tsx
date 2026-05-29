@@ -8,6 +8,7 @@ import {
 } from '@/lib/site-facts';
 import { Mail } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { SignalHomepageFeed } from '@/components/concepts/signal-homepage-feed';
 import { SignalHomepageHeader } from '@/components/concepts/signal-homepage-header';
 
@@ -94,6 +95,9 @@ export function SignalHomepage({ theme, content }: SignalHomepageProps) {
         >
           {siteIdentity.handle}
         </a>
+        <Link className={styles.footerLink} href="/origin-story">
+          Origin Story
+        </Link>
       </footer>
     </main>
   );
