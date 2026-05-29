@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T23:14:20Z",
+  "revised_at": "2026-05-28T23:27:49Z",
+  "episode_id": "ep14-hindenburg",
+  "gate": "writer_packet",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "source_audit_disposition": "keep",
+  "writer_packet_path": "episodes/season-02/ep14-hindenburg/source/writer-packet.md",
+  "mechanism": "prestige system / hidden material-operational risk",
+  "primary_lane": "Design Failures That Changed the World",
+  "compact_target_minutes": "12-18",
+  "next_gate": "longform_script",
+  "revision": {
+    "owner": "agent-ep14-writer",
+    "inputs": [
+      "episodes/season-02/ep14-hindenburg/source/source-audit.md",
+      "ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md",
+      "ops/agents/skills/cascade_effects_series_bible_v1/references/cascade_effects_full_episode_table_1_186.md row 14"
+    ],
+    "summary": [
+      "Strengthened changed-first framing around the landing/mooring envelope rather than the fireball.",
+      "Separated official evidence from Cascade Effects interpretation and explicitly preserved uncertainty around leak and ignition source.",
+      "Rebuilt the compact 10-part spine for a 12-18 minute mechanism-led episode.",
+      "Added title directions, thumbnail direction, research needs, and review questions for human/Mike disposition."
+    ],
+    "gate_preserved": {
+      "status": "review_ready",
+      "may_advance": false,
+      "human_gate_required": true
+    }
+  },
+  "guardrails": [
+    "Leak cause and exact spark source are uncertain.",
+    "Sabotage was investigated but not proven.",
+    "Coating/paint theory is not settled and must not become the spine.",
+    "Avoid simplistic hydrogen-only framing."
+  ],
+  "blockers": [
+    "Needs human/Mike writer-packet disposition before script drafting.",
+    "Original 1-31 source row remains missing; canonical row is reconstructed."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:21:45Z",
+  "episode_id": "ep16-aberfan",
+  "gate": "longform_script",
+  "status": "keep",
+  "may_advance": false,
+  "human_gate_required": true,
+  "source_pass_path": "source/tribunal-warning-source-pass.md",
+  "source_inputs": [
+    "episode.toml",
+    "source/source-audit.md",
+    "source/writer-packet.md",
+    "reviews/writer-packet-keep.json",
+    "https://assets.publishing.service.gov.uk/media/5a796248e5274a3864fd68f6/InquiriesIncidentTheAberfanDisaster21October1966.pdf",
+    "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/aberfan-disaster-lessons-learned"
+  ],
+  "findings_summary": [
+    "The warning frame is strong enough for narration if split into visible industrial placement, water/drainage conditions, prior instability, raised concerns, weak tip policy, and National Coal Board accountability.",
+    "The official inquiry digest supports the tribunal frame of clear warnings, lack of direction from above, and Coal Board fault.",
+    "The Institution of Civil Engineers source supports the physical mechanism around springs, streams, water buildup, Tip 7, prior instability, absence of governing law, and absence of an NCB tipping policy.",
+    "The National Library tribunal PDF URL in the existing audit presented a verification page during this pass, so direct tribunal-page claims should be verified later before final fact-check."
+  ],
+  "narration_safe_claims": [
+    "Aberfan was a preventable industrial disaster, not a natural hillside accident.",
+    "The visible hazard was coal spoil placed above a village and Pantglas Junior School.",
+    "Water, springs, streams, drainage, and saturated spoil are safe to use as the physical failure frame.",
+    "Prior instability and raised concerns are safe as warning categories, but detailed chronology should wait for direct tribunal verification.",
+    "The National Coal Board responsibility frame is safe, including the tribunal's preventability/accountability posture.",
+    "Post-disaster tips law can close the episode as evidence that the category of risk was formalized after consequence."
+  ],
+  "cautions": [
+    "Do not invent scenes, dialogue, named local complaints, or exact internal NCB knowledge dates.",
+    "Do not make maps or documents the emotional center of the episode.",
+    "Do not over-center royal response, media memory, charity-fund disputes, or broad Welsh coal history.",
+    "Do not narrate the blocked National Library PDF as directly read in this pass."
+  ],
+  "next_action": "Proceed to a review-ready longform script draft, with later frontier critique and human approval still required before audio."
+}

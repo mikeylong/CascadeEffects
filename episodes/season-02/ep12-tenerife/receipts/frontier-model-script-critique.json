@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:34:46Z",
+  "episode_id": "ep12-tenerife",
+  "gate": "frontier_model_critique",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "critic_model": "frontier GPT-5-class model",
+  "critic_tool": "Codex subagent",
+  "substitution_rationale": "User requested spawned Codex agents; Claude tool unavailable in current tool context; critique performed by Codex subagent using inherited frontier GPT-5-class model.",
+  "script_path": "episodes/season-02/ep12-tenerife/source/longform-script.md",
+  "script_sha256_reviewed": "7d02a3eb4f77e0c12b1f52159165493ed9d470463d81e2a62dfd0ff17b5b6332",
+  "critique_path": "episodes/season-02/ep12-tenerife/source/frontier-model-script-critique.md",
+  "required_changes": [
+    "Replace captain-villain/personality-risk phrasing without softening the official direct cause.",
+    "Make ATC route clearance versus takeoff clearance explicit.",
+    "Replace generic runway-clearance wording with takeoff-clearance wording.",
+    "Keep the CRM closing beat tied to challenge, command responsibility, and unresolved safety information.",
+    "Keep human script approval pending and audio render unauthorized."
+  ],
+  "optional_changes": [
+    "Later human rhythm pass may reduce repeated rhetorical structures.",
+    "Exact CVR quotations remain deferred until verified against official report or FAA Lessons Learned source."
+  ],
+  "source_factual_cautions": [
+    "The official direct cause remains KLM takeoff without clearance while Pan Am was still on the runway.",
+    "Las Palmas bombing and KLM refueling are context/contributors, not direct factors.",
+    "Do not claim Tenerife single-handedly created modern CRM."
+  ],
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "Human/Mike script approval for audio remains pending.",
+    "Audio render is not authorized."
+  ],
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pending",
+    "human_script_approval_for_audio_read": "pending",
+    "audio_render_authorized": false,
+    "elevenlabs_preflight_read": "pending"
+  },
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pending",
+  "human_script_approval_for_audio_read": "pending",
+  "audio_render_authorized": false,
+  "updated_at": "2026-05-29T00:49:07Z",
+  "script_sha256_current": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
+  "elevenlabs_preflight_read": "pending",
+  "next_gate": "elevenlabs_preflight"
+}

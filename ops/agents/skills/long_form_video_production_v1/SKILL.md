@@ -25,6 +25,9 @@ The long-form video is the canonical episode. Existing Shorts are bridge assets 
 - Living Cover system spec: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/living_cover_system_spec_v1.md)
 - Episode visual-system baselines: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/episode_visual_system_baselines/index.json)
 - Production output contract registry: [/Users/mike/CascadeEffects/packages/contracts/cascade_effects_output_contracts.v1.json](/Users/mike/CascadeEffects/packages/contracts/cascade_effects_output_contracts.v1.json)
+- ElevenLabs/TTS pronunciation preflight helper: [/Users/mike/CascadeEffects/packages/media-pipeline/audio/scripts/pronunciation_preflight.py](/Users/mike/CascadeEffects/packages/media-pipeline/audio/scripts/pronunciation_preflight.py)
+- ElevenLabs/TTS known risk lexicon: [/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json](/Users/mike/CascadeEffects/packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json)
+- ElevenLabs/TTS preflight template: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md)
 - Publish-readiness backfill prompt: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/publish_readiness_backfill_prompt.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/publish_readiness_backfill_prompt.md)
 - VO/outro blend backfill prompt: [/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/vo_outro_blend_backfill_prompt.md](/Users/mike/CascadeEffects/ops/agents/skills/long_form_video_production_v1/references/vo_outro_blend_backfill_prompt.md)
 - YouTube metadata copywriting: [/Users/mike/CascadeEffects/ops/agents/skills/youtube_metadata_copywriting_v1/SKILL.md](/Users/mike/CascadeEffects/ops/agents/skills/youtube_metadata_copywriting_v1/SKILL.md)
@@ -35,8 +38,8 @@ The long-form video is the canonical episode. Existing Shorts are bridge assets 
 This skill may produce or update:
 
 - episode asset inventory
-- frontier-model script critique packet and integration note before long-form audio render
-- human script approval record for audio render authorization
+- frontier-model script critique packet, integration note, and ElevenLabs/TTS preflight before long-form audio render
+- human script approval record after ElevenLabs/TTS preflight for audio render authorization
 - long-form video production plan
 - visual system plan guided by the brand contracts
 - Living Cover visual-system plan and HTML rough-proof packets using `living_cover_system_v1`
@@ -57,7 +60,7 @@ This skill must not:
 - make public uploads or change YouTube visibility
 - treat legacy visual artifacts as active without explicit human review
 - replace approved long-form audio masters unless the user explicitly requests audio revision
-- render, promote, or keep long-form voice audio from a script that lacks both frontier-model script critique and explicit human script approval for audio
+- render, promote, or keep long-form voice audio from a script that lacks frontier-model script critique, ElevenLabs/TTS preflight, and explicit human script approval for audio
 - invent a per-episode visual system before checking the brand contracts
 - start episode source-art, backplate, or Living Cover visual-system work from scratch when an episode baseline exists; load the baseline first and record any deviation
 - advance a phase without a recorded human review disposition
@@ -66,10 +69,11 @@ This skill must not:
 
 - Long-form videos are watchable audio essays: audio-first, video-aware, easy to produce, and still worth looking at.
 - Local HTML media reviews must be served through the repo range server, never `python -m http.server`, plain `file://`, or another server that has not passed a `Range: bytes=0-1023` probe. Before giving a local review URL for any long-form proof, final, publish-readiness package, or other page with audio/video scrubbing, start or verify `node scripts/range_static_server.mjs 8766 /Users/mike/CascadeEffects/archive/season-01-reference/original-episodes`, then run `node scripts/probe_review_range_server.mjs REVIEW_URL`. The probe must return `206 Partial Content` plus `Accept-Ranges: bytes` and `Content-Range`; record/pass `html_range_server_read` or the packet-specific equivalent. If the probe fails, stop and fix the server before asking for human review.
-- Long-form audio render authorization is a hard pre-audio gate. Before sending any long-form script to ElevenLabs, OpenAI, or another TTS provider, the exact script revision must have: `frontier_model_script_critique_read: pass`, `critique_integration_read: pass`, and `human_script_approval_for_audio_read: pass`.
+- Long-form audio render authorization is a hard pre-audio gate. Before sending any long-form script to ElevenLabs, OpenAI, or another TTS provider, the exact script revision must have: `frontier_model_script_critique_read: pass`, `critique_integration_read: pass`, `elevenlabs_preflight_read: pass`, and `human_script_approval_for_audio_read: pass`.
 - Claude is the default frontier-model script critic unless unavailable or explicitly replaced by a human-approved equivalent frontier model. Record the critic model/tool, critique prompt or transcript path/hash, script path/hash reviewed, critique summary, required changes, integration/defer rationale, post-integration script path/hash, and final human approval artifact.
+- ElevenLabs/TTS preflight is mandatory after critique integration and before human script approval for audio. Record the exact post-integration script path/hash reviewed, pronunciation and spelling ledger, acronym/initialism handling, number/date/unit reads, homograph and ambiguity reads, mouthful technical phrases, punctuation/pause/breathing adjustments, repeated cadence risks, and any provider-specific pronunciation-dictionary or alternate-spelling plan. If any line is likely to force a TTS rework or re-record after render, revise the script or record a named blocker before human approval.
 - A TOML `script.status = "locked"` value is not enough to authorize long-form audio rendering. It only identifies the candidate source text; it does not satisfy frontier critique, integration, or human approval.
-- Existing audio rendered without the frontier-model critique and human script approval records is `diagnostic_only` or `review_ready_blocked_missing_script_gate`. It cannot be marked `keep`, cannot satisfy the Episode Package Gate, and cannot open Visual System, Rough Assembly, Final Assembly, Publish Readiness, upload, or release until the missing script gate is backfilled or an explicit human waiver names the episode and affected output.
+- Existing audio rendered without the frontier-model critique, ElevenLabs/TTS preflight, and human script approval records is `diagnostic_only` or `review_ready_blocked_missing_script_gate`. It cannot be marked `keep`, cannot satisfy the Episode Package Gate, and cannot open Visual System, Rough Assembly, Final Assembly, Publish Readiness, upload, or release until the missing script gate is backfilled or an explicit human waiver names the episode and affected output.
 - The video should feel like a living cover: ambient motion, structured chapters, occasional visual punctuation, and strong sonic identity.
 - Receipts/legend long-form episodes should use `long_form_receipts_legend_signoff_v1` when the public story, myth, or legend is narrowed by source evidence: `The legend fades. The receipts remain.` This sign-off follows the episode-specific synthesis and any series motif such as `The failure was real. The cause chain was longer.` If this terminal VO changes after audio is rendered, the existing WAV, transcripts, timing sidecars, audio source integrity report, and audio review note become stale until a fresh approved-script render proves the new line.
 - Living Cover cues must be planned as an explicit artifact before rough assembly. The cue map records chapter shifts, key phrase typography, effect-map moments, source-safe motion/composition treatments, caption/rail coordination, and QA reads. It is an internal production artifact, not a rendered UI layer: never add a standalone visible `Living Cover Cue`, cue-card, cue-panel, node list, diagnostic label, or implementation-status panel to a viewer-facing proof unless a human explicitly approves that surface. Do not rely on a generic chapter map alone to prove that the episode feels authored.
@@ -183,8 +187,9 @@ Confirm:
 - long-form audio is current and usable
 - frontier-model script critique exists for the exact script revision used by the audio render
 - required critique changes are integrated, or deferred with explicit rationale and human approval
-- explicit human script approval for audio render exists after critique integration
-- audio source integrity proves the long-form audio was rendered from the approved post-critique script revision
+- ElevenLabs/TTS preflight exists for the exact post-integration script revision, and all pronunciation, acronym, number/date/unit, homograph, punctuation/pause, and mouthful-phrasing risks are passed, integrated, or explicitly blocked
+- explicit human script approval for audio render exists after critique integration and ElevenLabs/TTS preflight
+- audio source integrity proves the long-form audio was rendered from the approved post-preflight script revision
 - episode mechanism, promise, chapter spine, and CTA path are clear
 - the episode answers: what changed, who failed to recognize the change, and how the system converted that blindness into consequence
 - existing Short bridge, playlist path, or next-video path is identified when available
@@ -390,6 +395,7 @@ episode_id:
 long_form_audio:
 frontier_model_script_critique:
 critique_integration:
+elevenlabs_preflight:
 human_script_approval_for_audio:
 script_audio_source_integrity:
 existing_short_bridge:
@@ -426,8 +432,8 @@ Only a clear human approval may set `disposition: keep` for a phase. Even then, 
 ## Operating Rules
 
 - If asked to start long-form video production, begin at the Inventory Gate unless an inventory already exists and is human-approved.
-- If asked to render, generate, refresh, promote, or keep long-form voice audio, first confirm frontier-model script critique, critique integration, and explicit human script approval for audio are passing for the exact script revision. If any are missing, do not render audio; create or update a blocker/backfill packet instead.
-- If existing long-form audio was already rendered without the script gate, mark it diagnostic/review-only and block downstream advancement until the critique, integration, and human approval records are backfilled or a human waiver is recorded.
+- If asked to render, generate, refresh, promote, or keep long-form voice audio, first confirm frontier-model script critique, critique integration, ElevenLabs/TTS preflight, and explicit human script approval for audio are passing for the exact script revision. If any are missing, do not render audio; create or update a blocker/backfill packet instead.
+- If existing long-form audio was already rendered without the script gate, mark it diagnostic/review-only and block downstream advancement until the critique, integration, ElevenLabs/TTS preflight, and human approval records are backfilled or a human waiver is recorded.
 - If asked to build visuals, confirm the Episode Package Gate and Visual System Gate are `keep` first.
 - If asked to bootstrap or incept an episode, create the stable local lifecycle review packet and publish its placeholder manifest to cascadeeffects.tv unless `--skip-remote-review` is explicitly used. Missing Vercel Blob credentials should leave the local packet in place and fail loudly.
 - If asked to build a Living Cover rough proof, confirm the cue map, ambient/effects layer, and music integration contract artifacts exist; missing cue/ambient artifacts block motion readiness and rough assembly, and a missing music contract or waiver sets `review_ready_blocked_missing_music_contract`.
@@ -445,7 +451,8 @@ Only a clear human approval may set `disposition: keep` for a phase. Even then, 
 
 - If the brand contracts are missing or unreadable, block the Visual System Gate and name the missing path.
 - If Claude is unavailable, use another human-approved frontier model for script critique and record the substitution rationale.
-- If a script is marked `locked` but lacks frontier-model critique, critique integration, or human approval for audio, block long-form audio render and treat any already-rendered audio as diagnostic-only.
+- If a script is marked `locked` but lacks frontier-model critique, critique integration, ElevenLabs/TTS preflight, or human approval for audio, block long-form audio render and treat any already-rendered audio as diagnostic-only.
+- If the ElevenLabs/TTS preflight finds pronunciation, acronym, number/date/unit, homograph, punctuation/pause, or mouthful-phrasing risks that could plausibly force rework after render, keep `elevenlabs_preflight_read: tighten|blocked`, revise the exact script revision or record the unresolved blocker, and do not ask for human audio approval until it is cleared.
 - If existing audio is stale, missing, or mismatched to the episode package, block and route to audio/script refresh.
 - If an episode has no approved music contract yet, use the Challenger-style default as the planning baseline. Hyatt, Tacoma, and other future long-form episodes must remain blocked at rough-proof keep/final/publish gates or carry an explicit human-approved alternate/waiver until their music contract exists.
 - If an existing Short has unresolved rights, final-export, or publish-review blockers, list it as a bridge candidate but do not treat it as publish-ready.

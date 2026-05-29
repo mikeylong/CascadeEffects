@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:20:57Z",
+  "updated_at": "2026-05-29T00:56:17Z",
+  "episode_id": "ep09-apollo-13",
+  "gate": "longform_script",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep09-apollo-13/source/longform-script.md",
+  "script_sha256": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+  "pre_critique_script_sha256": "175850ba891e5f9d2b726725c2f959e2c2773fd1d3cef667bb6dff2dddfa4c98",
+  "source_inputs": [
+    "episodes/season-02/ep09-apollo-13/episode.toml",
+    "episodes/season-02/ep09-apollo-13/source/source-audit.md",
+    "episodes/season-02/ep09-apollo-13/source/writer-packet.md",
+    "episodes/season-02/ep09-apollo-13/reviews/writer-packet-keep.json",
+    "ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md",
+    "/Users/mike/.codex/skills/write-like-mike/SKILL.md",
+    "/Users/mike/.codex/skills/write-like-mike/references/style-profile.md"
+  ],
+  "review_note_source": "episodes/season-02/ep09-apollo-13/reviews/writer-packet-keep.json",
+  "critique_receipt": "episodes/season-02/ep09-apollo-13/receipts/frontier-model-script-critique.json",
+  "integration_receipt": "episodes/season-02/ep09-apollo-13/receipts/critique-integration.json",
+  "audio_render_authorized": false,
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pending",
+  "next_gate": "human_script_approval_for_audio",
+  "blockers": [
+    "human_script_approval_for_audio_read is pending; audio render is not authorized until Mike/human approval is recorded for script sha256 e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+    "human_script_approval_for_audio_read is pending",
+    "audio render is not authorized until Mike/human approval is recorded for this exact post-integration script revision"
+  ],
+  "script_sha256_current": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+  "elevenlabs_preflight_read": "pass",
+  "elevenlabs_preflight_path": "episodes/season-02/ep09-apollo-13/source/elevenlabs-preflight.md",
+  "elevenlabs_preflight_receipt": "episodes/season-02/ep09-apollo-13/receipts/elevenlabs-preflight.json"
+}

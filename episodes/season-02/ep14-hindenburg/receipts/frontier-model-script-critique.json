@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:38:58Z",
+  "episode_id": "ep14-hindenburg",
+  "gate": "frontier_model_script_critique",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "critic_model_tool": "Codex subagent using inherited frontier GPT-5-class model",
+  "critic_model": "frontier GPT-5-class model",
+  "critic_tool": "Codex subagent",
+  "substitution_rationale": "User requested spawned Codex agents; Claude tool unavailable in current tool context; critique performed by Codex subagent using inherited frontier GPT-5-class model.",
+  "script_path": "episodes/season-02/ep14-hindenburg/source/longform-script.md",
+  "script_sha256_reviewed": "6ad14e218c95e6124a42ede3367ffcf849bb5f549c73198a6af9bf09f07f6877",
+  "critique_path": "episodes/season-02/ep14-hindenburg/source/frontier-model-script-critique.md",
+  "required_changes": [
+    {
+      "id": "replace-bomb-like-public-explosion-language",
+      "status": "integrated",
+      "summary": "Replace public-explosion wording with visible-fire language."
+    },
+    {
+      "id": "tighten-template-cadence",
+      "status": "integrated",
+      "summary": "Reduce repeated That-is cadence and aphorism-like beats."
+    },
+    {
+      "id": "clarify-mechanism-vs-memory",
+      "status": "integrated",
+      "summary": "Make the Chapter 3 mechanism summary narratable while preserving official uncertainty."
+    },
+    {
+      "id": "tighten-final-frame",
+      "status": "integrated",
+      "summary": "Convert the final object/envelope contrast into one complete closing claim."
+    }
+  ],
+  "optional_changes": [
+    "Lock exact official report wording before final audio approval if direct quotations are introduced.",
+    "Add exact Lakehurst timing only after a source-locked timeline pass.",
+    "Defer audience-facing title and thumbnail optimization to the packaging gate."
+  ],
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "human_script_approval_for_audio_read is pending; audio render remains unauthorized"
+  ],
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "human_script_approval_for_audio_read": "pending",
+    "audio_render_authorized": false,
+    "elevenlabs_preflight_read": "pending"
+  },
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pending",
+  "audio_render_authorized": false,
+  "updated_at": "2026-05-29T00:49:07Z",
+  "script_sha256_current": "a641cc87718d01f7d9e9f609bc4c449ac97e41cabcc26f5ed4908d8a59022839",
+  "elevenlabs_preflight_read": "pending",
+  "next_gate": "elevenlabs_preflight"
+}

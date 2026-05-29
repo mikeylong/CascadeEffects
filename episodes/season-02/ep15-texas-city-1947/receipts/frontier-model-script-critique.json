@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:39:20Z",
+  "episode_id": "ep15-texas-city-1947",
+  "gate": "frontier_model_script_critique",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "critic_model_tool": "Codex subagent using inherited frontier GPT-5-class model",
+  "critic_model": "frontier GPT-5-class model",
+  "critic_tool": "Codex subagent",
+  "substitution_rationale": "User requested spawned Codex agents; Claude tool unavailable in current tool context; critique performed by Codex subagent using inherited frontier GPT-5-class model.",
+  "script_path": "episodes/season-02/ep15-texas-city-1947/source/longform-script.md",
+  "script_sha256_reviewed": "2fa8b4f8f6df99c33f255c3be4efd0fd863af33f89b708ffe737b3c449e77ea8",
+  "critique_path": "episodes/season-02/ep15-texas-city-1947/source/frontier-model-script-critique.md",
+  "required_changes": [
+    {
+      "id": "cold-open-hazard-translation-frame",
+      "status": "integrated",
+      "summary": "Tighten the cold-open object frame so it names failed hazard translation rather than implying the public story chose the wrong object."
+    },
+    {
+      "id": "reduce-repeated-changed-cargo-rhythm",
+      "status": "integrated",
+      "summary": "Vary repeated changed-cargo phrasing toward material risk, emergency category, and operational distance."
+    },
+    {
+      "id": "high-flyer-cascade-proof",
+      "status": "integrated",
+      "summary": "Strengthen High Flyer as proof that the port had become the failure surface beyond Grandcamp."
+    },
+    {
+      "id": "series-bible-receipts-legend-signoff",
+      "status": "integrated",
+      "summary": "Add the canonical receipts/legend terminal sign-off for a familiar public story narrowed by source evidence."
+    }
+  ],
+  "optional_changes": [
+    "Final fact-check can enrich fire discovery, response actions, first blast, High Flyer exposure, secondary explosion timing, and death-toll wording once source-separated chronology is staged."
+  ],
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "human_script_approval_for_audio_read is pending; audio render remains unauthorized"
+  ],
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "human_script_approval_for_audio_read": "pending",
+    "audio_render_authorized": false,
+    "elevenlabs_preflight_read": "pending"
+  },
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pending",
+  "audio_render_authorized": false,
+  "updated_at": "2026-05-29T00:49:07Z",
+  "script_sha256_current": "76b2a765b2a4c541fa6a67723277899deb08295b1e35807b9f551caaa24542c2",
+  "elevenlabs_preflight_read": "pending",
+  "next_gate": "elevenlabs_preflight"
+}

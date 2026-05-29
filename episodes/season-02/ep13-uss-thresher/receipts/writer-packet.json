@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T23:14:20Z",
+  "revised_at": "2026-05-28T23:27:45Z",
+  "episode_id": "ep13-uss-thresher",
+  "gate": "writer_packet",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "source_audit_disposition": "keep",
+  "writer_packet_path": "episodes/season-02/ep13-uss-thresher/source/writer-packet.md",
+  "canonical_row_status": "reconstructed_starter_backlog_original_source_row_missing",
+  "mechanism": "complex system failure under test conditions: test depth compressed probable flooding, power, emergency blow, and rescue limits into one narrowing recovery envelope",
+  "primary_lane": "Design Failures That Changed the World",
+  "target_runtime_minutes": "12-18",
+  "revision_summary": [
+    "Strengthened changed-first framing around test depth changing the recovery envelope.",
+    "Separated source-supported evidence from interpretation to test during script research.",
+    "Expanded compact 10-part spine for a 12-18 minute episode.",
+    "Added title directions, thumbnail direction, research needs, and review questions.",
+    "Preserved caution around inconclusive initiating cause, probable/postulated flooding, partial final communications, and avoiding individual blame."
+  ],
+  "evidence_basis": [
+    "Local source audit for ep13-uss-thresher.",
+    "Canonical table row 13 in cascade_effects_full_episode_table_1_186.md."
+  ],
+  "guardrails": [
+    "Do not state a single initiating cause as proven.",
+    "Treat brazed-joint failure, flooding, and the exact casualty chain as probable or postulated unless a primary source supports stronger language.",
+    "Present final communications as partial or garbled evidence, not a clean transcript scene.",
+    "Avoid individual-blame framing; center design, fabrication, QA, procedure, testing, and rescue-limit coupling."
+  ],
+  "review_questions": [
+    "Is the changed-first frame specific enough: test depth changed the recovery envelope before the system fully recognized the casualty?",
+    "Does the packet preserve enough uncertainty around initiating cause while still giving the episode a strong mechanism?",
+    "Should SUBSAFE be introduced early as a promise of consequence, or reserved for the final third as the institutional answer?",
+    "Which title direction best balances familiarity and mechanism without implying a solved mystery?"
+  ],
+  "next_gate": "longform_script",
+  "blockers": [
+    "Needs human/Mike writer-packet disposition before script drafting.",
+    "Initiating cause remains inconclusive; script stage must keep probable flooding and electrical/propulsion chain as postulated unless primary-source review supports stronger language."
+  ]
+}

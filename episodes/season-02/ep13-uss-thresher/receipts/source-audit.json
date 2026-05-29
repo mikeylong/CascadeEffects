@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T22:56:50Z",
+  "episode_id": "ep13-uss-thresher",
+  "gate": "source_audit",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "agent_mike_role": "advisory_reviewer_only",
+  "source_row": {
+    "table": "ops/agents/skills/cascade_effects_series_bible_v1/references/cascade_effects_full_episode_table_1_186.md",
+    "row": 13,
+    "status": "reconstructed_starter_backlog_source_row_missing"
+  },
+  "authority_stack": [
+    {
+      "tier": "primary",
+      "title": "U.S. Navy records-release notice",
+      "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2358204/department-of-navy-releases-records-related-to-loss-of-uss-thresher/"
+    },
+    {
+      "tier": "primary",
+      "title": "NAVSEA: USS Thresher: A loss. A legacy.",
+      "url": "https://www.navsea.navy.mil/Media/News/Article-View/Article/3354927/uss-thresher-a-loss-a-legacy/"
+    },
+    {
+      "tier": "primary",
+      "title": "NASA safety message: USS Thresher lessons learned",
+      "url": "https://sma.nasa.gov/docs/default-source/safety-messages/safetymessage-2006-06-01-ussthresherlessonslearned-vits.pdf?sfvrsn=73a91ef8_4"
+    },
+    {
+      "tier": "secondary",
+      "title": "Submarine Force Library & Museum Association",
+      "url": "https://ussnautilus.org/the-loss-of-uss-thresher-ssn-593/"
+    },
+    {
+      "tier": "secondary",
+      "title": "USNI: What Killed the Thresher?",
+      "url": "https://www.usni.org/magazines/naval-history-magazine/2023/april/what-killed-thresher"
+    }
+  ],
+  "supported_claims": [
+    "The loss occurred during post-overhaul deep-dive trials on April 10, 1963.",
+    "The final chain should be presented as probable/postulated rather than certain.",
+    "SUBSAFE is the primary institutional consequence."
+  ],
+  "cautions": [
+    "No single initiating cause should be stated as proven.",
+    "Treat brazed-joint/flooding as probable or postulated.",
+    "Avoid individual-blame framing."
+  ],
+  "next_action": "Mike/human source-audit disposition before writer packet."
+}

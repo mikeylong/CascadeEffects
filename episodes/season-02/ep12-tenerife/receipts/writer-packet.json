@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T23:14:20Z",
+  "revised_at": "2026-05-28T23:27:55Z",
+  "episode_id": "ep12-tenerife",
+  "gate": "writer_packet",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "source_audit_disposition": "keep",
+  "writer_packet_path": "episodes/season-02/ep12-tenerife/source/writer-packet.md",
+  "mechanism": "communication ambiguity / authority gradient",
+  "primary_lane": "Design Failures That Changed the World",
+  "revision_summary": [
+    "Added changed-first framing around Los Rodeos becoming an overloaded diversion field where runway use, fog, and radio ambiguity removed the shared operating picture.",
+    "Separated evidence from Cascade Effects interpretation.",
+    "Sharpened the compact 12-18 minute spine around direct cause versus contributing factors.",
+    "Added title directions, thumbnail direction, research needs, and review questions."
+  ],
+  "evidence_base": [
+    "Canonical row 12 in cascade_effects_full_episode_table_1_186.md.",
+    "Local source audit at episodes/season-02/ep12-tenerife/source/source-audit.md.",
+    "FAA-hosted Spanish accident report and findings excerpt identified by the source audit.",
+    "FAA Lessons Learned, SKYbrary, and NTSB CRM/authority-gradient context identified by the source audit."
+  ],
+  "residual_risks": [
+    "Canonical row remains reconstructed with the original source row missing.",
+    "Script stage must preserve the distinction between KLM's takeoff without clearance as fundamental cause and other contributors.",
+    "Transcript, C-3/C-4 runway geometry, KLM refueling/duty-time pressure, and CRM aftermath need exact source verification before scripting."
+  ],
+  "next_gate": "longform_script",
+  "blockers": [
+    "Needs human/Mike writer-packet disposition before script drafting."
+  ]
+}

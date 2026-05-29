@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:34:46Z",
+  "episode_id": "ep12-tenerife",
+  "gate": "critique_integration",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "critic_model": "frontier GPT-5-class model",
+  "critic_tool": "Codex subagent",
+  "substitution_rationale": "User requested spawned Codex agents; Claude tool unavailable in current tool context; critique performed by Codex subagent using inherited frontier GPT-5-class model.",
+  "script_path": "episodes/season-02/ep12-tenerife/source/longform-script.md",
+  "script_sha256_reviewed": "7d02a3eb4f77e0c12b1f52159165493ed9d470463d81e2a62dfd0ff17b5b6332",
+  "script_sha256_post_integration": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
+  "critique_path": "episodes/season-02/ep12-tenerife/source/frontier-model-script-critique.md",
+  "integration_note_path": "episodes/season-02/ep12-tenerife/source/critique-integration-note.md",
+  "required_changes": [
+    {
+      "change": "Replace captain-villain/personality-risk phrasing without softening the official direct cause.",
+      "status": "integrated"
+    },
+    {
+      "change": "Make ATC route clearance versus takeoff clearance explicit.",
+      "status": "integrated"
+    },
+    {
+      "change": "Replace generic runway-clearance wording with takeoff-clearance wording.",
+      "status": "integrated"
+    },
+    {
+      "change": "Keep the CRM closing beat tied to challenge, command responsibility, and unresolved safety information.",
+      "status": "integrated"
+    },
+    {
+      "change": "Keep human script approval pending and audio render unauthorized.",
+      "status": "integrated"
+    }
+  ],
+  "deferred_changes": [
+    {
+      "change": "Full official-report quote checking.",
+      "rationale": "The current script avoids exact CVR quotations; verification can occur in the next fact/readiness pass."
+    },
+    {
+      "change": "Minor rhythm pass on repeated rhetorical structures.",
+      "rationale": "This is a human-review style preference, not a source or gate blocker."
+    }
+  ],
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "Human/Mike script approval for audio remains pending.",
+    "Audio render is not authorized."
+  ],
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "human_script_approval_for_audio_read": "pending",
+    "audio_render_authorized": false,
+    "elevenlabs_preflight_read": "pending"
+  },
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pending",
+  "audio_render_authorized": false,
+  "updated_at": "2026-05-29T00:49:07Z",
+  "script_sha256_current": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
+  "elevenlabs_preflight_read": "pending",
+  "next_gate": "elevenlabs_preflight"
+}

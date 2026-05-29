@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:23:03Z",
+  "updated_at": "2026-05-29T00:49:07Z",
+  "episode_id": "ep16-aberfan",
+  "gate": "longform_script",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "source/longform-script.md",
+  "script_sha256": "3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c",
+  "pre_integration_script_sha256": "5824c362fc8718e1a21840b0d96d99ef4e3232d63b75937f258111ea8c04ff56",
+  "source_inputs": [
+    "episode.toml",
+    "source/source-audit.md",
+    "source/writer-packet.md",
+    "reviews/writer-packet-keep.json",
+    "source/tribunal-warning-source-pass.md",
+    "receipts/tribunal-warning-source-pass.json",
+    "source/frontier-model-script-critique.md",
+    "source/critique-integration-note.md",
+    "receipts/frontier-model-script-critique.json",
+    "receipts/critique-integration.json"
+  ],
+  "review_note_source": "reviews/writer-packet-keep.json",
+  "audio_render_authorized": false,
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pending",
+  "next_gate": "elevenlabs_preflight",
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "human_script_approval_for_audio_read=pending",
+    "audio_render_authorized=false"
+  ],
+  "notes": [
+    "Script uses Mike's title direction: Aberfan: The Hill Everyone Could See.",
+    "Script keeps the mechanism as visible industrial risk failing to become institutional urgency.",
+    "Script avoids maps/documents as the emotional center and avoids invented local scenes.",
+    "Frontier critique and integration passed using a Codex subagent substitution because Claude was unavailable in this tool context.",
+    "Direct tribunal chronology and named-warning detail remain for a later fact-check pass if the tribunal report text is recovered."
+  ],
+  "script_sha256_current": "3a2ae8e1c4469e5c85f52237ebb91f541cde65564ddc4cbbb55d773f6f6cab1c",
+  "elevenlabs_preflight_read": "pending"
+}

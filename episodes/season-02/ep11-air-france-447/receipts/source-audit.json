@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T22:56:50Z",
+  "episode_id": "ep11-air-france-447",
+  "gate": "source_audit",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "agent_mike_role": "advisory_reviewer_only",
+  "source_row": {
+    "table": "ops/agents/skills/cascade_effects_series_bible_v1/references/cascade_effects_full_episode_table_1_186.md",
+    "row": 11,
+    "status": "reconstructed_starter_backlog_source_row_missing"
+  },
+  "authority_stack": [
+    {
+      "tier": "primary",
+      "title": "BEA official investigation hub",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/"
+    },
+    {
+      "tier": "primary",
+      "title": "BEA final report PDF",
+      "url": "https://bea.aero/fileadmin/documents/docspa/2009/f-cp090601.en/pdf/f-cp090601.en.pdf"
+    },
+    {
+      "tier": "primary",
+      "title": "BEA CVR transcript appendix",
+      "url": "https://bea.aero/fileadmin/uploads/tx_elyextendttnews/annexe.01.en_03.pdf"
+    },
+    {
+      "tier": "primary",
+      "title": "BEA FDR chronology",
+      "url": "https://bea.aero/fileadmin/uploads/tx_elyextendttnews/annexe.02_07.pdf"
+    },
+    {
+      "tier": "primary",
+      "title": "BEA parameter graphs",
+      "url": "https://bea.aero/fileadmin/uploads/tx_elyextendttnews/annexe.03_07.pdf"
+    },
+    {
+      "tier": "secondary",
+      "title": "SKYbrary AF447 summary",
+      "url": "https://skybrary.aero/accidents-and-incidents/a332-en-route-atlantic-ocean-2009"
+    }
+  ],
+  "supported_claims": [
+    "Pitot icing and unreliable speed indications initiated the technical handoff chain.",
+    "Autopilot disconnect and degraded cues led into a stall state not diagnosed in time.",
+    "FDR/CVR material supports a careful timeline but not psychological overreach."
+  ],
+  "cautions": [
+    "Do not flatten the accident into pilot error.",
+    "Separate legal context from BEA technical findings.",
+    "Use CVR excerpts sparingly."
+  ],
+  "next_action": "Mike/human source-audit disposition before writer packet."
+}

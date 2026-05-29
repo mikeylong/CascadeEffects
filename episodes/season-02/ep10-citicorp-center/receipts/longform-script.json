@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:20:47Z",
+  "episode_id": "ep10-citicorp-center",
+  "gate": "longform_script",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep10-citicorp-center/source/longform-script.md",
+  "script_sha256": "3353f2961ffddd6c24ffcfd6bc3ccec598a06b01126fc6e9decc507d7b74cd47",
+  "updated_at": "2026-05-29T00:49:07Z",
+  "source_inputs": [
+    "episodes/season-02/ep10-citicorp-center/episode.toml",
+    "episodes/season-02/ep10-citicorp-center/source/source-audit.md",
+    "episodes/season-02/ep10-citicorp-center/source/writer-packet.md",
+    "episodes/season-02/ep10-citicorp-center/reviews/writer-packet-keep.json",
+    "ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md",
+    "/Users/mike/.codex/skills/write-like-mike/SKILL.md",
+    "/Users/mike/.codex/skills/write-like-mike/references/style-profile.md"
+  ],
+  "review_note_source": "episodes/season-02/ep10-citicorp-center/reviews/writer-packet-keep.json",
+  "audio_render_authorized": false,
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pending",
+  "next_gate": "elevenlabs_preflight",
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 3353f2961ffddd6c24ffcfd6bc3ccec598a06b01126fc6e9decc507d7b74cd47; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "human_script_approval_for_audio_read is pending; audio render is not authorized until Mike/human approval is recorded for script sha256 3353f2961ffddd6c24ffcfd6bc3ccec598a06b01126fc6e9decc507d7b74cd47"
+  ],
+  "frontier_model_script_critique_path": "episodes/season-02/ep10-citicorp-center/source/frontier-model-script-critique.md",
+  "critique_integration_path": "episodes/season-02/ep10-citicorp-center/source/critique-integration-note.md",
+  "script_sha256_reviewed_before_integration": "40627fc79088723d6a6c5a520a43743ce7052644702f2c910692f5439ae63e6d",
+  "review_notes_applied": {
+    "mechanism": "design assumption discovered after completion",
+    "title_direction": "Citicorp Center: Complete, Occupied, Unsettled",
+    "disclosure_ethics_role": "final interpretive frame",
+    "next_action": "move to longform script"
+  },
+  "script_sha256_current": "3353f2961ffddd6c24ffcfd6bc3ccec598a06b01126fc6e9decc507d7b74cd47",
+  "elevenlabs_preflight_read": "pending"
+}

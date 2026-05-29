@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T22:56:50Z",
+  "episode_id": "ep10-citicorp-center",
+  "gate": "source_audit",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "agent_mike_role": "advisory_reviewer_only",
+  "source_row": {
+    "table": "ops/agents/skills/cascade_effects_series_bible_v1/references/cascade_effects_full_episode_table_1_186.md",
+    "row": 10,
+    "status": "reconstructed_starter_backlog_source_row_missing"
+  },
+  "authority_stack": [
+    {
+      "tier": "primary",
+      "title": "ASCE on William J. LeMessurier",
+      "url": "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/article/2007/07/william-j-lemessurier"
+    },
+    {
+      "tier": "primary",
+      "title": "NIST modern reassessment",
+      "url": "https://www.nist.gov/publications/modern-reassessment-citicorp-building-design-wind-loads"
+    },
+    {
+      "tier": "primary",
+      "title": "NIST Blown Away",
+      "url": "https://www.nist.gov/blogs/taking-measure/blown-away-revisiting-famous-engineering-case"
+    },
+    {
+      "tier": "primary",
+      "title": "ASCE/NIST wind-effects technical note PDF",
+      "url": "https://www.itl.nist.gov/div898/winds/pdf_files/ASCE_ST.1943-541X.0002328_1.pdf"
+    },
+    {
+      "tier": "primary",
+      "title": "Online Ethics LeMessurier case",
+      "url": "https://onlineethics.org/cases/william-lemessurier-fifty-nine-story-crisis-lesson-professional-behavior"
+    }
+  ],
+  "supported_claims": [
+    "The building's unusual column layout came from the church site constraint.",
+    "The crisis centers on structural assumptions reopened after completion.",
+    "Emergency repair planning and city coordination are part of the story."
+  ],
+  "cautions": [
+    "Do not present collapse certainty as uncontested.",
+    "Student-origin details are contested.",
+    "Original wind-tunnel and Project SERENE materials are not public in this packet."
+  ],
+  "next_action": "Mike/human source-audit disposition before writer packet."
+}

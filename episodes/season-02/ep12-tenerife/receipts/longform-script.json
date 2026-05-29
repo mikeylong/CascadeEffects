@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:21:02Z",
+  "updated_at": "2026-05-29T00:49:07Z",
+  "episode_id": "ep12-tenerife",
+  "gate": "longform_script",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep12-tenerife/source/longform-script.md",
+  "script_sha256": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
+  "frontier_model_script_critique_path": "episodes/season-02/ep12-tenerife/source/frontier-model-script-critique.md",
+  "critique_integration_note_path": "episodes/season-02/ep12-tenerife/source/critique-integration-note.md",
+  "source_inputs": [
+    "episodes/season-02/ep12-tenerife/episode.toml",
+    "episodes/season-02/ep12-tenerife/source/source-audit.md",
+    "episodes/season-02/ep12-tenerife/source/writer-packet.md",
+    "episodes/season-02/ep12-tenerife/reviews/writer-packet-keep.json",
+    "ops/agents/skills/cascade_effects_series_bible_v1/SKILL.md",
+    "/Users/mike/.codex/skills/write-like-mike/SKILL.md",
+    "/Users/mike/.codex/skills/write-like-mike/references/style-profile.md"
+  ],
+  "review_note_source": "episodes/season-02/ep12-tenerife/reviews/writer-packet-keep.json",
+  "title": "Tenerife: One Runway, Two Realities",
+  "mechanism": "shared runway reality failed under radio ambiguity",
+  "script_summary": [
+    "Uses changed-first framing around Los Rodeos becoming an overloaded diversion field.",
+    "Keeps the direct official cause clear while separating contributing conditions from the fundamental takeoff-without-clearance cause.",
+    "Avoids courtroom reenactment and transcript-heavy staging.",
+    "Includes a full CRM and phraseology closing beat focused on shared operational reality."
+  ],
+  "residual_fact_checks_before_audio": [
+    "Verify exact official wording for the fundamental cause and contributing factors.",
+    "Verify transcript paraphrases before quoting or staging them.",
+    "Confirm runway/taxiway geometry and avoid overstating Pan Am exit options.",
+    "Use KLM refueling and duty-time pressure only as sourced context if final fact pass supports them.",
+    "Avoid claiming Tenerife single-handedly created modern CRM."
+  ],
+  "audio_render_authorized": false,
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pass",
+  "human_script_approval_for_audio_read": "pending",
+  "next_gate": "elevenlabs_preflight",
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "Human/Mike script approval for audio has not been granted for the post-integration script revision.",
+    "Audio render is not authorized until explicit human approval passes."
+  ],
+  "script_sha256_current": "1ee98a0861185540a5aa137c4ed5d48a7ffdd18078040446efe0f1e6750e91eb",
+  "elevenlabs_preflight_read": "pending"
+}

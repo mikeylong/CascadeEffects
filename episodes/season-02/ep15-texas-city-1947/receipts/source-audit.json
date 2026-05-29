@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T22:56:50Z",
+  "episode_id": "ep15-texas-city-1947",
+  "gate": "source_audit",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "agent_mike_role": "advisory_reviewer_only",
+  "source_row": {
+    "table": "ops/agents/skills/cascade_effects_series_bible_v1/references/cascade_effects_full_episode_table_1_186.md",
+    "row": 15,
+    "status": "reconstructed_starter_backlog_source_row_missing"
+  },
+  "authority_stack": [
+    {
+      "tier": "primary",
+      "title": "U.S. Coast Guard Marine Board report, SS Grandcamp PDF",
+      "url": "https://www.dco.uscg.mil/Portals/9/DCO%20Documents/5p/CG-5PC/INV/docs/boards/grandcamp.pdf"
+    },
+    {
+      "tier": "primary",
+      "title": "U.S. Bureau of Mines: The Texas City Disaster, April 16, 1947",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc38488/"
+    },
+    {
+      "tier": "primary",
+      "title": "Dalehite v. United States, 346 U.S. 15",
+      "url": "https://supreme.justia.com/cases/federal/us/346/15/"
+    },
+    {
+      "tier": "primary",
+      "title": "City of Texas City 1947 Disaster exhibit",
+      "url": "https://www.texascitytx.gov/458/1947-Texas-City-Disaster"
+    },
+    {
+      "tier": "secondary",
+      "title": "Texas State Historical Association: Texas City Disaster",
+      "url": "https://www.tshaonline.org/handbook/entries/texas-city-disaster"
+    }
+  ],
+  "supported_claims": [
+    "The disaster began with fire aboard SS Grandcamp on April 16, 1947.",
+    "Ammonium nitrate fertilizer cargo under heat/confinement conditions was central to the blast chain.",
+    "SS High Flyer made the disaster a port-wide cascade."
+  ],
+  "cautions": [
+    "Death toll varies by source; use nearly 600 until final fact-check.",
+    "Ignition cause should be tied to official records.",
+    "Do not describe ammonium nitrate as merely flammable."
+  ],
+  "next_action": "Mike/human source-audit disposition before writer packet."
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-28T22:56:50Z",
+  "episode_id": "ep16-aberfan",
+  "gate": "source_audit",
+  "status": "review_ready",
+  "may_advance": false,
+  "human_gate_required": true,
+  "agent_mike_role": "advisory_reviewer_only",
+  "source_row": {
+    "table": "ops/agents/skills/cascade_effects_series_bible_v1/references/cascade_effects_full_episode_table_1_186.md",
+    "row": 16,
+    "status": "reconstructed_starter_backlog_source_row_missing"
+  },
+  "authority_stack": [
+    {
+      "tier": "primary",
+      "title": "Aberfan Tribunal report PDF, National Library of Wales",
+      "url": "https://www.library.wales/fileadmin/docs_gwefan/new_structure/discover/education/education_services/learning_resources/Aberfan/tribiwnlys-aberfan-tribunal.pdf"
+    },
+    {
+      "tier": "primary",
+      "title": "UK Government inquiry digest PDF",
+      "url": "https://assets.publishing.service.gov.uk/media/5a796248e5274a3864fd68f6/InquiriesIncidentTheAberfanDisaster21October1966.pdf"
+    },
+    {
+      "tier": "primary",
+      "title": "National Archives: BD 52 Aberfan Tribunal records",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C2828"
+    },
+    {
+      "tier": "primary",
+      "title": "Mines and Quarries (Tips) Act 1969",
+      "url": "https://www.legislation.gov.uk/ukpga/1969/10"
+    },
+    {
+      "tier": "secondary",
+      "title": "Gov.Wales remembrance page",
+      "url": "https://www.gov.wales/remember-people-aberfan-says-first-minister"
+    }
+  ],
+  "supported_claims": [
+    "The collapse occurred on October 21, 1966 and engulfed Pantglas Junior School and nearby homes.",
+    "144 people died, including 116 children.",
+    "The tribunal placed responsibility on the National Coal Board and treated the disaster as preventable."
+  ],
+  "cautions": [
+    "Avoid natural-disaster framing.",
+    "Use precision around prior warnings and institutional knowledge.",
+    "Do not let memorial/media history displace causal analysis."
+  ],
+  "next_action": "Mike/human source-audit disposition before writer packet."
+}

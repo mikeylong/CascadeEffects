@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T00:33:47Z",
+  "episode_id": "ep11-air-france-447",
+  "gate": "frontier_model_critique",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "critic_model": "Codex inherited frontier GPT-5-class model",
+  "critic_tool": "Codex subagent",
+  "substitution_rationale": "User requested spawned Codex agents; Claude tool unavailable in current tool context; critique performed by Codex subagent using inherited frontier GPT-5-class model.",
+  "script_path": "episodes/season-02/ep11-air-france-447/source/longform-script.md",
+  "script_sha256_reviewed": "c59d479aae3c50a364db1909dfde3f3ad3860f5a01e13e1e49bc8c46ab717a95",
+  "critique_path": "episodes/season-02/ep11-air-france-447/source/frontier-model-script-critique.md",
+  "required_changes": [
+    "Make the automation-mode primer more explicit about why unreliable airspeed changes the working contract.",
+    "Clarify that angle of attack is useful in reconstruction but was not a simple crew-facing cue.",
+    "Soften the closing shorthand so the stall remains the final aerodynamic state, not the whole explanation."
+  ],
+  "optional_changes": [
+    "Add a short legal-status end note only if Mike asks for it.",
+    "Carry the angle-of-attack caveat into later visual planning if FDR parameter graphics are used."
+  ],
+  "source_factual_cautions": [
+    "Do not flatten the accident into pilot error or weather.",
+    "Do not imply the crew had a clean angle-of-attack cue that named the stall.",
+    "Use CVR only as source-safe sequence support, not character psychology.",
+    "Keep legal context separate from BEA safety findings unless Mike explicitly asks for an end note."
+  ],
+  "blockers": [
+    "elevenlabs_preflight_read is pending for script sha256 eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e; run TTS/ElevenLabs preflight before Mike/human audio approval.",
+    "Human script approval for audio remains pending."
+  ],
+  "reads": {
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pending",
+    "human_script_approval_for_audio_read": "pending",
+    "audio_render_authorized": false,
+    "elevenlabs_preflight_read": "pending"
+  },
+  "audio_render_authorized": false,
+  "next_gate": "elevenlabs_preflight",
+  "frontier_model_script_critique_read": "pass",
+  "critique_integration_read": "pending",
+  "human_script_approval_for_audio_read": "pending",
+  "updated_at": "2026-05-29T00:49:07Z",
+  "script_sha256_current": "eb10ed79b19eb3fcbb8b89f292ef4c2436bf0dd774b97300d1f1d62e2533d03e",
+  "elevenlabs_preflight_read": "pending"
+}

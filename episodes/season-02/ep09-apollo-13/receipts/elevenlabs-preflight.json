@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-05-29T01:07:00Z",
+  "episode_id": "ep09-apollo-13",
+  "gate": "elevenlabs_preflight",
+  "status": "pass",
+  "may_advance": false,
+  "human_gate_required": true,
+  "script_path": "episodes/season-02/ep09-apollo-13/source/longform-script.md",
+  "script_sha256_reviewed": "e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704",
+  "script_revision_context": "post-critique-integration longform script",
+  "preflight_path": "episodes/season-02/ep09-apollo-13/source/elevenlabs-preflight.md",
+  "template_path": "ops/agents/skills/long_form_video_production_v1/templates/elevenlabs_preflight_template.md",
+  "helper": {
+    "path": "packages/media-pipeline/audio/scripts/pronunciation_preflight.py",
+    "command": "scan",
+    "job_count": 1,
+    "matched_job_count": 0,
+    "blockers": []
+  },
+  "lexicon": {
+    "path": "packages/media-pipeline/audio/references/pronunciation/known_risks_v1.json",
+    "sha256": "3bbd0ab315d1afc8913f5684c728b89096536c921459d96edbb100311b61f861",
+    "rule_count": 11
+  },
+  "reads": {
+    "script_hash_match_read": "pass",
+    "pronunciation_ledger_read": "pass",
+    "acronym_initialism_read": "pass",
+    "names_places_entities_read": "pass",
+    "numbers_dates_units_read": "pass",
+    "homograph_ambiguity_read": "pass",
+    "technical_mouthful_read": "pass",
+    "punctuation_pause_breath_read": "pass",
+    "repeated_cadence_read": "pass",
+    "elevenlabs_rework_risk_read": "pass",
+    "frontier_model_script_critique_read": "pass",
+    "critique_integration_read": "pass",
+    "elevenlabs_preflight_read": "pass",
+    "human_script_approval_for_audio_read": "pending"
+  },
+  "pronunciation_sensitive_tokens": [
+    {"token": "Apollo 13", "intended_read": "Apollo thirteen", "status": "pass"},
+    {"token": "Apollo 10", "intended_read": "Apollo ten", "status": "pass"},
+    {"token": "oxygen tank 2 / tank 2", "intended_read": "oxygen tank two / tank two", "status": "pass"},
+    {"token": "NASA", "intended_read": "N A S A", "status": "pass"},
+    {"token": "Mission Control", "intended_read": "Mission Control", "status": "pass"},
+    {"token": "detanking / detanked", "intended_read": "dee-tanking / dee-tanked", "status": "pass"},
+    {"token": "Teflon", "intended_read": "TEF-lon", "status": "pass"},
+    {"token": "cryogenic tanks", "intended_read": "cryogenic tanks", "status": "pass"},
+    {"token": "fan-stir command / fan stir", "intended_read": "fan stir", "status": "pass"},
+    {"token": "fuel cells / fuel-cell loss", "intended_read": "fuel cells / fuel cell loss", "status": "pass"}
+  ],
+  "script_changes": [],
+  "remaining_risks": [],
+  "blockers": [
+    "human_script_approval_for_audio_read is pending",
+    "audio render is not authorized until Mike/human approval is recorded for script sha256 e0c96b0312055be2c042c7cdddb9719638f98f3a3cb90eeac1dfc944ed987704"
+  ],
+  "audio_render_authorized": false,
+  "next_gate": "human_script_approval_for_audio"
+}
