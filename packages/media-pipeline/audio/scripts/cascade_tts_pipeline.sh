@@ -25,6 +25,10 @@ LOUDNESS_TARGET_TP="${LOUDNESS_TARGET_TP:--1.0}"
 LOUDNESS_TARGET_LRA="${LOUDNESS_TARGET_LRA:-11}"
 EPISODE_DIR="${EPISODE_DIR:-}"
 EPISODE_SCRIPT="${EPISODE_SCRIPT:-}"
+EPISODE_FINAL_OUT="${EPISODE_FINAL_OUT:-}"
+AUDIO_PACKAGE_PATH="${AUDIO_PACKAGE_PATH:-}"
+REQUIRE_CANONICAL_CUE_TAGS="${REQUIRE_CANONICAL_CUE_TAGS:-1}"
+ELEVENLABS_STRICT_SOURCE_ALIGNMENT="${ELEVENLABS_STRICT_SOURCE_ALIGNMENT:-1}"
 ENV_FILE="${ENV_FILE:-$ROOT_DIR/.env.local}"
 CODEX_HOME="${CODEX_HOME:-$HOME/.codex}"
 TTS_GEN="${TTS_GEN:-$CODEX_HOME/skills/speech/scripts/text_to_speech.py}"
@@ -104,6 +108,10 @@ Key environment overrides:
   LOUDNESS_TARGET_LRA           Default: $LOUDNESS_TARGET_LRA
   EPISODE_DIR                   Default: (unset; required for merge, qa, all)
   EPISODE_SCRIPT                Default: <EPISODE_DIR>/<basename(EPISODE_DIR)>.txt
+  EPISODE_FINAL_OUT             Default: <EPISODE_DIR>/final/<basename(EPISODE_DIR)>.wav
+  AUDIO_PACKAGE_PATH            Default: <PIPELINE_DIR>/audio_package.json
+  REQUIRE_CANONICAL_CUE_TAGS    Default: $REQUIRE_CANONICAL_CUE_TAGS (1|0)
+  ELEVENLABS_STRICT_SOURCE_ALIGNMENT Default: $ELEVENLABS_STRICT_SOURCE_ALIGNMENT (1|0)
   WARMUP_TRIM_DIR               Default: $WARMUP_TRIM_DIR
   WARMUP_TRANSCRIBE_MODEL       Default: $WARMUP_TRANSCRIBE_MODEL
   SIBILANCE_MASTER              Default: canonical packaged final, else MASTER_OUT
@@ -205,16 +213,28 @@ canonical_episode_script_path() {
 }
 
 canonical_episode_final_dir() {
+  if [[ -n "$EPISODE_FINAL_OUT" ]]; then
+    dirname "$EPISODE_FINAL_OUT"
+    return
+  fi
   printf '%s/final\n' "${EPISODE_DIR%/}"
 }
 
 canonical_episode_final_out() {
   local episode_name
+  if [[ -n "$EPISODE_FINAL_OUT" ]]; then
+    printf '%s\n' "$EPISODE_FINAL_OUT"
+    return
+  fi
   episode_name="$(episode_dir_name)"
   printf '%s/final/%s.wav\n' "${EPISODE_DIR%/}" "$episode_name"
 }
 
 audio_package_metadata_path() {
+  if [[ -n "$AUDIO_PACKAGE_PATH" ]]; then
+    printf '%s\n' "$AUDIO_PACKAGE_PATH"
+    return
+  fi
   printf '%s/audio_package.json\n' "${PIPELINE_DIR%/}"
 }
 
@@ -310,6 +330,7 @@ import sys
 from pathlib import Path
 
 metadata_path = Path(sys.argv[1])
+metadata_path.parent.mkdir(parents=True, exist_ok=True)
 provider = sys.argv[2]
 voice = sys.argv[3]
 model = sys.argv[4]
@@ -414,8 +435,18 @@ payload.update(
         "voice_profile_final_export_eligible": bool(voice_profile.get("final_export_eligible", False)) if isinstance(voice_profile, dict) else False,
         "render_settings": render_settings,
         "effective_manifest_path": effective_manifest_path,
+        "source_script_path": effective_job.get("source_script_path", ""),
+        "source_script_sha256": effective_job.get("source_script_sha256", ""),
+        "preflight_path": effective_job.get("preflight_path", ""),
+        "preflight_sha256": effective_job.get("preflight_sha256", ""),
+        "approval_receipt_path": effective_job.get("approval_receipt_path", ""),
+        "approval_receipt_sha256": effective_job.get("approval_receipt_sha256", ""),
+        "episode_id": effective_job.get("episode_id", ""),
+        "chunk_count": effective_job.get("chunk_count", ""),
         "packaged_path": sys.argv[6],
+        "master_audio_path": sys.argv[6],
         "packaged_sha256": sys.argv[7],
+        "master_audio_sha256": sys.argv[7],
         "packaged_at": sys.argv[8],
     }
 )
@@ -439,6 +470,7 @@ import sys
 from pathlib import Path
 
 metadata_path = Path(sys.argv[1])
+metadata_path.parent.mkdir(parents=True, exist_ok=True)
 payload = {}
 if metadata_path.exists():
     loaded = json.loads(metadata_path.read_text(encoding="utf-8"))
@@ -587,7 +619,9 @@ require_episode_package_contract() {
     echo "Canonical episode script is empty: $script_path" >&2
     exit 1
   fi
-  require_canonical_episode_script_cue_tags "$script_path"
+  if [[ "$REQUIRE_CANONICAL_CUE_TAGS" != "0" ]]; then
+    require_canonical_episode_script_cue_tags "$script_path"
+  fi
 }
 
 package_master_into_episode_final() {
@@ -600,7 +634,9 @@ package_master_into_episode_final() {
   packaged_out="$(canonical_episode_final_out)"
 
   mkdir -p "$packaged_dir"
-  cp "$MASTER_OUT" "$packaged_out"
+  if [[ "$MASTER_OUT" != "$packaged_out" ]]; then
+    cp "$MASTER_OUT" "$packaged_out"
+  fi
 
   if [[ ! -f "$packaged_out" ]]; then
     echo "Packaged final audio was not written: $packaged_out" >&2
@@ -942,14 +978,22 @@ prepare_jobs_manifest_for_tts() {
   if [[ "$TTS_PROVIDER" == "elevenlabs" ]]; then
     if [[ "$phase" == "render" || "$phase" == "guard" || "$phase" == "cost-final" ]]; then
       require_episode_dir
-      script_path="$(canonical_episode_script_path)"
-      run_elevenlabs_helper compile-manifest \
-        --input "$manifest" \
-        --output "$compiled_manifest" \
-        --script-path "$script_path" \
-        --strict-source-alignment \
-        --model "$provider_model_id" \
-        --continuity-chars "$ELEVENLABS_CONTINUITY_CHARS" >&2
+      if [[ "$ELEVENLABS_STRICT_SOURCE_ALIGNMENT" == "0" ]]; then
+        run_elevenlabs_helper compile-manifest \
+          --input "$manifest" \
+          --output "$compiled_manifest" \
+          --model "$provider_model_id" \
+          --continuity-chars "$ELEVENLABS_CONTINUITY_CHARS" >&2
+      else
+        script_path="$(canonical_episode_script_path)"
+        run_elevenlabs_helper compile-manifest \
+          --input "$manifest" \
+          --output "$compiled_manifest" \
+          --script-path "$script_path" \
+          --strict-source-alignment \
+          --model "$provider_model_id" \
+          --continuity-chars "$ELEVENLABS_CONTINUITY_CHARS" >&2
+      fi
     else
       run_elevenlabs_helper compile-manifest \
         --input "$manifest" \

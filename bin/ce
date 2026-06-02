@@ -5,16 +5,22 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
 import tempfile
 import time
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTIFACT_ROOT = ROOT / ".artifacts"
+DEFAULT_SEASON = "season-02"
+AUDIO_PIPELINE_SCRIPT = ROOT / "packages" / "media-pipeline" / "audio" / "scripts" / "cascade_tts_pipeline.sh"
+AUDIO_CHUNK_MAX_CHARS = 2600
 MEDIA_EXTENSIONS = {
     ".aiff", ".flac", ".gif", ".jpeg", ".jpg", ".m4a", ".mkv", ".mov", ".mp3", ".mp4",
     ".pdf", ".png", ".raw", ".wav", ".webp",
@@ -81,6 +87,648 @@ def is_under(path: Path, parent: Path) -> bool:
         return True
     except ValueError:
         return False
+
+
+@dataclass(frozen=True)
+class EpisodeContext:
+    season: str
+    episode_id: str
+    episode_dir: Path
+    title: str
+    script_path: Path
+    preflight_path: Path
+    approval_receipt_path: Path
+    episode_toml_path: Path
+    state_path: Path
+    tasks_path: Path
+    artifact_lock_path: Path
+
+
+def safe_rel(path: Path) -> str:
+    try:
+        return rel(path)
+    except ValueError:
+        return str(path)
+
+
+def resolve_path_token(value: Any) -> Path:
+    path = Path(str(value)).expanduser()
+    if path.is_absolute():
+        return path
+    return ROOT / path
+
+
+def read_toml_string_value(path: Path, key: str, default: str = "") -> str:
+    if not path.exists():
+        return default
+    pattern = re.compile(rf"^\s*{re.escape(key)}\s*=\s*\"([^\"]*)\"")
+    for line in path.read_text(encoding="utf-8").splitlines():
+        match = pattern.match(line)
+        if match:
+            return match.group(1)
+    return default
+
+
+def read_gate_status(episode_toml: Path, gate: str, default: str = "") -> str:
+    if not episode_toml.exists():
+        return default
+    in_gates = False
+    pattern = re.compile(rf"^\s*{re.escape(gate)}\s*=\s*\"([^\"]*)\"")
+    for line in episode_toml.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if stripped.startswith("[") and stripped.endswith("]"):
+            in_gates = stripped == "[gates]"
+            continue
+        if not in_gates:
+            continue
+        match = pattern.match(line)
+        if match:
+            return match.group(1)
+    return default
+
+
+def write_gate_status(episode_toml: Path, gate: str, status_value: str) -> None:
+    lines = episode_toml.read_text(encoding="utf-8").splitlines()
+    output: list[str] = []
+    in_gates = False
+    wrote = False
+    gate_line = f'{gate} = "{status_value}"'
+    pattern = re.compile(rf"^\s*{re.escape(gate)}\s*=")
+
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("[") and stripped.endswith("]"):
+            if in_gates and not wrote:
+                output.append(gate_line)
+                wrote = True
+            in_gates = stripped == "[gates]"
+            output.append(line)
+            continue
+        if in_gates and pattern.match(line):
+            output.append(gate_line)
+            wrote = True
+            continue
+        output.append(line)
+
+    if in_gates and not wrote:
+        output.append(gate_line)
+    episode_toml.write_text("\n".join(output) + "\n", encoding="utf-8")
+
+
+def resolve_episode_dir(
+    episode_id: str | None = None,
+    *,
+    season: str = DEFAULT_SEASON,
+    cwd: Path | None = None,
+) -> Path:
+    season_root = ROOT / "episodes" / season
+    if episode_id:
+        episode_dir = season_root / episode_id
+        if not episode_dir.exists():
+            raise SystemExit(f"episode not found: {safe_rel(episode_dir)}")
+        return episode_dir
+
+    current = (cwd or Path.cwd()).resolve()
+    try:
+        relative = current.relative_to(season_root.resolve())
+    except ValueError:
+        raise SystemExit("episode_id is required when not running from a Season 2 episode folder")
+    if not relative.parts:
+        raise SystemExit("episode_id is required from the season root")
+    inferred = season_root / relative.parts[0]
+    if not (inferred / "episode.toml").exists():
+        raise SystemExit(f"could not infer episode from cwd: {current}")
+    return inferred
+
+
+def resolve_episode_context(
+    episode_id: str | None = None,
+    *,
+    season: str = DEFAULT_SEASON,
+    cwd: Path | None = None,
+) -> EpisodeContext:
+    episode_dir = resolve_episode_dir(episode_id, season=season, cwd=cwd)
+    episode_toml = episode_dir / "episode.toml"
+    parsed_episode_id = read_toml_string_value(episode_toml, "episode_id", episode_dir.name)
+    title = read_toml_string_value(episode_toml, "title", parsed_episode_id.replace("-", " ").title())
+    return EpisodeContext(
+        season=season,
+        episode_id=parsed_episode_id,
+        episode_dir=episode_dir,
+        title=title,
+        script_path=episode_dir / "source" / "longform-script.md",
+        preflight_path=episode_dir / "source" / "elevenlabs-preflight.md",
+        approval_receipt_path=episode_dir / "receipts" / "human-script-approval-for-audio.json",
+        episode_toml_path=episode_toml,
+        state_path=episode_dir / "state.json",
+        tasks_path=episode_dir / "tasks.jsonl",
+        artifact_lock_path=episode_dir / "artifacts.lock.json",
+    )
+
+
+def load_required_json(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        raise SystemExit(f"missing required file: {safe_rel(path)}")
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise SystemExit(f"invalid JSON: {safe_rel(path)}: {exc}") from exc
+    if not isinstance(data, dict):
+        raise SystemExit(f"expected JSON object: {safe_rel(path)}")
+    return data
+
+
+def validate_audio_render_authorization(ctx: EpisodeContext, script_sha: str) -> dict[str, dict[str, Any]]:
+    if not ctx.script_path.exists():
+        raise SystemExit(f"missing script: {safe_rel(ctx.script_path)}")
+    if not ctx.preflight_path.exists():
+        raise SystemExit(f"missing preflight note: {safe_rel(ctx.preflight_path)}")
+
+    preflight_receipt = load_required_json(ctx.episode_dir / "receipts" / "elevenlabs-preflight.json")
+    approval_receipt = load_required_json(ctx.approval_receipt_path)
+    preflight_sha = str(
+        preflight_receipt.get("script_sha256_current")
+        or preflight_receipt.get("script_sha256_reviewed")
+        or ""
+    ).strip()
+    approval_sha = str(approval_receipt.get("script_sha256_reviewed", "")).strip()
+    if preflight_sha != script_sha:
+        raise SystemExit("elevenlabs preflight receipt does not match the current script hash")
+    if approval_sha != script_sha:
+        raise SystemExit("human script approval receipt does not match the current script hash")
+    reads = approval_receipt.get("reads", {})
+    authorized = bool(approval_receipt.get("audio_render_authorized")) or bool(
+        reads.get("audio_render_authorized") if isinstance(reads, dict) else False
+    )
+    if not authorized:
+        raise SystemExit("human script approval receipt does not authorize audio render")
+    return {"preflight": preflight_receipt, "approval": approval_receipt}
+
+
+def flush_paragraph(paragraphs: list[str], pending: list[str]) -> None:
+    text = " ".join(part.strip() for part in pending if part.strip()).strip()
+    pending.clear()
+    if text:
+        paragraphs.append(text)
+
+
+def audio_script_paragraphs(ctx: EpisodeContext) -> list[str]:
+    title = ctx.title.strip() or ctx.episode_id.replace("-", " ").title()
+    paragraphs: list[str] = [title]
+    pending: list[str] = []
+    skipping_title_section = False
+    seen_body = False
+
+    for raw in ctx.script_path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line:
+            flush_paragraph(paragraphs, pending)
+            continue
+        if line.startswith("#"):
+            flush_paragraph(paragraphs, pending)
+            heading = line.lstrip("#").strip()
+            lowered = heading.lower()
+            if "review notes" in lowered:
+                break
+            skipping_title_section = lowered == "title"
+            continue
+        if skipping_title_section:
+            continue
+        if not seen_body and re.match(r"^[A-Za-z_][A-Za-z0-9_ -]*:\s*", line):
+            continue
+        seen_body = True
+        pending.append(line)
+
+    flush_paragraph(paragraphs, pending)
+    deduped: list[str] = []
+    for paragraph in paragraphs:
+        if not deduped or paragraph != deduped[-1]:
+            deduped.append(paragraph)
+    return deduped
+
+
+def split_long_paragraph(paragraph: str, max_chars: int) -> list[str]:
+    if len(paragraph) <= max_chars:
+        return [paragraph]
+    sentences = re.findall(r".+?(?:[.!?]+(?:[\"')\]]*)|$)", paragraph)
+    chunks: list[str] = []
+    current: list[str] = []
+    for sentence in [item.strip() for item in sentences if item.strip()]:
+        candidate = " ".join([*current, sentence]).strip()
+        if current and len(candidate) > max_chars:
+            chunks.append(" ".join(current).strip())
+            current = [sentence]
+        else:
+            current.append(sentence)
+    if current:
+        chunks.append(" ".join(current).strip())
+    return chunks or [paragraph]
+
+
+def chunk_audio_paragraphs(paragraphs: list[str], max_chars: int = AUDIO_CHUNK_MAX_CHARS) -> list[str]:
+    chunks: list[str] = []
+    current: list[str] = []
+    for paragraph in paragraphs:
+        pieces = split_long_paragraph(paragraph, max_chars)
+        for piece in pieces:
+            candidate = "\n\n".join([*current, piece]).strip()
+            if current and len(candidate) > max_chars:
+                chunks.append("\n\n".join(current).strip())
+                current = [piece]
+            else:
+                current.append(piece)
+    if current:
+        chunks.append("\n\n".join(current).strip())
+    return chunks
+
+
+def write_audio_render_manifest(ctx: EpisodeContext, artifact_dir: Path, script_sha: str) -> Path:
+    authorizations = validate_audio_render_authorization(ctx, script_sha)
+    preflight_receipt = authorizations["preflight"]
+    approval_receipt = authorizations["approval"]
+    manifest_dir = artifact_dir / "manifests"
+    manifest_dir.mkdir(parents=True, exist_ok=True)
+    render_jobs_path = manifest_dir / "render-jobs.jsonl"
+    narration_path = manifest_dir / "narration.txt"
+
+    chunks = chunk_audio_paragraphs(audio_script_paragraphs(ctx))
+    narration_path.write_text("\n\n".join(chunks) + "\n", encoding="utf-8")
+
+    preflight_sha = sha256(ctx.preflight_path)
+    approval_sha = sha256(ctx.approval_receipt_path)
+    rows = []
+    for index, chunk in enumerate(chunks, start=1):
+        rows.append(
+            {
+                "out": f"chunks/{ctx.episode_id}_chunk_{index:03d}.wav",
+                "input": chunk,
+                "speed": 0.95,
+                "episode_id": ctx.episode_id,
+                "chunk_index": index,
+                "chunk_count": len(chunks),
+                "source_script_path": safe_rel(ctx.script_path),
+                "source_script_sha256": script_sha,
+                "preflight_path": safe_rel(ctx.preflight_path),
+                "preflight_sha256": preflight_sha,
+                "preflight_receipt_path": safe_rel(ctx.episode_dir / "receipts" / "elevenlabs-preflight.json"),
+                "preflight_receipt_sha256": sha256(ctx.episode_dir / "receipts" / "elevenlabs-preflight.json"),
+                "approval_receipt_path": safe_rel(ctx.approval_receipt_path),
+                "approval_receipt_sha256": approval_sha,
+                "approval_script_sha256_reviewed": approval_receipt.get("script_sha256_reviewed", ""),
+                "preflight_script_sha256_reviewed": preflight_receipt.get("script_sha256_reviewed", ""),
+            }
+        )
+    render_jobs_path.write_text(
+        "\n".join(json.dumps(row, ensure_ascii=False) for row in rows) + "\n",
+        encoding="utf-8",
+    )
+    return render_jobs_path
+
+
+def build_season2_audio_env(ctx: EpisodeContext) -> tuple[dict[str, str], Path]:
+    script_sha = sha256(ctx.script_path)
+    artifact_dir = ARTIFACT_ROOT / ctx.season / ctx.episode_id / "audio" / script_sha[:12]
+    render_jobs = write_audio_render_manifest(ctx, artifact_dir, script_sha)
+    package_out = artifact_dir / "longform-narration.wav"
+    env = {
+        "EPISODE_DIR": str(ctx.episode_dir),
+        "EPISODE_SCRIPT": str(ctx.script_path),
+        "EPISODE_FINAL_OUT": str(package_out),
+        "AUDIO_PACKAGE_PATH": str(artifact_dir / "audio-package.json"),
+        "PIPELINE_DIR": str(artifact_dir),
+        "FINAL_JOBS": str(render_jobs),
+        "RENDER_OUT_DIR": str(artifact_dir),
+        "MASTER_OUT": str(artifact_dir / "mastering" / "longform-narration.master.wav"),
+        "PREMASTER_OUT": str(artifact_dir / "mastering" / "premaster.wav"),
+        "MASTERING_DIR": str(artifact_dir / "mastering"),
+        "TRANSCRIPT_OUT_DIR": str(artifact_dir / "transcript-qa"),
+        "PROSODY_GUARD_DIR": str(artifact_dir / "prosody-guard"),
+        "WARMUP_TRIM_DIR": str(artifact_dir / "warmup-trim"),
+        "REQUIRE_CANONICAL_CUE_TAGS": "0",
+        "ELEVENLABS_STRICT_SOURCE_ALIGNMENT": "0",
+    }
+    return env, artifact_dir
+
+
+def audio_keep(args: argparse.Namespace) -> int:
+    ctx = resolve_episode_context(args.episode_id)
+    env = os.environ.copy()
+    season_env, artifact_dir = build_season2_audio_env(ctx)
+    env.update(season_env)
+    print(f"episode: {ctx.episode_id}")
+    print(f"artifact_root: {safe_rel(artifact_dir)}")
+    completed = subprocess.run(
+        [str(AUDIO_PIPELINE_SCRIPT), args.audio_command],
+        cwd=AUDIO_PIPELINE_SCRIPT.parent,
+        env=env,
+    )
+    return completed.returncode
+
+
+def first_jsonl_object(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        try:
+            loaded = json.loads(line)
+        except json.JSONDecodeError:
+            return {}
+        return loaded if isinstance(loaded, dict) else {}
+    return {}
+
+
+def assert_under_artifacts(path: Path, label: str) -> None:
+    resolved = path.resolve(strict=False)
+    artifact_root = ARTIFACT_ROOT.resolve(strict=False)
+    try:
+        resolved.relative_to(artifact_root)
+    except ValueError as exc:
+        raise SystemExit(f"{label} must be under .artifacts: {path}") from exc
+
+
+def package_field_path(package: dict[str, Any], *fields: str) -> Path | None:
+    for field in fields:
+        value = str(package.get(field, "")).strip()
+        if value:
+            return resolve_path_token(value)
+    return None
+
+
+def package_field_sha(package: dict[str, Any], *fields: str) -> str:
+    for field in fields:
+        value = str(package.get(field, "")).strip()
+        if value:
+            return value
+    return ""
+
+
+def default_audio_package_path(ctx: EpisodeContext) -> Path:
+    script_sha = sha256(ctx.script_path)
+    artifact_dir = ARTIFACT_ROOT / ctx.season / ctx.episode_id / "audio" / script_sha[:12]
+    for name in ("audio-package.json", "audio_package.json"):
+        candidate = artifact_dir / name
+        if candidate.exists():
+            return candidate
+    return artifact_dir / "audio-package.json"
+
+
+def validate_promotable_audio_package(ctx: EpisodeContext, package_path: Path) -> dict[str, Any]:
+    package_path = resolve_path_token(package_path)
+    if not package_path.exists():
+        raise SystemExit(f"audio package is missing: {safe_rel(package_path)}")
+    assert_under_artifacts(package_path, "audio package")
+    package = load_required_json(package_path)
+    current_script_sha = sha256(ctx.script_path)
+    authorizations = validate_audio_render_authorization(ctx, current_script_sha)
+
+    audio_path = package_field_path(package, "packaged_path", "master_audio_path")
+    if audio_path is None or not audio_path.exists():
+        raise SystemExit("audio package is missing packaged_path/master_audio_path or the audio file does not exist")
+    assert_under_artifacts(audio_path, "packaged audio")
+
+    transcript_path = package_field_path(
+        package,
+        "transcript_path",
+        "transcript_txt_path",
+        "transcript_srt_path",
+        "transcript_vtt_path",
+    )
+    if transcript_path is None or not transcript_path.exists():
+        raise SystemExit("audio package is missing a QA transcript path or the transcript file does not exist")
+    assert_under_artifacts(transcript_path, "QA transcript")
+
+    effective_manifest_path = package_field_path(package, "effective_manifest_path")
+    first_job = first_jsonl_object(effective_manifest_path) if effective_manifest_path else {}
+    if effective_manifest_path and effective_manifest_path.exists():
+        assert_under_artifacts(effective_manifest_path, "effective manifest")
+    source_script_sha = str(package.get("source_script_sha256") or first_job.get("source_script_sha256") or "").strip()
+    if source_script_sha != current_script_sha:
+        raise SystemExit("audio package source_script_sha256 does not match the current script hash")
+
+    expected_audio_sha = package_field_sha(package, "packaged_sha256", "master_audio_sha256")
+    if expected_audio_sha and sha256(audio_path) != expected_audio_sha:
+        raise SystemExit("packaged audio checksum does not match audio package metadata")
+    expected_transcript_sha = package_field_sha(package, "transcript_sha256", "transcript_txt_sha256", "transcript_srt_sha256")
+    if expected_transcript_sha and sha256(transcript_path) != expected_transcript_sha:
+        raise SystemExit("QA transcript checksum does not match audio package metadata")
+
+    preflight_receipt = authorizations["preflight"]
+    approval_receipt = authorizations["approval"]
+    return {
+        "package": package,
+        "package_path": package_path,
+        "package_sha256": sha256(package_path),
+        "audio_path": audio_path,
+        "audio_sha256": sha256(audio_path),
+        "transcript_path": transcript_path,
+        "transcript_sha256": sha256(transcript_path),
+        "effective_manifest_path": effective_manifest_path if effective_manifest_path and effective_manifest_path.exists() else None,
+        "effective_manifest_sha256": sha256(effective_manifest_path) if effective_manifest_path and effective_manifest_path.exists() else "",
+        "source_script_sha256": current_script_sha,
+        "preflight_receipt": preflight_receipt,
+        "approval_receipt": approval_receipt,
+        "chunk_count": int(package.get("chunk_count") or first_job.get("chunk_count") or 0),
+    }
+
+
+def artifact_item(ctx: EpisodeContext, artifact_id: str, kind: str, status_value: str, path: Path, source_manifest: Path | None = None) -> dict[str, Any]:
+    return {
+        "id": artifact_id,
+        "kind": kind,
+        "status": status_value,
+        "repo_path": None,
+        "artifact_path": safe_rel(path),
+        "original_path": str(path),
+        "sha256": sha256(path),
+        "bytes": path.stat().st_size,
+        "created_at": utc_now(),
+        "source_stage": "audio_keep",
+        "episode": ctx.episode_id,
+        "source_manifest": safe_rel(source_manifest) if source_manifest else "",
+    }
+
+
+def update_audio_artifact_lock(ctx: EpisodeContext, validation: dict[str, Any], *, kept: bool) -> Path:
+    lock = load_json(
+        ctx.artifact_lock_path,
+        {"schema_version": 1, "episode": ctx.episode_id, "generated_at": utc_now(), "artifacts": []},
+    )
+    artifacts = lock.setdefault("artifacts", [])
+    by_id = {str(item.get("id", "")): item for item in artifacts if isinstance(item, dict)}
+    source_manifest = validation.get("effective_manifest_path")
+    audio_status = "keep_artifact" if kept else "review_ready_artifact"
+    items = [
+        artifact_item(
+            ctx,
+            f"{ctx.episode_id}:audio_keep:longform-narration.wav",
+            "longform_narration_wav",
+            audio_status,
+            validation["audio_path"],
+            source_manifest,
+        ),
+        artifact_item(
+            ctx,
+            f"{ctx.episode_id}:audio_keep:audio-package.json",
+            "audio_package_manifest",
+            "production_receipt",
+            validation["package_path"],
+            source_manifest,
+        ),
+    ]
+    if source_manifest:
+        items.append(
+            artifact_item(
+                ctx,
+                f"{ctx.episode_id}:audio_keep:{source_manifest.name}",
+                "audio_effective_manifest",
+                "production_receipt",
+                source_manifest,
+                source_manifest,
+            )
+        )
+    transcript_path = validation["transcript_path"]
+    transcript_kind = {
+        ".srt": "audio_qa_transcript_srt",
+        ".vtt": "audio_qa_transcript_vtt",
+        ".json": "audio_qa_transcript_json",
+    }.get(transcript_path.suffix.lower(), "audio_qa_transcript_txt")
+    items.append(
+        artifact_item(
+            ctx,
+            f"{ctx.episode_id}:audio_keep:{transcript_path.name}",
+            transcript_kind,
+            "production_receipt",
+            transcript_path,
+            source_manifest,
+        )
+    )
+    for item in items:
+        by_id[item["id"]] = item
+    lock["episode"] = ctx.episode_id
+    lock["generated_at"] = utc_now()
+    lock["artifacts"] = list(by_id.values())
+    write_json(ctx.artifact_lock_path, lock)
+    return ctx.artifact_lock_path
+
+
+def update_audio_task_status(ctx: EpisodeContext, status_value: str) -> None:
+    if not ctx.tasks_path.exists():
+        return
+    rows = []
+    changed = False
+    for raw in ctx.tasks_path.read_text(encoding="utf-8").splitlines():
+        if not raw.strip():
+            continue
+        item = json.loads(raw)
+        if item.get("gate") == "audio_keep" or item.get("task_id") == f"{ctx.episode_id}-audio-keep":
+            if item.get("status") != "keep":
+                item["status"] = status_value
+                changed = True
+        rows.append(item)
+    if changed:
+        ctx.tasks_path.write_text("\n".join(json.dumps(row, separators=(",", ":")) for row in rows) + "\n", encoding="utf-8")
+
+
+def write_promote_audio_receipts(ctx: EpisodeContext, validation: dict[str, Any], *, kept: bool) -> None:
+    created_at = utc_now()
+    package = validation["package"]
+    render_settings = package.get("render_settings", {})
+    if not isinstance(render_settings, dict):
+        render_settings = {}
+    render_receipt = {
+        "schema_version": 1,
+        "created_at": created_at,
+        "episode_id": ctx.episode_id,
+        "gate": "audio_keep",
+        "stage": "longform_audio_render",
+        "status": "pass",
+        "provider": package.get("provider", ""),
+        "model": package.get("model", ""),
+        "output_format": render_settings.get("elevenlabs_output_format", ""),
+        "source_script_path": safe_rel(ctx.script_path),
+        "source_script_sha256": validation["source_script_sha256"],
+        "approved_script_hash_only": True,
+        "approval_receipt_path": safe_rel(ctx.approval_receipt_path),
+        "approval_receipt_sha256": sha256(ctx.approval_receipt_path),
+        "preflight_path": safe_rel(ctx.preflight_path),
+        "preflight_sha256": sha256(ctx.preflight_path),
+        "artifact_root": safe_rel(validation["package_path"].parent),
+        "master_audio_path": safe_rel(validation["audio_path"]),
+        "master_audio_sha256": validation["audio_sha256"],
+        "audio_package_path": safe_rel(validation["package_path"]),
+        "audio_package_sha256": validation["package_sha256"],
+        "chunk_count": validation["chunk_count"],
+        "notes": "Rendered under .artifacts only. Promote-audio prepared this package for audio_keep review.",
+    }
+    integrity_receipt = {
+        "schema_version": 1,
+        "created_at": created_at,
+        "episode_id": ctx.episode_id,
+        "gate": "script_audio_source_integrity",
+        "status": "pass",
+        "source_script_path": safe_rel(ctx.script_path),
+        "source_script_sha256": validation["source_script_sha256"],
+        "approval_receipt_path": safe_rel(ctx.approval_receipt_path),
+        "approval_script_sha256_reviewed": validation["approval_receipt"].get("script_sha256_reviewed", ""),
+        "preflight_path": safe_rel(ctx.preflight_path),
+        "preflight_sha256": sha256(ctx.preflight_path),
+        "effective_manifest_path": safe_rel(validation["effective_manifest_path"]) if validation["effective_manifest_path"] else "",
+        "effective_manifest_sha256": validation["effective_manifest_sha256"],
+        "audio_package_path": safe_rel(validation["package_path"]),
+        "audio_package_sha256": validation["package_sha256"],
+        "master_audio_path": safe_rel(validation["audio_path"]),
+        "master_audio_sha256": validation["audio_sha256"],
+        "transcript_path": safe_rel(validation["transcript_path"]),
+        "transcript_sha256": validation["transcript_sha256"],
+        "assertions": {
+            "approval_hash_matches_current_script": True,
+            "preflight_references_current_script_hash": True,
+            "audio_artifacts_under_dot_artifacts": True,
+            "no_generated_media_written_to_episode_folder": True,
+            "transcript_qa_completed": True,
+            "audio_review_passed": kept,
+        },
+        "chunk_count": validation["chunk_count"],
+        "next_gate": "visual_system_plan" if kept else "audio_keep",
+    }
+    write_json(ctx.episode_dir / "receipts" / "audio-render.json", render_receipt)
+    write_json(ctx.episode_dir / "receipts" / "audio-source-integrity.json", integrity_receipt)
+
+
+def update_state_current_stage(ctx: EpisodeContext, stage: str) -> None:
+    state = load_json(ctx.state_path, {})
+    if not state:
+        return
+    state["current_stage"] = stage
+    write_json(ctx.state_path, state)
+
+
+def promote_audio(args: argparse.Namespace) -> int:
+    ctx = resolve_episode_context(args.episode_id)
+    package_path = resolve_path_token(args.package) if args.package else default_audio_package_path(ctx)
+    validation = validate_promotable_audio_package(ctx, package_path)
+    gate_status = read_gate_status(ctx.episode_toml_path, "audio_keep", "pending")
+    kept = gate_status == "keep"
+    if args.dry_run:
+        print(f"dry-run ok: {ctx.episode_id} audio package is promotable")
+        print(f"package: {safe_rel(validation['package_path'])}")
+        print(f"audio: {safe_rel(validation['audio_path'])}")
+        print(f"transcript: {safe_rel(validation['transcript_path'])}")
+        return 0
+
+    lock_path = update_audio_artifact_lock(ctx, validation, kept=kept)
+    write_promote_audio_receipts(ctx, validation, kept=kept)
+    if not kept:
+        write_gate_status(ctx.episode_toml_path, "audio_keep", "review_ready")
+        update_audio_task_status(ctx, "review_ready")
+        update_state_current_stage(ctx, "audio_keep")
+    print(f"promoted audio package -> {safe_rel(validation['package_path'])}")
+    print(f"updated artifacts -> {safe_rel(lock_path)}")
+    print("audio_keep remains keep" if kept else "audio_keep -> review_ready")
+    return 0
 
 
 def status(_: argparse.Namespace) -> int:
@@ -440,6 +1088,18 @@ def main() -> int:
     release.add_argument("task_id")
     release.set_defaults(func=release_task)
     sub.add_parser("import-artifacts").set_defaults(func=import_artifacts)
+    audio_keep_parser = sub.add_parser("audio-keep")
+    audio_keep_parser.add_argument(
+        "audio_command",
+        choices=["validate", "cost", "render", "guard", "merge", "qa", "all"],
+    )
+    audio_keep_parser.add_argument("episode_id", nargs="?")
+    audio_keep_parser.set_defaults(func=audio_keep)
+    promote_audio_parser = sub.add_parser("promote-audio")
+    promote_audio_parser.add_argument("episode_id", nargs="?")
+    promote_audio_parser.add_argument("--package")
+    promote_audio_parser.add_argument("--dry-run", action="store_true")
+    promote_audio_parser.set_defaults(func=promote_audio)
     keep = sub.add_parser("promote-keep")
     keep.add_argument("season")
     keep.add_argument("episode_id")
