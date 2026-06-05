@@ -67,7 +67,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/challenger-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a clean space shuttle launch stack.',
-    youtubeUrl: seasonOneEpisodeUrl('safBLFP3he8', 2),
+    youtubeUrl: seasonOneEpisodeUrl('CyZZPBkpO70', 2),
   },
   {
     id: 'therac-25',
@@ -85,7 +85,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/therac-25-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a clean medical linear accelerator and treatment couch.',
-    youtubeUrl: seasonOneEpisodeUrl('OsPgjlPRN6M', 3),
+    youtubeUrl: seasonOneEpisodeUrl('Og0Wojo7YDE', 3),
   },
   {
     id: 'hyatt-regency',
@@ -103,7 +103,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/hyatt-regency-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a clean hotel atrium with suspended walkways.',
-    youtubeUrl: seasonOneEpisodeUrl('sE5YKLicnME', 4),
+    youtubeUrl: seasonOneEpisodeUrl('4MRHHwbcEvI', 4),
   },
   {
     id: 'semmelweis',
@@ -121,7 +121,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/semmelweis-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a simplified nineteenth-century hospital ward with a washing basin.',
-    youtubeUrl: seasonOneEpisodeUrl('VY7RXqWfdfs', 5),
+    youtubeUrl: seasonOneEpisodeUrl('Khl0cuctvzA', 5),
   },
   {
     id: 'tacoma-narrows',
@@ -139,7 +139,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/tacoma-narrows-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a clean suspension bridge on a dry paper model base.',
-    youtubeUrl: seasonOneEpisodeUrl('sknu2lK8Z2o', 6),
+    youtubeUrl: seasonOneEpisodeUrl('C2zPQnUA51s', 6),
   },
   {
     id: 'piltdown-man',
@@ -157,7 +157,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/piltdown-man-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a fossil skull and jaw specimen on a museum plinth.',
-    youtubeUrl: seasonOneEpisodeUrl('s88BAewrp2M', 7),
+    youtubeUrl: seasonOneEpisodeUrl('UDAAyEJFNT4', 7),
   },
   {
     id: '737-max',
@@ -175,7 +175,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/737-max-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a clean modern passenger jet on a paper runway.',
-    youtubeUrl: seasonOneEpisodeUrl('3F9MaG2IcmM', 8),
+    youtubeUrl: seasonOneEpisodeUrl('zFjuejlOvh0', 8),
   },
   {
     id: 'titanic',
@@ -193,7 +193,7 @@ const launchEpisodesWithoutSeason: Omit<LaunchEpisode, 'seasonId'>[] = [
       '/brand/episode-gallery/proof-v6-ink-lit-subjects/titanic-thumbnail-proof-v6-ink-lit-subjects.webp',
     thumbnailAlt:
       'Ink-lit paper architecture thumbnail of a clean early ocean liner on a dry display plinth.',
-    youtubeUrl: seasonOneEpisodeUrl('yqcaIX9Lnws', 9),
+    youtubeUrl: seasonOneEpisodeUrl('7ACgbskPXs4', 9),
   },
 ];
 
