@@ -447,14 +447,7 @@
 }
 
 .storyThumbnail[data-variant="image"]::before {
-  inset: 0;
-  z-index: 1;
-  width: auto;
-  height: auto;
-  background: none;
-  box-shadow: inset 0 0 0 1px rgba(255, 248, 232, 0.22);
-  clip-path: none;
-  opacity: 1;
+  display: none;
 }
 
 .storyThumbnail[data-variant="image"]::after {
