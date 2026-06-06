@@ -101,8 +101,8 @@ export const caseStudyHero = {
     'How a familiar-disaster premise became a channel identity, research method, voiceover lane, and production pipeline.',
   question:
     'What changed, who failed to notice, and how did the system turn that blindness into consequence?',
-  image: '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png',
-  mobileImage: '/brand/homepage-hero-paper-cloudless-clean-surface-mobile-v4.png',
+  image: '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v8.png',
+  mobileImage: '/brand/homepage-hero-paper-cloudless-clean-surface-mobile-v8.png',
   imageAlt:
     'Cascade Effects ink-lit paper architecture scene with folded systems, public anchors, and dry signal paths.',
 } as const;
@@ -207,7 +207,7 @@ export const caseStudyPaperArchitecture: CaseStudyIdentitySection = {
     'Ink-Lit Paper Architecture gives the channel a public face without pretending to be footage. It uses folded paper structures, deep blue fields, cream forms, cyan signal paths, lavender shadows, restrained coral warnings, and locally composed titles.',
   visuals: [
     {
-      src: '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png',
+      src: '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v8.png',
       alt: 'Ink-lit Paper Architecture identity scene with folded paper systems on a deep blue field.',
       label: 'System field',
       note: 'The full identity world: field, paper, signal, shadow, and warning cues in one frame.',

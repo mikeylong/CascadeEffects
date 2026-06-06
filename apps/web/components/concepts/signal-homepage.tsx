@@ -21,13 +21,13 @@ type SignalHomepageProps = {
 const HOMEPAGE_EPISODE_COUNT = 8;
 const homepageEpisodes = launchEpisodes.slice(0, HOMEPAGE_EPISODE_COUNT);
 const heroArtworkSrc =
-  '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png';
+  '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v8.png';
 const mobileHeroArtworkSrc =
-  '/brand/homepage-hero-paper-cloudless-clean-surface-mobile-v4.png';
+  '/brand/homepage-hero-paper-cloudless-clean-surface-mobile-v8.png';
 const tabletLandscapeHeroArtworkSrc =
-  '/brand/homepage-hero-paper-cloudless-clean-surface-tablet-landscape-v4.png';
+  '/brand/homepage-hero-paper-cloudless-clean-surface-tablet-landscape-v8.png';
 const tabletPortraitHeroArtworkSrc =
-  '/brand/homepage-hero-paper-cloudless-clean-surface-tablet-portrait-v4.png';
+  '/brand/homepage-hero-paper-cloudless-clean-surface-tablet-portrait-v8.png';
 
 export function SignalHomepage({ theme, content }: SignalHomepageProps) {
   return (

@@ -6,7 +6,7 @@ Scope: CascadeEffects.tv homepage hero cloudless raster/source-art revision.
 
 Correction: v3 fixed the heavy texture issue but retained two baked paper clouds. v4 removes those clouds at the source-art level and fills the former cloud areas with clean deep ink-blue sky while preserving the approved v3 title, peril cues, composition, crops, and clean-surface guardrail.
 
-Supersession: v4 is the active homepage hero reference. v3 remains the prior clean-surface reference and should only be used for rollback or comparison.
+Supersession: v4 is no longer the active homepage hero because the cascade and terrain could read as overly textured stone/ice. Use `homepage-hero-cloudless-clean-surface-v8.provenance.md` and its v8 source renders for the active web hero. v7 remains the peril/staging rollback reference, v6 remains the darker-title smooth-paper rollback/comparison reference, v5 remains the prior smooth-paper baseline, and v4 remains the prior cloudless reference for rollback or comparison.
 
 ## Asset Brief
 

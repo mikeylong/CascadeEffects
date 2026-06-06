@@ -713,17 +713,17 @@ export const brandQaGuidelines: BrandReferenceRow[] = [
 export const brandReferenceImages: BrandReferenceImage[] = [
   {
     title: 'Active homepage identity reference',
-    src: '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png',
+    src: '/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v8.png',
     width: 1672,
     height: 941,
     alt: 'Cascade Effects ink-lit Paper Architecture homepage reference with folded-paper title and system-failure anchors.',
-    note: 'Active title-bearing website identity reference; use for brand fit, not as a universal crop.',
+    note: 'Active regenerated title-bearing website identity reference; use for brand fit, not as a universal crop.',
   },
   {
     title: 'Mobile identity reference',
-    src: '/brand/homepage-hero-paper-cloudless-clean-surface-mobile-v4.png',
-    width: 916,
-    height: 1717,
+    src: '/brand/homepage-hero-paper-cloudless-clean-surface-mobile-v8.png',
+    width: 1080,
+    height: 1920,
     alt: 'Mobile Cascade Effects ink-lit Paper Architecture reference with folded-paper title and vertical crop.',
     note: 'Phone-scale identity crop showing how the same material system survives narrow layouts.',
   },

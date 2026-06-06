@@ -249,26 +249,31 @@
         "allowGeneratedTextInSourceArtwork": true,
         "allowExtraCopy": false,
         "notes": [
-          "Homepage identity art uses the approved cloudless clean-surface stylized-peril title-bearing reference render; do not add extra copy in the image frame.",
+          "Homepage identity art uses the approved fresh text-prompt regenerated smooth-paper cloudless clean-surface title-bearing v8 reference renders; do not add extra copy in the image frame.",
           "Episode gallery thumbnails remain text-free and use surrounding card pills/titles for context."
         ]
       },
       "source": {
         "assetRootEnv": "CASCADE_ASSET_ROOT",
-        "sourceRender": "web-assets/source-renders/homepage-hero-paper-cloudless-clean-surface-source-v4.png",
-        "composedAsset": "public:/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v4.png",
+        "sourceRender": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v8.png",
+        "composedAsset": "public:/brand/homepage-hero-paper-cloudless-clean-surface-desktop-v8.png",
         "trackedInGit": false,
         "compositionMethod": "approved-title-bearing-source",
         "referenceRenders": [
           {
             "evidenceSetId": "paper-architectures-ink-lit-v1",
-            "evidenceItemId": "homepage-hero-cloudless-clean-surface-desktop-title-reference",
-            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v4.png"
+            "evidenceItemId": "homepage-hero-cloudless-clean-surface-desktop-title-reference-v8",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-desktop-source-v8.png"
           },
           {
             "evidenceSetId": "paper-architectures-ink-lit-v1",
-            "evidenceItemId": "homepage-hero-cloudless-clean-surface-mobile-title-reference",
-            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-mobile-source-v4.png"
+            "evidenceItemId": "homepage-hero-cloudless-clean-surface-mobile-title-reference-v8",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-mobile-source-v8.png"
+          },
+          {
+            "evidenceSetId": "paper-architectures-ink-lit-v1",
+            "evidenceItemId": "homepage-hero-cloudless-clean-surface-tablet-portrait-title-reference-v8",
+            "path": "brand/assets/reference-renders/paper-architectures-v1/homepage-hero-cloudless-clean-surface-tablet-portrait-source-v8.png"
           }
         ]
       },
@@ -311,9 +316,57 @@
           "required": true
         },
         {
+          "id": "water-park-ride-read",
+          "method": "manual",
+          "description": "Confirm the figures and cascade do not read as a water park, amusement ride, playground slide, ski slope, or recreational chute.",
+          "required": true
+        },
+        {
+          "id": "peril-tension-read",
+          "method": "manual",
+          "description": "Confirm the cascade reads as dangerous buckling dry paper architecture with torn lips, collapsed folds, broken ledges, and vertical drops.",
+          "required": true
+        },
+        {
+          "id": "figure-body-language-read",
+          "method": "manual",
+          "description": "Confirm the figures are alarmed, off-balance, clinging, reaching, or partially occluded by folded vellum sheets rather than seated upright or feet-forward like riders.",
+          "required": true
+        },
+        {
           "id": "texture-detail-creep-read",
           "method": "manual",
-          "description": "Confirm the cloudless sky cleanup does not add grain, grit, speckle, noisy surfaces, or texture-heavy rendering.",
+          "description": "Confirm the v8 smooth-paper regeneration does not add grain, grit, speckle, noisy surfaces, or texture-heavy rendering.",
+          "required": true
+        },
+        {
+          "id": "stone-surface-read",
+          "method": "manual",
+          "description": "Confirm the cascade, terrain, and mountain forms read as clean paper/vellum planes rather than stone, rock, ice, plaster, or concrete.",
+          "required": true
+        },
+        {
+          "id": "waterfall-read",
+          "method": "manual",
+          "description": "Confirm blue cascade and foreground forms read as dry vellum/paper sheets and matte model floor, not water, waterfall, river, stream, or liquid spill.",
+          "required": true
+        },
+        {
+          "id": "purple-spill-read",
+          "method": "manual",
+          "description": "Confirm darker purple title material does not spill onto adjacent launch infrastructure, cream paper terrain, bridge, shuttle, or dry cyan vellum sheets.",
+          "required": true
+        },
+        {
+          "id": "launch-infrastructure-color-contamination-read",
+          "method": "manual",
+          "description": "Confirm the launch tower, launch pad, gantry, support trusses, shuttle infrastructure, and bridge remain neutral cream/off-white/warm-gray paper rather than lavender or purple title-color contamination.",
+          "required": true
+        },
+        {
+          "id": "title-contrast-read",
+          "method": "manual",
+          "description": "Confirm the title stands out with darker native purple folded-paper letterforms while preserving smooth Paper Architecture surfaces.",
           "required": true
         }
       ],
