@@ -118,6 +118,15 @@ class SubjectReferencePlateTests(unittest.TestCase):
             self.assertTrue(build_manifest["layout_mask_path"].endswith("__layout.png"))
             self.assertTrue(build_manifest["seed_rgba_path"].endswith("__seed.png"))
             self.assertTrue(build_manifest["soft_mask_path"].endswith("__mask.png"))
+            self.assertEqual(build_manifest["precision_matte"]["model"], "precision_matte_v1")
+            self.assertTrue(Path(build_manifest["precision_matte"]["receipt_path"]).exists())
+            self.assertTrue(Path(build_manifest["raw_subject_matte_path"]).exists())
+            self.assertTrue(Path(build_manifest["subject_matte_path"]).exists())
+            with Image.open(build_manifest["subject_matte_path"]) as subject_matte:
+                self.assertGreater(
+                    sum(1 for count in subject_matte.convert("L").histogram() if count > 0),
+                    2,
+                )
             self.assertFalse(build_manifest["palette_lock"]["active"])
             self.assertFalse(build_manifest["spatial_mask"]["active"])
             status = build_status_for_output(generated_dir / "challenger_warning_cold.png")
@@ -127,6 +136,7 @@ class SubjectReferencePlateTests(unittest.TestCase):
             self.assertTrue(status["layout_mask_path"].endswith("__layout.png"))
             self.assertTrue(status["seed_rgba_path"].endswith("__seed.png"))
             self.assertTrue(status["soft_mask_path"].endswith("__mask.png"))
+            self.assertTrue(status["precision_matte_receipt_path"].endswith(".precision-matte.json"))
 
             summary = build_subject_reference_plates_for_episode(references_root, "challenger")
             self.assertEqual(summary["plate_count"], 1)

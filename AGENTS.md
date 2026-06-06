@@ -28,6 +28,7 @@ Use the `agent-memory` MCP server tools on every conversation turn.
 - Route Shorts production through `ops/agents/skills/youtube_shorts_production_v1/SKILL.md`.
 - Route Shorts final export through `ops/agents/skills/youtube_shorts_final_export_v1/SKILL.md`.
 - Route publish readiness and review upload through `ops/agents/skills/youtube_shorts_publish_v1/SKILL.md` or the long-form publish workflow. Public release stays manual.
+- Route foreground, subject, object, occlusion, cutout, and compositing mask approval through `ops/agents/skills/precision_matte_v1/SKILL.md` and `bin/ce validate-precision-matte`.
 - Use `apps/review/` only through `bin/ce review-server`, `bin/ce review-list`, `bin/ce review-approve`, and `bin/ce review-reject`.
 
 ## Visual Rules
@@ -35,6 +36,7 @@ Use the `agent-memory` MCP server tools on every conversation turn.
 - Paper Architecture is allowed for CascadeEffects.tv website assets, channel-level branded assets, and website thumbnail-gallery images.
 - Do not use Paper Architecture for long-form or Shorts source art, stills, keyframes, motion, proof frames, final frames, cover frames, chapter cards, effect maps, in-video end screens, or video thumbnails.
 - For long-form source art, default to Codex ImageGen only in non-Paper style unless a human-approved exception names the episode, source paths, reason, risk, and affected outputs.
+- Every foreground, subject, object, occlusion, cutout, or compositing mask must use `precision_matte_v1` before approval or viewer-facing output. Raw/imported/generated binary masks are `proposal_only`; final compositing alpha must be the repaired matte with a receipt, SHA provenance, intermediate-alpha QA, and before/after edge proof. Diagnostic/debug masks may exist but must not be referenced as final compositing alpha.
 
 ## Multi-Agent Rules
 

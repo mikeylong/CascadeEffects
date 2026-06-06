@@ -29,6 +29,14 @@ import urllib.error
 import urllib.request
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageOps, ImageStat
+from precision_matte import (
+    DEFAULT_CHOKE_PX,
+    DEFAULT_FEATHER_PX,
+    PRECISION_MATTE_MODEL,
+    apply_precision_matte,
+    write_edge_proof,
+    write_precision_matte_receipt,
+)
 from workbench_model_source import (
     BUILTIN_MODEL_CHALLENGER_ORBITER,
     BUILTIN_MODEL_CHALLENGER_STACK,
@@ -2926,6 +2934,13 @@ def empty_mask_metadata() -> dict[str, Any]:
         "proposal_path": "",
         "approved_path": "",
         "mask_sha256": "",
+        "raw_mask_path": "",
+        "raw_mask_sha256": "",
+        "precision_matte_model": "",
+        "precision_matte_receipt_path": "",
+        "precision_matte_edge_proof_path": "",
+        "precision_matte_choke_px": None,
+        "precision_matte_feather_px": None,
         "subject_bounds": None,
     }
 
@@ -2971,6 +2986,56 @@ def read_mask_file(path: Path, size: tuple[int, int]) -> Image.Image:
         raise WorkbenchError(f"Mask is missing: {path}")
     with Image.open(path) as opened:
         return canonicalize_mask(opened, size)
+
+
+def precision_matte_paths(paths: MaskPaths) -> dict[str, Path]:
+    return {
+        "raw": paths.root / "approved.raw.png",
+        "edge_proof": paths.root / "approved.edge-proof.png",
+        "receipt": paths.root / "approved.precision-matte.json",
+    }
+
+
+def write_approved_mask_with_policy(paths: MaskPaths, approved_mask: Image.Image, *, status: str) -> dict[str, Any]:
+    if status != MASK_STATUS_APPROVED:
+        write_mask_file(paths.approved, approved_mask)
+        return {
+            "approved_path": str(paths.approved),
+            "mask_sha256": sha256_path(paths.approved),
+            "raw_mask_path": "",
+            "raw_mask_sha256": "",
+            "precision_matte_model": "",
+            "precision_matte_receipt_path": "",
+            "precision_matte_edge_proof_path": "",
+            "precision_matte_choke_px": None,
+            "precision_matte_feather_px": None,
+        }
+
+    matte_paths = precision_matte_paths(paths)
+    raw_mask = approved_mask.convert("L")
+    write_mask_file(matte_paths["raw"], raw_mask)
+    repaired_mask = apply_precision_matte(raw_mask, choke_px=DEFAULT_CHOKE_PX, feather_px=DEFAULT_FEATHER_PX)
+    write_mask_file(paths.approved, repaired_mask)
+    write_edge_proof(raw_mask, repaired_mask, matte_paths["edge_proof"])
+    write_precision_matte_receipt(
+        receipt_path=matte_paths["receipt"],
+        raw_mask_path=matte_paths["raw"],
+        repaired_mask_path=paths.approved,
+        before_after_edge_proof_path=matte_paths["edge_proof"],
+        choke_px=DEFAULT_CHOKE_PX,
+        feather_px=DEFAULT_FEATHER_PX,
+    )
+    return {
+        "approved_path": str(paths.approved),
+        "mask_sha256": sha256_path(paths.approved),
+        "raw_mask_path": str(matte_paths["raw"]),
+        "raw_mask_sha256": sha256_path(matte_paths["raw"]),
+        "precision_matte_model": PRECISION_MATTE_MODEL,
+        "precision_matte_receipt_path": str(matte_paths["receipt"]),
+        "precision_matte_edge_proof_path": str(matte_paths["edge_proof"]),
+        "precision_matte_choke_px": DEFAULT_CHOKE_PX,
+        "precision_matte_feather_px": DEFAULT_FEATHER_PX,
+    }
 
 
 def _normalized_image_extension(filename: str) -> str:
@@ -3141,15 +3206,13 @@ def build_mask_metadata(
 ) -> dict[str, Any]:
     paths = project_mask_paths(project_path, source_id)
     write_mask_file(paths.proposal, proposal_mask)
-    write_mask_file(paths.approved, approved_mask)
-    approved_sha = sha256_path(paths.approved)
+    approved_fields = write_approved_mask_with_policy(paths, approved_mask, status=status)
     return {
         "status": status,
         "source": source,
         "proposal_engine": proposal_engine,
         "proposal_path": str(paths.proposal),
-        "approved_path": str(paths.approved),
-        "mask_sha256": approved_sha,
+        **approved_fields,
         "subject_bounds": subject_analysis.get("subject_bounds"),
     }
 
@@ -3813,14 +3876,13 @@ def update_mask_metadata(project_path: Path, project: dict[str, Any], approved_m
     candidate = active_source_candidate(project)
     source_id = str(candidate.get("id", "")).strip()
     paths = project_mask_paths(project_path, source_id)
-    write_mask_file(paths.approved, approved_mask)
+    approved_fields = write_approved_mask_with_policy(paths, approved_mask, status=status)
     candidate.setdefault("mask", {})
     candidate["mask"]["status"] = status
     if source:
         candidate["mask"]["source"] = source
-    candidate["mask"]["approved_path"] = str(paths.approved)
     candidate["mask"]["proposal_path"] = str(paths.proposal)
-    candidate["mask"]["mask_sha256"] = sha256_path(paths.approved)
+    candidate["mask"].update(approved_fields)
     if subject_analysis is not None:
         candidate["subject_analysis"] = subject_analysis
         candidate["mask"]["subject_bounds"] = subject_analysis.get("subject_bounds")
@@ -3960,13 +4022,12 @@ def repropose_mask(project_path: Path) -> dict[str, Any]:
         proposal_mask, proposal_engine = generate_auto_proposal_mask(repo_root_for_project(project), source_path, source_image.size)
         paths = project_mask_paths(project_path, source_id)
         write_mask_file(paths.proposal, proposal_mask)
-        write_mask_file(paths.approved, proposal_mask)
+        approved_fields = write_approved_mask_with_policy(paths, proposal_mask, status=MASK_STATUS_REVIEW_REQUIRED)
         candidate["mask"]["status"] = MASK_STATUS_REVIEW_REQUIRED
         candidate["mask"]["source"] = MASK_SOURCE_AUTO
         candidate["mask"]["proposal_engine"] = proposal_engine
         candidate["mask"]["proposal_path"] = str(paths.proposal)
-        candidate["mask"]["approved_path"] = str(paths.approved)
-        candidate["mask"]["mask_sha256"] = sha256_path(paths.approved)
+        candidate["mask"].update(approved_fields)
         candidate["mask"]["subject_bounds"] = None
         candidate["subject_analysis"] = base_subject_analysis(source_image, mask_mode=proposal_engine)
         project, _changed = refresh_active_source_prior_assist(project_path, project)
@@ -4033,8 +4094,14 @@ def approve_mask(project_path: Path) -> dict[str, Any]:
 
 
 def ensure_mask_approved(project: dict[str, Any]) -> None:
-    if str(project.get("mask", {}).get("status", "")).strip() != MASK_STATUS_APPROVED:
+    mask = project.get("mask", {})
+    if str(mask.get("status", "")).strip() != MASK_STATUS_APPROVED:
         raise WorkbenchError("Approve the hero-subject mask before preview or export.")
+    if str(mask.get("precision_matte_model", "")).strip() != PRECISION_MATTE_MODEL:
+        raise WorkbenchError("Approve the hero-subject mask with precision_matte_v1 before preview or export.")
+    receipt_path = Path(str(mask.get("precision_matte_receipt_path", ""))).expanduser()
+    if not receipt_path.exists():
+        raise WorkbenchError("Approved hero-subject mask is missing its precision matte receipt.")
 
 
 def effect_ready_message(project: dict[str, Any]) -> str | None:
@@ -4049,6 +4116,8 @@ def effect_ready_message(project: dict[str, Any]) -> str | None:
         return None
     if str(project.get("mask", {}).get("status", "")).strip() != MASK_STATUS_APPROVED:
         return "Approve the hero-subject mask before preview or export."
+    if str(project.get("mask", {}).get("precision_matte_model", "")).strip() != PRECISION_MATTE_MODEL:
+        return "Approve the hero-subject mask with precision_matte_v1 before preview or export."
     return None
 
 
@@ -5804,10 +5873,39 @@ def export_project_shot(args: argparse.Namespace) -> dict[str, Any]:
         "approval": copy.deepcopy(export_project.get("approval", approval_defaults())),
     }
     if source_image_path is not None:
+        mask_record = export_project["mask"]
+        raw_mask_path = Path(str(mask_record.get("raw_mask_path", ""))).expanduser()
+        repaired_mask_path = Path(str(mask_record.get("approved_path", ""))).expanduser()
+        edge_proof_path = Path(str(mask_record.get("precision_matte_edge_proof_path", ""))).expanduser()
+        if not raw_mask_path.exists() or not repaired_mask_path.exists() or not edge_proof_path.exists():
+            raise WorkbenchError("Approved hero-subject mask is missing precision matte provenance files.")
+        export_precision_receipt_path = export_request.manifest_path.with_name(
+            f"{export_request.manifest_path.stem}.precision-matte.json"
+        )
+        write_precision_matte_receipt(
+            receipt_path=export_precision_receipt_path,
+            raw_mask_path=raw_mask_path,
+            repaired_mask_path=repaired_mask_path,
+            before_after_edge_proof_path=edge_proof_path,
+            choke_px=float(mask_record.get("precision_matte_choke_px", DEFAULT_CHOKE_PX) or DEFAULT_CHOKE_PX),
+            feather_px=float(mask_record.get("precision_matte_feather_px", DEFAULT_FEATHER_PX) or DEFAULT_FEATHER_PX),
+            final_composite_path=export_request.output_path,
+            final_composite_sha256=sha256_path(export_request.output_path),
+        )
         manifest["source_image_path"] = str(source_image_path)
         manifest["source_image_sha256"] = export_project["source_image"]["sha256"]
-        manifest["mask_source"] = str(export_project["mask"]["source"])
-        manifest["mask_sha256"] = str(export_project["mask"]["mask_sha256"])
+        manifest["mask_source"] = str(mask_record["source"])
+        manifest["mask_sha256"] = str(mask_record["mask_sha256"])
+        manifest["approved_mask_path"] = str(mask_record.get("approved_path", ""))
+        manifest["precision_matte"] = {
+            "model": PRECISION_MATTE_MODEL,
+            "receipt_path": str(export_precision_receipt_path),
+            "approval_receipt_path": str(mask_record.get("precision_matte_receipt_path", "")),
+            "raw_mask_path": str(raw_mask_path),
+            "repaired_mask_path": str(repaired_mask_path),
+            "before_after_edge_proof_path": str(edge_proof_path),
+            "final_composite_required": True,
+        }
     if str(export_project["scene"].get("volume_backend", "")).strip() == VOLUME_BACKEND_MODEL_SOURCE:
         manifest["model_source"] = {
             "provider": str(export_project.get("model_source", {}).get("provider", "")),

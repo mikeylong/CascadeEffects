@@ -408,6 +408,14 @@ class WorkbenchToolTests(unittest.TestCase):
             self.assertTrue(mask_paths.proposal.exists())
             self.assertTrue(mask_paths.approved.exists())
             self.assertTrue(project_mask_paths(Path(args.project)).approved.exists())
+            self.assertEqual(loaded["mask"]["precision_matte_model"], "precision_matte_v1")
+            self.assertTrue(Path(loaded["mask"]["raw_mask_path"]).exists())
+            self.assertTrue(Path(loaded["mask"]["precision_matte_receipt_path"]).exists())
+            with Image.open(mask_paths.approved) as approved_mask:
+                self.assertGreater(
+                    sum(1 for count in approved_mask.convert("L").histogram() if count > 0),
+                    2,
+                )
             self.assertTrue(loaded["subject_analysis"]["alpha_present"])
             self.assertIsNotNone(loaded["subject_analysis"]["subject_bounds"])
             self.assertTrue((loaded["subject_analysis"]["coverage_ratio"] or 0.0) > 0.0)
@@ -2040,6 +2048,10 @@ class WorkbenchToolTests(unittest.TestCase):
             poster_path = Path(manifest["poster_path"])
             self.assertEqual(manifest["mask_source"], "imported")
             self.assertTrue(manifest["mask_sha256"])
+            self.assertEqual(manifest["precision_matte"]["model"], "precision_matte_v1")
+            self.assertTrue(Path(manifest["precision_matte"]["receipt_path"]).exists())
+            self.assertTrue(Path(manifest["precision_matte"]["raw_mask_path"]).exists())
+            self.assertTrue(Path(manifest["precision_matte"]["repaired_mask_path"]).exists())
             self.assertEqual(manifest["source_id"], "source_01")
             self.assertEqual(manifest["effect_model"], DEFAULT_EFFECT_MODEL)
             with Image.open(poster_path) as poster:

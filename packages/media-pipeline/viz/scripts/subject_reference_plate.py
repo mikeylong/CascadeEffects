@@ -6,13 +6,23 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from precision_matte import (
+    DEFAULT_CHOKE_PX,
+    DEFAULT_FEATHER_PX,
+    PRECISION_MATTE_MODEL,
+    apply_precision_matte,
+    sha256_path,
+    write_edge_proof,
+    write_precision_matte_receipt,
+)
+
 
 class SubjectReferencePlateError(RuntimeError):
     pass
 
 
 PLATE_SCHEMA_VERSION = 1
-BUILD_SCHEMA_VERSION = 5
+BUILD_SCHEMA_VERSION = 6
 DEFAULT_CANVAS_SIZE = [1024, 1792]
 DEFAULT_BACKGROUND_MODE = "neutral_matte"
 VALID_BACKGROUND_MODES = {"neutral_matte", "neutral_matte_knockout"}
@@ -357,6 +367,14 @@ def build_status_for_output(output_path: Path) -> dict[str, Any] | None:
     if not soft_mask_path.exists():
         result["reason"] = "generated soft mask is missing"
         return result
+    precision_matte = build_manifest.get("precision_matte")
+    if not isinstance(precision_matte, dict) or precision_matte.get("model") != PRECISION_MATTE_MODEL:
+        result["reason"] = "generated subject-reference plate is missing precision_matte_v1"
+        return result
+    precision_receipt_path = Path(str(precision_matte.get("receipt_path", ""))).expanduser().resolve()
+    if not precision_receipt_path.exists():
+        result["reason"] = "generated subject-reference plate precision matte receipt is missing"
+        return result
 
     manifest_mtime_ns = int(inferred["manifest_path"].stat().st_mtime_ns)
     source_mtime_ns = int(manifest["source_image_path"].stat().st_mtime_ns)
@@ -394,6 +412,7 @@ def build_status_for_output(output_path: Path) -> dict[str, Any] | None:
             "layout_mask_path": str(layout_mask_path),
             "seed_rgba_path": str(seed_rgba_path),
             "soft_mask_path": str(soft_mask_path),
+            "precision_matte_receipt_path": str(precision_receipt_path),
         }
     )
     return result
@@ -505,11 +524,8 @@ def _resolve_subject_rgba(
 
 def _build_subject_mask(subject_rgba: Any, *, Image: Any, ImageFilter: Any) -> Any:
     if _meaningful_alpha(subject_rgba):
-        subject_mask = subject_rgba.getchannel("A")
-    else:
-        subject_mask = Image.new("L", subject_rgba.size, 255)
-    blur_radius = max(1.0, float(min(subject_rgba.size)) * 0.006)
-    return subject_mask.filter(ImageFilter.GaussianBlur(radius=blur_radius))
+        return subject_rgba.getchannel("A")
+    return Image.new("L", subject_rgba.size, 255)
 
 
 def _trim_image_to_mask_bounds(image: Any, mask: Any) -> Any:
@@ -575,7 +591,7 @@ def build_subject_reference_plate(manifest_path: Path, *, output_path: Path | No
         max(1, int(round(subject_image.height * scale))),
     )
     resized_subject = subject_image.resize(resized_size, resampling.LANCZOS)
-    resized_mask = _build_subject_mask(subject_image, Image=Image, ImageFilter=ImageFilter).resize(
+    raw_resized_mask = _build_subject_mask(subject_image, Image=Image, ImageFilter=ImageFilter).resize(
         resized_size,
         resampling.LANCZOS,
     )
@@ -587,12 +603,27 @@ def build_subject_reference_plate(manifest_path: Path, *, output_path: Path | No
         int(round(target_center_y - (resized_subject.height / 2.0))),
     )
 
+    raw_placed_subject_mask = Image.new("L", tuple(manifest["canvas_size"]), 0)
+    raw_placed_subject_mask.paste(raw_resized_mask, paste_origin)
+    placed_subject_mask = apply_precision_matte(
+        raw_placed_subject_mask,
+        choke_px=DEFAULT_CHOKE_PX,
+        feather_px=DEFAULT_FEATHER_PX,
+    )
+    crop_left, crop_top = paste_origin
+    resized_mask = placed_subject_mask.crop(
+        (
+            crop_left,
+            crop_top,
+            crop_left + resized_subject.width,
+            crop_top + resized_subject.height,
+        )
+    )
+
     preview_canvas = Image.new("RGBA", tuple(manifest["canvas_size"]), NEUTRAL_MATTE_RGB + (255,))
     preview_canvas.paste(resized_subject, paste_origin, resized_mask)
     subject_canvas = Image.new("RGBA", tuple(manifest["canvas_size"]), (255, 255, 255, 0))
     subject_canvas.paste(resized_subject, paste_origin, resized_mask)
-    placed_subject_mask = Image.new("L", tuple(manifest["canvas_size"]), 0)
-    placed_subject_mask.paste(resized_mask, paste_origin)
     soft_mask_canvas = placed_subject_mask.copy()
     if manifest["generation_allow_box"] is not None:
         soft_mask_canvas = ImageChops.multiply(
@@ -634,14 +665,31 @@ def build_subject_reference_plate(manifest_path: Path, *, output_path: Path | No
     layout_mask_path = output_path.with_name(f"{output_path.stem}__layout.png")
     seed_rgba_path = output_path.with_name(f"{output_path.stem}__seed.png")
     soft_mask_path = output_path.with_name(f"{output_path.stem}__mask.png")
+    raw_subject_matte_path = output_path.with_name(f"{output_path.stem}__subject-matte.raw.png")
+    subject_matte_path = output_path.with_name(f"{output_path.stem}__subject-matte.png")
+    subject_matte_edge_proof_path = output_path.with_name(f"{output_path.stem}__subject-matte.edge-proof.png")
+    subject_matte_receipt_path = output_path.with_name(f"{output_path.stem}__subject-matte.precision-matte.json")
     seed_rgba = final_image.convert("RGBA")
     seed_rgba.putalpha(soft_mask_canvas)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     final_image.save(output_path)
+    raw_placed_subject_mask.save(raw_subject_matte_path)
+    placed_subject_mask.save(subject_matte_path)
+    write_edge_proof(raw_placed_subject_mask, placed_subject_mask, subject_matte_edge_proof_path)
     vision_ref_rgba.save(vision_ref_path)
     layout_mask_rgba.save(layout_mask_path)
     seed_rgba.save(seed_rgba_path)
     soft_mask_canvas.save(soft_mask_path)
+    write_precision_matte_receipt(
+        receipt_path=subject_matte_receipt_path,
+        raw_mask_path=raw_subject_matte_path,
+        repaired_mask_path=subject_matte_path,
+        before_after_edge_proof_path=subject_matte_edge_proof_path,
+        choke_px=DEFAULT_CHOKE_PX,
+        feather_px=DEFAULT_FEATHER_PX,
+        final_composite_path=output_path,
+        final_composite_sha256=sha256_path(output_path),
+    )
 
     build_manifest = {
         "schema_version": BUILD_SCHEMA_VERSION,
@@ -655,6 +703,16 @@ def build_subject_reference_plate(manifest_path: Path, *, output_path: Path | No
         "layout_mask_path": str(layout_mask_path),
         "seed_rgba_path": str(seed_rgba_path),
         "soft_mask_path": str(soft_mask_path),
+        "raw_subject_matte_path": str(raw_subject_matte_path),
+        "subject_matte_path": str(subject_matte_path),
+        "precision_matte": {
+            "model": PRECISION_MATTE_MODEL,
+            "receipt_path": str(subject_matte_receipt_path),
+            "raw_mask_path": str(raw_subject_matte_path),
+            "repaired_mask_path": str(subject_matte_path),
+            "before_after_edge_proof_path": str(subject_matte_edge_proof_path),
+            "final_composite_required": True,
+        },
         "build_manifest_path": str(build_manifest_path),
         "source_image_path": str(manifest["source_image_path"]),
         "source_cutout_path": str(manifest["source_cutout_path"]) if manifest["source_cutout_path"] else "",

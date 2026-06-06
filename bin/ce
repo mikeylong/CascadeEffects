@@ -876,6 +876,8 @@ def doctor(_: argparse.Namespace) -> int:
         ROOT / "apps/review",
         ROOT / "packages/production-tools",
         ROOT / "packages/media-pipeline",
+        ROOT / "packages/production-tools/scripts/validate_precision_matte_contract.py",
+        ROOT / "packages/media-pipeline/viz/scripts/precision_matte.py",
         ROOT / "episodes/season-02/_template/episode.toml",
         ROOT / "episodes/season-02/_template/tasks.jsonl",
         ROOT / "episodes/season-02/_template/artifacts.lock.json",
@@ -903,6 +905,28 @@ def doctor(_: argparse.Namespace) -> int:
 
 def validate(args: argparse.Namespace) -> int:
     return doctor(args)
+
+
+def validate_precision_matte(args: argparse.Namespace) -> int:
+    validator = ROOT / "packages" / "production-tools" / "scripts" / "validate_precision_matte_contract.py"
+    if not validator.exists():
+        print(f"missing validator: {rel(validator)}", file=sys.stderr)
+        return 1
+    cmd = [sys.executable, str(validator)]
+    for receipt in args.receipt or []:
+        cmd.extend(["--receipt", str(resolve_path_token(receipt))])
+    for manifest in args.manifest or []:
+        cmd.extend(["--manifest", str(resolve_path_token(manifest))])
+    if args.require_final_composite:
+        cmd.append("--require-final-composite")
+    if args.json:
+        cmd.append("--json")
+    completed = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, check=False)
+    if completed.stdout:
+        print(completed.stdout, end="")
+    if completed.stderr:
+        print(completed.stderr, file=sys.stderr, end="")
+    return completed.returncode
 
 
 def new_episode(args: argparse.Namespace) -> int:
@@ -1071,6 +1095,12 @@ def main() -> int:
     sub.add_parser("status").set_defaults(func=status)
     sub.add_parser("doctor").set_defaults(func=doctor)
     sub.add_parser("validate").set_defaults(func=validate)
+    precision_matte_validate = sub.add_parser("validate-precision-matte")
+    precision_matte_validate.add_argument("--receipt", action="append", default=[])
+    precision_matte_validate.add_argument("--manifest", action="append", default=[])
+    precision_matte_validate.add_argument("--require-final-composite", action="store_true")
+    precision_matte_validate.add_argument("--json", action="store_true")
+    precision_matte_validate.set_defaults(func=validate_precision_matte)
     new = sub.add_parser("new-episode")
     new.add_argument("season")
     new.add_argument("episode_id")
