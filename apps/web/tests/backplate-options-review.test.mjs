@@ -48,7 +48,7 @@ function createPacket(overrides = {}) {
     const contact = writePng(packet, `assets/${episodeId}/contact.png`, `${episodeId}-contact`);
     const options = [];
 
-    if (episodeIndex === 0) {
+    if (!overrides.personBatch && episodeIndex === 0) {
       for (const id of ['existing-1', 'existing-2']) {
         const image = writePng(packet, `assets/${episodeId}/${id}.png`, `${episodeId}-${id}`);
         options.push({
@@ -61,16 +61,20 @@ function createPacket(overrides = {}) {
       }
     }
 
-    for (const id of ['option-a', 'option-b', 'option-c']) {
+    const optionIds = overrides.personBatch ? ['person-a', 'person-b', 'person-c'] : ['option-a', 'option-b', 'option-c'];
+    for (const id of optionIds) {
       const image = writePng(packet, `assets/${episodeId}/${id}.png`, `${episodeId}-${id}`);
       options.push({
         id,
-        kind: 'new',
-        path: image.relPath,
+        kind: overrides.personBatch ? 'new_person_present_candidate' : 'new',
+        path: overrides.personBatch ? undefined : image.relPath,
+        imagePath: overrides.personBatch ? image.relPath : undefined,
         sha256: image.sha256,
         status: 'review_candidate_not_keep',
         prompt_path: `prompts/${episodeId}-${id}.md`,
         prompt_sha256: sha256(Buffer.from(`${episodeId}-${id}-prompt`)),
+        personPresenceRequired: Boolean(overrides.personBatch),
+        personPresenceAssertion: overrides.personBatch ? 'prompt_required_and_visual_spot_check_pass' : undefined,
       });
     }
 
@@ -80,7 +84,8 @@ function createPacket(overrides = {}) {
       status: 'review_ready_blocked_options_only',
       may_advance: Boolean(overrides.episodeMayAdvance && episodeIndex === 0),
       generated_option_count: 3,
-      existing_option_count: episodeIndex === 0 ? 2 : 0,
+      existing_option_count: !overrides.personBatch && episodeIndex === 0 ? 2 : 0,
+      personPresenceRequired: Boolean(overrides.personBatch),
       manifest_path: `manifests/${episodeId}.json`,
       manifest_sha256: sha256(Buffer.from(`${episodeId}-manifest`)),
       contact_sheet_path: contact.relPath,
@@ -96,6 +101,15 @@ function createPacket(overrides = {}) {
     status: 'review_ready_blocked_options_only',
     human_disposition: 'defer',
     may_advance: Boolean(overrides.mayAdvance),
+    batchId: overrides.personBatch ? 'backplate-options-person-batch-test' : undefined,
+    personPresenceRequired: Boolean(overrides.personBatch),
+    summary: overrides.personBatch
+      ? {
+        episodeCount: 8,
+        newOptionCount: 24,
+        existingOptionCount: 0,
+      }
+      : undefined,
     episodes,
   };
 
@@ -124,6 +138,26 @@ test('backplate review publish dry-run normalizes the review packet', () => {
       'https://cascadeeffects.tv/reviews/season-02/backplate-options/season-02-backplate-options-review',
     );
     assert.match(result.manifestBlobUrl, /^dry-run:reviews\/backplate-options\/season-02-backplate-options-review\/manifest\.json$/);
+  } finally {
+    rmSync(packet, { recursive: true, force: true });
+  }
+});
+
+test('backplate review publish dry-run accepts person-present 24-option batches', () => {
+  const { packet, manifestPath } = createPacket({ personBatch: true, reviewId: 'season-02-backplate-options-person-batch-test' });
+  try {
+    const result = runBackplateCli(['publish', '--manifest', manifestPath, '--dry-run']);
+    assert.equal(result.ok, true);
+    assert.equal(result.dryRun, true);
+    assert.equal(result.uploadAssetCount, 32);
+    assert.equal(
+      result.remoteReviewUrl,
+      'https://cascadeeffects.tv/reviews/season-02/backplate-options/season-02-backplate-options-person-batch-test',
+    );
+    assert.match(
+      result.manifestBlobUrl,
+      /^dry-run:reviews\/backplate-options\/season-02-backplate-options-person-batch-test\/manifest\.json$/,
+    );
   } finally {
     rmSync(packet, { recursive: true, force: true });
   }

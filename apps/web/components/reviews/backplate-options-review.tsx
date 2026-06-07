@@ -26,6 +26,8 @@ function OptionCard({ episode, option }: { episode: BackplateReviewEpisode; opti
           <span className={styles.pill}>{option.kind}</span>
         </div>
         <p className={styles.meta}>{option.status}</p>
+        {option.personPresenceRequired ? <p className={styles.meta}>person_present: true</p> : null}
+        {option.personPresenceAssertion ? <p className={styles.hash}>{option.personPresenceAssertion}</p> : null}
         <p className={styles.hash}>sha256 {option.sha256}</p>
         {option.promptSha256 ? <p className={styles.hash}>prompt {option.promptSha256}</p> : null}
       </div>
@@ -44,6 +46,7 @@ function EpisodeSection({ episode }: { episode: BackplateReviewEpisode }) {
         <div className={styles.statusBlock}>
           <span>{episode.status}</span>
           <span>may_advance: {boolLabel(episode.mayAdvance)}</span>
+          {episode.personPresenceRequired ? <span>person_required: true</span> : null}
           <span>
             {episode.generatedOptionCount} new / {episode.existingOptionCount} existing
           </span>
@@ -74,6 +77,7 @@ export function BackplateOptionsReview({ manifest }: BackplateOptionsReviewProps
         <p className={styles.lede}>
           Candidate-only living-cover backplates for human review. No source-art, living-cover, publish, or upload gate is advanced by this page.
         </p>
+        {manifest.batchId ? <p className={styles.meta}>batch: {manifest.batchId}</p> : null}
       </header>
 
       <section className={styles.summary} aria-label="Review summary">
@@ -87,7 +91,7 @@ export function BackplateOptionsReview({ manifest }: BackplateOptionsReviewProps
         </div>
         <div>
           <strong>{manifest.summary.existingOptionCount}</strong>
-          <span>existing ep09 options retained</span>
+          <span>existing options retained</span>
         </div>
         <div>
           <strong>{manifest.summary.optionCount}</strong>
@@ -97,6 +101,12 @@ export function BackplateOptionsReview({ manifest }: BackplateOptionsReviewProps
           <strong>{boolLabel(manifest.mayAdvance)}</strong>
           <span>may_advance</span>
         </div>
+        {manifest.personPresenceRequired ? (
+          <div>
+            <strong>true</strong>
+            <span>person_present required</span>
+          </div>
+        ) : null}
       </section>
 
       <nav className={styles.nav} aria-label="Episode shortcuts">

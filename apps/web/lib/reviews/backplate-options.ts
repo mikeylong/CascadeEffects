@@ -9,6 +9,8 @@ export type BackplateReviewOption = {
   sha256: string;
   promptPath: string;
   promptSha256: string;
+  personPresenceRequired: boolean;
+  personPresenceAssertion: string;
 };
 
 export type BackplateReviewEpisode = {
@@ -20,6 +22,8 @@ export type BackplateReviewEpisode = {
   existingOptionCount: number;
   manifestPath: string;
   manifestSha256: string;
+  receiptPath: string;
+  personPresenceRequired: boolean;
   contactSheet: {
     path: string;
     url: string;
@@ -35,6 +39,8 @@ export type BackplateReviewManifest = {
   status: string;
   humanDisposition: string;
   mayAdvance: boolean;
+  batchId: string;
+  personPresenceRequired: boolean;
   remoteReviewUrl: string;
   sourceManifestPath: string;
   sourceManifestSha256: string;
@@ -70,6 +76,8 @@ const readOption = (value: unknown): BackplateReviewOption => {
   const option = readRecord(value);
   const path =
     readString(option.path) ||
+    readString(option.imagePath) ||
+    readString(option.image_path) ||
     readString(option.artifact_path) ||
     readString(option.artifactFinalPath) ||
     readString(option.artifact_final_path);
@@ -83,6 +91,8 @@ const readOption = (value: unknown): BackplateReviewOption => {
     sha256: readString(option.sha256) || readString(option.artifactFinalSha256) || readString(option.artifact_final_sha256),
     promptPath: readString(option.promptPath) || readString(option.prompt_path),
     promptSha256: readString(option.promptSha256) || readString(option.prompt_sha256),
+    personPresenceRequired: readBoolean(option.personPresenceRequired, readBoolean(option.person_presence_required)),
+    personPresenceAssertion: readString(option.personPresenceAssertion) || readString(option.person_presence_assertion),
   };
 };
 
@@ -99,6 +109,8 @@ const readEpisode = (value: unknown): BackplateReviewEpisode => {
     existingOptionCount: readNumber(episode.existingOptionCount, readNumber(episode.existing_option_count)),
     manifestPath: readString(episode.manifestPath) || readString(episode.manifest_path),
     manifestSha256: readString(episode.manifestSha256) || readString(episode.manifest_sha256),
+    receiptPath: readString(episode.receiptPath) || readString(episode.receipt_path),
+    personPresenceRequired: readBoolean(episode.personPresenceRequired, readBoolean(episode.person_presence_required)),
     contactSheet: {
       path: readString(contactSheet.path) || readString(episode.contact_sheet_path),
       url: readString(contactSheet.url) || readString(contactSheet.imageUrl) || readString(contactSheet.image_url),
@@ -121,6 +133,8 @@ export const normalizeBackplateReviewManifest = (value: unknown): BackplateRevie
     status: readString(manifest.status),
     humanDisposition: readString(manifest.humanDisposition) || readString(manifest.human_disposition),
     mayAdvance: readBoolean(manifest.mayAdvance, readBoolean(manifest.may_advance)),
+    batchId: readString(manifest.batchId) || readString(manifest.batch_id),
+    personPresenceRequired: readBoolean(manifest.personPresenceRequired, readBoolean(manifest.person_presence_required)),
     remoteReviewUrl: readString(manifest.remoteReviewUrl) || readString(manifest.remote_review_url),
     sourceManifestPath: readString(manifest.sourceManifestPath) || readString(manifest.source_manifest_path),
     sourceManifestSha256: readString(manifest.sourceManifestSha256) || readString(manifest.source_manifest_sha256),

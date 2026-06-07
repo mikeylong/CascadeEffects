@@ -12,9 +12,9 @@ const REPO_ROOT = path.resolve(APP_ROOT, '..', '..');
 const DEFAULT_SITE_URL = 'https://cascadeeffects.tv';
 const DEFAULT_MAX_REMOTE_ASSET_BYTES = 25 * 1024 * 1024;
 const EXPECTED_EPISODES = 8;
-const EXPECTED_GENERATED_OPTIONS = 24;
-const EXPECTED_EXISTING_OPTIONS = 2;
-const EXPECTED_OPTIONS = 26;
+const DEFAULT_EXPECTED_GENERATED_OPTIONS = 24;
+const DEFAULT_EXPECTED_EXISTING_OPTIONS = 2;
+const DEFAULT_EXPECTED_OPTIONS = 26;
 const PNG_SIGNATURE = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
 const REVIEW_ID_PATTERN = /^[a-zA-Z0-9][a-zA-Z0-9_-]{2,127}$/;
 
@@ -57,6 +57,17 @@ function booleanValue(value, fallback = false) {
 
 function numberValue(value) {
   return typeof value === 'number' && Number.isFinite(value) ? value : undefined;
+}
+
+function optionKindCounts(options) {
+  return options.reduce(
+    (counts, option) => {
+      if (option.kind === 'existing') counts.existing += 1;
+      else counts.generated += 1;
+      return counts;
+    },
+    { generated: 0, existing: 0 },
+  );
 }
 
 function readJson(filePath) {
@@ -161,6 +172,8 @@ function normalizeOption(optionValue, episodeId, manifestDir) {
   const optionId = stringValue(option.id);
   const sourcePath =
     stringValue(option.path) ||
+    stringValue(option.imagePath) ||
+    stringValue(option.image_path) ||
     stringValue(option.artifact_path) ||
     stringValue(option.artifactFinalPath) ||
     stringValue(option.artifact_final_path);
@@ -178,6 +191,8 @@ function normalizeOption(optionValue, episodeId, manifestDir) {
     sha256,
     promptPath: stringValue(option.promptPath) || stringValue(option.prompt_path),
     promptSha256: stringValue(option.promptSha256) || stringValue(option.prompt_sha256),
+    personPresenceRequired: booleanValue(option.personPresenceRequired, booleanValue(option.person_presence_required)),
+    personPresenceAssertion: stringValue(option.personPresenceAssertion) || stringValue(option.person_presence_assertion),
     asset: localAsset({
       label: `${episodeId} ${optionId}`,
       kind: 'option',
@@ -196,16 +211,20 @@ function normalizeEpisode(episodeValue, manifestDir) {
   const episodeId = stringValue(episode.episodeId) || stringValue(episode.episode_id);
   const contactSheetPath = stringValue(contactSheet.path) || stringValue(episode.contact_sheet_path);
   const contactSheetSha256 = stringValue(contactSheet.sha256) || stringValue(episode.contact_sheet_sha256);
+  const options = Array.isArray(episode.options) ? episode.options.map((option) => normalizeOption(option, episodeId, manifestDir)) : [];
+  const counts = optionKindCounts(options);
 
   return {
     episodeId,
     title: stringValue(episode.title),
     status: stringValue(episode.status),
     mayAdvance: booleanValue(episode.mayAdvance, booleanValue(episode.may_advance)),
-    generatedOptionCount: numberValue(episode.generatedOptionCount) ?? numberValue(episode.generated_option_count) ?? 0,
-    existingOptionCount: numberValue(episode.existingOptionCount) ?? numberValue(episode.existing_option_count) ?? 0,
+    generatedOptionCount: numberValue(episode.generatedOptionCount) ?? numberValue(episode.generated_option_count) ?? counts.generated,
+    existingOptionCount: numberValue(episode.existingOptionCount) ?? numberValue(episode.existing_option_count) ?? counts.existing,
     manifestPath: stringValue(episode.manifestPath) || stringValue(episode.manifest_path),
     manifestSha256: stringValue(episode.manifestSha256) || stringValue(episode.manifest_sha256),
+    receiptPath: stringValue(episode.receiptPath) || stringValue(episode.receipt_path),
+    personPresenceRequired: booleanValue(episode.personPresenceRequired, booleanValue(episode.person_presence_required)),
     contactSheet: {
       path: contactSheetPath,
       url: stringValue(contactSheet.url) || stringValue(contactSheet.imageUrl) || stringValue(contactSheet.image_url),
@@ -219,7 +238,27 @@ function normalizeEpisode(episodeValue, manifestDir) {
         episodeId,
       }),
     },
-    options: Array.isArray(episode.options) ? episode.options.map((option) => normalizeOption(option, episodeId, manifestDir)) : [],
+    options,
+  };
+}
+
+function expectedCounts(source) {
+  const summary = readRecord(source.summary);
+  const summaryGeneratedOptions =
+    numberValue(summary.generatedOptionCount) ??
+    numberValue(summary.generated_option_count) ??
+    numberValue(summary.newOptionCount) ??
+    numberValue(summary.new_option_count);
+  const summaryExistingOptions = numberValue(summary.existingOptionCount) ?? numberValue(summary.existing_option_count);
+  const summaryOptions = numberValue(summary.optionCount) ?? numberValue(summary.option_count);
+
+  return {
+    episodes: numberValue(summary.episodeCount) ?? numberValue(summary.episode_count) ?? EXPECTED_EPISODES,
+    generatedOptions: summaryGeneratedOptions ?? DEFAULT_EXPECTED_GENERATED_OPTIONS,
+    existingOptions: summaryExistingOptions ?? DEFAULT_EXPECTED_EXISTING_OPTIONS,
+    options: summaryOptions ?? (summaryGeneratedOptions !== undefined && summaryExistingOptions !== undefined
+      ? summaryGeneratedOptions + summaryExistingOptions
+      : DEFAULT_EXPECTED_OPTIONS),
   };
 }
 
@@ -241,6 +280,8 @@ function normalizePacket(manifestInput, options = {}) {
     status: stringValue(source.status),
     humanDisposition: stringValue(source.humanDisposition) || stringValue(source.human_disposition),
     mayAdvance: booleanValue(source.mayAdvance, booleanValue(source.may_advance)),
+    batchId: stringValue(source.batchId) || stringValue(source.batch_id),
+    personPresenceRequired: booleanValue(source.personPresenceRequired, booleanValue(source.person_presence_required)),
     remoteReviewUrl: `${siteUrl}/reviews/season-02/backplate-options/${reviewId}`,
     sourceManifestPath: repoRelative(manifestPath),
     sourceManifestSha256,
@@ -286,18 +327,19 @@ function validateAsset(asset, maxAssetBytes) {
 
 function validateNormalized(manifest, source, maxAssetBytes) {
   const issues = [];
+  const expected = expectedCounts(source);
   if (!REVIEW_ID_PATTERN.test(manifest.reviewId)) issues.push('invalid reviewId');
-  if (manifest.summary.episodeCount !== EXPECTED_EPISODES) {
-    issues.push(`expected ${EXPECTED_EPISODES} episodes, got ${manifest.summary.episodeCount}`);
+  if (manifest.summary.episodeCount !== expected.episodes) {
+    issues.push(`expected ${expected.episodes} episodes, got ${manifest.summary.episodeCount}`);
   }
-  if (manifest.summary.generatedOptionCount !== EXPECTED_GENERATED_OPTIONS) {
-    issues.push(`expected ${EXPECTED_GENERATED_OPTIONS} generated options, got ${manifest.summary.generatedOptionCount}`);
+  if (manifest.summary.generatedOptionCount !== expected.generatedOptions) {
+    issues.push(`expected ${expected.generatedOptions} generated options, got ${manifest.summary.generatedOptionCount}`);
   }
-  if (manifest.summary.existingOptionCount !== EXPECTED_EXISTING_OPTIONS) {
-    issues.push(`expected ${EXPECTED_EXISTING_OPTIONS} existing options, got ${manifest.summary.existingOptionCount}`);
+  if (manifest.summary.existingOptionCount !== expected.existingOptions) {
+    issues.push(`expected ${expected.existingOptions} existing options, got ${manifest.summary.existingOptionCount}`);
   }
-  if (manifest.summary.optionCount !== EXPECTED_OPTIONS) {
-    issues.push(`expected ${EXPECTED_OPTIONS} option images, got ${manifest.summary.optionCount}`);
+  if (manifest.summary.optionCount !== expected.options) {
+    issues.push(`expected ${expected.options} option images, got ${manifest.summary.optionCount}`);
   }
 
   const mayAdvancePaths = findMayAdvanceTrue(source);
@@ -338,6 +380,8 @@ function rewriteRemoteManifest(manifest, uploadedByPath, dryRun) {
       existingOptionCount: episode.existingOptionCount,
       manifestPath: episode.manifestPath,
       manifestSha256: episode.manifestSha256,
+      receiptPath: episode.receiptPath,
+      personPresenceRequired: episode.personPresenceRequired,
       contactSheet: {
         path: episode.contactSheet.path,
         url: dryRun ? `dry-run:${remoteAssetPath(manifest.reviewId, episode.contactSheet.asset)}` : uploadedByPath.get(episode.contactSheet.asset.path),
@@ -352,6 +396,8 @@ function rewriteRemoteManifest(manifest, uploadedByPath, dryRun) {
         sha256: option.sha256,
         promptPath: option.promptPath,
         promptSha256: option.promptSha256,
+        personPresenceRequired: option.personPresenceRequired,
+        personPresenceAssertion: option.personPresenceAssertion,
       })),
     })),
   };
